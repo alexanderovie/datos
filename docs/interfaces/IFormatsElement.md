@@ -6,7 +6,7 @@
 
 # Interface: IFormatsElement
 
-Defined in: main.ts:57716
+Defined in: main.ts:60119
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:57716
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:57721
+Defined in: main.ts:60124
 
 type of file format of the dataset
 for example: zip, html, csv
@@ -29,7 +29,7 @@ for example: zip, html, csv
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:57723
+Defined in: main.ts:60126
 
 file size in bytes
 
@@ -39,6 +39,6 @@ file size in bytes
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:57718
+Defined in: main.ts:60121
 
 type of element

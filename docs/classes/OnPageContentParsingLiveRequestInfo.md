@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingLiveRequestInfo
 
-Defined in: main.ts:173346
+Defined in: main.ts:183101
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173346
 
 > **new OnPageContentParsingLiveRequestInfo**(`data`?): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
-Defined in: main.ts:173455
+Defined in: main.ts:183210
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173455
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:173418
+Defined in: main.ts:183173
 
 language header for accessing the website
 optional field
@@ -57,7 +57,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:173378
+Defined in: main.ts:183133
 
 preset for browser screen parameters
 optional field
@@ -88,7 +88,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:173394
+Defined in: main.ts:183149
 
 browser screen height
 optional field
@@ -108,7 +108,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:173402
+Defined in: main.ts:183157
 
 browser screen scale factor
 optional field
@@ -128,7 +128,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:173386
+Defined in: main.ts:183141
 
 browser screen width
 optional field
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:173359
+Defined in: main.ts:183114
 
 custom user agent
 optional field
@@ -167,7 +167,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:173413
+Defined in: main.ts:183168
 
 disable the cookie popup 
 optional field
@@ -185,7 +185,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:173433
+Defined in: main.ts:183188
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -206,7 +206,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:173424
+Defined in: main.ts:183179
 
 load javascript on a page
 optional field
@@ -224,7 +224,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:173440
+Defined in: main.ts:183195
 
 enable XMLHttpRequest on a page
 optional field
@@ -243,7 +243,7 @@ if you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:173451
+Defined in: main.ts:183206
 
 proxy pool
 optional field
@@ -261,7 +261,7 @@ possible values: us, de
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:173407
+Defined in: main.ts:183162
 
 store HTML of a crawled page
 optional field
@@ -278,7 +278,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:173445
+Defined in: main.ts:183200
 
 switch proxy pool
 optional field
@@ -295,7 +295,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:173352
+Defined in: main.ts:183107
 
 URL of the content to parse
 required field
@@ -313,7 +313,7 @@ https://www.fujielectric.com/
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173464
+Defined in: main.ts:183219
 
 #### Parameters
 
@@ -331,7 +331,7 @@ Defined in: main.ts:173464
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173494
+Defined in: main.ts:183249
 
 #### Parameters
 
@@ -349,7 +349,7 @@ Defined in: main.ts:173494
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
-Defined in: main.ts:173487
+Defined in: main.ts:183242
 
 #### Parameters
 

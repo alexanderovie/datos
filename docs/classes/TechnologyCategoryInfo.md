@@ -6,7 +6,7 @@
 
 # Class: TechnologyCategoryInfo
 
-Defined in: main.ts:85610
+Defined in: main.ts:94907
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:85610
 
 > **new TechnologyCategoryInfo**(`data`?): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-Defined in: main.ts:85628
+Defined in: main.ts:94925
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85628
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:85614
+Defined in: main.ts:94911
 
 id of the technology category
 example:
@@ -56,7 +56,7 @@ crm, cart_abandonment
 
 > `optional` **path**: `string`
 
-Defined in: main.ts:85618
+Defined in: main.ts:94915
 
 path to the technology category
 example:
@@ -72,7 +72,7 @@ user_generated_content.content_curation
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:85624
+Defined in: main.ts:94921
 
 list of technologies in this category
 example:
@@ -88,7 +88,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:85620
+Defined in: main.ts:94917
 
 title of the technology category
 
@@ -102,7 +102,7 @@ title of the technology category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85637
+Defined in: main.ts:94934
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:85637
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85661
+Defined in: main.ts:94958
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:85661
 
 > `static` **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-Defined in: main.ts:85654
+Defined in: main.ts:94951
 
 #### Parameters
 

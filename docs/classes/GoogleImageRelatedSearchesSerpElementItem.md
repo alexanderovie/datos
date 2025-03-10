@@ -6,7 +6,7 @@
 
 # Class: GoogleImageRelatedSearchesSerpElementItem
 
-Defined in: main.ts:50986
+Defined in: main.ts:53389
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:50986
 
 > **new GoogleImageRelatedSearchesSerpElementItem**(`data`?): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:51000
+Defined in: main.ts:53403
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:51000
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:50758
+Defined in: main.ts:53161
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:50758
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:50992
+Defined in: main.ts:53395
 
 items of the element
 
@@ -74,7 +74,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:50990
+Defined in: main.ts:53393
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:50754
+Defined in: main.ts:53157
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:50751
+Defined in: main.ts:53154
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:50996
+Defined in: main.ts:53399
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50747
+Defined in: main.ts:53150
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:50756
+Defined in: main.ts:53159
 
 the XPath of the element
 
@@ -181,7 +181,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51005
+Defined in: main.ts:53408
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:51005
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51029
+Defined in: main.ts:53432
 
 #### Parameters
 
@@ -225,7 +225,7 @@ Defined in: main.ts:51029
 
 > `static` **fromJS**(`data`): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:51022
+Defined in: main.ts:53425
 
 #### Parameters
 

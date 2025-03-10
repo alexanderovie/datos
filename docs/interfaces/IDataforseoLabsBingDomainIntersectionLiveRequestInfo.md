@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:116881
+Defined in: main.ts:126226
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:116881
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:116973
+Defined in: main.ts:126318
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:116946
+Defined in: main.ts:126291
 
 include data from SERP for each keyword
 optional field
@@ -56,7 +56,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:116933
+Defined in: main.ts:126278
 
 domain intersections in SERP
 optional field
@@ -72,7 +72,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:116941
+Defined in: main.ts:126286
 
 search results type
 indicates type of search results included in the response
@@ -88,7 +88,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:116925
+Defined in: main.ts:126270
 
 language code
 required field if you don’t specify language_name
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:116917
+Defined in: main.ts:126262
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,7 +120,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:116951
+Defined in: main.ts:126296
 
 the maximum number of returned keywords
 optional field
@@ -133,7 +133,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:116909
+Defined in: main.ts:126254
 
 location code
 required field if you don’t specify location_name
@@ -150,7 +150,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:116900
+Defined in: main.ts:126245
 
 full name of the location
 required field if you don’t specify location_code
@@ -167,7 +167,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:116956
+Defined in: main.ts:126301
 
 offset in the items array of returned keywords
 optional field
@@ -180,7 +180,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:116989
+Defined in: main.ts:126334
 
 results sorting rules
 optional field
@@ -204,7 +204,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:116995
+Defined in: main.ts:126340
 
 user-defined task identifier
 optional field
@@ -218,7 +218,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:116886
+Defined in: main.ts:126231
 
 domain
 required field
@@ -231,7 +231,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:116891
+Defined in: main.ts:126236
 
 domain
 required field

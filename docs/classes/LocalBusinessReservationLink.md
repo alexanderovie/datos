@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessReservationLink
 
-Defined in: main.ts:24973
+Defined in: main.ts:25778
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:24973
 
 > **new LocalBusinessReservationLink**(`data`?): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
-Defined in: main.ts:24982
+Defined in: main.ts:25787
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:24982
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24920
+Defined in: main.ts:25725
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24920
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24976
+Defined in: main.ts:25781
 
 title of the element
 domain of the reservation software
@@ -75,7 +75,7 @@ domain of the reservation software
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24918
+Defined in: main.ts:25723
 
 type of element
 
@@ -93,7 +93,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24978
+Defined in: main.ts:25783
 
 URL to make a reservation
 
@@ -107,7 +107,7 @@ URL to make a reservation
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24987
+Defined in: main.ts:25792
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:24987
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25006
+Defined in: main.ts:25811
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:25006
 
 > `static` **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
-Defined in: main.ts:24999
+Defined in: main.ts:25804
 
 #### Parameters
 

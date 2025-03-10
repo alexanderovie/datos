@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsCountryResultInfo
 
-Defined in: main.ts:82392
+Defined in: main.ts:84811
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:82392
 
 > **new SerpSeznamLocationsCountryResultInfo**(`data`?): [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
-Defined in: main.ts:82408
+Defined in: main.ts:84827
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:82408
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:82402
+Defined in: main.ts:84821
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:82394
+Defined in: main.ts:84813
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:82400
+Defined in: main.ts:84819
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:82396
+Defined in: main.ts:84815
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:82404
+Defined in: main.ts:84823
 
 location type
 
@@ -112,7 +112,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82417
+Defined in: main.ts:84836
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:82417
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82438
+Defined in: main.ts:84857
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:82438
 
 > `static` **fromJS**(`data`): [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
-Defined in: main.ts:82431
+Defined in: main.ts:84850
 
 #### Parameters
 

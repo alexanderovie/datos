@@ -6,7 +6,7 @@
 
 # Interface: IEstInfo
 
-Defined in: main.ts:140903
+Defined in: main.ts:150248
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:140903
 
 > `optional` **high**: `number`
 
-Defined in: main.ts:140905
+Defined in: main.ts:150250
 
 indicates the upper bound of the range result
 
@@ -28,6 +28,6 @@ indicates the upper bound of the range result
 
 > `optional` **low**: `number`
 
-Defined in: main.ts:140907
+Defined in: main.ts:150252
 
 indicates the lower bound of the range result

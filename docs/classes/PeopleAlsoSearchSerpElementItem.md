@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchSerpElementItem
 
-Defined in: main.ts:32027
+Defined in: main.ts:33692
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32027
 
 > **new PeopleAlsoSearchSerpElementItem**(`data`?): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
-Defined in: main.ts:32039
+Defined in: main.ts:33710
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32039
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:32031
+Defined in: main.ts:33702
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:33696
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`position`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32035
+Defined in: main.ts:33706
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32029
+Defined in: main.ts:33700
 
 title of the row
 
@@ -163,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -181,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:33698
 
 the XPath of the element
 
@@ -189,17 +185,13 @@ the XPath of the element
 
 [`IPeopleAlsoSearchSerpElementItem`](../interfaces/IPeopleAlsoSearchSerpElementItem.md).[`xpath`](../interfaces/IPeopleAlsoSearchSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32044
+Defined in: main.ts:33715
 
 #### Parameters
 
@@ -221,7 +213,7 @@ Defined in: main.ts:32044
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32068
+Defined in: main.ts:33741
 
 #### Parameters
 
@@ -243,7 +235,7 @@ Defined in: main.ts:32068
 
 > `static` **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
-Defined in: main.ts:32061
+Defined in: main.ts:33734
 
 #### Parameters
 

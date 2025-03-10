@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentAnalysisLimitsRatesDataInfo
 
-Defined in: main.ts:233025
+Defined in: main.ts:241888
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:233025
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:233034
+Defined in: main.ts:241897
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:233034
 
 > `optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233031
+Defined in: main.ts:241894
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:233031
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:233035
+Defined in: main.ts:241898
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:233035
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:233033
+Defined in: main.ts:241896
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:233033
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:233032
+Defined in: main.ts:241895
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:233032
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233030
+Defined in: main.ts:241893
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:233030
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233029
+Defined in: main.ts:241892
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:233029
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233026
+Defined in: main.ts:241889
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:233026
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233028
+Defined in: main.ts:241891
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:233028
 
 > `optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:233027
+Defined in: main.ts:241890

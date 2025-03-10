@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataPriceData
 
-Defined in: main.ts:238454
+Defined in: main.ts:247317
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238454
 
 > **new AppendixBusinessDataPriceData**(`data`?): [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-Defined in: main.ts:238468
+Defined in: main.ts:247331
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238468
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-Defined in: main.ts:238455
+Defined in: main.ts:247318
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:238455
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238456
+Defined in: main.ts:247319
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:238456
 
 > `optional` **google**: [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
 
-Defined in: main.ts:238457
+Defined in: main.ts:247320
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:238457
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238459
+Defined in: main.ts:247322
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:238459
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238460
+Defined in: main.ts:247323
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:238460
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
-Defined in: main.ts:238458
+Defined in: main.ts:247321
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:238458
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238464
+Defined in: main.ts:247327
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:238464
 
 > `optional` **tripadvisor**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238461
+Defined in: main.ts:247324
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:238461
 
 > `optional` **trustpilot**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238462
+Defined in: main.ts:247325
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:238462
 
 > `optional` **yelp**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238463
+Defined in: main.ts:247326
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:238463
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238477
+Defined in: main.ts:247340
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:238477
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238503
+Defined in: main.ts:247366
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:238503
 
 > `static` **fromJS**(`data`): [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-Defined in: main.ts:238496
+Defined in: main.ts:247359
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
-Defined in: main.ts:179690
+Defined in: main.ts:188529
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:179690
 
 > **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-Defined in: main.ts:179704
+Defined in: main.ts:188543
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179704
 
 > `optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-Defined in: main.ts:179696
+Defined in: main.ts:188535
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -56,7 +56,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-Defined in: main.ts:179700
+Defined in: main.ts:188539
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -72,7 +72,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:179692
+Defined in: main.ts:188531
 
 type of element
 
@@ -86,7 +86,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179713
+Defined in: main.ts:188552
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:179713
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179732
+Defined in: main.ts:188571
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:179732
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-Defined in: main.ts:179725
+Defined in: main.ts:188564
 
 #### Parameters
 

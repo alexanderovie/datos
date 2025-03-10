@@ -6,7 +6,7 @@
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107119
+Defined in: main.ts:116286
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107119
 
 > **new MathSolverDataforseoLabsSerpElementItem**(`data`?): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107134
+Defined in: main.ts:116302
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:107134
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-Defined in: main.ts:107126
+Defined in: main.ts:116294
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:107130
+Defined in: main.ts:116298
 
 sitelinks
 the links shown below some of Google’s search results
@@ -90,7 +91,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -110,7 +111,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -129,7 +130,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -148,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:107124
+Defined in: main.ts:116291
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -163,7 +164,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107121
+Defined in: main.ts:116288
 
 title of the result in SERP
 
@@ -177,7 +178,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -195,7 +196,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -213,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107139
+Defined in: main.ts:116307
 
 #### Parameters
 
@@ -235,7 +236,7 @@ Defined in: main.ts:107139
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107168
+Defined in: main.ts:116336
 
 #### Parameters
 
@@ -257,7 +258,7 @@ Defined in: main.ts:107168
 
 > `static` **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107161
+Defined in: main.ts:116329
 
 #### Parameters
 

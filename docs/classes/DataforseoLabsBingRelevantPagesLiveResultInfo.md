@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveResultInfo
 
-Defined in: main.ts:119700
+Defined in: main.ts:129045
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:119700
 
 > **new DataforseoLabsBingRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
-Defined in: main.ts:119720
+Defined in: main.ts:129065
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:119720
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:119716
+Defined in: main.ts:129061
 
 relevant pages and related data
 
@@ -54,7 +54,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:119714
+Defined in: main.ts:129059
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:119710
+Defined in: main.ts:129055
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:119707
+Defined in: main.ts:129052
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:119702
+Defined in: main.ts:129047
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:119704
+Defined in: main.ts:129049
 
 target domain in a POST array
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:119712
+Defined in: main.ts:129057
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119729
+Defined in: main.ts:129074
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:119729
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119756
+Defined in: main.ts:129101
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:119756
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveResultInfo`](DataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
-Defined in: main.ts:119749
+Defined in: main.ts:129094
 
 #### Parameters
 

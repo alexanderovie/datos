@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsPriceData
 
-Defined in: main.ts:239062
+Defined in: main.ts:247925
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:239062
 
 > **new AppendixDomainAnalyticsPriceData**(`data`?): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239070
+Defined in: main.ts:247933
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239070
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:239065
+Defined in: main.ts:247928
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:239065
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:239066
+Defined in: main.ts:247929
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:239066
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239064
+Defined in: main.ts:247927
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:239064
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239063
+Defined in: main.ts:247926
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:239063
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239079
+Defined in: main.ts:247942
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:239079
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239099
+Defined in: main.ts:247962
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:239099
 
 > `static` **fromJS**(`data`): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239092
+Defined in: main.ts:247955
 
 #### Parameters
 

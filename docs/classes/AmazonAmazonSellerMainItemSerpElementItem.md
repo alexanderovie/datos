@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
 
-Defined in: main.ts:196486
+Defined in: main.ts:205333
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:196486
 
 > **new AmazonAmazonSellerMainItemSerpElementItem**(`data`?): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
-Defined in: main.ts:196515
+Defined in: main.ts:205362
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:196515
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23218
+Defined in: main.ts:24023
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:196505
+Defined in: main.ts:205352
 
 product condition
 condition of the product offered by the seller
@@ -75,7 +75,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:196508
+Defined in: main.ts:205355
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -90,7 +90,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:196511
+Defined in: main.ts:205358
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -105,7 +105,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:196490
+Defined in: main.ts:205337
 
 alignment of the element in SERP
 possible values:
@@ -121,7 +121,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:196499
+Defined in: main.ts:205346
 
 product pricing details
 if there are no details, the value will be null
@@ -136,7 +136,7 @@ if there are no details, the value will be null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23214
+Defined in: main.ts:24019
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23211
+Defined in: main.ts:24016
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:196502
+Defined in: main.ts:205349
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:196492
+Defined in: main.ts:205339
 
 business name of the seller
 
@@ -203,7 +203,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:196494
+Defined in: main.ts:205341
 
 url forwarding to the seller’s page on Amazon
 
@@ -217,7 +217,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:196496
+Defined in: main.ts:205343
 
 sender company name
 
@@ -231,7 +231,7 @@ sender company name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23208
+Defined in: main.ts:24013
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23216
+Defined in: main.ts:24021
 
 the XPath of the element
 
@@ -267,7 +267,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196520
+Defined in: main.ts:205367
 
 #### Parameters
 
@@ -289,7 +289,7 @@ Defined in: main.ts:196520
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196546
+Defined in: main.ts:205393
 
 #### Parameters
 
@@ -311,7 +311,7 @@ Defined in: main.ts:196546
 
 > `static` **fromJS**(`data`): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
-Defined in: main.ts:196539
+Defined in: main.ts:205386
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpAiSummaryRequestInfo
 
-Defined in: main.ts:26509
+Defined in: main.ts:27894
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26509
 
 > `optional` **fetch\_content**: `boolean`
 
-Defined in: main.ts:26531
+Defined in: main.ts:27916
 
 fetch content from pages in SERPs
 optional field
@@ -31,7 +31,7 @@ default value: false
 
 > `optional` **include\_links**: `boolean`
 
-Defined in: main.ts:26536
+Defined in: main.ts:27921
 
 include source links in the summary
 optional field
@@ -44,7 +44,7 @@ default value: false
 
 > `optional` **prompt**: `string`
 
-Defined in: main.ts:26521
+Defined in: main.ts:27906
 
 AI prompt
 optional field
@@ -59,7 +59,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 > `optional` **support\_extra**: `boolean`
 
-Defined in: main.ts:26526
+Defined in: main.ts:27911
 
 support extra SERP features
 optional field
@@ -72,7 +72,7 @@ default value: true
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:26514
+Defined in: main.ts:27899
 
 task identifier
 required field

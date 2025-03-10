@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:177752
+Defined in: main.ts:186667
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:177752
 
 > **new ContentAnalysisSearchLiveRequestInfo**(`data`?): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-Defined in: main.ts:177847
+Defined in: main.ts:186762
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177847
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177808
+Defined in: main.ts:186723
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:177761
+Defined in: main.ts:186676
 
 target keyword
 required field
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:177773
+Defined in: main.ts:186688
 
 target keyword fields and target keywords
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177791
+Defined in: main.ts:186706
 
 the maximum number of returned citations
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177829
+Defined in: main.ts:186744
 
 offset in the results array of returned citations
 optional field
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:177837
+Defined in: main.ts:186752
 
 offset token for subsequent requests
 optional field
@@ -172,7 +172,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177824
+Defined in: main.ts:186739
 
 results sorting rules
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:177779
+Defined in: main.ts:186694
 
 target page types
 optional field
@@ -218,7 +218,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:177786
+Defined in: main.ts:186701
 
 results grouping type
 optional field
@@ -237,7 +237,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177843
+Defined in: main.ts:186758
 
 user-defined task identifier
 optional field
@@ -255,7 +255,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177856
+Defined in: main.ts:186771
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:177856
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177900
+Defined in: main.ts:186815
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:177900
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-Defined in: main.ts:177893
+Defined in: main.ts:186808
 
 #### Parameters
 

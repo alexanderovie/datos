@@ -6,7 +6,7 @@
 
 # Class: CommercialUnitsElement
 
-Defined in: main.ts:35775
+Defined in: main.ts:37872
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35775
 
 > **new CommercialUnitsElement**(`data`?): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-Defined in: main.ts:35795
+Defined in: main.ts:37892
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35795
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35783
+Defined in: main.ts:37880
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35785
+Defined in: main.ts:37882
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35791
+Defined in: main.ts:37888
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35788
+Defined in: main.ts:37885
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -98,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35779
+Defined in: main.ts:37876
 
 title of a given link element
 
@@ -112,7 +112,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35777
+Defined in: main.ts:37874
 
 type of element
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35781
+Defined in: main.ts:37878
 
 URL
 
@@ -140,7 +140,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35804
+Defined in: main.ts:37901
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:35804
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35827
+Defined in: main.ts:37924
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:35827
 
 > `static` **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-Defined in: main.ts:35820
+Defined in: main.ts:37917
 
 #### Parameters
 

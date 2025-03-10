@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeTrend
 
-Defined in: main.ts:92412
+Defined in: main.ts:101709
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:92412
 
 > **new SearchVolumeTrend**(`data`?): [`SearchVolumeTrend`](SearchVolumeTrend.md)
 
-Defined in: main.ts:92422
+Defined in: main.ts:101719
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92422
 
 > `optional` **monthly**: `number`
 
-Defined in: main.ts:92414
+Defined in: main.ts:101711
 
 search volume change in percent compared to the previous month
 
@@ -54,7 +54,7 @@ search volume change in percent compared to the previous month
 
 > `optional` **quarterly**: `number`
 
-Defined in: main.ts:92416
+Defined in: main.ts:101713
 
 search volume change in percent compared to the previous quarter
 
@@ -68,7 +68,7 @@ search volume change in percent compared to the previous quarter
 
 > `optional` **yearly**: `number`
 
-Defined in: main.ts:92418
+Defined in: main.ts:101715
 
 search volume change in percent compared to the previous year
 
@@ -82,7 +82,7 @@ search volume change in percent compared to the previous year
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92431
+Defined in: main.ts:101728
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:92431
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92450
+Defined in: main.ts:101747
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:92450
 
 > `static` **fromJS**(`data`): [`SearchVolumeTrend`](SearchVolumeTrend.md)
 
-Defined in: main.ts:92443
+Defined in: main.ts:101740
 
 #### Parameters
 

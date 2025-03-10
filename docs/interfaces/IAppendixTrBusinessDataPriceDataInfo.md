@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTrBusinessDataPriceDataInfo
 
-Defined in: main.ts:238447
+Defined in: main.ts:247310
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238447
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238448
+Defined in: main.ts:247311
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:238448
 
 > `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238449
+Defined in: main.ts:247312

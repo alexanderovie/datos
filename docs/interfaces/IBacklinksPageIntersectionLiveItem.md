@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksPageIntersectionLiveItem
 
-Defined in: main.ts:159250
+Defined in: main.ts:168595
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:159250
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:159253
+Defined in: main.ts:168598
 
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
@@ -33,6 +33,6 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
-Defined in: main.ts:159255
+Defined in: main.ts:168600
 
 contains the page intersections summary

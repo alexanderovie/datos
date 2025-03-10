@@ -1,0 +1,73 @@
+[**Documentation**](../README.md)
+
+***
+
+[Documentation](../README.md) / IContentCommentInfo
+
+# Interface: IContentCommentInfo
+
+Defined in: main.ts:26782
+
+## Indexable
+
+\[`key`: `string`\]: `any`
+
+## Properties
+
+### author?
+
+> `optional` **author**: `string`
+
+Defined in: main.ts:26791
+
+author of the comment
+
+***
+
+### have\_form?
+
+> `optional` **have\_form**: `boolean`
+
+Defined in: main.ts:26792
+
+***
+
+### primary\_content?
+
+> `optional` **primary\_content**: [`SectionContentItemInfo`](../classes/SectionContentItemInfo.md)[]
+
+Defined in: main.ts:26795
+
+primary content on the page
+you can find more information about content priority calculation in this help center article
+
+***
+
+### publish\_date?
+
+> `optional` **publish\_date**: `string`
+
+Defined in: main.ts:26789
+
+date when the comment was published
+
+***
+
+### rating?
+
+> `optional` **rating**: [`ContentRatingInfo`](../classes/ContentRatingInfo.md)
+
+Defined in: main.ts:26785
+
+product’s rating
+contains information about the rating a customer has given to the product
+
+***
+
+### title?
+
+> `optional` **title**: `number`
+
+Defined in: main.ts:26787
+
+title of the customer’s comment

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksPageIntersectionLiveResultInfo
 
-Defined in: main.ts:159335
+Defined in: main.ts:168680
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:159335
 
 > `optional` **items**: [`BacklinksPageIntersectionLiveItem`](../classes/BacklinksPageIntersectionLiveItem.md)[]
 
-Defined in: main.ts:159343
+Defined in: main.ts:168688
 
 contains relevant backlinks and referring domains data
 
@@ -28,7 +28,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:159341
+Defined in: main.ts:168686
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:159337
+Defined in: main.ts:168682
 
 targets from a POST array
 
@@ -52,6 +52,6 @@ targets from a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:159339
+Defined in: main.ts:168684
 
 total amount of results relevant the request

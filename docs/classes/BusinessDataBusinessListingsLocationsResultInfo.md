@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
-Defined in: main.ts:210570
+Defined in: main.ts:219417
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:210570
 
 > **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
-Defined in: main.ts:210580
+Defined in: main.ts:219427
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210580
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:210576
+Defined in: main.ts:219423
 
 number of businesses in this location in our database
 
@@ -54,7 +54,7 @@ number of businesses in this location in our database
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:210574
+Defined in: main.ts:219421
 
 ISO country code of the location
 
@@ -68,7 +68,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210572
+Defined in: main.ts:219419
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210589
+Defined in: main.ts:219436
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:210589
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210608
+Defined in: main.ts:219455
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:210608
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
-Defined in: main.ts:210601
+Defined in: main.ts:219448
 
 #### Parameters
 

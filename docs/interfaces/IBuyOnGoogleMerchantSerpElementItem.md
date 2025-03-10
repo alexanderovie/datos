@@ -6,7 +6,7 @@
 
 # Interface: IBuyOnGoogleMerchantSerpElementItem
 
-Defined in: main.ts:188575
+Defined in: main.ts:197422
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:188575
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:188588
+Defined in: main.ts:197435
 
 product price without tax and shipping
 
@@ -32,7 +32,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:188599
+Defined in: main.ts:197446
 
 currency in the ISO format
 example:
@@ -44,7 +44,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:188586
+Defined in: main.ts:197433
 
 details and special offers
 if there are no details, the value will be null
@@ -55,7 +55,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:188579
+Defined in: main.ts:197426
 
 domain in SERP
 
@@ -65,7 +65,7 @@ domain in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21813
+Defined in: main.ts:22618
 
 alignment of the element in SERP
 can take the following values:
@@ -81,7 +81,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21809
+Defined in: main.ts:22614
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -96,7 +96,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21806
+Defined in: main.ts:22611
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:188605
+Defined in: main.ts:197452
 
 shop rating
 the shop popularity rate based on product reviews
@@ -122,7 +122,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:188602
+Defined in: main.ts:197449
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -133,7 +133,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:188593
+Defined in: main.ts:197440
 
 product shipping price
 
@@ -143,7 +143,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:188609
+Defined in: main.ts:197456
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -155,7 +155,7 @@ in this case, the value equals null
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:188591
+Defined in: main.ts:197438
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -166,7 +166,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188581
+Defined in: main.ts:197428
 
 product title
 
@@ -176,7 +176,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:188595
+Defined in: main.ts:197442
 
 product price including tax and shipping
 
@@ -186,7 +186,7 @@ product price including tax and shipping
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21803
+Defined in: main.ts:22608
 
 type of element
 
@@ -200,7 +200,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188583
+Defined in: main.ts:197430
 
 Google Shopping URL forwarding to the product page
 
@@ -210,6 +210,6 @@ Google Shopping URL forwarding to the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:188577
+Defined in: main.ts:197424
 
 XPath of the element

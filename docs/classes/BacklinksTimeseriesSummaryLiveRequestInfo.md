@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
-Defined in: main.ts:159458
+Defined in: main.ts:168803
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:159458
 
 > **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:159510
+Defined in: main.ts:168855
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159510
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:159473
+Defined in: main.ts:168818
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:159482
+Defined in: main.ts:168827
 
 ending date of the time range
 optional field
@@ -82,7 +82,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:159495
+Defined in: main.ts:168840
 
 time range which will be used to group the results
 optional field
@@ -107,7 +107,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:159500
+Defined in: main.ts:168845
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -124,7 +124,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:159506
+Defined in: main.ts:168851
 
 user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:159464
+Defined in: main.ts:168809
 
 domain to get data for
 required field
@@ -160,7 +160,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159519
+Defined in: main.ts:168864
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:159519
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159541
+Defined in: main.ts:168886
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:159541
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:159534
+Defined in: main.ts:168879
 
 #### Parameters
 

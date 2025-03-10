@@ -6,7 +6,7 @@
 
 # Interface: IAppendixDomainAnalyticsPriceData
 
-Defined in: main.ts:239113
+Defined in: main.ts:247976
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:239113
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:239116
+Defined in: main.ts:247979
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239116
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:239117
+Defined in: main.ts:247980
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:239117
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](../classes/AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239115
+Defined in: main.ts:247978
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:239115
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:239114
+Defined in: main.ts:247977

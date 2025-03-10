@@ -6,7 +6,7 @@
 
 # Interface: ILicensesElement
 
-Defined in: main.ts:22189
+Defined in: main.ts:22994
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:22189
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:22197
+Defined in: main.ts:23002
 
 domain in SERP
 
@@ -28,7 +28,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22193
+Defined in: main.ts:22998
 
 title of the element
 
@@ -38,7 +38,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22191
+Defined in: main.ts:22996
 
 type of element
 
@@ -48,6 +48,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22195
+Defined in: main.ts:23000
 
 search URL with refinement parameters

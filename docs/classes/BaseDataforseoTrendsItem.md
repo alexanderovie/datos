@@ -6,7 +6,7 @@
 
 # Class: BaseDataforseoTrendsItem
 
-Defined in: main.ts:22787
+Defined in: main.ts:23592
 
 ## Extended by
 
@@ -24,7 +24,7 @@ Defined in: main.ts:22787
 
 > **new BaseDataforseoTrendsItem**(`data`?): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-Defined in: main.ts:22799
+Defined in: main.ts:23604
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:22799
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22797
+Defined in: main.ts:23602
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:22797
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22795
+Defined in: main.ts:23600
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -65,7 +65,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22792
+Defined in: main.ts:23597
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -80,7 +80,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22789
+Defined in: main.ts:23594
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22809
+Defined in: main.ts:23614
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:22809
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22843
+Defined in: main.ts:23648
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:22843
 
 > `static` **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-Defined in: main.ts:22821
+Defined in: main.ts:23626
 
 #### Parameters
 

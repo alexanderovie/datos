@@ -6,7 +6,7 @@
 
 # Class: CompareSitesSerpElementItem
 
-Defined in: main.ts:37829
+Defined in: main.ts:40134
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:37829
 
 > **new CompareSitesSerpElementItem**(`data`?): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
-Defined in: main.ts:37841
+Defined in: main.ts:40152
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:37841
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`CompareSitesElement`](CompareSitesElement.md)[]
 
-Defined in: main.ts:37833
+Defined in: main.ts:40144
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:40138
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`position`](../interfaces/ICompareSitesSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37837
+Defined in: main.ts:40148
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37831
+Defined in: main.ts:40142
 
 title of the row
 
@@ -163,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -181,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:40140
 
 the XPath of the element
 
@@ -189,17 +185,13 @@ the XPath of the element
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`xpath`](../interfaces/ICompareSitesSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37846
+Defined in: main.ts:40157
 
 #### Parameters
 
@@ -221,7 +213,7 @@ Defined in: main.ts:37846
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37870
+Defined in: main.ts:40183
 
 #### Parameters
 
@@ -243,7 +235,7 @@ Defined in: main.ts:37870
 
 > `static` **fromJS**(`data`): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
-Defined in: main.ts:37863
+Defined in: main.ts:40176
 
 #### Parameters
 

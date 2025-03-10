@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLanguagesResultInfo
 
-Defined in: main.ts:199618
+Defined in: main.ts:208465
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:199618
 
 > **new AppDataGoogleLanguagesResultInfo**(`data`?): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:199626
+Defined in: main.ts:208473
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199626
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:199622
+Defined in: main.ts:208469
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:199620
+Defined in: main.ts:208467
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199635
+Defined in: main.ts:208482
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:199635
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199653
+Defined in: main.ts:208500
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:199653
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:199646
+Defined in: main.ts:208493
 
 #### Parameters
 

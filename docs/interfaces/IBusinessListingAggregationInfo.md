@@ -6,7 +6,7 @@
 
 # Interface: IBusinessListingAggregationInfo
 
-Defined in: main.ts:212645
+Defined in: main.ts:221500
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212645
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:212655
+Defined in: main.ts:221510
 
 number of unique entities
 
@@ -28,7 +28,7 @@ number of unique entities
 
 > `optional` **top\_attributes**: `object`
 
-Defined in: main.ts:212658
+Defined in: main.ts:221513
 
 the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute
@@ -43,7 +43,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 > `optional` **top\_categories**: `object`
 
-Defined in: main.ts:212648
+Defined in: main.ts:221503
 
 the most mentioned related categories
 top categories displayed with the number of businesses in each category
@@ -58,7 +58,7 @@ top categories displayed with the number of businesses in each category
 
 > `optional` **top\_countries**: `object`
 
-Defined in: main.ts:212651
+Defined in: main.ts:221506
 
 the most mentioned counties
 country codes with the biggest number of businesses in the category
@@ -73,7 +73,7 @@ country codes with the biggest number of businesses in the category
 
 > `optional` **top\_place\_topics**: `object`
 
-Defined in: main.ts:212661
+Defined in: main.ts:221516
 
 top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -88,6 +88,6 @@ contains most popular keywords related to products/services mentioned in custome
 
 > `optional` **websites\_count**: `number`
 
-Defined in: main.ts:212653
+Defined in: main.ts:221508
 
 number of unique websites

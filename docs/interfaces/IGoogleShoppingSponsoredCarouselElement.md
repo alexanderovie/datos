@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingSponsoredCarouselElement
 
-Defined in: main.ts:187068
+Defined in: main.ts:195907
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:187068
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:187087
+Defined in: main.ts:195926
 
 currency in the ISO format
 example:
@@ -30,7 +30,7 @@ USD
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
-Defined in: main.ts:187099
+Defined in: main.ts:195938
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -41,7 +41,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:187083
+Defined in: main.ts:195922
 
 product price
 example:
@@ -53,7 +53,7 @@ example:
 
 > `optional` **product\_images**: `string`[]
 
-Defined in: main.ts:187093
+Defined in: main.ts:195932
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -64,7 +64,7 @@ the first URL in the array is the featured image of the product
 
 > `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:187090
+Defined in: main.ts:195929
 
 product rating
 the product popularity rate based on product reviews
@@ -75,7 +75,7 @@ the product popularity rate based on product reviews
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:187079
+Defined in: main.ts:195918
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -86,7 +86,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:187096
+Defined in: main.ts:195935
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -97,7 +97,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:187076
+Defined in: main.ts:195915
 
 tags assigned to the product
 
@@ -107,7 +107,7 @@ tags assigned to the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:187074
+Defined in: main.ts:195913
 
 product title
 
@@ -117,7 +117,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:187070
+Defined in: main.ts:195909
 
 type of element
 
@@ -127,6 +127,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:187072
+Defined in: main.ts:195911
 
 XPath of the element

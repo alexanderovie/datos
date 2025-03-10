@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:39570
+Defined in: main.ts:41940
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:39570
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:39703
+Defined in: main.ts:42073
 
 browser screen height
 optional field
@@ -35,7 +35,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:39713
+Defined in: main.ts:42083
 
 browser screen resolution ratio
 optional field
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:39694
+Defined in: main.ts:42064
 
 browser screen width
 optional field
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:39685
+Defined in: main.ts:42055
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -85,7 +85,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:39595
+Defined in: main.ts:41965
 
 parsing depth
 optional field
@@ -102,7 +102,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:39652
+Defined in: main.ts:42022
 
 device type
 optional field
@@ -115,7 +115,7 @@ default value: desktop
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:39678
+Defined in: main.ts:42048
 
 display related results
 optional field
@@ -129,7 +129,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:39580
+Defined in: main.ts:41950
 
 keyword
 required field
@@ -147,7 +147,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:39640
+Defined in: main.ts:42010
 
 search engine language code
 optional field if you specify language_name
@@ -162,7 +162,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:39633
+Defined in: main.ts:42003
 
 full name of search engine language
 optional field if you specify language_code
@@ -177,7 +177,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:39728
+Defined in: main.ts:42098
 
 load asynchronous ai overview
 optional field
@@ -193,7 +193,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:39616
+Defined in: main.ts:41986
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -208,7 +208,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:39626
+Defined in: main.ts:41996
 
 GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -226,7 +226,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:39609
+Defined in: main.ts:41979
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -241,7 +241,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:39602
+Defined in: main.ts:41972
 
 page crawl limit
 optional field
@@ -256,7 +256,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:39659
+Defined in: main.ts:42029
 
 device operating system
 optional field
@@ -271,7 +271,7 @@ default value: android
 
 > `optional` **people\_also\_ask\_click\_depth**: `number`
 
-Defined in: main.ts:39720
+Defined in: main.ts:42090
 
 clicks on the corresponding element
 optional field
@@ -282,11 +282,26 @@ possible values: from 1 to 4
 
 ***
 
+### remove\_from\_url?
+
+> `optional` **remove\_from\_url**: `string`[]
+
+Defined in: main.ts:42109
+
+remove specific parameters from URLs
+optional field
+using this field, you can specify up to 10 parameters to remove from URLs in the result
+example:
+"remove_from_url": ["srsltid"]
+Note: if the target field is specified, the specified URL parameters will be removed before the search
+
+***
+
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:39647
+Defined in: main.ts:42017
 
 search engine domain
 optional field
@@ -301,7 +316,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:39732
+Defined in: main.ts:42102
 
 additional parameters of the search query
 optional field
@@ -313,7 +328,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:39738
+Defined in: main.ts:42115
 
 user-defined task identifier
 optional field
@@ -327,7 +342,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:39672
+Defined in: main.ts:42042
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -348,7 +363,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39586
+Defined in: main.ts:41956
 
 direct URL of the search query
 optional field

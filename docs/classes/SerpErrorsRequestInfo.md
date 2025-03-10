@@ -6,7 +6,7 @@
 
 # Class: SerpErrorsRequestInfo
 
-Defined in: main.ts:25763
+Defined in: main.ts:27148
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:25763
 
 > **new SerpErrorsRequestInfo**(`data`?): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-Defined in: main.ts:25797
+Defined in: main.ts:27182
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25797
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:25786
+Defined in: main.ts:27171
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:25793
+Defined in: main.ts:27178
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:25779
+Defined in: main.ts:27164
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:25768
+Defined in: main.ts:27153
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:25773
+Defined in: main.ts:27158
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25806
+Defined in: main.ts:27191
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:25806
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25827
+Defined in: main.ts:27212
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:25827
 
 > `static` **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-Defined in: main.ts:25820
+Defined in: main.ts:27205
 
 #### Parameters
 

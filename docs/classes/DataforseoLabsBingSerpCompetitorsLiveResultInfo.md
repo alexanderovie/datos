@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
-Defined in: main.ts:120212
+Defined in: main.ts:129557
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:120212
 
 > **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:120233
+Defined in: main.ts:129578
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120233
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:120229
+Defined in: main.ts:129574
 
 contains detected SERP competitors and related data
 
@@ -54,7 +54,7 @@ contains detected SERP competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:120227
+Defined in: main.ts:129572
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120223
+Defined in: main.ts:129568
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120220
+Defined in: main.ts:129565
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120214
+Defined in: main.ts:129559
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:120217
+Defined in: main.ts:129562
 
 keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -127,7 +127,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:120225
+Defined in: main.ts:129570
 
 the total amount of results in our database relevant to your request
 
@@ -141,7 +141,7 @@ the total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120242
+Defined in: main.ts:129587
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:120242
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120273
+Defined in: main.ts:129618
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:120273
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:120266
+Defined in: main.ts:129611
 
 #### Parameters
 

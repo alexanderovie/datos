@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataPriceDataInfo
 
-Defined in: main.ts:236702
+Defined in: main.ts:245565
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236702
 
 > **new AppendixBingKeywordsDataPriceDataInfo**(`data`?): [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236707
+Defined in: main.ts:245570
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236707
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236703
+Defined in: main.ts:245566
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236703
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236716
+Defined in: main.ts:245579
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:236716
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236733
+Defined in: main.ts:245596
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:236733
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236726
+Defined in: main.ts:245589
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
-Defined in: main.ts:94912
+Defined in: main.ts:104209
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:94912
 
 > **new DataforseoLabsGoogleKeywordIdeasLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
-Defined in: main.ts:95041
+Defined in: main.ts:104338
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95041
 
 > `optional` **closely\_variants**: `boolean`
 
-Defined in: main.ts:94959
+Defined in: main.ts:104258
 
 search mode
 optional field
@@ -58,7 +58,7 @@ default value: false
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:95014
+Defined in: main.ts:104313
 
 array of results filtering parameters
 optional field
@@ -90,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:94964
+Defined in: main.ts:104263
 
 ignore highly similar keywords
 optional field
@@ -107,7 +107,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:94976
+Defined in: main.ts:104275
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -126,7 +126,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:94969
+Defined in: main.ts:104268
 
 include data from SERP for each keyword
 optional field
@@ -143,7 +143,7 @@ default value: false
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:94919
+Defined in: main.ts:104216
 
 keywords
 required field
@@ -162,16 +162,17 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:94953
+Defined in: main.ts:104252
 
 language code
 optional field
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to the
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
 example:
 en
+Note: if omitted, results default to the language with the most keyword records in the specified location;
+refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language
 
 #### Implementation of
 
@@ -183,16 +184,17 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:94944
+Defined in: main.ts:104242
 
 full name of the language
 optional field
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with their language_name by making a separate request to the
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
 example:
 English
+Note: if omitted, results default to the language with the most keyword records in the specified location;
+refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language
 
 #### Implementation of
 
@@ -204,7 +206,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:94981
+Defined in: main.ts:104280
 
 the maximum number of keywords in the results array
 optional field
@@ -221,7 +223,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:94935
+Defined in: main.ts:104232
 
 unique location identifier
 required field if you don’t specify location_name
@@ -241,7 +243,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:94927
+Defined in: main.ts:104224
 
 full name of the location
 required field if you don’t specify location_code
@@ -261,7 +263,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:94986
+Defined in: main.ts:104285
 
 offset in the results array of returned keywords
 optional field
@@ -278,7 +280,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:94994
+Defined in: main.ts:104293
 
 offset token for subsequent requests
 optional field
@@ -298,7 +300,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:95031
+Defined in: main.ts:104328
 
 results sorting rules
 optional field
@@ -307,15 +309,13 @@ possible sorting types:
 asc – results will be sorted in the ascending order
 desc – results will be sorted in the descending order
 you should use a comma to set up a sorting parameter
-example:
-["keyword_info.competition,desc"]
 default rule:
 ["relevance,desc"]
 relevance is used as the default sorting rule to provide you with the closest keyword ideas. We recommend using this sorting rule to get highly-relevant search terms. Note that relevance is only our internal system identifier, so it can not be used as a filter, and you will not find this field in the result array. The relevance score is based on a similar principle as used in the Keywords For Keywords endpoint.
 note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
-["keyword_info.search_volume,desc","keyword_info.cpc,desc"]
+["relevance,desc","keyword_info.search_volume,desc"]
 
 #### Implementation of
 
@@ -327,7 +327,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95037
+Defined in: main.ts:104334
 
 user-defined task identifier
 optional field
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95050
+Defined in: main.ts:104347
 
 #### Parameters
 
@@ -363,7 +363,7 @@ Defined in: main.ts:95050
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95093
+Defined in: main.ts:104390
 
 #### Parameters
 
@@ -381,7 +381,7 @@ Defined in: main.ts:95093
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
-Defined in: main.ts:95086
+Defined in: main.ts:104383
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
-Defined in: main.ts:148083
+Defined in: main.ts:157428
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:148083
 
 > `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:148099
+Defined in: main.ts:157444
 
 array of keywords
 contains keywords and their search volume rates
@@ -29,7 +29,7 @@ contains keywords and their search volume rates
 
 > `optional` **items\_count**: `string`
 
-Defined in: main.ts:148096
+Defined in: main.ts:157441
 
 ithe number of results returned in the items array
 
@@ -39,7 +39,7 @@ ithe number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:148091
+Defined in: main.ts:157436
 
 language code in a POST array
 
@@ -52,7 +52,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:148086
+Defined in: main.ts:157431
 
 location code in a POST array
 if there is no data, then the value is null
@@ -63,7 +63,7 @@ if there is no data, then the value is null
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:148094
+Defined in: main.ts:157439
 
 indicates if the use_clickstream parameter is active
 possible values: true, false

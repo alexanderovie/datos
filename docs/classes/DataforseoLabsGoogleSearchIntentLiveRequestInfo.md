@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
-Defined in: main.ts:96430
+Defined in: main.ts:105727
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:96430
 
 > **new DataforseoLabsGoogleSearchIntentLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
-Defined in: main.ts:96487
+Defined in: main.ts:105784
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96487
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:96437
+Defined in: main.ts:105734
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:96477
+Defined in: main.ts:105774
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:96470
+Defined in: main.ts:105767
 
 full name of the language
 required field if don’t specify language_code
@@ -123,7 +123,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:96483
+Defined in: main.ts:105780
 
 user-defined task identifier
 optional field
@@ -141,7 +141,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96496
+Defined in: main.ts:105793
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:96496
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96520
+Defined in: main.ts:105817
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:96520
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
-Defined in: main.ts:96513
+Defined in: main.ts:105810
 
 #### Parameters
 

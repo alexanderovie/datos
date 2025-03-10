@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTasksReadyResultInfo
 
-Defined in: main.ts:57240
+Defined in: main.ts:59643
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:57240
 
 > **new SerpGoogleDatasetSearchTasksReadyResultInfo**(`data`?): [`SerpGoogleDatasetSearchTasksReadyResultInfo`](SerpGoogleDatasetSearchTasksReadyResultInfo.md)
 
-Defined in: main.ts:57265
+Defined in: main.ts:59668
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:57265
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:57250
+Defined in: main.ts:59653
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:57258
+Defined in: main.ts:59661
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:57261
+Defined in: main.ts:59664
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:57255
+Defined in: main.ts:59658
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:57243
+Defined in: main.ts:59646
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:57245
+Defined in: main.ts:59648
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:57248
+Defined in: main.ts:59651
 
 type of search engine
 example: dataset_search
@@ -143,7 +143,7 @@ example: dataset_search
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:57252
+Defined in: main.ts:59655
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57274
+Defined in: main.ts:59677
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:57274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57298
+Defined in: main.ts:59701
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:57298
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTasksReadyResultInfo`](SerpGoogleDatasetSearchTasksReadyResultInfo.md)
 
-Defined in: main.ts:57291
+Defined in: main.ts:59694
 
 #### Parameters
 

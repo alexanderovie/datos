@@ -6,7 +6,7 @@
 
 # Class: AuthorsElement
 
-Defined in: main.ts:24744
+Defined in: main.ts:25549
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:24744
 
 > **new AuthorsElement**(`data`?): [`AuthorsElement`](AuthorsElement.md)
 
-Defined in: main.ts:24756
+Defined in: main.ts:25561
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24756
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:24752
+Defined in: main.ts:25557
 
 author’s link domain
 
@@ -54,7 +54,7 @@ author’s link domain
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:24748
+Defined in: main.ts:25553
 
 name of the dataset author
 
@@ -68,7 +68,7 @@ name of the dataset author
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24746
+Defined in: main.ts:25551
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24750
+Defined in: main.ts:25555
 
 author’s link URL
 
@@ -96,7 +96,7 @@ author’s link URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24765
+Defined in: main.ts:25570
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:24765
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24785
+Defined in: main.ts:25590
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:24785
 
 > `static` **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
 
-Defined in: main.ts:24778
+Defined in: main.ts:25583
 
 #### Parameters
 

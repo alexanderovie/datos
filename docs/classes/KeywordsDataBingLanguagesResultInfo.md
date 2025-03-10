@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLanguagesResultInfo
 
-Defined in: main.ts:138536
+Defined in: main.ts:147881
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:138536
 
 > **new KeywordsDataBingLanguagesResultInfo**(`data`?): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
-Defined in: main.ts:138544
+Defined in: main.ts:147889
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138544
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138540
+Defined in: main.ts:147885
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:138538
+Defined in: main.ts:147883
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138553
+Defined in: main.ts:147898
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:138553
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138571
+Defined in: main.ts:147916
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:138571
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
-Defined in: main.ts:138564
+Defined in: main.ts:147909
 
 #### Parameters
 

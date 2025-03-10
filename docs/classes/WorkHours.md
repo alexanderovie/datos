@@ -6,7 +6,7 @@
 
 # Class: WorkHours
 
-Defined in: main.ts:41509
+Defined in: main.ts:43886
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:41509
 
 > **new WorkHours**(`data`?): [`WorkHours`](WorkHours.md)
 
-Defined in: main.ts:41518
+Defined in: main.ts:43895
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:41518
 
 > `optional` **current\_status**: `string`
 
-Defined in: main.ts:41514
+Defined in: main.ts:43891
 
 current status of the establishment
 indicates whether the establishment is opened or closed
@@ -55,7 +55,7 @@ indicates whether the establishment is opened or closed
 
 > `optional` **timetable**: `object`
 
-Defined in: main.ts:41511
+Defined in: main.ts:43888
 
 work hours timetable
 
@@ -73,7 +73,7 @@ work hours timetable
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41527
+Defined in: main.ts:43904
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:41527
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41551
+Defined in: main.ts:43928
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:41551
 
 > `static` **fromJS**(`data`): [`WorkHours`](WorkHours.md)
 
-Defined in: main.ts:41544
+Defined in: main.ts:43921
 
 #### Parameters
 

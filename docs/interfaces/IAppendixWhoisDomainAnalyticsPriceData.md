@@ -6,7 +6,7 @@
 
 # Interface: IAppendixWhoisDomainAnalyticsPriceData
 
-Defined in: main.ts:238976
+Defined in: main.ts:247839
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:238976
 
 > `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238977
+Defined in: main.ts:247840

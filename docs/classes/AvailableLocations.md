@@ -6,7 +6,7 @@
 
 # Class: AvailableLocations
 
-Defined in: main.ts:144356
+Defined in: main.ts:153701
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:144356
 
 > **new AvailableLocations**(`data`?): [`AvailableLocations`](AvailableLocations.md)
 
-Defined in: main.ts:144370
+Defined in: main.ts:153715
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144370
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:144362
+Defined in: main.ts:153707
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:144358
+Defined in: main.ts:153703
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:144360
+Defined in: main.ts:153705
 
 location name
 
@@ -82,7 +82,7 @@ location name
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:144366
+Defined in: main.ts:153711
 
 location type
 possible values:
@@ -98,7 +98,7 @@ Country, Region
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144379
+Defined in: main.ts:153724
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:144379
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144399
+Defined in: main.ts:153744
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:144399
 
 > `static` **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
 
-Defined in: main.ts:144392
+Defined in: main.ts:153737
 
 #### Parameters
 

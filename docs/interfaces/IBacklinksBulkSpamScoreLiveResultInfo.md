@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkSpamScoreLiveResultInfo
 
-Defined in: main.ts:161333
+Defined in: main.ts:170678
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161333
 
 > `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](../classes/BacklinksBulkSpamScoreLiveItem.md)[]
 
-Defined in: main.ts:161337
+Defined in: main.ts:170682
 
 contains relevant backlinks and referring domains data
 
@@ -28,6 +28,6 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:161335
+Defined in: main.ts:170680
 
 the number of results returned in the items array

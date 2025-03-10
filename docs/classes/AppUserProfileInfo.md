@@ -6,7 +6,7 @@
 
 # Class: AppUserProfileInfo
 
-Defined in: main.ts:203868
+Defined in: main.ts:212715
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203868
 
 > **new AppUserProfileInfo**(`data`?): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:203876
+Defined in: main.ts:212723
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203876
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:203872
+Defined in: main.ts:212719
 
 URL to the reviewer’s profile image
 
@@ -54,7 +54,7 @@ URL to the reviewer’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:203870
+Defined in: main.ts:212717
 
 profile name of the reviewer
 
@@ -68,7 +68,7 @@ profile name of the reviewer
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203885
+Defined in: main.ts:212732
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:203885
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203903
+Defined in: main.ts:212750
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:203903
 
 > `static` **fromJS**(`data`): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:203896
+Defined in: main.ts:212743
 
 #### Parameters
 

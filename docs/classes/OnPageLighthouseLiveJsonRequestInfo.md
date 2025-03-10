@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
-Defined in: main.ts:176416
+Defined in: main.ts:185331
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:176416
 
 > **new OnPageLighthouseLiveJsonRequestInfo**(`data`?): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
-Defined in: main.ts:176476
+Defined in: main.ts:185391
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176476
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:176449
+Defined in: main.ts:185364
 
 Lighthouse audits
 optional field
@@ -65,7 +65,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:176436
+Defined in: main.ts:185351
 
 categories of Lighthouse audits
 optional field
@@ -85,7 +85,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:176428
+Defined in: main.ts:185343
 
 applies mobile emulation
 optional field
@@ -103,7 +103,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:176466
+Defined in: main.ts:185381
 
 lighthouse language code
 optional field
@@ -121,7 +121,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:176460
+Defined in: main.ts:185375
 
 lighthouse language name
 optional field
@@ -139,7 +139,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:176472
+Defined in: main.ts:185387
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:176422
+Defined in: main.ts:185337
 
 target URL
 required field
@@ -175,7 +175,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:176454
+Defined in: main.ts:185369
 
 lighthouse version
 optional field
@@ -192,7 +192,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176485
+Defined in: main.ts:185400
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:176485
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176517
+Defined in: main.ts:185432
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:176517
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
 
-Defined in: main.ts:176510
+Defined in: main.ts:185425
 
 #### Parameters
 

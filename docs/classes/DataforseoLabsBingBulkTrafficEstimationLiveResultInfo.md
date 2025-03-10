@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:115898
+Defined in: main.ts:125243
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:115898
 
 > **new DataforseoLabsBingBulkTrafficEstimationLiveResultInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
 
-Defined in: main.ts:115916
+Defined in: main.ts:125261
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:115916
 
 > `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:115912
+Defined in: main.ts:125257
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:115910
+Defined in: main.ts:125255
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115906
+Defined in: main.ts:125251
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115903
+Defined in: main.ts:125248
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115900
+Defined in: main.ts:125245
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:115908
+Defined in: main.ts:125253
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115925
+Defined in: main.ts:125270
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:115925
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115951
+Defined in: main.ts:125296
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:115951
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
 
-Defined in: main.ts:115944
+Defined in: main.ts:125289
 
 #### Parameters
 

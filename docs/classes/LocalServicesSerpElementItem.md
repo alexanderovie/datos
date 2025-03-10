@@ -6,7 +6,7 @@
 
 # Class: LocalServicesSerpElementItem
 
-Defined in: main.ts:36025
+Defined in: main.ts:38138
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36025
 
 > **new LocalServicesSerpElementItem**(`data`?): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
-Defined in: main.ts:36041
+Defined in: main.ts:38160
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36041
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:36031
+Defined in: main.ts:38150
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:36033
+Defined in: main.ts:38152
 
 contains arrays of specific images
 
@@ -88,7 +88,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:38142
 
 the alignment of the element in SERP
 can take the following values:
@@ -98,17 +98,13 @@ left, right
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`position`](../interfaces/ILocalServicesSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -127,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -147,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36037
+Defined in: main.ts:38156
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -163,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36027
+Defined in: main.ts:38146
 
 title of the row
 
@@ -177,7 +173,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -195,7 +191,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36029
+Defined in: main.ts:38148
 
 source URL
 
@@ -209,7 +205,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:38144
 
 the XPath of the element
 
@@ -217,17 +213,13 @@ the XPath of the element
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`xpath`](../interfaces/ILocalServicesSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36046
+Defined in: main.ts:38165
 
 #### Parameters
 
@@ -249,7 +241,7 @@ Defined in: main.ts:36046
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36072
+Defined in: main.ts:38193
 
 #### Parameters
 
@@ -271,7 +263,7 @@ Defined in: main.ts:36072
 
 > `static` **fromJS**(`data`): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
-Defined in: main.ts:36065
+Defined in: main.ts:38186
 
 #### Parameters
 

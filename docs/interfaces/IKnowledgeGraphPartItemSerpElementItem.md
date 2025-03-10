@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphPartItemSerpElementItem
 
-Defined in: main.ts:30351
+Defined in: main.ts:31914
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30351
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30357
+Defined in: main.ts:31926
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:30364
+Defined in: main.ts:31933
 
 sitelinks
 the links shown below some of Google’s search results
@@ -46,15 +46,11 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:31918
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -62,7 +58,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -77,7 +73,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -93,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30368
+Defined in: main.ts:31937
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -105,7 +101,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30360
+Defined in: main.ts:31929
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -116,7 +112,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30353
+Defined in: main.ts:31922
 
 title of the result in SERP
 
@@ -126,7 +122,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -140,10 +136,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:31920
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

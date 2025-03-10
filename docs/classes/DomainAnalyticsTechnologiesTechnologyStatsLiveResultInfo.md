@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
-Defined in: main.ts:87254
+Defined in: main.ts:96551
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:87254
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-Defined in: main.ts:87268
+Defined in: main.ts:96565
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87268
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:87258
+Defined in: main.ts:96555
 
 starting date of the time range
 
@@ -54,7 +54,7 @@ starting date of the time range
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:87260
+Defined in: main.ts:96557
 
 ending date of the time range
 
@@ -68,7 +68,7 @@ ending date of the time range
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
-Defined in: main.ts:87264
+Defined in: main.ts:96561
 
 items array
 
@@ -82,7 +82,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:87262
+Defined in: main.ts:96559
 
 number of items in the results array
 
@@ -96,7 +96,7 @@ number of items in the results array
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:87256
+Defined in: main.ts:96553
 
 target technology
 
@@ -110,7 +110,7 @@ target technology
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87277
+Defined in: main.ts:96574
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:87277
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87302
+Defined in: main.ts:96599
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:87302
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-Defined in: main.ts:87295
+Defined in: main.ts:96592
 
 #### Parameters
 

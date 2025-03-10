@@ -6,7 +6,7 @@
 
 # Interface: IHotelAmenityItemInfo
 
-Defined in: main.ts:219557
+Defined in: main.ts:228420
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:219557
 
 > `optional` **amenity**: `string`
 
-Defined in: main.ts:219559
+Defined in: main.ts:228422
 
 standardised amenity name
 
@@ -28,7 +28,7 @@ standardised amenity name
 
 > `optional` **amenity\_label**: `string`
 
-Defined in: main.ts:219561
+Defined in: main.ts:228424
 
 displayed amenity name
 
@@ -38,7 +38,7 @@ displayed amenity name
 
 > `optional` **hint**: `string`
 
-Defined in: main.ts:219563
+Defined in: main.ts:228426
 
 standardised details about the amenity
 
@@ -48,7 +48,7 @@ standardised details about the amenity
 
 > `optional` **hint\_label**: `string`
 
-Defined in: main.ts:219565
+Defined in: main.ts:228428
 
 displayed details about the amenity
 
@@ -58,6 +58,6 @@ displayed details about the amenity
 
 > `optional` **is\_available**: `boolean`
 
-Defined in: main.ts:219567
+Defined in: main.ts:228430
 
 indicates whether the amenity is available in the hotel

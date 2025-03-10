@@ -6,7 +6,7 @@
 
 # Class: BusinessDataApi
 
-Defined in: main.ts:18578
+Defined in: main.ts:19322
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: main.ts:18578
 
 > **new BusinessDataApi**(`baseUrl`?, `http`?): [`BusinessDataApi`](BusinessDataApi.md)
 
-Defined in: main.ts:18583
+Defined in: main.ts:19327
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:18583
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:18581
+Defined in: main.ts:19325
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:18581
 
 > **businessDataBusinessListingsLocations**(): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18675
+Defined in: main.ts:19419
 
 #### Returns
 
@@ -72,7 +72,7 @@ Successful operation
 
 > **businessDataErrors**(`body`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:18634
+Defined in: main.ts:19378
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Successful operation
 
 > **businessDataGoogleLanguages**(): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18952
+Defined in: main.ts:19696
 
 #### Returns
 
@@ -108,7 +108,7 @@ Successful operation
 
 > **businessDataGoogleLocations**(): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18870
+Defined in: main.ts:19614
 
 #### Returns
 
@@ -122,7 +122,7 @@ Successful operation
 
 > **businessDataGoogleLocationsCountry**(`country`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:18912
+Defined in: main.ts:19656
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Successful operation
 
 > **businessDataIdList**(`body`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:18592
+Defined in: main.ts:19336
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Successful operation
 
 > **businessDataTasksReady**(): `Promise`\<[`BusinessDataTasksReadyResponseInfo`](BusinessDataTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19068
+Defined in: main.ts:19812
 
 #### Returns
 
@@ -184,7 +184,7 @@ Successful operation
 
 > **businessDataTripadvisorLanguages**(): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:20459
+Defined in: main.ts:21203
 
 #### Returns
 
@@ -198,7 +198,7 @@ Successful operation
 
 > **businessDataTripadvisorLocations**(): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
 
-Defined in: main.ts:20377
+Defined in: main.ts:21121
 
 #### Returns
 
@@ -212,7 +212,7 @@ Successful operation
 
 > **businessDataTripadvisorLocationsCountry**(`country`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:20419
+Defined in: main.ts:21163
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Successful operation
 
 > **businessListingsAvailableFilters**(): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:18749
+Defined in: main.ts:19493
 
 #### Returns
 
@@ -252,7 +252,7 @@ Successful operation
 
 > **businessListingsCategories**(): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18712
+Defined in: main.ts:19456
 
 #### Returns
 
@@ -266,7 +266,7 @@ Successful operation
 
 > **businessListingsCategoriesAggregationLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
 
-Defined in: main.ts:18829
+Defined in: main.ts:19573
 
 #### Parameters
 
@@ -288,7 +288,7 @@ Successful operation
 
 > **businessListingsSearchLive**(`body`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:18787
+Defined in: main.ts:19531
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Successful operation
 
 > **googleExtendedReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19929
+Defined in: main.ts:20673
 
 #### Parameters
 
@@ -334,7 +334,7 @@ Successful operation
 
 > **googleExtendedReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19848
+Defined in: main.ts:20592
 
 #### Parameters
 
@@ -356,7 +356,7 @@ Successful operation
 
 > **googleExtendedReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19889
+Defined in: main.ts:20633
 
 #### Returns
 
@@ -370,7 +370,7 @@ Successful operation
 
 > **googleHotelInfoLiveAdvanced**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19642
+Defined in: main.ts:20386
 
 #### Parameters
 
@@ -392,7 +392,7 @@ Successful operation
 
 > **googleHotelInfoLiveHtml**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
 
-Defined in: main.ts:19684
+Defined in: main.ts:20428
 
 #### Parameters
 
@@ -414,7 +414,7 @@ Successful operation
 
 > **googleHotelInfoTaskGetAdvanced**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19558
+Defined in: main.ts:20302
 
 #### Parameters
 
@@ -438,7 +438,7 @@ Successful operation
 
 > **googleHotelInfoTaskGetHtml**(`id`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:19601
+Defined in: main.ts:20345
 
 #### Parameters
 
@@ -462,7 +462,7 @@ Successful operation
 
 > **googleHotelInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19477
+Defined in: main.ts:20221
 
 #### Parameters
 
@@ -484,7 +484,7 @@ Successful operation
 
 > **googleHotelInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19518
+Defined in: main.ts:20262
 
 #### Returns
 
@@ -498,7 +498,7 @@ Successful operation
 
 > **googleHotelSearchesLive**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
 
-Defined in: main.ts:19435
+Defined in: main.ts:20179
 
 #### Parameters
 
@@ -520,7 +520,7 @@ Successful operation
 
 > **googleHotelSearchesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19394
+Defined in: main.ts:20138
 
 #### Parameters
 
@@ -544,7 +544,7 @@ Successful operation
 
 > **googleHotelSearchesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19313
+Defined in: main.ts:20057
 
 #### Parameters
 
@@ -566,7 +566,7 @@ Successful operation
 
 > **googleHotelSearchesTasksReady**(): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19354
+Defined in: main.ts:20098
 
 #### Returns
 
@@ -580,7 +580,7 @@ Successful operation
 
 > **googleMyBusinessInfoLive**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
 
-Defined in: main.ts:19149
+Defined in: main.ts:19893
 
 #### Parameters
 
@@ -602,7 +602,7 @@ Successful operation
 
 > **googleMyBusinessInfoTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19108
+Defined in: main.ts:19852
 
 #### Parameters
 
@@ -626,7 +626,7 @@ Successful operation
 
 > **googleMyBusinessInfoTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18990
+Defined in: main.ts:19734
 
 #### Parameters
 
@@ -648,7 +648,7 @@ Successful operation
 
 > **googleMyBusinessInfoTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19031
+Defined in: main.ts:19775
 
 #### Returns
 
@@ -662,7 +662,7 @@ Successful operation
 
 > **googleMyBusinessUpdatesTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19272
+Defined in: main.ts:20016
 
 #### Parameters
 
@@ -686,7 +686,7 @@ Successful operation
 
 > **googleMyBusinessUpdatesTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19191
+Defined in: main.ts:19935
 
 #### Parameters
 
@@ -708,7 +708,7 @@ Successful operation
 
 > **googleMyBusinessUpdatesTasksReady**(): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19232
+Defined in: main.ts:19976
 
 #### Returns
 
@@ -722,7 +722,7 @@ Successful operation
 
 > **googleQuestionsAndAnswersLive**(`body`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
 
-Defined in: main.ts:20092
+Defined in: main.ts:20836
 
 #### Parameters
 
@@ -744,7 +744,7 @@ Successful operation
 
 > **googleQuestionsAndAnswersTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20051
+Defined in: main.ts:20795
 
 #### Parameters
 
@@ -768,7 +768,7 @@ Successful operation
 
 > **googleQuestionsAndAnswersTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19970
+Defined in: main.ts:20714
 
 #### Parameters
 
@@ -790,7 +790,7 @@ Successful operation
 
 > **googleQuestionsAndAnswersTasksReady**(): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20011
+Defined in: main.ts:20755
 
 #### Returns
 
@@ -804,7 +804,7 @@ Successful operation
 
 > **googleReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19807
+Defined in: main.ts:20551
 
 #### Parameters
 
@@ -828,7 +828,7 @@ Successful operation
 
 > **googleReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19726
+Defined in: main.ts:20470
 
 #### Parameters
 
@@ -850,7 +850,7 @@ Successful operation
 
 > **googleReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19767
+Defined in: main.ts:20511
 
 #### Returns
 
@@ -864,7 +864,7 @@ Successful operation
 
 > `protected` **processBusinessDataBusinessListingsLocations**(`response`): `Promise`\<[`BusinessDataBusinessListingsLocationsResponseInfo`](BusinessDataBusinessListingsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18691
+Defined in: main.ts:19435
 
 #### Parameters
 
@@ -882,7 +882,7 @@ Defined in: main.ts:18691
 
 > `protected` **processBusinessDataErrors**(`response`): `Promise`\<[`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:18654
+Defined in: main.ts:19398
 
 #### Parameters
 
@@ -900,7 +900,7 @@ Defined in: main.ts:18654
 
 > `protected` **processBusinessDataGoogleLanguages**(`response`): `Promise`\<[`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18968
+Defined in: main.ts:19712
 
 #### Parameters
 
@@ -918,7 +918,7 @@ Defined in: main.ts:18968
 
 > `protected` **processBusinessDataGoogleLocations**(`response`): `Promise`\<[`BusinessDataGoogleLocationsResponseInfo`](BusinessDataGoogleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18886
+Defined in: main.ts:19630
 
 #### Parameters
 
@@ -936,7 +936,7 @@ Defined in: main.ts:18886
 
 > `protected` **processBusinessDataGoogleLocationsCountry**(`response`): `Promise`\<[`BusinessDataGoogleLocationsCountryResponseInfo`](BusinessDataGoogleLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:18931
+Defined in: main.ts:19675
 
 #### Parameters
 
@@ -954,7 +954,7 @@ Defined in: main.ts:18931
 
 > `protected` **processBusinessDataIdList**(`response`): `Promise`\<[`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:18612
+Defined in: main.ts:19356
 
 #### Parameters
 
@@ -972,7 +972,7 @@ Defined in: main.ts:18612
 
 > `protected` **processBusinessDataTasksReady**(`response`): `Promise`\<[`BusinessDataTasksReadyResponseInfo`](BusinessDataTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19084
+Defined in: main.ts:19828
 
 #### Parameters
 
@@ -990,7 +990,7 @@ Defined in: main.ts:19084
 
 > `protected` **processBusinessDataTripadvisorLanguages**(`response`): `Promise`\<[`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:20475
+Defined in: main.ts:21219
 
 #### Parameters
 
@@ -1008,7 +1008,7 @@ Defined in: main.ts:20475
 
 > `protected` **processBusinessDataTripadvisorLocations**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsResponseInfo`](BusinessDataTripadvisorLocationsResponseInfo.md)\>
 
-Defined in: main.ts:20393
+Defined in: main.ts:21137
 
 #### Parameters
 
@@ -1026,7 +1026,7 @@ Defined in: main.ts:20393
 
 > `protected` **processBusinessDataTripadvisorLocationsCountry**(`response`): `Promise`\<[`BusinessDataTripadvisorLocationsCountryResponseInfo`](BusinessDataTripadvisorLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:20438
+Defined in: main.ts:21182
 
 #### Parameters
 
@@ -1044,7 +1044,7 @@ Defined in: main.ts:20438
 
 > `protected` **processBusinessListingsAvailableFilters**(`response`): `Promise`\<[`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:18765
+Defined in: main.ts:19509
 
 #### Parameters
 
@@ -1062,7 +1062,7 @@ Defined in: main.ts:18765
 
 > `protected` **processBusinessListingsCategories**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18728
+Defined in: main.ts:19472
 
 #### Parameters
 
@@ -1080,7 +1080,7 @@ Defined in: main.ts:18728
 
 > `protected` **processBusinessListingsCategoriesAggregationLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.md)\>
 
-Defined in: main.ts:18849
+Defined in: main.ts:19593
 
 #### Parameters
 
@@ -1098,7 +1098,7 @@ Defined in: main.ts:18849
 
 > `protected` **processBusinessListingsSearchLive**(`response`): `Promise`\<[`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:18807
+Defined in: main.ts:19551
 
 #### Parameters
 
@@ -1116,7 +1116,7 @@ Defined in: main.ts:18807
 
 > `protected` **processGoogleExtendedReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19948
+Defined in: main.ts:20692
 
 #### Parameters
 
@@ -1134,7 +1134,7 @@ Defined in: main.ts:19948
 
 > `protected` **processGoogleExtendedReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19868
+Defined in: main.ts:20612
 
 #### Parameters
 
@@ -1152,7 +1152,7 @@ Defined in: main.ts:19868
 
 > `protected` **processGoogleExtendedReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19905
+Defined in: main.ts:20649
 
 #### Parameters
 
@@ -1170,7 +1170,7 @@ Defined in: main.ts:19905
 
 > `protected` **processGoogleHotelInfoLiveAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19662
+Defined in: main.ts:20406
 
 #### Parameters
 
@@ -1188,7 +1188,7 @@ Defined in: main.ts:19662
 
 > `protected` **processGoogleHotelInfoLiveHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoLiveHtmlResponseInfo`](BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.md)\>
 
-Defined in: main.ts:19704
+Defined in: main.ts:20448
 
 #### Parameters
 
@@ -1206,7 +1206,7 @@ Defined in: main.ts:19704
 
 > `protected` **processGoogleHotelInfoTaskGetAdvanced**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19577
+Defined in: main.ts:20321
 
 #### Parameters
 
@@ -1224,7 +1224,7 @@ Defined in: main.ts:19577
 
 > `protected` **processGoogleHotelInfoTaskGetHtml**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:19620
+Defined in: main.ts:20364
 
 #### Parameters
 
@@ -1242,7 +1242,7 @@ Defined in: main.ts:19620
 
 > `protected` **processGoogleHotelInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19497
+Defined in: main.ts:20241
 
 #### Parameters
 
@@ -1260,7 +1260,7 @@ Defined in: main.ts:19497
 
 > `protected` **processGoogleHotelInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelInfoTasksReadyResponseInfo`](BusinessDataGoogleHotelInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19534
+Defined in: main.ts:20278
 
 #### Parameters
 
@@ -1278,7 +1278,7 @@ Defined in: main.ts:19534
 
 > `protected` **processGoogleHotelSearchesLive**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesLiveResponseInfo`](BusinessDataGoogleHotelSearchesLiveResponseInfo.md)\>
 
-Defined in: main.ts:19455
+Defined in: main.ts:20199
 
 #### Parameters
 
@@ -1296,7 +1296,7 @@ Defined in: main.ts:19455
 
 > `protected` **processGoogleHotelSearchesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskGetResponseInfo`](BusinessDataGoogleHotelSearchesTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19413
+Defined in: main.ts:20157
 
 #### Parameters
 
@@ -1314,7 +1314,7 @@ Defined in: main.ts:19413
 
 > `protected` **processGoogleHotelSearchesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTaskPostResponseInfo`](BusinessDataGoogleHotelSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19333
+Defined in: main.ts:20077
 
 #### Parameters
 
@@ -1332,7 +1332,7 @@ Defined in: main.ts:19333
 
 > `protected` **processGoogleHotelSearchesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleHotelSearchesTasksReadyResponseInfo`](BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19370
+Defined in: main.ts:20114
 
 #### Parameters
 
@@ -1350,7 +1350,7 @@ Defined in: main.ts:19370
 
 > `protected` **processGoogleMyBusinessInfoLive**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
 
-Defined in: main.ts:19169
+Defined in: main.ts:19913
 
 #### Parameters
 
@@ -1368,7 +1368,7 @@ Defined in: main.ts:19169
 
 > `protected` **processGoogleMyBusinessInfoTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19127
+Defined in: main.ts:19871
 
 #### Parameters
 
@@ -1386,7 +1386,7 @@ Defined in: main.ts:19127
 
 > `protected` **processGoogleMyBusinessInfoTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19010
+Defined in: main.ts:19754
 
 #### Parameters
 
@@ -1404,7 +1404,7 @@ Defined in: main.ts:19010
 
 > `protected` **processGoogleMyBusinessInfoTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19047
+Defined in: main.ts:19791
 
 #### Parameters
 
@@ -1422,7 +1422,7 @@ Defined in: main.ts:19047
 
 > `protected` **processGoogleMyBusinessUpdatesTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19291
+Defined in: main.ts:20035
 
 #### Parameters
 
@@ -1440,7 +1440,7 @@ Defined in: main.ts:19291
 
 > `protected` **processGoogleMyBusinessUpdatesTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19211
+Defined in: main.ts:19955
 
 #### Parameters
 
@@ -1458,7 +1458,7 @@ Defined in: main.ts:19211
 
 > `protected` **processGoogleMyBusinessUpdatesTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19248
+Defined in: main.ts:19992
 
 #### Parameters
 
@@ -1476,7 +1476,7 @@ Defined in: main.ts:19248
 
 > `protected` **processGoogleQuestionsAndAnswersLive**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)\>
 
-Defined in: main.ts:20112
+Defined in: main.ts:20856
 
 #### Parameters
 
@@ -1494,7 +1494,7 @@ Defined in: main.ts:20112
 
 > `protected` **processGoogleQuestionsAndAnswersTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20070
+Defined in: main.ts:20814
 
 #### Parameters
 
@@ -1512,7 +1512,7 @@ Defined in: main.ts:20070
 
 > `protected` **processGoogleQuestionsAndAnswersTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19990
+Defined in: main.ts:20734
 
 #### Parameters
 
@@ -1530,7 +1530,7 @@ Defined in: main.ts:19990
 
 > `protected` **processGoogleQuestionsAndAnswersTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20027
+Defined in: main.ts:20771
 
 #### Parameters
 
@@ -1548,7 +1548,7 @@ Defined in: main.ts:20027
 
 > `protected` **processGoogleReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskGetResponseInfo`](BusinessDataGoogleReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:19826
+Defined in: main.ts:20570
 
 #### Parameters
 
@@ -1566,7 +1566,7 @@ Defined in: main.ts:19826
 
 > `protected` **processGoogleReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTaskPostResponseInfo`](BusinessDataGoogleReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19746
+Defined in: main.ts:20490
 
 #### Parameters
 
@@ -1584,7 +1584,7 @@ Defined in: main.ts:19746
 
 > `protected` **processGoogleReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleReviewsTasksReadyResponseInfo`](BusinessDataGoogleReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19783
+Defined in: main.ts:20527
 
 #### Parameters
 
@@ -1602,7 +1602,7 @@ Defined in: main.ts:19783
 
 > `protected` **processSocialMediaFacebookLive**(`response`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
 
-Defined in: main.ts:20803
+Defined in: main.ts:21547
 
 #### Parameters
 
@@ -1620,7 +1620,7 @@ Defined in: main.ts:20803
 
 > `protected` **processSocialMediaPinterestLive**(`response`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
 
-Defined in: main.ts:20761
+Defined in: main.ts:21505
 
 #### Parameters
 
@@ -1638,7 +1638,7 @@ Defined in: main.ts:20761
 
 > `protected` **processSocialMediaRedditLive**(`response`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
 
-Defined in: main.ts:20845
+Defined in: main.ts:21589
 
 #### Parameters
 
@@ -1656,7 +1656,7 @@ Defined in: main.ts:20845
 
 > `protected` **processTripadvisorReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20719
+Defined in: main.ts:21463
 
 #### Parameters
 
@@ -1674,7 +1674,7 @@ Defined in: main.ts:20719
 
 > `protected` **processTripadvisorReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20639
+Defined in: main.ts:21383
 
 #### Parameters
 
@@ -1692,7 +1692,7 @@ Defined in: main.ts:20639
 
 > `protected` **processTripadvisorReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20676
+Defined in: main.ts:21420
 
 #### Parameters
 
@@ -1710,7 +1710,7 @@ Defined in: main.ts:20676
 
 > `protected` **processTripadvisorSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20597
+Defined in: main.ts:21341
 
 #### Parameters
 
@@ -1728,7 +1728,7 @@ Defined in: main.ts:20597
 
 > `protected` **processTripadvisorSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20517
+Defined in: main.ts:21261
 
 #### Parameters
 
@@ -1746,7 +1746,7 @@ Defined in: main.ts:20517
 
 > `protected` **processTripadvisorSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20554
+Defined in: main.ts:21298
 
 #### Parameters
 
@@ -1764,7 +1764,7 @@ Defined in: main.ts:20554
 
 > `protected` **processTrustpilotReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20356
+Defined in: main.ts:21100
 
 #### Parameters
 
@@ -1782,7 +1782,7 @@ Defined in: main.ts:20356
 
 > `protected` **processTrustpilotReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20276
+Defined in: main.ts:21020
 
 #### Parameters
 
@@ -1800,7 +1800,7 @@ Defined in: main.ts:20276
 
 > `protected` **processTrustpilotReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20313
+Defined in: main.ts:21057
 
 #### Parameters
 
@@ -1818,7 +1818,7 @@ Defined in: main.ts:20313
 
 > `protected` **processTrustpilotSearchTaskGet**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20234
+Defined in: main.ts:20978
 
 #### Parameters
 
@@ -1836,7 +1836,7 @@ Defined in: main.ts:20234
 
 > `protected` **processTrustpilotSearchTaskPost**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20154
+Defined in: main.ts:20898
 
 #### Parameters
 
@@ -1854,7 +1854,7 @@ Defined in: main.ts:20154
 
 > `protected` **processTrustpilotSearchTasksReady**(`response`): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20191
+Defined in: main.ts:20935
 
 #### Parameters
 
@@ -1872,7 +1872,7 @@ Defined in: main.ts:20191
 
 > **socialMediaFacebookLive**(`body`): `Promise`\<[`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)\>
 
-Defined in: main.ts:20783
+Defined in: main.ts:21527
 
 #### Parameters
 
@@ -1894,7 +1894,7 @@ Successful operation
 
 > **socialMediaPinterestLive**(`body`): `Promise`\<[`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)\>
 
-Defined in: main.ts:20741
+Defined in: main.ts:21485
 
 #### Parameters
 
@@ -1916,7 +1916,7 @@ Successful operation
 
 > **socialMediaRedditLive**(`body`): `Promise`\<[`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)\>
 
-Defined in: main.ts:20825
+Defined in: main.ts:21569
 
 #### Parameters
 
@@ -1938,7 +1938,7 @@ Successful operation
 
 > **tripadvisorReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20700
+Defined in: main.ts:21444
 
 #### Parameters
 
@@ -1962,7 +1962,7 @@ Successful operation
 
 > **tripadvisorReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorReviewsTaskPostResponseInfo`](BusinessDataTripadvisorReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20619
+Defined in: main.ts:21363
 
 #### Parameters
 
@@ -1984,7 +1984,7 @@ Successful operation
 
 > **tripadvisorReviewsTasksReady**(): `Promise`\<[`BusinessDataTripadvisorReviewsTasksReadyResponseInfo`](BusinessDataTripadvisorReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20660
+Defined in: main.ts:21404
 
 #### Returns
 
@@ -1998,7 +1998,7 @@ Successful operation
 
 > **tripadvisorSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTripadvisorSearchTaskGetResponseInfo`](BusinessDataTripadvisorSearchTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20578
+Defined in: main.ts:21322
 
 #### Parameters
 
@@ -2022,7 +2022,7 @@ Successful operation
 
 > **tripadvisorSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTripadvisorSearchTaskPostResponseInfo`](BusinessDataTripadvisorSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20497
+Defined in: main.ts:21241
 
 #### Parameters
 
@@ -2044,7 +2044,7 @@ Successful operation
 
 > **tripadvisorSearchTasksReady**(): `Promise`\<[`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20538
+Defined in: main.ts:21282
 
 #### Returns
 
@@ -2058,7 +2058,7 @@ Successful operation
 
 > **trustpilotReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskGetResponseInfo`](BusinessDataTrustpilotReviewsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20337
+Defined in: main.ts:21081
 
 #### Parameters
 
@@ -2082,7 +2082,7 @@ Successful operation
 
 > **trustpilotReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20256
+Defined in: main.ts:21000
 
 #### Parameters
 
@@ -2104,7 +2104,7 @@ Successful operation
 
 > **trustpilotReviewsTasksReady**(): `Promise`\<[`BusinessDataTrustpilotReviewsTasksReadyResponseInfo`](BusinessDataTrustpilotReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20297
+Defined in: main.ts:21041
 
 #### Returns
 
@@ -2118,7 +2118,7 @@ Successful operation
 
 > **trustpilotSearchTaskGet**(`id`): `Promise`\<[`BusinessDataTrustpilotSearchTaskGetResponseInfo`](BusinessDataTrustpilotSearchTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:20215
+Defined in: main.ts:20959
 
 #### Parameters
 
@@ -2142,7 +2142,7 @@ Successful operation
 
 > **trustpilotSearchTaskPost**(`body`): `Promise`\<[`BusinessDataTrustpilotSearchTaskPostResponseInfo`](BusinessDataTrustpilotSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:20134
+Defined in: main.ts:20878
 
 #### Parameters
 
@@ -2164,7 +2164,7 @@ Successful operation
 
 > **trustpilotSearchTasksReady**(): `Promise`\<[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:20175
+Defined in: main.ts:20919
 
 #### Returns
 

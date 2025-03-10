@@ -6,7 +6,7 @@
 
 # Class: BacklinksInfo
 
-Defined in: main.ts:89520
+Defined in: main.ts:98817
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:89520
 
 > **new BacklinksInfo**(`data`?): [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:89540
+Defined in: main.ts:98837
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89540
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:89531
+Defined in: main.ts:98828
 
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
@@ -55,7 +55,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 > `optional` **dofollow**: `number`
 
-Defined in: main.ts:89528
+Defined in: main.ts:98825
 
 number of dofollow links
 
@@ -69,7 +69,7 @@ number of dofollow links
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:89522
+Defined in: main.ts:98819
 
 number of referring domains
 
@@ -83,7 +83,7 @@ number of referring domains
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:89524
+Defined in: main.ts:98821
 
 number of referring main domains
 
@@ -97,7 +97,7 @@ number of referring main domains
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:89526
+Defined in: main.ts:98823
 
 number of referring pages
 
@@ -111,7 +111,7 @@ number of referring pages
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:89536
+Defined in: main.ts:98833
 
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"
@@ -128,7 +128,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89549
+Defined in: main.ts:98846
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:89549
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89571
+Defined in: main.ts:98868
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:89571
 
 > `static` **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:89564
+Defined in: main.ts:98861
 
 #### Parameters
 

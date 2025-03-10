@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTaskPostRequestInfo
 
-Defined in: main.ts:66665
+Defined in: main.ts:69068
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:66665
 
 > **new SerpBingLocalPackTaskPostRequestInfo**(`data`?): [`SerpBingLocalPackTaskPostRequestInfo`](SerpBingLocalPackTaskPostRequestInfo.md)
 
-Defined in: main.ts:66788
+Defined in: main.ts:69191
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:66788
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:66739
+Defined in: main.ts:69142
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:66680
+Defined in: main.ts:69083
 
 keyword
 required field
@@ -82,7 +82,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:66724
+Defined in: main.ts:69127
 
 search engine language code
 required field if you don’t specify language_name
@@ -101,7 +101,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:66717
+Defined in: main.ts:69120
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -120,7 +120,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:66702
+Defined in: main.ts:69105
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -139,7 +139,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:66710
+Defined in: main.ts:69113
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -159,7 +159,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:66695
+Defined in: main.ts:69098
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:66746
+Defined in: main.ts:69149
 
 page crawl limit
 optional field
@@ -197,7 +197,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:66730
+Defined in: main.ts:69133
 
 device operating system
 optional field
@@ -215,7 +215,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:66784
+Defined in: main.ts:69187
 
 notification URL of a completed task
 optional field
@@ -238,7 +238,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:66773
+Defined in: main.ts:69176
 
 postback_url datatype
 required field if you specify postback_url
@@ -256,7 +256,7 @@ regular, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:66767
+Defined in: main.ts:69170
 
 return URL for sending task results
 optional field
@@ -279,7 +279,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:66688
+Defined in: main.ts:69091
 
 task priority
 optional field
@@ -299,7 +299,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:66750
+Defined in: main.ts:69153
 
 additional parameters of the search query
 optional field
@@ -315,7 +315,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:66756
+Defined in: main.ts:69159
 
 user-defined task identifier
 optional field
@@ -333,7 +333,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:66671
+Defined in: main.ts:69074
 
 direct URL of the search query
 optional field
@@ -351,7 +351,7 @@ https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:66797
+Defined in: main.ts:69200
 
 #### Parameters
 
@@ -369,7 +369,7 @@ Defined in: main.ts:66797
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:66829
+Defined in: main.ts:69232
 
 #### Parameters
 
@@ -387,7 +387,7 @@ Defined in: main.ts:66829
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTaskPostRequestInfo`](SerpBingLocalPackTaskPostRequestInfo.md)
 
-Defined in: main.ts:66822
+Defined in: main.ts:69225
 
 #### Parameters
 

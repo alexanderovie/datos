@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesSerpElementItem
 
-Defined in: main.ts:36092
+Defined in: main.ts:38215
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36092
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:36098
+Defined in: main.ts:38227
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-Defined in: main.ts:36100
+Defined in: main.ts:38229
 
 contains arrays of specific images
 
@@ -42,15 +42,11 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:38219
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -58,7 +54,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -73,7 +69,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -89,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36104
+Defined in: main.ts:38233
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -101,7 +97,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36094
+Defined in: main.ts:38223
 
 title of the row
 
@@ -111,7 +107,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -125,7 +121,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36096
+Defined in: main.ts:38225
 
 source URL
 
@@ -135,10 +131,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:38221
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

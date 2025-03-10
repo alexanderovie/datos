@@ -6,7 +6,7 @@
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105855
+Defined in: main.ts:116872
 
 ## Extends
 
@@ -22,9 +22,10 @@ Defined in: main.ts:105855
 
 > `optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-Defined in: main.ts:105863
+Defined in: main.ts:116879
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -32,7 +33,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -48,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -63,7 +64,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -74,21 +75,11 @@ positions of elements with different type values are omitted from rank_group
 
 ***
 
-### se\_type?
-
-> `optional` **se\_type**: `string`
-
-Defined in: main.ts:105857
-
-search engine type
-
-***
-
 ### title?
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:105859
+Defined in: main.ts:116874
 
 title of the result in SERP
 
@@ -98,7 +89,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -112,9 +103,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:105861
+Defined in: main.ts:116876
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 ***
 
@@ -122,7 +113,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

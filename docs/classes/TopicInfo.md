@@ -6,7 +6,7 @@
 
 # Class: TopicInfo
 
-Defined in: main.ts:174188
+Defined in: main.ts:182521
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174188
 
 > **new TopicInfo**(`data`?): [`TopicInfo`](TopicInfo.md)
 
-Defined in: main.ts:174210
+Defined in: main.ts:182543
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174210
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:174194
+Defined in: main.ts:182527
 
 content author name
 
@@ -54,7 +54,7 @@ content author name
 
 > `optional` **h\_title**: `string`
 
-Defined in: main.ts:174190
+Defined in: main.ts:182523
 
 meta title
 
@@ -68,7 +68,7 @@ meta title
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:174196
+Defined in: main.ts:182529
 
 content language
 
@@ -80,9 +80,9 @@ content language
 
 ### level?
 
-> `optional` **level**: `string`
+> `optional` **level**: `number`
 
-Defined in: main.ts:174198
+Defined in: main.ts:182531
 
 HTML level
 
@@ -96,7 +96,7 @@ HTML level
 
 > `optional` **main\_title**: `string`
 
-Defined in: main.ts:174192
+Defined in: main.ts:182525
 
 main title of the block
 
@@ -108,9 +108,9 @@ main title of the block
 
 ### primary\_content?
 
-> `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:174201
+Defined in: main.ts:182534
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -123,9 +123,9 @@ you can find more information about content priority calculation in this help ce
 
 ### secondary\_content?
 
-> `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:174204
+Defined in: main.ts:182537
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -138,9 +138,9 @@ you can find more information about content priority calculation in this help ce
 
 ### table\_content?
 
-> `optional` **table\_content**: [`TableContent`](TableContent.md)[]
+> `optional` **table\_content**: [`TableContentInfo`](TableContentInfo.md)[]
 
-Defined in: main.ts:174206
+Defined in: main.ts:182539
 
 content of the table on the page
 
@@ -154,7 +154,7 @@ content of the table on the page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174219
+Defined in: main.ts:182552
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:174219
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174255
+Defined in: main.ts:182588
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:174255
 
 > `static` **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
 
-Defined in: main.ts:174248
+Defined in: main.ts:182581
 
 #### Parameters
 

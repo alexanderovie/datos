@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonPaidSerpElementItem
 
-Defined in: main.ts:192952
+Defined in: main.ts:201799
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:192952
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:192962
+Defined in: main.ts:201809
 
 number of product purchases in the past month
 
@@ -32,7 +32,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:192974
+Defined in: main.ts:201821
 
 currency in the ISO format
 example:
@@ -44,7 +44,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:192982
+Defined in: main.ts:201829
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -57,7 +57,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
-Defined in: main.ts:192993
+Defined in: main.ts:201840
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -68,7 +68,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:192954
+Defined in: main.ts:201801
 
 Amazon domain
 
@@ -78,7 +78,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:192960
+Defined in: main.ts:201807
 
 URL of the product image featured in the results
 
@@ -88,7 +88,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:192987
+Defined in: main.ts:201834
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -99,7 +99,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:192990
+Defined in: main.ts:201837
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -110,7 +110,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:192966
+Defined in: main.ts:201813
 
 the regular price of a product
 example:
@@ -122,7 +122,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:192970
+Defined in: main.ts:201817
 
 the upper limit of the product price range
 example:
@@ -134,7 +134,7 @@ example:
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23310
+Defined in: main.ts:24115
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -149,7 +149,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23307
+Defined in: main.ts:24112
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -164,7 +164,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:192984
+Defined in: main.ts:201831
 
 product rating info
 
@@ -174,7 +174,7 @@ product rating info
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:192977
+Defined in: main.ts:201824
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -185,7 +185,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:192956
+Defined in: main.ts:201803
 
 product title
 
@@ -195,7 +195,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23304
+Defined in: main.ts:24109
 
 type of element
 
@@ -209,7 +209,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:192958
+Defined in: main.ts:201805
 
 the URL of the product page
 
@@ -219,7 +219,7 @@ the URL of the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23312
+Defined in: main.ts:24117
 
 the XPath of the element
 

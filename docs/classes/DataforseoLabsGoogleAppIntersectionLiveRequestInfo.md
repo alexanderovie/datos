@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
-Defined in: main.ts:122720
+Defined in: main.ts:132065
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:122720
 
 > **new DataforseoLabsGoogleAppIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:122819
+Defined in: main.ts:132164
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122819
 
 > `optional` **app\_ids**: `object`
 
-Defined in: main.ts:122735
+Defined in: main.ts:132080
 
 ids of the target apps
 required field
@@ -71,7 +71,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:122782
+Defined in: main.ts:132127
 
 array of results filtering parameters
 optional field
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122771
+Defined in: main.ts:132116
 
 language code
 required field if you don’t specify language_name
@@ -115,7 +115,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122762
+Defined in: main.ts:132107
 
 full name of the language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:122804
+Defined in: main.ts:132149
 
 the maximum number of returned keywords
 optional field
@@ -153,7 +153,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122753
+Defined in: main.ts:132098
 
 location code
 required field if you don’t specify location_name
@@ -174,7 +174,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122744
+Defined in: main.ts:132089
 
 full name of the location
 required field if you don’t specify location_code
@@ -195,7 +195,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:122809
+Defined in: main.ts:132154
 
 offset in the results array of returned keywords
 optional field
@@ -212,7 +212,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:122799
+Defined in: main.ts:132144
 
 results sorting rules
 optional field
@@ -241,7 +241,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122815
+Defined in: main.ts:132160
 
 user-defined task identifier
 optional field
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:122828
+Defined in: main.ts:132173
 
 #### Parameters
 
@@ -277,7 +277,7 @@ Defined in: main.ts:122828
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:122868
+Defined in: main.ts:132213
 
 #### Parameters
 
@@ -295,7 +295,7 @@ Defined in: main.ts:122868
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:122861
+Defined in: main.ts:132206
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: PageSectionContentInfo
 
-Defined in: main.ts:173756
+Defined in: main.ts:182431
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173756
 
 > **new PageSectionContentInfo**(`data`?): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:173768
+Defined in: main.ts:182443
 
 #### Parameters
 
@@ -38,9 +38,9 @@ Defined in: main.ts:173768
 
 ### primary\_content?
 
-> `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:173759
+Defined in: main.ts:182434
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -53,9 +53,9 @@ you can find more information about content priority calculation in this help ce
 
 ### secondary\_content?
 
-> `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:173762
+Defined in: main.ts:182437
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -68,9 +68,9 @@ you can find more information about content priority calculation in this help ce
 
 ### table\_content?
 
-> `optional` **table\_content**: [`TableContent`](TableContent.md)[]
+> `optional` **table\_content**: [`TableContentInfo`](TableContentInfo.md)[]
 
-Defined in: main.ts:173764
+Defined in: main.ts:182439
 
 content of the table on the page
 
@@ -84,7 +84,7 @@ content of the table on the page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173777
+Defined in: main.ts:182452
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:173777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173808
+Defined in: main.ts:182483
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:173808
 
 > `static` **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:173801
+Defined in: main.ts:182476
 
 #### Parameters
 

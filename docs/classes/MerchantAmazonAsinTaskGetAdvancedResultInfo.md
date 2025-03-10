@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResultInfo
 
-Defined in: main.ts:195464
+Defined in: main.ts:204311
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:195464
 
 > **new MerchantAmazonAsinTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonAsinTaskGetAdvancedResultInfo`](MerchantAmazonAsinTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:195497
+Defined in: main.ts:204344
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195497
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:195468
+Defined in: main.ts:204315
 
 ASIN received in a POST array
 the unique product identifier in Amazon (ASIN) received in a POST array
@@ -56,7 +56,7 @@ learn more about the identified in this help center guide
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:195479
+Defined in: main.ts:204326
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -71,7 +71,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:195484
+Defined in: main.ts:204331
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:195489
+Defined in: main.ts:204336
 
 types of search results found on Amazon
 contains types of all search results (items) found in the returned SERP
@@ -105,7 +105,7 @@ amazon_product_info
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:195493
+Defined in: main.ts:204340
 
 Amazon product info items
 
@@ -119,7 +119,7 @@ Amazon product info items
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:195491
+Defined in: main.ts:204338
 
 the number of results returned in the items array
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:195476
+Defined in: main.ts:204323
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:195474
+Defined in: main.ts:204321
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:195472
+Defined in: main.ts:204319
 
 Amazon domain in a POST array
 
@@ -175,7 +175,7 @@ Amazon domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:195470
+Defined in: main.ts:204317
 
 type of element
 
@@ -189,7 +189,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195506
+Defined in: main.ts:204353
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:195506
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195540
+Defined in: main.ts:204387
 
 #### Parameters
 
@@ -225,7 +225,7 @@ Defined in: main.ts:195540
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskGetAdvancedResultInfo`](MerchantAmazonAsinTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:195533
+Defined in: main.ts:204380
 
 #### Parameters
 

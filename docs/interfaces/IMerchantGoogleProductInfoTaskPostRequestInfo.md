@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductInfoTaskPostRequestInfo
 
-Defined in: main.ts:190430
+Defined in: main.ts:199277
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190430
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:190443
+Defined in: main.ts:199290
 
 unique identifier of the SERP data element
 required field if product_id is not specified
@@ -32,7 +32,7 @@ example:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:190488
+Defined in: main.ts:199335
 
 language code
 required field if you don’t specify language_name
@@ -47,7 +47,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:190481
+Defined in: main.ts:199328
 
 full name of the language
 required field if you don’t specify language_code
@@ -62,7 +62,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:190465
+Defined in: main.ts:199312
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -77,7 +77,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:190474
+Defined in: main.ts:199321
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -94,7 +94,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:190458
+Defined in: main.ts:199305
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -109,7 +109,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:190529
+Defined in: main.ts:199376
 
 notification URL of a completed task
 optional field
@@ -128,7 +128,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:190518
+Defined in: main.ts:199365
 
 postback_url datatype
 required field if you specify postback_url
@@ -142,7 +142,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:190512
+Defined in: main.ts:199359
 
 return URL for sending task results
 optional field
@@ -161,7 +161,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:190451
+Defined in: main.ts:199298
 
 task priority
 optional field
@@ -177,7 +177,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190437
+Defined in: main.ts:199284
 
 unique product identifier on Google Shopping
 required field if data_docid is not specified
@@ -192,7 +192,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:190495
+Defined in: main.ts:199342
 
 search engine domain
 optional field
@@ -207,7 +207,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:190501
+Defined in: main.ts:199348
 
 user-defined task identifier
 optional field

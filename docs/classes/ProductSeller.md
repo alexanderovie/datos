@@ -6,7 +6,7 @@
 
 # Class: ProductSeller
 
-Defined in: main.ts:190840
+Defined in: main.ts:199687
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:190840
 
 > **new ProductSeller**(`data`?): [`ProductSeller`](ProductSeller.md)
 
-Defined in: main.ts:190862
+Defined in: main.ts:199709
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190862
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
-Defined in: main.ts:190858
+Defined in: main.ts:199705
 
 delivery information
 product delivery information
@@ -55,7 +55,7 @@ product delivery information
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:190855
+Defined in: main.ts:199702
 
 product price
 product price details on the seller’s website
@@ -70,7 +70,7 @@ product price details on the seller’s website
 
 > `optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:190849
+Defined in: main.ts:199696
 
 rating of the seller
 
@@ -84,7 +84,7 @@ rating of the seller
 
 > `optional` **seller\_review\_count**: `number`
 
-Defined in: main.ts:190852
+Defined in: main.ts:199699
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -99,7 +99,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190844
+Defined in: main.ts:199691
 
 product title
 
@@ -113,7 +113,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190842
+Defined in: main.ts:199689
 
 type of element
 
@@ -127,7 +127,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190847
+Defined in: main.ts:199694
 
 seller url
 url of the page where the product is sold
@@ -142,7 +142,7 @@ url of the page where the product is sold
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190871
+Defined in: main.ts:199718
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:190871
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190894
+Defined in: main.ts:199741
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:190894
 
 > `static` **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
 
-Defined in: main.ts:190887
+Defined in: main.ts:199734
 
 #### Parameters
 

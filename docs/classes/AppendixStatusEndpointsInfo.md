@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusEndpointsInfo
 
-Defined in: main.ts:239852
+Defined in: main.ts:248715
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:239852
 
 > **new AppendixStatusEndpointsInfo**(`data`?): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-Defined in: main.ts:239873
+Defined in: main.ts:248736
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239873
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:239859
+Defined in: main.ts:248722
 
 name of the endpoint
 the list of possible endpoints:
@@ -59,7 +59,7 @@ postback/pingback
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:239869
+Defined in: main.ts:248732
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -81,7 +81,7 @@ send_delay
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239882
+Defined in: main.ts:248745
 
 #### Parameters
 
@@ -99,7 +99,7 @@ Defined in: main.ts:239882
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239900
+Defined in: main.ts:248763
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:239900
 
 > `static` **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-Defined in: main.ts:239893
+Defined in: main.ts:248756
 
 #### Parameters
 

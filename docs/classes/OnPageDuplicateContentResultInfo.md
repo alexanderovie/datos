@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentResultInfo
 
-Defined in: main.ts:169274
+Defined in: main.ts:178619
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:169274
 
 > **new OnPageDuplicateContentResultInfo**(`data`?): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
-Defined in: main.ts:169287
+Defined in: main.ts:178632
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169287
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:169277
+Defined in: main.ts:178622
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:169279
+Defined in: main.ts:178624
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)[]
 
-Defined in: main.ts:169283
+Defined in: main.ts:178628
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169281
+Defined in: main.ts:178626
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169296
+Defined in: main.ts:178641
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:169296
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169320
+Defined in: main.ts:178665
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:169320
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
 
-Defined in: main.ts:169313
+Defined in: main.ts:178658
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:144428
+Defined in: main.ts:153773
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:144428
 
 > **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:144439
+Defined in: main.ts:153784
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144439
 
 > `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
-Defined in: main.ts:144435
+Defined in: main.ts:153780
 
 supported locations
 contains locations supported in combination with a specific language
@@ -55,7 +55,7 @@ contains locations supported in combination with a specific language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144432
+Defined in: main.ts:153777
 
 language code
 
@@ -69,7 +69,7 @@ language code
 
 > `optional` **language\_name**: `number`
 
-Defined in: main.ts:144430
+Defined in: main.ts:153775
 
 language name
 
@@ -83,7 +83,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144448
+Defined in: main.ts:153793
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:144448
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144471
+Defined in: main.ts:153816
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:144471
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:144464
+Defined in: main.ts:153809
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
-Defined in: main.ts:113682
+Defined in: main.ts:123027
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113682
 
 > **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:113731
+Defined in: main.ts:123076
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113731
 
 > `optional` **asins**: `string`[]
 
-Defined in: main.ts:113691
+Defined in: main.ts:123036
 
 product IDs to compare
 required field
@@ -61,7 +61,7 @@ B01LW2SL7R
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113721
+Defined in: main.ts:123066
 
 language code
 required field if don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:113714
+Defined in: main.ts:123059
 
 full name of the language
 required field if don’t specify language_code
@@ -99,7 +99,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113707
+Defined in: main.ts:123052
 
 location code
 required field if don’t specify location_name
@@ -119,7 +119,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:113699
+Defined in: main.ts:123044
 
 full name of the location
 required field if don’t specify location_code
@@ -139,7 +139,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:113727
+Defined in: main.ts:123072
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113740
+Defined in: main.ts:123085
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:113740
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113766
+Defined in: main.ts:123111
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:113766
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:113759
+Defined in: main.ts:123104
 
 #### Parameters
 

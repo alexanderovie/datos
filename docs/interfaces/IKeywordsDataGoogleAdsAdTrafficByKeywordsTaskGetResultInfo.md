@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
-Defined in: main.ts:131949
+Defined in: main.ts:141294
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:131949
 
 > `optional` **average\_cpc**: `number`
 
-Defined in: main.ts:131987
+Defined in: main.ts:141332
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -30,7 +30,7 @@ if there is no data, then the value is null
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:131971
+Defined in: main.ts:141316
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -44,7 +44,7 @@ learn more in this help center article
 
 > `optional` **clicks**: `number`
 
-Defined in: main.ts:131995
+Defined in: main.ts:141340
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:131991
+Defined in: main.ts:141336
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -68,7 +68,7 @@ if there is no data, then the value is null
 
 > `optional` **ctr**: `number`
 
-Defined in: main.ts:131983
+Defined in: main.ts:141328
 
 projected clickthrough rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -80,7 +80,7 @@ if there is no data, then the value is null
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:131960
+Defined in: main.ts:141305
 
 forecasting date interval in a POST array
 
@@ -90,7 +90,7 @@ forecasting date interval in a POST array
 
 > `optional` **impressions**: `number`
 
-Defined in: main.ts:131979
+Defined in: main.ts:141324
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -103,7 +103,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:131952
+Defined in: main.ts:141297
 
 keyword in a POST array
 metrics are provided for all the keywords specified in the POST array
@@ -114,7 +114,7 @@ metrics are provided for all the keywords specified in the POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131958
+Defined in: main.ts:141303
 
 language code in a POST array
 if there is no data, then the value is null
@@ -125,7 +125,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131955
+Defined in: main.ts:141300
 
 location code in a POST array
 if there is no data, then the value is null
@@ -136,7 +136,7 @@ if there is no data, then the value is null
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:131974
+Defined in: main.ts:141319
 
 keywords match-type
 can take the following values: exact, broad, phrase
@@ -147,7 +147,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:131965
+Defined in: main.ts:141310
 
 include Google search partners
 the value you specified when setting the task

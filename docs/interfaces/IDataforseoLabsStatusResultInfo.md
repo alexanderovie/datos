@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsStatusResultInfo
 
-Defined in: main.ts:90413
+Defined in: main.ts:99710
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90413
 
 > `optional` **amazon**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90419
+Defined in: main.ts:99716
 
 update information for the Amazon endpoints
 
@@ -28,7 +28,7 @@ update information for the Amazon endpoints
 
 > `optional` **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90417
+Defined in: main.ts:99714
 
 update information for the Bing endpoints
 
@@ -38,6 +38,6 @@ update information for the Bing endpoints
 
 > `optional` **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90415
+Defined in: main.ts:99712
 
 update information for the Google endpoints

@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskExpandedElement
 
-Defined in: main.ts:31765
+Defined in: main.ts:33414
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31765
 
 > **new PeopleAlsoAskExpandedElement**(`data`?): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
-Defined in: main.ts:31791
+Defined in: main.ts:33440
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31791
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31777
+Defined in: main.ts:33426
 
 description of the results element in SERP
 
@@ -54,7 +54,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31773
+Defined in: main.ts:33422
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:31769
+Defined in: main.ts:33418
 
 the title of the featured snippets source page
 
@@ -82,7 +82,7 @@ the title of the featured snippets source page
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:31779
+Defined in: main.ts:33428
 
 images of the element
 
@@ -96,7 +96,7 @@ images of the element
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:31787
+Defined in: main.ts:33436
 
 results table
 if there are none, equals null
@@ -111,7 +111,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31784
+Defined in: main.ts:33433
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -128,7 +128,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31775
+Defined in: main.ts:33424
 
 title of the carousel item
 
@@ -142,7 +142,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31767
+Defined in: main.ts:33416
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31771
+Defined in: main.ts:33420
 
 URL of element
 
@@ -170,7 +170,7 @@ URL of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31800
+Defined in: main.ts:33449
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:31800
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31829
+Defined in: main.ts:33478
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:31829
 
 > `static` **fromJS**(`data`): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
-Defined in: main.ts:31822
+Defined in: main.ts:33471
 
 #### Parameters
 

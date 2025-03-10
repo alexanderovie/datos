@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo
 
-Defined in: main.ts:145020
+Defined in: main.ts:154365
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145020
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:145029
+Defined in: main.ts:154374
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:145033
+Defined in: main.ts:154378
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:145027
+Defined in: main.ts:154372
 
 type of the task
 
@@ -48,7 +48,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:145023
+Defined in: main.ts:154368
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:145025
+Defined in: main.ts:154370
 
 search engine specified when setting the task
 
@@ -69,6 +69,6 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:145031
+Defined in: main.ts:154376
 
 user-defined task identifier

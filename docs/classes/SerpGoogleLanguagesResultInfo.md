@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLanguagesResultInfo
 
-Defined in: main.ts:27163
+Defined in: main.ts:28548
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:27163
 
 > **new SerpGoogleLanguagesResultInfo**(`data`?): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:27171
+Defined in: main.ts:28556
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27171
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:27167
+Defined in: main.ts:28552
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:27165
+Defined in: main.ts:28550
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27180
+Defined in: main.ts:28565
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:27180
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27198
+Defined in: main.ts:28583
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:27198
 
 > `static` **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:27191
+Defined in: main.ts:28576
 
 #### Parameters
 

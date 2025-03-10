@@ -6,7 +6,7 @@
 
 # Class: TechnologiesInfo
 
-Defined in: main.ts:24444
+Defined in: main.ts:25249
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:24444
 
 > **new TechnologiesInfo**(`data`?): [`TechnologiesInfo`](TechnologiesInfo.md)
 
-Defined in: main.ts:24464
+Defined in: main.ts:25269
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24464
 
 > `optional` **add\_ons**: `object`
 
-Defined in: main.ts:24445
+Defined in: main.ts:25250
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:24445
 
 > `optional` **analytics**: `object`
 
-Defined in: main.ts:24446
+Defined in: main.ts:25251
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:24446
 
 > `optional` **business\_tools**: `object`
 
-Defined in: main.ts:24449
+Defined in: main.ts:25254
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:24449
 
 > `optional` **communication**: `object`
 
-Defined in: main.ts:24459
+Defined in: main.ts:25264
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:24459
 
 > `optional` **content**: `object`
 
-Defined in: main.ts:24456
+Defined in: main.ts:25261
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:24456
 
 > `optional` **location**: `object`
 
-Defined in: main.ts:24455
+Defined in: main.ts:25260
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:24455
 
 > `optional` **marketing**: `object`
 
-Defined in: main.ts:24458
+Defined in: main.ts:25263
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:24458
 
 > `optional` **media**: `object`
 
-Defined in: main.ts:24457
+Defined in: main.ts:25262
 
 #### Index Signature
 
@@ -168,7 +168,7 @@ Defined in: main.ts:24457
 
 > `optional` **other**: `object`
 
-Defined in: main.ts:24451
+Defined in: main.ts:25256
 
 #### Index Signature
 
@@ -184,7 +184,7 @@ Defined in: main.ts:24451
 
 > `optional` **privacy**: `object`
 
-Defined in: main.ts:24453
+Defined in: main.ts:25258
 
 #### Index Signature
 
@@ -200,7 +200,7 @@ Defined in: main.ts:24453
 
 > `optional` **sales**: `object`
 
-Defined in: main.ts:24450
+Defined in: main.ts:25255
 
 #### Index Signature
 
@@ -216,7 +216,7 @@ Defined in: main.ts:24450
 
 > `optional` **security**: `object`
 
-Defined in: main.ts:24448
+Defined in: main.ts:25253
 
 #### Index Signature
 
@@ -232,7 +232,7 @@ Defined in: main.ts:24448
 
 > `optional` **servers**: `object`
 
-Defined in: main.ts:24454
+Defined in: main.ts:25259
 
 #### Index Signature
 
@@ -248,7 +248,7 @@ Defined in: main.ts:24454
 
 > `optional` **user\_generated\_content**: `object`
 
-Defined in: main.ts:24452
+Defined in: main.ts:25257
 
 #### Index Signature
 
@@ -264,7 +264,7 @@ Defined in: main.ts:24452
 
 > `optional` **utilities**: `object`
 
-Defined in: main.ts:24460
+Defined in: main.ts:25265
 
 #### Index Signature
 
@@ -280,7 +280,7 @@ Defined in: main.ts:24460
 
 > `optional` **web\_development**: `object`
 
-Defined in: main.ts:24447
+Defined in: main.ts:25252
 
 #### Index Signature
 
@@ -296,7 +296,7 @@ Defined in: main.ts:24447
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24473
+Defined in: main.ts:25278
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:24473
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24601
+Defined in: main.ts:25406
 
 #### Parameters
 
@@ -332,7 +332,7 @@ Defined in: main.ts:24601
 
 > `static` **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
 
-Defined in: main.ts:24594
+Defined in: main.ts:25399
 
 #### Parameters
 

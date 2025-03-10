@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
-Defined in: main.ts:123660
+Defined in: main.ts:133005
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:123660
 
 > **new DataforseoLabsAppleKeywordsForAppLiveRequestInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
-Defined in: main.ts:123752
+Defined in: main.ts:133097
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123752
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:123668
+Defined in: main.ts:133013
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is 835599320
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:123715
+Defined in: main.ts:133060
 
 array of results filtering parameters
 optional field
@@ -83,7 +83,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123704
+Defined in: main.ts:133049
 
 language code
 required field if you don’t specify language_name
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123695
+Defined in: main.ts:133040
 
 full name of the language
 required field if you don’t specify language_code
@@ -125,7 +125,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:123737
+Defined in: main.ts:133082
 
 the maximum number of returned keywords
 optional field
@@ -142,7 +142,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123686
+Defined in: main.ts:133031
 
 location code
 required field if you don’t specify location_name
@@ -163,7 +163,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123677
+Defined in: main.ts:133022
 
 full name of the location
 required field if you don’t specify location_code
@@ -184,7 +184,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:123742
+Defined in: main.ts:133087
 
 offset in the results array of returned keywords
 optional field
@@ -201,7 +201,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:123732
+Defined in: main.ts:133077
 
 results sorting rules
 optional field
@@ -230,7 +230,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123748
+Defined in: main.ts:133093
 
 user-defined task identifier
 optional field
@@ -248,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123761
+Defined in: main.ts:133106
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:123761
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123795
+Defined in: main.ts:133140
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:123795
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
-Defined in: main.ts:123788
+Defined in: main.ts:133133
 
 #### Parameters
 

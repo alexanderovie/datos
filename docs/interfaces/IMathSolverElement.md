@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverElement
 
-Defined in: main.ts:36314
+Defined in: main.ts:38459
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:36314
 
 > `optional` **expanded\_element**: [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)[]
 
-Defined in: main.ts:36320
+Defined in: main.ts:38465
 
 expanded element
 
@@ -28,7 +28,7 @@ expanded element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36318
+Defined in: main.ts:38463
 
 title of a given link element
 
@@ -38,6 +38,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36316
+Defined in: main.ts:38461
 
 type of element

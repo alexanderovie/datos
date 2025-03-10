@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTasksReadyResultInfo
 
-Defined in: main.ts:223518
+Defined in: main.ts:232381
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:223518
 
 > **new BusinessDataGoogleExtendedReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
 
-Defined in: main.ts:223536
+Defined in: main.ts:232399
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:223536
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:223528
+Defined in: main.ts:232391
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:223532
+Defined in: main.ts:232395
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:223521
+Defined in: main.ts:232384
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:223524
+Defined in: main.ts:232387
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:223526
+Defined in: main.ts:232389
 
 type of search engine
 
@@ -112,7 +112,7 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:223530
+Defined in: main.ts:232393
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:223545
+Defined in: main.ts:232408
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:223545
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:223567
+Defined in: main.ts:232430
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:223567
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
 
-Defined in: main.ts:223560
+Defined in: main.ts:232423
 
 #### Parameters
 

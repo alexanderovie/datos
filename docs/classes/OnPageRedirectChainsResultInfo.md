@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsResultInfo
 
-Defined in: main.ts:170282
+Defined in: main.ts:179627
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170282
 
 > **new OnPageRedirectChainsResultInfo**(`data`?): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-Defined in: main.ts:170297
+Defined in: main.ts:179642
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170297
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:170285
+Defined in: main.ts:179630
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:170287
+Defined in: main.ts:179632
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
 
-Defined in: main.ts:170293
+Defined in: main.ts:179638
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170291
+Defined in: main.ts:179636
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:170289
+Defined in: main.ts:179634
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170306
+Defined in: main.ts:179651
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:170306
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170331
+Defined in: main.ts:179676
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:170331
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-Defined in: main.ts:170324
+Defined in: main.ts:179669
 
 #### Parameters
 

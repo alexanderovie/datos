@@ -6,7 +6,7 @@
 
 # Class: AppendixMoneyData
 
-Defined in: main.ts:236440
+Defined in: main.ts:245303
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236440
 
 > **new AppendixMoneyData**(`data`?): [`AppendixMoneyData`](AppendixMoneyData.md)
 
-Defined in: main.ts:236452
+Defined in: main.ts:245315
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236452
 
 > `optional` **balance**: `number`
 
-Defined in: main.ts:236444
+Defined in: main.ts:245307
 
 amount of money left in your account
 
@@ -54,7 +54,7 @@ amount of money left in your account
 
 > `optional` **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-Defined in: main.ts:236446
+Defined in: main.ts:245309
 
 cost limits
 
@@ -68,7 +68,7 @@ cost limits
 
 > `optional` **statistics**: [`AppendixStatisticsMoneyData`](AppendixStatisticsMoneyData.md)
 
-Defined in: main.ts:236448
+Defined in: main.ts:245311
 
 statistics of your spending
 
@@ -82,7 +82,7 @@ statistics of your spending
 
 > `optional` **total**: `number`
 
-Defined in: main.ts:236442
+Defined in: main.ts:245305
 
 total amount of money deposited to your account
 
@@ -96,7 +96,7 @@ total amount of money deposited to your account
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236461
+Defined in: main.ts:245324
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:236461
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236481
+Defined in: main.ts:245344
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:236481
 
 > `static` **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
 
-Defined in: main.ts:236474
+Defined in: main.ts:245337
 
 #### Parameters
 

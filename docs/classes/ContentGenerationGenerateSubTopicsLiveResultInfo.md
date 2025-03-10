@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
-Defined in: main.ts:182646
+Defined in: main.ts:191485
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:182646
 
 > **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-Defined in: main.ts:182658
+Defined in: main.ts:191497
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182658
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:182648
+Defined in: main.ts:191487
 
 number of input tokens
 
@@ -54,7 +54,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:182652
+Defined in: main.ts:191491
 
 number of new tokens
 
@@ -68,7 +68,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:182650
+Defined in: main.ts:191489
 
 number of output tokens
 
@@ -82,7 +82,7 @@ number of output tokens
 
 > `optional` **sub\_topics**: `string`[]
 
-Defined in: main.ts:182654
+Defined in: main.ts:191493
 
 resulting subtopics
 
@@ -96,7 +96,7 @@ resulting subtopics
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182667
+Defined in: main.ts:191506
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:182667
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182691
+Defined in: main.ts:191530
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:182691
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-Defined in: main.ts:182684
+Defined in: main.ts:191523
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageNonIndexableRequestInfo
 
-Defined in: main.ts:170563
+Defined in: main.ts:179908
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:170563
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:170595
+Defined in: main.ts:179940
 
 array of results filtering parameters
 optional field
@@ -42,7 +42,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:170569
+Defined in: main.ts:179914
 
 ID of the task
 required field
@@ -56,7 +56,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:170574
+Defined in: main.ts:179919
 
 the maximum number of returned pages
 optional field
@@ -69,7 +69,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:170579
+Defined in: main.ts:179924
 
 offset in the results array of returned pages
 optional field

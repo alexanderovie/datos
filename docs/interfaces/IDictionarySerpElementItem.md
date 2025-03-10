@@ -6,7 +6,7 @@
 
 # Interface: IDictionarySerpElementItem
 
-Defined in: main.ts:80137
+Defined in: main.ts:82550
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:80137
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:80145
+Defined in: main.ts:82564
 
 breadcrumb of the Ad element in SERP
 
@@ -32,7 +32,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:80143
+Defined in: main.ts:82562
 
 domain in SERP
 
@@ -42,7 +42,7 @@ domain in SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:80147
+Defined in: main.ts:82566
 
 keyword highlighted in the result
 
@@ -52,7 +52,7 @@ keyword highlighted in the result
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:80155
+Defined in: main.ts:82574
 
 sitelinks
 the links shown below some of search results
@@ -64,15 +64,11 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:82554
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -80,7 +76,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -95,7 +91,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -111,7 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:80159
+Defined in: main.ts:82578
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -123,7 +119,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:80149
+Defined in: main.ts:82568
 
 snippet of the element
 
@@ -133,7 +129,7 @@ snippet of the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:80151
+Defined in: main.ts:82570
 
 description of the results element in SERP
 
@@ -143,7 +139,7 @@ description of the results element in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:80139
+Defined in: main.ts:82558
 
 title of the result in SERP
 
@@ -153,7 +149,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -167,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:80141
+Defined in: main.ts:82560
 
 relevant URL of the Ad element in SERP
 
@@ -177,10 +173,6 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:82556
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

@@ -6,7 +6,7 @@
 
 # Interface: IWorkHours
 
-Defined in: main.ts:41569
+Defined in: main.ts:43946
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:41569
 
 > `optional` **current\_status**: `string`
 
-Defined in: main.ts:41574
+Defined in: main.ts:43951
 
 current status of the establishment
 indicates whether the establishment is opened or closed
@@ -29,7 +29,7 @@ indicates whether the establishment is opened or closed
 
 > `optional` **timetable**: `object`
 
-Defined in: main.ts:41571
+Defined in: main.ts:43948
 
 work hours timetable
 

@@ -6,7 +6,7 @@
 
 # Class: MetricsBundleInfo
 
-Defined in: main.ts:89464
+Defined in: main.ts:98761
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:89464
 
 > **new MetricsBundleInfo**(`data`?): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-Defined in: main.ts:89472
+Defined in: main.ts:98769
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89472
 
 > `optional` **organic**: [`MetricsInfo`](MetricsInfo.md)
 
-Defined in: main.ts:89466
+Defined in: main.ts:98763
 
 ranking and traffic data from organic search
 
@@ -54,7 +54,7 @@ ranking and traffic data from organic search
 
 > `optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
 
-Defined in: main.ts:89468
+Defined in: main.ts:98765
 
 ranking and traffic data from paid search
 
@@ -68,7 +68,7 @@ ranking and traffic data from paid search
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89481
+Defined in: main.ts:98778
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:89481
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89499
+Defined in: main.ts:98796
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:89499
 
 > `static` **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-Defined in: main.ts:89492
+Defined in: main.ts:98789
 
 #### Parameters
 

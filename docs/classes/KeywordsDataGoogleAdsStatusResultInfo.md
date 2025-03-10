@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
-Defined in: main.ts:126080
+Defined in: main.ts:135425
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:126080
 
 > **new KeywordsDataGoogleAdsStatusResultInfo**(`data`?): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-Defined in: main.ts:126098
+Defined in: main.ts:135443
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126098
 
 > `optional` **actual\_data**: `boolean`
 
-Defined in: main.ts:126085
+Defined in: main.ts:135430
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
@@ -57,7 +57,7 @@ if the value is false, we are not able to provide data for the previous month
 
 > `optional` **date\_update**: `string`
 
-Defined in: main.ts:126090
+Defined in: main.ts:135435
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
@@ -74,7 +74,7 @@ example:
 
 > `optional` **last\_month\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:126094
+Defined in: main.ts:135439
 
 the latest month for which search volume data is available
 
@@ -88,7 +88,7 @@ the latest month for which search volume data is available
 
 > `optional` **last\_year\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:126092
+Defined in: main.ts:135437
 
 the latest year for which search volume data is available
 
@@ -102,7 +102,7 @@ the latest year for which search volume data is available
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126107
+Defined in: main.ts:135452
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:126107
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126127
+Defined in: main.ts:135472
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:126127
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-Defined in: main.ts:126120
+Defined in: main.ts:135465
 
 #### Parameters
 

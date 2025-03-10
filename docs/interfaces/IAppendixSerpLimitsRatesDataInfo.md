@@ -6,7 +6,7 @@
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
 
-Defined in: main.ts:231173
+Defined in: main.ts:240036
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231173
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:231180
+Defined in: main.ts:240043
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231180
 
 > `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231182
+Defined in: main.ts:240045
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231182
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:231178
+Defined in: main.ts:240041
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:231178
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231179
+Defined in: main.ts:240042
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:231179
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:231177
+Defined in: main.ts:240040
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:231177
 
 > `optional` **screenshot**: `number`
 
-Defined in: main.ts:231183
+Defined in: main.ts:240046
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:231183
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231175
+Defined in: main.ts:240038
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:231175
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:231174
+Defined in: main.ts:240037
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:231174
 
 > `optional` **tasks\_fixed**: `number`
 
-Defined in: main.ts:231181
+Defined in: main.ts:240044
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:231181
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:231176
+Defined in: main.ts:240039

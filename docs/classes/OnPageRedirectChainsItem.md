@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsItem
 
-Defined in: main.ts:170216
+Defined in: main.ts:179561
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170216
 
 > **new OnPageRedirectChainsItem**(`data`?): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-Defined in: main.ts:170225
+Defined in: main.ts:179570
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170225
 
 > `optional` **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
-Defined in: main.ts:170221
+Defined in: main.ts:179566
 
 contains links that form a chain
 
@@ -54,7 +54,7 @@ contains links that form a chain
 
 > `optional` **is\_redirect\_loop**: `boolean`
 
-Defined in: main.ts:170219
+Defined in: main.ts:179564
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
@@ -69,7 +69,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170234
+Defined in: main.ts:179579
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:170234
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170256
+Defined in: main.ts:179601
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:170256
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-Defined in: main.ts:170249
+Defined in: main.ts:179594
 
 #### Parameters
 

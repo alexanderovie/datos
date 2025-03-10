@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesItem
 
-Defined in: main.ts:217830
+Defined in: main.ts:226693
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:217830
 
 > **new BusinessDataGoogleHotelSearchesItem**(`data`?): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
-Defined in: main.ts:217857
+Defined in: main.ts:226720
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217857
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:217836
+Defined in: main.ts:226699
 
 unique identifier of a hotel entity in Google search
 example:
@@ -56,7 +56,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:217845
+Defined in: main.ts:226708
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -72,7 +72,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 > `optional` **location**: [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
-Defined in: main.ts:217847
+Defined in: main.ts:226710
 
 GPS coordinates of the hotel’s location
 
@@ -86,7 +86,7 @@ GPS coordinates of the hotel’s location
 
 > `optional` **overview\_images**: `string`[]
 
-Defined in: main.ts:217851
+Defined in: main.ts:226714
 
 featured images for a hotel
 
@@ -100,7 +100,7 @@ featured images for a hotel
 
 > `optional` **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
 
-Defined in: main.ts:217853
+Defined in: main.ts:226716
 
 hotel price
 
@@ -114,7 +114,7 @@ hotel price
 
 > `optional` **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
 
-Defined in: main.ts:217849
+Defined in: main.ts:226712
 
 hotel reviews and rating information
 
@@ -128,7 +128,7 @@ hotel reviews and rating information
 
 > `optional` **stars**: `number`
 
-Defined in: main.ts:217841
+Defined in: main.ts:226704
 
 hotel class rating
 class rating that ranges between 1-5 stars
@@ -143,7 +143,7 @@ class rating that ranges between 1-5 stars
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:217838
+Defined in: main.ts:226701
 
 title of the hotel
 
@@ -157,7 +157,7 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:217832
+Defined in: main.ts:226695
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217866
+Defined in: main.ts:226729
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:217866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217895
+Defined in: main.ts:226758
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:217895
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
-Defined in: main.ts:217888
+Defined in: main.ts:226751
 
 #### Parameters
 

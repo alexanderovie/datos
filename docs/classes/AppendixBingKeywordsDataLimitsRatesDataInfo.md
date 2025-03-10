@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231248
+Defined in: main.ts:240111
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231248
 
 > **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231258
+Defined in: main.ts:240121
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231258
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231253
+Defined in: main.ts:240116
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231253
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231249
+Defined in: main.ts:240112
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231249
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231254
+Defined in: main.ts:240117
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231254
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231252
+Defined in: main.ts:240115
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231252
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231251
+Defined in: main.ts:240114
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:231251
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231250
+Defined in: main.ts:240113
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:231250
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231267
+Defined in: main.ts:240130
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:231267
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231289
+Defined in: main.ts:240152
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:231289
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231282
+Defined in: main.ts:240145
 
 #### Parameters
 

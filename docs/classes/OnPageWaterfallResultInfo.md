@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallResultInfo
 
-Defined in: main.ts:171074
+Defined in: main.ts:180419
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171074
 
 > **new OnPageWaterfallResultInfo**(`data`?): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
-Defined in: main.ts:171087
+Defined in: main.ts:180432
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171087
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:171077
+Defined in: main.ts:180422
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:171079
+Defined in: main.ts:180424
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageWaterfallItem`](OnPageWaterfallItem.md)[]
 
-Defined in: main.ts:171083
+Defined in: main.ts:180428
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171081
+Defined in: main.ts:180426
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171096
+Defined in: main.ts:180441
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:171096
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171120
+Defined in: main.ts:180465
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:171120
 
 > `static` **fromJS**(`data`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
 
-Defined in: main.ts:171113
+Defined in: main.ts:180458
 
 #### Parameters
 

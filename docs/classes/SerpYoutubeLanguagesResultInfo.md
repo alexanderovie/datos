@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLanguagesResultInfo
 
-Defined in: main.ts:69357
+Defined in: main.ts:71760
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:69357
 
 > **new SerpYoutubeLanguagesResultInfo**(`data`?): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-Defined in: main.ts:69365
+Defined in: main.ts:71768
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:69365
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:69361
+Defined in: main.ts:71764
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:69359
+Defined in: main.ts:71762
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69374
+Defined in: main.ts:71777
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:69374
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69392
+Defined in: main.ts:71795
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:69392
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-Defined in: main.ts:69385
+Defined in: main.ts:71788
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixMinuteStatisticsDataInfo
 
-Defined in: main.ts:235384
+Defined in: main.ts:244247
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:235384
 
 > **new AppendixMinuteStatisticsDataInfo**(`data`?): [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
-Defined in: main.ts:235418
+Defined in: main.ts:244281
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235418
 
 > `optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235405
+Defined in: main.ts:244268
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:235405
 
 > `optional` **appendix**: [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
-Defined in: main.ts:235391
+Defined in: main.ts:244254
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:235391
 
 > `optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235403
+Defined in: main.ts:244266
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:235403
 
 > `optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235401
+Defined in: main.ts:244264
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:235401
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235407
+Defined in: main.ts:244270
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:235407
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235409
+Defined in: main.ts:244272
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:235409
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235393
+Defined in: main.ts:244256
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:235393
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235395
+Defined in: main.ts:244258
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:235395
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDatasRatesDataInfo`](AppendixKeywordsDatasRatesDataInfo.md)
 
-Defined in: main.ts:235389
+Defined in: main.ts:244252
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:235389
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235397
+Defined in: main.ts:244260
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:235397
 
 > `optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235399
+Defined in: main.ts:244262
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:235399
 
 > `optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235385
+Defined in: main.ts:244248
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:235385
 
 > `optional` **total**: `number`
 
-Defined in: main.ts:235387
+Defined in: main.ts:244250
 
 total amount of money deposited to your account
 
@@ -198,7 +198,7 @@ total amount of money deposited to your account
 
 > `optional` **total\_app\_data**: `number`
 
-Defined in: main.ts:235406
+Defined in: main.ts:244269
 
 #### Implementation of
 
@@ -210,7 +210,7 @@ Defined in: main.ts:235406
 
 > `optional` **total\_appendix**: `number`
 
-Defined in: main.ts:235392
+Defined in: main.ts:244255
 
 #### Implementation of
 
@@ -222,7 +222,7 @@ Defined in: main.ts:235392
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:235404
+Defined in: main.ts:244267
 
 #### Implementation of
 
@@ -234,7 +234,7 @@ Defined in: main.ts:235404
 
 > `optional` **total\_business\_data**: `number`
 
-Defined in: main.ts:235402
+Defined in: main.ts:244265
 
 #### Implementation of
 
@@ -246,7 +246,7 @@ Defined in: main.ts:235402
 
 > `optional` **total\_content\_analysis**: `number`
 
-Defined in: main.ts:235408
+Defined in: main.ts:244271
 
 #### Implementation of
 
@@ -258,7 +258,7 @@ Defined in: main.ts:235408
 
 > `optional` **total\_content\_generation**: `number`
 
-Defined in: main.ts:235410
+Defined in: main.ts:244273
 
 #### Implementation of
 
@@ -270,7 +270,7 @@ Defined in: main.ts:235410
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
-Defined in: main.ts:235394
+Defined in: main.ts:244257
 
 #### Implementation of
 
@@ -282,7 +282,7 @@ Defined in: main.ts:235394
 
 > `optional` **total\_domain\_analytics**: `number`
 
-Defined in: main.ts:235396
+Defined in: main.ts:244259
 
 #### Implementation of
 
@@ -294,7 +294,7 @@ Defined in: main.ts:235396
 
 > `optional` **total\_keywords\_data**: `number`
 
-Defined in: main.ts:235390
+Defined in: main.ts:244253
 
 #### Implementation of
 
@@ -306,7 +306,7 @@ Defined in: main.ts:235390
 
 > `optional` **total\_merchant**: `number`
 
-Defined in: main.ts:235398
+Defined in: main.ts:244261
 
 #### Implementation of
 
@@ -318,7 +318,7 @@ Defined in: main.ts:235398
 
 > `optional` **total\_on\_page**: `number`
 
-Defined in: main.ts:235400
+Defined in: main.ts:244263
 
 #### Implementation of
 
@@ -330,7 +330,7 @@ Defined in: main.ts:235400
 
 > `optional` **total\_serp**: `number`
 
-Defined in: main.ts:235388
+Defined in: main.ts:244251
 
 #### Implementation of
 
@@ -342,7 +342,7 @@ Defined in: main.ts:235388
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:235414
+Defined in: main.ts:244277
 
 time period for grouping
 day in the yyyy-MM-dd format
@@ -358,7 +358,7 @@ minute in the yyyy-MM-dd HH:mm format
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235427
+Defined in: main.ts:244290
 
 #### Parameters
 
@@ -376,7 +376,7 @@ Defined in: main.ts:235427
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235469
+Defined in: main.ts:244332
 
 #### Parameters
 
@@ -394,7 +394,7 @@ Defined in: main.ts:235469
 
 > `static` **fromJS**(`data`): [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
-Defined in: main.ts:235462
+Defined in: main.ts:244325
 
 #### Parameters
 

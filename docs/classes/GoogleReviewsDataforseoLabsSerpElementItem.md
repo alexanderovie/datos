@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108167
+Defined in: main.ts:117474
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108167
 
 > **new GoogleReviewsDataforseoLabsSerpElementItem**(`data`?): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108182
+Defined in: main.ts:117491
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:108182
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,11 @@ Defined in: main.ts:21425
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108178
+Defined in: main.ts:117487
 
 google-defined client id
+unique id of a local establishment;
+can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
@@ -74,7 +76,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108176
+Defined in: main.ts:117483
 
 the additional feature of the review
 
@@ -88,7 +90,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:108174
+Defined in: main.ts:117481
 
 the identifier of a place
 
@@ -102,7 +104,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -122,7 +124,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -160,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:108172
+Defined in: main.ts:117479
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -175,7 +177,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:108169
+Defined in: main.ts:117476
 
 the number of reviews
 
@@ -189,7 +191,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -207,7 +209,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -225,7 +227,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108187
+Defined in: main.ts:117496
 
 #### Parameters
 
@@ -247,7 +249,7 @@ Defined in: main.ts:108187
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108209
+Defined in: main.ts:117518
 
 #### Parameters
 
@@ -269,7 +271,7 @@ Defined in: main.ts:108209
 
 > `static` **fromJS**(`data`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108202
+Defined in: main.ts:117511
 
 #### Parameters
 

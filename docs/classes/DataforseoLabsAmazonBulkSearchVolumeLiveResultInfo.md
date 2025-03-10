@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:112146
+Defined in: main.ts:121491
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:112146
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:112164
+Defined in: main.ts:121509
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112164
 
 > `optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:112160
+Defined in: main.ts:121505
 
 contains keyword search volume data data
 
@@ -54,7 +54,7 @@ contains keyword search volume data data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:112158
+Defined in: main.ts:121503
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112154
+Defined in: main.ts:121499
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112151
+Defined in: main.ts:121496
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112148
+Defined in: main.ts:121493
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:112156
+Defined in: main.ts:121501
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112173
+Defined in: main.ts:121518
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:112173
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112199
+Defined in: main.ts:121544
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:112199
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:112192
+Defined in: main.ts:121537
 
 #### Parameters
 

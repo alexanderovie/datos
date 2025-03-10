@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsExpandedElement
 
-Defined in: main.ts:36597
+Defined in: main.ts:38790
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36597
 
 > **new ProductConsiderationsExpandedElement**(`data`?): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-Defined in: main.ts:36626
+Defined in: main.ts:38819
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36626
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
-Defined in: main.ts:36622
+Defined in: main.ts:38815
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -56,7 +56,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:36605
+Defined in: main.ts:38798
 
 breadcrumb of the Ad element in SERP
 
@@ -70,7 +70,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:36609
+Defined in: main.ts:38802
 
 domain where a link points
 
@@ -84,7 +84,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:36603
+Defined in: main.ts:38796
 
 the title of the featured snippets source page
 
@@ -98,7 +98,7 @@ the title of the featured snippets source page
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:36618
+Defined in: main.ts:38811
 
 search queries related to the elment
 
@@ -112,7 +112,7 @@ search queries related to the elment
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:36607
+Defined in: main.ts:38800
 
 text alongside the link title
 
@@ -126,7 +126,7 @@ text alongside the link title
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:36616
+Defined in: main.ts:38809
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -143,7 +143,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36601
+Defined in: main.ts:38794
 
 title of the carousel item
 
@@ -157,7 +157,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36599
+Defined in: main.ts:38792
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36611
+Defined in: main.ts:38804
 
 URL of element
 
@@ -185,7 +185,7 @@ URL of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36635
+Defined in: main.ts:38828
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:36635
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36665
+Defined in: main.ts:38858
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:36665
 
 > `static` **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-Defined in: main.ts:36658
+Defined in: main.ts:38851
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SocialMetricsInfo
 
-Defined in: main.ts:24083
+Defined in: main.ts:24888
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:24083
 
 > **new SocialMetricsInfo**(`data`?): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-Defined in: main.ts:24091
+Defined in: main.ts:24896
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24091
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:24087
+Defined in: main.ts:24892
 
 likes count
 
@@ -54,7 +54,7 @@ likes count
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24085
+Defined in: main.ts:24890
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24100
+Defined in: main.ts:24905
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:24100
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24118
+Defined in: main.ts:24923
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:24118
 
 > `static` **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-Defined in: main.ts:24111
+Defined in: main.ts:24916
 
 #### Parameters
 

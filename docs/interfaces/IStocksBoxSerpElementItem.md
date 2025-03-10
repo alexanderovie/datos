@@ -6,7 +6,7 @@
 
 # Interface: IStocksBoxSerpElementItem
 
-Defined in: main.ts:35186
+Defined in: main.ts:37213
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35186
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35199
+Defined in: main.ts:37232
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
-Defined in: main.ts:35208
+Defined in: main.ts:37241
 
 contains data provided in the graph of the element
 
@@ -42,15 +42,11 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:37217
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -58,7 +54,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:35195
+Defined in: main.ts:37228
 
 price indicated in the element
 
@@ -68,7 +64,7 @@ price indicated in the element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -83,7 +79,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -99,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35203
+Defined in: main.ts:37236
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -111,7 +107,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:35193
+Defined in: main.ts:37226
 
 text alongside the link title
 
@@ -121,7 +117,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35191
+Defined in: main.ts:37224
 
 source of the element
 indicates the source of the video
@@ -132,7 +128,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:35206
+Defined in: main.ts:37239
 
 results table
 if there are none, equals null
@@ -143,7 +139,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35188
+Defined in: main.ts:37221
 
 title of the row
 
@@ -153,7 +149,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -167,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35197
+Defined in: main.ts:37230
 
 source URL
 
@@ -177,10 +173,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:37219
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

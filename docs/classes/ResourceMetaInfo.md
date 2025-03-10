@@ -6,7 +6,7 @@
 
 # Class: ResourceMetaInfo
 
-Defined in: main.ts:167970
+Defined in: main.ts:177315
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:167970
 
 > **new ResourceMetaInfo**(`data`?): [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:167987
+Defined in: main.ts:177332
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167987
 
 > `optional` **alternative\_text**: `string`
 
-Defined in: main.ts:167973
+Defined in: main.ts:177318
 
 content of the image alt attribute
 the value depends on the resource_type
@@ -55,7 +55,7 @@ the value depends on the resource_type
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:167983
+Defined in: main.ts:177328
 
 image height in px
 
@@ -69,7 +69,7 @@ image height in px
 
 > `optional` **original\_height**: `number`
 
-Defined in: main.ts:167979
+Defined in: main.ts:177324
 
 original image height in px
 
@@ -83,7 +83,7 @@ original image height in px
 
 > `optional` **original\_width**: `number`
 
-Defined in: main.ts:167977
+Defined in: main.ts:177322
 
 original image width in px
 
@@ -97,7 +97,7 @@ original image width in px
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:167975
+Defined in: main.ts:177320
 
 title
 
@@ -111,7 +111,7 @@ title
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:167981
+Defined in: main.ts:177326
 
 image width in px
 
@@ -125,7 +125,7 @@ image width in px
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167996
+Defined in: main.ts:177341
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:167996
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168018
+Defined in: main.ts:177363
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:168018
 
 > `static` **fromJS**(`data`): [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:168011
+Defined in: main.ts:177356
 
 #### Parameters
 

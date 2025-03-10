@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityResultInfo
 
-Defined in: main.ts:171520
+Defined in: main.ts:180865
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171520
 
 > **new OnPageKeywordDensityResultInfo**(`data`?): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
-Defined in: main.ts:171536
+Defined in: main.ts:180881
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171536
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:171523
+Defined in: main.ts:180868
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:171525
+Defined in: main.ts:180870
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)[]
 
-Defined in: main.ts:171532
+Defined in: main.ts:180877
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171530
+Defined in: main.ts:180875
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:171528
+Defined in: main.ts:180873
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
@@ -112,7 +112,7 @@ total number of keywords on the specified website or web page matching the set k
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171545
+Defined in: main.ts:180890
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:171545
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171570
+Defined in: main.ts:180915
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:171570
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
-Defined in: main.ts:171563
+Defined in: main.ts:180908
 
 #### Parameters
 

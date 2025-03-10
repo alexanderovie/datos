@@ -6,7 +6,7 @@
 
 # Class: GoogleNewsNewsSearchSerpElementItem
 
-Defined in: main.ts:46231
+Defined in: main.ts:48618
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:46231
 
 > **new GoogleNewsNewsSearchSerpElementItem**(`data`?): [`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
 
-Defined in: main.ts:46251
+Defined in: main.ts:48638
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:46251
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:46158
+Defined in: main.ts:48545
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:46158
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:46233
+Defined in: main.ts:48620
 
 domain in SERP
 
@@ -74,7 +74,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:46238
+Defined in: main.ts:48625
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -89,7 +89,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:46148
+Defined in: main.ts:48535
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -108,7 +108,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:46145
+Defined in: main.ts:48532
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:46156
+Defined in: main.ts:48543
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -148,7 +148,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:46240
+Defined in: main.ts:48627
 
 snippet of the result in SERP
 
@@ -162,7 +162,7 @@ snippet of the result in SERP
 
 > `optional` **time\_published**: `string`
 
-Defined in: main.ts:46242
+Defined in: main.ts:48629
 
 indicates the time the result was published
 
@@ -176,7 +176,7 @@ indicates the time the result was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:46247
+Defined in: main.ts:48634
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -193,7 +193,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:46152
+Defined in: main.ts:48539
 
 title of the element
 
@@ -211,7 +211,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:46141
+Defined in: main.ts:48528
 
 type of element
 
@@ -229,7 +229,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:46235
+Defined in: main.ts:48622
 
 search URL with refinement parameters
 
@@ -243,7 +243,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:46150
+Defined in: main.ts:48537
 
 the XPath of the element
 
@@ -261,7 +261,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46256
+Defined in: main.ts:48643
 
 #### Parameters
 
@@ -283,7 +283,7 @@ Defined in: main.ts:46256
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:46279
+Defined in: main.ts:48666
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:46279
 
 > `static` **fromJS**(`data`): [`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
 
-Defined in: main.ts:46272
+Defined in: main.ts:48659
 
 #### Parameters
 

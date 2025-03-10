@@ -6,7 +6,7 @@
 
 # Interface: IDiscussionsAndForumsElement
 
-Defined in: main.ts:37648
+Defined in: main.ts:39937
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37648
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37661
+Defined in: main.ts:39950
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37656
+Defined in: main.ts:39945
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **posts\_count**: `number`
 
-Defined in: main.ts:37668
+Defined in: main.ts:39957
 
 number of posts from the discussion on the related source
 
@@ -48,7 +48,7 @@ number of posts from the discussion on the related source
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37659
+Defined in: main.ts:39948
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -59,7 +59,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:37666
+Defined in: main.ts:39955
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37652
+Defined in: main.ts:39941
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37650
+Defined in: main.ts:39939
 
 type of element
 
@@ -92,6 +92,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37654
+Defined in: main.ts:39943
 
 URL

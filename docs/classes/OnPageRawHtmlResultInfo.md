@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlResultInfo
 
-Defined in: main.ts:172416
+Defined in: main.ts:181761
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:172416
 
 > **new OnPageRawHtmlResultInfo**(`data`?): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
-Defined in: main.ts:172429
+Defined in: main.ts:181774
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172429
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:172419
+Defined in: main.ts:181764
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:172421
+Defined in: main.ts:181766
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-Defined in: main.ts:172425
+Defined in: main.ts:181770
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:172423
+Defined in: main.ts:181768
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172438
+Defined in: main.ts:181783
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:172438
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172458
+Defined in: main.ts:181803
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:172458
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
 
-Defined in: main.ts:172451
+Defined in: main.ts:181796
 
 #### Parameters
 

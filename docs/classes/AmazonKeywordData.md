@@ -6,7 +6,7 @@
 
 # Class: AmazonKeywordData
 
-Defined in: main.ts:23779
+Defined in: main.ts:24584
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:23779
 
 > **new AmazonKeywordData**(`data`?): [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:23793
+Defined in: main.ts:24598
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23793
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:23783
+Defined in: main.ts:24588
 
 related keyword
 
@@ -54,7 +54,7 @@ related keyword
 
 > `optional` **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-Defined in: main.ts:23789
+Defined in: main.ts:24594
 
 keyword info for the returned keyword
 
@@ -68,7 +68,7 @@ keyword info for the returned keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:23787
+Defined in: main.ts:24592
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:23785
+Defined in: main.ts:24590
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:23781
+Defined in: main.ts:24586
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23802
+Defined in: main.ts:24607
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:23802
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23823
+Defined in: main.ts:24628
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:23823
 
 > `static` **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:23816
+Defined in: main.ts:24621
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-Defined in: main.ts:105560
+Defined in: main.ts:114849
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105560
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-Defined in: main.ts:105620
+Defined in: main.ts:114909
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105620
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:105573
+Defined in: main.ts:114862
 
 starting date of the time range
 optional field
@@ -58,7 +58,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:105580
+Defined in: main.ts:114869
 
 ending date of the time range
 optional field
@@ -77,7 +77,7 @@ example:
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105567
+Defined in: main.ts:114856
 
 keyword
 required field
@@ -96,13 +96,13 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105610
+Defined in: main.ts:114899
 
-language code
-optional field
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
+unique language identifier
+required field if you don’t specify language_name
+Note: it is required to specify either language_name or language_code
+you can receive the list of available languages with their language_code parameters by making a separate request to the
+https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
@@ -116,13 +116,13 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105602
+Defined in: main.ts:114891
 
 full name of the language
-optional field
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages with their language_name by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
+required field if you don’t specify language_code
+Note: it is required to specify either language_name or language_code
+you can receive the list of available languages with their language_name parameters by making a separate request to the
+https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105594
+Defined in: main.ts:114883
 
 unique location identifier
 required field if you don’t specify location_name
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105587
+Defined in: main.ts:114876
 
 full name of the location
 required field if you don’t specify location_code
@@ -174,7 +174,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105616
+Defined in: main.ts:114905
 
 user-defined task identifier
 optional field
@@ -192,7 +192,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105629
+Defined in: main.ts:114918
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:105629
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105653
+Defined in: main.ts:114942
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:105653
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-Defined in: main.ts:105646
+Defined in: main.ts:114935
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
-Defined in: main.ts:138118
+Defined in: main.ts:147463
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:138118
 
 > **new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
-Defined in: main.ts:138141
+Defined in: main.ts:147486
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138141
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:138133
+Defined in: main.ts:147478
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:138137
+Defined in: main.ts:147482
 
 contains keyword popularity and related data
 
@@ -71,7 +71,7 @@ contains keyword popularity and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:138135
+Defined in: main.ts:147480
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:138120
+Defined in: main.ts:147465
 
 keywords in a POST array
 
@@ -99,7 +99,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138128
+Defined in: main.ts:147473
 
 language code in a POST array
 if there is no data, then the value is null
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138125
+Defined in: main.ts:147470
 
 location code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:138122
+Defined in: main.ts:147467
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138150
+Defined in: main.ts:147495
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:138150
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138181
+Defined in: main.ts:147526
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:138181
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
-Defined in: main.ts:138174
+Defined in: main.ts:147519
 
 #### Parameters
 

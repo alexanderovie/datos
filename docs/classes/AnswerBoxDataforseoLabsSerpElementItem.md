@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107043
+Defined in: main.ts:116210
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107043
 
 > **new AnswerBoxDataforseoLabsSerpElementItem**(`data`?): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107054
+Defined in: main.ts:116221
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:107054
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:107050
+Defined in: main.ts:116217
 
 sitelinks
 the links shown below some of Google’s search results
@@ -76,7 +76,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -96,7 +96,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:107046
+Defined in: main.ts:116213
 
 text
 if there is none, equals null
@@ -149,7 +149,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -167,7 +167,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107059
+Defined in: main.ts:116226
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:107059
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107086
+Defined in: main.ts:116253
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:107086
 
 > `static` **fromJS**(`data`): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107079
+Defined in: main.ts:116246
 
 #### Parameters
 

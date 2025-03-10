@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
-Defined in: main.ts:98844
+Defined in: main.ts:108141
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:98844
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
-Defined in: main.ts:98986
+Defined in: main.ts:108283
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98986
 
 > `optional` **category\_codes**: `string`[]
 
-Defined in: main.ts:98849
+Defined in: main.ts:108146
 
 product and service categories
 required field
@@ -57,7 +57,7 @@ you can download the full list of possible categories
 
 > `optional` **correlate**: `boolean`
 
-Defined in: main.ts:98940
+Defined in: main.ts:108237
 
 correlate data with previously obtained datasets
 optional field
@@ -76,7 +76,7 @@ Note: we do not recommend setting correlate to false
 
 > `optional` **etv\_max**: `number`
 
-Defined in: main.ts:98933
+Defined in: main.ts:108230
 
 maximum current organic ETV of the domain
 optional field
@@ -92,7 +92,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 > `optional` **etv\_min**: `number`
 
-Defined in: main.ts:98929
+Defined in: main.ts:108226
 
 minimum current organic ETV of the domain
 optional field
@@ -108,7 +108,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:98961
+Defined in: main.ts:108258
 
 array of results filtering parameters
 optional field
@@ -131,7 +131,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **first\_date**: `string`
 
-Defined in: main.ts:98860
+Defined in: main.ts:108157
 
 first date of comparison period
 required field
@@ -154,7 +154,7 @@ minimum date: "2020-10-01"
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:98925
+Defined in: main.ts:108222
 
 return subdomains in the API response
 optional field
@@ -172,7 +172,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:98911
+Defined in: main.ts:108208
 
 display results by item type
 optional field
@@ -193,7 +193,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:98902
+Defined in: main.ts:108199
 
 unique language identifier
 required field if you don’t specify language_name
@@ -212,7 +212,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:98895
+Defined in: main.ts:108192
 
 full name of the language
 required field if you don’t specify language_code
@@ -232,7 +232,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:98945
+Defined in: main.ts:108242
 
 the maximum number of domains in the results array
 optional field
@@ -249,7 +249,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:98887
+Defined in: main.ts:108184
 
 unique location identifier
 required field if you don’t specify location_name
@@ -269,7 +269,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:98879
+Defined in: main.ts:108176
 
 full name of the location
 required field if you don’t specify location_code
@@ -289,7 +289,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:98950
+Defined in: main.ts:108247
 
 offset in the results array of returned domains
 optional field
@@ -306,7 +306,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:98976
+Defined in: main.ts:108273
 
 results sorting rules
 optional field
@@ -333,7 +333,7 @@ example:
 
 > `optional` **second\_date**: `string`
 
-Defined in: main.ts:98871
+Defined in: main.ts:108168
 
 second date of comparison period
 required field
@@ -356,7 +356,7 @@ minimum date: "2020-10-01"
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:98982
+Defined in: main.ts:108279
 
 user-defined task identifier
 optional field
@@ -374,7 +374,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **top\_categories\_count**: `number`
 
-Defined in: main.ts:98919
+Defined in: main.ts:108216
 
 number of additional domain categories
 optional field
@@ -394,7 +394,7 @@ maximum value: 5
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98995
+Defined in: main.ts:108292
 
 #### Parameters
 
@@ -412,7 +412,7 @@ Defined in: main.ts:98995
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99045
+Defined in: main.ts:108342
 
 #### Parameters
 
@@ -430,7 +430,7 @@ Defined in: main.ts:99045
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
-Defined in: main.ts:99038
+Defined in: main.ts:108335
 
 #### Parameters
 

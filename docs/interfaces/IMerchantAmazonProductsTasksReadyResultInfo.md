@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonProductsTasksReadyResultInfo
 
-Defined in: main.ts:192707
+Defined in: main.ts:201554
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:192707
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:192717
+Defined in: main.ts:201564
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:192721
+Defined in: main.ts:201568
 
 URL for collecting the results of the Amazon Products Advanced task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:192723
+Defined in: main.ts:201570
 
 URL for collecting the results of the Amazon Products HTML task
 
@@ -48,7 +48,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:192710
+Defined in: main.ts:201557
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:192712
+Defined in: main.ts:201559
 
 search engine specified when setting the task
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:192715
+Defined in: main.ts:201562
 
 type of search engine
 can take the following values: organic
@@ -80,6 +80,6 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:192719
+Defined in: main.ts:201566
 
 user-defined task identifier

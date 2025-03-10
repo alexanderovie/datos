@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDescriptionItemSerpElementItem
 
-Defined in: main.ts:29666
+Defined in: main.ts:31149
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29666
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:29672
+Defined in: main.ts:31161
 
 sitelinks
 the links shown below some of Google’s search results
@@ -34,15 +34,11 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:31153
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -50,7 +46,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -65,7 +61,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29676
+Defined in: main.ts:31165
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -93,7 +89,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:29668
+Defined in: main.ts:31157
 
 text or description of the element in SERP
 
@@ -103,7 +99,7 @@ text or description of the element in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -117,10 +113,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:31155
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
-Defined in: main.ts:156085
+Defined in: main.ts:165430
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:156085
 
 > `optional` **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:156095
+Defined in: main.ts:165440
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:156093
+Defined in: main.ts:165438
 
 number of items in the items array
 
@@ -38,7 +38,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:156087
+Defined in: main.ts:165432
 
 target in a POST array
 
@@ -48,7 +48,7 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:156091
+Defined in: main.ts:165436
 
 total number of relevant items in the database
 total number of main domains referring to your target;

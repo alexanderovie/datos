@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
-Defined in: main.ts:183306
+Defined in: main.ts:192145
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183306
 
 > **new ContentGenerationCheckGrammarLiveResultInfo**(`data`?): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
-Defined in: main.ts:183324
+Defined in: main.ts:192163
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183324
 
 > `optional` **initial\_text**: `string`
 
-Defined in: main.ts:183314
+Defined in: main.ts:192153
 
 initial text in the POST request
 
@@ -54,7 +54,7 @@ initial text in the POST request
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:183308
+Defined in: main.ts:192147
 
 number of input tokens in the POST request
 
@@ -68,7 +68,7 @@ number of input tokens in the POST request
 
 > `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)[]
 
-Defined in: main.ts:183320
+Defined in: main.ts:192159
 
 contains grammar or spelling errors and related data
 
@@ -82,7 +82,7 @@ contains grammar or spelling errors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183318
+Defined in: main.ts:192157
 
 the number of results returned in the items array
 
@@ -96,7 +96,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183316
+Defined in: main.ts:192155
 
 language code in the POST request
 
@@ -110,7 +110,7 @@ language code in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:183312
+Defined in: main.ts:192151
 
 number of new tokens in the response
 
@@ -124,7 +124,7 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:183310
+Defined in: main.ts:192149
 
 number of output tokens in the response
 
@@ -138,7 +138,7 @@ number of output tokens in the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183333
+Defined in: main.ts:192172
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:183333
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183360
+Defined in: main.ts:192199
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:183360
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
-Defined in: main.ts:183353
+Defined in: main.ts:192192
 
 #### Parameters
 

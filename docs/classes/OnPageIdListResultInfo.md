@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListResultInfo
 
-Defined in: main.ts:163282
+Defined in: main.ts:172627
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:163282
 
 > **new OnPageIdListResultInfo**(`data`?): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-Defined in: main.ts:163308
+Defined in: main.ts:172653
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163308
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:163302
+Defined in: main.ts:172647
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:163297
+Defined in: main.ts:172642
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:163292
+Defined in: main.ts:172637
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:163284
+Defined in: main.ts:172629
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:163304
+Defined in: main.ts:172649
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:163300
+Defined in: main.ts:172645
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:163287
+Defined in: main.ts:172632
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163317
+Defined in: main.ts:172662
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:163317
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163346
+Defined in: main.ts:172691
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:163346
 
 > `static` **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-Defined in: main.ts:163339
+Defined in: main.ts:172684
 
 #### Parameters
 

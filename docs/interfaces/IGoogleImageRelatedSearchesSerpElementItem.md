@@ -6,7 +6,7 @@
 
 # Interface: IGoogleImageRelatedSearchesSerpElementItem
 
-Defined in: main.ts:51047
+Defined in: main.ts:53450
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:51047
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:51053
+Defined in: main.ts:53456
 
 items of the element
 
@@ -32,7 +32,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:51051
+Defined in: main.ts:53454
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:50821
+Defined in: main.ts:53224
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:50818
+Defined in: main.ts:53221
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:51057
+Defined in: main.ts:53460
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50814
+Defined in: main.ts:53217
 
 type of element
 
@@ -101,7 +101,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:50823
+Defined in: main.ts:53226
 
 the XPath of the element
 

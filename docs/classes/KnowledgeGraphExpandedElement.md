@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphExpandedElement
 
-Defined in: main.ts:30085
+Defined in: main.ts:31622
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30085
 
 > **new KnowledgeGraphExpandedElement**(`data`?): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
-Defined in: main.ts:30110
+Defined in: main.ts:31647
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:30110
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30093
+Defined in: main.ts:31630
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:30089
+Defined in: main.ts:31626
 
 title of a given element
 
@@ -68,7 +68,7 @@ title of a given element
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:30099
+Defined in: main.ts:31636
 
 images of the element
 
@@ -82,7 +82,7 @@ images of the element
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:30097
+Defined in: main.ts:31634
 
 text alongside the link title
 
@@ -96,7 +96,7 @@ text alongside the link title
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:30106
+Defined in: main.ts:31643
 
 table element
 
@@ -110,7 +110,7 @@ table element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:30104
+Defined in: main.ts:31641
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,7 +127,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30095
+Defined in: main.ts:31632
 
 title of the result in SERP
 
@@ -141,7 +141,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30087
+Defined in: main.ts:31624
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30091
+Defined in: main.ts:31628
 
 relevant URL
 
@@ -169,7 +169,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30119
+Defined in: main.ts:31656
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:30119
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30148
+Defined in: main.ts:31685
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:30148
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
 
-Defined in: main.ts:30141
+Defined in: main.ts:31678
 
 #### Parameters
 

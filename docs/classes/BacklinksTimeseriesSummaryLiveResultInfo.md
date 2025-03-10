@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
-Defined in: main.ts:159744
+Defined in: main.ts:169089
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:159744
 
 > **new BacklinksTimeseriesSummaryLiveResultInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:159766
+Defined in: main.ts:169111
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159766
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:159751
+Defined in: main.ts:169096
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:159756
+Defined in: main.ts:169101
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:159758
+Defined in: main.ts:169103
 
 group_range from a POST array
 
@@ -88,7 +88,7 @@ group_range from a POST array
 
 > `optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)[]
 
-Defined in: main.ts:159762
+Defined in: main.ts:169107
 
 contains relevant summary data
 
@@ -102,7 +102,7 @@ contains relevant summary data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:159760
+Defined in: main.ts:169105
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:159746
+Defined in: main.ts:169091
 
 target from a POST array
 
@@ -130,7 +130,7 @@ target from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159775
+Defined in: main.ts:169120
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:159775
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159801
+Defined in: main.ts:169146
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:159801
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:159794
+Defined in: main.ts:169139
 
 #### Parameters
 

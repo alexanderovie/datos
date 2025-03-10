@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppIntersectionLiveItem
 
-Defined in: main.ts:125096
+Defined in: main.ts:134441
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:125096
 
 > **new DataforseoLabsAppleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
-Defined in: main.ts:125108
+Defined in: main.ts:134453
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125108
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:125104
+Defined in: main.ts:134449
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -60,7 +60,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:125100
+Defined in: main.ts:134445
 
 keyword data for the returned keyword
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125098
+Defined in: main.ts:134443
 
 search engine type
 
@@ -88,7 +88,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125117
+Defined in: main.ts:134462
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:125117
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125142
+Defined in: main.ts:134487
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:125142
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
-Defined in: main.ts:125135
+Defined in: main.ts:134480
 
 #### Parameters
 

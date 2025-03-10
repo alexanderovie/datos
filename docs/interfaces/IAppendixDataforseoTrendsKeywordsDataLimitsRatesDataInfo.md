@@ -6,7 +6,7 @@
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231431
+Defined in: main.ts:240294
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231431
 
 > `optional` **demography**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231434
+Defined in: main.ts:240297
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231434
 
 > `optional` **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231432
+Defined in: main.ts:240295
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231432
 
 > `optional` **merged\_data**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231435
+Defined in: main.ts:240298
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:231435
 
 > `optional` **subregion\_interests**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231433
+Defined in: main.ts:240296

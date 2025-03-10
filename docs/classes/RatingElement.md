@@ -6,7 +6,7 @@
 
 # Class: RatingElement
 
-Defined in: main.ts:21896
+Defined in: main.ts:22701
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:21896
 
 > **new RatingElement**(`data`?): [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:21915
+Defined in: main.ts:22720
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:21915
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21911
+Defined in: main.ts:22716
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:21905
+Defined in: main.ts:22710
 
 the maximum value for a rating_type
 
@@ -70,7 +70,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:21899
+Defined in: main.ts:22704
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -85,7 +85,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21907
+Defined in: main.ts:22712
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:21901
+Defined in: main.ts:22706
 
 the value of the rating
 
@@ -113,7 +113,7 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:21903
+Defined in: main.ts:22708
 
 the amount of feedbac
 
@@ -127,7 +127,7 @@ the amount of feedbac
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:21924
+Defined in: main.ts:22729
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:21924
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:21946
+Defined in: main.ts:22751
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:21946
 
 > `static` **fromJS**(`data`): [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:21939
+Defined in: main.ts:22744
 
 #### Parameters
 

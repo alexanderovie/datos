@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsErrorsRequestInfo
 
-Defined in: main.ts:90534
+Defined in: main.ts:99831
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:90534
 
 > **new DataforseoLabsErrorsRequestInfo**(`data`?): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
-Defined in: main.ts:90568
+Defined in: main.ts:99865
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:90568
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:90557
+Defined in: main.ts:99854
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:90564
+Defined in: main.ts:99861
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:90550
+Defined in: main.ts:99847
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: dataforseo_labs/related_keywords/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:90539
+Defined in: main.ts:99836
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:90544
+Defined in: main.ts:99841
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90577
+Defined in: main.ts:99874
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:90577
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90598
+Defined in: main.ts:99895
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:90598
 
 > `static` **fromJS**(`data`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
-Defined in: main.ts:90591
+Defined in: main.ts:99888
 
 #### Parameters
 

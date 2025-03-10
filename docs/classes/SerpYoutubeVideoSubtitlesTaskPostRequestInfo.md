@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
-Defined in: main.ts:71446
+Defined in: main.ts:73849
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:71446
 
 > **new SerpYoutubeVideoSubtitlesTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
-Defined in: main.ts:71542
+Defined in: main.ts:73945
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:71542
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:71499
+Defined in: main.ts:73902
 
 device type
 optional field
@@ -56,7 +56,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71495
+Defined in: main.ts:73898
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:71488
+Defined in: main.ts:73891
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71481
+Defined in: main.ts:73884
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71474
+Defined in: main.ts:73877
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:71504
+Defined in: main.ts:73907
 
 device operating system
 optional field
@@ -149,7 +149,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:71538
+Defined in: main.ts:73941
 
 notification URL of a completed task
 optional field
@@ -172,7 +172,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:71527
+Defined in: main.ts:73930
 
 postback_url datatype
 required field if you specify postback_url
@@ -190,7 +190,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:71521
+Defined in: main.ts:73924
 
 return URL for sending task results
 optional field
@@ -213,7 +213,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:71460
+Defined in: main.ts:73863
 
 task priority
 optional field
@@ -233,7 +233,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **subtitles\_language**: `string`
 
-Defined in: main.ts:71463
+Defined in: main.ts:73866
 
 language code of original text
 you can get the language code from YouTube Video Info result
@@ -248,7 +248,7 @@ you can get the language code from YouTube Video Info result
 
 > `optional` **subtitles\_translate\_language**: `string`
 
-Defined in: main.ts:71467
+Defined in: main.ts:73870
 
 language code of translated text
 possible values:
@@ -264,7 +264,7 @@ possible values:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:71510
+Defined in: main.ts:73913
 
 user-defined task identifier
 optional field
@@ -282,7 +282,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:71452
+Defined in: main.ts:73855
 
 ID of the video
 required field
@@ -300,7 +300,7 @@ Y8Wu4rSNJms
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71551
+Defined in: main.ts:73954
 
 #### Parameters
 
@@ -318,7 +318,7 @@ Defined in: main.ts:71551
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71581
+Defined in: main.ts:73984
 
 #### Parameters
 
@@ -336,7 +336,7 @@ Defined in: main.ts:71581
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)
 
-Defined in: main.ts:71574
+Defined in: main.ts:73977
 
 #### Parameters
 

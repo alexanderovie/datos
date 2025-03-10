@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSearchLiveItem
 
-Defined in: main.ts:178508
+Defined in: main.ts:187347
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:178508
 
 > `optional` **content\_info**: [`AnalysisContentInfo`](../classes/AnalysisContentInfo.md)
 
-Defined in: main.ts:178559
+Defined in: main.ts:187398
 
 contains data on citations from the given url
 
@@ -28,7 +28,7 @@ contains data on citations from the given url
 
 > `optional` **country**: `string`
 
-Defined in: main.ts:178538
+Defined in: main.ts:187377
 
 country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint
@@ -39,7 +39,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:178514
+Defined in: main.ts:187353
 
 domain name
 
@@ -49,7 +49,7 @@ domain name
 
 > `optional` **domain\_rank**: `string`
 
-Defined in: main.ts:178530
+Defined in: main.ts:187369
 
 rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
@@ -62,7 +62,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:178535
+Defined in: main.ts:187374
 
 date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -75,7 +75,7 @@ example:
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:178541
+Defined in: main.ts:187380
 
 main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -86,7 +86,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:178516
+Defined in: main.ts:187355
 
 main domain
 
@@ -96,7 +96,7 @@ main domain
 
 > `optional` **page\_category**: `number`[]
 
-Defined in: main.ts:178549
+Defined in: main.ts:187388
 
 contains all relevant page categories
 product and service categories relevant for the page
@@ -108,7 +108,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `string`[]
 
-Defined in: main.ts:178551
+Defined in: main.ts:187390
 
 page types
 
@@ -116,9 +116,9 @@ page types
 
 ### ratings?
 
-> `optional` **ratings**: [`ContentAnalysisRatingInfo`](../classes/ContentAnalysisRatingInfo.md)[]
+> `optional` **ratings**: [`ContentRatingInfo`](../classes/ContentRatingInfo.md)[]
 
-Defined in: main.ts:178554
+Defined in: main.ts:187393
 
 ratings found on the page
 all ratings found on the page based on microdata
@@ -129,7 +129,7 @@ all ratings found on the page based on microdata
 
 > `optional` **score**: `string`
 
-Defined in: main.ts:178545
+Defined in: main.ts:187384
 
 citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
@@ -141,7 +141,7 @@ the higher the score, the more value the related citation has
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](../classes/SocialMetricsInfo.md)[]
 
-Defined in: main.ts:178557
+Defined in: main.ts:187396
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -152,7 +152,7 @@ data on social media interactions associated with the content based on website e
 
 > `optional` **spam\_score**: `string`
 
-Defined in: main.ts:178525
+Defined in: main.ts:187364
 
 backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -164,7 +164,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:178510
+Defined in: main.ts:187349
 
 type of element
 
@@ -174,7 +174,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:178512
+Defined in: main.ts:187351
 
 URL where the citation was found
 
@@ -184,7 +184,7 @@ URL where the citation was found
 
 > `optional` **url\_rank**: `number`
 
-Defined in: main.ts:178521
+Defined in: main.ts:187360
 
 rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;

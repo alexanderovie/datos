@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
-Defined in: main.ts:141614
+Defined in: main.ts:150959
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:141614
 
 > **new KeywordsDataBingKeywordsForSiteTaskPostRequestInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
-Defined in: main.ts:141724
+Defined in: main.ts:151069
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:141724
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:141677
+Defined in: main.ts:151022
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:141687
+Defined in: main.ts:151032
 
 ending date of the time range
 optional field
@@ -82,7 +82,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:141664
+Defined in: main.ts:151009
 
 device type
 optional field
@@ -100,7 +100,7 @@ default value: all
 
 > `optional` **keywords\_negative**: `string`[]
 
-Defined in: main.ts:141658
+Defined in: main.ts:151003
 
 keywords negative array
 optional field
@@ -118,7 +118,7 @@ the specified keywords will be converted to lowercase format
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:141652
+Defined in: main.ts:150997
 
 search engine language code
 required field if you don’t specify language_name
@@ -136,7 +136,7 @@ en, fr, de
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:141646
+Defined in: main.ts:150991
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -154,7 +154,7 @@ English, French, German
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141632
+Defined in: main.ts:150977
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -173,7 +173,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:141640
+Defined in: main.ts:150985
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -193,7 +193,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:141625
+Defined in: main.ts:150970
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -212,7 +212,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:141709
+Defined in: main.ts:151054
 
 notification URL of a completed task
 optional field
@@ -235,7 +235,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:141698
+Defined in: main.ts:151043
 
 return URL for sending task results
 optional field
@@ -258,7 +258,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:141714
+Defined in: main.ts:151059
 
 Bing search partners type
 optional field
@@ -275,7 +275,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:141669
+Defined in: main.ts:151014
 
 results sorting parameters
 optional field
@@ -292,7 +292,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:141720
+Defined in: main.ts:151065
 
 user-defined task identifier
 optional field
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:141618
+Defined in: main.ts:150963
 
 domain or URL
 required field
@@ -326,7 +326,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:141733
+Defined in: main.ts:151078
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:141733
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:141768
+Defined in: main.ts:151113
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Defined in: main.ts:141768
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
-Defined in: main.ts:141761
+Defined in: main.ts:151106
 
 #### Parameters
 

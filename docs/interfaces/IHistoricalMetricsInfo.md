@@ -6,7 +6,7 @@
 
 # Interface: IHistoricalMetricsInfo
 
-Defined in: main.ts:111513
+Defined in: main.ts:120858
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:111513
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:111529
+Defined in: main.ts:120874
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -31,7 +31,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:111524
+Defined in: main.ts:120869
 
 total count of organic SERPs that contain the domain
 
@@ -41,7 +41,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:111522
+Defined in: main.ts:120867
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -54,7 +54,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:111517
+Defined in: main.ts:120862
 
 month for which the data is provided
 
@@ -64,6 +64,6 @@ month for which the data is provided
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:111515
+Defined in: main.ts:120860
 
 year for which the data is provided

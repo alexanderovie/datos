@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainPagesLiveItem
 
-Defined in: main.ts:154411
+Defined in: main.ts:163756
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:154411
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:154455
+Defined in: main.ts:163800
 
 type of encoding
 
@@ -28,7 +28,7 @@ type of encoding
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:154419
+Defined in: main.ts:163764
 
 domain
 domain where the page was found
@@ -39,7 +39,7 @@ domain where the page was found
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:154453
+Defined in: main.ts:163798
 
 page size after encoding
 indicates the size of the encoded page, in bytes
@@ -50,7 +50,7 @@ indicates the size of the encoded page, in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:154443
+Defined in: main.ts:163788
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,7 +63,7 @@ example:
 
 > `optional` **first\_visited**: `string`
 
-Defined in: main.ts:154433
+Defined in: main.ts:163778
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -77,7 +77,7 @@ example:
 
 > `optional` **ip**: `string`
 
-Defined in: main.ts:154427
+Defined in: main.ts:163772
 
 Internet Protocol address
 
@@ -87,7 +87,7 @@ Internet Protocol address
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:154448
+Defined in: main.ts:163793
 
 location header
 indicates the URL to redirect a page to if exists
@@ -98,7 +98,7 @@ indicates the URL to redirect a page to if exists
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:154416
+Defined in: main.ts:163761
 
 main website domain
 main website domain does not include subdomains
@@ -109,7 +109,7 @@ main website domain does not include subdomains
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:154457
+Defined in: main.ts:163802
 
 types of media used to display a page
 
@@ -119,7 +119,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
 
-Defined in: main.ts:154461
+Defined in: main.ts:163806
 
 page meta data
 
@@ -129,7 +129,7 @@ page meta data
 
 > `optional` **page**: `string`
 
-Defined in: main.ts:154425
+Defined in: main.ts:163770
 
 page URL
 relevant page URL
@@ -140,7 +140,7 @@ relevant page URL
 
 > `optional` **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
 
-Defined in: main.ts:154463
+Defined in: main.ts:163808
 
 contains backlink data for this page
 
@@ -150,7 +150,7 @@ contains backlink data for this page
 
 > `optional` **prev\_visited**: `string`
 
-Defined in: main.ts:154438
+Defined in: main.ts:163783
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -163,7 +163,7 @@ example:
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:154459
+Defined in: main.ts:163804
 
 server version
 
@@ -173,7 +173,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:154450
+Defined in: main.ts:163795
 
 indicates the page size, in bytes
 
@@ -183,7 +183,7 @@ indicates the page size, in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:154445
+Defined in: main.ts:163790
 
 HTTP status code of the page
 
@@ -193,7 +193,7 @@ HTTP status code of the page
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:154422
+Defined in: main.ts:163767
 
 top-level domain
 top-level domain in the DNS root zone
@@ -204,6 +204,6 @@ top-level domain in the DNS root zone
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:154413
+Defined in: main.ts:163758
 
 type of element

@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsCountryResultInfo
 
-Defined in: main.ts:78576
+Defined in: main.ts:80979
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:78576
 
 > **new SerpBaiduLocationsCountryResultInfo**(`data`?): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
-Defined in: main.ts:78593
+Defined in: main.ts:80996
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78593
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:78586
+Defined in: main.ts:80989
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:78578
+Defined in: main.ts:80981
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:78584
+Defined in: main.ts:80987
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:78580
+Defined in: main.ts:80983
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:78589
+Defined in: main.ts:80992
 
 location type
 only City is supported for all countries except China (where Country is also supported)
@@ -113,7 +113,7 @@ only City is supported for all countries except China (where Country is also sup
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78602
+Defined in: main.ts:81005
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:78602
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78623
+Defined in: main.ts:81026
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:78623
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
 
-Defined in: main.ts:78616
+Defined in: main.ts:81019
 
 #### Parameters
 

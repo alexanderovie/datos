@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:147887
+Defined in: main.ts:157232
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147887
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147896
+Defined in: main.ts:157241
 
 target keywords
 required field
@@ -35,7 +35,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:147920
+Defined in: main.ts:157265
 
 search engine language code
 required field if don’t specify language_name
@@ -49,7 +49,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:147914
+Defined in: main.ts:157259
 
 full name of search engine language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147908
+Defined in: main.ts:157253
 
 search engine location code
 required field if you don’t specify location_name
@@ -77,7 +77,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147902
+Defined in: main.ts:157247
 
 full name of search engine location
 required field if you don’t specify location_code 
@@ -91,7 +91,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147933
+Defined in: main.ts:157278
 
 user-defined task identifier
 optional field
@@ -105,11 +105,11 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:147927
+Defined in: main.ts:157272
 
 use clickstream data to provide results
 optional field
 if set to true, you will get DataForSEO search volume values based on clickstream data;
 if set to false, Bing search volume data will be used to calculate DataForSEO search volume;
 default value: true;
-Note: some locations may not be available for calculating Bing search volume, in this case search volume will be calculated based on clickstream data even if you set this parameter to false
+Note: Bing search volume is available for locations provided in Bing Search Volume History Locations and Bing Ads Locations endpoints; search volume values for any other location are calculated based on clickstream data even if you set this parameter to false

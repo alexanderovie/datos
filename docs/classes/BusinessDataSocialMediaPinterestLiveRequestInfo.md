@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
-Defined in: main.ts:230142
+Defined in: main.ts:239005
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:230142
 
 > **new BusinessDataSocialMediaPinterestLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
-Defined in: main.ts:230159
+Defined in: main.ts:239022
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230159
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230155
+Defined in: main.ts:239018
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:230149
+Defined in: main.ts:239012
 
 target URLs
 required field
@@ -77,7 +77,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230168
+Defined in: main.ts:239031
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:230168
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230190
+Defined in: main.ts:239053
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:230190
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
-Defined in: main.ts:230183
+Defined in: main.ts:239046
 
 #### Parameters
 

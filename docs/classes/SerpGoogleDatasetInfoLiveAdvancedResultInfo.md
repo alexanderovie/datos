@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedResultInfo
 
-Defined in: main.ts:59940
+Defined in: main.ts:62343
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:59940
 
 > **new SerpGoogleDatasetInfoLiveAdvancedResultInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedResultInfo`](SerpGoogleDatasetInfoLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:59974
+Defined in: main.ts:62377
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:59974
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:59950
+Defined in: main.ts:62353
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:59955
+Defined in: main.ts:62358
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:59964
+Defined in: main.ts:62367
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -88,7 +88,7 @@ possible item type: dataset
 
 > `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](SerpGoogleDatasetAdvancedItem.md)[]
 
-Defined in: main.ts:59970
+Defined in: main.ts:62373
 
 elements of search results found in SERP
 
@@ -102,7 +102,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:59968
+Defined in: main.ts:62371
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:59943
+Defined in: main.ts:62346
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -131,7 +131,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:59947
+Defined in: main.ts:62350
 
 language code in a POST array
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:59960
+Defined in: main.ts:62363
 
 search refinement chips
 
@@ -159,7 +159,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:59945
+Defined in: main.ts:62348
 
 search engine domain in a POST array
 
@@ -173,7 +173,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:59966
+Defined in: main.ts:62369
 
 total number of results in SERP
 
@@ -187,7 +187,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:59958
+Defined in: main.ts:62361
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -202,7 +202,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:59983
+Defined in: main.ts:62386
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:59983
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60018
+Defined in: main.ts:62421
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:60018
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedResultInfo`](SerpGoogleDatasetInfoLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:60011
+Defined in: main.ts:62414
 
 #### Parameters
 

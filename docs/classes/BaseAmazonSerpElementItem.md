@@ -6,7 +6,7 @@
 
 # Class: BaseAmazonSerpElementItem
 
-Defined in: main.ts:23206
+Defined in: main.ts:24011
 
 ## Extended by
 
@@ -30,7 +30,7 @@ Defined in: main.ts:23206
 
 > **new BaseAmazonSerpElementItem**(`data`?): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-Defined in: main.ts:23220
+Defined in: main.ts:24025
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:23220
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23218
+Defined in: main.ts:24023
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: main.ts:23218
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23214
+Defined in: main.ts:24019
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23211
+Defined in: main.ts:24016
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -86,7 +86,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23208
+Defined in: main.ts:24013
 
 type of element
 
@@ -100,7 +100,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23216
+Defined in: main.ts:24021
 
 the XPath of the element
 
@@ -114,7 +114,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23230
+Defined in: main.ts:24035
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:23230
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23291
+Defined in: main.ts:24096
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:23291
 
 > `static` **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-Defined in: main.ts:23239
+Defined in: main.ts:24044
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:93692
+Defined in: main.ts:102903
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:93692
 
 > **new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:93826
+Defined in: main.ts:103037
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93826
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:93742
+Defined in: main.ts:102953
 
 keyword search depth
 optional field
@@ -64,7 +64,7 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:93790
+Defined in: main.ts:103001
 
 array of results filtering parameters
 optional field
@@ -95,7 +95,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:93764
+Defined in: main.ts:102975
 
 ignore highly similar keywords
 optional field
@@ -112,7 +112,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:93759
+Defined in: main.ts:102970
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -131,7 +131,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:93747
+Defined in: main.ts:102958
 
 include data for the seed keyword
 optional field
@@ -148,7 +148,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:93752
+Defined in: main.ts:102963
 
 include data from SERP for each keyword
 optional field
@@ -165,7 +165,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93698
+Defined in: main.ts:102909
 
 keyword
 required field
@@ -183,7 +183,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93730
+Defined in: main.ts:102941
 
 language code
 required field if you don’t specify language_name
@@ -203,7 +203,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:93722
+Defined in: main.ts:102933
 
 full name of the language
 required field if you don’t specify language_code
@@ -223,7 +223,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:93811
+Defined in: main.ts:103022
 
 the maximum number of returned keywords
 optional field
@@ -240,7 +240,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93714
+Defined in: main.ts:102925
 
 location code
 required field if you don’t specify location_name
@@ -260,7 +260,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:93706
+Defined in: main.ts:102917
 
 full name of the location
 required field if you don’t specify location_code
@@ -280,7 +280,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:93816
+Defined in: main.ts:103027
 
 offset in the results array of returned keywords
 optional field
@@ -297,7 +297,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:93806
+Defined in: main.ts:103017
 
 results sorting rules
 optional field
@@ -325,7 +325,7 @@ example:
 
 > `optional` **replace\_with\_core\_keyword**: `boolean`
 
-Defined in: main.ts:93771
+Defined in: main.ts:102982
 
 return data for core keyword
 optional field
@@ -344,7 +344,7 @@ default value: false
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:93822
+Defined in: main.ts:103033
 
 user-defined task identifier
 optional field
@@ -362,7 +362,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93835
+Defined in: main.ts:103046
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Defined in: main.ts:93835
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93875
+Defined in: main.ts:103086
 
 #### Parameters
 
@@ -398,7 +398,7 @@ Defined in: main.ts:93875
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:93868
+Defined in: main.ts:103079
 
 #### Parameters
 

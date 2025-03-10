@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:100104
+Defined in: main.ts:109401
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:100104
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:100155
+Defined in: main.ts:109452
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100155
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:100129
+Defined in: main.ts:109426
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:100109
+Defined in: main.ts:109406
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:100114
+Defined in: main.ts:109411
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:100145
+Defined in: main.ts:109442
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:100151
+Defined in: main.ts:109448
 
 user-defined task identifier
 optional field
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100164
+Defined in: main.ts:109461
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:100164
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100193
+Defined in: main.ts:109490
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: main.ts:100193
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:100186
+Defined in: main.ts:109483
 
 #### Parameters
 

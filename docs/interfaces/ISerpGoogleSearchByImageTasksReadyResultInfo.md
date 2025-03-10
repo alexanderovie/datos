@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleSearchByImageTasksReadyResultInfo
 
-Defined in: main.ts:53058
+Defined in: main.ts:55461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:53058
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:53068
+Defined in: main.ts:55471
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:53076
+Defined in: main.ts:55479
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:53079
+Defined in: main.ts:55482
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:53073
+Defined in: main.ts:55476
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:53061
+Defined in: main.ts:55464
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:53063
+Defined in: main.ts:55466
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:53066
+Defined in: main.ts:55469
 
 type of search engine
 can take the following values: search_by_image
@@ -93,6 +93,6 @@ can take the following values: search_by_image
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:53070
+Defined in: main.ts:55473
 
 user-defined task identifier

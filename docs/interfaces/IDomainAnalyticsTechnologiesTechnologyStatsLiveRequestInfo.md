@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
-Defined in: main.ts:87096
+Defined in: main.ts:96393
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87096
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:87110
+Defined in: main.ts:96407
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:87117
+Defined in: main.ts:96414
 
 ending date of the time range
 optional field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:87123
+Defined in: main.ts:96420
 
 user-defined task identifier
 optional field
@@ -63,7 +63,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:87102
+Defined in: main.ts:96399
 
 target technology
 required field

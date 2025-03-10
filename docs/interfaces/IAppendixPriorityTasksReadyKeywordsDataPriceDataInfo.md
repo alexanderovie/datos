@@ -6,7 +6,7 @@
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
-Defined in: main.ts:236558
+Defined in: main.ts:245421
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:236558
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:236565
+Defined in: main.ts:245428
 
 cost, USD
 
@@ -28,7 +28,7 @@ cost, USD
 
 > `optional` **cost\_type**: `string`
 
-Defined in: main.ts:236563
+Defined in: main.ts:245426
 
 charge type
 can take the following values:

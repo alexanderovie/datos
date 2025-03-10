@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106222
+Defined in: main.ts:115247
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106222
 
 > **new KnowledgeGraphDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106246
+Defined in: main.ts:115272
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:106246
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:106232
+Defined in: main.ts:115257
 
 card id
 
@@ -74,7 +74,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:106240
+Defined in: main.ts:115265
 
 google-defined client id
 
@@ -88,7 +88,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:106230
+Defined in: main.ts:115255
 
 description of the results element in SERP
 
@@ -102,7 +102,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:106236
+Defined in: main.ts:115261
 
 URL of the image from knowledge graph
 
@@ -116,9 +116,10 @@ URL of the image from knowledge graph
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:106242
+Defined in: main.ts:115268
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -130,7 +131,7 @@ elements of search results found in SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:106238
+Defined in: main.ts:115263
 
 URL of the logo from knowledge graph
 
@@ -144,7 +145,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -164,7 +165,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -183,7 +184,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -202,7 +203,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106224
+Defined in: main.ts:115249
 
 search engine type
 
@@ -216,7 +217,7 @@ search engine type
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:106228
+Defined in: main.ts:115253
 
 subtitle of the item
 
@@ -230,7 +231,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106226
+Defined in: main.ts:115251
 
 title of the result in SERP
 
@@ -244,7 +245,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -262,9 +263,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106234
+Defined in: main.ts:115259
 
-relevant URL of the Ad element in SERP
+relevant URL in SERP
 
 #### Implementation of
 
@@ -276,7 +277,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -294,7 +295,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106251
+Defined in: main.ts:115277
 
 #### Parameters
 
@@ -316,7 +317,7 @@ Defined in: main.ts:106251
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106282
+Defined in: main.ts:115308
 
 #### Parameters
 
@@ -338,7 +339,7 @@ Defined in: main.ts:106282
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106275
+Defined in: main.ts:115301
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: Interests
 
-Defined in: main.ts:136666
+Defined in: main.ts:146011
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:136666
 
 > **new Interests**(`data`?): [`Interests`](Interests.md)
 
-Defined in: main.ts:136675
+Defined in: main.ts:146020
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:136675
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:136669
+Defined in: main.ts:146014
 
 relevant keyword
 the data included in the values element is based on this keyword
@@ -55,7 +55,7 @@ the data included in the values element is based on this keyword
 
 > `optional` **values**: [`Values`](Values.md)[]
 
-Defined in: main.ts:136671
+Defined in: main.ts:146016
 
 contains data on relative keyword popularity by country or region
 
@@ -69,7 +69,7 @@ contains data on relative keyword popularity by country or region
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136684
+Defined in: main.ts:146029
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:136684
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136706
+Defined in: main.ts:146051
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:136706
 
 > `static` **fromJS**(`data`): [`Interests`](Interests.md)
 
-Defined in: main.ts:136699
+Defined in: main.ts:146044
 
 #### Parameters
 

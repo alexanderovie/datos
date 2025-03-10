@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackSerpElementItem
 
-Defined in: main.ts:35686
+Defined in: main.ts:37761
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35686
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:35693
+Defined in: main.ts:37774
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:35698
+Defined in: main.ts:37779
 
 ending date of stay
 in the format “year-month-date”
@@ -48,7 +48,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:35700
+Defined in: main.ts:37781
 
 contains arrays of specific images
 
@@ -58,15 +58,11 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:37765
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -74,7 +70,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -89,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -105,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35704
+Defined in: main.ts:37785
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -117,7 +113,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35688
+Defined in: main.ts:37769
 
 title of the row
 
@@ -127,7 +123,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -141,10 +137,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:37767
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

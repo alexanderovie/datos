@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
-Defined in: main.ts:109575
+Defined in: main.ts:118920
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:109575
 
 > `optional` **correlate**: `boolean`
 
-Defined in: main.ts:109632
+Defined in: main.ts:118977
 
 correlate data with previously obtained datasets
 optional field
@@ -33,7 +33,7 @@ we recommend always setting correlate to true
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:109618
+Defined in: main.ts:118963
 
 starting date of the time range
 optional field
@@ -47,7 +47,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:109625
+Defined in: main.ts:118970
 
 ending date of the time range
 optional field
@@ -62,7 +62,7 @@ example:
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:109637
+Defined in: main.ts:118982
 
 ignore highly similar keywords
 optional field
@@ -75,7 +75,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:109645
+Defined in: main.ts:118990
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -91,7 +91,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:109612
+Defined in: main.ts:118957
 
 language code
 required field if you don’t specify language_name
@@ -107,7 +107,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:109604
+Defined in: main.ts:118949
 
 full name of the language
 required field if you don’t specify language_code
@@ -123,7 +123,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:109596
+Defined in: main.ts:118941
 
 location code
 required field if you don’t specify location_name
@@ -139,7 +139,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:109588
+Defined in: main.ts:118933
 
 full name of the location
 required field if you don’t specify location_code
@@ -155,7 +155,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:109651
+Defined in: main.ts:118996
 
 user-defined task identifier
 optional field
@@ -169,7 +169,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:109580
+Defined in: main.ts:118925
 
 domain
 required field

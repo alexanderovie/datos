@@ -6,7 +6,7 @@
 
 # Class: ShoppingSerpElementItem
 
-Defined in: main.ts:33481
+Defined in: main.ts:35322
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33481
 
 > **new ShoppingSerpElementItem**(`data`?): [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
 
-Defined in: main.ts:33493
+Defined in: main.ts:35340
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:33493
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-Defined in: main.ts:33485
+Defined in: main.ts:35332
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:35326
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IShoppingSerpElementItem`](../interfaces/IShoppingSerpElementItem.md).[`position`](../interfaces/IShoppingSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33489
+Defined in: main.ts:35336
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33483
+Defined in: main.ts:35330
 
 title of the row
 
@@ -163,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -181,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:35328
 
 the XPath of the element
 
@@ -189,17 +185,13 @@ the XPath of the element
 
 [`IShoppingSerpElementItem`](../interfaces/IShoppingSerpElementItem.md).[`xpath`](../interfaces/IShoppingSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33498
+Defined in: main.ts:35345
 
 #### Parameters
 
@@ -221,7 +213,7 @@ Defined in: main.ts:33498
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33522
+Defined in: main.ts:35371
 
 #### Parameters
 
@@ -243,7 +235,7 @@ Defined in: main.ts:33522
 
 > `static` **fromJS**(`data`): [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
 
-Defined in: main.ts:33515
+Defined in: main.ts:35364
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTasksReadyResultInfo
 
-Defined in: main.ts:214034
+Defined in: main.ts:222889
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:214034
 
 > **new BusinessDataTasksReadyResultInfo**(`data`?): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
 
-Defined in: main.ts:214052
+Defined in: main.ts:222907
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:214052
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:214044
+Defined in: main.ts:222899
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:214048
+Defined in: main.ts:222903
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:214037
+Defined in: main.ts:222892
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:214040
+Defined in: main.ts:222895
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -98,7 +98,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:214042
+Defined in: main.ts:222897
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:214046
+Defined in: main.ts:222901
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214061
+Defined in: main.ts:222916
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:214061
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214083
+Defined in: main.ts:222938
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:214083
 
 > `static` **fromJS**(`data`): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
 
-Defined in: main.ts:214076
+Defined in: main.ts:222931
 
 #### Parameters
 

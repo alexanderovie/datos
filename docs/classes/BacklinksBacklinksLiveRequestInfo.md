@@ -6,7 +6,7 @@
 
 # Class: BacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:151564
+Defined in: main.ts:160909
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:151564
 
 > **new BacklinksBacklinksLiveRequestInfo**(`data`?): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:151687
+Defined in: main.ts:161032
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151687
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:151660
+Defined in: main.ts:161005
 
 set what backlinks to return and count
 optional field
@@ -61,7 +61,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:151584
+Defined in: main.ts:160929
 
 detailed results grouping type
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:151677
+Defined in: main.ts:161022
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -102,7 +102,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:151597
+Defined in: main.ts:160942
 
 response field
 required field if you choose to specify custom_mode
@@ -127,7 +127,7 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:151618
+Defined in: main.ts:160963
 
 array of results filtering parameters
 optional field
@@ -156,7 +156,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:151671
+Defined in: main.ts:161016
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -174,7 +174,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:151665
+Defined in: main.ts:161010
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -191,7 +191,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:151651
+Defined in: main.ts:160996
 
 the maximum number of returned backlinks
 optional field
@@ -208,7 +208,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:151577
+Defined in: main.ts:160922
 
 results grouping type
 optional field
@@ -228,7 +228,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:151638
+Defined in: main.ts:160983
 
 offset in the results array of the returned backlinks
 optional field
@@ -246,7 +246,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:151632
+Defined in: main.ts:160977
 
 results sorting rules
 optional field
@@ -272,7 +272,7 @@ example:
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:151646
+Defined in: main.ts:160991
 
 token for subsequent requests
 optional field
@@ -292,7 +292,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:151683
+Defined in: main.ts:161028
 
 user-defined task identifier
 optional field
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:151569
+Defined in: main.ts:160914
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -327,7 +327,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:151601
+Defined in: main.ts:160946
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode
@@ -343,7 +343,7 @@ can be set from 1 to 1000
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151696
+Defined in: main.ts:161041
 
 #### Parameters
 
@@ -361,7 +361,7 @@ Defined in: main.ts:151696
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151741
+Defined in: main.ts:161086
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: main.ts:151741
 
 > `static` **fromJS**(`data`): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:151734
+Defined in: main.ts:161079
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BaseMerchantSerpElementItem
 
-Defined in: main.ts:21708
+Defined in: main.ts:22513
 
 ## Extended by
 
@@ -29,7 +29,7 @@ Defined in: main.ts:21708
 
 > **new BaseMerchantSerpElementItem**(`data`?): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-Defined in: main.ts:21724
+Defined in: main.ts:22529
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: main.ts:21724
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21722
+Defined in: main.ts:22527
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: main.ts:21722
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21720
+Defined in: main.ts:22525
 
 alignment of the element in SERP
 can take the following values:
@@ -71,7 +71,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21716
+Defined in: main.ts:22521
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -86,7 +86,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21713
+Defined in: main.ts:22518
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21710
+Defined in: main.ts:22515
 
 type of element
 
@@ -115,7 +115,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:21734
+Defined in: main.ts:22539
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:21734
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:21790
+Defined in: main.ts:22595
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:21790
 
 > `static` **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-Defined in: main.ts:21743
+Defined in: main.ts:22548
 
 #### Parameters
 

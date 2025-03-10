@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
-Defined in: main.ts:115062
+Defined in: main.ts:124407
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:115062
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-Defined in: main.ts:115072
+Defined in: main.ts:124417
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:115072
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:115068
+Defined in: main.ts:124413
 
 data on the intersection
 
@@ -58,7 +58,7 @@ data on the intersection
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:115066
+Defined in: main.ts:124411
 
 keyword data for the returned keyword
 
@@ -72,7 +72,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115064
+Defined in: main.ts:124409
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115081
+Defined in: main.ts:124426
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:115081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115106
+Defined in: main.ts:124451
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:115106
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-Defined in: main.ts:115099
+Defined in: main.ts:124444
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: TwitterSerpElementItem
 
-Defined in: main.ts:32349
+Defined in: main.ts:34046
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32349
 
 > **new TwitterSerpElementItem**(`data`?): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
-Defined in: main.ts:32363
+Defined in: main.ts:34066
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32363
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`TwitterElement`](TwitterElement.md)[]
 
-Defined in: main.ts:32355
+Defined in: main.ts:34058
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:34050
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`position`](../interfaces/ITwitterSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32359
+Defined in: main.ts:34062
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32351
+Defined in: main.ts:34054
 
 title of the row
 
@@ -163,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -181,7 +177,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32353
+Defined in: main.ts:34056
 
 source URL
 
@@ -195,7 +191,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:34052
 
 the XPath of the element
 
@@ -203,17 +199,13 @@ the XPath of the element
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`xpath`](../interfaces/ITwitterSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32368
+Defined in: main.ts:34071
 
 #### Parameters
 
@@ -235,7 +227,7 @@ Defined in: main.ts:32368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32393
+Defined in: main.ts:34098
 
 #### Parameters
 
@@ -257,7 +249,7 @@ Defined in: main.ts:32393
 
 > `static` **fromJS**(`data`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
-Defined in: main.ts:32386
+Defined in: main.ts:34091
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
-Defined in: main.ts:217918
+Defined in: main.ts:226781
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:217918
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:217924
+Defined in: main.ts:226787
 
 unique identifier of a hotel entity in Google search
 example:
@@ -30,7 +30,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:217933
+Defined in: main.ts:226796
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -42,7 +42,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 > `optional` **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
 
-Defined in: main.ts:217935
+Defined in: main.ts:226798
 
 GPS coordinates of the hotel’s location
 
@@ -52,7 +52,7 @@ GPS coordinates of the hotel’s location
 
 > `optional` **overview\_images**: `string`[]
 
-Defined in: main.ts:217939
+Defined in: main.ts:226802
 
 featured images for a hotel
 
@@ -62,7 +62,7 @@ featured images for a hotel
 
 > `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
-Defined in: main.ts:217941
+Defined in: main.ts:226804
 
 hotel price
 
@@ -72,7 +72,7 @@ hotel price
 
 > `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
-Defined in: main.ts:217937
+Defined in: main.ts:226800
 
 hotel reviews and rating information
 
@@ -82,7 +82,7 @@ hotel reviews and rating information
 
 > `optional` **stars**: `number`
 
-Defined in: main.ts:217929
+Defined in: main.ts:226792
 
 hotel class rating
 class rating that ranges between 1-5 stars
@@ -93,7 +93,7 @@ class rating that ranges between 1-5 stars
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:217926
+Defined in: main.ts:226789
 
 title of the hotel
 
@@ -103,6 +103,6 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:217920
+Defined in: main.ts:226783
 
 type of element

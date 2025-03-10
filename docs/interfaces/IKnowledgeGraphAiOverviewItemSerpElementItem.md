@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphAiOverviewItemSerpElementItem
 
-Defined in: main.ts:31006
+Defined in: main.ts:32617
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31006
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:31010
+Defined in: main.ts:32627
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -34,7 +34,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](../classes/AiOverviewElement.md)[]
 
-Defined in: main.ts:31013
+Defined in: main.ts:32630
 
 additional items present in the element
 if there are none, equals null
@@ -45,15 +45,11 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:32621
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -61,7 +57,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -76,7 +72,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -92,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31020
+Defined in: main.ts:32637
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -104,7 +100,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
-Defined in: main.ts:31016
+Defined in: main.ts:32633
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -115,7 +111,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -129,10 +125,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:32623
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

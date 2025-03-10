@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataDayStatisticsDataInfo
 
-Defined in: main.ts:233876
+Defined in: main.ts:242739
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:233876
 
 > **new AppendixBingKeywordsDataDayStatisticsDataInfo**(`data`?): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
-Defined in: main.ts:233887
+Defined in: main.ts:242750
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233887
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233881
+Defined in: main.ts:242744
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:233881
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233877
+Defined in: main.ts:242740
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:233877
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233882
+Defined in: main.ts:242745
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:233882
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233880
+Defined in: main.ts:242743
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:233880
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233879
+Defined in: main.ts:242742
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:233879
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233878
+Defined in: main.ts:242741
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:233878
 
 > `optional` **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:233883
+Defined in: main.ts:242746
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:233883
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233896
+Defined in: main.ts:242759
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:233896
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:233919
+Defined in: main.ts:242782
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:233919
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
-Defined in: main.ts:233912
+Defined in: main.ts:242775
 
 #### Parameters
 

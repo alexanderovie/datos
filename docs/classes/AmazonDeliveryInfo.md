@@ -6,7 +6,7 @@
 
 # Class: AmazonDeliveryInfo
 
-Defined in: main.ts:23611
+Defined in: main.ts:24416
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:23611
 
 > **new AmazonDeliveryInfo**(`data`?): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:23629
+Defined in: main.ts:24434
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23629
 
 > `optional` **delivery\_date\_from**: `string`
 
-Defined in: main.ts:23615
+Defined in: main.ts:24420
 
 the earliest date when the product can be shipped
 
@@ -54,7 +54,7 @@ the earliest date when the product can be shipped
 
 > `optional` **delivery\_date\_to**: `string`
 
-Defined in: main.ts:23617
+Defined in: main.ts:24422
 
 the latest date when the product can be delivered
 
@@ -68,7 +68,7 @@ the latest date when the product can be delivered
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:23613
+Defined in: main.ts:24418
 
 message accompanying the delivery information as posted by the seller
 
@@ -82,7 +82,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:23625
+Defined in: main.ts:24430
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -98,7 +98,7 @@ if free delivery is available, the value is null
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
 
-Defined in: main.ts:23619
+Defined in: main.ts:24424
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -112,7 +112,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
 
-Defined in: main.ts:23621
+Defined in: main.ts:24426
 
 the latest date when the product can be delivered with a fast delivery option
 
@@ -126,7 +126,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23638
+Defined in: main.ts:24443
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:23638
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23660
+Defined in: main.ts:24465
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:23660
 
 > `static` **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:23653
+Defined in: main.ts:24458
 
 #### Parameters
 

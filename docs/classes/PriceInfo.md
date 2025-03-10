@@ -6,7 +6,7 @@
 
 # Class: PriceInfo
 
-Defined in: main.ts:23921
+Defined in: main.ts:24726
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:23921
 
 > **new PriceInfo**(`data`?): [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:23943
+Defined in: main.ts:24748
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23943
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:23933
+Defined in: main.ts:24738
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -55,7 +55,7 @@ ISO code of the currency applied to the price
 
 > `optional` **current**: `number`
 
-Defined in: main.ts:23924
+Defined in: main.ts:24729
 
 current price
 indicates the current price of the product or service featured in the result
@@ -70,7 +70,7 @@ indicates the current price of the product or service featured in the result
 
 > `optional` **displayed\_price**: `string`
 
-Defined in: main.ts:23939
+Defined in: main.ts:24744
 
 price string in the result
 raw price string as provided in the result
@@ -85,7 +85,7 @@ raw price string as provided in the result
 
 > `optional` **is\_price\_range**: `boolean`
 
-Defined in: main.ts:23936
+Defined in: main.ts:24741
 
 price is provided as a range
 indicates whether a price is provided in a range
@@ -100,7 +100,7 @@ indicates whether a price is provided in a range
 
 > `optional` **max\_value**: `number`
 
-Defined in: main.ts:23930
+Defined in: main.ts:24735
 
 the maximum price
 the maximum price of the product or service as indicated in the result
@@ -115,7 +115,7 @@ the maximum price of the product or service as indicated in the result
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:23927
+Defined in: main.ts:24732
 
 regular price
 indicates the regular price of the product or service with no discounts applied
@@ -130,7 +130,7 @@ indicates the regular price of the product or service with no discounts applied
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23952
+Defined in: main.ts:24757
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:23952
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23974
+Defined in: main.ts:24779
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:23974
 
 > `static` **fromJS**(`data`): [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:23967
+Defined in: main.ts:24772
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IPopularProductsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108864
+Defined in: main.ts:118196
 
 ## Extends
 
@@ -22,9 +22,10 @@ Defined in: main.ts:108864
 
 > `optional` **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
 
-Defined in: main.ts:108866
+Defined in: main.ts:118199
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -32,7 +33,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -48,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -63,7 +64,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -78,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -92,7 +93,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

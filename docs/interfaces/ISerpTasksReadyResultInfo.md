@@ -6,7 +6,7 @@
 
 # Interface: ISerpTasksReadyResultInfo
 
-Defined in: main.ts:28209
+Defined in: main.ts:29618
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:28209
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:28219
+Defined in: main.ts:29628
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:28227
+Defined in: main.ts:29636
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:28230
+Defined in: main.ts:29639
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:28224
+Defined in: main.ts:29633
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:28212
+Defined in: main.ts:29621
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:28214
+Defined in: main.ts:29623
 
 search engine specified when setting the task
 
@@ -82,10 +82,10 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:28217
+Defined in: main.ts:29626
 
 type of search engine
-example: organic
+example: finance_quote
 
 ***
 
@@ -93,6 +93,6 @@ example: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:28221
+Defined in: main.ts:29630
 
 user-defined task identifier

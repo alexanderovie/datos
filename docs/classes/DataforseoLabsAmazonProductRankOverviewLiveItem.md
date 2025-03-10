@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
-Defined in: main.ts:113972
+Defined in: main.ts:123317
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113972
 
 > **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
-Defined in: main.ts:113984
+Defined in: main.ts:123329
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113984
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:113978
+Defined in: main.ts:123323
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -56,7 +56,7 @@ for more information, refer to this help center guide
 
 > `optional` **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:113980
+Defined in: main.ts:123325
 
 average keyword position of the product
 
@@ -70,7 +70,7 @@ average keyword position of the product
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113974
+Defined in: main.ts:123319
 
 search engine type
 
@@ -84,7 +84,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113993
+Defined in: main.ts:123338
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:113993
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114012
+Defined in: main.ts:123357
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:114012
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
-Defined in: main.ts:114005
+Defined in: main.ts:123350
 
 #### Parameters
 

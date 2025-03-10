@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
-Defined in: main.ts:134228
+Defined in: main.ts:143573
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134228
 
 > **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
-Defined in: main.ts:134254
+Defined in: main.ts:143599
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134254
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:134241
+Defined in: main.ts:143586
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:134246
+Defined in: main.ts:143591
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
 
-Defined in: main.ts:134250
+Defined in: main.ts:143595
 
 items on the Google Trends page
 
@@ -86,7 +86,7 @@ items on the Google Trends page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:134248
+Defined in: main.ts:143593
 
 the number of results returned in the items array
 
@@ -100,7 +100,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:134230
+Defined in: main.ts:143575
 
 keywords in a POST array
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134238
+Defined in: main.ts:143583
 
 language code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:134235
+Defined in: main.ts:143580
 
 location code in a POST array
 if there is no data, then the value is null
@@ -144,7 +144,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:134232
+Defined in: main.ts:143577
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134263
+Defined in: main.ts:143608
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:134263
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134295
+Defined in: main.ts:143640
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: main.ts:134295
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
-Defined in: main.ts:134288
+Defined in: main.ts:143633
 
 #### Parameters
 

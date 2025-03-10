@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo
 
-Defined in: main.ts:130278
+Defined in: main.ts:139623
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:130278
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:130287
+Defined in: main.ts:139632
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:130291
+Defined in: main.ts:139636
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:130285
+Defined in: main.ts:139630
 
 type of the task
 
@@ -48,7 +48,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:130281
+Defined in: main.ts:139626
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:130283
+Defined in: main.ts:139628
 
 search engine specified when setting the task
 
@@ -69,6 +69,6 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:130289
+Defined in: main.ts:139634
 
 user-defined task identifier

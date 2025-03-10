@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
-Defined in: main.ts:186942
+Defined in: main.ts:195781
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186942
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:186950
+Defined in: main.ts:195789
 
 description of the product in Google Shopping SERP
 
@@ -32,7 +32,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:186946
+Defined in: main.ts:195785
 
 domain in SERP
 
@@ -42,7 +42,7 @@ domain in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21813
+Defined in: main.ts:22618
 
 alignment of the element in SERP
 can take the following values:
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21809
+Defined in: main.ts:22614
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -73,7 +73,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21806
+Defined in: main.ts:22611
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:186955
+Defined in: main.ts:195794
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -99,7 +99,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186948
+Defined in: main.ts:195787
 
 product title
 
@@ -109,7 +109,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21803
+Defined in: main.ts:22608
 
 type of element
 
@@ -123,7 +123,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:186952
+Defined in: main.ts:195791
 
 URL to the product page on the seller’s website
 
@@ -133,6 +133,6 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186944
+Defined in: main.ts:195783
 
 XPath of the element

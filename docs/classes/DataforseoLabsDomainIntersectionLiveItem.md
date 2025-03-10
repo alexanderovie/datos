@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
 
-Defined in: main.ts:103584
+Defined in: main.ts:112873
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:103584
 
 > **new DataforseoLabsDomainIntersectionLiveItem**(`data`?): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
-Defined in: main.ts:103598
+Defined in: main.ts:112887
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103598
 
 > `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:103591
+Defined in: main.ts:112880
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -55,7 +55,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:103588
+Defined in: main.ts:112877
 
 keyword data for the returned keyword
 
@@ -69,7 +69,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103586
+Defined in: main.ts:112875
 
 search engine type
 
@@ -83,7 +83,7 @@ search engine type
 
 > `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:103594
+Defined in: main.ts:112883
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -98,7 +98,7 @@ the list of supported SERP elements can be found below
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103607
+Defined in: main.ts:112896
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:103607
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103627
+Defined in: main.ts:112916
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:103627
 
 > `static` **fromJS**(`data`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
 
-Defined in: main.ts:103620
+Defined in: main.ts:112909
 
 #### Parameters
 

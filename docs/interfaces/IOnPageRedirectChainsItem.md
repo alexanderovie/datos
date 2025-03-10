@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRedirectChainsItem
 
-Defined in: main.ts:170272
+Defined in: main.ts:179617
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:170272
 
 > `optional` **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
 
-Defined in: main.ts:170277
+Defined in: main.ts:179622
 
 contains links that form a chain
 
@@ -28,7 +28,7 @@ contains links that form a chain
 
 > `optional` **is\_redirect\_loop**: `boolean`
 
-Defined in: main.ts:170275
+Defined in: main.ts:179620
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL

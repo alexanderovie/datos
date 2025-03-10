@@ -6,7 +6,7 @@
 
 # Interface: IGoogleAdsAdvertisersAdsAdvertiserSerpElementItem
 
-Defined in: main.ts:61209
+Defined in: main.ts:63612
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:61209
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:61214
+Defined in: main.ts:63617
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -33,7 +33,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:61222
+Defined in: main.ts:63625
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -44,7 +44,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:61216
+Defined in: main.ts:63619
 
 advertiser location
 
@@ -54,7 +54,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:61068
+Defined in: main.ts:63471
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -69,7 +69,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:61065
+Defined in: main.ts:63468
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -85,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:61211
+Defined in: main.ts:63614
 
 title of the element
 
@@ -95,7 +95,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:61061
+Defined in: main.ts:63464
 
 type of element
 
@@ -109,7 +109,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:61219
+Defined in: main.ts:63622
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads

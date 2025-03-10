@@ -6,7 +6,7 @@
 
 # Interface: IAppStoreMetricsBundleInfo
 
-Defined in: main.ts:124503
+Defined in: main.ts:133848
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:124503
 
 > `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
-Defined in: main.ts:124505
+Defined in: main.ts:133850
 
 ranking data from App Store organic search

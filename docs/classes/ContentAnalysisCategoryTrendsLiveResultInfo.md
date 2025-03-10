@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveResultInfo
 
-Defined in: main.ts:181122
+Defined in: main.ts:189961
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:181122
 
 > **new ContentAnalysisCategoryTrendsLiveResultInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
-Defined in: main.ts:181165
+Defined in: main.ts:190004
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181165
 
 > `optional` **connotation\_types**: `object`
 
-Defined in: main.ts:181142
+Defined in: main.ts:189981
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type
@@ -60,7 +60,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:181157
+Defined in: main.ts:189996
 
 countries
 contains countries and citation count in each country
@@ -80,7 +80,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:181126
+Defined in: main.ts:189965
 
 date for which the data is provided
 
@@ -94,7 +94,7 @@ date for which the data is provided
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:181161
+Defined in: main.ts:190000
 
 languages
 contains languages and citation count in each language
@@ -114,7 +114,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:181150
+Defined in: main.ts:189989
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -130,7 +130,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `object`
 
-Defined in: main.ts:181153
+Defined in: main.ts:189992
 
 page types
 contains page types and citation count per each page type
@@ -149,7 +149,7 @@ contains page types and citation count per each page type
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:181131
+Defined in: main.ts:189970
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date
@@ -164,7 +164,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 > `optional` **sentiment\_connotations**: `object`
 
-Defined in: main.ts:181138
+Defined in: main.ts:189977
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment
@@ -184,7 +184,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:181146
+Defined in: main.ts:189985
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -200,7 +200,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
 
-Defined in: main.ts:181134
+Defined in: main.ts:189973
 
 top domains citing the target keyword
 contains objects with top domains citing the target category and citation count per each domain
@@ -215,7 +215,7 @@ contains objects with top domains citing the target category and citation count 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:181128
+Defined in: main.ts:189967
 
 total number of results in our database relevant to your request
 
@@ -229,7 +229,7 @@ total number of results in our database relevant to your request
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:181124
+Defined in: main.ts:189963
 
 type of element
 
@@ -243,7 +243,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181174
+Defined in: main.ts:190013
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:181174
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181244
+Defined in: main.ts:190083
 
 #### Parameters
 
@@ -279,7 +279,7 @@ Defined in: main.ts:181244
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)
 
-Defined in: main.ts:181237
+Defined in: main.ts:190076
 
 #### Parameters
 

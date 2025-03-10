@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
-Defined in: main.ts:105356
+Defined in: main.ts:114645
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105356
 
 > **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
-Defined in: main.ts:105374
+Defined in: main.ts:114663
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105374
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:105370
+Defined in: main.ts:114659
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:105368
+Defined in: main.ts:114657
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105364
+Defined in: main.ts:114653
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105362
+Defined in: main.ts:114651
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105358
+Defined in: main.ts:114647
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:105360
+Defined in: main.ts:114649
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:105366
+Defined in: main.ts:114655
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105383
+Defined in: main.ts:114672
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:105383
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105410
+Defined in: main.ts:114699
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:105410
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
-Defined in: main.ts:105403
+Defined in: main.ts:114692
 
 #### Parameters
 

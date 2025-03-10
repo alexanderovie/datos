@@ -6,7 +6,7 @@
 
 # Interface: IAppendixInfo
 
-Defined in: main.ts:231239
+Defined in: main.ts:240102
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231239
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:231243
+Defined in: main.ts:240106
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231243
 
 > `optional` **task\_get**: `number`
 
-Defined in: main.ts:231241
+Defined in: main.ts:240104
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231241
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:231240
+Defined in: main.ts:240103
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:231240
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:231242
+Defined in: main.ts:240105

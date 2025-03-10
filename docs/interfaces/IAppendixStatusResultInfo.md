@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatusResultInfo
 
-Defined in: main.ts:240014
+Defined in: main.ts:248877
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:240014
 
 > `optional` **api**: `string`
 
-Defined in: main.ts:240029
+Defined in: main.ts:248892
 
 name of the API
 the list of APIs:
@@ -41,7 +41,7 @@ content_generation
 
 > `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](../classes/AppendixStatusEndpointsInfo.md)[]
 
-Defined in: main.ts:240041
+Defined in: main.ts:248904
 
 array of objects that contain status information for API endpoints
 
@@ -51,7 +51,7 @@ array of objects that contain status information for API endpoints
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:240039
+Defined in: main.ts:248902
 
 current status
 you can find all information about your API statuses for the last 60 days here

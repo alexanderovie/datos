@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskPostRequestInfo
 
-Defined in: main.ts:60390
+Defined in: main.ts:62793
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:60390
 
 > **new SerpGoogleAdsAdvertisersTaskPostRequestInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
 
-Defined in: main.ts:60467
+Defined in: main.ts:62870
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60467
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:60398
+Defined in: main.ts:62801
 
 keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:60414
+Defined in: main.ts:62817
 
 search engine location code
 optional field
@@ -80,7 +80,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:60421
+Defined in: main.ts:62824
 
 GPS coordinates of a location
 optional field
@@ -99,7 +99,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:60406
+Defined in: main.ts:62809
 
 full name of search engine location
 optional field
@@ -119,7 +119,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:60463
+Defined in: main.ts:62866
 
 notification URL of a completed task
 optional field
@@ -142,7 +142,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:60452
+Defined in: main.ts:62855
 
 postback_url datatype
 required field if you specify postback_url
@@ -160,7 +160,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:60446
+Defined in: main.ts:62849
 
 return URL for sending task results
 optional field
@@ -183,7 +183,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:60429
+Defined in: main.ts:62832
 
 task priority
 optional field
@@ -203,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:60435
+Defined in: main.ts:62838
 
 user-defined task identifier
 optional field
@@ -221,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60476
+Defined in: main.ts:62879
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:60476
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60501
+Defined in: main.ts:62904
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:60501
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
 
-Defined in: main.ts:60494
+Defined in: main.ts:62897
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveItem
 
-Defined in: main.ts:124510
+Defined in: main.ts:133855
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:124510
 
 > **new DataforseoLabsAppleAppCompetitorsLiveItem**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
-Defined in: main.ts:124535
+Defined in: main.ts:133880
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124535
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:124514
+Defined in: main.ts:133859
 
 id of the competitor app
 
@@ -54,7 +54,7 @@ id of the competitor app
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:124518
+Defined in: main.ts:133863
 
 average position of the app in App Store SERP
 Note: average position is calculated for intersected keywords only;
@@ -70,7 +70,7 @@ the value for a given application may differ when combined with different target
 
 > `optional` **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-Defined in: main.ts:124528
+Defined in: main.ts:133873
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -86,7 +86,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 > `optional` **full\_metrics**: [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-Defined in: main.ts:124531
+Defined in: main.ts:133876
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
@@ -101,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:124524
+Defined in: main.ts:133869
 
 number of intersecting keywords
 
@@ -115,7 +115,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:124512
+Defined in: main.ts:133857
 
 search engine type
 
@@ -129,7 +129,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:124522
+Defined in: main.ts:133867
 
 sum of all app positions in App Store SERP
 Note: sum position is calculated for intersected keywords only;
@@ -145,7 +145,7 @@ the value for a given application may differ when combined with different target
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124544
+Defined in: main.ts:133889
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:124544
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124567
+Defined in: main.ts:133912
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:124567
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)
 
-Defined in: main.ts:124560
+Defined in: main.ts:133905
 
 #### Parameters
 

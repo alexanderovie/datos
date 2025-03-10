@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteLiveAdvancedRequestInfo
 
-Defined in: main.ts:56384
+Defined in: main.ts:58787
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:56384
 
 > **new SerpGoogleAutocompleteLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:56457
+Defined in: main.ts:58860
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:56457
 
 > `optional` **client**: `string`
 
-Defined in: main.ts:56447
+Defined in: main.ts:58850
 
 search client for autocomplete
 optional field
@@ -69,7 +69,7 @@ products-cc — used in google shopping search
 
 > `optional` **cursor\_pointer**: `number`
 
-Defined in: main.ts:56430
+Defined in: main.ts:58833
 
 search bar cursor pointer
 optional field
@@ -92,7 +92,7 @@ which que|ry is s – "cursor_pointer": 9
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:56392
+Defined in: main.ts:58795
 
 keyword
 required field
@@ -112,7 +112,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:56419
+Defined in: main.ts:58822
 
 search engine language code
 required field if you don’t specify language_name
@@ -131,7 +131,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:56412
+Defined in: main.ts:58815
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -150,7 +150,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:56405
+Defined in: main.ts:58808
 
 search engine location code
 required field if you don’t specify location_name;
@@ -168,7 +168,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:56399
+Defined in: main.ts:58802
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -187,7 +187,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:56453
+Defined in: main.ts:58856
 
 user-defined task identifier
 optional field
@@ -205,7 +205,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:56466
+Defined in: main.ts:58869
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:56466
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:56490
+Defined in: main.ts:58893
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:56490
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:56483
+Defined in: main.ts:58886
 
 #### Parameters
 

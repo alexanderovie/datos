@@ -6,7 +6,7 @@
 
 # Interface: IRectangle
 
-Defined in: main.ts:23372
+Defined in: main.ts:24177
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23372
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:23382
+Defined in: main.ts:24187
 
 height of the element in pixels
 
@@ -28,7 +28,7 @@ height of the element in pixels
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:23380
+Defined in: main.ts:24185
 
 width of the element in pixels
 
@@ -38,7 +38,7 @@ width of the element in pixels
 
 > `optional` **x**: `number`
 
-Defined in: main.ts:23375
+Defined in: main.ts:24180
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -49,7 +49,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 > `optional` **y**: `number`
 
-Defined in: main.ts:23378
+Defined in: main.ts:24183
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin

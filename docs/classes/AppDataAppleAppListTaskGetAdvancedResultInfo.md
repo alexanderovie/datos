@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
 
-Defined in: main.ts:208094
+Defined in: main.ts:216941
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:208094
 
 > **new AppDataAppleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:208122
+Defined in: main.ts:216969
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208122
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:208105
+Defined in: main.ts:216952
 
 direct URL to search engine results
 in this case, the value will be null
@@ -55,7 +55,7 @@ in this case, the value will be null
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:208110
+Defined in: main.ts:216957
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:208118
+Defined in: main.ts:216965
 
 found apps
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:208115
+Defined in: main.ts:216962
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:208096
+Defined in: main.ts:216943
 
 app collection received in a POST array
 
@@ -116,7 +116,7 @@ app collection received in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208102
+Defined in: main.ts:216949
 
 language code in a POST array
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208100
+Defined in: main.ts:216947
 
 location code in a POST array
 
@@ -144,7 +144,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:208098
+Defined in: main.ts:216945
 
 search engine domain in a POST array
 
@@ -158,7 +158,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:208112
+Defined in: main.ts:216959
 
 the total number of results
 
@@ -172,7 +172,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208131
+Defined in: main.ts:216978
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:208131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208160
+Defined in: main.ts:217007
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:208160
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:208153
+Defined in: main.ts:217000
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoLabsDayStatisticsRatesData
 
-Defined in: main.ts:234144
+Defined in: main.ts:243007
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:234144
 
 > **new AppendixDataforseoLabsDayStatisticsRatesData**(`data`?): [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
 
-Defined in: main.ts:234191
+Defined in: main.ts:243054
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234191
 
 > `optional` **amazon**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:234187
+Defined in: main.ts:243044
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:234187
 
 > `optional` **app\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234174
+Defined in: main.ts:243037
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:234174
 
 > `optional` **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234176
+Defined in: main.ts:243039
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:234176
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:234186
+Defined in: main.ts:243050
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:234186
 
 > `optional` **available\_history**: `number`
 
-Defined in: main.ts:234181
+Defined in: main.ts:243048
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:234181
 
 > `optional` **bulk\_app\_metrics**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234177
+Defined in: main.ts:243040
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:234177
 
 > `optional` **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234161
+Defined in: main.ts:243024
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:234161
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234162
+Defined in: main.ts:243025
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:234162
 
 > `optional` **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234160
+Defined in: main.ts:243023
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:234160
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:234146
+Defined in: main.ts:243009
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:234146
 
 > `optional` **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234167
+Defined in: main.ts:243030
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:234167
 
 > `optional` **categories\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234180
+Defined in: main.ts:243043
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:234180
 
 > `optional` **competitors\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234155
+Defined in: main.ts:243018
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:234155
 
 > `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234158
+Defined in: main.ts:243021
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:234158
 
 > `optional` **domain\_metrics\_by\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234168
+Defined in: main.ts:243031
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:234168
 
 > `optional` **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234157
+Defined in: main.ts:243020
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:234157
 
 > `optional` **domain\_whois\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234170
+Defined in: main.ts:243033
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:234170
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234147
+Defined in: main.ts:243010
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:234147
 
 > `optional` **historical\_bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234179
+Defined in: main.ts:243042
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:234179
 
 > `optional` **historical\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234171
+Defined in: main.ts:243034
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:234171
 
 > `optional` **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234166
+Defined in: main.ts:243029
 
 #### Implementation of
 
@@ -292,7 +292,7 @@ Defined in: main.ts:234166
 
 > `optional` **historical\_serps**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234173
+Defined in: main.ts:243036
 
 #### Implementation of
 
@@ -304,7 +304,7 @@ Defined in: main.ts:234173
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:234183
+Defined in: main.ts:243049
 
 #### Implementation of
 
@@ -316,7 +316,7 @@ Defined in: main.ts:234183
 
 > `optional` **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234165
+Defined in: main.ts:243028
 
 #### Implementation of
 
@@ -328,7 +328,7 @@ Defined in: main.ts:234165
 
 > `optional` **keyword\_suggestions**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234164
+Defined in: main.ts:243027
 
 #### Implementation of
 
@@ -340,7 +340,7 @@ Defined in: main.ts:234164
 
 > `optional` **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234175
+Defined in: main.ts:243038
 
 #### Implementation of
 
@@ -352,7 +352,7 @@ Defined in: main.ts:234175
 
 > `optional` **keywords\_for\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234172
+Defined in: main.ts:243035
 
 #### Implementation of
 
@@ -364,7 +364,7 @@ Defined in: main.ts:234172
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234163
+Defined in: main.ts:243026
 
 #### Implementation of
 
@@ -376,7 +376,7 @@ Defined in: main.ts:234163
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:234185
+Defined in: main.ts:243045
 
 #### Implementation of
 
@@ -388,7 +388,7 @@ Defined in: main.ts:234185
 
 > `optional` **locations\_and\_languages**: `number`
 
-Defined in: main.ts:234145
+Defined in: main.ts:243008
 
 #### Implementation of
 
@@ -400,7 +400,7 @@ Defined in: main.ts:234145
 
 > `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234159
+Defined in: main.ts:243022
 
 #### Implementation of
 
@@ -412,7 +412,7 @@ Defined in: main.ts:234159
 
 > `optional` **product\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234148
+Defined in: main.ts:243011
 
 #### Implementation of
 
@@ -424,7 +424,7 @@ Defined in: main.ts:234148
 
 > `optional` **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234149
+Defined in: main.ts:243012
 
 #### Implementation of
 
@@ -436,7 +436,7 @@ Defined in: main.ts:234149
 
 > `optional` **product\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234150
+Defined in: main.ts:243013
 
 #### Implementation of
 
@@ -448,7 +448,7 @@ Defined in: main.ts:234150
 
 > `optional` **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234151
+Defined in: main.ts:243014
 
 #### Implementation of
 
@@ -460,7 +460,7 @@ Defined in: main.ts:234151
 
 > `optional` **related\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234156
+Defined in: main.ts:243019
 
 #### Implementation of
 
@@ -472,7 +472,7 @@ Defined in: main.ts:234156
 
 > `optional` **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234154
+Defined in: main.ts:243017
 
 #### Implementation of
 
@@ -484,7 +484,7 @@ Defined in: main.ts:234154
 
 > `optional` **search\_intent**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234178
+Defined in: main.ts:243041
 
 #### Implementation of
 
@@ -496,7 +496,7 @@ Defined in: main.ts:234178
 
 > `optional` **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234152
+Defined in: main.ts:243015
 
 #### Implementation of
 
@@ -508,7 +508,7 @@ Defined in: main.ts:234152
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:234182
+Defined in: main.ts:243047
 
 #### Implementation of
 
@@ -520,7 +520,7 @@ Defined in: main.ts:234182
 
 > `optional` **subdomains**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234153
+Defined in: main.ts:243016
 
 #### Implementation of
 
@@ -532,7 +532,7 @@ Defined in: main.ts:234153
 
 > `optional` **top\_google\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234184
+Defined in: main.ts:243046
 
 #### Implementation of
 
@@ -544,7 +544,7 @@ Defined in: main.ts:234184
 
 > `optional` **top\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234169
+Defined in: main.ts:243032
 
 #### Implementation of
 
@@ -556,7 +556,7 @@ Defined in: main.ts:234169
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234200
+Defined in: main.ts:243063
 
 #### Parameters
 
@@ -574,7 +574,7 @@ Defined in: main.ts:234200
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234259
+Defined in: main.ts:243122
 
 #### Parameters
 
@@ -592,7 +592,7 @@ Defined in: main.ts:234259
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
 
-Defined in: main.ts:234252
+Defined in: main.ts:243115
 
 #### Parameters
 

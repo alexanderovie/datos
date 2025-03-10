@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
-Defined in: main.ts:132874
+Defined in: main.ts:142219
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:132874
 
 > **new KeywordsDataGoogleTrendsLocationsCountryResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLocationsCountryResultInfo`](KeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
 
-Defined in: main.ts:132902
+Defined in: main.ts:142247
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132902
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:132889
+Defined in: main.ts:142234
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:132898
+Defined in: main.ts:142243
 
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -69,7 +69,7 @@ you can use this field for matching obtained results with the location_code para
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:132895
+Defined in: main.ts:142240
 
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -84,7 +84,7 @@ you can use this field for matching obtained results with the location_name para
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132876
+Defined in: main.ts:142221
 
 location code
 
@@ -98,7 +98,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:132887
+Defined in: main.ts:142232
 
 the code of the superordinate location
 example:
@@ -119,7 +119,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:132878
+Defined in: main.ts:142223
 
 full name of the location
 
@@ -133,7 +133,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:132892
+Defined in: main.ts:142237
 
 location type
 possible values according to Google’s target types
@@ -148,7 +148,7 @@ possible values according to Google’s target types
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:132911
+Defined in: main.ts:142256
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:132911
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:132934
+Defined in: main.ts:142279
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:132934
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsCountryResultInfo`](KeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
 
-Defined in: main.ts:132927
+Defined in: main.ts:142272
 
 #### Parameters
 

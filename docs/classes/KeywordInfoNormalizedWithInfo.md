@@ -6,7 +6,7 @@
 
 # Class: KeywordInfoNormalizedWithInfo
 
-Defined in: main.ts:92634
+Defined in: main.ts:103255
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:92634
 
 > **new KeywordInfoNormalizedWithInfo**(`data`?): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:92649
+Defined in: main.ts:103270
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92649
 
 > `optional` **is\_normalized**: `boolean`
 
-Defined in: main.ts:92642
+Defined in: main.ts:103263
 
 keyword info is normalized
 if true, values are normalized with Bing data
@@ -55,7 +55,7 @@ if true, values are normalized with Bing data
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:92637
+Defined in: main.ts:103258
 
 date and time when the clickstream dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -70,7 +70,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:92645
+Defined in: main.ts:103266
 
 monthly clickstream search volume rates
 array of objects with clickstream search volume rates in a certain month of a year
@@ -85,7 +85,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:92639
+Defined in: main.ts:103260
 
 monthly average clickstream search volume rate
 
@@ -99,7 +99,7 @@ monthly average clickstream search volume rate
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92658
+Defined in: main.ts:103279
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:92658
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92682
+Defined in: main.ts:103303
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:92682
 
 > `static` **fromJS**(`data`): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:92675
+Defined in: main.ts:103296
 
 #### Parameters
 

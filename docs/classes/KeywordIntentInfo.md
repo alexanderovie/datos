@@ -6,7 +6,7 @@
 
 # Class: KeywordIntentInfo
 
-Defined in: main.ts:96596
+Defined in: main.ts:105893
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:96596
 
 > **new KeywordIntentInfo**(`data`?): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-Defined in: main.ts:96606
+Defined in: main.ts:105903
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96606
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:96599
+Defined in: main.ts:105896
 
 search intent name
 possible values: informational, navigational, commercial, transactional
@@ -55,7 +55,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **probability**: `number`
 
-Defined in: main.ts:96602
+Defined in: main.ts:105899
 
 search intent probability
 1 indicates the highest probability
@@ -70,7 +70,7 @@ search intent probability
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96615
+Defined in: main.ts:105912
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:96615
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96633
+Defined in: main.ts:105930
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:96633
 
 > `static` **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-Defined in: main.ts:96626
+Defined in: main.ts:105923
 
 #### Parameters
 

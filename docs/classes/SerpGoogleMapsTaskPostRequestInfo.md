@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTaskPostRequestInfo
 
-Defined in: main.ts:40527
+Defined in: main.ts:42904
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:40527
 
 > **new SerpGoogleMapsTaskPostRequestInfo**(`data`?): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-Defined in: main.ts:40677
+Defined in: main.ts:43054
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:40677
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:40619
+Defined in: main.ts:42996
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:40596
+Defined in: main.ts:42973
 
 device type
 optional field
@@ -79,7 +79,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:40543
+Defined in: main.ts:42920
 
 keyword
 required field
@@ -101,7 +101,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:40590
+Defined in: main.ts:42967
 
 search engine language code
 required field if you don’t specify language_name
@@ -120,7 +120,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:40583
+Defined in: main.ts:42960
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:40565
+Defined in: main.ts:42942
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:40576
+Defined in: main.ts:42953
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -181,7 +181,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:40558
+Defined in: main.ts:42935
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -200,7 +200,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:40626
+Defined in: main.ts:43003
 
 page crawl limit
 optional field
@@ -219,7 +219,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:40603
+Defined in: main.ts:42980
 
 device operating system
 optional field
@@ -238,7 +238,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:40673
+Defined in: main.ts:43050
 
 notification URL of a completed task
 optional field
@@ -261,7 +261,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:40662
+Defined in: main.ts:43039
 
 postback_url datatype
 required field if you specify postback_url
@@ -279,7 +279,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:40656
+Defined in: main.ts:43033
 
 return URL for sending task results
 optional field
@@ -302,7 +302,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:40551
+Defined in: main.ts:42928
 
 task priority
 optional field
@@ -322,7 +322,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:40610
+Defined in: main.ts:42987
 
 search engine domain
 optional field
@@ -341,7 +341,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:40639
+Defined in: main.ts:43016
 
 search places mode
 optional field
@@ -360,7 +360,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:40632
+Defined in: main.ts:43009
 
 search this area
 optional field
@@ -378,7 +378,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:40645
+Defined in: main.ts:43022
 
 user-defined task identifier
 optional field
@@ -396,7 +396,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40533
+Defined in: main.ts:42910
 
 direct URL of the search query
 optional field
@@ -414,7 +414,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40686
+Defined in: main.ts:43063
 
 #### Parameters
 
@@ -432,7 +432,7 @@ Defined in: main.ts:40686
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40721
+Defined in: main.ts:43098
 
 #### Parameters
 
@@ -450,7 +450,7 @@ Defined in: main.ts:40721
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-Defined in: main.ts:40714
+Defined in: main.ts:43091
 
 #### Parameters
 

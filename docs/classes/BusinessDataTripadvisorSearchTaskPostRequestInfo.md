@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
 
-Defined in: main.ts:228210
+Defined in: main.ts:237073
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:228210
 
 > **new BusinessDataTripadvisorSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:228277
+Defined in: main.ts:237140
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228277
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:228245
+Defined in: main.ts:237108
 
 parsing depth
 optional field
@@ -59,7 +59,7 @@ maximum value: 210
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:228218
+Defined in: main.ts:237081
 
 keyword
 required field
@@ -79,7 +79,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:228230
+Defined in: main.ts:237093
 
 search engine location code
 required field if you don’t specify location_name
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:228224
+Defined in: main.ts:237087
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -115,7 +115,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:228273
+Defined in: main.ts:237136
 
 notification URL of a completed task
 optional field
@@ -138,7 +138,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:228262
+Defined in: main.ts:237125
 
 return URL for sending task results
 optional field
@@ -161,7 +161,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:228238
+Defined in: main.ts:237101
 
 task priority
 optional field
@@ -181,7 +181,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:228251
+Defined in: main.ts:237114
 
 user-defined task identifier
 optional field
@@ -199,7 +199,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228286
+Defined in: main.ts:237149
 
 #### Parameters
 
@@ -217,7 +217,7 @@ Defined in: main.ts:228286
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228310
+Defined in: main.ts:237173
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:228310
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:228303
+Defined in: main.ts:237166
 
 #### Parameters
 

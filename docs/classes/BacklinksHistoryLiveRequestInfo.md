@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveRequestInfo
 
-Defined in: main.ts:150904
+Defined in: main.ts:160249
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:150904
 
 > **new BacklinksHistoryLiveRequestInfo**(`data`?): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-Defined in: main.ts:150933
+Defined in: main.ts:160278
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150933
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:150916
+Defined in: main.ts:160261
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:150923
+Defined in: main.ts:160268
 
 ending date of the time range
 optional field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:150929
+Defined in: main.ts:160274
 
 user-defined task identifier
 optional field
@@ -97,7 +97,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:150908
+Defined in: main.ts:160253
 
 domain
 required field
@@ -113,7 +113,7 @@ a domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:150942
+Defined in: main.ts:160287
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:150942
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:150962
+Defined in: main.ts:160307
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:150962
 
 > `static` **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-Defined in: main.ts:150955
+Defined in: main.ts:160300
 
 #### Parameters
 

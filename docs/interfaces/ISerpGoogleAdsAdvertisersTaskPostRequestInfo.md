@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsAdvertisersTaskPostRequestInfo
 
-Defined in: main.ts:60520
+Defined in: main.ts:62923
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60520
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:60528
+Defined in: main.ts:62931
 
 keyword
 required field
@@ -34,7 +34,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:60544
+Defined in: main.ts:62947
 
 search engine location code
 optional field
@@ -50,7 +50,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:60551
+Defined in: main.ts:62954
 
 GPS coordinates of a location
 optional field
@@ -65,7 +65,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:60536
+Defined in: main.ts:62939
 
 full name of search engine location
 optional field
@@ -81,7 +81,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:60593
+Defined in: main.ts:62996
 
 notification URL of a completed task
 optional field
@@ -100,7 +100,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:60582
+Defined in: main.ts:62985
 
 postback_url datatype
 required field if you specify postback_url
@@ -114,7 +114,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:60576
+Defined in: main.ts:62979
 
 return URL for sending task results
 optional field
@@ -133,7 +133,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:60559
+Defined in: main.ts:62962
 
 task priority
 optional field
@@ -149,7 +149,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:60565
+Defined in: main.ts:62968
 
 user-defined task identifier
 optional field

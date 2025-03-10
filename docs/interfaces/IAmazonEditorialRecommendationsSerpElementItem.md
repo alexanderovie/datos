@@ -6,7 +6,7 @@
 
 # Interface: IAmazonEditorialRecommendationsSerpElementItem
 
-Defined in: main.ts:193227
+Defined in: main.ts:202074
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:193227
 
 > `optional` **items**: [`AmazonSerpElement`](../classes/AmazonSerpElement.md)[]
 
-Defined in: main.ts:193233
+Defined in: main.ts:202080
 
 Amazon product items
 
@@ -32,7 +32,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:193231
+Defined in: main.ts:202078
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23310
+Defined in: main.ts:24115
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23307
+Defined in: main.ts:24112
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -74,7 +74,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23304
+Defined in: main.ts:24109
 
 type of element
 
@@ -88,7 +88,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23312
+Defined in: main.ts:24117
 
 the XPath of the element
 

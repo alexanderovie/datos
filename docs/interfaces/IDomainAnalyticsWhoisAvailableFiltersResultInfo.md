@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
-Defined in: main.ts:88998
+Defined in: main.ts:98295
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88998
 
 > `optional` **overview**: `object`
 
-Defined in: main.ts:88999
+Defined in: main.ts:98296
 
 #### Index Signature
 

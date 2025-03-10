@@ -6,7 +6,7 @@
 
 # Interface: IBaseProductInformationRowItem
 
-Defined in: main.ts:24371
+Defined in: main.ts:25176
 
 ## Extended by
 
@@ -23,6 +23,6 @@ Defined in: main.ts:24371
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24373
+Defined in: main.ts:25178
 
 type of element

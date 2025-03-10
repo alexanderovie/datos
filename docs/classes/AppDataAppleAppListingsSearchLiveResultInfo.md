@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:209686
+Defined in: main.ts:218533
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:209686
 
 > **new AppDataAppleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:209701
+Defined in: main.ts:218548
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:209701
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:209690
+Defined in: main.ts:218537
 
 the number of items in the results array
 
@@ -54,7 +54,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:209697
+Defined in: main.ts:218544
 
 array of apps and related data
 
@@ -68,7 +68,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:209692
+Defined in: main.ts:218539
 
 offset in the results array of returned apps
 
@@ -82,7 +82,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:209695
+Defined in: main.ts:218542
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -97,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:209688
+Defined in: main.ts:218535
 
 the total number of relevant results in the database
 
@@ -111,7 +111,7 @@ the total number of relevant results in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209710
+Defined in: main.ts:218557
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:209710
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209735
+Defined in: main.ts:218582
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:209735
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:209728
+Defined in: main.ts:218575
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAmazonDeliveryInfo
 
-Defined in: main.ts:23676
+Defined in: main.ts:24481
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23676
 
 > `optional` **delivery\_date\_from**: `string`
 
-Defined in: main.ts:23680
+Defined in: main.ts:24485
 
 the earliest date when the product can be shipped
 
@@ -28,7 +28,7 @@ the earliest date when the product can be shipped
 
 > `optional` **delivery\_date\_to**: `string`
 
-Defined in: main.ts:23682
+Defined in: main.ts:24487
 
 the latest date when the product can be delivered
 
@@ -38,7 +38,7 @@ the latest date when the product can be delivered
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24483
 
 message accompanying the delivery information as posted by the seller
 
@@ -48,7 +48,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:23690
+Defined in: main.ts:24495
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -60,7 +60,7 @@ if free delivery is available, the value is null
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
 
-Defined in: main.ts:23684
+Defined in: main.ts:24489
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -70,6 +70,6 @@ the earliest date when the product can be delivered with a fast delivery option
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
 
-Defined in: main.ts:23686
+Defined in: main.ts:24491
 
 the latest date when the product can be delivered with a fast delivery option

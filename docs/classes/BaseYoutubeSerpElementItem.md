@@ -6,7 +6,7 @@
 
 # Class: BaseYoutubeSerpElementItem
 
-Defined in: main.ts:70495
+Defined in: main.ts:72898
 
 ## Extended by
 
@@ -24,7 +24,7 @@ Defined in: main.ts:70495
 
 > **new BaseYoutubeSerpElementItem**(`data`?): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
-Defined in: main.ts:70508
+Defined in: main.ts:72911
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:70508
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:70506
+Defined in: main.ts:72909
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:70506
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:70504
+Defined in: main.ts:72907
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:70501
+Defined in: main.ts:72904
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70497
+Defined in: main.ts:72900
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70518
+Defined in: main.ts:72921
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:70518
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70548
+Defined in: main.ts:72951
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:70548
 
 > `static` **fromJS**(`data`): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
-Defined in: main.ts:70526
+Defined in: main.ts:72929
 
 #### Parameters
 

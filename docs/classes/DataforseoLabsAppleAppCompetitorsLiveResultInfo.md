@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
-Defined in: main.ts:124610
+Defined in: main.ts:133955
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:124610
 
 > **new DataforseoLabsAppleAppCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:124628
+Defined in: main.ts:133973
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124628
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:124614
+Defined in: main.ts:133959
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:124624
+Defined in: main.ts:133969
 
 contains data related to the app_id and competitor applications
 
@@ -68,7 +68,7 @@ contains data related to the app_id and competitor applications
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:124622
+Defined in: main.ts:133967
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:124618
+Defined in: main.ts:133963
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:124616
+Defined in: main.ts:133961
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:124612
+Defined in: main.ts:133957
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:124620
+Defined in: main.ts:133965
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124637
+Defined in: main.ts:133982
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:124637
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124664
+Defined in: main.ts:134009
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:124664
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:124657
+Defined in: main.ts:134002
 
 #### Parameters
 

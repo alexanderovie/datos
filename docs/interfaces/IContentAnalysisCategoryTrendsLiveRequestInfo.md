@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
-Defined in: main.ts:181048
+Defined in: main.ts:189887
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181048
 
 > `optional` **category\_code**: `string`
 
-Defined in: main.ts:181052
+Defined in: main.ts:189891
 
 target category code
 required field
@@ -30,7 +30,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:181082
+Defined in: main.ts:189921
 
 starting date of the time range
 required field
@@ -44,7 +44,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:181094
+Defined in: main.ts:189933
 
 time range which will be used to group the results
 optional field
@@ -57,7 +57,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:181089
+Defined in: main.ts:189928
 
 ending date of the time range
 optional field
@@ -72,7 +72,7 @@ example:
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:181111
+Defined in: main.ts:189950
 
 initial dataset filtering parameters
 optional field
@@ -97,7 +97,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:181076
+Defined in: main.ts:189915
 
 maximum number of elements within internal arrays
 optional field
@@ -116,7 +116,7 @@ maximum value: 20
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:181058
+Defined in: main.ts:189897
 
 target page types
 optional field
@@ -130,7 +130,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:181065
+Defined in: main.ts:189904
 
 results grouping type
 optional field
@@ -145,7 +145,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181117
+Defined in: main.ts:189956
 
 user-defined task identifier
 optional field

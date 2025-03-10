@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataPriceData
 
-Defined in: main.ts:238523
+Defined in: main.ts:247386
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238523
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataPriceData`](../classes/AppendixBusinessListingsBusinessDataPriceData.md)
 
-Defined in: main.ts:238524
+Defined in: main.ts:247387
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238524
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238525
+Defined in: main.ts:247388
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:238525
 
 > `optional` **google**: [`AppendixGoogleBusinessDataPriceData`](../classes/AppendixGoogleBusinessDataPriceData.md)
 
-Defined in: main.ts:238526
+Defined in: main.ts:247389
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:238526
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238528
+Defined in: main.ts:247391
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:238528
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238529
+Defined in: main.ts:247392
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:238529
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataPriceData`](../classes/AppendixSocialMediaBusinessDataPriceData.md)
 
-Defined in: main.ts:238527
+Defined in: main.ts:247390
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:238527
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238533
+Defined in: main.ts:247396
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:238533
 
 > `optional` **tripadvisor**: [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238530
+Defined in: main.ts:247393
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:238530
 
 > `optional` **trustpilot**: [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238531
+Defined in: main.ts:247394
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:238531
 
 > `optional` **yelp**: [`AppendixTrBusinessDataPriceDataInfo`](../classes/AppendixTrBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238532
+Defined in: main.ts:247395

@@ -6,7 +6,7 @@
 
 # Interface: IAppsInfo
 
-Defined in: main.ts:202553
+Defined in: main.ts:211400
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:202553
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:202555
+Defined in: main.ts:211402
 
 ID of the app
 
@@ -28,7 +28,7 @@ ID of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:202557
+Defined in: main.ts:211404
 
 title of the app
 
@@ -38,6 +38,6 @@ title of the app
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:202559
+Defined in: main.ts:211406
 
 URL to the app page on Google Play

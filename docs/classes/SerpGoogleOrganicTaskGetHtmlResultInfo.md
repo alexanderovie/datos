@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:38519
+Defined in: main.ts:40872
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38519
 
 > **new SerpGoogleOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:38543
+Defined in: main.ts:40896
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38543
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:38535
+Defined in: main.ts:40888
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:38539
+Defined in: main.ts:40892
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:38537
+Defined in: main.ts:40890
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:38522
+Defined in: main.ts:40875
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:38530
+Defined in: main.ts:40883
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:38528
+Defined in: main.ts:40881
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:38526
+Defined in: main.ts:40879
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38524
+Defined in: main.ts:40877
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38552
+Defined in: main.ts:40905
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:38552
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38580
+Defined in: main.ts:40933
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:38580
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:38573
+Defined in: main.ts:40926
 
 #### Parameters
 

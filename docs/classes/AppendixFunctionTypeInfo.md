@@ -6,7 +6,7 @@
 
 # Class: AppendixFunctionTypeInfo
 
-Defined in: main.ts:231000
+Defined in: main.ts:239863
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231000
 
 > **new AppendixFunctionTypeInfo**(`data`?): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231007
+Defined in: main.ts:239870
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231007
 
 > `optional` **advanced**: `number`
 
-Defined in: main.ts:231002
+Defined in: main.ts:239865
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231002
 
 > `optional` **html**: `number`
 
-Defined in: main.ts:231003
+Defined in: main.ts:239866
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231003
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:231001
+Defined in: main.ts:239864
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231001
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231016
+Defined in: main.ts:239879
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:231016
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231035
+Defined in: main.ts:239898
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:231035
 
 > `static` **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231028
+Defined in: main.ts:239891
 
 #### Parameters
 

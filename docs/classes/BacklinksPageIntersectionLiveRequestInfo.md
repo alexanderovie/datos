@@ -6,7 +6,7 @@
 
 # Class: BacklinksPageIntersectionLiveRequestInfo
 
-Defined in: main.ts:158420
+Defined in: main.ts:167765
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:158420
 
 > **new BacklinksPageIntersectionLiveRequestInfo**(`data`?): [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:158534
+Defined in: main.ts:167879
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158534
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:158450
+Defined in: main.ts:167795
 
 set what backlinks to return and count
 optional field
@@ -61,7 +61,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:158516
+Defined in: main.ts:167861
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -79,7 +79,7 @@ default value: true
 
 > `optional` **exclude\_targets**: `string`[]
 
-Defined in: main.ts:158441
+Defined in: main.ts:167786
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -101,7 +101,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:158467
+Defined in: main.ts:167812
 
 array of results filtering parameters
 optional field
@@ -130,7 +130,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:158510
+Defined in: main.ts:167855
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -148,7 +148,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:158504
+Defined in: main.ts:167849
 
 indicates if the subdomains of the targets will be included in the search
 optional field
@@ -165,7 +165,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:158499
+Defined in: main.ts:167844
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:158524
+Defined in: main.ts:167869
 
 indicates whether to intersect backlinks
 optional field
@@ -205,7 +205,7 @@ default value: all
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:158491
+Defined in: main.ts:167836
 
 the maximum number of returned backlinks
 optional field
@@ -222,7 +222,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:158486
+Defined in: main.ts:167831
 
 offset in the results array of the returned backlinks
 optional field
@@ -239,7 +239,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:158481
+Defined in: main.ts:167826
 
 results sorting rules
 optional field
@@ -265,7 +265,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:158530
+Defined in: main.ts:167875
 
 user-defined task identifier
 optional field
@@ -283,7 +283,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:158431
+Defined in: main.ts:167776
 
 domains, subdomains or webpages to get links for
 required field
@@ -310,7 +310,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158543
+Defined in: main.ts:167888
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:158543
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158590
+Defined in: main.ts:167935
 
 #### Parameters
 
@@ -346,7 +346,7 @@ Defined in: main.ts:158590
 
 > `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:158583
+Defined in: main.ts:167928
 
 #### Parameters
 

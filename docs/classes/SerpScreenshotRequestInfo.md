@@ -6,7 +6,7 @@
 
 # Class: SerpScreenshotRequestInfo
 
-Defined in: main.ts:26105
+Defined in: main.ts:27490
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:26105
 
 > **new SerpScreenshotRequestInfo**(`data`?): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-Defined in: main.ts:26132
+Defined in: main.ts:27517
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26132
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:26116
+Defined in: main.ts:27501
 
 browser resolution preset
 optional field
@@ -58,7 +58,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:26124
+Defined in: main.ts:27509
 
 height of the browser resolution
 optional field
@@ -74,7 +74,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:26128
+Defined in: main.ts:27513
 
 browser scale factor
 optional field
@@ -90,7 +90,7 @@ can be specified in the following range: 0.5-3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:26120
+Defined in: main.ts:27505
 
 width of the browser resolution
 optional field
@@ -106,7 +106,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:26110
+Defined in: main.ts:27495
 
 task identifier
 required field
@@ -123,7 +123,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26141
+Defined in: main.ts:27526
 
 #### Parameters
 
@@ -141,7 +141,7 @@ Defined in: main.ts:26141
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26162
+Defined in: main.ts:27547
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:26162
 
 > `static` **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-Defined in: main.ts:26155
+Defined in: main.ts:27540
 
 #### Parameters
 

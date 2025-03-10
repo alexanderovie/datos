@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109312
+Defined in: main.ts:118656
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109312
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:109318
+Defined in: main.ts:118662
 
 domain where a link points
 
@@ -32,9 +32,10 @@ domain where a link points
 
 > `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-Defined in: main.ts:109320
+Defined in: main.ts:118665
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -42,7 +43,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -58,7 +59,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -73,7 +74,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -88,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109314
+Defined in: main.ts:118658
 
 title of the result in SERP
 
@@ -98,7 +99,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -112,9 +113,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109316
+Defined in: main.ts:118660
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 ***
 
@@ -122,7 +123,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsDayStatisticsRatesData
 
-Defined in: main.ts:234360
+Defined in: main.ts:243223
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:234360
 
 > **new AppendixDomainAnalyticsDayStatisticsRatesData**(`data`?): [`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
 
-Defined in: main.ts:234370
+Defined in: main.ts:243233
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234370
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:234366
+Defined in: main.ts:243229
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:234366
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234362
+Defined in: main.ts:243225
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:234362
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:234365
+Defined in: main.ts:243228
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:234365
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:234361
+Defined in: main.ts:243224
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:234361
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:234364
+Defined in: main.ts:243227
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:234364
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:234363
+Defined in: main.ts:243226
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:234363
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234379
+Defined in: main.ts:243242
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:234379
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234401
+Defined in: main.ts:243264
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:234401
 
 > `static` **fromJS**(`data`): [`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
 
-Defined in: main.ts:234394
+Defined in: main.ts:243257
 
 #### Parameters
 

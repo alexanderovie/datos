@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
-Defined in: main.ts:212666
+Defined in: main.ts:221521
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:212666
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-Defined in: main.ts:212677
+Defined in: main.ts:221532
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212677
 
 > `optional` **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:212673
+Defined in: main.ts:221528
 
 aggregation of the category
 
@@ -54,7 +54,7 @@ aggregation of the category
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:212671
+Defined in: main.ts:221526
 
 business categories
 Google My Business general category that best describes the cluster of related categories
@@ -69,7 +69,7 @@ Google My Business general category that best describes the cluster of related c
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:212668
+Defined in: main.ts:221523
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212686
+Defined in: main.ts:221541
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:212686
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212709
+Defined in: main.ts:221564
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:212709
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-Defined in: main.ts:212702
+Defined in: main.ts:221557
 
 #### Parameters
 

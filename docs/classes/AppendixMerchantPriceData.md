@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantPriceData
 
-Defined in: main.ts:237562
+Defined in: main.ts:246425
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237562
 
 > **new AppendixMerchantPriceData**(`data`?): [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
 
-Defined in: main.ts:237573
+Defined in: main.ts:246436
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237573
 
 > `optional` **amazon**: [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
 
-Defined in: main.ts:237564
+Defined in: main.ts:246427
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237564
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237565
+Defined in: main.ts:246428
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237565
 
 > `optional` **google**: [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237563
+Defined in: main.ts:246426
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237563
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237566
+Defined in: main.ts:246429
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237566
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237567
+Defined in: main.ts:246430
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:237567
 
 > `optional` **reviews**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237568
+Defined in: main.ts:246431
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:237568
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237569
+Defined in: main.ts:246432
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237569
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237582
+Defined in: main.ts:246445
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:237582
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237605
+Defined in: main.ts:246468
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:237605
 
 > `static` **fromJS**(`data`): [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
 
-Defined in: main.ts:237598
+Defined in: main.ts:246461
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppListingsAppDataPriceData
 
-Defined in: main.ts:237871
+Defined in: main.ts:246734
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:237871
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237872
+Defined in: main.ts:246735
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:237872
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237873
+Defined in: main.ts:246736

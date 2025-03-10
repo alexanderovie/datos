@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonSellerItemSerpElementItem
 
-Defined in: main.ts:196596
+Defined in: main.ts:205443
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:196596
 
 > **new AmazonAmazonSellerItemSerpElementItem**(`data`?): [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
 
-Defined in: main.ts:196625
+Defined in: main.ts:205472
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:196625
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23218
+Defined in: main.ts:24023
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:196615
+Defined in: main.ts:205462
 
 product condition
 condition of the product offered by the seller
@@ -75,7 +75,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:196618
+Defined in: main.ts:205465
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -90,7 +90,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:196621
+Defined in: main.ts:205468
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -105,7 +105,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:196600
+Defined in: main.ts:205447
 
 alignment of the element in SERP
 possible values:
@@ -121,7 +121,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:196609
+Defined in: main.ts:205456
 
 product pricing details
 if there are no details, the value will be null
@@ -136,7 +136,7 @@ if there are no details, the value will be null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23214
+Defined in: main.ts:24019
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23211
+Defined in: main.ts:24016
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:196612
+Defined in: main.ts:205459
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:196602
+Defined in: main.ts:205449
 
 business name of the seller
 
@@ -203,7 +203,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:196604
+Defined in: main.ts:205451
 
 url forwarding to the seller’s page on Amazon
 
@@ -217,7 +217,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:196606
+Defined in: main.ts:205453
 
 sender company name
 
@@ -231,7 +231,7 @@ sender company name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23208
+Defined in: main.ts:24013
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23216
+Defined in: main.ts:24021
 
 the XPath of the element
 
@@ -267,7 +267,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196630
+Defined in: main.ts:205477
 
 #### Parameters
 
@@ -289,7 +289,7 @@ Defined in: main.ts:196630
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196656
+Defined in: main.ts:205503
 
 #### Parameters
 
@@ -311,7 +311,7 @@ Defined in: main.ts:196656
 
 > `static` **fromJS**(`data`): [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
 
-Defined in: main.ts:196649
+Defined in: main.ts:205496
 
 #### Parameters
 

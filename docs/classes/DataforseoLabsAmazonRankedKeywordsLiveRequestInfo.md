@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:112856
+Defined in: main.ts:122201
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:112856
 
 > **new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:112943
+Defined in: main.ts:122288
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112943
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:112861
+Defined in: main.ts:122206
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:112912
+Defined in: main.ts:122257
 
 array of results filtering parameters
 optional field
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:112901
+Defined in: main.ts:122246
 
 ignore highly similar keywords
 optional field
@@ -97,7 +97,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112891
+Defined in: main.ts:122236
 
 language code
 required field if don’t specify language_name
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:112884
+Defined in: main.ts:122229
 
 full name of the language
 required field if don’t specify language_code
@@ -135,7 +135,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:112896
+Defined in: main.ts:122241
 
 the maximum number of products in the results array
 optional field
@@ -152,7 +152,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112877
+Defined in: main.ts:122222
 
 location code
 required field if don’t specify location_name
@@ -172,7 +172,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:112869
+Defined in: main.ts:122214
 
 full name of the location
 required field if don’t specify location_code
@@ -192,7 +192,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:112933
+Defined in: main.ts:122278
 
 offset in the results array of returned keywords
 optional field
@@ -209,7 +209,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:112928
+Defined in: main.ts:122273
 
 results sorting rules
 optional field
@@ -237,7 +237,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:112939
+Defined in: main.ts:122284
 
 user-defined task identifier
 optional field
@@ -255,7 +255,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112952
+Defined in: main.ts:122297
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:112952
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112987
+Defined in: main.ts:122332
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:112987
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:112980
+Defined in: main.ts:122325
 
 #### Parameters
 

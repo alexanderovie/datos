@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksCompetitorsLiveRequestInfo
 
-Defined in: main.ts:157128
+Defined in: main.ts:166473
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:157128
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:157187
+Defined in: main.ts:166532
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -32,7 +32,7 @@ default value: true
 
 > `optional` **exclude\_large\_domains**: `boolean`
 
-Defined in: main.ts:157181
+Defined in: main.ts:166526
 
 indicates whether large domain will appear in results
 optional field
@@ -45,7 +45,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:157157
+Defined in: main.ts:166502
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ The full list of possible filters is available here.
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:157138
+Defined in: main.ts:166483
 
 the maximum number of returned domains
 optional field
@@ -80,7 +80,7 @@ maximum value: 1000
 
 > `optional` **main\_domain**: `boolean`
 
-Defined in: main.ts:157176
+Defined in: main.ts:166521
 
 indicates if only main domain of the target will be included in the search
 optional field
@@ -93,7 +93,7 @@ default value: true
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:157143
+Defined in: main.ts:166488
 
 offset in the results array of returned domains
 optional field
@@ -106,7 +106,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:157171
+Defined in: main.ts:166516
 
 results sorting rules
 optional field
@@ -128,7 +128,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:157193
+Defined in: main.ts:166538
 
 user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:157133
+Defined in: main.ts:166478
 
 domain, subdomain or webpage to get competitor domains for
 required field

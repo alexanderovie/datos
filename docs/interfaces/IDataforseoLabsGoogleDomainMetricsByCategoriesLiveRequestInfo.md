@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
-Defined in: main.ts:99089
+Defined in: main.ts:108386
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:99089
 
 > `optional` **category\_codes**: `string`[]
 
-Defined in: main.ts:99094
+Defined in: main.ts:108391
 
 product and service categories
 required field
@@ -31,7 +31,7 @@ you can download the full list of possible categories
 
 > `optional` **correlate**: `boolean`
 
-Defined in: main.ts:99185
+Defined in: main.ts:108482
 
 correlate data with previously obtained datasets
 optional field
@@ -46,7 +46,7 @@ Note: we do not recommend setting correlate to false
 
 > `optional` **etv\_max**: `number`
 
-Defined in: main.ts:99178
+Defined in: main.ts:108475
 
 maximum current organic ETV of the domain
 optional field
@@ -58,7 +58,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 > `optional` **etv\_min**: `number`
 
-Defined in: main.ts:99174
+Defined in: main.ts:108471
 
 minimum current organic ETV of the domain
 optional field
@@ -70,7 +70,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:99206
+Defined in: main.ts:108503
 
 array of results filtering parameters
 optional field
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **first\_date**: `string`
 
-Defined in: main.ts:99105
+Defined in: main.ts:108402
 
 first date of comparison period
 required field
@@ -108,7 +108,7 @@ minimum date: "2020-10-01"
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:99170
+Defined in: main.ts:108467
 
 return subdomains in the API response
 optional field
@@ -122,7 +122,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:99156
+Defined in: main.ts:108453
 
 display results by item type
 optional field
@@ -139,7 +139,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:99147
+Defined in: main.ts:108444
 
 unique language identifier
 required field if you don’t specify language_name
@@ -154,7 +154,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:99140
+Defined in: main.ts:108437
 
 full name of the language
 required field if you don’t specify language_code
@@ -170,7 +170,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:99190
+Defined in: main.ts:108487
 
 the maximum number of domains in the results array
 optional field
@@ -183,7 +183,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:99132
+Defined in: main.ts:108429
 
 unique location identifier
 required field if you don’t specify location_name
@@ -199,7 +199,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:99124
+Defined in: main.ts:108421
 
 full name of the location
 required field if you don’t specify location_code
@@ -215,7 +215,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:99195
+Defined in: main.ts:108492
 
 offset in the results array of returned domains
 optional field
@@ -228,7 +228,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:99221
+Defined in: main.ts:108518
 
 results sorting rules
 optional field
@@ -251,7 +251,7 @@ example:
 
 > `optional` **second\_date**: `string`
 
-Defined in: main.ts:99116
+Defined in: main.ts:108413
 
 second date of comparison period
 required field
@@ -270,7 +270,7 @@ minimum date: "2020-10-01"
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:99227
+Defined in: main.ts:108524
 
 user-defined task identifier
 optional field
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **top\_categories\_count**: `number`
 
-Defined in: main.ts:99164
+Defined in: main.ts:108461
 
 number of additional domain categories
 optional field

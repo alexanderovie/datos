@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
-Defined in: main.ts:146916
+Defined in: main.ts:156261
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:146916
 
 > **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
-Defined in: main.ts:146936
+Defined in: main.ts:156281
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146936
 
 > `optional` **device**: `string`[]
 
-Defined in: main.ts:146925
+Defined in: main.ts:156270
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:146925
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:146918
+Defined in: main.ts:156263
 
 keyword in a POST array
 
@@ -66,7 +66,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146924
+Defined in: main.ts:156269
 
 language code in a POST array
 if there is no data, then the value is null
@@ -81,7 +81,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146921
+Defined in: main.ts:156266
 
 location code in a POST array
 if there is no data, then the value is null
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:146929
+Defined in: main.ts:156274
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -112,7 +112,7 @@ default value monthly
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
-Defined in: main.ts:146932
+Defined in: main.ts:156277
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
@@ -127,7 +127,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146945
+Defined in: main.ts:156290
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:146945
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146971
+Defined in: main.ts:156316
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:146971
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
-Defined in: main.ts:146964
+Defined in: main.ts:156309
 
 #### Parameters
 

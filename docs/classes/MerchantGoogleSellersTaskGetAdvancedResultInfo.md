@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResultInfo
 
-Defined in: main.ts:188614
+Defined in: main.ts:197461
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:188614
 
 > **new MerchantGoogleSellersTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:188655
+Defined in: main.ts:197502
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188655
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:188628
+Defined in: main.ts:197475
 
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:188633
+Defined in: main.ts:197480
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:188639
+Defined in: main.ts:197486
 
 URL to the product image
 
@@ -86,7 +86,7 @@ URL to the product image
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:188647
+Defined in: main.ts:197494
 
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -103,7 +103,7 @@ shops_list, buy_on_google
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:188651
+Defined in: main.ts:197498
 
 items in SERP
 
@@ -117,7 +117,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:188649
+Defined in: main.ts:197496
 
 the number of results returned in the items array
 
@@ -131,7 +131,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:188625
+Defined in: main.ts:197472
 
 language code in a POST array
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:188623
+Defined in: main.ts:197470
 
 location code in a POST array
 
@@ -159,7 +159,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:188617
+Defined in: main.ts:197464
 
 product_id received in a POST array
 learn more about the parameter in this help center guide
@@ -174,7 +174,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:188642
+Defined in: main.ts:197489
 
 product rating
 the product popularity rate based on product reviews
@@ -189,7 +189,7 @@ the product popularity rate based on product reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:188621
+Defined in: main.ts:197468
 
 search engine domain in a POST array
 
@@ -203,7 +203,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188635
+Defined in: main.ts:197482
 
 title of the product
 
@@ -217,7 +217,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:188619
+Defined in: main.ts:197466
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188637
+Defined in: main.ts:197484
 
 URL to the product page
 
@@ -245,7 +245,7 @@ URL to the product page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188664
+Defined in: main.ts:197511
 
 #### Parameters
 
@@ -263,7 +263,7 @@ Defined in: main.ts:188664
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188702
+Defined in: main.ts:197549
 
 #### Parameters
 
@@ -281,7 +281,7 @@ Defined in: main.ts:188702
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:188695
+Defined in: main.ts:197542
 
 #### Parameters
 

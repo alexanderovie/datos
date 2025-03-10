@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
-Defined in: main.ts:128240
+Defined in: main.ts:137585
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:128240
 
 > **new KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)
 
-Defined in: main.ts:128353
+Defined in: main.ts:137698
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128353
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:128302
+Defined in: main.ts:137647
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:128310
+Defined in: main.ts:137655
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:128316
+Defined in: main.ts:137661
 
 include keywords associated with adult content
 optional field
@@ -98,7 +98,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128289
+Defined in: main.ts:137634
 
 search engine language code
 optional field
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:128283
+Defined in: main.ts:137628
 
 full name of search engine language
 optional field
@@ -134,7 +134,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128268
+Defined in: main.ts:137613
 
 search engine location code
 optional field
@@ -154,7 +154,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:128277
+Defined in: main.ts:137622
 
 GPS coordinates of a location
 optional field
@@ -175,7 +175,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:128260
+Defined in: main.ts:137605
 
 full name of search engine location
 optional field
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:128343
+Defined in: main.ts:137688
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:128332
+Defined in: main.ts:137677
 
 return URL for sending task results
 optional field
@@ -241,7 +241,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:128294
+Defined in: main.ts:137639
 
 include Google search partners
 optional field
@@ -258,7 +258,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:128321
+Defined in: main.ts:137666
 
 results sorting parameters
 optional field
@@ -275,7 +275,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:128349
+Defined in: main.ts:137694
 
 user-defined task identifier
 optional field
@@ -293,7 +293,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:128245
+Defined in: main.ts:137590
 
 domain or page
 required field
@@ -310,7 +310,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 > `optional` **target\_type**: `string`
 
-Defined in: main.ts:128252
+Defined in: main.ts:137597
 
 search keywords for site or url
 optional field
@@ -329,7 +329,7 @@ if set to page, keywords will be provided for the specified webpage
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128362
+Defined in: main.ts:137707
 
 #### Parameters
 
@@ -347,7 +347,7 @@ Defined in: main.ts:128362
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128393
+Defined in: main.ts:137738
 
 #### Parameters
 
@@ -365,7 +365,7 @@ Defined in: main.ts:128393
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)
 
-Defined in: main.ts:128386
+Defined in: main.ts:137731
 
 #### Parameters
 

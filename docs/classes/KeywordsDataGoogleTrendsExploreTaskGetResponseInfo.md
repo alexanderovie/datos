@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResponseInfo
 
-Defined in: main.ts:134739
+Defined in: main.ts:144084
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134739
 
 > **new KeywordsDataGoogleTrendsExploreTaskGetResponseInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
-Defined in: main.ts:134745
+Defined in: main.ts:144090
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:134745
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:25217
+Defined in: main.ts:26022
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:25210
+Defined in: main.ts:26015
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:25213
+Defined in: main.ts:26018
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:134741
+Defined in: main.ts:144086
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:25219
+Defined in: main.ts:26024
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:25221
+Defined in: main.ts:26026
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:25215
+Defined in: main.ts:26020
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:25207
+Defined in: main.ts:26012
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134749
+Defined in: main.ts:144094
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:134749
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134771
+Defined in: main.ts:144116
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:134771
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
-Defined in: main.ts:134764
+Defined in: main.ts:144109
 
 #### Parameters
 

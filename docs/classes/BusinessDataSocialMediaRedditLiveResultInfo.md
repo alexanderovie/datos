@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
-Defined in: main.ts:230818
+Defined in: main.ts:239681
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:230818
 
 > **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-Defined in: main.ts:230829
+Defined in: main.ts:239692
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230829
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:230823
+Defined in: main.ts:239686
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -55,7 +55,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
 
-Defined in: main.ts:230825
+Defined in: main.ts:239688
 
 reddit reviews for the page_url
 
@@ -69,7 +69,7 @@ reddit reviews for the page_url
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:230820
+Defined in: main.ts:239683
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230838
+Defined in: main.ts:239701
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:230838
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230861
+Defined in: main.ts:239724
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:230861
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-Defined in: main.ts:230854
+Defined in: main.ts:239717
 
 #### Parameters
 

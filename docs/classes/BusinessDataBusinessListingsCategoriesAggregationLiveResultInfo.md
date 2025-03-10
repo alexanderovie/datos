@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
-Defined in: main.ts:212738
+Defined in: main.ts:221593
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:212738
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
-Defined in: main.ts:212757
+Defined in: main.ts:221612
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212757
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:212743
+Defined in: main.ts:221598
 
 item types
 the number of items in the items array
@@ -55,7 +55,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
-Defined in: main.ts:212753
+Defined in: main.ts:221608
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -71,7 +71,7 @@ possible item types: business_category
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:212745
+Defined in: main.ts:221600
 
 offset in the results array of returned categories
 
@@ -85,7 +85,7 @@ offset in the results array of returned categories
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:212749
+Defined in: main.ts:221604
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -101,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:212740
+Defined in: main.ts:221595
 
 total number of results in our database relevant to your request
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212766
+Defined in: main.ts:221621
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:212766
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212791
+Defined in: main.ts:221646
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:212791
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
-Defined in: main.ts:212784
+Defined in: main.ts:221639
 
 #### Parameters
 

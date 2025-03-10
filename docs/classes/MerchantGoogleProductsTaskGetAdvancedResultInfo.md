@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:187236
+Defined in: main.ts:196075
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:187236
 
 > **new MerchantGoogleProductsTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleProductsTaskGetAdvancedResultInfo`](MerchantGoogleProductsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:187273
+Defined in: main.ts:196112
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187273
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:187250
+Defined in: main.ts:196089
 
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:187255
+Defined in: main.ts:196094
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:187263
+Defined in: main.ts:196102
 
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -89,7 +89,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:187269
+Defined in: main.ts:196108
 
 additional items present in the element
 contains a list of related keywords;
@@ -105,7 +105,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:187265
+Defined in: main.ts:196104
 
 the number of results returned in the items array
 
@@ -119,7 +119,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:187239
+Defined in: main.ts:196078
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -134,7 +134,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:187247
+Defined in: main.ts:196086
 
 language code in a POST array
 
@@ -148,7 +148,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:187245
+Defined in: main.ts:196084
 
 location code in a POST array
 
@@ -162,7 +162,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:187243
+Defined in: main.ts:196082
 
 search engine domain in a POST array
 
@@ -176,7 +176,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:187258
+Defined in: main.ts:196097
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -191,7 +191,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:187241
+Defined in: main.ts:196080
 
 type of element
 
@@ -205,7 +205,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187282
+Defined in: main.ts:196121
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:187282
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187317
+Defined in: main.ts:196156
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:187317
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductsTaskGetAdvancedResultInfo`](MerchantGoogleProductsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:187310
+Defined in: main.ts:196149
 
 #### Parameters
 

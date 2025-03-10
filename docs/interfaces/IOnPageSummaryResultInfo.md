@@ -6,7 +6,7 @@
 
 # Interface: IOnPageSummaryResultInfo
 
-Defined in: main.ts:165888
+Defined in: main.ts:175233
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:165888
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:165897
+Defined in: main.ts:175242
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -30,7 +30,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:165891
+Defined in: main.ts:175236
 
 status of the crawling session
 possible values: in_progress, finished
@@ -41,7 +41,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:165893
+Defined in: main.ts:175238
 
 details of the crawling session
 
@@ -51,7 +51,7 @@ details of the crawling session
 
 > `optional` **crawl\_stop\_reason**: `string`
 
-Defined in: main.ts:165905
+Defined in: main.ts:175250
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -67,7 +67,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 > `optional` **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
 
-Defined in: main.ts:165908
+Defined in: main.ts:175253
 
 domain-wide info
 on-page information about the target domain and crawling process
@@ -78,7 +78,7 @@ on-page information about the target domain and crawling process
 
 > `optional` **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
 
-Defined in: main.ts:165911
+Defined in: main.ts:175256
 
 page-specific info
 metrics information on the target website pages

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
-Defined in: main.ts:164154
+Defined in: main.ts:173499
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:164154
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:164161
+Defined in: main.ts:173506
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:164161
 
 > `optional` **links**: `object`
 
-Defined in: main.ts:164158
+Defined in: main.ts:173503
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:164158
 
 > `optional` **non\_indexable**: `object`
 
-Defined in: main.ts:164157
+Defined in: main.ts:173502
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:164157
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:164156
+Defined in: main.ts:173501
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:164156
 
 > `optional` **pages\_by\_resource**: `object`
 
-Defined in: main.ts:164159
+Defined in: main.ts:173504
 
 #### Index Signature
 
@@ -78,7 +78,7 @@ Defined in: main.ts:164159
 
 > `optional` **redirect\_chains**: `object`
 
-Defined in: main.ts:164160
+Defined in: main.ts:173505
 
 #### Index Signature
 
@@ -90,7 +90,7 @@ Defined in: main.ts:164160
 
 > `optional` **resources**: `object`
 
-Defined in: main.ts:164155
+Defined in: main.ts:173500
 
 #### Index Signature
 

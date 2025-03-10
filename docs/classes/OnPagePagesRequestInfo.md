@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesRequestInfo
 
-Defined in: main.ts:166026
+Defined in: main.ts:175371
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:166026
 
 > **new OnPagePagesRequestInfo**(`data`?): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-Defined in: main.ts:166077
+Defined in: main.ts:175422
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166077
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:166053
+Defined in: main.ts:175398
 
 array of results filtering parameters
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:166032
+Defined in: main.ts:175377
 
 ID of the task
 required field
@@ -81,7 +81,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:166037
+Defined in: main.ts:175382
 
 the maximum number of returned pages
 optional field
@@ -98,7 +98,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:166042
+Defined in: main.ts:175387
 
 offset in the results array of returned pages
 optional field
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:166067
+Defined in: main.ts:175412
 
 results sorting rules
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:166073
+Defined in: main.ts:175418
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166086
+Defined in: main.ts:175431
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:166086
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166116
+Defined in: main.ts:175461
 
 #### Parameters
 
@@ -195,7 +195,7 @@ Defined in: main.ts:166116
 
 > `static` **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-Defined in: main.ts:166109
+Defined in: main.ts:175454
 
 #### Parameters
 

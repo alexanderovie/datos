@@ -6,7 +6,7 @@
 
 # Class: GoogleImageImagesSearchSerpElementItem
 
-Defined in: main.ts:50908
+Defined in: main.ts:53311
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:50908
 
 > **new GoogleImageImagesSearchSerpElementItem**(`data`?): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
 
-Defined in: main.ts:50924
+Defined in: main.ts:53327
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:50924
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:50758
+Defined in: main.ts:53161
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:50758
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:50914
+Defined in: main.ts:53317
 
 the alt tag of the image
 
@@ -74,7 +74,7 @@ the alt tag of the image
 
 > `optional` **encoded\_url**: `string`
 
-Defined in: main.ts:50920
+Defined in: main.ts:53323
 
 the URL of the cached version of the image stored on Google’s servers
 
@@ -88,7 +88,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:50754
+Defined in: main.ts:53157
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:50751
+Defined in: main.ts:53154
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:50918
+Defined in: main.ts:53321
 
 the URL of the source image
 
@@ -141,7 +141,7 @@ the URL of the source image
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:50912
+Defined in: main.ts:53315
 
 subtitle of the result in SERP
 
@@ -155,7 +155,7 @@ subtitle of the result in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:50910
+Defined in: main.ts:53313
 
 title of the result in SERP
 
@@ -169,7 +169,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50747
+Defined in: main.ts:53150
 
 type of element
 
@@ -187,7 +187,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:50916
+Defined in: main.ts:53319
 
 search URL with refinement parameters
 
@@ -201,7 +201,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:50756
+Defined in: main.ts:53159
 
 the XPath of the element
 
@@ -219,7 +219,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50929
+Defined in: main.ts:53332
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:50929
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50952
+Defined in: main.ts:53355
 
 #### Parameters
 
@@ -263,7 +263,7 @@ Defined in: main.ts:50952
 
 > `static` **fromJS**(`data`): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
 
-Defined in: main.ts:50945
+Defined in: main.ts:53348
 
 #### Parameters
 

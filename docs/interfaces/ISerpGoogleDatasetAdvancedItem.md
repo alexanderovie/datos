@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetAdvancedItem
 
-Defined in: main.ts:58058
+Defined in: main.ts:60461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:58058
 
 > `optional` **area\_covered**: `string`[]
 
-Defined in: main.ts:58113
+Defined in: main.ts:60516
 
 the list of areas covered in the dataset
 for example: Africa, Global
@@ -29,7 +29,7 @@ for example: Africa, Global
 
 > `optional` **authors**: [`AuthorsElement`](../classes/AuthorsElement.md)[]
 
-Defined in: main.ts:58103
+Defined in: main.ts:60506
 
 the list of authors of the dataset
 
@@ -39,7 +39,7 @@ the list of authors of the dataset
 
 > `optional` **dataset\_description**: [`DatasetDescription`](../classes/DatasetDescription.md)
 
-Defined in: main.ts:58117
+Defined in: main.ts:60520
 
 description of the dataset
 
@@ -49,7 +49,7 @@ description of the dataset
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:58075
+Defined in: main.ts:60478
 
 ID of the dataset
 
@@ -59,7 +59,7 @@ ID of the dataset
 
 > `optional` **dataset\_providers**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-Defined in: main.ts:58099
+Defined in: main.ts:60502
 
 the list of institutions that provided the dataset
 
@@ -69,7 +69,7 @@ the list of institutions that provided the dataset
 
 > `optional` **formats**: [`FormatsElement`](../classes/FormatsElement.md)[]
 
-Defined in: main.ts:58101
+Defined in: main.ts:60504
 
 the list of file formats of the dataset
 
@@ -79,7 +79,7 @@ the list of file formats of the dataset
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:58080
+Defined in: main.ts:60483
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -90,7 +90,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **licenses**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-Defined in: main.ts:58105
+Defined in: main.ts:60508
 
 the list of licenses issued to the dataset
 
@@ -100,7 +100,7 @@ the list of licenses issued to the dataset
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:58097
+Defined in: main.ts:60500
 
 sitelinks
 the links shown below some of Google Dataset’s search results
@@ -112,7 +112,7 @@ if there are none, equals null
 
 > `optional` **period\_covered**: [`PeriodCovered`](../classes/PeriodCovered.md)
 
-Defined in: main.ts:58115
+Defined in: main.ts:60518
 
 period covered in the dataset
 
@@ -122,7 +122,7 @@ period covered in the dataset
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:58071
+Defined in: main.ts:60474
 
 the alignment of the element in SERP
 can take the following values:
@@ -134,7 +134,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:58067
+Defined in: main.ts:60470
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -145,7 +145,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:58064
+Defined in: main.ts:60467
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -157,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_article**: `string`
 
-Defined in: main.ts:58093
+Defined in: main.ts:60496
 
 link to related article
 link to the published article that is related to the dataset
@@ -168,7 +168,7 @@ link to the published article that is related to the dataset
 
 > `optional` **scholarly\_articles\_url**: `string`
 
-Defined in: main.ts:58086
+Defined in: main.ts:60489
 
 url of scholarly articles
 link to the list of scholarly articles on Google Scholar
@@ -180,7 +180,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 > `optional` **scholarly\_citations\_count**: `number`
 
-Defined in: main.ts:58082
+Defined in: main.ts:60485
 
 count of articles that refer to the dataset
 
@@ -190,7 +190,7 @@ count of articles that refer to the dataset
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:58077
+Defined in: main.ts:60480
 
 title of the element
 
@@ -200,7 +200,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:58060
+Defined in: main.ts:60463
 
 type of element
 
@@ -210,7 +210,7 @@ type of element
 
 > `optional` **unique\_identifier**: `string`
 
-Defined in: main.ts:58090
+Defined in: main.ts:60493
 
 digital identifier of an object
 unique digital identifier of the dataset
@@ -222,7 +222,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 > `optional` **updated\_date**: `string`
 
-Defined in: main.ts:58110
+Defined in: main.ts:60513
 
 date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -235,6 +235,6 @@ example:
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:58073
+Defined in: main.ts:60476
 
 the XPath of the element

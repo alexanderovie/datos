@@ -6,7 +6,7 @@
 
 # Interface: IImagesElement
 
-Defined in: main.ts:30071
+Defined in: main.ts:31608
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:30071
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:30075
+Defined in: main.ts:31612
 
 alt tag of the image
 
@@ -28,7 +28,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:30080
+Defined in: main.ts:31617
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -39,7 +39,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30073
+Defined in: main.ts:31610
 
 type of element
 
@@ -49,6 +49,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30077
+Defined in: main.ts:31614
 
 URL link

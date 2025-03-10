@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationDetailsItem
 
-Defined in: main.ts:194695
+Defined in: main.ts:203542
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194695
 
 > `optional` **body**: `object`
 
-Defined in: main.ts:194697
+Defined in: main.ts:203544
 
 contains information specified about the product within the section_name
 
@@ -36,7 +36,7 @@ contains information specified about the product within the section_name
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:24311
+Defined in: main.ts:25116
 
 name of the section related to product information specified in the contents
 
@@ -50,7 +50,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24309
+Defined in: main.ts:25114
 
 type of element
 

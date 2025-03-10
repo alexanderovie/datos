@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
-Defined in: main.ts:225635
+Defined in: main.ts:234498
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:225635
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:225699
+Defined in: main.ts:234562
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225652
+Defined in: main.ts:234515
 
 keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:225690
+Defined in: main.ts:234553
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:225683
+Defined in: main.ts:234546
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -90,7 +90,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:225666
+Defined in: main.ts:234529
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -105,7 +105,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:225676
+Defined in: main.ts:234539
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -123,7 +123,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:225659
+Defined in: main.ts:234522
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -138,7 +138,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:225705
+Defined in: main.ts:234568
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: WorkDayInfo
 
-Defined in: main.ts:22978
+Defined in: main.ts:23783
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:22978
 
 > **new WorkDayInfo**(`data`?): [`WorkDayInfo`](WorkDayInfo.md)
 
-Defined in: main.ts:22986
+Defined in: main.ts:23791
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22986
 
 > `optional` **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:22982
+Defined in: main.ts:23787
 
 closing time
 
@@ -54,7 +54,7 @@ closing time
 
 > `optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:22980
+Defined in: main.ts:23785
 
 opening time
 
@@ -68,7 +68,7 @@ opening time
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22995
+Defined in: main.ts:23800
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:22995
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23013
+Defined in: main.ts:23818
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:23013
 
 > `static` **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
 
-Defined in: main.ts:23006
+Defined in: main.ts:23811
 
 #### Parameters
 

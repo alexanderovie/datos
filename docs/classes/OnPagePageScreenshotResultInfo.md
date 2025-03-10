@@ -6,7 +6,7 @@
 
 # Class: OnPagePageScreenshotResultInfo
 
-Defined in: main.ts:172820
+Defined in: main.ts:182165
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:172820
 
 > **new OnPagePageScreenshotResultInfo**(`data`?): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-Defined in: main.ts:172835
+Defined in: main.ts:182180
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172835
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:172823
+Defined in: main.ts:182168
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:172827
+Defined in: main.ts:182172
 
 error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain "error_message":"Screenshot is empty"
@@ -71,7 +71,7 @@ if no error is encountered, the value will be null
 
 > `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
-Defined in: main.ts:172831
+Defined in: main.ts:182176
 
 items array
 
@@ -85,7 +85,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:172829
+Defined in: main.ts:182174
 
 number of items in the results array
 
@@ -99,7 +99,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172844
+Defined in: main.ts:182189
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:172844
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172868
+Defined in: main.ts:182213
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:172868
 
 > `static` **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-Defined in: main.ts:172861
+Defined in: main.ts:182206
 
 #### Parameters
 

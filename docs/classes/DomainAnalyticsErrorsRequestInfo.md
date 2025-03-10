@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsRequestInfo
 
-Defined in: main.ts:84722
+Defined in: main.ts:94019
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:84722
 
 > **new DomainAnalyticsErrorsRequestInfo**(`data`?): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
-Defined in: main.ts:84756
+Defined in: main.ts:94053
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84756
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:84745
+Defined in: main.ts:94042
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:84752
+Defined in: main.ts:94049
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:84738
+Defined in: main.ts:94035
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:84727
+Defined in: main.ts:94024
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:84732
+Defined in: main.ts:94029
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84765
+Defined in: main.ts:94062
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:84765
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84786
+Defined in: main.ts:94083
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:84786
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
-Defined in: main.ts:84779
+Defined in: main.ts:94076
 
 #### Parameters
 

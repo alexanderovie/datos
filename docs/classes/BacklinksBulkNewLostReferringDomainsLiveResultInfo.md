@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
-Defined in: main.ts:162396
+Defined in: main.ts:171741
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:162396
 
 > **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
-Defined in: main.ts:162404
+Defined in: main.ts:171749
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162404
 
 > `optional` **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:162400
+Defined in: main.ts:171745
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:162398
+Defined in: main.ts:171743
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162413
+Defined in: main.ts:171758
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:162413
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162435
+Defined in: main.ts:171780
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:162435
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
-Defined in: main.ts:162428
+Defined in: main.ts:171773
 
 #### Parameters
 

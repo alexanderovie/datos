@@ -6,7 +6,7 @@
 
 # Class: TwitterDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105794
+Defined in: main.ts:116814
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105794
 
 > **new TwitterDataforseoLabsSerpElementItem**(`data`?): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105806
+Defined in: main.ts:116825
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:105806
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`TwitterElement`](TwitterElement.md)[]
 
-Defined in: main.ts:105802
+Defined in: main.ts:116821
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,25 +129,11 @@ positions of elements with different type values are omitted from rank_group
 
 ***
 
-### se\_type?
-
-> `optional` **se\_type**: `string`
-
-Defined in: main.ts:105796
-
-search engine type
-
-#### Implementation of
-
-[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#se_type)
-
-***
-
 ### title?
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:105798
+Defined in: main.ts:116816
 
 title of the result in SERP
 
@@ -160,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -178,9 +165,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:105800
+Defined in: main.ts:116818
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 #### Implementation of
 
@@ -192,7 +179,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -210,7 +197,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105811
+Defined in: main.ts:116830
 
 #### Parameters
 
@@ -232,7 +219,7 @@ Defined in: main.ts:105811
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105836
+Defined in: main.ts:116854
 
 #### Parameters
 
@@ -254,7 +241,7 @@ Defined in: main.ts:105836
 
 > `static` **fromJS**(`data`): [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105829
+Defined in: main.ts:116847
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessMenuLink
 
-Defined in: main.ts:25149
+Defined in: main.ts:25954
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:25149
 
 > **new LocalBusinessMenuLink**(`data`?): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
-Defined in: main.ts:25158
+Defined in: main.ts:25963
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:25158
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24920
+Defined in: main.ts:25725
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24920
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:25152
+Defined in: main.ts:25957
 
 title of the element
 domain of the online menu system
@@ -75,7 +75,7 @@ domain of the online menu system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24918
+Defined in: main.ts:25723
 
 type of element
 
@@ -93,7 +93,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25154
+Defined in: main.ts:25959
 
 URL to view the menu
 
@@ -107,7 +107,7 @@ URL to view the menu
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25163
+Defined in: main.ts:25968
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:25163
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25182
+Defined in: main.ts:25987
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:25182
 
 > `static` **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
-Defined in: main.ts:25175
+Defined in: main.ts:25980
 
 #### Parameters
 

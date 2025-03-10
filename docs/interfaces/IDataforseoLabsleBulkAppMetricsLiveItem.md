@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsleBulkAppMetricsLiveItem
 
-Defined in: main.ts:121184
+Defined in: main.ts:130529
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:121184
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121188
+Defined in: main.ts:130533
 
 id of the app in a POST array
 
@@ -28,7 +28,7 @@ id of the app in a POST array
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:121191
+Defined in: main.ts:130536
 
 metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play
@@ -43,6 +43,6 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121186
+Defined in: main.ts:130531
 
 search engine type

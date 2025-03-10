@@ -6,7 +6,7 @@
 
 # Interface: IStreamingQualityElement
 
-Defined in: main.ts:70476
+Defined in: main.ts:72879
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:70476
 
 > `optional` **bitrate**: `number`
 
-Defined in: main.ts:70486
+Defined in: main.ts:72889
 
 bit rate of the video
 
@@ -28,7 +28,7 @@ bit rate of the video
 
 > `optional` **fps**: `number`
 
-Defined in: main.ts:70490
+Defined in: main.ts:72893
 
 frame rate of the video
 
@@ -38,7 +38,7 @@ frame rate of the video
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:70484
+Defined in: main.ts:72887
 
 video height in pixels
 
@@ -48,7 +48,7 @@ video height in pixels
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:70480
+Defined in: main.ts:72883
 
 label of the quality element
 
@@ -58,7 +58,7 @@ label of the quality element
 
 > `optional` **mime\_type**: `string`
 
-Defined in: main.ts:70488
+Defined in: main.ts:72891
 
 media type of the video
 
@@ -68,7 +68,7 @@ media type of the video
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70478
+Defined in: main.ts:72881
 
 type of element
 
@@ -78,6 +78,6 @@ type of element
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:70482
+Defined in: main.ts:72885
 
 video width in pixels

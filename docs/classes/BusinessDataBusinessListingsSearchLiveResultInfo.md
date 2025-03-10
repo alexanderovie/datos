@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
-Defined in: main.ts:212132
+Defined in: main.ts:220987
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:212132
 
 > **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:212151
+Defined in: main.ts:221006
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212151
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:212137
+Defined in: main.ts:220992
 
 item types
 the number of items in the items array
@@ -55,7 +55,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:212147
+Defined in: main.ts:221002
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -71,7 +71,7 @@ possible item types: business_listing
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:212139
+Defined in: main.ts:220994
 
 offset in the results array of returned businesses
 
@@ -85,7 +85,7 @@ offset in the results array of returned businesses
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:212143
+Defined in: main.ts:220998
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -101,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:212134
+Defined in: main.ts:220989
 
 total number of results in our database relevant to your request
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212160
+Defined in: main.ts:221015
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:212160
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212185
+Defined in: main.ts:221040
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:212185
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:212178
+Defined in: main.ts:221033
 
 #### Parameters
 

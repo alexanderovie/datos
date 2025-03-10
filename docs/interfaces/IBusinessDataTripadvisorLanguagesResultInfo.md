@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorLanguagesResultInfo
 
-Defined in: main.ts:228091
+Defined in: main.ts:236954
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:228091
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:228095
+Defined in: main.ts:236958
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:228093
+Defined in: main.ts:236956
 
 language name

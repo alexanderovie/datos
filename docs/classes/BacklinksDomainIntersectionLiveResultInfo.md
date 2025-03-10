@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:158222
+Defined in: main.ts:167567
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:158222
 
 > **new BacklinksDomainIntersectionLiveResultInfo**(`data`?): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:158234
+Defined in: main.ts:167579
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158234
 
 > `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:158230
+Defined in: main.ts:167575
 
 contains domain that link to all targets from the POST array
 
@@ -54,7 +54,7 @@ contains domain that link to all targets from the POST array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:158228
+Defined in: main.ts:167573
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:158224
+Defined in: main.ts:167569
 
 target domains, subdomains or webpages in a POST array
 
@@ -86,7 +86,7 @@ target domains, subdomains or webpages in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:158226
+Defined in: main.ts:167571
 
 total amount of results relevant to your request
 
@@ -100,7 +100,7 @@ total amount of results relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158243
+Defined in: main.ts:167588
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:158243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158273
+Defined in: main.ts:167618
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:158273
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:158266
+Defined in: main.ts:167611
 
 #### Parameters
 

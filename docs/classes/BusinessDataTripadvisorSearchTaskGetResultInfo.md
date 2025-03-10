@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
-Defined in: main.ts:228784
+Defined in: main.ts:237647
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:228784
 
 > **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-Defined in: main.ts:228816
+Defined in: main.ts:237679
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228816
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:228796
+Defined in: main.ts:237659
 
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:228801
+Defined in: main.ts:237664
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:228804
+Defined in: main.ts:237667
 
 item types encountered in the result
 possible item types: tripadvisor_search_organic
@@ -87,7 +87,7 @@ possible item types: tripadvisor_search_organic
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:228812
+Defined in: main.ts:237675
 
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:228809
+Defined in: main.ts:237672
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -117,7 +117,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:228787
+Defined in: main.ts:237650
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
@@ -132,7 +132,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:228793
+Defined in: main.ts:237656
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:228791
+Defined in: main.ts:237654
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:228789
+Defined in: main.ts:237652
 
 search engine domain in a POST array
 
@@ -174,7 +174,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:228806
+Defined in: main.ts:237669
 
 the total number of results
 
@@ -188,7 +188,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228825
+Defined in: main.ts:237688
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:228825
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228859
+Defined in: main.ts:237722
 
 #### Parameters
 
@@ -224,7 +224,7 @@ Defined in: main.ts:228859
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-Defined in: main.ts:228852
+Defined in: main.ts:237715
 
 #### Parameters
 

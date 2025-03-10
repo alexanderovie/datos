@@ -6,7 +6,7 @@
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 
-Defined in: main.ts:231056
+Defined in: main.ts:239919
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231056
 
 > **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231061
+Defined in: main.ts:239924
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231061
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:231057
+Defined in: main.ts:239920
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231057
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231070
+Defined in: main.ts:239933
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:231070
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231087
+Defined in: main.ts:239950
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231087
 
 > `static` **fromJS**(`data`): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231080
+Defined in: main.ts:239943
 
 #### Parameters
 

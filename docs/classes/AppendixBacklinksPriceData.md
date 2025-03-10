@@ -6,7 +6,7 @@
 
 # Class: AppendixBacklinksPriceData
 
-Defined in: main.ts:237962
+Defined in: main.ts:246825
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237962
 
 > **new AppendixBacklinksPriceData**(`data`?): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-Defined in: main.ts:237988
+Defined in: main.ts:246851
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237988
 
 > `optional` **anchors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237963
+Defined in: main.ts:246826
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237963
 
 > `optional` **backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237964
+Defined in: main.ts:246827
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237964
 
 > `optional` **bulk\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237965
+Defined in: main.ts:246828
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237965
 
 > `optional` **bulk\_new\_lost\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237966
+Defined in: main.ts:246829
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237966
 
 > `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237967
+Defined in: main.ts:246830
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:237967
 
 > `optional` **bulk\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237968
+Defined in: main.ts:246831
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:237968
 
 > `optional` **bulk\_ranks**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237969
+Defined in: main.ts:246832
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237969
 
 > `optional` **bulk\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237970
+Defined in: main.ts:246833
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:237970
 
 > `optional` **bulk\_spam\_score**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237971
+Defined in: main.ts:246834
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:237971
 
 > `optional` **competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237972
+Defined in: main.ts:246835
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:237972
 
 > `optional` **content\_duplicates**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237973
+Defined in: main.ts:246836
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:237973
 
 > `optional` **domain\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237974
+Defined in: main.ts:246837
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:237974
 
 > `optional` **domain\_pages**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237975
+Defined in: main.ts:246838
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:237975
 
 > `optional` **domain\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237976
+Defined in: main.ts:246839
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:237976
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237977
+Defined in: main.ts:246840
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:237977
 
 > `optional` **history**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237978
+Defined in: main.ts:246841
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:237978
 
 > `optional` **page\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237979
+Defined in: main.ts:246842
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:237979
 
 > `optional` **referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237980
+Defined in: main.ts:246843
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:237980
 
 > `optional` **referring\_networks**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237981
+Defined in: main.ts:246844
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:237981
 
 > `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237982
+Defined in: main.ts:246845
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:237982
 
 > `optional` **timeseries\_new\_lost\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237983
+Defined in: main.ts:246846
 
 #### Implementation of
 
@@ -292,7 +292,7 @@ Defined in: main.ts:237983
 
 > `optional` **timeseries\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237984
+Defined in: main.ts:246847
 
 #### Implementation of
 
@@ -304,7 +304,7 @@ Defined in: main.ts:237984
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237997
+Defined in: main.ts:246860
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: main.ts:237997
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238035
+Defined in: main.ts:246898
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:238035
 
 > `static` **fromJS**(`data`): [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-Defined in: main.ts:238028
+Defined in: main.ts:246891
 
 #### Parameters
 

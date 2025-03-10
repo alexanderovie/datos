@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxSerpElementItem
 
-Defined in: main.ts:33289
+Defined in: main.ts:35114
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33289
 
 > **new AnswerBoxSerpElementItem**(`data`?): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
-Defined in: main.ts:33302
+Defined in: main.ts:35133
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:33302
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:33294
+Defined in: main.ts:35125
 
 link of the element
 
@@ -74,7 +74,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:35118
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`position`](../interfaces/IAnswerBoxSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33298
+Defined in: main.ts:35129
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:33292
+Defined in: main.ts:35123
 
 text
 if there is none, equals null
@@ -164,7 +160,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -182,7 +178,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:35120
 
 the XPath of the element
 
@@ -190,17 +186,13 @@ the XPath of the element
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`xpath`](../interfaces/IAnswerBoxSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33307
+Defined in: main.ts:35138
 
 #### Parameters
 
@@ -222,7 +214,7 @@ Defined in: main.ts:33307
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33335
+Defined in: main.ts:35168
 
 #### Parameters
 
@@ -244,7 +236,7 @@ Defined in: main.ts:33335
 
 > `static` **fromJS**(`data`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
-Defined in: main.ts:33328
+Defined in: main.ts:35161
 
 #### Parameters
 

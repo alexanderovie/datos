@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
-Defined in: main.ts:123462
+Defined in: main.ts:132807
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:123462
 
 > **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-Defined in: main.ts:123478
+Defined in: main.ts:132823
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123478
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
-Defined in: main.ts:123474
+Defined in: main.ts:132819
 
 contains data related to the ranking app metrics of the specified application
 
@@ -54,7 +54,7 @@ contains data related to the ranking app metrics of the specified application
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123472
+Defined in: main.ts:132817
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123468
+Defined in: main.ts:132813
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123466
+Defined in: main.ts:132811
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123464
+Defined in: main.ts:132809
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123470
+Defined in: main.ts:132815
 
 total amount of results in our database relevant to your request
 
@@ -124,7 +124,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123487
+Defined in: main.ts:132832
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:123487
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123513
+Defined in: main.ts:132858
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:123513
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-Defined in: main.ts:123506
+Defined in: main.ts:132851
 
 #### Parameters
 

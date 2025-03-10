@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 
-Defined in: main.ts:204000
+Defined in: main.ts:212847
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:204000
 
 > **new AppDataGooglePlayReviewsSearchSerpElementItem**(`data`?): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:204023
+Defined in: main.ts:212870
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:204023
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22886
+Defined in: main.ts:23691
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **helpful\_count**: `number`
 
-Defined in: main.ts:204013
+Defined in: main.ts:212860
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -75,7 +75,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:204010
+Defined in: main.ts:212857
 
 id of the review
 
@@ -89,7 +89,7 @@ id of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22880
+Defined in: main.ts:23685
 
 the alignment of the element in SERP
 can take the following values:
@@ -109,7 +109,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22876
+Defined in: main.ts:23681
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22873
+Defined in: main.ts:23678
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:22884
+Defined in: main.ts:23689
 
 average rating of the app
 
@@ -165,7 +165,7 @@ average rating of the app
 
 > `optional` **responses**: [`ResponseDataInfo`](ResponseDataInfo.md)[]
 
-Defined in: main.ts:204019
+Defined in: main.ts:212866
 
 response from the developer
 
@@ -179,7 +179,7 @@ response from the developer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:204015
+Defined in: main.ts:212862
 
 content of the review
 
@@ -193,7 +193,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:204008
+Defined in: main.ts:212855
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -210,7 +210,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22882
+Defined in: main.ts:23687
 
 title of the app
 
@@ -228,7 +228,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22870
+Defined in: main.ts:23675
 
 type of element
 
@@ -246,7 +246,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:204017
+Defined in: main.ts:212864
 
 user profile of the reviewer
 
@@ -260,7 +260,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:204003
+Defined in: main.ts:212850
 
 version of the app
 version of the app for which the review is submitted
@@ -275,7 +275,7 @@ version of the app for which the review is submitted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204028
+Defined in: main.ts:212875
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: main.ts:204028
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204056
+Defined in: main.ts:212903
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:204056
 
 > `static` **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:204049
+Defined in: main.ts:212896
 
 #### Parameters
 

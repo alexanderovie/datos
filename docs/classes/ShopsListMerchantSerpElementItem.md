@@ -6,7 +6,7 @@
 
 # Class: ShopsListMerchantSerpElementItem
 
-Defined in: main.ts:188324
+Defined in: main.ts:197163
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:188324
 
 > **new ShopsListMerchantSerpElementItem**(`data`?): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
-Defined in: main.ts:188369
+Defined in: main.ts:197211
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:188369
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21722
+Defined in: main.ts:22527
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:188338
+Defined in: main.ts:197177
 
 product price without tax and shipping
 
@@ -74,7 +74,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:188349
+Defined in: main.ts:197188
 
 currency in the ISO format
 example:
@@ -90,7 +90,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:188336
+Defined in: main.ts:197175
 
 details and special offers
 if there are no details, the value will be null
@@ -105,7 +105,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:188328
+Defined in: main.ts:197167
 
 domain in SERP
 
@@ -119,7 +119,7 @@ domain in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21720
+Defined in: main.ts:22525
 
 alignment of the element in SERP
 can take the following values:
@@ -135,11 +135,26 @@ left, right
 
 ***
 
+### price\_multiplier?
+
+> `optional` **price\_multiplier**: `number`
+
+Defined in: main.ts:197191
+
+monthly price multiplier
+indicates the number of months covered by the monthly payment for the product
+
+#### Implementation of
+
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`price_multiplier`](../interfaces/IShopsListMerchantSerpElementItem.md#price_multiplier)
+
+***
+
 ### product\_annotation?
 
 > `optional` **product\_annotation**: `string`
 
-Defined in: main.ts:188365
+Defined in: main.ts:197207
 
 data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
@@ -155,7 +170,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 > `optional` **product\_condition**: `string`
 
-Defined in: main.ts:188361
+Defined in: main.ts:197203
 
 indicated condition of the product
 possible values: Used, Refurbished, New, null
@@ -170,7 +185,7 @@ possible values: Used, Refurbished, New, null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21716
+Defined in: main.ts:22521
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -189,7 +204,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21713
+Defined in: main.ts:22518
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -208,7 +223,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:188355
+Defined in: main.ts:197197
 
 shop rating
 the shop popularity rate based on product reviews
@@ -223,7 +238,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:188352
+Defined in: main.ts:197194
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -238,7 +253,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:188343
+Defined in: main.ts:197182
 
 product shipping price
 
@@ -252,7 +267,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:188358
+Defined in: main.ts:197200
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -267,7 +282,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:188341
+Defined in: main.ts:197180
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -282,7 +297,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188330
+Defined in: main.ts:197169
 
 product title
 
@@ -296,7 +311,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:188345
+Defined in: main.ts:197184
 
 product price including tax and shipping
 
@@ -310,7 +325,7 @@ product price including tax and shipping
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21710
+Defined in: main.ts:22515
 
 type of element
 
@@ -328,7 +343,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188333
+Defined in: main.ts:197172
 
 Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint
@@ -343,7 +358,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:188326
+Defined in: main.ts:197165
 
 XPath of the element
 
@@ -357,7 +372,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188374
+Defined in: main.ts:197216
 
 #### Parameters
 
@@ -379,7 +394,7 @@ Defined in: main.ts:188374
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188406
+Defined in: main.ts:197249
 
 #### Parameters
 
@@ -401,7 +416,7 @@ Defined in: main.ts:188406
 
 > `static` **fromJS**(`data`): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
-Defined in: main.ts:188399
+Defined in: main.ts:197242
 
 #### Parameters
 

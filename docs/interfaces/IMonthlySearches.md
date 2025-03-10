@@ -6,7 +6,7 @@
 
 # Interface: IMonthlySearches
 
-Defined in: main.ts:92401
+Defined in: main.ts:101698
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:92401
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:92405
+Defined in: main.ts:101702
 
 month
 
@@ -28,7 +28,7 @@ month
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:92407
+Defined in: main.ts:101704
 
 monthly average search volume rate
 
@@ -38,6 +38,6 @@ monthly average search volume rate
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:92403
+Defined in: main.ts:101700
 
 year

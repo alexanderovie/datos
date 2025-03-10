@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsLiveAdvancedRequestInfo
 
-Defined in: main.ts:42486
+Defined in: main.ts:44871
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:42486
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:42570
+Defined in: main.ts:44955
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:42547
+Defined in: main.ts:44932
 
 device type
 optional field
@@ -49,7 +49,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42502
+Defined in: main.ts:44887
 
 keyword
 required field
@@ -67,7 +67,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42541
+Defined in: main.ts:44926
 
 search engine language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:42534
+Defined in: main.ts:44919
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42516
+Defined in: main.ts:44901
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -112,7 +112,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:42527
+Defined in: main.ts:44912
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -131,7 +131,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:42509
+Defined in: main.ts:44894
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -146,7 +146,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:42577
+Defined in: main.ts:44962
 
 page crawl limit
 optional field
@@ -161,7 +161,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:42554
+Defined in: main.ts:44939
 
 device operating system
 optional field
@@ -176,7 +176,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42561
+Defined in: main.ts:44946
 
 search engine domain
 optional field
@@ -191,7 +191,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:42592
+Defined in: main.ts:44977
 
 search places mode
 optional field
@@ -207,7 +207,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:42584
+Defined in: main.ts:44969
 
 search this area
 optional field
@@ -222,7 +222,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:42598
+Defined in: main.ts:44983
 
 user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:42492
+Defined in: main.ts:44877
 
 direct URL of the search query
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesLiveHtmlResultInfo
 
-Defined in: main.ts:52405
+Defined in: main.ts:54808
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:52405
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:52421
+Defined in: main.ts:54824
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:52425
+Defined in: main.ts:54828
 
 elements of search results found in SERP
 
@@ -41,7 +41,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:52423
+Defined in: main.ts:54826
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:52408
+Defined in: main.ts:54811
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -62,7 +62,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:52416
+Defined in: main.ts:54819
 
 language code in a POST array
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:52414
+Defined in: main.ts:54817
 
 location code in a POST array
 
@@ -82,7 +82,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:52412
+Defined in: main.ts:54815
 
 search engine domain in a POST array
 
@@ -92,6 +92,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:52410
+Defined in: main.ts:54813
 
 type of element

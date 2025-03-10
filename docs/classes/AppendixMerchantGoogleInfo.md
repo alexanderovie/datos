@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantGoogleInfo
 
-Defined in: main.ts:232104
+Defined in: main.ts:240967
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232104
 
 > **new AppendixMerchantGoogleInfo**(`data`?): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:232112
+Defined in: main.ts:240975
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232112
 
 > `optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232108
+Defined in: main.ts:240971
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232108
 
 > `optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232107
+Defined in: main.ts:240970
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232107
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232105
+Defined in: main.ts:240968
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232105
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232106
+Defined in: main.ts:240969
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:232106
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232121
+Defined in: main.ts:240984
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:232121
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232141
+Defined in: main.ts:241004
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:232141
 
 > `static` **fromJS**(`data`): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:232134
+Defined in: main.ts:240997
 
 #### Parameters
 

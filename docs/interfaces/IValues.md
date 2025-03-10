@@ -6,7 +6,7 @@
 
 # Interface: IValues
 
-Defined in: main.ts:136641
+Defined in: main.ts:145986
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:136641
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:136647
+Defined in: main.ts:145992
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -32,7 +32,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:136653
+Defined in: main.ts:145998
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -46,7 +46,7 @@ Andorra
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:136661
+Defined in: main.ts:146006
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;

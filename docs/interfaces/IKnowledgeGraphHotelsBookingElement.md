@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
-Defined in: main.ts:30633
+Defined in: main.ts:32218
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:30633
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:30639
+Defined in: main.ts:32224
 
 description of the results element in SERP
 
@@ -28,7 +28,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30643
+Defined in: main.ts:32228
 
 domain where a link points
 
@@ -38,7 +38,7 @@ domain where a link points
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:30648
+Defined in: main.ts:32233
 
 indicates whether the element is an ad
 
@@ -48,7 +48,7 @@ indicates whether the element is an ad
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:30646
+Defined in: main.ts:32231
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -59,7 +59,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30637
+Defined in: main.ts:32222
 
 source of additional information about the result
 
@@ -69,7 +69,7 @@ source of additional information about the result
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30635
+Defined in: main.ts:32220
 
 type of element
 
@@ -79,6 +79,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30641
+Defined in: main.ts:32226
 
 relevant URL

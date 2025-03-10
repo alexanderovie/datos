@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTaskPostRequestInfo
 
-Defined in: main.ts:50083
+Defined in: main.ts:52486
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:50083
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:50167
+Defined in: main.ts:52570
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:50099
+Defined in: main.ts:52502
 
 keyword
 required field
@@ -53,7 +53,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:50145
+Defined in: main.ts:52548
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,7 +68,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:50138
+Defined in: main.ts:52541
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -83,7 +83,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:50121
+Defined in: main.ts:52524
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -98,7 +98,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:50131
+Defined in: main.ts:52534
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -116,7 +116,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:50114
+Defined in: main.ts:52517
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -131,7 +131,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:50174
+Defined in: main.ts:52577
 
 page crawl limit
 optional field
@@ -146,7 +146,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:50151
+Defined in: main.ts:52554
 
 device operating system
 optional field
@@ -160,7 +160,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:50212
+Defined in: main.ts:52615
 
 notification URL of a completed task
 optional field
@@ -179,7 +179,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:50201
+Defined in: main.ts:52604
 
 postback_url datatype
 required field if you specify postback_url
@@ -193,7 +193,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:50195
+Defined in: main.ts:52598
 
 return URL for sending task results
 optional field
@@ -212,7 +212,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:50107
+Defined in: main.ts:52510
 
 task priority
 optional field
@@ -228,7 +228,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:50158
+Defined in: main.ts:52561
 
 search engine domain
 optional field
@@ -243,7 +243,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:50178
+Defined in: main.ts:52581
 
 additional parameters of the search query
 optional field
@@ -255,7 +255,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:50184
+Defined in: main.ts:52587
 
 user-defined task identifier
 optional field
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:50089
+Defined in: main.ts:52492
 
 direct URL of the search query
 optional field

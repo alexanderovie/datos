@@ -6,7 +6,7 @@
 
 # Class: HistoricalMetricsInfo
 
-Defined in: main.ts:111448
+Defined in: main.ts:120793
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:111448
 
 > **new HistoricalMetricsInfo**(`data`?): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
-Defined in: main.ts:111468
+Defined in: main.ts:120813
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111468
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:111464
+Defined in: main.ts:120809
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -57,7 +57,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:111459
+Defined in: main.ts:120804
 
 total count of organic SERPs that contain the domain
 
@@ -71,7 +71,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:111457
+Defined in: main.ts:120802
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:111452
+Defined in: main.ts:120797
 
 month for which the data is provided
 
@@ -102,7 +102,7 @@ month for which the data is provided
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:111450
+Defined in: main.ts:120795
 
 year for which the data is provided
 
@@ -116,7 +116,7 @@ year for which the data is provided
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:111477
+Defined in: main.ts:120822
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:111477
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:111498
+Defined in: main.ts:120843
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:111498
 
 > `static` **fromJS**(`data`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
-Defined in: main.ts:111491
+Defined in: main.ts:120836
 
 #### Parameters
 

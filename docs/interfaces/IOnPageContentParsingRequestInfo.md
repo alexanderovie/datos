@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingRequestInfo
 
-Defined in: main.ts:173068
+Defined in: main.ts:182413
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173068
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:173081
+Defined in: main.ts:182426
 
 ID of the task
 required field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:173074
+Defined in: main.ts:182419
 
 URL of the content to parse
 required field

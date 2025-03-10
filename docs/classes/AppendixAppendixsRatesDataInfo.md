@@ -6,7 +6,7 @@
 
 # Class: AppendixAppendixsRatesDataInfo
 
-Defined in: main.ts:231616
+Defined in: main.ts:240479
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231616
 
 > **new AppendixAppendixsRatesDataInfo**(`data`?): [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
-Defined in: main.ts:231622
+Defined in: main.ts:240485
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231622
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:231618
+Defined in: main.ts:240481
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231618
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:231617
+Defined in: main.ts:240480
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231617
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231631
+Defined in: main.ts:240494
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:231631
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231649
+Defined in: main.ts:240512
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:231649
 
 > `static` **fromJS**(`data`): [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
-Defined in: main.ts:231642
+Defined in: main.ts:240505
 
 #### Parameters
 

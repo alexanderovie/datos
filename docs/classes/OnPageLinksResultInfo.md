@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksResultInfo
 
-Defined in: main.ts:169702
+Defined in: main.ts:179047
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:169702
 
 > **new OnPageLinksResultInfo**(`data`?): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
 
-Defined in: main.ts:169717
+Defined in: main.ts:179062
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169717
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:169705
+Defined in: main.ts:179050
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:169707
+Defined in: main.ts:179052
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
-Defined in: main.ts:169713
+Defined in: main.ts:179058
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169711
+Defined in: main.ts:179056
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:169709
+Defined in: main.ts:179054
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169726
+Defined in: main.ts:179071
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:169726
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169751
+Defined in: main.ts:179096
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:169751
 
 > `static` **fromJS**(`data`): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
 
-Defined in: main.ts:169744
+Defined in: main.ts:179089
 
 #### Parameters
 

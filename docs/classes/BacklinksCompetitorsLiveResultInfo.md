@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveResultInfo
 
-Defined in: main.ts:157272
+Defined in: main.ts:166617
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:157272
 
 > **new BacklinksCompetitorsLiveResultInfo**(`data`?): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:157282
+Defined in: main.ts:166627
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157282
 
 > `optional` **items**: [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:157278
+Defined in: main.ts:166623
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:157276
+Defined in: main.ts:166621
 
 number of items in the items array
 
@@ -68,7 +68,7 @@ number of items in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:157274
+Defined in: main.ts:166619
 
 total number of relevant items in the database
 
@@ -82,7 +82,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157291
+Defined in: main.ts:166636
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:157291
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157314
+Defined in: main.ts:166659
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:157314
 
 > `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:157307
+Defined in: main.ts:166652
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:231984
+Defined in: main.ts:240847
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231984
 
 > **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231992
+Defined in: main.ts:240855
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231992
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:231986
+Defined in: main.ts:240849
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231986
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:231985
+Defined in: main.ts:240848
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231985
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231988
+Defined in: main.ts:240851
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231988
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231987
+Defined in: main.ts:240850
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231987
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232001
+Defined in: main.ts:240864
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:232001
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232021
+Defined in: main.ts:240884
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:232021
 
 > `static` **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232014
+Defined in: main.ts:240877
 
 #### Parameters
 

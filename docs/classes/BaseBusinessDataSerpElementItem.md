@@ -6,7 +6,7 @@
 
 # Class: BaseBusinessDataSerpElementItem
 
-Defined in: main.ts:22202
+Defined in: main.ts:23007
 
 ## Extended by
 
@@ -29,7 +29,7 @@ Defined in: main.ts:22202
 
 > **new BaseBusinessDataSerpElementItem**(`data`?): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:22213
+Defined in: main.ts:23018
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: main.ts:22213
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22211
+Defined in: main.ts:23016
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: main.ts:22211
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22209
+Defined in: main.ts:23014
 
 absolute rank among all the elements
 
@@ -69,7 +69,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22207
+Defined in: main.ts:23012
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -84,7 +84,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22204
+Defined in: main.ts:23009
 
 type of element
 
@@ -98,7 +98,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22223
+Defined in: main.ts:23028
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:22223
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22278
+Defined in: main.ts:23083
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:22278
 
 > `static` **fromJS**(`data`): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:22231
+Defined in: main.ts:23036
 
 #### Parameters
 

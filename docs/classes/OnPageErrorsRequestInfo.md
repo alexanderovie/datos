@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsRequestInfo
 
-Defined in: main.ts:163506
+Defined in: main.ts:172851
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:163506
 
 > **new OnPageErrorsRequestInfo**(`data`?): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-Defined in: main.ts:163540
+Defined in: main.ts:172885
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163540
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:163529
+Defined in: main.ts:172874
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:163536
+Defined in: main.ts:172881
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:163522
+Defined in: main.ts:172867
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:163511
+Defined in: main.ts:172856
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:163516
+Defined in: main.ts:172861
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163549
+Defined in: main.ts:172894
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:163549
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163570
+Defined in: main.ts:172915
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:163570
 
 > `static` **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-Defined in: main.ts:163563
+Defined in: main.ts:172908
 
 #### Parameters
 

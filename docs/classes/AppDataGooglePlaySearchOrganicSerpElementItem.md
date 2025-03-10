@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
-Defined in: main.ts:121650
+Defined in: main.ts:130995
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:121650
 
 > **new AppDataGooglePlaySearchOrganicSerpElementItem**(`data`?): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:121670
+Defined in: main.ts:131015
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:121670
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22886
+Defined in: main.ts:23691
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121652
+Defined in: main.ts:130997
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:121664
+Defined in: main.ts:131009
 
 name of the app developer
 
@@ -88,7 +88,7 @@ name of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:121666
+Defined in: main.ts:131011
 
 URL to the developer page on Google Play
 
@@ -102,7 +102,7 @@ URL to the developer page on Google Play
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:121656
+Defined in: main.ts:131001
 
 URL to the app icon
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:121660
+Defined in: main.ts:131005
 
 indicates whether the app is free
 
@@ -130,7 +130,7 @@ indicates whether the app is free
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22880
+Defined in: main.ts:23685
 
 the alignment of the element in SERP
 can take the following values:
@@ -150,7 +150,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:121662
+Defined in: main.ts:131007
 
 price of the app
 
@@ -164,7 +164,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22876
+Defined in: main.ts:23681
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22873
+Defined in: main.ts:23678
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -202,7 +202,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:22884
+Defined in: main.ts:23689
 
 average rating of the app
 
@@ -220,7 +220,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:121658
+Defined in: main.ts:131003
 
 the total number of reviews of the app
 
@@ -234,7 +234,7 @@ the total number of reviews of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22882
+Defined in: main.ts:23687
 
 title of the app
 
@@ -252,7 +252,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22870
+Defined in: main.ts:23675
 
 type of element
 
@@ -270,7 +270,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:121654
+Defined in: main.ts:130999
 
 URL to the app page on Google Play
 
@@ -284,7 +284,7 @@ URL to the app page on Google Play
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121675
+Defined in: main.ts:131020
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:121675
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121700
+Defined in: main.ts:131045
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:121700
 
 > `static` **fromJS**(`data`): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:121693
+Defined in: main.ts:131038
 
 #### Parameters
 

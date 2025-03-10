@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106206
+Defined in: main.ts:115150
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:106206
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:106212
+Defined in: main.ts:115156
 
 google defined data attribute ID
 example:
-ss:/webfacts:net_worth
+action:listen_artist
 
 ***
 
@@ -34,10 +34,9 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:106217
+Defined in: main.ts:115160
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 ***
 
@@ -45,7 +44,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:106214
+Defined in: main.ts:115158
 
 link of the element
 
@@ -55,7 +54,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -71,7 +70,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -86,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,9 +100,9 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106208
+Defined in: main.ts:115152
 
-title of the link
+title of the result in SERP
 
 ***
 
@@ -111,7 +110,7 @@ title of the link
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -125,7 +124,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

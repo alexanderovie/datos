@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRawHtmlResultInfo
 
-Defined in: main.ts:172472
+Defined in: main.ts:181817
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:172472
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:172475
+Defined in: main.ts:181820
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:172477
+Defined in: main.ts:181822
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
 
-Defined in: main.ts:172481
+Defined in: main.ts:181826
 
 items array
 
@@ -49,6 +49,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:172479
+Defined in: main.ts:181824
 
 number of items in the results array

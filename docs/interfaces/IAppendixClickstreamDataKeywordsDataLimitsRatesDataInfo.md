@@ -6,7 +6,7 @@
 
 # Interface: IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231491
+Defined in: main.ts:240354
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231491
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231494
+Defined in: main.ts:240357
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231494
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231492
+Defined in: main.ts:240355
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231492
 
 > `optional` **global\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231495
+Defined in: main.ts:240358
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:231495
 
 > `optional` **locations\_and\_languages**: `number`
 
-Defined in: main.ts:231493
+Defined in: main.ts:240356

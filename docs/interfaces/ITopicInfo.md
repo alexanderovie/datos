@@ -6,7 +6,7 @@
 
 # Interface: ITopicInfo
 
-Defined in: main.ts:174285
+Defined in: main.ts:182618
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174285
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:174291
+Defined in: main.ts:182624
 
 content author name
 
@@ -28,7 +28,7 @@ content author name
 
 > `optional` **h\_title**: `string`
 
-Defined in: main.ts:174287
+Defined in: main.ts:182620
 
 meta title
 
@@ -38,7 +38,7 @@ meta title
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:174293
+Defined in: main.ts:182626
 
 content language
 
@@ -46,9 +46,9 @@ content language
 
 ### level?
 
-> `optional` **level**: `string`
+> `optional` **level**: `number`
 
-Defined in: main.ts:174295
+Defined in: main.ts:182628
 
 HTML level
 
@@ -58,7 +58,7 @@ HTML level
 
 > `optional` **main\_title**: `string`
 
-Defined in: main.ts:174289
+Defined in: main.ts:182622
 
 main title of the block
 
@@ -66,9 +66,9 @@ main title of the block
 
 ### primary\_content?
 
-> `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`SectionContentItemInfo`](../classes/SectionContentItemInfo.md)[]
 
-Defined in: main.ts:174298
+Defined in: main.ts:182631
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -77,9 +77,9 @@ you can find more information about content priority calculation in this help ce
 
 ### secondary\_content?
 
-> `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`SectionContentItemInfo`](../classes/SectionContentItemInfo.md)[]
 
-Defined in: main.ts:174301
+Defined in: main.ts:182634
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -88,8 +88,8 @@ you can find more information about content priority calculation in this help ce
 
 ### table\_content?
 
-> `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
+> `optional` **table\_content**: [`TableContentInfo`](../classes/TableContentInfo.md)[]
 
-Defined in: main.ts:174303
+Defined in: main.ts:182636
 
 content of the table on the page

@@ -6,7 +6,7 @@
 
 # Class: CarouselSerpElementItem
 
-Defined in: main.ts:33069
+Defined in: main.ts:34862
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33069
 
 > **new CarouselSerpElementItem**(`data`?): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
-Defined in: main.ts:33081
+Defined in: main.ts:34880
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:33081
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:33073
+Defined in: main.ts:34872
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:34866
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`position`](../interfaces/ICarouselSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33077
+Defined in: main.ts:34876
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33071
+Defined in: main.ts:34870
 
 title of the row
 
@@ -163,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -181,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:34868
 
 the XPath of the element
 
@@ -189,17 +185,13 @@ the XPath of the element
 
 [`ICarouselSerpElementItem`](../interfaces/ICarouselSerpElementItem.md).[`xpath`](../interfaces/ICarouselSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33086
+Defined in: main.ts:34885
 
 #### Parameters
 
@@ -221,7 +213,7 @@ Defined in: main.ts:33086
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33110
+Defined in: main.ts:34911
 
 #### Parameters
 
@@ -243,7 +235,7 @@ Defined in: main.ts:33110
 
 > `static` **fromJS**(`data`): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
-Defined in: main.ts:33103
+Defined in: main.ts:34904
 
 #### Parameters
 

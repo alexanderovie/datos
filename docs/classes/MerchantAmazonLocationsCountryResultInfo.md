@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLocationsCountryResultInfo
 
-Defined in: main.ts:191776
+Defined in: main.ts:200623
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:191776
 
 > **new MerchantAmazonLocationsCountryResultInfo**(`data`?): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
-Defined in: main.ts:191794
+Defined in: main.ts:200641
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191794
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:191788
+Defined in: main.ts:200635
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:191778
+Defined in: main.ts:200625
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:191780
+Defined in: main.ts:200627
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:191786
+Defined in: main.ts:200633
 
 the name of the superordinate location
 example:
@@ -100,7 +100,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:191790
+Defined in: main.ts:200637
 
 location type
 
@@ -114,7 +114,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191803
+Defined in: main.ts:200650
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:191803
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191824
+Defined in: main.ts:200671
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:191824
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)
 
-Defined in: main.ts:191817
+Defined in: main.ts:200664
 
 #### Parameters
 

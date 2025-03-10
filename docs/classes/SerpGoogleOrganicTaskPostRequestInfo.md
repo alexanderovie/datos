@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskPostRequestInfo
 
-Defined in: main.ts:27329
+Defined in: main.ts:28714
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:27329
 
 > **new SerpGoogleOrganicTaskPostRequestInfo**(`data`?): [`SerpGoogleOrganicTaskPostRequestInfo`](SerpGoogleOrganicTaskPostRequestInfo.md)
 
-Defined in: main.ts:27529
+Defined in: main.ts:28921
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27529
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:27457
+Defined in: main.ts:28842
 
 browser screen height
 optional field
@@ -61,7 +61,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:27466
+Defined in: main.ts:28851
 
 browser screen resolution ratio
 optional field
@@ -82,7 +82,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:27448
+Defined in: main.ts:28833
 
 browser screen width
 optional field
@@ -103,7 +103,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:27439
+Defined in: main.ts:28824
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -122,7 +122,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:27362
+Defined in: main.ts:28747
 
 parsing depth
 optional field
@@ -143,7 +143,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:27419
+Defined in: main.ts:28804
 
 device type
 optional field
@@ -160,7 +160,7 @@ default value: desktop
 
 > `optional` **expand\_ai\_overview**: `boolean`
 
-Defined in: main.ts:27487
+Defined in: main.ts:28872
 
 expand ai overview
 optional field
@@ -178,7 +178,7 @@ Note: this parameter applies only to HTML task results
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:27432
+Defined in: main.ts:28817
 
 display related results
 optional field
@@ -196,7 +196,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:27339
+Defined in: main.ts:28724
 
 keyword
 required field
@@ -218,7 +218,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:27407
+Defined in: main.ts:28792
 
 search engine language code
 required field if you don’t specify language_name
@@ -237,7 +237,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:27400
+Defined in: main.ts:28785
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -256,7 +256,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:27481
+Defined in: main.ts:28866
 
 load asynchronous ai overview
 optional field
@@ -276,7 +276,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:27383
+Defined in: main.ts:28768
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -295,7 +295,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:27393
+Defined in: main.ts:28778
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -317,7 +317,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:27376
+Defined in: main.ts:28761
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -336,7 +336,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:27369
+Defined in: main.ts:28754
 
 page crawl limit
 optional field
@@ -355,7 +355,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:27426
+Defined in: main.ts:28811
 
 device operating system
 optional field
@@ -374,7 +374,7 @@ default value: android
 
 > `optional` **people\_also\_ask\_click\_depth**: `number`
 
-Defined in: main.ts:27473
+Defined in: main.ts:28858
 
 clicks on the corresponding element
 optional field
@@ -393,7 +393,7 @@ possible values: from 1 to 4
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:27525
+Defined in: main.ts:28917
 
 notification URL of a completed task
 optional field
@@ -416,7 +416,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:27514
+Defined in: main.ts:28906
 
 postback_url datatype
 required field if you specify postback_url
@@ -434,7 +434,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:27508
+Defined in: main.ts:28900
 
 return URL for sending task results
 optional field
@@ -457,7 +457,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:27353
+Defined in: main.ts:28738
 
 task priority
 optional field
@@ -473,11 +473,30 @@ The cost can be calculated on the Pricing page
 
 ***
 
+### remove\_from\_url?
+
+> `optional` **remove\_from\_url**: `string`[]
+
+Defined in: main.ts:28883
+
+remove specific parameters from URLs
+optional field
+using this field, you can specify up to 10 parameters to remove from URLs in the result
+example:
+"remove_from_url": ["srsltid"]
+Note: if the target field is specified, the specified URL parameters will be removed before the search
+
+#### Implementation of
+
+[`ISerpGoogleOrganicTaskPostRequestInfo`](../interfaces/ISerpGoogleOrganicTaskPostRequestInfo.md).[`remove_from_url`](../interfaces/ISerpGoogleOrganicTaskPostRequestInfo.md#remove_from_url)
+
+***
+
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:27414
+Defined in: main.ts:28799
 
 search engine domain
 optional field
@@ -496,7 +515,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:27491
+Defined in: main.ts:28876
 
 additional parameters of the search query
 optional field
@@ -512,7 +531,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:27497
+Defined in: main.ts:28889
 
 user-defined task identifier
 optional field
@@ -530,7 +549,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:27345
+Defined in: main.ts:28730
 
 direct URL of the search query
 optional field
@@ -548,7 +567,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27538
+Defined in: main.ts:28930
 
 #### Parameters
 
@@ -566,7 +585,7 @@ Defined in: main.ts:27538
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27580
+Defined in: main.ts:28977
 
 #### Parameters
 
@@ -584,7 +603,7 @@ Defined in: main.ts:27580
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskPostRequestInfo`](SerpGoogleOrganicTaskPostRequestInfo.md)
 
-Defined in: main.ts:27573
+Defined in: main.ts:28970
 
 #### Parameters
 

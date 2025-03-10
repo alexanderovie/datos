@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTaskGetResponseInfo
 
-Defined in: main.ts:141147
+Defined in: main.ts:150492
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:141147
 
 > **new KeywordsDataBingAudienceEstimationTaskGetResponseInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)
 
-Defined in: main.ts:141153
+Defined in: main.ts:150498
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:141153
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:25217
+Defined in: main.ts:26022
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:25210
+Defined in: main.ts:26015
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:25213
+Defined in: main.ts:26018
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingAudienceEstimationTaskGetTaskInfo`](KeywordsDataBingAudienceEstimationTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:141149
+Defined in: main.ts:150494
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:25219
+Defined in: main.ts:26024
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:25221
+Defined in: main.ts:26026
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:25215
+Defined in: main.ts:26020
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:25207
+Defined in: main.ts:26012
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:141157
+Defined in: main.ts:150502
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:141157
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:141179
+Defined in: main.ts:150524
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:141179
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)
 
-Defined in: main.ts:141172
+Defined in: main.ts:150517
 
 #### Parameters
 

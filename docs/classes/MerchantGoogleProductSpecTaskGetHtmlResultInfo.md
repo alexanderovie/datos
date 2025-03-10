@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTaskGetHtmlResultInfo
 
-Defined in: main.ts:190050
+Defined in: main.ts:198897
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:190050
 
 > **new MerchantGoogleProductSpecTaskGetHtmlResultInfo**(`data`?): [`MerchantGoogleProductSpecTaskGetHtmlResultInfo`](MerchantGoogleProductSpecTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:190073
+Defined in: main.ts:198920
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190073
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:190065
+Defined in: main.ts:198912
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:190069
+Defined in: main.ts:198916
 
 elements of search results found on Google Shopping
 
@@ -71,7 +71,7 @@ elements of search results found on Google Shopping
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:190067
+Defined in: main.ts:198914
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:190060
+Defined in: main.ts:198907
 
 language code in a POST array
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:190058
+Defined in: main.ts:198905
 
 location code in a POST array
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190052
+Defined in: main.ts:198899
 
 product ID in a POST array
 
@@ -127,7 +127,7 @@ product ID in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:190056
+Defined in: main.ts:198903
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190054
+Defined in: main.ts:198901
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190082
+Defined in: main.ts:198929
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:190082
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190110
+Defined in: main.ts:198957
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:190110
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetHtmlResultInfo`](MerchantGoogleProductSpecTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:190103
+Defined in: main.ts:198950
 
 #### Parameters
 

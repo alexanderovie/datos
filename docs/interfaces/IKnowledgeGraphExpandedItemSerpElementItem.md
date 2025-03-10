@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedItemSerpElementItem
 
-Defined in: main.ts:30262
+Defined in: main.ts:31809
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30262
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30268
+Defined in: main.ts:31821
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](../classes/KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:30270
+Defined in: main.ts:31823
 
 link of the element
 
@@ -44,15 +44,11 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:31813
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -60,7 +56,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -75,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -91,7 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30274
+Defined in: main.ts:31827
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -103,7 +99,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30264
+Defined in: main.ts:31817
 
 title of the link
 
@@ -113,7 +109,7 @@ title of the link
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -127,10 +123,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:31815
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

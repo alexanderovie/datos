@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
-Defined in: main.ts:102296
+Defined in: main.ts:111585
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:102296
 
 > **new DataforseoLabsGoogleSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:102317
+Defined in: main.ts:111606
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102317
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:102313
+Defined in: main.ts:111602
 
 contains detected SERP competitors and related data
 
@@ -54,7 +54,7 @@ contains detected SERP competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:102311
+Defined in: main.ts:111600
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:102307
+Defined in: main.ts:111596
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:102304
+Defined in: main.ts:111593
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:102298
+Defined in: main.ts:111587
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:102301
+Defined in: main.ts:111590
 
 keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -127,7 +127,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:102309
+Defined in: main.ts:111598
 
 the total amount of results in our database relevant to your request
 
@@ -141,7 +141,7 @@ the total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:102326
+Defined in: main.ts:111615
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:102326
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:102357
+Defined in: main.ts:111646
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:102357
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:102350
+Defined in: main.ts:111639
 
 #### Parameters
 

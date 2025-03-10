@@ -6,7 +6,7 @@
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231370
+Defined in: main.ts:240233
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231370
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231375
+Defined in: main.ts:240238
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231375
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231373
+Defined in: main.ts:240236
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231373
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231374
+Defined in: main.ts:240237
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:231374
 
 > `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231372
+Defined in: main.ts:240235
 
 ***
 
@@ -50,4 +50,4 @@ Defined in: main.ts:231372
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:231371
+Defined in: main.ts:240234

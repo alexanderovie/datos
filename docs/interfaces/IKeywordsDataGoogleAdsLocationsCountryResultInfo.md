@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsLocationsCountryResultInfo
 
-Defined in: main.ts:126537
+Defined in: main.ts:135882
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:126537
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:126552
+Defined in: main.ts:135897
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126539
+Defined in: main.ts:135884
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:126550
+Defined in: main.ts:135895
 
 the code of the superordinate location
 example:
@@ -55,7 +55,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:126541
+Defined in: main.ts:135886
 
 full name of the location
 
@@ -65,7 +65,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:126555
+Defined in: main.ts:135900
 
 location type
 possible values according to Google’s target types

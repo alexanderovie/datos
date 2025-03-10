@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
-Defined in: main.ts:225990
+Defined in: main.ts:234853
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:225990
 
 > **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:226046
+Defined in: main.ts:234909
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:226046
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:226014
+Defined in: main.ts:234877
 
 parsing depth
 optional field
@@ -60,7 +60,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225998
+Defined in: main.ts:234861
 
 keyword
 required field
@@ -80,7 +80,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:226042
+Defined in: main.ts:234905
 
 notification URL of a completed task
 optional field
@@ -103,7 +103,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:226031
+Defined in: main.ts:234894
 
 return URL for sending task results
 optional field
@@ -126,7 +126,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:226006
+Defined in: main.ts:234869
 
 task priority
 optional field
@@ -146,7 +146,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:226020
+Defined in: main.ts:234883
 
 user-defined task identifier
 optional field
@@ -164,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226055
+Defined in: main.ts:234918
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:226055
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226077
+Defined in: main.ts:234940
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Defined in: main.ts:226077
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:226070
+Defined in: main.ts:234933
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AddressInfo
 
-Defined in: main.ts:41429
+Defined in: main.ts:43806
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:41429
 
 > **new AddressInfo**(`data`?): [`AddressInfo`](AddressInfo.md)
 
-Defined in: main.ts:41445
+Defined in: main.ts:43822
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:41445
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:41433
+Defined in: main.ts:43810
 
 street address of the local establishment
 
@@ -54,7 +54,7 @@ street address of the local establishment
 
 > `optional` **borough**: `string`
 
-Defined in: main.ts:41431
+Defined in: main.ts:43808
 
 administrative unit or district the local establishment belongs to
 
@@ -68,7 +68,7 @@ administrative unit or district the local establishment belongs to
 
 > `optional` **city**: `string`
 
-Defined in: main.ts:41435
+Defined in: main.ts:43812
 
 name of the city where the local establishment is located
 
@@ -82,7 +82,7 @@ name of the city where the local establishment is located
 
 > `optional` **country\_code**: `string`
 
-Defined in: main.ts:41441
+Defined in: main.ts:43818
 
 ISO country code of the local establishment
 
@@ -96,7 +96,7 @@ ISO country code of the local establishment
 
 > `optional` **region**: `string`
 
-Defined in: main.ts:41439
+Defined in: main.ts:43816
 
 DMA region the local establishment belongs to
 
@@ -110,7 +110,7 @@ DMA region the local establishment belongs to
 
 > `optional` **zip**: `string`
 
-Defined in: main.ts:41437
+Defined in: main.ts:43814
 
 ZIP code of the local establishment
 
@@ -124,7 +124,7 @@ ZIP code of the local establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41454
+Defined in: main.ts:43831
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:41454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41476
+Defined in: main.ts:43853
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:41476
 
 > `static` **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
 
-Defined in: main.ts:41469
+Defined in: main.ts:43846
 
 #### Parameters
 

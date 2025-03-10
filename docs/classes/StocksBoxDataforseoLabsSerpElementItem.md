@@ -6,7 +6,7 @@
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109039
+Defined in: main.ts:118378
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109039
 
 > **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109061
+Defined in: main.ts:118400
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:109061
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:109052
+Defined in: main.ts:118391
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:109057
+Defined in: main.ts:118396
 
 contains data provided in the graph of the element
 
@@ -88,7 +88,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:109048
+Defined in: main.ts:118387
 
 price of the shopping element
 
@@ -122,7 +122,7 @@ price of the shopping element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,7 +141,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -160,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:109046
+Defined in: main.ts:118385
 
 text alongside the link title
 
@@ -174,7 +174,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:109044
+Defined in: main.ts:118383
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -189,7 +189,7 @@ indicates the source of information included in the shopping_element
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:109055
+Defined in: main.ts:118394
 
 results table
 if there are none, equals null
@@ -204,7 +204,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109041
+Defined in: main.ts:118380
 
 title of the result in SERP
 
@@ -218,7 +218,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -236,9 +236,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109050
+Defined in: main.ts:118389
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 #### Implementation of
 
@@ -250,7 +250,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -268,7 +268,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109066
+Defined in: main.ts:118405
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:109066
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109091
+Defined in: main.ts:118430
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: main.ts:109091
 
 > `static` **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109084
+Defined in: main.ts:118423
 
 #### Parameters
 

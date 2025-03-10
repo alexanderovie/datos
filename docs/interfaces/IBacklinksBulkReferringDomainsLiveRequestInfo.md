@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:161528
+Defined in: main.ts:170873
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161528
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:161553
+Defined in: main.ts:170898
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:161547
+Defined in: main.ts:170892
 
 domains, subdomains or webpages to get the number of referring domains for
 required field

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphShoppingElement
 
-Defined in: main.ts:30373
+Defined in: main.ts:31942
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30373
 
 > **new KnowledgeGraphShoppingElement**(`data`?): [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
 
-Defined in: main.ts:30400
+Defined in: main.ts:31969
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:30400
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30381
+Defined in: main.ts:31950
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:30393
+Defined in: main.ts:31962
 
 merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -71,7 +71,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:30396
+Defined in: main.ts:31965
 
 URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -86,7 +86,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:30384
+Defined in: main.ts:31953
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -101,7 +101,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:30388
+Defined in: main.ts:31957
 
 text alongside the link title
 
@@ -115,7 +115,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30386
+Defined in: main.ts:31955
 
 source of additional information about the result
 
@@ -129,7 +129,7 @@ source of additional information about the result
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30377
+Defined in: main.ts:31946
 
 title of the result in SERP
 
@@ -143,7 +143,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30375
+Defined in: main.ts:31944
 
 type of element
 
@@ -157,7 +157,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30379
+Defined in: main.ts:31948
 
 relevant URL
 
@@ -171,7 +171,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30409
+Defined in: main.ts:31978
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:30409
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30434
+Defined in: main.ts:32003
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:30434
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
 
-Defined in: main.ts:30427
+Defined in: main.ts:31996
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: PopularProductsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108815
+Defined in: main.ts:118146
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108815
 
 > **new PopularProductsDataforseoLabsSerpElementItem**(`data`?): [`PopularProductsDataforseoLabsSerpElementItem`](PopularProductsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108821
+Defined in: main.ts:118153
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:108821
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
-Defined in: main.ts:108817
+Defined in: main.ts:118149
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -150,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -168,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108826
+Defined in: main.ts:118158
 
 #### Parameters
 
@@ -190,7 +191,7 @@ Defined in: main.ts:108826
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108848
+Defined in: main.ts:118180
 
 #### Parameters
 
@@ -212,7 +213,7 @@ Defined in: main.ts:108848
 
 > `static` **fromJS**(`data`): [`PopularProductsDataforseoLabsSerpElementItem`](PopularProductsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108841
+Defined in: main.ts:118173
 
 #### Parameters
 

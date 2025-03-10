@@ -6,7 +6,7 @@
 
 # Class: AppendixBacklinksDayStatisticsRatesData
 
-Defined in: main.ts:234808
+Defined in: main.ts:243671
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:234808
 
 > **new AppendixBacklinksDayStatisticsRatesData**(`data`?): [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
 
-Defined in: main.ts:234839
+Defined in: main.ts:243702
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234839
 
 > `optional` **anchors**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234815
+Defined in: main.ts:243678
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:234815
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:234833
+Defined in: main.ts:243697
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:234833
 
 > `optional` **backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234813
+Defined in: main.ts:243676
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:234813
 
 > `optional` **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234820
+Defined in: main.ts:243683
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:234820
 
 > `optional` **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234821
+Defined in: main.ts:243684
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:234821
 
 > `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234822
+Defined in: main.ts:243685
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:234822
 
 > `optional` **bulk\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234830
+Defined in: main.ts:243693
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:234830
 
 > `optional` **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234819
+Defined in: main.ts:243682
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:234819
 
 > `optional` **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234823
+Defined in: main.ts:243686
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:234823
 
 > `optional` **bulk\_spam\_score**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234829
+Defined in: main.ts:243692
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:234829
 
 > `optional` **competitors**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234828
+Defined in: main.ts:243691
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:234828
 
 > `optional` **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234811
+Defined in: main.ts:243674
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:234811
 
 > `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234812
+Defined in: main.ts:243675
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:234812
 
 > `optional` **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234814
+Defined in: main.ts:243677
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:234814
 
 > `optional` **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234825
+Defined in: main.ts:243688
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:234825
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234824
+Defined in: main.ts:243687
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:234824
 
 > `optional` **historical\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234834
+Defined in: main.ts:243698
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:234834
 
 > `optional` **history**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234810
+Defined in: main.ts:243673
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:234810
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:234832
+Defined in: main.ts:243696
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:234832
 
 > `optional` **index**: `number`
 
-Defined in: main.ts:234835
+Defined in: main.ts:243694
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:234835
 
 > `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234817
+Defined in: main.ts:243680
 
 #### Implementation of
 
@@ -292,7 +292,7 @@ Defined in: main.ts:234817
 
 > `optional` **pages\_summary\_with\_page\_info**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234831
+Defined in: main.ts:243695
 
 #### Implementation of
 
@@ -304,7 +304,7 @@ Defined in: main.ts:234831
 
 > `optional` **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234816
+Defined in: main.ts:243679
 
 #### Implementation of
 
@@ -316,7 +316,7 @@ Defined in: main.ts:234816
 
 > `optional` **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234818
+Defined in: main.ts:243681
 
 #### Implementation of
 
@@ -328,7 +328,7 @@ Defined in: main.ts:234818
 
 > `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234809
+Defined in: main.ts:243672
 
 #### Implementation of
 
@@ -340,7 +340,7 @@ Defined in: main.ts:234809
 
 > `optional` **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234827
+Defined in: main.ts:243690
 
 #### Implementation of
 
@@ -352,7 +352,7 @@ Defined in: main.ts:234827
 
 > `optional` **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234826
+Defined in: main.ts:243689
 
 #### Implementation of
 
@@ -364,7 +364,7 @@ Defined in: main.ts:234826
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234848
+Defined in: main.ts:243711
 
 #### Parameters
 
@@ -382,7 +382,7 @@ Defined in: main.ts:234848
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234891
+Defined in: main.ts:243754
 
 #### Parameters
 
@@ -400,7 +400,7 @@ Defined in: main.ts:234891
 
 > `static` **fromJS**(`data`): [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
 
-Defined in: main.ts:234884
+Defined in: main.ts:243747
 
 #### Parameters
 

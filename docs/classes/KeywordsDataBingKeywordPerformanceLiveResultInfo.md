@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResultInfo
 
-Defined in: main.ts:145764
+Defined in: main.ts:155109
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:145764
 
 > **new KeywordsDataBingKeywordPerformanceLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
-Defined in: main.ts:145787
+Defined in: main.ts:155132
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145787
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:145766
+Defined in: main.ts:155111
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
 
-Defined in: main.ts:145783
+Defined in: main.ts:155128
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145772
+Defined in: main.ts:155117
 
 language code in a POST array
 if there is no data, then the value is null
@@ -84,7 +84,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:145769
+Defined in: main.ts:155114
 
 location code in a POST array
 if there is no data, then the value is null
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:145780
+Defined in: main.ts:155125
 
 indicates the month for which the data is provided for
 example:
@@ -115,7 +115,7 @@ example:
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:145776
+Defined in: main.ts:155121
 
 indicates the year for which the data is provided for
 example:
@@ -131,7 +131,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145796
+Defined in: main.ts:155141
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:145796
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145818
+Defined in: main.ts:155163
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:145818
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
-Defined in: main.ts:145811
+Defined in: main.ts:155156
 
 #### Parameters
 

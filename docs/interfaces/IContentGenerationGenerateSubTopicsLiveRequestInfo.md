@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 
-Defined in: main.ts:182623
+Defined in: main.ts:191462
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182623
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:182635
+Defined in: main.ts:191474
 
 creativity of content generation
 optional field
@@ -33,7 +33,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:182641
+Defined in: main.ts:191480
 
 user-defined task identifier
 optional field
@@ -47,7 +47,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topic**: `string`
 
-Defined in: main.ts:182628
+Defined in: main.ts:191467
 
 main topic of the content to generate
 required field

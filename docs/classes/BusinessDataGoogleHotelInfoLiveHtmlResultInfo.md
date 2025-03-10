@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
-Defined in: main.ts:221768
+Defined in: main.ts:230631
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:221768
 
 > **new BusinessDataGoogleHotelInfoLiveHtmlResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
-Defined in: main.ts:221791
+Defined in: main.ts:230654
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221791
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:221783
+Defined in: main.ts:230646
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:221787
+Defined in: main.ts:230650
 
 HTML pages
 
@@ -71,7 +71,7 @@ HTML pages
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:221785
+Defined in: main.ts:230648
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:221770
+Defined in: main.ts:230633
 
 unique hotel identifier specified as "hotel_id:$"
 
@@ -99,7 +99,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:221778
+Defined in: main.ts:230641
 
 language code in a POST array
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:221776
+Defined in: main.ts:230639
 
 location code in a POST array
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:221774
+Defined in: main.ts:230637
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:221772
+Defined in: main.ts:230635
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221800
+Defined in: main.ts:230663
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:221800
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221828
+Defined in: main.ts:230691
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:221828
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
 
-Defined in: main.ts:221821
+Defined in: main.ts:230684
 
 #### Parameters
 

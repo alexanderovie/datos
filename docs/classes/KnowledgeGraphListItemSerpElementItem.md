@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphListItemSerpElementItem
 
-Defined in: main.ts:29835
+Defined in: main.ts:31340
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29835
 
 > **new KnowledgeGraphListItemSerpElementItem**(`data`?): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
-Defined in: main.ts:29854
+Defined in: main.ts:31365
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:29854
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29841
+Defined in: main.ts:31352
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29846
+Defined in: main.ts:31357
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:29843
+Defined in: main.ts:31354
 
 link of the element
 
@@ -105,7 +105,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:31344
 
 the alignment of the element in SERP
 can take the following values:
@@ -115,17 +115,13 @@ left, right
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -144,7 +140,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -164,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29850
+Defined in: main.ts:31361
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -180,7 +176,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29837
+Defined in: main.ts:31348
 
 title of the link element
 
@@ -194,7 +190,7 @@ title of the link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -212,7 +208,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:31346
 
 the XPath of the element
 
@@ -220,17 +216,13 @@ the XPath of the element
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29859
+Defined in: main.ts:31370
 
 #### Parameters
 
@@ -252,7 +244,7 @@ Defined in: main.ts:29859
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29885
+Defined in: main.ts:31398
 
 #### Parameters
 
@@ -274,7 +266,7 @@ Defined in: main.ts:29885
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
-Defined in: main.ts:29878
+Defined in: main.ts:31391
 
 #### Parameters
 

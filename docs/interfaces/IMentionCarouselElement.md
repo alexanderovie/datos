@@ -6,7 +6,7 @@
 
 # Interface: IMentionCarouselElement
 
-Defined in: main.ts:33761
+Defined in: main.ts:35634
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33761
 
 > `optional` **mentioned\_in**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:33772
+Defined in: main.ts:35645
 
 additional elements in the mention_carousel item
 
@@ -28,7 +28,7 @@ additional elements in the mention_carousel item
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:33767
+Defined in: main.ts:35640
 
 price indicated in the element
 
@@ -38,7 +38,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:33770
+Defined in: main.ts:35643
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -49,7 +49,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33765
+Defined in: main.ts:35638
 
 title of a given link element
 
@@ -59,6 +59,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33763
+Defined in: main.ts:35636
 
 type of element

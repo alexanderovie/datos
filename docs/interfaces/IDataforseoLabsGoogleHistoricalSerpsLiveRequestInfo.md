@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-Defined in: main.ts:105671
+Defined in: main.ts:114960
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:105671
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:105684
+Defined in: main.ts:114973
 
 starting date of the time range
 optional field
@@ -32,7 +32,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:105691
+Defined in: main.ts:114980
 
 ending date of the time range
 optional field
@@ -47,7 +47,7 @@ example:
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105678
+Defined in: main.ts:114967
 
 keyword
 required field
@@ -62,13 +62,13 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105721
+Defined in: main.ts:115010
 
-language code
-optional field
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
+unique language identifier
+required field if you don’t specify language_name
+Note: it is required to specify either language_name or language_code
+you can receive the list of available languages with their language_code parameters by making a separate request to the
+https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
@@ -78,13 +78,13 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105713
+Defined in: main.ts:115002
 
 full name of the language
-optional field
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages with their language_name by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
+required field if you don’t specify language_code
+Note: it is required to specify either language_name or language_code
+you can receive the list of available languages with their language_name parameters by making a separate request to the
+https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105705
+Defined in: main.ts:114994
 
 unique location identifier
 required field if you don’t specify location_name
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105698
+Defined in: main.ts:114987
 
 full name of the location
 required field if you don’t specify location_code
@@ -124,7 +124,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105727
+Defined in: main.ts:115016
 
 user-defined task identifier
 optional field

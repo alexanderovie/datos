@@ -6,7 +6,7 @@
 
 # Class: PodcastsSerpElementItem
 
-Defined in: main.ts:34907
+Defined in: main.ts:36908
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34907
 
 > **new PodcastsSerpElementItem**(`data`?): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
-Defined in: main.ts:34917
+Defined in: main.ts:36924
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34917
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-Defined in: main.ts:34909
+Defined in: main.ts:36916
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:36912
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`position`](../interfaces/IPodcastsSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34913
+Defined in: main.ts:36920
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -167,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:36914
 
 the XPath of the element
 
@@ -175,17 +171,13 @@ the XPath of the element
 
 [`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md).[`xpath`](../interfaces/IPodcastsSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34922
+Defined in: main.ts:36929
 
 #### Parameters
 
@@ -207,7 +199,7 @@ Defined in: main.ts:34922
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34945
+Defined in: main.ts:36954
 
 #### Parameters
 
@@ -229,7 +221,7 @@ Defined in: main.ts:34945
 
 > `static` **fromJS**(`data`): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
-Defined in: main.ts:34938
+Defined in: main.ts:36947
 
 #### Parameters
 

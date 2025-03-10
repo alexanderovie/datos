@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLocationsCountryResultInfo
 
-Defined in: main.ts:78638
+Defined in: main.ts:81041
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:78638
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:78648
+Defined in: main.ts:81051
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:78640
+Defined in: main.ts:81043
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:78646
+Defined in: main.ts:81049
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -50,7 +50,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:78642
+Defined in: main.ts:81045
 
 full name of the location
 
@@ -60,7 +60,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:78651
+Defined in: main.ts:81054
 
 location type
 only City is supported for all countries except China (where Country is also supported)

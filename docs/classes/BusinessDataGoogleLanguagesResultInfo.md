@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLanguagesResultInfo
 
-Defined in: main.ts:213324
+Defined in: main.ts:222179
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:213324
 
 > **new BusinessDataGoogleLanguagesResultInfo**(`data`?): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:213332
+Defined in: main.ts:222187
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213332
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:213328
+Defined in: main.ts:222183
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:213326
+Defined in: main.ts:222181
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213341
+Defined in: main.ts:222196
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:213341
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213359
+Defined in: main.ts:222214
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:213359
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:213352
+Defined in: main.ts:222207
 
 #### Parameters
 

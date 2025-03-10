@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
-Defined in: main.ts:116472
+Defined in: main.ts:125817
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116472
 
 > **new DataforseoLabsBingCompetitorsDomainLiveResultInfo**(`data`?): [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
-Defined in: main.ts:116490
+Defined in: main.ts:125835
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:116490
 
 > `optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
-Defined in: main.ts:116486
+Defined in: main.ts:125831
 
 contains data related to the target and competitor domains
 
@@ -54,7 +54,7 @@ contains data related to the target and competitor domains
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:116484
+Defined in: main.ts:125829
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:116480
+Defined in: main.ts:125825
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:116478
+Defined in: main.ts:125823
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:116474
+Defined in: main.ts:125819
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:116476
+Defined in: main.ts:125821
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:116482
+Defined in: main.ts:125827
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116499
+Defined in: main.ts:125844
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:116499
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116526
+Defined in: main.ts:125871
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:116526
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
-Defined in: main.ts:116519
+Defined in: main.ts:125864
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem
 
-Defined in: main.ts:61071
+Defined in: main.ts:63474
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:61071
 
 > **new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem**(`data`?): [`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
 
-Defined in: main.ts:61085
+Defined in: main.ts:63488
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:61085
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:61007
+Defined in: main.ts:63410
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:61007
 
 > `optional` **advertisers**: [`Advertiser`](Advertiser.md)[]
 
-Defined in: main.ts:61081
+Defined in: main.ts:63484
 
 associated advertiser accounts
 contains objects with data on associated advertiser accounts
@@ -75,7 +75,7 @@ contains objects with data on associated advertiser accounts
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:61078
+Defined in: main.ts:63481
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -90,7 +90,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:61075
+Defined in: main.ts:63478
 
 advertiser location
 
@@ -104,7 +104,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:61005
+Defined in: main.ts:63408
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:61002
+Defined in: main.ts:63405
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:61073
+Defined in: main.ts:63476
 
 title of the element
 
@@ -157,7 +157,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60998
+Defined in: main.ts:63401
 
 type of element
 
@@ -175,7 +175,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61090
+Defined in: main.ts:63493
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: main.ts:61090
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61115
+Defined in: main.ts:63518
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:61115
 
 > `static` **fromJS**(`data`): [`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
 
-Defined in: main.ts:61108
+Defined in: main.ts:63511
 
 #### Parameters
 

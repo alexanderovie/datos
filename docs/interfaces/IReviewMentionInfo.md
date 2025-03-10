@@ -6,7 +6,7 @@
 
 # Interface: IReviewMentionInfo
 
-Defined in: main.ts:220052
+Defined in: main.ts:228915
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:220052
 
 > `optional` **negative\_count**: `number`
 
-Defined in: main.ts:220060
+Defined in: main.ts:228923
 
 count of negative reviews by criterion
 
@@ -28,7 +28,7 @@ count of negative reviews by criterion
 
 > `optional` **positive\_count**: `number`
 
-Defined in: main.ts:220058
+Defined in: main.ts:228921
 
 count of positive reviews by criterion
 
@@ -38,7 +38,7 @@ count of positive reviews by criterion
 
 > `optional` **positive\_score**: `number`
 
-Defined in: main.ts:220056
+Defined in: main.ts:228919
 
 positive score by criterion
 
@@ -48,7 +48,7 @@ positive score by criterion
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:220054
+Defined in: main.ts:228917
 
 title of the evaluated criterion
 
@@ -58,7 +58,7 @@ title of the evaluated criterion
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:220062
+Defined in: main.ts:228925
 
 count of all reviews by criterion
 
@@ -68,7 +68,7 @@ count of all reviews by criterion
 
 > `optional` **visible\_by\_default**: `boolean`
 
-Defined in: main.ts:220065
+Defined in: main.ts:228928
 
 element is visible by default
 indicates whether the review element is visible by default

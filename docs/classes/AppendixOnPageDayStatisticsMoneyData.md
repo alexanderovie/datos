@@ -6,7 +6,7 @@
 
 # Class: AppendixOnPageDayStatisticsMoneyData
 
-Defined in: main.ts:235916
+Defined in: main.ts:244779
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:235916
 
 > **new AppendixOnPageDayStatisticsMoneyData**(`data`?): [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
 
-Defined in: main.ts:235941
+Defined in: main.ts:244804
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235941
 
 > `optional` **content\_parsing**: `number`
 
-Defined in: main.ts:235935
+Defined in: main.ts:244798
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:235935
 
 > `optional` **content\_parsing\_live**: `number`
 
-Defined in: main.ts:235936
+Defined in: main.ts:244799
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:235936
 
 > `optional` **duplicate\_content**: `number`
 
-Defined in: main.ts:235928
+Defined in: main.ts:244791
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:235928
 
 > `optional` **duplicate\_tags**: `number`
 
-Defined in: main.ts:235923
+Defined in: main.ts:244786
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:235923
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:235926
+Defined in: main.ts:244789
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:235926
 
 > `optional` **instant\_pages**: `number`
 
-Defined in: main.ts:235930
+Defined in: main.ts:244793
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:235930
 
 > `optional` **keyword\_density**: `number`
 
-Defined in: main.ts:235933
+Defined in: main.ts:244796
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:235933
 
 > `optional` **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235932
+Defined in: main.ts:244795
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:235932
 
 > `optional` **links**: `number`
 
-Defined in: main.ts:235924
+Defined in: main.ts:244787
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:235924
 
 > `optional` **non\_indexable**: `number`
 
-Defined in: main.ts:235922
+Defined in: main.ts:244785
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:235922
 
 > `optional` **page\_screenshot**: `number`
 
-Defined in: main.ts:235934
+Defined in: main.ts:244797
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:235934
 
 > `optional` **pages**: `number`
 
-Defined in: main.ts:235921
+Defined in: main.ts:244784
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:235921
 
 > `optional` **pages\_by\_resource**: `number`
 
-Defined in: main.ts:235927
+Defined in: main.ts:244790
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:235927
 
 > `optional` **raw\_html**: `number`
 
-Defined in: main.ts:235929
+Defined in: main.ts:244792
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:235929
 
 > `optional` **redirect\_chains**: `number`
 
-Defined in: main.ts:235931
+Defined in: main.ts:244794
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:235931
 
 > `optional` **refund\_money**: `number`
 
-Defined in: main.ts:235937
+Defined in: main.ts:244800
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:235937
 
 > `optional` **resources**: `number`
 
-Defined in: main.ts:235920
+Defined in: main.ts:244783
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:235920
 
 > `optional` **summary**: `number`
 
-Defined in: main.ts:235919
+Defined in: main.ts:244782
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:235919
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:235917
+Defined in: main.ts:244780
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:235917
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:235918
+Defined in: main.ts:244781
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:235918
 
 > `optional` **waterfall**: `number`
 
-Defined in: main.ts:235925
+Defined in: main.ts:244788
 
 #### Implementation of
 
@@ -292,7 +292,7 @@ Defined in: main.ts:235925
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235950
+Defined in: main.ts:244813
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: main.ts:235950
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235987
+Defined in: main.ts:244850
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:235987
 
 > `static` **fromJS**(`data`): [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
 
-Defined in: main.ts:235980
+Defined in: main.ts:244843
 
 #### Parameters
 

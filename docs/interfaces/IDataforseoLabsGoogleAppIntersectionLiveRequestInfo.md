@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
-Defined in: main.ts:122902
+Defined in: main.ts:132247
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122902
 
 > `optional` **app\_ids**: `object`
 
-Defined in: main.ts:122917
+Defined in: main.ts:132262
 
 ids of the target apps
 required field
@@ -45,7 +45,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:122964
+Defined in: main.ts:132309
 
 array of results filtering parameters
 optional field
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122953
+Defined in: main.ts:132298
 
 language code
 required field if you don’t specify language_name
@@ -81,7 +81,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122944
+Defined in: main.ts:132289
 
 full name of the language
 required field if you don’t specify language_code
@@ -98,7 +98,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:122986
+Defined in: main.ts:132331
 
 the maximum number of returned keywords
 optional field
@@ -111,7 +111,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122935
+Defined in: main.ts:132280
 
 location code
 required field if you don’t specify location_name
@@ -128,7 +128,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122926
+Defined in: main.ts:132271
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:122991
+Defined in: main.ts:132336
 
 offset in the results array of returned keywords
 optional field
@@ -158,7 +158,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:122981
+Defined in: main.ts:132326
 
 results sorting rules
 optional field
@@ -183,7 +183,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122997
+Defined in: main.ts:132342
 
 user-defined task identifier
 optional field

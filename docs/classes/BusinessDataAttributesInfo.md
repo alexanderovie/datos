@@ -6,7 +6,7 @@
 
 # Class: BusinessDataAttributesInfo
 
-Defined in: main.ts:211334
+Defined in: main.ts:220181
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211334
 
 > **new BusinessDataAttributesInfo**(`data`?): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-Defined in: main.ts:211344
+Defined in: main.ts:220191
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211344
 
 > `optional` **available\_attributes**: `object`
 
-Defined in: main.ts:211337
+Defined in: main.ts:220184
 
 available attributes
 indicates attributes a business entity can offer
@@ -59,7 +59,7 @@ indicates attributes a business entity can offer
 
 > `optional` **unavailable\_attributes**: `object`
 
-Defined in: main.ts:211340
+Defined in: main.ts:220187
 
 unavailable attributes
 indicates attributes a business entity cannot offer
@@ -78,7 +78,7 @@ indicates attributes a business entity cannot offer
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211353
+Defined in: main.ts:220200
 
 #### Parameters
 
@@ -96,7 +96,7 @@ Defined in: main.ts:211353
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211383
+Defined in: main.ts:220230
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:211383
 
 > `static` **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-Defined in: main.ts:211376
+Defined in: main.ts:220223
 
 #### Parameters
 

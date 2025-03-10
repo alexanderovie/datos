@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallRequestInfo
 
-Defined in: main.ts:170852
+Defined in: main.ts:180197
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170852
 
 > **new OnPageWaterfallRequestInfo**(`data`?): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-Defined in: main.ts:170872
+Defined in: main.ts:180217
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170872
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:170858
+Defined in: main.ts:180203
 
 ID of the task
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:170868
+Defined in: main.ts:180213
 
 user-defined task identifier
 optional field
@@ -76,7 +76,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:170862
+Defined in: main.ts:180207
 
 page URL
 required field
@@ -92,7 +92,7 @@ specify the pages you want to receive timing for
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170881
+Defined in: main.ts:180226
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: main.ts:170881
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170900
+Defined in: main.ts:180245
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:170900
 
 > `static` **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-Defined in: main.ts:170893
+Defined in: main.ts:180238
 
 #### Parameters
 

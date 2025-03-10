@@ -6,7 +6,7 @@
 
 # Class: AmazonTopRatedFromOurBrandsSerpElementItem
 
-Defined in: main.ts:193304
+Defined in: main.ts:202151
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:193304
 
 > **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data`?): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
 
-Defined in: main.ts:193314
+Defined in: main.ts:202161
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:193314
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23218
+Defined in: main.ts:24023
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:193310
+Defined in: main.ts:202157
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:193308
+Defined in: main.ts:202155
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23214
+Defined in: main.ts:24019
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23211
+Defined in: main.ts:24016
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23208
+Defined in: main.ts:24013
 
 type of element
 
@@ -146,7 +146,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23216
+Defined in: main.ts:24021
 
 the XPath of the element
 
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193319
+Defined in: main.ts:202166
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:193319
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193342
+Defined in: main.ts:202189
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:193342
 
 > `static` **fromJS**(`data`): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
 
-Defined in: main.ts:193335
+Defined in: main.ts:202182
 
 #### Parameters
 

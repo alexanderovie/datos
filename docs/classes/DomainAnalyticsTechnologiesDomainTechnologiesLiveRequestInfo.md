@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
-Defined in: main.ts:88594
+Defined in: main.ts:97891
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88594
 
 > **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-Defined in: main.ts:88603
+Defined in: main.ts:97900
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88603
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:88599
+Defined in: main.ts:97896
 
 target domain
 required field
@@ -57,7 +57,7 @@ Note: results will be returned for the specified domain only
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88612
+Defined in: main.ts:97909
 
 #### Parameters
 
@@ -75,7 +75,7 @@ Defined in: main.ts:88612
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88629
+Defined in: main.ts:97926
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: main.ts:88629
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-Defined in: main.ts:88622
+Defined in: main.ts:97919
 
 #### Parameters
 

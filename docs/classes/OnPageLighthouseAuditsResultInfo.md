@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseAuditsResultInfo
 
-Defined in: main.ts:175388
+Defined in: main.ts:184303
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:175388
 
 > **new OnPageLighthouseAuditsResultInfo**(`data`?): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-Defined in: main.ts:175396
+Defined in: main.ts:184311
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:175396
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:175392
+Defined in: main.ts:184307
 
 the list of available lighthouse audits
 an array containing the titles of available audits
@@ -56,7 +56,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175405
+Defined in: main.ts:184320
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: main.ts:175405
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175426
+Defined in: main.ts:184341
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:175426
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-Defined in: main.ts:175419
+Defined in: main.ts:184334
 
 #### Parameters
 

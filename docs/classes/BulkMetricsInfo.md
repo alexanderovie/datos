@@ -6,7 +6,7 @@
 
 # Class: BulkMetricsInfo
 
-Defined in: main.ts:110876
+Defined in: main.ts:120221
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:110876
 
 > **new BulkMetricsInfo**(`data`?): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-Defined in: main.ts:110892
+Defined in: main.ts:120237
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110892
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:110888
+Defined in: main.ts:120233
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -57,7 +57,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:110883
+Defined in: main.ts:120228
 
 total count of organic SERPs that contain the domain
 
@@ -71,7 +71,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:110881
+Defined in: main.ts:120226
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110901
+Defined in: main.ts:120246
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:110901
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110920
+Defined in: main.ts:120265
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:110920
 
 > `static` **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-Defined in: main.ts:110913
+Defined in: main.ts:120258
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106307
+Defined in: main.ts:115333
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106307
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:106317
+Defined in: main.ts:115343
 
 card id
 
@@ -32,7 +32,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:106325
+Defined in: main.ts:115351
 
 google-defined client id
 
@@ -42,7 +42,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:106315
+Defined in: main.ts:115341
 
 description of the results element in SERP
 
@@ -52,7 +52,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:106321
+Defined in: main.ts:115347
 
 URL of the image from knowledge graph
 
@@ -62,9 +62,10 @@ URL of the image from knowledge graph
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:106327
+Defined in: main.ts:115354
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -72,7 +73,7 @@ elements of search results found in SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:106323
+Defined in: main.ts:115349
 
 URL of the logo from knowledge graph
 
@@ -82,7 +83,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -98,7 +99,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106309
+Defined in: main.ts:115335
 
 search engine type
 
@@ -138,7 +139,7 @@ search engine type
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:106313
+Defined in: main.ts:115339
 
 subtitle of the item
 
@@ -148,7 +149,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106311
+Defined in: main.ts:115337
 
 title of the result in SERP
 
@@ -158,7 +159,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -172,9 +173,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106319
+Defined in: main.ts:115345
 
-relevant URL of the Ad element in SERP
+relevant URL in SERP
 
 ***
 
@@ -182,7 +183,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

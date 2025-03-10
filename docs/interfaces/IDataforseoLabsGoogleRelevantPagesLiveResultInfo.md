@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveResultInfo
 
-Defined in: main.ts:104959
+Defined in: main.ts:114248
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104959
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](../classes/DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:104975
+Defined in: main.ts:114264
 
 relevant pages and related data
 
@@ -28,7 +28,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:104973
+Defined in: main.ts:114262
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104969
+Defined in: main.ts:114258
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104966
+Defined in: main.ts:114255
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104961
+Defined in: main.ts:114250
 
 search engine type
 
@@ -70,7 +70,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104963
+Defined in: main.ts:114252
 
 target domain in a POST array
 
@@ -80,6 +80,6 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:104971
+Defined in: main.ts:114260
 
 total amount of results in our database relevant to your request

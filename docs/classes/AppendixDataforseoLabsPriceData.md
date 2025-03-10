@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoLabsPriceData
 
-Defined in: main.ts:238746
+Defined in: main.ts:247609
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238746
 
 > **new AppendixDataforseoLabsPriceData**(`data`?): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-Defined in: main.ts:238786
+Defined in: main.ts:247649
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238786
 
 > `optional` **app\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238747
+Defined in: main.ts:247610
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:238747
 
 > `optional` **app\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238748
+Defined in: main.ts:247611
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:238748
 
 > `optional` **bulk\_app\_metrics**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238749
+Defined in: main.ts:247612
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:238749
 
 > `optional` **bulk\_keyword\_difficulty**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238750
+Defined in: main.ts:247613
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:238750
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238751
+Defined in: main.ts:247614
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:238751
 
 > `optional` **bulk\_traffic\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238752
+Defined in: main.ts:247615
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:238752
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238753
+Defined in: main.ts:247616
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:238753
 
 > `optional` **categories\_for\_domain**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238754
+Defined in: main.ts:247617
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:238754
 
 > `optional` **categories\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238755
+Defined in: main.ts:247618
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:238755
 
 > `optional` **competitors\_domain**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238756
+Defined in: main.ts:247619
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:238756
 
 > `optional` **domain\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238757
+Defined in: main.ts:247620
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:238757
 
 > `optional` **domain\_metrics\_by\_categories**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238758
+Defined in: main.ts:247621
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:238758
 
 > `optional` **domain\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238759
+Defined in: main.ts:247622
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:238759
 
 > `optional` **domain\_whois\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238760
+Defined in: main.ts:247623
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:238760
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238761
+Defined in: main.ts:247624
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:238761
 
 > `optional` **historical\_bulk\_traffic\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238762
+Defined in: main.ts:247625
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:238762
 
 > `optional` **historical\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238763
+Defined in: main.ts:247626
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:238763
 
 > `optional` **historical\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238764
+Defined in: main.ts:247627
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:238764
 
 > `optional` **historical\_serps**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238765
+Defined in: main.ts:247628
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:238765
 
 > `optional` **keyword\_ideas**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238766
+Defined in: main.ts:247629
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:238766
 
 > `optional` **keyword\_suggestions**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238770
+Defined in: main.ts:247633
 
 #### Implementation of
 
@@ -292,7 +292,7 @@ Defined in: main.ts:238770
 
 > `optional` **keywords\_for\_app**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238767
+Defined in: main.ts:247630
 
 #### Implementation of
 
@@ -304,7 +304,7 @@ Defined in: main.ts:238767
 
 > `optional` **keywords\_for\_categories**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238768
+Defined in: main.ts:247631
 
 #### Implementation of
 
@@ -316,7 +316,7 @@ Defined in: main.ts:238768
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238769
+Defined in: main.ts:247632
 
 #### Implementation of
 
@@ -328,7 +328,7 @@ Defined in: main.ts:238769
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238771
+Defined in: main.ts:247634
 
 #### Implementation of
 
@@ -340,7 +340,7 @@ Defined in: main.ts:238771
 
 > `optional` **page\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238772
+Defined in: main.ts:247635
 
 #### Implementation of
 
@@ -352,7 +352,7 @@ Defined in: main.ts:238772
 
 > `optional` **product\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238773
+Defined in: main.ts:247636
 
 #### Implementation of
 
@@ -364,7 +364,7 @@ Defined in: main.ts:238773
 
 > `optional` **product\_keyword\_intersections**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238774
+Defined in: main.ts:247637
 
 #### Implementation of
 
@@ -376,7 +376,7 @@ Defined in: main.ts:238774
 
 > `optional` **product\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238775
+Defined in: main.ts:247638
 
 #### Implementation of
 
@@ -388,7 +388,7 @@ Defined in: main.ts:238775
 
 > `optional` **ranked\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238776
+Defined in: main.ts:247639
 
 #### Implementation of
 
@@ -400,7 +400,7 @@ Defined in: main.ts:238776
 
 > `optional` **related\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238777
+Defined in: main.ts:247640
 
 #### Implementation of
 
@@ -412,7 +412,7 @@ Defined in: main.ts:238777
 
 > `optional` **relevant\_pages**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238778
+Defined in: main.ts:247641
 
 #### Implementation of
 
@@ -424,7 +424,7 @@ Defined in: main.ts:238778
 
 > `optional` **search\_intent**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238779
+Defined in: main.ts:247642
 
 #### Implementation of
 
@@ -436,7 +436,7 @@ Defined in: main.ts:238779
 
 > `optional` **serp\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238780
+Defined in: main.ts:247643
 
 #### Implementation of
 
@@ -448,7 +448,7 @@ Defined in: main.ts:238780
 
 > `optional` **subdomains**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238781
+Defined in: main.ts:247644
 
 #### Implementation of
 
@@ -460,7 +460,7 @@ Defined in: main.ts:238781
 
 > `optional` **top\_searches**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238782
+Defined in: main.ts:247645
 
 #### Implementation of
 
@@ -472,7 +472,7 @@ Defined in: main.ts:238782
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238795
+Defined in: main.ts:247658
 
 #### Parameters
 
@@ -490,7 +490,7 @@ Defined in: main.ts:238795
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238847
+Defined in: main.ts:247710
 
 #### Parameters
 
@@ -508,7 +508,7 @@ Defined in: main.ts:238847
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-Defined in: main.ts:238840
+Defined in: main.ts:247703
 
 #### Parameters
 

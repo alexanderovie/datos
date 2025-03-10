@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsTopicsListElementItem
 
-Defined in: main.ts:135397
+Defined in: main.ts:144742
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135397
 
 > **new GoogleTrendsTopicsListElementItem**(`data`?): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
-Defined in: main.ts:135403
+Defined in: main.ts:144748
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:135403
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22707
+Defined in: main.ts:23512
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **data**: [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-Defined in: main.ts:135399
+Defined in: main.ts:144744
 
 Google Trends data from the corresponding item
 
@@ -74,7 +74,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22705
+Defined in: main.ts:23510
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -93,7 +93,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22700
+Defined in: main.ts:23505
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -112,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22702
+Defined in: main.ts:23507
 
 title of the element in Google Trends
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22697
+Defined in: main.ts:23502
 
 type of element
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135408
+Defined in: main.ts:144753
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:135408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135426
+Defined in: main.ts:144771
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:135426
 
 > `static` **fromJS**(`data`): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
-Defined in: main.ts:135419
+Defined in: main.ts:144764
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveRequestInfo
 
-Defined in: main.ts:104075
+Defined in: main.ts:113364
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104075
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:104160
+Defined in: main.ts:113449
 
 array of results filtering parameters
 optional field
@@ -40,7 +40,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:104141
+Defined in: main.ts:113430
 
 data collection mode
 optional field
@@ -57,7 +57,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:104146
+Defined in: main.ts:113435
 
 ignore highly similar keywords
 optional field
@@ -70,7 +70,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:104132
+Defined in: main.ts:113421
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -85,7 +85,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:104125
+Defined in: main.ts:113414
 
 display results by item type
 optional field
@@ -102,7 +102,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104116
+Defined in: main.ts:113405
 
 language code
 optional field
@@ -119,7 +119,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:104107
+Defined in: main.ts:113396
 
 full name of the language
 optional field
@@ -136,7 +136,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:104182
+Defined in: main.ts:113471
 
 the maximum number of returned keywords
 optional field
@@ -149,7 +149,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104098
+Defined in: main.ts:113387
 
 location code
 optional field
@@ -166,7 +166,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:104089
+Defined in: main.ts:113378
 
 full name of the location
 optional field
@@ -183,7 +183,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104187
+Defined in: main.ts:113476
 
 offset in the results array of returned keywords
 optional field
@@ -196,7 +196,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:104177
+Defined in: main.ts:113466
 
 results sorting rules
 optional field
@@ -221,7 +221,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:104193
+Defined in: main.ts:113482
 
 user-defined task identifier
 optional field
@@ -235,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104080
+Defined in: main.ts:113369
 
 domain
 required field

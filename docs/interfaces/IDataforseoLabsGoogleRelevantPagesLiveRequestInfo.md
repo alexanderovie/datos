@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:104685
+Defined in: main.ts:113974
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104685
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:104780
+Defined in: main.ts:114069
 
 array of results filtering parameters
 optional field
@@ -40,7 +40,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:104761
+Defined in: main.ts:114050
 
 data collection mode
 optional field
@@ -57,7 +57,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:104766
+Defined in: main.ts:114055
 
 ignore highly similar keywords
 optional field
@@ -70,7 +70,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:104742
+Defined in: main.ts:114031
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -85,7 +85,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:104735
+Defined in: main.ts:114024
 
 display results by item type
 optional field
@@ -102,7 +102,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104726
+Defined in: main.ts:114015
 
 language code
 optional field
@@ -119,7 +119,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:104717
+Defined in: main.ts:114006
 
 full name of the language
 optional field
@@ -136,7 +136,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:104747
+Defined in: main.ts:114036
 
 the maximum number of returned pages
 optional field
@@ -149,7 +149,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104708
+Defined in: main.ts:113997
 
 location code
 optional field
@@ -166,7 +166,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:104699
+Defined in: main.ts:113988
 
 full name of the location
 optional field
@@ -183,7 +183,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104752
+Defined in: main.ts:114041
 
 offset in the results array of returned pages
 optional field
@@ -196,7 +196,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:104797
+Defined in: main.ts:114086
 
 results sorting rules
 optional field
@@ -221,7 +221,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:104803
+Defined in: main.ts:114092
 
 user-defined task identifier
 optional field
@@ -235,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104690
+Defined in: main.ts:113979
 
 domain
 required field

@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:187172
+Defined in: main.ts:196011
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:187172
 
 > **new RelatedSearchesMerchantSerpElementItem**(`data`?): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
-Defined in: main.ts:187181
+Defined in: main.ts:196020
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:187181
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21722
+Defined in: main.ts:22527
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:187177
+Defined in: main.ts:196016
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21720
+Defined in: main.ts:22525
 
 alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21716
+Defined in: main.ts:22521
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -114,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21713
+Defined in: main.ts:22518
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21710
+Defined in: main.ts:22515
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:187174
+Defined in: main.ts:196013
 
 XPath of the element
 
@@ -165,7 +165,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187186
+Defined in: main.ts:196025
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:187186
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187209
+Defined in: main.ts:196048
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:187209
 
 > `static` **fromJS**(`data`): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
-Defined in: main.ts:187202
+Defined in: main.ts:196041
 
 #### Parameters
 

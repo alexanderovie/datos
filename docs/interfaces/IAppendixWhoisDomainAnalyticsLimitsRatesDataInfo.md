@@ -6,7 +6,7 @@
 
 # Interface: IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:231898
+Defined in: main.ts:240761
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:231898
 
 > `optional` **overview**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231899
+Defined in: main.ts:240762

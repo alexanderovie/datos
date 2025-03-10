@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
-Defined in: main.ts:217220
+Defined in: main.ts:226083
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:217220
 
 > **new BusinessDataGoogleHotelSearchesTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
-Defined in: main.ts:217238
+Defined in: main.ts:226101
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217238
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:217230
+Defined in: main.ts:226093
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:217234
+Defined in: main.ts:226097
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:217223
+Defined in: main.ts:226086
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:217226
+Defined in: main.ts:226089
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:217228
+Defined in: main.ts:226091
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:217232
+Defined in: main.ts:226095
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217247
+Defined in: main.ts:226110
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:217247
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217269
+Defined in: main.ts:226132
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:217269
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
-Defined in: main.ts:217262
+Defined in: main.ts:226125
 
 #### Parameters
 

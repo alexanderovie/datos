@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
-Defined in: main.ts:134794
+Defined in: main.ts:144139
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134794
 
 > **new KeywordsDataGoogleTrendsExploreLiveRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
-Defined in: main.ts:134888
+Defined in: main.ts:144233
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134888
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:134843
+Defined in: main.ts:144188
 
 google trends search category
 optional field
@@ -57,7 +57,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:134852
+Defined in: main.ts:144197
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:134859
+Defined in: main.ts:144204
 
 ending date of the time range
 optional field
@@ -97,7 +97,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:134878
+Defined in: main.ts:144223
 
 types of items returned
 optional field
@@ -118,7 +118,7 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:134802
+Defined in: main.ts:144147
 
 keywords
 required field
@@ -138,7 +138,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134836
+Defined in: main.ts:144181
 
 search engine language code
 optional field
@@ -158,7 +158,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:134828
+Defined in: main.ts:144173
 
 full name of search engine language
 optional field
@@ -178,7 +178,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:134820
+Defined in: main.ts:144165
 
 search engine location code
 optional field
@@ -199,7 +199,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:134811
+Defined in: main.ts:144156
 
 full name of search engine location
 optional field
@@ -220,7 +220,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:134884
+Defined in: main.ts:144229
 
 user-defined task identifier
 optional field
@@ -238,7 +238,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:134869
+Defined in: main.ts:144214
 
 preset time ranges
 optional field
@@ -260,7 +260,7 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:134838
+Defined in: main.ts:144183
 
 type of element
 
@@ -274,7 +274,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134897
+Defined in: main.ts:144242
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: main.ts:134897
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134941
+Defined in: main.ts:144286
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: main.ts:134941
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
-Defined in: main.ts:134934
+Defined in: main.ts:144279
 
 #### Parameters
 

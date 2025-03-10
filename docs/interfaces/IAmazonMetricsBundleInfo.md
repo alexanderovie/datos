@@ -6,7 +6,7 @@
 
 # Interface: IAmazonMetricsBundleInfo
 
-Defined in: main.ts:113963
+Defined in: main.ts:123308
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:113963
 
 > `optional` **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
-Defined in: main.ts:113967
+Defined in: main.ts:123312
 
 ranking data from Amazon paid SERP
 
@@ -28,6 +28,6 @@ ranking data from Amazon paid SERP
 
 > `optional` **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
-Defined in: main.ts:113965
+Defined in: main.ts:123310
 
 ranking data from Amazon organic SERP

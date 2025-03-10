@@ -6,7 +6,7 @@
 
 # Interface: IShoppingSerpElementItem
 
-Defined in: main.ts:33540
+Defined in: main.ts:35391
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33540
 
 > `optional` **items**: [`ShoppingElement`](../classes/ShoppingElement.md)[]
 
-Defined in: main.ts:33544
+Defined in: main.ts:35401
 
 contains arrays of specific images
 
@@ -32,15 +32,11 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:35395
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -48,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -63,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -79,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33548
+Defined in: main.ts:35405
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33542
+Defined in: main.ts:35399
 
 title of the row
 
@@ -101,7 +97,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -115,10 +111,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:35397
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

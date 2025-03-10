@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
 
-Defined in: main.ts:238214
+Defined in: main.ts:247077
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238214
 
 > **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238222
+Defined in: main.ts:247085
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238222
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238215
+Defined in: main.ts:247078
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:238215
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238216
+Defined in: main.ts:247079
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:238216
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238217
+Defined in: main.ts:247080
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:238217
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238218
+Defined in: main.ts:247081
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:238218
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238231
+Defined in: main.ts:247094
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:238231
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238251
+Defined in: main.ts:247114
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:238251
 
 > `static` **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:238244
+Defined in: main.ts:247107
 
 #### Parameters
 

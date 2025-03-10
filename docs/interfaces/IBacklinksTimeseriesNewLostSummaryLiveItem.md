@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 
-Defined in: main.ts:160190
+Defined in: main.ts:169535
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160190
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:160197
+Defined in: main.ts:169542
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:160203
+Defined in: main.ts:169548
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -42,7 +42,7 @@ number of lost backlinks of the target
 
 > `optional` **lost\_referring\_domains**: `number`
 
-Defined in: main.ts:160209
+Defined in: main.ts:169554
 
 number of lost referring domains
 number of lost referring domains of the target
@@ -53,7 +53,7 @@ number of lost referring domains of the target
 
 > `optional` **lost\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:160215
+Defined in: main.ts:169560
 
 number of lost referring main domains
 number of lost referring main domains of the target
@@ -64,7 +64,7 @@ number of lost referring main domains of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:160200
+Defined in: main.ts:169545
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -75,7 +75,7 @@ number of new backlinks pointing to the target
 
 > `optional` **new\_referring\_domains**: `number`
 
-Defined in: main.ts:160206
+Defined in: main.ts:169551
 
 number of new referring domains
 number of new referring domains pointing to the target
@@ -86,7 +86,7 @@ number of new referring domains pointing to the target
 
 > `optional` **new\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:160212
+Defined in: main.ts:169557
 
 number of new referring main domains
 number of new referring main domains pointing to the target
@@ -97,6 +97,6 @@ number of new referring main domains pointing to the target
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:160192
+Defined in: main.ts:169537
 
 type of element

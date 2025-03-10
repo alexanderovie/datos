@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessOrderLink
 
-Defined in: main.ts:25029
+Defined in: main.ts:25834
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:25029
 
 > **new LocalBusinessOrderLink**(`data`?): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
-Defined in: main.ts:25035
+Defined in: main.ts:25840
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:25035
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24920
+Defined in: main.ts:25725
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24920
 
 > `optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
 
-Defined in: main.ts:25031
+Defined in: main.ts:25836
 
 lists available delivery services
 
@@ -74,7 +74,7 @@ lists available delivery services
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24918
+Defined in: main.ts:25723
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25040
+Defined in: main.ts:25845
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:25040
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25062
+Defined in: main.ts:25867
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:25062
 
 > `static` **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
-Defined in: main.ts:25055
+Defined in: main.ts:25860
 
 #### Parameters
 

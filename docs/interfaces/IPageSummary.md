@@ -6,7 +6,7 @@
 
 # Interface: IPageSummary
 
-Defined in: main.ts:154212
+Defined in: main.ts:163557
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:154212
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:154230
+Defined in: main.ts:163575
 
 indicates the number of backlinks
 
@@ -28,7 +28,7 @@ indicates the number of backlinks
 
 > `optional` **backlinks\_spam\_score**: `number`
 
-Defined in: main.ts:154233
+Defined in: main.ts:163578
 
 average spam score of the backlinks pointing to the page
 learn more about how the metric is calculated on this help center page
@@ -39,7 +39,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **broken\_backlinks**: `number`
 
-Defined in: main.ts:154236
+Defined in: main.ts:163581
 
 number of broken backlinks
 number of broken backlinks pointing to the page
@@ -50,7 +50,7 @@ number of broken backlinks pointing to the page
 
 > `optional` **broken\_pages**: `number`
 
-Defined in: main.ts:154239
+Defined in: main.ts:163584
 
 number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to
@@ -61,7 +61,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:154217
+Defined in: main.ts:163562
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -74,7 +74,7 @@ example:
 
 > `optional` **lost\_date**: `string`
 
-Defined in: main.ts:154223
+Defined in: main.ts:163568
 
 date and time when the last backlink for this page was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -88,7 +88,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:154228
+Defined in: main.ts:163573
 
 page rank
 rank of the page
@@ -101,7 +101,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:154241
+Defined in: main.ts:163586
 
 indicates the number of referring domains
 
@@ -111,7 +111,7 @@ indicates the number of referring domains
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:154243
+Defined in: main.ts:163588
 
 number of domains pointing at least one nofollow link to the page
 
@@ -121,7 +121,7 @@ number of domains pointing at least one nofollow link to the page
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:154250
+Defined in: main.ts:163595
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -132,7 +132,7 @@ number of IP addresses pointing to this page
 
 > `optional` **referring\_links\_attributes**: `object`
 
-Defined in: main.ts:154267
+Defined in: main.ts:163612
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
@@ -147,7 +147,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 > `optional` **referring\_links\_countries**: `object`
 
-Defined in: main.ts:154279
+Defined in: main.ts:163624
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
@@ -162,7 +162,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
-Defined in: main.ts:154270
+Defined in: main.ts:163615
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
@@ -177,7 +177,7 @@ indicates referring platform types and and link count per each platform
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
-Defined in: main.ts:154276
+Defined in: main.ts:163621
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -195,7 +195,7 @@ article, section, summary
 
 > `optional` **referring\_links\_tld**: `object`
 
-Defined in: main.ts:154259
+Defined in: main.ts:163604
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
@@ -210,7 +210,7 @@ contains top level domains and referring link count per each
 
 > `optional` **referring\_links\_types**: `object`
 
-Defined in: main.ts:154264
+Defined in: main.ts:163609
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -227,7 +227,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:154245
+Defined in: main.ts:163590
 
 indicates the number of referring main domains
 
@@ -237,7 +237,7 @@ indicates the number of referring main domains
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:154247
+Defined in: main.ts:163592
 
 number of main domains pointing at least one nofollow link to the page
 
@@ -247,7 +247,7 @@ number of main domains pointing at least one nofollow link to the page
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:154254
+Defined in: main.ts:163599
 
 indicates the number of pages pointing to the page
 
@@ -257,7 +257,7 @@ indicates the number of pages pointing to the page
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:154256
+Defined in: main.ts:163601
 
 number of referring pages pointing at least one nofollow link to the page
 
@@ -267,6 +267,6 @@ number of referring pages pointing at least one nofollow link to the page
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:154252
+Defined in: main.ts:163597
 
 number of referring subnetworks

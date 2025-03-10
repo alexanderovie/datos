@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTaskGetAdvancedItem
 
-Defined in: main.ts:62419
+Defined in: main.ts:64822
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:62419
 
 > **new SerpGoogleAdsSearchTaskGetAdvancedItem**(`data`?): [`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
 
-Defined in: main.ts:62456
+Defined in: main.ts:64859
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:62456
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:62430
+Defined in: main.ts:64833
 
 unique identifier of the advertiser account
 
@@ -54,7 +54,7 @@ unique identifier of the advertiser account
 
 > `optional` **creative\_id**: `string`
 
-Defined in: main.ts:62432
+Defined in: main.ts:64835
 
 unique identifier of the advertisement
 
@@ -68,7 +68,7 @@ unique identifier of the advertisement
 
 > `optional` **first\_shown**: `string`
 
-Defined in: main.ts:62449
+Defined in: main.ts:64852
 
 date and time when the ad was shown for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -83,7 +83,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:62442
+Defined in: main.ts:64845
 
 format of the advertisement
 possible values: text, image, video
@@ -98,7 +98,7 @@ possible values: text, image, video
 
 > `optional` **last\_shown**: `string`
 
-Defined in: main.ts:62452
+Defined in: main.ts:64855
 
 date and time when the ad was shown the last time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -113,7 +113,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **preview\_image**: [`PreviewImage`](PreviewImage.md)
 
-Defined in: main.ts:62444
+Defined in: main.ts:64847
 
 preview image of the advertisement
 
@@ -127,7 +127,7 @@ preview image of the advertisement
 
 > `optional` **preview\_url**: `string`
 
-Defined in: main.ts:62446
+Defined in: main.ts:64849
 
 url pointing to the ad preview
 
@@ -141,7 +141,7 @@ url pointing to the ad preview
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:62428
+Defined in: main.ts:64831
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -156,7 +156,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:62425
+Defined in: main.ts:64828
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -172,7 +172,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:62434
+Defined in: main.ts:64837
 
 title of the element
 
@@ -186,7 +186,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:62421
+Defined in: main.ts:64824
 
 type of element
 
@@ -200,7 +200,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:62436
+Defined in: main.ts:64839
 
 search URL with refinement parameters
 
@@ -214,7 +214,7 @@ search URL with refinement parameters
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:62439
+Defined in: main.ts:64842
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -229,7 +229,7 @@ equals true if advertiser account is verified by Google Ads
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62465
+Defined in: main.ts:64868
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:62465
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62494
+Defined in: main.ts:64897
 
 #### Parameters
 
@@ -265,7 +265,7 @@ Defined in: main.ts:62494
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
 
-Defined in: main.ts:62487
+Defined in: main.ts:64890
 
 #### Parameters
 

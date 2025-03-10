@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:59818
+Defined in: main.ts:62221
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:59818
 
 > **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:59855
+Defined in: main.ts:62258
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:59855
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:59824
+Defined in: main.ts:62227
 
 ID of the dataset
 required field
@@ -58,7 +58,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:59840
+Defined in: main.ts:62243
 
 device type
 optional field
@@ -74,7 +74,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:59836
+Defined in: main.ts:62239
 
 search engine language code
 optional field
@@ -92,7 +92,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:59830
+Defined in: main.ts:62233
 
 full name of search engine language
 optional field
@@ -110,7 +110,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:59845
+Defined in: main.ts:62248
 
 device operating system
 optional field
@@ -127,7 +127,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59851
+Defined in: main.ts:62254
 
 user-defined task identifier
 optional field
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:59864
+Defined in: main.ts:62267
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:59864
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:59886
+Defined in: main.ts:62289
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:59886
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:59879
+Defined in: main.ts:62282
 
 #### Parameters
 

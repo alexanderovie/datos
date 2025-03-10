@@ -6,7 +6,7 @@
 
 # Class: AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:232044
+Defined in: main.ts:240907
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232044
 
 > **new AppendixSellersGoogleMerchantLimitsRatesDataInfo**(`data`?): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232052
+Defined in: main.ts:240915
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232052
 
 > `optional` **ad\_url**: `number`
 
-Defined in: main.ts:232048
+Defined in: main.ts:240911
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232048
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:232047
+Defined in: main.ts:240910
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232047
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:232045
+Defined in: main.ts:240908
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232045
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:232046
+Defined in: main.ts:240909
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:232046
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232061
+Defined in: main.ts:240924
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:232061
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232081
+Defined in: main.ts:240944
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:232081
 
 > `static` **fromJS**(`data`): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232074
+Defined in: main.ts:240937
 
 #### Parameters
 

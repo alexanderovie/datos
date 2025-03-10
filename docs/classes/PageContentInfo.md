@@ -6,7 +6,7 @@
 
 # Class: PageContentInfo
 
-Defined in: main.ts:174308
+Defined in: main.ts:182699
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174308
 
 > **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:174322
+Defined in: main.ts:182724
 
 #### Parameters
 
@@ -36,13 +36,43 @@ Defined in: main.ts:174322
 
 ## Properties
 
+### comments?
+
+> `optional` **comments**: [`ContentCommentInfo`](ContentCommentInfo.md)[]
+
+Defined in: main.ts:182717
+
+array of comments displayed on the page
+contains objects with information on comments related to displayed products
+
+#### Implementation of
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`comments`](../interfaces/IPageContentInfo.md#comments)
+
+***
+
+### contacts?
+
+> `optional` **contacts**: [`Contacts`](Contacts.md)
+
+Defined in: main.ts:182720
+
+contact information
+contains contact information displayed on the page
+
+#### Implementation of
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`contacts`](../interfaces/IPageContentInfo.md#contacts)
+
+***
+
 ### footer?
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:174312
+Defined in: main.ts:182703
 
-content of the footer of the table
+parsed content of the footer
 
 #### Implementation of
 
@@ -54,9 +84,9 @@ content of the footer of the table
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:174310
+Defined in: main.ts:182701
 
-parsed content of the header
+content of the header of the table
 
 #### Implementation of
 
@@ -68,7 +98,7 @@ parsed content of the header
 
 > `optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:174315
+Defined in: main.ts:182706
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -79,11 +109,40 @@ you can find more information about topic priority calculation in this help cent
 
 ***
 
+### offers?
+
+> `optional` **offers**: [`ContentOfferInfo`](ContentOfferInfo.md)[]
+
+Defined in: main.ts:182714
+
+array of products displayed on the page
+contains objects with information on products displayed on the page
+
+#### Implementation of
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`offers`](../interfaces/IPageContentInfo.md#offers)
+
+***
+
+### ratings?
+
+> `optional` **ratings**: [`ContentRatingInfo`](ContentRatingInfo.md)[]
+
+Defined in: main.ts:182711
+
+contains objects with rating information for the products displayed on the page
+
+#### Implementation of
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`ratings`](../interfaces/IPageContentInfo.md#ratings)
+
+***
+
 ### secondary\_topic?
 
 > `optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:174318
+Defined in: main.ts:182709
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -98,7 +157,7 @@ you can find more information about topic priority calculation in this help cent
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174331
+Defined in: main.ts:182733
 
 #### Parameters
 
@@ -116,7 +175,7 @@ Defined in: main.ts:174331
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174359
+Defined in: main.ts:182777
 
 #### Parameters
 
@@ -134,7 +193,7 @@ Defined in: main.ts:174359
 
 > `static` **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:174352
+Defined in: main.ts:182770
 
 #### Parameters
 

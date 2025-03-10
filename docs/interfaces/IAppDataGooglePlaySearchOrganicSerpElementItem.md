@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
-Defined in: main.ts:121719
+Defined in: main.ts:131064
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121719
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121721
+Defined in: main.ts:131066
 
 id of the app
 
@@ -32,7 +32,7 @@ id of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:121733
+Defined in: main.ts:131078
 
 name of the app developer
 
@@ -42,7 +42,7 @@ name of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:121735
+Defined in: main.ts:131080
 
 URL to the developer page on Google Play
 
@@ -52,7 +52,7 @@ URL to the developer page on Google Play
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:121725
+Defined in: main.ts:131070
 
 URL to the app icon
 
@@ -62,7 +62,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:121729
+Defined in: main.ts:131074
 
 indicates whether the app is free
 
@@ -72,7 +72,7 @@ indicates whether the app is free
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22971
+Defined in: main.ts:23776
 
 the alignment of the element in SERP
 can take the following values:
@@ -88,7 +88,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:121731
+Defined in: main.ts:131076
 
 price of the app
 
@@ -98,7 +98,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22967
+Defined in: main.ts:23772
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +113,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22964
+Defined in: main.ts:23769
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:22975
+Defined in: main.ts:23780
 
 average rating of the app
 
@@ -142,7 +142,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:121727
+Defined in: main.ts:131072
 
 the total number of reviews of the app
 
@@ -152,7 +152,7 @@ the total number of reviews of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22973
+Defined in: main.ts:23778
 
 title of the app
 
@@ -166,7 +166,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22961
+Defined in: main.ts:23766
 
 type of element
 
@@ -180,6 +180,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:121723
+Defined in: main.ts:131068
 
 URL to the app page on Google Play

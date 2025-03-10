@@ -1032,6 +1032,386 @@ Successful operation
 
 ***
 
+### googleFinanceExploreLiveAdvanced()
+
+> **googleFinanceExploreLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleFinanceExploreLiveAdvancedResponseInfo`](SerpGoogleFinanceExploreLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6390
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`](SerpGoogleFinanceExploreLiveAdvancedRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreLiveAdvancedResponseInfo`](SerpGoogleFinanceExploreLiveAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceExploreLiveHtml()
+
+> **googleFinanceExploreLiveHtml**(`body`): `Promise`\<[`SerpGoogleFinanceExploreLiveHtmlResponseInfo`](SerpGoogleFinanceExploreLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6432
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceExploreLiveHtmlRequestInfo`](SerpGoogleFinanceExploreLiveHtmlRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreLiveHtmlResponseInfo`](SerpGoogleFinanceExploreLiveHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceExploreTaskGetAdvanced()
+
+> **googleFinanceExploreTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6306
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceExploreTaskGetHtml()
+
+> **googleFinanceExploreTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleFinanceExploreTaskGetHtmlResponseInfo`](SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6349
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskGetHtmlResponseInfo`](SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceExploreTaskPost()
+
+> **googleFinanceExploreTaskPost**(`body`): `Promise`\<[`SerpGoogleFinanceExploreTaskPostResponseInfo`](SerpGoogleFinanceExploreTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6225
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceExploreTaskPostRequestInfo`](SerpGoogleFinanceExploreTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskPostResponseInfo`](SerpGoogleFinanceExploreTaskPostResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceExploreTasksReady()
+
+> **googleFinanceExploreTasksReady**(): `Promise`\<[`SerpGoogleFinanceExploreTasksReadyResponseInfo`](SerpGoogleFinanceExploreTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6266
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTasksReadyResponseInfo`](SerpGoogleFinanceExploreTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsLiveAdvanced()
+
+> **googleFinanceMarketsLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleFinanceMarketsLiveAdvancedResponseInfo`](SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6639
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceMarketsLiveAdvancedRequestInfo`](SerpGoogleFinanceMarketsLiveAdvancedRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsLiveAdvancedResponseInfo`](SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsLiveHtml()
+
+> **googleFinanceMarketsLiveHtml**(`body`): `Promise`\<[`SerpGoogleFinanceMarketsLiveHtmlResponseInfo`](SerpGoogleFinanceMarketsLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6681
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`](SerpGoogleFinanceMarketsLiveHtmlRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsLiveHtmlResponseInfo`](SerpGoogleFinanceMarketsLiveHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsTaskGetAdvanced()
+
+> **googleFinanceMarketsTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo`](SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6555
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo`](SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsTaskGetHtml()
+
+> **googleFinanceMarketsTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo`](SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6598
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo`](SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsTaskPost()
+
+> **googleFinanceMarketsTaskPost**(`body`): `Promise`\<[`SerpGoogleFinanceMarketsTaskPostResponseInfo`](SerpGoogleFinanceMarketsTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6474
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceMarketsTaskPostRequestInfo`](SerpGoogleFinanceMarketsTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskPostResponseInfo`](SerpGoogleFinanceMarketsTaskPostResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceMarketsTasksReady()
+
+> **googleFinanceMarketsTasksReady**(): `Promise`\<[`SerpGoogleFinanceMarketsTasksReadyResponseInfo`](SerpGoogleFinanceMarketsTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6515
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTasksReadyResponseInfo`](SerpGoogleFinanceMarketsTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteLiveAdvanced()
+
+> **googleFinanceQuoteLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6885
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceQuoteLiveAdvancedRequestInfo`](SerpGoogleFinanceQuoteLiveAdvancedRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteLiveHtml()
+
+> **googleFinanceQuoteLiveHtml**(`body`): `Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6927
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`](SerpGoogleFinanceQuoteLiveHtmlRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteTaskGetAdvanced()
+
+> **googleFinanceQuoteTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6801
+
+#### Parameters
+
+##### id
+
+`string`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteTaskGetHtml()
+
+> **googleFinanceQuoteTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6844
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteTaskPost()
+
+> **googleFinanceQuoteTaskPost**(`body`): `Promise`\<[`SerpGoogleFinanceQuoteTaskPostResponseInfo`](SerpGoogleFinanceQuoteTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6723
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleFinanceQuoteTaskPostRequestInfo`](SerpGoogleFinanceQuoteTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskPostResponseInfo`](SerpGoogleFinanceQuoteTaskPostResponseInfo.md)\>
+
+Successful operation
+
+***
+
+### googleFinanceQuoteTasksReady()
+
+> **googleFinanceQuoteTasksReady**(): `Promise`\<[`SerpGoogleFinanceQuoteTasksReadyResponseInfo`](SerpGoogleFinanceQuoteTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6764
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTasksReadyResponseInfo`](SerpGoogleFinanceQuoteTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+***
+
 ### googleImagesLiveAdvanced()
 
 > **googleImagesLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleImagesLiveAdvancedResponseInfo`](SerpGoogleImagesLiveAdvancedResponseInfo.md)\>
@@ -2917,6 +3297,330 @@ Defined in: main.ts:1552
 #### Returns
 
 `Promise`\<[`SerpGoogleEventsTasksReadyResponseInfo`](SerpGoogleEventsTasksReadyResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreLiveAdvanced()
+
+> `protected` **processGoogleFinanceExploreLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceExploreLiveAdvancedResponseInfo`](SerpGoogleFinanceExploreLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6410
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreLiveAdvancedResponseInfo`](SerpGoogleFinanceExploreLiveAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreLiveHtml()
+
+> `protected` **processGoogleFinanceExploreLiveHtml**(`response`): `Promise`\<[`SerpGoogleFinanceExploreLiveHtmlResponseInfo`](SerpGoogleFinanceExploreLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6452
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreLiveHtmlResponseInfo`](SerpGoogleFinanceExploreLiveHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreTaskGetAdvanced()
+
+> `protected` **processGoogleFinanceExploreTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6325
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreTaskGetHtml()
+
+> `protected` **processGoogleFinanceExploreTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleFinanceExploreTaskGetHtmlResponseInfo`](SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6368
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskGetHtmlResponseInfo`](SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreTaskPost()
+
+> `protected` **processGoogleFinanceExploreTaskPost**(`response`): `Promise`\<[`SerpGoogleFinanceExploreTaskPostResponseInfo`](SerpGoogleFinanceExploreTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6245
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTaskPostResponseInfo`](SerpGoogleFinanceExploreTaskPostResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceExploreTasksReady()
+
+> `protected` **processGoogleFinanceExploreTasksReady**(`response`): `Promise`\<[`SerpGoogleFinanceExploreTasksReadyResponseInfo`](SerpGoogleFinanceExploreTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6282
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceExploreTasksReadyResponseInfo`](SerpGoogleFinanceExploreTasksReadyResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsLiveAdvanced()
+
+> `protected` **processGoogleFinanceMarketsLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsLiveAdvancedResponseInfo`](SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6659
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsLiveAdvancedResponseInfo`](SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsLiveHtml()
+
+> `protected` **processGoogleFinanceMarketsLiveHtml**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsLiveHtmlResponseInfo`](SerpGoogleFinanceMarketsLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6701
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsLiveHtmlResponseInfo`](SerpGoogleFinanceMarketsLiveHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsTaskGetAdvanced()
+
+> `protected` **processGoogleFinanceMarketsTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo`](SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6574
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo`](SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsTaskGetHtml()
+
+> `protected` **processGoogleFinanceMarketsTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo`](SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6617
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo`](SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsTaskPost()
+
+> `protected` **processGoogleFinanceMarketsTaskPost**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsTaskPostResponseInfo`](SerpGoogleFinanceMarketsTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6494
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTaskPostResponseInfo`](SerpGoogleFinanceMarketsTaskPostResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceMarketsTasksReady()
+
+> `protected` **processGoogleFinanceMarketsTasksReady**(`response`): `Promise`\<[`SerpGoogleFinanceMarketsTasksReadyResponseInfo`](SerpGoogleFinanceMarketsTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6531
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceMarketsTasksReadyResponseInfo`](SerpGoogleFinanceMarketsTasksReadyResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteLiveAdvanced()
+
+> `protected` **processGoogleFinanceQuoteLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6905
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteLiveHtml()
+
+> `protected` **processGoogleFinanceQuoteLiveHtml**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6947
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteTaskGetAdvanced()
+
+> `protected` **processGoogleFinanceQuoteTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
+
+Defined in: main.ts:6820
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteTaskGetHtml()
+
+> `protected` **processGoogleFinanceQuoteTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
+
+Defined in: main.ts:6863
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteTaskPost()
+
+> `protected` **processGoogleFinanceQuoteTaskPost**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTaskPostResponseInfo`](SerpGoogleFinanceQuoteTaskPostResponseInfo.md)\>
+
+Defined in: main.ts:6743
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTaskPostResponseInfo`](SerpGoogleFinanceQuoteTaskPostResponseInfo.md)\>
+
+***
+
+### processGoogleFinanceQuoteTasksReady()
+
+> `protected` **processGoogleFinanceQuoteTasksReady**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTasksReadyResponseInfo`](SerpGoogleFinanceQuoteTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:6780
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleFinanceQuoteTasksReadyResponseInfo`](SerpGoogleFinanceQuoteTasksReadyResponseInfo.md)\>
 
 ***
 

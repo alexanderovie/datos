@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 
-Defined in: main.ts:136906
+Defined in: main.ts:146251
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136906
 
 > **new DataforseoTrendsSubregionInterestsElementItem**(`data`?): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
-Defined in: main.ts:136915
+Defined in: main.ts:146260
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:136915
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22797
+Defined in: main.ts:23602
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22797
 
 > `optional` **interests**: [`Interests`](Interests.md)[]
 
-Defined in: main.ts:136908
+Defined in: main.ts:146253
 
 subregional keyword popuarity data for each specified term
 
@@ -74,7 +74,7 @@ subregional keyword popuarity data for each specified term
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](InterestsComparison.md)
 
-Defined in: main.ts:136911
+Defined in: main.ts:146256
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
@@ -89,7 +89,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22795
+Defined in: main.ts:23600
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -108,7 +108,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22792
+Defined in: main.ts:23597
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -127,7 +127,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22789
+Defined in: main.ts:23594
 
 type of element
 
@@ -145,7 +145,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136920
+Defined in: main.ts:146265
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:136920
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136943
+Defined in: main.ts:146288
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:136943
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
-Defined in: main.ts:136936
+Defined in: main.ts:146281
 
 #### Parameters
 

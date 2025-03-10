@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTaskGetResultInfo
 
-Defined in: main.ts:224020
+Defined in: main.ts:232883
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:224020
 
 > **new BusinessDataGoogleExtendedReviewsTaskGetResultInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTaskGetResultInfo`](BusinessDataGoogleExtendedReviewsTaskGetResultInfo.md)
 
-Defined in: main.ts:224070
+Defined in: main.ts:232933
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224070
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:224034
+Defined in: main.ts:232897
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:224058
+Defined in: main.ts:232921
 
 google-defined client id
 unique id of a local establishment
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:224039
+Defined in: main.ts:232902
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:224051
+Defined in: main.ts:232914
 
 the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article
@@ -103,7 +103,7 @@ learn more about the identifier in this help center article
 
 > `optional` **items**: [`BusinessDataGoogleExtendedReviewsTaskGetItem`](BusinessDataGoogleExtendedReviewsTaskGetItem.md)[]
 
-Defined in: main.ts:224066
+Defined in: main.ts:232929
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -118,7 +118,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:224063
+Defined in: main.ts:232926
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -133,7 +133,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:224023
+Defined in: main.ts:232886
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -148,7 +148,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:224031
+Defined in: main.ts:232894
 
 language code in a POST array
 
@@ -162,7 +162,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:224029
+Defined in: main.ts:232892
 
 location code in a POST array
 
@@ -176,7 +176,7 @@ location code in a POST array
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:224054
+Defined in: main.ts:232917
 
 unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article
@@ -191,7 +191,7 @@ learn more about the identifier in this help center article
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:224048
+Defined in: main.ts:232911
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
@@ -206,7 +206,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:224060
+Defined in: main.ts:232923
 
 the total number of reviews
 
@@ -220,7 +220,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:224027
+Defined in: main.ts:232890
 
 search engine domain in a POST array
 
@@ -234,7 +234,7 @@ search engine domain in a POST array
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:224045
+Defined in: main.ts:232908
 
 subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected
@@ -249,7 +249,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:224042
+Defined in: main.ts:232905
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
@@ -264,7 +264,7 @@ the name of the local establishment for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:224025
+Defined in: main.ts:232888
 
 type of element
 
@@ -278,7 +278,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:224079
+Defined in: main.ts:232942
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Defined in: main.ts:224079
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:224115
+Defined in: main.ts:232978
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:224115
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTaskGetResultInfo`](BusinessDataGoogleExtendedReviewsTaskGetResultInfo.md)
 
-Defined in: main.ts:224108
+Defined in: main.ts:232971
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLocationsResultInfo
 
-Defined in: main.ts:138340
+Defined in: main.ts:147685
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:138340
 
 > **new KeywordsDataBingLocationsResultInfo**(`data`?): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
-Defined in: main.ts:138360
+Defined in: main.ts:147705
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138360
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:138354
+Defined in: main.ts:147699
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138342
+Defined in: main.ts:147687
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:138352
+Defined in: main.ts:147697
 
 the code of the superordinate location
 example:
@@ -88,7 +88,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:138344
+Defined in: main.ts:147689
 
 full name of the location
 
@@ -102,7 +102,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:138356
+Defined in: main.ts:147701
 
 location type
 
@@ -116,7 +116,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138369
+Defined in: main.ts:147714
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:138369
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138390
+Defined in: main.ts:147735
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:138390
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
-Defined in: main.ts:138383
+Defined in: main.ts:147728
 
 #### Parameters
 

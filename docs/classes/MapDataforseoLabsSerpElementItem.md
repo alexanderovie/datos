@@ -6,7 +6,7 @@
 
 # Class: MapDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107207
+Defined in: main.ts:116376
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107207
 
 > **new MapDataforseoLabsSerpElementItem**(`data`?): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107215
+Defined in: main.ts:116384
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:107215
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -80,7 +80,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -99,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107209
+Defined in: main.ts:116378
 
 title of the result in SERP
 
@@ -132,7 +132,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -150,9 +150,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107211
+Defined in: main.ts:116380
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 #### Implementation of
 
@@ -164,7 +164,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107220
+Defined in: main.ts:116389
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:107220
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107239
+Defined in: main.ts:116408
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:107239
 
 > `static` **fromJS**(`data`): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107232
+Defined in: main.ts:116401
 
 #### Parameters
 

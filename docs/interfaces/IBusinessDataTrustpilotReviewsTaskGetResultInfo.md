@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
-Defined in: main.ts:227514
+Defined in: main.ts:236377
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:227514
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:227523
+Defined in: main.ts:236386
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:227528
+Defined in: main.ts:236391
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:227516
+Defined in: main.ts:236379
 
 domain of the business entity
 
@@ -52,7 +52,7 @@ domain of the business entity
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:227545
+Defined in: main.ts:236408
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -63,7 +63,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:227542
+Defined in: main.ts:236405
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:227534
+Defined in: main.ts:236397
 
 location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected
@@ -85,7 +85,7 @@ address of the business entity for which the reviews are collected
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:227539
+Defined in: main.ts:236402
 
 rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP
@@ -96,7 +96,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:227536
+Defined in: main.ts:236399
 
 the total number of reviews
 
@@ -106,7 +106,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:227520
+Defined in: main.ts:236383
 
 search engine domain in a POST array
 
@@ -116,7 +116,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:227531
+Defined in: main.ts:236394
 
 title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected
@@ -127,6 +127,6 @@ the name of the business entity for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:227518
+Defined in: main.ts:236381
 
 type of element

@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateMetaTagsLiveRequestInfo
 
-Defined in: main.ts:182288
+Defined in: main.ts:191127
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:182288
 
 > **new ContentGenerationGenerateMetaTagsLiveRequestInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
-Defined in: main.ts:182311
+Defined in: main.ts:191150
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182311
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:182301
+Defined in: main.ts:191140
 
 creativity of content generation
 optional field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:182307
+Defined in: main.ts:191146
 
 user-defined task identifier
 optional field
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:182294
+Defined in: main.ts:191133
 
 initial target text
 required field
@@ -95,7 +95,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182320
+Defined in: main.ts:191159
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:182320
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182339
+Defined in: main.ts:191178
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:182339
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
-Defined in: main.ts:182332
+Defined in: main.ts:191171
 
 #### Parameters
 

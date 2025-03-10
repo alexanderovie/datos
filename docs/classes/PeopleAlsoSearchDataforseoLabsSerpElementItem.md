@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106646
+Defined in: main.ts:115805
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106646
 
 > **new PeopleAlsoSearchDataforseoLabsSerpElementItem**(`data`?): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106656
+Defined in: main.ts:115816
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:106656
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:106652
+Defined in: main.ts:115812
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106648
+Defined in: main.ts:115807
 
 search engine type
 
@@ -146,7 +147,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106650
+Defined in: main.ts:115809
 
 title of the result in SERP
 
@@ -160,7 +161,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -178,7 +179,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -196,7 +197,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106661
+Defined in: main.ts:115821
 
 #### Parameters
 
@@ -218,7 +219,7 @@ Defined in: main.ts:106661
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106685
+Defined in: main.ts:115845
 
 #### Parameters
 
@@ -240,7 +241,7 @@ Defined in: main.ts:106685
 
 > `static` **fromJS**(`data`): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106678
+Defined in: main.ts:115838
 
 #### Parameters
 

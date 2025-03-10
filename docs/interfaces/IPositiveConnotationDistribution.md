@@ -6,7 +6,7 @@
 
 # Interface: IPositiveConnotationDistribution
 
-Defined in: main.ts:179614
+Defined in: main.ts:188453
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:179614
 
 > `optional` **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179616
+Defined in: main.ts:188455
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:179616
 
 > `optional` **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179617
+Defined in: main.ts:188456
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:179617
 
 > `optional` **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179615
+Defined in: main.ts:188454

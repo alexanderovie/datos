@@ -6,7 +6,7 @@
 
 # Class: AppendixAppendixPriceData
 
-Defined in: main.ts:237774
+Defined in: main.ts:246637
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237774
 
 > **new AppendixAppendixPriceData**(`data`?): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-Defined in: main.ts:237780
+Defined in: main.ts:246643
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237780
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237775
+Defined in: main.ts:246638
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237775
 
 > `optional` **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237776
+Defined in: main.ts:246639
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237776
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237789
+Defined in: main.ts:246652
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:237789
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237807
+Defined in: main.ts:246670
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:237807
 
 > `static` **fromJS**(`data`): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-Defined in: main.ts:237800
+Defined in: main.ts:246663
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixStatisticsMoneyData
 
-Defined in: main.ts:236388
+Defined in: main.ts:245251
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236388
 
 > **new AppendixStatisticsMoneyData**(`data`?): [`AppendixStatisticsMoneyData`](AppendixStatisticsMoneyData.md)
 
-Defined in: main.ts:236394
+Defined in: main.ts:245257
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236394
 
 > `optional` **day**: [`AppendixDayStatisticsMoneyData`](AppendixDayStatisticsMoneyData.md)
 
-Defined in: main.ts:236389
+Defined in: main.ts:245252
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236389
 
 > `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
-Defined in: main.ts:236390
+Defined in: main.ts:245253
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236390
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236403
+Defined in: main.ts:245266
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:236403
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236421
+Defined in: main.ts:245284
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:236421
 
 > `static` **fromJS**(`data`): [`AppendixStatisticsMoneyData`](AppendixStatisticsMoneyData.md)
 
-Defined in: main.ts:236414
+Defined in: main.ts:245277
 
 #### Parameters
 

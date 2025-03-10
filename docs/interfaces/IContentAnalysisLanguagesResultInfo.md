@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisLanguagesResultInfo
 
-Defined in: main.ts:177445
+Defined in: main.ts:186360
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:177445
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:177449
+Defined in: main.ts:186364
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:177447
+Defined in: main.ts:186362
 
 language name

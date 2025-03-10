@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
-Defined in: main.ts:203292
+Defined in: main.ts:212139
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203292
 
 > **new AppDataGoogleAppReviewsTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
-Defined in: main.ts:203397
+Defined in: main.ts:212244
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203397
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:203299
+Defined in: main.ts:212146
 
 id of the app
 required field
@@ -59,7 +59,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:203342
+Defined in: main.ts:212189
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ maximum value: 100000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:203327
+Defined in: main.ts:212174
 
 search engine language code
 required field if you don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:203320
+Defined in: main.ts:212167
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:203313
+Defined in: main.ts:212160
 
 search engine location code
 required field if you don’t specify location_name
@@ -135,7 +135,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:203306
+Defined in: main.ts:212153
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,7 +154,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:203393
+Defined in: main.ts:212240
 
 notification URL of a completed task
 optional field
@@ -176,7 +176,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:203383
+Defined in: main.ts:212230
 
 postback_url datatype
 required field if you specify postback_url
@@ -194,7 +194,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:203377
+Defined in: main.ts:212224
 
 return URL for sending task results
 optional field
@@ -216,7 +216,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:203335
+Defined in: main.ts:212182
 
 task priority
 optional field
@@ -236,7 +236,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **rating**: `number`
 
-Defined in: main.ts:203353
+Defined in: main.ts:212200
 
 filter reviews by rating
 optional field
@@ -259,7 +259,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:203361
+Defined in: main.ts:212208
 
 results sorting parameters
 optional field
@@ -279,7 +279,7 @@ default rule: most_relevant
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:203367
+Defined in: main.ts:212214
 
 user-defined task identifier
 optional field
@@ -297,7 +297,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203406
+Defined in: main.ts:212253
 
 #### Parameters
 
@@ -315,7 +315,7 @@ Defined in: main.ts:203406
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203435
+Defined in: main.ts:212282
 
 #### Parameters
 
@@ -333,7 +333,7 @@ Defined in: main.ts:203435
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
-Defined in: main.ts:203428
+Defined in: main.ts:212275
 
 #### Parameters
 

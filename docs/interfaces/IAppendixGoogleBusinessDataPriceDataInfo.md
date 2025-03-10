@@ -6,7 +6,7 @@
 
 # Interface: IAppendixGoogleBusinessDataPriceDataInfo
 
-Defined in: main.ts:238265
+Defined in: main.ts:247128
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238265
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238266
+Defined in: main.ts:247129
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238266
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238267
+Defined in: main.ts:247130
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:238267
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238268
+Defined in: main.ts:247131
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:238268
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238269
+Defined in: main.ts:247132

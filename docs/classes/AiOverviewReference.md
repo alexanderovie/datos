@@ -6,7 +6,7 @@
 
 # Class: AiOverviewReference
 
-Defined in: main.ts:30761
+Defined in: main.ts:32362
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30761
 
 > **new AiOverviewReference**(`data`?): [`AiOverviewReference`](AiOverviewReference.md)
 
-Defined in: main.ts:30777
+Defined in: main.ts:32378
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:30777
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30767
+Defined in: main.ts:32368
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30765
+Defined in: main.ts:32366
 
 reference source name or title
 
@@ -68,7 +68,7 @@ reference source name or title
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30773
+Defined in: main.ts:32374
 
 row content
 
@@ -82,7 +82,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30771
+Defined in: main.ts:32372
 
 title of a given link element
 
@@ -96,7 +96,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30763
+Defined in: main.ts:32364
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30769
+Defined in: main.ts:32370
 
 URL
 
@@ -124,7 +124,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30786
+Defined in: main.ts:32387
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:30786
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30808
+Defined in: main.ts:32409
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:30808
 
 > `static` **fromJS**(`data`): [`AiOverviewReference`](AiOverviewReference.md)
 
-Defined in: main.ts:30801
+Defined in: main.ts:32402
 
 #### Parameters
 

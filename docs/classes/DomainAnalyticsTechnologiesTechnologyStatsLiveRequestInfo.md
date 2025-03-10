@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
-Defined in: main.ts:87022
+Defined in: main.ts:96319
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:87022
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-Defined in: main.ts:87053
+Defined in: main.ts:96350
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87053
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:87036
+Defined in: main.ts:96333
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:87043
+Defined in: main.ts:96340
 
 ending date of the time range
 optional field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:87049
+Defined in: main.ts:96346
 
 user-defined task identifier
 optional field
@@ -97,7 +97,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:87028
+Defined in: main.ts:96325
 
 target technology
 required field
@@ -115,7 +115,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87062
+Defined in: main.ts:96359
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:87062
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87082
+Defined in: main.ts:96379
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:87082
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-Defined in: main.ts:87075
+Defined in: main.ts:96372
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
 
-Defined in: main.ts:207251
+Defined in: main.ts:216098
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:207251
 
 > `optional` **advisories**: `string`[]
 
-Defined in: main.ts:207273
+Defined in: main.ts:216120
 
 age rating and age-based content advisories
 
@@ -32,7 +32,7 @@ age rating and age-based content advisories
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:207253
+Defined in: main.ts:216100
 
 ID of the app
 
@@ -42,7 +42,7 @@ ID of the app
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:207269
+Defined in: main.ts:216116
 
 all relevant categories/genres of the app
 
@@ -52,7 +52,7 @@ all relevant categories/genres of the app
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:207259
+Defined in: main.ts:216106
 
 description of the app
 
@@ -62,7 +62,7 @@ description of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:207275
+Defined in: main.ts:216122
 
 name of the app developer
 
@@ -72,7 +72,7 @@ name of the app developer
 
 > `optional` **developer\_id**: `string`
 
-Defined in: main.ts:207277
+Defined in: main.ts:216124
 
 ID of the app developer
 
@@ -82,7 +82,7 @@ ID of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:207279
+Defined in: main.ts:216126
 
 URL to the developer page on App Store
 
@@ -92,7 +92,7 @@ URL to the developer page on App Store
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:207257
+Defined in: main.ts:216104
 
 URL to the app icon
 
@@ -102,7 +102,7 @@ URL to the app icon
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:207301
+Defined in: main.ts:216148
 
 app images
 contains URLs to the images used on the app page on App Store
@@ -113,7 +113,7 @@ contains URLs to the images used on the app page on App Store
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:207265
+Defined in: main.ts:216112
 
 indicates whether the app is free
 
@@ -123,7 +123,7 @@ indicates whether the app is free
 
 > `optional` **languages**: `string`[]
 
-Defined in: main.ts:207271
+Defined in: main.ts:216118
 
 languages supported in the app
 
@@ -133,7 +133,7 @@ languages supported in the app
 
 > `optional` **last\_update\_date**: `string`
 
-Defined in: main.ts:207295
+Defined in: main.ts:216142
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -146,7 +146,7 @@ example:
 
 > `optional` **main\_category**: `string`
 
-Defined in: main.ts:207267
+Defined in: main.ts:216114
 
 main category/genre of the app
 
@@ -156,7 +156,7 @@ main category/genre of the app
 
 > `optional` **minimum\_os\_version**: `string`
 
-Defined in: main.ts:207283
+Defined in: main.ts:216130
 
 minimum OS version required to install the app
 
@@ -166,7 +166,7 @@ minimum OS version required to install the app
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:207307
+Defined in: main.ts:216154
 
 similar apps
 information about apps built by the same developer
@@ -177,7 +177,7 @@ information about apps built by the same developer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22971
+Defined in: main.ts:23776
 
 the alignment of the element in SERP
 can take the following values:
@@ -193,7 +193,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:207263
+Defined in: main.ts:216110
 
 price of the app
 
@@ -203,7 +203,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22967
+Defined in: main.ts:23772
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -218,7 +218,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22964
+Defined in: main.ts:23769
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -233,7 +233,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:22975
+Defined in: main.ts:23780
 
 average rating of the app
 
@@ -247,7 +247,7 @@ average rating of the app
 
 > `optional` **released\_date**: `string`
 
-Defined in: main.ts:207290
+Defined in: main.ts:216137
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -260,7 +260,7 @@ example:
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:207261
+Defined in: main.ts:216108
 
 the total number of reviews of the app
 
@@ -270,7 +270,7 @@ the total number of reviews of the app
 
 > `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:207304
+Defined in: main.ts:216151
 
 similar apps
 displays apps similar to the app in a POST request
@@ -281,7 +281,7 @@ displays apps similar to the app in a POST request
 
 > `optional` **size**: `string`
 
-Defined in: main.ts:207285
+Defined in: main.ts:216132
 
 size of the app
 
@@ -291,7 +291,7 @@ size of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22973
+Defined in: main.ts:23778
 
 title of the app
 
@@ -305,7 +305,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22961
+Defined in: main.ts:23766
 
 type of element
 
@@ -319,7 +319,7 @@ type of element
 
 > `optional` **update\_notes**: `string`
 
-Defined in: main.ts:207298
+Defined in: main.ts:216145
 
 update notes
 contains the latest update notes from the developer
@@ -330,7 +330,7 @@ contains the latest update notes from the developer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:207255
+Defined in: main.ts:216102
 
 URL to the app page on App Store
 
@@ -340,6 +340,6 @@ URL to the app page on App Store
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:207281
+Defined in: main.ts:216128
 
 current version of the app

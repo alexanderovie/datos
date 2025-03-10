@@ -6,7 +6,7 @@
 
 # Class: QueriesListDataItemInfo
 
-Defined in: main.ts:134557
+Defined in: main.ts:143902
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134557
 
 > **new QueriesListDataItemInfo**(`data`?): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-Defined in: main.ts:134566
+Defined in: main.ts:143911
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134566
 
 > `optional` **query**: `string`
 
-Defined in: main.ts:134559
+Defined in: main.ts:143904
 
 related query
 
@@ -54,7 +54,7 @@ related query
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:134562
+Defined in: main.ts:143907
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -69,7 +69,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134575
+Defined in: main.ts:143920
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:134575
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134593
+Defined in: main.ts:143938
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:134593
 
 > `static` **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-Defined in: main.ts:134586
+Defined in: main.ts:143931
 
 #### Parameters
 

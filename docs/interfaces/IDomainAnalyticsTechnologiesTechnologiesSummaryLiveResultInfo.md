@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
-Defined in: main.ts:86895
+Defined in: main.ts:96192
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:86895
 
 > `optional` **content\_languages**: `object`
 
-Defined in: main.ts:86904
+Defined in: main.ts:96201
 
 distribution of websites by content language
 contains content language codes and number of websites per language
@@ -33,7 +33,7 @@ contains content language codes and number of websites per language
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:86898
+Defined in: main.ts:96195
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -48,7 +48,7 @@ contains country codes and number of websites per country
 
 > `optional` **keywords**: `object`
 
-Defined in: main.ts:86907
+Defined in: main.ts:96204
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
@@ -63,7 +63,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:86901
+Defined in: main.ts:96198
 
 distribution of websites by language
 contains language codes and number of websites per language

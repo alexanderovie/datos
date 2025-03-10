@@ -6,7 +6,7 @@
 
 # Class: RowCellInfo
 
-Defined in: main.ts:174118
+Defined in: main.ts:26492
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174118
 
 > **new RowCellInfo**(`data`?): [`RowCellInfo`](RowCellInfo.md)
 
-Defined in: main.ts:174128
+Defined in: main.ts:26502
 
 #### Parameters
 
@@ -40,9 +40,9 @@ Defined in: main.ts:174128
 
 > `optional` **is\_header**: `boolean`
 
-Defined in: main.ts:174124
+Defined in: main.ts:26498
 
-indicates if the text belongs to the header
+content of the row cells of the header
 
 #### Implementation of
 
@@ -54,9 +54,9 @@ indicates if the text belongs to the header
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:174120
+Defined in: main.ts:26494
 
-content text
+content of the row cells of the header
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ content text
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
-Defined in: main.ts:174122
+Defined in: main.ts:26496
 
 contains other URLs and anchors found in the content element
 
@@ -82,7 +82,7 @@ contains other URLs and anchors found in the content element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174137
+Defined in: main.ts:26511
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:174137
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174160
+Defined in: main.ts:26534
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:174160
 
 > `static` **fromJS**(`data`): [`RowCellInfo`](RowCellInfo.md)
 
-Defined in: main.ts:174153
+Defined in: main.ts:26527
 
 #### Parameters
 

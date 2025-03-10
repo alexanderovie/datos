@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityRequestInfo
 
-Defined in: main.ts:171262
+Defined in: main.ts:180607
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171262
 
 > **new OnPageKeywordDensityRequestInfo**(`data`?): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
 
-Defined in: main.ts:171325
+Defined in: main.ts:180670
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171325
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:171301
+Defined in: main.ts:180646
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:171268
+Defined in: main.ts:180613
 
 ID of the task
 required field
@@ -87,7 +87,7 @@ example:
 
 > `optional` **keyword\_length**: `number`
 
-Defined in: main.ts:171273
+Defined in: main.ts:180618
 
 number of words for a keyword
 required field
@@ -104,7 +104,7 @@ possible values:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:171284
+Defined in: main.ts:180629
 
 the maximum number of returned keywords
 optional field
@@ -121,7 +121,7 @@ maximum value: 1000
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:171315
+Defined in: main.ts:180660
 
 results sorting rules
 optional field
@@ -147,7 +147,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171321
+Defined in: main.ts:180666
 
 user-defined task identifier
 optional field
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:171279
+Defined in: main.ts:180624
 
 page URL
 optional field
@@ -183,7 +183,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171334
+Defined in: main.ts:180679
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: main.ts:171334
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171365
+Defined in: main.ts:180710
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:171365
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
 
-Defined in: main.ts:171358
+Defined in: main.ts:180703
 
 #### Parameters
 

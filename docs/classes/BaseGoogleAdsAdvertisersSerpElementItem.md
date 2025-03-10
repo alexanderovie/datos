@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleAdsAdvertisersSerpElementItem
 
-Defined in: main.ts:60996
+Defined in: main.ts:63399
 
 ## Extended by
 
@@ -24,7 +24,7 @@ Defined in: main.ts:60996
 
 > **new BaseGoogleAdsAdvertisersSerpElementItem**(`data`?): [`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
 
-Defined in: main.ts:61009
+Defined in: main.ts:63412
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:61009
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:61007
+Defined in: main.ts:63410
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:61007
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:61005
+Defined in: main.ts:63408
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:61002
+Defined in: main.ts:63405
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60998
+Defined in: main.ts:63401
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61019
+Defined in: main.ts:63422
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:61019
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61049
+Defined in: main.ts:63452
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:61049
 
 > `static` **fromJS**(`data`): [`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
 
-Defined in: main.ts:61027
+Defined in: main.ts:63430
 
 #### Parameters
 

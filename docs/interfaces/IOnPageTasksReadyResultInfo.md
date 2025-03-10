@@ -6,7 +6,7 @@
 
 # Interface: IOnPageTasksReadyResultInfo
 
-Defined in: main.ts:165222
+Defined in: main.ts:174567
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:165222
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:165229
+Defined in: main.ts:174574
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:165225
+Defined in: main.ts:174570
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -39,7 +39,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:165231
+Defined in: main.ts:174576
 
 user-defined task identifier
 
@@ -49,6 +49,6 @@ user-defined task identifier
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165227
+Defined in: main.ts:174572
 
 target website specified when setting a task

@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationExtendedItem
 
-Defined in: main.ts:194971
+Defined in: main.ts:203818
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194971
 
 > `optional` **contents**: [`ProductInformationRows`](../classes/ProductInformationRows.md)[]
 
-Defined in: main.ts:194973
+Defined in: main.ts:203820
 
 contains information specified about the product within the section_name
 
@@ -32,7 +32,7 @@ contains information specified about the product within the section_name
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:24311
+Defined in: main.ts:25116
 
 name of the section related to product information specified in the contents
 
@@ -46,7 +46,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24309
+Defined in: main.ts:25114
 
 type of element
 

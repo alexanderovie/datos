@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
-Defined in: main.ts:95130
+Defined in: main.ts:104427
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:95130
 
 > `optional` **closely\_variants**: `boolean`
 
-Defined in: main.ts:95177
+Defined in: main.ts:104476
 
 search mode
 optional field
@@ -32,7 +32,7 @@ default value: false
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:95232
+Defined in: main.ts:104531
 
 array of results filtering parameters
 optional field
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:95182
+Defined in: main.ts:104481
 
 ignore highly similar keywords
 optional field
@@ -73,7 +73,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:95194
+Defined in: main.ts:104493
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -88,7 +88,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:95187
+Defined in: main.ts:104486
 
 include data from SERP for each keyword
 optional field
@@ -101,7 +101,7 @@ default value: false
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:95137
+Defined in: main.ts:104434
 
 keywords
 required field
@@ -116,16 +116,17 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95171
+Defined in: main.ts:104470
 
 language code
 optional field
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to the
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
 example:
 en
+Note: if omitted, results default to the language with the most keyword records in the specified location;
+refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language
 
 ***
 
@@ -133,16 +134,17 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:95162
+Defined in: main.ts:104460
 
 full name of the language
 optional field
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with their language_name by making a separate request to the
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-ignore this field to get the results for all available languages
 example:
 English
+Note: if omitted, results default to the language with the most keyword records in the specified location;
+refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language
 
 ***
 
@@ -150,7 +152,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:95199
+Defined in: main.ts:104498
 
 the maximum number of keywords in the results array
 optional field
@@ -163,7 +165,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95153
+Defined in: main.ts:104450
 
 unique location identifier
 required field if you don’t specify location_name
@@ -179,7 +181,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:95145
+Defined in: main.ts:104442
 
 full name of the location
 required field if you don’t specify location_code
@@ -195,7 +197,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:95204
+Defined in: main.ts:104503
 
 offset in the results array of returned keywords
 optional field
@@ -208,7 +210,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:95212
+Defined in: main.ts:104511
 
 offset token for subsequent requests
 optional field
@@ -224,7 +226,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:95249
+Defined in: main.ts:104546
 
 results sorting rules
 optional field
@@ -233,15 +235,13 @@ possible sorting types:
 asc – results will be sorted in the ascending order
 desc – results will be sorted in the descending order
 you should use a comma to set up a sorting parameter
-example:
-["keyword_info.competition,desc"]
 default rule:
 ["relevance,desc"]
 relevance is used as the default sorting rule to provide you with the closest keyword ideas. We recommend using this sorting rule to get highly-relevant search terms. Note that relevance is only our internal system identifier, so it can not be used as a filter, and you will not find this field in the result array. The relevance score is based on a similar principle as used in the Keywords For Keywords endpoint.
 note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
-["keyword_info.search_volume,desc","keyword_info.cpc,desc"]
+["relevance,desc","keyword_info.search_volume,desc"]
 
 ***
 
@@ -249,7 +249,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95255
+Defined in: main.ts:104552
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
 
-Defined in: main.ts:232941
+Defined in: main.ts:241804
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:232941
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232942
+Defined in: main.ts:241805
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:232942
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232943
+Defined in: main.ts:241806
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:232943
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232950
+Defined in: main.ts:241813
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:232950
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232944
+Defined in: main.ts:241807
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:232944
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232945
+Defined in: main.ts:241808
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:232945
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:232949
+Defined in: main.ts:241812
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:232949
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:232946
+Defined in: main.ts:241809
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:232946
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:232947
+Defined in: main.ts:241810
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:232947
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:232948
+Defined in: main.ts:241811
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:232948
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:232951
+Defined in: main.ts:241814

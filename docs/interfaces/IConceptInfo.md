@@ -6,7 +6,7 @@
 
 # Interface: IConceptInfo
 
-Defined in: main.ts:128931
+Defined in: main.ts:138276
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:128931
 
 > `optional` **concept\_group**: [`ConceptGroupInfo`](../classes/ConceptGroupInfo.md)
 
-Defined in: main.ts:128935
+Defined in: main.ts:138280
 
 the concept group of the concept details
 
@@ -28,6 +28,6 @@ the concept group of the concept details
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:128933
+Defined in: main.ts:138278
 
 the concept name for the keyword in the concept_group

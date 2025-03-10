@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
 
-Defined in: main.ts:126270
+Defined in: main.ts:135615
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:126270
 
 > **new KeywordsDataGoogleAdsLocationsResultInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
 
-Defined in: main.ts:126292
+Defined in: main.ts:135637
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126292
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:126285
+Defined in: main.ts:135630
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126272
+Defined in: main.ts:135617
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:126283
+Defined in: main.ts:135628
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:126274
+Defined in: main.ts:135619
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:126288
+Defined in: main.ts:135633
 
 location type
 possible values according to Google’s target types
@@ -118,7 +118,7 @@ possible values according to Google’s target types
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126301
+Defined in: main.ts:135646
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:126301
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126322
+Defined in: main.ts:135667
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:126322
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
 
-Defined in: main.ts:126315
+Defined in: main.ts:135660
 
 #### Parameters
 

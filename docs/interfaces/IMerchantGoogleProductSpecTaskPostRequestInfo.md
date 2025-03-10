@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductSpecTaskPostRequestInfo
 
-Defined in: main.ts:189287
+Defined in: main.ts:198134
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:189287
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:189359
+Defined in: main.ts:198206
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -37,7 +37,7 @@ example:
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:189300
+Defined in: main.ts:198147
 
 unique identifier of the SERP data element
 required field if product_id is not specified
@@ -51,7 +51,7 @@ example:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:189345
+Defined in: main.ts:198192
 
 language code
 required field if you don’t specify language_name
@@ -66,7 +66,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:189338
+Defined in: main.ts:198185
 
 full name of the language
 required field if you don’t specify language_code
@@ -81,7 +81,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:189322
+Defined in: main.ts:198169
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -96,7 +96,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:189331
+Defined in: main.ts:198178
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:189315
+Defined in: main.ts:198162
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -128,7 +128,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:189393
+Defined in: main.ts:198240
 
 notification URL of a completed task
 optional field
@@ -147,7 +147,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:189382
+Defined in: main.ts:198229
 
 postback_url datatype
 required field if you specify postback_url
@@ -161,7 +161,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:189376
+Defined in: main.ts:198223
 
 return URL for sending task results
 optional field
@@ -180,7 +180,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:189308
+Defined in: main.ts:198155
 
 task priority
 optional field
@@ -196,7 +196,7 @@ the cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:189294
+Defined in: main.ts:198141
 
 unique product identifier on Google Shopping
 required field if data_docid is not specified
@@ -211,7 +211,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:189352
+Defined in: main.ts:198199
 
 search engine domain
 optional field
@@ -226,7 +226,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189365
+Defined in: main.ts:198212
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLanguagesResultInfo
 
-Defined in: main.ts:82580
+Defined in: main.ts:84999
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:82580
 
 > **new SerpSeznamLanguagesResultInfo**(`data`?): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-Defined in: main.ts:82588
+Defined in: main.ts:85007
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:82588
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:82584
+Defined in: main.ts:85003
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:82582
+Defined in: main.ts:85001
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82597
+Defined in: main.ts:85016
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:82597
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82615
+Defined in: main.ts:85034
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:82615
 
 > `static` **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-Defined in: main.ts:82608
+Defined in: main.ts:85027
 
 #### Parameters
 

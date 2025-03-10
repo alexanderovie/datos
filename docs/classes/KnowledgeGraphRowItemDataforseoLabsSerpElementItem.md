@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106060
+Defined in: main.ts:115165
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106060
 
 > **new KnowledgeGraphRowItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106076
+Defined in: main.ts:115181
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:106076
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,11 +60,11 @@ Defined in: main.ts:21425
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:106066
+Defined in: main.ts:115171
 
 google defined data attribute ID
 example:
-action:listen_artist
+ss:/webfacts:net_worth
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:106072
+Defined in: main.ts:115177
 
 sitelinks
 the links shown below some of Google’s search results
@@ -92,7 +92,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -112,7 +112,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -131,7 +131,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:106068
+Defined in: main.ts:115173
 
 row content
 
@@ -164,9 +164,9 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106062
+Defined in: main.ts:115167
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -178,7 +178,7 @@ title of the item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -196,7 +196,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106081
+Defined in: main.ts:115186
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:106081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106106
+Defined in: main.ts:115211
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:106106
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106099
+Defined in: main.ts:115204
 
 #### Parameters
 

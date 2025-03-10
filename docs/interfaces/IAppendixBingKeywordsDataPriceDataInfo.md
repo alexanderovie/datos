@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBingKeywordsDataPriceDataInfo
 
-Defined in: main.ts:236744
+Defined in: main.ts:245607
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:236744
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236745
+Defined in: main.ts:245608

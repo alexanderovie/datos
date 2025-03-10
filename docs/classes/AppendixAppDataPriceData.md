@@ -6,7 +6,7 @@
 
 # Class: AppendixAppDataPriceData
 
-Defined in: main.ts:237878
+Defined in: main.ts:246741
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237878
 
 > **new AppendixAppDataPriceData**(`data`?): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-Defined in: main.ts:237892
+Defined in: main.ts:246755
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237892
 
 > `optional` **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237879
+Defined in: main.ts:246742
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237879
 
 > `optional` **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237881
+Defined in: main.ts:246744
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237881
 
 > `optional` **app\_listings**: [`AppendixAppListingsAppDataPriceData`](AppendixAppListingsAppDataPriceData.md)
 
-Defined in: main.ts:237880
+Defined in: main.ts:246743
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237880
 
 > `optional` **app\_reviews**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
-Defined in: main.ts:237882
+Defined in: main.ts:246745
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237882
 
 > `optional` **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237883
+Defined in: main.ts:246746
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:237883
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237884
+Defined in: main.ts:246747
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:237884
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237885
+Defined in: main.ts:246748
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237885
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237886
+Defined in: main.ts:246749
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:237886
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237887
+Defined in: main.ts:246750
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:237887
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237888
+Defined in: main.ts:246751
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:237888
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237901
+Defined in: main.ts:246764
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:237901
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237927
+Defined in: main.ts:246790
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:237927
 
 > `static` **fromJS**(`data`): [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-Defined in: main.ts:237920
+Defined in: main.ts:246783
 
 #### Parameters
 

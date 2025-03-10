@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResponseInfo
 
-Defined in: main.ts:89057
+Defined in: main.ts:98354
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:89057
 
 > **new DomainAnalyticsWhoisAvailableFiltersResponseInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:89062
+Defined in: main.ts:98359
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:89062
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:25217
+Defined in: main.ts:26022
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:25210
+Defined in: main.ts:26015
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:25213
+Defined in: main.ts:26018
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsWhoisAvailableFiltersTaskInfo`](DomainAnalyticsWhoisAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:89058
+Defined in: main.ts:98355
 
 #### Implementation of
 
@@ -116,7 +116,7 @@ Defined in: main.ts:89058
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:25219
+Defined in: main.ts:26024
 
 the number of tasks in the tasks array
 
@@ -134,7 +134,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:25221
+Defined in: main.ts:26026
 
 the number of tasks in the tasks array returned with an error
 
@@ -152,7 +152,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:25215
+Defined in: main.ts:26020
 
 total execution time, seconds
 
@@ -170,7 +170,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:25207
+Defined in: main.ts:26012
 
 the current version of the API
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89066
+Defined in: main.ts:98363
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:89066
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89088
+Defined in: main.ts:98385
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:89088
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:89081
+Defined in: main.ts:98378
 
 #### Parameters
 

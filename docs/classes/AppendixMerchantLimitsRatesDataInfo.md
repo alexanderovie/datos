@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:232220
+Defined in: main.ts:241083
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232220
 
 > **new AppendixMerchantLimitsRatesDataInfo**(`data`?): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232231
+Defined in: main.ts:241094
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232231
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:232222
+Defined in: main.ts:241085
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232222
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:232225
+Defined in: main.ts:241088
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232225
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:232221
+Defined in: main.ts:241084
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232221
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:232224
+Defined in: main.ts:241087
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:232224
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:232223
+Defined in: main.ts:241086
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232223
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232226
+Defined in: main.ts:241089
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:232226
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:232227
+Defined in: main.ts:241090
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:232227
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232240
+Defined in: main.ts:241103
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:232240
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232263
+Defined in: main.ts:241126
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:232263
 
 > `static` **fromJS**(`data`): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232256
+Defined in: main.ts:241119
 
 #### Parameters
 

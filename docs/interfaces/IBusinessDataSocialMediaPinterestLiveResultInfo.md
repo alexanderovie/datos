@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
 
-Defined in: main.ts:230278
+Defined in: main.ts:239141
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230278
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:230283
+Defined in: main.ts:239146
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -29,7 +29,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **pins\_count**: `number`
 
-Defined in: main.ts:230287
+Defined in: main.ts:239150
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
@@ -41,6 +41,6 @@ this field shows the number of content saves made from the related page_url usin
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:230280
+Defined in: main.ts:239143
 
 type of element

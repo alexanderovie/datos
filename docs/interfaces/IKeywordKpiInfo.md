@@ -6,7 +6,7 @@
 
 # Interface: IKeywordKpiInfo
 
-Defined in: main.ts:145235
+Defined in: main.ts:154580
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145235
 
 > `optional` **ad\_position**: `string`
 
-Defined in: main.ts:145252
+Defined in: main.ts:154597
 
 represents the position of the relevant ad in SERP
 can take the following values:
@@ -43,7 +43,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 > `optional` **average\_bid**: `number`
 
-Defined in: main.ts:145269
+Defined in: main.ts:154614
 
 average bid of the keyword
 
@@ -53,7 +53,7 @@ average bid of the keyword
 
 > `optional` **average\_cpc**: `number`
 
-Defined in: main.ts:145261
+Defined in: main.ts:154606
 
 average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks
@@ -64,7 +64,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 > `optional` **clicks**: `number`
 
-Defined in: main.ts:145255
+Defined in: main.ts:154600
 
 ad clicks
 the number of clicks that the keyword and match type generated during the last month
@@ -75,7 +75,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 > `optional` **ctr**: `number`
 
-Defined in: main.ts:145264
+Defined in: main.ts:154609
 
 click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100
@@ -86,7 +86,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 > `optional` **impressions**: `number`
 
-Defined in: main.ts:145258
+Defined in: main.ts:154603
 
 ad impressions
 the number of impressions that the keyword and match type generated during the last month
@@ -97,7 +97,7 @@ the number of impressions that the keyword and match type generated during the l
 
 > `optional` **total\_cost**: `number`
 
-Defined in: main.ts:145267
+Defined in: main.ts:154612
 
 total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month

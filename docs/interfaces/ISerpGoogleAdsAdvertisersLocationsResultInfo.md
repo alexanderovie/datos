@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsAdvertisersLocationsResultInfo
 
-Defined in: main.ts:60258
+Defined in: main.ts:62661
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60258
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:60273
+Defined in: main.ts:62676
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:60260
+Defined in: main.ts:62663
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:60271
+Defined in: main.ts:62674
 
 the code of the superordinate location
 example:
@@ -55,7 +55,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:60262
+Defined in: main.ts:62665
 
 full name of the location
 
@@ -65,6 +65,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:60275
+Defined in: main.ts:62678
 
 location type

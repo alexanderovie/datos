@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaPinterestLiveRequestInfo
 
-Defined in: main.ts:230206
+Defined in: main.ts:239069
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230206
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230219
+Defined in: main.ts:239082
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:230213
+Defined in: main.ts:239076
 
 target URLs
 required field

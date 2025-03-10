@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsCountryResultInfo
 
-Defined in: main.ts:74842
+Defined in: main.ts:77245
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:74842
 
 > **new SerpYahooLocationsCountryResultInfo**(`data`?): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
-Defined in: main.ts:74863
+Defined in: main.ts:77266
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:74863
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:74857
+Defined in: main.ts:77260
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:74844
+Defined in: main.ts:77247
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:74855
+Defined in: main.ts:77258
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:74846
+Defined in: main.ts:77249
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:74859
+Defined in: main.ts:77262
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74872
+Defined in: main.ts:77275
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:74872
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74893
+Defined in: main.ts:77296
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:74893
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
-Defined in: main.ts:74886
+Defined in: main.ts:77289
 
 #### Parameters
 

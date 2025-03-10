@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:202852
+Defined in: main.ts:211699
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:202852
 
 > **new AppDataGoogleAppInfoTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppInfoTaskGetAdvancedResultInfo`](AppDataGoogleAppInfoTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:202878
+Defined in: main.ts:211725
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202878
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:202854
+Defined in: main.ts:211701
 
 application id received in a POST request
 
@@ -54,7 +54,7 @@ application id received in a POST request
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:202863
+Defined in: main.ts:211710
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:202868
+Defined in: main.ts:211715
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:202874
+Defined in: main.ts:211721
 
 found app info
 
@@ -100,7 +100,7 @@ found app info
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:202872
+Defined in: main.ts:211719
 
 the number of items in the results array
 
@@ -114,7 +114,7 @@ the number of items in the results array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202860
+Defined in: main.ts:211707
 
 language code in a POST array
 
@@ -128,7 +128,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202858
+Defined in: main.ts:211705
 
 location code in a POST array
 
@@ -142,7 +142,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202856
+Defined in: main.ts:211703
 
 search engine domain in a POST array
 
@@ -156,7 +156,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:202870
+Defined in: main.ts:211717
 
 the total number of results
 
@@ -170,7 +170,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202887
+Defined in: main.ts:211734
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:202887
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202916
+Defined in: main.ts:211763
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:202916
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskGetAdvancedResultInfo`](AppDataGoogleAppInfoTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:202909
+Defined in: main.ts:211756
 
 #### Parameters
 

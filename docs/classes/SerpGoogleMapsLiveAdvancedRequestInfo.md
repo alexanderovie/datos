@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
-Defined in: main.ts:42305
+Defined in: main.ts:44690
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:42305
 
 > **new SerpGoogleMapsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:42421
+Defined in: main.ts:44806
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42421
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:42389
+Defined in: main.ts:44774
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:42366
+Defined in: main.ts:44751
 
 device type
 optional field
@@ -79,7 +79,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42321
+Defined in: main.ts:44706
 
 keyword
 required field
@@ -101,7 +101,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42360
+Defined in: main.ts:44745
 
 search engine language code
 required field if you don’t specify language_name
@@ -120,7 +120,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:42353
+Defined in: main.ts:44738
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42335
+Defined in: main.ts:44720
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:42346
+Defined in: main.ts:44731
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -181,7 +181,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:42328
+Defined in: main.ts:44713
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -200,7 +200,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:42396
+Defined in: main.ts:44781
 
 page crawl limit
 optional field
@@ -219,7 +219,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:42373
+Defined in: main.ts:44758
 
 device operating system
 optional field
@@ -238,7 +238,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42380
+Defined in: main.ts:44765
 
 search engine domain
 optional field
@@ -257,7 +257,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:42411
+Defined in: main.ts:44796
 
 search places mode
 optional field
@@ -277,7 +277,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:42403
+Defined in: main.ts:44788
 
 search this area
 optional field
@@ -296,7 +296,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:42417
+Defined in: main.ts:44802
 
 user-defined task identifier
 optional field
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:42311
+Defined in: main.ts:44696
 
 direct URL of the search query
 optional field
@@ -332,7 +332,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42430
+Defined in: main.ts:44815
 
 #### Parameters
 
@@ -350,7 +350,7 @@ Defined in: main.ts:42430
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42461
+Defined in: main.ts:44846
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: main.ts:42461
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:42454
+Defined in: main.ts:44839
 
 #### Parameters
 

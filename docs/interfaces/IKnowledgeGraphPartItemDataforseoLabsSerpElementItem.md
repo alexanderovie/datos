@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107784
+Defined in: main.ts:117089
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107784
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107790
+Defined in: main.ts:117095
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:107794
+Defined in: main.ts:117099
 
 link of the element
 
@@ -44,7 +44,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -60,7 +60,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -75,7 +75,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:107792
+Defined in: main.ts:117097
 
 description content
 
@@ -100,7 +100,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107786
+Defined in: main.ts:117091
 
 title of the element
 
@@ -110,7 +110,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

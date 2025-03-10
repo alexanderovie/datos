@@ -6,7 +6,7 @@
 
 # Interface: IKeywordDataInfo
 
-Defined in: main.ts:93433
+Defined in: main.ts:102644
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:93433
 
 > `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](../classes/AvgBacklinksInfo.md)
 
-Defined in: main.ts:93464
+Defined in: main.ts:102675
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword
@@ -29,7 +29,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 > `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
 
-Defined in: main.ts:93450
+Defined in: main.ts:102661
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -40,7 +40,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 > `optional` **impressions\_info**: [`ImpressionsInfo`](../classes/ImpressionsInfo.md)
 
-Defined in: main.ts:93458
+Defined in: main.ts:102669
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -54,7 +54,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93437
+Defined in: main.ts:102648
 
 returned keyword idea
 
@@ -64,7 +64,7 @@ returned keyword idea
 
 > `optional` **keyword\_info**: [`KeywordInfo`](../classes/KeywordInfo.md)
 
-Defined in: main.ts:93443
+Defined in: main.ts:102654
 
 keyword data for the returned keyword idea
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword idea
 
 > `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](../classes/KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:93445
+Defined in: main.ts:102656
 
 contains keyword search volume normalized with Bing search volume
 
@@ -84,7 +84,7 @@ contains keyword search volume normalized with Bing search volume
 
 > `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](../classes/KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:93447
+Defined in: main.ts:102658
 
 contains keyword search volume normalized with clickstream data
 
@@ -94,7 +94,7 @@ contains keyword search volume normalized with clickstream data
 
 > `optional` **keyword\_properties**: [`KeywordProperties`](../classes/KeywordProperties.md)
 
-Defined in: main.ts:93452
+Defined in: main.ts:102663
 
 additional information about the keyword
 
@@ -104,7 +104,7 @@ additional information about the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93441
+Defined in: main.ts:102652
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93439
+Defined in: main.ts:102650
 
 location code in a POST array
 
@@ -124,7 +124,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93435
+Defined in: main.ts:102646
 
 search engine type
 
@@ -134,7 +134,7 @@ search engine type
 
 > `optional` **search\_intent\_info**: [`SearchIntentInfo`](../classes/SearchIntentInfo.md)
 
-Defined in: main.ts:93467
+Defined in: main.ts:102678
 
 search intent info for the returned keyword
 learn about search intent in this help center article
@@ -145,7 +145,7 @@ learn about search intent in this help center article
 
 > `optional` **serp\_info**: [`SerpInfo`](../classes/SerpInfo.md)
 
-Defined in: main.ts:93461
+Defined in: main.ts:102672
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
-Defined in: main.ts:109723
+Defined in: main.ts:119068
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:109723
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:109731
+Defined in: main.ts:119076
 
 ranking data relevant to the specified domain
 
@@ -32,7 +32,7 @@ ranking data relevant to the specified domain
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:109729
+Defined in: main.ts:119074
 
 month for which the data is provided
 
@@ -42,7 +42,7 @@ month for which the data is provided
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:109725
+Defined in: main.ts:119070
 
 search engine type
 
@@ -52,6 +52,6 @@ search engine type
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:109727
+Defined in: main.ts:119072
 
 year for which the data is provided

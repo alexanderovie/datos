@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsGraphElementItem
 
-Defined in: main.ts:136106
+Defined in: main.ts:145451
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136106
 
 > **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
-Defined in: main.ts:136114
+Defined in: main.ts:145459
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:136114
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22797
+Defined in: main.ts:23602
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22797
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:136110
+Defined in: main.ts:145455
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:136108
+Defined in: main.ts:145453
 
 DataForSEO Trends data for the specified parameters
 
@@ -88,7 +88,7 @@ DataForSEO Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22795
+Defined in: main.ts:23600
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -107,7 +107,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22792
+Defined in: main.ts:23597
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22789
+Defined in: main.ts:23594
 
 type of element
 
@@ -144,7 +144,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136119
+Defined in: main.ts:145464
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:136119
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136146
+Defined in: main.ts:145491
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:136146
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
-Defined in: main.ts:136139
+Defined in: main.ts:145484
 
 #### Parameters
 

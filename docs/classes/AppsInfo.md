@@ -6,7 +6,7 @@
 
 # Class: AppsInfo
 
-Defined in: main.ts:202502
+Defined in: main.ts:211349
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:202502
 
 > **new AppsInfo**(`data`?): [`AppsInfo`](AppsInfo.md)
 
-Defined in: main.ts:202512
+Defined in: main.ts:211359
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202512
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:202504
+Defined in: main.ts:211351
 
 ID of the app
 
@@ -54,7 +54,7 @@ ID of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:202506
+Defined in: main.ts:211353
 
 title of the app
 
@@ -68,7 +68,7 @@ title of the app
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:202508
+Defined in: main.ts:211355
 
 URL to the app page on Google Play
 
@@ -82,7 +82,7 @@ URL to the app page on Google Play
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202521
+Defined in: main.ts:211368
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:202521
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202540
+Defined in: main.ts:211387
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:202540
 
 > `static` **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
 
-Defined in: main.ts:202533
+Defined in: main.ts:211380
 
 #### Parameters
 

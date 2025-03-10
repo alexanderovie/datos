@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:208960
+Defined in: main.ts:217807
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:208960
 
 > **new AppDataAppleAppReviewsTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:208996
+Defined in: main.ts:217843
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208996
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:208962
+Defined in: main.ts:217809
 
 application id received in a POST array
 
@@ -54,7 +54,7 @@ application id received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:208973
+Defined in: main.ts:217820
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:208978
+Defined in: main.ts:217825
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:208992
+Defined in: main.ts:217839
 
 found reviews
 
@@ -100,7 +100,7 @@ found reviews
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:208990
+Defined in: main.ts:217837
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208970
+Defined in: main.ts:217817
 
 language code in a POST array
 
@@ -129,7 +129,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208968
+Defined in: main.ts:217815
 
 location code in a POST array
 
@@ -143,7 +143,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:208984
+Defined in: main.ts:217831
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -158,7 +158,7 @@ rating of the application for which the reviews are collected
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:208987
+Defined in: main.ts:217834
 
 the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews
@@ -173,7 +173,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:208966
+Defined in: main.ts:217813
 
 search engine domain in a POST array
 
@@ -187,7 +187,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:208981
+Defined in: main.ts:217828
 
 title of the app
 title of the application for which the reviews are collected
@@ -202,7 +202,7 @@ title of the application for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:208964
+Defined in: main.ts:217811
 
 type of element
 
@@ -216,7 +216,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209005
+Defined in: main.ts:217852
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:209005
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209037
+Defined in: main.ts:217884
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:209037
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:209030
+Defined in: main.ts:217877
 
 #### Parameters
 

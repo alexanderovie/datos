@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringNetworksLiveItem
 
-Defined in: main.ts:156730
+Defined in: main.ts:166075
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:156730
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:156741
+Defined in: main.ts:166086
 
 indicates the number of backlinks pointing to the target
 
@@ -28,7 +28,7 @@ indicates the number of backlinks pointing to the target
 
 > `optional` **broken\_backlinks**: `number`
 
-Defined in: main.ts:156755
+Defined in: main.ts:166100
 
 number of broken backlinks
 number of broken backlinks pointing to the domain
@@ -39,7 +39,7 @@ number of broken backlinks pointing to the domain
 
 > `optional` **broken\_pages**: `number`
 
-Defined in: main.ts:156758
+Defined in: main.ts:166103
 
 number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to
@@ -50,7 +50,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:156746
+Defined in: main.ts:166091
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,7 +63,7 @@ example:
 
 > `optional` **lost\_date**: `string`
 
-Defined in: main.ts:156752
+Defined in: main.ts:166097
 
 date and time when the last backlink from this domain was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -77,7 +77,7 @@ example:
 
 > `optional` **network\_address**: `string`
 
-Defined in: main.ts:156734
+Defined in: main.ts:166079
 
 address of the referring subnetwork or IP
 
@@ -87,7 +87,7 @@ address of the referring subnetwork or IP
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:156739
+Defined in: main.ts:166084
 
 network rank
 rank volume that a referring network passes to the target
@@ -100,7 +100,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:156761
+Defined in: main.ts:166106
 
 indicates the number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
@@ -111,7 +111,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:156763
+Defined in: main.ts:166108
 
 number of domains pointing at least one nofollow link to the target
 
@@ -121,7 +121,7 @@ number of domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:156770
+Defined in: main.ts:166115
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -132,7 +132,7 @@ number of IP addresses pointing to this page
 
 > `optional` **referring\_links\_attributes**: `object`
 
-Defined in: main.ts:156787
+Defined in: main.ts:166132
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
@@ -147,7 +147,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 > `optional` **referring\_links\_countries**: `object`
 
-Defined in: main.ts:156799
+Defined in: main.ts:166144
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
@@ -162,7 +162,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
-Defined in: main.ts:156790
+Defined in: main.ts:166135
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
@@ -177,7 +177,7 @@ indicates referring platform types and and link count per each platform
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
-Defined in: main.ts:156796
+Defined in: main.ts:166141
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and the link count per each semantic location
@@ -195,7 +195,7 @@ article, section, summary
 
 > `optional` **referring\_links\_tld**: `object`
 
-Defined in: main.ts:156779
+Defined in: main.ts:166124
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
@@ -210,7 +210,7 @@ contains top level domains and referring link count per each
 
 > `optional` **referring\_links\_types**: `object`
 
-Defined in: main.ts:156784
+Defined in: main.ts:166129
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -227,7 +227,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:156765
+Defined in: main.ts:166110
 
 indicates the number of referring main domains
 
@@ -237,7 +237,7 @@ indicates the number of referring main domains
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:156767
+Defined in: main.ts:166112
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -247,7 +247,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:156774
+Defined in: main.ts:166119
 
 indicates the number of pages pointing to the target specified
 
@@ -257,7 +257,7 @@ indicates the number of pages pointing to the target specified
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:156776
+Defined in: main.ts:166121
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -267,7 +267,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:156772
+Defined in: main.ts:166117
 
 number of referring subnetworks
 
@@ -277,6 +277,6 @@ number of referring subnetworks
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:156732
+Defined in: main.ts:166077
 
 type of element

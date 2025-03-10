@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
-Defined in: main.ts:210742
+Defined in: main.ts:219589
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:210742
 
 > **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-Defined in: main.ts:210750
+Defined in: main.ts:219597
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210750
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:210746
+Defined in: main.ts:219593
 
 number of businesses in the category
 
@@ -54,7 +54,7 @@ number of businesses in the category
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:210744
+Defined in: main.ts:219591
 
 full name of the category
 
@@ -68,7 +68,7 @@ full name of the category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210759
+Defined in: main.ts:219606
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:210759
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210777
+Defined in: main.ts:219624
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:210777
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-Defined in: main.ts:210770
+Defined in: main.ts:219617
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: CarouselElement
 
-Defined in: main.ts:32999
+Defined in: main.ts:34792
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32999
 
 > **new CarouselElement**(`data`?): [`CarouselElement`](CarouselElement.md)
 
-Defined in: main.ts:33012
+Defined in: main.ts:34805
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33012
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:33008
+Defined in: main.ts:34801
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:33005
+Defined in: main.ts:34798
 
 subtitle of the element
 
@@ -69,7 +69,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33003
+Defined in: main.ts:34796
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33001
+Defined in: main.ts:34794
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33021
+Defined in: main.ts:34814
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:33021
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33041
+Defined in: main.ts:34834
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:33041
 
 > `static` **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
 
-Defined in: main.ts:33034
+Defined in: main.ts:34827
 
 #### Parameters
 

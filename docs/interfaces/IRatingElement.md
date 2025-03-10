@@ -6,7 +6,7 @@
 
 # Interface: IRatingElement
 
-Defined in: main.ts:21962
+Defined in: main.ts:22767
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:21962
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21977
+Defined in: main.ts:22782
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -30,7 +30,7 @@ left, right
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:21971
+Defined in: main.ts:22776
 
 the maximum value for a rating_type
 
@@ -40,7 +40,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:21965
+Defined in: main.ts:22770
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -51,7 +51,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21973
+Defined in: main.ts:22778
 
 type of element
 
@@ -61,7 +61,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:21967
+Defined in: main.ts:22772
 
 the value of the rating
 
@@ -71,6 +71,6 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:21969
+Defined in: main.ts:22774
 
 the amount of feedbac

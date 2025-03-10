@@ -6,7 +6,7 @@
 
 # Class: MathSolverSerpElementItem
 
-Defined in: main.ts:36325
+Defined in: main.ts:38470
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36325
 
 > **new MathSolverSerpElementItem**(`data`?): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
-Defined in: main.ts:36342
+Defined in: main.ts:38493
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36342
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-Defined in: main.ts:36332
+Defined in: main.ts:38483
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:36334
+Defined in: main.ts:38485
 
 link of the element
 
@@ -88,7 +88,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:38474
 
 the alignment of the element in SERP
 can take the following values:
@@ -98,17 +98,13 @@ left, right
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`position`](../interfaces/IMathSolverSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -127,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -147,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36338
+Defined in: main.ts:38489
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -163,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:36330
+Defined in: main.ts:38481
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -178,7 +174,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36327
+Defined in: main.ts:38478
 
 title of the row
 
@@ -192,7 +188,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -210,7 +206,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:38476
 
 the XPath of the element
 
@@ -218,17 +214,13 @@ the XPath of the element
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`xpath`](../interfaces/IMathSolverSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36347
+Defined in: main.ts:38498
 
 #### Parameters
 
@@ -250,7 +242,7 @@ Defined in: main.ts:36347
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36377
+Defined in: main.ts:38530
 
 #### Parameters
 
@@ -272,7 +264,7 @@ Defined in: main.ts:36377
 
 > `static` **fromJS**(`data`): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
-Defined in: main.ts:36370
+Defined in: main.ts:38523
 
 #### Parameters
 

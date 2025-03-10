@@ -6,7 +6,7 @@
 
 # Interface: IBaseAppDataSerpElementItem
 
-Defined in: main.ts:22959
+Defined in: main.ts:23764
 
 ## Extended by
 
@@ -23,7 +23,7 @@ Defined in: main.ts:22959
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22971
+Defined in: main.ts:23776
 
 the alignment of the element in SERP
 can take the following values:
@@ -35,7 +35,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22967
+Defined in: main.ts:23772
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -46,7 +46,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22964
+Defined in: main.ts:23769
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -57,7 +57,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:22975
+Defined in: main.ts:23780
 
 average rating of the app
 
@@ -67,7 +67,7 @@ average rating of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22973
+Defined in: main.ts:23778
 
 title of the app
 
@@ -77,6 +77,6 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22961
+Defined in: main.ts:23766
 
 type of element

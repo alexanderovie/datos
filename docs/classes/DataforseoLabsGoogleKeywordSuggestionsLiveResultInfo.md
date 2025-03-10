@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
-Defined in: main.ts:94680
+Defined in: main.ts:103977
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:94680
 
 > **new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
-Defined in: main.ts:94709
+Defined in: main.ts:104006
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94709
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:94705
+Defined in: main.ts:104002
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:94697
+Defined in: main.ts:103994
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:94693
+Defined in: main.ts:103990
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:94690
+Defined in: main.ts:103987
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:94699
+Defined in: main.ts:103996
 
 current offset value
 
@@ -112,7 +112,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:94703
+Defined in: main.ts:104000
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -128,7 +128,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:94682
+Defined in: main.ts:103979
 
 search engine type
 
@@ -142,7 +142,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:94684
+Defined in: main.ts:103981
 
 keyword in a POST array
 
@@ -156,7 +156,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:94687
+Defined in: main.ts:103984
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
@@ -171,7 +171,7 @@ fields in this object are identical to those of the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:94695
+Defined in: main.ts:103992
 
 total amount of results in our database relevant to your request
 
@@ -185,7 +185,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94718
+Defined in: main.ts:104015
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:94718
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94748
+Defined in: main.ts:104045
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:94748
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
 
-Defined in: main.ts:94741
+Defined in: main.ts:104038
 
 #### Parameters
 

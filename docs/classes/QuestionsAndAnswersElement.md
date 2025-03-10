@@ -6,7 +6,7 @@
 
 # Class: QuestionsAndAnswersElement
 
-Defined in: main.ts:35355
+Defined in: main.ts:37404
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35355
 
 > **new QuestionsAndAnswersElement**(`data`?): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-Defined in: main.ts:35374
+Defined in: main.ts:37423
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35374
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:35363
+Defined in: main.ts:37412
 
 answer included in the item
 
@@ -54,7 +54,7 @@ answer included in the item
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35368
+Defined in: main.ts:37417
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:35361
+Defined in: main.ts:37410
 
 question included in the item
 
@@ -82,7 +82,7 @@ question included in the item
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35366
+Defined in: main.ts:37415
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -97,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35357
+Defined in: main.ts:37406
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35359
+Defined in: main.ts:37408
 
 URL
 
@@ -125,7 +125,7 @@ URL
 
 > `optional` **votes**: `number`
 
-Defined in: main.ts:35370
+Defined in: main.ts:37419
 
 answer upvotes from the source
 
@@ -139,7 +139,7 @@ answer upvotes from the source
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35383
+Defined in: main.ts:37432
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:35383
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35406
+Defined in: main.ts:37455
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:35406
 
 > `static` **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-Defined in: main.ts:35399
+Defined in: main.ts:37448
 
 #### Parameters
 

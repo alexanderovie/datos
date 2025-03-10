@@ -6,7 +6,7 @@
 
 # Class: ImagesElement
 
-Defined in: main.ts:30015
+Defined in: main.ts:31552
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30015
 
 > **new ImagesElement**(`data`?): [`ImagesElement`](ImagesElement.md)
 
-Defined in: main.ts:30028
+Defined in: main.ts:31565
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:30028
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:30019
+Defined in: main.ts:31556
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:30024
+Defined in: main.ts:31561
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30017
+Defined in: main.ts:31554
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30021
+Defined in: main.ts:31558
 
 URL link
 
@@ -97,7 +97,7 @@ URL link
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30037
+Defined in: main.ts:31574
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:30037
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30057
+Defined in: main.ts:31594
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:30057
 
 > `static` **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
 
-Defined in: main.ts:30050
+Defined in: main.ts:31587
 
 #### Parameters
 

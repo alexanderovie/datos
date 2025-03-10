@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
-Defined in: main.ts:114393
+Defined in: main.ts:123738
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:114393
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:114398
+Defined in: main.ts:123743
 
 product ID
 required field
@@ -31,7 +31,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114444
+Defined in: main.ts:123789
 
 array of results filtering parameters
 optional field
@@ -50,7 +50,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114428
+Defined in: main.ts:123773
 
 language code
 required field if don’t specify language_name
@@ -65,7 +65,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114421
+Defined in: main.ts:123766
 
 full name of the language
 required field if don’t specify language_code
@@ -80,7 +80,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114433
+Defined in: main.ts:123778
 
 the maximum number of products in the results array
 optional field
@@ -93,7 +93,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114414
+Defined in: main.ts:123759
 
 location code
 required field if don’t specify location_name
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114406
+Defined in: main.ts:123751
 
 full name of the location
 required field if don’t specify location_code
@@ -125,7 +125,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114465
+Defined in: main.ts:123810
 
 offset in the results array of returned product competitors
 optional field
@@ -138,7 +138,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114460
+Defined in: main.ts:123805
 
 results sorting rules
 optional field
@@ -162,7 +162,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114471
+Defined in: main.ts:123816
 
 user-defined task identifier
 optional field

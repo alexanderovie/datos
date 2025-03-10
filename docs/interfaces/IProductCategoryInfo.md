@@ -6,7 +6,7 @@
 
 # Interface: IProductCategoryInfo
 
-Defined in: main.ts:194632
+Defined in: main.ts:203479
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:194632
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:194634
+Defined in: main.ts:203481
 
 product category name
 
@@ -28,7 +28,7 @@ product category name
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:194637
+Defined in: main.ts:203484
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)

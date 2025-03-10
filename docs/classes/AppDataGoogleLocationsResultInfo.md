@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsResultInfo
 
-Defined in: main.ts:199226
+Defined in: main.ts:208073
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:199226
 
 > **new AppDataGoogleLocationsResultInfo**(`data`?): [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
 
-Defined in: main.ts:199246
+Defined in: main.ts:208093
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199246
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:199240
+Defined in: main.ts:208087
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:199228
+Defined in: main.ts:208075
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:199230
+Defined in: main.ts:208077
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:199238
+Defined in: main.ts:208085
 
 the name of the superordinate location
 example:
@@ -102,7 +102,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:199242
+Defined in: main.ts:208089
 
 location type
 
@@ -116,7 +116,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199255
+Defined in: main.ts:208102
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:199255
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199276
+Defined in: main.ts:208123
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:199276
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
 
-Defined in: main.ts:199269
+Defined in: main.ts:208116
 
 #### Parameters
 

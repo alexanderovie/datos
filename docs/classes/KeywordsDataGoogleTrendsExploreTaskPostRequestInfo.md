@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
-Defined in: main.ts:133442
+Defined in: main.ts:142787
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:133442
 
 > **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
-Defined in: main.ts:133557
+Defined in: main.ts:142902
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133557
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:133490
+Defined in: main.ts:142835
 
 google trends search category
 optional field
@@ -57,7 +57,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:133499
+Defined in: main.ts:142844
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:133506
+Defined in: main.ts:142851
 
 ending date of the time range
 optional field
@@ -97,7 +97,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:133525
+Defined in: main.ts:142870
 
 types of items returned
 optional field
@@ -118,7 +118,7 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:133449
+Defined in: main.ts:142794
 
 keywords
 required field
@@ -137,7 +137,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:133483
+Defined in: main.ts:142828
 
 search engine language code
 optional field
@@ -157,7 +157,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:133475
+Defined in: main.ts:142820
 
 full name of search engine language
 optional field
@@ -177,7 +177,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:133467
+Defined in: main.ts:142812
 
 search engine location code
 optional field
@@ -198,7 +198,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:133458
+Defined in: main.ts:142803
 
 full name of search engine location
 optional field
@@ -219,7 +219,7 @@ United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:133547
+Defined in: main.ts:142892
 
 notification URL of a completed task
 optional field
@@ -242,7 +242,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:133536
+Defined in: main.ts:142881
 
 return URL for sending task results
 optional field
@@ -265,7 +265,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:133553
+Defined in: main.ts:142898
 
 user-defined task identifier
 optional field
@@ -283,7 +283,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:133516
+Defined in: main.ts:142861
 
 preset time ranges
 optional field
@@ -305,7 +305,7 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:133485
+Defined in: main.ts:142830
 
 type of element
 
@@ -319,7 +319,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133566
+Defined in: main.ts:142911
 
 #### Parameters
 
@@ -337,7 +337,7 @@ Defined in: main.ts:133566
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133612
+Defined in: main.ts:142957
 
 #### Parameters
 
@@ -355,7 +355,7 @@ Defined in: main.ts:133612
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
-Defined in: main.ts:133605
+Defined in: main.ts:142950
 
 #### Parameters
 

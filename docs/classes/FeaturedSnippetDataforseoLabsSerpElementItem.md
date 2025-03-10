@@ -6,7 +6,7 @@
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107261
+Defined in: main.ts:116430
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107261
 
 > **new FeaturedSnippetDataforseoLabsSerpElementItem**(`data`?): [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107300
+Defined in: main.ts:116469
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:107300
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:107294
+Defined in: main.ts:116463
 
 backlinks information for the target website
 
@@ -74,7 +74,7 @@ backlinks information for the target website
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:107269
+Defined in: main.ts:116438
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:107263
+Defined in: main.ts:116432
 
 domain where a link points
 
@@ -102,7 +102,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:107289
+Defined in: main.ts:116458
 
 estimated cost of monthly search traffic
 represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:107285
+Defined in: main.ts:116454
 
 estimated traffic volume
 estimated paid monthly traffic to the domain
@@ -135,7 +135,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:107267
+Defined in: main.ts:116436
 
 the title of the featured snippets source page
 
@@ -149,7 +149,7 @@ the title of the featured snippets source page
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:107278
+Defined in: main.ts:116447
 
 primary domain name in SERP
 
@@ -163,7 +163,7 @@ primary domain name in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -183,7 +183,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -202,7 +202,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:107292
+Defined in: main.ts:116461
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
@@ -217,7 +217,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -236,7 +236,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
 
-Defined in: main.ts:107296
+Defined in: main.ts:116465
 
 page and domain rank information
 
@@ -250,7 +250,7 @@ page and domain rank information
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:107280
+Defined in: main.ts:116449
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -264,7 +264,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:107276
+Defined in: main.ts:116445
 
 search engine type
 
@@ -278,7 +278,7 @@ search engine type
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:107274
+Defined in: main.ts:116443
 
 results table
 if there are none, equals null
@@ -293,7 +293,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107265
+Defined in: main.ts:116434
 
 title of the result in SERP
 
@@ -307,7 +307,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -325,9 +325,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107271
+Defined in: main.ts:116440
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 #### Implementation of
 
@@ -339,7 +339,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -357,7 +357,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107305
+Defined in: main.ts:116474
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: main.ts:107305
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107336
+Defined in: main.ts:116505
 
 #### Parameters
 
@@ -401,7 +401,7 @@ Defined in: main.ts:107336
 
 > `static` **fromJS**(`data`): [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107329
+Defined in: main.ts:116498
 
 #### Parameters
 

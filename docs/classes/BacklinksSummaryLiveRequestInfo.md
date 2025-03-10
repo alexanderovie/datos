@@ -6,7 +6,7 @@
 
 # Class: BacklinksSummaryLiveRequestInfo
 
-Defined in: main.ts:150178
+Defined in: main.ts:159523
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:150178
 
 > **new BacklinksSummaryLiveRequestInfo**(`data`?): [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:150238
+Defined in: main.ts:159583
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150238
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:150228
+Defined in: main.ts:159573
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:150220
+Defined in: main.ts:159565
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:150200
+Defined in: main.ts:159545
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -99,7 +99,7 @@ default value: true
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:150194
+Defined in: main.ts:159539
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -117,7 +117,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:150188
+Defined in: main.ts:159533
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -134,7 +134,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:150211
+Defined in: main.ts:159556
 
 maximum number of elements within internal arrays
 optional field
@@ -157,7 +157,7 @@ maximum value: 1000
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:150234
+Defined in: main.ts:159579
 
 user-defined task identifier
 optional field
@@ -175,7 +175,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:150183
+Defined in: main.ts:159528
 
 domain, subdomain or webpage to get data for
 required field
@@ -192,7 +192,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:150247
+Defined in: main.ts:159592
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:150247
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:150275
+Defined in: main.ts:159620
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:150275
 
 > `static` **fromJS**(`data`): [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:150268
+Defined in: main.ts:159613
 
 #### Parameters
 

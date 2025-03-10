@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLiveItem
 
-Defined in: main.ts:101544
+Defined in: main.ts:110833
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:101544
 
 > **new DataforseoLabsLiveItem**(`data`?): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
-Defined in: main.ts:101554
+Defined in: main.ts:110843
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101554
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:101548
+Defined in: main.ts:110837
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
 
-Defined in: main.ts:101550
+Defined in: main.ts:110839
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:101546
+Defined in: main.ts:110835
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101563
+Defined in: main.ts:110852
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:101563
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101582
+Defined in: main.ts:110871
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:101582
 
 > `static` **fromJS**(`data`): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
-Defined in: main.ts:101575
+Defined in: main.ts:110864
 
 #### Parameters
 

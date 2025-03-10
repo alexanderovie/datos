@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:103656
+Defined in: main.ts:112945
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:103656
 
 > **new DataforseoLabsGoogleDomainIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainIntersectionLiveResultInfo`](DataforseoLabsGoogleDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:103676
+Defined in: main.ts:112965
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103676
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:103672
+Defined in: main.ts:112961
 
 contains keywords, relevant SERP elements and related data
 
@@ -54,7 +54,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:103670
+Defined in: main.ts:112959
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:103666
+Defined in: main.ts:112955
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:103664
+Defined in: main.ts:112953
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103658
+Defined in: main.ts:112947
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:103660
+Defined in: main.ts:112949
 
 the first target domain in a POST array
 
@@ -124,7 +124,7 @@ the first target domain in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:103662
+Defined in: main.ts:112951
 
 the second target domain in a POST array
 
@@ -138,7 +138,7 @@ the second target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:103668
+Defined in: main.ts:112957
 
 total amount of results in our database relevant to your request
 
@@ -152,7 +152,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103685
+Defined in: main.ts:112974
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:103685
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103713
+Defined in: main.ts:113002
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:103713
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveResultInfo`](DataforseoLabsGoogleDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:103706
+Defined in: main.ts:112995
 
 #### Parameters
 

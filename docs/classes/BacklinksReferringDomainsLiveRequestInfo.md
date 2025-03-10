@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:155428
+Defined in: main.ts:164773
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:155428
 
 > **new BacklinksReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
-Defined in: main.ts:155528
+Defined in: main.ts:164873
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155528
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:155502
+Defined in: main.ts:164847
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:155463
+Defined in: main.ts:164808
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:155518
+Defined in: main.ts:164863
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:155480
+Defined in: main.ts:164825
 
 array of results filtering parameters
 optional field
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:155513
+Defined in: main.ts:164858
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:155507
+Defined in: main.ts:164852
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:155454
+Defined in: main.ts:164799
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:155438
+Defined in: main.ts:164783
 
 the maximum number of returned domains
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:155443
+Defined in: main.ts:164788
 
 offset in the results array of returned domains
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:155494
+Defined in: main.ts:164839
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:155524
+Defined in: main.ts:164869
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:155433
+Defined in: main.ts:164778
 
 domain, subdomain or webpage to get referring domains for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155537
+Defined in: main.ts:164882
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:155537
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155577
+Defined in: main.ts:164922
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:155577
 
 > `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
-Defined in: main.ts:155570
+Defined in: main.ts:164915
 
 #### Parameters
 

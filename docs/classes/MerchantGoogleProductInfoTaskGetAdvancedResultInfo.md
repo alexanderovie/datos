@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:191156
+Defined in: main.ts:200003
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:191156
 
 > **new MerchantGoogleProductInfoTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleProductInfoTaskGetAdvancedResultInfo`](MerchantGoogleProductInfoTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:191188
+Defined in: main.ts:200035
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191188
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:191170
+Defined in: main.ts:200017
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:191175
+Defined in: main.ts:200022
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:191179
+Defined in: main.ts:200026
 
 types of items found on the product specification page
 possible item types:
@@ -88,7 +88,7 @@ product_info_element
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:191184
+Defined in: main.ts:200031
 
 items on the product page
 contains all product attributes and related data listed on the product page
@@ -103,7 +103,7 @@ contains all product attributes and related data listed on the product page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:191181
+Defined in: main.ts:200028
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:191167
+Defined in: main.ts:200014
 
 language code in a POST array
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:191165
+Defined in: main.ts:200012
 
 location code in a POST array
 
@@ -145,7 +145,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:191159
+Defined in: main.ts:200006
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -160,7 +160,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:191163
+Defined in: main.ts:200010
 
 search engine domain in a POST array
 
@@ -174,7 +174,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:191161
+Defined in: main.ts:200008
 
 type of element
 
@@ -188,7 +188,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191197
+Defined in: main.ts:200044
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:191197
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191231
+Defined in: main.ts:200078
 
 #### Parameters
 
@@ -224,7 +224,7 @@ Defined in: main.ts:191231
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductInfoTaskGetAdvancedResultInfo`](MerchantGoogleProductInfoTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:191224
+Defined in: main.ts:200071
 
 #### Parameters
 

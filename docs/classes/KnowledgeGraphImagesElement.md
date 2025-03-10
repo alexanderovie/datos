@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesElement
 
-Defined in: main.ts:29681
+Defined in: main.ts:31170
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29681
 
 > **new KnowledgeGraphImagesElement**(`data`?): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
-Defined in: main.ts:29698
+Defined in: main.ts:31187
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:29698
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:29689
+Defined in: main.ts:31178
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29687
+Defined in: main.ts:31176
 
 domain in SERP of the ad element
 
@@ -68,7 +68,7 @@ domain in SERP of the ad element
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:29692
+Defined in: main.ts:31181
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:29683
+Defined in: main.ts:31172
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29685
+Defined in: main.ts:31174
 
 relevant URL in SERP
 
@@ -111,7 +111,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29694
+Defined in: main.ts:31183
 
 the XPath of the element
 
@@ -125,7 +125,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29707
+Defined in: main.ts:31196
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:29707
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29729
+Defined in: main.ts:31218
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:29729
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
-Defined in: main.ts:29722
+Defined in: main.ts:31211
 
 #### Parameters
 

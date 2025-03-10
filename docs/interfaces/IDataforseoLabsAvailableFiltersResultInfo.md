@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
 
-Defined in: main.ts:91243
+Defined in: main.ts:100540
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:91243
 
 > `optional` **app\_competitors**: `object`
 
-Defined in: main.ts:91263
+Defined in: main.ts:100560
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:91263
 
 > `optional` **app\_intersection**: `object`
 
-Defined in: main.ts:91262
+Defined in: main.ts:100559
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:91262
 
 > `optional` **categories\_for\_domain**: `object`
 
-Defined in: main.ts:91252
+Defined in: main.ts:100549
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:91252
 
 > `optional` **competitors\_domain**: `object`
 
-Defined in: main.ts:91251
+Defined in: main.ts:100548
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:91251
 
 > `optional` **database\_rows\_count**: `object`
 
-Defined in: main.ts:91265
+Defined in: main.ts:100562
 
 #### Index Signature
 
@@ -78,7 +78,7 @@ Defined in: main.ts:91265
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:91254
+Defined in: main.ts:100551
 
 #### Index Signature
 
@@ -90,7 +90,7 @@ Defined in: main.ts:91254
 
 > `optional` **domain\_metrics\_by\_categories**: `object`
 
-Defined in: main.ts:91258
+Defined in: main.ts:100555
 
 #### Index Signature
 
@@ -102,7 +102,7 @@ Defined in: main.ts:91258
 
 > `optional` **domain\_whois\_overview**: `object`
 
-Defined in: main.ts:91256
+Defined in: main.ts:100553
 
 #### Index Signature
 
@@ -114,7 +114,7 @@ Defined in: main.ts:91256
 
 > `optional` **keyword\_ideas**: `object`
 
-Defined in: main.ts:91247
+Defined in: main.ts:100544
 
 #### Index Signature
 
@@ -126,7 +126,7 @@ Defined in: main.ts:91247
 
 > `optional` **keyword\_suggestions**: `object`
 
-Defined in: main.ts:91245
+Defined in: main.ts:100542
 
 #### Index Signature
 
@@ -138,7 +138,7 @@ Defined in: main.ts:91245
 
 > `optional` **keywords\_for\_app**: `object`
 
-Defined in: main.ts:91264
+Defined in: main.ts:100561
 
 #### Index Signature
 
@@ -150,7 +150,7 @@ Defined in: main.ts:91264
 
 > `optional` **keywords\_for\_categories**: `object`
 
-Defined in: main.ts:91253
+Defined in: main.ts:100550
 
 #### Index Signature
 
@@ -162,7 +162,7 @@ Defined in: main.ts:91253
 
 > `optional` **keywords\_for\_site**: `object`
 
-Defined in: main.ts:91259
+Defined in: main.ts:100556
 
 #### Index Signature
 
@@ -174,7 +174,7 @@ Defined in: main.ts:91259
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:91255
+Defined in: main.ts:100552
 
 #### Index Signature
 
@@ -186,7 +186,7 @@ Defined in: main.ts:91255
 
 > `optional` **product\_competitors**: `object`
 
-Defined in: main.ts:91260
+Defined in: main.ts:100557
 
 #### Index Signature
 
@@ -198,7 +198,7 @@ Defined in: main.ts:91260
 
 > `optional` **product\_keyword\_intersections**: `object`
 
-Defined in: main.ts:91261
+Defined in: main.ts:100558
 
 #### Index Signature
 
@@ -210,7 +210,7 @@ Defined in: main.ts:91261
 
 > `optional` **ranked\_keywords**: `object`
 
-Defined in: main.ts:91246
+Defined in: main.ts:100543
 
 #### Index Signature
 
@@ -222,7 +222,7 @@ Defined in: main.ts:91246
 
 > `optional` **related\_keywords**: `object`
 
-Defined in: main.ts:91244
+Defined in: main.ts:100541
 
 #### Index Signature
 
@@ -234,7 +234,7 @@ Defined in: main.ts:91244
 
 > `optional` **relevant\_pages**: `object`
 
-Defined in: main.ts:91249
+Defined in: main.ts:100546
 
 #### Index Signature
 
@@ -246,7 +246,7 @@ Defined in: main.ts:91249
 
 > `optional` **serp\_competitors**: `object`
 
-Defined in: main.ts:91248
+Defined in: main.ts:100545
 
 #### Index Signature
 
@@ -258,7 +258,7 @@ Defined in: main.ts:91248
 
 > `optional` **subdomains**: `object`
 
-Defined in: main.ts:91250
+Defined in: main.ts:100547
 
 #### Index Signature
 
@@ -270,7 +270,7 @@ Defined in: main.ts:91250
 
 > `optional` **top\_searches**: `object`
 
-Defined in: main.ts:91257
+Defined in: main.ts:100554
 
 #### Index Signature
 

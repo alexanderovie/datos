@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
-Defined in: main.ts:86532
+Defined in: main.ts:95829
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:86532
 
 > **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:86609
+Defined in: main.ts:95906
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:86609
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:86555
+Defined in: main.ts:95852
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:86591
+Defined in: main.ts:95888
 
 array of results filtering parameters
 optional field
@@ -85,7 +85,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:86548
+Defined in: main.ts:95845
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -104,7 +104,7 @@ example:
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:86599
+Defined in: main.ts:95896
 
 maximum number of elements within internal arrays
 optional field
@@ -124,7 +124,7 @@ maximum value: 10000
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:86570
+Defined in: main.ts:95867
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -144,7 +144,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:86577
+Defined in: main.ts:95874
 
 search mode
 optional field
@@ -163,7 +163,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:86605
+Defined in: main.ts:95902
 
 user-defined task identifier
 optional field
@@ -181,7 +181,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:86562
+Defined in: main.ts:95859
 
 target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -200,7 +200,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:86541
+Defined in: main.ts:95838
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -221,7 +221,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86618
+Defined in: main.ts:95915
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:86618
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86667
+Defined in: main.ts:95964
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:86667
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:86660
+Defined in: main.ts:95957
 
 #### Parameters
 

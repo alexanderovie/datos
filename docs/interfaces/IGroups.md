@@ -6,7 +6,7 @@
 
 # Interface: IGroups
 
-Defined in: main.ts:85759
+Defined in: main.ts:95056
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:85759
 
 > `optional` **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
 
-Defined in: main.ts:85767
+Defined in: main.ts:95064
 
 technology categories in this group
 
@@ -28,7 +28,7 @@ technology categories in this group
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:85763
+Defined in: main.ts:95060
 
 id of the technology group
 example:
@@ -40,6 +40,6 @@ marketing, sales
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:85765
+Defined in: main.ts:95062
 
 title of the technology group

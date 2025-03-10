@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLocationsResultInfo
 
-Defined in: main.ts:205406
+Defined in: main.ts:214253
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:205406
 
 > **new AppDataAppleLocationsResultInfo**(`data`?): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-Defined in: main.ts:205427
+Defined in: main.ts:214274
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205427
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:205421
+Defined in: main.ts:214268
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:205408
+Defined in: main.ts:214255
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:205410
+Defined in: main.ts:214257
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `number`
 
-Defined in: main.ts:205419
+Defined in: main.ts:214266
 
 the name of the superordinate location
 example:
@@ -103,7 +103,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:205423
+Defined in: main.ts:214270
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205436
+Defined in: main.ts:214283
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:205436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205457
+Defined in: main.ts:214304
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:205457
 
 > `static` **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-Defined in: main.ts:205450
+Defined in: main.ts:214297
 
 #### Parameters
 

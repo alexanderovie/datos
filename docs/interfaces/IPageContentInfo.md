@@ -6,7 +6,7 @@
 
 # Interface: IPageContentInfo
 
-Defined in: main.ts:174381
+Defined in: main.ts:182815
 
 ## Indexable
 
@@ -14,13 +14,35 @@ Defined in: main.ts:174381
 
 ## Properties
 
+### comments?
+
+> `optional` **comments**: [`ContentCommentInfo`](../classes/ContentCommentInfo.md)[]
+
+Defined in: main.ts:182833
+
+array of comments displayed on the page
+contains objects with information on comments related to displayed products
+
+***
+
+### contacts?
+
+> `optional` **contacts**: [`Contacts`](../classes/Contacts.md)
+
+Defined in: main.ts:182836
+
+contact information
+contains contact information displayed on the page
+
+***
+
 ### footer?
 
 > `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:174385
+Defined in: main.ts:182819
 
-content of the footer of the table
+parsed content of the footer
 
 ***
 
@@ -28,9 +50,9 @@ content of the footer of the table
 
 > `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:174383
+Defined in: main.ts:182817
 
-parsed content of the header
+content of the header of the table
 
 ***
 
@@ -38,10 +60,31 @@ parsed content of the header
 
 > `optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:174388
+Defined in: main.ts:182822
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
+
+***
+
+### offers?
+
+> `optional` **offers**: [`ContentOfferInfo`](../classes/ContentOfferInfo.md)[]
+
+Defined in: main.ts:182830
+
+array of products displayed on the page
+contains objects with information on products displayed on the page
+
+***
+
+### ratings?
+
+> `optional` **ratings**: [`ContentRatingInfo`](../classes/ContentRatingInfo.md)[]
+
+Defined in: main.ts:182827
+
+contains objects with rating information for the products displayed on the page
 
 ***
 
@@ -49,7 +92,7 @@ you can find more information about topic priority calculation in this help cent
 
 > `optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:174391
+Defined in: main.ts:182825
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article

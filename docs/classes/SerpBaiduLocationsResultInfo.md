@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsResultInfo
 
-Defined in: main.ts:78386
+Defined in: main.ts:80789
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:78386
 
 > **new SerpBaiduLocationsResultInfo**(`data`?): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
-Defined in: main.ts:78403
+Defined in: main.ts:80806
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78403
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:78396
+Defined in: main.ts:80799
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:78388
+Defined in: main.ts:80791
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:78394
+Defined in: main.ts:80797
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:78390
+Defined in: main.ts:80793
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:78399
+Defined in: main.ts:80802
 
 location type
 only City is supported for all countries except China (where Country is also supported)
@@ -113,7 +113,7 @@ only City is supported for all countries except China (where Country is also sup
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78412
+Defined in: main.ts:80815
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:78412
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78433
+Defined in: main.ts:80836
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:78433
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
-Defined in: main.ts:78426
+Defined in: main.ts:80829
 
 #### Parameters
 

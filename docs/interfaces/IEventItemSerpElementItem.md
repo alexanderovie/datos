@@ -6,7 +6,7 @@
 
 # Interface: IEventItemSerpElementItem
 
-Defined in: main.ts:49079
+Defined in: main.ts:51476
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:49079
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:49083
+Defined in: main.ts:51486
 
 description of the results element in SERP
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
 
-Defined in: main.ts:49090
+Defined in: main.ts:51493
 
 dates when the event takes place
 if there are none, equals null
@@ -43,7 +43,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:49087
+Defined in: main.ts:51490
 
 URL of the image featured in the element
 
@@ -53,7 +53,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:49094
+Defined in: main.ts:51497
 
 additional information and ticket purchase options
 
@@ -63,7 +63,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
-Defined in: main.ts:49092
+Defined in: main.ts:51495
 
 information about the event’s venue
 
@@ -73,15 +73,11 @@ information about the event’s venue
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:51480
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -89,7 +85,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -104,7 +100,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -120,7 +116,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:49081
+Defined in: main.ts:51484
 
 title of the element
 
@@ -130,7 +126,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -144,7 +140,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49085
+Defined in: main.ts:51488
 
 search URL with refinement parameters
 
@@ -154,10 +150,6 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:51482
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

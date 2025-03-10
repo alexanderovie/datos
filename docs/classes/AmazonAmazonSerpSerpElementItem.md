@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonSerpSerpElementItem
 
-Defined in: main.ts:113104
+Defined in: main.ts:122449
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:113104
 
 > **new AmazonAmazonSerpSerpElementItem**(`data`?): [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
 
-Defined in: main.ts:113161
+Defined in: main.ts:122506
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:113161
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23218
+Defined in: main.ts:24023
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:113119
+Defined in: main.ts:122464
 
 ASIN of the product
 learn more about ASIN in this help center guide
@@ -75,7 +75,7 @@ learn more about ASIN in this help center guide
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:113150
+Defined in: main.ts:122495
 
 number of product purchases in the past month
 
@@ -89,7 +89,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:113133
+Defined in: main.ts:122478
 
 currency in the ISO format
 example:
@@ -105,7 +105,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:113157
+Defined in: main.ts:122502
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -122,7 +122,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:113148
+Defined in: main.ts:122493
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -137,7 +137,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:113152
+Defined in: main.ts:122497
 
 description of the product
 
@@ -151,7 +151,7 @@ description of the product
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:113112
+Defined in: main.ts:122457
 
 Amazon domain
 
@@ -165,7 +165,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:113121
+Defined in: main.ts:122466
 
 URL of the product image featured in the results
 
@@ -179,7 +179,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:113142
+Defined in: main.ts:122487
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -194,7 +194,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:113139
+Defined in: main.ts:122484
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -209,7 +209,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:113110
+Defined in: main.ts:122455
 
 the alignment of the element in Amazon SERP
 can take the following values:
@@ -225,7 +225,7 @@ left, right
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:113125
+Defined in: main.ts:122470
 
 the regular price of a product
 example:
@@ -241,7 +241,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:113129
+Defined in: main.ts:122474
 
 the upper limit of the product price range
 example:
@@ -257,7 +257,7 @@ example:
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23214
+Defined in: main.ts:24019
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -276,7 +276,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23211
+Defined in: main.ts:24016
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -295,7 +295,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:113145
+Defined in: main.ts:122490
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -310,7 +310,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113106
+Defined in: main.ts:122451
 
 search engine type
 
@@ -324,7 +324,7 @@ search engine type
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:113136
+Defined in: main.ts:122481
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -339,7 +339,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:113114
+Defined in: main.ts:122459
 
 product title
 
@@ -353,7 +353,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23208
+Defined in: main.ts:24013
 
 type of element
 
@@ -371,7 +371,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:113116
+Defined in: main.ts:122461
 
 URL of the product page
 
@@ -385,7 +385,7 @@ URL of the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23216
+Defined in: main.ts:24021
 
 the XPath of the element
 
@@ -403,7 +403,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113166
+Defined in: main.ts:122511
 
 #### Parameters
 
@@ -425,7 +425,7 @@ Defined in: main.ts:113166
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113205
+Defined in: main.ts:122550
 
 #### Parameters
 
@@ -447,7 +447,7 @@ Defined in: main.ts:113205
 
 > `static` **fromJS**(`data`): [`AmazonAmazonSerpSerpElementItem`](AmazonAmazonSerpSerpElementItem.md)
 
-Defined in: main.ts:113198
+Defined in: main.ts:122543
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordInfo
 
-Defined in: main.ts:92474
+Defined in: main.ts:101771
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:92474
 
 > **new KeywordInfo**(`data`?): [`KeywordInfo`](KeywordInfo.md)
 
-Defined in: main.ts:92517
+Defined in: main.ts:101814
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92517
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:92507
+Defined in: main.ts:101804
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:92484
+Defined in: main.ts:101781
 
 competition
 represents the relative amount of competition associated with the given keyword. This value is based on Google Ads data and can be between 0 and 1 (inclusive)
@@ -70,7 +70,7 @@ represents the relative amount of competition associated with the given keyword.
 
 > `optional` **competition\_level**: `string`
 
-Defined in: main.ts:92490
+Defined in: main.ts:101787
 
 competition level
 represents the relative level of competition associated with the given keyword in paid SERP only;
@@ -88,7 +88,7 @@ learn more about the metric in this help center article
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:92493
+Defined in: main.ts:101790
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword
@@ -103,7 +103,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:92504
+Defined in: main.ts:101801
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -119,7 +119,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:92481
+Defined in: main.ts:101778
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -136,7 +136,7 @@ example:
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:92500
+Defined in: main.ts:101797
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -152,7 +152,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:92510
+Defined in: main.ts:101807
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -167,7 +167,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:92476
+Defined in: main.ts:101773
 
 search engine type
 
@@ -181,7 +181,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:92496
+Defined in: main.ts:101793
 
 average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea on google.com
@@ -196,7 +196,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 > `optional` **search\_volume\_trend**: [`SearchVolumeTrend`](SearchVolumeTrend.md)
 
-Defined in: main.ts:92513
+Defined in: main.ts:101810
 
 search volume trend changes
 represents search volume change in percent compared to the previous period
@@ -211,7 +211,7 @@ represents search volume change in percent compared to the previous period
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92526
+Defined in: main.ts:101823
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:92526
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92561
+Defined in: main.ts:101858
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:92561
 
 > `static` **fromJS**(`data`): [`KeywordInfo`](KeywordInfo.md)
 
-Defined in: main.ts:92554
+Defined in: main.ts:101851
 
 #### Parameters
 

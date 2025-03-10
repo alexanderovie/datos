@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
 
-Defined in: main.ts:201540
+Defined in: main.ts:210387
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:201540
 
 > **new AppDataGoogleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:201567
+Defined in: main.ts:210414
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:201567
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:201551
+Defined in: main.ts:210398
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:201556
+Defined in: main.ts:210403
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:201563
+Defined in: main.ts:210410
 
 found apps
 
@@ -86,7 +86,7 @@ found apps
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:201561
+Defined in: main.ts:210408
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:201542
+Defined in: main.ts:210389
 
 app collection received in a POST array
 
@@ -115,7 +115,7 @@ app collection received in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:201548
+Defined in: main.ts:210395
 
 language code in a POST array
 
@@ -129,7 +129,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:201546
+Defined in: main.ts:210393
 
 location code in a POST array
 
@@ -143,7 +143,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:201544
+Defined in: main.ts:210391
 
 search engine domain in a POST array
 
@@ -157,7 +157,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:201558
+Defined in: main.ts:210405
 
 the total number of results
 
@@ -171,7 +171,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201576
+Defined in: main.ts:210423
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:201576
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201605
+Defined in: main.ts:210452
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:201605
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:201598
+Defined in: main.ts:210445
 
 #### Parameters
 

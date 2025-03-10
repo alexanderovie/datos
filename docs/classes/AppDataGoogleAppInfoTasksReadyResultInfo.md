@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTasksReadyResultInfo
 
-Defined in: main.ts:202302
+Defined in: main.ts:211149
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:202302
 
 > **new AppDataGoogleAppInfoTasksReadyResultInfo**(`data`?): [`AppDataGoogleAppInfoTasksReadyResultInfo`](AppDataGoogleAppInfoTasksReadyResultInfo.md)
 
-Defined in: main.ts:202322
+Defined in: main.ts:211169
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202322
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:202311
+Defined in: main.ts:211158
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:202315
+Defined in: main.ts:211162
 
 URL for collecting the results of the Google App Info task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Google App Info task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:202318
+Defined in: main.ts:211165
 
 URL for collecting the results of the Google App Info HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:202305
+Defined in: main.ts:211152
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:202307
+Defined in: main.ts:211154
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:202309
+Defined in: main.ts:211156
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:202313
+Defined in: main.ts:211160
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202331
+Defined in: main.ts:211178
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:202331
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202354
+Defined in: main.ts:211201
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:202354
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTasksReadyResultInfo`](AppDataGoogleAppInfoTasksReadyResultInfo.md)
 
-Defined in: main.ts:202347
+Defined in: main.ts:211194
 
 #### Parameters
 

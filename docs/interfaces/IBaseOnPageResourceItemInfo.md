@@ -6,7 +6,7 @@
 
 # Interface: IBaseOnPageResourceItemInfo
 
-Defined in: main.ts:22437
+Defined in: main.ts:23242
 
 ## Extended by
 
@@ -22,7 +22,7 @@ Defined in: main.ts:22437
 
 > `optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
-Defined in: main.ts:22464
+Defined in: main.ts:23269
 
 instructions for caching
 
@@ -32,7 +32,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:22467
+Defined in: main.ts:23272
 
 website checks
 on-page check-ups related to the page
@@ -47,7 +47,7 @@ on-page check-ups related to the page
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:22469
+Defined in: main.ts:23274
 
 type of encoding
 
@@ -57,7 +57,7 @@ type of encoding
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:22454
+Defined in: main.ts:23259
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -68,7 +68,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:22462
+Defined in: main.ts:23267
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,7 +81,7 @@ example:
 
 > `optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
-Defined in: main.ts:22476
+Defined in: main.ts:23281
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -92,7 +92,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22444
+Defined in: main.ts:23249
 
 location header
 indicates the URL to redirect a page to
@@ -103,7 +103,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:22471
+Defined in: main.ts:23276
 
 types of media used to display a page
 
@@ -113,7 +113,7 @@ types of media used to display a page
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:22448
+Defined in: main.ts:23253
 
 resource errors and warnings
 
@@ -123,7 +123,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:22439
+Defined in: main.ts:23244
 
 type of the returned resource
 
@@ -133,7 +133,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:22473
+Defined in: main.ts:23278
 
 server version
 
@@ -143,7 +143,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:22451
+Defined in: main.ts:23256
 
 resource size
 indicates the size of a given page measured in bytes
@@ -154,7 +154,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:22441
+Defined in: main.ts:23246
 
 status code of the page
 
@@ -164,7 +164,7 @@ status code of the page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:22457
+Defined in: main.ts:23262
 
 compressed page size
 indicates the compressed size of a given page
@@ -175,6 +175,6 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22446
+Defined in: main.ts:23251
 
 page URL

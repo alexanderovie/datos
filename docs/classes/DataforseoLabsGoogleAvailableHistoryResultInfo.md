@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAvailableHistoryResultInfo
 
-Defined in: main.ts:91858
+Defined in: main.ts:101155
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:91858
 
 > **new DataforseoLabsGoogleAvailableHistoryResultInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-Defined in: main.ts:91867
+Defined in: main.ts:101164
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91867
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:91863
+Defined in: main.ts:101160
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
@@ -57,7 +57,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91876
+Defined in: main.ts:101173
 
 #### Parameters
 
@@ -75,7 +75,7 @@ Defined in: main.ts:91876
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91893
+Defined in: main.ts:101190
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: main.ts:91893
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-Defined in: main.ts:91886
+Defined in: main.ts:101183
 
 #### Parameters
 

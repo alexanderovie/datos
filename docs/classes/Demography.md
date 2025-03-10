@@ -6,7 +6,7 @@
 
 # Class: Demography
 
-Defined in: main.ts:137500
+Defined in: main.ts:146845
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:137500
 
 > **new Demography**(`data`?): [`Demography`](Demography.md)
 
-Defined in: main.ts:137508
+Defined in: main.ts:146853
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137508
 
 > `optional` **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:137502
+Defined in: main.ts:146847
 
 distribution of keyword popularity by age
 
@@ -54,7 +54,7 @@ distribution of keyword popularity by age
 
 > `optional` **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:137504
+Defined in: main.ts:146849
 
 distribution of keyword popularity by gender
 
@@ -68,7 +68,7 @@ distribution of keyword popularity by gender
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:137517
+Defined in: main.ts:146862
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:137517
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:137543
+Defined in: main.ts:146888
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:137543
 
 > `static` **fromJS**(`data`): [`Demography`](Demography.md)
 
-Defined in: main.ts:137536
+Defined in: main.ts:146881
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveHtmlRequestInfo
 
-Defined in: main.ts:40011
+Defined in: main.ts:42388
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:40011
 
 > **new SerpGoogleOrganicLiveHtmlRequestInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlRequestInfo`](SerpGoogleOrganicLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:40126
+Defined in: main.ts:42503
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:40126
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:40092
+Defined in: main.ts:42469
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:40069
+Defined in: main.ts:42446
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **expand\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40116
+Defined in: main.ts:42493
 
 expand ai overview
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:40026
+Defined in: main.ts:42403
 
 keyword
 required field
@@ -116,7 +116,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:40064
+Defined in: main.ts:42441
 
 search engine language code
 required field if you don’t specify language_name
@@ -135,7 +135,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:40057
+Defined in: main.ts:42434
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -154,7 +154,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40111
+Defined in: main.ts:42488
 
 load asynchronous ai overview
 optional field
@@ -174,7 +174,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:40040
+Defined in: main.ts:42417
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -193,7 +193,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:40050
+Defined in: main.ts:42427
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -215,7 +215,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:40033
+Defined in: main.ts:42410
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -234,7 +234,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:40099
+Defined in: main.ts:42476
 
 page crawl limit
 optional field
@@ -253,7 +253,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:40076
+Defined in: main.ts:42453
 
 device operating system
 optional field
@@ -272,7 +272,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:40083
+Defined in: main.ts:42460
 
 search engine domain
 optional field
@@ -291,7 +291,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:40103
+Defined in: main.ts:42480
 
 additional parameters of the search query
 optional field
@@ -307,7 +307,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:40122
+Defined in: main.ts:42499
 
 user-defined task identifier
 optional field
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40017
+Defined in: main.ts:42394
 
 direct URL of the search query
 optional field
@@ -343,7 +343,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40135
+Defined in: main.ts:42512
 
 #### Parameters
 
@@ -361,7 +361,7 @@ Defined in: main.ts:40135
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40167
+Defined in: main.ts:42544
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: main.ts:40167
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlRequestInfo`](SerpGoogleOrganicLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:40160
+Defined in: main.ts:42537
 
 #### Parameters
 

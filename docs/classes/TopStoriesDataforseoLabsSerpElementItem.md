@@ -6,7 +6,7 @@
 
 # Class: TopStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106987
+Defined in: main.ts:116152
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106987
 
 > **new TopStoriesDataforseoLabsSerpElementItem**(`data`?): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106993
+Defined in: main.ts:116159
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:106993
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-Defined in: main.ts:106989
+Defined in: main.ts:116155
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -150,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -168,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106998
+Defined in: main.ts:116164
 
 #### Parameters
 
@@ -190,7 +191,7 @@ Defined in: main.ts:106998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107020
+Defined in: main.ts:116186
 
 #### Parameters
 
@@ -212,7 +213,7 @@ Defined in: main.ts:107020
 
 > `static` **fromJS**(`data`): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107013
+Defined in: main.ts:116179
 
 #### Parameters
 

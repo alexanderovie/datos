@@ -6,7 +6,7 @@
 
 # Interface: IOnPageMicrodataResultInfo
 
-Defined in: main.ts:172170
+Defined in: main.ts:181515
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:172170
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:172173
+Defined in: main.ts:181518
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:172175
+Defined in: main.ts:181520
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
 
-Defined in: main.ts:172181
+Defined in: main.ts:181526
 
 items array
 
@@ -49,7 +49,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:172179
+Defined in: main.ts:181524
 
 number of items in the results array
 
@@ -59,6 +59,6 @@ number of items in the results array
 
 > `optional` **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
 
-Defined in: main.ts:172177
+Defined in: main.ts:181522
 
 microdata validation test results

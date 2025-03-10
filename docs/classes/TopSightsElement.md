@@ -6,7 +6,7 @@
 
 # Class: TopSightsElement
 
-Defined in: main.ts:34359
+Defined in: main.ts:36312
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34359
 
 > **new TopSightsElement**(`data`?): [`TopSightsElement`](TopSightsElement.md)
 
-Defined in: main.ts:34374
+Defined in: main.ts:36327
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34374
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34367
+Defined in: main.ts:36320
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:34370
+Defined in: main.ts:36323
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -69,7 +69,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34363
+Defined in: main.ts:36316
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34361
+Defined in: main.ts:36314
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34365
+Defined in: main.ts:36318
 
 URL
 
@@ -111,7 +111,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34383
+Defined in: main.ts:36336
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:34383
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34404
+Defined in: main.ts:36357
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:34404
 
 > `static` **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
 
-Defined in: main.ts:34397
+Defined in: main.ts:36350
 
 #### Parameters
 

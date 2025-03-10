@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsResultInfo
 
-Defined in: main.ts:163620
+Defined in: main.ts:172965
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:163620
 
 > **new OnPageErrorsResultInfo**(`data`?): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
-Defined in: main.ts:163651
+Defined in: main.ts:172996
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163651
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:163627
+Defined in: main.ts:172972
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:163631
+Defined in: main.ts:172976
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:163634
+Defined in: main.ts:172979
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:163629
+Defined in: main.ts:172974
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:163641
+Defined in: main.ts:172986
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:163639
+Defined in: main.ts:172984
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:163647
+Defined in: main.ts:172992
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:163644
+Defined in: main.ts:172989
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:163637
+Defined in: main.ts:172982
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:163622
+Defined in: main.ts:172967
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163660
+Defined in: main.ts:173005
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:163660
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163686
+Defined in: main.ts:173031
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:163686
 
 > `static` **fromJS**(`data`): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
-Defined in: main.ts:163679
+Defined in: main.ts:173024
 
 #### Parameters
 

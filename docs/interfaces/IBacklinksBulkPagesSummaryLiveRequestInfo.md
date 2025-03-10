@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:162641
+Defined in: main.ts:171986
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:162641
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:162653
+Defined in: main.ts:171998
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -31,7 +31,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:162659
+Defined in: main.ts:172004
 
 user-defined task identifier
 optional field
@@ -45,7 +45,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:162648
+Defined in: main.ts:171993
 
 domains, subdomains or webpages to get summary data for
 required field

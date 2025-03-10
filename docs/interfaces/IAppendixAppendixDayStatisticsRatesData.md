@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppendixDayStatisticsRatesData
 
-Defined in: main.ts:234135
+Defined in: main.ts:242998
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:234135
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234137
+Defined in: main.ts:243000
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:234137
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:234139
+Defined in: main.ts:243001
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:234139
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:234136
+Defined in: main.ts:242999
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:234136
 
 > `optional` **webhook\_resend**: `number`
 
-Defined in: main.ts:234138
+Defined in: main.ts:243002

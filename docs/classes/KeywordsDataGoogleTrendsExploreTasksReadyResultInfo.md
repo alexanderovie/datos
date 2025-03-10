@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
-Defined in: main.ts:133872
+Defined in: main.ts:143217
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:133872
 
 > **new KeywordsDataGoogleTrendsExploreTasksReadyResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
-Defined in: main.ts:133889
+Defined in: main.ts:143234
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133889
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:133881
+Defined in: main.ts:143226
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:133885
+Defined in: main.ts:143230
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:133879
+Defined in: main.ts:143224
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:133875
+Defined in: main.ts:143220
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:133877
+Defined in: main.ts:143222
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:133883
+Defined in: main.ts:143228
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133898
+Defined in: main.ts:143243
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:133898
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133920
+Defined in: main.ts:143265
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:133920
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
-Defined in: main.ts:133913
+Defined in: main.ts:143258
 
 #### Parameters
 

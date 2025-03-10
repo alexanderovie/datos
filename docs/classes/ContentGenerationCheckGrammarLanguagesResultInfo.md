@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLanguagesResultInfo
 
-Defined in: main.ts:183510
+Defined in: main.ts:192349
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183510
 
 > **new ContentGenerationCheckGrammarLanguagesResultInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
-Defined in: main.ts:183518
+Defined in: main.ts:192357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183518
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183514
+Defined in: main.ts:192353
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:183512
+Defined in: main.ts:192351
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183527
+Defined in: main.ts:192366
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:183527
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183545
+Defined in: main.ts:192384
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:183545
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
-Defined in: main.ts:183538
+Defined in: main.ts:192377
 
 #### Parameters
 

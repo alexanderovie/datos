@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:205044
+Defined in: main.ts:213891
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:205044
 
 > **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:205059
+Defined in: main.ts:213906
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205059
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:205048
+Defined in: main.ts:213895
 
 the number of items in the results array
 
@@ -54,7 +54,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:205055
+Defined in: main.ts:213902
 
 array of apps and related data
 
@@ -68,7 +68,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:205050
+Defined in: main.ts:213897
 
 offset in the results array of returned apps
 
@@ -82,7 +82,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:205053
+Defined in: main.ts:213900
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -97,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:205046
+Defined in: main.ts:213893
 
 the total number of relevant results in the database
 
@@ -111,7 +111,7 @@ the total number of relevant results in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205068
+Defined in: main.ts:213915
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:205068
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205093
+Defined in: main.ts:213940
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:205093
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-Defined in: main.ts:205086
+Defined in: main.ts:213933
 
 #### Parameters
 

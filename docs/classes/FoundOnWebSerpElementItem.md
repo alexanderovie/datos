@@ -6,7 +6,7 @@
 
 # Class: FoundOnWebSerpElementItem
 
-Defined in: main.ts:36929
+Defined in: main.ts:39138
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36929
 
 > **new FoundOnWebSerpElementItem**(`data`?): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
-Defined in: main.ts:36943
+Defined in: main.ts:39158
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36943
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
 
-Defined in: main.ts:36935
+Defined in: main.ts:39150
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:39142
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`position`](../interfaces/IFoundOnWebSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36939
+Defined in: main.ts:39154
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:36933
+Defined in: main.ts:39148
 
 search queries related to the elment
 
@@ -163,7 +159,7 @@ search queries related to the elment
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36931
+Defined in: main.ts:39146
 
 title of the row
 
@@ -177,7 +173,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -195,7 +191,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:39144
 
 the XPath of the element
 
@@ -203,17 +199,13 @@ the XPath of the element
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`xpath`](../interfaces/IFoundOnWebSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36948
+Defined in: main.ts:39163
 
 #### Parameters
 
@@ -235,7 +227,7 @@ Defined in: main.ts:36948
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36977
+Defined in: main.ts:39194
 
 #### Parameters
 
@@ -257,7 +249,7 @@ Defined in: main.ts:36977
 
 > `static` **fromJS**(`data`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
-Defined in: main.ts:36970
+Defined in: main.ts:39187
 
 #### Parameters
 

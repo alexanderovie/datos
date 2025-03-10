@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
 
-Defined in: main.ts:176180
+Defined in: main.ts:185095
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:176180
 
 > `optional` **endpoint\_json**: `string`
 
-Defined in: main.ts:176187
+Defined in: main.ts:185102
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
@@ -28,7 +28,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:176183
+Defined in: main.ts:185098
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -39,6 +39,6 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:176185
+Defined in: main.ts:185100
 
 user-defined task identifier

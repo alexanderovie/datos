@@ -6,7 +6,7 @@
 
 # Interface: IGoogleReviewsSerpElementItem
 
-Defined in: main.ts:32491
+Defined in: main.ts:34214
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32491
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32502
+Defined in: main.ts:34231
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:32500
+Defined in: main.ts:34229
 
 the additional feature of the review
 
@@ -42,7 +42,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:32498
+Defined in: main.ts:34227
 
 the identifier of a place
 
@@ -52,15 +52,11 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:34218
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -68,7 +64,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -83,7 +79,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -99,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:32496
+Defined in: main.ts:34225
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -110,7 +106,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32506
+Defined in: main.ts:34235
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -122,7 +118,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:32493
+Defined in: main.ts:34222
 
 the number of reviews
 
@@ -132,7 +128,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -146,10 +142,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:34220
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

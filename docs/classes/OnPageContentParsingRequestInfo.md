@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingRequestInfo
 
-Defined in: main.ts:173012
+Defined in: main.ts:182357
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173012
 
 > **new OnPageContentParsingRequestInfo**(`data`?): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-Defined in: main.ts:173029
+Defined in: main.ts:182374
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173029
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:173025
+Defined in: main.ts:182370
 
 ID of the task
 required field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:173018
+Defined in: main.ts:182363
 
 URL of the content to parse
 required field
@@ -77,7 +77,7 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173038
+Defined in: main.ts:182383
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:173038
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173056
+Defined in: main.ts:182401
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:173056
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-Defined in: main.ts:173049
+Defined in: main.ts:182394
 
 #### Parameters
 

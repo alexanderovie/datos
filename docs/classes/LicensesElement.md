@@ -6,7 +6,7 @@
 
 # Class: LicensesElement
 
-Defined in: main.ts:22134
+Defined in: main.ts:22939
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:22134
 
 > **new LicensesElement**(`data`?): [`LicensesElement`](LicensesElement.md)
 
-Defined in: main.ts:22146
+Defined in: main.ts:22951
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22146
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:22142
+Defined in: main.ts:22947
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22138
+Defined in: main.ts:22943
 
 title of the element
 
@@ -68,7 +68,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22136
+Defined in: main.ts:22941
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22140
+Defined in: main.ts:22945
 
 search URL with refinement parameters
 
@@ -96,7 +96,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22155
+Defined in: main.ts:22960
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:22155
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22175
+Defined in: main.ts:22980
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:22175
 
 > `static` **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
 
-Defined in: main.ts:22168
+Defined in: main.ts:22973
 
 #### Parameters
 

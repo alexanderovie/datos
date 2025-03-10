@@ -6,7 +6,7 @@
 
 # Class: LinkElement
 
-Defined in: main.ts:23525
+Defined in: main.ts:24330
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:23525
 
 > **new LinkElement**(`data`?): [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:23543
+Defined in: main.ts:24348
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23543
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:23533
+Defined in: main.ts:24338
 
 description of the results element
 
@@ -54,7 +54,7 @@ description of the results element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:23537
+Defined in: main.ts:24342
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:23531
+Defined in: main.ts:24336
 
 text alongside the link title
 
@@ -82,7 +82,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23529
+Defined in: main.ts:24334
 
 title of a given link element
 
@@ -96,7 +96,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23527
+Defined in: main.ts:24332
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23535
+Defined in: main.ts:24340
 
 URL
 
@@ -124,7 +124,7 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23539
+Defined in: main.ts:24344
 
 the XPath of the element
 
@@ -138,7 +138,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23552
+Defined in: main.ts:24357
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:23552
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23575
+Defined in: main.ts:24380
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:23575
 
 > `static` **fromJS**(`data`): [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:23568
+Defined in: main.ts:24373
 
 #### Parameters
 

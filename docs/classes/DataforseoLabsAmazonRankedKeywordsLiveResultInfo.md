@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:113474
+Defined in: main.ts:122819
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113474
 
 > **new DataforseoLabsAmazonRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:113494
+Defined in: main.ts:122839
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113494
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:113478
+Defined in: main.ts:122823
 
 ASIN in a POST array
 
@@ -54,7 +54,7 @@ ASIN in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:113490
+Defined in: main.ts:122835
 
 contains detected Amazon product competitors and related data
 
@@ -68,7 +68,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:113488
+Defined in: main.ts:122833
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113484
+Defined in: main.ts:122829
 
 language code in a POST array
 if there is no data, then the value is null
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113481
+Defined in: main.ts:122826
 
 location code in a POST array
 if there is no data, then the value is null
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113476
+Defined in: main.ts:122821
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:113486
+Defined in: main.ts:122831
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113503
+Defined in: main.ts:122848
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:113503
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113530
+Defined in: main.ts:122875
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:113530
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:113523
+Defined in: main.ts:122868
 
 #### Parameters
 

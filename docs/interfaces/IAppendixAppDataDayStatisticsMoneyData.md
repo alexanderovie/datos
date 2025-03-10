@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppDataDayStatisticsMoneyData
 
-Defined in: main.ts:236204
+Defined in: main.ts:245067
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:236204
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236205
+Defined in: main.ts:245068
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:236205
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236206
+Defined in: main.ts:245069
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:236206
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236213
+Defined in: main.ts:245076
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:236213
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236207
+Defined in: main.ts:245070
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:236207
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236208
+Defined in: main.ts:245071
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:236208
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:236212
+Defined in: main.ts:245075
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:236212
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:236209
+Defined in: main.ts:245072
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:236209
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:236210
+Defined in: main.ts:245073
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:236210
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:236211
+Defined in: main.ts:245074
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:236211
 
 > `optional` **refund\_money**: `number`
 
-Defined in: main.ts:236215
+Defined in: main.ts:245078
 
 ***
 
@@ -98,4 +98,4 @@ Defined in: main.ts:236215
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:236214
+Defined in: main.ts:245077

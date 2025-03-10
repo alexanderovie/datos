@@ -6,7 +6,7 @@
 
 # Class: ReviewMentionInfo
 
-Defined in: main.ts:219988
+Defined in: main.ts:228851
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:219988
 
 > **new ReviewMentionInfo**(`data`?): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
-Defined in: main.ts:220005
+Defined in: main.ts:228868
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:220005
 
 > `optional` **negative\_count**: `number`
 
-Defined in: main.ts:219996
+Defined in: main.ts:228859
 
 count of negative reviews by criterion
 
@@ -54,7 +54,7 @@ count of negative reviews by criterion
 
 > `optional` **positive\_count**: `number`
 
-Defined in: main.ts:219994
+Defined in: main.ts:228857
 
 count of positive reviews by criterion
 
@@ -68,7 +68,7 @@ count of positive reviews by criterion
 
 > `optional` **positive\_score**: `number`
 
-Defined in: main.ts:219992
+Defined in: main.ts:228855
 
 positive score by criterion
 
@@ -82,7 +82,7 @@ positive score by criterion
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:219990
+Defined in: main.ts:228853
 
 title of the evaluated criterion
 
@@ -96,7 +96,7 @@ title of the evaluated criterion
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:219998
+Defined in: main.ts:228861
 
 count of all reviews by criterion
 
@@ -110,7 +110,7 @@ count of all reviews by criterion
 
 > `optional` **visible\_by\_default**: `boolean`
 
-Defined in: main.ts:220001
+Defined in: main.ts:228864
 
 element is visible by default
 indicates whether the review element is visible by default
@@ -125,7 +125,7 @@ indicates whether the review element is visible by default
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:220014
+Defined in: main.ts:228877
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:220014
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:220036
+Defined in: main.ts:228899
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:220036
 
 > `static` **fromJS**(`data`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
-Defined in: main.ts:220029
+Defined in: main.ts:228892
 
 #### Parameters
 

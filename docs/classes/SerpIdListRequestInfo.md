@@ -6,7 +6,7 @@
 
 # Class: SerpIdListRequestInfo
 
-Defined in: main.ts:25415
+Defined in: main.ts:26800
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:25415
 
 > **new SerpIdListRequestInfo**(`data`?): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
-Defined in: main.ts:25453
+Defined in: main.ts:26838
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25453
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:25423
+Defined in: main.ts:26808
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:25430
+Defined in: main.ts:26815
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:25449
+Defined in: main.ts:26834
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:25435
+Defined in: main.ts:26820
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:25440
+Defined in: main.ts:26825
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:25445
+Defined in: main.ts:26830
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25462
+Defined in: main.ts:26847
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:25462
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25484
+Defined in: main.ts:26869
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:25484
 
 > `static` **fromJS**(`data`): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
-Defined in: main.ts:25477
+Defined in: main.ts:26862
 
 #### Parameters
 

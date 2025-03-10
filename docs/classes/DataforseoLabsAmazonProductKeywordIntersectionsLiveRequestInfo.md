@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
-Defined in: main.ts:114788
+Defined in: main.ts:124133
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:114788
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
-Defined in: main.ts:114882
+Defined in: main.ts:124227
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114882
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:114799
+Defined in: main.ts:124144
 
 asins of target products
 required field
@@ -67,7 +67,7 @@ learn more about the parameter on this help center page
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114851
+Defined in: main.ts:124196
 
 array of results filtering parameters
 optional field
@@ -90,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:114840
+Defined in: main.ts:124185
 
 mode for finding asin intersections
 optional field
@@ -108,7 +108,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114829
+Defined in: main.ts:124174
 
 language code
 required field if don’t specify language_name
@@ -127,7 +127,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114822
+Defined in: main.ts:124167
 
 full name of the language
 required field if don’t specify language_code
@@ -146,7 +146,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114834
+Defined in: main.ts:124179
 
 the maximum number of products in the results array
 optional field
@@ -163,7 +163,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114815
+Defined in: main.ts:124160
 
 location code
 required field if don’t specify location_name
@@ -183,7 +183,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114807
+Defined in: main.ts:124152
 
 full name of the location
 required field if don’t specify location_code
@@ -203,7 +203,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114872
+Defined in: main.ts:124217
 
 offset in the results array of returned keywords
 optional field
@@ -220,7 +220,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114867
+Defined in: main.ts:124212
 
 results sorting rules
 optional field
@@ -248,7 +248,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114878
+Defined in: main.ts:124223
 
 user-defined task identifier
 optional field
@@ -266,7 +266,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114891
+Defined in: main.ts:124236
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:114891
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114932
+Defined in: main.ts:124277
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: main.ts:114932
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
-Defined in: main.ts:114925
+Defined in: main.ts:124270
 
 #### Parameters
 

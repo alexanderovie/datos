@@ -6,7 +6,7 @@
 
 # Class: FaqBox
 
-Defined in: main.ts:31301
+Defined in: main.ts:32934
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31301
 
 > **new FaqBox**(`data`?): [`FaqBox`](FaqBox.md)
 
-Defined in: main.ts:31310
+Defined in: main.ts:32943
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31310
 
 > `optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
-Defined in: main.ts:31306
+Defined in: main.ts:32939
 
 additional items present in the element
 if there are none, equals null
@@ -55,7 +55,7 @@ if there are none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31303
+Defined in: main.ts:32936
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31319
+Defined in: main.ts:32952
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:31319
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31341
+Defined in: main.ts:32974
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:31341
 
 > `static` **fromJS**(`data`): [`FaqBox`](FaqBox.md)
 
-Defined in: main.ts:31334
+Defined in: main.ts:32967
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicLiveHtmlResultInfo
 
-Defined in: main.ts:66447
+Defined in: main.ts:68850
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:66447
 
 > **new SerpBingOrganicLiveHtmlResultInfo**(`data`?): [`SerpBingOrganicLiveHtmlResultInfo`](SerpBingOrganicLiveHtmlResultInfo.md)
 
-Defined in: main.ts:66471
+Defined in: main.ts:68874
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:66471
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:66463
+Defined in: main.ts:68866
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:66467
+Defined in: main.ts:68870
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:66465
+Defined in: main.ts:68868
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:66450
+Defined in: main.ts:68853
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:66458
+Defined in: main.ts:68861
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:66456
+Defined in: main.ts:68859
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:66454
+Defined in: main.ts:68857
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:66452
+Defined in: main.ts:68855
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:66480
+Defined in: main.ts:68883
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:66480
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:66508
+Defined in: main.ts:68911
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:66508
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicLiveHtmlResultInfo`](SerpBingOrganicLiveHtmlResultInfo.md)
 
-Defined in: main.ts:66501
+Defined in: main.ts:68904
 
 #### Parameters
 

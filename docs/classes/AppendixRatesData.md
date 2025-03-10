@@ -6,7 +6,7 @@
 
 # Class: AppendixRatesData
 
-Defined in: main.ts:235592
+Defined in: main.ts:244455
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:235592
 
 > **new AppendixRatesData**(`data`?): [`AppendixRatesData`](AppendixRatesData.md)
 
-Defined in: main.ts:235600
+Defined in: main.ts:244463
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235600
 
 > `optional` **limits**: [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
-Defined in: main.ts:235594
+Defined in: main.ts:244457
 
 rate limits for API calls per a certain period of time
 
@@ -54,7 +54,7 @@ rate limits for API calls per a certain period of time
 
 > `optional` **statistics**: [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
-Defined in: main.ts:235596
+Defined in: main.ts:244459
 
 statisctics for API calls
 
@@ -68,7 +68,7 @@ statisctics for API calls
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235609
+Defined in: main.ts:244472
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:235609
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235627
+Defined in: main.ts:244490
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:235627
 
 > `static` **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
 
-Defined in: main.ts:235620
+Defined in: main.ts:244483
 
 #### Parameters
 

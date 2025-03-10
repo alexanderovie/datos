@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResultInfo
 
-Defined in: main.ts:99890
+Defined in: main.ts:109187
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:99890
 
 > **new DataforseoLabsGoogleTopSearchesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
 
-Defined in: main.ts:99912
+Defined in: main.ts:109209
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99912
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:99908
+Defined in: main.ts:109205
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:99900
+Defined in: main.ts:109197
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:99896
+Defined in: main.ts:109193
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:99894
+Defined in: main.ts:109191
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:99902
+Defined in: main.ts:109199
 
 current offset value
 
@@ -110,7 +110,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:99906
+Defined in: main.ts:109203
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,7 +126,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:99892
+Defined in: main.ts:109189
 
 search engine type
 
@@ -140,7 +140,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:99898
+Defined in: main.ts:109195
 
 total amount of results in our database relevant to your request
 
@@ -154,7 +154,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99921
+Defined in: main.ts:109218
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:99921
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99949
+Defined in: main.ts:109246
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:99949
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
 
-Defined in: main.ts:99942
+Defined in: main.ts:109239
 
 #### Parameters
 

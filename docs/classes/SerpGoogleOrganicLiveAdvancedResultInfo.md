@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveAdvancedResultInfo
 
-Defined in: main.ts:39743
+Defined in: main.ts:42120
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:39743
 
 > **new SerpGoogleOrganicLiveAdvancedResultInfo**(`data`?): [`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:39783
+Defined in: main.ts:42160
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39783
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:39757
+Defined in: main.ts:42134
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:39762
+Defined in: main.ts:42139
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,12 +72,12 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:39772
+Defined in: main.ts:42149
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview
+answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, third_party_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview
 
 #### Implementation of
 
@@ -89,7 +89,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:39779
+Defined in: main.ts:42156
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:39776
+Defined in: main.ts:42153
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:39746
+Defined in: main.ts:42123
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:39754
+Defined in: main.ts:42131
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:39752
+Defined in: main.ts:42129
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:39767
+Defined in: main.ts:42144
 
 search refinement chips
 
@@ -175,7 +175,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:39750
+Defined in: main.ts:42127
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:39774
+Defined in: main.ts:42151
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:39765
+Defined in: main.ts:42142
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39748
+Defined in: main.ts:42125
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39792
+Defined in: main.ts:42169
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:39792
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39829
+Defined in: main.ts:42206
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:39829
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:39822
+Defined in: main.ts:42199
 
 #### Parameters
 

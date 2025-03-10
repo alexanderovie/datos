@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
-Defined in: main.ts:183676
+Defined in: main.ts:192515
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183676
 
 > **new ContentGenerationGrammarRulesResultInfo**(`data`?): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-Defined in: main.ts:183682
+Defined in: main.ts:192521
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183682
 
 > `optional` **rules**: `string`[]
 
-Defined in: main.ts:183678
+Defined in: main.ts:192517
 
 array of rules
 
@@ -54,7 +54,7 @@ array of rules
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183691
+Defined in: main.ts:192530
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:183691
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183712
+Defined in: main.ts:192551
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:183712
 
 > `static` **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-Defined in: main.ts:183705
+Defined in: main.ts:192544
 
 #### Parameters
 

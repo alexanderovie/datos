@@ -6,7 +6,7 @@
 
 # Class: AmazonRankedSerpElement
 
-Defined in: main.ts:113296
+Defined in: main.ts:122641
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113296
 
 > **new AmazonRankedSerpElement**(`data`?): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-Defined in: main.ts:113325
+Defined in: main.ts:122670
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113325
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:113304
+Defined in: main.ts:122649
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:113316
+Defined in: main.ts:122661
 
 date and time when SERP data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:113321
+Defined in: main.ts:122666
 
 previous to the most recent update of SERP data
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -89,7 +89,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:113311
+Defined in: main.ts:122656
 
 total number of results in Amazon SERP
 
@@ -103,7 +103,7 @@ total number of results in Amazon SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113298
+Defined in: main.ts:122643
 
 search engine type
 
@@ -117,7 +117,7 @@ search engine type
 
 > `optional` **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-Defined in: main.ts:113301
+Defined in: main.ts:122646
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -132,7 +132,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:113309
+Defined in: main.ts:122654
 
 direct URL to Amazon results
 contains types of all search results (items) found in the returned SERP;
@@ -149,7 +149,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113334
+Defined in: main.ts:122679
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:113334
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113361
+Defined in: main.ts:122706
 
 #### Parameters
 
@@ -185,7 +185,7 @@ Defined in: main.ts:113361
 
 > `static` **fromJS**(`data`): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-Defined in: main.ts:113354
+Defined in: main.ts:122699
 
 #### Parameters
 

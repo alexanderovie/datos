@@ -6,7 +6,7 @@
 
 # Interface: ILocalPackSerpElementItem
 
-Defined in: main.ts:32973
+Defined in: main.ts:34760
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32973
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32990
+Defined in: main.ts:34783
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32977
+Defined in: main.ts:34770
 
 description of the results element in SERP
 
@@ -42,7 +42,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32979
+Defined in: main.ts:34772
 
 source domain
 
@@ -52,7 +52,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:32985
+Defined in: main.ts:34778
 
 indicates whether the element is an ad
 
@@ -62,7 +62,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:32981
+Defined in: main.ts:34774
 
 phone number
 
@@ -72,15 +72,11 @@ phone number
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:34764
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -88,7 +84,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -103,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -119,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:32988
+Defined in: main.ts:34781
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -130,7 +126,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32994
+Defined in: main.ts:34787
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -142,7 +138,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32975
+Defined in: main.ts:34768
 
 title of the row
 
@@ -152,7 +148,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -166,7 +162,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32983
+Defined in: main.ts:34776
 
 source URL
 
@@ -176,10 +172,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:34766
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:117081
+Defined in: main.ts:126426
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:117081
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:117099
+Defined in: main.ts:126444
 
 contains keywords, relevant SERP elements and related data
 
@@ -28,7 +28,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:117097
+Defined in: main.ts:126442
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:117093
+Defined in: main.ts:126438
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:117091
+Defined in: main.ts:126436
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:117085
+Defined in: main.ts:126430
 
 search engine type
 search engine type specified in a POST request;
@@ -70,7 +70,7 @@ for this endpoint, the field equals bing
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:117087
+Defined in: main.ts:126432
 
 target specified in a POST array
 
@@ -80,7 +80,7 @@ target specified in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:117089
+Defined in: main.ts:126434
 
 target specified in a POST array
 
@@ -90,6 +90,6 @@ target specified in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:117095
+Defined in: main.ts:126440
 
 total amount of results in our database relevant to your request

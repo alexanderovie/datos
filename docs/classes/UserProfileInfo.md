@@ -6,7 +6,7 @@
 
 # Class: UserProfileInfo
 
-Defined in: main.ts:194978
+Defined in: main.ts:203825
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194978
 
 > **new UserProfileInfo**(`data`?): [`UserProfileInfo`](UserProfileInfo.md)
 
-Defined in: main.ts:194992
+Defined in: main.ts:203839
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194992
 
 > `optional` **avatar**: `string`
 
-Defined in: main.ts:194982
+Defined in: main.ts:203829
 
 URL to the profile picture of the reviewer
 
@@ -54,7 +54,7 @@ URL to the profile picture of the reviewer
 
 > `optional` **locations**: `string`
 
-Defined in: main.ts:194988
+Defined in: main.ts:203835
 
 country of the reviewer
 
@@ -68,7 +68,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:194980
+Defined in: main.ts:203827
 
 the name of the reviewer
 
@@ -82,7 +82,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:194986
+Defined in: main.ts:203833
 
 total number of reviews submitted by the reviewer
 
@@ -96,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:194984
+Defined in: main.ts:203831
 
 relevant url
 
@@ -110,7 +110,7 @@ relevant url
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195001
+Defined in: main.ts:203848
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:195001
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195022
+Defined in: main.ts:203869
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:195022
 
 > `static` **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
 
-Defined in: main.ts:195015
+Defined in: main.ts:203862
 
 #### Parameters
 

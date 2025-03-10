@@ -6,7 +6,7 @@
 
 # Class: TestSummary
 
-Defined in: main.ts:171802
+Defined in: main.ts:181147
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171802
 
 > **new TestSummary**(`data`?): [`TestSummary`](TestSummary.md)
 
-Defined in: main.ts:171814
+Defined in: main.ts:181159
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171814
 
 > `optional` **error**: `number`
 
-Defined in: main.ts:171806
+Defined in: main.ts:181151
 
 number of serious microdata errors
 
@@ -54,7 +54,7 @@ number of serious microdata errors
 
 > `optional` **fatal**: `number`
 
-Defined in: main.ts:171804
+Defined in: main.ts:181149
 
 number of fatal microdata errors
 
@@ -68,7 +68,7 @@ number of fatal microdata errors
 
 > `optional` **info**: `number`
 
-Defined in: main.ts:171810
+Defined in: main.ts:181155
 
 number of microdata information flags
 
@@ -82,7 +82,7 @@ number of microdata information flags
 
 > `optional` **warning**: `number`
 
-Defined in: main.ts:171808
+Defined in: main.ts:181153
 
 number of microdata warnings
 
@@ -96,7 +96,7 @@ number of microdata warnings
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171823
+Defined in: main.ts:181168
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:171823
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171843
+Defined in: main.ts:181188
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:171843
 
 > `static` **fromJS**(`data`): [`TestSummary`](TestSummary.md)
 
-Defined in: main.ts:171836
+Defined in: main.ts:181181
 
 #### Parameters
 

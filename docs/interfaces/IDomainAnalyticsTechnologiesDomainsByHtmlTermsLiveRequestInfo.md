@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
-Defined in: main.ts:88316
+Defined in: main.ts:97613
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88316
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:88356
+Defined in: main.ts:97653
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:88332
+Defined in: main.ts:97629
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:88378
+Defined in: main.ts:97675
 
 the maximum number of returned domains
 optional field
@@ -72,7 +72,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:88339
+Defined in: main.ts:97636
 
 search mode
 optional field
@@ -87,7 +87,7 @@ default value: entry
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:88385
+Defined in: main.ts:97682
 
 offset in the results array of returned domains
 optional field
@@ -102,7 +102,7 @@ use the offset_token if you would like to offset more results
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:88393
+Defined in: main.ts:97690
 
 token for subsequent requests
 optional field
@@ -118,7 +118,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:88373
+Defined in: main.ts:97670
 
 results sorting rules
 optional field
@@ -143,7 +143,7 @@ example:
 
 > `optional` **search\_terms**: `string`[]
 
-Defined in: main.ts:88324
+Defined in: main.ts:97621
 
 target search terms
 required field

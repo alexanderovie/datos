@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
-Defined in: main.ts:147277
+Defined in: main.ts:156622
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147277
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:147344
+Defined in: main.ts:156689
 
 starting date of the time range
 optional field
@@ -39,7 +39,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:147357
+Defined in: main.ts:156702
 
 ending date of the time range
 optional field
@@ -60,7 +60,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:147322
+Defined in: main.ts:156667
 
 device type
 optional field
@@ -74,7 +74,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147284
+Defined in: main.ts:156629
 
 keywords
 required field
@@ -89,7 +89,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:147316
+Defined in: main.ts:156661
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:147311
+Defined in: main.ts:156656
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -115,7 +115,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147298
+Defined in: main.ts:156643
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -130,7 +130,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:147306
+Defined in: main.ts:156651
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -146,7 +146,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147291
+Defined in: main.ts:156636
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -161,7 +161,7 @@ London,England,United Kingdom
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:147331
+Defined in: main.ts:156676
 
 aggregates the returned data to a certain time period
 optional field
@@ -178,7 +178,7 @@ default value:  monthly
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147363
+Defined in: main.ts:156708
 
 user-defined task identifier
 optional field

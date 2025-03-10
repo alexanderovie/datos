@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:30653
+Defined in: main.ts:32238
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:30653
 
 > **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data`?): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
-Defined in: main.ts:30680
+Defined in: main.ts:32271
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30680
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30669
+Defined in: main.ts:32260
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:30660
+Defined in: main.ts:32251
 
 starting date of stay
 in the format “year-month-date”
@@ -93,7 +93,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:30665
+Defined in: main.ts:32256
 
 ending date of stay
 in the format “year-month-date”
@@ -110,7 +110,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:30672
+Defined in: main.ts:32263
 
 additional items present in the element
 if there are none, equals null
@@ -125,7 +125,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:32242
 
 the alignment of the element in SERP
 can take the following values:
@@ -135,17 +135,13 @@ left, right
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -164,7 +160,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -184,7 +180,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30676
+Defined in: main.ts:32267
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -200,7 +196,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30655
+Defined in: main.ts:32246
 
 title of a given link element
 
@@ -214,7 +210,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -232,7 +228,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:32244
 
 the XPath of the element
 
@@ -240,17 +236,13 @@ the XPath of the element
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30685
+Defined in: main.ts:32276
 
 #### Parameters
 
@@ -272,7 +264,7 @@ Defined in: main.ts:30685
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30712
+Defined in: main.ts:32305
 
 #### Parameters
 
@@ -294,7 +286,7 @@ Defined in: main.ts:30712
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
-Defined in: main.ts:30705
+Defined in: main.ts:32298
 
 #### Parameters
 

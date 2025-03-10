@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
-Defined in: main.ts:114580
+Defined in: main.ts:123925
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:114580
 
 > **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:114600
+Defined in: main.ts:123945
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114600
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:114584
+Defined in: main.ts:123929
 
 ASIN in a POST array
 
@@ -54,7 +54,7 @@ ASIN in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:114596
+Defined in: main.ts:123941
 
 contains detected Amazon product competitors and related data
 
@@ -68,7 +68,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:114594
+Defined in: main.ts:123939
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114590
+Defined in: main.ts:123935
 
 language code in a POST array
 if there is no data, then the value is null
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114587
+Defined in: main.ts:123932
 
 location code in a POST array
 if there is no data, then the value is null
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:114582
+Defined in: main.ts:123927
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:114592
+Defined in: main.ts:123937
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114609
+Defined in: main.ts:123954
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:114609
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114636
+Defined in: main.ts:123981
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:114636
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
-Defined in: main.ts:114629
+Defined in: main.ts:123974
 
 #### Parameters
 

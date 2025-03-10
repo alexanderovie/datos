@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
-Defined in: main.ts:142204
+Defined in: main.ts:151549
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:142204
 
 > **new KeywordsDataBingKeywordsForSiteTaskGetResultInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
-Defined in: main.ts:142245
+Defined in: main.ts:151590
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:142245
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:142236
+Defined in: main.ts:151581
 
 product and service categories
 legacy field, the value will always be null
@@ -55,7 +55,7 @@ legacy field, the value will always be null
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:142225
+Defined in: main.ts:151570
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -75,7 +75,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:142229
+Defined in: main.ts:151574
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -91,7 +91,7 @@ if there is no data the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:142217
+Defined in: main.ts:151562
 
 device type in a POST array
 if there is no data, then the value is null
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:142206
+Defined in: main.ts:151551
 
 keyword in a POST array
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:142212
+Defined in: main.ts:151557
 
 language code in a POST array
 if there is no data the value is null
@@ -135,7 +135,7 @@ if there is no data the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:142209
+Defined in: main.ts:151554
 
 location code in a POST array
 if there is no data the value is null
@@ -150,7 +150,7 @@ if there is no data the value is null
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:142241
+Defined in: main.ts:151586
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -167,7 +167,7 @@ if there is no data the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:142214
+Defined in: main.ts:151559
 
 indicates whether data from partner networks included in the response
 
@@ -181,7 +181,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:142233
+Defined in: main.ts:151578
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea on Bing search engine depending on the user’s targeting
@@ -197,7 +197,7 @@ if there is no data then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142254
+Defined in: main.ts:151599
 
 #### Parameters
 
@@ -215,7 +215,7 @@ Defined in: main.ts:142254
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142288
+Defined in: main.ts:151633
 
 #### Parameters
 
@@ -233,7 +233,7 @@ Defined in: main.ts:142288
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
 
-Defined in: main.ts:142281
+Defined in: main.ts:151626
 
 #### Parameters
 

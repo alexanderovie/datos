@@ -6,7 +6,7 @@
 
 # Interface: IWorkDayInfo
 
-Defined in: main.ts:23025
+Defined in: main.ts:23830
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23025
 
 > `optional` **close**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
-Defined in: main.ts:23029
+Defined in: main.ts:23834
 
 closing time
 
@@ -28,6 +28,6 @@ closing time
 
 > `optional` **open**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
-Defined in: main.ts:23027
+Defined in: main.ts:23832
 
 opening time

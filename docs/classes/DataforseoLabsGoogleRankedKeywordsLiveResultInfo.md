@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:101606
+Defined in: main.ts:110895
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:101606
 
 > **new DataforseoLabsGoogleRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:101632
+Defined in: main.ts:110921
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101632
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:101628
+Defined in: main.ts:110917
 
 contains ranked keywords and related data
 
@@ -54,7 +54,7 @@ contains ranked keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:101620
+Defined in: main.ts:110909
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:101616
+Defined in: main.ts:110905
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:101613
+Defined in: main.ts:110902
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:101623
+Defined in: main.ts:110912
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 > `optional` **metrics\_absolute**: `object`
 
-Defined in: main.ts:101626
+Defined in: main.ts:110915
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
@@ -136,7 +136,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:101608
+Defined in: main.ts:110897
 
 search engine type
 
@@ -150,7 +150,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:101610
+Defined in: main.ts:110899
 
 target domain in a POST array
 
@@ -164,7 +164,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:101618
+Defined in: main.ts:110907
 
 total number of results in our database relevant to your request
 
@@ -178,7 +178,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101641
+Defined in: main.ts:110930
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:101641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101682
+Defined in: main.ts:110971
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: main.ts:101682
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:101675
+Defined in: main.ts:110964
 
 #### Parameters
 

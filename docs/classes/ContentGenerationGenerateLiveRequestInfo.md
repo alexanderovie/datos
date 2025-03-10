@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
-Defined in: main.ts:181462
+Defined in: main.ts:190301
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:181462
 
 > **new ContentGenerationGenerateLiveRequestInfo**(`data`?): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
-Defined in: main.ts:181555
+Defined in: main.ts:190394
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181555
 
 > `optional` **avoid\_starting\_words**: `string`[]
 
-Defined in: main.ts:181533
+Defined in: main.ts:190372
 
 words or phrases to avoid in the beginning of the generated text
 optional field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **avoid\_words**: `string`[]
 
-Defined in: main.ts:181527
+Defined in: main.ts:190366
 
 words or phrases to avoid when generating a text
 optional field
@@ -76,7 +76,7 @@ example:
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:181490
+Defined in: main.ts:190329
 
 creativity of content generation
 optional field
@@ -96,7 +96,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_new\_tokens**: `number`
 
-Defined in: main.ts:181475
+Defined in: main.ts:190314
 
 generation limit for new tokens
 required field if max_tokens is not specified
@@ -115,7 +115,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_tokens**: `number`
 
-Defined in: main.ts:181482
+Defined in: main.ts:190321
 
 generation limit for all tokens
 required field if max_new_tokens is not specified
@@ -134,7 +134,7 @@ learn more about this parameter on our help center
 
 > `optional` **stop\_words**: `string`[]
 
-Defined in: main.ts:181539
+Defined in: main.ts:190378
 
 words or phrases to end the text
 optional field
@@ -152,7 +152,7 @@ example:
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:181545
+Defined in: main.ts:190384
 
 token for generating subsequent results
 optional field
@@ -170,7 +170,7 @@ supplement_token values are unique for each subsequent task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181551
+Defined in: main.ts:190390
 
 user-defined task identifier
 optional field
@@ -188,7 +188,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **temperature**: `number`
 
-Defined in: main.ts:181521
+Defined in: main.ts:190360
 
 controls the randomness in the output
 optional field
@@ -208,7 +208,7 @@ learn more about this parameter on our help center
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:181468
+Defined in: main.ts:190307
 
 initial target text
 required field
@@ -226,7 +226,7 @@ learn more about tokens on our help center
 
 > `optional` **token\_repetition\_penalty**: `number`
 
-Defined in: main.ts:181496
+Defined in: main.ts:190335
 
 token repetition
 optional field
@@ -244,7 +244,7 @@ default value: 1
 
 > `optional` **top\_k**: `number`
 
-Defined in: main.ts:181504
+Defined in: main.ts:190343
 
 the number of initial tokens in each iteration for choosing a subsequent word
 optional field
@@ -264,7 +264,7 @@ learn more about this parameter on our help center
 
 > `optional` **top\_p**: `number`
 
-Defined in: main.ts:181513
+Defined in: main.ts:190352
 
 excludes initial tokens with probability lower than one
 optional field
@@ -285,7 +285,7 @@ learn more about this parameter on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181564
+Defined in: main.ts:190403
 
 #### Parameters
 
@@ -303,7 +303,7 @@ Defined in: main.ts:181564
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181605
+Defined in: main.ts:190444
 
 #### Parameters
 
@@ -321,7 +321,7 @@ Defined in: main.ts:181605
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
 
-Defined in: main.ts:181598
+Defined in: main.ts:190437
 
 #### Parameters
 

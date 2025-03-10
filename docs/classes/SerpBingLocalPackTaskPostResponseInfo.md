@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTaskPostResponseInfo
 
-Defined in: main.ts:67028
+Defined in: main.ts:69431
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:67028
 
 > **new SerpBingLocalPackTaskPostResponseInfo**(`data`?): [`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)
 
-Defined in: main.ts:67034
+Defined in: main.ts:69437
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:67034
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:25217
+Defined in: main.ts:26022
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:25210
+Defined in: main.ts:26015
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:25213
+Defined in: main.ts:26018
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocalPackTaskPostTaskInfo`](SerpBingLocalPackTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:67030
+Defined in: main.ts:69433
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:25219
+Defined in: main.ts:26024
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:25221
+Defined in: main.ts:26026
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:25215
+Defined in: main.ts:26020
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:25207
+Defined in: main.ts:26012
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:67038
+Defined in: main.ts:69441
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:67038
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:67060
+Defined in: main.ts:69463
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:67060
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTaskPostResponseInfo`](SerpBingLocalPackTaskPostResponseInfo.md)
 
-Defined in: main.ts:67053
+Defined in: main.ts:69456
 
 #### Parameters
 

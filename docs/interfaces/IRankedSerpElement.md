@@ -6,7 +6,7 @@
 
 # Interface: IRankedSerpElement
 
-Defined in: main.ts:101505
+Defined in: main.ts:110794
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:101505
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:101513
+Defined in: main.ts:110802
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **is\_lost**: `boolean`
 
-Defined in: main.ts:101529
+Defined in: main.ts:110818
 
 lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check
@@ -40,7 +40,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:101526
+Defined in: main.ts:110815
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -53,7 +53,7 @@ learn more about the metric in this help center guide
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:101534
+Defined in: main.ts:110823
 
 date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,7 +66,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:101539
+Defined in: main.ts:110828
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,7 +79,7 @@ example:
 
 > `optional` **se\_results\_count**: `string`
 
-Defined in: main.ts:101521
+Defined in: main.ts:110810
 
 number of search results for the returned keyword
 
@@ -89,7 +89,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:101507
+Defined in: main.ts:110796
 
 search engine type
 
@@ -99,7 +99,7 @@ search engine type
 
 > `optional` **serp\_item**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:101510
+Defined in: main.ts:110799
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -110,7 +110,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:101519
+Defined in: main.ts:110808
 
 types of search results in SERP
 contains types of search results (items) found in SERP

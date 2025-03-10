@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
-Defined in: main.ts:103866
+Defined in: main.ts:113155
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:103866
 
 > **new DataforseoLabsGoogleSubdomainsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
-Defined in: main.ts:103988
+Defined in: main.ts:113277
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103988
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:103951
+Defined in: main.ts:113240
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:103932
+Defined in: main.ts:113221
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:103937
+Defined in: main.ts:113226
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:103923
+Defined in: main.ts:113212
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -123,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:103916
+Defined in: main.ts:113205
 
 display results by item type
 optional field
@@ -144,7 +144,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:103907
+Defined in: main.ts:113196
 
 language code
 optional field
@@ -165,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:103898
+Defined in: main.ts:113187
 
 full name of the language
 optional field
@@ -186,7 +186,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:103973
+Defined in: main.ts:113262
 
 the maximum number of returned keywords
 optional field
@@ -203,7 +203,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:103889
+Defined in: main.ts:113178
 
 location code
 optional field
@@ -224,7 +224,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:103880
+Defined in: main.ts:113169
 
 full name of the location
 optional field
@@ -245,7 +245,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:103978
+Defined in: main.ts:113267
 
 offset in the results array of returned keywords
 optional field
@@ -262,7 +262,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:103968
+Defined in: main.ts:113257
 
 results sorting rules
 optional field
@@ -291,7 +291,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:103984
+Defined in: main.ts:113273
 
 user-defined task identifier
 optional field
@@ -309,7 +309,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:103871
+Defined in: main.ts:113160
 
 domain
 required field
@@ -326,7 +326,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103997
+Defined in: main.ts:113286
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:103997
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104039
+Defined in: main.ts:113328
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Defined in: main.ts:104039
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
-Defined in: main.ts:104032
+Defined in: main.ts:113321
 
 #### Parameters
 

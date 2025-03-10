@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
-Defined in: main.ts:183096
+Defined in: main.ts:191935
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183096
 
 > **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-Defined in: main.ts:183119
+Defined in: main.ts:191958
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183119
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183105
+Defined in: main.ts:191944
 
 code of the text language
 required field if you do not specify language_name
@@ -56,7 +56,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:183109
+Defined in: main.ts:191948
 
 name of the text language
 required field if you do not specify language_code
@@ -72,7 +72,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:183115
+Defined in: main.ts:191954
 
 user-defined task identifier
 optional field
@@ -90,7 +90,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:183101
+Defined in: main.ts:191940
 
 target text
 required field
@@ -107,7 +107,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183128
+Defined in: main.ts:191967
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:183128
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183148
+Defined in: main.ts:191987
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:183148
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-Defined in: main.ts:183141
+Defined in: main.ts:191980
 
 #### Parameters
 

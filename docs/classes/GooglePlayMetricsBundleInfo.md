@@ -6,7 +6,7 @@
 
 # Class: GooglePlayMetricsBundleInfo
 
-Defined in: main.ts:122366
+Defined in: main.ts:131711
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:122366
 
 > **new GooglePlayMetricsBundleInfo**(`data`?): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:122372
+Defined in: main.ts:131717
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122372
 
 > `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:122368
+Defined in: main.ts:131713
 
 ranking data from Google Play organic search
 
@@ -54,7 +54,7 @@ ranking data from Google Play organic search
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:122381
+Defined in: main.ts:131726
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:122381
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:122398
+Defined in: main.ts:131743
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:122398
 
 > `static` **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:122391
+Defined in: main.ts:131736
 
 #### Parameters
 

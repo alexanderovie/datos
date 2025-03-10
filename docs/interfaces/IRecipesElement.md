@@ -6,7 +6,7 @@
 
 # Interface: IRecipesElement
 
-Defined in: main.ts:34270
+Defined in: main.ts:36207
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34270
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34283
+Defined in: main.ts:36220
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:34278
+Defined in: main.ts:36215
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:34288
+Defined in: main.ts:36225
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -49,7 +49,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:34281
+Defined in: main.ts:36218
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -60,7 +60,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:34285
+Defined in: main.ts:36222
 
 the total time it takes to prepare the cook the dish
 
@@ -70,7 +70,7 @@ the total time it takes to prepare the cook the dish
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34274
+Defined in: main.ts:36211
 
 title of a given link element
 
@@ -80,7 +80,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34272
+Defined in: main.ts:36209
 
 type of element
 
@@ -90,6 +90,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34276
+Defined in: main.ts:36213
 
 URL

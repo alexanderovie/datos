@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleMapsSerpElementItem
 
-Defined in: main.ts:41635
+Defined in: main.ts:44012
 
 ## Extended by
 
@@ -23,7 +23,7 @@ Defined in: main.ts:41635
 
 > **new BaseGoogleMapsSerpElementItem**(`data`?): [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
 
-Defined in: main.ts:41660
+Defined in: main.ts:44037
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Defined in: main.ts:41660
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:41658
+Defined in: main.ts:44035
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: main.ts:41658
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:41646
+Defined in: main.ts:44023
 
 domain in SERP
 
@@ -63,7 +63,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:41644
+Defined in: main.ts:44021
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -78,7 +78,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:41641
+Defined in: main.ts:44018
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -94,7 +94,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:41653
+Defined in: main.ts:44030
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -109,7 +109,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:41656
+Defined in: main.ts:44033
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -128,7 +128,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:41648
+Defined in: main.ts:44025
 
 title of the element
 
@@ -142,7 +142,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:41637
+Defined in: main.ts:44014
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:41650
+Defined in: main.ts:44027
 
 search URL with refinement parameters
 
@@ -170,7 +170,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41670
+Defined in: main.ts:44047
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:41670
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41706
+Defined in: main.ts:44083
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:41706
 
 > `static` **fromJS**(`data`): [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
 
-Defined in: main.ts:41689
+Defined in: main.ts:44066
 
 #### Parameters
 

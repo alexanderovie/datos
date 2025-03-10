@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkRanksLiveRequestInfo
 
-Defined in: main.ts:160430
+Defined in: main.ts:169775
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:160430
 
 > **new BacklinksBulkRanksLiveRequestInfo**(`data`?): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-Defined in: main.ts:160459
+Defined in: main.ts:169804
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160459
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160455
+Defined in: main.ts:169800
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:160449
+Defined in: main.ts:169794
 
 domains, subdomains or webpages to get rank for
 required field
@@ -89,7 +89,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160468
+Defined in: main.ts:169813
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:160468
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160490
+Defined in: main.ts:169835
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:160490
 
 > `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-Defined in: main.ts:160483
+Defined in: main.ts:169828
 
 #### Parameters
 

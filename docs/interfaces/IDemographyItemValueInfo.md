@@ -6,7 +6,7 @@
 
 # Interface: IDemographyItemValueInfo
 
-Defined in: main.ts:137423
+Defined in: main.ts:146768
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:137423
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:137425
+Defined in: main.ts:146770
 
 type of element
 
@@ -28,7 +28,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:137431
+Defined in: main.ts:146776
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;

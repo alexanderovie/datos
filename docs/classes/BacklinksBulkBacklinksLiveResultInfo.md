@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkBacklinksLiveResultInfo
 
-Defined in: main.ts:160934
+Defined in: main.ts:170279
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:160934
 
 > **new BacklinksBulkBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-Defined in: main.ts:160942
+Defined in: main.ts:170287
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160942
 
 > `optional` **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
 
-Defined in: main.ts:160938
+Defined in: main.ts:170283
 
 contains relevant backlink data
 
@@ -54,7 +54,7 @@ contains relevant backlink data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:160936
+Defined in: main.ts:170281
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160951
+Defined in: main.ts:170296
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:160951
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160973
+Defined in: main.ts:170318
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:160973
 
 > `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-Defined in: main.ts:160966
+Defined in: main.ts:170311
 
 #### Parameters
 

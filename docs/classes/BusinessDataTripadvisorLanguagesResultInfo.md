@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
-Defined in: main.ts:228044
+Defined in: main.ts:236907
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:228044
 
 > **new BusinessDataTripadvisorLanguagesResultInfo**(`data`?): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
-Defined in: main.ts:228052
+Defined in: main.ts:236915
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228052
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:228048
+Defined in: main.ts:236911
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:228046
+Defined in: main.ts:236909
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228061
+Defined in: main.ts:236924
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:228061
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228079
+Defined in: main.ts:236942
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:228079
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
-Defined in: main.ts:228072
+Defined in: main.ts:236935
 
 #### Parameters
 

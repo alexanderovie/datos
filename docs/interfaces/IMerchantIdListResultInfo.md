@@ -6,7 +6,7 @@
 
 # Interface: IMerchantIdListResultInfo
 
-Defined in: main.ts:184581
+Defined in: main.ts:193420
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:184581
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:184601
+Defined in: main.ts:193440
 
 cost of the task, USD
 
@@ -28,7 +28,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:184596
+Defined in: main.ts:193435
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:184591
+Defined in: main.ts:193430
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:184583
+Defined in: main.ts:193422
 
 id of the task
 
@@ -64,7 +64,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:184603
+Defined in: main.ts:193442
 
 contains parameters you specified in the POST request
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:184599
+Defined in: main.ts:193438
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -89,7 +89,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:184586
+Defined in: main.ts:193425
 
 URL of the task
 URL you used for making an API call

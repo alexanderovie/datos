@@ -6,7 +6,7 @@
 
 # Interface: IRelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:187226
+Defined in: main.ts:196065
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:187226
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:187231
+Defined in: main.ts:196070
 
 additional items present in the element
 if there are none, equals null
@@ -33,7 +33,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21813
+Defined in: main.ts:22618
 
 alignment of the element in SERP
 can take the following values:
@@ -49,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21809
+Defined in: main.ts:22614
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -64,7 +64,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21806
+Defined in: main.ts:22611
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21803
+Defined in: main.ts:22608
 
 type of element
 
@@ -93,6 +93,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:187228
+Defined in: main.ts:196067
 
 XPath of the element

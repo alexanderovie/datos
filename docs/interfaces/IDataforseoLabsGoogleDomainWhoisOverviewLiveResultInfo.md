@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:100517
+Defined in: main.ts:109814
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:100517
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:100525
+Defined in: main.ts:109822
 
 contains ranking and traffic data
 
@@ -28,7 +28,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:100523
+Defined in: main.ts:109820
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:100519
+Defined in: main.ts:109816
 
 search engine type
 
@@ -48,6 +48,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:100521
+Defined in: main.ts:109818
 
 total amount of results in our database relevant to your request

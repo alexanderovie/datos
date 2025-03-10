@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:110812
+Defined in: main.ts:120157
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110812
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:110865
+Defined in: main.ts:120210
 
 ignore highly similar keywords
 optional field
@@ -31,7 +31,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:110860
+Defined in: main.ts:120205
 
 display results by item type
 optional field
@@ -48,7 +48,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110851
+Defined in: main.ts:120196
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -64,7 +64,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:110843
+Defined in: main.ts:120188
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -80,7 +80,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110835
+Defined in: main.ts:120180
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -96,7 +96,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:110827
+Defined in: main.ts:120172
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -112,7 +112,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:110871
+Defined in: main.ts:120216
 
 user-defined task identifier
 optional field
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:110819
+Defined in: main.ts:120164
 
 target domains and websites
 required field

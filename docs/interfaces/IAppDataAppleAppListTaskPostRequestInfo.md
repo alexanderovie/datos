@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
 
-Defined in: main.ts:207692
+Defined in: main.ts:216539
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:207692
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:207751
+Defined in: main.ts:216598
 
 application category on the App Store
 optional field
@@ -33,7 +33,7 @@ you can review the full list of available categories here or by making a separat
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:207698
+Defined in: main.ts:216545
 
 app collection
 required field
@@ -47,7 +47,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:207744
+Defined in: main.ts:216591
 
 parsing depth
 optional field
@@ -65,7 +65,7 @@ maximum value: 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:207726
+Defined in: main.ts:216573
 
 search engine language code
 required field if you don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:207719
+Defined in: main.ts:216566
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -95,7 +95,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:207712
+Defined in: main.ts:216559
 
 search engine location code
 required field if you don’t specify location_name
@@ -110,7 +110,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:207705
+Defined in: main.ts:216552
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -125,7 +125,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:207785
+Defined in: main.ts:216632
 
 notification URL of a completed task
 optional field
@@ -144,7 +144,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:207774
+Defined in: main.ts:216621
 
 postback_url datatype
 required field if you specify postback_url
@@ -158,7 +158,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:207768
+Defined in: main.ts:216615
 
 return URL for sending task results
 optional field
@@ -177,7 +177,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:207734
+Defined in: main.ts:216581
 
 task priority
 optional field
@@ -193,7 +193,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:207757
+Defined in: main.ts:216604
 
 user-defined task identifier
 optional field

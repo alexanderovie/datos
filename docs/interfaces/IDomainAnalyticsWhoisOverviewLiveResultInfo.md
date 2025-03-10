@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:89837
+Defined in: main.ts:99134
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:89837
 
 > `optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](../classes/DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:89843
+Defined in: main.ts:99140
 
 contains ranking and traffic data
 
@@ -28,7 +28,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:89841
+Defined in: main.ts:99138
 
 the number of results returned in the items array
 
@@ -38,6 +38,6 @@ the number of results returned in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:89839
+Defined in: main.ts:99136
 
 total amount of results in our database relevant to your request

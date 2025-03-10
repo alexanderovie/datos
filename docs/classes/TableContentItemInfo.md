@@ -6,7 +6,7 @@
 
 # Class: TableContentItemInfo
 
-Defined in: main.ts:174060
+Defined in: main.ts:26434
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174060
 
 > **new TableContentItemInfo**(`data`?): [`TableContentItemInfo`](TableContentItemInfo.md)
 
-Defined in: main.ts:174066
+Defined in: main.ts:26440
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174066
 
 > `optional` **row\_cells**: [`RowCellInfo`](RowCellInfo.md)[]
 
-Defined in: main.ts:174062
+Defined in: main.ts:26436
 
 content of the row cells of the header
 
@@ -54,7 +54,7 @@ content of the row cells of the header
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174075
+Defined in: main.ts:26449
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:174075
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174096
+Defined in: main.ts:26470
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:174096
 
 > `static` **fromJS**(`data`): [`TableContentItemInfo`](TableContentItemInfo.md)
 
-Defined in: main.ts:174089
+Defined in: main.ts:26463
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
 
-Defined in: main.ts:186880
+Defined in: main.ts:195719
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:186880
 
 > **new GoogleShoppingPaidMerchantSerpElementItem**(`data`?): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
-Defined in: main.ts:186897
+Defined in: main.ts:195736
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:186897
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21722
+Defined in: main.ts:22527
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:186888
+Defined in: main.ts:195727
 
 description of the product in Google Shopping SERP
 
@@ -74,7 +74,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:186884
+Defined in: main.ts:195723
 
 domain in SERP
 
@@ -88,7 +88,7 @@ domain in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21720
+Defined in: main.ts:22525
 
 alignment of the element in SERP
 can take the following values:
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21716
+Defined in: main.ts:22521
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -127,7 +127,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21713
+Defined in: main.ts:22518
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:186893
+Defined in: main.ts:195732
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -161,7 +161,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186886
+Defined in: main.ts:195725
 
 product title
 
@@ -175,7 +175,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21710
+Defined in: main.ts:22515
 
 type of element
 
@@ -193,7 +193,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:186890
+Defined in: main.ts:195729
 
 URL to the product page on the seller’s website
 
@@ -207,7 +207,7 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186882
+Defined in: main.ts:195721
 
 XPath of the element
 
@@ -221,7 +221,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186902
+Defined in: main.ts:195741
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:186902
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186925
+Defined in: main.ts:195764
 
 #### Parameters
 
@@ -265,7 +265,7 @@ Defined in: main.ts:186925
 
 > `static` **fromJS**(`data`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
-Defined in: main.ts:186918
+Defined in: main.ts:195757
 
 #### Parameters
 

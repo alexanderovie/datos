@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
-Defined in: main.ts:106791
+Defined in: main.ts:115952
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:106791
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
-Defined in: main.ts:106807
+Defined in: main.ts:115968
 
 additional items present in the element
 if there are none, equals null
@@ -29,7 +29,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:106804
+Defined in: main.ts:115965
 
 the number of results returned in the items array
 
@@ -39,7 +39,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:106796
+Defined in: main.ts:115957
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -50,7 +50,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106800
+Defined in: main.ts:115961
 
 language code in a POST array
 
@@ -60,7 +60,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106798
+Defined in: main.ts:115959
 
 location code in a POST array
 
@@ -70,7 +70,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106793
+Defined in: main.ts:115954
 
 search engine type
 
@@ -80,6 +80,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:106802
+Defined in: main.ts:115963
 
 the number of results returned in the items array

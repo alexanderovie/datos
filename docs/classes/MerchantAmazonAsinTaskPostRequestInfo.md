@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTaskPostRequestInfo
 
-Defined in: main.ts:193862
+Defined in: main.ts:202709
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:193862
 
 > **new MerchantAmazonAsinTaskPostRequestInfo**(`data`?): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
 
-Defined in: main.ts:193970
+Defined in: main.ts:202817
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193970
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:193867
+Defined in: main.ts:202714
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:193914
+Defined in: main.ts:202761
 
 search engine language code
 required field if you don’t specify language_name
@@ -76,7 +76,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:193907
+Defined in: main.ts:202754
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -96,7 +96,7 @@ English (United Kingdom)
 
 > `optional` **load\_more\_local\_reviews**: `boolean`
 
-Defined in: main.ts:193926
+Defined in: main.ts:202773
 
 load more local reviews
 optional field
@@ -113,7 +113,7 @@ Note: you will be charged double the price for using this parameter
 
 > `optional` **local\_reviews\_sort**: `string`
 
-Defined in: main.ts:193932
+Defined in: main.ts:202779
 
 sort local reviews
 optional field
@@ -131,7 +131,7 @@ default value: helpful
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:193890
+Defined in: main.ts:202737
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -151,7 +151,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:193899
+Defined in: main.ts:202746
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -172,7 +172,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:193882
+Defined in: main.ts:202729
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -191,7 +191,7 @@ HA1,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:193966
+Defined in: main.ts:202813
 
 notification URL of a completed task
 optional field
@@ -214,7 +214,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:193955
+Defined in: main.ts:202802
 
 postback_url datatype
 required field if you specify postback_url
@@ -232,7 +232,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:193949
+Defined in: main.ts:202796
 
 return URL for sending task results
 optional field
@@ -255,7 +255,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:193875
+Defined in: main.ts:202722
 
 task priority
 optional field
@@ -275,7 +275,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:193921
+Defined in: main.ts:202768
 
 search engine domain
 optional field
@@ -294,7 +294,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:193938
+Defined in: main.ts:202785
 
 user-defined task identifier
 optional field
@@ -312,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193979
+Defined in: main.ts:202826
 
 #### Parameters
 
@@ -330,7 +330,7 @@ Defined in: main.ts:193979
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194009
+Defined in: main.ts:202856
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: main.ts:194009
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
 
-Defined in: main.ts:194002
+Defined in: main.ts:202849
 
 #### Parameters
 

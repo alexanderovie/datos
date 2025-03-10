@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
 
-Defined in: main.ts:181922
+Defined in: main.ts:190761
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:181922
 
 > **new ContentGenerationGenerateTextLiveRequestInfo**(`data`?): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-Defined in: main.ts:181976
+Defined in: main.ts:190815
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181976
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:181956
+Defined in: main.ts:190795
 
 creativity of content generation
 optional field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:181943
+Defined in: main.ts:190782
 
 meta description of the content to generate
 optional field
@@ -76,7 +76,7 @@ learn more about this parameter on our help center
 
 > `optional` **include\_conclusion**: `boolean`
 
-Defined in: main.ts:181960
+Defined in: main.ts:190799
 
 include conclusion in generated text
 optional field
@@ -92,7 +92,7 @@ if set to true, generated content will include a logical conclusion
 
 > `optional` **meta\_keywords**: `string`[]
 
-Defined in: main.ts:181949
+Defined in: main.ts:190788
 
 keywords for the content to generate
 optional field
@@ -110,7 +110,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 > `optional` **sub\_topics**: `string`[]
 
-Defined in: main.ts:181938
+Defined in: main.ts:190777
 
 secondary topics of the content to generate
 optional field
@@ -128,7 +128,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:181966
+Defined in: main.ts:190805
 
 token for generating subsequent results
 optional field
@@ -146,7 +146,7 @@ supplement_token values are unique for each subsequent task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181972
+Defined in: main.ts:190811
 
 user-defined task identifier
 optional field
@@ -164,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topic**: `string`
 
-Defined in: main.ts:181927
+Defined in: main.ts:190766
 
 main topic of the content to generate
 required field
@@ -181,7 +181,7 @@ can contain from 1 to 50 tokens
 
 > `optional` **word\_count**: `number`
 
-Defined in: main.ts:181932
+Defined in: main.ts:190771
 
 number of words in content
 required field
@@ -198,7 +198,7 @@ can take values from 1 to 1000
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181985
+Defined in: main.ts:190824
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: main.ts:181985
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182018
+Defined in: main.ts:190857
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:182018
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-Defined in: main.ts:182011
+Defined in: main.ts:190850
 
 #### Parameters
 

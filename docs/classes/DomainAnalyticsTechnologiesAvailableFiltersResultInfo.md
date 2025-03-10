@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
-Defined in: main.ts:85064
+Defined in: main.ts:94361
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:85064
 
 > **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:85072
+Defined in: main.ts:94369
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85072
 
 > `optional` **aggregation\_technologies**: `object`
 
-Defined in: main.ts:85066
+Defined in: main.ts:94363
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:85066
 
 > `optional` **domains\_by\_html\_terms**: `object`
 
-Defined in: main.ts:85068
+Defined in: main.ts:94365
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:85068
 
 > `optional` **domains\_by\_technology**: `object`
 
-Defined in: main.ts:85065
+Defined in: main.ts:94362
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:85065
 
 > `optional` **technologies\_summary**: `object`
 
-Defined in: main.ts:85067
+Defined in: main.ts:94364
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:85067
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85081
+Defined in: main.ts:94378
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:85081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85125
+Defined in: main.ts:94422
 
 #### Parameters
 
@@ -140,7 +140,7 @@ Defined in: main.ts:85125
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:85118
+Defined in: main.ts:94415
 
 #### Parameters
 

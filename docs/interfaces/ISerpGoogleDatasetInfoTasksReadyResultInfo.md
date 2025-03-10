@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoTasksReadyResultInfo
 
-Defined in: main.ts:59218
+Defined in: main.ts:61621
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:59218
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:59228
+Defined in: main.ts:61631
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:59236
+Defined in: main.ts:61639
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:59239
+Defined in: main.ts:61642
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:59233
+Defined in: main.ts:61636
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:59221
+Defined in: main.ts:61624
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:59223
+Defined in: main.ts:61626
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:59226
+Defined in: main.ts:61629
 
 type of search engine
 example: dataset_info
@@ -93,6 +93,6 @@ example: dataset_info
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59230
+Defined in: main.ts:61633
 
 user-defined task identifier

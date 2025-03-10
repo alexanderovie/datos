@@ -6,7 +6,7 @@
 
 # Interface: IImageLinkElementItem
 
-Defined in: main.ts:169910
+Defined in: main.ts:179255
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:169910
 
 > `optional` **direction**: `string`
 
-Defined in: main.ts:22686
+Defined in: main.ts:23491
 
 direction of the link
 possible values: internal, external
@@ -37,7 +37,7 @@ possible values: internal, external
 
 > `optional` **dofollow**: `boolean`
 
-Defined in: main.ts:22679
+Defined in: main.ts:23484
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -52,7 +52,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 > `optional` **domain\_from**: `string`
 
-Defined in: main.ts:22661
+Defined in: main.ts:23466
 
 referring domain
 the link was found on this domain
@@ -67,7 +67,7 @@ the link was found on this domain
 
 > `optional` **domain\_to**: `string`
 
-Defined in: main.ts:22664
+Defined in: main.ts:23469
 
 referenced domain
 the link is pointing to this domain
@@ -82,7 +82,7 @@ the link is pointing to this domain
 
 > `optional` **image\_alt**: `string`
 
-Defined in: main.ts:169919
+Defined in: main.ts:179264
 
 alternative text for the image
 
@@ -92,7 +92,7 @@ alternative text for the image
 
 > `optional` **image\_src**: `string`
 
-Defined in: main.ts:169921
+Defined in: main.ts:179266
 
 url of the image
 
@@ -102,7 +102,7 @@ url of the image
 
 > `optional` **is\_broken**: `boolean`
 
-Defined in: main.ts:22689
+Defined in: main.ts:23494
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -117,7 +117,7 @@ indicates whether a link is directing to a broken page or resource
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
-Defined in: main.ts:22692
+Defined in: main.ts:23497
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -132,7 +132,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_attribute**: `string`[]
 
-Defined in: main.ts:169915
+Defined in: main.ts:179260
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -145,7 +145,7 @@ example:
 
 > `optional` **link\_from**: `string`
 
-Defined in: main.ts:22673
+Defined in: main.ts:23478
 
 referring page
 absolute URL of the page on which the link was found
@@ -160,7 +160,7 @@ absolute URL of the page on which the link was found
 
 > `optional` **link\_to**: `string`
 
-Defined in: main.ts:22676
+Defined in: main.ts:23481
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -175,7 +175,7 @@ absolute URL of the page to which the link is pointing
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:22667
+Defined in: main.ts:23472
 
 referring page
 relative URL of the page on which the link was found
@@ -190,7 +190,7 @@ relative URL of the page on which the link was found
 
 > `optional` **page\_from\_scheme**: `string`
 
-Defined in: main.ts:22681
+Defined in: main.ts:23486
 
 url scheme of the referring page
 
@@ -204,7 +204,7 @@ url scheme of the referring page
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:22670
+Defined in: main.ts:23475
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -219,7 +219,7 @@ relative URL of the page to which the link is pointing
 
 > `optional` **page\_to\_scheme**: `string`
 
-Defined in: main.ts:22683
+Defined in: main.ts:23488
 
 url scheme of the referenced page
 
@@ -233,7 +233,7 @@ url scheme of the referenced page
 
 > `optional` **page\_to\_status\_code**: `number`
 
-Defined in: main.ts:169924
+Defined in: main.ts:179269
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -244,7 +244,7 @@ status code of the page to which the link is pointing
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:169917
+Defined in: main.ts:179262
 
 anchor text
 
@@ -254,7 +254,7 @@ anchor text
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22658
+Defined in: main.ts:23463
 
 type of element
 

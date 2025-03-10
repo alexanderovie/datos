@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsRequestInfo
 
-Defined in: main.ts:198716
+Defined in: main.ts:207563
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:198716
 
 > **new AppDataErrorsRequestInfo**(`data`?): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-Defined in: main.ts:198750
+Defined in: main.ts:207597
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:198750
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:198739
+Defined in: main.ts:207586
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:198746
+Defined in: main.ts:207593
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:198732
+Defined in: main.ts:207579
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:198721
+Defined in: main.ts:207568
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:198726
+Defined in: main.ts:207573
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198759
+Defined in: main.ts:207606
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:198759
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198780
+Defined in: main.ts:207627
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:198780
 
 > `static` **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-Defined in: main.ts:198773
+Defined in: main.ts:207620
 
 #### Parameters
 

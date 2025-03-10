@@ -6,7 +6,7 @@
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:226448
+Defined in: main.ts:235311
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:226448
 
 > **new TrustpilotSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:226462
+Defined in: main.ts:235325
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:226462
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22211
+Defined in: main.ts:23016
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22211
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:226452
+Defined in: main.ts:235315
 
 domain of the establishment
 
@@ -74,7 +74,7 @@ domain of the establishment
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22209
+Defined in: main.ts:23014
 
 absolute rank among all the elements
 
@@ -92,7 +92,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22207
+Defined in: main.ts:23012
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:226458
+Defined in: main.ts:235321
 
 the rating score of the establishment submitted by reviewers
 
@@ -125,7 +125,7 @@ the rating score of the establishment submitted by reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:226456
+Defined in: main.ts:235319
 
 the total number of reviews
 
@@ -139,7 +139,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:226450
+Defined in: main.ts:235313
 
 title of the establishment
 
@@ -153,7 +153,7 @@ title of the establishment
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22204
+Defined in: main.ts:23009
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226454
+Defined in: main.ts:235317
 
 URL to the establishment
 
@@ -185,7 +185,7 @@ URL to the establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226467
+Defined in: main.ts:235330
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:226467
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226489
+Defined in: main.ts:235352
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:226489
 
 > `static` **fromJS**(`data`): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:226482
+Defined in: main.ts:235345
 
 #### Parameters
 

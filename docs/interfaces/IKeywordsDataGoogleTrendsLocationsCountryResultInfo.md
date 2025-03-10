@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsLocationsCountryResultInfo
 
-Defined in: main.ts:132951
+Defined in: main.ts:142296
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:132951
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:132966
+Defined in: main.ts:142311
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:132975
+Defined in: main.ts:142320
 
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -39,7 +39,7 @@ you can use this field for matching obtained results with the location_code para
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:132972
+Defined in: main.ts:142317
 
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -50,7 +50,7 @@ you can use this field for matching obtained results with the location_name para
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132953
+Defined in: main.ts:142298
 
 location code
 
@@ -60,7 +60,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:132964
+Defined in: main.ts:142309
 
 the code of the superordinate location
 example:
@@ -77,7 +77,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:132955
+Defined in: main.ts:142300
 
 full name of the location
 
@@ -87,7 +87,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:132969
+Defined in: main.ts:142314
 
 location type
 possible values according to Google’s target types

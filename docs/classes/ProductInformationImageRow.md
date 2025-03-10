@@ -6,7 +6,7 @@
 
 # Class: ProductInformationImageRow
 
-Defined in: main.ts:194750
+Defined in: main.ts:203597
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:194750
 
 > **new ProductInformationImageRow**(`data`?): [`ProductInformationImageRow`](ProductInformationImageRow.md)
 
-Defined in: main.ts:194758
+Defined in: main.ts:203605
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:194758
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24320
+Defined in: main.ts:25125
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24320
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:194752
+Defined in: main.ts:203599
 
 alternative text of the related product image
 
@@ -74,7 +74,7 @@ alternative text of the related product image
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24316
+Defined in: main.ts:25121
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:194754
+Defined in: main.ts:203601
 
 URL of the image
 
@@ -106,7 +106,7 @@ URL of the image
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194763
+Defined in: main.ts:203610
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:194763
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194782
+Defined in: main.ts:203629
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:194782
 
 > `static` **fromJS**(`data`): [`ProductInformationImageRow`](ProductInformationImageRow.md)
 
-Defined in: main.ts:194775
+Defined in: main.ts:203622
 
 #### Parameters
 

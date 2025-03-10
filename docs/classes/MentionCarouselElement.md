@@ -6,7 +6,7 @@
 
 # Class: MentionCarouselElement
 
-Defined in: main.ts:33693
+Defined in: main.ts:35566
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33693
 
 > **new MentionCarouselElement**(`data`?): [`MentionCarouselElement`](MentionCarouselElement.md)
 
-Defined in: main.ts:33708
+Defined in: main.ts:35581
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33708
 
 > `optional` **mentioned\_in**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:33704
+Defined in: main.ts:35577
 
 additional elements in the mention_carousel item
 
@@ -54,7 +54,7 @@ additional elements in the mention_carousel item
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:33699
+Defined in: main.ts:35572
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:33702
+Defined in: main.ts:35575
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33697
+Defined in: main.ts:35570
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33695
+Defined in: main.ts:35568
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33717
+Defined in: main.ts:35590
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:33717
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33742
+Defined in: main.ts:35615
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:33742
 
 > `static` **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
 
-Defined in: main.ts:33735
+Defined in: main.ts:35608
 
 #### Parameters
 

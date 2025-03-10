@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlItem
 
-Defined in: main.ts:172366
+Defined in: main.ts:181711
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:172366
 
 > **new OnPageRawHtmlItem**(`data`?): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-Defined in: main.ts:172372
+Defined in: main.ts:181717
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172372
 
 > `optional` **html**: `string`
 
-Defined in: main.ts:172368
+Defined in: main.ts:181713
 
 HTML page
 
@@ -54,7 +54,7 @@ HTML page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172381
+Defined in: main.ts:181726
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:172381
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172398
+Defined in: main.ts:181743
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:172398
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-Defined in: main.ts:172391
+Defined in: main.ts:181736
 
 #### Parameters
 

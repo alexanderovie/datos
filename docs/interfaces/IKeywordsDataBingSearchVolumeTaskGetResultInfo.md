@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
-Defined in: main.ts:139396
+Defined in: main.ts:148741
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:139396
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:139427
+Defined in: main.ts:148772
 
 product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null
@@ -29,7 +29,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:139415
+Defined in: main.ts:148760
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -45,7 +45,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:139419
+Defined in: main.ts:148764
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -57,7 +57,7 @@ if there is no data then the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:139407
+Defined in: main.ts:148752
 
 device type in a POST array
 if there is no data, then the value is null
@@ -68,7 +68,7 @@ if there is no data, then the value is null
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:139398
+Defined in: main.ts:148743
 
 keyword in a POST array
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:139402
+Defined in: main.ts:148747
 
 language code in a POST array
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:139400
+Defined in: main.ts:148745
 
 location code in a POST array
 
@@ -98,7 +98,7 @@ location code in a POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:139431
+Defined in: main.ts:148776
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -110,7 +110,7 @@ if there is no data then the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:139404
+Defined in: main.ts:148749
 
 indicates whether data from partner networks included in the response
 
@@ -120,7 +120,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:139424
+Defined in: main.ts:148769
 
 monthly average search volume rate
 represents either the (approximate) number of searches for the given keyword idea on bing search engine, depending on the user’s targeting

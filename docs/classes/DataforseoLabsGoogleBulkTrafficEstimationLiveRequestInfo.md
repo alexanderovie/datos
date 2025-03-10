@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:110682
+Defined in: main.ts:120027
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:110682
 
 > **new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:110745
+Defined in: main.ts:120090
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110745
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:110735
+Defined in: main.ts:120080
 
 ignore highly similar keywords
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:110730
+Defined in: main.ts:120075
 
 display results by item type
 optional field
@@ -78,7 +78,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110721
+Defined in: main.ts:120066
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -98,7 +98,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:110713
+Defined in: main.ts:120058
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110705
+Defined in: main.ts:120050
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:110697
+Defined in: main.ts:120042
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -158,7 +158,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:110741
+Defined in: main.ts:120086
 
 user-defined task identifier
 optional field
@@ -176,7 +176,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:110689
+Defined in: main.ts:120034
 
 target domains and websites
 required field
@@ -195,7 +195,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110754
+Defined in: main.ts:120099
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:110754
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110786
+Defined in: main.ts:120131
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:110786
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:110779
+Defined in: main.ts:120124
 
 #### Parameters
 

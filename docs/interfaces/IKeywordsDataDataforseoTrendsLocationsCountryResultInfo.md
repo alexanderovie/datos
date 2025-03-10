@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
-Defined in: main.ts:135793
+Defined in: main.ts:145138
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:135793
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:135808
+Defined in: main.ts:145153
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:135817
+Defined in: main.ts:145162
 
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -39,7 +39,7 @@ you can use this field for matching obtained results with the location_code para
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:135814
+Defined in: main.ts:145159
 
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -50,7 +50,7 @@ you can use this field for matching obtained results with the location_name para
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:135795
+Defined in: main.ts:145140
 
 location code
 
@@ -60,7 +60,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:135806
+Defined in: main.ts:145151
 
 the code of the superordinate location
 example:
@@ -77,7 +77,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:135797
+Defined in: main.ts:145142
 
 full name of the location
 
@@ -87,7 +87,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:135811
+Defined in: main.ts:145156
 
 location type
 possible values according to Google’s target types

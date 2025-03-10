@@ -6,7 +6,7 @@
 
 # Class: EventsElement
 
-Defined in: main.ts:33849
+Defined in: main.ts:35738
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33849
 
 > **new EventsElement**(`data`?): [`EventsElement`](EventsElement.md)
 
-Defined in: main.ts:33861
+Defined in: main.ts:35750
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33861
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:33855
+Defined in: main.ts:35744
 
 text alongside the link title
 
@@ -54,7 +54,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33853
+Defined in: main.ts:35742
 
 title of a given link element
 
@@ -68,7 +68,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33851
+Defined in: main.ts:35740
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33857
+Defined in: main.ts:35746
 
 URL
 
@@ -96,7 +96,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33870
+Defined in: main.ts:35759
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:33870
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33890
+Defined in: main.ts:35779
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:33890
 
 > `static` **fromJS**(`data`): [`EventsElement`](EventsElement.md)
 
-Defined in: main.ts:33883
+Defined in: main.ts:35772
 
 #### Parameters
 

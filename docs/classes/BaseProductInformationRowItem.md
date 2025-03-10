@@ -6,7 +6,7 @@
 
 # Class: BaseProductInformationRowItem
 
-Defined in: main.ts:24314
+Defined in: main.ts:25119
 
 ## Extended by
 
@@ -27,7 +27,7 @@ Defined in: main.ts:24314
 
 > **new BaseProductInformationRowItem**(`data`?): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-Defined in: main.ts:24322
+Defined in: main.ts:25127
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: main.ts:24322
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24320
+Defined in: main.ts:25125
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: main.ts:24320
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24316
+Defined in: main.ts:25121
 
 type of element
 
@@ -67,7 +67,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24332
+Defined in: main.ts:25137
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Defined in: main.ts:24332
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24359
+Defined in: main.ts:25164
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:24359
 
 > `static` **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-Defined in: main.ts:24342
+Defined in: main.ts:25147
 
 #### Parameters
 

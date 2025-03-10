@@ -6,7 +6,7 @@
 
 # Interface: IProductInfoElementMerchantSerpElementItem
 
-Defined in: main.ts:191123
+Defined in: main.ts:199970
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:191123
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:191130
+Defined in: main.ts:199977
 
 description of the product
 
@@ -32,7 +32,7 @@ description of the product
 
 > `optional` **features**: `string`[]
 
-Defined in: main.ts:191139
+Defined in: main.ts:199986
 
 product features
 contains snippets with the description of product features
@@ -43,7 +43,7 @@ contains snippets with the description of product features
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:191136
+Defined in: main.ts:199983
 
 product images
 contains urls to product images
@@ -54,7 +54,7 @@ contains urls to product images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21813
+Defined in: main.ts:22618
 
 alignment of the element in SERP
 can take the following values:
@@ -70,7 +70,7 @@ left, right
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:191126
+Defined in: main.ts:199973
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
@@ -81,7 +81,7 @@ ilearn more about the parameter in this help center guide
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21809
+Defined in: main.ts:22614
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -96,7 +96,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21806
+Defined in: main.ts:22611
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:191142
+Defined in: main.ts:199989
 
 product rating 
 the popularity rate based on reviews
@@ -122,7 +122,7 @@ the popularity rate based on reviews
 
 > `optional` **seller\_reviews\_count**: `number`
 
-Defined in: main.ts:191145
+Defined in: main.ts:199992
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -133,7 +133,7 @@ number of reviews on the product seller’s account
 
 > `optional` **sellers**: [`ProductSeller`](../classes/ProductSeller.md)[]
 
-Defined in: main.ts:191148
+Defined in: main.ts:199995
 
 sellers of the product
 number of reviews on the product seller’s account
@@ -144,7 +144,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:191128
+Defined in: main.ts:199975
 
 title of the product
 
@@ -154,7 +154,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21803
+Defined in: main.ts:22608
 
 type of element
 
@@ -168,7 +168,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:191133
+Defined in: main.ts:199980
 
 product url
 url of the product on Google Shopping
@@ -179,7 +179,7 @@ url of the product on Google Shopping
 
 > `optional` **variations**: [`ProductVariation`](../classes/ProductVariation.md)[]
 
-Defined in: main.ts:191151
+Defined in: main.ts:199998
 
 variations of the product
 contains brief information about different product variations

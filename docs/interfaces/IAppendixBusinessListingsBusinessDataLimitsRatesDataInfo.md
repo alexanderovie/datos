@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:232647
+Defined in: main.ts:241510
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:232647
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:232650
+Defined in: main.ts:241513
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:232650
 
 > `optional` **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:232649
+Defined in: main.ts:241512
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:232649
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:232651
+Defined in: main.ts:241514
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:232651
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:232648
+Defined in: main.ts:241511

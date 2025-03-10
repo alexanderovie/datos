@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMerchantPriceData
 
-Defined in: main.ts:237622
+Defined in: main.ts:246485
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:237622
 
 > `optional` **amazon**: [`AppendixAmazonMerchantPriceData`](../classes/AppendixAmazonMerchantPriceData.md)
 
-Defined in: main.ts:237624
+Defined in: main.ts:246487
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:237624
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237625
+Defined in: main.ts:246488
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:237625
 
 > `optional` **google**: [`AppendixGoogleMerchantPriceData`](../classes/AppendixGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237623
+Defined in: main.ts:246486
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:237623
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237626
+Defined in: main.ts:246489
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:237626
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237627
+Defined in: main.ts:246490
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:237627
 
 > `optional` **reviews**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237628
+Defined in: main.ts:246491
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:237628
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237629
+Defined in: main.ts:246492

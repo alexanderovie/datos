@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
 
-Defined in: main.ts:179486
+Defined in: main.ts:188325
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:179486
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:179555
+Defined in: main.ts:188394
 
 initial dataset filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:179524
+Defined in: main.ts:188363
 
 maximum number of elements within internal arrays
 optional field
@@ -62,7 +62,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:179495
+Defined in: main.ts:188334
 
 target keyword
 required field
@@ -79,7 +79,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:179507
+Defined in: main.ts:188346
 
 target keyword fields and target keywords
 optional field
@@ -103,7 +103,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:179513
+Defined in: main.ts:188352
 
 target page types
 optional field
@@ -117,7 +117,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179531
+Defined in: main.ts:188370
 
 positive connotation threshold
 optional field
@@ -132,7 +132,7 @@ default value: 0.4
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179538
+Defined in: main.ts:188377
 
 sentiment connotation threshold
 optional field
@@ -147,7 +147,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:179561
+Defined in: main.ts:188400
 
 user-defined task identifier
 optional field

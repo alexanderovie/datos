@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
-Defined in: main.ts:188734
+Defined in: main.ts:197581
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:188734
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:188748
+Defined in: main.ts:197595
 
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:188753
+Defined in: main.ts:197600
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:188759
+Defined in: main.ts:197606
 
 URL to the product image
 
@@ -52,7 +52,7 @@ URL to the product image
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:188767
+Defined in: main.ts:197614
 
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -65,7 +65,7 @@ shops_list, buy_on_google
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:188771
+Defined in: main.ts:197618
 
 items in SERP
 
@@ -75,7 +75,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:188769
+Defined in: main.ts:197616
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:188745
+Defined in: main.ts:197592
 
 language code in a POST array
 
@@ -95,7 +95,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:188743
+Defined in: main.ts:197590
 
 location code in a POST array
 
@@ -105,7 +105,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:188737
+Defined in: main.ts:197584
 
 product_id received in a POST array
 learn more about the parameter in this help center guide
@@ -116,7 +116,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:188762
+Defined in: main.ts:197609
 
 product rating
 the product popularity rate based on product reviews
@@ -127,7 +127,7 @@ the product popularity rate based on product reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:188741
+Defined in: main.ts:197588
 
 search engine domain in a POST array
 
@@ -137,7 +137,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188755
+Defined in: main.ts:197602
 
 title of the product
 
@@ -147,7 +147,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:188739
+Defined in: main.ts:197586
 
 type of element
 
@@ -157,6 +157,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188757
+Defined in: main.ts:197604
 
 URL to the product page

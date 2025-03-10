@@ -6,7 +6,7 @@
 
 # Class: GoogleBusinessAnswerElement
 
-Defined in: main.ts:224996
+Defined in: main.ts:233859
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:224996
 
 > **new GoogleBusinessAnswerElement**(`data`?): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
-Defined in: main.ts:225018
+Defined in: main.ts:233881
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:225018
 
 > `optional` **answer\_id**: `string`
 
-Defined in: main.ts:225000
+Defined in: main.ts:233863
 
 ID of the answer
 
@@ -54,7 +54,7 @@ ID of the answer
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:225008
+Defined in: main.ts:233871
 
 current text of the answer
 
@@ -68,7 +68,7 @@ current text of the answer
 
 > `optional` **original\_answer\_text**: `string`
 
-Defined in: main.ts:225010
+Defined in: main.ts:233873
 
 original text of the answer
 
@@ -82,7 +82,7 @@ original text of the answer
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:225002
+Defined in: main.ts:233865
 
 URL of the user’s profile image
 
@@ -96,7 +96,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:225006
+Defined in: main.ts:233869
 
 displayed name of the user
 
@@ -110,7 +110,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:225004
+Defined in: main.ts:233867
 
 URL of the user’s profile
 
@@ -124,7 +124,7 @@ URL of the user’s profile
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:225012
+Defined in: main.ts:233875
 
 estimated time when the answer was posted
 
@@ -138,7 +138,7 @@ estimated time when the answer was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:225014
+Defined in: main.ts:233877
 
 exact time when the answer was posted
 
@@ -152,7 +152,7 @@ exact time when the answer was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:224998
+Defined in: main.ts:233861
 
 type of element
 
@@ -166,7 +166,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:225027
+Defined in: main.ts:233890
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:225027
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:225052
+Defined in: main.ts:233915
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:225052
 
 > `static` **fromJS**(`data`): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
-Defined in: main.ts:225045
+Defined in: main.ts:233908
 
 #### Parameters
 

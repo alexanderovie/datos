@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLanguagesResultInfo
 
-Defined in: main.ts:69404
+Defined in: main.ts:71807
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:69404
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:69408
+Defined in: main.ts:71811
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:69406
+Defined in: main.ts:71809
 
 language name

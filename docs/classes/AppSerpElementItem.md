@@ -6,7 +6,7 @@
 
 # Class: AppSerpElementItem
 
-Defined in: main.ts:32831
+Defined in: main.ts:34592
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32831
 
 > **new AppSerpElementItem**(`data`?): [`AppSerpElementItem`](AppSerpElementItem.md)
 
-Defined in: main.ts:32841
+Defined in: main.ts:34608
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32841
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`AppElement`](AppElement.md)[]
 
-Defined in: main.ts:32833
+Defined in: main.ts:34600
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:34596
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,17 +84,13 @@ left, right
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`position`](../interfaces/IAppSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -133,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32837
+Defined in: main.ts:34604
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -167,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:34598
 
 the XPath of the element
 
@@ -175,17 +171,13 @@ the XPath of the element
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`xpath`](../interfaces/IAppSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32846
+Defined in: main.ts:34613
 
 #### Parameters
 
@@ -207,7 +199,7 @@ Defined in: main.ts:32846
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32869
+Defined in: main.ts:34638
 
 #### Parameters
 
@@ -229,7 +221,7 @@ Defined in: main.ts:32869
 
 > `static` **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
 
-Defined in: main.ts:32862
+Defined in: main.ts:34631
 
 #### Parameters
 

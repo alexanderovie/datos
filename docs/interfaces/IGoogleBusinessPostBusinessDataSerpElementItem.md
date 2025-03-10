@@ -6,7 +6,7 @@
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
-Defined in: main.ts:216283
+Defined in: main.ts:225146
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:216283
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:216290
+Defined in: main.ts:225153
 
 author of the post
 
@@ -32,7 +32,7 @@ author of the post
 
 > `optional` **images\_url**: `string`
 
-Defined in: main.ts:216298
+Defined in: main.ts:225161
 
 url of an image included in the post
 
@@ -42,7 +42,7 @@ url of an image included in the post
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:216309
+Defined in: main.ts:225172
 
 links included in the post
 
@@ -52,7 +52,7 @@ links included in the post
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:216286
+Defined in: main.ts:225149
 
 the alignment of the element in SERP
 can take the following values: right
@@ -63,7 +63,7 @@ can take the following values: right
 
 > `optional` **post\_date**: `string`
 
-Defined in: main.ts:216302
+Defined in: main.ts:225165
 
 date when a post was published
 in the following format:
@@ -75,7 +75,7 @@ in the following format:
 
 > `optional` **post\_text**: `string`
 
-Defined in: main.ts:216294
+Defined in: main.ts:225157
 
 main content of a post
 
@@ -85,7 +85,7 @@ main content of a post
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22295
+Defined in: main.ts:23100
 
 absolute rank among all the elements
 
@@ -99,7 +99,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22293
+Defined in: main.ts:23098
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -114,7 +114,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:216292
+Defined in: main.ts:225155
 
 additional content of a post
 
@@ -124,7 +124,7 @@ additional content of a post
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:216307
+Defined in: main.ts:225170
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -137,7 +137,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22290
+Defined in: main.ts:23095
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:216296
+Defined in: main.ts:225159
 
 url of a post
 
@@ -161,6 +161,6 @@ url of a post
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:216288
+Defined in: main.ts:225151
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsResultInfo
 
-Defined in: main.ts:168816
+Defined in: main.ts:178161
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168816
 
 > **new OnPageDuplicateTagsResultInfo**(`data`?): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
 
-Defined in: main.ts:168835
+Defined in: main.ts:178180
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168835
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:168819
+Defined in: main.ts:178164
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:168821
+Defined in: main.ts:178166
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)[]
 
-Defined in: main.ts:168831
+Defined in: main.ts:178176
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:168829
+Defined in: main.ts:178174
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **pages\_count**: `number`
 
-Defined in: main.ts:168827
+Defined in: main.ts:178172
 
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
@@ -112,7 +112,7 @@ displays the number of pages with duplicate tags returned in the response
 
 > `optional` **total\_pages\_count**: `number`
 
-Defined in: main.ts:168824
+Defined in: main.ts:178169
 
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website
@@ -127,7 +127,7 @@ displays the total number of pages with duplicate tags of the target website
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168844
+Defined in: main.ts:178189
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:168844
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168870
+Defined in: main.ts:178215
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:168870
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
 
-Defined in: main.ts:168863
+Defined in: main.ts:178208
 
 #### Parameters
 

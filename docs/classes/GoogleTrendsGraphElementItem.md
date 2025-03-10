@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsGraphElementItem
 
-Defined in: main.ts:134158
+Defined in: main.ts:143503
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134158
 
 > **new GoogleTrendsGraphElementItem**(`data`?): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
-Defined in: main.ts:134166
+Defined in: main.ts:143511
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:134166
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22707
+Defined in: main.ts:23512
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:134162
+Defined in: main.ts:143507
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:134160
+Defined in: main.ts:143505
 
 Google Trends data for the specified parameters
 
@@ -88,7 +88,7 @@ Google Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22705
+Defined in: main.ts:23510
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -107,7 +107,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22700
+Defined in: main.ts:23505
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22702
+Defined in: main.ts:23507
 
 title of the element in Google Trends
 
@@ -144,7 +144,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22697
+Defined in: main.ts:23502
 
 type of element
 
@@ -162,7 +162,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134171
+Defined in: main.ts:143516
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:134171
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134198
+Defined in: main.ts:143543
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:134198
 
 > `static` **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
-Defined in: main.ts:134191
+Defined in: main.ts:143536
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsMapElementItem
 
-Defined in: main.ts:134501
+Defined in: main.ts:143846
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134501
 
 > **new GoogleTrendsMapElementItem**(`data`?): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
-Defined in: main.ts:134507
+Defined in: main.ts:143852
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:134507
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22707
+Defined in: main.ts:23512
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
-Defined in: main.ts:134503
+Defined in: main.ts:143848
 
 Google Trends data from the corresponding item
 
@@ -74,7 +74,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:22705
+Defined in: main.ts:23510
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -93,7 +93,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:22700
+Defined in: main.ts:23505
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -112,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22702
+Defined in: main.ts:23507
 
 title of the element in Google Trends
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22697
+Defined in: main.ts:23502
 
 type of element
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134512
+Defined in: main.ts:143857
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:134512
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134534
+Defined in: main.ts:143879
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:134534
 
 > `static` **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
-Defined in: main.ts:134527
+Defined in: main.ts:143872
 
 #### Parameters
 

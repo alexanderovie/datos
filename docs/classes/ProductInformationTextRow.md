@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextRow
 
-Defined in: main.ts:194804
+Defined in: main.ts:203651
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:194804
 
 > **new ProductInformationTextRow**(`data`?): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
-Defined in: main.ts:194810
+Defined in: main.ts:203657
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:194810
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24320
+Defined in: main.ts:25125
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24320
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:194806
+Defined in: main.ts:203653
 
 text of the voucher
 
@@ -74,7 +74,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24316
+Defined in: main.ts:25121
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194815
+Defined in: main.ts:203662
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:194815
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194833
+Defined in: main.ts:203680
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:194833
 
 > `static` **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
-Defined in: main.ts:194826
+Defined in: main.ts:203673
 
 #### Parameters
 

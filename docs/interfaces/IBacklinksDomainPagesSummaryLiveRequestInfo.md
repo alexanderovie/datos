@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:154837
+Defined in: main.ts:164182
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:154837
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:154911
+Defined in: main.ts:164256
 
 filter the backlinks of your target
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:154872
+Defined in: main.ts:164217
 
 set what backlinks to return and count
 optional field
@@ -51,7 +51,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:154927
+Defined in: main.ts:164272
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -64,7 +64,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:154889
+Defined in: main.ts:164234
 
 array of results filtering parameters
 optional field
@@ -89,7 +89,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:154922
+Defined in: main.ts:164267
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -103,7 +103,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:154916
+Defined in: main.ts:164261
 
 indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -116,7 +116,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:154863
+Defined in: main.ts:164208
 
 maximum number of elements within internal arrays
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:154847
+Defined in: main.ts:164192
 
 the maximum number of returned anchors
 optional field
@@ -148,7 +148,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:154852
+Defined in: main.ts:164197
 
 offset in the results array of returned anchors
 optional field
@@ -161,7 +161,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:154903
+Defined in: main.ts:164248
 
 results sorting rules
 optional field
@@ -183,7 +183,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154933
+Defined in: main.ts:164278
 
 user-defined task identifier
 optional field
@@ -197,7 +197,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:154842
+Defined in: main.ts:164187
 
 domain, subdomain or webpage to get summary data for
 required field

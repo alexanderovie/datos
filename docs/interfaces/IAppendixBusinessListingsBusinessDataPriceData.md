@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
 
-Defined in: main.ts:238145
+Defined in: main.ts:247008
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238145
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238146
+Defined in: main.ts:247009
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238146
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238147
+Defined in: main.ts:247010
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:238147
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238148
+Defined in: main.ts:247011
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:238148
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238149
+Defined in: main.ts:247012

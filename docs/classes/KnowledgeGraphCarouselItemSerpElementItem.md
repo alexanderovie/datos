@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:29517
+Defined in: main.ts:30974
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29517
 
 > **new KnowledgeGraphCarouselItemSerpElementItem**(`data`?): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
 
-Defined in: main.ts:29535
+Defined in: main.ts:30998
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:29535
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29523
+Defined in: main.ts:30986
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29527
+Defined in: main.ts:30990
 
 elements of search results found in SERP
 
@@ -90,7 +90,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:29525
+Defined in: main.ts:30988
 
 link of the element
 
@@ -104,7 +104,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:30978
 
 the alignment of the element in SERP
 can take the following values:
@@ -114,17 +114,13 @@ left, right
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +139,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -163,7 +159,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29531
+Defined in: main.ts:30994
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -179,7 +175,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29519
+Defined in: main.ts:30982
 
 title of the result in SERP
 
@@ -193,7 +189,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -211,7 +207,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:30980
 
 the XPath of the element
 
@@ -219,17 +215,13 @@ the XPath of the element
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29540
+Defined in: main.ts:31003
 
 #### Parameters
 
@@ -251,7 +243,7 @@ Defined in: main.ts:29540
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29566
+Defined in: main.ts:31031
 
 #### Parameters
 
@@ -273,7 +265,7 @@ Defined in: main.ts:29566
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
 
-Defined in: main.ts:29559
+Defined in: main.ts:31024
 
 #### Parameters
 

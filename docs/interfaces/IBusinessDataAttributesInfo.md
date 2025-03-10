@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataAttributesInfo
 
-Defined in: main.ts:211407
+Defined in: main.ts:220254
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:211407
 
 > `optional` **available\_attributes**: `object`
 
-Defined in: main.ts:211410
+Defined in: main.ts:220257
 
 available attributes
 indicates attributes a business entity can offer
@@ -33,7 +33,7 @@ indicates attributes a business entity can offer
 
 > `optional` **unavailable\_attributes**: `object`
 
-Defined in: main.ts:211413
+Defined in: main.ts:220260
 
 unavailable attributes
 indicates attributes a business entity cannot offer

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
-Defined in: main.ts:122104
+Defined in: main.ts:131449
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:122104
 
 > **new DataforseoLabsGoogleAppCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleAppCompetitorsLiveRequestInfo`](DataforseoLabsGoogleAppCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:122199
+Defined in: main.ts:131544
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122199
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:122112
+Defined in: main.ts:131457
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is org.telegram.messenger
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:122162
+Defined in: main.ts:131507
 
 array of results filtering parameters
 optional field
@@ -86,7 +86,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122148
+Defined in: main.ts:131493
 
 language code
 required field if you don’t specify language_name
@@ -107,7 +107,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122139
+Defined in: main.ts:131484
 
 full name of the language
 required field if you don’t specify language_code
@@ -128,7 +128,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:122184
+Defined in: main.ts:131529
 
 the maximum number of returned apps
 optional field
@@ -145,7 +145,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122130
+Defined in: main.ts:131475
 
 location code
 required field if you don’t specify location_name
@@ -166,7 +166,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122121
+Defined in: main.ts:131466
 
 full name of the location
 required field if you don’t specify location_code
@@ -187,7 +187,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:122189
+Defined in: main.ts:131534
 
 offset in the results array of returned apps
 optional field
@@ -204,7 +204,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:122179
+Defined in: main.ts:131524
 
 results sorting rules
 optional field
@@ -233,7 +233,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122195
+Defined in: main.ts:131540
 
 user-defined task identifier
 optional field
@@ -251,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:122208
+Defined in: main.ts:131553
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:122208
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:122242
+Defined in: main.ts:131587
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: main.ts:122242
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveRequestInfo`](DataforseoLabsGoogleAppCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:122235
+Defined in: main.ts:131580
 
 #### Parameters
 

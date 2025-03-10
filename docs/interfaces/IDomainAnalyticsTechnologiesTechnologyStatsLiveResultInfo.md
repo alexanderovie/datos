@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
-Defined in: main.ts:87321
+Defined in: main.ts:96618
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87321
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:87325
+Defined in: main.ts:96622
 
 starting date of the time range
 
@@ -28,7 +28,7 @@ starting date of the time range
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:87327
+Defined in: main.ts:96624
 
 ending date of the time range
 
@@ -38,7 +38,7 @@ ending date of the time range
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
-Defined in: main.ts:87331
+Defined in: main.ts:96628
 
 items array
 
@@ -48,7 +48,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:87329
+Defined in: main.ts:96626
 
 number of items in the results array
 
@@ -58,6 +58,6 @@ number of items in the results array
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:87323
+Defined in: main.ts:96620
 
 target technology

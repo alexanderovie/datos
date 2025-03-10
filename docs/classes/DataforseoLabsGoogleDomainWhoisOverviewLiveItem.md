@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
-Defined in: main.ts:100268
+Defined in: main.ts:109565
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:100268
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveItem**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
-Defined in: main.ts:100320
+Defined in: main.ts:109617
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100320
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:100316
+Defined in: main.ts:109613
 
 backlink data for the returned domain
 
@@ -54,7 +54,7 @@ backlink data for the returned domain
 
 > `optional` **changed\_datetime**: `string`
 
-Defined in: main.ts:100282
+Defined in: main.ts:109579
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -71,7 +71,7 @@ example:
 
 > `optional` **created\_datetime**: `string`
 
-Defined in: main.ts:100277
+Defined in: main.ts:109574
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -88,7 +88,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:100272
+Defined in: main.ts:109569
 
 domain name
 
@@ -102,7 +102,7 @@ domain name
 
 > `optional` **epp\_status\_codes**: `string`[]
 
-Defined in: main.ts:100300
+Defined in: main.ts:109597
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -117,7 +117,7 @@ the status of a domain name registration as defined by ICANN
 
 > `optional` **expiration\_datetime**: `string`
 
-Defined in: main.ts:100287
+Defined in: main.ts:109584
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -134,7 +134,7 @@ example:
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:100297
+Defined in: main.ts:109594
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -151,7 +151,7 @@ example:
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:100314
+Defined in: main.ts:109611
 
 ranking data relevant to the specified domain
 
@@ -169,7 +169,7 @@ ranking data relevant to the specified domain
 
 > `optional` **registered**: `boolean`
 
-Defined in: main.ts:100307
+Defined in: main.ts:109604
 
 domain registration status
 if false, the domain name registration has expired
@@ -185,7 +185,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 > `optional` **registrar**: `string`
 
-Defined in: main.ts:100312
+Defined in: main.ts:109609
 
 domain registrar
 if null, the domain registrar is unknown
@@ -202,7 +202,7 @@ NameCheap, Inc.
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:100270
+Defined in: main.ts:109567
 
 search engine type
 
@@ -216,7 +216,7 @@ search engine type
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:100303
+Defined in: main.ts:109600
 
 top-level domain
 top-level domain in the DNS root zone
@@ -231,7 +231,7 @@ top-level domain in the DNS root zone
 
 > `optional` **updated\_datetime**: `string`
 
-Defined in: main.ts:100292
+Defined in: main.ts:109589
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -248,7 +248,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100329
+Defined in: main.ts:109626
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:100329
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100368
+Defined in: main.ts:109665
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:100368
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
-Defined in: main.ts:100361
+Defined in: main.ts:109658
 
 #### Parameters
 

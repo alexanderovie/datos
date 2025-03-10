@@ -6,7 +6,7 @@
 
 # Class: ShortVideosElement
 
-Defined in: main.ts:35213
+Defined in: main.ts:37246
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35213
 
 > **new ShortVideosElement**(`data`?): [`ShortVideosElement`](ShortVideosElement.md)
 
-Defined in: main.ts:35228
+Defined in: main.ts:37261
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35228
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35219
+Defined in: main.ts:37252
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35224
+Defined in: main.ts:37257
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -69,7 +69,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35217
+Defined in: main.ts:37250
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35215
+Defined in: main.ts:37248
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35221
+Defined in: main.ts:37254
 
 URL
 
@@ -111,7 +111,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35237
+Defined in: main.ts:37270
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:35237
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35258
+Defined in: main.ts:37291
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:35258
 
 > `static` **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
 
-Defined in: main.ts:35251
+Defined in: main.ts:37284
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
-Defined in: main.ts:148364
+Defined in: main.ts:157709
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148364
 
 > **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
-Defined in: main.ts:148378
+Defined in: main.ts:157723
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148378
 
 > `optional` **country\_distribution**: [`CountryDistribution`](CountryDistribution.md)[]
 
-Defined in: main.ts:148374
+Defined in: main.ts:157719
 
 distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume
@@ -55,7 +55,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:148367
+Defined in: main.ts:157712
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -70,7 +70,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:148371
+Defined in: main.ts:157716
 
 clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream
@@ -86,7 +86,7 @@ you can learn more about clickstream search volume in this Help Center article
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148387
+Defined in: main.ts:157732
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:148387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148410
+Defined in: main.ts:157755
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:148410
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
-Defined in: main.ts:148403
+Defined in: main.ts:157748
 
 #### Parameters
 

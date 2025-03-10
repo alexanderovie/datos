@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTaskPostRequestInfo
 
-Defined in: main.ts:189102
+Defined in: main.ts:197949
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:189102
 
 > **new MerchantGoogleProductSpecTaskPostRequestInfo**(`data`?): [`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)
 
-Defined in: main.ts:189212
+Defined in: main.ts:198059
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:189212
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:189174
+Defined in: main.ts:198021
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -63,7 +63,7 @@ example:
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:189115
+Defined in: main.ts:197962
 
 unique identifier of the SERP data element
 required field if product_id is not specified
@@ -81,7 +81,7 @@ example:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:189160
+Defined in: main.ts:198007
 
 language code
 required field if you don’t specify language_name
@@ -100,7 +100,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:189153
+Defined in: main.ts:198000
 
 full name of the language
 required field if you don’t specify language_code
@@ -119,7 +119,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:189137
+Defined in: main.ts:197984
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:189146
+Defined in: main.ts:197993
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -159,7 +159,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:189130
+Defined in: main.ts:197977
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:189208
+Defined in: main.ts:198055
 
 notification URL of a completed task
 optional field
@@ -201,7 +201,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:189197
+Defined in: main.ts:198044
 
 postback_url datatype
 required field if you specify postback_url
@@ -219,7 +219,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:189191
+Defined in: main.ts:198038
 
 return URL for sending task results
 optional field
@@ -242,7 +242,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:189123
+Defined in: main.ts:197970
 
 task priority
 optional field
@@ -262,7 +262,7 @@ the cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:189109
+Defined in: main.ts:197956
 
 unique product identifier on Google Shopping
 required field if data_docid is not specified
@@ -281,7 +281,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:189167
+Defined in: main.ts:198014
 
 search engine domain
 optional field
@@ -300,7 +300,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189180
+Defined in: main.ts:198027
 
 user-defined task identifier
 optional field
@@ -318,7 +318,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189221
+Defined in: main.ts:198068
 
 #### Parameters
 
@@ -336,7 +336,7 @@ Defined in: main.ts:189221
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189257
+Defined in: main.ts:198104
 
 #### Parameters
 
@@ -354,7 +354,7 @@ Defined in: main.ts:189257
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)
 
-Defined in: main.ts:189250
+Defined in: main.ts:198097
 
 #### Parameters
 

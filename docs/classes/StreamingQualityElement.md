@@ -6,7 +6,7 @@
 
 # Class: StreamingQualityElement
 
-Defined in: main.ts:70409
+Defined in: main.ts:72812
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:70409
 
 > **new StreamingQualityElement**(`data`?): [`StreamingQualityElement`](StreamingQualityElement.md)
 
-Defined in: main.ts:70427
+Defined in: main.ts:72830
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:70427
 
 > `optional` **bitrate**: `number`
 
-Defined in: main.ts:70419
+Defined in: main.ts:72822
 
 bit rate of the video
 
@@ -54,7 +54,7 @@ bit rate of the video
 
 > `optional` **fps**: `number`
 
-Defined in: main.ts:70423
+Defined in: main.ts:72826
 
 frame rate of the video
 
@@ -68,7 +68,7 @@ frame rate of the video
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:70417
+Defined in: main.ts:72820
 
 video height in pixels
 
@@ -82,7 +82,7 @@ video height in pixels
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:70413
+Defined in: main.ts:72816
 
 label of the quality element
 
@@ -96,7 +96,7 @@ label of the quality element
 
 > `optional` **mime\_type**: `string`
 
-Defined in: main.ts:70421
+Defined in: main.ts:72824
 
 media type of the video
 
@@ -110,7 +110,7 @@ media type of the video
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70411
+Defined in: main.ts:72814
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:70415
+Defined in: main.ts:72818
 
 video width in pixels
 
@@ -138,7 +138,7 @@ video width in pixels
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70436
+Defined in: main.ts:72839
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:70436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70459
+Defined in: main.ts:72862
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:70459
 
 > `static` **fromJS**(`data`): [`StreamingQualityElement`](StreamingQualityElement.md)
 
-Defined in: main.ts:70452
+Defined in: main.ts:72855
 
 #### Parameters
 

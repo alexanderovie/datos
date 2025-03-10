@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsSerpElementItem
 
-Defined in: main.ts:32427
+Defined in: main.ts:34140
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32427
 
 > **new GoogleReviewsSerpElementItem**(`data`?): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
-Defined in: main.ts:32446
+Defined in: main.ts:34165
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32446
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32438
+Defined in: main.ts:34157
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:32436
+Defined in: main.ts:34155
 
 the additional feature of the review
 
@@ -88,7 +88,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:32434
+Defined in: main.ts:34153
 
 the identifier of a place
 
@@ -102,7 +102,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:34144
 
 the alignment of the element in SERP
 can take the following values:
@@ -112,17 +112,13 @@ left, right
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,7 +137,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -161,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:32432
+Defined in: main.ts:34151
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -176,7 +172,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32442
+Defined in: main.ts:34161
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -192,7 +188,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:32429
+Defined in: main.ts:34148
 
 the number of reviews
 
@@ -206,7 +202,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -224,7 +220,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:34146
 
 the XPath of the element
 
@@ -232,17 +228,13 @@ the XPath of the element
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32451
+Defined in: main.ts:34170
 
 #### Parameters
 
@@ -264,7 +256,7 @@ Defined in: main.ts:32451
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32474
+Defined in: main.ts:34195
 
 #### Parameters
 
@@ -286,7 +278,7 @@ Defined in: main.ts:32474
 
 > `static` **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
-Defined in: main.ts:32467
+Defined in: main.ts:34188
 
 #### Parameters
 

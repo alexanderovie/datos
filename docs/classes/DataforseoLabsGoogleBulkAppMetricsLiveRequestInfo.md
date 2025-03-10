@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:120954
+Defined in: main.ts:130299
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:120954
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
-Defined in: main.ts:121009
+Defined in: main.ts:130354
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121009
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:120963
+Defined in: main.ts:130308
 
 ids of the app
 required field
@@ -61,7 +61,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120999
+Defined in: main.ts:130344
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:120990
+Defined in: main.ts:130335
 
 full name of the language
 required field if you don’t specify language_code
@@ -103,7 +103,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120981
+Defined in: main.ts:130326
 
 location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:120972
+Defined in: main.ts:130317
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:121005
+Defined in: main.ts:130350
 
 user-defined task identifier
 optional field
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121018
+Defined in: main.ts:130363
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:121018
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121044
+Defined in: main.ts:130389
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:121044
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
-Defined in: main.ts:121037
+Defined in: main.ts:130382
 
 #### Parameters
 

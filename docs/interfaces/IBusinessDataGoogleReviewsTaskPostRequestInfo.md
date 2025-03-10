@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleReviewsTaskPostRequestInfo
 
-Defined in: main.ts:222163
+Defined in: main.ts:231026
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222163
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:222179
+Defined in: main.ts:231042
 
 unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -32,7 +32,7 @@ learn more about the identifier in this help center article
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:222237
+Defined in: main.ts:231100
 
 parsing depth
 optional field
@@ -47,7 +47,7 @@ maximum value: 4490
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:222173
+Defined in: main.ts:231036
 
 keyword
 required field if you don’t specify cid or place_id
@@ -65,7 +65,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:222230
+Defined in: main.ts:231093
 
 search engine language code
 required field if you don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:222223
+Defined in: main.ts:231086
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -95,7 +95,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:222207
+Defined in: main.ts:231070
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -110,7 +110,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:222216
+Defined in: main.ts:231079
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -127,7 +127,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:222200
+Defined in: main.ts:231063
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -142,7 +142,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:222275
+Defined in: main.ts:231138
 
 notification URL of a completed task
 optional field
@@ -161,7 +161,7 @@ learn more on our Help Center
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:222185
+Defined in: main.ts:231048
 
 identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -175,7 +175,7 @@ learn more about the identifier in this help center article
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:222264
+Defined in: main.ts:231127
 
 return URL for sending task results
 optional field
@@ -194,7 +194,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:222193
+Defined in: main.ts:231056
 
 task priority
 optional field
@@ -210,7 +210,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:222247
+Defined in: main.ts:231110
 
 results sorting parameters
 optional field
@@ -228,7 +228,7 @@ default value: relevant
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:222253
+Defined in: main.ts:231116
 
 user-defined task identifier
 optional field

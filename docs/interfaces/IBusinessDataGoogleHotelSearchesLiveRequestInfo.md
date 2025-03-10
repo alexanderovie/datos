@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
-Defined in: main.ts:218446
+Defined in: main.ts:227309
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:218446
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:218532
+Defined in: main.ts:227395
 
 number of adults
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **amenities**: `string`[]
 
-Defined in: main.ts:218615
+Defined in: main.ts:227478
 
 hotel amenities
 optional field
@@ -70,7 +70,7 @@ possible values:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:218511
+Defined in: main.ts:227374
 
 check-in date
 optional field
@@ -86,7 +86,7 @@ Note: the value cannot precede the today’s date
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:218520
+Defined in: main.ts:227383
 
 check-out date
 optional field
@@ -103,7 +103,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:218542
+Defined in: main.ts:227405
 
 number and age of children
 optional field
@@ -121,7 +121,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:218525
+Defined in: main.ts:227388
 
 currency
 optional field
@@ -134,7 +134,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:218503
+Defined in: main.ts:227366
 
 parsing depth
 optional field
@@ -151,7 +151,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **free\_cancellation**: `boolean`
 
-Defined in: main.ts:218581
+Defined in: main.ts:227444
 
 hotels with a free cancellation
 optional field
@@ -164,7 +164,7 @@ default value: false
 
 > `optional` **is\_vacation\_rentals**: `boolean`
 
-Defined in: main.ts:218586
+Defined in: main.ts:227449
 
 search for vacation rentals
 optional field
@@ -177,7 +177,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:218456
+Defined in: main.ts:227319
 
 keyword
 optional field
@@ -195,7 +195,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218494
+Defined in: main.ts:227357
 
 search engine language code
 required field if you don’t specify language_name
@@ -210,7 +210,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:218487
+Defined in: main.ts:227350
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -225,7 +225,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218471
+Defined in: main.ts:227334
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -240,7 +240,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:218480
+Defined in: main.ts:227343
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -257,7 +257,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:218464
+Defined in: main.ts:227327
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -273,7 +273,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 > `optional` **max\_price**: `number`
 
-Defined in: main.ts:218576
+Defined in: main.ts:227439
 
 maximum price per night
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **min\_price**: `number`
 
-Defined in: main.ts:218570
+Defined in: main.ts:227433
 
 minimum price per night
 optional field
@@ -301,7 +301,7 @@ example:
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:218554
+Defined in: main.ts:227417
 
 minimum rating
 optional field
@@ -315,7 +315,7 @@ example:
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:218564
+Defined in: main.ts:227427
 
 results sorting parameters
 optional field
@@ -333,7 +333,7 @@ default value: relevance
 
 > `optional` **stars**: `string`[]
 
-Defined in: main.ts:218548
+Defined in: main.ts:227411
 
 hotel stars
 optional field
@@ -347,7 +347,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:218621
+Defined in: main.ts:227484
 
 user-defined task identifier
 optional field

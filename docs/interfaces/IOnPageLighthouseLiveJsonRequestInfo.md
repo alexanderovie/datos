@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLiveJsonRequestInfo
 
-Defined in: main.ts:176543
+Defined in: main.ts:185458
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:176543
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:176576
+Defined in: main.ts:185491
 
 Lighthouse audits
 optional field
@@ -39,7 +39,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:176563
+Defined in: main.ts:185478
 
 categories of Lighthouse audits
 optional field
@@ -55,7 +55,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:176555
+Defined in: main.ts:185470
 
 applies mobile emulation
 optional field
@@ -69,7 +69,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:176593
+Defined in: main.ts:185508
 
 lighthouse language code
 optional field
@@ -83,7 +83,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:176587
+Defined in: main.ts:185502
 
 lighthouse language name
 optional field
@@ -97,7 +97,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:176599
+Defined in: main.ts:185514
 
 user-defined task identifier
 optional field
@@ -111,7 +111,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:176549
+Defined in: main.ts:185464
 
 target URL
 required field
@@ -125,7 +125,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:176581
+Defined in: main.ts:185496
 
 lighthouse version
 optional field

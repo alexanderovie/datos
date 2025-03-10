@@ -6,7 +6,7 @@
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:231856
+Defined in: main.ts:240719
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231856
 
 > **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231861
+Defined in: main.ts:240724
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231861
 
 > `optional` **overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231857
+Defined in: main.ts:240720
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231857
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231870
+Defined in: main.ts:240733
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:231870
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231887
+Defined in: main.ts:240750
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231887
 
 > `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231880
+Defined in: main.ts:240743
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106564
+Defined in: main.ts:115551
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106564
 
 > **new ImagesDataforseoLabsSerpElementItem**(`data`?): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106579
+Defined in: main.ts:115567
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:106579
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21425
+Defined in: main.ts:22230
 
 #### Inherited from
 
@@ -60,9 +60,10 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:106572
+Defined in: main.ts:115560
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -74,7 +75,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21421
+Defined in: main.ts:22226
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21417
+Defined in: main.ts:22222
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21414
+Defined in: main.ts:22219
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-Defined in: main.ts:106575
+Defined in: main.ts:115563
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -147,7 +148,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106566
+Defined in: main.ts:115553
 
 search engine type
 
@@ -161,7 +162,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106568
+Defined in: main.ts:115555
 
 title of the result in SERP
 
@@ -175,7 +176,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21411
+Defined in: main.ts:22216
 
 type of element
 
@@ -193,9 +194,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106570
+Defined in: main.ts:115557
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 #### Implementation of
 
@@ -207,7 +208,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21423
+Defined in: main.ts:22228
 
 the XPath of the element
 
@@ -225,7 +226,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106584
+Defined in: main.ts:115572
 
 #### Parameters
 
@@ -247,7 +248,7 @@ Defined in: main.ts:106584
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106610
+Defined in: main.ts:115598
 
 #### Parameters
 
@@ -269,7 +270,7 @@ Defined in: main.ts:106610
 
 > `static` **fromJS**(`data`): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106603
+Defined in: main.ts:115591
 
 #### Parameters
 

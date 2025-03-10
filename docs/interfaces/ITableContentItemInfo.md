@@ -6,7 +6,7 @@
 
 # Interface: ITableContentItemInfo
 
-Defined in: main.ts:174111
+Defined in: main.ts:26485
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:174111
 
 > `optional` **row\_cells**: [`RowCellInfo`](../classes/RowCellInfo.md)[]
 
-Defined in: main.ts:174113
+Defined in: main.ts:26487
 
 content of the row cells of the header

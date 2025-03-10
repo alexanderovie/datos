@@ -6,7 +6,7 @@
 
 # Class: BaseSerpElementItem
 
-Defined in: main.ts:21028
+Defined in: main.ts:21772
 
 ## Extended by
 
@@ -82,7 +82,7 @@ Defined in: main.ts:21028
 
 > **new BaseSerpElementItem**(`data`?): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-Defined in: main.ts:21047
+Defined in: main.ts:21785
 
 #### Parameters
 
@@ -100,23 +100,7 @@ Defined in: main.ts:21047
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
-
-***
-
-### position?
-
-> `optional` **position**: `string`
-
-Defined in: main.ts:21041
-
-the alignment of the element in SERP
-can take the following values:
-left, right
-
-#### Implementation of
-
-[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`position`](../interfaces/IBaseSerpElementItem.md#position)
+Defined in: main.ts:21783
 
 ***
 
@@ -124,7 +108,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -139,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -155,7 +139,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -163,27 +147,13 @@ type of element
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`type`](../interfaces/IBaseSerpElementItem.md#type)
 
-***
-
-### xpath?
-
-> `optional` **xpath**: `string`
-
-Defined in: main.ts:21043
-
-the XPath of the element
-
-#### Implementation of
-
-[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`xpath`](../interfaces/IBaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:21057
+Defined in: main.ts:21795
 
 #### Parameters
 
@@ -201,7 +171,7 @@ Defined in: main.ts:21057
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:21379
+Defined in: main.ts:22115
 
 #### Parameters
 
@@ -219,7 +189,7 @@ Defined in: main.ts:21379
 
 > `static` **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-Defined in: main.ts:21067
+Defined in: main.ts:21803
 
 #### Parameters
 

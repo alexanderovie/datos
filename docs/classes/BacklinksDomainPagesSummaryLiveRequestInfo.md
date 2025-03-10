@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:154654
+Defined in: main.ts:163999
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:154654
 
 > **new BacklinksDomainPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:154754
+Defined in: main.ts:164099
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154754
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:154728
+Defined in: main.ts:164073
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:154689
+Defined in: main.ts:164034
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:154744
+Defined in: main.ts:164089
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:154706
+Defined in: main.ts:164051
 
 array of results filtering parameters
 optional field
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:154739
+Defined in: main.ts:164084
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:154733
+Defined in: main.ts:164078
 
 indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:154680
+Defined in: main.ts:164025
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:154664
+Defined in: main.ts:164009
 
 the maximum number of returned anchors
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:154669
+Defined in: main.ts:164014
 
 offset in the results array of returned anchors
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:154720
+Defined in: main.ts:164065
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154750
+Defined in: main.ts:164095
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:154659
+Defined in: main.ts:164004
 
 domain, subdomain or webpage to get summary data for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154763
+Defined in: main.ts:164108
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:154763
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154803
+Defined in: main.ts:164148
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:154803
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:154796
+Defined in: main.ts:164141
 
 #### Parameters
 

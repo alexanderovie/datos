@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTaskPostRequestInfo
 
-Defined in: main.ts:61739
+Defined in: main.ts:64142
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:61739
 
 > **new SerpGoogleAdsSearchTaskPostRequestInfo**(`data`?): [`SerpGoogleAdsSearchTaskPostRequestInfo`](SerpGoogleAdsSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:61853
+Defined in: main.ts:64256
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:61853
 
 > `optional` **advertiser\_ids**: `string`[]
 
-Defined in: main.ts:61748
+Defined in: main.ts:64151
 
 advertiser identifiers
 required field if target is not specified
@@ -57,7 +57,7 @@ advertiser_ids values for this parameter can be found in the Google Ads Advertis
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:61789
+Defined in: main.ts:64192
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:61798
+Defined in: main.ts:64201
 
 ending date of the time range
 optional field
@@ -99,7 +99,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:61807
+Defined in: main.ts:64210
 
 parsing depth
 optional field
@@ -120,7 +120,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:61780
+Defined in: main.ts:64183
 
 ad format
 optional field
@@ -136,7 +136,7 @@ possible values: all, text, image, video
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:61764
+Defined in: main.ts:64167
 
 search engine location code
 optional field
@@ -156,7 +156,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:61771
+Defined in: main.ts:64174
 
 GPS coordinates of a location
 optional field
@@ -175,7 +175,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:61756
+Defined in: main.ts:64159
 
 full name of search engine location
 optional field
@@ -195,7 +195,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:61849
+Defined in: main.ts:64252
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ learn more on our Help Center
 
 > `optional` **platform**: `string`
 
-Defined in: main.ts:61776
+Defined in: main.ts:64179
 
 advertising platform
 optional field
@@ -235,7 +235,7 @@ default value: all
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:61838
+Defined in: main.ts:64241
 
 postback_url datatype
 required field if you specify postback_url
@@ -253,7 +253,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:61832
+Defined in: main.ts:64235
 
 return URL for sending task results
 optional field
@@ -276,7 +276,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:61815
+Defined in: main.ts:64218
 
 task priority
 optional field
@@ -296,7 +296,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61821
+Defined in: main.ts:64224
 
 user-defined task identifier
 optional field
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:61743
+Defined in: main.ts:64146
 
 domain name
 required field if advertiser_ids is not specified
@@ -330,7 +330,7 @@ domain name associated with an advertiser account
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61862
+Defined in: main.ts:64265
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: main.ts:61862
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61897
+Defined in: main.ts:64300
 
 #### Parameters
 
@@ -366,7 +366,7 @@ Defined in: main.ts:61897
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsSearchTaskPostRequestInfo`](SerpGoogleAdsSearchTaskPostRequestInfo.md)
 
-Defined in: main.ts:61890
+Defined in: main.ts:64293
 
 #### Parameters
 

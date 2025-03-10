@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveHtmlRequestInfo
 
-Defined in: main.ts:77916
+Defined in: main.ts:80319
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:77916
 
 > **new SerpYahooOrganicLiveHtmlRequestInfo**(`data`?): [`SerpYahooOrganicLiveHtmlRequestInfo`](SerpYahooOrganicLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:78011
+Defined in: main.ts:80414
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78011
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:77996
+Defined in: main.ts:80399
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:77973
+Defined in: main.ts:80376
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:77930
+Defined in: main.ts:80333
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77968
+Defined in: main.ts:80371
 
 search engine language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:77961
+Defined in: main.ts:80364
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77944
+Defined in: main.ts:80347
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:77954
+Defined in: main.ts:80357
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:77937
+Defined in: main.ts:80340
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -196,7 +196,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:78003
+Defined in: main.ts:80406
 
 page crawl limit
 optional field
@@ -215,7 +215,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:77980
+Defined in: main.ts:80383
 
 device operating system
 optional field
@@ -234,7 +234,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:77987
+Defined in: main.ts:80390
 
 search engine domain
 optional field
@@ -253,7 +253,7 @@ au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:78007
+Defined in: main.ts:80410
 
 additional parameters of the search query
 optional field
@@ -269,7 +269,7 @@ get the list of available parameters and additional details here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:77922
+Defined in: main.ts:80325
 
 direct URL of the search query
 optional field
@@ -287,7 +287,7 @@ https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78020
+Defined in: main.ts:80423
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:78020
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78049
+Defined in: main.ts:80452
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Defined in: main.ts:78049
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicLiveHtmlRequestInfo`](SerpYahooOrganicLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:78042
+Defined in: main.ts:80445
 
 #### Parameters
 

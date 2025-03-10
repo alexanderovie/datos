@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107624
+Defined in: main.ts:116794
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107624
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:107631
+Defined in: main.ts:116801
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:107636
+Defined in: main.ts:116806
 
 ending date of stay
 in the format “year-month-date”
@@ -48,9 +48,10 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:107638
+Defined in: main.ts:116809
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -58,7 +59,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -74,7 +75,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -89,7 +90,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -104,7 +105,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107626
+Defined in: main.ts:116796
 
 title of the result in SERP
 
@@ -114,7 +115,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -128,7 +129,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

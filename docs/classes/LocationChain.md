@@ -6,7 +6,7 @@
 
 # Class: LocationChain
 
-Defined in: main.ts:219782
+Defined in: main.ts:228645
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:219782
 
 > **new LocationChain**(`data`?): [`LocationChain`](LocationChain.md)
 
-Defined in: main.ts:219796
+Defined in: main.ts:228659
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219796
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:219784
+Defined in: main.ts:228647
 
 card identifier
 
@@ -54,7 +54,7 @@ card identifier
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:219790
+Defined in: main.ts:228653
 
 client id
 learn more about the identifier in this help center article
@@ -69,7 +69,7 @@ learn more about the identifier in this help center article
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:219787
+Defined in: main.ts:228650
 
 feature identifier
 learn more about the identifier in this help center article
@@ -84,7 +84,7 @@ learn more about the identifier in this help center article
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:219792
+Defined in: main.ts:228655
 
 title of the element in the location chain
 
@@ -98,7 +98,7 @@ title of the element in the location chain
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219805
+Defined in: main.ts:228668
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:219805
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219825
+Defined in: main.ts:228688
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:219825
 
 > `static` **fromJS**(`data`): [`LocationChain`](LocationChain.md)
 
-Defined in: main.ts:219818
+Defined in: main.ts:228681
 
 #### Parameters
 

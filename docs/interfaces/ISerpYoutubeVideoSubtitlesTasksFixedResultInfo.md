@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
-Defined in: main.ts:72094
+Defined in: main.ts:74497
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:72094
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:72104
+Defined in: main.ts:74507
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:72112
+Defined in: main.ts:74515
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:72115
+Defined in: main.ts:74518
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:72109
+Defined in: main.ts:74512
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:72097
+Defined in: main.ts:74500
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:72099
+Defined in: main.ts:74502
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:72102
+Defined in: main.ts:74505
 
 type of search engine
 can take the following values: video_subtitles
@@ -93,6 +93,6 @@ can take the following values: video_subtitles
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:72106
+Defined in: main.ts:74509
 
 user-defined task identifier

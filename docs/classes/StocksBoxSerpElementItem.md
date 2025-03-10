@@ -6,7 +6,7 @@
 
 # Class: StocksBoxSerpElementItem
 
-Defined in: main.ts:35109
+Defined in: main.ts:37126
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35109
 
 > **new StocksBoxSerpElementItem**(`data`?): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
-Defined in: main.ts:35135
+Defined in: main.ts:37158
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35135
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35122
+Defined in: main.ts:37145
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:35131
+Defined in: main.ts:37154
 
 contains data provided in the graph of the element
 
@@ -88,7 +88,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:37130
 
 the alignment of the element in SERP
 can take the following values:
@@ -98,17 +98,13 @@ left, right
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`position`](../interfaces/IStocksBoxSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35118
+Defined in: main.ts:37141
 
 price indicated in the element
 
@@ -122,7 +118,7 @@ price indicated in the element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,7 +137,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -161,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35126
+Defined in: main.ts:37149
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -177,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:35116
+Defined in: main.ts:37139
 
 text alongside the link title
 
@@ -191,7 +187,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35114
+Defined in: main.ts:37137
 
 source of the element
 indicates the source of the video
@@ -206,7 +202,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:35129
+Defined in: main.ts:37152
 
 results table
 if there are none, equals null
@@ -221,7 +217,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35111
+Defined in: main.ts:37134
 
 title of the row
 
@@ -235,7 +231,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -253,7 +249,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35120
+Defined in: main.ts:37143
 
 source URL
 
@@ -267,7 +263,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:37132
 
 the XPath of the element
 
@@ -275,17 +271,13 @@ the XPath of the element
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`xpath`](../interfaces/IStocksBoxSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35140
+Defined in: main.ts:37163
 
 #### Parameters
 
@@ -307,7 +299,7 @@ Defined in: main.ts:35140
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35166
+Defined in: main.ts:37191
 
 #### Parameters
 
@@ -329,7 +321,7 @@ Defined in: main.ts:35166
 
 > `static` **fromJS**(`data`): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
-Defined in: main.ts:35159
+Defined in: main.ts:37184
 
 #### Parameters
 

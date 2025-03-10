@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantAmazonInfo
 
-Defined in: main.ts:232164
+Defined in: main.ts:241027
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232164
 
 > **new AppendixMerchantAmazonInfo**(`data`?): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:232171
+Defined in: main.ts:241034
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232171
 
 > `optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232165
+Defined in: main.ts:241028
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232165
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232166
+Defined in: main.ts:241029
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232166
 
 > `optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232167
+Defined in: main.ts:241030
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232167
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232180
+Defined in: main.ts:241043
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:232180
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232199
+Defined in: main.ts:241062
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:232199
 
 > `static` **fromJS**(`data`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:232192
+Defined in: main.ts:241055
 
 #### Parameters
 

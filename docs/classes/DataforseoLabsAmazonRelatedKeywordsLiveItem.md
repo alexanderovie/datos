@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveItem
 
-Defined in: main.ts:112566
+Defined in: main.ts:121911
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:112566
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
-Defined in: main.ts:112579
+Defined in: main.ts:121924
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112579
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:112572
+Defined in: main.ts:121917
 
 keyword search depth
 
@@ -54,7 +54,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:112570
+Defined in: main.ts:121915
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:112575
+Defined in: main.ts:121920
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -83,7 +83,7 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112568
+Defined in: main.ts:121913
 
 search engine type
 
@@ -97,7 +97,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112588
+Defined in: main.ts:121933
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:112588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112612
+Defined in: main.ts:121957
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:112612
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
-Defined in: main.ts:112605
+Defined in: main.ts:121950
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveRequestInfo
 
-Defined in: main.ts:230660
+Defined in: main.ts:239523
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:230660
 
 > **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-Defined in: main.ts:230677
+Defined in: main.ts:239540
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230677
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230673
+Defined in: main.ts:239536
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:230667
+Defined in: main.ts:239530
 
 target URLs
 required field
@@ -77,7 +77,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230686
+Defined in: main.ts:239549
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:230686
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230708
+Defined in: main.ts:239571
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:230708
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-Defined in: main.ts:230701
+Defined in: main.ts:239564
 
 #### Parameters
 

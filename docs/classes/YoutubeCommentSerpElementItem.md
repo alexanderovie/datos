@@ -6,7 +6,7 @@
 
 # Class: YoutubeCommentSerpElementItem
 
-Defined in: main.ts:73838
+Defined in: main.ts:76241
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:73838
 
 > **new YoutubeCommentSerpElementItem**(`data`?): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
-Defined in: main.ts:73861
+Defined in: main.ts:76264
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:73861
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:70506
+Defined in: main.ts:72909
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:70506
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:73840
+Defined in: main.ts:76243
 
 name of the author of the comment
 
@@ -74,7 +74,7 @@ name of the author of the comment
 
 > `optional` **author\_thumbnail**: `string`
 
-Defined in: main.ts:73842
+Defined in: main.ts:76245
 
 the URL of the page where the author’s channel logo is hosted
 
@@ -88,7 +88,7 @@ the URL of the page where the author’s channel logo is hosted
 
 > `optional` **author\_url**: `string`
 
-Defined in: main.ts:73844
+Defined in: main.ts:76247
 
 URL of the author’s channel
 
@@ -102,7 +102,7 @@ URL of the author’s channel
 
 > `optional` **likes\_count**: `number`
 
-Defined in: main.ts:73855
+Defined in: main.ts:76258
 
 number of likes on the comment
 
@@ -116,7 +116,7 @@ number of likes on the comment
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:73848
+Defined in: main.ts:76251
 
 displayed publication date
 
@@ -130,7 +130,7 @@ displayed publication date
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:70504
+Defined in: main.ts:72907
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -149,7 +149,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:70501
+Defined in: main.ts:72904
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -169,7 +169,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **reply\_count**: `number`
 
-Defined in: main.ts:73857
+Defined in: main.ts:76260
 
 number of replies on the comment
 
@@ -183,7 +183,7 @@ number of replies on the comment
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:73846
+Defined in: main.ts:76249
 
 text of the comment
 
@@ -197,7 +197,7 @@ text of the comment
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:73853
+Defined in: main.ts:76256
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -214,7 +214,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70497
+Defined in: main.ts:72900
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:73866
+Defined in: main.ts:76269
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:73866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:73891
+Defined in: main.ts:76294
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:73891
 
 > `static` **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
-Defined in: main.ts:73884
+Defined in: main.ts:76287
 
 #### Parameters
 

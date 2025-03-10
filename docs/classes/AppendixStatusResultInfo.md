@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusResultInfo
 
-Defined in: main.ts:239934
+Defined in: main.ts:248797
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:239934
 
 > **new AppendixStatusResultInfo**(`data`?): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-Defined in: main.ts:239965
+Defined in: main.ts:248828
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239965
 
 > `optional` **api**: `string`
 
-Defined in: main.ts:239949
+Defined in: main.ts:248812
 
 name of the API
 the list of APIs:
@@ -67,7 +67,7 @@ content_generation
 
 > `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
 
-Defined in: main.ts:239961
+Defined in: main.ts:248824
 
 array of objects that contain status information for API endpoints
 
@@ -81,7 +81,7 @@ array of objects that contain status information for API endpoints
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:239959
+Defined in: main.ts:248822
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -103,7 +103,7 @@ send_delay
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239974
+Defined in: main.ts:248837
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:239974
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239997
+Defined in: main.ts:248860
 
 #### Parameters
 
@@ -139,7 +139,7 @@ Defined in: main.ts:239997
 
 > `static` **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-Defined in: main.ts:239990
+Defined in: main.ts:248853
 
 #### Parameters
 

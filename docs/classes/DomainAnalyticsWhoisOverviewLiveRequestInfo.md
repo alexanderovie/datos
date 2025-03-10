@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:89110
+Defined in: main.ts:98407
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:89110
 
 > **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:89161
+Defined in: main.ts:98458
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89161
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:89135
+Defined in: main.ts:98432
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:89115
+Defined in: main.ts:98412
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:89120
+Defined in: main.ts:98417
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:89151
+Defined in: main.ts:98448
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:89157
+Defined in: main.ts:98454
 
 user-defined task identifier
 optional field
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89170
+Defined in: main.ts:98467
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:89170
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89199
+Defined in: main.ts:98496
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: main.ts:89199
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:89192
+Defined in: main.ts:98489
 
 #### Parameters
 

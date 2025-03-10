@@ -6,7 +6,7 @@
 
 # Interface: IScreenshotItem
 
-Defined in: main.ts:26250
+Defined in: main.ts:27635
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26250
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:26254
+Defined in: main.ts:27639
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage

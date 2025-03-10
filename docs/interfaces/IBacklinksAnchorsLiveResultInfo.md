@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksAnchorsLiveResultInfo
 
-Defined in: main.ts:153357
+Defined in: main.ts:162702
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:153357
 
 > `optional` **items**: [`BacklinksAnchorsLiveItem`](../classes/BacklinksAnchorsLiveItem.md)[]
 
-Defined in: main.ts:153365
+Defined in: main.ts:162710
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:153363
+Defined in: main.ts:162708
 
 number of items in the results array
 
@@ -38,7 +38,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:153359
+Defined in: main.ts:162704
 
 target in the post array
 
@@ -48,6 +48,6 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:153361
+Defined in: main.ts:162706
 
 total number of relevant items in the database

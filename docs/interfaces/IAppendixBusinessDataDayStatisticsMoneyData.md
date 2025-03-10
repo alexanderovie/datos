@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataDayStatisticsMoneyData
 
-Defined in: main.ts:236116
+Defined in: main.ts:244979
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:236116
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236125
+Defined in: main.ts:244988
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:236125
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:236120
+Defined in: main.ts:244983
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:236120
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
 
-Defined in: main.ts:236117
+Defined in: main.ts:244980
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:236117
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:236119
+Defined in: main.ts:244982
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:236119
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:236118
+Defined in: main.ts:244981
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:236118
 
 > `optional` **refund\_money**: `number`
 
-Defined in: main.ts:236127
+Defined in: main.ts:244990
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:236127
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236122
+Defined in: main.ts:244985
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:236122
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:236126
+Defined in: main.ts:244989
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:236126
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236123
+Defined in: main.ts:244986
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:236123
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236124
+Defined in: main.ts:244987
 
 ***
 
@@ -98,4 +98,4 @@ Defined in: main.ts:236124
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:236121
+Defined in: main.ts:244984

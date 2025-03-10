@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:30733
+Defined in: main.ts:32328
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30733
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30749
+Defined in: main.ts:32350
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:30740
+Defined in: main.ts:32341
 
 starting date of stay
 in the format “year-month-date”
@@ -47,7 +47,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:30745
+Defined in: main.ts:32346
 
 ending date of stay
 in the format “year-month-date”
@@ -60,7 +60,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:30752
+Defined in: main.ts:32353
 
 additional items present in the element
 if there are none, equals null
@@ -71,15 +71,11 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:32332
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -87,7 +83,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -102,7 +98,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -118,7 +114,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30756
+Defined in: main.ts:32357
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -130,7 +126,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30735
+Defined in: main.ts:32336
 
 title of a given link element
 
@@ -140,7 +136,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -154,10 +150,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:32334
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

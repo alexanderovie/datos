@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveItem
 
-Defined in: main.ts:159610
+Defined in: main.ts:168955
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:159610
 
 > **new BacklinksTimeseriesSummaryLiveItem**(`data`?): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
-Defined in: main.ts:159646
+Defined in: main.ts:168991
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159646
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:159622
+Defined in: main.ts:168967
 
 number of backlinks for the given date
 
@@ -54,7 +54,7 @@ number of backlinks for the given date
 
 > `optional` **backlinks\_nofollow**: `number`
 
-Defined in: main.ts:159624
+Defined in: main.ts:168969
 
 number of nofollow backlinks for the given date
 
@@ -68,7 +68,7 @@ number of nofollow backlinks for the given date
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:159617
+Defined in: main.ts:168962
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,7 +85,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:159620
+Defined in: main.ts:168965
 
 target rank for the given date
 learn more about the metric and how it is calculated in this help center article
@@ -100,7 +100,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:159631
+Defined in: main.ts:168976
 
 number of referring domains for the given date
 referring domains include subdomains that are counted as separate domains for this metric
@@ -115,7 +115,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:159633
+Defined in: main.ts:168978
 
 number of domains pointing at least one nofollow link to the target for the given date
 
@@ -129,7 +129,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:159640
+Defined in: main.ts:168985
 
 number of referring IP addresses for the given date
 number of IP addresses pointing to this page
@@ -144,7 +144,7 @@ number of IP addresses pointing to this page
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:159635
+Defined in: main.ts:168980
 
 number of referring main domains for the given date
 
@@ -158,7 +158,7 @@ number of referring main domains for the given date
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:159637
+Defined in: main.ts:168982
 
 number of main domains pointing at least one nofollow link to the target for the given date
 
@@ -172,7 +172,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:159626
+Defined in: main.ts:168971
 
 number of pages pointing to target for the given date
 
@@ -186,7 +186,7 @@ number of pages pointing to target for the given date
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:159628
+Defined in: main.ts:168973
 
 number of referring pages pointing at least one nofollow link to the target for the given date
 
@@ -200,7 +200,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:159642
+Defined in: main.ts:168987
 
 number of referring subnetworks for the given date
 
@@ -214,7 +214,7 @@ number of referring subnetworks for the given date
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:159612
+Defined in: main.ts:168957
 
 type of element
 
@@ -228,7 +228,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159655
+Defined in: main.ts:169000
 
 #### Parameters
 
@@ -246,7 +246,7 @@ Defined in: main.ts:159655
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159684
+Defined in: main.ts:169029
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Defined in: main.ts:159684
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
-Defined in: main.ts:159677
+Defined in: main.ts:169022
 
 #### Parameters
 

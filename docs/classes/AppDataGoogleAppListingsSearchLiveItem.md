@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveItem
 
-Defined in: main.ts:204950
+Defined in: main.ts:213797
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:204950
 
 > **new AppDataGoogleAppListingsSearchLiveItem**(`data`?): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
-Defined in: main.ts:204972
+Defined in: main.ts:213819
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:204972
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:204952
+Defined in: main.ts:213799
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:204961
+Defined in: main.ts:213808
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:204968
+Defined in: main.ts:213815
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204958
+Defined in: main.ts:213805
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204956
+Defined in: main.ts:213803
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204954
+Defined in: main.ts:213801
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:204966
+Defined in: main.ts:213813
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -142,7 +142,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204981
+Defined in: main.ts:213828
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:204981
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205004
+Defined in: main.ts:213851
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:205004
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
-Defined in: main.ts:204997
+Defined in: main.ts:213844
 
 #### Parameters
 

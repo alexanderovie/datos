@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
-Defined in: main.ts:182973
+Defined in: main.ts:191812
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182973
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:182981
+Defined in: main.ts:191820
 
 paraphrased version of the given text
 
@@ -28,7 +28,7 @@ paraphrased version of the given text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:182975
+Defined in: main.ts:191814
 
 number of input tokens in the POST request
 
@@ -38,7 +38,7 @@ number of input tokens in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:182979
+Defined in: main.ts:191818
 
 number of new tokens in the response
 
@@ -48,6 +48,6 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:182977
+Defined in: main.ts:191816
 
 number of output tokens in the response

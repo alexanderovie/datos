@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsIdListRequestInfo
 
-Defined in: main.ts:84459
+Defined in: main.ts:93756
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:84459
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:84467
+Defined in: main.ts:93764
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:84474
+Defined in: main.ts:93771
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:84493
+Defined in: main.ts:93790
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:84479
+Defined in: main.ts:93776
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:84484
+Defined in: main.ts:93781
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:84489
+Defined in: main.ts:93786
 
 sorting by task execution time
 optional field

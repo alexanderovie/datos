@@ -6,7 +6,7 @@
 
 # Interface: ICoursesElement
 
-Defined in: main.ts:37979
+Defined in: main.ts:40300
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37979
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:37994
+Defined in: main.ts:40315
 
 the date when the page source of the element was published
 
@@ -28,7 +28,7 @@ the date when the page source of the element was published
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37992
+Defined in: main.ts:40313
 
 description
 
@@ -38,7 +38,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37987
+Defined in: main.ts:40308
 
 website domain
 
@@ -48,7 +48,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37997
+Defined in: main.ts:40318
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -59,7 +59,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:38000
+Defined in: main.ts:40321
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -70,7 +70,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37990
+Defined in: main.ts:40311
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -81,7 +81,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37983
+Defined in: main.ts:40304
 
 title of a given link element
 
@@ -91,7 +91,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37981
+Defined in: main.ts:40302
 
 type of element
 
@@ -101,6 +101,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37985
+Defined in: main.ts:40306
 
 URL

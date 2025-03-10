@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentRequestInfo
 
-Defined in: main.ts:169020
+Defined in: main.ts:178365
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:169020
 
 > **new OnPageDuplicateContentRequestInfo**(`data`?): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-Defined in: main.ts:169054
+Defined in: main.ts:178399
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169054
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:169026
+Defined in: main.ts:178371
 
 ID of the task
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:169039
+Defined in: main.ts:178384
 
 the maximum number of returned pages
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:169044
+Defined in: main.ts:178389
 
 offset in the results array of returned pages
 optional field
@@ -92,7 +92,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **similarity**: `number`
 
-Defined in: main.ts:169034
+Defined in: main.ts:178379
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -108,7 +108,7 @@ you can specify any similarity score in the 0-to-10 range
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:169050
+Defined in: main.ts:178395
 
 user-defined task identifier
 optional field
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:169030
+Defined in: main.ts:178375
 
 page URL
 required field
@@ -142,7 +142,7 @@ specify the initial page you want to receive duplicate content for
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169063
+Defined in: main.ts:178408
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:169063
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169085
+Defined in: main.ts:178430
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:169085
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-Defined in: main.ts:169078
+Defined in: main.ts:178423
 
 #### Parameters
 

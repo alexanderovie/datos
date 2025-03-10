@@ -6,7 +6,7 @@
 
 # Interface: ITopicListDataItemInfo
 
-Defined in: main.ts:135306
+Defined in: main.ts:144651
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:135306
 
 > `optional` **topic\_id**: `string`
 
-Defined in: main.ts:135308
+Defined in: main.ts:144653
 
 unique topic identifier in Google Trends
 
@@ -28,7 +28,7 @@ unique topic identifier in Google Trends
 
 > `optional` **topic\_title**: `string`
 
-Defined in: main.ts:135310
+Defined in: main.ts:144655
 
 title of the topic
 
@@ -38,7 +38,7 @@ title of the topic
 
 > `optional` **topic\_type**: `string`
 
-Defined in: main.ts:135313
+Defined in: main.ts:144658
 
 type of the topic
 represents the general type of the topic
@@ -49,7 +49,7 @@ represents the general type of the topic
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:135316
+Defined in: main.ts:144661
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.

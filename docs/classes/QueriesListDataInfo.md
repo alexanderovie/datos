@@ -6,7 +6,7 @@
 
 # Class: QueriesListDataInfo
 
-Defined in: main.ts:134615
+Defined in: main.ts:143960
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134615
 
 > **new QueriesListDataInfo**(`data`?): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-Defined in: main.ts:134625
+Defined in: main.ts:143970
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134625
 
 > `optional` **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
-Defined in: main.ts:134621
+Defined in: main.ts:143966
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -55,7 +55,7 @@ represents the list of related topics with the biggest increase in search freque
 
 > `optional` **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
-Defined in: main.ts:134618
+Defined in: main.ts:143963
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -70,7 +70,7 @@ represents the list of the most popular related topics
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134634
+Defined in: main.ts:143979
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:134634
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134660
+Defined in: main.ts:144005
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:134660
 
 > `static` **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-Defined in: main.ts:134653
+Defined in: main.ts:143998
 
 #### Parameters
 

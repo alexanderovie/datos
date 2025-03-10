@@ -6,7 +6,7 @@
 
 # Interface: IWorkTimeInfo
 
-Defined in: main.ts:23081
+Defined in: main.ts:23886
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23081
 
 > `optional` **hour**: `number`
 
-Defined in: main.ts:23083
+Defined in: main.ts:23888
 
 hours in the 24-hour format
 
@@ -28,6 +28,6 @@ hours in the 24-hour format
 
 > `optional` **minute**: `number`
 
-Defined in: main.ts:23085
+Defined in: main.ts:23890
 
 minutes

@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231380
+Defined in: main.ts:240243
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231380
 
 > **new AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231388
+Defined in: main.ts:240251
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231388
 
 > `optional` **demography**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231383
+Defined in: main.ts:240246
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231383
 
 > `optional` **explore**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231381
+Defined in: main.ts:240244
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231381
 
 > `optional` **merged\_data**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231384
+Defined in: main.ts:240247
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231384
 
 > `optional` **subregion\_interests**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231382
+Defined in: main.ts:240245
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231382
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231397
+Defined in: main.ts:240260
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:231397
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231417
+Defined in: main.ts:240280
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:231417
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231410
+Defined in: main.ts:240273
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: PaidSerpElementItem
 
-Defined in: main.ts:28557
+Defined in: main.ts:29966
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:28557
 
 > **new PaidSerpElementItem**(`data`?): [`PaidSerpElementItem`](PaidSerpElementItem.md)
 
-Defined in: main.ts:28600
+Defined in: main.ts:30015
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:28600
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:28565
+Defined in: main.ts:29980
 
 breadcrumb in SERP
 
@@ -74,7 +74,7 @@ breadcrumb in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:28579
+Defined in: main.ts:29994
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:28582
+Defined in: main.ts:29997
 
 extended description
 if there is none, equals null
@@ -103,7 +103,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:28561
+Defined in: main.ts:29976
 
 domain name of the reference
 
@@ -117,7 +117,7 @@ domain name of the reference
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:28577
+Defined in: main.ts:29992
 
 additional information about the result
 
@@ -135,7 +135,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:28575
+Defined in: main.ts:29990
 
 words highlighted in bold within the results description
 
@@ -149,7 +149,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:28571
+Defined in: main.ts:29986
 
 images of the element
 
@@ -163,7 +163,7 @@ images of the element
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:28567
+Defined in: main.ts:29982
 
 indicates whether the element contains an image
 
@@ -177,7 +177,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:28569
+Defined in: main.ts:29984
 
 indicates whether the element contains a video
 
@@ -191,7 +191,7 @@ indicates whether the element contains a video
 
 > `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-Defined in: main.ts:28586
+Defined in: main.ts:30001
 
 sitelinks
 the links shown below some of Google’s search results
@@ -207,7 +207,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:29970
 
 the alignment of the element in SERP
 can take the following values:
@@ -217,17 +217,13 @@ left, right
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`position`](../interfaces/IPaidSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:28589
+Defined in: main.ts:30004
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -242,7 +238,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -261,7 +257,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -281,7 +277,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:28592
+Defined in: main.ts:30007
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -296,7 +292,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:28596
+Defined in: main.ts:30011
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -312,7 +308,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:28559
+Defined in: main.ts:29974
 
 title of the result in SERP
 
@@ -326,7 +322,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -344,7 +340,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:28573
+Defined in: main.ts:29988
 
 relevant URL in SERP
 
@@ -358,7 +354,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:28563
+Defined in: main.ts:29978
 
 name of the website in SERP
 
@@ -372,7 +368,7 @@ name of the website in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:29972
 
 the XPath of the element
 
@@ -380,17 +376,13 @@ the XPath of the element
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`xpath`](../interfaces/IPaidSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:28605
+Defined in: main.ts:30020
 
 #### Parameters
 
@@ -412,7 +404,7 @@ Defined in: main.ts:28605
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:28660
+Defined in: main.ts:30077
 
 #### Parameters
 
@@ -434,7 +426,7 @@ Defined in: main.ts:28660
 
 > `static` **fromJS**(`data`): [`PaidSerpElementItem`](PaidSerpElementItem.md)
 
-Defined in: main.ts:28653
+Defined in: main.ts:30070
 
 #### Parameters
 

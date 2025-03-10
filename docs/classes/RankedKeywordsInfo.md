@@ -6,7 +6,7 @@
 
 # Class: RankedKeywordsInfo
 
-Defined in: main.ts:151904
+Defined in: main.ts:161249
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:151904
 
 > **new RankedKeywordsInfo**(`data`?): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
-Defined in: main.ts:151914
+Defined in: main.ts:161259
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151914
 
 > `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
-Defined in: main.ts:151908
+Defined in: main.ts:161253
 
 number of keywords for which the page is ranked in top 10 search results
 
@@ -54,7 +54,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
-Defined in: main.ts:151910
+Defined in: main.ts:161255
 
 number of keywords for which the page is ranked in top 100 search results
 
@@ -68,7 +68,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
-Defined in: main.ts:151906
+Defined in: main.ts:161251
 
 number of keywords for which the page is ranked in top 3 search results
 
@@ -82,7 +82,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151923
+Defined in: main.ts:161268
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:151923
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151942
+Defined in: main.ts:161287
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:151942
 
 > `static` **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
-Defined in: main.ts:151935
+Defined in: main.ts:161280
 
 #### Parameters
 

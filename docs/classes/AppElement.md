@@ -6,7 +6,7 @@
 
 # Class: AppElement
 
-Defined in: main.ts:32757
+Defined in: main.ts:34518
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32757
 
 > **new AppElement**(`data`?): [`AppElement`](AppElement.md)
 
-Defined in: main.ts:32771
+Defined in: main.ts:34532
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32771
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32763
+Defined in: main.ts:34524
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:32767
+Defined in: main.ts:34528
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32761
+Defined in: main.ts:34522
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32759
+Defined in: main.ts:34520
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32765
+Defined in: main.ts:34526
 
 URL
 
@@ -110,7 +110,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32780
+Defined in: main.ts:34541
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:32780
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32801
+Defined in: main.ts:34562
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:32801
 
 > `static` **fromJS**(`data`): [`AppElement`](AppElement.md)
 
-Defined in: main.ts:32794
+Defined in: main.ts:34555
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
-Defined in: main.ts:212467
+Defined in: main.ts:221322
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212467
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:212473
+Defined in: main.ts:221328
 
 business categories
 optional field
@@ -32,7 +32,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:212478
+Defined in: main.ts:221333
 
 description of the element in SERP
 optional field
@@ -45,7 +45,7 @@ can contain up to 200 characters
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:212506
+Defined in: main.ts:221361
 
 array of results filtering parameters
 optional field
@@ -64,7 +64,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:212511
+Defined in: main.ts:221366
 
 maximum number of elements within internal arrays
 optional field
@@ -77,7 +77,7 @@ default value: 10
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:212486
+Defined in: main.ts:221341
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -88,7 +88,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:212516
+Defined in: main.ts:221371
 
 the maximum number of returned businesses
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:212495
+Defined in: main.ts:221350
 
 GPS coordinates of a location
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:212519
+Defined in: main.ts:221374
 
 the maximum number of returned businesses
 optional field
@@ -129,7 +129,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:212525
+Defined in: main.ts:221380
 
 user-defined task identifier
 optional field
@@ -143,7 +143,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:212483
+Defined in: main.ts:221338
 
 title of the element in SERP
 optional field

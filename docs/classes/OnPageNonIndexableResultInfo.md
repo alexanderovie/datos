@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableResultInfo
 
-Defined in: main.ts:170658
+Defined in: main.ts:180003
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170658
 
 > **new OnPageNonIndexableResultInfo**(`data`?): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
-Defined in: main.ts:170673
+Defined in: main.ts:180018
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170673
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:170661
+Defined in: main.ts:180006
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:170663
+Defined in: main.ts:180008
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)[]
 
-Defined in: main.ts:170669
+Defined in: main.ts:180014
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170667
+Defined in: main.ts:180012
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:170665
+Defined in: main.ts:180010
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170682
+Defined in: main.ts:180027
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:170682
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170707
+Defined in: main.ts:180052
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:170707
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
-Defined in: main.ts:170700
+Defined in: main.ts:180045
 
 #### Parameters
 

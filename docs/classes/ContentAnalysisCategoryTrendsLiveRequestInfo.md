@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
 
-Defined in: main.ts:180906
+Defined in: main.ts:189745
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:180906
 
 > **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:180979
+Defined in: main.ts:189818
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180979
 
 > `optional` **category\_code**: `string`
 
-Defined in: main.ts:180910
+Defined in: main.ts:189749
 
 target category code
 required field
@@ -56,7 +56,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:180940
+Defined in: main.ts:189779
 
 starting date of the time range
 required field
@@ -74,7 +74,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:180952
+Defined in: main.ts:189791
 
 time range which will be used to group the results
 optional field
@@ -91,7 +91,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:180947
+Defined in: main.ts:189786
 
 ending date of the time range
 optional field
@@ -110,7 +110,7 @@ example:
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:180969
+Defined in: main.ts:189808
 
 initial dataset filtering parameters
 optional field
@@ -139,7 +139,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:180934
+Defined in: main.ts:189773
 
 maximum number of elements within internal arrays
 optional field
@@ -162,7 +162,7 @@ maximum value: 20
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:180916
+Defined in: main.ts:189755
 
 target page types
 optional field
@@ -180,7 +180,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:180923
+Defined in: main.ts:189762
 
 results grouping type
 optional field
@@ -199,7 +199,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180975
+Defined in: main.ts:189814
 
 user-defined task identifier
 optional field
@@ -217,7 +217,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180988
+Defined in: main.ts:189827
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:180988
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181021
+Defined in: main.ts:189860
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:181021
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:181014
+Defined in: main.ts:189853
 
 #### Parameters
 

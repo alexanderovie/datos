@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:29586
+Defined in: main.ts:31053
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29586
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29592
+Defined in: main.ts:31065
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29596
+Defined in: main.ts:31069
 
 elements of search results found in SERP
 
@@ -44,7 +44,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:29594
+Defined in: main.ts:31067
 
 link of the element
 
@@ -54,15 +54,11 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21404
+Defined in: main.ts:31057
 
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
 ***
 
@@ -70,7 +66,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21400
+Defined in: main.ts:22134
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -85,7 +81,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21397
+Defined in: main.ts:22131
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -101,7 +97,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29600
+Defined in: main.ts:31073
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -113,7 +109,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29588
+Defined in: main.ts:31061
 
 title of the result in SERP
 
@@ -123,7 +119,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21393
+Defined in: main.ts:22127
 
 type of element
 
@@ -137,10 +133,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21406
+Defined in: main.ts:31059
 
 the XPath of the element
-
-#### Inherited from
-
-[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)

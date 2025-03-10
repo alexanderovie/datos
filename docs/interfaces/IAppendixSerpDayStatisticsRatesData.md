@@ -6,7 +6,7 @@
 
 # Interface: IAppendixSerpDayStatisticsRatesData
 
-Defined in: main.ts:233859
+Defined in: main.ts:242722
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:233859
 
 > `optional` **ai\_summary**: `number`
 
-Defined in: main.ts:233871
+Defined in: main.ts:242734
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:233871
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:233866
+Defined in: main.ts:242729
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:233866
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:233870
+Defined in: main.ts:242733
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:233870
 
 > `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:233868
+Defined in: main.ts:242731
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:233868
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:233864
+Defined in: main.ts:242727
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:233864
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:233865
+Defined in: main.ts:242728
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:233865
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:233863
+Defined in: main.ts:242726
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:233863
 
 > `optional` **screenshot**: `number`
 
-Defined in: main.ts:233869
+Defined in: main.ts:242732
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:233869
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:233861
+Defined in: main.ts:242724
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:233861
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:233860
+Defined in: main.ts:242723
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:233860
 
 > `optional` **tasks\_fixed**: `number`
 
-Defined in: main.ts:233867
+Defined in: main.ts:242730
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: main.ts:233867
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:233862
+Defined in: main.ts:242725

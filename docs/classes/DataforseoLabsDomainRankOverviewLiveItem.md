@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
 
-Defined in: main.ts:105276
+Defined in: main.ts:114565
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105276
 
 > **new DataforseoLabsDomainRankOverviewLiveItem**(`data`?): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
-Defined in: main.ts:105288
+Defined in: main.ts:114577
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105288
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105282
+Defined in: main.ts:114571
 
 language code in a POST array
 
@@ -54,7 +54,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105280
+Defined in: main.ts:114569
 
 location code in a POST array
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:105284
+Defined in: main.ts:114573
 
 ranking data relevant to the specified domain
 
@@ -86,7 +86,7 @@ ranking data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105278
+Defined in: main.ts:114567
 
 search engine type
 
@@ -100,7 +100,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105297
+Defined in: main.ts:114586
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:105297
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105323
+Defined in: main.ts:114612
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:105323
 
 > `static` **fromJS**(`data`): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
-Defined in: main.ts:105316
+Defined in: main.ts:114605
 
 #### Parameters
 

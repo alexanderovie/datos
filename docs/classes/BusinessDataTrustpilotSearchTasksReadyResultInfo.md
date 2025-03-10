@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResultInfo
 
-Defined in: main.ts:226254
+Defined in: main.ts:235117
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:226254
 
 > **new BusinessDataTrustpilotSearchTasksReadyResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
-Defined in: main.ts:226272
+Defined in: main.ts:235135
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:226272
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:226264
+Defined in: main.ts:235127
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:226268
+Defined in: main.ts:235131
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:226257
+Defined in: main.ts:235120
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:226260
+Defined in: main.ts:235123
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -98,7 +98,7 @@ can take the following values: trustpilot
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:226262
+Defined in: main.ts:235125
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:226266
+Defined in: main.ts:235129
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226281
+Defined in: main.ts:235144
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:226281
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226303
+Defined in: main.ts:235166
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:226303
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
-Defined in: main.ts:226296
+Defined in: main.ts:235159
 
 #### Parameters
 

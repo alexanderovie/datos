@@ -6,7 +6,7 @@
 
 # Interface: IUserProfileInfo
 
-Defined in: main.ts:195037
+Defined in: main.ts:203884
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:195037
 
 > `optional` **avatar**: `string`
 
-Defined in: main.ts:195041
+Defined in: main.ts:203888
 
 URL to the profile picture of the reviewer
 
@@ -28,7 +28,7 @@ URL to the profile picture of the reviewer
 
 > `optional` **locations**: `string`
 
-Defined in: main.ts:195047
+Defined in: main.ts:203894
 
 country of the reviewer
 
@@ -38,7 +38,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:195039
+Defined in: main.ts:203886
 
 the name of the reviewer
 
@@ -48,7 +48,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:195045
+Defined in: main.ts:203892
 
 total number of reviews submitted by the reviewer
 
@@ -58,6 +58,6 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:195043
+Defined in: main.ts:203890
 
 relevant url

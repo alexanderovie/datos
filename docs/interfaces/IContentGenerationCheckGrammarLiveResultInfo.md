@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
-Defined in: main.ts:183381
+Defined in: main.ts:192220
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:183381
 
 > `optional` **initial\_text**: `string`
 
-Defined in: main.ts:183389
+Defined in: main.ts:192228
 
 initial text in the POST request
 
@@ -28,7 +28,7 @@ initial text in the POST request
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:183383
+Defined in: main.ts:192222
 
 number of input tokens in the POST request
 
@@ -38,7 +38,7 @@ number of input tokens in the POST request
 
 > `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
 
-Defined in: main.ts:183395
+Defined in: main.ts:192234
 
 contains grammar or spelling errors and related data
 
@@ -48,7 +48,7 @@ contains grammar or spelling errors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183393
+Defined in: main.ts:192232
 
 the number of results returned in the items array
 
@@ -58,7 +58,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183391
+Defined in: main.ts:192230
 
 language code in the POST request
 
@@ -68,7 +68,7 @@ language code in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:183387
+Defined in: main.ts:192226
 
 number of new tokens in the response
 
@@ -78,6 +78,6 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:183385
+Defined in: main.ts:192224
 
 number of output tokens in the response

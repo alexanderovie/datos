@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
-Defined in: main.ts:112134
+Defined in: main.ts:121479
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:112134
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:112138
+Defined in: main.ts:121483
 
 keyword in a POST array
 
@@ -28,7 +28,7 @@ keyword in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112136
+Defined in: main.ts:121481
 
 search engine type
 
@@ -38,7 +38,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:112141
+Defined in: main.ts:121486
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon

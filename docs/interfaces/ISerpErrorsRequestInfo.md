@@ -6,7 +6,7 @@
 
 # Interface: ISerpErrorsRequestInfo
 
-Defined in: main.ts:25842
+Defined in: main.ts:27227
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25842
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:25865
+Defined in: main.ts:27250
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:25872
+Defined in: main.ts:27257
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:25858
+Defined in: main.ts:27243
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:25847
+Defined in: main.ts:27232
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:25852
+Defined in: main.ts:27237
 
 offset in the results array of returned tasks
 optional field

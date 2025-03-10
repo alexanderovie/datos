@@ -6,7 +6,7 @@
 
 # Class: BacklinksAnchorsLiveRequestInfo
 
-Defined in: main.ts:152706
+Defined in: main.ts:162051
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:152706
 
 > **new BacklinksAnchorsLiveRequestInfo**(`data`?): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-Defined in: main.ts:152806
+Defined in: main.ts:162151
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:152806
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:152780
+Defined in: main.ts:162125
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:152741
+Defined in: main.ts:162086
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:152796
+Defined in: main.ts:162141
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:152758
+Defined in: main.ts:162103
 
 array of results filtering parameters
 optional field
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:152791
+Defined in: main.ts:162136
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:152785
+Defined in: main.ts:162130
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:152732
+Defined in: main.ts:162077
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:152716
+Defined in: main.ts:162061
 
 the maximum number of returned anchors
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:152721
+Defined in: main.ts:162066
 
 offset in the results array of returned anchors
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:152772
+Defined in: main.ts:162117
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:152802
+Defined in: main.ts:162147
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:152711
+Defined in: main.ts:162056
 
 domain, subdomain or webpage to get anchors for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:152815
+Defined in: main.ts:162160
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:152815
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:152855
+Defined in: main.ts:162200
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:152855
 
 > `static` **fromJS**(`data`): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-Defined in: main.ts:152848
+Defined in: main.ts:162193
 
 #### Parameters
 

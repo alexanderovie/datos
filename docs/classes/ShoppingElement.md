@@ -6,7 +6,7 @@
 
 # Class: ShoppingElement
 
-Defined in: main.ts:33371
+Defined in: main.ts:35212
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33371
 
 > **new ShoppingElement**(`data`?): [`ShoppingElement`](ShoppingElement.md)
 
-Defined in: main.ts:33399
+Defined in: main.ts:35240
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33399
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33382
+Defined in: main.ts:35223
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:33387
+Defined in: main.ts:35228
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -71,7 +71,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:33390
+Defined in: main.ts:35231
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -86,7 +86,7 @@ URL of the page on the marketplace website where the product is hosted
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:33377
+Defined in: main.ts:35218
 
 price indicated in the element
 
@@ -100,7 +100,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:33395
+Defined in: main.ts:35236
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -115,7 +115,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:33380
+Defined in: main.ts:35221
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -130,7 +130,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33375
+Defined in: main.ts:35216
 
 title of a given link element
 
@@ -144,7 +144,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33373
+Defined in: main.ts:35214
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33392
+Defined in: main.ts:35233
 
 URL
 
@@ -172,7 +172,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33408
+Defined in: main.ts:35249
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:33408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33433
+Defined in: main.ts:35274
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:33433
 
 > `static` **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
 
-Defined in: main.ts:33426
+Defined in: main.ts:35267
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISpellInfo
 
-Defined in: main.ts:24430
+Defined in: main.ts:25235
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24430
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:24433
+Defined in: main.ts:25238
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -29,7 +29,7 @@ the results will be provided for the corrected keyword
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24439
+Defined in: main.ts:25244
 
 type of autocorrection
 possible values:

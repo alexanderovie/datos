@@ -6,7 +6,7 @@
 
 # Class: AppendixSerpLimitsRatesDataInfo
 
-Defined in: main.ts:231104
+Defined in: main.ts:239967
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231104
 
 > **new AppendixSerpLimitsRatesDataInfo**(`data`?): [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231118
+Defined in: main.ts:239981
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231118
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:231111
+Defined in: main.ts:239974
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231111
 
 > `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231113
+Defined in: main.ts:239976
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231113
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:231109
+Defined in: main.ts:239972
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231109
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231110
+Defined in: main.ts:239973
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231110
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:231108
+Defined in: main.ts:239971
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:231108
 
 > `optional` **screenshot**: `number`
 
-Defined in: main.ts:231114
+Defined in: main.ts:239977
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:231114
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:231106
+Defined in: main.ts:239969
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:231106
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:231105
+Defined in: main.ts:239968
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:231105
 
 > `optional` **tasks\_fixed**: `number`
 
-Defined in: main.ts:231112
+Defined in: main.ts:239975
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:231112
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:231107
+Defined in: main.ts:239970
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:231107
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231127
+Defined in: main.ts:239990
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:231127
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231153
+Defined in: main.ts:240016
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:231153
 
 > `static` **fromJS**(`data`): [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231146
+Defined in: main.ts:240009
 
 #### Parameters
 

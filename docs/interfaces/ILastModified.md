@@ -6,7 +6,7 @@
 
 # Interface: ILastModified
 
-Defined in: main.ts:167005
+Defined in: main.ts:176350
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:167005
 
 > `optional` **header**: `string`
 
-Defined in: main.ts:167011
+Defined in: main.ts:176356
 
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -32,7 +32,7 @@ if there is no data, the value will be null
 
 > `optional` **meta\_tag**: `string`
 
-Defined in: main.ts:167023
+Defined in: main.ts:176368
 
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -46,7 +46,7 @@ if there is no data, the value will be null
 
 > `optional` **sitemap**: `string`
 
-Defined in: main.ts:167017
+Defined in: main.ts:176362
 
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsDemographyInfo
 
-Defined in: main.ts:137644
+Defined in: main.ts:146989
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:137644
 
 > `optional` **demography**: [`Demography`](../classes/Demography.md)
 
-Defined in: main.ts:137655
+Defined in: main.ts:147000
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -29,7 +29,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
-Defined in: main.ts:137659
+Defined in: main.ts:147004
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -41,7 +41,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:137652
+Defined in: main.ts:146997
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
@@ -52,7 +52,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:137647
+Defined in: main.ts:146992
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -63,6 +63,6 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:137649
+Defined in: main.ts:146994
 
 type of element

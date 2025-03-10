@@ -6,7 +6,7 @@
 
 # Interface: ILinkElement
 
-Defined in: main.ts:23592
+Defined in: main.ts:24397
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23592
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:23600
+Defined in: main.ts:24405
 
 description of the results element
 
@@ -28,7 +28,7 @@ description of the results element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:23604
+Defined in: main.ts:24409
 
 domain where a link points
 
@@ -38,7 +38,7 @@ domain where a link points
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:23598
+Defined in: main.ts:24403
 
 text alongside the link title
 
@@ -48,7 +48,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23596
+Defined in: main.ts:24401
 
 title of a given link element
 
@@ -58,7 +58,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23594
+Defined in: main.ts:24399
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23602
+Defined in: main.ts:24407
 
 URL
 
@@ -78,6 +78,6 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23606
+Defined in: main.ts:24411
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
-Defined in: main.ts:128418
+Defined in: main.ts:137763
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:128418
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:128480
+Defined in: main.ts:137825
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:128488
+Defined in: main.ts:137833
 
 ending date of the time range
 optional field
@@ -50,7 +50,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:128494
+Defined in: main.ts:137839
 
 include keywords associated with adult content
 optional field
@@ -64,7 +64,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128467
+Defined in: main.ts:137812
 
 search engine language code
 optional field
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:128461
+Defined in: main.ts:137806
 
 full name of search engine language
 optional field
@@ -92,7 +92,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128446
+Defined in: main.ts:137791
 
 search engine location code
 optional field
@@ -108,7 +108,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:128455
+Defined in: main.ts:137800
 
 GPS coordinates of a location
 optional field
@@ -125,7 +125,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:128438
+Defined in: main.ts:137783
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:128521
+Defined in: main.ts:137866
 
 notification URL of a completed task
 optional field
@@ -160,7 +160,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:128510
+Defined in: main.ts:137855
 
 return URL for sending task results
 optional field
@@ -179,7 +179,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:128472
+Defined in: main.ts:137817
 
 include Google search partners
 optional field
@@ -192,7 +192,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:128499
+Defined in: main.ts:137844
 
 results sorting parameters
 optional field
@@ -205,7 +205,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:128527
+Defined in: main.ts:137872
 
 user-defined task identifier
 optional field
@@ -219,7 +219,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:128423
+Defined in: main.ts:137768
 
 domain or page
 required field
@@ -232,7 +232,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 > `optional` **target\_type**: `string`
 
-Defined in: main.ts:128430
+Defined in: main.ts:137775
 
 search keywords for site or url
 optional field

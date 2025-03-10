@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
-Defined in: main.ts:221224
+Defined in: main.ts:230087
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:221224
 
 > **new BusinessDataGoogleHotelInfoLiveAdvancedResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:221274
+Defined in: main.ts:230137
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221274
 
 > `optional` **about**: [`HotelAboutInfo`](HotelAboutInfo.md)
 
-Defined in: main.ts:221258
+Defined in: main.ts:230121
 
 information about the hotel
 
@@ -54,7 +54,7 @@ information about the hotel
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:221253
+Defined in: main.ts:230116
 
 hotel address
 physical address of the hotel
@@ -69,7 +69,7 @@ physical address of the hotel
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:221236
+Defined in: main.ts:230099
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -84,7 +84,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:221241
+Defined in: main.ts:230104
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -101,7 +101,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:221229
+Defined in: main.ts:230092
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
@@ -118,7 +118,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:221233
+Defined in: main.ts:230096
 
 language code in a POST array
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 > `optional` **location**: [`Location`](Location.md)
 
-Defined in: main.ts:221261
+Defined in: main.ts:230124
 
 information about the hotel location
 information about the location where the hotel is located
@@ -147,7 +147,7 @@ information about the location where the hotel is located
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:221231
+Defined in: main.ts:230094
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **overview\_images**: `string`[]
 
-Defined in: main.ts:221267
+Defined in: main.ts:230130
 
 images displayed in the hotel overview
 array containing URLs to images displayed in the hotel overview
@@ -176,7 +176,7 @@ array containing URLs to images displayed in the hotel overview
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:221256
+Defined in: main.ts:230119
 
 hotel phone number
 contact phone number of the hotel
@@ -191,7 +191,7 @@ contact phone number of the hotel
 
 > `optional` **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
 
-Defined in: main.ts:221270
+Defined in: main.ts:230133
 
 pricing details of the hotel entity
 contains information about the hotel’s prices
@@ -206,7 +206,7 @@ contains information about the hotel’s prices
 
 > `optional` **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
 
-Defined in: main.ts:221264
+Defined in: main.ts:230127
 
 hotel reviews by criteria
 information about reviews of the hotel entity
@@ -221,7 +221,7 @@ information about reviews of the hotel entity
 
 > `optional` **stars**: `number`
 
-Defined in: main.ts:221247
+Defined in: main.ts:230110
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary
@@ -236,7 +236,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 > `optional` **stars\_description**: `string`
 
-Defined in: main.ts:221250
+Defined in: main.ts:230113
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary
@@ -251,7 +251,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:221244
+Defined in: main.ts:230107
 
 hotel title
 the title of the hotel entity for which the results are collected
@@ -266,7 +266,7 @@ the title of the hotel entity for which the results are collected
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221283
+Defined in: main.ts:230146
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:221283
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221318
+Defined in: main.ts:230181
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: main.ts:221318
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:221311
+Defined in: main.ts:230174
 
 #### Parameters
 

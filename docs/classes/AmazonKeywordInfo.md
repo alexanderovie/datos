@@ -6,7 +6,7 @@
 
 # Class: AmazonKeywordInfo
 
-Defined in: main.ts:23853
+Defined in: main.ts:24658
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:23853
 
 > **new AmazonKeywordInfo**(`data`?): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-Defined in: main.ts:23866
+Defined in: main.ts:24671
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23866
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:23859
+Defined in: main.ts:24664
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -56,7 +56,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:23855
+Defined in: main.ts:24660
 
 search engine type
 
@@ -70,7 +70,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:23862
+Defined in: main.ts:24667
 
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon
@@ -85,7 +85,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23875
+Defined in: main.ts:24680
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:23875
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23894
+Defined in: main.ts:24699
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:23894
 
 > `static` **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-Defined in: main.ts:23887
+Defined in: main.ts:24692
 
 #### Parameters
 

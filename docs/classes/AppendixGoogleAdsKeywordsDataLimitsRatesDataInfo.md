@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231316
+Defined in: main.ts:240179
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231316
 
 > **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231325
+Defined in: main.ts:240188
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231325
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231321
+Defined in: main.ts:240184
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231321
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231319
+Defined in: main.ts:240182
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231319
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231320
+Defined in: main.ts:240183
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231320
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231318
+Defined in: main.ts:240181
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231318
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:231317
+Defined in: main.ts:240180
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:231317
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231334
+Defined in: main.ts:240197
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:231334
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231355
+Defined in: main.ts:240218
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:231355
 
 > `static` **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231348
+Defined in: main.ts:240211
 
 #### Parameters
 

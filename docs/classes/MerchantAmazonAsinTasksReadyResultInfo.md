@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTasksReadyResultInfo
 
-Defined in: main.ts:194246
+Defined in: main.ts:203093
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194246
 
 > **new MerchantAmazonAsinTasksReadyResultInfo**(`data`?): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
-Defined in: main.ts:194266
+Defined in: main.ts:203113
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194266
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:194256
+Defined in: main.ts:203103
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:194260
+Defined in: main.ts:203107
 
 URL for collecting the results of the Amazon ASIN Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:194262
+Defined in: main.ts:203109
 
 URL for collecting the results of the Amazon ASIN HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:194249
+Defined in: main.ts:203096
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:194251
+Defined in: main.ts:203098
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:194254
+Defined in: main.ts:203101
 
 type of search engine
 can take the following values: shopping
@@ -126,7 +126,7 @@ can take the following values: shopping
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:194258
+Defined in: main.ts:203105
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194275
+Defined in: main.ts:203122
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:194275
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194298
+Defined in: main.ts:203145
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:194298
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)
 
-Defined in: main.ts:194291
+Defined in: main.ts:203138
 
 #### Parameters
 

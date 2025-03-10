@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksPageMeta
 
-Defined in: main.ts:153943
+Defined in: main.ts:163288
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:153943
 
 > `optional` **canonical**: `string`
 
-Defined in: main.ts:153947
+Defined in: main.ts:163292
 
 canonical page
 
@@ -28,7 +28,7 @@ canonical page
 
 > `optional` **charset**: `string`
 
-Defined in: main.ts:153983
+Defined in: main.ts:163328
 
 character encoding
 examples:
@@ -40,7 +40,7 @@ utf-8
 
 > `optional` **external\_links\_count**: `number`
 
-Defined in: main.ts:153951
+Defined in: main.ts:163296
 
 number of external links on the page
 
@@ -50,7 +50,7 @@ number of external links on the page
 
 > `optional` **h1**: `string`[]
 
-Defined in: main.ts:153965
+Defined in: main.ts:163310
 
 h1 tag
 content of h1 tags
@@ -61,7 +61,7 @@ content of h1 tags
 
 > `optional` **h2**: `string`[]
 
-Defined in: main.ts:153968
+Defined in: main.ts:163313
 
 h2 tag
 content of h2 tags
@@ -72,7 +72,7 @@ content of h2 tags
 
 > `optional` **h3**: `string`[]
 
-Defined in: main.ts:153971
+Defined in: main.ts:163316
 
 h3 tag
 content of h3 tags
@@ -83,7 +83,7 @@ content of h3 tags
 
 > `optional` **images\_alt**: `string`[]
 
-Defined in: main.ts:153973
+Defined in: main.ts:163318
 
 content of alt tags
 
@@ -93,7 +93,7 @@ content of alt tags
 
 > `optional` **images\_count**: `number`
 
-Defined in: main.ts:153953
+Defined in: main.ts:163298
 
 number of images on the page
 
@@ -103,7 +103,7 @@ number of images on the page
 
 > `optional` **internal\_links\_count**: `number`
 
-Defined in: main.ts:153949
+Defined in: main.ts:163294
 
 number of internal links on the page
 
@@ -113,7 +113,7 @@ number of internal links on the page
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:153979
+Defined in: main.ts:163324
 
 page content language
 example:
@@ -125,7 +125,7 @@ en
 
 > `optional` **page\_spam\_score**: `number`
 
-Defined in: main.ts:153958
+Defined in: main.ts:163303
 
 spam score of the page
 learn more about how the metric is calculated on this help center page
@@ -136,7 +136,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **platform\_type**: `string`[]
 
-Defined in: main.ts:153985
+Defined in: main.ts:163330
 
 type of a platform
 
@@ -146,7 +146,7 @@ type of a platform
 
 > `optional` **powered\_by**: `string`[]
 
-Defined in: main.ts:153975
+Defined in: main.ts:163320
 
 CMS details
 
@@ -156,7 +156,7 @@ CMS details
 
 > `optional` **social\_media\_tags**: `object`
 
-Defined in: main.ts:153962
+Defined in: main.ts:163307
 
 array of social media tags found on the page
 contains social media tags and their content
@@ -172,7 +172,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 > `optional` **technologies**: `object`
 
-Defined in: main.ts:153987
+Defined in: main.ts:163332
 
 website technologies
 
@@ -186,7 +186,7 @@ website technologies
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:153945
+Defined in: main.ts:163290
 
 page title
 
@@ -196,6 +196,6 @@ page title
 
 > `optional` **words\_count**: `number`
 
-Defined in: main.ts:153955
+Defined in: main.ts:163300
 
 number of words on the page

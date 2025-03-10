@@ -6,7 +6,7 @@
 
 # Class: BusinessDataUserProfileInfo
 
-Defined in: main.ts:227204
+Defined in: main.ts:236067
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:227204
 
 > **new BusinessDataUserProfileInfo**(`data`?): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:227218
+Defined in: main.ts:236081
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:227218
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:227210
+Defined in: main.ts:236073
 
 URL to the reviewer’s profile picture
 
@@ -54,7 +54,7 @@ URL to the reviewer’s profile picture
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:227212
+Defined in: main.ts:236075
 
 country of the reviewer
 
@@ -68,7 +68,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:227206
+Defined in: main.ts:236069
 
 the name of the reviewer
 
@@ -82,7 +82,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:227214
+Defined in: main.ts:236077
 
 total number of reviews submitted by the reviewer
 
@@ -96,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:227208
+Defined in: main.ts:236071
 
 URL to the reviewer’s profile
 
@@ -110,7 +110,7 @@ URL to the reviewer’s profile
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:227227
+Defined in: main.ts:236090
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:227227
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:227248
+Defined in: main.ts:236111
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:227248
 
 > `static` **fromJS**(`data`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:227241
+Defined in: main.ts:236104
 
 #### Parameters
 

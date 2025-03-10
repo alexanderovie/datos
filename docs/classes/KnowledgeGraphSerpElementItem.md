@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphSerpElementItem
 
-Defined in: main.ts:31025
+Defined in: main.ts:32642
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:31025
 
 > **new KnowledgeGraphSerpElementItem**(`data`?): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
-Defined in: main.ts:31054
+Defined in: main.ts:32677
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:31054
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:31033
+Defined in: main.ts:32656
 
 card id
 
@@ -74,7 +74,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:31044
+Defined in: main.ts:32667
 
 google-defined client id
 unique id of a local establishment;
@@ -90,7 +90,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31031
+Defined in: main.ts:32654
 
 description of the results element in SERP
 
@@ -104,7 +104,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31038
+Defined in: main.ts:32661
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:31046
+Defined in: main.ts:32669
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -133,7 +133,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:31040
+Defined in: main.ts:32663
 
 URL of the logo from knowledge graph
 
@@ -147,7 +147,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:32646
 
 the alignment of the element in SERP
 can take the following values:
@@ -157,17 +157,13 @@ left, right
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -186,7 +182,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -206,7 +202,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31050
+Defined in: main.ts:32673
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -222,7 +218,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:31029
+Defined in: main.ts:32652
 
 subtitle of the item
 
@@ -236,7 +232,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31027
+Defined in: main.ts:32650
 
 title of the result in SERP
 
@@ -250,7 +246,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -268,7 +264,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31035
+Defined in: main.ts:32658
 
 relevant URL in SERP
 
@@ -282,7 +278,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:32648
 
 the XPath of the element
 
@@ -290,17 +286,13 @@ the XPath of the element
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31059
+Defined in: main.ts:32682
 
 #### Parameters
 
@@ -322,7 +314,7 @@ Defined in: main.ts:31059
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31090
+Defined in: main.ts:32715
 
 #### Parameters
 
@@ -344,7 +336,7 @@ Defined in: main.ts:31090
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
-Defined in: main.ts:31083
+Defined in: main.ts:32708
 
 #### Parameters
 

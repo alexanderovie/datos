@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
-Defined in: main.ts:210908
+Defined in: main.ts:219755
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:210908
 
 > **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:210914
+Defined in: main.ts:219761
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210914
 
 > `optional` **categories\_aggregation**: `object`
 
-Defined in: main.ts:210910
+Defined in: main.ts:219757
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:210910
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:210909
+Defined in: main.ts:219756
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:210909
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210923
+Defined in: main.ts:219770
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:210923
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210953
+Defined in: main.ts:219800
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: main.ts:210953
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:210946
+Defined in: main.ts:219793
 
 #### Parameters
 

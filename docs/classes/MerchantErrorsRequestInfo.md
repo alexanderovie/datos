@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsRequestInfo
 
-Defined in: main.ts:184718
+Defined in: main.ts:193557
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:184718
 
 > **new MerchantErrorsRequestInfo**(`data`?): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
-Defined in: main.ts:184752
+Defined in: main.ts:193591
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184752
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:184741
+Defined in: main.ts:193580
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:184748
+Defined in: main.ts:193587
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:184734
+Defined in: main.ts:193573
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:184723
+Defined in: main.ts:193562
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:184728
+Defined in: main.ts:193567
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184761
+Defined in: main.ts:193600
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:184761
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184782
+Defined in: main.ts:193621
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:184782
 
 > `static` **fromJS**(`data`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
 
-Defined in: main.ts:184775
+Defined in: main.ts:193614
 
 #### Parameters
 

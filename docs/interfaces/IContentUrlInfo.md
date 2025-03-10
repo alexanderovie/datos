@@ -6,7 +6,7 @@
 
 # Interface: IContentUrlInfo
 
-Defined in: main.ts:173965
+Defined in: main.ts:26339
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173965
 
 > `optional` **anchor\_text**: `string`
 
-Defined in: main.ts:173969
+Defined in: main.ts:26343
 
 text of the URL’s anchor
 
@@ -28,6 +28,6 @@ text of the URL’s anchor
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:173967
+Defined in: main.ts:26341
 
-other URL found in the content element
+contains other URLs and anchors found in the content element

@@ -6,7 +6,7 @@
 
 # Class: OnPageResourcesResultInfo
 
-Defined in: main.ts:168224
+Defined in: main.ts:177641
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168224
 
 > **new OnPageResourcesResultInfo**(`data`?): [`OnPageResourcesResultInfo`](OnPageResourcesResultInfo.md)
 
-Defined in: main.ts:168239
+Defined in: main.ts:177656
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168239
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:168227
+Defined in: main.ts:177644
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:168229
+Defined in: main.ts:177646
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:168235
+Defined in: main.ts:177652
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:168233
+Defined in: main.ts:177650
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:168231
+Defined in: main.ts:177648
 
 total number of relevant items crawled
 
@@ -111,7 +111,7 @@ total number of relevant items crawled
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168248
+Defined in: main.ts:177665
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:168248
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168273
+Defined in: main.ts:177690
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:168273
 
 > `static` **fromJS**(`data`): [`OnPageResourcesResultInfo`](OnPageResourcesResultInfo.md)
 
-Defined in: main.ts:168266
+Defined in: main.ts:177683
 
 #### Parameters
 

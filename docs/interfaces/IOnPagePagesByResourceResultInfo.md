@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePagesByResourceResultInfo
 
-Defined in: main.ts:167624
+Defined in: main.ts:176969
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:167624
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:167627
+Defined in: main.ts:176972
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:167629
+Defined in: main.ts:176974
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:167635
+Defined in: main.ts:176980
 
 items array
 
@@ -49,7 +49,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:167633
+Defined in: main.ts:176978
 
 number of items in the results array
 
@@ -59,6 +59,6 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:167631
+Defined in: main.ts:176976
 
 total number of relevant items in the database

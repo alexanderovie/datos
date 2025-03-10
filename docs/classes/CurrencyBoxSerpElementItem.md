@@ -6,7 +6,7 @@
 
 # Class: CurrencyBoxSerpElementItem
 
-Defined in: main.ts:36419
+Defined in: main.ts:38580
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36419
 
 > **new CurrencyBoxSerpElementItem**(`data`?): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
-Defined in: main.ts:36448
+Defined in: main.ts:38615
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36448
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **converted\_currency**: `string`
 
-Defined in: main.ts:36430
+Defined in: main.ts:38597
 
 converted currency
 
@@ -74,7 +74,7 @@ converted currency
 
 > `optional` **converted\_value**: `number`
 
-Defined in: main.ts:36425
+Defined in: main.ts:38592
 
 value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
@@ -90,7 +90,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:36428
+Defined in: main.ts:38595
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -105,7 +105,7 @@ ISO code of the currency applied to the price
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:36440
+Defined in: main.ts:38607
 
 contains data provided in the graph of the element
 
@@ -119,7 +119,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:38584
 
 the alignment of the element in SERP
 can take the following values:
@@ -129,17 +129,13 @@ left, right
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`position`](../interfaces/ICurrencyBoxSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -158,7 +154,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -178,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36444
+Defined in: main.ts:38611
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -194,7 +190,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:36438
+Defined in: main.ts:38605
 
 results table
 if there are none, equals null
@@ -209,7 +205,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:36435
+Defined in: main.ts:38602
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -226,7 +222,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -244,7 +240,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:36421
+Defined in: main.ts:38588
 
 the value of the rating
 
@@ -258,7 +254,7 @@ the value of the rating
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:38586
 
 the XPath of the element
 
@@ -266,17 +262,13 @@ the XPath of the element
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`xpath`](../interfaces/ICurrencyBoxSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36453
+Defined in: main.ts:38620
 
 #### Parameters
 
@@ -298,7 +290,7 @@ Defined in: main.ts:36453
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36478
+Defined in: main.ts:38647
 
 #### Parameters
 
@@ -320,7 +312,7 @@ Defined in: main.ts:36478
 
 > `static` **fromJS**(`data`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
-Defined in: main.ts:36471
+Defined in: main.ts:38640
 
 #### Parameters
 

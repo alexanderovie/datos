@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkBacklinksLiveItem
 
-Defined in: main.ts:160878
+Defined in: main.ts:170223
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:160878
 
 > **new BacklinksBulkBacklinksLiveItem**(`data`?): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
-Defined in: main.ts:160886
+Defined in: main.ts:170231
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160886
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:160882
+Defined in: main.ts:170227
 
 number of backlinks pointing to the target
 
@@ -54,7 +54,7 @@ number of backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160880
+Defined in: main.ts:170225
 
 domain, subdomain or webpage from a POST array
 
@@ -68,7 +68,7 @@ domain, subdomain or webpage from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160895
+Defined in: main.ts:170240
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:160895
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160913
+Defined in: main.ts:170258
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:160913
 
 > `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
-Defined in: main.ts:160906
+Defined in: main.ts:170251
 
 #### Parameters
 

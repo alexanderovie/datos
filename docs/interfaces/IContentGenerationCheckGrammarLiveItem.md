@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 
-Defined in: main.ts:183278
+Defined in: main.ts:192117
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:183278
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:183282
+Defined in: main.ts:192121
 
 description of the grammar or spelling error
 
@@ -28,7 +28,7 @@ description of the grammar or spelling error
 
 > `optional` **length**: `number`
 
-Defined in: main.ts:183288
+Defined in: main.ts:192127
 
 offset token for subsequent requests
 
@@ -38,7 +38,7 @@ offset token for subsequent requests
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:183280
+Defined in: main.ts:192119
 
 message of the grammar or spelling error
 
@@ -48,7 +48,7 @@ message of the grammar or spelling error
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:183286
+Defined in: main.ts:192125
 
 offset token for subsequent requests
 
@@ -58,7 +58,7 @@ offset token for subsequent requests
 
 > `optional` **rule\_category\_id**: `string`
 
-Defined in: main.ts:183299
+Defined in: main.ts:192138
 
 id of the rule category
 
@@ -68,7 +68,7 @@ id of the rule category
 
 > `optional` **rule\_category\_name**: `string`
 
-Defined in: main.ts:183301
+Defined in: main.ts:192140
 
 name of the rule category
 
@@ -78,7 +78,7 @@ name of the rule category
 
 > `optional` **rule\_description**: `string`
 
-Defined in: main.ts:183295
+Defined in: main.ts:192134
 
 description of the grammar or spelling rule
 
@@ -88,7 +88,7 @@ description of the grammar or spelling rule
 
 > `optional` **rule\_id**: `string`
 
-Defined in: main.ts:183293
+Defined in: main.ts:192132
 
 id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API
@@ -99,7 +99,7 @@ see the List of Grammar Rules for Content Generation API
 
 > `optional` **rule\_issue\_type**: `string`
 
-Defined in: main.ts:183297
+Defined in: main.ts:192136
 
 type of the issue found by the relevant rule
 
@@ -109,7 +109,7 @@ type of the issue found by the relevant rule
 
 > `optional` **suggestions**: `string`[]
 
-Defined in: main.ts:183284
+Defined in: main.ts:192123
 
 suggested corrections
 
@@ -119,6 +119,6 @@ suggested corrections
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:183290
+Defined in: main.ts:192129
 
 type of element

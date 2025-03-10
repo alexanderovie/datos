@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:204205
+Defined in: main.ts:213052
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:204205
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:204207
+Defined in: main.ts:213054
 
 application id received in a POST array
 
@@ -28,7 +28,7 @@ application id received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:204218
+Defined in: main.ts:213065
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:204223
+Defined in: main.ts:213070
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:204237
+Defined in: main.ts:213084
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -63,7 +63,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:204234
+Defined in: main.ts:213081
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204215
+Defined in: main.ts:213062
 
 language code in a POST array
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204213
+Defined in: main.ts:213060
 
 location code in a POST array
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:204229
+Defined in: main.ts:213076
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -105,7 +105,7 @@ rating of the application for which the reviews are collected
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:204231
+Defined in: main.ts:213078
 
 the total number of reviews
 
@@ -115,7 +115,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204211
+Defined in: main.ts:213058
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:204226
+Defined in: main.ts:213073
 
 title of the app
 title of the application for which the reviews are collected
@@ -136,6 +136,6 @@ title of the application for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:204209
+Defined in: main.ts:213056
 
 type of element

@@ -6,7 +6,7 @@
 
 # Interface: IImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106630
+Defined in: main.ts:115618
 
 ## Extends
 
@@ -22,9 +22,10 @@ Defined in: main.ts:106630
 
 > `optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:106638
+Defined in: main.ts:115627
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -32,7 +33,7 @@ elements of search results found in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -48,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -63,7 +64,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -78,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)
 
-Defined in: main.ts:106641
+Defined in: main.ts:115630
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -89,7 +90,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106632
+Defined in: main.ts:115620
 
 search engine type
 
@@ -99,7 +100,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106634
+Defined in: main.ts:115622
 
 title of the result in SERP
 
@@ -109,7 +110,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -123,9 +124,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106636
+Defined in: main.ts:115624
 
-relevant URL of the Ad element in SERP
+relevant URL
 
 ***
 
@@ -133,7 +134,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

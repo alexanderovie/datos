@@ -6,7 +6,7 @@
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108225
+Defined in: main.ts:117534
 
 ## Extends
 
@@ -22,9 +22,11 @@ Defined in: main.ts:108225
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108236
+Defined in: main.ts:117547
 
 google-defined client id
+unique id of a local establishment;
+can be used with Google Reviews API to get a full list of reviews
 
 ***
 
@@ -32,7 +34,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108234
+Defined in: main.ts:117543
 
 the additional feature of the review
 
@@ -42,7 +44,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:108232
+Defined in: main.ts:117541
 
 the identifier of a place
 
@@ -52,7 +54,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21703
+Defined in: main.ts:22508
 
 the alignment of the element in SERP
 can take the following values:
@@ -68,7 +70,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21699
+Defined in: main.ts:22504
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -83,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21696
+Defined in: main.ts:22501
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -98,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:108230
+Defined in: main.ts:117539
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -109,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:108227
+Defined in: main.ts:117536
 
 the number of reviews
 
@@ -119,7 +121,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21693
+Defined in: main.ts:22498
 
 type of element
 
@@ -133,7 +135,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21705
+Defined in: main.ts:22510
 
 the XPath of the element
 

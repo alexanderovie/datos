@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBingKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:231305
+Defined in: main.ts:240168
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231305
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231310
+Defined in: main.ts:240173
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:231310
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231306
+Defined in: main.ts:240169
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:231306
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231311
+Defined in: main.ts:240174
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:231311
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231309
+Defined in: main.ts:240172
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:231309
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231308
+Defined in: main.ts:240171
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: main.ts:231308
 
 > `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:231307
+Defined in: main.ts:240170

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsLiveAdvancedRequestInfo
 
-Defined in: main.ts:49519
+Defined in: main.ts:51922
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:49519
 
 > `optional` **date\_range**: `string`
 
-Defined in: main.ts:49573
+Defined in: main.ts:51976
 
 date range to get events for
 optional field
@@ -31,7 +31,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49595
+Defined in: main.ts:51998
 
 parsing depth
 optional field
@@ -48,7 +48,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49527
+Defined in: main.ts:51930
 
 keyword
 required field
@@ -64,7 +64,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49568
+Defined in: main.ts:51971
 
 search engine language code
 optional field
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49560
+Defined in: main.ts:51963
 
 full name of search engine language
 optional field
@@ -96,7 +96,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49541
+Defined in: main.ts:51944
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -111,7 +111,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49552
+Defined in: main.ts:51955
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -130,7 +130,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49534
+Defined in: main.ts:51937
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -145,7 +145,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49602
+Defined in: main.ts:52005
 
 page crawl limit
 optional field
@@ -160,7 +160,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49579
+Defined in: main.ts:51982
 
 device operating system
 optional field
@@ -174,7 +174,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49586
+Defined in: main.ts:51989
 
 search engine domain
 optional field
@@ -189,7 +189,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:49608
+Defined in: main.ts:52011
 
 user-defined task identifier
 optional field

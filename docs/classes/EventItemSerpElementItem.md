@@ -6,7 +6,7 @@
 
 # Class: EventItemSerpElementItem
 
-Defined in: main.ts:49005
+Defined in: main.ts:51392
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:49005
 
 > **new EventItemSerpElementItem**(`data`?): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
 
-Defined in: main.ts:49024
+Defined in: main.ts:51417
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:49024
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21045
+Defined in: main.ts:21783
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:49009
+Defined in: main.ts:51402
 
 description of the results element in SERP
 
@@ -74,7 +74,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](EventDates.md)
 
-Defined in: main.ts:49016
+Defined in: main.ts:51409
 
 dates when the event takes place
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:49013
+Defined in: main.ts:51406
 
 URL of the image featured in the element
 
@@ -103,7 +103,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:49020
+Defined in: main.ts:51413
 
 additional information and ticket purchase options
 
@@ -117,7 +117,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:49018
+Defined in: main.ts:51411
 
 information about the event’s venue
 
@@ -131,7 +131,7 @@ information about the event’s venue
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:21041
+Defined in: main.ts:51396
 
 the alignment of the element in SERP
 can take the following values:
@@ -141,17 +141,13 @@ left, right
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`position`](../interfaces/IEventItemSerpElementItem.md#position)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21037
+Defined in: main.ts:21781
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -170,7 +166,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21034
+Defined in: main.ts:21778
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -190,7 +186,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:49007
+Defined in: main.ts:51400
 
 title of the element
 
@@ -204,7 +200,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21030
+Defined in: main.ts:21774
 
 type of element
 
@@ -222,7 +218,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49011
+Defined in: main.ts:51404
 
 search URL with refinement parameters
 
@@ -236,7 +232,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:21043
+Defined in: main.ts:51398
 
 the XPath of the element
 
@@ -244,17 +240,13 @@ the XPath of the element
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`xpath`](../interfaces/IEventItemSerpElementItem.md#xpath)
 
-#### Inherited from
-
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49029
+Defined in: main.ts:51422
 
 #### Parameters
 
@@ -276,7 +268,7 @@ Defined in: main.ts:49029
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49057
+Defined in: main.ts:51452
 
 #### Parameters
 
@@ -298,7 +290,7 @@ Defined in: main.ts:49057
 
 > `static` **fromJS**(`data`): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
 
-Defined in: main.ts:49050
+Defined in: main.ts:51445
 
 #### Parameters
 
