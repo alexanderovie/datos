@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo
 
-Defined in: main.ts:222345
+Defined in: main.ts:224754
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:222345
 
 ## Constructors
 
-### new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`](BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo.md)
+> **new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
 
-Defined in: main.ts:222440
+Defined in: main.ts:224849
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:222440
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`](BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo.md)
+`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222440
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:222362
+Defined in: main.ts:224771
 
 keyword
 required field
@@ -69,7 +69,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:222408
+Defined in: main.ts:224817
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,7 +88,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:222401
+Defined in: main.ts:224810
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -107,7 +107,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:222384
+Defined in: main.ts:224793
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,7 +126,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:222394
+Defined in: main.ts:224803
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:222377
+Defined in: main.ts:224786
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,7 +167,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:222436
+Defined in: main.ts:224845
 
 notification URL of a completed task
 optional field
@@ -190,7 +190,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:222425
+Defined in: main.ts:224834
 
 return URL for sending task results
 optional field
@@ -213,7 +213,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:222370
+Defined in: main.ts:224779
 
 task priority
 optional field
@@ -233,7 +233,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:222414
+Defined in: main.ts:224823
 
 user-defined task identifier
 optional field
@@ -251,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222449
+Defined in: main.ts:224858
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:222449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222475
+Defined in: main.ts:224884
 
 #### Parameters
 
@@ -285,9 +285,9 @@ Defined in: main.ts:222475
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`](BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
 
-Defined in: main.ts:222468
+Defined in: main.ts:224877
 
 #### Parameters
 
@@ -297,4 +297,4 @@ Defined in: main.ts:222468
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`](BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo.md)
+`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: ILocalPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116678
+Defined in: main.ts:118061
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116678
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:116721
+Defined in: main.ts:118104
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -35,7 +35,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:116682
+Defined in: main.ts:118065
 
 description of the results element in SERP
 
@@ -45,7 +45,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:116684
+Defined in: main.ts:118067
 
 domain where a link points
 
@@ -55,7 +55,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:116712
+Defined in: main.ts:118095
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -68,7 +68,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:116702
+Defined in: main.ts:118085
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:116707
+Defined in: main.ts:118090
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -94,7 +94,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:116690
+Defined in: main.ts:118073
 
 indicates whether the element is an ad
 
@@ -104,7 +104,7 @@ indicates whether the element is an ad
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:116695
+Defined in: main.ts:118078
 
 primary domain name in SERP
 
@@ -114,7 +114,7 @@ primary domain name in SERP
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:116686
+Defined in: main.ts:118069
 
 phone number
 
@@ -124,7 +124,7 @@ phone number
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -140,7 +140,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
-Defined in: main.ts:116716
+Defined in: main.ts:118099
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -167,7 +167,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -182,7 +182,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:116693
+Defined in: main.ts:118076
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -193,7 +193,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:116697
+Defined in: main.ts:118080
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -203,7 +203,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116680
+Defined in: main.ts:118063
 
 title of the result in SERP
 
@@ -213,7 +213,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -227,7 +227,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:116688
+Defined in: main.ts:118071
 
 relevant URL
 
@@ -237,7 +237,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

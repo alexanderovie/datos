@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
-Defined in: main.ts:219417
+Defined in: main.ts:221826
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:219417
 
 ## Constructors
 
-### new BusinessDataBusinessListingsLocationsResultInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+> **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): `BusinessDataBusinessListingsLocationsResultInfo`
 
-Defined in: main.ts:219427
+Defined in: main.ts:221836
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:219427
 
 #### Returns
 
-[`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+`BusinessDataBusinessListingsLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219427
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:219423
+Defined in: main.ts:221832
 
 number of businesses in this location in our database
 
@@ -54,7 +54,7 @@ number of businesses in this location in our database
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:219421
+Defined in: main.ts:221830
 
 ISO country code of the location
 
@@ -68,7 +68,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:219419
+Defined in: main.ts:221828
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219436
+Defined in: main.ts:221845
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:219436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219455
+Defined in: main.ts:221864
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:219455
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsLocationsResultInfo`
 
-Defined in: main.ts:219448
+Defined in: main.ts:221857
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:219448
 
 #### Returns
 
-[`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
+`BusinessDataBusinessListingsLocationsResultInfo`

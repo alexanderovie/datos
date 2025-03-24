@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:99075
+Defined in: main.ts:100978
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99075
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveResultInfo()
+### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+> **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): `DomainAnalyticsWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:99085
+Defined in: main.ts:100988
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99085
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+`DomainAnalyticsWhoisOverviewLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99085
 
 > `optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:99081
+Defined in: main.ts:100984
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:99079
+Defined in: main.ts:100982
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:99077
+Defined in: main.ts:100980
 
 total amount of results in our database relevant to your request
 
@@ -82,7 +82,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99094
+Defined in: main.ts:100997
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:99094
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99117
+Defined in: main.ts:101020
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:99117
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:99110
+Defined in: main.ts:101013
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:99110
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+`DomainAnalyticsWhoisOverviewLiveResultInfo`

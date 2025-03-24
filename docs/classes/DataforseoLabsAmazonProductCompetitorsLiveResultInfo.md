@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
-Defined in: main.ts:123925
+Defined in: main.ts:126326
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:123925
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductCompetitorsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+> **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
 
-Defined in: main.ts:123945
+Defined in: main.ts:126346
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:123945
 
 #### Returns
 
-[`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123945
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:123929
+Defined in: main.ts:126330
 
 ASIN in a POST array
 
@@ -54,7 +54,7 @@ ASIN in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:123941
+Defined in: main.ts:126342
 
 contains detected Amazon product competitors and related data
 
@@ -68,7 +68,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123939
+Defined in: main.ts:126340
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123935
+Defined in: main.ts:126336
 
 language code in a POST array
 if there is no data, then the value is null
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123932
+Defined in: main.ts:126333
 
 location code in a POST array
 if there is no data, then the value is null
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123927
+Defined in: main.ts:126328
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123937
+Defined in: main.ts:126338
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123954
+Defined in: main.ts:126355
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:123954
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123981
+Defined in: main.ts:126382
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:123981
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
 
-Defined in: main.ts:123974
+Defined in: main.ts:126375
 
 #### Parameters
 
@@ -186,4 +186,4 @@ Defined in: main.ts:123974
 
 #### Returns
 
-[`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`

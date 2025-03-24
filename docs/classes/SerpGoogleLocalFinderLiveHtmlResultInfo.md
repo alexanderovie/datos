@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderLiveHtmlResultInfo
 
-Defined in: main.ts:47384
+Defined in: main.ts:47811
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:47384
 
 ## Constructors
 
-### new SerpGoogleLocalFinderLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleLocalFinderLiveHtmlResultInfo**(`data`?): [`SerpGoogleLocalFinderLiveHtmlResultInfo`](SerpGoogleLocalFinderLiveHtmlResultInfo.md)
+> **new SerpGoogleLocalFinderLiveHtmlResultInfo**(`data`?): `SerpGoogleLocalFinderLiveHtmlResultInfo`
 
-Defined in: main.ts:47408
+Defined in: main.ts:47835
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:47408
 
 #### Returns
 
-[`SerpGoogleLocalFinderLiveHtmlResultInfo`](SerpGoogleLocalFinderLiveHtmlResultInfo.md)
+`SerpGoogleLocalFinderLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:47408
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:47400
+Defined in: main.ts:47827
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:47404
+Defined in: main.ts:47831
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:47402
+Defined in: main.ts:47829
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:47387
+Defined in: main.ts:47814
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:47395
+Defined in: main.ts:47822
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:47393
+Defined in: main.ts:47820
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:47391
+Defined in: main.ts:47818
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:47389
+Defined in: main.ts:47816
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47417
+Defined in: main.ts:47844
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:47417
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47445
+Defined in: main.ts:47872
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:47445
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveHtmlResultInfo`](SerpGoogleLocalFinderLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocalFinderLiveHtmlResultInfo`
 
-Defined in: main.ts:47438
+Defined in: main.ts:47865
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:47438
 
 #### Returns
 
-[`SerpGoogleLocalFinderLiveHtmlResultInfo`](SerpGoogleLocalFinderLiveHtmlResultInfo.md)
+`SerpGoogleLocalFinderLiveHtmlResultInfo`

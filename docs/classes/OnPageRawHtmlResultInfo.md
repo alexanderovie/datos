@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlResultInfo
 
-Defined in: main.ts:181761
+Defined in: main.ts:184170
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181761
 
 ## Constructors
 
-### new OnPageRawHtmlResultInfo()
+### Constructor
 
-> **new OnPageRawHtmlResultInfo**(`data`?): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+> **new OnPageRawHtmlResultInfo**(`data`?): `OnPageRawHtmlResultInfo`
 
-Defined in: main.ts:181774
+Defined in: main.ts:184183
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:181774
 
 #### Returns
 
-[`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+`OnPageRawHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181774
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:181764
+Defined in: main.ts:184173
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:181766
+Defined in: main.ts:184175
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-Defined in: main.ts:181770
+Defined in: main.ts:184179
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:181768
+Defined in: main.ts:184177
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181783
+Defined in: main.ts:184192
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:181783
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181803
+Defined in: main.ts:184212
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:181803
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageRawHtmlResultInfo`
 
-Defined in: main.ts:181796
+Defined in: main.ts:184205
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:181796
 
 #### Returns
 
-[`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)
+`OnPageRawHtmlResultInfo`

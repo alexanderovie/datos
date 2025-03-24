@@ -6,7 +6,7 @@
 
 # Interface: IOnPageKeywordDensityRequestInfo
 
-Defined in: main.ts:180735
+Defined in: main.ts:183144
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180735
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:180774
+Defined in: main.ts:183183
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:180741
+Defined in: main.ts:183150
 
 ID of the task
 required field
@@ -57,7 +57,7 @@ example:
 
 > `optional` **keyword\_length**: `number`
 
-Defined in: main.ts:180746
+Defined in: main.ts:183155
 
 number of words for a keyword
 required field
@@ -70,7 +70,7 @@ possible values:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:180757
+Defined in: main.ts:183166
 
 the maximum number of returned keywords
 optional field
@@ -83,7 +83,7 @@ maximum value: 1000
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:180788
+Defined in: main.ts:183197
 
 results sorting rules
 optional field
@@ -105,7 +105,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180794
+Defined in: main.ts:183203
 
 user-defined task identifier
 optional field
@@ -119,7 +119,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:180752
+Defined in: main.ts:183161
 
 page URL
 optional field

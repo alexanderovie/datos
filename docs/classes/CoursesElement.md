@@ -6,7 +6,7 @@
 
 # Class: CoursesElement
 
-Defined in: main.ts:40222
+Defined in: main.ts:40649
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:40222
 
 ## Constructors
 
-### new CoursesElement()
+### Constructor
 
-> **new CoursesElement**(`data`?): [`CoursesElement`](CoursesElement.md)
+> **new CoursesElement**(`data`?): `CoursesElement`
 
-Defined in: main.ts:40247
+Defined in: main.ts:40674
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:40247
 
 #### Returns
 
-[`CoursesElement`](CoursesElement.md)
+`CoursesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:40247
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:40237
+Defined in: main.ts:40664
 
 the date when the page source of the element was published
 
@@ -54,7 +54,7 @@ the date when the page source of the element was published
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:40235
+Defined in: main.ts:40662
 
 description
 
@@ -68,7 +68,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:40230
+Defined in: main.ts:40657
 
 website domain
 
@@ -82,7 +82,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:40240
+Defined in: main.ts:40667
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -97,7 +97,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:40243
+Defined in: main.ts:40670
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -112,7 +112,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:40233
+Defined in: main.ts:40660
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -127,7 +127,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40226
+Defined in: main.ts:40653
 
 title of a given link element
 
@@ -141,7 +141,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:40224
+Defined in: main.ts:40651
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40228
+Defined in: main.ts:40655
 
 URL
 
@@ -169,7 +169,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40256
+Defined in: main.ts:40683
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:40256
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40281
+Defined in: main.ts:40708
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:40281
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CoursesElement`](CoursesElement.md)
+> `static` **fromJS**(`data`): `CoursesElement`
 
-Defined in: main.ts:40274
+Defined in: main.ts:40701
 
 #### Parameters
 
@@ -215,4 +215,4 @@ Defined in: main.ts:40274
 
 #### Returns
 
-[`CoursesElement`](CoursesElement.md)
+`CoursesElement`

@@ -6,7 +6,7 @@
 
 # Class: StylesheetResourceElementItem
 
-Defined in: main.ts:177463
+Defined in: main.ts:179872
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:177463
 
 ## Constructors
 
-### new StylesheetResourceElementItem()
+### Constructor
 
-> **new StylesheetResourceElementItem**(`data`?): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+> **new StylesheetResourceElementItem**(`data`?): `StylesheetResourceElementItem`
 
-Defined in: main.ts:177491
+Defined in: main.ts:179900
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:177491
 
 #### Returns
 
-[`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+`StylesheetResourceElementItem`
 
 #### Overrides
 
-[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:177491
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23144
+Defined in: main.ts:23483
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23144
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:177475
+Defined in: main.ts:179884
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -77,7 +77,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 > `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
-Defined in: main.ts:23130
+Defined in: main.ts:23469
 
 instructions for caching
 
@@ -95,7 +95,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:23133
+Defined in: main.ts:23472
 
 website checks
 on-page check-ups related to the page
@@ -118,7 +118,7 @@ on-page check-ups related to the page
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:23135
+Defined in: main.ts:23474
 
 type of encoding
 
@@ -136,7 +136,7 @@ type of encoding
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:177479
+Defined in: main.ts:179888
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -150,7 +150,7 @@ total time it takes until a browser receives a complete response from a server (
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:23120
+Defined in: main.ts:23459
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -169,7 +169,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:177485
+Defined in: main.ts:179894
 
 time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource
@@ -184,7 +184,7 @@ the amount of time the browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:177482
+Defined in: main.ts:179891
 
 time to start downloading the resource
 the amount of time the browser needs to start downloading a resource
@@ -199,7 +199,7 @@ the amount of time the browser needs to start downloading a resource
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:23128
+Defined in: main.ts:23467
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -220,7 +220,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:177470
+Defined in: main.ts:179879
 
 resource fething time range
 
@@ -234,7 +234,7 @@ resource fething time range
 
 > `optional` **initiator**: `string`
 
-Defined in: main.ts:177477
+Defined in: main.ts:179886
 
 resource initiator
 
@@ -248,7 +248,7 @@ resource initiator
 
 > `optional` **is\_render\_blocking**: `boolean`
 
-Defined in: main.ts:177487
+Defined in: main.ts:179896
 
 indicates whether the resource blocks rendering
 
@@ -262,7 +262,7 @@ indicates whether the resource blocks rendering
 
 > `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
-Defined in: main.ts:23142
+Defined in: main.ts:23481
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -281,7 +281,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23110
+Defined in: main.ts:23449
 
 location header
 indicates the URL to redirect a page to
@@ -300,7 +300,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:23137
+Defined in: main.ts:23476
 
 types of media used to display a page
 
@@ -318,7 +318,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:177468
+Defined in: main.ts:179877
 
 resource properties
 the value depends on the resource_type
@@ -335,7 +335,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:23114
+Defined in: main.ts:23453
 
 resource errors and warnings
 
@@ -353,7 +353,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:23105
+Defined in: main.ts:23444
 
 type of the returned resource
 
@@ -371,7 +371,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:23139
+Defined in: main.ts:23478
 
 server version
 
@@ -389,7 +389,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:23117
+Defined in: main.ts:23456
 
 resource size
 indicates the size of a given page measured in bytes
@@ -408,7 +408,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:23107
+Defined in: main.ts:23446
 
 status code of the page
 
@@ -426,7 +426,7 @@ status code of the page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:23123
+Defined in: main.ts:23462
 
 compressed page size
 indicates the compressed size of a given page
@@ -445,7 +445,7 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23112
+Defined in: main.ts:23451
 
 page URL
 
@@ -463,7 +463,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177496
+Defined in: main.ts:179905
 
 #### Parameters
 
@@ -485,7 +485,7 @@ Defined in: main.ts:177496
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177521
+Defined in: main.ts:179930
 
 #### Parameters
 
@@ -505,9 +505,9 @@ Defined in: main.ts:177521
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+> `static` **fromJS**(`data`): `StylesheetResourceElementItem`
 
-Defined in: main.ts:177514
+Defined in: main.ts:179923
 
 #### Parameters
 
@@ -517,7 +517,7 @@ Defined in: main.ts:177514
 
 #### Returns
 
-[`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+`StylesheetResourceElementItem`
 
 #### Overrides
 

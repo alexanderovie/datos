@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
-Defined in: main.ts:225297
+Defined in: main.ts:227706
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:225297
 
 > `optional` **business\_updates\_id**: `string`
 
-Defined in: main.ts:225320
+Defined in: main.ts:227729
 
 identifier of the business updates element in SERP
 
@@ -28,7 +28,7 @@ identifier of the business updates element in SERP
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:225313
+Defined in: main.ts:227722
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:225324
+Defined in: main.ts:227733
 
 google-defined client id
 unique id of a local establishment
@@ -51,7 +51,7 @@ learn more about the cid identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:225318
+Defined in: main.ts:227727
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,7 +64,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:225327
+Defined in: main.ts:227736
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -75,7 +75,7 @@ learn more about the identifier in this help center article
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:225331
+Defined in: main.ts:227740
 
 item types
 types of search engine results encountered in the items array;
@@ -87,7 +87,7 @@ possible item types: google_business_post
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:225338
+Defined in: main.ts:227747
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -99,7 +99,7 @@ possible item types: google_business_post
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:225334
+Defined in: main.ts:227743
 
 item types
 the number of items in the items array
@@ -110,7 +110,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225304
+Defined in: main.ts:227713
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -125,7 +125,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:225310
+Defined in: main.ts:227719
 
 language code in a POST array
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:225308
+Defined in: main.ts:227717
 
 location code in a POST array
 
@@ -145,6 +145,6 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:225306
+Defined in: main.ts:227715
 
 search engine domain as specified in a POST array

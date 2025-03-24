@@ -6,7 +6,7 @@
 
 # Class: AppendixSerpPriceDataInfo
 
-Defined in: main.ts:246497
+Defined in: main.ts:248462
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246497
 
 ## Constructors
 
-### new AppendixSerpPriceDataInfo()
+### Constructor
 
-> **new AppendixSerpPriceDataInfo**(`data`?): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> **new AppendixSerpPriceDataInfo**(`data`?): `AppendixSerpPriceDataInfo`
 
-Defined in: main.ts:246504
+Defined in: main.ts:248469
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246504
 
 #### Returns
 
-[`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+`AppendixSerpPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246504
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246500
+Defined in: main.ts:248464
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246500
 
 > `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246499
+Defined in: main.ts:248465
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246499
 
 > `optional` **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246498
+Defined in: main.ts:248463
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:246498
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246513
+Defined in: main.ts:248478
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:246513
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246532
+Defined in: main.ts:248497
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:246532
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixSerpPriceDataInfo`
 
-Defined in: main.ts:246525
+Defined in: main.ts:248490
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:246525
 
 #### Returns
 
-[`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+`AppendixSerpPriceDataInfo`

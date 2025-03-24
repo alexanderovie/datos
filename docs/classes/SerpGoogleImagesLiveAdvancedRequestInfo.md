@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveAdvancedRequestInfo
 
-Defined in: main.ts:53949
+Defined in: main.ts:54376
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:53949
 
 ## Constructors
 
-### new SerpGoogleImagesLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpGoogleImagesLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleImagesLiveAdvancedRequestInfo`](SerpGoogleImagesLiveAdvancedRequestInfo.md)
+> **new SerpGoogleImagesLiveAdvancedRequestInfo**(`data`?): `SerpGoogleImagesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:54045
+Defined in: main.ts:54472
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:54045
 
 #### Returns
 
-[`SerpGoogleImagesLiveAdvancedRequestInfo`](SerpGoogleImagesLiveAdvancedRequestInfo.md)
+`SerpGoogleImagesLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54045
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:54024
+Defined in: main.ts:54451
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:53965
+Defined in: main.ts:54392
 
 keyword
 required field
@@ -83,7 +83,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54003
+Defined in: main.ts:54430
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:53996
+Defined in: main.ts:54423
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,7 +121,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:53979
+Defined in: main.ts:54406
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -140,7 +140,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:53989
+Defined in: main.ts:54416
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:53972
+Defined in: main.ts:54399
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:54031
+Defined in: main.ts:54458
 
 page crawl limit
 optional field
@@ -200,7 +200,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:54009
+Defined in: main.ts:54436
 
 device operating system
 optional field
@@ -218,7 +218,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54015
+Defined in: main.ts:54442
 
 search engine domain
 optional field
@@ -236,7 +236,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:54035
+Defined in: main.ts:54462
 
 additional parameters of the search query
 optional field
@@ -252,7 +252,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:54041
+Defined in: main.ts:54468
 
 user-defined task identifier
 optional field
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:53955
+Defined in: main.ts:54382
 
 direct URL of the search query
 optional field
@@ -288,7 +288,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54054
+Defined in: main.ts:54481
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:54054
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54083
+Defined in: main.ts:54510
 
 #### Parameters
 
@@ -322,9 +322,9 @@ Defined in: main.ts:54083
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleImagesLiveAdvancedRequestInfo`](SerpGoogleImagesLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleImagesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:54076
+Defined in: main.ts:54503
 
 #### Parameters
 
@@ -334,4 +334,4 @@ Defined in: main.ts:54076
 
 #### Returns
 
-[`SerpGoogleImagesLiveAdvancedRequestInfo`](SerpGoogleImagesLiveAdvancedRequestInfo.md)
+`SerpGoogleImagesLiveAdvancedRequestInfo`

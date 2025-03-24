@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableRequestInfo
 
-Defined in: main.ts:179821
+Defined in: main.ts:182230
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:179821
 
 ## Constructors
 
-### new OnPageNonIndexableRequestInfo()
+### Constructor
 
-> **new OnPageNonIndexableRequestInfo**(`data`?): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
+> **new OnPageNonIndexableRequestInfo**(`data`?): `OnPageNonIndexableRequestInfo`
 
-Defined in: main.ts:179857
+Defined in: main.ts:182266
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:179857
 
 #### Returns
 
-[`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
+`OnPageNonIndexableRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179857
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:179853
+Defined in: main.ts:182262
 
 array of results filtering parameters
 optional field
@@ -68,7 +68,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:179827
+Defined in: main.ts:182236
 
 ID of the task
 required field
@@ -86,7 +86,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:179832
+Defined in: main.ts:182241
 
 the maximum number of returned pages
 optional field
@@ -103,7 +103,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:179837
+Defined in: main.ts:182246
 
 offset in the results array of returned pages
 optional field
@@ -120,7 +120,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179866
+Defined in: main.ts:182275
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:179866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179890
+Defined in: main.ts:182299
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:179890
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageNonIndexableRequestInfo`
 
-Defined in: main.ts:179883
+Defined in: main.ts:182292
 
 #### Parameters
 
@@ -166,4 +166,4 @@ Defined in: main.ts:179883
 
 #### Returns
 
-[`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
+`OnPageNonIndexableRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: BulkMetricsInfo
 
-Defined in: main.ts:120221
+Defined in: main.ts:121604
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:120221
 
 ## Constructors
 
-### new BulkMetricsInfo()
+### Constructor
 
-> **new BulkMetricsInfo**(`data`?): [`BulkMetricsInfo`](BulkMetricsInfo.md)
+> **new BulkMetricsInfo**(`data`?): `BulkMetricsInfo`
 
-Defined in: main.ts:120237
+Defined in: main.ts:121620
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:120237
 
 #### Returns
 
-[`BulkMetricsInfo`](BulkMetricsInfo.md)
+`BulkMetricsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120237
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:120233
+Defined in: main.ts:121616
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -57,7 +57,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:120228
+Defined in: main.ts:121611
 
 total count of organic SERPs that contain the domain
 
@@ -71,7 +71,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:120226
+Defined in: main.ts:121609
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120246
+Defined in: main.ts:121629
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:120246
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120265
+Defined in: main.ts:121648
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:120265
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
+> `static` **fromJS**(`data`): `BulkMetricsInfo`
 
-Defined in: main.ts:120258
+Defined in: main.ts:121641
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:120258
 
 #### Returns
 
-[`BulkMetricsInfo`](BulkMetricsInfo.md)
+`BulkMetricsInfo`

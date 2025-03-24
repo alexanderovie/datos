@@ -6,7 +6,7 @@
 
 # Class: PriceInfo
 
-Defined in: main.ts:24726
+Defined in: main.ts:25065
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24726
 
 ## Constructors
 
-### new PriceInfo()
+### Constructor
 
-> **new PriceInfo**(`data`?): [`PriceInfo`](PriceInfo.md)
+> **new PriceInfo**(`data`?): `PriceInfo`
 
-Defined in: main.ts:24748
+Defined in: main.ts:25087
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24748
 
 #### Returns
 
-[`PriceInfo`](PriceInfo.md)
+`PriceInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24748
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:24738
+Defined in: main.ts:25077
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -55,7 +55,7 @@ ISO code of the currency applied to the price
 
 > `optional` **current**: `number`
 
-Defined in: main.ts:24729
+Defined in: main.ts:25068
 
 current price
 indicates the current price of the product or service featured in the result
@@ -70,7 +70,7 @@ indicates the current price of the product or service featured in the result
 
 > `optional` **displayed\_price**: `string`
 
-Defined in: main.ts:24744
+Defined in: main.ts:25083
 
 price string in the result
 raw price string as provided in the result
@@ -85,7 +85,7 @@ raw price string as provided in the result
 
 > `optional` **is\_price\_range**: `boolean`
 
-Defined in: main.ts:24741
+Defined in: main.ts:25080
 
 price is provided as a range
 indicates whether a price is provided in a range
@@ -100,7 +100,7 @@ indicates whether a price is provided in a range
 
 > `optional` **max\_value**: `number`
 
-Defined in: main.ts:24735
+Defined in: main.ts:25074
 
 the maximum price
 the maximum price of the product or service as indicated in the result
@@ -115,7 +115,7 @@ the maximum price of the product or service as indicated in the result
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:24732
+Defined in: main.ts:25071
 
 regular price
 indicates the regular price of the product or service with no discounts applied
@@ -130,7 +130,7 @@ indicates the regular price of the product or service with no discounts applied
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24757
+Defined in: main.ts:25096
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:24757
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24779
+Defined in: main.ts:25118
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:24779
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PriceInfo`](PriceInfo.md)
+> `static` **fromJS**(`data`): `PriceInfo`
 
-Defined in: main.ts:24772
+Defined in: main.ts:25111
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:24772
 
 #### Returns
 
-[`PriceInfo`](PriceInfo.md)
+`PriceInfo`

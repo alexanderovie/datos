@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
-Defined in: main.ts:169565
+Defined in: main.ts:171974
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:169565
 
 ## Constructors
 
-### new BacklinksTimeseriesNewLostSummaryLiveResultInfo()
+### Constructor
 
-> **new BacklinksTimeseriesNewLostSummaryLiveResultInfo**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
+> **new BacklinksTimeseriesNewLostSummaryLiveResultInfo**(`data`?): `BacklinksTimeseriesNewLostSummaryLiveResultInfo`
 
-Defined in: main.ts:169587
+Defined in: main.ts:171996
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:169587
 
 #### Returns
 
-[`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
+`BacklinksTimeseriesNewLostSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169587
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:169572
+Defined in: main.ts:171981
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:169577
+Defined in: main.ts:171986
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:169579
+Defined in: main.ts:171988
 
 group_range from the POST array
 
@@ -88,7 +88,7 @@ group_range from the POST array
 
 > `optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
-Defined in: main.ts:169583
+Defined in: main.ts:171992
 
 contains relevant backlinks and referring domains data
 
@@ -102,7 +102,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169581
+Defined in: main.ts:171990
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:169567
+Defined in: main.ts:171976
 
 target from a POST array
 
@@ -130,7 +130,7 @@ target from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169596
+Defined in: main.ts:172005
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:169596
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169622
+Defined in: main.ts:172031
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:169622
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksTimeseriesNewLostSummaryLiveResultInfo`
 
-Defined in: main.ts:169615
+Defined in: main.ts:172024
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:169615
 
 #### Returns
 
-[`BacklinksTimeseriesNewLostSummaryLiveResultInfo`](BacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
+`BacklinksTimeseriesNewLostSummaryLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskElement
 
-Defined in: main.ts:33528
+Defined in: main.ts:33955
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33528
 
 ## Constructors
 
-### new PeopleAlsoAskElement()
+### Constructor
 
-> **new PeopleAlsoAskElement**(`data`?): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
+> **new PeopleAlsoAskElement**(`data`?): `PeopleAlsoAskElement`
 
-Defined in: main.ts:33542
+Defined in: main.ts:33969
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33542
 
 #### Returns
 
-[`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
+`PeopleAlsoAskElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33542
 
 > `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)[]
 
-Defined in: main.ts:33538
+Defined in: main.ts:33965
 
 expanded element
 
@@ -54,7 +54,7 @@ expanded element
 
 > `optional` **seed\_question**: `string`
 
-Defined in: main.ts:33534
+Defined in: main.ts:33961
 
 question that triggered additional expanded elements
 
@@ -68,7 +68,7 @@ question that triggered additional expanded elements
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33532
+Defined in: main.ts:33959
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33530
+Defined in: main.ts:33957
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33536
+Defined in: main.ts:33963
 
 the XPath of the element
 
@@ -110,7 +110,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33551
+Defined in: main.ts:33978
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:33551
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33576
+Defined in: main.ts:34003
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:33576
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
+> `static` **fromJS**(`data`): `PeopleAlsoAskElement`
 
-Defined in: main.ts:33569
+Defined in: main.ts:33996
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:33569
 
 #### Returns
 
-[`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
+`PeopleAlsoAskElement`

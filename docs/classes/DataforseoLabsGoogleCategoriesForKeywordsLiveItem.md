@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
-Defined in: main.ts:107329
+Defined in: main.ts:108626
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:107329
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLiveItem()
+### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+> **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data`?): `DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
 
-Defined in: main.ts:107338
+Defined in: main.ts:108635
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:107338
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:107338
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:107334
+Defined in: main.ts:108631
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:107331
+Defined in: main.ts:108628
 
 keyword in a POST array
 
@@ -69,7 +69,7 @@ keyword in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107347
+Defined in: main.ts:108644
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:107347
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107369
+Defined in: main.ts:108666
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:107369
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
 
-Defined in: main.ts:107362
+Defined in: main.ts:108659
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:107362
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`

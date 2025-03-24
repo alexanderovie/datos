@@ -6,7 +6,7 @@
 
 # Interface: IBulkMetricsInfo
 
-Defined in: main.ts:120278
+Defined in: main.ts:121661
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:120278
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:120290
+Defined in: main.ts:121673
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -31,7 +31,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:120285
+Defined in: main.ts:121668
 
 total count of organic SERPs that contain the domain
 
@@ -41,7 +41,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:120283
+Defined in: main.ts:121666
 
 estimated traffic volume
 estimated organic monthly traffic to the domain

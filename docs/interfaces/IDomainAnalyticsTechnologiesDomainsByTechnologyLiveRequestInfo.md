@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
-Defined in: main.ts:96961
+Defined in: main.ts:98864
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96961
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:96985
+Defined in: main.ts:98888
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -33,7 +33,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:97025
+Defined in: main.ts:98928
 
 array of results filtering parameters
 optional field
@@ -58,7 +58,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:96978
+Defined in: main.ts:98881
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -73,7 +73,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:97001
+Defined in: main.ts:98904
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:97047
+Defined in: main.ts:98950
 
 the maximum number of returned domains
 optional field
@@ -103,7 +103,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:97008
+Defined in: main.ts:98911
 
 search mode
 optional field
@@ -118,7 +118,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97054
+Defined in: main.ts:98957
 
 offset in the results array of returned domains
 optional field
@@ -133,7 +133,7 @@ use the offset_token if you would like to offset more results
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:97062
+Defined in: main.ts:98965
 
 token for subsequent requests
 optional field
@@ -149,7 +149,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:97042
+Defined in: main.ts:98945
 
 results sorting rules
 optional field
@@ -174,7 +174,7 @@ example:
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:96992
+Defined in: main.ts:98895
 
 target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -189,7 +189,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:96971
+Defined in: main.ts:98874
 
 target technology paths
 required field if you don’t specify groups, technologies, keywords or categories

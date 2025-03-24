@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
 
-Defined in: main.ts:135615
+Defined in: main.ts:138016
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:135615
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsLocationsResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsLocationsResultInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
+> **new KeywordsDataGoogleAdsLocationsResultInfo**(`data`?): `KeywordsDataGoogleAdsLocationsResultInfo`
 
-Defined in: main.ts:135637
+Defined in: main.ts:138038
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:135637
 
 #### Returns
 
-[`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
+`KeywordsDataGoogleAdsLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:135637
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:135630
+Defined in: main.ts:138031
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:135617
+Defined in: main.ts:138018
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:135628
+Defined in: main.ts:138029
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:135619
+Defined in: main.ts:138020
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:135633
+Defined in: main.ts:138034
 
 location type
 possible values according to Google’s target types
@@ -118,7 +118,7 @@ possible values according to Google’s target types
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135646
+Defined in: main.ts:138047
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:135646
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135667
+Defined in: main.ts:138068
 
 #### Parameters
 
@@ -152,9 +152,9 @@ Defined in: main.ts:135667
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsLocationsResultInfo`
 
-Defined in: main.ts:135660
+Defined in: main.ts:138061
 
 #### Parameters
 
@@ -164,4 +164,4 @@ Defined in: main.ts:135660
 
 #### Returns
 
-[`KeywordsDataGoogleAdsLocationsResultInfo`](KeywordsDataGoogleAdsLocationsResultInfo.md)
+`KeywordsDataGoogleAdsLocationsResultInfo`

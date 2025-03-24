@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
-Defined in: main.ts:156467
+Defined in: main.ts:158876
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:156467
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryLiveRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
+> **new KeywordsDataBingSearchVolumeHistoryLiveRequestInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`
 
-Defined in: main.ts:156557
+Defined in: main.ts:158966
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:156557
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156557
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:156534
+Defined in: main.ts:158943
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:156547
+Defined in: main.ts:158956
 
 ending date of the time range
 optional field
@@ -90,7 +90,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:156512
+Defined in: main.ts:158921
 
 device type
 optional field
@@ -108,7 +108,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:156474
+Defined in: main.ts:158883
 
 keywords
 required field
@@ -127,7 +127,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:156506
+Defined in: main.ts:158915
 
 search engine language code
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:156501
+Defined in: main.ts:158910
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:156488
+Defined in: main.ts:158897
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:156496
+Defined in: main.ts:158905
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:156481
+Defined in: main.ts:158890
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:156521
+Defined in: main.ts:158930
 
 aggregates the returned data to a certain time period
 optional field
@@ -240,7 +240,7 @@ default value:  monthly
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:156553
+Defined in: main.ts:158962
 
 user-defined task identifier
 optional field
@@ -258,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156566
+Defined in: main.ts:158975
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:156566
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156597
+Defined in: main.ts:159006
 
 #### Parameters
 
@@ -292,9 +292,9 @@ Defined in: main.ts:156597
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`
 
-Defined in: main.ts:156590
+Defined in: main.ts:158999
 
 #### Parameters
 
@@ -304,4 +304,4 @@ Defined in: main.ts:156590
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`

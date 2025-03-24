@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataDayLimitsRatesDataInfo
 
-Defined in: main.ts:241396
+Defined in: main.ts:243809
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241396
 
 > `optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241397
+Defined in: main.ts:243810
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:241397
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241398
+Defined in: main.ts:243811

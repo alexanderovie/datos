@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesElement
 
-Defined in: main.ts:38118
+Defined in: main.ts:38545
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:38118
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:38128
+Defined in: main.ts:38555
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38126
+Defined in: main.ts:38553
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:38133
+Defined in: main.ts:38560
 
 URL of the image featured in the element
 
@@ -48,7 +48,7 @@ URL of the image featured in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:38131
+Defined in: main.ts:38558
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -59,7 +59,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38122
+Defined in: main.ts:38549
 
 title of a given link element
 
@@ -69,7 +69,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38120
+Defined in: main.ts:38547
 
 type of element
 
@@ -79,6 +79,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38124
+Defined in: main.ts:38551
 
 URL

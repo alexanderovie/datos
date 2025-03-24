@@ -6,7 +6,7 @@
 
 # Class: ResourceMetaInfo
 
-Defined in: main.ts:177315
+Defined in: main.ts:179724
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:177315
 
 ## Constructors
 
-### new ResourceMetaInfo()
+### Constructor
 
-> **new ResourceMetaInfo**(`data`?): [`ResourceMetaInfo`](ResourceMetaInfo.md)
+> **new ResourceMetaInfo**(`data`?): `ResourceMetaInfo`
 
-Defined in: main.ts:177332
+Defined in: main.ts:179741
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:177332
 
 #### Returns
 
-[`ResourceMetaInfo`](ResourceMetaInfo.md)
+`ResourceMetaInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177332
 
 > `optional` **alternative\_text**: `string`
 
-Defined in: main.ts:177318
+Defined in: main.ts:179727
 
 content of the image alt attribute
 the value depends on the resource_type
@@ -55,7 +55,7 @@ the value depends on the resource_type
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:177328
+Defined in: main.ts:179737
 
 image height in px
 
@@ -69,7 +69,7 @@ image height in px
 
 > `optional` **original\_height**: `number`
 
-Defined in: main.ts:177324
+Defined in: main.ts:179733
 
 original image height in px
 
@@ -83,7 +83,7 @@ original image height in px
 
 > `optional` **original\_width**: `number`
 
-Defined in: main.ts:177322
+Defined in: main.ts:179731
 
 original image width in px
 
@@ -97,7 +97,7 @@ original image width in px
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:177320
+Defined in: main.ts:179729
 
 title
 
@@ -111,7 +111,7 @@ title
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:177326
+Defined in: main.ts:179735
 
 image width in px
 
@@ -125,7 +125,7 @@ image width in px
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177341
+Defined in: main.ts:179750
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:177341
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177363
+Defined in: main.ts:179772
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:177363
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ResourceMetaInfo`](ResourceMetaInfo.md)
+> `static` **fromJS**(`data`): `ResourceMetaInfo`
 
-Defined in: main.ts:177356
+Defined in: main.ts:179765
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:177356
 
 #### Returns
 
-[`ResourceMetaInfo`](ResourceMetaInfo.md)
+`ResourceMetaInfo`

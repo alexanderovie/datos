@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersLocationsResponseInfo
 
-Defined in: main.ts:62738
+Defined in: main.ts:63165
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:62738
 
 ## Constructors
 
-### new SerpGoogleAdsAdvertisersLocationsResponseInfo()
+### Constructor
 
-> **new SerpGoogleAdsAdvertisersLocationsResponseInfo**(`data`?): [`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
+> **new SerpGoogleAdsAdvertisersLocationsResponseInfo**(`data`?): `SerpGoogleAdsAdvertisersLocationsResponseInfo`
 
-Defined in: main.ts:62744
+Defined in: main.ts:63171
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:62744
 
 #### Returns
 
-[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
+`SerpGoogleAdsAdvertisersLocationsResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:62744
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsAdvertisersLocationsTaskInfo`](SerpGoogleAdsAdvertisersLocationsTaskInfo.md)[]
 
-Defined in: main.ts:62740
+Defined in: main.ts:63167
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62748
+Defined in: main.ts:63175
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:62748
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62770
+Defined in: main.ts:63197
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:62770
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAdsAdvertisersLocationsResponseInfo`
 
-Defined in: main.ts:62763
+Defined in: main.ts:63190
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:62763
 
 #### Returns
 
-[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
+`SerpGoogleAdsAdvertisersLocationsResponseInfo`
 
 #### Overrides
 

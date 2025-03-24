@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo
 
-Defined in: main.ts:155891
+Defined in: main.ts:158300
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:155891
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo.md)
+> **new KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`
 
-Defined in: main.ts:155908
+Defined in: main.ts:158317
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:155908
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155908
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:155900
+Defined in: main.ts:158309
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:155904
+Defined in: main.ts:158313
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:155898
+Defined in: main.ts:158307
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:155894
+Defined in: main.ts:158303
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:155896
+Defined in: main.ts:158305
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:155902
+Defined in: main.ts:158311
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155917
+Defined in: main.ts:158326
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:155917
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155939
+Defined in: main.ts:158348
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:155939
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`
 
-Defined in: main.ts:155932
+Defined in: main.ts:158341
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:155932
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`

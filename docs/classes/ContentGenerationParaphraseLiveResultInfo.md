@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationParaphraseLiveResultInfo
 
-Defined in: main.ts:191757
+Defined in: main.ts:194166
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191757
 
 ## Constructors
 
-### new ContentGenerationParaphraseLiveResultInfo()
+### Constructor
 
-> **new ContentGenerationParaphraseLiveResultInfo**(`data`?): [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
+> **new ContentGenerationParaphraseLiveResultInfo**(`data`?): `ContentGenerationParaphraseLiveResultInfo`
 
-Defined in: main.ts:191769
+Defined in: main.ts:194178
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191769
 
 #### Returns
 
-[`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
+`ContentGenerationParaphraseLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191769
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:191765
+Defined in: main.ts:194174
 
 paraphrased version of the given text
 
@@ -54,7 +54,7 @@ paraphrased version of the given text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:191759
+Defined in: main.ts:194168
 
 number of input tokens in the POST request
 
@@ -68,7 +68,7 @@ number of input tokens in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:191763
+Defined in: main.ts:194172
 
 number of new tokens in the response
 
@@ -82,7 +82,7 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:191761
+Defined in: main.ts:194170
 
 number of output tokens in the response
 
@@ -96,7 +96,7 @@ number of output tokens in the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191778
+Defined in: main.ts:194187
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:191778
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191798
+Defined in: main.ts:194207
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:191798
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationParaphraseLiveResultInfo`
 
-Defined in: main.ts:191791
+Defined in: main.ts:194200
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:191791
 
 #### Returns
 
-[`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
+`ContentGenerationParaphraseLiveResultInfo`

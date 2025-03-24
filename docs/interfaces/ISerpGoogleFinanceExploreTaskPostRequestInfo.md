@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceExploreTaskPostRequestInfo
 
-Defined in: main.ts:86939
+Defined in: main.ts:87366
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:86939
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:86979
+Defined in: main.ts:87406
 
 device type
 optional field
@@ -30,7 +30,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:86967
+Defined in: main.ts:87394
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:86960
+Defined in: main.ts:87387
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:86953
+Defined in: main.ts:87380
 
 search engine location code
 required field if you don’t specify location_name
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:86946
+Defined in: main.ts:87373
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:86989
+Defined in: main.ts:87416
 
 financial news filters
 optional field
@@ -104,7 +104,7 @@ Note: if you specify local_market or world_markets, the charge per task will be 
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:86983
+Defined in: main.ts:87410
 
 device operating system
 optional field
@@ -116,7 +116,7 @@ possible values: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:87022
+Defined in: main.ts:87449
 
 notification URL of a completed task
 optional field
@@ -135,7 +135,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:87011
+Defined in: main.ts:87438
 
 postback_url datatype
 required field if you specify postback_url
@@ -148,7 +148,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:87006
+Defined in: main.ts:87433
 
 return URL for sending task results
 optional field
@@ -167,7 +167,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:86975
+Defined in: main.ts:87402
 
 task priority
 optional field
@@ -183,7 +183,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:86995
+Defined in: main.ts:87422
 
 user-defined task identifier
 optional field

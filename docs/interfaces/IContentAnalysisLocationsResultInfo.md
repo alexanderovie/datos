@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisLocationsResultInfo
 
-Defined in: main.ts:186194
+Defined in: main.ts:188603
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186194
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:186198
+Defined in: main.ts:188607
 
 ISO country code of the location
 
@@ -28,6 +28,6 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:186196
+Defined in: main.ts:188605
 
 full name of the location

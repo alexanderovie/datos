@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseVersionsResultInfo
 
-Defined in: main.ts:184533
+Defined in: main.ts:186942
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:184533
 
 ## Constructors
 
-### new OnPageLighthouseVersionsResultInfo()
+### Constructor
 
-> **new OnPageLighthouseVersionsResultInfo**(`data`?): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+> **new OnPageLighthouseVersionsResultInfo**(`data`?): `OnPageLighthouseVersionsResultInfo`
 
-Defined in: main.ts:184538
+Defined in: main.ts:186947
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:184538
 
 #### Returns
 
-[`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+`OnPageLighthouseVersionsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184538
 
 > `optional` **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
 
-Defined in: main.ts:184534
+Defined in: main.ts:186943
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:184534
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184547
+Defined in: main.ts:186956
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:184547
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184568
+Defined in: main.ts:186977
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:184568
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseVersionsResultInfo`
 
-Defined in: main.ts:184561
+Defined in: main.ts:186970
 
 #### Parameters
 
@@ -98,4 +98,4 @@ Defined in: main.ts:184561
 
 #### Returns
 
-[`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+`OnPageLighthouseVersionsResultInfo`

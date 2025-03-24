@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
-Defined in: main.ts:133261
+Defined in: main.ts:135662
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:133261
 
 ## Constructors
 
-### new AppDataAppStoreSearchOrganicSerpElementItem()
+### Constructor
 
-> **new AppDataAppStoreSearchOrganicSerpElementItem**(`data`?): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+> **new AppDataAppStoreSearchOrganicSerpElementItem**(`data`?): `AppDataAppStoreSearchOrganicSerpElementItem`
 
-Defined in: main.ts:133277
+Defined in: main.ts:135678
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:133277
 
 #### Returns
 
-[`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+`AppDataAppStoreSearchOrganicSerpElementItem`
 
 #### Overrides
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:133277
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23691
+Defined in: main.ts:24030
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23691
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:133263
+Defined in: main.ts:135664
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:133267
+Defined in: main.ts:135668
 
 URL to the app icon
 
@@ -88,7 +88,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:133271
+Defined in: main.ts:135672
 
 indicates whether the app is free
 
@@ -102,7 +102,7 @@ indicates whether the app is free
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23685
+Defined in: main.ts:24024
 
 the alignment of the element in SERP
 can take the following values:
@@ -122,7 +122,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:133273
+Defined in: main.ts:135674
 
 price of the app
 
@@ -136,7 +136,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23681
+Defined in: main.ts:24020
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24017
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:23689
+Defined in: main.ts:24028
 
 average rating of the app
 
@@ -192,7 +192,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:133269
+Defined in: main.ts:135670
 
 the total number of reviews of the app
 
@@ -206,7 +206,7 @@ the total number of reviews of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:24026
 
 title of the app
 
@@ -224,7 +224,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23675
+Defined in: main.ts:24014
 
 type of element
 
@@ -242,7 +242,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:133265
+Defined in: main.ts:135666
 
 URL to the app page on App Store
 
@@ -256,7 +256,7 @@ URL to the app page on App Store
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133282
+Defined in: main.ts:135683
 
 #### Parameters
 
@@ -278,7 +278,7 @@ Defined in: main.ts:133282
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133305
+Defined in: main.ts:135706
 
 #### Parameters
 
@@ -298,9 +298,9 @@ Defined in: main.ts:133305
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): `AppDataAppStoreSearchOrganicSerpElementItem`
 
-Defined in: main.ts:133298
+Defined in: main.ts:135699
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: main.ts:133298
 
 #### Returns
 
-[`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+`AppDataAppStoreSearchOrganicSerpElementItem`
 
 #### Overrides
 

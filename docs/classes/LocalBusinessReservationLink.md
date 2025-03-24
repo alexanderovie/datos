@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessReservationLink
 
-Defined in: main.ts:25778
+Defined in: main.ts:26117
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:25778
 
 ## Constructors
 
-### new LocalBusinessReservationLink()
+### Constructor
 
-> **new LocalBusinessReservationLink**(`data`?): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+> **new LocalBusinessReservationLink**(`data`?): `LocalBusinessReservationLink`
 
-Defined in: main.ts:25787
+Defined in: main.ts:26126
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:25787
 
 #### Returns
 
-[`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+`LocalBusinessReservationLink`
 
 #### Overrides
 
-[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:25787
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25725
+Defined in: main.ts:26064
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25725
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:25781
+Defined in: main.ts:26120
 
 title of the element
 domain of the reservation software
@@ -75,7 +75,7 @@ domain of the reservation software
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25723
+Defined in: main.ts:26062
 
 type of element
 
@@ -93,7 +93,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25783
+Defined in: main.ts:26122
 
 URL to make a reservation
 
@@ -107,7 +107,7 @@ URL to make a reservation
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25792
+Defined in: main.ts:26131
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:25792
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25811
+Defined in: main.ts:26150
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:25811
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+> `static` **fromJS**(`data`): `LocalBusinessReservationLink`
 
-Defined in: main.ts:25804
+Defined in: main.ts:26143
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:25804
 
 #### Returns
 
-[`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+`LocalBusinessReservationLink`
 
 #### Overrides
 

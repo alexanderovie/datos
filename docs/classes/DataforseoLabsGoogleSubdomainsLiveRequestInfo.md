@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
-Defined in: main.ts:113155
+Defined in: main.ts:114460
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:113155
 
 ## Constructors
 
-### new DataforseoLabsGoogleSubdomainsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleSubdomainsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleSubdomainsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleSubdomainsLiveRequestInfo`
 
-Defined in: main.ts:113277
+Defined in: main.ts:114582
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:113277
 
 #### Returns
 
-[`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+`DataforseoLabsGoogleSubdomainsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113277
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:113240
+Defined in: main.ts:114545
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:113221
+Defined in: main.ts:114526
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:113226
+Defined in: main.ts:114531
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:113212
+Defined in: main.ts:114517
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -123,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:113205
+Defined in: main.ts:114510
 
 display results by item type
 optional field
@@ -144,7 +144,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113196
+Defined in: main.ts:114501
 
 language code
 optional field
@@ -165,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:113187
+Defined in: main.ts:114492
 
 full name of the language
 optional field
@@ -186,7 +186,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:113262
+Defined in: main.ts:114567
 
 the maximum number of returned keywords
 optional field
@@ -203,7 +203,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113178
+Defined in: main.ts:114483
 
 location code
 optional field
@@ -224,7 +224,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:113169
+Defined in: main.ts:114474
 
 full name of the location
 optional field
@@ -245,7 +245,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:113267
+Defined in: main.ts:114572
 
 offset in the results array of returned keywords
 optional field
@@ -262,7 +262,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:113257
+Defined in: main.ts:114562
 
 results sorting rules
 optional field
@@ -291,7 +291,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:113273
+Defined in: main.ts:114578
 
 user-defined task identifier
 optional field
@@ -309,7 +309,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:113160
+Defined in: main.ts:114465
 
 domain
 required field
@@ -326,7 +326,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113286
+Defined in: main.ts:114591
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:113286
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113328
+Defined in: main.ts:114633
 
 #### Parameters
 
@@ -360,9 +360,9 @@ Defined in: main.ts:113328
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleSubdomainsLiveRequestInfo`
 
-Defined in: main.ts:113321
+Defined in: main.ts:114626
 
 #### Parameters
 
@@ -372,4 +372,4 @@ Defined in: main.ts:113321
 
 #### Returns
 
-[`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+`DataforseoLabsGoogleSubdomainsLiveRequestInfo`

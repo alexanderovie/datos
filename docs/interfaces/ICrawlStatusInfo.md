@@ -6,7 +6,7 @@
 
 # Interface: ICrawlStatusInfo
 
-Defined in: main.ts:24244
+Defined in: main.ts:24583
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24244
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:24247
+Defined in: main.ts:24586
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
@@ -29,7 +29,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 > `optional` **pages\_crawled**: `number`
 
-Defined in: main.ts:24251
+Defined in: main.ts:24590
 
 number of crawled pages
 
@@ -39,6 +39,6 @@ number of crawled pages
 
 > `optional` **pages\_in\_queue**: `number`
 
-Defined in: main.ts:24249
+Defined in: main.ts:24588
 
 number of pages that are currently in the crawling queue

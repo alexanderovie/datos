@@ -6,7 +6,7 @@
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:235311
+Defined in: main.ts:237720
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:235311
 
 ## Constructors
 
-### new TrustpilotSearchOrganicBusinessDataSerpElementItem()
+### Constructor
 
-> **new TrustpilotSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+> **new TrustpilotSearchOrganicBusinessDataSerpElementItem**(`data`?): `TrustpilotSearchOrganicBusinessDataSerpElementItem`
 
-Defined in: main.ts:235325
+Defined in: main.ts:237734
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:235325
 
 #### Returns
 
-[`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+`TrustpilotSearchOrganicBusinessDataSerpElementItem`
 
 #### Overrides
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:235325
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23016
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:235315
+Defined in: main.ts:237724
 
 domain of the establishment
 
@@ -74,7 +74,7 @@ domain of the establishment
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -92,7 +92,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:235321
+Defined in: main.ts:237730
 
 the rating score of the establishment submitted by reviewers
 
@@ -125,7 +125,7 @@ the rating score of the establishment submitted by reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:235319
+Defined in: main.ts:237728
 
 the total number of reviews
 
@@ -139,7 +139,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:235313
+Defined in: main.ts:237722
 
 title of the establishment
 
@@ -153,7 +153,7 @@ title of the establishment
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:235317
+Defined in: main.ts:237726
 
 URL to the establishment
 
@@ -185,7 +185,7 @@ URL to the establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235330
+Defined in: main.ts:237739
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:235330
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235352
+Defined in: main.ts:237761
 
 #### Parameters
 
@@ -227,9 +227,9 @@ Defined in: main.ts:235352
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `TrustpilotSearchOrganicBusinessDataSerpElementItem`
 
-Defined in: main.ts:235345
+Defined in: main.ts:237754
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:235345
 
 #### Returns
 
-[`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+`TrustpilotSearchOrganicBusinessDataSerpElementItem`
 
 #### Overrides
 

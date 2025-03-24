@@ -6,7 +6,7 @@
 
 # Class: PerspectivesElement
 
-Defined in: main.ts:39674
+Defined in: main.ts:40101
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:39674
 
 ## Constructors
 
-### new PerspectivesElement()
+### Constructor
 
-> **new PerspectivesElement**(`data`?): [`PerspectivesElement`](PerspectivesElement.md)
+> **new PerspectivesElement**(`data`?): `PerspectivesElement`
 
-Defined in: main.ts:39698
+Defined in: main.ts:40125
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:39698
 
 #### Returns
 
-[`PerspectivesElement`](PerspectivesElement.md)
+`PerspectivesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39698
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:39686
+Defined in: main.ts:40113
 
 the date when the page source of the element was published
 
@@ -54,7 +54,7 @@ the date when the page source of the element was published
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:39680
+Defined in: main.ts:40107
 
 description
 
@@ -68,7 +68,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39684
+Defined in: main.ts:40111
 
 website domain
 
@@ -82,7 +82,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:39689
+Defined in: main.ts:40116
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -97,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:39694
+Defined in: main.ts:40121
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,7 +114,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39678
+Defined in: main.ts:40105
 
 title of a given link element
 
@@ -128,7 +128,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39676
+Defined in: main.ts:40103
 
 type of element
 
@@ -142,7 +142,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39682
+Defined in: main.ts:40109
 
 URL
 
@@ -156,7 +156,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39707
+Defined in: main.ts:40134
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:39707
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39731
+Defined in: main.ts:40158
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:39731
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PerspectivesElement`](PerspectivesElement.md)
+> `static` **fromJS**(`data`): `PerspectivesElement`
 
-Defined in: main.ts:39724
+Defined in: main.ts:40151
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:39724
 
 #### Returns
 
-[`PerspectivesElement`](PerspectivesElement.md)
+`PerspectivesElement`

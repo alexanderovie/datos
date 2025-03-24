@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
 
-Defined in: main.ts:205553
+Defined in: main.ts:207962
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:205553
 
 ## Constructors
 
-### new MerchantAmazonSellersTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new MerchantAmazonSellersTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+> **new MerchantAmazonSellersTaskGetAdvancedResultInfo**(`data`?): `MerchantAmazonSellersTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:205591
+Defined in: main.ts:208000
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:205591
 
 #### Returns
 
-[`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+`MerchantAmazonSellersTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205591
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:205556
+Defined in: main.ts:207965
 
 asin received in a POST array
 learn more about ASINs in this help center guide
@@ -55,7 +55,7 @@ learn more about ASINs in this help center guide
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:205567
+Defined in: main.ts:207976
 
 direct URL to Amazon results
 you can use it to make sure the provided results are accurate
@@ -70,7 +70,7 @@ you can use it to make sure the provided results are accurate
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:205572
+Defined in: main.ts:207981
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,7 +87,7 @@ example:
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:205578
+Defined in: main.ts:207987
 
 product image url
 image URL of the product relevant to the asin received in a POST array
@@ -102,7 +102,7 @@ image URL of the product relevant to the asin received in a POST array
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:205583
+Defined in: main.ts:207992
 
 types of search results found in Amazon Sellers SERP
 contains types of all search results (items) found in the returned SERP
@@ -119,7 +119,7 @@ amazon_seller_main_item, amazon_seller_item
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:205587
+Defined in: main.ts:207996
 
 items in SERP
 
@@ -133,7 +133,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:205585
+Defined in: main.ts:207994
 
 the number of results returned in the items array
 
@@ -147,7 +147,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:205564
+Defined in: main.ts:207973
 
 language code received in a POST array
 
@@ -161,7 +161,7 @@ language code received in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:205562
+Defined in: main.ts:207971
 
 location code received in a POST array
 
@@ -175,7 +175,7 @@ location code received in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:205560
+Defined in: main.ts:207969
 
 search engine domain received in a POST array
 
@@ -189,7 +189,7 @@ search engine domain received in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:205575
+Defined in: main.ts:207984
 
 product title
 title of the product relevant to the asin received in a POST array
@@ -204,7 +204,7 @@ title of the product relevant to the asin received in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:205558
+Defined in: main.ts:207967
 
 type of element
 
@@ -218,7 +218,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205600
+Defined in: main.ts:208009
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:205600
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205636
+Defined in: main.ts:208045
 
 #### Parameters
 
@@ -252,9 +252,9 @@ Defined in: main.ts:205636
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonSellersTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:205629
+Defined in: main.ts:208038
 
 #### Parameters
 
@@ -264,4 +264,4 @@ Defined in: main.ts:205629
 
 #### Returns
 
-[`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+`MerchantAmazonSellersTaskGetAdvancedResultInfo`

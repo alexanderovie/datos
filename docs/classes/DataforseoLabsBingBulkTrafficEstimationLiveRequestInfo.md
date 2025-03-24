@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:125053
+Defined in: main.ts:127454
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:125053
 
 ## Constructors
 
-### new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+> **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data`?): `DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
 
-Defined in: main.ts:125114
+Defined in: main.ts:127515
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:125114
 
 #### Returns
 
-[`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125114
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:125104
+Defined in: main.ts:127505
 
 ignore highly similar keywords
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:125099
+Defined in: main.ts:127500
 
 display results by item type
 optional field
@@ -78,7 +78,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125090
+Defined in: main.ts:127491
 
 language code
 required field if don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:125083
+Defined in: main.ts:127484
 
 full name of the language
 required field if don’t specify language_code
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125076
+Defined in: main.ts:127477
 
 location code
 required field if don’t specify location_name
@@ -136,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:125068
+Defined in: main.ts:127469
 
 full name of the location
 required field if don’t specify location_code
@@ -156,7 +156,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:125110
+Defined in: main.ts:127511
 
 user-defined task identifier
 optional field
@@ -174,7 +174,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:125060
+Defined in: main.ts:127461
 
 target domains and websites
 required field
@@ -193,7 +193,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125123
+Defined in: main.ts:127524
 
 #### Parameters
 
@@ -211,7 +211,7 @@ Defined in: main.ts:125123
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125155
+Defined in: main.ts:127556
 
 #### Parameters
 
@@ -227,9 +227,9 @@ Defined in: main.ts:125155
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
 
-Defined in: main.ts:125148
+Defined in: main.ts:127549
 
 #### Parameters
 
@@ -239,4 +239,4 @@ Defined in: main.ts:125148
 
 #### Returns
 
-[`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`

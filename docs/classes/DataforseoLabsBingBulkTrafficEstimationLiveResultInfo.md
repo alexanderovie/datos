@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:125243
+Defined in: main.ts:127644
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:125243
 
 ## Constructors
 
-### new DataforseoLabsBingBulkTrafficEstimationLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingBulkTrafficEstimationLiveResultInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
+> **new DataforseoLabsBingBulkTrafficEstimationLiveResultInfo**(`data`?): `DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:125261
+Defined in: main.ts:127662
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:125261
 
 #### Returns
 
-[`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125261
 
 > `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:125257
+Defined in: main.ts:127658
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:125255
+Defined in: main.ts:127656
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125251
+Defined in: main.ts:127652
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125248
+Defined in: main.ts:127649
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125245
+Defined in: main.ts:127646
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:125253
+Defined in: main.ts:127654
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125270
+Defined in: main.ts:127671
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:125270
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125296
+Defined in: main.ts:127697
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:125296
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:125289
+Defined in: main.ts:127690
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:125289
 
 #### Returns
 
-[`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`

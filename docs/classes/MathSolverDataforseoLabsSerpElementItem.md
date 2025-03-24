@@ -6,7 +6,7 @@
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116286
+Defined in: main.ts:117671
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116286
 
 ## Constructors
 
-### new MathSolverDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new MathSolverDataforseoLabsSerpElementItem**(`data`?): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+> **new MathSolverDataforseoLabsSerpElementItem**(`data`?): `MathSolverDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116302
+Defined in: main.ts:117687
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116302
 
 #### Returns
 
-[`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+`MathSolverDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116302
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-Defined in: main.ts:116294
+Defined in: main.ts:117679
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:116298
+Defined in: main.ts:117683
 
 sitelinks
 the links shown below some of Google’s search results
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -111,7 +111,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -130,7 +130,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -149,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:116291
+Defined in: main.ts:117676
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -164,7 +164,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116288
+Defined in: main.ts:117673
 
 title of the result in SERP
 
@@ -178,7 +178,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -196,7 +196,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116307
+Defined in: main.ts:117692
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:116307
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116336
+Defined in: main.ts:117721
 
 #### Parameters
 
@@ -256,9 +256,9 @@ Defined in: main.ts:116336
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `MathSolverDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116329
+Defined in: main.ts:117714
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:116329
 
 #### Returns
 
-[`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
+`MathSolverDataforseoLabsSerpElementItem`
 
 #### Overrides
 

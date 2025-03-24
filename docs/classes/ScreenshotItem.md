@@ -6,7 +6,7 @@
 
 # Class: ScreenshotItem
 
-Defined in: main.ts:27590
+Defined in: main.ts:28017
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27590
 
 ## Constructors
 
-### new ScreenshotItem()
+### Constructor
 
-> **new ScreenshotItem**(`data`?): [`ScreenshotItem`](ScreenshotItem.md)
+> **new ScreenshotItem**(`data`?): `ScreenshotItem`
 
-Defined in: main.ts:27598
+Defined in: main.ts:28025
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27598
 
 #### Returns
 
-[`ScreenshotItem`](ScreenshotItem.md)
+`ScreenshotItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27598
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:27594
+Defined in: main.ts:28021
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage
@@ -56,7 +56,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27607
+Defined in: main.ts:28034
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: main.ts:27607
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27624
+Defined in: main.ts:28051
 
 #### Parameters
 
@@ -90,9 +90,9 @@ Defined in: main.ts:27624
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ScreenshotItem`](ScreenshotItem.md)
+> `static` **fromJS**(`data`): `ScreenshotItem`
 
-Defined in: main.ts:27617
+Defined in: main.ts:28044
 
 #### Parameters
 
@@ -102,4 +102,4 @@ Defined in: main.ts:27617
 
 #### Returns
 
-[`ScreenshotItem`](ScreenshotItem.md)
+`ScreenshotItem`

@@ -6,7 +6,7 @@
 
 # Class: BaseYoutubeSerpElementItem
 
-Defined in: main.ts:72898
+Defined in: main.ts:73325
 
 ## Extended by
 
@@ -20,11 +20,11 @@ Defined in: main.ts:72898
 
 ## Constructors
 
-### new BaseYoutubeSerpElementItem()
+### Constructor
 
-> **new BaseYoutubeSerpElementItem**(`data`?): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
+> **new BaseYoutubeSerpElementItem**(`data`?): `BaseYoutubeSerpElementItem`
 
-Defined in: main.ts:72911
+Defined in: main.ts:73338
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:72911
 
 #### Returns
 
-[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
+`BaseYoutubeSerpElementItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:72911
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:72909
+Defined in: main.ts:73336
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:72909
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:72907
+Defined in: main.ts:73334
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:72904
+Defined in: main.ts:73331
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:72900
+Defined in: main.ts:73327
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72921
+Defined in: main.ts:73348
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:72921
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72951
+Defined in: main.ts:73378
 
 #### Parameters
 
@@ -129,9 +129,9 @@ Defined in: main.ts:72951
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseYoutubeSerpElementItem`
 
-Defined in: main.ts:72929
+Defined in: main.ts:73356
 
 #### Parameters
 
@@ -141,4 +141,4 @@ Defined in: main.ts:72929
 
 #### Returns
 
-[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
+`BaseYoutubeSerpElementItem`

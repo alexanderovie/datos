@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
-Defined in: main.ts:123383
+Defined in: main.ts:125784
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:123383
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductRankOverviewLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonProductRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
+> **new DataforseoLabsAmazonProductRankOverviewLiveResultInfo**(`data`?): `DataforseoLabsAmazonProductRankOverviewLiveResultInfo`
 
-Defined in: main.ts:123401
+Defined in: main.ts:125802
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:123401
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
+`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123401
 
 > `optional` **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:123397
+Defined in: main.ts:125798
 
 contains detected Amazon product competitors and related data
 
@@ -54,7 +54,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123395
+Defined in: main.ts:125796
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123391
+Defined in: main.ts:125792
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123388
+Defined in: main.ts:125789
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123385
+Defined in: main.ts:125786
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123393
+Defined in: main.ts:125794
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123410
+Defined in: main.ts:125811
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:123410
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123436
+Defined in: main.ts:125837
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:123436
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonProductRankOverviewLiveResultInfo`
 
-Defined in: main.ts:123429
+Defined in: main.ts:125830
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:123429
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
+`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`

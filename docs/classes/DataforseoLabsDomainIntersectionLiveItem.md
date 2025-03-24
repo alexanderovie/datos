@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsDomainIntersectionLiveItem
 
-Defined in: main.ts:112873
+Defined in: main.ts:114178
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:112873
 
 ## Constructors
 
-### new DataforseoLabsDomainIntersectionLiveItem()
+### Constructor
 
-> **new DataforseoLabsDomainIntersectionLiveItem**(`data`?): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+> **new DataforseoLabsDomainIntersectionLiveItem**(`data`?): `DataforseoLabsDomainIntersectionLiveItem`
 
-Defined in: main.ts:112887
+Defined in: main.ts:114192
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:112887
 
 #### Returns
 
-[`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+`DataforseoLabsDomainIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112887
 
 > `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:112880
+Defined in: main.ts:114185
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -55,7 +55,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:112877
+Defined in: main.ts:114182
 
 keyword data for the returned keyword
 
@@ -69,7 +69,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112875
+Defined in: main.ts:114180
 
 search engine type
 
@@ -83,7 +83,7 @@ search engine type
 
 > `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:112883
+Defined in: main.ts:114188
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -98,7 +98,7 @@ the list of supported SERP elements can be found below
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112896
+Defined in: main.ts:114201
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:112896
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112916
+Defined in: main.ts:114221
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:112916
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsDomainIntersectionLiveItem`
 
-Defined in: main.ts:112909
+Defined in: main.ts:114214
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:112909
 
 #### Returns
 
-[`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)
+`DataforseoLabsDomainIntersectionLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: VideoDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115423
+Defined in: main.ts:116808
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:115423
 
 ## Constructors
 
-### new VideoDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new VideoDataforseoLabsSerpElementItem**(`data`?): [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+> **new VideoDataforseoLabsSerpElementItem**(`data`?): `VideoDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115432
+Defined in: main.ts:116817
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:115432
 
 #### Returns
 
-[`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+`VideoDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:115432
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`VideoElement`](VideoElement.md)[]
 
-Defined in: main.ts:115428
+Defined in: main.ts:116813
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115425
+Defined in: main.ts:116810
 
 search engine type
 
@@ -147,7 +147,7 @@ search engine type
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -183,7 +183,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115437
+Defined in: main.ts:116822
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:115437
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115460
+Defined in: main.ts:116845
 
 #### Parameters
 
@@ -225,9 +225,9 @@ Defined in: main.ts:115460
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `VideoDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115453
+Defined in: main.ts:116838
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:115453
 
 #### Returns
 
-[`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+`VideoDataforseoLabsSerpElementItem`
 
 #### Overrides
 

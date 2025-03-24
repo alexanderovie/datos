@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceQuoteLiveHtmlResultInfo
 
-Defined in: main.ts:93536
+Defined in: main.ts:93963
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:93536
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:93552
+Defined in: main.ts:93979
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:93556
+Defined in: main.ts:93983
 
 elements of search results found in SERP
 
@@ -41,7 +41,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:93554
+Defined in: main.ts:93981
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93539
+Defined in: main.ts:93966
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -62,7 +62,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93547
+Defined in: main.ts:93974
 
 language code in a POST array
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93545
+Defined in: main.ts:93972
 
 location code in a POST array
 
@@ -82,7 +82,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:93543
+Defined in: main.ts:93970
 
 search engine domain in a POST array
 
@@ -92,6 +92,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:93541
+Defined in: main.ts:93968
 
 type of element

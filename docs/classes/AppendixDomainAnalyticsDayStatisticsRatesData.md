@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsDayStatisticsRatesData
 
-Defined in: main.ts:243223
+Defined in: main.ts:245584
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:243223
 
 ## Constructors
 
-### new AppendixDomainAnalyticsDayStatisticsRatesData()
+### Constructor
 
-> **new AppendixDomainAnalyticsDayStatisticsRatesData**(`data`?): [`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
+> **new AppendixDomainAnalyticsDayStatisticsRatesData**(`data`?): `AppendixDomainAnalyticsDayStatisticsRatesData`
 
-Defined in: main.ts:243233
+Defined in: main.ts:245594
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:243233
 
 #### Returns
 
-[`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
+`AppendixDomainAnalyticsDayStatisticsRatesData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243233
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:243229
+Defined in: main.ts:245590
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243229
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243225
+Defined in: main.ts:245586
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243225
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:243228
+Defined in: main.ts:245589
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243228
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243224
+Defined in: main.ts:245585
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243224
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243227
+Defined in: main.ts:245588
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243227
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243226
+Defined in: main.ts:245587
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243226
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:243242
+Defined in: main.ts:245603
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:243242
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:243264
+Defined in: main.ts:245625
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:243264
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
+> `static` **fromJS**(`data`): `AppendixDomainAnalyticsDayStatisticsRatesData`
 
-Defined in: main.ts:243257
+Defined in: main.ts:245618
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:243257
 
 #### Returns
 
-[`AppendixDomainAnalyticsDayStatisticsRatesData`](AppendixDomainAnalyticsDayStatisticsRatesData.md)
+`AppendixDomainAnalyticsDayStatisticsRatesData`

@@ -6,7 +6,7 @@
 
 # Class: BacklinksAnchorsLiveResultInfo
 
-Defined in: main.ts:162639
+Defined in: main.ts:165048
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:162639
 
 ## Constructors
 
-### new BacklinksAnchorsLiveResultInfo()
+### Constructor
 
-> **new BacklinksAnchorsLiveResultInfo**(`data`?): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
+> **new BacklinksAnchorsLiveResultInfo**(`data`?): `BacklinksAnchorsLiveResultInfo`
 
-Defined in: main.ts:162651
+Defined in: main.ts:165060
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:162651
 
 #### Returns
 
-[`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
+`BacklinksAnchorsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162651
 
 > `optional` **items**: [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)[]
 
-Defined in: main.ts:162647
+Defined in: main.ts:165056
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:162645
+Defined in: main.ts:165054
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:162641
+Defined in: main.ts:165050
 
 target in the post array
 
@@ -82,7 +82,7 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:162643
+Defined in: main.ts:165052
 
 total number of relevant items in the database
 
@@ -96,7 +96,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162660
+Defined in: main.ts:165069
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:162660
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162684
+Defined in: main.ts:165093
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:162684
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksAnchorsLiveResultInfo`
 
-Defined in: main.ts:162677
+Defined in: main.ts:165086
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:162677
 
 #### Returns
 
-[`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
+`BacklinksAnchorsLiveResultInfo`

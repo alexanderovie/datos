@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
-Defined in: main.ts:112044
+Defined in: main.ts:113349
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:112044
 
 > `optional` **exclude\_top\_domains**: `boolean`
 
-Defined in: main.ts:112165
+Defined in: main.ts:113470
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -48,7 +48,7 @@ slideshare.net
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:112111
+Defined in: main.ts:113416
 
 array of results filtering parameters
 optional field
@@ -70,7 +70,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:112176
+Defined in: main.ts:113481
 
 ignore highly similar keywords
 optional field
@@ -83,7 +83,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:112097
+Defined in: main.ts:113402
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -98,7 +98,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **intersecting\_domains**: `string`[]
 
-Defined in: main.ts:112171
+Defined in: main.ts:113476
 
 additional domains for improving results accuracy
 optional field
@@ -112,7 +112,7 @@ Note: you can specify up to 20 domains in this array
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:112090
+Defined in: main.ts:113395
 
 display results by item type
 optional field
@@ -129,7 +129,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112081
+Defined in: main.ts:113386
 
 language code
 required field if you don’t specify language_name
@@ -145,7 +145,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:112073
+Defined in: main.ts:113378
 
 full name of the language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:112133
+Defined in: main.ts:113438
 
 the maximum number of returned domains
 optional field
@@ -174,7 +174,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112065
+Defined in: main.ts:113370
 
 location code
 required field if you don’t specify location_name
@@ -190,7 +190,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:112057
+Defined in: main.ts:113362
 
 full name of the location
 required field if you don’t specify location_code
@@ -206,7 +206,7 @@ United Kingdom
 
 > `optional` **max\_rank\_group**: `number`
 
-Defined in: main.ts:112143
+Defined in: main.ts:113448
 
 maximum rank up to which competitors will be considered
 optional field
@@ -219,7 +219,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:112138
+Defined in: main.ts:113443
 
 offset in the results array of returned domains
 optional field
@@ -232,7 +232,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:112128
+Defined in: main.ts:113433
 
 results sorting rules
 optional field
@@ -257,7 +257,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:112182
+Defined in: main.ts:113487
 
 user-defined task identifier
 optional field
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:112049
+Defined in: main.ts:113354
 
 domain
 required field

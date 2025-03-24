@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRawHtmlItem
 
-Defined in: main.ts:181754
+Defined in: main.ts:184163
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:181754
 
 > `optional` **html**: `string`
 
-Defined in: main.ts:181756
+Defined in: main.ts:184165
 
 HTML page

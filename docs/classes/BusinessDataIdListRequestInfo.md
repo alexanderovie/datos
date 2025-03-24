@@ -6,7 +6,7 @@
 
 # Class: BusinessDataIdListRequestInfo
 
-Defined in: main.ts:218727
+Defined in: main.ts:221136
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:218727
 
 ## Constructors
 
-### new BusinessDataIdListRequestInfo()
+### Constructor
 
-> **new BusinessDataIdListRequestInfo**(`data`?): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+> **new BusinessDataIdListRequestInfo**(`data`?): `BusinessDataIdListRequestInfo`
 
-Defined in: main.ts:218765
+Defined in: main.ts:221174
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:218765
 
 #### Returns
 
-[`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+`BusinessDataIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218765
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:218735
+Defined in: main.ts:221144
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:218742
+Defined in: main.ts:221151
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:218761
+Defined in: main.ts:221170
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:218747
+Defined in: main.ts:221156
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:218752
+Defined in: main.ts:221161
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:218757
+Defined in: main.ts:221166
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218774
+Defined in: main.ts:221183
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:218774
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218796
+Defined in: main.ts:221205
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:218796
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataIdListRequestInfo`
 
-Defined in: main.ts:218789
+Defined in: main.ts:221198
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:218789
 
 #### Returns
 
-[`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+`BusinessDataIdListRequestInfo`

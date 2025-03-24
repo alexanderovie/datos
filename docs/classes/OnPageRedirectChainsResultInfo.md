@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsResultInfo
 
-Defined in: main.ts:179627
+Defined in: main.ts:182036
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:179627
 
 ## Constructors
 
-### new OnPageRedirectChainsResultInfo()
+### Constructor
 
-> **new OnPageRedirectChainsResultInfo**(`data`?): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+> **new OnPageRedirectChainsResultInfo**(`data`?): `OnPageRedirectChainsResultInfo`
 
-Defined in: main.ts:179642
+Defined in: main.ts:182051
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:179642
 
 #### Returns
 
-[`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+`OnPageRedirectChainsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179642
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:179630
+Defined in: main.ts:182039
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:179632
+Defined in: main.ts:182041
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
 
-Defined in: main.ts:179638
+Defined in: main.ts:182047
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:179636
+Defined in: main.ts:182045
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:179634
+Defined in: main.ts:182043
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179651
+Defined in: main.ts:182060
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:179651
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179676
+Defined in: main.ts:182085
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:179676
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageRedirectChainsResultInfo`
 
-Defined in: main.ts:179669
+Defined in: main.ts:182078
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:179669
 
 #### Returns
 
-[`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+`OnPageRedirectChainsResultInfo`

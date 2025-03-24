@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
-Defined in: main.ts:239681
+Defined in: main.ts:242090
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239681
 
 ## Constructors
 
-### new BusinessDataSocialMediaRedditLiveResultInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+> **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): `BusinessDataSocialMediaRedditLiveResultInfo`
 
-Defined in: main.ts:239692
+Defined in: main.ts:242101
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239692
 
 #### Returns
 
-[`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+`BusinessDataSocialMediaRedditLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239692
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:239686
+Defined in: main.ts:242095
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -55,7 +55,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
 
-Defined in: main.ts:239688
+Defined in: main.ts:242097
 
 reddit reviews for the page_url
 
@@ -69,7 +69,7 @@ reddit reviews for the page_url
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:239683
+Defined in: main.ts:242092
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239701
+Defined in: main.ts:242110
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:239701
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239724
+Defined in: main.ts:242133
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:239724
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaRedditLiveResultInfo`
 
-Defined in: main.ts:239717
+Defined in: main.ts:242126
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:239717
 
 #### Returns
 
-[`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+`BusinessDataSocialMediaRedditLiveResultInfo`

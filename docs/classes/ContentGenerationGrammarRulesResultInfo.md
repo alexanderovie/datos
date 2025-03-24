@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
-Defined in: main.ts:192515
+Defined in: main.ts:194924
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:192515
 
 ## Constructors
 
-### new ContentGenerationGrammarRulesResultInfo()
+### Constructor
 
-> **new ContentGenerationGrammarRulesResultInfo**(`data`?): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+> **new ContentGenerationGrammarRulesResultInfo**(`data`?): `ContentGenerationGrammarRulesResultInfo`
 
-Defined in: main.ts:192521
+Defined in: main.ts:194930
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:192521
 
 #### Returns
 
-[`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+`ContentGenerationGrammarRulesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192521
 
 > `optional` **rules**: `string`[]
 
-Defined in: main.ts:192517
+Defined in: main.ts:194926
 
 array of rules
 
@@ -54,7 +54,7 @@ array of rules
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192530
+Defined in: main.ts:194939
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:192530
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192551
+Defined in: main.ts:194960
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:192551
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGrammarRulesResultInfo`
 
-Defined in: main.ts:192544
+Defined in: main.ts:194953
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:192544
 
 #### Returns
 
-[`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+`ContentGenerationGrammarRulesResultInfo`

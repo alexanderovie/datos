@@ -6,7 +6,7 @@
 
 # Interface: IPodcastsElement
 
-Defined in: main.ts:36888
+Defined in: main.ts:37315
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:36888
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36896
+Defined in: main.ts:37323
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **time\_to\_play**: `string`
 
-Defined in: main.ts:36903
+Defined in: main.ts:37330
 
 the total time it will take to play an episode
 
@@ -38,7 +38,7 @@ the total time it will take to play an episode
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:36901
+Defined in: main.ts:37328
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -51,7 +51,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36892
+Defined in: main.ts:37319
 
 title of a given link element
 
@@ -61,7 +61,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36890
+Defined in: main.ts:37317
 
 type of element
 
@@ -71,6 +71,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36894
+Defined in: main.ts:37321
 
 URL

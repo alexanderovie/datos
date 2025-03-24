@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveHtmlResultInfo
 
-Defined in: main.ts:42686
+Defined in: main.ts:43113
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:42686
 
 ## Constructors
 
-### new SerpGoogleOrganicLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleOrganicLiveHtmlResultInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
+> **new SerpGoogleOrganicLiveHtmlResultInfo**(`data`?): `SerpGoogleOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:42710
+Defined in: main.ts:43137
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:42710
 
 #### Returns
 
-[`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
+`SerpGoogleOrganicLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42710
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:42702
+Defined in: main.ts:43129
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:42706
+Defined in: main.ts:43133
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:42704
+Defined in: main.ts:43131
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42689
+Defined in: main.ts:43116
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42697
+Defined in: main.ts:43124
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42695
+Defined in: main.ts:43122
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42693
+Defined in: main.ts:43120
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:42691
+Defined in: main.ts:43118
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42719
+Defined in: main.ts:43146
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:42719
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42747
+Defined in: main.ts:43174
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:42747
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:42740
+Defined in: main.ts:43167
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:42740
 
 #### Returns
 
-[`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
+`SerpGoogleOrganicLiveHtmlResultInfo`

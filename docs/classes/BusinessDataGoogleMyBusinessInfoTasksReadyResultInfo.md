@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
-Defined in: main.ts:222695
+Defined in: main.ts:225104
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:222695
 
 ## Constructors
 
-### new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+> **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
 
-Defined in: main.ts:222713
+Defined in: main.ts:225122
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:222713
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222713
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:222705
+Defined in: main.ts:225114
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:222709
+Defined in: main.ts:225118
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:222698
+Defined in: main.ts:225107
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:222701
+Defined in: main.ts:225110
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:222703
+Defined in: main.ts:225112
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:222707
+Defined in: main.ts:225116
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222722
+Defined in: main.ts:225131
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:222722
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222744
+Defined in: main.ts:225153
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:222744
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
 
-Defined in: main.ts:222737
+Defined in: main.ts:225146
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:222737
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo.md)
+`BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`

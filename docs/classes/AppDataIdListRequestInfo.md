@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListRequestInfo
 
-Defined in: main.ts:207215
+Defined in: main.ts:209624
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:207215
 
 ## Constructors
 
-### new AppDataIdListRequestInfo()
+### Constructor
 
-> **new AppDataIdListRequestInfo**(`data`?): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
+> **new AppDataIdListRequestInfo**(`data`?): `AppDataIdListRequestInfo`
 
-Defined in: main.ts:207253
+Defined in: main.ts:209662
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:207253
 
 #### Returns
 
-[`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
+`AppDataIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:207253
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:207223
+Defined in: main.ts:209632
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:207230
+Defined in: main.ts:209639
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:207249
+Defined in: main.ts:209658
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:207235
+Defined in: main.ts:209644
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:207240
+Defined in: main.ts:209649
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:207245
+Defined in: main.ts:209654
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207262
+Defined in: main.ts:209671
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:207262
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207284
+Defined in: main.ts:209693
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:207284
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataIdListRequestInfo`
 
-Defined in: main.ts:207277
+Defined in: main.ts:209686
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:207277
 
 #### Returns
 
-[`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
+`AppDataIdListRequestInfo`

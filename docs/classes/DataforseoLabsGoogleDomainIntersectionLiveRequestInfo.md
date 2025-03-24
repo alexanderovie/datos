@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:112537
+Defined in: main.ts:113842
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:112537
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+> **new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo**(`data`?): `DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:112660
+Defined in: main.ts:113965
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:112660
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112660
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:112634
+Defined in: main.ts:113939
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:112607
+Defined in: main.ts:113912
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -88,7 +88,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:112600
+Defined in: main.ts:113905
 
 include data from SERP for each keyword
 optional field
@@ -105,7 +105,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:112587
+Defined in: main.ts:113892
 
 domain intersections in SERP
 optional field
@@ -125,7 +125,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:112595
+Defined in: main.ts:113900
 
 search results type
 indicates type of search results included in the response
@@ -145,7 +145,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112579
+Defined in: main.ts:113884
 
 language code
 required field if you don’t specify language_name
@@ -165,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:112571
+Defined in: main.ts:113876
 
 full name of the language
 required field if you don’t specify language_code
@@ -185,7 +185,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:112612
+Defined in: main.ts:113917
 
 the maximum number of returned keywords
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112563
+Defined in: main.ts:113868
 
 location code
 required field if you don’t specify location_name
@@ -222,7 +222,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:112555
+Defined in: main.ts:113860
 
 full name of the location
 required field if you don’t specify location_code
@@ -242,7 +242,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:112617
+Defined in: main.ts:113922
 
 offset in the items array of returned keywords
 optional field
@@ -259,7 +259,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:112650
+Defined in: main.ts:113955
 
 results sorting rules
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:112656
+Defined in: main.ts:113961
 
 user-defined task identifier
 optional field
@@ -305,7 +305,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:112542
+Defined in: main.ts:113847
 
 domain
 required field
@@ -322,7 +322,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:112547
+Defined in: main.ts:113852
 
 domain
 required field
@@ -339,7 +339,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112669
+Defined in: main.ts:113974
 
 #### Parameters
 
@@ -357,7 +357,7 @@ Defined in: main.ts:112669
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112712
+Defined in: main.ts:114017
 
 #### Parameters
 
@@ -373,9 +373,9 @@ Defined in: main.ts:112712
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:112705
+Defined in: main.ts:114010
 
 #### Parameters
 
@@ -385,4 +385,4 @@ Defined in: main.ts:112705
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: InformationAndTicketsElement
 
-Defined in: main.ts:51318
+Defined in: main.ts:51745
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:51318
 
 ## Constructors
 
-### new InformationAndTicketsElement()
+### Constructor
 
-> **new InformationAndTicketsElement**(`data`?): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+> **new InformationAndTicketsElement**(`data`?): `InformationAndTicketsElement`
 
-Defined in: main.ts:51332
+Defined in: main.ts:51759
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:51332
 
 #### Returns
 
-[`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+`InformationAndTicketsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:51332
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:51324
+Defined in: main.ts:51751
 
 description of the element
 
@@ -54,7 +54,7 @@ description of the element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:51328
+Defined in: main.ts:51755
 
 domain in SERP
 
@@ -68,7 +68,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:51322
+Defined in: main.ts:51749
 
 title of the element
 
@@ -82,7 +82,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:51320
+Defined in: main.ts:51747
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51326
+Defined in: main.ts:51753
 
 relevant URL
 
@@ -110,7 +110,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51341
+Defined in: main.ts:51768
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:51341
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51362
+Defined in: main.ts:51789
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:51362
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+> `static` **fromJS**(`data`): `InformationAndTicketsElement`
 
-Defined in: main.ts:51355
+Defined in: main.ts:51782
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:51355
 
 #### Returns
 
-[`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+`InformationAndTicketsElement`

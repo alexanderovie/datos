@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
-Defined in: main.ts:171741
+Defined in: main.ts:174150
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171741
 
 ## Constructors
 
-### new BacklinksBulkNewLostReferringDomainsLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+> **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data`?): `BacklinksBulkNewLostReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:171749
+Defined in: main.ts:174158
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171749
 
 #### Returns
 
-[`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+`BacklinksBulkNewLostReferringDomainsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171749
 
 > `optional` **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:171745
+Defined in: main.ts:174154
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171743
+Defined in: main.ts:174152
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171758
+Defined in: main.ts:174167
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:171758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171780
+Defined in: main.ts:174189
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:171780
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkNewLostReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:171773
+Defined in: main.ts:174182
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:171773
 
 #### Returns
 
-[`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+`BacklinksBulkNewLostReferringDomainsLiveResultInfo`

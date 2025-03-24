@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
 
-Defined in: main.ts:187593
+Defined in: main.ts:190002
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:187593
 
 ## Constructors
 
-### new ContentAnalysisSummaryLiveRequestInfo()
+### Constructor
 
-> **new ContentAnalysisSummaryLiveRequestInfo**(`data`?): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
+> **new ContentAnalysisSummaryLiveRequestInfo**(`data`?): `ContentAnalysisSummaryLiveRequestInfo`
 
-Defined in: main.ts:187673
+Defined in: main.ts:190082
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:187673
 
 #### Returns
 
-[`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
+`ContentAnalysisSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187673
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:187663
+Defined in: main.ts:190072
 
 initial dataset filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:187631
+Defined in: main.ts:190040
 
 maximum number of elements within internal arrays
 optional field
@@ -92,7 +92,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:187602
+Defined in: main.ts:190011
 
 target keyword
 required field
@@ -113,7 +113,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:187614
+Defined in: main.ts:190023
 
 target keyword fields and target keywords
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:187620
+Defined in: main.ts:190029
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:187638
+Defined in: main.ts:190047
 
 positive connotation threshold
 optional field
@@ -178,7 +178,7 @@ default value: 0.4
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:187646
+Defined in: main.ts:190055
 
 sentiment connotation threshold
 optional field
@@ -198,7 +198,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187669
+Defined in: main.ts:190078
 
 user-defined task identifier
 optional field
@@ -216,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187682
+Defined in: main.ts:190091
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:187682
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187720
+Defined in: main.ts:190129
 
 #### Parameters
 
@@ -250,9 +250,9 @@ Defined in: main.ts:187720
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisSummaryLiveRequestInfo`
 
-Defined in: main.ts:187713
+Defined in: main.ts:190122
 
 #### Parameters
 
@@ -262,4 +262,4 @@ Defined in: main.ts:187713
 
 #### Returns
 
-[`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
+`ContentAnalysisSummaryLiveRequestInfo`

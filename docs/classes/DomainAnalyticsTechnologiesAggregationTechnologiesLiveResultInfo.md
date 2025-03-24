@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
-Defined in: main.ts:95643
+Defined in: main.ts:97546
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:95643
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
 
-Defined in: main.ts:95655
+Defined in: main.ts:97558
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:95655
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95655
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
-Defined in: main.ts:95651
+Defined in: main.ts:97554
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:95647
+Defined in: main.ts:97550
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:95649
+Defined in: main.ts:97552
 
 offset in the results array of returned domains
 
@@ -82,7 +82,7 @@ offset in the results array of returned domains
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:95645
+Defined in: main.ts:97548
 
 total amount of results in our database relevant to your request
 
@@ -96,7 +96,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95664
+Defined in: main.ts:97567
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:95664
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95688
+Defined in: main.ts:97591
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:95688
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
 
-Defined in: main.ts:95681
+Defined in: main.ts:97584
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:95681
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`

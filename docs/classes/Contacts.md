@@ -6,7 +6,7 @@
 
 # Class: Contacts
 
-Defined in: main.ts:182641
+Defined in: main.ts:185050
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182641
 
 ## Constructors
 
-### new Contacts()
+### Constructor
 
-> **new Contacts**(`data`?): [`Contacts`](Contacts.md)
+> **new Contacts**(`data`?): `Contacts`
 
-Defined in: main.ts:182647
+Defined in: main.ts:185056
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182647
 
 #### Returns
 
-[`Contacts`](Contacts.md)
+`Contacts`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182647
 
 > `optional` **telephones**: `string`[]
 
-Defined in: main.ts:182643
+Defined in: main.ts:185052
 
 array of telephone numbers
 
@@ -54,7 +54,7 @@ array of telephone numbers
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182656
+Defined in: main.ts:185065
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:182656
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182677
+Defined in: main.ts:185086
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:182677
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Contacts`](Contacts.md)
+> `static` **fromJS**(`data`): `Contacts`
 
-Defined in: main.ts:182670
+Defined in: main.ts:185079
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:182670
 
 #### Returns
 
-[`Contacts`](Contacts.md)
+`Contacts`

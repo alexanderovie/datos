@@ -6,7 +6,7 @@
 
 # Class: MathSolverExpandedElement
 
-Defined in: main.ts:38328
+Defined in: main.ts:38755
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:38328
 
 ## Constructors
 
-### new MathSolverExpandedElement()
+### Constructor
 
-> **new MathSolverExpandedElement**(`data`?): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+> **new MathSolverExpandedElement**(`data`?): `MathSolverExpandedElement`
 
-Defined in: main.ts:38339
+Defined in: main.ts:38766
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:38339
 
 #### Returns
 
-[`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+`MathSolverExpandedElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38339
 
 > `optional` **solution**: `string`[]
 
-Defined in: main.ts:38335
+Defined in: main.ts:38762
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
@@ -55,7 +55,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38332
+Defined in: main.ts:38759
 
 title of the carousel item
 
@@ -69,7 +69,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38330
+Defined in: main.ts:38757
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38348
+Defined in: main.ts:38775
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:38348
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38371
+Defined in: main.ts:38798
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:38371
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+> `static` **fromJS**(`data`): `MathSolverExpandedElement`
 
-Defined in: main.ts:38364
+Defined in: main.ts:38791
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:38364
 
 #### Returns
 
-[`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+`MathSolverExpandedElement`

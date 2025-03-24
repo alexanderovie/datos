@@ -6,7 +6,7 @@
 
 # Class: HistoricalMetricsBundleInfo
 
-Defined in: main.ts:120879
+Defined in: main.ts:122262
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:120879
 
 ## Constructors
 
-### new HistoricalMetricsBundleInfo()
+### Constructor
 
-> **new HistoricalMetricsBundleInfo**(`data`?): [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
+> **new HistoricalMetricsBundleInfo**(`data`?): `HistoricalMetricsBundleInfo`
 
-Defined in: main.ts:120891
+Defined in: main.ts:122274
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:120891
 
 #### Returns
 
-[`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
+`HistoricalMetricsBundleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120891
 
 > `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:120887
+Defined in: main.ts:122270
 
 traffic data from the local pack results in SERP
 
@@ -54,7 +54,7 @@ traffic data from the local pack results in SERP
 
 > `optional` **local\_pack**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:120885
+Defined in: main.ts:122268
 
 traffic data from the featured snippet results in Google SERP
 
@@ -68,7 +68,7 @@ traffic data from the featured snippet results in Google SERP
 
 > `optional` **organic**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:120881
+Defined in: main.ts:122264
 
 traffic data from organic search
 
@@ -82,7 +82,7 @@ traffic data from organic search
 
 > `optional` **paid**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:120883
+Defined in: main.ts:122266
 
 traffic data from paid search
 
@@ -96,7 +96,7 @@ traffic data from paid search
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120900
+Defined in: main.ts:122283
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:120900
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120936
+Defined in: main.ts:122319
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:120936
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): `HistoricalMetricsBundleInfo`
 
-Defined in: main.ts:120929
+Defined in: main.ts:122312
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:120929
 
 #### Returns
 
-[`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
+`HistoricalMetricsBundleInfo`

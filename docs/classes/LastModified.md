@@ -6,7 +6,7 @@
 
 # Class: LastModified
 
-Defined in: main.ts:176287
+Defined in: main.ts:178696
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176287
 
 ## Constructors
 
-### new LastModified()
+### Constructor
 
-> **new LastModified**(`data`?): [`LastModified`](LastModified.md)
+> **new LastModified**(`data`?): `LastModified`
 
-Defined in: main.ts:176309
+Defined in: main.ts:178718
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176309
 
 #### Returns
 
-[`LastModified`](LastModified.md)
+`LastModified`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176309
 
 > `optional` **header**: `string`
 
-Defined in: main.ts:176293
+Defined in: main.ts:178702
 
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -58,7 +58,7 @@ if there is no data, the value will be null
 
 > `optional` **meta\_tag**: `string`
 
-Defined in: main.ts:176305
+Defined in: main.ts:178714
 
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -76,7 +76,7 @@ if there is no data, the value will be null
 
 > `optional` **sitemap**: `string`
 
-Defined in: main.ts:176299
+Defined in: main.ts:178708
 
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -94,7 +94,7 @@ if there is no data, the value will be null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176318
+Defined in: main.ts:178727
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:176318
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176337
+Defined in: main.ts:178746
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:176337
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LastModified`](LastModified.md)
+> `static` **fromJS**(`data`): `LastModified`
 
-Defined in: main.ts:176330
+Defined in: main.ts:178739
 
 #### Parameters
 
@@ -140,4 +140,4 @@ Defined in: main.ts:176330
 
 #### Returns
 
-[`LastModified`](LastModified.md)
+`LastModified`

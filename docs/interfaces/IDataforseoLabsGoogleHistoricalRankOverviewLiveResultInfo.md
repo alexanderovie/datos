@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
-Defined in: main.ts:119156
+Defined in: main.ts:120539
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:119156
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:119170
+Defined in: main.ts:120553
 
 contains historical ranking and traffic data
 
@@ -28,7 +28,7 @@ contains historical ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:119168
+Defined in: main.ts:120551
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:119164
+Defined in: main.ts:120547
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:119162
+Defined in: main.ts:120545
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:119158
+Defined in: main.ts:120541
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:119160
+Defined in: main.ts:120543
 
 target domain in a POST array
 
@@ -78,6 +78,6 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:119166
+Defined in: main.ts:120549
 
 total amount of results in our database relevant to your request

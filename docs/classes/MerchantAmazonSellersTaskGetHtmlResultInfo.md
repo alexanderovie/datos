@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetHtmlResultInfo
 
-Defined in: main.ts:205815
+Defined in: main.ts:208224
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:205815
 
 ## Constructors
 
-### new MerchantAmazonSellersTaskGetHtmlResultInfo()
+### Constructor
 
-> **new MerchantAmazonSellersTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
+> **new MerchantAmazonSellersTaskGetHtmlResultInfo**(`data`?): `MerchantAmazonSellersTaskGetHtmlResultInfo`
 
-Defined in: main.ts:205838
+Defined in: main.ts:208247
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:205838
 
 #### Returns
 
-[`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
+`MerchantAmazonSellersTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205838
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:205817
+Defined in: main.ts:208226
 
 ASIN received in a POST array
 
@@ -54,7 +54,7 @@ ASIN received in a POST array
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:205830
+Defined in: main.ts:208239
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:205834
+Defined in: main.ts:208243
 
 elements of search results found on Amazon
 
@@ -85,7 +85,7 @@ elements of search results found on Amazon
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:205832
+Defined in: main.ts:208241
 
 the number of results returned in the items array
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:205825
+Defined in: main.ts:208234
 
 language code in a POST array
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:205823
+Defined in: main.ts:208232
 
 location code in a POST array
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:205821
+Defined in: main.ts:208230
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:205819
+Defined in: main.ts:208228
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205847
+Defined in: main.ts:208256
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:205847
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205875
+Defined in: main.ts:208284
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:205875
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonSellersTaskGetHtmlResultInfo`
 
-Defined in: main.ts:205868
+Defined in: main.ts:208277
 
 #### Parameters
 
@@ -201,4 +201,4 @@ Defined in: main.ts:205868
 
 #### Returns
 
-[`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
+`MerchantAmazonSellersTaskGetHtmlResultInfo`

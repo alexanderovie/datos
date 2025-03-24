@@ -6,7 +6,7 @@
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 
-Defined in: main.ts:247209
+Defined in: main.ts:249174
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247209
 
 ## Constructors
 
-### new AppendixSocialMediaBusinessDataPriceData()
+### Constructor
 
-> **new AppendixSocialMediaBusinessDataPriceData**(`data`?): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+> **new AppendixSocialMediaBusinessDataPriceData**(`data`?): `AppendixSocialMediaBusinessDataPriceData`
 
-Defined in: main.ts:247216
+Defined in: main.ts:249181
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247216
 
 #### Returns
 
-[`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+`AppendixSocialMediaBusinessDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247216
 
 > `optional` **facebook**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247210
+Defined in: main.ts:249175
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247210
 
 > `optional` **pinterest**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247211
+Defined in: main.ts:249176
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247211
 
 > `optional` **reddit**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247212
+Defined in: main.ts:249177
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247212
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247225
+Defined in: main.ts:249190
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:247225
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247244
+Defined in: main.ts:249209
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:247244
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixSocialMediaBusinessDataPriceData`
 
-Defined in: main.ts:247237
+Defined in: main.ts:249202
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:247237
 
 #### Returns
 
-[`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+`AppendixSocialMediaBusinessDataPriceData`

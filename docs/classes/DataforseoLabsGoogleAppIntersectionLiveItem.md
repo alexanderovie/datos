@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveItem
 
-Defined in: main.ts:132347
+Defined in: main.ts:134748
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:132347
 
 ## Constructors
 
-### new DataforseoLabsGoogleAppIntersectionLiveItem()
+### Constructor
 
-> **new DataforseoLabsGoogleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
+> **new DataforseoLabsGoogleAppIntersectionLiveItem**(`data`?): `DataforseoLabsGoogleAppIntersectionLiveItem`
 
-Defined in: main.ts:132359
+Defined in: main.ts:134760
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:132359
 
 #### Returns
 
-[`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
+`DataforseoLabsGoogleAppIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132359
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:132355
+Defined in: main.ts:134756
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -60,7 +60,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:132351
+Defined in: main.ts:134752
 
 keyword data for the returned keyword
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132349
+Defined in: main.ts:134750
 
 search engine type
 
@@ -88,7 +88,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:132368
+Defined in: main.ts:134769
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:132368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:132393
+Defined in: main.ts:134794
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:132393
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleAppIntersectionLiveItem`
 
-Defined in: main.ts:132386
+Defined in: main.ts:134787
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:132386
 
 #### Returns
 
-[`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
+`DataforseoLabsGoogleAppIntersectionLiveItem`

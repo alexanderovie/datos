@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTaskPostRequestInfo
 
-Defined in: main.ts:184699
+Defined in: main.ts:187108
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:184699
 
 ## Constructors
 
-### new OnPageLighthouseTaskPostRequestInfo()
+### Constructor
 
-> **new OnPageLighthouseTaskPostRequestInfo**(`data`?): [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
+> **new OnPageLighthouseTaskPostRequestInfo**(`data`?): `OnPageLighthouseTaskPostRequestInfo`
 
-Defined in: main.ts:184781
+Defined in: main.ts:187190
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:184781
 
 #### Returns
 
-[`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
+`OnPageLighthouseTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184781
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:184732
+Defined in: main.ts:187141
 
 Lighthouse audits
 optional field
@@ -65,7 +65,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:184719
+Defined in: main.ts:187128
 
 categories of Lighthouse audits
 optional field
@@ -85,7 +85,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:184711
+Defined in: main.ts:187120
 
 applies mobile emulation
 optional field
@@ -103,7 +103,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:184749
+Defined in: main.ts:187158
 
 lighthouse language code
 optional field
@@ -121,7 +121,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:184743
+Defined in: main.ts:187152
 
 lighthouse language name
 optional field
@@ -139,7 +139,7 @@ English
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:184766
+Defined in: main.ts:187175
 
 notification URL of a completed task
 optional field
@@ -162,7 +162,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:184777
+Defined in: main.ts:187186
 
 return URL for sending task results
 optional field
@@ -185,7 +185,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:184755
+Defined in: main.ts:187164
 
 user-defined task identifier
 optional field
@@ -203,7 +203,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:184705
+Defined in: main.ts:187114
 
 target URL
 required field
@@ -221,7 +221,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:184737
+Defined in: main.ts:187146
 
 lighthouse version
 optional field
@@ -238,7 +238,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184790
+Defined in: main.ts:187199
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:184790
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184824
+Defined in: main.ts:187233
 
 #### Parameters
 
@@ -272,9 +272,9 @@ Defined in: main.ts:184824
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseTaskPostRequestInfo`
 
-Defined in: main.ts:184817
+Defined in: main.ts:187226
 
 #### Parameters
 
@@ -284,4 +284,4 @@ Defined in: main.ts:184817
 
 #### Returns
 
-[`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
+`OnPageLighthouseTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: MentionCarouselElement
 
-Defined in: main.ts:35566
+Defined in: main.ts:35993
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:35566
 
 ## Constructors
 
-### new MentionCarouselElement()
+### Constructor
 
-> **new MentionCarouselElement**(`data`?): [`MentionCarouselElement`](MentionCarouselElement.md)
+> **new MentionCarouselElement**(`data`?): `MentionCarouselElement`
 
-Defined in: main.ts:35581
+Defined in: main.ts:36008
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:35581
 
 #### Returns
 
-[`MentionCarouselElement`](MentionCarouselElement.md)
+`MentionCarouselElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35581
 
 > `optional` **mentioned\_in**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:35577
+Defined in: main.ts:36004
 
 additional elements in the mention_carousel item
 
@@ -54,7 +54,7 @@ additional elements in the mention_carousel item
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35572
+Defined in: main.ts:35999
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35575
+Defined in: main.ts:36002
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35570
+Defined in: main.ts:35997
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35568
+Defined in: main.ts:35995
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35590
+Defined in: main.ts:36017
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:35590
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35615
+Defined in: main.ts:36042
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:35615
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
+> `static` **fromJS**(`data`): `MentionCarouselElement`
 
-Defined in: main.ts:35608
+Defined in: main.ts:36035
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:35608
 
 #### Returns
 
-[`MentionCarouselElement`](MentionCarouselElement.md)
+`MentionCarouselElement`

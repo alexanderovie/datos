@@ -6,7 +6,7 @@
 
 # Interface: IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:240958
+Defined in: main.ts:243371
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:240958
 
 > `optional` **ad\_url**: `number`
 
-Defined in: main.ts:240962
+Defined in: main.ts:243375
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:240962
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:240961
+Defined in: main.ts:243374
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:240961
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:240959
+Defined in: main.ts:243372
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:240959
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:240960
+Defined in: main.ts:243373

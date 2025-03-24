@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:206842
+Defined in: main.ts:209251
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:206842
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:206844
+Defined in: main.ts:209253
 
 asin received in a POST array
 
@@ -28,7 +28,7 @@ asin received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:206855
+Defined in: main.ts:209264
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:206860
+Defined in: main.ts:209269
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ example:
 
 > `optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
 
-Defined in: main.ts:206868
+Defined in: main.ts:209277
 
 product image data
 
@@ -62,7 +62,7 @@ product image data
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:206878
+Defined in: main.ts:209287
 
 type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
@@ -75,7 +75,7 @@ amazon_review_item
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:206884
+Defined in: main.ts:209293
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -86,7 +86,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:206881
+Defined in: main.ts:209290
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -97,7 +97,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:206852
+Defined in: main.ts:209261
 
 language code in a POST array
 
@@ -107,7 +107,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:206850
+Defined in: main.ts:209259
 
 location code in a POST array
 
@@ -117,7 +117,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:206871
+Defined in: main.ts:209280
 
 rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP
@@ -128,7 +128,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:206873
+Defined in: main.ts:209282
 
 the total number of reviews
 
@@ -138,7 +138,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:206848
+Defined in: main.ts:209257
 
 search engine domain in a POST array
 
@@ -148,7 +148,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:206863
+Defined in: main.ts:209272
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -159,7 +159,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:206866
+Defined in: main.ts:209275
 
 title of the product on Amazon
 the title of the product for which the reviews are collected
@@ -170,6 +170,6 @@ the title of the product for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:206846
+Defined in: main.ts:209255
 
 type of element

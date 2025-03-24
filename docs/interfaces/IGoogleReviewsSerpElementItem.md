@@ -6,7 +6,7 @@
 
 # Interface: IGoogleReviewsSerpElementItem
 
-Defined in: main.ts:34214
+Defined in: main.ts:34641
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34214
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:34231
+Defined in: main.ts:34658
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:34229
+Defined in: main.ts:34656
 
 the additional feature of the review
 
@@ -42,7 +42,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:34227
+Defined in: main.ts:34654
 
 the identifier of a place
 
@@ -52,7 +52,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34218
+Defined in: main.ts:34645
 
 the alignment of the element in SERP
 can take the following values:
@@ -64,7 +64,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:34225
+Defined in: main.ts:34652
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -106,7 +106,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34235
+Defined in: main.ts:34662
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -118,7 +118,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:34222
+Defined in: main.ts:34649
 
 the number of reviews
 
@@ -128,7 +128,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -142,6 +142,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34220
+Defined in: main.ts:34647
 
 the XPath of the element

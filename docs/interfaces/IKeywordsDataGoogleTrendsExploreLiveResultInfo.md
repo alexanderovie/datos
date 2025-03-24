@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
-Defined in: main.ts:144512
+Defined in: main.ts:146921
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:144512
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:144525
+Defined in: main.ts:146934
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:144530
+Defined in: main.ts:146939
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](../classes/BaseGoogleTrendsItem.md)[]
 
-Defined in: main.ts:144534
+Defined in: main.ts:146943
 
 items on the Google Trends page
 
@@ -52,7 +52,7 @@ items on the Google Trends page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:144532
+Defined in: main.ts:146941
 
 the number of results returned in the items array
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:144514
+Defined in: main.ts:146923
 
 keywords in a POST array
 
@@ -72,7 +72,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144522
+Defined in: main.ts:146931
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:144519
+Defined in: main.ts:146928
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,6 +94,6 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:144516
+Defined in: main.ts:146925
 
 type of element

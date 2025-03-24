@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListRequestInfo
 
-Defined in: main.ts:134735
+Defined in: main.ts:137136
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:134735
 
 ## Constructors
 
-### new KeywordsDataIdListRequestInfo()
+### Constructor
 
-> **new KeywordsDataIdListRequestInfo**(`data`?): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+> **new KeywordsDataIdListRequestInfo**(`data`?): `KeywordsDataIdListRequestInfo`
 
-Defined in: main.ts:134773
+Defined in: main.ts:137174
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:134773
 
 #### Returns
 
-[`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+`KeywordsDataIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134773
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:134743
+Defined in: main.ts:137144
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:134750
+Defined in: main.ts:137151
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:134769
+Defined in: main.ts:137170
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:134755
+Defined in: main.ts:137156
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:134760
+Defined in: main.ts:137161
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:134765
+Defined in: main.ts:137166
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134782
+Defined in: main.ts:137183
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:134782
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134804
+Defined in: main.ts:137205
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:134804
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataIdListRequestInfo`
 
-Defined in: main.ts:134797
+Defined in: main.ts:137198
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:134797
 
 #### Returns
 
-[`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)
+`KeywordsDataIdListRequestInfo`

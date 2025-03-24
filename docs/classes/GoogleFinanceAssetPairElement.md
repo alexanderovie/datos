@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceAssetPairElement
 
-Defined in: main.ts:87343
+Defined in: main.ts:87770
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:87343
 
 ## Constructors
 
-### new GoogleFinanceAssetPairElement()
+### Constructor
 
-> **new GoogleFinanceAssetPairElement**(`data`?): [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
+> **new GoogleFinanceAssetPairElement**(`data`?): `GoogleFinanceAssetPairElement`
 
-Defined in: main.ts:87388
+Defined in: main.ts:87815
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:87388
 
 #### Returns
 
-[`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
+`GoogleFinanceAssetPairElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87388
 
 > `optional` **base\_display\_name**: `string`
 
-Defined in: main.ts:87354
+Defined in: main.ts:87781
 
 full name of the base asset in a pair
 example: Euro
@@ -55,7 +55,7 @@ example: Euro
 
 > `optional` **base\_symbol**: `string`
 
-Defined in: main.ts:87348
+Defined in: main.ts:87775
 
 identifier of the base asset in a pair
 example: EUR
@@ -70,7 +70,7 @@ example: EUR
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:87369
+Defined in: main.ts:87796
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -85,7 +85,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:87366
+Defined in: main.ts:87793
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -101,7 +101,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:87374
+Defined in: main.ts:87801
 
 location of the market index
 example: Europe/Paris
@@ -116,7 +116,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:87384
+Defined in: main.ts:87811
 
 percentage of change in value of the market index
 
@@ -130,7 +130,7 @@ percentage of change in value of the market index
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:87359
+Defined in: main.ts:87786
 
 value of the base asset compared to the quote asset
 
@@ -144,7 +144,7 @@ value of the base asset compared to the quote asset
 
 > `optional` **price\_delta**: `number`
 
-Defined in: main.ts:87362
+Defined in: main.ts:87789
 
 change in price
 change in price at a given timestamp
@@ -159,7 +159,7 @@ change in price at a given timestamp
 
 > `optional` **quote\_display\_name**: `string`
 
-Defined in: main.ts:87357
+Defined in: main.ts:87784
 
 full name of the base asset in a pair
 example: Euro
@@ -174,7 +174,7 @@ example: Euro
 
 > `optional` **quote\_symbol**: `string`
 
-Defined in: main.ts:87351
+Defined in: main.ts:87778
 
 identifier of the quote asset in a pair
 example: USD
@@ -189,7 +189,7 @@ example: USD
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87382
+Defined in: main.ts:87809
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -206,7 +206,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:87377
+Defined in: main.ts:87804
 
 growth trend of the market index
 possible values: up, down, stable
@@ -221,7 +221,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87345
+Defined in: main.ts:87772
 
 type of element
 
@@ -235,7 +235,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87371
+Defined in: main.ts:87798
 
 URL to the page of the market index on Google Finance
 
@@ -249,7 +249,7 @@ URL to the page of the market index on Google Finance
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87397
+Defined in: main.ts:87824
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:87397
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87427
+Defined in: main.ts:87854
 
 #### Parameters
 
@@ -283,9 +283,9 @@ Defined in: main.ts:87427
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
+> `static` **fromJS**(`data`): `GoogleFinanceAssetPairElement`
 
-Defined in: main.ts:87420
+Defined in: main.ts:87847
 
 #### Parameters
 
@@ -295,4 +295,4 @@ Defined in: main.ts:87420
 
 #### Returns
 
-[`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
+`GoogleFinanceAssetPairElement`

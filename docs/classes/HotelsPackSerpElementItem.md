@@ -6,7 +6,7 @@
 
 # Class: HotelsPackSerpElementItem
 
-Defined in: main.ts:37678
+Defined in: main.ts:38105
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:37678
 
 ## Constructors
 
-### new HotelsPackSerpElementItem()
+### Constructor
 
-> **new HotelsPackSerpElementItem**(`data`?): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+> **new HotelsPackSerpElementItem**(`data`?): `HotelsPackSerpElementItem`
 
-Defined in: main.ts:37706
+Defined in: main.ts:38133
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:37706
 
 #### Returns
 
-[`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+`HotelsPackSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:37706
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:37691
+Defined in: main.ts:38118
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:37696
+Defined in: main.ts:38123
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:37698
+Defined in: main.ts:38125
 
 contains arrays of specific images
 
@@ -108,7 +108,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:37682
+Defined in: main.ts:38109
 
 the alignment of the element in SERP
 can take the following values:
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37702
+Defined in: main.ts:38129
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -179,7 +179,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37686
+Defined in: main.ts:38113
 
 title of the row
 
@@ -193,7 +193,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -211,7 +211,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37684
+Defined in: main.ts:38111
 
 the XPath of the element
 
@@ -225,7 +225,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37711
+Defined in: main.ts:38138
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:37711
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37739
+Defined in: main.ts:38166
 
 #### Parameters
 
@@ -267,9 +267,9 @@ Defined in: main.ts:37739
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+> `static` **fromJS**(`data`): `HotelsPackSerpElementItem`
 
-Defined in: main.ts:37732
+Defined in: main.ts:38159
 
 #### Parameters
 
@@ -279,7 +279,7 @@ Defined in: main.ts:37732
 
 #### Returns
 
-[`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
+`HotelsPackSerpElementItem`
 
 #### Overrides
 

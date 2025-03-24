@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTasksReadyResultInfo
 
-Defined in: main.ts:85607
+Defined in: main.ts:86034
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:85607
 
 ## Constructors
 
-### new SerpSeznamOrganicTasksReadyResultInfo()
+### Constructor
 
-> **new SerpSeznamOrganicTasksReadyResultInfo**(`data`?): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+> **new SerpSeznamOrganicTasksReadyResultInfo**(`data`?): `SerpSeznamOrganicTasksReadyResultInfo`
 
-Defined in: main.ts:85632
+Defined in: main.ts:86059
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:85632
 
 #### Returns
 
-[`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+`SerpSeznamOrganicTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85632
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:85617
+Defined in: main.ts:86044
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:85625
+Defined in: main.ts:86052
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:85628
+Defined in: main.ts:86055
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:85622
+Defined in: main.ts:86049
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:85610
+Defined in: main.ts:86037
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:85612
+Defined in: main.ts:86039
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:85615
+Defined in: main.ts:86042
 
 type of search engine
 example: organic
@@ -143,7 +143,7 @@ example: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:85619
+Defined in: main.ts:86046
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85641
+Defined in: main.ts:86068
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:85641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85665
+Defined in: main.ts:86092
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:85665
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `SerpSeznamOrganicTasksReadyResultInfo`
 
-Defined in: main.ts:85658
+Defined in: main.ts:86085
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:85658
 
 #### Returns
 
-[`SerpSeznamOrganicTasksReadyResultInfo`](SerpSeznamOrganicTasksReadyResultInfo.md)
+`SerpSeznamOrganicTasksReadyResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 
-Defined in: main.ts:130465
+Defined in: main.ts:132866
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:130465
 
 ## Constructors
 
-### new DataforseoLabsleBulkAppMetricsLiveItem()
+### Constructor
 
-> **new DataforseoLabsleBulkAppMetricsLiveItem**(`data`?): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
+> **new DataforseoLabsleBulkAppMetricsLiveItem**(`data`?): `DataforseoLabsleBulkAppMetricsLiveItem`
 
-Defined in: main.ts:130476
+Defined in: main.ts:132877
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:130476
 
 #### Returns
 
-[`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
+`DataforseoLabsleBulkAppMetricsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:130476
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:130469
+Defined in: main.ts:132870
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:130472
+Defined in: main.ts:132873
 
 metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play
@@ -73,7 +73,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:130467
+Defined in: main.ts:132868
 
 search engine type
 
@@ -87,7 +87,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:130485
+Defined in: main.ts:132886
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:130485
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:130510
+Defined in: main.ts:132911
 
 #### Parameters
 
@@ -121,9 +121,9 @@ Defined in: main.ts:130510
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsleBulkAppMetricsLiveItem`
 
-Defined in: main.ts:130503
+Defined in: main.ts:132904
 
 #### Parameters
 
@@ -133,4 +133,4 @@ Defined in: main.ts:130503
 
 #### Returns
 
-[`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
+`DataforseoLabsleBulkAppMetricsLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: MultiCarouselElement
 
-Defined in: main.ts:35982
+Defined in: main.ts:36409
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:35982
 
 ## Constructors
 
-### new MultiCarouselElement()
+### Constructor
 
-> **new MultiCarouselElement**(`data`?): [`MultiCarouselElement`](MultiCarouselElement.md)
+> **new MultiCarouselElement**(`data`?): `MultiCarouselElement`
 
-Defined in: main.ts:35992
+Defined in: main.ts:36419
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:35992
 
 #### Returns
 
-[`MultiCarouselElement`](MultiCarouselElement.md)
+`MultiCarouselElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35992
 
 > `optional` **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:35988
+Defined in: main.ts:36415
 
 multi_carousel_snippet results
 
@@ -54,7 +54,7 @@ multi_carousel_snippet results
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35986
+Defined in: main.ts:36413
 
 title of a given link element
 
@@ -68,7 +68,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35984
+Defined in: main.ts:36411
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36001
+Defined in: main.ts:36428
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:36001
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36024
+Defined in: main.ts:36451
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:36024
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
+> `static` **fromJS**(`data`): `MultiCarouselElement`
 
-Defined in: main.ts:36017
+Defined in: main.ts:36444
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:36017
 
 #### Returns
 
-[`MultiCarouselElement`](MultiCarouselElement.md)
+`MultiCarouselElement`

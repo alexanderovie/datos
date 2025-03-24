@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationPriceData
 
-Defined in: main.ts:247537
+Defined in: main.ts:249502
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247537
 
 ## Constructors
 
-### new AppendixContentGenerationPriceData()
+### Constructor
 
-> **new AppendixContentGenerationPriceData**(`data`?): [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
+> **new AppendixContentGenerationPriceData**(`data`?): `AppendixContentGenerationPriceData`
 
-Defined in: main.ts:247548
+Defined in: main.ts:249513
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247548
 
 #### Returns
 
-[`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
+`AppendixContentGenerationPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247548
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:247538
+Defined in: main.ts:249503
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247538
 
 > `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247539
+Defined in: main.ts:249504
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247539
 
 > `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247540
+Defined in: main.ts:249505
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247540
 
 > `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247541
+Defined in: main.ts:249506
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247541
 
 > `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247542
+Defined in: main.ts:249507
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:247542
 
 > `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247543
+Defined in: main.ts:249508
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:247543
 
 > `optional` **text\_summary**: [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:247544
+Defined in: main.ts:249509
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:247544
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247557
+Defined in: main.ts:249522
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:247557
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247580
+Defined in: main.ts:249545
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:247580
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
+> `static` **fromJS**(`data`): `AppendixContentGenerationPriceData`
 
-Defined in: main.ts:247573
+Defined in: main.ts:249538
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:247573
 
 #### Returns
 
-[`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
+`AppendixContentGenerationPriceData`

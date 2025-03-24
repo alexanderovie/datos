@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:126345
+Defined in: main.ts:128746
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:126345
 
 ## Constructors
 
-### new DataforseoLabsBingDomainIntersectionLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+> **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): `DataforseoLabsBingDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:126367
+Defined in: main.ts:128768
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:126367
 
 #### Returns
 
-[`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+`DataforseoLabsBingDomainIntersectionLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126367
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:126363
+Defined in: main.ts:128764
 
 contains keywords, relevant SERP elements and related data
 
@@ -54,7 +54,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:126361
+Defined in: main.ts:128762
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126357
+Defined in: main.ts:128758
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126355
+Defined in: main.ts:128756
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126349
+Defined in: main.ts:128750
 
 search engine type
 search engine type specified in a POST request;
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:126351
+Defined in: main.ts:128752
 
 target specified in a POST array
 
@@ -126,7 +126,7 @@ target specified in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:126353
+Defined in: main.ts:128754
 
 target specified in a POST array
 
@@ -140,7 +140,7 @@ target specified in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:126359
+Defined in: main.ts:128760
 
 total amount of results in our database relevant to your request
 
@@ -154,7 +154,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126376
+Defined in: main.ts:128777
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:126376
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126404
+Defined in: main.ts:128805
 
 #### Parameters
 
@@ -188,9 +188,9 @@ Defined in: main.ts:126404
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:126397
+Defined in: main.ts:128798
 
 #### Parameters
 
@@ -200,4 +200,4 @@ Defined in: main.ts:126397
 
 #### Returns
 
-[`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+`DataforseoLabsBingDomainIntersectionLiveResultInfo`

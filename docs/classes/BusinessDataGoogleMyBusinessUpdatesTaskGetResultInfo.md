@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
-Defined in: main.ts:225177
+Defined in: main.ts:227586
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:225177
 
 ## Constructors
 
-### new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+> **new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo**(`data`?): `BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
 
-Defined in: main.ts:225222
+Defined in: main.ts:227631
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:225222
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:225222
 
 > `optional` **business\_updates\_id**: `string`
 
-Defined in: main.ts:225200
+Defined in: main.ts:227609
 
 identifier of the business updates element in SERP
 
@@ -54,7 +54,7 @@ identifier of the business updates element in SERP
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:225193
+Defined in: main.ts:227602
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:225204
+Defined in: main.ts:227613
 
 google-defined client id
 unique id of a local establishment
@@ -85,7 +85,7 @@ learn more about the cid identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:225198
+Defined in: main.ts:227607
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -102,7 +102,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:225207
+Defined in: main.ts:227616
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -117,7 +117,7 @@ learn more about the identifier in this help center article
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:225211
+Defined in: main.ts:227620
 
 item types
 types of search engine results encountered in the items array;
@@ -133,7 +133,7 @@ possible item types: google_business_post
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:225218
+Defined in: main.ts:227627
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -149,7 +149,7 @@ possible item types: google_business_post
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:225214
+Defined in: main.ts:227623
 
 item types
 the number of items in the items array
@@ -164,7 +164,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225184
+Defined in: main.ts:227593
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -183,7 +183,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:225190
+Defined in: main.ts:227599
 
 language code in a POST array
 
@@ -197,7 +197,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:225188
+Defined in: main.ts:227597
 
 location code in a POST array
 
@@ -211,7 +211,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:225186
+Defined in: main.ts:227595
 
 search engine domain as specified in a POST array
 
@@ -225,7 +225,7 @@ search engine domain as specified in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:225231
+Defined in: main.ts:227640
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:225231
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:225267
+Defined in: main.ts:227676
 
 #### Parameters
 
@@ -259,9 +259,9 @@ Defined in: main.ts:225267
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
 
-Defined in: main.ts:225260
+Defined in: main.ts:227669
 
 #### Parameters
 
@@ -271,4 +271,4 @@ Defined in: main.ts:225260
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`

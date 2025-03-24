@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveItem
 
-Defined in: main.ts:131183
+Defined in: main.ts:133584
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:131183
 
 ## Constructors
 
-### new DataforseoLabsGoogleKeywordsForAppLiveItem()
+### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForAppLiveItem**(`data`?): [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
+> **new DataforseoLabsGoogleKeywordsForAppLiveItem**(`data`?): `DataforseoLabsGoogleKeywordsForAppLiveItem`
 
-Defined in: main.ts:131193
+Defined in: main.ts:133594
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:131193
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
+`DataforseoLabsGoogleKeywordsForAppLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:131193
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:131187
+Defined in: main.ts:133588
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-Defined in: main.ts:131189
+Defined in: main.ts:133590
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:131185
+Defined in: main.ts:133586
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:131202
+Defined in: main.ts:133603
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:131202
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:131221
+Defined in: main.ts:133622
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:131221
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForAppLiveItem`
 
-Defined in: main.ts:131214
+Defined in: main.ts:133615
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:131214
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
+`DataforseoLabsGoogleKeywordsForAppLiveItem`

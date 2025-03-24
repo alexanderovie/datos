@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveResultInfo
 
-Defined in: main.ts:155179
+Defined in: main.ts:157588
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:155179
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:155181
+Defined in: main.ts:157590
 
 keyword in a POST array
 
@@ -28,7 +28,7 @@ keyword in a POST array
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
 
-Defined in: main.ts:155198
+Defined in: main.ts:157607
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -39,7 +39,7 @@ if there is no data, then the value is null
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155187
+Defined in: main.ts:157596
 
 language code in a POST array
 if there is no data, then the value is null
@@ -50,7 +50,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:155184
+Defined in: main.ts:157593
 
 location code in a POST array
 if there is no data, then the value is null
@@ -61,7 +61,7 @@ if there is no data, then the value is null
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:155195
+Defined in: main.ts:157604
 
 indicates the month for which the data is provided for
 example:
@@ -73,7 +73,7 @@ example:
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:155191
+Defined in: main.ts:157600
 
 indicates the year for which the data is provided for
 example:

@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsGraphElementItem
 
-Defined in: main.ts:145451
+Defined in: main.ts:147860
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:145451
 
 ## Constructors
 
-### new DataforseoTrendsGraphElementItem()
+### Constructor
 
-> **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+> **new DataforseoTrendsGraphElementItem**(`data`?): `DataforseoTrendsGraphElementItem`
 
-Defined in: main.ts:145459
+Defined in: main.ts:147868
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:145459
 
 #### Returns
 
-[`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+`DataforseoTrendsGraphElementItem`
 
 #### Overrides
 
-[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:145459
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23602
+Defined in: main.ts:23941
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23602
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:145455
+Defined in: main.ts:147864
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:145453
+Defined in: main.ts:147862
 
 DataForSEO Trends data for the specified parameters
 
@@ -88,7 +88,7 @@ DataForSEO Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23600
+Defined in: main.ts:23939
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -107,7 +107,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23597
+Defined in: main.ts:23936
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23594
+Defined in: main.ts:23933
 
 type of element
 
@@ -144,7 +144,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145464
+Defined in: main.ts:147873
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:145464
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145491
+Defined in: main.ts:147900
 
 #### Parameters
 
@@ -186,9 +186,9 @@ Defined in: main.ts:145491
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+> `static` **fromJS**(`data`): `DataforseoTrendsGraphElementItem`
 
-Defined in: main.ts:145484
+Defined in: main.ts:147893
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: main.ts:145484
 
 #### Returns
 
-[`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+`DataforseoTrendsGraphElementItem`
 
 #### Overrides
 

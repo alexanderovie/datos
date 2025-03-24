@@ -6,7 +6,7 @@
 
 # Class: WorkTimeInfo
 
-Defined in: main.ts:23839
+Defined in: main.ts:24178
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:23839
 
 ## Constructors
 
-### new WorkTimeInfo()
+### Constructor
 
-> **new WorkTimeInfo**(`data`?): [`WorkTimeInfo`](WorkTimeInfo.md)
+> **new WorkTimeInfo**(`data`?): `WorkTimeInfo`
 
-Defined in: main.ts:23847
+Defined in: main.ts:24186
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:23847
 
 #### Returns
 
-[`WorkTimeInfo`](WorkTimeInfo.md)
+`WorkTimeInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23847
 
 > `optional` **hour**: `number`
 
-Defined in: main.ts:23841
+Defined in: main.ts:24180
 
 hours in the 24-hour format
 
@@ -54,7 +54,7 @@ hours in the 24-hour format
 
 > `optional` **minute**: `number`
 
-Defined in: main.ts:23843
+Defined in: main.ts:24182
 
 minutes
 
@@ -68,7 +68,7 @@ minutes
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23856
+Defined in: main.ts:24195
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:23856
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23874
+Defined in: main.ts:24213
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:23874
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
+> `static` **fromJS**(`data`): `WorkTimeInfo`
 
-Defined in: main.ts:23867
+Defined in: main.ts:24206
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:23867
 
 #### Returns
 
-[`WorkTimeInfo`](WorkTimeInfo.md)
+`WorkTimeInfo`

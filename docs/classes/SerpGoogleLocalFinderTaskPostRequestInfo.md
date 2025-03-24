@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTaskPostRequestInfo
 
-Defined in: main.ts:45256
+Defined in: main.ts:45683
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:45256
 
 ## Constructors
 
-### new SerpGoogleLocalFinderTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleLocalFinderTaskPostRequestInfo**(`data`?): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
+> **new SerpGoogleLocalFinderTaskPostRequestInfo**(`data`?): `SerpGoogleLocalFinderTaskPostRequestInfo`
 
-Defined in: main.ts:45384
+Defined in: main.ts:45811
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:45384
 
 #### Returns
 
-[`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
+`SerpGoogleLocalFinderTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:45384
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:45332
+Defined in: main.ts:45759
 
 parsing depth
 optional field
@@ -62,7 +62,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:45315
+Defined in: main.ts:45742
 
 device type
 optional field
@@ -79,7 +79,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:45264
+Defined in: main.ts:45691
 
 keyword
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:45310
+Defined in: main.ts:45737
 
 search engine language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ example:en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:45304
+Defined in: main.ts:45731
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:45286
+Defined in: main.ts:45713
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:45297
+Defined in: main.ts:45724
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -178,7 +178,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:45279
+Defined in: main.ts:45706
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -197,7 +197,7 @@ London,England,United Kingdom
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:45337
+Defined in: main.ts:45764
 
 filter results by minimum rating
 optional field
@@ -214,7 +214,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:45322
+Defined in: main.ts:45749
 
 device operating system
 optional field
@@ -233,7 +233,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:45380
+Defined in: main.ts:45807
 
 notification URL of a completed task
 optional field
@@ -256,7 +256,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:45369
+Defined in: main.ts:45796
 
 postback_url datatype
 required field if you specify postback_url
@@ -274,7 +274,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:45363
+Defined in: main.ts:45790
 
 return URL for sending task results
 optional field
@@ -297,7 +297,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:45272
+Defined in: main.ts:45699
 
 task priority
 optional field
@@ -317,7 +317,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:45352
+Defined in: main.ts:45779
 
 user-defined task identifier
 optional field
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_filter**: `string`
 
-Defined in: main.ts:45346
+Defined in: main.ts:45773
 
 filter results by open hours
 optional field
@@ -356,7 +356,7 @@ example: "tuesday;18"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:45393
+Defined in: main.ts:45820
 
 #### Parameters
 
@@ -374,7 +374,7 @@ Defined in: main.ts:45393
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:45425
+Defined in: main.ts:45852
 
 #### Parameters
 
@@ -390,9 +390,9 @@ Defined in: main.ts:45425
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocalFinderTaskPostRequestInfo`
 
-Defined in: main.ts:45418
+Defined in: main.ts:45845
 
 #### Parameters
 
@@ -402,4 +402,4 @@ Defined in: main.ts:45418
 
 #### Returns
 
-[`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
+`SerpGoogleLocalFinderTaskPostRequestInfo`

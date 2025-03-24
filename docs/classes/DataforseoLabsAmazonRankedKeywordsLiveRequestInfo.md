@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:122201
+Defined in: main.ts:124602
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:122201
 
 ## Constructors
 
-### new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:122288
+Defined in: main.ts:124689
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:122288
 
 #### Returns
 
-[`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122288
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:122206
+Defined in: main.ts:124607
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:122257
+Defined in: main.ts:124658
 
 array of results filtering parameters
 optional field
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:122246
+Defined in: main.ts:124647
 
 ignore highly similar keywords
 optional field
@@ -97,7 +97,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122236
+Defined in: main.ts:124637
 
 language code
 required field if don’t specify language_name
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122229
+Defined in: main.ts:124630
 
 full name of the language
 required field if don’t specify language_code
@@ -135,7 +135,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:122241
+Defined in: main.ts:124642
 
 the maximum number of products in the results array
 optional field
@@ -152,7 +152,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122222
+Defined in: main.ts:124623
 
 location code
 required field if don’t specify location_name
@@ -172,7 +172,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122214
+Defined in: main.ts:124615
 
 full name of the location
 required field if don’t specify location_code
@@ -192,7 +192,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:122278
+Defined in: main.ts:124679
 
 offset in the results array of returned keywords
 optional field
@@ -209,7 +209,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:122273
+Defined in: main.ts:124674
 
 results sorting rules
 optional field
@@ -237,7 +237,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122284
+Defined in: main.ts:124685
 
 user-defined task identifier
 optional field
@@ -255,7 +255,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:122297
+Defined in: main.ts:124698
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:122297
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:122332
+Defined in: main.ts:124733
 
 #### Parameters
 
@@ -289,9 +289,9 @@ Defined in: main.ts:122332
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:122325
+Defined in: main.ts:124726
 
 #### Parameters
 
@@ -301,4 +301,4 @@ Defined in: main.ts:122325
 
 #### Returns
 
-[`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)
+`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceQuoteTaskPostRequestInfo
 
-Defined in: main.ts:91872
+Defined in: main.ts:92299
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:91872
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:91921
+Defined in: main.ts:92348
 
 device type
 optional field
@@ -30,7 +30,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:91881
+Defined in: main.ts:92308
 
 ticker or stock symbol
 required field
@@ -47,7 +47,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91909
+Defined in: main.ts:92336
 
 search engine language code
 required field if you don’t specify language_name
@@ -62,7 +62,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91902
+Defined in: main.ts:92329
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -77,7 +77,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91895
+Defined in: main.ts:92322
 
 search engine location code
 required field if you don’t specify location_name
@@ -92,7 +92,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:91888
+Defined in: main.ts:92315
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -107,7 +107,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:91925
+Defined in: main.ts:92352
 
 device operating system
 optional field
@@ -119,7 +119,7 @@ possible values: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:91964
+Defined in: main.ts:92391
 
 notification URL of a completed task
 optional field
@@ -138,7 +138,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:91953
+Defined in: main.ts:92380
 
 postback_url datatype
 required field if you specify postback_url
@@ -151,7 +151,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:91948
+Defined in: main.ts:92375
 
 return URL for sending task results
 optional field
@@ -170,7 +170,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:91917
+Defined in: main.ts:92344
 
 task priority
 optional field
@@ -186,7 +186,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:91937
+Defined in: main.ts:92364
 
 user-defined task identifier
 optional field
@@ -200,7 +200,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:91931
+Defined in: main.ts:92358
 
 time window for google_finance_quote graph
 optional field

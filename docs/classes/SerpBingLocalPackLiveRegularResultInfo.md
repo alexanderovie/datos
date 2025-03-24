@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveRegularResultInfo
 
-Defined in: main.ts:70630
+Defined in: main.ts:71057
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:70630
 
 ## Constructors
 
-### new SerpBingLocalPackLiveRegularResultInfo()
+### Constructor
 
-> **new SerpBingLocalPackLiveRegularResultInfo**(`data`?): [`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)
+> **new SerpBingLocalPackLiveRegularResultInfo**(`data`?): `SerpBingLocalPackLiveRegularResultInfo`
 
-Defined in: main.ts:70670
+Defined in: main.ts:71097
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:70670
 
 #### Returns
 
-[`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)
+`SerpBingLocalPackLiveRegularResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:70670
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:70644
+Defined in: main.ts:71071
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:70649
+Defined in: main.ts:71076
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:70660
+Defined in: main.ts:71087
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ local_pack
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:70666
+Defined in: main.ts:71093
 
 elements of search results found in SERP
 
@@ -103,7 +103,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:70664
+Defined in: main.ts:71091
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:70633
+Defined in: main.ts:71060
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:70641
+Defined in: main.ts:71068
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:70639
+Defined in: main.ts:71066
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:70655
+Defined in: main.ts:71082
 
 search refinement chips
 equals null
@@ -175,7 +175,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:70637
+Defined in: main.ts:71064
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:70662
+Defined in: main.ts:71089
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:70652
+Defined in: main.ts:71079
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70635
+Defined in: main.ts:71062
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70679
+Defined in: main.ts:71106
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:70679
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70716
+Defined in: main.ts:71143
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:70716
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLocalPackLiveRegularResultInfo`
 
-Defined in: main.ts:70709
+Defined in: main.ts:71136
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:70709
 
 #### Returns
 
-[`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)
+`SerpBingLocalPackLiveRegularResultInfo`

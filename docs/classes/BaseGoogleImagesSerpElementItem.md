@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleImagesSerpElementItem
 
-Defined in: main.ts:53148
+Defined in: main.ts:53575
 
 ## Extended by
 
@@ -20,11 +20,11 @@ Defined in: main.ts:53148
 
 ## Constructors
 
-### new BaseGoogleImagesSerpElementItem()
+### Constructor
 
-> **new BaseGoogleImagesSerpElementItem**(`data`?): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
+> **new BaseGoogleImagesSerpElementItem**(`data`?): `BaseGoogleImagesSerpElementItem`
 
-Defined in: main.ts:53163
+Defined in: main.ts:53590
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:53163
 
 #### Returns
 
-[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
+`BaseGoogleImagesSerpElementItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:53163
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53161
+Defined in: main.ts:53588
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:53161
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53157
+Defined in: main.ts:53584
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53154
+Defined in: main.ts:53581
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53150
+Defined in: main.ts:53577
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53159
+Defined in: main.ts:53586
 
 the XPath of the element
 
@@ -109,7 +109,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53173
+Defined in: main.ts:53600
 
 #### Parameters
 
@@ -127,7 +127,7 @@ Defined in: main.ts:53173
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53204
+Defined in: main.ts:53631
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:53204
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseGoogleImagesSerpElementItem`
 
-Defined in: main.ts:53182
+Defined in: main.ts:53609
 
 #### Parameters
 
@@ -155,4 +155,4 @@ Defined in: main.ts:53182
 
 #### Returns
 
-[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
+`BaseGoogleImagesSerpElementItem`

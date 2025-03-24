@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
-Defined in: main.ts:188963
+Defined in: main.ts:191372
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:188963
 
 ## Constructors
 
-### new ContentAnalysisRatingDistributionLiveResultInfo()
+### Constructor
 
-> **new ContentAnalysisRatingDistributionLiveResultInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+> **new ContentAnalysisRatingDistributionLiveResultInfo**(`data`?): `ContentAnalysisRatingDistributionLiveResultInfo`
 
-Defined in: main.ts:188975
+Defined in: main.ts:191384
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:188975
 
 #### Returns
 
-[`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+`ContentAnalysisRatingDistributionLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188975
 
 > `optional` **max**: `number`
 
-Defined in: main.ts:188969
+Defined in: main.ts:191378
 
 max rating on a distribution scale
 
@@ -54,7 +54,7 @@ max rating on a distribution scale
 
 > `optional` **metrics**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188971
+Defined in: main.ts:191380
 
 contains rating distribution metrics
 
@@ -68,7 +68,7 @@ contains rating distribution metrics
 
 > `optional` **min**: `number`
 
-Defined in: main.ts:188967
+Defined in: main.ts:191376
 
 min rating on a distribution scale
 
@@ -82,7 +82,7 @@ min rating on a distribution scale
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:188965
+Defined in: main.ts:191374
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188984
+Defined in: main.ts:191393
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:188984
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189004
+Defined in: main.ts:191413
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:189004
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisRatingDistributionLiveResultInfo`
 
-Defined in: main.ts:188997
+Defined in: main.ts:191406
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:188997
 
 #### Returns
 
-[`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
+`ContentAnalysisRatingDistributionLiveResultInfo`

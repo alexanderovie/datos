@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveResultInfo
 
-Defined in: main.ts:171355
+Defined in: main.ts:173764
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171355
 
 ## Constructors
 
-### new BacklinksBulkNewLostBacklinksLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkNewLostBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
+> **new BacklinksBulkNewLostBacklinksLiveResultInfo**(`data`?): `BacklinksBulkNewLostBacklinksLiveResultInfo`
 
-Defined in: main.ts:171363
+Defined in: main.ts:173772
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171363
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
+`BacklinksBulkNewLostBacklinksLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171363
 
 > `optional` **items**: [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)[]
 
-Defined in: main.ts:171359
+Defined in: main.ts:173768
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171357
+Defined in: main.ts:173766
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171372
+Defined in: main.ts:173781
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:171372
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171394
+Defined in: main.ts:173803
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:171394
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkNewLostBacklinksLiveResultInfo`
 
-Defined in: main.ts:171387
+Defined in: main.ts:173796
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:171387
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
+`BacklinksBulkNewLostBacklinksLiveResultInfo`

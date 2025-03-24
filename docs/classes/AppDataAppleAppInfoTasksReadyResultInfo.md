@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppInfoTasksReadyResultInfo
 
-Defined in: main.ts:215711
+Defined in: main.ts:218120
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:215711
 
 ## Constructors
 
-### new AppDataAppleAppInfoTasksReadyResultInfo()
+### Constructor
 
-> **new AppDataAppleAppInfoTasksReadyResultInfo**(`data`?): [`AppDataAppleAppInfoTasksReadyResultInfo`](AppDataAppleAppInfoTasksReadyResultInfo.md)
+> **new AppDataAppleAppInfoTasksReadyResultInfo**(`data`?): `AppDataAppleAppInfoTasksReadyResultInfo`
 
-Defined in: main.ts:215731
+Defined in: main.ts:218140
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:215731
 
 #### Returns
 
-[`AppDataAppleAppInfoTasksReadyResultInfo`](AppDataAppleAppInfoTasksReadyResultInfo.md)
+`AppDataAppleAppInfoTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:215731
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:215720
+Defined in: main.ts:218129
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:215724
+Defined in: main.ts:218133
 
 URL for collecting the results of the Apple App Info task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Apple App Info task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:215727
+Defined in: main.ts:218136
 
 URL for collecting the results of the Apple App Info HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:215714
+Defined in: main.ts:218123
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:215716
+Defined in: main.ts:218125
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:215718
+Defined in: main.ts:218127
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:215722
+Defined in: main.ts:218131
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:215740
+Defined in: main.ts:218149
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:215740
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:215763
+Defined in: main.ts:218172
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:215763
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppInfoTasksReadyResultInfo`](AppDataAppleAppInfoTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppInfoTasksReadyResultInfo`
 
-Defined in: main.ts:215756
+Defined in: main.ts:218165
 
 #### Parameters
 
@@ -186,4 +186,4 @@ Defined in: main.ts:215756
 
 #### Returns
 
-[`AppDataAppleAppInfoTasksReadyResultInfo`](AppDataAppleAppInfoTasksReadyResultInfo.md)
+`AppDataAppleAppInfoTasksReadyResultInfo`

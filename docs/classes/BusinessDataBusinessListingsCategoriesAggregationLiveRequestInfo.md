@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
-Defined in: main.ts:221189
+Defined in: main.ts:223598
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:221189
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data`?): `BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`
 
-Defined in: main.ts:221251
+Defined in: main.ts:223660
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:221251
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221251
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:221195
+Defined in: main.ts:223604
 
 business categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:221200
+Defined in: main.ts:223609
 
 description of the element in SERP
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:221228
+Defined in: main.ts:223637
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:221233
+Defined in: main.ts:223642
 
 maximum number of elements within internal arrays
 optional field
@@ -115,7 +115,7 @@ default value: 10
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:221208
+Defined in: main.ts:223617
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -130,7 +130,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:221238
+Defined in: main.ts:223647
 
 the maximum number of returned businesses
 optional field
@@ -147,7 +147,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:221217
+Defined in: main.ts:223626
 
 GPS coordinates of a location
 optional field
@@ -168,7 +168,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:221241
+Defined in: main.ts:223650
 
 the maximum number of returned businesses
 optional field
@@ -183,7 +183,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:221247
+Defined in: main.ts:223656
 
 user-defined task identifier
 optional field
@@ -201,7 +201,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:221205
+Defined in: main.ts:223614
 
 title of the element in SERP
 optional field
@@ -218,7 +218,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221260
+Defined in: main.ts:223669
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:221260
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221294
+Defined in: main.ts:223703
 
 #### Parameters
 
@@ -252,9 +252,9 @@ Defined in: main.ts:221294
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`
 
-Defined in: main.ts:221287
+Defined in: main.ts:223696
 
 #### Parameters
 
@@ -264,4 +264,4 @@ Defined in: main.ts:221287
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`

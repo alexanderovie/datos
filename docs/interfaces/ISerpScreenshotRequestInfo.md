@@ -6,7 +6,7 @@
 
 # Interface: ISerpScreenshotRequestInfo
 
-Defined in: main.ts:27562
+Defined in: main.ts:27989
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:27562
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:27573
+Defined in: main.ts:28000
 
 browser resolution preset
 optional field
@@ -32,7 +32,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:27581
+Defined in: main.ts:28008
 
 height of the browser resolution
 optional field
@@ -44,7 +44,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:27585
+Defined in: main.ts:28012
 
 browser scale factor
 optional field
@@ -56,7 +56,7 @@ can be specified in the following range: 0.5-3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:27577
+Defined in: main.ts:28004
 
 width of the browser resolution
 optional field
@@ -68,7 +68,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:27567
+Defined in: main.ts:27994
 
 task identifier
 required field

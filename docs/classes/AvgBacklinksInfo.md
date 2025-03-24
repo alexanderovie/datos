@@ -6,7 +6,7 @@
 
 # Class: AvgBacklinksInfo
 
-Defined in: main.ts:102349
+Defined in: main.ts:104252
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:102349
 
 ## Constructors
 
-### new AvgBacklinksInfo()
+### Constructor
 
-> **new AvgBacklinksInfo**(`data`?): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> **new AvgBacklinksInfo**(`data`?): `AvgBacklinksInfo`
 
-Defined in: main.ts:102376
+Defined in: main.ts:104279
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:102376
 
 #### Returns
 
-[`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+`AvgBacklinksInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102376
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:102353
+Defined in: main.ts:104256
 
 average number of backlinks
 
@@ -54,7 +54,7 @@ average number of backlinks
 
 > `optional` **dofollow**: `number`
 
-Defined in: main.ts:102355
+Defined in: main.ts:104258
 
 average number of dofollow links
 
@@ -68,7 +68,7 @@ average number of dofollow links
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:102372
+Defined in: main.ts:104275
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,7 +85,7 @@ example:
 
 > `optional` **main\_domain\_rank**: `number`
 
-Defined in: main.ts:102367
+Defined in: main.ts:104270
 
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
@@ -100,7 +100,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:102364
+Defined in: main.ts:104267
 
 average rank
 learn more about the metric and its calculation formula in this help center article
@@ -115,7 +115,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:102359
+Defined in: main.ts:104262
 
 average number of referring domains
 
@@ -129,7 +129,7 @@ average number of referring domains
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:102361
+Defined in: main.ts:104264
 
 average number of referring main domains
 
@@ -143,7 +143,7 @@ average number of referring main domains
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:102357
+Defined in: main.ts:104260
 
 average number of referring pages
 
@@ -157,7 +157,7 @@ average number of referring pages
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:102351
+Defined in: main.ts:104254
 
 search engine type
 
@@ -171,7 +171,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:102385
+Defined in: main.ts:104288
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:102385
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:102410
+Defined in: main.ts:104313
 
 #### Parameters
 
@@ -205,9 +205,9 @@ Defined in: main.ts:102410
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> `static` **fromJS**(`data`): `AvgBacklinksInfo`
 
-Defined in: main.ts:102403
+Defined in: main.ts:104306
 
 #### Parameters
 
@@ -217,4 +217,4 @@ Defined in: main.ts:102403
 
 #### Returns
 
-[`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+`AvgBacklinksInfo`

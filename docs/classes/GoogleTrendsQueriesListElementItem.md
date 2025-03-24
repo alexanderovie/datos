@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsQueriesListElementItem
 
-Defined in: main.ts:144036
+Defined in: main.ts:146441
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:144036
 
 ## Constructors
 
-### new GoogleTrendsQueriesListElementItem()
+### Constructor
 
-> **new GoogleTrendsQueriesListElementItem**(`data`?): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+> **new GoogleTrendsQueriesListElementItem**(`data`?): `GoogleTrendsQueriesListElementItem`
 
-Defined in: main.ts:144042
+Defined in: main.ts:146447
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:144042
 
 #### Returns
 
-[`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+`GoogleTrendsQueriesListElementItem`
 
 #### Overrides
 
-[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:144042
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23512
+Defined in: main.ts:23851
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23512
 
 > `optional` **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-Defined in: main.ts:144038
+Defined in: main.ts:146443
 
 Google Trends data from the corresponding item
 
@@ -74,7 +74,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23510
+Defined in: main.ts:23849
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -93,7 +93,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23505
+Defined in: main.ts:23844
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -112,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23507
+Defined in: main.ts:23846
 
 title of the element in Google Trends
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23502
+Defined in: main.ts:23841
 
 type of element
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144047
+Defined in: main.ts:146452
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:144047
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144065
+Defined in: main.ts:146470
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:144065
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+> `static` **fromJS**(`data`): `GoogleTrendsQueriesListElementItem`
 
-Defined in: main.ts:144058
+Defined in: main.ts:146463
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:144058
 
 #### Returns
 
-[`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
+`GoogleTrendsQueriesListElementItem`
 
 #### Overrides
 

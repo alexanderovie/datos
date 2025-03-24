@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationIndustriesResultInfo
 
-Defined in: main.ts:149608
+Defined in: main.ts:152017
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:149608
 
 > `optional` **industry\_id**: `number`
 
-Defined in: main.ts:149610
+Defined in: main.ts:152019
 
 ID of the industry
 
@@ -28,6 +28,6 @@ ID of the industry
 
 > `optional` **industry\_name**: `string`
 
-Defined in: main.ts:149612
+Defined in: main.ts:152021
 
 name of the industry

@@ -6,7 +6,7 @@
 
 # Class: InterestsComparison
 
-Defined in: main.ts:146177
+Defined in: main.ts:148586
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146177
 
 ## Constructors
 
-### new InterestsComparison()
+### Constructor
 
-> **new InterestsComparison**(`data`?): [`InterestsComparison`](InterestsComparison.md)
+> **new InterestsComparison**(`data`?): `InterestsComparison`
 
-Defined in: main.ts:146186
+Defined in: main.ts:148595
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146186
 
 #### Returns
 
-[`InterestsComparison`](InterestsComparison.md)
+`InterestsComparison`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146186
 
 > `optional` **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
-Defined in: main.ts:146182
+Defined in: main.ts:148591
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
@@ -55,7 +55,7 @@ values in this array represent percentages relative to the maximum value across 
 
 > `optional` **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
-Defined in: main.ts:146179
+Defined in: main.ts:148588
 
 contains keyword popularity and related data
 
@@ -69,7 +69,7 @@ contains keyword popularity and related data
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146195
+Defined in: main.ts:148604
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:146195
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146221
+Defined in: main.ts:148630
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:146221
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
+> `static` **fromJS**(`data`): `InterestsComparison`
 
-Defined in: main.ts:146214
+Defined in: main.ts:148623
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:146214
 
 #### Returns
 
-[`InterestsComparison`](InterestsComparison.md)
+`InterestsComparison`

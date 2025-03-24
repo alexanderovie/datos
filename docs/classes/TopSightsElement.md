@@ -6,7 +6,7 @@
 
 # Class: TopSightsElement
 
-Defined in: main.ts:36312
+Defined in: main.ts:36739
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:36312
 
 ## Constructors
 
-### new TopSightsElement()
+### Constructor
 
-> **new TopSightsElement**(`data`?): [`TopSightsElement`](TopSightsElement.md)
+> **new TopSightsElement**(`data`?): `TopSightsElement`
 
-Defined in: main.ts:36327
+Defined in: main.ts:36754
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:36327
 
 #### Returns
 
-[`TopSightsElement`](TopSightsElement.md)
+`TopSightsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36327
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36320
+Defined in: main.ts:36747
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:36323
+Defined in: main.ts:36750
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -69,7 +69,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36316
+Defined in: main.ts:36743
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36314
+Defined in: main.ts:36741
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36318
+Defined in: main.ts:36745
 
 URL
 
@@ -111,7 +111,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36336
+Defined in: main.ts:36763
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:36336
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36357
+Defined in: main.ts:36784
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:36357
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
+> `static` **fromJS**(`data`): `TopSightsElement`
 
-Defined in: main.ts:36350
+Defined in: main.ts:36777
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:36350
 
 #### Returns
 
-[`TopSightsElement`](TopSightsElement.md)
+`TopSightsElement`

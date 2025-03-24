@@ -6,7 +6,7 @@
 
 # Interface: IAiOverviewSerpElementItem
 
-Defined in: main.ts:40514
+Defined in: main.ts:40941
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:40514
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40524
+Defined in: main.ts:40951
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -34,7 +34,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](../classes/AiOverviewElement.md)[]
 
-Defined in: main.ts:40526
+Defined in: main.ts:40953
 
 contains arrays of specific images
 
@@ -44,7 +44,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40518
+Defined in: main.ts:40945
 
 the alignment of the element in SERP
 can take the following values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -87,7 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:40533
+Defined in: main.ts:40960
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -99,7 +99,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
-Defined in: main.ts:40529
+Defined in: main.ts:40956
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -110,7 +110,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -124,6 +124,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40520
+Defined in: main.ts:40947
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
-Defined in: main.ts:139751
+Defined in: main.ts:142152
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:139751
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo.md)
+> **new KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo**(`data`?): `KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`
 
-Defined in: main.ts:139802
+Defined in: main.ts:142203
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:139802
 
 #### Returns
 
-[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo.md)
+`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:139802
 
 > `optional` **competition**: `string`
 
-Defined in: main.ts:139770
+Defined in: main.ts:142171
 
 competition
 represents the relative level of competition associated with the given keyword in paid SERP only
@@ -58,7 +58,7 @@ learn more about the metric in this help center article
 
 > `optional` **competition\_index**: `number`
 
-Defined in: main.ts:139777
+Defined in: main.ts:142178
 
 competition index
 the competition index for the query indicating how competitive ad placement is for the keyword
@@ -77,7 +77,7 @@ learn more about the metric in this help center article
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:139792
+Defined in: main.ts:142193
 
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
@@ -92,7 +92,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:139789
+Defined in: main.ts:142190
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -108,7 +108,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:139753
+Defined in: main.ts:142154
 
 keyword in a POST array
 
@@ -122,7 +122,7 @@ keyword in a POST array
 
 > `optional` **keyword\_annotations**: [`KeywordAnnotations`](KeywordAnnotations.md)
 
-Defined in: main.ts:139798
+Defined in: main.ts:142199
 
 the annotations for the keyword
 
@@ -136,7 +136,7 @@ the annotations for the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:139759
+Defined in: main.ts:142160
 
 language code in a POST array
 if there is no data, the value is null
@@ -151,7 +151,7 @@ if there is no data, the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:139756
+Defined in: main.ts:142157
 
 location code in a POST array
 if there is no data, the value is null
@@ -166,7 +166,7 @@ if there is no data, the value is null
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:139785
+Defined in: main.ts:142186
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -182,7 +182,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:139796
+Defined in: main.ts:142197
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -198,7 +198,7 @@ if there is no data, the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:139764
+Defined in: main.ts:142165
 
 include Google search partners
 the value you specified when setting the task
@@ -215,7 +215,7 @@ if false, the results are returned for Google search sites only
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:139781
+Defined in: main.ts:142182
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea either on google.com or google.com and partners, depending on the user’s targeting
@@ -231,7 +231,7 @@ if there is no data, the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:139811
+Defined in: main.ts:142212
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:139811
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:139843
+Defined in: main.ts:142244
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:139843
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`
 
-Defined in: main.ts:139836
+Defined in: main.ts:142237
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:139836
 
 #### Returns
 
-[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo.md)
+`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo`

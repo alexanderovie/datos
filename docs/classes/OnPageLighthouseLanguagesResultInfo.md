@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLanguagesResultInfo
 
-Defined in: main.ts:184137
+Defined in: main.ts:186546
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:184137
 
 ## Constructors
 
-### new OnPageLighthouseLanguagesResultInfo()
+### Constructor
 
-> **new OnPageLighthouseLanguagesResultInfo**(`data`?): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
+> **new OnPageLighthouseLanguagesResultInfo**(`data`?): `OnPageLighthouseLanguagesResultInfo`
 
-Defined in: main.ts:184145
+Defined in: main.ts:186554
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:184145
 
 #### Returns
 
-[`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
+`OnPageLighthouseLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184145
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:184141
+Defined in: main.ts:186550
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:184139
+Defined in: main.ts:186548
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184154
+Defined in: main.ts:186563
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:184154
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184172
+Defined in: main.ts:186581
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:184172
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseLanguagesResultInfo`
 
-Defined in: main.ts:184165
+Defined in: main.ts:186574
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:184165
 
 #### Returns
 
-[`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
+`OnPageLighthouseLanguagesResultInfo`

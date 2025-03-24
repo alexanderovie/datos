@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
-Defined in: main.ts:157355
+Defined in: main.ts:159764
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157355
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo**(`data`?): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
+> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo**(`data`?): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:157375
+Defined in: main.ts:159784
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157375
 
 #### Returns
 
-[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
+`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157375
 
 > `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:157371
+Defined in: main.ts:159780
 
 array of keywords
 contains keywords and their search volume rates
@@ -55,7 +55,7 @@ contains keywords and their search volume rates
 
 > `optional` **items\_count**: `string`
 
-Defined in: main.ts:157368
+Defined in: main.ts:159777
 
 ithe number of results returned in the items array
 
@@ -69,7 +69,7 @@ ithe number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:157363
+Defined in: main.ts:159772
 
 language code in a POST array
 
@@ -86,7 +86,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:157358
+Defined in: main.ts:159767
 
 location code in a POST array
 if there is no data, then the value is null
@@ -101,7 +101,7 @@ if there is no data, then the value is null
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:157366
+Defined in: main.ts:159775
 
 indicates if the use_clickstream parameter is active
 possible values: true, false
@@ -116,7 +116,7 @@ possible values: true, false
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157384
+Defined in: main.ts:159793
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:157384
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157409
+Defined in: main.ts:159818
 
 #### Parameters
 
@@ -150,9 +150,9 @@ Defined in: main.ts:157409
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:157402
+Defined in: main.ts:159811
 
 #### Parameters
 
@@ -162,4 +162,4 @@ Defined in: main.ts:157402
 
 #### Returns
 
-[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
+`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`

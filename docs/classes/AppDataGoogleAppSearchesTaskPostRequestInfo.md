@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppSearchesTaskPostRequestInfo
 
-Defined in: main.ts:208631
+Defined in: main.ts:211040
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:208631
 
 ## Constructors
 
-### new AppDataGoogleAppSearchesTaskPostRequestInfo()
+### Constructor
 
-> **new AppDataGoogleAppSearchesTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppSearchesTaskPostRequestInfo`](AppDataGoogleAppSearchesTaskPostRequestInfo.md)
+> **new AppDataGoogleAppSearchesTaskPostRequestInfo**(`data`?): `AppDataGoogleAppSearchesTaskPostRequestInfo`
 
-Defined in: main.ts:208721
+Defined in: main.ts:211130
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:208721
 
 #### Returns
 
-[`AppDataGoogleAppSearchesTaskPostRequestInfo`](AppDataGoogleAppSearchesTaskPostRequestInfo.md)
+`AppDataGoogleAppSearchesTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208721
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:208685
+Defined in: main.ts:211094
 
 parsing depth
 optional field
@@ -62,7 +62,7 @@ maximum value: 200
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:208639
+Defined in: main.ts:211048
 
 keyword
 required field
@@ -82,7 +82,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208667
+Defined in: main.ts:211076
 
 search engine language code
 optional field
@@ -101,7 +101,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:208660
+Defined in: main.ts:211069
 
 full name of search engine language
 optional field
@@ -120,7 +120,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208653
+Defined in: main.ts:211062
 
 search engine location code
 required field if you don’t specify location_name
@@ -139,7 +139,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:208646
+Defined in: main.ts:211055
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -158,7 +158,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:208717
+Defined in: main.ts:211126
 
 notification URL of a completed task
 optional field
@@ -180,7 +180,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:208707
+Defined in: main.ts:211116
 
 postback_url datatype
 required field if you specify postback_url
@@ -198,7 +198,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:208701
+Defined in: main.ts:211110
 
 return URL for sending task results
 optional field
@@ -220,7 +220,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:208675
+Defined in: main.ts:211084
 
 task priority
 optional field
@@ -240,7 +240,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:208691
+Defined in: main.ts:211100
 
 user-defined task identifier
 optional field
@@ -258,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208730
+Defined in: main.ts:211139
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:208730
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208757
+Defined in: main.ts:211166
 
 #### Parameters
 
@@ -292,9 +292,9 @@ Defined in: main.ts:208757
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskPostRequestInfo`](AppDataGoogleAppSearchesTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppSearchesTaskPostRequestInfo`
 
-Defined in: main.ts:208750
+Defined in: main.ts:211159
 
 #### Parameters
 
@@ -304,4 +304,4 @@ Defined in: main.ts:208750
 
 #### Returns
 
-[`AppDataGoogleAppSearchesTaskPostRequestInfo`](AppDataGoogleAppSearchesTaskPostRequestInfo.md)
+`AppDataGoogleAppSearchesTaskPostRequestInfo`

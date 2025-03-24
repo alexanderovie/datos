@@ -6,7 +6,7 @@
 
 # Class: VideoSerpElementItem
 
-Defined in: main.ts:35032
+Defined in: main.ts:35459
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:35032
 
 ## Constructors
 
-### new VideoSerpElementItem()
+### Constructor
 
-> **new VideoSerpElementItem**(`data`?): [`VideoSerpElementItem`](VideoSerpElementItem.md)
+> **new VideoSerpElementItem**(`data`?): `VideoSerpElementItem`
 
-Defined in: main.ts:35048
+Defined in: main.ts:35475
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:35048
 
 #### Returns
 
-[`VideoSerpElementItem`](VideoSerpElementItem.md)
+`VideoSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35048
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`VideoElement`](VideoElement.md)[]
 
-Defined in: main.ts:35040
+Defined in: main.ts:35467
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35036
+Defined in: main.ts:35463
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35044
+Defined in: main.ts:35471
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35038
+Defined in: main.ts:35465
 
 the XPath of the element
 
@@ -177,7 +177,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35053
+Defined in: main.ts:35480
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:35053
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35078
+Defined in: main.ts:35505
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:35078
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
+> `static` **fromJS**(`data`): `VideoSerpElementItem`
 
-Defined in: main.ts:35071
+Defined in: main.ts:35498
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:35071
 
 #### Returns
 
-[`VideoSerpElementItem`](VideoSerpElementItem.md)
+`VideoSerpElementItem`
 
 #### Overrides
 

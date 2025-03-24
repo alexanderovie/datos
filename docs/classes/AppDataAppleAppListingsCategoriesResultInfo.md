@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:218057
+Defined in: main.ts:220466
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:218057
 
 ## Constructors
 
-### new AppDataAppleAppListingsCategoriesResultInfo()
+### Constructor
 
-> **new AppDataAppleAppListingsCategoriesResultInfo**(`data`?): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
+> **new AppDataAppleAppListingsCategoriesResultInfo**(`data`?): `AppDataAppleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:218065
+Defined in: main.ts:220474
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:218065
 
 #### Returns
 
-[`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
+`AppDataAppleAppListingsCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218065
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:218059
+Defined in: main.ts:220468
 
 name of the supported app category
 
@@ -54,7 +54,7 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:218061
+Defined in: main.ts:220470
 
 number of app listings that make up the supported app category
 
@@ -68,7 +68,7 @@ number of app listings that make up the supported app category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218074
+Defined in: main.ts:220483
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:218074
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218092
+Defined in: main.ts:220501
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:218092
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:218085
+Defined in: main.ts:220494
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:218085
 
 #### Returns
 
-[`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
+`AppDataAppleAppListingsCategoriesResultInfo`

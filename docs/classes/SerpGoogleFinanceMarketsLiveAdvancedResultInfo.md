@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceMarketsLiveAdvancedResultInfo
 
-Defined in: main.ts:91075
+Defined in: main.ts:91502
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:91075
 
 ## Constructors
 
-### new SerpGoogleFinanceMarketsLiveAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceMarketsLiveAdvancedResultInfo**(`data`?): [`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`](SerpGoogleFinanceMarketsLiveAdvancedResultInfo.md)
+> **new SerpGoogleFinanceMarketsLiveAdvancedResultInfo**(`data`?): `SerpGoogleFinanceMarketsLiveAdvancedResultInfo`
 
-Defined in: main.ts:91115
+Defined in: main.ts:91542
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:91115
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`](SerpGoogleFinanceMarketsLiveAdvancedResultInfo.md)
+`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91115
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:91089
+Defined in: main.ts:91516
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:91094
+Defined in: main.ts:91521
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:91104
+Defined in: main.ts:91531
 
 types of search results in SERP
 contains types of search results (items) found in SERP;
@@ -88,7 +88,7 @@ possible item types: google_finance_hero_groups, google_finance_explore_market_t
 
 > `optional` **items**: [`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)[]
 
-Defined in: main.ts:91111
+Defined in: main.ts:91538
 
 market indexes related to the market trends element
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element
@@ -103,7 +103,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:91108
+Defined in: main.ts:91535
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:91078
+Defined in: main.ts:91505
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91086
+Defined in: main.ts:91513
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:91084
+Defined in: main.ts:91511
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:91100
+Defined in: main.ts:91527
 
 search refinement chips
 in this case, the value will be null
@@ -175,7 +175,7 @@ in this case, the value will be null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:91082
+Defined in: main.ts:91509
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:91106
+Defined in: main.ts:91533
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:91097
+Defined in: main.ts:91524
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:91080
+Defined in: main.ts:91507
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91124
+Defined in: main.ts:91551
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:91124
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91161
+Defined in: main.ts:91588
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:91161
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`](SerpGoogleFinanceMarketsLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceMarketsLiveAdvancedResultInfo`
 
-Defined in: main.ts:91154
+Defined in: main.ts:91581
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:91154
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`](SerpGoogleFinanceMarketsLiveAdvancedResultInfo.md)
+`SerpGoogleFinanceMarketsLiveAdvancedResultInfo`

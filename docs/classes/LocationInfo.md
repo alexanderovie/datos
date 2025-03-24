@@ -6,7 +6,7 @@
 
 # Class: LocationInfo
 
-Defined in: main.ts:51242
+Defined in: main.ts:51669
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:51242
 
 ## Constructors
 
-### new LocationInfo()
+### Constructor
 
-> **new LocationInfo**(`data`?): [`LocationInfo`](LocationInfo.md)
+> **new LocationInfo**(`data`?): `LocationInfo`
 
-Defined in: main.ts:51257
+Defined in: main.ts:51684
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:51257
 
 #### Returns
 
-[`LocationInfo`](LocationInfo.md)
+`LocationInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:51257
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:51246
+Defined in: main.ts:51673
 
 address of the event’s venue
 
@@ -54,7 +54,7 @@ address of the event’s venue
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:51251
+Defined in: main.ts:51678
 
 google-defined client id
 can be used with Google Reviews API to get a full list of reviews
@@ -69,7 +69,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:51253
+Defined in: main.ts:51680
 
 the unique identifier of the element in SERP
 
@@ -83,7 +83,7 @@ the unique identifier of the element in SERP
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:51244
+Defined in: main.ts:51671
 
 name of the event’s venue
 
@@ -97,7 +97,7 @@ name of the event’s venue
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51248
+Defined in: main.ts:51675
 
 search URL with refinement parameters
 
@@ -111,7 +111,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51266
+Defined in: main.ts:51693
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:51266
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51287
+Defined in: main.ts:51714
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:51287
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
+> `static` **fromJS**(`data`): `LocationInfo`
 
-Defined in: main.ts:51280
+Defined in: main.ts:51707
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:51280
 
 #### Returns
 
-[`LocationInfo`](LocationInfo.md)
+`LocationInfo`

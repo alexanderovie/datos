@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTasksFixedResultInfo
 
-Defined in: main.ts:56699
+Defined in: main.ts:57126
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:56699
 
 ## Constructors
 
-### new SerpGoogleJobsTasksFixedResultInfo()
+### Constructor
 
-> **new SerpGoogleJobsTasksFixedResultInfo**(`data`?): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+> **new SerpGoogleJobsTasksFixedResultInfo**(`data`?): `SerpGoogleJobsTasksFixedResultInfo`
 
-Defined in: main.ts:56724
+Defined in: main.ts:57151
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:56724
 
 #### Returns
 
-[`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+`SerpGoogleJobsTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:56724
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:56709
+Defined in: main.ts:57136
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:56717
+Defined in: main.ts:57144
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:56720
+Defined in: main.ts:57147
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:56714
+Defined in: main.ts:57141
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:56702
+Defined in: main.ts:57129
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:56704
+Defined in: main.ts:57131
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:56707
+Defined in: main.ts:57134
 
 type of search engine
 can take the following values: jobs
@@ -143,7 +143,7 @@ can take the following values: jobs
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:56711
+Defined in: main.ts:57138
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:56733
+Defined in: main.ts:57160
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:56733
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:56757
+Defined in: main.ts:57184
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:56757
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleJobsTasksFixedResultInfo`
 
-Defined in: main.ts:56750
+Defined in: main.ts:57177
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:56750
 
 #### Returns
 
-[`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)
+`SerpGoogleJobsTasksFixedResultInfo`

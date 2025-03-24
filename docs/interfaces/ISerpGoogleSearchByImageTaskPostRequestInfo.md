@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
 
-Defined in: main.ts:55147
+Defined in: main.ts:55574
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:55147
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:55232
+Defined in: main.ts:55659
 
 browser screen height
 optional field
@@ -32,7 +32,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:55238
+Defined in: main.ts:55665
 
 browser screen resolution ratio
 optional field
@@ -46,7 +46,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:55226
+Defined in: main.ts:55653
 
 browser screen width
 optional field
@@ -60,7 +60,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:55220
+Defined in: main.ts:55647
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -75,7 +75,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:55153
+Defined in: main.ts:55580
 
 URL of the image
 required field
@@ -89,7 +89,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:55206
+Defined in: main.ts:55633
 
 search engine language code
 required field if you don’t specify language_name
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:55199
+Defined in: main.ts:55626
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -119,7 +119,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:55182
+Defined in: main.ts:55609
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:55192
+Defined in: main.ts:55619
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -152,7 +152,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:55175
+Defined in: main.ts:55602
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,7 +167,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:55168
+Defined in: main.ts:55595
 
 page crawl limit
 optional field
@@ -182,7 +182,7 @@ learn more at our help center
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:55276
+Defined in: main.ts:55703
 
 notification URL of a completed task
 optional field
@@ -201,7 +201,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:55265
+Defined in: main.ts:55692
 
 postback_url datatype
 required field if you specify postback_url
@@ -215,7 +215,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:55259
+Defined in: main.ts:55686
 
 return URL for sending task results
 optional field
@@ -234,7 +234,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:55161
+Defined in: main.ts:55588
 
 task priority
 optional field
@@ -250,7 +250,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:55213
+Defined in: main.ts:55640
 
 search engine domain
 optional field
@@ -265,7 +265,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:55242
+Defined in: main.ts:55669
 
 additional parameters of the search query
 optional field
@@ -277,7 +277,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:55248
+Defined in: main.ts:55675
 
 user-defined task identifier
 optional field

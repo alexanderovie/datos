@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
-Defined in: main.ts:109073
+Defined in: main.ts:110370
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:109073
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:109141
+Defined in: main.ts:110438
 
 array of results filtering parameters
 optional field
@@ -45,7 +45,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:109122
+Defined in: main.ts:110419
 
 ignore highly similar keywords
 optional field
@@ -58,7 +58,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:109117
+Defined in: main.ts:110414
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -73,7 +73,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:109110
+Defined in: main.ts:110407
 
 include data from SERP for each keyword
 optional field
@@ -86,7 +86,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:109105
+Defined in: main.ts:110402
 
 language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:109097
+Defined in: main.ts:110394
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:109169
+Defined in: main.ts:110466
 
 the maximum number of returned keywords
 optional field
@@ -132,7 +132,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:109089
+Defined in: main.ts:110386
 
 location code
 required field if you don’t specify location_name
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:109081
+Defined in: main.ts:110378
 
 full name of the location
 required field if you don’t specify location_code
@@ -164,7 +164,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:109174
+Defined in: main.ts:110471
 
 offset in the results array of returned keywords
 optional field
@@ -177,7 +177,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:109182
+Defined in: main.ts:110479
 
 offset token for subsequent requests
 optional field
@@ -193,7 +193,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:109157
+Defined in: main.ts:110454
 
 results sorting rules
 optional field
@@ -217,7 +217,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:109163
+Defined in: main.ts:110460
 
 user-defined task identifier
 optional field

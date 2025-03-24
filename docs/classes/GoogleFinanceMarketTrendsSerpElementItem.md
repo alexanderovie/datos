@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketTrendsSerpElementItem
 
-Defined in: main.ts:88493
+Defined in: main.ts:88920
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:88493
 
 ## Constructors
 
-### new GoogleFinanceMarketTrendsSerpElementItem()
+### Constructor
 
-> **new GoogleFinanceMarketTrendsSerpElementItem**(`data`?): [`GoogleFinanceMarketTrendsSerpElementItem`](GoogleFinanceMarketTrendsSerpElementItem.md)
+> **new GoogleFinanceMarketTrendsSerpElementItem**(`data`?): `GoogleFinanceMarketTrendsSerpElementItem`
 
-Defined in: main.ts:88501
+Defined in: main.ts:88928
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:88501
 
 #### Returns
 
-[`GoogleFinanceMarketTrendsSerpElementItem`](GoogleFinanceMarketTrendsSerpElementItem.md)
+`GoogleFinanceMarketTrendsSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructors)
+[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88501
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22141
 
 > `optional` **items**: [`SerpGoogleFinanceExploreAdvancedItem`](SerpGoogleFinanceExploreAdvancedItem.md)
 
-Defined in: main.ts:88497
+Defined in: main.ts:88924
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88506
+Defined in: main.ts:88933
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:88506
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88524
+Defined in: main.ts:88951
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:88524
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceMarketTrendsSerpElementItem`](GoogleFinanceMarketTrendsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFinanceMarketTrendsSerpElementItem`
 
-Defined in: main.ts:88517
+Defined in: main.ts:88944
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:88517
 
 #### Returns
 
-[`GoogleFinanceMarketTrendsSerpElementItem`](GoogleFinanceMarketTrendsSerpElementItem.md)
+`GoogleFinanceMarketTrendsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: SerpErrorsResultInfo
 
-Defined in: main.ts:27262
+Defined in: main.ts:27689
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27262
 
 ## Constructors
 
-### new SerpErrorsResultInfo()
+### Constructor
 
-> **new SerpErrorsResultInfo**(`data`?): [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
+> **new SerpErrorsResultInfo**(`data`?): `SerpErrorsResultInfo`
 
-Defined in: main.ts:27293
+Defined in: main.ts:27720
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27293
 
 #### Returns
 
-[`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
+`SerpErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27293
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:27269
+Defined in: main.ts:27696
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:27273
+Defined in: main.ts:27700
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:27276
+Defined in: main.ts:27703
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:27271
+Defined in: main.ts:27698
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:27283
+Defined in: main.ts:27710
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:27281
+Defined in: main.ts:27708
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:27289
+Defined in: main.ts:27716
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:27286
+Defined in: main.ts:27713
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:27279
+Defined in: main.ts:27706
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:27264
+Defined in: main.ts:27691
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27302
+Defined in: main.ts:27729
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:27302
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27328
+Defined in: main.ts:27755
 
 #### Parameters
 
@@ -221,9 +221,9 @@ Defined in: main.ts:27328
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `SerpErrorsResultInfo`
 
-Defined in: main.ts:27321
+Defined in: main.ts:27748
 
 #### Parameters
 
@@ -233,4 +233,4 @@ Defined in: main.ts:27321
 
 #### Returns
 
-[`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
+`SerpErrorsResultInfo`

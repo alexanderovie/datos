@@ -6,7 +6,7 @@
 
 # Interface: IFoundOnWebElement
 
-Defined in: main.ts:39125
+Defined in: main.ts:39552
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:39125
 
 > `optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
 
-Defined in: main.ts:39133
+Defined in: main.ts:39560
 
 image of the element
 
@@ -28,7 +28,7 @@ image of the element
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:39131
+Defined in: main.ts:39558
 
 subtitle of the element
 
@@ -38,7 +38,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39129
+Defined in: main.ts:39556
 
 title of a given link element
 
@@ -48,6 +48,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39127
+Defined in: main.ts:39554
 
 type of element

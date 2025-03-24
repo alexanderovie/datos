@@ -6,7 +6,7 @@
 
 # Class: BacklinksSummaryLiveRequestInfo
 
-Defined in: main.ts:159523
+Defined in: main.ts:161932
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:159523
 
 ## Constructors
 
-### new BacklinksSummaryLiveRequestInfo()
+### Constructor
 
-> **new BacklinksSummaryLiveRequestInfo**(`data`?): [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
+> **new BacklinksSummaryLiveRequestInfo**(`data`?): `BacklinksSummaryLiveRequestInfo`
 
-Defined in: main.ts:159583
+Defined in: main.ts:161992
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:159583
 
 #### Returns
 
-[`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
+`BacklinksSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159583
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:159573
+Defined in: main.ts:161982
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:159565
+Defined in: main.ts:161974
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:159545
+Defined in: main.ts:161954
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -99,7 +99,7 @@ default value: true
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:159539
+Defined in: main.ts:161948
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -117,7 +117,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:159533
+Defined in: main.ts:161942
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -134,7 +134,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:159556
+Defined in: main.ts:161965
 
 maximum number of elements within internal arrays
 optional field
@@ -157,7 +157,7 @@ maximum value: 1000
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:159579
+Defined in: main.ts:161988
 
 user-defined task identifier
 optional field
@@ -175,7 +175,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:159528
+Defined in: main.ts:161937
 
 domain, subdomain or webpage to get data for
 required field
@@ -192,7 +192,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159592
+Defined in: main.ts:162001
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:159592
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159620
+Defined in: main.ts:162029
 
 #### Parameters
 
@@ -226,9 +226,9 @@ Defined in: main.ts:159620
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksSummaryLiveRequestInfo`
 
-Defined in: main.ts:159613
+Defined in: main.ts:162022
 
 #### Parameters
 
@@ -238,4 +238,4 @@ Defined in: main.ts:159613
 
 #### Returns
 
-[`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)
+`BacklinksSummaryLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:194317
+Defined in: main.ts:196726
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:194317
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:194328
+Defined in: main.ts:196737
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:194319
+Defined in: main.ts:196728
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:194321
+Defined in: main.ts:196730
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:194326
+Defined in: main.ts:196735
 
 the name of the superordinate location
 example:
@@ -61,6 +61,6 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:194330
+Defined in: main.ts:196739
 
 location type

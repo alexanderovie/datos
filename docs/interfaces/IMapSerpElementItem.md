@@ -6,7 +6,7 @@
 
 # Interface: IMapSerpElementItem
 
-Defined in: main.ts:34499
+Defined in: main.ts:34926
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34499
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34503
+Defined in: main.ts:34930
 
 the alignment of the element in SERP
 can take the following values:
@@ -34,7 +34,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -49,7 +49,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34513
+Defined in: main.ts:34940
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -77,7 +77,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34507
+Defined in: main.ts:34934
 
 title of the row
 
@@ -87,7 +87,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -101,7 +101,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34509
+Defined in: main.ts:34936
 
 source URL
 
@@ -111,6 +111,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34505
+Defined in: main.ts:34932
 
 the XPath of the element

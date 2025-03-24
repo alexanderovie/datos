@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 
-Defined in: main.ts:212847
+Defined in: main.ts:215256
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:212847
 
 ## Constructors
 
-### new AppDataGooglePlayReviewsSearchSerpElementItem()
+### Constructor
 
-> **new AppDataGooglePlayReviewsSearchSerpElementItem**(`data`?): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+> **new AppDataGooglePlayReviewsSearchSerpElementItem**(`data`?): `AppDataGooglePlayReviewsSearchSerpElementItem`
 
-Defined in: main.ts:212870
+Defined in: main.ts:215279
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:212870
 
 #### Returns
 
-[`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+`AppDataGooglePlayReviewsSearchSerpElementItem`
 
 #### Overrides
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:212870
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23691
+Defined in: main.ts:24030
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23691
 
 > `optional` **helpful\_count**: `number`
 
-Defined in: main.ts:212860
+Defined in: main.ts:215269
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -75,7 +75,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:212857
+Defined in: main.ts:215266
 
 id of the review
 
@@ -89,7 +89,7 @@ id of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23685
+Defined in: main.ts:24024
 
 the alignment of the element in SERP
 can take the following values:
@@ -109,7 +109,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23681
+Defined in: main.ts:24020
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24017
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:23689
+Defined in: main.ts:24028
 
 average rating of the app
 
@@ -165,7 +165,7 @@ average rating of the app
 
 > `optional` **responses**: [`ResponseDataInfo`](ResponseDataInfo.md)[]
 
-Defined in: main.ts:212866
+Defined in: main.ts:215275
 
 response from the developer
 
@@ -179,7 +179,7 @@ response from the developer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:212862
+Defined in: main.ts:215271
 
 content of the review
 
@@ -193,7 +193,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:212855
+Defined in: main.ts:215264
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -210,7 +210,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:24026
 
 title of the app
 
@@ -228,7 +228,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23675
+Defined in: main.ts:24014
 
 type of element
 
@@ -246,7 +246,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:212864
+Defined in: main.ts:215273
 
 user profile of the reviewer
 
@@ -260,7 +260,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:212850
+Defined in: main.ts:215259
 
 version of the app
 version of the app for which the review is submitted
@@ -275,7 +275,7 @@ version of the app for which the review is submitted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212875
+Defined in: main.ts:215284
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: main.ts:212875
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212903
+Defined in: main.ts:215312
 
 #### Parameters
 
@@ -317,9 +317,9 @@ Defined in: main.ts:212903
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): `AppDataGooglePlayReviewsSearchSerpElementItem`
 
-Defined in: main.ts:212896
+Defined in: main.ts:215305
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:212896
 
 #### Returns
 
-[`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+`AppDataGooglePlayReviewsSearchSerpElementItem`
 
 #### Overrides
 

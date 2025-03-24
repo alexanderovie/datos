@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveResultInfo
 
-Defined in: main.ts:145521
+Defined in: main.ts:147930
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:145521
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsExploreLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataDataforseoTrendsExploreLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
+> **new KeywordsDataDataforseoTrendsExploreLiveResultInfo**(`data`?): `KeywordsDataDataforseoTrendsExploreLiveResultInfo`
 
-Defined in: main.ts:145544
+Defined in: main.ts:147953
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:145544
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
+`KeywordsDataDataforseoTrendsExploreLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145544
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:145536
+Defined in: main.ts:147945
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:145540
+Defined in: main.ts:147949
 
 contains keyword popularity and related data
 
@@ -71,7 +71,7 @@ contains keyword popularity and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:145538
+Defined in: main.ts:147947
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:145523
+Defined in: main.ts:147932
 
 keywords in a POST array
 
@@ -99,7 +99,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145531
+Defined in: main.ts:147940
 
 language code in a POST array
 if there is no data, then the value is null
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:145528
+Defined in: main.ts:147937
 
 location code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:145525
+Defined in: main.ts:147934
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145553
+Defined in: main.ts:147962
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:145553
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145584
+Defined in: main.ts:147993
 
 #### Parameters
 
@@ -177,9 +177,9 @@ Defined in: main.ts:145584
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsExploreLiveResultInfo`
 
-Defined in: main.ts:145577
+Defined in: main.ts:147986
 
 #### Parameters
 
@@ -189,4 +189,4 @@ Defined in: main.ts:145577
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
+`KeywordsDataDataforseoTrendsExploreLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceMarketsLiveHtmlResultInfo
 
-Defined in: main.ts:91497
+Defined in: main.ts:91924
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:91497
 
 ## Constructors
 
-### new SerpGoogleFinanceMarketsLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceMarketsLiveHtmlResultInfo**(`data`?): [`SerpGoogleFinanceMarketsLiveHtmlResultInfo`](SerpGoogleFinanceMarketsLiveHtmlResultInfo.md)
+> **new SerpGoogleFinanceMarketsLiveHtmlResultInfo**(`data`?): `SerpGoogleFinanceMarketsLiveHtmlResultInfo`
 
-Defined in: main.ts:91521
+Defined in: main.ts:91948
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:91521
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveHtmlResultInfo`](SerpGoogleFinanceMarketsLiveHtmlResultInfo.md)
+`SerpGoogleFinanceMarketsLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91521
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:91513
+Defined in: main.ts:91940
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:91517
+Defined in: main.ts:91944
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:91515
+Defined in: main.ts:91942
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:91500
+Defined in: main.ts:91927
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91508
+Defined in: main.ts:91935
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91506
+Defined in: main.ts:91933
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:91504
+Defined in: main.ts:91931
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:91502
+Defined in: main.ts:91929
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91530
+Defined in: main.ts:91957
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:91530
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91558
+Defined in: main.ts:91985
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:91558
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceMarketsLiveHtmlResultInfo`](SerpGoogleFinanceMarketsLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceMarketsLiveHtmlResultInfo`
 
-Defined in: main.ts:91551
+Defined in: main.ts:91978
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:91551
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveHtmlResultInfo`](SerpGoogleFinanceMarketsLiveHtmlResultInfo.md)
+`SerpGoogleFinanceMarketsLiveHtmlResultInfo`

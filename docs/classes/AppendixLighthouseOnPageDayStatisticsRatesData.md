@@ -6,7 +6,7 @@
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
 
-Defined in: main.ts:243367
+Defined in: main.ts:245728
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:243367
 
 ## Constructors
 
-### new AppendixLighthouseOnPageDayStatisticsRatesData()
+### Constructor
 
-> **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data`?): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
+> **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data`?): `AppendixLighthouseOnPageDayStatisticsRatesData`
 
-Defined in: main.ts:243378
+Defined in: main.ts:245739
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:243378
 
 #### Returns
 
-[`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
+`AppendixLighthouseOnPageDayStatisticsRatesData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243378
 
 > `optional` **audits**: `number`
 
-Defined in: main.ts:243374
+Defined in: main.ts:245733
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243374
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:243373
+Defined in: main.ts:245735
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243373
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:243371
+Defined in: main.ts:245732
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243371
 
 > `optional` **task\_get**: `number`
 
-Defined in: main.ts:243370
+Defined in: main.ts:245731
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243370
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:243368
+Defined in: main.ts:245729
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243368
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243369
+Defined in: main.ts:245730
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243369
 
 > `optional` **versions**: `number`
 
-Defined in: main.ts:243372
+Defined in: main.ts:245734
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243372
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:243387
+Defined in: main.ts:245748
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:243387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:243410
+Defined in: main.ts:245771
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:243410
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
+> `static` **fromJS**(`data`): `AppendixLighthouseOnPageDayStatisticsRatesData`
 
-Defined in: main.ts:243403
+Defined in: main.ts:245764
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:243403
 
 #### Returns
 
-[`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
+`AppendixLighthouseOnPageDayStatisticsRatesData`

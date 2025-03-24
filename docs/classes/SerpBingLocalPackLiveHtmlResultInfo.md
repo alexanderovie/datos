@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveHtmlResultInfo
 
-Defined in: main.ts:71146
+Defined in: main.ts:71573
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:71146
 
 ## Constructors
 
-### new SerpBingLocalPackLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpBingLocalPackLiveHtmlResultInfo**(`data`?): [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
+> **new SerpBingLocalPackLiveHtmlResultInfo**(`data`?): `SerpBingLocalPackLiveHtmlResultInfo`
 
-Defined in: main.ts:71170
+Defined in: main.ts:71597
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:71170
 
 #### Returns
 
-[`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
+`SerpBingLocalPackLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:71170
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:71162
+Defined in: main.ts:71589
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:71166
+Defined in: main.ts:71593
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:71164
+Defined in: main.ts:71591
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:71149
+Defined in: main.ts:71576
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71157
+Defined in: main.ts:71584
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71155
+Defined in: main.ts:71582
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:71153
+Defined in: main.ts:71580
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:71151
+Defined in: main.ts:71578
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71179
+Defined in: main.ts:71606
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:71179
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71207
+Defined in: main.ts:71634
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:71207
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLocalPackLiveHtmlResultInfo`
 
-Defined in: main.ts:71200
+Defined in: main.ts:71627
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:71200
 
 #### Returns
 
-[`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
+`SerpBingLocalPackLiveHtmlResultInfo`

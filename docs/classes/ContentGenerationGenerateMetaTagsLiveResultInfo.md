@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 
-Defined in: main.ts:191215
+Defined in: main.ts:193624
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191215
 
 ## Constructors
 
-### new ContentGenerationGenerateMetaTagsLiveResultInfo()
+### Constructor
 
-> **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+> **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data`?): `ContentGenerationGenerateMetaTagsLiveResultInfo`
 
-Defined in: main.ts:191229
+Defined in: main.ts:193638
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191229
 
 #### Returns
 
-[`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+`ContentGenerationGenerateMetaTagsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191229
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:191225
+Defined in: main.ts:193634
 
 generated description
 
@@ -54,7 +54,7 @@ generated description
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:191217
+Defined in: main.ts:193626
 
 number of input tokens
 
@@ -68,7 +68,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:191221
+Defined in: main.ts:193630
 
 number of new tokens
 
@@ -82,7 +82,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:191219
+Defined in: main.ts:193628
 
 number of output tokens
 
@@ -96,7 +96,7 @@ number of output tokens
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:191223
+Defined in: main.ts:193632
 
 generated title
 
@@ -110,7 +110,7 @@ generated title
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191238
+Defined in: main.ts:193647
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:191238
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191259
+Defined in: main.ts:193668
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:191259
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGenerateMetaTagsLiveResultInfo`
 
-Defined in: main.ts:191252
+Defined in: main.ts:193661
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:191252
 
 #### Returns
 
-[`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+`ContentGenerationGenerateMetaTagsLiveResultInfo`

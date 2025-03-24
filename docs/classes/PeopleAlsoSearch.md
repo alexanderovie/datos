@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearch
 
-Defined in: main.ts:220265
+Defined in: main.ts:222674
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:220265
 
 ## Constructors
 
-### new PeopleAlsoSearch()
+### Constructor
 
-> **new PeopleAlsoSearch**(`data`?): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+> **new PeopleAlsoSearch**(`data`?): `PeopleAlsoSearch`
 
-Defined in: main.ts:220282
+Defined in: main.ts:222691
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:220282
 
 #### Returns
 
-[`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+`PeopleAlsoSearch`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:220282
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:220269
+Defined in: main.ts:222678
 
 google-defined client id
 unique id of a local establishment
@@ -56,7 +56,7 @@ learn more about the identifier in this help center article
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:220272
+Defined in: main.ts:222681
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:220278
+Defined in: main.ts:222687
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -86,7 +86,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:220275
+Defined in: main.ts:222684
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -101,7 +101,7 @@ the name of the business entity for which the results are collected
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:220291
+Defined in: main.ts:222700
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:220291
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:220311
+Defined in: main.ts:222720
 
 #### Parameters
 
@@ -135,9 +135,9 @@ Defined in: main.ts:220311
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+> `static` **fromJS**(`data`): `PeopleAlsoSearch`
 
-Defined in: main.ts:220304
+Defined in: main.ts:222713
 
 #### Parameters
 
@@ -147,4 +147,4 @@ Defined in: main.ts:220304
 
 #### Returns
 
-[`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+`PeopleAlsoSearch`

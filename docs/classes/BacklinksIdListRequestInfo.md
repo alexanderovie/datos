@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListRequestInfo
 
-Defined in: main.ts:158265
+Defined in: main.ts:160674
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:158265
 
 ## Constructors
 
-### new BacklinksIdListRequestInfo()
+### Constructor
 
-> **new BacklinksIdListRequestInfo**(`data`?): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+> **new BacklinksIdListRequestInfo**(`data`?): `BacklinksIdListRequestInfo`
 
-Defined in: main.ts:158303
+Defined in: main.ts:160712
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:158303
 
 #### Returns
 
-[`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+`BacklinksIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158303
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:158273
+Defined in: main.ts:160682
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:158280
+Defined in: main.ts:160689
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:158299
+Defined in: main.ts:160708
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:158285
+Defined in: main.ts:160694
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:158290
+Defined in: main.ts:160699
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:158295
+Defined in: main.ts:160704
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158312
+Defined in: main.ts:160721
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:158312
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158334
+Defined in: main.ts:160743
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:158334
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksIdListRequestInfo`
 
-Defined in: main.ts:158327
+Defined in: main.ts:160736
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:158327
 
 #### Returns
 
-[`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+`BacklinksIdListRequestInfo`

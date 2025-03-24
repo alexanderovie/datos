@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
-Defined in: main.ts:133543
+Defined in: main.ts:135944
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:133543
 
 ## Constructors
 
-### new DataforseoLabsAppleAppCompetitorsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAppleAppCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+> **new DataforseoLabsAppleAppCompetitorsLiveRequestInfo**(`data`?): `DataforseoLabsAppleAppCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:133638
+Defined in: main.ts:136039
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:133638
 
 #### Returns
 
-[`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133638
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:133551
+Defined in: main.ts:135952
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is 835599320
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:133601
+Defined in: main.ts:136002
 
 array of results filtering parameters
 optional field
@@ -86,7 +86,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:133587
+Defined in: main.ts:135988
 
 language code
 required field if you don’t specify language_name
@@ -107,7 +107,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:133578
+Defined in: main.ts:135979
 
 full name of the language
 required field if you don’t specify language_code
@@ -128,7 +128,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:133623
+Defined in: main.ts:136024
 
 the maximum number of returned apps
 optional field
@@ -145,7 +145,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:133569
+Defined in: main.ts:135970
 
 location code
 required field if you don’t specify location_name
@@ -166,7 +166,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:133560
+Defined in: main.ts:135961
 
 full name of the location
 required field if you don’t specify location_code
@@ -187,7 +187,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:133628
+Defined in: main.ts:136029
 
 offset in the results array of returned apps
 optional field
@@ -204,7 +204,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:133618
+Defined in: main.ts:136019
 
 results sorting rules
 optional field
@@ -233,7 +233,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:133634
+Defined in: main.ts:136035
 
 user-defined task identifier
 optional field
@@ -251,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133647
+Defined in: main.ts:136048
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:133647
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133681
+Defined in: main.ts:136082
 
 #### Parameters
 
@@ -285,9 +285,9 @@ Defined in: main.ts:133681
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleAppCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:133674
+Defined in: main.ts:136075
 
 #### Parameters
 
@@ -297,4 +297,4 @@ Defined in: main.ts:133674
 
 #### Returns
 
-[`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`

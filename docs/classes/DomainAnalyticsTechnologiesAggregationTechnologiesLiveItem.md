@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
-Defined in: main.ts:95550
+Defined in: main.ts:97453
 
 items array
 
@@ -20,11 +20,11 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
 
-Defined in: main.ts:95571
+Defined in: main.ts:97474
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:95571
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:95571
 
 > `optional` **categories\_count**: `number`
 
-Defined in: main.ts:95564
+Defined in: main.ts:97467
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
@@ -57,7 +57,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:95556
+Defined in: main.ts:97459
 
 technology category id
 
@@ -71,7 +71,7 @@ technology category id
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:95554
+Defined in: main.ts:97457
 
 technology group id
 
@@ -85,7 +85,7 @@ technology group id
 
 > `optional` **groups\_count**: `number`
 
-Defined in: main.ts:95561
+Defined in: main.ts:97464
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
@@ -100,7 +100,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **technologies\_count**: `number`
 
-Defined in: main.ts:95567
+Defined in: main.ts:97470
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
@@ -115,7 +115,7 @@ number of domains that match the parameters you specified and are using the indi
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:95558
+Defined in: main.ts:97461
 
 technology name
 
@@ -129,7 +129,7 @@ technology name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:95552
+Defined in: main.ts:97455
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95580
+Defined in: main.ts:97483
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:95580
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95603
+Defined in: main.ts:97506
 
 #### Parameters
 
@@ -177,9 +177,9 @@ Defined in: main.ts:95603
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
 
-Defined in: main.ts:95596
+Defined in: main.ts:97499
 
 #### Parameters
 
@@ -189,4 +189,4 @@ Defined in: main.ts:95596
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`

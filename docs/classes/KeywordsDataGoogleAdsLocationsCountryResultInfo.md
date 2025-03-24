@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsCountryResultInfo
 
-Defined in: main.ts:135815
+Defined in: main.ts:138216
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:135815
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsLocationsCountryResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsLocationsCountryResultInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
+> **new KeywordsDataGoogleAdsLocationsCountryResultInfo**(`data`?): `KeywordsDataGoogleAdsLocationsCountryResultInfo`
 
-Defined in: main.ts:135837
+Defined in: main.ts:138238
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:135837
 
 #### Returns
 
-[`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
+`KeywordsDataGoogleAdsLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:135837
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:135830
+Defined in: main.ts:138231
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:135817
+Defined in: main.ts:138218
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:135828
+Defined in: main.ts:138229
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:135819
+Defined in: main.ts:138220
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:135833
+Defined in: main.ts:138234
 
 location type
 possible values according to Google’s target types
@@ -118,7 +118,7 @@ possible values according to Google’s target types
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135846
+Defined in: main.ts:138247
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:135846
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135867
+Defined in: main.ts:138268
 
 #### Parameters
 
@@ -152,9 +152,9 @@ Defined in: main.ts:135867
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsLocationsCountryResultInfo`
 
-Defined in: main.ts:135860
+Defined in: main.ts:138261
 
 #### Parameters
 
@@ -164,4 +164,4 @@ Defined in: main.ts:135860
 
 #### Returns
 
-[`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
+`KeywordsDataGoogleAdsLocationsCountryResultInfo`

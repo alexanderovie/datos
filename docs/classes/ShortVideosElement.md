@@ -6,7 +6,7 @@
 
 # Class: ShortVideosElement
 
-Defined in: main.ts:37246
+Defined in: main.ts:37673
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:37246
 
 ## Constructors
 
-### new ShortVideosElement()
+### Constructor
 
-> **new ShortVideosElement**(`data`?): [`ShortVideosElement`](ShortVideosElement.md)
+> **new ShortVideosElement**(`data`?): `ShortVideosElement`
 
-Defined in: main.ts:37261
+Defined in: main.ts:37688
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:37261
 
 #### Returns
 
-[`ShortVideosElement`](ShortVideosElement.md)
+`ShortVideosElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37261
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37252
+Defined in: main.ts:37679
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37257
+Defined in: main.ts:37684
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -69,7 +69,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37250
+Defined in: main.ts:37677
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37248
+Defined in: main.ts:37675
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37254
+Defined in: main.ts:37681
 
 URL
 
@@ -111,7 +111,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37270
+Defined in: main.ts:37697
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:37270
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37291
+Defined in: main.ts:37718
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:37291
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
+> `static` **fromJS**(`data`): `ShortVideosElement`
 
-Defined in: main.ts:37284
+Defined in: main.ts:37711
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:37284
 
 #### Returns
 
-[`ShortVideosElement`](ShortVideosElement.md)
+`ShortVideosElement`

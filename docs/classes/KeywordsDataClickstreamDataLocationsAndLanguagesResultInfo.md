@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:156919
+Defined in: main.ts:159328
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:156919
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo()
+### Constructor
 
-> **new KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+> **new KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo**(`data`?): `KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:156939
+Defined in: main.ts:159348
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:156939
 
 #### Returns
 
-[`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156939
 
 > `optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
 
-Defined in: main.ts:156935
+Defined in: main.ts:159344
 
 supported languages
 contains the languages which are supported for a specific location
@@ -55,7 +55,7 @@ contains the languages which are supported for a specific location
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:156928
+Defined in: main.ts:159337
 
 ISO country code of the location
 
@@ -69,7 +69,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:156921
+Defined in: main.ts:159330
 
 location code
 
@@ -83,7 +83,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:156926
+Defined in: main.ts:159335
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -98,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:156923
+Defined in: main.ts:159332
 
 full name of the location
 
@@ -112,7 +112,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:156932
+Defined in: main.ts:159341
 
 location type
 possible values:
@@ -128,7 +128,7 @@ Country
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156948
+Defined in: main.ts:159357
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:156948
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156974
+Defined in: main.ts:159383
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:156974
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:156967
+Defined in: main.ts:159376
 
 #### Parameters
 
@@ -174,4 +174,4 @@ Defined in: main.ts:156967
 
 #### Returns
 
-[`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
-Defined in: main.ts:97695
+Defined in: main.ts:99598
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:97695
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
 
-Defined in: main.ts:97711
+Defined in: main.ts:99614
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:97711
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:97711
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
-Defined in: main.ts:97707
+Defined in: main.ts:99610
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:97699
+Defined in: main.ts:99602
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97701
+Defined in: main.ts:99604
 
 specified offset value
 
@@ -82,7 +82,7 @@ specified offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:97705
+Defined in: main.ts:99608
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -98,7 +98,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:97697
+Defined in: main.ts:99600
 
 total number of relevant items in the database
 
@@ -112,7 +112,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:97720
+Defined in: main.ts:99623
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:97720
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:97745
+Defined in: main.ts:99648
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:97745
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
 
-Defined in: main.ts:97738
+Defined in: main.ts:99641
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:97738
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`

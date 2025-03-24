@@ -6,7 +6,7 @@
 
 # Interface: IKeywordInfoNormalizedWithInfo
 
-Defined in: main.ts:103321
+Defined in: main.ts:26701
 
 ## Indexable
 
@@ -16,9 +16,9 @@ Defined in: main.ts:103321
 
 ### is\_normalized?
 
-> `optional` **is\_normalized**: `boolean`
+> `optional` **is\_normalized**: `string`
 
-Defined in: main.ts:103329
+Defined in: main.ts:26711
 
 keyword info is normalized
 if true, values are normalized with Bing data
@@ -29,10 +29,12 @@ if true, values are normalized with Bing data
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:103324
+Defined in: main.ts:26706
 
-date and time when the clickstream dataset was updated
+date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00
 
 ***
 
@@ -40,17 +42,17 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:103332
+Defined in: main.ts:26714
 
-monthly clickstream search volume rates
-array of objects with clickstream search volume rates in a certain month of a year
+monthly search volume rates
+array of objects with search volume rates in a certain month of a year
 
 ***
 
 ### search\_volume?
 
-> `optional` **search\_volume**: `number`
+> `optional` **search\_volume**: `string`
 
-Defined in: main.ts:103326
+Defined in: main.ts:26708
 
-monthly average clickstream search volume rate
+current search volume rate of a keyword

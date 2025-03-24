@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116359
+Defined in: main.ts:117744
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116359
 
 > `optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-Defined in: main.ts:116367
+Defined in: main.ts:117752
 
 additional items present in the element
 if there are none, equals null
@@ -33,7 +33,7 @@ if there are none, equals null
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:116371
+Defined in: main.ts:117756
 
 sitelinks
 the links shown below some of Google’s search results
@@ -45,7 +45,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -61,7 +61,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -76,7 +76,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:116364
+Defined in: main.ts:117749
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -102,7 +102,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116361
+Defined in: main.ts:117746
 
 title of the result in SERP
 
@@ -112,7 +112,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

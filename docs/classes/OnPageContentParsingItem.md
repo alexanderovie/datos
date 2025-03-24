@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingItem
 
-Defined in: main.ts:182841
+Defined in: main.ts:185250
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182841
 
 ## Constructors
 
-### new OnPageContentParsingItem()
+### Constructor
 
-> **new OnPageContentParsingItem**(`data`?): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+> **new OnPageContentParsingItem**(`data`?): `OnPageContentParsingItem`
 
-Defined in: main.ts:182855
+Defined in: main.ts:185264
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182855
 
 #### Returns
 
-[`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+`OnPageContentParsingItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182855
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:182847
+Defined in: main.ts:185256
 
 date and time when the content was fethced
 example:
@@ -56,7 +56,7 @@ example:
 
 > `optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:182851
+Defined in: main.ts:185260
 
 parsed content of the page
 
@@ -70,7 +70,7 @@ parsed content of the page
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:182849
+Defined in: main.ts:185258
 
 status code of the page
 
@@ -84,7 +84,7 @@ status code of the page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:182843
+Defined in: main.ts:185252
 
 type of element
 
@@ -98,7 +98,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182864
+Defined in: main.ts:185273
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:182864
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182884
+Defined in: main.ts:185293
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:182884
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+> `static` **fromJS**(`data`): `OnPageContentParsingItem`
 
-Defined in: main.ts:182877
+Defined in: main.ts:185286
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:182877
 
 #### Returns
 
-[`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+`OnPageContentParsingItem`

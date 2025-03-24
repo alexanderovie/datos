@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem
 
-Defined in: main.ts:63474
+Defined in: main.ts:63901
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:63474
 
 ## Constructors
 
-### new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem()
+### Constructor
 
-> **new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem**(`data`?): [`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
+> **new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
-Defined in: main.ts:63488
+Defined in: main.ts:63915
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:63488
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
+`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructors)
+[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:63488
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63410
+Defined in: main.ts:63837
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63410
 
 > `optional` **advertisers**: [`Advertiser`](Advertiser.md)[]
 
-Defined in: main.ts:63484
+Defined in: main.ts:63911
 
 associated advertiser accounts
 contains objects with data on associated advertiser accounts
@@ -75,7 +75,7 @@ contains objects with data on associated advertiser accounts
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:63481
+Defined in: main.ts:63908
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -90,7 +90,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:63478
+Defined in: main.ts:63905
 
 advertiser location
 
@@ -104,7 +104,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63408
+Defined in: main.ts:63835
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63405
+Defined in: main.ts:63832
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:63476
+Defined in: main.ts:63903
 
 title of the element
 
@@ -157,7 +157,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63401
+Defined in: main.ts:63828
 
 type of element
 
@@ -175,7 +175,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63493
+Defined in: main.ts:63920
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: main.ts:63493
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63518
+Defined in: main.ts:63945
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:63518
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
-Defined in: main.ts:63511
+Defined in: main.ts:63938
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:63511
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem.md)
+`GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
 #### Overrides
 

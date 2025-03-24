@@ -6,7 +6,7 @@
 
 # Class: IntersectionSummaryInfo
 
-Defined in: main.ts:167447
+Defined in: main.ts:169856
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:167447
 
 ## Constructors
 
-### new IntersectionSummaryInfo()
+### Constructor
 
-> **new IntersectionSummaryInfo**(`data`?): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> **new IntersectionSummaryInfo**(`data`?): `IntersectionSummaryInfo`
 
-Defined in: main.ts:167453
+Defined in: main.ts:169862
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:167453
 
 #### Returns
 
-[`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+`IntersectionSummaryInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167453
 
 > `optional` **intersections\_count**: `number`
 
-Defined in: main.ts:167449
+Defined in: main.ts:169858
 
 total number of intersections
 
@@ -54,7 +54,7 @@ total number of intersections
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167462
+Defined in: main.ts:169871
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:167462
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167479
+Defined in: main.ts:169888
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:167479
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> `static` **fromJS**(`data`): `IntersectionSummaryInfo`
 
-Defined in: main.ts:167472
+Defined in: main.ts:169881
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:167472
 
 #### Returns
 
-[`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+`IntersectionSummaryInfo`

@@ -6,7 +6,7 @@
 
 # Class: BaseOnPageResourceItemInfo
 
-Defined in: main.ts:23103
+Defined in: main.ts:23442
 
 ## Extended by
 
@@ -22,11 +22,11 @@ Defined in: main.ts:23103
 
 ## Constructors
 
-### new BaseOnPageResourceItemInfo()
+### Constructor
 
-> **new BaseOnPageResourceItemInfo**(`data`?): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+> **new BaseOnPageResourceItemInfo**(`data`?): `BaseOnPageResourceItemInfo`
 
-Defined in: main.ts:23146
+Defined in: main.ts:23485
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:23146
 
 #### Returns
 
-[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+`BaseOnPageResourceItemInfo`
 
 ## Properties
 
@@ -44,7 +44,7 @@ Defined in: main.ts:23146
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23144
+Defined in: main.ts:23483
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: main.ts:23144
 
 > `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
-Defined in: main.ts:23130
+Defined in: main.ts:23469
 
 instructions for caching
 
@@ -66,7 +66,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:23133
+Defined in: main.ts:23472
 
 website checks
 on-page check-ups related to the page
@@ -85,7 +85,7 @@ on-page check-ups related to the page
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:23135
+Defined in: main.ts:23474
 
 type of encoding
 
@@ -99,7 +99,7 @@ type of encoding
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:23120
+Defined in: main.ts:23459
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -114,7 +114,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:23128
+Defined in: main.ts:23467
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -131,7 +131,7 @@ example:
 
 > `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
-Defined in: main.ts:23142
+Defined in: main.ts:23481
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -146,7 +146,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23110
+Defined in: main.ts:23449
 
 location header
 indicates the URL to redirect a page to
@@ -161,7 +161,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:23137
+Defined in: main.ts:23476
 
 types of media used to display a page
 
@@ -175,7 +175,7 @@ types of media used to display a page
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:23114
+Defined in: main.ts:23453
 
 resource errors and warnings
 
@@ -189,7 +189,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:23105
+Defined in: main.ts:23444
 
 type of the returned resource
 
@@ -203,7 +203,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:23139
+Defined in: main.ts:23478
 
 server version
 
@@ -217,7 +217,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:23117
+Defined in: main.ts:23456
 
 resource size
 indicates the size of a given page measured in bytes
@@ -232,7 +232,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:23107
+Defined in: main.ts:23446
 
 status code of the page
 
@@ -246,7 +246,7 @@ status code of the page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:23123
+Defined in: main.ts:23462
 
 compressed page size
 indicates the compressed size of a given page
@@ -261,7 +261,7 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23112
+Defined in: main.ts:23451
 
 page URL
 
@@ -275,7 +275,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23156
+Defined in: main.ts:23495
 
 #### Parameters
 
@@ -293,7 +293,7 @@ Defined in: main.ts:23156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23214
+Defined in: main.ts:23553
 
 #### Parameters
 
@@ -309,9 +309,9 @@ Defined in: main.ts:23214
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+> `static` **fromJS**(`data`): `BaseOnPageResourceItemInfo`
 
-Defined in: main.ts:23182
+Defined in: main.ts:23521
 
 #### Parameters
 
@@ -321,4 +321,4 @@ Defined in: main.ts:23182
 
 #### Returns
 
-[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+`BaseOnPageResourceItemInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
 
-Defined in: main.ts:213727
+Defined in: main.ts:216136
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:213727
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:213733
+Defined in: main.ts:216142
 
 app categories
 optional field
@@ -32,7 +32,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:213738
+Defined in: main.ts:216147
 
 keyword in the app’s description
 optional field
@@ -45,7 +45,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:213754
+Defined in: main.ts:216163
 
 array of results filtering parameters
 optional field
@@ -64,7 +64,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:213773
+Defined in: main.ts:216182
 
 the maximum number of returned apps
 optional field
@@ -77,7 +77,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:213778
+Defined in: main.ts:216187
 
 offset in the results array of returned apps
 optional field
@@ -90,7 +90,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:213786
+Defined in: main.ts:216195
 
 token for subsequent requests
 optional field
@@ -106,7 +106,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:213768
+Defined in: main.ts:216177
 
 results sorting rules
 optional field
@@ -128,7 +128,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:213792
+Defined in: main.ts:216201
 
 user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:213743
+Defined in: main.ts:216152
 
 keyword in the app’s title
 optional field

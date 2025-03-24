@@ -6,7 +6,7 @@
 
 # Class: ReviewHighlights
 
-Defined in: main.ts:231441
+Defined in: main.ts:233850
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:231441
 
 ## Constructors
 
-### new ReviewHighlights()
+### Constructor
 
-> **new ReviewHighlights**(`data`?): [`ReviewHighlights`](ReviewHighlights.md)
+> **new ReviewHighlights**(`data`?): `ReviewHighlights`
 
-Defined in: main.ts:231449
+Defined in: main.ts:233858
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:231449
 
 #### Returns
 
-[`ReviewHighlights`](ReviewHighlights.md)
+`ReviewHighlights`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231449
 
 > `optional` **assessment**: `string`
 
-Defined in: main.ts:231445
+Defined in: main.ts:233854
 
 feature assessment
 
@@ -54,7 +54,7 @@ feature assessment
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:231443
+Defined in: main.ts:233852
 
 reviewed feature
 
@@ -68,7 +68,7 @@ reviewed feature
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231458
+Defined in: main.ts:233867
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:231458
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231476
+Defined in: main.ts:233885
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:231476
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ReviewHighlights`](ReviewHighlights.md)
+> `static` **fromJS**(`data`): `ReviewHighlights`
 
-Defined in: main.ts:231469
+Defined in: main.ts:233878
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:231469
 
 #### Returns
 
-[`ReviewHighlights`](ReviewHighlights.md)
+`ReviewHighlights`

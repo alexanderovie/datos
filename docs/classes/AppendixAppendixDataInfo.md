@@ -6,7 +6,7 @@
 
 # Class: AppendixAppendixDataInfo
 
-Defined in: main.ts:242365
+Defined in: main.ts:244778
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:242365
 
 ## Constructors
 
-### new AppendixAppendixDataInfo()
+### Constructor
 
-> **new AppendixAppendixDataInfo**(`data`?): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+> **new AppendixAppendixDataInfo**(`data`?): `AppendixAppendixDataInfo`
 
-Defined in: main.ts:242373
+Defined in: main.ts:244786
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:242373
 
 #### Returns
 
-[`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+`AppendixAppendixDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242373
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:242367
+Defined in: main.ts:244780
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242367
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:242368
+Defined in: main.ts:244781
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:242368
 
 > `optional` **test**: `number`
 
-Defined in: main.ts:242369
+Defined in: main.ts:244782
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:242369
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:242366
+Defined in: main.ts:244779
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:242366
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:242382
+Defined in: main.ts:244795
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:242382
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:242402
+Defined in: main.ts:244815
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:242402
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixAppendixDataInfo`
 
-Defined in: main.ts:242395
+Defined in: main.ts:244808
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:242395
 
 #### Returns
 
-[`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+`AppendixAppendixDataInfo`

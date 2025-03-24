@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:240111
+Defined in: main.ts:242520
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:240111
 
 ## Constructors
 
-### new AppendixBingKeywordsDataLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data`?): `AppendixBingKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:240121
+Defined in: main.ts:242530
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:240121
 
 #### Returns
 
-[`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+`AppendixBingKeywordsDataLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240121
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240116
+Defined in: main.ts:242525
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:240116
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240112
+Defined in: main.ts:242521
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:240112
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240117
+Defined in: main.ts:242526
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:240117
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240115
+Defined in: main.ts:242524
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:240115
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240114
+Defined in: main.ts:242523
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:240114
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240113
+Defined in: main.ts:242522
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:240113
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:240130
+Defined in: main.ts:242539
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:240130
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:240152
+Defined in: main.ts:242561
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:240152
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixBingKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:240145
+Defined in: main.ts:242554
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:240145
 
 #### Returns
 
-[`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+`AppendixBingKeywordsDataLimitsRatesDataInfo`

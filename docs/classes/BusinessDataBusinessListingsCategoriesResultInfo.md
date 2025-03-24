@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
-Defined in: main.ts:219589
+Defined in: main.ts:221998
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:219589
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesResultInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+> **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): `BusinessDataBusinessListingsCategoriesResultInfo`
 
-Defined in: main.ts:219597
+Defined in: main.ts:222006
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:219597
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+`BusinessDataBusinessListingsCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219597
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:219593
+Defined in: main.ts:222002
 
 number of businesses in the category
 
@@ -54,7 +54,7 @@ number of businesses in the category
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:219591
+Defined in: main.ts:222000
 
 full name of the category
 
@@ -68,7 +68,7 @@ full name of the category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219606
+Defined in: main.ts:222015
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:219606
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219624
+Defined in: main.ts:222033
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:219624
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesResultInfo`
 
-Defined in: main.ts:219617
+Defined in: main.ts:222026
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:219617
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+`BusinessDataBusinessListingsCategoriesResultInfo`

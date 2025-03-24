@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:202341
+Defined in: main.ts:204750
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:202341
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:202372
+Defined in: main.ts:204781
 
 amazon product departments and subcategories
 
@@ -28,7 +28,7 @@ amazon product departments and subcategories
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:202355
+Defined in: main.ts:204764
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:202360
+Defined in: main.ts:204769
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:202368
+Defined in: main.ts:204777
 
 types of search results found in Amazon SERP
 contains types of all search results (items) found in the returned SERP
@@ -65,7 +65,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:202376
+Defined in: main.ts:204785
 
 Amazon product items within the editorial_recommendations element
 
@@ -75,7 +75,7 @@ Amazon product items within the editorial_recommendations element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:202374
+Defined in: main.ts:204783
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:202344
+Defined in: main.ts:204753
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -96,7 +96,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202352
+Defined in: main.ts:204761
 
 language code in a POST array
 
@@ -106,7 +106,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202350
+Defined in: main.ts:204759
 
 location code in a POST array
 
@@ -116,7 +116,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202348
+Defined in: main.ts:204757
 
 search engine domain in a POST array
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:202370
+Defined in: main.ts:204779
 
 search engine results count
 
@@ -136,7 +136,7 @@ search engine results count
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:202363
+Defined in: main.ts:204772
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -147,6 +147,6 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:202346
+Defined in: main.ts:204755
 
 type of element

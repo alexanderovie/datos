@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListResultInfo
 
-Defined in: main.ts:93795
+Defined in: main.ts:95698
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:93795
 
 ## Constructors
 
-### new DomainAnalyticsIdListResultInfo()
+### Constructor
 
-> **new DomainAnalyticsIdListResultInfo**(`data`?): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+> **new DomainAnalyticsIdListResultInfo**(`data`?): `DomainAnalyticsIdListResultInfo`
 
-Defined in: main.ts:93821
+Defined in: main.ts:95724
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:93821
 
 #### Returns
 
-[`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+`DomainAnalyticsIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93821
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:93815
+Defined in: main.ts:95718
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:93810
+Defined in: main.ts:95713
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:93805
+Defined in: main.ts:95708
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:93797
+Defined in: main.ts:95700
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:93817
+Defined in: main.ts:95720
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:93813
+Defined in: main.ts:95716
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:93800
+Defined in: main.ts:95703
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93830
+Defined in: main.ts:95733
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:93830
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93859
+Defined in: main.ts:95762
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:93859
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsIdListResultInfo`
 
-Defined in: main.ts:93852
+Defined in: main.ts:95755
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:93852
 
 #### Returns
 
-[`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
+`DomainAnalyticsIdListResultInfo`

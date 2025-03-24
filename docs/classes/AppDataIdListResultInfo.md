@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListResultInfo
 
-Defined in: main.ts:207339
+Defined in: main.ts:209748
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:207339
 
 ## Constructors
 
-### new AppDataIdListResultInfo()
+### Constructor
 
-> **new AppDataIdListResultInfo**(`data`?): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+> **new AppDataIdListResultInfo**(`data`?): `AppDataIdListResultInfo`
 
-Defined in: main.ts:207365
+Defined in: main.ts:209774
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:207365
 
 #### Returns
 
-[`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+`AppDataIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:207365
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:207359
+Defined in: main.ts:209768
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:207354
+Defined in: main.ts:209763
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:207349
+Defined in: main.ts:209758
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:207341
+Defined in: main.ts:209750
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:207361
+Defined in: main.ts:209770
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:207357
+Defined in: main.ts:209766
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:207344
+Defined in: main.ts:209753
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207374
+Defined in: main.ts:209783
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:207374
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207403
+Defined in: main.ts:209812
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:207403
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataIdListResultInfo`
 
-Defined in: main.ts:207396
+Defined in: main.ts:209805
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:207396
 
 #### Returns
 
-[`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+`AppDataIdListResultInfo`

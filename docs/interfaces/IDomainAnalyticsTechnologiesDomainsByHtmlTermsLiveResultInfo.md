@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
-Defined in: main.ts:97764
+Defined in: main.ts:99667
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:97764
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
-Defined in: main.ts:97776
+Defined in: main.ts:99679
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:97768
+Defined in: main.ts:99671
 
 number of items in the results array
 
@@ -38,7 +38,7 @@ number of items in the results array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97770
+Defined in: main.ts:99673
 
 specified offset value
 
@@ -48,7 +48,7 @@ specified offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:97774
+Defined in: main.ts:99677
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -60,6 +60,6 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:97766
+Defined in: main.ts:99669
 
 total number of relevant items in the database

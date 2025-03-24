@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoInfoTasksReadyResultInfo
 
-Defined in: main.ts:72344
+Defined in: main.ts:72771
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:72344
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:72354
+Defined in: main.ts:72781
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:72362
+Defined in: main.ts:72789
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:72365
+Defined in: main.ts:72792
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:72359
+Defined in: main.ts:72786
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:72347
+Defined in: main.ts:72774
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:72349
+Defined in: main.ts:72776
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:72352
+Defined in: main.ts:72779
 
 type of search engine
 example: video_info
@@ -93,6 +93,6 @@ example: video_info
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:72356
+Defined in: main.ts:72783
 
 user-defined task identifier

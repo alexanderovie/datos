@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
-Defined in: main.ts:108671
+Defined in: main.ts:109968
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:108671
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
+> **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo**(`data`?): `DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
 
-Defined in: main.ts:108689
+Defined in: main.ts:109986
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:108689
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
+`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108689
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:108675
+Defined in: main.ts:109972
 
 categories in a POST array
 
@@ -54,7 +54,7 @@ categories in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)[]
 
-Defined in: main.ts:108685
+Defined in: main.ts:109982
 
 contains historical ranking and traffic data
 
@@ -68,7 +68,7 @@ contains historical ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:108683
+Defined in: main.ts:109980
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:108679
+Defined in: main.ts:109976
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:108677
+Defined in: main.ts:109974
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:108673
+Defined in: main.ts:109970
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:108681
+Defined in: main.ts:109978
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108698
+Defined in: main.ts:109995
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:108698
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108729
+Defined in: main.ts:110026
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:108729
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
 
-Defined in: main.ts:108722
+Defined in: main.ts:110019
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:108722
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
+`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`

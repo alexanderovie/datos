@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDescriptionItemSerpElementItem
 
-Defined in: main.ts:31149
+Defined in: main.ts:31576
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31149
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:31161
+Defined in: main.ts:31588
 
 sitelinks
 the links shown below some of Google’s search results
@@ -34,7 +34,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31153
+Defined in: main.ts:31580
 
 the alignment of the element in SERP
 can take the following values:
@@ -46,7 +46,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -61,7 +61,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31165
+Defined in: main.ts:31592
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -89,7 +89,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:31157
+Defined in: main.ts:31584
 
 text or description of the element in SERP
 
@@ -99,7 +99,7 @@ text or description of the element in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -113,6 +113,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31155
+Defined in: main.ts:31582
 
 the XPath of the element

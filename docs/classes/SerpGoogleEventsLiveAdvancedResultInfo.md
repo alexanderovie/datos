@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsLiveAdvancedResultInfo
 
-Defined in: main.ts:52016
+Defined in: main.ts:52443
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:52016
 
 ## Constructors
 
-### new SerpGoogleEventsLiveAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleEventsLiveAdvancedResultInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
+> **new SerpGoogleEventsLiveAdvancedResultInfo**(`data`?): `SerpGoogleEventsLiveAdvancedResultInfo`
 
-Defined in: main.ts:52056
+Defined in: main.ts:52483
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:52056
 
 #### Returns
 
-[`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
+`SerpGoogleEventsLiveAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:52056
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:52030
+Defined in: main.ts:52457
 
 direct URL to search engine results
 
@@ -54,7 +54,7 @@ direct URL to search engine results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:52035
+Defined in: main.ts:52462
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:52044
+Defined in: main.ts:52471
 
 types of search results found in SERP
 possible item types:
@@ -87,7 +87,7 @@ event_item
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:52052
+Defined in: main.ts:52479
 
 items of the element
 
@@ -101,7 +101,7 @@ items of the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:52050
+Defined in: main.ts:52477
 
 the number of results returned in the items array
 
@@ -115,7 +115,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:52019
+Defined in: main.ts:52446
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -130,7 +130,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:52028
+Defined in: main.ts:52455
 
 language code
 in this case, the value will be null
@@ -145,7 +145,7 @@ in this case, the value will be null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:52025
+Defined in: main.ts:52452
 
 location code in a POST array
 
@@ -159,7 +159,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:52040
+Defined in: main.ts:52467
 
 search refinement chips
 
@@ -173,7 +173,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:52023
+Defined in: main.ts:52450
 
 search engine domain in a POST array
 
@@ -187,7 +187,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:52048
+Defined in: main.ts:52475
 
 total number of results in SERP
 in this case, the value will be 0
@@ -203,7 +203,7 @@ this search engine does not indicate the total number of results
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:52038
+Defined in: main.ts:52465
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:52021
+Defined in: main.ts:52448
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52065
+Defined in: main.ts:52492
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:52065
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52102
+Defined in: main.ts:52529
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:52102
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleEventsLiveAdvancedResultInfo`
 
-Defined in: main.ts:52095
+Defined in: main.ts:52522
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:52095
 
 #### Returns
 
-[`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
+`SerpGoogleEventsLiveAdvancedResultInfo`

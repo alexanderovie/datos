@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 
-Defined in: main.ts:146251
+Defined in: main.ts:148660
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:146251
 
 ## Constructors
 
-### new DataforseoTrendsSubregionInterestsElementItem()
+### Constructor
 
-> **new DataforseoTrendsSubregionInterestsElementItem**(`data`?): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
+> **new DataforseoTrendsSubregionInterestsElementItem**(`data`?): `DataforseoTrendsSubregionInterestsElementItem`
 
-Defined in: main.ts:146260
+Defined in: main.ts:148669
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:146260
 
 #### Returns
 
-[`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
+`DataforseoTrendsSubregionInterestsElementItem`
 
 #### Overrides
 
-[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:146260
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23602
+Defined in: main.ts:23941
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23602
 
 > `optional` **interests**: [`Interests`](Interests.md)[]
 
-Defined in: main.ts:146253
+Defined in: main.ts:148662
 
 subregional keyword popuarity data for each specified term
 
@@ -74,7 +74,7 @@ subregional keyword popuarity data for each specified term
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](InterestsComparison.md)
 
-Defined in: main.ts:146256
+Defined in: main.ts:148665
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
@@ -89,7 +89,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23600
+Defined in: main.ts:23939
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -108,7 +108,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23597
+Defined in: main.ts:23936
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -127,7 +127,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23594
+Defined in: main.ts:23933
 
 type of element
 
@@ -145,7 +145,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146265
+Defined in: main.ts:148674
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:146265
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146288
+Defined in: main.ts:148697
 
 #### Parameters
 
@@ -187,9 +187,9 @@ Defined in: main.ts:146288
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
+> `static` **fromJS**(`data`): `DataforseoTrendsSubregionInterestsElementItem`
 
-Defined in: main.ts:146281
+Defined in: main.ts:148690
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:146281
 
 #### Returns
 
-[`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
+`DataforseoTrendsSubregionInterestsElementItem`
 
 #### Overrides
 

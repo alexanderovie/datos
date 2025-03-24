@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
-Defined in: main.ts:237647
+Defined in: main.ts:240056
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:237647
 
 ## Constructors
 
-### new BusinessDataTripadvisorSearchTaskGetResultInfo()
+### Constructor
 
-> **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+> **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data`?): `BusinessDataTripadvisorSearchTaskGetResultInfo`
 
-Defined in: main.ts:237679
+Defined in: main.ts:240088
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:237679
 
 #### Returns
 
-[`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+`BusinessDataTripadvisorSearchTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237679
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:237659
+Defined in: main.ts:240068
 
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:237664
+Defined in: main.ts:240073
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:237667
+Defined in: main.ts:240076
 
 item types encountered in the result
 possible item types: tripadvisor_search_organic
@@ -87,7 +87,7 @@ possible item types: tripadvisor_search_organic
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:237675
+Defined in: main.ts:240084
 
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:237672
+Defined in: main.ts:240081
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -117,7 +117,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:237650
+Defined in: main.ts:240059
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
@@ -132,7 +132,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:237656
+Defined in: main.ts:240065
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:237654
+Defined in: main.ts:240063
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:237652
+Defined in: main.ts:240061
 
 search engine domain in a POST array
 
@@ -174,7 +174,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:237669
+Defined in: main.ts:240078
 
 the total number of results
 
@@ -188,7 +188,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237688
+Defined in: main.ts:240097
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:237688
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237722
+Defined in: main.ts:240131
 
 #### Parameters
 
@@ -222,9 +222,9 @@ Defined in: main.ts:237722
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTripadvisorSearchTaskGetResultInfo`
 
-Defined in: main.ts:237715
+Defined in: main.ts:240124
 
 #### Parameters
 
@@ -234,4 +234,4 @@ Defined in: main.ts:237715
 
 #### Returns
 
-[`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+`BusinessDataTripadvisorSearchTaskGetResultInfo`

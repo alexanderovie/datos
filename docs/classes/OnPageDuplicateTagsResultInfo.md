@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsResultInfo
 
-Defined in: main.ts:178161
+Defined in: main.ts:180570
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:178161
 
 ## Constructors
 
-### new OnPageDuplicateTagsResultInfo()
+### Constructor
 
-> **new OnPageDuplicateTagsResultInfo**(`data`?): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
+> **new OnPageDuplicateTagsResultInfo**(`data`?): `OnPageDuplicateTagsResultInfo`
 
-Defined in: main.ts:178180
+Defined in: main.ts:180589
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:178180
 
 #### Returns
 
-[`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
+`OnPageDuplicateTagsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178180
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:178164
+Defined in: main.ts:180573
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:178166
+Defined in: main.ts:180575
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)[]
 
-Defined in: main.ts:178176
+Defined in: main.ts:180585
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:178174
+Defined in: main.ts:180583
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **pages\_count**: `number`
 
-Defined in: main.ts:178172
+Defined in: main.ts:180581
 
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
@@ -112,7 +112,7 @@ displays the number of pages with duplicate tags returned in the response
 
 > `optional` **total\_pages\_count**: `number`
 
-Defined in: main.ts:178169
+Defined in: main.ts:180578
 
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website
@@ -127,7 +127,7 @@ displays the total number of pages with duplicate tags of the target website
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178189
+Defined in: main.ts:180598
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:178189
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178215
+Defined in: main.ts:180624
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:178215
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageDuplicateTagsResultInfo`
 
-Defined in: main.ts:178208
+Defined in: main.ts:180617
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:178208
 
 #### Returns
 
-[`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
+`OnPageDuplicateTagsResultInfo`

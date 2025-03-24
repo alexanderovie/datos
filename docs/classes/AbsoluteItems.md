@@ -6,7 +6,7 @@
 
 # Class: AbsoluteItems
 
-Defined in: main.ts:146077
+Defined in: main.ts:148486
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146077
 
 ## Constructors
 
-### new AbsoluteItems()
+### Constructor
 
-> **new AbsoluteItems**(`data`?): [`AbsoluteItems`](AbsoluteItems.md)
+> **new AbsoluteItems**(`data`?): `AbsoluteItems`
 
-Defined in: main.ts:146102
+Defined in: main.ts:148511
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146102
 
 #### Returns
 
-[`AbsoluteItems`](AbsoluteItems.md)
+`AbsoluteItems`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146102
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:146083
+Defined in: main.ts:148492
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -58,7 +58,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:146089
+Defined in: main.ts:148498
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -76,7 +76,7 @@ Andorra
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:146098
+Defined in: main.ts:148507
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -97,7 +97,7 @@ a value of 0 means there was not enough data for this term
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146111
+Defined in: main.ts:148520
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:146111
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146134
+Defined in: main.ts:148543
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:146134
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
+> `static` **fromJS**(`data`): `AbsoluteItems`
 
-Defined in: main.ts:146127
+Defined in: main.ts:148536
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:146127
 
 #### Returns
 
-[`AbsoluteItems`](AbsoluteItems.md)
+`AbsoluteItems`

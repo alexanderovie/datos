@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
-Defined in: main.ts:106252
+Defined in: main.ts:107549
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:106252
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106256
+Defined in: main.ts:107553
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:106254
+Defined in: main.ts:107551
 
 language name

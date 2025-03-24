@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceEarningsCalendarElement
 
-Defined in: main.ts:88141
+Defined in: main.ts:88568
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:88141
 
 ## Constructors
 
-### new GoogleFinanceEarningsCalendarElement()
+### Constructor
 
-> **new GoogleFinanceEarningsCalendarElement**(`data`?): [`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)
+> **new GoogleFinanceEarningsCalendarElement**(`data`?): `GoogleFinanceEarningsCalendarElement`
 
-Defined in: main.ts:88156
+Defined in: main.ts:88583
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:88156
 
 #### Returns
 
-[`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)
+`GoogleFinanceEarningsCalendarElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88156
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:88152
+Defined in: main.ts:88579
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88145
+Defined in: main.ts:88572
 
 title of the news article
 
@@ -71,7 +71,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88143
+Defined in: main.ts:88570
 
 type of element
 
@@ -85,7 +85,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:88147
+Defined in: main.ts:88574
 
 URL to the page of the market index on Google Finance
 
@@ -99,7 +99,7 @@ URL to the page of the market index on Google Finance
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88165
+Defined in: main.ts:88592
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:88165
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88185
+Defined in: main.ts:88612
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:88185
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)
+> `static` **fromJS**(`data`): `GoogleFinanceEarningsCalendarElement`
 
-Defined in: main.ts:88178
+Defined in: main.ts:88605
 
 #### Parameters
 
@@ -145,4 +145,4 @@ Defined in: main.ts:88178
 
 #### Returns
 
-[`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)
+`GoogleFinanceEarningsCalendarElement`

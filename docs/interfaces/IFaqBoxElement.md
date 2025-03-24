@@ -6,7 +6,7 @@
 
 # Interface: IFaqBoxElement
 
-Defined in: main.ts:32921
+Defined in: main.ts:33348
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:32921
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32927
+Defined in: main.ts:33354
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:32929
+Defined in: main.ts:33356
 
 link of the element
 
@@ -38,7 +38,7 @@ link of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32925
+Defined in: main.ts:33352
 
 reference page title
 
@@ -48,6 +48,6 @@ reference page title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32923
+Defined in: main.ts:33350
 
 type of element

@@ -6,7 +6,7 @@
 
 # Class: ProductVariation
 
-Defined in: main.ts:199781
+Defined in: main.ts:202190
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:199781
 
 ## Constructors
 
-### new ProductVariation()
+### Constructor
 
-> **new ProductVariation**(`data`?): [`ProductVariation`](ProductVariation.md)
+> **new ProductVariation**(`data`?): `ProductVariation`
 
-Defined in: main.ts:199795
+Defined in: main.ts:202204
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:199795
 
 #### Returns
 
-[`ProductVariation`](ProductVariation.md)
+`ProductVariation`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199795
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:199786
+Defined in: main.ts:202195
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -55,7 +55,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:199788
+Defined in: main.ts:202197
 
 name of the product seller
 
@@ -69,7 +69,7 @@ name of the product seller
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:199783
+Defined in: main.ts:202192
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:199791
+Defined in: main.ts:202200
 
 seller url
 url of the webpage on the seller’s website where the product is sold
@@ -98,7 +98,7 @@ url of the webpage on the seller’s website where the product is sold
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199804
+Defined in: main.ts:202213
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:199804
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199824
+Defined in: main.ts:202233
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:199824
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
+> `static` **fromJS**(`data`): `ProductVariation`
 
-Defined in: main.ts:199817
+Defined in: main.ts:202226
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:199817
 
 #### Returns
 
-[`ProductVariation`](ProductVariation.md)
+`ProductVariation`

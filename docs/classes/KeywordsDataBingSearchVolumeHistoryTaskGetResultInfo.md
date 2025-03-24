@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
-Defined in: main.ts:156261
+Defined in: main.ts:158670
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:156261
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+> **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
 
-Defined in: main.ts:156281
+Defined in: main.ts:158690
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:156281
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156281
 
 > `optional` **device**: `string`[]
 
-Defined in: main.ts:156270
+Defined in: main.ts:158679
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:156270
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:156263
+Defined in: main.ts:158672
 
 keyword in a POST array
 
@@ -66,7 +66,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:156269
+Defined in: main.ts:158678
 
 language code in a POST array
 if there is no data, then the value is null
@@ -81,7 +81,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:156266
+Defined in: main.ts:158675
 
 location code in a POST array
 if there is no data, then the value is null
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:156274
+Defined in: main.ts:158683
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -112,7 +112,7 @@ default value monthly
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
-Defined in: main.ts:156277
+Defined in: main.ts:158686
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
@@ -127,7 +127,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156290
+Defined in: main.ts:158699
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:156290
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156316
+Defined in: main.ts:158725
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:156316
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
 
-Defined in: main.ts:156309
+Defined in: main.ts:158718
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:156309
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`

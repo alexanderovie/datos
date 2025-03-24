@@ -6,7 +6,7 @@
 
 # Class: EventDates
 
-Defined in: main.ts:51148
+Defined in: main.ts:51575
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:51148
 
 ## Constructors
 
-### new EventDates()
+### Constructor
 
-> **new EventDates**(`data`?): [`EventDates`](EventDates.md)
+> **new EventDates**(`data`?): `EventDates`
 
-Defined in: main.ts:51174
+Defined in: main.ts:51601
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:51174
 
 #### Returns
 
-[`EventDates`](EventDates.md)
+`EventDates`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:51174
 
 > `optional` **displayed\_dates**: `string`
 
-Defined in: main.ts:51170
+Defined in: main.ts:51597
 
 date or date range as it is displayed in SERP
 
@@ -54,7 +54,7 @@ date or date range as it is displayed in SERP
 
 > `optional` **end\_datetime**: `string`
 
-Defined in: main.ts:51168
+Defined in: main.ts:51595
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -76,7 +76,7 @@ example:
 
 > `optional` **start\_datetime**: `string`
 
-Defined in: main.ts:51158
+Defined in: main.ts:51585
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -98,7 +98,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51183
+Defined in: main.ts:51610
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:51183
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51202
+Defined in: main.ts:51629
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:51202
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`EventDates`](EventDates.md)
+> `static` **fromJS**(`data`): `EventDates`
 
-Defined in: main.ts:51195
+Defined in: main.ts:51622
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:51195
 
 #### Returns
 
-[`EventDates`](EventDates.md)
+`EventDates`

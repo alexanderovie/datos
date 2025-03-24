@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
-Defined in: main.ts:74008
+Defined in: main.ts:74435
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:74008
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:74061
+Defined in: main.ts:74488
 
 device type
 optional field
@@ -30,7 +30,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:74057
+Defined in: main.ts:74484
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:74050
+Defined in: main.ts:74477
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:74043
+Defined in: main.ts:74470
 
 search engine location code
 required field if you don’t specify location_name
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:74036
+Defined in: main.ts:74463
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:74066
+Defined in: main.ts:74493
 
 device operating system
 optional field
@@ -103,7 +103,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:74100
+Defined in: main.ts:74527
 
 notification URL of a completed task
 optional field
@@ -122,7 +122,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:74089
+Defined in: main.ts:74516
 
 postback_url datatype
 required field if you specify postback_url
@@ -136,7 +136,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:74083
+Defined in: main.ts:74510
 
 return URL for sending task results
 optional field
@@ -155,7 +155,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:74022
+Defined in: main.ts:74449
 
 task priority
 optional field
@@ -171,7 +171,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **subtitles\_language**: `string`
 
-Defined in: main.ts:74025
+Defined in: main.ts:74452
 
 language code of original text
 you can get the language code from YouTube Video Info result
@@ -182,7 +182,7 @@ you can get the language code from YouTube Video Info result
 
 > `optional` **subtitles\_translate\_language**: `string`
 
-Defined in: main.ts:74029
+Defined in: main.ts:74456
 
 language code of translated text
 possible values:
@@ -194,7 +194,7 @@ possible values:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:74072
+Defined in: main.ts:74499
 
 user-defined task identifier
 optional field
@@ -208,7 +208,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:74014
+Defined in: main.ts:74441
 
 ID of the video
 required field

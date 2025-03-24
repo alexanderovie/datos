@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:62221
+Defined in: main.ts:62648
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:62221
 
 ## Constructors
 
-### new SerpGoogleDatasetInfoLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+> **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): `SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
 
-Defined in: main.ts:62258
+Defined in: main.ts:62685
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:62258
 
 #### Returns
 
-[`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:62258
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:62227
+Defined in: main.ts:62654
 
 ID of the dataset
 required field
@@ -58,7 +58,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:62243
+Defined in: main.ts:62670
 
 device type
 optional field
@@ -74,7 +74,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:62239
+Defined in: main.ts:62666
 
 search engine language code
 optional field
@@ -92,7 +92,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:62233
+Defined in: main.ts:62660
 
 full name of search engine language
 optional field
@@ -110,7 +110,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:62248
+Defined in: main.ts:62675
 
 device operating system
 optional field
@@ -127,7 +127,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:62254
+Defined in: main.ts:62681
 
 user-defined task identifier
 optional field
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62267
+Defined in: main.ts:62694
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:62267
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62289
+Defined in: main.ts:62716
 
 #### Parameters
 
@@ -179,9 +179,9 @@ Defined in: main.ts:62289
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
 
-Defined in: main.ts:62282
+Defined in: main.ts:62709
 
 #### Parameters
 
@@ -191,4 +191,4 @@ Defined in: main.ts:62282
 
 #### Returns
 
-[`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`

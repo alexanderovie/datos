@@ -6,7 +6,7 @@
 
 # Class: PodcastsElement
 
-Defined in: main.ts:36822
+Defined in: main.ts:37249
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:36822
 
 ## Constructors
 
-### new PodcastsElement()
+### Constructor
 
-> **new PodcastsElement**(`data`?): [`PodcastsElement`](PodcastsElement.md)
+> **new PodcastsElement**(`data`?): `PodcastsElement`
 
-Defined in: main.ts:36841
+Defined in: main.ts:37268
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:36841
 
 #### Returns
 
-[`PodcastsElement`](PodcastsElement.md)
+`PodcastsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36841
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36830
+Defined in: main.ts:37257
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **time\_to\_play**: `string`
 
-Defined in: main.ts:36837
+Defined in: main.ts:37264
 
 the total time it will take to play an episode
 
@@ -68,7 +68,7 @@ the total time it will take to play an episode
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:36835
+Defined in: main.ts:37262
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,7 +85,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36826
+Defined in: main.ts:37253
 
 title of a given link element
 
@@ -99,7 +99,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36824
+Defined in: main.ts:37251
 
 type of element
 
@@ -113,7 +113,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36828
+Defined in: main.ts:37255
 
 URL
 
@@ -127,7 +127,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36850
+Defined in: main.ts:37277
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:36850
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36872
+Defined in: main.ts:37299
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:36872
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
+> `static` **fromJS**(`data`): `PodcastsElement`
 
-Defined in: main.ts:36865
+Defined in: main.ts:37292
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:36865
 
 #### Returns
 
-[`PodcastsElement`](PodcastsElement.md)
+`PodcastsElement`

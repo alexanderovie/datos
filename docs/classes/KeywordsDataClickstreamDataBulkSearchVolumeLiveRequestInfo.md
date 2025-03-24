@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:157961
+Defined in: main.ts:160370
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157961
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
+> **new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo**(`data`?): `KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:157997
+Defined in: main.ts:160406
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157997
 
 #### Returns
 
-[`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
+`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157997
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:157971
+Defined in: main.ts:160380
 
 target keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:157987
+Defined in: main.ts:160396
 
 location code
 required field if you don’t specify location_name
@@ -82,7 +82,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:157979
+Defined in: main.ts:160388
 
 full name of the location
 required field if you don’t specify location_code
@@ -102,7 +102,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:157993
+Defined in: main.ts:160402
 
 user-defined task identifier
 optional field
@@ -120,7 +120,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158006
+Defined in: main.ts:160415
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:158006
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158030
+Defined in: main.ts:160439
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:158030
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:158023
+Defined in: main.ts:160432
 
 #### Parameters
 
@@ -166,4 +166,4 @@ Defined in: main.ts:158023
 
 #### Returns
 
-[`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
+`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116794
+Defined in: main.ts:118177
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116794
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:116801
+Defined in: main.ts:118184
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:116806
+Defined in: main.ts:118189
 
 ending date of stay
 in the format “year-month-date”
@@ -48,7 +48,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:116809
+Defined in: main.ts:118192
 
 additional items present in the element
 if there are none, equals null
@@ -59,7 +59,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -75,7 +75,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -90,7 +90,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -105,7 +105,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116796
+Defined in: main.ts:118179
 
 title of the result in SERP
 
@@ -115,7 +115,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -129,7 +129,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

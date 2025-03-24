@@ -6,7 +6,7 @@
 
 # Class: AmazonEditorialRecommendationsSerpElementItem
 
-Defined in: main.ts:202019
+Defined in: main.ts:204428
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:202019
 
 ## Constructors
 
-### new AmazonEditorialRecommendationsSerpElementItem()
+### Constructor
 
-> **new AmazonEditorialRecommendationsSerpElementItem**(`data`?): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+> **new AmazonEditorialRecommendationsSerpElementItem**(`data`?): `AmazonEditorialRecommendationsSerpElementItem`
 
-Defined in: main.ts:202029
+Defined in: main.ts:204438
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:202029
 
 #### Returns
 
-[`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+`AmazonEditorialRecommendationsSerpElementItem`
 
 #### Overrides
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:202029
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24023
+Defined in: main.ts:24362
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24023
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:202025
+Defined in: main.ts:204434
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:202023
+Defined in: main.ts:204432
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24019
+Defined in: main.ts:24358
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24016
+Defined in: main.ts:24355
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24013
+Defined in: main.ts:24352
 
 type of element
 
@@ -146,7 +146,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24021
+Defined in: main.ts:24360
 
 the XPath of the element
 
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202034
+Defined in: main.ts:204443
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:202034
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202057
+Defined in: main.ts:204466
 
 #### Parameters
 
@@ -206,9 +206,9 @@ Defined in: main.ts:202057
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+> `static` **fromJS**(`data`): `AmazonEditorialRecommendationsSerpElementItem`
 
-Defined in: main.ts:202050
+Defined in: main.ts:204459
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:202050
 
 #### Returns
 
-[`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+`AmazonEditorialRecommendationsSerpElementItem`
 
 #### Overrides
 

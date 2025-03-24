@@ -6,15 +6,15 @@
 
 # Class: ContentGenerationApi
 
-Defined in: main.ts:15512
+Defined in: main.ts:15718
 
 ## Constructors
 
-### new ContentGenerationApi()
+### Constructor
 
-> **new ContentGenerationApi**(`baseUrl`?, `http`?): [`ContentGenerationApi`](ContentGenerationApi.md)
+> **new ContentGenerationApi**(`baseUrl`?, `http`?): `ContentGenerationApi`
 
-Defined in: main.ts:15517
+Defined in: main.ts:15723
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: main.ts:15517
 
 #### Returns
 
-[`ContentGenerationApi`](ContentGenerationApi.md)
+`ContentGenerationApi`
 
 ## Properties
 
@@ -36,7 +36,7 @@ Defined in: main.ts:15517
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:15515
+Defined in: main.ts:15721
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:15515
 
 > **checkGrammarLive**(`body`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
-Defined in: main.ts:15736
+Defined in: main.ts:15942
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Successful operation
 
 > **contentGenerationCheckGrammarLanguages**(): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15777
+Defined in: main.ts:15983
 
 #### Returns
 
@@ -94,7 +94,7 @@ Successful operation
 
 > **contentGenerationTextSummaryLanguages**(): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15893
+Defined in: main.ts:16099
 
 #### Returns
 
@@ -108,7 +108,7 @@ Successful operation
 
 > **generateLive**(`body`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
-Defined in: main.ts:15526
+Defined in: main.ts:15732
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Successful operation
 
 > **generateMetaTagsLive**(`body`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15610
+Defined in: main.ts:15816
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Successful operation
 
 > **generateSubTopicsLive**(`body`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15652
+Defined in: main.ts:15858
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Successful operation
 
 > **generateTextLive**(`body`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
-Defined in: main.ts:15568
+Defined in: main.ts:15774
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Successful operation
 
 > **grammarRules**(): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
-Defined in: main.ts:15814
+Defined in: main.ts:16020
 
 #### Returns
 
@@ -210,7 +210,7 @@ Successful operation
 
 > **paraphraseLive**(`body`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
-Defined in: main.ts:15694
+Defined in: main.ts:15900
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Successful operation
 
 > `protected` **processCheckGrammarLive**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
-Defined in: main.ts:15756
+Defined in: main.ts:15962
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:15756
 
 > `protected` **processContentGenerationCheckGrammarLanguages**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15793
+Defined in: main.ts:15999
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:15793
 
 > `protected` **processContentGenerationTextSummaryLanguages**(`response`): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15909
+Defined in: main.ts:16115
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: main.ts:15909
 
 > `protected` **processGenerateLive**(`response`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
-Defined in: main.ts:15546
+Defined in: main.ts:15752
 
 #### Parameters
 
@@ -304,7 +304,7 @@ Defined in: main.ts:15546
 
 > `protected` **processGenerateMetaTagsLive**(`response`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15630
+Defined in: main.ts:15836
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: main.ts:15630
 
 > `protected` **processGenerateSubTopicsLive**(`response`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15672
+Defined in: main.ts:15878
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:15672
 
 > `protected` **processGenerateTextLive**(`response`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
-Defined in: main.ts:15588
+Defined in: main.ts:15794
 
 #### Parameters
 
@@ -358,7 +358,7 @@ Defined in: main.ts:15588
 
 > `protected` **processGrammarRules**(`response`): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
-Defined in: main.ts:15830
+Defined in: main.ts:16036
 
 #### Parameters
 
@@ -376,7 +376,7 @@ Defined in: main.ts:15830
 
 > `protected` **processParaphraseLive**(`response`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
-Defined in: main.ts:15714
+Defined in: main.ts:15920
 
 #### Parameters
 
@@ -394,7 +394,7 @@ Defined in: main.ts:15714
 
 > `protected` **processTextSummaryLive**(`response`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:15872
+Defined in: main.ts:16078
 
 #### Parameters
 
@@ -412,7 +412,7 @@ Defined in: main.ts:15872
 
 > **textSummaryLive**(`body`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:15852
+Defined in: main.ts:16058
 
 #### Parameters
 

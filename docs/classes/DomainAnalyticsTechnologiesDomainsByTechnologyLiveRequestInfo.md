@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
-Defined in: main.ts:96743
+Defined in: main.ts:98646
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:96743
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
 
-Defined in: main.ts:96848
+Defined in: main.ts:98751
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:96848
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96848
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:96767
+Defined in: main.ts:98670
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:96807
+Defined in: main.ts:98710
 
 array of results filtering parameters
 optional field
@@ -88,7 +88,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:96760
+Defined in: main.ts:98663
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -107,7 +107,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:96783
+Defined in: main.ts:98686
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -128,7 +128,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:96829
+Defined in: main.ts:98732
 
 the maximum number of returned domains
 optional field
@@ -145,7 +145,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:96790
+Defined in: main.ts:98693
 
 search mode
 optional field
@@ -164,7 +164,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:96836
+Defined in: main.ts:98739
 
 offset in the results array of returned domains
 optional field
@@ -183,7 +183,7 @@ use the offset_token if you would like to offset more results
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:96844
+Defined in: main.ts:98747
 
 token for subsequent requests
 optional field
@@ -203,7 +203,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:96824
+Defined in: main.ts:98727
 
 results sorting rules
 optional field
@@ -232,7 +232,7 @@ example:
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:96774
+Defined in: main.ts:98677
 
 target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -251,7 +251,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:96753
+Defined in: main.ts:98656
 
 target technology paths
 required field if you don’t specify groups, technologies, keywords or categories
@@ -273,7 +273,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96857
+Defined in: main.ts:98760
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:96857
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96912
+Defined in: main.ts:98815
 
 #### Parameters
 
@@ -307,9 +307,9 @@ Defined in: main.ts:96912
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
 
-Defined in: main.ts:96905
+Defined in: main.ts:98808
 
 #### Parameters
 
@@ -319,4 +319,4 @@ Defined in: main.ts:96905
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`

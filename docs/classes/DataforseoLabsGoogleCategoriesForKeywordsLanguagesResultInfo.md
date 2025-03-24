@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
-Defined in: main.ts:106205
+Defined in: main.ts:107502
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:106205
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+> **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo**(`data`?): `DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`
 
-Defined in: main.ts:106213
+Defined in: main.ts:107510
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:106213
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106213
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106209
+Defined in: main.ts:107506
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:106207
+Defined in: main.ts:107504
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106222
+Defined in: main.ts:107519
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:106222
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106240
+Defined in: main.ts:107537
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:106240
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`
 
-Defined in: main.ts:106233
+Defined in: main.ts:107530
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:106233
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsRequestInfo
 
-Defined in: main.ts:207563
+Defined in: main.ts:209972
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:207563
 
 ## Constructors
 
-### new AppDataErrorsRequestInfo()
+### Constructor
 
-> **new AppDataErrorsRequestInfo**(`data`?): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+> **new AppDataErrorsRequestInfo**(`data`?): `AppDataErrorsRequestInfo`
 
-Defined in: main.ts:207597
+Defined in: main.ts:210006
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:207597
 
 #### Returns
 
-[`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+`AppDataErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:207597
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:207586
+Defined in: main.ts:209995
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:207593
+Defined in: main.ts:210002
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:207579
+Defined in: main.ts:209988
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:207568
+Defined in: main.ts:209977
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:207573
+Defined in: main.ts:209982
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207606
+Defined in: main.ts:210015
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:207606
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207627
+Defined in: main.ts:210036
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:207627
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataErrorsRequestInfo`
 
-Defined in: main.ts:207620
+Defined in: main.ts:210029
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:207620
 
 #### Returns
 
-[`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+`AppDataErrorsRequestInfo`

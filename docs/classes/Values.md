@@ -6,7 +6,7 @@
 
 # Class: Values
 
-Defined in: main.ts:145921
+Defined in: main.ts:148330
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:145921
 
 ## Constructors
 
-### new Values()
+### Constructor
 
-> **new Values**(`data`?): [`Values`](Values.md)
+> **new Values**(`data`?): `Values`
 
-Defined in: main.ts:145945
+Defined in: main.ts:148354
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:145945
 
 #### Returns
 
-[`Values`](Values.md)
+`Values`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145945
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:145927
+Defined in: main.ts:148336
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -58,7 +58,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:145933
+Defined in: main.ts:148342
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -76,7 +76,7 @@ Andorra
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:145941
+Defined in: main.ts:148350
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -96,7 +96,7 @@ a value of 0 means there was not enough data for this term
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145954
+Defined in: main.ts:148363
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:145954
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145973
+Defined in: main.ts:148382
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:145973
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Values`](Values.md)
+> `static` **fromJS**(`data`): `Values`
 
-Defined in: main.ts:145966
+Defined in: main.ts:148375
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:145966
 
 #### Returns
 
-[`Values`](Values.md)
+`Values`

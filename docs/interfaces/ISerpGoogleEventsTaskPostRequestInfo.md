@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsTaskPostRequestInfo
 
-Defined in: main.ts:50490
+Defined in: main.ts:50917
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:50490
 
 > `optional` **date\_range**: `string`
 
-Defined in: main.ts:50552
+Defined in: main.ts:50979
 
 date range to get events for
 optional field
@@ -31,7 +31,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:50574
+Defined in: main.ts:51001
 
 parsing depth
 optional field
@@ -48,7 +48,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:50498
+Defined in: main.ts:50925
 
 keyword
 required field
@@ -64,7 +64,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:50547
+Defined in: main.ts:50974
 
 search engine language code
 optional field
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:50539
+Defined in: main.ts:50966
 
 full name of search engine language
 optional field
@@ -96,7 +96,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:50520
+Defined in: main.ts:50947
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -111,7 +111,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:50531
+Defined in: main.ts:50958
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -130,7 +130,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:50513
+Defined in: main.ts:50940
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -145,7 +145,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:50581
+Defined in: main.ts:51008
 
 page crawl limit
 optional field
@@ -160,7 +160,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:50558
+Defined in: main.ts:50985
 
 device operating system
 optional field
@@ -174,7 +174,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:50615
+Defined in: main.ts:51042
 
 notification URL of a completed task
 optional field
@@ -193,7 +193,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:50604
+Defined in: main.ts:51031
 
 postback_url datatype
 required field if you specify postback_url
@@ -207,7 +207,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:50598
+Defined in: main.ts:51025
 
 return URL for sending task results
 optional field
@@ -226,7 +226,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:50506
+Defined in: main.ts:50933
 
 task priority
 optional field
@@ -242,7 +242,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:50565
+Defined in: main.ts:50992
 
 search engine domain
 optional field
@@ -257,7 +257,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:50587
+Defined in: main.ts:51014
 
 user-defined task identifier
 optional field

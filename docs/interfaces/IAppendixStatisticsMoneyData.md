@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatisticsMoneyData
 
-Defined in: main.ts:245296
+Defined in: main.ts:247261
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:245296
 
 > `optional` **day**: [`AppendixDayStatisticsMoneyData`](../classes/AppendixDayStatisticsMoneyData.md)
 
-Defined in: main.ts:245297
+Defined in: main.ts:247262
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:245297
 
 > `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](../classes/AppendixMinuteStatisticsDataInfo.md)
 
-Defined in: main.ts:245298
+Defined in: main.ts:247263

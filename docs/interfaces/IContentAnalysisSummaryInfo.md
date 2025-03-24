@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSummaryInfo
 
-Defined in: main.ts:188015
+Defined in: main.ts:190424
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:188015
 
 > `optional` **connotation\_types**: `object`
 
-Defined in: main.ts:188033
+Defined in: main.ts:190442
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
@@ -34,7 +34,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:188048
+Defined in: main.ts:190457
 
 countries
 contains countries and citation count in each country
@@ -50,7 +50,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:188052
+Defined in: main.ts:190461
 
 languages
 contains languages and citation count in each language
@@ -66,7 +66,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:188041
+Defined in: main.ts:190450
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -78,7 +78,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `object`
 
-Defined in: main.ts:188044
+Defined in: main.ts:190453
 
 page types
 contains page types and citation count per each page type
@@ -93,7 +93,7 @@ contains page types and citation count per each page type
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:188022
+Defined in: main.ts:190431
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword
@@ -104,7 +104,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 > `optional` **sentiment\_connotations**: `object`
 
-Defined in: main.ts:188029
+Defined in: main.ts:190438
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -120,7 +120,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:188037
+Defined in: main.ts:190446
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -132,7 +132,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
 
-Defined in: main.ts:188025
+Defined in: main.ts:190434
 
 top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain
@@ -143,7 +143,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:188019
+Defined in: main.ts:190428
 
 total amount of results in our database relevant to your request
 
@@ -153,6 +153,6 @@ total amount of results in our database relevant to your request
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:188017
+Defined in: main.ts:190426
 
 type of element

@@ -6,7 +6,7 @@
 
 # Class: GoogleBusinessInfoBusinessDataSerpElementItem
 
-Defined in: main.ts:223431
+Defined in: main.ts:225840
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:223431
 
 ## Constructors
 
-### new GoogleBusinessInfoBusinessDataSerpElementItem()
+### Constructor
 
-> **new GoogleBusinessInfoBusinessDataSerpElementItem**(`data`?): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+> **new GoogleBusinessInfoBusinessDataSerpElementItem**(`data`?): `GoogleBusinessInfoBusinessDataSerpElementItem`
 
-Defined in: main.ts:223547
+Defined in: main.ts:225956
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:223547
 
 #### Returns
 
-[`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+`GoogleBusinessInfoBusinessDataSerpElementItem`
 
 #### Overrides
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:223547
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23016
 
 > `optional` **additional\_categories**: `string`[]
 
-Defined in: main.ts:223451
+Defined in: main.ts:225860
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
@@ -75,7 +75,7 @@ additional Google My Business categories that describe the services provided by 
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:223461
+Defined in: main.ts:225870
 
 address of the business entity
 
@@ -89,7 +89,7 @@ address of the business entity
 
 > `optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
 
-Defined in: main.ts:223463
+Defined in: main.ts:225872
 
 object containing address components of the business entity
 
@@ -103,7 +103,7 @@ object containing address components of the business entity
 
 > `optional` **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-Defined in: main.ts:223502
+Defined in: main.ts:225911
 
 service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category
@@ -118,7 +118,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 > `optional` **book\_online\_url**: `string`
 
-Defined in: main.ts:223478
+Defined in: main.ts:225887
 
 URL in the ‘book online’ button of the element
 URL directing users to the online booking or order page of the business entity
@@ -133,7 +133,7 @@ URL directing users to the online booking or order page of the business entity
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:223445
+Defined in: main.ts:225854
 
 business category
 Google My Business general category that best describes the services provided by the business entity
@@ -148,7 +148,7 @@ Google My Business general category that best describes the services provided by
 
 > `optional` **category\_ids**: `string`[]
 
-Defined in: main.ts:223448
+Defined in: main.ts:225857
 
 global category IDs
 universal category IDs that do not change based on the selected country
@@ -163,7 +163,7 @@ universal category IDs that do not change based on the selected country
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:223456
+Defined in: main.ts:225865
 
 google-defined client id
 unique id of a local establishment;
@@ -180,7 +180,7 @@ learn more about the identifier in this help center article
 
 > `optional` **contact\_url**: `string`
 
-Defined in: main.ts:223473
+Defined in: main.ts:225882
 
 URL of the preferred contact page
 
@@ -194,7 +194,7 @@ URL of the preferred contact page
 
 > `optional` **contributor\_url**: `string`
 
-Defined in: main.ts:223475
+Defined in: main.ts:225884
 
 URL of the user’s or entity’s Local Guides profile, if available
 
@@ -208,7 +208,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:223442
+Defined in: main.ts:225851
 
 description of the element in SERP
 the description of the business entity for which the results are collected
@@ -223,7 +223,7 @@ the description of the business entity for which the results are collected
 
 > `optional` **directory**: [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
-Defined in: main.ts:223543
+Defined in: main.ts:225952
 
 items of the directory
 includes information about businesses that are located within the target business establishment and have the same address
@@ -238,7 +238,7 @@ includes information about businesses that are located within the target busines
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:223480
+Defined in: main.ts:225889
 
 domain of the business entity
 
@@ -252,7 +252,7 @@ domain of the business entity
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:223459
+Defined in: main.ts:225868
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -267,7 +267,7 @@ learn more about the identifier in this help center article
 
 > `optional` **hotel\_rating**: `number`
 
-Defined in: main.ts:223517
+Defined in: main.ts:225926
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -283,7 +283,7 @@ if there is no hotel class rating information, the value will be null
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:223498
+Defined in: main.ts:225907
 
 shows whether the entity is verified by its owner on Google Maps
 
@@ -297,7 +297,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 > `optional` **is\_directory\_item**: `boolean`
 
-Defined in: main.ts:223540
+Defined in: main.ts:225949
 
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
@@ -314,7 +314,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:223492
+Defined in: main.ts:225901
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -330,7 +330,7 @@ example:
 
 > `optional` **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
 
-Defined in: main.ts:223535
+Defined in: main.ts:225944
 
 available interactions with the business
 list of options to interact with the business directly from search results
@@ -345,7 +345,7 @@ list of options to interact with the business directly from search results
 
 > `optional` **logo**: `string`
 
-Defined in: main.ts:223482
+Defined in: main.ts:225891
 
 URL of the logo featured in Google My Business profile
 
@@ -359,7 +359,7 @@ URL of the logo featured in Google My Business profile
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:223496
+Defined in: main.ts:225905
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -375,7 +375,7 @@ example:
 
 > `optional` **main\_image**: `string`
 
-Defined in: main.ts:223484
+Defined in: main.ts:225893
 
 URL of the main image featured in Google My Business profile
 
@@ -389,7 +389,7 @@ URL of the main image featured in Google My Business profile
 
 > `optional` **original\_title**: `string`
 
-Defined in: main.ts:223439
+Defined in: main.ts:225848
 
 original title of the element
 original title not translated by Google
@@ -404,7 +404,7 @@ original title not translated by Google
 
 > `optional` **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
 
-Defined in: main.ts:223526
+Defined in: main.ts:225935
 
 related business entities
 
@@ -418,7 +418,7 @@ related business entities
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:223469
+Defined in: main.ts:225878
 
 phone number of the business entity
 
@@ -432,7 +432,7 @@ phone number of the business entity
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:223467
+Defined in: main.ts:225876
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -448,7 +448,7 @@ learn more about the identifier in this help center article
 
 > `optional` **place\_topics**: `object`
 
-Defined in: main.ts:223510
+Defined in: main.ts:225919
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -472,7 +472,7 @@ example:
 
 > `optional` **popular\_times**: [`PopularTimes`](PopularTimes.md)
 
-Defined in: main.ts:223532
+Defined in: main.ts:225941
 
 popular times
 information related to busy hours of the business entity
@@ -487,7 +487,7 @@ information related to busy hours of the business entity
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:223433
+Defined in: main.ts:225842
 
 the alignment in SERP
 
@@ -501,7 +501,7 @@ the alignment in SERP
 
 > `optional` **price\_level**: `string`
 
-Defined in: main.ts:223521
+Defined in: main.ts:225930
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -517,7 +517,7 @@ if there is no price level information, the value will be null
 
 > `optional` **questions\_and\_answers\_count**: `number`
 
-Defined in: main.ts:223499
+Defined in: main.ts:225908
 
 #### Implementation of
 
@@ -529,7 +529,7 @@ Defined in: main.ts:223499
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -547,7 +547,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -566,7 +566,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:223513
+Defined in: main.ts:225922
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -581,7 +581,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:223524
+Defined in: main.ts:225933
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -600,7 +600,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:223488
+Defined in: main.ts:225897
 
 additional information on the business entity
 
@@ -614,7 +614,7 @@ additional information on the business entity
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:223436
+Defined in: main.ts:225845
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -629,7 +629,7 @@ the name of the business entity for which the results are collected
 
 > `optional` **total\_photos**: `number`
 
-Defined in: main.ts:223486
+Defined in: main.ts:225895
 
 total count of images featured in Google My Business profile
 
@@ -643,7 +643,7 @@ total count of images featured in Google My Business profile
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -661,7 +661,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:223471
+Defined in: main.ts:225880
 
 absolute url of the business entity
 
@@ -675,7 +675,7 @@ absolute url of the business entity
 
 > `optional` **work\_time**: [`WorkTime`](WorkTime.md)
 
-Defined in: main.ts:223529
+Defined in: main.ts:225938
 
 work time details
 information related to operational hours of the business entity
@@ -690,7 +690,7 @@ information related to operational hours of the business entity
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:223552
+Defined in: main.ts:225961
 
 #### Parameters
 
@@ -712,7 +712,7 @@ Defined in: main.ts:223552
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:223635
+Defined in: main.ts:226044
 
 #### Parameters
 
@@ -732,9 +732,9 @@ Defined in: main.ts:223635
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleBusinessInfoBusinessDataSerpElementItem`
 
-Defined in: main.ts:223628
+Defined in: main.ts:226037
 
 #### Parameters
 
@@ -744,7 +744,7 @@ Defined in: main.ts:223628
 
 #### Returns
 
-[`GoogleBusinessInfoBusinessDataSerpElementItem`](GoogleBusinessInfoBusinessDataSerpElementItem.md)
+`GoogleBusinessInfoBusinessDataSerpElementItem`
 
 #### Overrides
 

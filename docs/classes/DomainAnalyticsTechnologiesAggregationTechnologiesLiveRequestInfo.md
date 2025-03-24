@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
-Defined in: main.ts:95237
+Defined in: main.ts:97140
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:95237
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:95353
+Defined in: main.ts:97256
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:95353
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95353
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:95251
+Defined in: main.ts:97154
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:95287
+Defined in: main.ts:97190
 
 array of results filtering parameters
 optional field
@@ -85,7 +85,7 @@ example:
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:95244
+Defined in: main.ts:97147
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -104,7 +104,7 @@ example:
 
 > `optional` **internal\_categories\_list\_limit**: `number`
 
-Defined in: main.ts:95317
+Defined in: main.ts:97220
 
 maximum number of returned technology categories within the same group
 optional field
@@ -123,7 +123,7 @@ maximum value: 10000
 
 > `optional` **internal\_groups\_list\_limit**: `number`
 
-Defined in: main.ts:95310
+Defined in: main.ts:97213
 
 maximum number of returned technology groups
 optional field
@@ -142,7 +142,7 @@ maximum value: 10000
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:95332
+Defined in: main.ts:97235
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -162,7 +162,7 @@ maximum value: 10000
 
 > `optional` **internal\_technologies\_list\_limit**: `number`
 
-Defined in: main.ts:95324
+Defined in: main.ts:97227
 
 maximum number of returned technologies within the same category
 optional field
@@ -181,7 +181,7 @@ maximum value: 10000
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:95266
+Defined in: main.ts:97169
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -201,7 +201,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:95337
+Defined in: main.ts:97240
 
 the maximum number of returned technologies
 optional field
@@ -218,7 +218,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:95273
+Defined in: main.ts:97176
 
 search mode
 optional field
@@ -237,7 +237,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:95343
+Defined in: main.ts:97246
 
 offset in the results array of returned domains
 optional field
@@ -255,7 +255,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:95303
+Defined in: main.ts:97206
 
 results sorting rules
 optional field
@@ -283,7 +283,7 @@ default value:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95349
+Defined in: main.ts:97252
 
 user-defined task identifier
 optional field
@@ -301,7 +301,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:95258
+Defined in: main.ts:97161
 
 target technology
 required field if you don’t specify group, keyword or category
@@ -320,7 +320,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95362
+Defined in: main.ts:97265
 
 #### Parameters
 
@@ -338,7 +338,7 @@ Defined in: main.ts:95362
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95400
+Defined in: main.ts:97303
 
 #### Parameters
 
@@ -354,9 +354,9 @@ Defined in: main.ts:95400
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:95393
+Defined in: main.ts:97296
 
 #### Parameters
 
@@ -366,4 +366,4 @@ Defined in: main.ts:95393
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`

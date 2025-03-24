@@ -6,7 +6,7 @@
 
 # Class: ContentRatingInfo
 
-Defined in: main.ts:26562
+Defined in: main.ts:26989
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26562
 
 ## Constructors
 
-### new ContentRatingInfo()
+### Constructor
 
-> **new ContentRatingInfo**(`data`?): [`ContentRatingInfo`](ContentRatingInfo.md)
+> **new ContentRatingInfo**(`data`?): `ContentRatingInfo`
 
-Defined in: main.ts:26577
+Defined in: main.ts:27004
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26577
 
 #### Returns
 
-[`ContentRatingInfo`](ContentRatingInfo.md)
+`ContentRatingInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26577
 
 > `optional` **max\_rating\_value**: `string`
 
-Defined in: main.ts:26571
+Defined in: main.ts:26998
 
 maximum value for the rating name
 
@@ -54,7 +54,7 @@ maximum value for the rating name
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:26565
+Defined in: main.ts:26992
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
@@ -69,7 +69,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **rating\_count**: `string`
 
-Defined in: main.ts:26569
+Defined in: main.ts:26996
 
 number of votes
 
@@ -83,7 +83,7 @@ number of votes
 
 > `optional` **rating\_value**: `string`
 
-Defined in: main.ts:26567
+Defined in: main.ts:26994
 
 the value of the rating
 
@@ -97,7 +97,7 @@ the value of the rating
 
 > `optional` **relative\_rating**: `string`
 
-Defined in: main.ts:26573
+Defined in: main.ts:27000
 
 relative rating
 
@@ -111,7 +111,7 @@ relative rating
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26586
+Defined in: main.ts:27013
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:26586
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26607
+Defined in: main.ts:27034
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:26607
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentRatingInfo`](ContentRatingInfo.md)
+> `static` **fromJS**(`data`): `ContentRatingInfo`
 
-Defined in: main.ts:26600
+Defined in: main.ts:27027
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:26600
 
 #### Returns
 
-[`ContentRatingInfo`](ContentRatingInfo.md)
+`ContentRatingInfo`

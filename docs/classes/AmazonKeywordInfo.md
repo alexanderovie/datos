@@ -6,7 +6,7 @@
 
 # Class: AmazonKeywordInfo
 
-Defined in: main.ts:24658
+Defined in: main.ts:24997
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24658
 
 ## Constructors
 
-### new AmazonKeywordInfo()
+### Constructor
 
-> **new AmazonKeywordInfo**(`data`?): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> **new AmazonKeywordInfo**(`data`?): `AmazonKeywordInfo`
 
-Defined in: main.ts:24671
+Defined in: main.ts:25010
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24671
 
 #### Returns
 
-[`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+`AmazonKeywordInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24671
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:24664
+Defined in: main.ts:25003
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -56,7 +56,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:24660
+Defined in: main.ts:24999
 
 search engine type
 
@@ -70,7 +70,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:24667
+Defined in: main.ts:25006
 
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon
@@ -85,7 +85,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24680
+Defined in: main.ts:25019
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:24680
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24699
+Defined in: main.ts:25038
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:24699
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> `static` **fromJS**(`data`): `AmazonKeywordInfo`
 
-Defined in: main.ts:24692
+Defined in: main.ts:25031
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:24692
 
 #### Returns
 
-[`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+`AmazonKeywordInfo`

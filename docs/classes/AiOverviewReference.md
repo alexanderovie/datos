@@ -6,7 +6,7 @@
 
 # Class: AiOverviewReference
 
-Defined in: main.ts:32362
+Defined in: main.ts:32789
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:32362
 
 ## Constructors
 
-### new AiOverviewReference()
+### Constructor
 
-> **new AiOverviewReference**(`data`?): [`AiOverviewReference`](AiOverviewReference.md)
+> **new AiOverviewReference**(`data`?): `AiOverviewReference`
 
-Defined in: main.ts:32378
+Defined in: main.ts:32805
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:32378
 
 #### Returns
 
-[`AiOverviewReference`](AiOverviewReference.md)
+`AiOverviewReference`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32378
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32368
+Defined in: main.ts:32795
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:32366
+Defined in: main.ts:32793
 
 reference source name or title
 
@@ -68,7 +68,7 @@ reference source name or title
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:32374
+Defined in: main.ts:32801
 
 row content
 
@@ -82,7 +82,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32372
+Defined in: main.ts:32799
 
 title of a given link element
 
@@ -96,7 +96,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32364
+Defined in: main.ts:32791
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32370
+Defined in: main.ts:32797
 
 URL
 
@@ -124,7 +124,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32387
+Defined in: main.ts:32814
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:32387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32409
+Defined in: main.ts:32836
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:32409
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AiOverviewReference`](AiOverviewReference.md)
+> `static` **fromJS**(`data`): `AiOverviewReference`
 
-Defined in: main.ts:32402
+Defined in: main.ts:32829
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:32402
 
 #### Returns
 
-[`AiOverviewReference`](AiOverviewReference.md)
+`AiOverviewReference`

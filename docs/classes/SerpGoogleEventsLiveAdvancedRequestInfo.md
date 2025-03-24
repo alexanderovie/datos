@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
-Defined in: main.ts:51770
+Defined in: main.ts:52197
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:51770
 
 ## Constructors
 
-### new SerpGoogleEventsLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpGoogleEventsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+> **new SerpGoogleEventsLiveAdvancedRequestInfo**(`data`?): `SerpGoogleEventsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:51863
+Defined in: main.ts:52290
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:51863
 
 #### Returns
 
-[`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+`SerpGoogleEventsLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:51863
 
 > `optional` **date\_range**: `string`
 
-Defined in: main.ts:51824
+Defined in: main.ts:52251
 
 date range to get events for
 optional field
@@ -57,7 +57,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:51846
+Defined in: main.ts:52273
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:51778
+Defined in: main.ts:52205
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:51819
+Defined in: main.ts:52246
 
 search engine language code
 optional field
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:51811
+Defined in: main.ts:52238
 
 full name of search engine language
 optional field
@@ -138,7 +138,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:51792
+Defined in: main.ts:52219
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -157,7 +157,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:51803
+Defined in: main.ts:52230
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:51785
+Defined in: main.ts:52212
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -199,7 +199,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:51853
+Defined in: main.ts:52280
 
 page crawl limit
 optional field
@@ -218,7 +218,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:51830
+Defined in: main.ts:52257
 
 device operating system
 optional field
@@ -236,7 +236,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:51837
+Defined in: main.ts:52264
 
 search engine domain
 optional field
@@ -255,7 +255,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:51859
+Defined in: main.ts:52286
 
 user-defined task identifier
 optional field
@@ -273,7 +273,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51872
+Defined in: main.ts:52299
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:51872
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51900
+Defined in: main.ts:52327
 
 #### Parameters
 
@@ -307,9 +307,9 @@ Defined in: main.ts:51900
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleEventsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:51893
+Defined in: main.ts:52320
 
 #### Parameters
 
@@ -319,4 +319,4 @@ Defined in: main.ts:51893
 
 #### Returns
 
-[`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
+`SerpGoogleEventsLiveAdvancedRequestInfo`

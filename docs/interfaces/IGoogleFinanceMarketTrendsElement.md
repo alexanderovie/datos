@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceMarketTrendsElement
 
-Defined in: main.ts:88396
+Defined in: main.ts:88823
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88396
 
 > `optional` **news**: [`GoogleFinanceNewsElement`](../classes/GoogleFinanceNewsElement.md)[]
 
-Defined in: main.ts:88404
+Defined in: main.ts:88831
 
 array of items
 array contains the following type of items: google_finance_news_element
@@ -29,7 +29,7 @@ array contains the following type of items: google_finance_news_element
 
 > `optional` **quote**: [`GoogleFinanceAssetPairElement`](../classes/GoogleFinanceAssetPairElement.md)
 
-Defined in: main.ts:88401
+Defined in: main.ts:88828
 
 object of items
 array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element
@@ -40,6 +40,6 @@ array contains the following type of items: google_finance_asset_pair_element, g
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88398
+Defined in: main.ts:88825
 
 type of element

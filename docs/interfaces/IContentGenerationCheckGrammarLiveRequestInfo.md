@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLiveRequestInfo
 
-Defined in: main.ts:192001
+Defined in: main.ts:194410
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:192001
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:192010
+Defined in: main.ts:194419
 
 code of the text language
 required field if you do not specify language_name
@@ -30,7 +30,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:192014
+Defined in: main.ts:194423
 
 name of the text language
 required field if you do not specify language_code
@@ -42,7 +42,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:192020
+Defined in: main.ts:194429
 
 user-defined task identifier
 optional field
@@ -56,7 +56,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:192006
+Defined in: main.ts:194415
 
 target text
 required field

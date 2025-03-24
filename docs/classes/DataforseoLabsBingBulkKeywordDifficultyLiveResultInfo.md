@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
-Defined in: main.ts:124851
+Defined in: main.ts:127252
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:124851
 
 ## Constructors
 
-### new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data`?): `DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
 
-Defined in: main.ts:124869
+Defined in: main.ts:127270
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:124869
 
 #### Returns
 
-[`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124869
 
 > `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
-Defined in: main.ts:124865
+Defined in: main.ts:127266
 
 contains keywords and related keyword difficulty scores
 
@@ -54,7 +54,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:124863
+Defined in: main.ts:127264
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:124859
+Defined in: main.ts:127260
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:124856
+Defined in: main.ts:127257
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:124853
+Defined in: main.ts:127254
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:124861
+Defined in: main.ts:127262
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124878
+Defined in: main.ts:127279
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:124878
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124904
+Defined in: main.ts:127305
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:124904
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
 
-Defined in: main.ts:124897
+Defined in: main.ts:127298
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:124897
 
 #### Returns
 
-[`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: SearchIntentInfo
 
-Defined in: main.ts:102457
+Defined in: main.ts:104360
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:102457
 
 ## Constructors
 
-### new SearchIntentInfo()
+### Constructor
 
-> **new SearchIntentInfo**(`data`?): [`SearchIntentInfo`](SearchIntentInfo.md)
+> **new SearchIntentInfo**(`data`?): `SearchIntentInfo`
 
-Defined in: main.ts:102475
+Defined in: main.ts:104378
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:102475
 
 #### Returns
 
-[`SearchIntentInfo`](SearchIntentInfo.md)
+`SearchIntentInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102475
 
 > `optional` **foreign\_intent**: `string`[]
 
-Defined in: main.ts:102466
+Defined in: main.ts:104369
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
@@ -55,7 +55,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:102471
+Defined in: main.ts:104374
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **main\_intent**: `string`
 
-Defined in: main.ts:102463
+Defined in: main.ts:104366
 
 main search intent
 possible values: informational, navigational, commercial, transactional
@@ -87,7 +87,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:102460
+Defined in: main.ts:104363
 
 search engine type
 possible values: google
@@ -102,7 +102,7 @@ possible values: google
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:102484
+Defined in: main.ts:104387
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:102484
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:102508
+Defined in: main.ts:104411
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:102508
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
+> `static` **fromJS**(`data`): `SearchIntentInfo`
 
-Defined in: main.ts:102501
+Defined in: main.ts:104404
 
 #### Parameters
 
@@ -148,4 +148,4 @@ Defined in: main.ts:102501
 
 #### Returns
 
-[`SearchIntentInfo`](SearchIntentInfo.md)
+`SearchIntentInfo`

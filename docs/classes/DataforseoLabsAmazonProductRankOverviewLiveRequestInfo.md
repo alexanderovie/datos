@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
-Defined in: main.ts:123027
+Defined in: main.ts:125428
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:123027
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): `DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:123076
+Defined in: main.ts:125477
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:123076
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123076
 
 > `optional` **asins**: `string`[]
 
-Defined in: main.ts:123036
+Defined in: main.ts:125437
 
 product IDs to compare
 required field
@@ -61,7 +61,7 @@ B01LW2SL7R
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123066
+Defined in: main.ts:125467
 
 language code
 required field if don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123059
+Defined in: main.ts:125460
 
 full name of the language
 required field if don’t specify language_code
@@ -99,7 +99,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123052
+Defined in: main.ts:125453
 
 location code
 required field if don’t specify location_name
@@ -119,7 +119,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123044
+Defined in: main.ts:125445
 
 full name of the location
 required field if don’t specify location_code
@@ -139,7 +139,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123072
+Defined in: main.ts:125473
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123085
+Defined in: main.ts:125486
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:123085
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123111
+Defined in: main.ts:125512
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:123111
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:123104
+Defined in: main.ts:125505
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:123104
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`

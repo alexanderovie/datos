@@ -6,7 +6,7 @@
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
-Defined in: main.ts:245371
+Defined in: main.ts:247336
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245371
 
 ## Constructors
 
-### new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo()
+### Constructor
 
-> **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data`?): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+> **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data`?): `AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245382
+Defined in: main.ts:247347
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245382
 
 #### Returns
 
-[`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245382
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:245378
+Defined in: main.ts:247343
 
 cost, USD
 
@@ -54,7 +54,7 @@ cost, USD
 
 > `optional` **cost\_type**: `string`
 
-Defined in: main.ts:245376
+Defined in: main.ts:247341
 
 charge type
 can take the following values:
@@ -71,7 +71,7 @@ per_request – charge for a GET or POST request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245391
+Defined in: main.ts:247356
 
 #### Parameters
 
@@ -89,7 +89,7 @@ Defined in: main.ts:245391
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245409
+Defined in: main.ts:247374
 
 #### Parameters
 
@@ -105,9 +105,9 @@ Defined in: main.ts:245409
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245402
+Defined in: main.ts:247367
 
 #### Parameters
 
@@ -117,4 +117,4 @@ Defined in: main.ts:245402
 
 #### Returns
 
-[`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`

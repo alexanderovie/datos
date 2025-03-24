@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveResultInfo
 
-Defined in: main.ts:163813
+Defined in: main.ts:166222
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:163813
 
 ## Constructors
 
-### new BacklinksDomainPagesLiveResultInfo()
+### Constructor
 
-> **new BacklinksDomainPagesLiveResultInfo**(`data`?): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+> **new BacklinksDomainPagesLiveResultInfo**(`data`?): `BacklinksDomainPagesLiveResultInfo`
 
-Defined in: main.ts:163825
+Defined in: main.ts:166234
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:163825
 
 #### Returns
 
-[`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+`BacklinksDomainPagesLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163825
 
 > `optional` **items**: [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)[]
 
-Defined in: main.ts:163821
+Defined in: main.ts:166230
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:163819
+Defined in: main.ts:166228
 
 number of items in the items array
 
@@ -68,7 +68,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:163815
+Defined in: main.ts:166224
 
 target in a POST array
 
@@ -82,7 +82,7 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:163817
+Defined in: main.ts:166226
 
 total number of relevant items in the database
 
@@ -96,7 +96,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163834
+Defined in: main.ts:166243
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:163834
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163858
+Defined in: main.ts:166267
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:163858
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksDomainPagesLiveResultInfo`
 
-Defined in: main.ts:163851
+Defined in: main.ts:166260
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:163851
 
 #### Returns
 
-[`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)
+`BacklinksDomainPagesLiveResultInfo`

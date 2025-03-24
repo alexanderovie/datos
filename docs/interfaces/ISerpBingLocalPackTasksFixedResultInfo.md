@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTasksFixedResultInfo
 
-Defined in: main.ts:69774
+Defined in: main.ts:70201
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:69774
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:69784
+Defined in: main.ts:70211
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:69792
+Defined in: main.ts:70219
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:69795
+Defined in: main.ts:70222
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:69789
+Defined in: main.ts:70216
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:69777
+Defined in: main.ts:70204
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:69779
+Defined in: main.ts:70206
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:69782
+Defined in: main.ts:70209
 
 type of search engine
 can take the following values: local_pack
@@ -93,6 +93,6 @@ can take the following values: local_pack
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:69786
+Defined in: main.ts:70213
 
 user-defined task identifier

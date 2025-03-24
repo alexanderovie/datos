@@ -6,7 +6,7 @@
 
 # Interface: IOnPageWaterfallResultInfo
 
-Defined in: main.ts:180483
+Defined in: main.ts:182892
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180483
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:180486
+Defined in: main.ts:182895
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:180488
+Defined in: main.ts:182897
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageWaterfallItem`](../classes/OnPageWaterfallItem.md)[]
 
-Defined in: main.ts:180492
+Defined in: main.ts:182901
 
 items array
 
@@ -49,6 +49,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:180490
+Defined in: main.ts:182899
 
 number of items in the results array

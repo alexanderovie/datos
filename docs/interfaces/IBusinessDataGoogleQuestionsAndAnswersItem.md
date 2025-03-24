@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersItem
 
-Defined in: main.ts:234058
+Defined in: main.ts:236467
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:234058
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)[]
 
-Defined in: main.ts:234086
+Defined in: main.ts:236495
 
 array of google business question items with answers
 possible item types: google_business_question_item
@@ -29,7 +29,7 @@ possible item types: google_business_question_item
 
 > `optional` **original\_question\_text**: `string`
 
-Defined in: main.ts:234079
+Defined in: main.ts:236488
 
 original text of the question
 
@@ -39,7 +39,7 @@ original text of the question
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:234071
+Defined in: main.ts:236480
 
 URL of the user’s profile image
 
@@ -49,7 +49,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:234075
+Defined in: main.ts:236484
 
 displayed name of the user
 
@@ -59,7 +59,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:234073
+Defined in: main.ts:236482
 
 URL of the user’s profile
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 > `optional` **question\_id**: `string`
 
-Defined in: main.ts:234067
+Defined in: main.ts:236476
 
 ID of the question
 
@@ -79,7 +79,7 @@ ID of the question
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:234077
+Defined in: main.ts:236486
 
 current text of the question
 
@@ -89,7 +89,7 @@ current text of the question
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:234065
+Defined in: main.ts:236474
 
 absolute rank among all the elements
 
@@ -99,7 +99,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:234063
+Defined in: main.ts:236472
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -110,7 +110,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:234081
+Defined in: main.ts:236490
 
 estimated time when the question was posted
 
@@ -120,7 +120,7 @@ estimated time when the question was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:234083
+Defined in: main.ts:236492
 
 exact time when the question was posted
 
@@ -130,7 +130,7 @@ exact time when the question was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:234060
+Defined in: main.ts:236469
 
 type of element
 
@@ -140,6 +140,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:234069
+Defined in: main.ts:236478
 
 URL of the question

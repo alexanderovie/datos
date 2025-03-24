@@ -6,7 +6,7 @@
 
 # Interface: ITestSummary
 
-Defined in: main.ts:181202
+Defined in: main.ts:183611
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181202
 
 > `optional` **error**: `number`
 
-Defined in: main.ts:181206
+Defined in: main.ts:183615
 
 number of serious microdata errors
 
@@ -28,7 +28,7 @@ number of serious microdata errors
 
 > `optional` **fatal**: `number`
 
-Defined in: main.ts:181204
+Defined in: main.ts:183613
 
 number of fatal microdata errors
 
@@ -38,7 +38,7 @@ number of fatal microdata errors
 
 > `optional` **info**: `number`
 
-Defined in: main.ts:181210
+Defined in: main.ts:183619
 
 number of microdata information flags
 
@@ -48,6 +48,6 @@ number of microdata information flags
 
 > `optional` **warning**: `number`
 
-Defined in: main.ts:181208
+Defined in: main.ts:183617
 
 number of microdata warnings

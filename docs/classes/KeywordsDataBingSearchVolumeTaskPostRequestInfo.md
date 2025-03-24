@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeTaskPostRequestInfo
 
-Defined in: main.ts:148047
+Defined in: main.ts:150456
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:148047
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeTaskPostRequestInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeTaskPostRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+> **new KeywordsDataBingSearchVolumeTaskPostRequestInfo**(`data`?): `KeywordsDataBingSearchVolumeTaskPostRequestInfo`
 
-Defined in: main.ts:148155
+Defined in: main.ts:150564
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:148155
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+`KeywordsDataBingSearchVolumeTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148155
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:148107
+Defined in: main.ts:150516
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:148118
+Defined in: main.ts:150527
 
 ending date of the time range
 optional field
@@ -84,7 +84,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:148093
+Defined in: main.ts:150502
 
 device type
 optional field
@@ -101,7 +101,7 @@ default value: all
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148054
+Defined in: main.ts:150463
 
 keywords
 required field
@@ -120,7 +120,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:148088
+Defined in: main.ts:150497
 
 search engine language code
 required field if you don’t specify language_name
@@ -138,7 +138,7 @@ en, fr, de
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:148082
+Defined in: main.ts:150491
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -156,7 +156,7 @@ English, French, German
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148068
+Defined in: main.ts:150477
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -175,7 +175,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:148076
+Defined in: main.ts:150485
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -195,7 +195,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:148061
+Defined in: main.ts:150470
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -214,7 +214,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:148140
+Defined in: main.ts:150549
 
 notification URL of a completed task
 optional field
@@ -237,7 +237,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:148129
+Defined in: main.ts:150538
 
 return URL for sending task results
 optional field
@@ -260,7 +260,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:148145
+Defined in: main.ts:150554
 
 Bing search partners type
 optional field
@@ -277,7 +277,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:148098
+Defined in: main.ts:150507
 
 results sorting parameters
 optional field
@@ -294,7 +294,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:148151
+Defined in: main.ts:150560
 
 user-defined task identifier
 optional field
@@ -312,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148164
+Defined in: main.ts:150573
 
 #### Parameters
 
@@ -330,7 +330,7 @@ Defined in: main.ts:148164
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148198
+Defined in: main.ts:150607
 
 #### Parameters
 
@@ -346,9 +346,9 @@ Defined in: main.ts:148198
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeTaskPostRequestInfo`
 
-Defined in: main.ts:148191
+Defined in: main.ts:150600
 
 #### Parameters
 
@@ -358,4 +358,4 @@ Defined in: main.ts:148191
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+`KeywordsDataBingSearchVolumeTaskPostRequestInfo`

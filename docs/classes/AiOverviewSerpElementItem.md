@@ -6,7 +6,7 @@
 
 # Class: AiOverviewSerpElementItem
 
-Defined in: main.ts:40430
+Defined in: main.ts:40857
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:40430
 
 ## Constructors
 
-### new AiOverviewSerpElementItem()
+### Constructor
 
-> **new AiOverviewSerpElementItem**(`data`?): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
+> **new AiOverviewSerpElementItem**(`data`?): `AiOverviewSerpElementItem`
 
-Defined in: main.ts:40453
+Defined in: main.ts:40880
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:40453
 
 #### Returns
 
-[`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
+`AiOverviewSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:40453
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40440
+Defined in: main.ts:40867
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:40442
+Defined in: main.ts:40869
 
 contains arrays of specific images
 
@@ -90,7 +90,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40434
+Defined in: main.ts:40861
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:40449
+Defined in: main.ts:40876
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:40445
+Defined in: main.ts:40872
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -176,7 +176,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40436
+Defined in: main.ts:40863
 
 the XPath of the element
 
@@ -208,7 +208,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40458
+Defined in: main.ts:40885
 
 #### Parameters
 
@@ -230,7 +230,7 @@ Defined in: main.ts:40458
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40489
+Defined in: main.ts:40916
 
 #### Parameters
 
@@ -250,9 +250,9 @@ Defined in: main.ts:40489
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
+> `static` **fromJS**(`data`): `AiOverviewSerpElementItem`
 
-Defined in: main.ts:40482
+Defined in: main.ts:40909
 
 #### Parameters
 
@@ -262,7 +262,7 @@ Defined in: main.ts:40482
 
 #### Returns
 
-[`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
+`AiOverviewSerpElementItem`
 
 #### Overrides
 

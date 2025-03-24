@@ -6,7 +6,7 @@
 
 # Class: AppendixPriceDataInfo
 
-Defined in: main.ts:246085
+Defined in: main.ts:248050
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246085
 
 ## Constructors
 
-### new AppendixPriceDataInfo()
+### Constructor
 
-> **new AppendixPriceDataInfo**(`data`?): [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+> **new AppendixPriceDataInfo**(`data`?): `AppendixPriceDataInfo`
 
-Defined in: main.ts:246092
+Defined in: main.ts:248057
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246092
 
 #### Returns
 
-[`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+`AppendixPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246092
 
 > `optional` **task\_get**: [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
-Defined in: main.ts:246086
+Defined in: main.ts:248051
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246086
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246088
+Defined in: main.ts:248053
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246088
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246087
+Defined in: main.ts:248052
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:246087
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246101
+Defined in: main.ts:248066
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:246101
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246120
+Defined in: main.ts:248085
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:246120
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixPriceDataInfo`
 
-Defined in: main.ts:246113
+Defined in: main.ts:248078
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:246113
 
 #### Returns
 
-[`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+`AppendixPriceDataInfo`

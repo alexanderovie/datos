@@ -6,7 +6,7 @@
 
 # Class: ProductInformationImageRow
 
-Defined in: main.ts:203597
+Defined in: main.ts:206006
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:203597
 
 ## Constructors
 
-### new ProductInformationImageRow()
+### Constructor
 
-> **new ProductInformationImageRow**(`data`?): [`ProductInformationImageRow`](ProductInformationImageRow.md)
+> **new ProductInformationImageRow**(`data`?): `ProductInformationImageRow`
 
-Defined in: main.ts:203605
+Defined in: main.ts:206014
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:203605
 
 #### Returns
 
-[`ProductInformationImageRow`](ProductInformationImageRow.md)
+`ProductInformationImageRow`
 
 #### Overrides
 
-[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:203605
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25125
+Defined in: main.ts:25464
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25125
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:203599
+Defined in: main.ts:206008
 
 alternative text of the related product image
 
@@ -74,7 +74,7 @@ alternative text of the related product image
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25121
+Defined in: main.ts:25460
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:203601
+Defined in: main.ts:206010
 
 URL of the image
 
@@ -106,7 +106,7 @@ URL of the image
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203610
+Defined in: main.ts:206019
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:203610
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203629
+Defined in: main.ts:206038
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:203629
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInformationImageRow`](ProductInformationImageRow.md)
+> `static` **fromJS**(`data`): `ProductInformationImageRow`
 
-Defined in: main.ts:203622
+Defined in: main.ts:206031
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:203622
 
 #### Returns
 
-[`ProductInformationImageRow`](ProductInformationImageRow.md)
+`ProductInformationImageRow`
 
 #### Overrides
 

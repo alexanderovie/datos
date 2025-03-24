@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
-Defined in: main.ts:128513
+Defined in: main.ts:130914
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:128513
 
 ## Constructors
 
-### new DataforseoLabsBingRelatedKeywordsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsBingRelatedKeywordsLiveResultInfo**(`data`?): `DataforseoLabsBingRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:128534
+Defined in: main.ts:130935
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:128534
 
 #### Returns
 
-[`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+`DataforseoLabsBingRelatedKeywordsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128534
 
 > `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:128530
+Defined in: main.ts:130931
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:128528
+Defined in: main.ts:130929
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128524
+Defined in: main.ts:130925
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128522
+Defined in: main.ts:130923
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:128515
+Defined in: main.ts:130916
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:128517
+Defined in: main.ts:130918
 
 keyword in a POST array
 
@@ -124,7 +124,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:128520
+Defined in: main.ts:130921
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -139,7 +139,7 @@ fields in the array are identical to that of keyword_data
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:128526
+Defined in: main.ts:130927
 
 total amount of results in our database relevant to your request
 
@@ -153,7 +153,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128543
+Defined in: main.ts:130944
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:128543
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128571
+Defined in: main.ts:130972
 
 #### Parameters
 
@@ -187,9 +187,9 @@ Defined in: main.ts:128571
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:128564
+Defined in: main.ts:130965
 
 #### Parameters
 
@@ -199,4 +199,4 @@ Defined in: main.ts:128564
 
 #### Returns
 
-[`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+`DataforseoLabsBingRelatedKeywordsLiveResultInfo`

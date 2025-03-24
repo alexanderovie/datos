@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
-Defined in: main.ts:230371
+Defined in: main.ts:232780
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:230371
 
 ## Constructors
 
-### new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
+> **new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo**(`data`?): `BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`
 
-Defined in: main.ts:230466
+Defined in: main.ts:232875
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:230466
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
+`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230466
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:230448
+Defined in: main.ts:232857
 
 number of adults
 optional field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:230430
+Defined in: main.ts:232839
 
 check-in date
 optional field
@@ -77,7 +77,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:230437
+Defined in: main.ts:232846
 
 check-out date
 optional field
@@ -96,7 +96,7 @@ example:
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:230456
+Defined in: main.ts:232865
 
 number and age of children
 optional field
@@ -116,7 +116,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:230442
+Defined in: main.ts:232851
 
 currency
 optional field
@@ -133,7 +133,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:230378
+Defined in: main.ts:232787
 
 unique hotel identifier
 required field
@@ -152,7 +152,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:230423
+Defined in: main.ts:232832
 
 search engine language code
 required field if you don’t specify language_name
@@ -171,7 +171,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:230416
+Defined in: main.ts:232825
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -190,7 +190,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:230400
+Defined in: main.ts:232809
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -209,7 +209,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:230409
+Defined in: main.ts:232818
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -230,7 +230,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:230393
+Defined in: main.ts:232802
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -249,7 +249,7 @@ London,England,United Kingdom
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:230386
+Defined in: main.ts:232795
 
 task priority
 optional field
@@ -269,7 +269,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230462
+Defined in: main.ts:232871
 
 user-defined task identifier
 optional field
@@ -287,7 +287,7 @@ you will find the specified tag value in the data array of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230475
+Defined in: main.ts:232884
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:230475
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230508
+Defined in: main.ts:232917
 
 #### Parameters
 
@@ -321,9 +321,9 @@ Defined in: main.ts:230508
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`
 
-Defined in: main.ts:230501
+Defined in: main.ts:232910
 
 #### Parameters
 
@@ -333,4 +333,4 @@ Defined in: main.ts:230501
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
+`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`

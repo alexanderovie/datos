@@ -6,7 +6,7 @@
 
 # Interface: IRedirect
 
-Defined in: main.ts:161362
+Defined in: main.ts:163771
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161362
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:161366
+Defined in: main.ts:163775
 
 HTTP status code of the URL
 
@@ -28,7 +28,7 @@ HTTP status code of the URL
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:161364
+Defined in: main.ts:163773
 
 type of element
 
@@ -38,6 +38,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:161368
+Defined in: main.ts:163777
 
 indirect link URL

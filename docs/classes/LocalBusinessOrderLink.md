@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessOrderLink
 
-Defined in: main.ts:25834
+Defined in: main.ts:26173
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:25834
 
 ## Constructors
 
-### new LocalBusinessOrderLink()
+### Constructor
 
-> **new LocalBusinessOrderLink**(`data`?): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+> **new LocalBusinessOrderLink**(`data`?): `LocalBusinessOrderLink`
 
-Defined in: main.ts:25840
+Defined in: main.ts:26179
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:25840
 
 #### Returns
 
-[`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+`LocalBusinessOrderLink`
 
 #### Overrides
 
-[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:25840
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25725
+Defined in: main.ts:26064
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25725
 
 > `optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
 
-Defined in: main.ts:25836
+Defined in: main.ts:26175
 
 lists available delivery services
 
@@ -74,7 +74,7 @@ lists available delivery services
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25723
+Defined in: main.ts:26062
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25845
+Defined in: main.ts:26184
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:25845
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25867
+Defined in: main.ts:26206
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:25867
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+> `static` **fromJS**(`data`): `LocalBusinessOrderLink`
 
-Defined in: main.ts:25860
+Defined in: main.ts:26199
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:25860
 
 #### Returns
 
-[`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+`LocalBusinessOrderLink`
 
 #### Overrides
 

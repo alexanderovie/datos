@@ -6,7 +6,7 @@
 
 # Class: OtherSitesReviewsInfo
 
-Defined in: main.ts:228933
+Defined in: main.ts:231342
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:228933
 
 ## Constructors
 
-### new OtherSitesReviewsInfo()
+### Constructor
 
-> **new OtherSitesReviewsInfo**(`data`?): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+> **new OtherSitesReviewsInfo**(`data`?): `OtherSitesReviewsInfo`
 
-Defined in: main.ts:228949
+Defined in: main.ts:231358
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:228949
 
 #### Returns
 
-[`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+`OtherSitesReviewsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228949
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:228945
+Defined in: main.ts:231354
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
@@ -55,7 +55,7 @@ information about the rating enclosed in the review on a third-party site
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:228942
+Defined in: main.ts:231351
 
 review text
 text of the review
@@ -70,7 +70,7 @@ text of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:228936
+Defined in: main.ts:231345
 
 review title
 contains a name of the third-party site where review initially appeared
@@ -85,7 +85,7 @@ contains a name of the third-party site where review initially appeared
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:228939
+Defined in: main.ts:231348
 
 review url
 URL to the a third-party site where review initially appeared
@@ -100,7 +100,7 @@ URL to the a third-party site where review initially appeared
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228958
+Defined in: main.ts:231367
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:228958
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228978
+Defined in: main.ts:231387
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:228978
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+> `static` **fromJS**(`data`): `OtherSitesReviewsInfo`
 
-Defined in: main.ts:228971
+Defined in: main.ts:231380
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:228971
 
 #### Returns
 
-[`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+`OtherSitesReviewsInfo`

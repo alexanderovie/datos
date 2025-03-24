@@ -6,7 +6,7 @@
 
 # Interface: IAmazonApplicableVouchersItem
 
-Defined in: main.ts:203357
+Defined in: main.ts:205766
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:203357
 
 > `optional` **fixed\_discount**: `number`
 
-Defined in: main.ts:203363
+Defined in: main.ts:205772
 
 value of the fixed discount
 
@@ -28,7 +28,7 @@ value of the fixed discount
 
 > `optional` **fixed\_discount\_currency**: `string`
 
-Defined in: main.ts:203365
+Defined in: main.ts:205774
 
 currency code of the fixed discount
 
@@ -38,7 +38,7 @@ currency code of the fixed discount
 
 > `optional` **important\_details**: `string`
 
-Defined in: main.ts:203370
+Defined in: main.ts:205779
 
 important details about the terms of discount vouchers
 
@@ -48,7 +48,7 @@ important details about the terms of discount vouchers
 
 > `optional` **percentage\_discount**: `number`
 
-Defined in: main.ts:203368
+Defined in: main.ts:205777
 
 value of the percentage discount
 if the discount is fixed, the value will be null
@@ -59,7 +59,7 @@ if the discount is fixed, the value will be null
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203361
+Defined in: main.ts:205770
 
 text of the voucher
 
@@ -69,6 +69,6 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:203359
+Defined in: main.ts:205768
 
 type of element

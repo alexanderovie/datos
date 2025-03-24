@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveRequestInfo
 
-Defined in: main.ts:171246
+Defined in: main.ts:173655
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171246
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171278
+Defined in: main.ts:173687
 
 starting date of the time range
 optional field
@@ -39,7 +39,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171284
+Defined in: main.ts:173693
 
 user-defined task identifier
 optional field
@@ -53,7 +53,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:171265
+Defined in: main.ts:173674
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field

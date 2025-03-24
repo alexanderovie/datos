@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLanguagesResultInfo
 
-Defined in: main.ts:192349
+Defined in: main.ts:194758
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:192349
 
 ## Constructors
 
-### new ContentGenerationCheckGrammarLanguagesResultInfo()
+### Constructor
 
-> **new ContentGenerationCheckGrammarLanguagesResultInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
+> **new ContentGenerationCheckGrammarLanguagesResultInfo**(`data`?): `ContentGenerationCheckGrammarLanguagesResultInfo`
 
-Defined in: main.ts:192357
+Defined in: main.ts:194766
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:192357
 
 #### Returns
 
-[`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
+`ContentGenerationCheckGrammarLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192357
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:192353
+Defined in: main.ts:194762
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:192351
+Defined in: main.ts:194760
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192366
+Defined in: main.ts:194775
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:192366
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192384
+Defined in: main.ts:194793
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:192384
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationCheckGrammarLanguagesResultInfo`
 
-Defined in: main.ts:192377
+Defined in: main.ts:194786
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:192377
 
 #### Returns
 
-[`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
+`ContentGenerationCheckGrammarLanguagesResultInfo`

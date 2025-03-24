@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsErrorsRequestInfo
 
-Defined in: main.ts:99831
+Defined in: main.ts:101734
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99831
 
 ## Constructors
 
-### new DataforseoLabsErrorsRequestInfo()
+### Constructor
 
-> **new DataforseoLabsErrorsRequestInfo**(`data`?): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+> **new DataforseoLabsErrorsRequestInfo**(`data`?): `DataforseoLabsErrorsRequestInfo`
 
-Defined in: main.ts:99865
+Defined in: main.ts:101768
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99865
 
 #### Returns
 
-[`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+`DataforseoLabsErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99865
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:99854
+Defined in: main.ts:101757
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:99861
+Defined in: main.ts:101764
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:99847
+Defined in: main.ts:101750
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: dataforseo_labs/related_keywords/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:99836
+Defined in: main.ts:101739
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:99841
+Defined in: main.ts:101744
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99874
+Defined in: main.ts:101777
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:99874
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99895
+Defined in: main.ts:101798
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:99895
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsErrorsRequestInfo`
 
-Defined in: main.ts:99888
+Defined in: main.ts:101791
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:99888
 
 #### Returns
 
-[`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
+`DataforseoLabsErrorsRequestInfo`

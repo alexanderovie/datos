@@ -6,7 +6,7 @@
 
 # Class: AppendixMoneyData
 
-Defined in: main.ts:245303
+Defined in: main.ts:247268
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245303
 
 ## Constructors
 
-### new AppendixMoneyData()
+### Constructor
 
-> **new AppendixMoneyData**(`data`?): [`AppendixMoneyData`](AppendixMoneyData.md)
+> **new AppendixMoneyData**(`data`?): `AppendixMoneyData`
 
-Defined in: main.ts:245315
+Defined in: main.ts:247280
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245315
 
 #### Returns
 
-[`AppendixMoneyData`](AppendixMoneyData.md)
+`AppendixMoneyData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245315
 
 > `optional` **balance**: `number`
 
-Defined in: main.ts:245307
+Defined in: main.ts:247272
 
 amount of money left in your account
 
@@ -54,7 +54,7 @@ amount of money left in your account
 
 > `optional` **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-Defined in: main.ts:245309
+Defined in: main.ts:247274
 
 cost limits
 
@@ -68,7 +68,7 @@ cost limits
 
 > `optional` **statistics**: [`AppendixStatisticsMoneyData`](AppendixStatisticsMoneyData.md)
 
-Defined in: main.ts:245311
+Defined in: main.ts:247276
 
 statistics of your spending
 
@@ -82,7 +82,7 @@ statistics of your spending
 
 > `optional` **total**: `number`
 
-Defined in: main.ts:245305
+Defined in: main.ts:247270
 
 total amount of money deposited to your account
 
@@ -96,7 +96,7 @@ total amount of money deposited to your account
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245324
+Defined in: main.ts:247289
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:245324
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245344
+Defined in: main.ts:247309
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:245344
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
+> `static` **fromJS**(`data`): `AppendixMoneyData`
 
-Defined in: main.ts:245337
+Defined in: main.ts:247302
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:245337
 
 #### Returns
 
-[`AppendixMoneyData`](AppendixMoneyData.md)
+`AppendixMoneyData`

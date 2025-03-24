@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:208269
+Defined in: main.ts:210678
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:208269
 
 ## Constructors
 
-### new AppDataGoogleLocationsCountryResultInfo()
+### Constructor
 
-> **new AppDataGoogleLocationsCountryResultInfo**(`data`?): [`AppDataGoogleLocationsCountryResultInfo`](AppDataGoogleLocationsCountryResultInfo.md)
+> **new AppDataGoogleLocationsCountryResultInfo**(`data`?): `AppDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:208289
+Defined in: main.ts:210698
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:208289
 
 #### Returns
 
-[`AppDataGoogleLocationsCountryResultInfo`](AppDataGoogleLocationsCountryResultInfo.md)
+`AppDataGoogleLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208289
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:208283
+Defined in: main.ts:210692
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208271
+Defined in: main.ts:210680
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:208273
+Defined in: main.ts:210682
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:208281
+Defined in: main.ts:210690
 
 the name of the superordinate location
 example:
@@ -102,7 +102,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:208285
+Defined in: main.ts:210694
 
 location type
 
@@ -116,7 +116,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208298
+Defined in: main.ts:210707
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:208298
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208319
+Defined in: main.ts:210728
 
 #### Parameters
 
@@ -150,9 +150,9 @@ Defined in: main.ts:208319
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleLocationsCountryResultInfo`](AppDataGoogleLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:208312
+Defined in: main.ts:210721
 
 #### Parameters
 
@@ -162,4 +162,4 @@ Defined in: main.ts:208312
 
 #### Returns
 
-[`AppDataGoogleLocationsCountryResultInfo`](AppDataGoogleLocationsCountryResultInfo.md)
+`AppDataGoogleLocationsCountryResultInfo`

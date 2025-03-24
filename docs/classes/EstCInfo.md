@@ -6,7 +6,7 @@
 
 # Class: EstCInfo
 
-Defined in: main.ts:150257
+Defined in: main.ts:152666
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:150257
 
 ## Constructors
 
-### new EstCInfo()
+### Constructor
 
-> **new EstCInfo**(`data`?): [`EstCInfo`](EstCInfo.md)
+> **new EstCInfo**(`data`?): `EstCInfo`
 
-Defined in: main.ts:150265
+Defined in: main.ts:152674
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:150265
 
 #### Returns
 
-[`EstCInfo`](EstCInfo.md)
+`EstCInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150265
 
 > `optional` **high**: `number`
 
-Defined in: main.ts:150259
+Defined in: main.ts:152668
 
 indicates the upper bound of the range result
 
@@ -54,7 +54,7 @@ indicates the upper bound of the range result
 
 > `optional` **low**: `number`
 
-Defined in: main.ts:150261
+Defined in: main.ts:152670
 
 indicates the lower bound of the range result
 
@@ -68,7 +68,7 @@ indicates the lower bound of the range result
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:150274
+Defined in: main.ts:152683
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:150274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:150292
+Defined in: main.ts:152701
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:150292
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`EstCInfo`](EstCInfo.md)
+> `static` **fromJS**(`data`): `EstCInfo`
 
-Defined in: main.ts:150285
+Defined in: main.ts:152694
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:150285
 
 #### Returns
 
-[`EstCInfo`](EstCInfo.md)
+`EstCInfo`

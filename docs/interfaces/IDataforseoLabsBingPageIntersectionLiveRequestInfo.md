@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
-Defined in: main.ts:127207
+Defined in: main.ts:129608
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:127207
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:127241
+Defined in: main.ts:129642
 
 URLs of pages you want to exclude
 optional field
@@ -39,7 +39,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:127336
+Defined in: main.ts:129737
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:127288
+Defined in: main.ts:129689
 
 ignore highly similar keywords
 optional field
@@ -80,7 +80,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:127316
+Defined in: main.ts:129717
 
 include data from SERP for each keyword
 optional field
@@ -93,7 +93,7 @@ default value: false
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:127303
+Defined in: main.ts:129704
 
 indicates if the subdomains will be included in the search
 optional field
@@ -106,7 +106,7 @@ default value: true
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:127311
+Defined in: main.ts:129712
 
 indicates whether to intersect keywords
 optional field
@@ -122,7 +122,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:127283
+Defined in: main.ts:129684
 
 search results type
 indicates type of search results included in the response
@@ -138,7 +138,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127275
+Defined in: main.ts:129676
 
 language code
 required field if you don’t specify language_name
@@ -154,7 +154,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:127267
+Defined in: main.ts:129668
 
 full name of the language
 required field if you don’t specify language_code
@@ -170,7 +170,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:127293
+Defined in: main.ts:129694
 
 the maximum number of returned keywords
 optional field
@@ -183,7 +183,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127259
+Defined in: main.ts:129660
 
 location code
 required field if you don’t specify location_name
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:127250
+Defined in: main.ts:129651
 
 full name of the location
 required field if you don’t specify location_code
@@ -217,7 +217,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:127298
+Defined in: main.ts:129699
 
 offset in the items array of returned keywords
 optional field
@@ -230,7 +230,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:127352
+Defined in: main.ts:129753
 
 results sorting rules
 optional field
@@ -254,7 +254,7 @@ example:
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:127228
+Defined in: main.ts:129629
 
 target URLs of pages
 required field
@@ -287,7 +287,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:127358
+Defined in: main.ts:129759
 
 user-defined task identifier
 optional field

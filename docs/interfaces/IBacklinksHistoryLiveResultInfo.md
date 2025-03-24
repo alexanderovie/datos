@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksHistoryLiveResultInfo
 
-Defined in: main.ts:160776
+Defined in: main.ts:163185
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160776
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:160783
+Defined in: main.ts:163192
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:160788
+Defined in: main.ts:163197
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -44,7 +44,7 @@ example:
 
 > `optional` **items**: [`BacklinksHistoryLiveItem`](../classes/BacklinksHistoryLiveItem.md)[]
 
-Defined in: main.ts:160794
+Defined in: main.ts:163203
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
@@ -56,7 +56,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:160790
+Defined in: main.ts:163199
 
 the number of results returned in the items array
 
@@ -66,6 +66,6 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160778
+Defined in: main.ts:163187
 
 target from the POST array

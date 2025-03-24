@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveItem
 
-Defined in: main.ts:122757
+Defined in: main.ts:125158
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:122757
 
 ## Constructors
 
-### new DataforseoLabsAmazonRankedKeywordsLiveItem()
+### Constructor
 
-> **new DataforseoLabsAmazonRankedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+> **new DataforseoLabsAmazonRankedKeywordsLiveItem**(`data`?): `DataforseoLabsAmazonRankedKeywordsLiveItem`
 
-Defined in: main.ts:122767
+Defined in: main.ts:125168
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:122767
 
 #### Returns
 
-[`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+`DataforseoLabsAmazonRankedKeywordsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122767
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:122761
+Defined in: main.ts:125162
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-Defined in: main.ts:122763
+Defined in: main.ts:125164
 
 contains data on the products’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122759
+Defined in: main.ts:125160
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:122776
+Defined in: main.ts:125177
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:122776
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:122795
+Defined in: main.ts:125196
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:122795
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonRankedKeywordsLiveItem`
 
-Defined in: main.ts:122788
+Defined in: main.ts:125189
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:122788
 
 #### Returns
 
-[`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
+`DataforseoLabsAmazonRankedKeywordsLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
-Defined in: main.ts:185331
+Defined in: main.ts:187740
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:185331
 
 ## Constructors
 
-### new OnPageLighthouseLiveJsonRequestInfo()
+### Constructor
 
-> **new OnPageLighthouseLiveJsonRequestInfo**(`data`?): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+> **new OnPageLighthouseLiveJsonRequestInfo**(`data`?): `OnPageLighthouseLiveJsonRequestInfo`
 
-Defined in: main.ts:185391
+Defined in: main.ts:187800
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:185391
 
 #### Returns
 
-[`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+`OnPageLighthouseLiveJsonRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185391
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:185364
+Defined in: main.ts:187773
 
 Lighthouse audits
 optional field
@@ -65,7 +65,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:185351
+Defined in: main.ts:187760
 
 categories of Lighthouse audits
 optional field
@@ -85,7 +85,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:185343
+Defined in: main.ts:187752
 
 applies mobile emulation
 optional field
@@ -103,7 +103,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:185381
+Defined in: main.ts:187790
 
 lighthouse language code
 optional field
@@ -121,7 +121,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:185375
+Defined in: main.ts:187784
 
 lighthouse language name
 optional field
@@ -139,7 +139,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:185387
+Defined in: main.ts:187796
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:185337
+Defined in: main.ts:187746
 
 target URL
 required field
@@ -175,7 +175,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:185369
+Defined in: main.ts:187778
 
 lighthouse version
 optional field
@@ -192,7 +192,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185400
+Defined in: main.ts:187809
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:185400
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185432
+Defined in: main.ts:187841
 
 #### Parameters
 
@@ -226,9 +226,9 @@ Defined in: main.ts:185432
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseLiveJsonRequestInfo`
 
-Defined in: main.ts:185425
+Defined in: main.ts:187834
 
 #### Parameters
 
@@ -238,4 +238,4 @@ Defined in: main.ts:185425
 
 #### Returns
 
-[`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)
+`OnPageLighthouseLiveJsonRequestInfo`

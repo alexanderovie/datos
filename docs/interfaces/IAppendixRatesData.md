@@ -6,7 +6,7 @@
 
 # Interface: IAppendixRatesData
 
-Defined in: main.ts:244502
+Defined in: main.ts:246863
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:244502
 
 > `optional` **limits**: [`AppendixLimitsRatesData`](../classes/AppendixLimitsRatesData.md)
 
-Defined in: main.ts:244504
+Defined in: main.ts:246865
 
 rate limits for API calls per a certain period of time
 
@@ -28,6 +28,6 @@ rate limits for API calls per a certain period of time
 
 > `optional` **statistics**: [`AppendixStatisticsRatesData`](../classes/AppendixStatisticsRatesData.md)
 
-Defined in: main.ts:244506
+Defined in: main.ts:246867
 
 statisctics for API calls

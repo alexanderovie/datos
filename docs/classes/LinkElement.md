@@ -6,7 +6,7 @@
 
 # Class: LinkElement
 
-Defined in: main.ts:24330
+Defined in: main.ts:24669
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24330
 
 ## Constructors
 
-### new LinkElement()
+### Constructor
 
-> **new LinkElement**(`data`?): [`LinkElement`](LinkElement.md)
+> **new LinkElement**(`data`?): `LinkElement`
 
-Defined in: main.ts:24348
+Defined in: main.ts:24687
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24348
 
 #### Returns
 
-[`LinkElement`](LinkElement.md)
+`LinkElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24348
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:24338
+Defined in: main.ts:24677
 
 description of the results element
 
@@ -54,7 +54,7 @@ description of the results element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:24342
+Defined in: main.ts:24681
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:24336
+Defined in: main.ts:24675
 
 text alongside the link title
 
@@ -82,7 +82,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24334
+Defined in: main.ts:24673
 
 title of a given link element
 
@@ -96,7 +96,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24332
+Defined in: main.ts:24671
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24340
+Defined in: main.ts:24679
 
 URL
 
@@ -124,7 +124,7 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24344
+Defined in: main.ts:24683
 
 the XPath of the element
 
@@ -138,7 +138,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24357
+Defined in: main.ts:24696
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:24357
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24380
+Defined in: main.ts:24719
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:24380
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LinkElement`](LinkElement.md)
+> `static` **fromJS**(`data`): `LinkElement`
 
-Defined in: main.ts:24373
+Defined in: main.ts:24712
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:24373
 
 #### Returns
 
-[`LinkElement`](LinkElement.md)
+`LinkElement`

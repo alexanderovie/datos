@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsIdListResultInfo
 
-Defined in: main.ts:93882
+Defined in: main.ts:95785
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:93882
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:93902
+Defined in: main.ts:95805
 
 cost of the task, USD
 
@@ -28,7 +28,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:93897
+Defined in: main.ts:95800
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:93892
+Defined in: main.ts:95795
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:93884
+Defined in: main.ts:95787
 
 id of the task
 
@@ -64,7 +64,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:93904
+Defined in: main.ts:95807
 
 contains parameters you specified in the POST request
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:93900
+Defined in: main.ts:95803
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -89,7 +89,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:93887
+Defined in: main.ts:95790
 
 URL of the task
 URL you used for making an API call

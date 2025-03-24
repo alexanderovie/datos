@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceNewsElement
 
-Defined in: main.ts:88040
+Defined in: main.ts:88467
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88040
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:88052
+Defined in: main.ts:88479
 
 featured image URL
 URL of the news article’s featured image
@@ -29,7 +29,7 @@ URL of the news article’s featured image
 
 > `optional` **quotes**: [`GoogleFinanceAssetPairElement`](../classes/GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88060
+Defined in: main.ts:88487
 
 market indexes quoted in the news article
 information about market indexes quoted in the google_finance_news_element
@@ -40,7 +40,7 @@ information about market indexes quoted in the google_finance_news_element
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:88049
+Defined in: main.ts:88476
 
 name of the news source
 name of the website where the news article is published
@@ -51,7 +51,7 @@ name of the website where the news article is published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:88057
+Defined in: main.ts:88484
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,7 +64,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88044
+Defined in: main.ts:88471
 
 title of the news article
 
@@ -74,7 +74,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88042
+Defined in: main.ts:88469
 
 type of element
 
@@ -84,6 +84,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:88046
+Defined in: main.ts:88473
 
 URL to the page of the market index on Google Finance

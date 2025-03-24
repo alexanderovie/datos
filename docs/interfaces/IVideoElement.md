@@ -6,7 +6,7 @@
 
 # Interface: IVideoElement
 
-Defined in: main.ts:35013
+Defined in: main.ts:35440
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:35013
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35018
+Defined in: main.ts:35445
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -29,7 +29,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:35025
+Defined in: main.ts:35452
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35020
+Defined in: main.ts:35447
 
 title of a given link element
 
@@ -52,7 +52,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35015
+Defined in: main.ts:35442
 
 type of element
 
@@ -62,6 +62,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35027
+Defined in: main.ts:35454
 
 URL

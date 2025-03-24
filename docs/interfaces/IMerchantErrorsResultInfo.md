@@ -6,7 +6,7 @@
 
 # Interface: IMerchantErrorsResultInfo
 
-Defined in: main.ts:193757
+Defined in: main.ts:196166
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:193757
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:193764
+Defined in: main.ts:196173
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:193768
+Defined in: main.ts:196177
 
 error code
 
@@ -41,7 +41,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:193771
+Defined in: main.ts:196180
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -52,7 +52,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:193766
+Defined in: main.ts:196175
 
 corresponding API function
 
@@ -62,7 +62,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:193778
+Defined in: main.ts:196187
 
 HTTP status code
 
@@ -72,7 +72,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:193776
+Defined in: main.ts:196185
 
 HTTP method
 
@@ -82,7 +82,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:193784
+Defined in: main.ts:196193
 
 HTTP response
 server response
@@ -93,7 +93,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:193781
+Defined in: main.ts:196190
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -104,7 +104,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:193774
+Defined in: main.ts:196183
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -115,6 +115,6 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:193759
+Defined in: main.ts:196168
 
 id of the task

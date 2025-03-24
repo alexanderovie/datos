@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesResponseInfo
 
-Defined in: main.ts:176660
+Defined in: main.ts:179069
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:176660
 
 ## Constructors
 
-### new OnPagePagesResponseInfo()
+### Constructor
 
-> **new OnPagePagesResponseInfo**(`data`?): [`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
+> **new OnPagePagesResponseInfo**(`data`?): `OnPagePagesResponseInfo`
 
-Defined in: main.ts:176666
+Defined in: main.ts:179075
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:176666
 
 #### Returns
 
-[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
+`OnPagePagesResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:176666
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPagePagesTaskInfo`](OnPagePagesTaskInfo.md)[]
 
-Defined in: main.ts:176662
+Defined in: main.ts:179071
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176670
+Defined in: main.ts:179079
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:176670
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176692
+Defined in: main.ts:179101
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:176692
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
+> `static` **fromJS**(`data`): `OnPagePagesResponseInfo`
 
-Defined in: main.ts:176685
+Defined in: main.ts:179094
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:176685
 
 #### Returns
 
-[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
+`OnPagePagesResponseInfo`
 
 #### Overrides
 

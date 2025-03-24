@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveResultInfo
 
-Defined in: main.ts:227571
+Defined in: main.ts:229980
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:227571
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:227581
+Defined in: main.ts:229990
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:227586
+Defined in: main.ts:229995
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](../classes/BusinessDataGoogleHotelSearchesItem.md)[]
 
-Defined in: main.ts:227592
+Defined in: main.ts:230001
 
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
@@ -53,7 +53,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:227589
+Defined in: main.ts:229998
 
 item types
 the number of items in the items array
@@ -64,7 +64,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:227574
+Defined in: main.ts:229983
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -75,7 +75,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:227578
+Defined in: main.ts:229987
 
 language code in a POST array
 
@@ -85,6 +85,6 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227576
+Defined in: main.ts:229985
 
 location code in a POST array

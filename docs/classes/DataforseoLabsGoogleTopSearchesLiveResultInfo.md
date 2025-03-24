@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResultInfo
 
-Defined in: main.ts:109187
+Defined in: main.ts:110484
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:109187
 
 ## Constructors
 
-### new DataforseoLabsGoogleTopSearchesLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleTopSearchesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
+> **new DataforseoLabsGoogleTopSearchesLiveResultInfo**(`data`?): `DataforseoLabsGoogleTopSearchesLiveResultInfo`
 
-Defined in: main.ts:109209
+Defined in: main.ts:110506
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:109209
 
 #### Returns
 
-[`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
+`DataforseoLabsGoogleTopSearchesLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:109209
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:109205
+Defined in: main.ts:110502
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:109197
+Defined in: main.ts:110494
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:109193
+Defined in: main.ts:110490
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:109191
+Defined in: main.ts:110488
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:109199
+Defined in: main.ts:110496
 
 current offset value
 
@@ -110,7 +110,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:109203
+Defined in: main.ts:110500
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,7 +126,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:109189
+Defined in: main.ts:110486
 
 search engine type
 
@@ -140,7 +140,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:109195
+Defined in: main.ts:110492
 
 total amount of results in our database relevant to your request
 
@@ -154,7 +154,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109218
+Defined in: main.ts:110515
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:109218
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109246
+Defined in: main.ts:110543
 
 #### Parameters
 
@@ -188,9 +188,9 @@ Defined in: main.ts:109246
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleTopSearchesLiveResultInfo`
 
-Defined in: main.ts:109239
+Defined in: main.ts:110536
 
 #### Parameters
 
@@ -200,4 +200,4 @@ Defined in: main.ts:109239
 
 #### Returns
 
-[`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
+`DataforseoLabsGoogleTopSearchesLiveResultInfo`

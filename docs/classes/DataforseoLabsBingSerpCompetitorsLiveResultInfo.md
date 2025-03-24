@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
-Defined in: main.ts:129557
+Defined in: main.ts:131958
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:129557
 
 ## Constructors
 
-### new DataforseoLabsBingSerpCompetitorsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+> **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsBingSerpCompetitorsLiveResultInfo`
 
-Defined in: main.ts:129578
+Defined in: main.ts:131979
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:129578
 
 #### Returns
 
-[`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+`DataforseoLabsBingSerpCompetitorsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129578
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:129574
+Defined in: main.ts:131975
 
 contains detected SERP competitors and related data
 
@@ -54,7 +54,7 @@ contains detected SERP competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:129572
+Defined in: main.ts:131973
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129568
+Defined in: main.ts:131969
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129565
+Defined in: main.ts:131966
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:129559
+Defined in: main.ts:131960
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:129562
+Defined in: main.ts:131963
 
 keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -127,7 +127,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:129570
+Defined in: main.ts:131971
 
 the total amount of results in our database relevant to your request
 
@@ -141,7 +141,7 @@ the total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:129587
+Defined in: main.ts:131988
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:129587
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:129618
+Defined in: main.ts:132019
 
 #### Parameters
 
@@ -175,9 +175,9 @@ Defined in: main.ts:129618
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingSerpCompetitorsLiveResultInfo`
 
-Defined in: main.ts:129611
+Defined in: main.ts:132012
 
 #### Parameters
 
@@ -187,4 +187,4 @@ Defined in: main.ts:129611
 
 #### Returns
 
-[`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+`DataforseoLabsBingSerpCompetitorsLiveResultInfo`

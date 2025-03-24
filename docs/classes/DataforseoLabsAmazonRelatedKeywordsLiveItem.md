@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveItem
 
-Defined in: main.ts:121911
+Defined in: main.ts:124312
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:121911
 
 ## Constructors
 
-### new DataforseoLabsAmazonRelatedKeywordsLiveItem()
+### Constructor
 
-> **new DataforseoLabsAmazonRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+> **new DataforseoLabsAmazonRelatedKeywordsLiveItem**(`data`?): `DataforseoLabsAmazonRelatedKeywordsLiveItem`
 
-Defined in: main.ts:121924
+Defined in: main.ts:124325
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:121924
 
 #### Returns
 
-[`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+`DataforseoLabsAmazonRelatedKeywordsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121924
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:121917
+Defined in: main.ts:124318
 
 keyword search depth
 
@@ -54,7 +54,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:121915
+Defined in: main.ts:124316
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:121920
+Defined in: main.ts:124321
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -83,7 +83,7 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121913
+Defined in: main.ts:124314
 
 search engine type
 
@@ -97,7 +97,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121933
+Defined in: main.ts:124334
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:121933
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121957
+Defined in: main.ts:124358
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:121957
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonRelatedKeywordsLiveItem`
 
-Defined in: main.ts:121950
+Defined in: main.ts:124351
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:121950
 
 #### Returns
 
-[`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+`DataforseoLabsAmazonRelatedKeywordsLiveItem`

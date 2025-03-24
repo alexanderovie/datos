@@ -6,7 +6,7 @@
 
 # Interface: IOnPageResourcesRequestInfo
 
-Defined in: main.ts:177242
+Defined in: main.ts:179651
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:177242
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177278
+Defined in: main.ts:179687
 
 array of results filtering parameters
 optional field
@@ -40,7 +40,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:177248
+Defined in: main.ts:179657
 
 ID of the task
 required field
@@ -54,7 +54,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177259
+Defined in: main.ts:179668
 
 the maximum number of returned resources
 optional field
@@ -67,7 +67,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177264
+Defined in: main.ts:179673
 
 offset in the results array of returned resources
 optional field
@@ -80,7 +80,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177304
+Defined in: main.ts:179713
 
 results sorting rules
 optional field
@@ -102,7 +102,7 @@ example:
 
 > `optional` **relevant\_pages\_filters**: `string`[]
 
-Defined in: main.ts:177290
+Defined in: main.ts:179699
 
 filter the resources by relevant pages
 optional field
@@ -122,7 +122,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177310
+Defined in: main.ts:179719
 
 user-defined task identifier
 optional field
@@ -136,7 +136,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:177254
+Defined in: main.ts:179663
 
 page URL
 optional field

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:127941
+Defined in: main.ts:130342
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:127941
 
 ## Constructors
 
-### new DataforseoLabsBingRankedKeywordsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsBingRankedKeywordsLiveResultInfo**(`data`?): `DataforseoLabsBingRankedKeywordsLiveResultInfo`
 
-Defined in: main.ts:127967
+Defined in: main.ts:130368
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:127967
 
 #### Returns
 
-[`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+`DataforseoLabsBingRankedKeywordsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:127967
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:127963
+Defined in: main.ts:130364
 
 contains ranked keywords and related data
 
@@ -54,7 +54,7 @@ contains ranked keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:127955
+Defined in: main.ts:130356
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127951
+Defined in: main.ts:130352
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127948
+Defined in: main.ts:130349
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:127958
+Defined in: main.ts:130359
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 > `optional` **metrics\_absolute**: `object`
 
-Defined in: main.ts:127961
+Defined in: main.ts:130362
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
@@ -136,7 +136,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:127943
+Defined in: main.ts:130344
 
 search engine type
 
@@ -150,7 +150,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:127945
+Defined in: main.ts:130346
 
 target domain in a POST array
 
@@ -164,7 +164,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:127953
+Defined in: main.ts:130354
 
 total number of results in our database relevant to your request
 
@@ -178,7 +178,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:127976
+Defined in: main.ts:130377
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:127976
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128017
+Defined in: main.ts:130418
 
 #### Parameters
 
@@ -212,9 +212,9 @@ Defined in: main.ts:128017
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingRankedKeywordsLiveResultInfo`
 
-Defined in: main.ts:128010
+Defined in: main.ts:130411
 
 #### Parameters
 
@@ -224,4 +224,4 @@ Defined in: main.ts:128010
 
 #### Returns
 
-[`DataforseoLabsBingRankedKeywordsLiveResultInfo`](DataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+`DataforseoLabsBingRankedKeywordsLiveResultInfo`

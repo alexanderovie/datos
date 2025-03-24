@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLanguagesResultInfo
 
-Defined in: main.ts:28548
+Defined in: main.ts:28975
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:28548
 
 ## Constructors
 
-### new SerpGoogleLanguagesResultInfo()
+### Constructor
 
-> **new SerpGoogleLanguagesResultInfo**(`data`?): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+> **new SerpGoogleLanguagesResultInfo**(`data`?): `SerpGoogleLanguagesResultInfo`
 
-Defined in: main.ts:28556
+Defined in: main.ts:28983
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:28556
 
 #### Returns
 
-[`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+`SerpGoogleLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28556
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:28552
+Defined in: main.ts:28979
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:28550
+Defined in: main.ts:28977
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:28565
+Defined in: main.ts:28992
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:28565
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:28583
+Defined in: main.ts:29010
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:28583
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLanguagesResultInfo`
 
-Defined in: main.ts:28576
+Defined in: main.ts:29003
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:28576
 
 #### Returns
 
-[`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+`SerpGoogleLanguagesResultInfo`

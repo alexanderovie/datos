@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:79027
+Defined in: main.ts:79454
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:79027
 
 ## Constructors
 
-### new SerpYahooOrganicTaskGetHtmlResultInfo()
+### Constructor
 
-> **new SerpYahooOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+> **new SerpYahooOrganicTaskGetHtmlResultInfo**(`data`?): `SerpYahooOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:79051
+Defined in: main.ts:79478
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:79051
 
 #### Returns
 
-[`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+`SerpYahooOrganicTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:79051
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:79043
+Defined in: main.ts:79470
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:79047
+Defined in: main.ts:79474
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:79045
+Defined in: main.ts:79472
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:79030
+Defined in: main.ts:79457
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:79038
+Defined in: main.ts:79465
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:79036
+Defined in: main.ts:79463
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:79034
+Defined in: main.ts:79461
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:79032
+Defined in: main.ts:79459
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79060
+Defined in: main.ts:79487
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:79060
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79088
+Defined in: main.ts:79515
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:79088
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYahooOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:79081
+Defined in: main.ts:79508
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:79081
 
 #### Returns
 
-[`SerpYahooOrganicTaskGetHtmlResultInfo`](SerpYahooOrganicTaskGetHtmlResultInfo.md)
+`SerpYahooOrganicTaskGetHtmlResultInfo`

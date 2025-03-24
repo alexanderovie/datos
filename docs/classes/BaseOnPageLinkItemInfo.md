@@ -6,7 +6,7 @@
 
 # Class: BaseOnPageLinkItemInfo
 
-Defined in: main.ts:23346
+Defined in: main.ts:23685
 
 ## Extended by
 
@@ -21,11 +21,11 @@ Defined in: main.ts:23346
 
 ## Constructors
 
-### new BaseOnPageLinkItemInfo()
+### Constructor
 
-> **new BaseOnPageLinkItemInfo**(`data`?): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+> **new BaseOnPageLinkItemInfo**(`data`?): `BaseOnPageLinkItemInfo`
 
-Defined in: main.ts:23386
+Defined in: main.ts:23725
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: main.ts:23386
 
 #### Returns
 
-[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+`BaseOnPageLinkItemInfo`
 
 ## Properties
 
@@ -43,7 +43,7 @@ Defined in: main.ts:23386
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23384
+Defined in: main.ts:23723
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: main.ts:23384
 
 > `optional` **direction**: `string`
 
-Defined in: main.ts:23376
+Defined in: main.ts:23715
 
 direction of the link
 possible values: internal, external
@@ -66,7 +66,7 @@ possible values: internal, external
 
 > `optional` **dofollow**: `boolean`
 
-Defined in: main.ts:23369
+Defined in: main.ts:23708
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -81,7 +81,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 > `optional` **domain\_from**: `string`
 
-Defined in: main.ts:23351
+Defined in: main.ts:23690
 
 referring domain
 the link was found on this domain
@@ -96,7 +96,7 @@ the link was found on this domain
 
 > `optional` **domain\_to**: `string`
 
-Defined in: main.ts:23354
+Defined in: main.ts:23693
 
 referenced domain
 the link is pointing to this domain
@@ -111,7 +111,7 @@ the link is pointing to this domain
 
 > `optional` **is\_broken**: `boolean`
 
-Defined in: main.ts:23379
+Defined in: main.ts:23718
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -126,7 +126,7 @@ indicates whether a link is directing to a broken page or resource
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
-Defined in: main.ts:23382
+Defined in: main.ts:23721
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -141,7 +141,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_from**: `string`
 
-Defined in: main.ts:23363
+Defined in: main.ts:23702
 
 referring page
 absolute URL of the page on which the link was found
@@ -156,7 +156,7 @@ absolute URL of the page on which the link was found
 
 > `optional` **link\_to**: `string`
 
-Defined in: main.ts:23366
+Defined in: main.ts:23705
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -171,7 +171,7 @@ absolute URL of the page to which the link is pointing
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:23357
+Defined in: main.ts:23696
 
 referring page
 relative URL of the page on which the link was found
@@ -186,7 +186,7 @@ relative URL of the page on which the link was found
 
 > `optional` **page\_from\_scheme**: `string`
 
-Defined in: main.ts:23371
+Defined in: main.ts:23710
 
 url scheme of the referring page
 
@@ -200,7 +200,7 @@ url scheme of the referring page
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:23360
+Defined in: main.ts:23699
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -215,7 +215,7 @@ relative URL of the page to which the link is pointing
 
 > `optional` **page\_to\_scheme**: `string`
 
-Defined in: main.ts:23373
+Defined in: main.ts:23712
 
 url scheme of the referenced page
 
@@ -229,7 +229,7 @@ url scheme of the referenced page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23348
+Defined in: main.ts:23687
 
 type of element
 
@@ -243,7 +243,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23396
+Defined in: main.ts:23735
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:23396
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23441
+Defined in: main.ts:23780
 
 #### Parameters
 
@@ -277,9 +277,9 @@ Defined in: main.ts:23441
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+> `static` **fromJS**(`data`): `BaseOnPageLinkItemInfo`
 
-Defined in: main.ts:23414
+Defined in: main.ts:23753
 
 #### Parameters
 
@@ -289,4 +289,4 @@ Defined in: main.ts:23414
 
 #### Returns
 
-[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+`BaseOnPageLinkItemInfo`

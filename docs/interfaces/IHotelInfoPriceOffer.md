@@ -6,7 +6,7 @@
 
 # Interface: IHotelInfoPriceOffer
 
-Defined in: main.ts:226428
+Defined in: main.ts:228837
 
 featured price offers
 
@@ -20,7 +20,7 @@ featured price offers
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:226437
+Defined in: main.ts:228846
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -31,7 +31,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **free\_cancellation\_until**: `string`
 
-Defined in: main.ts:226450
+Defined in: main.ts:228859
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -43,7 +43,7 @@ equals null if free cancellation is not available for the selected dates
 
 > `optional` **max\_visitors**: `number`
 
-Defined in: main.ts:226443
+Defined in: main.ts:228852
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
@@ -54,7 +54,7 @@ the maximum number of visitors for which the price offer is valid
 
 > `optional` **offer\_images**: `string`[]
 
-Defined in: main.ts:226446
+Defined in: main.ts:228855
 
 price offer images
 URLs of the images featured in the price offer
@@ -65,7 +65,7 @@ URLs of the images featured in the price offer
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:226434
+Defined in: main.ts:228843
 
 price per night
 
@@ -75,7 +75,7 @@ price per night
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:226432
+Defined in: main.ts:228841
 
 title of the hotel
 
@@ -85,7 +85,7 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:226430
+Defined in: main.ts:228839
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226440
+Defined in: main.ts:228849
 
 url of the price offer
 URL to the page of the website where price offer appears

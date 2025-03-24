@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductSpecTaskGetHtmlResultInfo
 
-Defined in: main.ts:198979
+Defined in: main.ts:201388
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:198979
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:198994
+Defined in: main.ts:201403
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:198998
+Defined in: main.ts:201407
 
 elements of search results found on Google Shopping
 
@@ -41,7 +41,7 @@ elements of search results found on Google Shopping
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:198996
+Defined in: main.ts:201405
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:198989
+Defined in: main.ts:201398
 
 language code in a POST array
 
@@ -61,7 +61,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:198987
+Defined in: main.ts:201396
 
 location code in a POST array
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:198981
+Defined in: main.ts:201390
 
 product ID in a POST array
 
@@ -81,7 +81,7 @@ product ID in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:198985
+Defined in: main.ts:201394
 
 search engine domain in a POST array
 
@@ -91,6 +91,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:198983
+Defined in: main.ts:201392
 
 type of element

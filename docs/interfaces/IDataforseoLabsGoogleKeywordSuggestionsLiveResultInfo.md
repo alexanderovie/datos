@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
-Defined in: main.ts:104069
+Defined in: main.ts:105890
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104069
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
-Defined in: main.ts:104094
+Defined in: main.ts:105915
 
 contains keywords and related data
 
@@ -28,7 +28,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:104086
+Defined in: main.ts:105907
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104082
+Defined in: main.ts:105903
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104079
+Defined in: main.ts:105900
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104088
+Defined in: main.ts:105909
 
 current offset value
 
@@ -70,7 +70,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:104092
+Defined in: main.ts:105913
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -82,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104071
+Defined in: main.ts:105892
 
 search engine type
 
@@ -92,7 +92,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:104073
+Defined in: main.ts:105894
 
 keyword in a POST array
 
@@ -102,7 +102,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:104076
+Defined in: main.ts:105897
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
@@ -113,6 +113,6 @@ fields in this object are identical to those of the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:104084
+Defined in: main.ts:105905
 
 total amount of results in our database relevant to your request

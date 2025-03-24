@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 
-Defined in: main.ts:222226
+Defined in: main.ts:224635
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222226
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:222230
+Defined in: main.ts:224639
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:222228
+Defined in: main.ts:224637
 
 language name

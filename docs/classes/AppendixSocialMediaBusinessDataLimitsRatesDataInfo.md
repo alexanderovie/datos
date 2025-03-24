@@ -6,7 +6,7 @@
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:241403
+Defined in: main.ts:243816
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241403
 
 ## Constructors
 
-### new AppendixSocialMediaBusinessDataLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data`?): `AppendixSocialMediaBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241410
+Defined in: main.ts:243823
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241410
 
 #### Returns
 
-[`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241410
 
 > `optional` **facebook**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241404
+Defined in: main.ts:243817
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241404
 
 > `optional` **pinterest**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241405
+Defined in: main.ts:243818
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241405
 
 > `optional` **reddit**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241406
+Defined in: main.ts:243819
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241406
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241419
+Defined in: main.ts:243832
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:241419
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241438
+Defined in: main.ts:243851
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:241438
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixSocialMediaBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241431
+Defined in: main.ts:243844
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:241431
 
 #### Returns
 
-[`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`

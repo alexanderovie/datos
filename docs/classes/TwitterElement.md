@@ -6,7 +6,7 @@
 
 # Class: TwitterElement
 
-Defined in: main.ts:33966
+Defined in: main.ts:34393
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33966
 
 ## Constructors
 
-### new TwitterElement()
+### Constructor
 
-> **new TwitterElement**(`data`?): [`TwitterElement`](TwitterElement.md)
+> **new TwitterElement**(`data`?): `TwitterElement`
 
-Defined in: main.ts:33983
+Defined in: main.ts:34410
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33983
 
 #### Returns
 
-[`TwitterElement`](TwitterElement.md)
+`TwitterElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33983
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:33972
+Defined in: main.ts:34399
 
 the date when the page source of the element was published
 
@@ -54,7 +54,7 @@ the date when the page source of the element was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33977
+Defined in: main.ts:34404
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **tweet**: `string`
 
-Defined in: main.ts:33970
+Defined in: main.ts:34397
 
 tweet message
 
@@ -85,7 +85,7 @@ tweet message
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33968
+Defined in: main.ts:34395
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33979
+Defined in: main.ts:34406
 
 URL
 
@@ -113,7 +113,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33992
+Defined in: main.ts:34419
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:33992
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34013
+Defined in: main.ts:34440
 
 #### Parameters
 
@@ -147,9 +147,9 @@ Defined in: main.ts:34013
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
+> `static` **fromJS**(`data`): `TwitterElement`
 
-Defined in: main.ts:34006
+Defined in: main.ts:34433
 
 #### Parameters
 
@@ -159,4 +159,4 @@ Defined in: main.ts:34006
 
 #### Returns
 
-[`TwitterElement`](TwitterElement.md)
+`TwitterElement`

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedResultInfo
 
-Defined in: main.ts:217030
+Defined in: main.ts:219439
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:217030
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:217041
+Defined in: main.ts:219450
 
 direct URL to search engine results
 in this case, the value will be null
@@ -29,7 +29,7 @@ in this case, the value will be null
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:217046
+Defined in: main.ts:219455
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:217054
+Defined in: main.ts:219463
 
 found apps
 you can get more results by using the depth parameter when setting a task
@@ -53,7 +53,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:217051
+Defined in: main.ts:219460
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -64,7 +64,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:217032
+Defined in: main.ts:219441
 
 app collection received in a POST array
 
@@ -74,7 +74,7 @@ app collection received in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:217038
+Defined in: main.ts:219447
 
 language code in a POST array
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:217036
+Defined in: main.ts:219445
 
 location code in a POST array
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:217034
+Defined in: main.ts:219443
 
 search engine domain in a POST array
 
@@ -104,6 +104,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:217048
+Defined in: main.ts:219457
 
 the total number of results

@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTasksReadyResultInfo
 
-Defined in: main.ts:212515
+Defined in: main.ts:214924
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:212515
 
 ## Constructors
 
-### new AppDataGoogleAppReviewsTasksReadyResultInfo()
+### Constructor
 
-> **new AppDataGoogleAppReviewsTasksReadyResultInfo**(`data`?): [`AppDataGoogleAppReviewsTasksReadyResultInfo`](AppDataGoogleAppReviewsTasksReadyResultInfo.md)
+> **new AppDataGoogleAppReviewsTasksReadyResultInfo**(`data`?): `AppDataGoogleAppReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:212535
+Defined in: main.ts:214944
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:212535
 
 #### Returns
 
-[`AppDataGoogleAppReviewsTasksReadyResultInfo`](AppDataGoogleAppReviewsTasksReadyResultInfo.md)
+`AppDataGoogleAppReviewsTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212535
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:212524
+Defined in: main.ts:214933
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:212528
+Defined in: main.ts:214937
 
 URL for collecting the results of the Google App Reviews task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Google App Reviews task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:212531
+Defined in: main.ts:214940
 
 URL for collecting the results of the Google App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:212518
+Defined in: main.ts:214927
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:212520
+Defined in: main.ts:214929
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:212522
+Defined in: main.ts:214931
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:212526
+Defined in: main.ts:214935
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212544
+Defined in: main.ts:214953
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:212544
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212567
+Defined in: main.ts:214976
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:212567
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTasksReadyResultInfo`](AppDataGoogleAppReviewsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:212560
+Defined in: main.ts:214969
 
 #### Parameters
 
@@ -186,4 +186,4 @@ Defined in: main.ts:212560
 
 #### Returns
 
-[`AppDataGoogleAppReviewsTasksReadyResultInfo`](AppDataGoogleAppReviewsTasksReadyResultInfo.md)
+`AppDataGoogleAppReviewsTasksReadyResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
-Defined in: main.ts:108883
+Defined in: main.ts:110180
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:108883
 
 ## Constructors
 
-### new DataforseoLabsGoogleTopSearchesLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleTopSearchesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)
+> **new DataforseoLabsGoogleTopSearchesLiveRequestInfo**(`data`?): `DataforseoLabsGoogleTopSearchesLiveRequestInfo`
 
-Defined in: main.ts:108996
+Defined in: main.ts:110293
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:108996
 
 #### Returns
 
-[`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)
+`DataforseoLabsGoogleTopSearchesLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108996
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:108951
+Defined in: main.ts:110248
 
 array of results filtering parameters
 optional field
@@ -71,7 +71,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:108932
+Defined in: main.ts:110229
 
 ignore highly similar keywords
 optional field
@@ -88,7 +88,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:108927
+Defined in: main.ts:110224
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -107,7 +107,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:108920
+Defined in: main.ts:110217
 
 include data from SERP for each keyword
 optional field
@@ -124,7 +124,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:108915
+Defined in: main.ts:110212
 
 language code
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:108907
+Defined in: main.ts:110204
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,7 +164,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:108979
+Defined in: main.ts:110276
 
 the maximum number of returned keywords
 optional field
@@ -182,7 +182,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:108899
+Defined in: main.ts:110196
 
 location code
 required field if you don’t specify location_name
@@ -202,7 +202,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:108891
+Defined in: main.ts:110188
 
 full name of the location
 required field if you don’t specify location_code
@@ -222,7 +222,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:108984
+Defined in: main.ts:110281
 
 offset in the results array of returned keywords
 optional field
@@ -239,7 +239,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:108992
+Defined in: main.ts:110289
 
 offset token for subsequent requests
 optional field
@@ -259,7 +259,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:108967
+Defined in: main.ts:110264
 
 results sorting rules
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:108973
+Defined in: main.ts:110270
 
 user-defined task identifier
 optional field
@@ -305,7 +305,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109005
+Defined in: main.ts:110302
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Defined in: main.ts:109005
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109042
+Defined in: main.ts:110339
 
 #### Parameters
 
@@ -339,9 +339,9 @@ Defined in: main.ts:109042
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleTopSearchesLiveRequestInfo`
 
-Defined in: main.ts:109035
+Defined in: main.ts:110332
 
 #### Parameters
 
@@ -351,4 +351,4 @@ Defined in: main.ts:109035
 
 #### Returns
 
-[`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)
+`DataforseoLabsGoogleTopSearchesLiveRequestInfo`

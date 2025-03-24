@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataResultInfo
 
-Defined in: main.ts:181447
+Defined in: main.ts:183856
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181447
 
 ## Constructors
 
-### new OnPageMicrodataResultInfo()
+### Constructor
 
-> **new OnPageMicrodataResultInfo**(`data`?): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
+> **new OnPageMicrodataResultInfo**(`data`?): `OnPageMicrodataResultInfo`
 
-Defined in: main.ts:181462
+Defined in: main.ts:183871
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:181462
 
 #### Returns
 
-[`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
+`OnPageMicrodataResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181462
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:181450
+Defined in: main.ts:183859
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:181452
+Defined in: main.ts:183861
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageMicrodataItem`](OnPageMicrodataItem.md)[]
 
-Defined in: main.ts:181458
+Defined in: main.ts:183867
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:181456
+Defined in: main.ts:183865
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **test\_summary**: [`TestSummary`](TestSummary.md)
 
-Defined in: main.ts:181454
+Defined in: main.ts:183863
 
 microdata validation test results
 
@@ -111,7 +111,7 @@ microdata validation test results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181471
+Defined in: main.ts:183880
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:181471
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181496
+Defined in: main.ts:183905
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:181496
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageMicrodataResultInfo`
 
-Defined in: main.ts:181489
+Defined in: main.ts:183898
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:181489
 
 #### Returns
 
-[`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
+`OnPageMicrodataResultInfo`

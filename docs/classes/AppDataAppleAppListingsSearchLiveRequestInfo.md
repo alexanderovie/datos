@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
 
-Defined in: main.ts:218223
+Defined in: main.ts:220632
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:218223
 
 ## Constructors
 
-### new AppDataAppleAppListingsSearchLiveRequestInfo()
+### Constructor
 
-> **new AppDataAppleAppListingsSearchLiveRequestInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
+> **new AppDataAppleAppListingsSearchLiveRequestInfo**(`data`?): `AppDataAppleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:218292
+Defined in: main.ts:220701
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:218292
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
+`AppDataAppleAppListingsSearchLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218292
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:218229
+Defined in: main.ts:220638
 
 app categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:218234
+Defined in: main.ts:220643
 
 keyword in the app’s description
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:218250
+Defined in: main.ts:220659
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:218269
+Defined in: main.ts:220678
 
 the maximum number of returned apps
 optional field
@@ -115,7 +115,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:218274
+Defined in: main.ts:220683
 
 offset in the results array of returned apps
 optional field
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:218282
+Defined in: main.ts:220691
 
 token for subsequent requests
 optional field
@@ -152,7 +152,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:218264
+Defined in: main.ts:220673
 
 results sorting rules
 optional field
@@ -178,7 +178,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:218288
+Defined in: main.ts:220697
 
 user-defined task identifier
 optional field
@@ -196,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:218239
+Defined in: main.ts:220648
 
 keyword in the app’s title
 optional field
@@ -213,7 +213,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218301
+Defined in: main.ts:220710
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:218301
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218338
+Defined in: main.ts:220747
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:218338
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:218331
+Defined in: main.ts:220740
 
 #### Parameters
 
@@ -259,4 +259,4 @@ Defined in: main.ts:218331
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
+`AppDataAppleAppListingsSearchLiveRequestInfo`

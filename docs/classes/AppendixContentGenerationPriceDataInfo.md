@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationPriceDataInfo
 
-Defined in: main.ts:247485
+Defined in: main.ts:249450
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247485
 
 ## Constructors
 
-### new AppendixContentGenerationPriceDataInfo()
+### Constructor
 
-> **new AppendixContentGenerationPriceDataInfo**(`data`?): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+> **new AppendixContentGenerationPriceDataInfo**(`data`?): `AppendixContentGenerationPriceDataInfo`
 
-Defined in: main.ts:247491
+Defined in: main.ts:249456
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247491
 
 #### Returns
 
-[`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+`AppendixContentGenerationPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247491
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247487
+Defined in: main.ts:249452
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247487
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247486
+Defined in: main.ts:249451
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247486
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247500
+Defined in: main.ts:249465
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:247500
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247518
+Defined in: main.ts:249483
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:247518
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixContentGenerationPriceDataInfo`
 
-Defined in: main.ts:247511
+Defined in: main.ts:249476
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:247511
 
 #### Returns
 
-[`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+`AppendixContentGenerationPriceDataInfo`

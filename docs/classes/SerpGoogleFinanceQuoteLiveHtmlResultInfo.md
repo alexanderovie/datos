@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteLiveHtmlResultInfo
 
-Defined in: main.ts:93453
+Defined in: main.ts:93880
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:93453
 
 ## Constructors
 
-### new SerpGoogleFinanceQuoteLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceQuoteLiveHtmlResultInfo**(`data`?): [`SerpGoogleFinanceQuoteLiveHtmlResultInfo`](SerpGoogleFinanceQuoteLiveHtmlResultInfo.md)
+> **new SerpGoogleFinanceQuoteLiveHtmlResultInfo**(`data`?): `SerpGoogleFinanceQuoteLiveHtmlResultInfo`
 
-Defined in: main.ts:93477
+Defined in: main.ts:93904
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:93477
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveHtmlResultInfo`](SerpGoogleFinanceQuoteLiveHtmlResultInfo.md)
+`SerpGoogleFinanceQuoteLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93477
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:93469
+Defined in: main.ts:93896
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:93473
+Defined in: main.ts:93900
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:93471
+Defined in: main.ts:93898
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93456
+Defined in: main.ts:93883
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93464
+Defined in: main.ts:93891
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93462
+Defined in: main.ts:93889
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:93460
+Defined in: main.ts:93887
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:93458
+Defined in: main.ts:93885
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93486
+Defined in: main.ts:93913
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:93486
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93514
+Defined in: main.ts:93941
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:93514
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceQuoteLiveHtmlResultInfo`](SerpGoogleFinanceQuoteLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteLiveHtmlResultInfo`
 
-Defined in: main.ts:93507
+Defined in: main.ts:93934
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:93507
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveHtmlResultInfo`](SerpGoogleFinanceQuoteLiveHtmlResultInfo.md)
+`SerpGoogleFinanceQuoteLiveHtmlResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessDeliveryServiceInfo
 
-Defined in: main.ts:25890
+Defined in: main.ts:26229
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:25890
 
 ## Constructors
 
-### new LocalBusinessDeliveryServiceInfo()
+### Constructor
 
-> **new LocalBusinessDeliveryServiceInfo**(`data`?): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+> **new LocalBusinessDeliveryServiceInfo**(`data`?): `LocalBusinessDeliveryServiceInfo`
 
-Defined in: main.ts:25901
+Defined in: main.ts:26240
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:25901
 
 #### Returns
 
-[`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+`LocalBusinessDeliveryServiceInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25901
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:25895
+Defined in: main.ts:26234
 
 title of the element
 domain of the online food ordering system
@@ -55,7 +55,7 @@ domain of the online food ordering system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25892
+Defined in: main.ts:26231
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25897
+Defined in: main.ts:26236
 
 URL to place an order
 
@@ -83,7 +83,7 @@ URL to place an order
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25910
+Defined in: main.ts:26249
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:25910
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25929
+Defined in: main.ts:26268
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:25929
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+> `static` **fromJS**(`data`): `LocalBusinessDeliveryServiceInfo`
 
-Defined in: main.ts:25922
+Defined in: main.ts:26261
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:25922
 
 #### Returns
 
-[`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+`LocalBusinessDeliveryServiceInfo`

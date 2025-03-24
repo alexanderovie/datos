@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskPostRequestInfo
 
-Defined in: main.ts:65786
+Defined in: main.ts:66213
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:65786
 
 ## Constructors
 
-### new SerpBingOrganicTaskPostRequestInfo()
+### Constructor
 
-> **new SerpBingOrganicTaskPostRequestInfo**(`data`?): [`SerpBingOrganicTaskPostRequestInfo`](SerpBingOrganicTaskPostRequestInfo.md)
+> **new SerpBingOrganicTaskPostRequestInfo**(`data`?): `SerpBingOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:65949
+Defined in: main.ts:66376
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:65949
 
 #### Returns
 
-[`SerpBingOrganicTaskPostRequestInfo`](SerpBingOrganicTaskPostRequestInfo.md)
+`SerpBingOrganicTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:65949
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:65898
+Defined in: main.ts:66325
 
 browser screen height
 optional field
@@ -61,7 +61,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:65907
+Defined in: main.ts:66334
 
 browser screen resolution ratio
 optional field
@@ -82,7 +82,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:65889
+Defined in: main.ts:66316
 
 browser screen width
 optional field
@@ -103,7 +103,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:65880
+Defined in: main.ts:66307
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -122,7 +122,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:65866
+Defined in: main.ts:66293
 
 parsing depth
 optional field
@@ -143,7 +143,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:65850
+Defined in: main.ts:66277
 
 device type
 optional field
@@ -160,7 +160,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:65801
+Defined in: main.ts:66228
 
 keyword
 required field
@@ -181,7 +181,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:65845
+Defined in: main.ts:66272
 
 search engine language code
 required field if you don’t specify language_name
@@ -200,7 +200,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:65838
+Defined in: main.ts:66265
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -219,7 +219,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:65823
+Defined in: main.ts:66250
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -238,7 +238,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:65831
+Defined in: main.ts:66258
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -258,7 +258,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:65816
+Defined in: main.ts:66243
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -277,7 +277,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:65873
+Defined in: main.ts:66300
 
 page crawl limit
 optional field
@@ -296,7 +296,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:65857
+Defined in: main.ts:66284
 
 device operating system
 optional field
@@ -315,7 +315,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:65945
+Defined in: main.ts:66372
 
 notification URL of a completed task
 optional field
@@ -338,7 +338,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:65934
+Defined in: main.ts:66361
 
 postback_url datatype
 required field if you specify postback_url
@@ -356,7 +356,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:65928
+Defined in: main.ts:66355
 
 return URL for sending task results
 optional field
@@ -379,7 +379,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:65809
+Defined in: main.ts:66236
 
 task priority
 optional field
@@ -399,7 +399,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:65911
+Defined in: main.ts:66338
 
 additional parameters of the search query
 optional field
@@ -415,7 +415,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:65917
+Defined in: main.ts:66344
 
 user-defined task identifier
 optional field
@@ -433,7 +433,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:65792
+Defined in: main.ts:66219
 
 direct URL of the search query
 optional field
@@ -451,7 +451,7 @@ https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:65958
+Defined in: main.ts:66385
 
 #### Parameters
 
@@ -469,7 +469,7 @@ Defined in: main.ts:65958
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:65995
+Defined in: main.ts:66422
 
 #### Parameters
 
@@ -485,9 +485,9 @@ Defined in: main.ts:65995
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingOrganicTaskPostRequestInfo`](SerpBingOrganicTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpBingOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:65988
+Defined in: main.ts:66415
 
 #### Parameters
 
@@ -497,4 +497,4 @@ Defined in: main.ts:65988
 
 #### Returns
 
-[`SerpBingOrganicTaskPostRequestInfo`](SerpBingOrganicTaskPostRequestInfo.md)
+`SerpBingOrganicTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
-Defined in: main.ts:95829
+Defined in: main.ts:97732
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:95829
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`
 
-Defined in: main.ts:95906
+Defined in: main.ts:97809
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:95906
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95906
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:95852
+Defined in: main.ts:97755
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:95888
+Defined in: main.ts:97791
 
 array of results filtering parameters
 optional field
@@ -85,7 +85,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:95845
+Defined in: main.ts:97748
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -104,7 +104,7 @@ example:
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:95896
+Defined in: main.ts:97799
 
 maximum number of elements within internal arrays
 optional field
@@ -124,7 +124,7 @@ maximum value: 10000
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:95867
+Defined in: main.ts:97770
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -144,7 +144,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:95874
+Defined in: main.ts:97777
 
 search mode
 optional field
@@ -163,7 +163,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95902
+Defined in: main.ts:97805
 
 user-defined task identifier
 optional field
@@ -181,7 +181,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:95859
+Defined in: main.ts:97762
 
 target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -200,7 +200,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:95838
+Defined in: main.ts:97741
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -221,7 +221,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95915
+Defined in: main.ts:97818
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:95915
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95964
+Defined in: main.ts:97867
 
 #### Parameters
 
@@ -255,9 +255,9 @@ Defined in: main.ts:95964
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`
 
-Defined in: main.ts:95957
+Defined in: main.ts:97860
 
 #### Parameters
 
@@ -267,4 +267,4 @@ Defined in: main.ts:95957
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`

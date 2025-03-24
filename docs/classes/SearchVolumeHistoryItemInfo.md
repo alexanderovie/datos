@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeHistoryItemInfo
 
-Defined in: main.ts:156084
+Defined in: main.ts:158493
 
 device type = desktop contains historical search volume data for searches made from desktop devices
 
@@ -20,11 +20,11 @@ device type = desktop contains historical search volume data for searches made f
 
 ## Constructors
 
-### new SearchVolumeHistoryItemInfo()
+### Constructor
 
-> **new SearchVolumeHistoryItemInfo**(`data`?): [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
+> **new SearchVolumeHistoryItemInfo**(`data`?): `SearchVolumeHistoryItemInfo`
 
-Defined in: main.ts:156096
+Defined in: main.ts:158505
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:156096
 
 #### Returns
 
-[`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
+`SearchVolumeHistoryItemInfo`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:156096
 
 > `optional` **day**: `number`
 
-Defined in: main.ts:156090
+Defined in: main.ts:158499
 
 day of the month
 
@@ -56,7 +56,7 @@ day of the month
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:156088
+Defined in: main.ts:158497
 
 month
 
@@ -70,7 +70,7 @@ month
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:156092
+Defined in: main.ts:158501
 
 search volume rate
 
@@ -84,7 +84,7 @@ search volume rate
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:156086
+Defined in: main.ts:158495
 
 year
 
@@ -98,7 +98,7 @@ year
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156105
+Defined in: main.ts:158514
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:156105
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156125
+Defined in: main.ts:158534
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:156125
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
+> `static` **fromJS**(`data`): `SearchVolumeHistoryItemInfo`
 
-Defined in: main.ts:156118
+Defined in: main.ts:158527
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:156118
 
 #### Returns
 
-[`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
+`SearchVolumeHistoryItemInfo`

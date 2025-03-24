@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:218601
+Defined in: main.ts:221010
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:218601
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:218605
+Defined in: main.ts:221014
 
 the number of items in the results array
 
@@ -28,7 +28,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](../classes/AppDataAppleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:218612
+Defined in: main.ts:221021
 
 array of apps and related data
 
@@ -38,7 +38,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:218607
+Defined in: main.ts:221016
 
 offset in the results array of returned apps
 
@@ -48,7 +48,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:218610
+Defined in: main.ts:221019
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -59,6 +59,6 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:218603
+Defined in: main.ts:221012
 
 the total number of relevant results in the database

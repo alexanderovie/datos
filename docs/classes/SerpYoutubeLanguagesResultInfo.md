@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLanguagesResultInfo
 
-Defined in: main.ts:71760
+Defined in: main.ts:72187
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:71760
 
 ## Constructors
 
-### new SerpYoutubeLanguagesResultInfo()
+### Constructor
 
-> **new SerpYoutubeLanguagesResultInfo**(`data`?): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+> **new SerpYoutubeLanguagesResultInfo**(`data`?): `SerpYoutubeLanguagesResultInfo`
 
-Defined in: main.ts:71768
+Defined in: main.ts:72195
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:71768
 
 #### Returns
 
-[`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+`SerpYoutubeLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:71768
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71764
+Defined in: main.ts:72191
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:71762
+Defined in: main.ts:72189
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71777
+Defined in: main.ts:72204
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:71777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71795
+Defined in: main.ts:72222
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:71795
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeLanguagesResultInfo`
 
-Defined in: main.ts:71788
+Defined in: main.ts:72215
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:71788
 
 #### Returns
 
-[`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+`SerpYoutubeLanguagesResultInfo`

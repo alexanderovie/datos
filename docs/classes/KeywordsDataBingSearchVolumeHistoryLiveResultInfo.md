@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
-Defined in: main.ts:156713
+Defined in: main.ts:159122
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:156713
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryLiveResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`](KeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
+> **new KeywordsDataBingSearchVolumeHistoryLiveResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryLiveResultInfo`
 
-Defined in: main.ts:156733
+Defined in: main.ts:159142
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:156733
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`](KeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156733
 
 > `optional` **device**: `string`[]
 
-Defined in: main.ts:156722
+Defined in: main.ts:159131
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:156722
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:156715
+Defined in: main.ts:159124
 
 keyword in a POST array
 
@@ -66,7 +66,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:156721
+Defined in: main.ts:159130
 
 language code in a POST array
 if there is no data, then the value is null
@@ -81,7 +81,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:156718
+Defined in: main.ts:159127
 
 location code in a POST array
 if there is no data, then the value is null
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:156726
+Defined in: main.ts:159135
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -112,7 +112,7 @@ default value monthly
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
-Defined in: main.ts:156729
+Defined in: main.ts:159138
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
@@ -127,7 +127,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156742
+Defined in: main.ts:159151
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:156742
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156768
+Defined in: main.ts:159177
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:156768
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`](KeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryLiveResultInfo`
 
-Defined in: main.ts:156761
+Defined in: main.ts:159170
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:156761
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`](KeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLiveResultInfo`

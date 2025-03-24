@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
-Defined in: main.ts:225769
+Defined in: main.ts:228178
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:225769
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:225863
+Defined in: main.ts:228272
 
 number of adults
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **amenities**: `string`[]
 
-Defined in: main.ts:225946
+Defined in: main.ts:228355
 
 hotel amenities
 optional field
@@ -70,7 +70,7 @@ possible values:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:225842
+Defined in: main.ts:228251
 
 check-in date
 optional field
@@ -86,7 +86,7 @@ Note: the value cannot precede the today’s date
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:225851
+Defined in: main.ts:228260
 
 check-out date
 optional field
@@ -103,7 +103,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:225873
+Defined in: main.ts:228282
 
 number and age of children
 optional field
@@ -121,7 +121,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:225856
+Defined in: main.ts:228265
 
 currency
 optional field
@@ -134,7 +134,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:225834
+Defined in: main.ts:228243
 
 parsing depth
 optional field
@@ -151,7 +151,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **free\_cancellation**: `boolean`
 
-Defined in: main.ts:225912
+Defined in: main.ts:228321
 
 hotels with a free cancellation
 optional field
@@ -164,7 +164,7 @@ default value: false
 
 > `optional` **is\_vacation\_rentals**: `boolean`
 
-Defined in: main.ts:225917
+Defined in: main.ts:228326
 
 search for vacation rentals
 optional field
@@ -177,7 +177,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225779
+Defined in: main.ts:228188
 
 keyword
 optional field
@@ -195,7 +195,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:225825
+Defined in: main.ts:228234
 
 search engine language code
 required field if you don’t specify language_name
@@ -210,7 +210,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:225818
+Defined in: main.ts:228227
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -225,7 +225,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:225802
+Defined in: main.ts:228211
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -240,7 +240,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:225811
+Defined in: main.ts:228220
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -257,7 +257,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:225795
+Defined in: main.ts:228204
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -273,7 +273,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 > `optional` **max\_price**: `number`
 
-Defined in: main.ts:225907
+Defined in: main.ts:228316
 
 maximum price per night
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **min\_price**: `number`
 
-Defined in: main.ts:225901
+Defined in: main.ts:228310
 
 minimum price per night
 optional field
@@ -301,7 +301,7 @@ example:
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:225885
+Defined in: main.ts:228294
 
 minimum rating
 optional field
@@ -315,7 +315,7 @@ example:
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:225974
+Defined in: main.ts:228383
 
 notification URL of a completed task
 optional field
@@ -334,7 +334,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:225963
+Defined in: main.ts:228372
 
 return URL for sending task results
 optional field
@@ -353,7 +353,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:225787
+Defined in: main.ts:228196
 
 task priority
 optional field
@@ -369,7 +369,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:225895
+Defined in: main.ts:228304
 
 results sorting parameters
 optional field
@@ -387,7 +387,7 @@ default value: relevance
 
 > `optional` **stars**: `string`[]
 
-Defined in: main.ts:225879
+Defined in: main.ts:228288
 
 hotel stars
 optional field
@@ -401,7 +401,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:225952
+Defined in: main.ts:228361
 
 user-defined task identifier
 optional field

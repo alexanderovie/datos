@@ -6,7 +6,7 @@
 
 # Class: GoogleFinancePeopleAlsoSearchSerpElementItem
 
-Defined in: main.ts:88545
+Defined in: main.ts:88972
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:88545
 
 ## Constructors
 
-### new GoogleFinancePeopleAlsoSearchSerpElementItem()
+### Constructor
 
-> **new GoogleFinancePeopleAlsoSearchSerpElementItem**(`data`?): [`GoogleFinancePeopleAlsoSearchSerpElementItem`](GoogleFinancePeopleAlsoSearchSerpElementItem.md)
+> **new GoogleFinancePeopleAlsoSearchSerpElementItem**(`data`?): `GoogleFinancePeopleAlsoSearchSerpElementItem`
 
-Defined in: main.ts:88553
+Defined in: main.ts:88980
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:88553
 
 #### Returns
 
-[`GoogleFinancePeopleAlsoSearchSerpElementItem`](GoogleFinancePeopleAlsoSearchSerpElementItem.md)
+`GoogleFinancePeopleAlsoSearchSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructors)
+[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88553
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22141
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88549
+Defined in: main.ts:88976
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88558
+Defined in: main.ts:88985
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:88558
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88580
+Defined in: main.ts:89007
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:88580
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinancePeopleAlsoSearchSerpElementItem`](GoogleFinancePeopleAlsoSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFinancePeopleAlsoSearchSerpElementItem`
 
-Defined in: main.ts:88573
+Defined in: main.ts:89000
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:88573
 
 #### Returns
 
-[`GoogleFinancePeopleAlsoSearchSerpElementItem`](GoogleFinancePeopleAlsoSearchSerpElementItem.md)
+`GoogleFinancePeopleAlsoSearchSerpElementItem`
 
 #### Overrides
 

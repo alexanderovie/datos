@@ -6,7 +6,7 @@
 
 # Class: ImagesElement
 
-Defined in: main.ts:31552
+Defined in: main.ts:31979
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:31552
 
 ## Constructors
 
-### new ImagesElement()
+### Constructor
 
-> **new ImagesElement**(`data`?): [`ImagesElement`](ImagesElement.md)
+> **new ImagesElement**(`data`?): `ImagesElement`
 
-Defined in: main.ts:31565
+Defined in: main.ts:31992
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:31565
 
 #### Returns
 
-[`ImagesElement`](ImagesElement.md)
+`ImagesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31565
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:31556
+Defined in: main.ts:31983
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31561
+Defined in: main.ts:31988
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31554
+Defined in: main.ts:31981
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31558
+Defined in: main.ts:31985
 
 URL link
 
@@ -97,7 +97,7 @@ URL link
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31574
+Defined in: main.ts:32001
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:31574
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31594
+Defined in: main.ts:32021
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:31594
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
+> `static` **fromJS**(`data`): `ImagesElement`
 
-Defined in: main.ts:31587
+Defined in: main.ts:32014
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:31587
 
 #### Returns
 
-[`ImagesElement`](ImagesElement.md)
+`ImagesElement`

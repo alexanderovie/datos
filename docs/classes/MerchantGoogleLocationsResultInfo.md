@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLocationsResultInfo
 
-Defined in: main.ts:194065
+Defined in: main.ts:196474
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:194065
 
 ## Constructors
 
-### new MerchantGoogleLocationsResultInfo()
+### Constructor
 
-> **new MerchantGoogleLocationsResultInfo**(`data`?): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+> **new MerchantGoogleLocationsResultInfo**(`data`?): `MerchantGoogleLocationsResultInfo`
 
-Defined in: main.ts:194082
+Defined in: main.ts:196491
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:194082
 
 #### Returns
 
-[`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+`MerchantGoogleLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194082
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:194076
+Defined in: main.ts:196485
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:194067
+Defined in: main.ts:196476
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:194069
+Defined in: main.ts:196478
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:194074
+Defined in: main.ts:196483
 
 the name of the superordinate location
 example:
@@ -99,7 +99,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:194078
+Defined in: main.ts:196487
 
 location type
 
@@ -113,7 +113,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194091
+Defined in: main.ts:196500
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:194091
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194112
+Defined in: main.ts:196521
 
 #### Parameters
 
@@ -147,9 +147,9 @@ Defined in: main.ts:194112
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantGoogleLocationsResultInfo`
 
-Defined in: main.ts:194105
+Defined in: main.ts:196514
 
 #### Parameters
 
@@ -159,4 +159,4 @@ Defined in: main.ts:194105
 
 #### Returns
 
-[`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+`MerchantGoogleLocationsResultInfo`

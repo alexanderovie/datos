@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTasksReadyResultInfo
 
-Defined in: main.ts:64624
+Defined in: main.ts:65051
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:64624
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:64634
+Defined in: main.ts:65061
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:64642
+Defined in: main.ts:65069
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:64645
+Defined in: main.ts:65072
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:64639
+Defined in: main.ts:65066
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:64627
+Defined in: main.ts:65054
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:64629
+Defined in: main.ts:65056
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:64632
+Defined in: main.ts:65059
 
 type of search engine
 example: ads_search
@@ -93,6 +93,6 @@ example: ads_search
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:64636
+Defined in: main.ts:65063
 
 user-defined task identifier

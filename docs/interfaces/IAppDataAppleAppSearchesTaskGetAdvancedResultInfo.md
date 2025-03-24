@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
-Defined in: main.ts:215250
+Defined in: main.ts:217659
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:215250
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:215261
+Defined in: main.ts:217670
 
 direct URL to search engine results
 in this case, the value will be null
@@ -29,7 +29,7 @@ in this case, the value will be null
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:215266
+Defined in: main.ts:217675
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:215272
+Defined in: main.ts:217681
 
 found apps
 
@@ -52,7 +52,7 @@ found apps
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:215270
+Defined in: main.ts:217679
 
 the number of items in the results array
 
@@ -62,7 +62,7 @@ the number of items in the results array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:215252
+Defined in: main.ts:217661
 
 keyword received in a POST request
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:215258
+Defined in: main.ts:217667
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:215256
+Defined in: main.ts:217665
 
 location code in a POST array
 
@@ -92,7 +92,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:215254
+Defined in: main.ts:217663
 
 search engine domain in a POST array
 
@@ -102,6 +102,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:215268
+Defined in: main.ts:217677
 
 the total number of results

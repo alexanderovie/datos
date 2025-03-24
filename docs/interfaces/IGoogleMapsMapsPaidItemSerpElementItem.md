@@ -6,7 +6,7 @@
 
 # Interface: IGoogleMapsMapsPaidItemSerpElementItem
 
-Defined in: main.ts:44417
+Defined in: main.ts:44844
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:44417
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:44115
+Defined in: main.ts:44542
 
 domain in SERP
 
@@ -36,7 +36,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:44113
+Defined in: main.ts:44540
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -51,7 +51,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:44110
+Defined in: main.ts:44537
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -67,7 +67,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:44122
+Defined in: main.ts:44549
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -82,7 +82,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:44125
+Defined in: main.ts:44552
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -101,7 +101,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:44117
+Defined in: main.ts:44544
 
 title of the element
 
@@ -115,7 +115,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:44106
+Defined in: main.ts:44533
 
 type of element
 
@@ -129,7 +129,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:44119
+Defined in: main.ts:44546
 
 search URL with refinement parameters
 

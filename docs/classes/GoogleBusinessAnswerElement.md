@@ -6,7 +6,7 @@
 
 # Class: GoogleBusinessAnswerElement
 
-Defined in: main.ts:233859
+Defined in: main.ts:236268
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:233859
 
 ## Constructors
 
-### new GoogleBusinessAnswerElement()
+### Constructor
 
-> **new GoogleBusinessAnswerElement**(`data`?): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
+> **new GoogleBusinessAnswerElement**(`data`?): `GoogleBusinessAnswerElement`
 
-Defined in: main.ts:233881
+Defined in: main.ts:236290
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:233881
 
 #### Returns
 
-[`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
+`GoogleBusinessAnswerElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233881
 
 > `optional` **answer\_id**: `string`
 
-Defined in: main.ts:233863
+Defined in: main.ts:236272
 
 ID of the answer
 
@@ -54,7 +54,7 @@ ID of the answer
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:233871
+Defined in: main.ts:236280
 
 current text of the answer
 
@@ -68,7 +68,7 @@ current text of the answer
 
 > `optional` **original\_answer\_text**: `string`
 
-Defined in: main.ts:233873
+Defined in: main.ts:236282
 
 original text of the answer
 
@@ -82,7 +82,7 @@ original text of the answer
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:233865
+Defined in: main.ts:236274
 
 URL of the user’s profile image
 
@@ -96,7 +96,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:233869
+Defined in: main.ts:236278
 
 displayed name of the user
 
@@ -110,7 +110,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:233867
+Defined in: main.ts:236276
 
 URL of the user’s profile
 
@@ -124,7 +124,7 @@ URL of the user’s profile
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:233875
+Defined in: main.ts:236284
 
 estimated time when the answer was posted
 
@@ -138,7 +138,7 @@ estimated time when the answer was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:233877
+Defined in: main.ts:236286
 
 exact time when the answer was posted
 
@@ -152,7 +152,7 @@ exact time when the answer was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:233861
+Defined in: main.ts:236270
 
 type of element
 
@@ -166,7 +166,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233890
+Defined in: main.ts:236299
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:233890
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:233915
+Defined in: main.ts:236324
 
 #### Parameters
 
@@ -200,9 +200,9 @@ Defined in: main.ts:233915
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
+> `static` **fromJS**(`data`): `GoogleBusinessAnswerElement`
 
-Defined in: main.ts:233908
+Defined in: main.ts:236317
 
 #### Parameters
 
@@ -212,4 +212,4 @@ Defined in: main.ts:233908
 
 #### Returns
 
-[`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
+`GoogleBusinessAnswerElement`

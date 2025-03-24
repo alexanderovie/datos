@@ -6,7 +6,7 @@
 
 # Class: DictionarySerpElementItem
 
-Defined in: main.ts:82455
+Defined in: main.ts:82882
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:82455
 
 ## Constructors
 
-### new DictionarySerpElementItem()
+### Constructor
 
-> **new DictionarySerpElementItem**(`data`?): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+> **new DictionarySerpElementItem**(`data`?): `DictionarySerpElementItem`
 
-Defined in: main.ts:82487
+Defined in: main.ts:82914
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:82487
 
 #### Returns
 
-[`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+`DictionarySerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:82487
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:82469
+Defined in: main.ts:82896
 
 breadcrumb of the Ad element in SERP
 
@@ -74,7 +74,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:82467
+Defined in: main.ts:82894
 
 domain in SERP
 
@@ -88,7 +88,7 @@ domain in SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:82471
+Defined in: main.ts:82898
 
 keyword highlighted in the result
 
@@ -102,7 +102,7 @@ keyword highlighted in the result
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:82479
+Defined in: main.ts:82906
 
 sitelinks
 the links shown below some of search results
@@ -118,7 +118,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:82459
+Defined in: main.ts:82886
 
 the alignment of the element in SERP
 can take the following values:
@@ -134,7 +134,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -153,7 +153,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -173,7 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:82483
+Defined in: main.ts:82910
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -189,7 +189,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:82473
+Defined in: main.ts:82900
 
 snippet of the element
 
@@ -203,7 +203,7 @@ snippet of the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:82475
+Defined in: main.ts:82902
 
 description of the results element in SERP
 
@@ -217,7 +217,7 @@ description of the results element in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:82463
+Defined in: main.ts:82890
 
 title of the result in SERP
 
@@ -231,7 +231,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:82465
+Defined in: main.ts:82892
 
 relevant URL of the Ad element in SERP
 
@@ -263,7 +263,7 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:82461
+Defined in: main.ts:82888
 
 the XPath of the element
 
@@ -277,7 +277,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82492
+Defined in: main.ts:82919
 
 #### Parameters
 
@@ -299,7 +299,7 @@ Defined in: main.ts:82492
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82524
+Defined in: main.ts:82951
 
 #### Parameters
 
@@ -319,9 +319,9 @@ Defined in: main.ts:82524
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+> `static` **fromJS**(`data`): `DictionarySerpElementItem`
 
-Defined in: main.ts:82517
+Defined in: main.ts:82944
 
 #### Parameters
 
@@ -331,7 +331,7 @@ Defined in: main.ts:82517
 
 #### Returns
 
-[`DictionarySerpElementItem`](DictionarySerpElementItem.md)
+`DictionarySerpElementItem`
 
 #### Overrides
 

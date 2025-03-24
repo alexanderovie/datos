@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteLiveAdvancedResultInfo
 
-Defined in: main.ts:93013
+Defined in: main.ts:93440
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:93013
 
 ## Constructors
 
-### new SerpGoogleFinanceQuoteLiveAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceQuoteLiveAdvancedResultInfo**(`data`?): [`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`](SerpGoogleFinanceQuoteLiveAdvancedResultInfo.md)
+> **new SerpGoogleFinanceQuoteLiveAdvancedResultInfo**(`data`?): `SerpGoogleFinanceQuoteLiveAdvancedResultInfo`
 
-Defined in: main.ts:93052
+Defined in: main.ts:93479
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:93052
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`](SerpGoogleFinanceQuoteLiveAdvancedResultInfo.md)
+`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93052
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:93027
+Defined in: main.ts:93454
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:93032
+Defined in: main.ts:93459
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:93042
+Defined in: main.ts:93469
 
 types of search results in SERP
 contains types of search results (items) found in SERP;
@@ -88,7 +88,7 @@ possible item types: google_finance_hero_groups, google_finance_quote, google_fi
 
 > `optional` **items**: [`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)[]
 
-Defined in: main.ts:93048
+Defined in: main.ts:93475
 
 market indexes related to the market trends element
 
@@ -102,7 +102,7 @@ market indexes related to the market trends element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:93046
+Defined in: main.ts:93473
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93016
+Defined in: main.ts:93443
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -131,7 +131,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93024
+Defined in: main.ts:93451
 
 language code in a POST array
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:93022
+Defined in: main.ts:93449
 
 location code in a POST array
 
@@ -159,7 +159,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:93038
+Defined in: main.ts:93465
 
 search refinement chips
 in this case, the value will be null
@@ -174,7 +174,7 @@ in this case, the value will be null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:93020
+Defined in: main.ts:93447
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:93044
+Defined in: main.ts:93471
 
 total number of results in SERP
 
@@ -202,7 +202,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:93035
+Defined in: main.ts:93462
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:93018
+Defined in: main.ts:93445
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93061
+Defined in: main.ts:93488
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:93061
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93098
+Defined in: main.ts:93525
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:93098
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`](SerpGoogleFinanceQuoteLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteLiveAdvancedResultInfo`
 
-Defined in: main.ts:93091
+Defined in: main.ts:93518
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:93091
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`](SerpGoogleFinanceQuoteLiveAdvancedResultInfo.md)
+`SerpGoogleFinanceQuoteLiveAdvancedResultInfo`

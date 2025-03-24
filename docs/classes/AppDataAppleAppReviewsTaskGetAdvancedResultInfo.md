@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:217807
+Defined in: main.ts:220216
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:217807
 
 ## Constructors
 
-### new AppDataAppleAppReviewsTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new AppDataAppleAppReviewsTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+> **new AppDataAppleAppReviewsTaskGetAdvancedResultInfo**(`data`?): `AppDataAppleAppReviewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:217843
+Defined in: main.ts:220252
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:217843
 
 #### Returns
 
-[`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217843
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:217809
+Defined in: main.ts:220218
 
 application id received in a POST array
 
@@ -54,7 +54,7 @@ application id received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:217820
+Defined in: main.ts:220229
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:217825
+Defined in: main.ts:220234
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:217839
+Defined in: main.ts:220248
 
 found reviews
 
@@ -100,7 +100,7 @@ found reviews
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:217837
+Defined in: main.ts:220246
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:217817
+Defined in: main.ts:220226
 
 language code in a POST array
 
@@ -129,7 +129,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:217815
+Defined in: main.ts:220224
 
 location code in a POST array
 
@@ -143,7 +143,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:217831
+Defined in: main.ts:220240
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -158,7 +158,7 @@ rating of the application for which the reviews are collected
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:217834
+Defined in: main.ts:220243
 
 the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews
@@ -173,7 +173,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:217813
+Defined in: main.ts:220222
 
 search engine domain in a POST array
 
@@ -187,7 +187,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:217828
+Defined in: main.ts:220237
 
 title of the app
 title of the application for which the reviews are collected
@@ -202,7 +202,7 @@ title of the application for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:217811
+Defined in: main.ts:220220
 
 type of element
 
@@ -216,7 +216,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217852
+Defined in: main.ts:220261
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:217852
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217884
+Defined in: main.ts:220293
 
 #### Parameters
 
@@ -250,9 +250,9 @@ Defined in: main.ts:217884
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppReviewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:217877
+Defined in: main.ts:220286
 
 #### Parameters
 
@@ -262,4 +262,4 @@ Defined in: main.ts:217877
 
 #### Returns
 
-[`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`

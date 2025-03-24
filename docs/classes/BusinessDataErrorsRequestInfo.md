@@ -6,7 +6,7 @@
 
 # Class: BusinessDataErrorsRequestInfo
 
-Defined in: main.ts:219075
+Defined in: main.ts:221484
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:219075
 
 ## Constructors
 
-### new BusinessDataErrorsRequestInfo()
+### Constructor
 
-> **new BusinessDataErrorsRequestInfo**(`data`?): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+> **new BusinessDataErrorsRequestInfo**(`data`?): `BusinessDataErrorsRequestInfo`
 
-Defined in: main.ts:219109
+Defined in: main.ts:221518
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:219109
 
 #### Returns
 
-[`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+`BusinessDataErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219109
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:219098
+Defined in: main.ts:221507
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:219105
+Defined in: main.ts:221514
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:219091
+Defined in: main.ts:221500
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:219080
+Defined in: main.ts:221489
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:219085
+Defined in: main.ts:221494
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219118
+Defined in: main.ts:221527
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:219118
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219139
+Defined in: main.ts:221548
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:219139
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataErrorsRequestInfo`
 
-Defined in: main.ts:219132
+Defined in: main.ts:221541
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:219132
 
 #### Returns
 
-[`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+`BusinessDataErrorsRequestInfo`

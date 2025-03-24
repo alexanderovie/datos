@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBulkKeywordDifficultyLiveItem
 
-Defined in: main.ts:105511
+Defined in: main.ts:106808
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:105511
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105515
+Defined in: main.ts:106812
 
 keyword in a POST array
 
@@ -28,7 +28,7 @@ keyword in a POST array
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:105520
+Defined in: main.ts:106817
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -41,6 +41,6 @@ learn more about the metric in this help center guide
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105513
+Defined in: main.ts:106810
 
 search engine type

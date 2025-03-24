@@ -6,7 +6,7 @@
 
 # Class: ProductCategoryInfo
 
-Defined in: main.ts:203431
+Defined in: main.ts:205840
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:203431
 
 ## Constructors
 
-### new ProductCategoryInfo()
+### Constructor
 
-> **new ProductCategoryInfo**(`data`?): [`ProductCategoryInfo`](ProductCategoryInfo.md)
+> **new ProductCategoryInfo**(`data`?): `ProductCategoryInfo`
 
-Defined in: main.ts:203440
+Defined in: main.ts:205849
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:203440
 
 #### Returns
 
-[`ProductCategoryInfo`](ProductCategoryInfo.md)
+`ProductCategoryInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203440
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:203433
+Defined in: main.ts:205842
 
 product category name
 
@@ -54,7 +54,7 @@ product category name
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:203436
+Defined in: main.ts:205845
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
@@ -69,7 +69,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203449
+Defined in: main.ts:205858
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:203449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203467
+Defined in: main.ts:205876
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:203467
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
+> `static` **fromJS**(`data`): `ProductCategoryInfo`
 
-Defined in: main.ts:203460
+Defined in: main.ts:205869
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:203460
 
 #### Returns
 
-[`ProductCategoryInfo`](ProductCategoryInfo.md)
+`ProductCategoryInfo`

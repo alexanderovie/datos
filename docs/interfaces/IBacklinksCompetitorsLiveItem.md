@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksCompetitorsLiveItem
 
-Defined in: main.ts:166601
+Defined in: main.ts:169010
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:166601
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:166612
+Defined in: main.ts:169021
 
 indicates the number of backlink intersections with the target specified in the POST array
 
@@ -28,7 +28,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:166610
+Defined in: main.ts:169019
 
 domain rank
 domain rank across all domains in the database
@@ -41,7 +41,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:166605
+Defined in: main.ts:169014
 
 competitor domain
 
@@ -51,6 +51,6 @@ competitor domain
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:166603
+Defined in: main.ts:169012
 
 type of element

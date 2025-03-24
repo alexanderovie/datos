@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveResultInfo
 
-Defined in: main.ts:170981
+Defined in: main.ts:173390
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170981
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
+> **new BacklinksBulkReferringDomainsLiveResultInfo**(`data`?): `BacklinksBulkReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:170989
+Defined in: main.ts:173398
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170989
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
+`BacklinksBulkReferringDomainsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170989
 
 > `optional` **items**: [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:170985
+Defined in: main.ts:173394
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170983
+Defined in: main.ts:173392
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170998
+Defined in: main.ts:173407
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:170998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171020
+Defined in: main.ts:173429
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:171020
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:171013
+Defined in: main.ts:173422
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:171013
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
+`BacklinksBulkReferringDomainsLiveResultInfo`

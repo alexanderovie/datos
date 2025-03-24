@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
 
-Defined in: main.ts:247077
+Defined in: main.ts:249042
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247077
 
 ## Constructors
 
-### new AppendixGoogleBusinessDataPriceDataInfo()
+### Constructor
 
-> **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): `AppendixGoogleBusinessDataPriceDataInfo`
 
-Defined in: main.ts:247085
+Defined in: main.ts:249050
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247085
 
 #### Returns
 
-[`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+`AppendixGoogleBusinessDataPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247085
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247078
+Defined in: main.ts:249043
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247078
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247079
+Defined in: main.ts:249044
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247079
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247080
+Defined in: main.ts:249045
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247080
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247081
+Defined in: main.ts:249046
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247081
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247094
+Defined in: main.ts:249059
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:247094
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247114
+Defined in: main.ts:249079
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:247114
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixGoogleBusinessDataPriceDataInfo`
 
-Defined in: main.ts:247107
+Defined in: main.ts:249072
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:247107
 
 #### Returns
 
-[`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+`AppendixGoogleBusinessDataPriceDataInfo`

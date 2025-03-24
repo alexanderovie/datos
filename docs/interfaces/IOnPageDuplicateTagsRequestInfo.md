@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateTagsRequestInfo
 
-Defined in: main.ts:178058
+Defined in: main.ts:180467
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:178058
 
 > `optional` **accumulator**: `string`
 
-Defined in: main.ts:178070
+Defined in: main.ts:180479
 
 tag value
 optional field
@@ -30,7 +30,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:178064
+Defined in: main.ts:180473
 
 ID of the task
 required field
@@ -44,7 +44,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:178075
+Defined in: main.ts:180484
 
 the maximum number of returned pages
 optional field
@@ -57,7 +57,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:178080
+Defined in: main.ts:180489
 
 offset in the results array of returned pages
 optional field
@@ -70,7 +70,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:178086
+Defined in: main.ts:180495
 
 user-defined task identifier
 optional field
@@ -84,6 +84,6 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:178066
+Defined in: main.ts:180475
 
 type of element

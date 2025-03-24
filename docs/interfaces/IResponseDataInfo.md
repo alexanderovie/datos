@@ -6,7 +6,7 @@
 
 # Interface: IResponseDataInfo
 
-Defined in: main.ts:212830
+Defined in: main.ts:215239
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212830
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:212832
+Defined in: main.ts:215241
 
 author of the response
 
@@ -28,7 +28,7 @@ author of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:212837
+Defined in: main.ts:215246
 
 content of the response
 
@@ -38,7 +38,7 @@ content of the response
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:212842
+Defined in: main.ts:215251
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -51,7 +51,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:212835
+Defined in: main.ts:215244
 
 title of the response
 in this case, will equal null

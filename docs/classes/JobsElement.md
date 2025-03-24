@@ -6,7 +6,7 @@
 
 # Class: JobsElement
 
-Defined in: main.ts:34240
+Defined in: main.ts:34667
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:34240
 
 ## Constructors
 
-### new JobsElement()
+### Constructor
 
-> **new JobsElement**(`data`?): [`JobsElement`](JobsElement.md)
+> **new JobsElement**(`data`?): `JobsElement`
 
-Defined in: main.ts:34265
+Defined in: main.ts:34692
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:34265
 
 #### Returns
 
-[`JobsElement`](JobsElement.md)
+`JobsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34265
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:34248
+Defined in: main.ts:34675
 
 author
 
@@ -54,7 +54,7 @@ author
 
 > `optional` **contract\_type**: `string`
 
-Defined in: main.ts:34257
+Defined in: main.ts:34684
 
 contract type
 
@@ -68,7 +68,7 @@ contract type
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34246
+Defined in: main.ts:34673
 
 description
 
@@ -82,7 +82,7 @@ description
 
 > `optional` **job\_posted\_time**: `string`
 
-Defined in: main.ts:34250
+Defined in: main.ts:34677
 
 the time when the job was posted
 
@@ -96,7 +96,7 @@ the time when the job was posted
 
 > `optional` **salary**: `string`
 
-Defined in: main.ts:34259
+Defined in: main.ts:34686
 
 salary
 
@@ -110,7 +110,7 @@ salary
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:34255
+Defined in: main.ts:34682
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,7 +127,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34244
+Defined in: main.ts:34671
 
 title of a given link element
 
@@ -141,7 +141,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34242
+Defined in: main.ts:34669
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34261
+Defined in: main.ts:34688
 
 URL
 
@@ -169,7 +169,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34274
+Defined in: main.ts:34701
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:34274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34299
+Defined in: main.ts:34726
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:34299
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`JobsElement`](JobsElement.md)
+> `static` **fromJS**(`data`): `JobsElement`
 
-Defined in: main.ts:34292
+Defined in: main.ts:34719
 
 #### Parameters
 
@@ -215,4 +215,4 @@ Defined in: main.ts:34292
 
 #### Returns
 
-[`JobsElement`](JobsElement.md)
+`JobsElement`

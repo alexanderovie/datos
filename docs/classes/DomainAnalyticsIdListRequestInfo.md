@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListRequestInfo
 
-Defined in: main.ts:93671
+Defined in: main.ts:95574
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:93671
 
 ## Constructors
 
-### new DomainAnalyticsIdListRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsIdListRequestInfo**(`data`?): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+> **new DomainAnalyticsIdListRequestInfo**(`data`?): `DomainAnalyticsIdListRequestInfo`
 
-Defined in: main.ts:93709
+Defined in: main.ts:95612
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:93709
 
 #### Returns
 
-[`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+`DomainAnalyticsIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93709
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:93679
+Defined in: main.ts:95582
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:93686
+Defined in: main.ts:95589
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:93705
+Defined in: main.ts:95608
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:93691
+Defined in: main.ts:95594
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:93696
+Defined in: main.ts:95599
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:93701
+Defined in: main.ts:95604
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93718
+Defined in: main.ts:95621
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:93718
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93740
+Defined in: main.ts:95643
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:93740
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsIdListRequestInfo`
 
-Defined in: main.ts:93733
+Defined in: main.ts:95636
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:93733
 
 #### Returns
 
-[`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
+`DomainAnalyticsIdListRequestInfo`

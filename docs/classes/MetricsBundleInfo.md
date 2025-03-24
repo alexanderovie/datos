@@ -6,7 +6,7 @@
 
 # Class: MetricsBundleInfo
 
-Defined in: main.ts:98761
+Defined in: main.ts:100664
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:98761
 
 ## Constructors
 
-### new MetricsBundleInfo()
+### Constructor
 
-> **new MetricsBundleInfo**(`data`?): [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> **new MetricsBundleInfo**(`data`?): `MetricsBundleInfo`
 
-Defined in: main.ts:98769
+Defined in: main.ts:100672
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:98769
 
 #### Returns
 
-[`MetricsBundleInfo`](MetricsBundleInfo.md)
+`MetricsBundleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98769
 
 > `optional` **organic**: [`MetricsInfo`](MetricsInfo.md)
 
-Defined in: main.ts:98763
+Defined in: main.ts:100666
 
 ranking and traffic data from organic search
 
@@ -54,7 +54,7 @@ ranking and traffic data from organic search
 
 > `optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
 
-Defined in: main.ts:98765
+Defined in: main.ts:100668
 
 ranking and traffic data from paid search
 
@@ -68,7 +68,7 @@ ranking and traffic data from paid search
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98778
+Defined in: main.ts:100681
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:98778
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:98796
+Defined in: main.ts:100699
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:98796
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> `static` **fromJS**(`data`): `MetricsBundleInfo`
 
-Defined in: main.ts:98789
+Defined in: main.ts:100692
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:98789
 
 #### Returns
 
-[`MetricsBundleInfo`](MetricsBundleInfo.md)
+`MetricsBundleInfo`

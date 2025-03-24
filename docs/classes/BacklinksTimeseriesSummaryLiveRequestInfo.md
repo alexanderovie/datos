@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
-Defined in: main.ts:168803
+Defined in: main.ts:171212
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:168803
 
 ## Constructors
 
-### new BacklinksTimeseriesSummaryLiveRequestInfo()
+### Constructor
 
-> **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
+> **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): `BacklinksTimeseriesSummaryLiveRequestInfo`
 
-Defined in: main.ts:168855
+Defined in: main.ts:171264
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:168855
 
 #### Returns
 
-[`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
+`BacklinksTimeseriesSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168855
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:168818
+Defined in: main.ts:171227
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:168827
+Defined in: main.ts:171236
 
 ending date of the time range
 optional field
@@ -82,7 +82,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:168840
+Defined in: main.ts:171249
 
 time range which will be used to group the results
 optional field
@@ -107,7 +107,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:168845
+Defined in: main.ts:171254
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -124,7 +124,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:168851
+Defined in: main.ts:171260
 
 user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:168809
+Defined in: main.ts:171218
 
 domain to get data for
 required field
@@ -160,7 +160,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168864
+Defined in: main.ts:171273
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:168864
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168886
+Defined in: main.ts:171295
 
 #### Parameters
 
@@ -194,9 +194,9 @@ Defined in: main.ts:168886
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksTimeseriesSummaryLiveRequestInfo`
 
-Defined in: main.ts:168879
+Defined in: main.ts:171288
 
 #### Parameters
 
@@ -206,4 +206,4 @@ Defined in: main.ts:168879
 
 #### Returns
 
-[`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
+`BacklinksTimeseriesSummaryLiveRequestInfo`

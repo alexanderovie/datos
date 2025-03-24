@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTasksFixedResultInfo
 
-Defined in: main.ts:58163
+Defined in: main.ts:58590
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:58163
 
 ## Constructors
 
-### new SerpGoogleAutocompleteTasksFixedResultInfo()
+### Constructor
 
-> **new SerpGoogleAutocompleteTasksFixedResultInfo**(`data`?): [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
+> **new SerpGoogleAutocompleteTasksFixedResultInfo**(`data`?): `SerpGoogleAutocompleteTasksFixedResultInfo`
 
-Defined in: main.ts:58188
+Defined in: main.ts:58615
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:58188
 
 #### Returns
 
-[`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
+`SerpGoogleAutocompleteTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58188
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:58173
+Defined in: main.ts:58600
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:58181
+Defined in: main.ts:58608
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:58184
+Defined in: main.ts:58611
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:58178
+Defined in: main.ts:58605
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:58166
+Defined in: main.ts:58593
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:58168
+Defined in: main.ts:58595
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:58171
+Defined in: main.ts:58598
 
 type of search engine
 can take the following values: autocomplete
@@ -143,7 +143,7 @@ can take the following values: autocomplete
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:58175
+Defined in: main.ts:58602
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:58197
+Defined in: main.ts:58624
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:58197
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:58221
+Defined in: main.ts:58648
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:58221
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAutocompleteTasksFixedResultInfo`
 
-Defined in: main.ts:58214
+Defined in: main.ts:58641
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:58214
 
 #### Returns
 
-[`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
+`SerpGoogleAutocompleteTasksFixedResultInfo`

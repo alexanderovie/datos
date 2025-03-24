@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsResultInfo
 
-Defined in: main.ts:207677
+Defined in: main.ts:210086
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:207677
 
 ## Constructors
 
-### new AppDataErrorsResultInfo()
+### Constructor
 
-> **new AppDataErrorsResultInfo**(`data`?): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+> **new AppDataErrorsResultInfo**(`data`?): `AppDataErrorsResultInfo`
 
-Defined in: main.ts:207708
+Defined in: main.ts:210117
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:207708
 
 #### Returns
 
-[`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+`AppDataErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:207708
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:207684
+Defined in: main.ts:210093
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:207688
+Defined in: main.ts:210097
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:207691
+Defined in: main.ts:210100
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:207686
+Defined in: main.ts:210095
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:207698
+Defined in: main.ts:210107
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:207696
+Defined in: main.ts:210105
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:207704
+Defined in: main.ts:210113
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:207701
+Defined in: main.ts:210110
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:207694
+Defined in: main.ts:210103
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:207679
+Defined in: main.ts:210088
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207717
+Defined in: main.ts:210126
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:207717
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207743
+Defined in: main.ts:210152
 
 #### Parameters
 
@@ -221,9 +221,9 @@ Defined in: main.ts:207743
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataErrorsResultInfo`
 
-Defined in: main.ts:207736
+Defined in: main.ts:210145
 
 #### Parameters
 
@@ -233,4 +233,4 @@ Defined in: main.ts:207736
 
 #### Returns
 
-[`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+`AppDataErrorsResultInfo`

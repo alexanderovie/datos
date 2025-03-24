@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeTaskGetResultInfo
 
-Defined in: main.ts:148631
+Defined in: main.ts:151040
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:148631
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeTaskGetResultInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeTaskGetResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+> **new KeywordsDataBingSearchVolumeTaskGetResultInfo**(`data`?): `KeywordsDataBingSearchVolumeTaskGetResultInfo`
 
-Defined in: main.ts:148670
+Defined in: main.ts:151079
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:148670
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+`KeywordsDataBingSearchVolumeTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148670
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:148662
+Defined in: main.ts:151071
 
 product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null
@@ -55,7 +55,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:148650
+Defined in: main.ts:151059
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -75,7 +75,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:148654
+Defined in: main.ts:151063
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -91,7 +91,7 @@ if there is no data then the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:148642
+Defined in: main.ts:151051
 
 device type in a POST array
 if there is no data, then the value is null
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:148633
+Defined in: main.ts:151042
 
 keyword in a POST array
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:148637
+Defined in: main.ts:151046
 
 language code in a POST array
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148635
+Defined in: main.ts:151044
 
 location code in a POST array
 
@@ -148,7 +148,7 @@ location code in a POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:148666
+Defined in: main.ts:151075
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -164,7 +164,7 @@ if there is no data then the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:148639
+Defined in: main.ts:151048
 
 indicates whether data from partner networks included in the response
 
@@ -178,7 +178,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:148659
+Defined in: main.ts:151068
 
 monthly average search volume rate
 represents either the (approximate) number of searches for the given keyword idea on bing search engine, depending on the user’s targeting
@@ -195,7 +195,7 @@ if there is no data then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148679
+Defined in: main.ts:151088
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:148679
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148713
+Defined in: main.ts:151122
 
 #### Parameters
 
@@ -229,9 +229,9 @@ Defined in: main.ts:148713
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeTaskGetResultInfo`
 
-Defined in: main.ts:148706
+Defined in: main.ts:151115
 
 #### Parameters
 
@@ -241,4 +241,4 @@ Defined in: main.ts:148706
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+`KeywordsDataBingSearchVolumeTaskGetResultInfo`

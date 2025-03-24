@@ -6,7 +6,7 @@
 
 # Interface: IAboutThisResultElement
 
-Defined in: main.ts:23987
+Defined in: main.ts:24326
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23987
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:24000
+Defined in: main.ts:24339
 
 the language of the result
 
@@ -28,7 +28,7 @@ the language of the result
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:24002
+Defined in: main.ts:24341
 
 location for which the result is relevant
 
@@ -38,7 +38,7 @@ location for which the result is relevant
 
 > `optional` **related\_terms**: `string`[]
 
-Defined in: main.ts:24006
+Defined in: main.ts:24345
 
 related search terms that appear in the result
 
@@ -48,7 +48,7 @@ related search terms that appear in the result
 
 > `optional` **search\_terms**: `string`[]
 
-Defined in: main.ts:24004
+Defined in: main.ts:24343
 
 matching search terms that appear in the result
 
@@ -58,7 +58,7 @@ matching search terms that appear in the result
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:23993
+Defined in: main.ts:24332
 
 source of additional information about the result
 
@@ -68,7 +68,7 @@ source of additional information about the result
 
 > `optional` **source\_info**: `string`
 
-Defined in: main.ts:23996
+Defined in: main.ts:24335
 
 additional information about the result
 description of the website from Wikipedia or another additional context
@@ -79,7 +79,7 @@ description of the website from Wikipedia or another additional context
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:23998
+Defined in: main.ts:24337
 
 URL to full information from the 'source'
 
@@ -89,7 +89,7 @@ URL to full information from the 'source'
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23989
+Defined in: main.ts:24328
 
 type of element
 
@@ -99,6 +99,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23991
+Defined in: main.ts:24330
 
 result’s URL

@@ -6,7 +6,7 @@
 
 # Class: YoutubeSubtitlesSerpElementItem
 
-Defined in: main.ts:74633
+Defined in: main.ts:75060
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:74633
 
 ## Constructors
 
-### new YoutubeSubtitlesSerpElementItem()
+### Constructor
 
-> **new YoutubeSubtitlesSerpElementItem**(`data`?): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+> **new YoutubeSubtitlesSerpElementItem**(`data`?): `YoutubeSubtitlesSerpElementItem`
 
-Defined in: main.ts:74645
+Defined in: main.ts:75072
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:74645
 
 #### Returns
 
-[`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+`YoutubeSubtitlesSerpElementItem`
 
 #### Overrides
 
-[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructors)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:74645
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:72909
+Defined in: main.ts:73336
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:72909
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:74641
+Defined in: main.ts:75068
 
 duration of subtitles in seconds
 
@@ -74,7 +74,7 @@ duration of subtitles in seconds
 
 > `optional` **end\_time**: `number`
 
-Defined in: main.ts:74639
+Defined in: main.ts:75066
 
 the second subtitled text ends
 
@@ -88,7 +88,7 @@ the second subtitled text ends
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:72907
+Defined in: main.ts:73334
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:72904
+Defined in: main.ts:73331
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **start\_time**: `number`
 
-Defined in: main.ts:74637
+Defined in: main.ts:75064
 
 the second subtitled text starts
 
@@ -141,7 +141,7 @@ the second subtitled text starts
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:74635
+Defined in: main.ts:75062
 
 text translated in subtitles
 
@@ -155,7 +155,7 @@ text translated in subtitles
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:72900
+Defined in: main.ts:73327
 
 type of element
 
@@ -173,7 +173,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74650
+Defined in: main.ts:75077
 
 #### Parameters
 
@@ -195,7 +195,7 @@ Defined in: main.ts:74650
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74671
+Defined in: main.ts:75098
 
 #### Parameters
 
@@ -215,9 +215,9 @@ Defined in: main.ts:74671
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+> `static` **fromJS**(`data`): `YoutubeSubtitlesSerpElementItem`
 
-Defined in: main.ts:74664
+Defined in: main.ts:75091
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:74664
 
 #### Returns
 
-[`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
+`YoutubeSubtitlesSerpElementItem`
 
 #### Overrides
 

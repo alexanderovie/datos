@@ -6,7 +6,7 @@
 
 # Class: Interests
 
-Defined in: main.ts:146011
+Defined in: main.ts:148420
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146011
 
 ## Constructors
 
-### new Interests()
+### Constructor
 
-> **new Interests**(`data`?): [`Interests`](Interests.md)
+> **new Interests**(`data`?): `Interests`
 
-Defined in: main.ts:146020
+Defined in: main.ts:148429
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146020
 
 #### Returns
 
-[`Interests`](Interests.md)
+`Interests`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146020
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:146014
+Defined in: main.ts:148423
 
 relevant keyword
 the data included in the values element is based on this keyword
@@ -55,7 +55,7 @@ the data included in the values element is based on this keyword
 
 > `optional` **values**: [`Values`](Values.md)[]
 
-Defined in: main.ts:146016
+Defined in: main.ts:148425
 
 contains data on relative keyword popularity by country or region
 
@@ -69,7 +69,7 @@ contains data on relative keyword popularity by country or region
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146029
+Defined in: main.ts:148438
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:146029
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146051
+Defined in: main.ts:148460
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:146051
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Interests`](Interests.md)
+> `static` **fromJS**(`data`): `Interests`
 
-Defined in: main.ts:146044
+Defined in: main.ts:148453
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:146044
 
 #### Returns
 
-[`Interests`](Interests.md)
+`Interests`

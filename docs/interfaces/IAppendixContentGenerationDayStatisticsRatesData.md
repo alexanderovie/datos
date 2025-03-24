@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentGenerationDayStatisticsRatesData
 
-Defined in: main.ts:244066
+Defined in: main.ts:246427
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:244066
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244071
+Defined in: main.ts:246432
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:244071
 
 > `optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:244067
+Defined in: main.ts:246428
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:244067
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:244068
+Defined in: main.ts:246429
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:244068
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:244073
+Defined in: main.ts:246434
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:244073
 
 > `optional` **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:244069
+Defined in: main.ts:246430
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:244069
 
 > `optional` **grammar\_rules**: `number`
 
-Defined in: main.ts:244074
+Defined in: main.ts:246435
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:244074
 
 > `optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:244070
+Defined in: main.ts:246431
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: main.ts:244070
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244072
+Defined in: main.ts:246433

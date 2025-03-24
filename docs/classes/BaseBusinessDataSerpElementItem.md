@@ -6,7 +6,7 @@
 
 # Class: BaseBusinessDataSerpElementItem
 
-Defined in: main.ts:23007
+Defined in: main.ts:23346
 
 ## Extended by
 
@@ -25,11 +25,11 @@ Defined in: main.ts:23007
 
 ## Constructors
 
-### new BaseBusinessDataSerpElementItem()
+### Constructor
 
-> **new BaseBusinessDataSerpElementItem**(`data`?): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+> **new BaseBusinessDataSerpElementItem**(`data`?): `BaseBusinessDataSerpElementItem`
 
-Defined in: main.ts:23018
+Defined in: main.ts:23357
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: main.ts:23018
 
 #### Returns
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+`BaseBusinessDataSerpElementItem`
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: main.ts:23018
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: main.ts:23016
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -69,7 +69,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -84,7 +84,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -98,7 +98,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23028
+Defined in: main.ts:23367
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:23028
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23083
+Defined in: main.ts:23422
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:23083
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseBusinessDataSerpElementItem`
 
-Defined in: main.ts:23036
+Defined in: main.ts:23375
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:23036
 
 #### Returns
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+`BaseBusinessDataSerpElementItem`

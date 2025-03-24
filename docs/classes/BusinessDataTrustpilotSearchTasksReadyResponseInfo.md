@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResponseInfo
 
-Defined in: main.ts:235256
+Defined in: main.ts:237665
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:235256
 
 ## Constructors
 
-### new BusinessDataTrustpilotSearchTasksReadyResponseInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotSearchTasksReadyResponseInfo**(`data`?): [`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)
+> **new BusinessDataTrustpilotSearchTasksReadyResponseInfo**(`data`?): `BusinessDataTrustpilotSearchTasksReadyResponseInfo`
 
-Defined in: main.ts:235262
+Defined in: main.ts:237671
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:235262
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)
+`BusinessDataTrustpilotSearchTasksReadyResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:235262
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTrustpilotSearchTasksReadyTaskInfo`](BusinessDataTrustpilotSearchTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:235258
+Defined in: main.ts:237667
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235266
+Defined in: main.ts:237675
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:235266
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235288
+Defined in: main.ts:237697
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:235288
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTasksReadyResponseInfo`
 
-Defined in: main.ts:235281
+Defined in: main.ts:237690
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:235281
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTasksReadyResponseInfo`](BusinessDataTrustpilotSearchTasksReadyResponseInfo.md)
+`BusinessDataTrustpilotSearchTasksReadyResponseInfo`
 
 #### Overrides
 

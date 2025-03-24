@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
-Defined in: main.ts:166335
+Defined in: main.ts:168744
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:166335
 
 ## Constructors
 
-### new BacklinksCompetitorsLiveRequestInfo()
+### Constructor
 
-> **new BacklinksCompetitorsLiveRequestInfo**(`data`?): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+> **new BacklinksCompetitorsLiveRequestInfo**(`data`?): `BacklinksCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:166404
+Defined in: main.ts:168813
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:166404
 
 #### Returns
 
-[`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+`BacklinksCompetitorsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166404
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:166394
+Defined in: main.ts:168803
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -58,7 +58,7 @@ default value: true
 
 > `optional` **exclude\_large\_domains**: `boolean`
 
-Defined in: main.ts:166388
+Defined in: main.ts:168797
 
 indicates whether large domain will appear in results
 optional field
@@ -75,7 +75,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:166364
+Defined in: main.ts:168773
 
 array of results filtering parameters
 optional field
@@ -101,7 +101,7 @@ The full list of possible filters is available here.
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:166345
+Defined in: main.ts:168754
 
 the maximum number of returned domains
 optional field
@@ -118,7 +118,7 @@ maximum value: 1000
 
 > `optional` **main\_domain**: `boolean`
 
-Defined in: main.ts:166383
+Defined in: main.ts:168792
 
 indicates if only main domain of the target will be included in the search
 optional field
@@ -135,7 +135,7 @@ default value: true
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:166350
+Defined in: main.ts:168759
 
 offset in the results array of returned domains
 optional field
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:166378
+Defined in: main.ts:168787
 
 results sorting rules
 optional field
@@ -178,7 +178,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:166400
+Defined in: main.ts:168809
 
 user-defined task identifier
 optional field
@@ -196,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:166340
+Defined in: main.ts:168749
 
 domain, subdomain or webpage to get competitor domains for
 required field
@@ -213,7 +213,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166413
+Defined in: main.ts:168822
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:166413
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166446
+Defined in: main.ts:168855
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:166446
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:166439
+Defined in: main.ts:168848
 
 #### Parameters
 
@@ -259,4 +259,4 @@ Defined in: main.ts:166439
 
 #### Returns
 
-[`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)
+`BacklinksCompetitorsLiveRequestInfo`

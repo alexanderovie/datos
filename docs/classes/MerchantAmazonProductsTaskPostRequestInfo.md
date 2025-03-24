@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTaskPostRequestInfo
 
-Defined in: main.ts:200981
+Defined in: main.ts:203390
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:200981
 
 ## Constructors
 
-### new MerchantAmazonProductsTaskPostRequestInfo()
+### Constructor
 
-> **new MerchantAmazonProductsTaskPostRequestInfo**(`data`?): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+> **new MerchantAmazonProductsTaskPostRequestInfo**(`data`?): `MerchantAmazonProductsTaskPostRequestInfo`
 
-Defined in: main.ts:201143
+Defined in: main.ts:203552
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:201143
 
 #### Returns
 
-[`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+`MerchantAmazonProductsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:201143
 
 > `optional` **department**: `string`
 
-Defined in: main.ts:201069
+Defined in: main.ts:203478
 
 amazon product department
 optional field
@@ -57,7 +57,7 @@ specify one of the following amazon departments for extracting product listings:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:201057
+Defined in: main.ts:203466
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:200988
+Defined in: main.ts:203397
 
 keyword
 required field
@@ -97,7 +97,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:201041
+Defined in: main.ts:203450
 
 search engine language code
 required field if you don’t specify language_name
@@ -116,7 +116,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:201034
+Defined in: main.ts:203443
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English (United Kingdom)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:201017
+Defined in: main.ts:203426
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:201026
+Defined in: main.ts:203435
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:201009
+Defined in: main.ts:203418
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -196,7 +196,7 @@ HA1,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:201064
+Defined in: main.ts:203473
 
 page crawl limit
 optional field
@@ -215,7 +215,7 @@ learn more at our help center
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:201139
+Defined in: main.ts:203548
 
 notification URL of a completed task
 optional field
@@ -238,7 +238,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:201128
+Defined in: main.ts:203537
 
 postback_url datatype
 required field if you specify postback_url
@@ -256,7 +256,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:201122
+Defined in: main.ts:203531
 
 return URL for sending task results
 optional field
@@ -279,7 +279,7 @@ learn more on our Help Center
 
 > `optional` **price\_max**: `number`
 
-Defined in: main.ts:201097
+Defined in: main.ts:203506
 
 maximum product price
 optional field
@@ -298,7 +298,7 @@ Note: if you specify price_max, the search_param parameter will be ignored
 
 > `optional` **price\_min**: `number`
 
-Defined in: main.ts:201090
+Defined in: main.ts:203499
 
 minimum product price
 optional field
@@ -317,7 +317,7 @@ Note: if you specify price_min, the search_param parameter will be ignored
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:201002
+Defined in: main.ts:203411
 
 task priority
 optional field
@@ -337,7 +337,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:201048
+Defined in: main.ts:203457
 
 search engine domain
 optional field
@@ -356,7 +356,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:201083
+Defined in: main.ts:203492
 
 additional parameters of the search query
 optional field
@@ -382,7 +382,7 @@ Note that search_param values will be ignored if any of the following parameters
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:201105
+Defined in: main.ts:203514
 
 results sorting rules
 optional field
@@ -402,7 +402,7 @@ Note: if you specify sort_by, the search_param parameter will be ignored
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:201111
+Defined in: main.ts:203520
 
 user-defined task identifier
 optional field
@@ -420,7 +420,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:200994
+Defined in: main.ts:203403
 
 direct URL of the search query
 optional field
@@ -438,7 +438,7 @@ https://www.amazon.com/s/?field-keywords=shoes&language=en_US
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201152
+Defined in: main.ts:203561
 
 #### Parameters
 
@@ -456,7 +456,7 @@ Defined in: main.ts:201152
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201188
+Defined in: main.ts:203597
 
 #### Parameters
 
@@ -472,9 +472,9 @@ Defined in: main.ts:201188
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonProductsTaskPostRequestInfo`
 
-Defined in: main.ts:201181
+Defined in: main.ts:203590
 
 #### Parameters
 
@@ -484,4 +484,4 @@ Defined in: main.ts:201181
 
 #### Returns
 
-[`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+`MerchantAmazonProductsTaskPostRequestInfo`

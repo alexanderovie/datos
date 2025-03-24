@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverSerpElementItem
 
-Defined in: main.ts:38556
+Defined in: main.ts:38983
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38556
 
 > `optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-Defined in: main.ts:38569
+Defined in: main.ts:38996
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:38571
+Defined in: main.ts:38998
 
 link of the element
 
@@ -42,7 +42,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38560
+Defined in: main.ts:38987
 
 the alignment of the element in SERP
 can take the following values:
@@ -54,7 +54,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -69,7 +69,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -85,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38575
+Defined in: main.ts:39002
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -97,7 +97,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:38567
+Defined in: main.ts:38994
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -108,7 +108,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38564
+Defined in: main.ts:38991
 
 title of the row
 
@@ -118,7 +118,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -132,6 +132,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38562
+Defined in: main.ts:38989
 
 the XPath of the element

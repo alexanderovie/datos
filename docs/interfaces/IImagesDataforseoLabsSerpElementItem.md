@@ -6,7 +6,7 @@
 
 # Interface: IImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115618
+Defined in: main.ts:117003
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:115618
 
 > `optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:115627
+Defined in: main.ts:117012
 
 additional items present in the element
 if there are none, equals null
@@ -33,7 +33,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -49,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)
 
-Defined in: main.ts:115630
+Defined in: main.ts:117015
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -90,7 +90,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115620
+Defined in: main.ts:117005
 
 search engine type
 
@@ -100,7 +100,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:115622
+Defined in: main.ts:117007
 
 title of the result in SERP
 
@@ -110,7 +110,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:115624
+Defined in: main.ts:117009
 
 relevant URL
 
@@ -134,7 +134,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

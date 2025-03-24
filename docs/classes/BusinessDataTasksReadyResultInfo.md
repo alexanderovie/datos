@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTasksReadyResultInfo
 
-Defined in: main.ts:222889
+Defined in: main.ts:225298
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:222889
 
 ## Constructors
 
-### new BusinessDataTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataTasksReadyResultInfo**(`data`?): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
+> **new BusinessDataTasksReadyResultInfo**(`data`?): `BusinessDataTasksReadyResultInfo`
 
-Defined in: main.ts:222907
+Defined in: main.ts:225316
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:222907
 
 #### Returns
 
-[`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
+`BusinessDataTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222907
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:222899
+Defined in: main.ts:225308
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:222903
+Defined in: main.ts:225312
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:222892
+Defined in: main.ts:225301
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:222895
+Defined in: main.ts:225304
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -98,7 +98,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:222897
+Defined in: main.ts:225306
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:222901
+Defined in: main.ts:225310
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222916
+Defined in: main.ts:225325
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:222916
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222938
+Defined in: main.ts:225347
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:222938
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTasksReadyResultInfo`
 
-Defined in: main.ts:222931
+Defined in: main.ts:225340
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:222931
 
 #### Returns
 
-[`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
+`BusinessDataTasksReadyResultInfo`

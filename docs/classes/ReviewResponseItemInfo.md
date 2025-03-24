@@ -6,7 +6,7 @@
 
 # Class: ReviewResponseItemInfo
 
-Defined in: main.ts:23284
+Defined in: main.ts:23623
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:23284
 
 ## Constructors
 
-### new ReviewResponseItemInfo()
+### Constructor
 
-> **new ReviewResponseItemInfo**(`data`?): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+> **new ReviewResponseItemInfo**(`data`?): `ReviewResponseItemInfo`
 
-Defined in: main.ts:23294
+Defined in: main.ts:23633
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:23294
 
 #### Returns
 
-[`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+`ReviewResponseItemInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23294
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:23288
+Defined in: main.ts:23627
 
 the content of response
 
@@ -54,7 +54,7 @@ the content of response
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:23290
+Defined in: main.ts:23629
 
 the time of publication
 
@@ -68,7 +68,7 @@ the time of publication
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23286
+Defined in: main.ts:23625
 
 the title of response
 
@@ -82,7 +82,7 @@ the title of response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23303
+Defined in: main.ts:23642
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:23303
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23322
+Defined in: main.ts:23661
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:23322
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+> `static` **fromJS**(`data`): `ReviewResponseItemInfo`
 
-Defined in: main.ts:23315
+Defined in: main.ts:23654
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:23315
 
 #### Returns
 
-[`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+`ReviewResponseItemInfo`

@@ -6,7 +6,7 @@
 
 # Class: TopStoriesElement
 
-Defined in: main.ts:33202
+Defined in: main.ts:33629
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33202
 
 ## Constructors
 
-### new TopStoriesElement()
+### Constructor
 
-> **new TopStoriesElement**(`data`?): [`TopStoriesElement`](TopStoriesElement.md)
+> **new TopStoriesElement**(`data`?): `TopStoriesElement`
 
-Defined in: main.ts:33232
+Defined in: main.ts:33659
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33232
 
 #### Returns
 
-[`TopStoriesElement`](TopStoriesElement.md)
+`TopStoriesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33232
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:33216
+Defined in: main.ts:33643
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -55,7 +55,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **badges**: `string`[]
 
-Defined in: main.ts:33228
+Defined in: main.ts:33655
 
 badges relevant to the element
 
@@ -69,7 +69,7 @@ badges relevant to the element
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:33213
+Defined in: main.ts:33640
 
 the date when the page source of the element was published
 
@@ -83,7 +83,7 @@ the date when the page source of the element was published
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:33209
+Defined in: main.ts:33636
 
 website domain
 
@@ -97,7 +97,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:33226
+Defined in: main.ts:33653
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -112,7 +112,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:33207
+Defined in: main.ts:33634
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -127,7 +127,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33221
+Defined in: main.ts:33648
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -144,7 +144,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33211
+Defined in: main.ts:33638
 
 title of a given link element
 
@@ -158,7 +158,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33204
+Defined in: main.ts:33631
 
 type of element
 
@@ -172,7 +172,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33223
+Defined in: main.ts:33650
 
 URL
 
@@ -186,7 +186,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33241
+Defined in: main.ts:33668
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:33241
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33271
+Defined in: main.ts:33698
 
 #### Parameters
 
@@ -220,9 +220,9 @@ Defined in: main.ts:33271
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
+> `static` **fromJS**(`data`): `TopStoriesElement`
 
-Defined in: main.ts:33264
+Defined in: main.ts:33691
 
 #### Parameters
 
@@ -232,4 +232,4 @@ Defined in: main.ts:33264
 
 #### Returns
 
-[`TopStoriesElement`](TopStoriesElement.md)
+`TopStoriesElement`

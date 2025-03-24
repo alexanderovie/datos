@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxSerpElementItem
 
-Defined in: main.ts:35114
+Defined in: main.ts:35541
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:35114
 
 ## Constructors
 
-### new AnswerBoxSerpElementItem()
+### Constructor
 
-> **new AnswerBoxSerpElementItem**(`data`?): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+> **new AnswerBoxSerpElementItem**(`data`?): `AnswerBoxSerpElementItem`
 
-Defined in: main.ts:35133
+Defined in: main.ts:35560
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:35133
 
 #### Returns
 
-[`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+`AnswerBoxSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35133
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:35125
+Defined in: main.ts:35552
 
 link of the element
 
@@ -74,7 +74,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35118
+Defined in: main.ts:35545
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35129
+Defined in: main.ts:35556
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:35123
+Defined in: main.ts:35550
 
 text
 if there is none, equals null
@@ -160,7 +160,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -178,7 +178,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35120
+Defined in: main.ts:35547
 
 the XPath of the element
 
@@ -192,7 +192,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35138
+Defined in: main.ts:35565
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: main.ts:35138
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35168
+Defined in: main.ts:35595
 
 #### Parameters
 
@@ -234,9 +234,9 @@ Defined in: main.ts:35168
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+> `static` **fromJS**(`data`): `AnswerBoxSerpElementItem`
 
-Defined in: main.ts:35161
+Defined in: main.ts:35588
 
 #### Parameters
 
@@ -246,7 +246,7 @@ Defined in: main.ts:35161
 
 #### Returns
 
-[`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
+`AnswerBoxSerpElementItem`
 
 #### Overrides
 

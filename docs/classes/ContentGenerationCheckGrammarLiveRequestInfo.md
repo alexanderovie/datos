@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
-Defined in: main.ts:191935
+Defined in: main.ts:194344
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191935
 
 ## Constructors
 
-### new ContentGenerationCheckGrammarLiveRequestInfo()
+### Constructor
 
-> **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+> **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): `ContentGenerationCheckGrammarLiveRequestInfo`
 
-Defined in: main.ts:191958
+Defined in: main.ts:194367
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191958
 
 #### Returns
 
-[`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+`ContentGenerationCheckGrammarLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191958
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:191944
+Defined in: main.ts:194353
 
 code of the text language
 required field if you do not specify language_name
@@ -56,7 +56,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:191948
+Defined in: main.ts:194357
 
 name of the text language
 required field if you do not specify language_code
@@ -72,7 +72,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191954
+Defined in: main.ts:194363
 
 user-defined task identifier
 optional field
@@ -90,7 +90,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:191940
+Defined in: main.ts:194349
 
 target text
 required field
@@ -107,7 +107,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191967
+Defined in: main.ts:194376
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:191967
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191987
+Defined in: main.ts:194396
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:191987
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationCheckGrammarLiveRequestInfo`
 
-Defined in: main.ts:191980
+Defined in: main.ts:194389
 
 #### Parameters
 
@@ -153,4 +153,4 @@ Defined in: main.ts:191980
 
 #### Returns
 
-[`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+`ContentGenerationCheckGrammarLiveRequestInfo`

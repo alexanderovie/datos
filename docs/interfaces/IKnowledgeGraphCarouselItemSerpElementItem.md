@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:31053
+Defined in: main.ts:31480
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31053
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:31065
+Defined in: main.ts:31492
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:31069
+Defined in: main.ts:31496
 
 elements of search results found in SERP
 
@@ -44,7 +44,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:31067
+Defined in: main.ts:31494
 
 link of the element
 
@@ -54,7 +54,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31057
+Defined in: main.ts:31484
 
 the alignment of the element in SERP
 can take the following values:
@@ -66,7 +66,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -81,7 +81,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -97,7 +97,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31073
+Defined in: main.ts:31500
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -109,7 +109,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31061
+Defined in: main.ts:31488
 
 title of the result in SERP
 
@@ -119,7 +119,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -133,6 +133,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31059
+Defined in: main.ts:31486
 
 the XPath of the element

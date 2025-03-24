@@ -6,7 +6,7 @@
 
 # Interface: IDemographyComparisonInfo
 
-Defined in: main.ts:22692
+Defined in: main.ts:23031
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:22692
 
 > `optional` **age**: `object`
 
-Defined in: main.ts:22694
+Defined in: main.ts:23033
 
 type of element
 
@@ -32,7 +32,7 @@ type of element
 
 > `optional` **gender**: `object`
 
-Defined in: main.ts:22696
+Defined in: main.ts:23035
 
 type of element
 

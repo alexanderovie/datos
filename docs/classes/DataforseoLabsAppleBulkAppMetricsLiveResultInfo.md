@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
-Defined in: main.ts:132807
+Defined in: main.ts:135208
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:132807
 
 ## Constructors
 
-### new DataforseoLabsAppleBulkAppMetricsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+> **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data`?): `DataforseoLabsAppleBulkAppMetricsLiveResultInfo`
 
-Defined in: main.ts:132823
+Defined in: main.ts:135224
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:132823
 
 #### Returns
 
-[`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132823
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
-Defined in: main.ts:132819
+Defined in: main.ts:135220
 
 contains data related to the ranking app metrics of the specified application
 
@@ -54,7 +54,7 @@ contains data related to the ranking app metrics of the specified application
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:132817
+Defined in: main.ts:135218
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132813
+Defined in: main.ts:135214
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132811
+Defined in: main.ts:135212
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132809
+Defined in: main.ts:135210
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:132815
+Defined in: main.ts:135216
 
 total amount of results in our database relevant to your request
 
@@ -124,7 +124,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:132832
+Defined in: main.ts:135233
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:132832
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:132858
+Defined in: main.ts:135259
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:132858
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleBulkAppMetricsLiveResultInfo`
 
-Defined in: main.ts:132851
+Defined in: main.ts:135252
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:132851
 
 #### Returns
 
-[`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`

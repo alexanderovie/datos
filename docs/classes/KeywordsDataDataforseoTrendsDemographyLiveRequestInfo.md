@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
-Defined in: main.ts:146539
+Defined in: main.ts:148948
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146539
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+> **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data`?): `KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`
 
-Defined in: main.ts:146598
+Defined in: main.ts:149007
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146598
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146598
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:146575
+Defined in: main.ts:148984
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:146582
+Defined in: main.ts:148991
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146546
+Defined in: main.ts:148955
 
 keywords
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146564
+Defined in: main.ts:148973
 
 search engine location code
 optional field
@@ -120,7 +120,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:146555
+Defined in: main.ts:148964
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:146594
+Defined in: main.ts:149003
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:146588
+Defined in: main.ts:148997
 
 preset time ranges
 optional field
@@ -177,7 +177,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:146566
+Defined in: main.ts:148975
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146607
+Defined in: main.ts:149016
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:146607
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146635
+Defined in: main.ts:149044
 
 #### Parameters
 
@@ -225,9 +225,9 @@ Defined in: main.ts:146635
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`
 
-Defined in: main.ts:146628
+Defined in: main.ts:149037
 
 #### Parameters
 
@@ -237,4 +237,4 @@ Defined in: main.ts:146628
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`

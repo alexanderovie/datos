@@ -6,7 +6,7 @@
 
 # Interface: IBaseAmazonSerpElementItem
 
-Defined in: main.ts:24107
+Defined in: main.ts:24446
 
 ## Extended by
 
@@ -26,7 +26,7 @@ Defined in: main.ts:24107
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24115
+Defined in: main.ts:24454
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -37,7 +37,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24112
+Defined in: main.ts:24451
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -48,7 +48,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24109
+Defined in: main.ts:24448
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24117
+Defined in: main.ts:24456
 
 the XPath of the element

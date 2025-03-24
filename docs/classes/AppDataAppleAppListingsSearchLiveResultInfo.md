@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:218533
+Defined in: main.ts:220942
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:218533
 
 ## Constructors
 
-### new AppDataAppleAppListingsSearchLiveResultInfo()
+### Constructor
 
-> **new AppDataAppleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
+> **new AppDataAppleAppListingsSearchLiveResultInfo**(`data`?): `AppDataAppleAppListingsSearchLiveResultInfo`
 
-Defined in: main.ts:218548
+Defined in: main.ts:220957
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:218548
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
+`AppDataAppleAppListingsSearchLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218548
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:218537
+Defined in: main.ts:220946
 
 the number of items in the results array
 
@@ -54,7 +54,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:218544
+Defined in: main.ts:220953
 
 array of apps and related data
 
@@ -68,7 +68,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:218539
+Defined in: main.ts:220948
 
 offset in the results array of returned apps
 
@@ -82,7 +82,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:218542
+Defined in: main.ts:220951
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -97,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:218535
+Defined in: main.ts:220944
 
 the total number of relevant results in the database
 
@@ -111,7 +111,7 @@ the total number of relevant results in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218557
+Defined in: main.ts:220966
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:218557
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218582
+Defined in: main.ts:220991
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:218582
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListingsSearchLiveResultInfo`
 
-Defined in: main.ts:218575
+Defined in: main.ts:220984
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:218575
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
+`AppDataAppleAppListingsSearchLiveResultInfo`

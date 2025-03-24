@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLanguagesResultInfo
 
-Defined in: main.ts:214451
+Defined in: main.ts:216860
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:214451
 
 ## Constructors
 
-### new AppDataAppleLanguagesResultInfo()
+### Constructor
 
-> **new AppDataAppleLanguagesResultInfo**(`data`?): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+> **new AppDataAppleLanguagesResultInfo**(`data`?): `AppDataAppleLanguagesResultInfo`
 
-Defined in: main.ts:214459
+Defined in: main.ts:216868
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:214459
 
 #### Returns
 
-[`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+`AppDataAppleLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:214459
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:214455
+Defined in: main.ts:216864
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:214453
+Defined in: main.ts:216862
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214468
+Defined in: main.ts:216877
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:214468
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214486
+Defined in: main.ts:216895
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:214486
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleLanguagesResultInfo`
 
-Defined in: main.ts:214479
+Defined in: main.ts:216888
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:214479
 
 #### Returns
 
-[`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+`AppDataAppleLanguagesResultInfo`

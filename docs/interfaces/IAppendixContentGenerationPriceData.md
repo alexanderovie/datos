@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentGenerationPriceData
 
-Defined in: main.ts:247597
+Defined in: main.ts:249562
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247597
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationPriceDataInfo`](../classes/AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:247598
+Defined in: main.ts:249563
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247598
 
 > `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247599
+Defined in: main.ts:249564
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:247599
 
 > `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247600
+Defined in: main.ts:249565
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:247600
 
 > `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247601
+Defined in: main.ts:249566
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:247601
 
 > `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247602
+Defined in: main.ts:249567
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:247602
 
 > `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247603
+Defined in: main.ts:249568
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:247603
 
 > `optional` **text\_summary**: [`AppendixContentGenerationPriceDataInfo`](../classes/AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:247604
+Defined in: main.ts:249569

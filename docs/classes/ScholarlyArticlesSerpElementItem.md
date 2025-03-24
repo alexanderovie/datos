@@ -6,7 +6,7 @@
 
 # Class: ScholarlyArticlesSerpElementItem
 
-Defined in: main.ts:36550
+Defined in: main.ts:36977
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:36550
 
 ## Constructors
 
-### new ScholarlyArticlesSerpElementItem()
+### Constructor
 
-> **new ScholarlyArticlesSerpElementItem**(`data`?): [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
+> **new ScholarlyArticlesSerpElementItem**(`data`?): `ScholarlyArticlesSerpElementItem`
 
-Defined in: main.ts:36570
+Defined in: main.ts:36997
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:36570
 
 #### Returns
 
-[`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
+`ScholarlyArticlesSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36570
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-Defined in: main.ts:36562
+Defined in: main.ts:36989
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:36554
+Defined in: main.ts:36981
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36566
+Defined in: main.ts:36993
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36558
+Defined in: main.ts:36985
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36560
+Defined in: main.ts:36987
 
 source URL
 
@@ -191,7 +191,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:36556
+Defined in: main.ts:36983
 
 the XPath of the element
 
@@ -205,7 +205,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36575
+Defined in: main.ts:37002
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:36575
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36602
+Defined in: main.ts:37029
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:36602
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
+> `static` **fromJS**(`data`): `ScholarlyArticlesSerpElementItem`
 
-Defined in: main.ts:36595
+Defined in: main.ts:37022
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:36595
 
 #### Returns
 
-[`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
+`ScholarlyArticlesSerpElementItem`
 
 #### Overrides
 

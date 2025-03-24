@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataErrorsResultInfo
 
-Defined in: main.ts:135197
+Defined in: main.ts:137598
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:135197
 
 ## Constructors
 
-### new KeywordsDataErrorsResultInfo()
+### Constructor
 
-> **new KeywordsDataErrorsResultInfo**(`data`?): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+> **new KeywordsDataErrorsResultInfo**(`data`?): `KeywordsDataErrorsResultInfo`
 
-Defined in: main.ts:135228
+Defined in: main.ts:137629
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:135228
 
 #### Returns
 
-[`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+`KeywordsDataErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:135228
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:135204
+Defined in: main.ts:137605
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:135208
+Defined in: main.ts:137609
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:135211
+Defined in: main.ts:137612
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:135206
+Defined in: main.ts:137607
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:135218
+Defined in: main.ts:137619
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:135216
+Defined in: main.ts:137617
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:135224
+Defined in: main.ts:137625
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:135221
+Defined in: main.ts:137622
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:135214
+Defined in: main.ts:137615
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:135199
+Defined in: main.ts:137600
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135237
+Defined in: main.ts:137638
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:135237
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135263
+Defined in: main.ts:137664
 
 #### Parameters
 
@@ -221,9 +221,9 @@ Defined in: main.ts:135263
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataErrorsResultInfo`
 
-Defined in: main.ts:135256
+Defined in: main.ts:137657
 
 #### Parameters
 
@@ -233,4 +233,4 @@ Defined in: main.ts:135256
 
 #### Returns
 
-[`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
+`KeywordsDataErrorsResultInfo`

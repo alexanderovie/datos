@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreTaskGetHtmlResultInfo
 
-Defined in: main.ts:88873
+Defined in: main.ts:89300
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:88873
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreTaskGetHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceExploreTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`](SerpGoogleFinanceExploreTaskGetHtmlResultInfo.md)
+> **new SerpGoogleFinanceExploreTaskGetHtmlResultInfo**(`data`?): `SerpGoogleFinanceExploreTaskGetHtmlResultInfo`
 
-Defined in: main.ts:88897
+Defined in: main.ts:89324
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:88897
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`](SerpGoogleFinanceExploreTaskGetHtmlResultInfo.md)
+`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88897
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:88889
+Defined in: main.ts:89316
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:88893
+Defined in: main.ts:89320
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:88891
+Defined in: main.ts:89318
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:88876
+Defined in: main.ts:89303
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:88884
+Defined in: main.ts:89311
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:88882
+Defined in: main.ts:89309
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:88880
+Defined in: main.ts:89307
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88878
+Defined in: main.ts:89305
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88906
+Defined in: main.ts:89333
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:88906
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88934
+Defined in: main.ts:89361
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:88934
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`](SerpGoogleFinanceExploreTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreTaskGetHtmlResultInfo`
 
-Defined in: main.ts:88927
+Defined in: main.ts:89354
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:88927
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`](SerpGoogleFinanceExploreTaskGetHtmlResultInfo.md)
+`SerpGoogleFinanceExploreTaskGetHtmlResultInfo`

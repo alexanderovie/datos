@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveRequestInfo
 
-Defined in: main.ts:213581
+Defined in: main.ts:215990
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:213581
 
 ## Constructors
 
-### new AppDataGoogleAppListingsSearchLiveRequestInfo()
+### Constructor
 
-> **new AppDataGoogleAppListingsSearchLiveRequestInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
+> **new AppDataGoogleAppListingsSearchLiveRequestInfo**(`data`?): `AppDataGoogleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:213650
+Defined in: main.ts:216059
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:213650
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
+`AppDataGoogleAppListingsSearchLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213650
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:213587
+Defined in: main.ts:215996
 
 app categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:213592
+Defined in: main.ts:216001
 
 keyword in the app’s description
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:213608
+Defined in: main.ts:216017
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:213627
+Defined in: main.ts:216036
 
 the maximum number of returned apps
 optional field
@@ -115,7 +115,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:213632
+Defined in: main.ts:216041
 
 offset in the results array of returned apps
 optional field
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:213640
+Defined in: main.ts:216049
 
 token for subsequent requests
 optional field
@@ -152,7 +152,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:213622
+Defined in: main.ts:216031
 
 results sorting rules
 optional field
@@ -178,7 +178,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:213646
+Defined in: main.ts:216055
 
 user-defined task identifier
 optional field
@@ -196,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:213597
+Defined in: main.ts:216006
 
 keyword in the app’s title
 optional field
@@ -213,7 +213,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213659
+Defined in: main.ts:216068
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:213659
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213696
+Defined in: main.ts:216105
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:213696
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:213689
+Defined in: main.ts:216098
 
 #### Parameters
 
@@ -259,4 +259,4 @@ Defined in: main.ts:213689
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
+`AppDataGoogleAppListingsSearchLiveRequestInfo`

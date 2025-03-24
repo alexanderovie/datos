@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
-Defined in: main.ts:76718
+Defined in: main.ts:77145
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:76718
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:76770
+Defined in: main.ts:77197
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:76756
+Defined in: main.ts:77183
 
 device type
 optional field
@@ -47,7 +47,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:76752
+Defined in: main.ts:77179
 
 search engine language code
 required field if you don’t specify language_name
@@ -62,7 +62,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:76745
+Defined in: main.ts:77172
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -77,7 +77,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:76738
+Defined in: main.ts:77165
 
 search engine location code
 required field if you don’t specify location_name 
@@ -92,7 +92,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:76731
+Defined in: main.ts:77158
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -107,7 +107,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:76761
+Defined in: main.ts:77188
 
 device operating system
 optional field
@@ -120,7 +120,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:76776
+Defined in: main.ts:77203
 
 user-defined task identifier
 optional field
@@ -134,7 +134,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:76724
+Defined in: main.ts:77151
 
 ID of the video
 required field

@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveItem
 
-Defined in: main.ts:218439
+Defined in: main.ts:220848
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:218439
 
 ## Constructors
 
-### new AppDataAppleAppListingsSearchLiveItem()
+### Constructor
 
-> **new AppDataAppleAppListingsSearchLiveItem**(`data`?): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
+> **new AppDataAppleAppListingsSearchLiveItem**(`data`?): `AppDataAppleAppListingsSearchLiveItem`
 
-Defined in: main.ts:218461
+Defined in: main.ts:220870
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:218461
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
+`AppDataAppleAppListingsSearchLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218461
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:218441
+Defined in: main.ts:220850
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:218450
+Defined in: main.ts:220859
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:218457
+Defined in: main.ts:220866
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218447
+Defined in: main.ts:220856
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218445
+Defined in: main.ts:220854
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:218443
+Defined in: main.ts:220852
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:218455
+Defined in: main.ts:220864
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -142,7 +142,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218470
+Defined in: main.ts:220879
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:218470
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218493
+Defined in: main.ts:220902
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:218493
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListingsSearchLiveItem`
 
-Defined in: main.ts:218486
+Defined in: main.ts:220895
 
 #### Parameters
 
@@ -188,4 +188,4 @@ Defined in: main.ts:218486
 
 #### Returns
 
-[`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
+`AppDataAppleAppListingsSearchLiveItem`

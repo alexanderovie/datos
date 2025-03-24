@@ -6,7 +6,7 @@
 
 # Class: AppendixTaskGetPriceDataInfo
 
-Defined in: main.ts:246037
+Defined in: main.ts:248002
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246037
 
 ## Constructors
 
-### new AppendixTaskGetPriceDataInfo()
+### Constructor
 
-> **new AppendixTaskGetPriceDataInfo**(`data`?): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> **new AppendixTaskGetPriceDataInfo**(`data`?): `AppendixTaskGetPriceDataInfo`
 
-Defined in: main.ts:246042
+Defined in: main.ts:248007
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246042
 
 #### Returns
 
-[`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+`AppendixTaskGetPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246042
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246038
+Defined in: main.ts:248003
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246038
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246051
+Defined in: main.ts:248016
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:246051
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246068
+Defined in: main.ts:248033
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:246068
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixTaskGetPriceDataInfo`
 
-Defined in: main.ts:246061
+Defined in: main.ts:248026
 
 #### Parameters
 
@@ -98,4 +98,4 @@ Defined in: main.ts:246061
 
 #### Returns
 
-[`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+`AppendixTaskGetPriceDataInfo`

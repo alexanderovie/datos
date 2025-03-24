@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
-Defined in: main.ts:75165
+Defined in: main.ts:75592
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:75165
 
 ## Constructors
 
-### new SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo()
+### Constructor
 
-> **new SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)
+> **new SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo**(`data`?): `SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`
 
-Defined in: main.ts:75212
+Defined in: main.ts:75639
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:75212
 
 #### Returns
 
-[`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)
+`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:75212
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:75200
+Defined in: main.ts:75627
 
 the category the video belongs to
 
@@ -54,7 +54,7 @@ the category the video belongs to
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:75176
+Defined in: main.ts:75603
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:75181
+Defined in: main.ts:75608
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:75192
+Defined in: main.ts:75619
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -103,7 +103,7 @@ youtube_subtitles
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
-Defined in: main.ts:75208
+Defined in: main.ts:75635
 
 elements of search results found in SERP
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:75206
+Defined in: main.ts:75633
 
 the number of results returned in the items array
 
@@ -131,7 +131,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:75173
+Defined in: main.ts:75600
 
 language code in a POST array
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:75171
+Defined in: main.ts:75598
 
 location code in a POST array
 
@@ -159,7 +159,7 @@ location code in a POST array
 
 > `optional` **origin\_language**: `string`
 
-Defined in: main.ts:75198
+Defined in: main.ts:75625
 
 language code of original text
 
@@ -173,7 +173,7 @@ language code of original text
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:75187
+Defined in: main.ts:75614
 
 search refinement chips
 equals null
@@ -188,7 +188,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:75169
+Defined in: main.ts:75596
 
 search engine domain in a POST array
 
@@ -202,7 +202,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:75184
+Defined in: main.ts:75611
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **subtitles\_count**: `number`
 
-Defined in: main.ts:75202
+Defined in: main.ts:75629
 
 number of subtitles in the video
 
@@ -231,7 +231,7 @@ number of subtitles in the video
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:75204
+Defined in: main.ts:75631
 
 title of the video
 
@@ -245,7 +245,7 @@ title of the video
 
 > `optional` **translate\_language**: `string`
 
-Defined in: main.ts:75196
+Defined in: main.ts:75623
 
 language code of translated text
 
@@ -259,7 +259,7 @@ language code of translated text
 
 > `optional` **unsupported\_language**: `boolean`
 
-Defined in: main.ts:75194
+Defined in: main.ts:75621
 
 indicates whether the language is unsupported by the system
 
@@ -273,7 +273,7 @@ indicates whether the language is unsupported by the system
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:75167
+Defined in: main.ts:75594
 
 ID of the video received in a POST array
 
@@ -287,7 +287,7 @@ ID of the video received in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75221
+Defined in: main.ts:75648
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:75221
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75262
+Defined in: main.ts:75689
 
 #### Parameters
 
@@ -321,9 +321,9 @@ Defined in: main.ts:75262
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`
 
-Defined in: main.ts:75255
+Defined in: main.ts:75682
 
 #### Parameters
 
@@ -333,4 +333,4 @@ Defined in: main.ts:75255
 
 #### Returns
 
-[`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)
+`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`

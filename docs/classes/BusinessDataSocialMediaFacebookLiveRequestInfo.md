@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaFacebookLiveRequestInfo
 
-Defined in: main.ts:239265
+Defined in: main.ts:241674
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239265
 
 ## Constructors
 
-### new BusinessDataSocialMediaFacebookLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaFacebookLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+> **new BusinessDataSocialMediaFacebookLiveRequestInfo**(`data`?): `BusinessDataSocialMediaFacebookLiveRequestInfo`
 
-Defined in: main.ts:239282
+Defined in: main.ts:241691
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239282
 
 #### Returns
 
-[`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+`BusinessDataSocialMediaFacebookLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239282
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:239278
+Defined in: main.ts:241687
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:239272
+Defined in: main.ts:241681
 
 target URLs
 required field
@@ -77,7 +77,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239291
+Defined in: main.ts:241700
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:239291
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239313
+Defined in: main.ts:241722
 
 #### Parameters
 
@@ -111,9 +111,9 @@ Defined in: main.ts:239313
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaFacebookLiveRequestInfo`
 
-Defined in: main.ts:239306
+Defined in: main.ts:241715
 
 #### Parameters
 
@@ -123,4 +123,4 @@ Defined in: main.ts:239306
 
 #### Returns
 
-[`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+`BusinessDataSocialMediaFacebookLiveRequestInfo`

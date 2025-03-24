@@ -6,7 +6,7 @@
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 
-Defined in: main.ts:239919
+Defined in: main.ts:242328
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239919
 
 ## Constructors
 
-### new AppendixJobsSerpLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): `AppendixJobsSerpLimitsRatesDataInfo`
 
-Defined in: main.ts:239924
+Defined in: main.ts:242333
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239924
 
 #### Returns
 
-[`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+`AppendixJobsSerpLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239924
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:239920
+Defined in: main.ts:242329
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:239920
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239933
+Defined in: main.ts:242342
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:239933
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239950
+Defined in: main.ts:242359
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:239950
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixJobsSerpLimitsRatesDataInfo`
 
-Defined in: main.ts:239943
+Defined in: main.ts:242352
 
 #### Parameters
 
@@ -98,4 +98,4 @@ Defined in: main.ts:239943
 
 #### Returns
 
-[`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+`AppendixJobsSerpLimitsRatesDataInfo`

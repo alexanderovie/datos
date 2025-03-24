@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
-Defined in: main.ts:134159
+Defined in: main.ts:136560
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:134159
 
 ## Constructors
 
-### new DataforseoLabsAppleAppIntersectionLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAppleAppIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+> **new DataforseoLabsAppleAppIntersectionLiveRequestInfo**(`data`?): `DataforseoLabsAppleAppIntersectionLiveRequestInfo`
 
-Defined in: main.ts:134258
+Defined in: main.ts:136659
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:134258
 
 #### Returns
 
-[`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+`DataforseoLabsAppleAppIntersectionLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134258
 
 > `optional` **app\_ids**: `object`
 
-Defined in: main.ts:134174
+Defined in: main.ts:136575
 
 ids of the target apps
 required field
@@ -71,7 +71,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:134221
+Defined in: main.ts:136622
 
 array of results filtering parameters
 optional field
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134210
+Defined in: main.ts:136611
 
 language code
 required field if you don’t specify language_name
@@ -115,7 +115,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:134201
+Defined in: main.ts:136602
 
 full name of the language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:134243
+Defined in: main.ts:136644
 
 the maximum number of returned keywords
 optional field
@@ -153,7 +153,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:134192
+Defined in: main.ts:136593
 
 location code
 required field if you don’t specify location_name
@@ -174,7 +174,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:134183
+Defined in: main.ts:136584
 
 full name of the location
 required field if you don’t specify location_code
@@ -195,7 +195,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:134248
+Defined in: main.ts:136649
 
 offset in the results array of returned keywords
 optional field
@@ -212,7 +212,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:134238
+Defined in: main.ts:136639
 
 results sorting rules
 optional field
@@ -241,7 +241,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:134254
+Defined in: main.ts:136655
 
 user-defined task identifier
 optional field
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134267
+Defined in: main.ts:136668
 
 #### Parameters
 
@@ -277,7 +277,7 @@ Defined in: main.ts:134267
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134307
+Defined in: main.ts:136708
 
 #### Parameters
 
@@ -293,9 +293,9 @@ Defined in: main.ts:134307
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleAppIntersectionLiveRequestInfo`
 
-Defined in: main.ts:134300
+Defined in: main.ts:136701
 
 #### Parameters
 
@@ -305,4 +305,4 @@ Defined in: main.ts:134300
 
 #### Returns
 
-[`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+`DataforseoLabsAppleAppIntersectionLiveRequestInfo`

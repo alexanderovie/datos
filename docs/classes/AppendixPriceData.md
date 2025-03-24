@@ -6,7 +6,7 @@
 
 # Class: AppendixPriceData
 
-Defined in: main.ts:248109
+Defined in: main.ts:250078
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:248109
 
 ## Constructors
 
-### new AppendixPriceData()
+### Constructor
 
-> **new AppendixPriceData**(`data`?): [`AppendixPriceData`](AppendixPriceData.md)
+> **new AppendixPriceData**(`data`?): `AppendixPriceData`
 
-Defined in: main.ts:248125
+Defined in: main.ts:250094
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:248125
 
 #### Returns
 
-[`AppendixPriceData`](AppendixPriceData.md)
+`AppendixPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248125
 
 > `optional` **app\_data**: [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-Defined in: main.ts:248114
+Defined in: main.ts:250083
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248114
 
 > `optional` **appendix**: [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-Defined in: main.ts:248113
+Defined in: main.ts:250082
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:248113
 
 > `optional` **backlinks**: [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-Defined in: main.ts:248115
+Defined in: main.ts:250084
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:248115
 
 > `optional` **business\_data**: [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-Defined in: main.ts:248116
+Defined in: main.ts:250085
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:248116
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
 
-Defined in: main.ts:248117
+Defined in: main.ts:250086
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:248117
 
 > `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
 
-Defined in: main.ts:248118
+Defined in: main.ts:250087
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:248118
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-Defined in: main.ts:248119
+Defined in: main.ts:250088
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:248119
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:248120
+Defined in: main.ts:250089
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:248120
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
-Defined in: main.ts:248110
+Defined in: main.ts:250079
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:248110
 
 > `optional` **merchant**: [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
 
-Defined in: main.ts:248111
+Defined in: main.ts:250080
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:248111
 
 > `optional` **on\_page**: [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
-Defined in: main.ts:248121
+Defined in: main.ts:250090
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:248121
 
 > `optional` **serp**: [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
-Defined in: main.ts:248112
+Defined in: main.ts:250081
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:248112
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:248134
+Defined in: main.ts:250103
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:248134
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:248162
+Defined in: main.ts:250131
 
 #### Parameters
 
@@ -218,9 +218,9 @@ Defined in: main.ts:248162
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixPriceData`](AppendixPriceData.md)
+> `static` **fromJS**(`data`): `AppendixPriceData`
 
-Defined in: main.ts:248155
+Defined in: main.ts:250124
 
 #### Parameters
 
@@ -230,4 +230,4 @@ Defined in: main.ts:248155
 
 #### Returns
 
-[`AppendixPriceData`](AppendixPriceData.md)
+`AppendixPriceData`

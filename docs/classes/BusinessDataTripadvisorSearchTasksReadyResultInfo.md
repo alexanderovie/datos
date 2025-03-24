@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTasksReadyResultInfo
 
-Defined in: main.ts:237363
+Defined in: main.ts:239772
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:237363
 
 ## Constructors
 
-### new BusinessDataTripadvisorSearchTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataTripadvisorSearchTasksReadyResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
+> **new BusinessDataTripadvisorSearchTasksReadyResultInfo**(`data`?): `BusinessDataTripadvisorSearchTasksReadyResultInfo`
 
-Defined in: main.ts:237381
+Defined in: main.ts:239790
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:237381
 
 #### Returns
 
-[`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
+`BusinessDataTripadvisorSearchTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237381
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:237373
+Defined in: main.ts:239782
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:237377
+Defined in: main.ts:239786
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:237366
+Defined in: main.ts:239775
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:237369
+Defined in: main.ts:239778
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -98,7 +98,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:237371
+Defined in: main.ts:239780
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:237375
+Defined in: main.ts:239784
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237390
+Defined in: main.ts:239799
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:237390
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237412
+Defined in: main.ts:239821
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:237412
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTripadvisorSearchTasksReadyResultInfo`
 
-Defined in: main.ts:237405
+Defined in: main.ts:239814
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:237405
 
 #### Returns
 
-[`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
+`BusinessDataTripadvisorSearchTasksReadyResultInfo`

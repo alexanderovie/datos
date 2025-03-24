@@ -6,7 +6,7 @@
 
 # Class: PageSectionContentInfo
 
-Defined in: main.ts:182431
+Defined in: main.ts:184840
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182431
 
 ## Constructors
 
-### new PageSectionContentInfo()
+### Constructor
 
-> **new PageSectionContentInfo**(`data`?): [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> **new PageSectionContentInfo**(`data`?): `PageSectionContentInfo`
 
-Defined in: main.ts:182443
+Defined in: main.ts:184852
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182443
 
 #### Returns
 
-[`PageSectionContentInfo`](PageSectionContentInfo.md)
+`PageSectionContentInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182443
 
 > `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:182434
+Defined in: main.ts:184843
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -55,7 +55,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **secondary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:182437
+Defined in: main.ts:184846
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -70,7 +70,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **table\_content**: [`TableContentInfo`](TableContentInfo.md)[]
 
-Defined in: main.ts:182439
+Defined in: main.ts:184848
 
 content of the table on the page
 
@@ -84,7 +84,7 @@ content of the table on the page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182452
+Defined in: main.ts:184861
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:182452
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182483
+Defined in: main.ts:184892
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:182483
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> `static` **fromJS**(`data`): `PageSectionContentInfo`
 
-Defined in: main.ts:182476
+Defined in: main.ts:184885
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:182476
 
 #### Returns
 
-[`PageSectionContentInfo`](PageSectionContentInfo.md)
+`PageSectionContentInfo`

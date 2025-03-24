@@ -6,7 +6,7 @@
 
 # Class: JobsSerpElementItem
 
-Defined in: main.ts:34344
+Defined in: main.ts:34771
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:34344
 
 ## Constructors
 
-### new JobsSerpElementItem()
+### Constructor
 
-> **new JobsSerpElementItem**(`data`?): [`JobsSerpElementItem`](JobsSerpElementItem.md)
+> **new JobsSerpElementItem**(`data`?): `JobsSerpElementItem`
 
-Defined in: main.ts:34364
+Defined in: main.ts:34791
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:34364
 
 #### Returns
 
-[`JobsSerpElementItem`](JobsSerpElementItem.md)
+`JobsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34364
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`JobsElement`](JobsElement.md)[]
 
-Defined in: main.ts:34356
+Defined in: main.ts:34783
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34348
+Defined in: main.ts:34775
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34360
+Defined in: main.ts:34787
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34352
+Defined in: main.ts:34779
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34354
+Defined in: main.ts:34781
 
 source URL
 
@@ -191,7 +191,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34350
+Defined in: main.ts:34777
 
 the XPath of the element
 
@@ -205,7 +205,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34369
+Defined in: main.ts:34796
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:34369
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34396
+Defined in: main.ts:34823
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:34396
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`JobsSerpElementItem`](JobsSerpElementItem.md)
+> `static` **fromJS**(`data`): `JobsSerpElementItem`
 
-Defined in: main.ts:34389
+Defined in: main.ts:34816
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:34389
 
 #### Returns
 
-[`JobsSerpElementItem`](JobsSerpElementItem.md)
+`JobsSerpElementItem`
 
 #### Overrides
 

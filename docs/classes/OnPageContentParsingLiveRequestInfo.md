@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingLiveRequestInfo
 
-Defined in: main.ts:183101
+Defined in: main.ts:185510
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:183101
 
 ## Constructors
 
-### new OnPageContentParsingLiveRequestInfo()
+### Constructor
 
-> **new OnPageContentParsingLiveRequestInfo**(`data`?): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+> **new OnPageContentParsingLiveRequestInfo**(`data`?): `OnPageContentParsingLiveRequestInfo`
 
-Defined in: main.ts:183210
+Defined in: main.ts:185619
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:183210
 
 #### Returns
 
-[`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+`OnPageContentParsingLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183210
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:183173
+Defined in: main.ts:185582
 
 language header for accessing the website
 optional field
@@ -57,7 +57,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:183133
+Defined in: main.ts:185542
 
 preset for browser screen parameters
 optional field
@@ -88,7 +88,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:183149
+Defined in: main.ts:185558
 
 browser screen height
 optional field
@@ -108,7 +108,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:183157
+Defined in: main.ts:185566
 
 browser screen scale factor
 optional field
@@ -128,7 +128,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:183141
+Defined in: main.ts:185550
 
 browser screen width
 optional field
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:183114
+Defined in: main.ts:185523
 
 custom user agent
 optional field
@@ -167,7 +167,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:183168
+Defined in: main.ts:185577
 
 disable the cookie popup 
 optional field
@@ -185,7 +185,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:183188
+Defined in: main.ts:185597
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -206,7 +206,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:183179
+Defined in: main.ts:185588
 
 load javascript on a page
 optional field
@@ -224,7 +224,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:183195
+Defined in: main.ts:185604
 
 enable XMLHttpRequest on a page
 optional field
@@ -243,7 +243,7 @@ if you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:183206
+Defined in: main.ts:185615
 
 proxy pool
 optional field
@@ -261,7 +261,7 @@ possible values: us, de
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:183162
+Defined in: main.ts:185571
 
 store HTML of a crawled page
 optional field
@@ -278,7 +278,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:183200
+Defined in: main.ts:185609
 
 switch proxy pool
 optional field
@@ -295,7 +295,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:183107
+Defined in: main.ts:185516
 
 URL of the content to parse
 required field
@@ -313,7 +313,7 @@ https://www.fujielectric.com/
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183219
+Defined in: main.ts:185628
 
 #### Parameters
 
@@ -331,7 +331,7 @@ Defined in: main.ts:183219
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183249
+Defined in: main.ts:185658
 
 #### Parameters
 
@@ -347,9 +347,9 @@ Defined in: main.ts:183249
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageContentParsingLiveRequestInfo`
 
-Defined in: main.ts:183242
+Defined in: main.ts:185651
 
 #### Parameters
 
@@ -359,4 +359,4 @@ Defined in: main.ts:183242
 
 #### Returns
 
-[`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
+`OnPageContentParsingLiveRequestInfo`

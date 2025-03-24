@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
-Defined in: main.ts:171289
+Defined in: main.ts:173698
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171289
 
 ## Constructors
 
-### new BacklinksBulkNewLostBacklinksLiveItem()
+### Constructor
 
-> **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+> **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): `BacklinksBulkNewLostBacklinksLiveItem`
 
-Defined in: main.ts:171301
+Defined in: main.ts:173710
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171301
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+`BacklinksBulkNewLostBacklinksLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171301
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:171297
+Defined in: main.ts:173706
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -55,7 +55,7 @@ number of lost backlinks of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:171294
+Defined in: main.ts:173703
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -70,7 +70,7 @@ number of new backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171291
+Defined in: main.ts:173700
 
 domain, subdomain or webpage from a POST array
 
@@ -84,7 +84,7 @@ domain, subdomain or webpage from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171310
+Defined in: main.ts:173719
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:171310
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171329
+Defined in: main.ts:173738
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:171329
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksBulkNewLostBacklinksLiveItem`
 
-Defined in: main.ts:171322
+Defined in: main.ts:173731
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:171322
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+`BacklinksBulkNewLostBacklinksLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: AvailableLanguages
 
-Defined in: main.ts:100673
+Defined in: main.ts:102576
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:100673
 
 ## Constructors
 
-### new AvailableLanguages()
+### Constructor
 
-> **new AvailableLanguages**(`data`?): [`AvailableLanguages`](AvailableLanguages.md)
+> **new AvailableLanguages**(`data`?): `AvailableLanguages`
 
-Defined in: main.ts:100689
+Defined in: main.ts:102592
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:100689
 
 #### Returns
 
-[`AvailableLanguages`](AvailableLanguages.md)
+`AvailableLanguages`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100689
 
 > `optional` **available\_sources**: `string`[]
 
-Defined in: main.ts:100677
+Defined in: main.ts:102580
 
 supported sources
 contains the sources of data supported for a specific location and language combination
@@ -56,7 +56,7 @@ only google and bing are currently available
 
 > `optional` **keywords**: `number`
 
-Defined in: main.ts:100683
+Defined in: main.ts:102586
 
 the number of keywords available for the given location and language
 
@@ -70,7 +70,7 @@ the number of keywords available for the given location and language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:100681
+Defined in: main.ts:102584
 
 language code according to ISO 639-1
 
@@ -84,7 +84,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:100679
+Defined in: main.ts:102582
 
 language name
 
@@ -98,7 +98,7 @@ language name
 
 > `optional` **serps**: `number`
 
-Defined in: main.ts:100685
+Defined in: main.ts:102588
 
 the number of SERP pages available for the given location and language
 
@@ -112,7 +112,7 @@ the number of SERP pages available for the given location and language
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100698
+Defined in: main.ts:102601
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:100698
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100723
+Defined in: main.ts:102626
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:100723
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AvailableLanguages`](AvailableLanguages.md)
+> `static` **fromJS**(`data`): `AvailableLanguages`
 
-Defined in: main.ts:100716
+Defined in: main.ts:102619
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:100716
 
 #### Returns
 
-[`AvailableLanguages`](AvailableLanguages.md)
+`AvailableLanguages`

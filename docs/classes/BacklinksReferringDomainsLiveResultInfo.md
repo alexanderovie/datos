@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringDomainsLiveResultInfo
 
-Defined in: main.ts:165365
+Defined in: main.ts:167774
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:165365
 
 ## Constructors
 
-### new BacklinksReferringDomainsLiveResultInfo()
+### Constructor
 
-> **new BacklinksReferringDomainsLiveResultInfo**(`data`?): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+> **new BacklinksReferringDomainsLiveResultInfo**(`data`?): `BacklinksReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:165379
+Defined in: main.ts:167788
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:165379
 
 #### Returns
 
-[`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+`BacklinksReferringDomainsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165379
 
 > `optional` **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:165375
+Defined in: main.ts:167784
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:165373
+Defined in: main.ts:167782
 
 number of items in the items array
 
@@ -68,7 +68,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165367
+Defined in: main.ts:167776
 
 target in a POST array
 
@@ -82,7 +82,7 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:165371
+Defined in: main.ts:167780
 
 total number of relevant items in the database
 total number of main domains referring to your target;
@@ -98,7 +98,7 @@ example.com and blog.example.com are counted as one referring domain
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165388
+Defined in: main.ts:167797
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:165388
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165412
+Defined in: main.ts:167821
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:165412
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:165405
+Defined in: main.ts:167814
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:165405
 
 #### Returns
 
-[`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+`BacklinksReferringDomainsLiveResultInfo`

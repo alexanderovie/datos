@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreTaskPostRequestInfo
 
-Defined in: main.ts:86793
+Defined in: main.ts:87220
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:86793
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceExploreTaskPostRequestInfo**(`data`?): [`SerpGoogleFinanceExploreTaskPostRequestInfo`](SerpGoogleFinanceExploreTaskPostRequestInfo.md)
+> **new SerpGoogleFinanceExploreTaskPostRequestInfo**(`data`?): `SerpGoogleFinanceExploreTaskPostRequestInfo`
 
-Defined in: main.ts:86880
+Defined in: main.ts:87307
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:86880
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskPostRequestInfo`](SerpGoogleFinanceExploreTaskPostRequestInfo.md)
+`SerpGoogleFinanceExploreTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:86880
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:86833
+Defined in: main.ts:87260
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:86821
+Defined in: main.ts:87248
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:86814
+Defined in: main.ts:87241
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:86807
+Defined in: main.ts:87234
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:86800
+Defined in: main.ts:87227
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:86843
+Defined in: main.ts:87270
 
 financial news filters
 optional field
@@ -150,7 +150,7 @@ Note: if you specify local_market or world_markets, the charge per task will be 
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:86837
+Defined in: main.ts:87264
 
 device operating system
 optional field
@@ -166,7 +166,7 @@ possible values: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:86876
+Defined in: main.ts:87303
 
 notification URL of a completed task
 optional field
@@ -189,7 +189,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:86865
+Defined in: main.ts:87292
 
 postback_url datatype
 required field if you specify postback_url
@@ -206,7 +206,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:86860
+Defined in: main.ts:87287
 
 return URL for sending task results
 optional field
@@ -229,7 +229,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:86829
+Defined in: main.ts:87256
 
 task priority
 optional field
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:86849
+Defined in: main.ts:87276
 
 user-defined task identifier
 optional field
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86889
+Defined in: main.ts:87316
 
 #### Parameters
 
@@ -285,7 +285,7 @@ Defined in: main.ts:86889
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86917
+Defined in: main.ts:87344
 
 #### Parameters
 
@@ -301,9 +301,9 @@ Defined in: main.ts:86917
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreTaskPostRequestInfo`](SerpGoogleFinanceExploreTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreTaskPostRequestInfo`
 
-Defined in: main.ts:86910
+Defined in: main.ts:87337
 
 #### Parameters
 
@@ -313,4 +313,4 @@ Defined in: main.ts:86910
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskPostRequestInfo`](SerpGoogleFinanceExploreTaskPostRequestInfo.md)
+`SerpGoogleFinanceExploreTaskPostRequestInfo`

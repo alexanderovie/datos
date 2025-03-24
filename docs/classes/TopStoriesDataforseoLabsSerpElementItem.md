@@ -6,7 +6,7 @@
 
 # Class: TopStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116152
+Defined in: main.ts:117537
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116152
 
 ## Constructors
 
-### new TopStoriesDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new TopStoriesDataforseoLabsSerpElementItem**(`data`?): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
+> **new TopStoriesDataforseoLabsSerpElementItem**(`data`?): `TopStoriesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116159
+Defined in: main.ts:117544
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116159
 
 #### Returns
 
-[`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
+`TopStoriesDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116159
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-Defined in: main.ts:116155
+Defined in: main.ts:117540
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116164
+Defined in: main.ts:117549
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:116164
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116186
+Defined in: main.ts:117571
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:116186
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `TopStoriesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116179
+Defined in: main.ts:117564
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:116179
 
 #### Returns
 
-[`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
+`TopStoriesDataforseoLabsSerpElementItem`
 
 #### Overrides
 

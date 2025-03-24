@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:206715
+Defined in: main.ts:209124
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:206715
 
 ## Constructors
 
-### new MerchantAmazonReviewsTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new MerchantAmazonReviewsTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+> **new MerchantAmazonReviewsTaskGetAdvancedResultInfo**(`data`?): `MerchantAmazonReviewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:206761
+Defined in: main.ts:209170
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:206761
 
 #### Returns
 
-[`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+`MerchantAmazonReviewsTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:206761
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:206717
+Defined in: main.ts:209126
 
 asin received in a POST array
 
@@ -54,7 +54,7 @@ asin received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:206728
+Defined in: main.ts:209137
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:206733
+Defined in: main.ts:209142
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **image**: [`ImagesElement`](ImagesElement.md)
 
-Defined in: main.ts:206741
+Defined in: main.ts:209150
 
 product image data
 
@@ -100,7 +100,7 @@ product image data
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:206751
+Defined in: main.ts:209160
 
 type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
@@ -117,7 +117,7 @@ amazon_review_item
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:206757
+Defined in: main.ts:209166
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -132,7 +132,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:206754
+Defined in: main.ts:209163
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -147,7 +147,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:206725
+Defined in: main.ts:209134
 
 language code in a POST array
 
@@ -161,7 +161,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:206723
+Defined in: main.ts:209132
 
 location code in a POST array
 
@@ -175,7 +175,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:206744
+Defined in: main.ts:209153
 
 rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP
@@ -190,7 +190,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:206746
+Defined in: main.ts:209155
 
 the total number of reviews
 
@@ -204,7 +204,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:206721
+Defined in: main.ts:209130
 
 search engine domain in a POST array
 
@@ -218,7 +218,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:206736
+Defined in: main.ts:209145
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -233,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:206739
+Defined in: main.ts:209148
 
 title of the product on Amazon
 the title of the product for which the reviews are collected
@@ -248,7 +248,7 @@ the title of the product for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:206719
+Defined in: main.ts:209128
 
 type of element
 
@@ -262,7 +262,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:206770
+Defined in: main.ts:209179
 
 #### Parameters
 
@@ -280,7 +280,7 @@ Defined in: main.ts:206770
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:206809
+Defined in: main.ts:209218
 
 #### Parameters
 
@@ -296,9 +296,9 @@ Defined in: main.ts:206809
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonReviewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:206802
+Defined in: main.ts:209211
 
 #### Parameters
 
@@ -308,4 +308,4 @@ Defined in: main.ts:206802
 
 #### Returns
 
-[`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+`MerchantAmazonReviewsTaskGetAdvancedResultInfo`

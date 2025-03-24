@@ -6,7 +6,7 @@
 
 # Interface: IRankInfo
 
-Defined in: main.ts:110422
+Defined in: main.ts:111719
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110422
 
 > `optional` **main\_domain\_rank**: `number`
 
-Defined in: main.ts:110430
+Defined in: main.ts:111727
 
 main domain rank
 main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -30,7 +30,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **page\_rank**: `number`
 
-Defined in: main.ts:110426
+Defined in: main.ts:111723
 
 page rank
 page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm;

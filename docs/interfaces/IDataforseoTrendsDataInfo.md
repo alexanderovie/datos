@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsDataInfo
 
-Defined in: main.ts:146836
+Defined in: main.ts:149245
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:146836
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:146838
+Defined in: main.ts:149247
 
 relevant keyword for which demographic data is provided
 
@@ -28,6 +28,6 @@ relevant keyword for which demographic data is provided
 
 > `optional` **values**: [`DemographyItemValueInfo`](../classes/DemographyItemValueInfo.md)[]
 
-Defined in: main.ts:146840
+Defined in: main.ts:149249
 
 contains age range and corresponding keyword popularity values

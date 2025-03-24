@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteTaskPostRequestInfo
 
-Defined in: main.ts:91715
+Defined in: main.ts:92142
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:91715
 
 ## Constructors
 
-### new SerpGoogleFinanceQuoteTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceQuoteTaskPostRequestInfo**(`data`?): [`SerpGoogleFinanceQuoteTaskPostRequestInfo`](SerpGoogleFinanceQuoteTaskPostRequestInfo.md)
+> **new SerpGoogleFinanceQuoteTaskPostRequestInfo**(`data`?): `SerpGoogleFinanceQuoteTaskPostRequestInfo`
 
-Defined in: main.ts:91811
+Defined in: main.ts:92238
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:91811
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteTaskPostRequestInfo`](SerpGoogleFinanceQuoteTaskPostRequestInfo.md)
+`SerpGoogleFinanceQuoteTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91811
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:91764
+Defined in: main.ts:92191
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:91724
+Defined in: main.ts:92151
 
 ticker or stock symbol
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91752
+Defined in: main.ts:92179
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91745
+Defined in: main.ts:92172
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91738
+Defined in: main.ts:92165
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:91731
+Defined in: main.ts:92158
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:91768
+Defined in: main.ts:92195
 
 device operating system
 optional field
@@ -169,7 +169,7 @@ possible values: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:91807
+Defined in: main.ts:92234
 
 notification URL of a completed task
 optional field
@@ -192,7 +192,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:91796
+Defined in: main.ts:92223
 
 postback_url datatype
 required field if you specify postback_url
@@ -209,7 +209,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:91791
+Defined in: main.ts:92218
 
 return URL for sending task results
 optional field
@@ -232,7 +232,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:91760
+Defined in: main.ts:92187
 
 task priority
 optional field
@@ -252,7 +252,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:91780
+Defined in: main.ts:92207
 
 user-defined task identifier
 optional field
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:91774
+Defined in: main.ts:92201
 
 time window for google_finance_quote graph
 optional field
@@ -288,7 +288,7 @@ Note: if you specify a value that is different from 1D, the charge per task will
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91820
+Defined in: main.ts:92247
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:91820
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91849
+Defined in: main.ts:92276
 
 #### Parameters
 
@@ -322,9 +322,9 @@ Defined in: main.ts:91849
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceQuoteTaskPostRequestInfo`](SerpGoogleFinanceQuoteTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteTaskPostRequestInfo`
 
-Defined in: main.ts:91842
+Defined in: main.ts:92269
 
 #### Parameters
 
@@ -334,4 +334,4 @@ Defined in: main.ts:91842
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteTaskPostRequestInfo`](SerpGoogleFinanceQuoteTaskPostRequestInfo.md)
+`SerpGoogleFinanceQuoteTaskPostRequestInfo`

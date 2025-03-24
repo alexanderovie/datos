@@ -6,7 +6,7 @@
 
 # Interface: IRedditReviews
 
-Defined in: main.ts:239665
+Defined in: main.ts:242074
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:239665
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:239670
+Defined in: main.ts:242079
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
@@ -29,7 +29,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 > `optional` **permalink**: `string`
 
-Defined in: main.ts:239674
+Defined in: main.ts:242083
 
 URL to the subreddit post
 
@@ -39,7 +39,7 @@ URL to the subreddit post
 
 > `optional` **subreddit**: `string`
 
-Defined in: main.ts:239667
+Defined in: main.ts:242076
 
 the name of the subreddit
 
@@ -49,7 +49,7 @@ the name of the subreddit
 
 > `optional` **subreddit\_members**: `number`
 
-Defined in: main.ts:239676
+Defined in: main.ts:242085
 
 number of subreddit members
 
@@ -59,6 +59,6 @@ number of subreddit members
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:239672
+Defined in: main.ts:242081
 
 title of the subreddit post

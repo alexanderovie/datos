@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
-Defined in: main.ts:191548
+Defined in: main.ts:193957
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:191548
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:191550
+Defined in: main.ts:193959
 
 number of input tokens
 
@@ -28,7 +28,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:191554
+Defined in: main.ts:193963
 
 number of new tokens
 
@@ -38,7 +38,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:191552
+Defined in: main.ts:193961
 
 number of output tokens
 
@@ -48,6 +48,6 @@ number of output tokens
 
 > `optional` **sub\_topics**: `string`[]
 
-Defined in: main.ts:191556
+Defined in: main.ts:193965
 
 resulting subtopics

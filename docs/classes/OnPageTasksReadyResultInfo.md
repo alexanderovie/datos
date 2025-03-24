@@ -6,7 +6,7 @@
 
 # Class: OnPageTasksReadyResultInfo
 
-Defined in: main.ts:174511
+Defined in: main.ts:176920
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:174511
 
 ## Constructors
 
-### new OnPageTasksReadyResultInfo()
+### Constructor
 
-> **new OnPageTasksReadyResultInfo**(`data`?): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
+> **new OnPageTasksReadyResultInfo**(`data`?): `OnPageTasksReadyResultInfo`
 
-Defined in: main.ts:174524
+Defined in: main.ts:176933
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:174524
 
 #### Returns
 
-[`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
+`OnPageTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174524
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:174518
+Defined in: main.ts:176927
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:174514
+Defined in: main.ts:176923
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:174520
+Defined in: main.ts:176929
 
 user-defined task identifier
 
@@ -83,7 +83,7 @@ user-defined task identifier
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:174516
+Defined in: main.ts:176925
 
 target website specified when setting a task
 
@@ -97,7 +97,7 @@ target website specified when setting a task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174533
+Defined in: main.ts:176942
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:174533
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174553
+Defined in: main.ts:176962
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:174553
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageTasksReadyResultInfo`
 
-Defined in: main.ts:174546
+Defined in: main.ts:176955
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:174546
 
 #### Returns
 
-[`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
+`OnPageTasksReadyResultInfo`

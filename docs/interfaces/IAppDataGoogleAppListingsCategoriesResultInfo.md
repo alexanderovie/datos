@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:213462
+Defined in: main.ts:215871
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:213462
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:213464
+Defined in: main.ts:215873
 
 name of the supported app category
 
@@ -28,6 +28,6 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:213466
+Defined in: main.ts:215875
 
 number of app listings that make up the supported app category

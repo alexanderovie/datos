@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLocationsResultInfo
 
-Defined in: main.ts:214253
+Defined in: main.ts:216662
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:214253
 
 ## Constructors
 
-### new AppDataAppleLocationsResultInfo()
+### Constructor
 
-> **new AppDataAppleLocationsResultInfo**(`data`?): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+> **new AppDataAppleLocationsResultInfo**(`data`?): `AppDataAppleLocationsResultInfo`
 
-Defined in: main.ts:214274
+Defined in: main.ts:216683
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:214274
 
 #### Returns
 
-[`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+`AppDataAppleLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:214274
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:214268
+Defined in: main.ts:216677
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:214255
+Defined in: main.ts:216664
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:214257
+Defined in: main.ts:216666
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `number`
 
-Defined in: main.ts:214266
+Defined in: main.ts:216675
 
 the name of the superordinate location
 example:
@@ -103,7 +103,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:214270
+Defined in: main.ts:216679
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214283
+Defined in: main.ts:216692
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:214283
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214304
+Defined in: main.ts:216713
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:214304
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleLocationsResultInfo`
 
-Defined in: main.ts:214297
+Defined in: main.ts:216706
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:214297
 
 #### Returns
 
-[`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+`AppDataAppleLocationsResultInfo`

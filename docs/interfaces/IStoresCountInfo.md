@@ -6,7 +6,7 @@
 
 # Interface: IStoresCountInfo
 
-Defined in: main.ts:195448
+Defined in: main.ts:197857
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:195448
 
 > `optional` **count**: `string`
 
-Defined in: main.ts:195450
+Defined in: main.ts:197859
 
 number of stores that offer the product
 
@@ -28,7 +28,7 @@ number of stores that offer the product
 
 > `optional` **count\_from\_text**: `boolean`
 
-Defined in: main.ts:195458
+Defined in: main.ts:197867
 
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -42,6 +42,6 @@ in this case, the parameter is true
 
 > `optional` **displayed\_text**: `string`
 
-Defined in: main.ts:195452
+Defined in: main.ts:197861
 
 text displayed on the Google Shopping page

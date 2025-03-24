@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
-Defined in: main.ts:200249
+Defined in: main.ts:202658
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:200249
 
 ## Constructors
 
-### new MerchantGoogleSellersAdUrlResultInfo()
+### Constructor
 
-> **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+> **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): `MerchantGoogleSellersAdUrlResultInfo`
 
-Defined in: main.ts:200260
+Defined in: main.ts:202669
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:200260
 
 #### Returns
 
-[`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+`MerchantGoogleSellersAdUrlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:200260
 
 > `optional` **ad\_aclk**: `string`
 
-Defined in: main.ts:200251
+Defined in: main.ts:202660
 
 unique ad click referral parameter
 
@@ -54,7 +54,7 @@ unique ad click referral parameter
 
 > `optional` **ad\_url**: `string`
 
-Defined in: main.ts:200253
+Defined in: main.ts:202662
 
 full URL of the advertisement
 
@@ -68,7 +68,7 @@ full URL of the advertisement
 
 > `optional` **ad\_url\_redirects**: `string`[]
 
-Defined in: main.ts:200256
+Defined in: main.ts:202665
 
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
@@ -83,7 +83,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:200269
+Defined in: main.ts:202678
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:200269
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200292
+Defined in: main.ts:202701
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:200292
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantGoogleSellersAdUrlResultInfo`
 
-Defined in: main.ts:200285
+Defined in: main.ts:202694
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:200285
 
 #### Returns
 
-[`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+`MerchantGoogleSellersAdUrlResultInfo`

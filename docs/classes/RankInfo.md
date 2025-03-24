@@ -6,7 +6,7 @@
 
 # Class: RankInfo
 
-Defined in: main.ts:110371
+Defined in: main.ts:111668
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:110371
 
 ## Constructors
 
-### new RankInfo()
+### Constructor
 
-> **new RankInfo**(`data`?): [`RankInfo`](RankInfo.md)
+> **new RankInfo**(`data`?): `RankInfo`
 
-Defined in: main.ts:110383
+Defined in: main.ts:111680
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:110383
 
 #### Returns
 
-[`RankInfo`](RankInfo.md)
+`RankInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110383
 
 > `optional` **main\_domain\_rank**: `number`
 
-Defined in: main.ts:110379
+Defined in: main.ts:111676
 
 main domain rank
 main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -56,7 +56,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **page\_rank**: `number`
 
-Defined in: main.ts:110375
+Defined in: main.ts:111672
 
 page rank
 page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm;
@@ -72,7 +72,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110392
+Defined in: main.ts:111689
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:110392
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110410
+Defined in: main.ts:111707
 
 #### Parameters
 
@@ -106,9 +106,9 @@ Defined in: main.ts:110410
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RankInfo`](RankInfo.md)
+> `static` **fromJS**(`data`): `RankInfo`
 
-Defined in: main.ts:110403
+Defined in: main.ts:111700
 
 #### Parameters
 
@@ -118,4 +118,4 @@ Defined in: main.ts:110403
 
 #### Returns
 
-[`RankInfo`](RankInfo.md)
+`RankInfo`

@@ -6,7 +6,7 @@
 
 # Class: CompareSitesElement
 
-Defined in: main.ts:40050
+Defined in: main.ts:40477
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:40050
 
 ## Constructors
 
-### new CompareSitesElement()
+### Constructor
 
-> **new CompareSitesElement**(`data`?): [`CompareSitesElement`](CompareSitesElement.md)
+> **new CompareSitesElement**(`data`?): `CompareSitesElement`
 
-Defined in: main.ts:40068
+Defined in: main.ts:40495
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:40068
 
 #### Returns
 
-[`CompareSitesElement`](CompareSitesElement.md)
+`CompareSitesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:40068
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:40058
+Defined in: main.ts:40485
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:40061
+Defined in: main.ts:40488
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:40064
+Defined in: main.ts:40491
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -84,7 +84,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40054
+Defined in: main.ts:40481
 
 title of a given link element
 
@@ -98,7 +98,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:40052
+Defined in: main.ts:40479
 
 type of element
 
@@ -112,7 +112,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40056
+Defined in: main.ts:40483
 
 URL
 
@@ -126,7 +126,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40077
+Defined in: main.ts:40504
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:40077
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40099
+Defined in: main.ts:40526
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:40099
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CompareSitesElement`](CompareSitesElement.md)
+> `static` **fromJS**(`data`): `CompareSitesElement`
 
-Defined in: main.ts:40092
+Defined in: main.ts:40519
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:40092
 
 #### Returns
 
-[`CompareSitesElement`](CompareSitesElement.md)
+`CompareSitesElement`

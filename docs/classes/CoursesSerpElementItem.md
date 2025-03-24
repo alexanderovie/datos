@@ -6,7 +6,7 @@
 
 # Class: CoursesSerpElementItem
 
-Defined in: main.ts:40326
+Defined in: main.ts:40753
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:40326
 
 ## Constructors
 
-### new CoursesSerpElementItem()
+### Constructor
 
-> **new CoursesSerpElementItem**(`data`?): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+> **new CoursesSerpElementItem**(`data`?): `CoursesSerpElementItem`
 
-Defined in: main.ts:40347
+Defined in: main.ts:40774
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:40347
 
 #### Returns
 
-[`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+`CoursesSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:40347
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:40337
+Defined in: main.ts:40764
 
 array of course categories
 contains a list of categories relevant to courses
@@ -75,7 +75,7 @@ contains a list of categories relevant to courses
 
 > `optional` **items**: [`CoursesElement`](CoursesElement.md)[]
 
-Defined in: main.ts:40339
+Defined in: main.ts:40766
 
 contains arrays of specific images
 
@@ -89,7 +89,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40330
+Defined in: main.ts:40757
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,7 +105,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,7 +124,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:40343
+Defined in: main.ts:40770
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,7 +160,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40334
+Defined in: main.ts:40761
 
 title of the row
 
@@ -174,7 +174,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -192,7 +192,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40332
+Defined in: main.ts:40759
 
 the XPath of the element
 
@@ -206,7 +206,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40352
+Defined in: main.ts:40779
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:40352
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40383
+Defined in: main.ts:40810
 
 #### Parameters
 
@@ -248,9 +248,9 @@ Defined in: main.ts:40383
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+> `static` **fromJS**(`data`): `CoursesSerpElementItem`
 
-Defined in: main.ts:40376
+Defined in: main.ts:40803
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:40376
 
 #### Returns
 
-[`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+`CoursesSerpElementItem`
 
 #### Overrides
 

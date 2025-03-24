@@ -6,7 +6,7 @@
 
 # Interface: IBaseSerpElementItem
 
-Defined in: main.ts:22125
+Defined in: main.ts:22331
 
 ## Extended by
 
@@ -78,7 +78,7 @@ Defined in: main.ts:22125
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -89,7 +89,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -101,6 +101,6 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element

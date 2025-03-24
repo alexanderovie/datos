@@ -6,7 +6,7 @@
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:238698
+Defined in: main.ts:241107
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238698
 
 > `optional` **date\_of\_visit**: `string`
 
-Defined in: main.ts:238710
+Defined in: main.ts:241119
 
 date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:238701
+Defined in: main.ts:241110
 
 the alignment of the review in SERP
 can take the following values: right
@@ -46,7 +46,7 @@ can take the following values: right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23100
+Defined in: main.ts:23439
 
 absolute rank among all the elements
 
@@ -60,7 +60,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23098
+Defined in: main.ts:23437
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:238705
+Defined in: main.ts:241114
 
 the rating score submitted by the reviewer
 
@@ -85,7 +85,7 @@ the rating score submitted by the reviewer
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
 
-Defined in: main.ts:238725
+Defined in: main.ts:241134
 
 contains information about the owner’s response
 
@@ -95,7 +95,7 @@ contains information about the owner’s response
 
 > `optional` **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
 
-Defined in: main.ts:238728
+Defined in: main.ts:241137
 
 review highlights
 contains highlighted review criteria and assessments
@@ -106,7 +106,7 @@ contains highlighted review criteria and assessments
 
 > `optional` **review\_images**: [`ImageUrlInfo`](../classes/ImageUrlInfo.md)[]
 
-Defined in: main.ts:238721
+Defined in: main.ts:241130
 
 contains URLs of the images used in the review
 
@@ -116,7 +116,7 @@ contains URLs of the images used in the review
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:238719
+Defined in: main.ts:241128
 
 content of the review
 
@@ -126,7 +126,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:238715
+Defined in: main.ts:241124
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -139,7 +139,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:238717
+Defined in: main.ts:241126
 
 title of the review
 
@@ -149,7 +149,7 @@ title of the review
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23095
+Defined in: main.ts:23434
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:238703
+Defined in: main.ts:241112
 
 URL of the review
 
@@ -173,6 +173,6 @@ URL of the review
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:238723
+Defined in: main.ts:241132
 
 information from the reviewer’s profile

@@ -6,7 +6,7 @@
 
 # Class: AppendixTaskKeywordsDataPriceDataInfo
 
-Defined in: main.ts:245433
+Defined in: main.ts:247398
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245433
 
 ## Constructors
 
-### new AppendixTaskKeywordsDataPriceDataInfo()
+### Constructor
 
-> **new AppendixTaskKeywordsDataPriceDataInfo**(`data`?): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> **new AppendixTaskKeywordsDataPriceDataInfo**(`data`?): `AppendixTaskKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245440
+Defined in: main.ts:247405
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245440
 
 #### Returns
 
-[`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+`AppendixTaskKeywordsDataPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245440
 
 > `optional` **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:245436
+Defined in: main.ts:247401
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245436
 
 > `optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:245434
+Defined in: main.ts:247399
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245434
 
 > `optional` **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:245435
+Defined in: main.ts:247400
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245435
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245449
+Defined in: main.ts:247414
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:245449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245480
+Defined in: main.ts:247445
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:245480
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixTaskKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245473
+Defined in: main.ts:247438
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:245473
 
 #### Returns
 
-[`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+`AppendixTaskKeywordsDataPriceDataInfo`

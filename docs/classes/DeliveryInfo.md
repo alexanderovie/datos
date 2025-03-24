@@ -6,7 +6,7 @@
 
 # Class: DeliveryInfo
 
-Defined in: main.ts:195331
+Defined in: main.ts:197740
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:195331
 
 ## Constructors
 
-### new DeliveryInfo()
+### Constructor
 
-> **new DeliveryInfo**(`data`?): [`DeliveryInfo`](DeliveryInfo.md)
+> **new DeliveryInfo**(`data`?): `DeliveryInfo`
 
-Defined in: main.ts:195342
+Defined in: main.ts:197751
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:195342
 
 #### Returns
 
-[`DeliveryInfo`](DeliveryInfo.md)
+`DeliveryInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195342
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:195334
+Defined in: main.ts:197743
 
 delivery information
 message accompanying the delivery information as posted by the seller
@@ -55,7 +55,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:195338
+Defined in: main.ts:197747
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -71,7 +71,7 @@ if free delivery is available, the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195351
+Defined in: main.ts:197760
 
 #### Parameters
 
@@ -89,7 +89,7 @@ Defined in: main.ts:195351
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195369
+Defined in: main.ts:197778
 
 #### Parameters
 
@@ -105,9 +105,9 @@ Defined in: main.ts:195369
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
+> `static` **fromJS**(`data`): `DeliveryInfo`
 
-Defined in: main.ts:195362
+Defined in: main.ts:197771
 
 #### Parameters
 
@@ -117,4 +117,4 @@ Defined in: main.ts:195362
 
 #### Returns
 
-[`DeliveryInfo`](DeliveryInfo.md)
+`DeliveryInfo`

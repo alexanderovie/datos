@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
-Defined in: main.ts:234853
+Defined in: main.ts:237262
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:234853
 
 ## Constructors
 
-### new BusinessDataTrustpilotSearchTaskPostRequestInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+> **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): `BusinessDataTrustpilotSearchTaskPostRequestInfo`
 
-Defined in: main.ts:234909
+Defined in: main.ts:237318
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:234909
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+`BusinessDataTrustpilotSearchTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234909
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:234877
+Defined in: main.ts:237286
 
 parsing depth
 optional field
@@ -60,7 +60,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:234861
+Defined in: main.ts:237270
 
 keyword
 required field
@@ -80,7 +80,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:234905
+Defined in: main.ts:237314
 
 notification URL of a completed task
 optional field
@@ -103,7 +103,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:234894
+Defined in: main.ts:237303
 
 return URL for sending task results
 optional field
@@ -126,7 +126,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:234869
+Defined in: main.ts:237278
 
 task priority
 optional field
@@ -146,7 +146,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:234883
+Defined in: main.ts:237292
 
 user-defined task identifier
 optional field
@@ -164,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234918
+Defined in: main.ts:237327
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:234918
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234940
+Defined in: main.ts:237349
 
 #### Parameters
 
@@ -198,9 +198,9 @@ Defined in: main.ts:234940
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTaskPostRequestInfo`
 
-Defined in: main.ts:234933
+Defined in: main.ts:237342
 
 #### Parameters
 
@@ -210,4 +210,4 @@ Defined in: main.ts:234933
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+`BusinessDataTrustpilotSearchTaskPostRequestInfo`

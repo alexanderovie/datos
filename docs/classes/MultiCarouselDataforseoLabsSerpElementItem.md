@@ -6,7 +6,7 @@
 
 # Class: MultiCarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116094
+Defined in: main.ts:117479
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116094
 
 ## Constructors
 
-### new MultiCarouselDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new MultiCarouselDataforseoLabsSerpElementItem**(`data`?): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+> **new MultiCarouselDataforseoLabsSerpElementItem**(`data`?): `MultiCarouselDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116101
+Defined in: main.ts:117486
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116101
 
 #### Returns
 
-[`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+`MultiCarouselDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116101
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
 
-Defined in: main.ts:116097
+Defined in: main.ts:117482
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116106
+Defined in: main.ts:117491
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:116106
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116128
+Defined in: main.ts:117513
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:116128
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `MultiCarouselDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116121
+Defined in: main.ts:117506
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:116121
 
 #### Returns
 
-[`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
+`MultiCarouselDataforseoLabsSerpElementItem`
 
 #### Overrides
 

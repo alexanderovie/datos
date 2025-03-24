@@ -6,7 +6,7 @@
 
 # Class: GoogleImageRelatedSearchesSerpElementItem
 
-Defined in: main.ts:53389
+Defined in: main.ts:53816
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:53389
 
 ## Constructors
 
-### new GoogleImageRelatedSearchesSerpElementItem()
+### Constructor
 
-> **new GoogleImageRelatedSearchesSerpElementItem**(`data`?): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
+> **new GoogleImageRelatedSearchesSerpElementItem**(`data`?): `GoogleImageRelatedSearchesSerpElementItem`
 
-Defined in: main.ts:53403
+Defined in: main.ts:53830
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:53403
 
 #### Returns
 
-[`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
+`GoogleImageRelatedSearchesSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructors)
+[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:53403
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53161
+Defined in: main.ts:53588
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:53161
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:53395
+Defined in: main.ts:53822
 
 items of the element
 
@@ -74,7 +74,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:53393
+Defined in: main.ts:53820
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53157
+Defined in: main.ts:53584
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53154
+Defined in: main.ts:53581
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:53399
+Defined in: main.ts:53826
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53150
+Defined in: main.ts:53577
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53159
+Defined in: main.ts:53586
 
 the XPath of the element
 
@@ -181,7 +181,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53408
+Defined in: main.ts:53835
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:53408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53432
+Defined in: main.ts:53859
 
 #### Parameters
 
@@ -223,9 +223,9 @@ Defined in: main.ts:53432
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleImageRelatedSearchesSerpElementItem`
 
-Defined in: main.ts:53425
+Defined in: main.ts:53852
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:53425
 
 #### Returns
 
-[`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
+`GoogleImageRelatedSearchesSerpElementItem`
 
 #### Overrides
 

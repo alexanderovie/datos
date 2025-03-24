@@ -6,7 +6,7 @@
 
 # Interface: ITechnologiesInfo
 
-Defined in: main.ts:25528
+Defined in: main.ts:25867
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25528
 
 > `optional` **add\_ons**: `object`
 
-Defined in: main.ts:25529
+Defined in: main.ts:25868
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:25529
 
 > `optional` **analytics**: `object`
 
-Defined in: main.ts:25530
+Defined in: main.ts:25869
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:25530
 
 > `optional` **business\_tools**: `object`
 
-Defined in: main.ts:25533
+Defined in: main.ts:25872
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:25533
 
 > `optional` **communication**: `object`
 
-Defined in: main.ts:25543
+Defined in: main.ts:25882
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:25543
 
 > `optional` **content**: `object`
 
-Defined in: main.ts:25540
+Defined in: main.ts:25879
 
 #### Index Signature
 
@@ -78,7 +78,7 @@ Defined in: main.ts:25540
 
 > `optional` **location**: `object`
 
-Defined in: main.ts:25539
+Defined in: main.ts:25878
 
 #### Index Signature
 
@@ -90,7 +90,7 @@ Defined in: main.ts:25539
 
 > `optional` **marketing**: `object`
 
-Defined in: main.ts:25542
+Defined in: main.ts:25881
 
 #### Index Signature
 
@@ -102,7 +102,7 @@ Defined in: main.ts:25542
 
 > `optional` **media**: `object`
 
-Defined in: main.ts:25541
+Defined in: main.ts:25880
 
 #### Index Signature
 
@@ -114,7 +114,7 @@ Defined in: main.ts:25541
 
 > `optional` **other**: `object`
 
-Defined in: main.ts:25535
+Defined in: main.ts:25874
 
 #### Index Signature
 
@@ -126,7 +126,7 @@ Defined in: main.ts:25535
 
 > `optional` **privacy**: `object`
 
-Defined in: main.ts:25537
+Defined in: main.ts:25876
 
 #### Index Signature
 
@@ -138,7 +138,7 @@ Defined in: main.ts:25537
 
 > `optional` **sales**: `object`
 
-Defined in: main.ts:25534
+Defined in: main.ts:25873
 
 #### Index Signature
 
@@ -150,7 +150,7 @@ Defined in: main.ts:25534
 
 > `optional` **security**: `object`
 
-Defined in: main.ts:25532
+Defined in: main.ts:25871
 
 #### Index Signature
 
@@ -162,7 +162,7 @@ Defined in: main.ts:25532
 
 > `optional` **servers**: `object`
 
-Defined in: main.ts:25538
+Defined in: main.ts:25877
 
 #### Index Signature
 
@@ -174,7 +174,7 @@ Defined in: main.ts:25538
 
 > `optional` **user\_generated\_content**: `object`
 
-Defined in: main.ts:25536
+Defined in: main.ts:25875
 
 #### Index Signature
 
@@ -186,7 +186,7 @@ Defined in: main.ts:25536
 
 > `optional` **utilities**: `object`
 
-Defined in: main.ts:25544
+Defined in: main.ts:25883
 
 #### Index Signature
 
@@ -198,7 +198,7 @@ Defined in: main.ts:25544
 
 > `optional` **web\_development**: `object`
 
-Defined in: main.ts:25531
+Defined in: main.ts:25870
 
 #### Index Signature
 

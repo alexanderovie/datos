@@ -6,7 +6,7 @@
 
 # Interface: IPageContentInfo
 
-Defined in: main.ts:182815
+Defined in: main.ts:185224
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182815
 
 > `optional` **comments**: [`ContentCommentInfo`](../classes/ContentCommentInfo.md)[]
 
-Defined in: main.ts:182833
+Defined in: main.ts:185242
 
 array of comments displayed on the page
 contains objects with information on comments related to displayed products
@@ -29,7 +29,7 @@ contains objects with information on comments related to displayed products
 
 > `optional` **contacts**: [`Contacts`](../classes/Contacts.md)
 
-Defined in: main.ts:182836
+Defined in: main.ts:185245
 
 contact information
 contains contact information displayed on the page
@@ -40,7 +40,7 @@ contains contact information displayed on the page
 
 > `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:182819
+Defined in: main.ts:185228
 
 parsed content of the footer
 
@@ -50,7 +50,7 @@ parsed content of the footer
 
 > `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:182817
+Defined in: main.ts:185226
 
 content of the header of the table
 
@@ -60,7 +60,7 @@ content of the header of the table
 
 > `optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:182822
+Defined in: main.ts:185231
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -71,7 +71,7 @@ you can find more information about topic priority calculation in this help cent
 
 > `optional` **offers**: [`ContentOfferInfo`](../classes/ContentOfferInfo.md)[]
 
-Defined in: main.ts:182830
+Defined in: main.ts:185239
 
 array of products displayed on the page
 contains objects with information on products displayed on the page
@@ -82,7 +82,7 @@ contains objects with information on products displayed on the page
 
 > `optional` **ratings**: [`ContentRatingInfo`](../classes/ContentRatingInfo.md)[]
 
-Defined in: main.ts:182827
+Defined in: main.ts:185236
 
 contains objects with rating information for the products displayed on the page
 
@@ -92,7 +92,7 @@ contains objects with rating information for the products displayed on the page
 
 > `optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:182825
+Defined in: main.ts:185234
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article

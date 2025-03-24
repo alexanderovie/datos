@@ -6,7 +6,7 @@
 
 # Class: EventItemSerpElementItem
 
-Defined in: main.ts:51392
+Defined in: main.ts:51819
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:51392
 
 ## Constructors
 
-### new EventItemSerpElementItem()
+### Constructor
 
-> **new EventItemSerpElementItem**(`data`?): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
+> **new EventItemSerpElementItem**(`data`?): `EventItemSerpElementItem`
 
-Defined in: main.ts:51417
+Defined in: main.ts:51844
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:51417
 
 #### Returns
 
-[`EventItemSerpElementItem`](EventItemSerpElementItem.md)
+`EventItemSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:51417
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:51402
+Defined in: main.ts:51829
 
 description of the results element in SERP
 
@@ -74,7 +74,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](EventDates.md)
 
-Defined in: main.ts:51409
+Defined in: main.ts:51836
 
 dates when the event takes place
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:51406
+Defined in: main.ts:51833
 
 URL of the image featured in the element
 
@@ -103,7 +103,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:51413
+Defined in: main.ts:51840
 
 additional information and ticket purchase options
 
@@ -117,7 +117,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:51411
+Defined in: main.ts:51838
 
 information about the event’s venue
 
@@ -131,7 +131,7 @@ information about the event’s venue
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:51396
+Defined in: main.ts:51823
 
 the alignment of the element in SERP
 can take the following values:
@@ -147,7 +147,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -166,7 +166,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -186,7 +186,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:51400
+Defined in: main.ts:51827
 
 title of the element
 
@@ -200,7 +200,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -218,7 +218,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51404
+Defined in: main.ts:51831
 
 search URL with refinement parameters
 
@@ -232,7 +232,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:51398
+Defined in: main.ts:51825
 
 the XPath of the element
 
@@ -246,7 +246,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51422
+Defined in: main.ts:51849
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:51422
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51452
+Defined in: main.ts:51879
 
 #### Parameters
 
@@ -288,9 +288,9 @@ Defined in: main.ts:51452
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `EventItemSerpElementItem`
 
-Defined in: main.ts:51445
+Defined in: main.ts:51872
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: main.ts:51445
 
 #### Returns
 
-[`EventItemSerpElementItem`](EventItemSerpElementItem.md)
+`EventItemSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116726
+Defined in: main.ts:118109
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116726
 
 ## Constructors
 
-### new HotelsPackDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new HotelsPackDataforseoLabsSerpElementItem**(`data`?): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+> **new HotelsPackDataforseoLabsSerpElementItem**(`data`?): `HotelsPackDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116745
+Defined in: main.ts:118128
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116745
 
 #### Returns
 
-[`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+`HotelsPackDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116745
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:116733
+Defined in: main.ts:118116
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:116738
+Defined in: main.ts:118121
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:116741
+Defined in: main.ts:118124
 
 additional items present in the element
 if there are none, equals null
@@ -109,7 +109,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -129,7 +129,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -148,7 +148,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116728
+Defined in: main.ts:118111
 
 title of the result in SERP
 
@@ -181,7 +181,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -199,7 +199,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -217,7 +217,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116750
+Defined in: main.ts:118133
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:116750
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116775
+Defined in: main.ts:118158
 
 #### Parameters
 
@@ -259,9 +259,9 @@ Defined in: main.ts:116775
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `HotelsPackDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116768
+Defined in: main.ts:118151
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:116768
 
 #### Returns
 
-[`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
+`HotelsPackDataforseoLabsSerpElementItem`
 
 #### Overrides
 

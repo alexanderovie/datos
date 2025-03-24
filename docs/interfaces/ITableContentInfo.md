@@ -6,7 +6,7 @@
 
 # Interface: ITableContentInfo
 
-Defined in: main.ts:26423
+Defined in: main.ts:26850
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26423
 
 > `optional` **body**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-Defined in: main.ts:26427
+Defined in: main.ts:26854
 
 content of the body of the table
 
@@ -28,7 +28,7 @@ content of the body of the table
 
 > `optional` **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-Defined in: main.ts:26429
+Defined in: main.ts:26856
 
 content of the footer of the table
 
@@ -38,6 +38,6 @@ content of the footer of the table
 
 > `optional` **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-Defined in: main.ts:26425
+Defined in: main.ts:26852
 
 parsed content of the header

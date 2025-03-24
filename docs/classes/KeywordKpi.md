@@ -6,7 +6,7 @@
 
 # Class: KeywordKpi
 
-Defined in: main.ts:154619
+Defined in: main.ts:157028
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:154619
 
 ## Constructors
 
-### new KeywordKpi()
+### Constructor
 
-> **new KeywordKpi**(`data`?): [`KeywordKpi`](KeywordKpi.md)
+> **new KeywordKpi**(`data`?): `KeywordKpi`
 
-Defined in: main.ts:154632
+Defined in: main.ts:157041
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:154632
 
 #### Returns
 
-[`KeywordKpi`](KeywordKpi.md)
+`KeywordKpi`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154632
 
 > `optional` **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:154622
+Defined in: main.ts:157031
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
@@ -55,7 +55,7 @@ if there is no data, then the value is null
 
 > `optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:154625
+Defined in: main.ts:157034
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 > `optional` **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:154628
+Defined in: main.ts:157037
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154641
+Defined in: main.ts:157050
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:154641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154672
+Defined in: main.ts:157081
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:154672
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
+> `static` **fromJS**(`data`): `KeywordKpi`
 
-Defined in: main.ts:154665
+Defined in: main.ts:157074
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:154665
 
 #### Returns
 
-[`KeywordKpi`](KeywordKpi.md)
+`KeywordKpi`

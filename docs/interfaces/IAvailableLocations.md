@@ -6,7 +6,7 @@
 
 # Interface: IAvailableLocations
 
-Defined in: main.ts:153758
+Defined in: main.ts:156167
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:153758
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:153764
+Defined in: main.ts:156173
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:153760
+Defined in: main.ts:156169
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:153762
+Defined in: main.ts:156171
 
 location name
 
@@ -48,7 +48,7 @@ location name
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:153768
+Defined in: main.ts:156177
 
 location type
 possible values:

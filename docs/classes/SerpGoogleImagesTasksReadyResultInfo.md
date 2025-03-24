@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTasksReadyResultInfo
 
-Defined in: main.ts:52724
+Defined in: main.ts:53151
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:52724
 
 ## Constructors
 
-### new SerpGoogleImagesTasksReadyResultInfo()
+### Constructor
 
-> **new SerpGoogleImagesTasksReadyResultInfo**(`data`?): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+> **new SerpGoogleImagesTasksReadyResultInfo**(`data`?): `SerpGoogleImagesTasksReadyResultInfo`
 
-Defined in: main.ts:52749
+Defined in: main.ts:53176
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:52749
 
 #### Returns
 
-[`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+`SerpGoogleImagesTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:52749
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:52734
+Defined in: main.ts:53161
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:52742
+Defined in: main.ts:53169
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:52745
+Defined in: main.ts:53172
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:52739
+Defined in: main.ts:53166
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:52727
+Defined in: main.ts:53154
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:52729
+Defined in: main.ts:53156
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:52732
+Defined in: main.ts:53159
 
 type of search engine
 example: images
@@ -143,7 +143,7 @@ example: images
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:52736
+Defined in: main.ts:53163
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52758
+Defined in: main.ts:53185
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:52758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52782
+Defined in: main.ts:53209
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:52782
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleImagesTasksReadyResultInfo`
 
-Defined in: main.ts:52775
+Defined in: main.ts:53202
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:52775
 
 #### Returns
 
-[`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)
+`SerpGoogleImagesTasksReadyResultInfo`

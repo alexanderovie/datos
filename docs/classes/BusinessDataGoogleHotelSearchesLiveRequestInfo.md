@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesLiveRequestInfo
 
-Defined in: main.ts:227029
+Defined in: main.ts:229438
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:227029
 
 ## Constructors
 
-### new BusinessDataGoogleHotelSearchesLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleHotelSearchesLiveRequestInfo**(`data`?): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+> **new BusinessDataGoogleHotelSearchesLiveRequestInfo**(`data`?): `BusinessDataGoogleHotelSearchesLiveRequestInfo`
 
-Defined in: main.ts:227208
+Defined in: main.ts:229617
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:227208
 
 #### Returns
 
-[`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+`BusinessDataGoogleHotelSearchesLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:227208
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:227115
+Defined in: main.ts:229524
 
 number of adults
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **amenities**: `string`[]
 
-Defined in: main.ts:227198
+Defined in: main.ts:229607
 
 hotel amenities
 optional field
@@ -100,7 +100,7 @@ possible values:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:227094
+Defined in: main.ts:229503
 
 check-in date
 optional field
@@ -120,7 +120,7 @@ Note: the value cannot precede the today’s date
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:227103
+Defined in: main.ts:229512
 
 check-out date
 optional field
@@ -141,7 +141,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:227125
+Defined in: main.ts:229534
 
 number and age of children
 optional field
@@ -163,7 +163,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:227108
+Defined in: main.ts:229517
 
 currency
 optional field
@@ -180,7 +180,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:227086
+Defined in: main.ts:229495
 
 parsing depth
 optional field
@@ -201,7 +201,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **free\_cancellation**: `boolean`
 
-Defined in: main.ts:227164
+Defined in: main.ts:229573
 
 hotels with a free cancellation
 optional field
@@ -218,7 +218,7 @@ default value: false
 
 > `optional` **is\_vacation\_rentals**: `boolean`
 
-Defined in: main.ts:227169
+Defined in: main.ts:229578
 
 search for vacation rentals
 optional field
@@ -235,7 +235,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:227039
+Defined in: main.ts:229448
 
 keyword
 optional field
@@ -257,7 +257,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:227077
+Defined in: main.ts:229486
 
 search engine language code
 required field if you don’t specify language_name
@@ -276,7 +276,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:227070
+Defined in: main.ts:229479
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -295,7 +295,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227054
+Defined in: main.ts:229463
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -314,7 +314,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:227063
+Defined in: main.ts:229472
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -335,7 +335,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:227047
+Defined in: main.ts:229456
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -355,7 +355,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 > `optional` **max\_price**: `number`
 
-Defined in: main.ts:227159
+Defined in: main.ts:229568
 
 maximum price per night
 optional field
@@ -373,7 +373,7 @@ example:
 
 > `optional` **min\_price**: `number`
 
-Defined in: main.ts:227153
+Defined in: main.ts:229562
 
 minimum price per night
 optional field
@@ -391,7 +391,7 @@ example:
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:227137
+Defined in: main.ts:229546
 
 minimum rating
 optional field
@@ -409,7 +409,7 @@ example:
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:227147
+Defined in: main.ts:229556
 
 results sorting parameters
 optional field
@@ -431,7 +431,7 @@ default value: relevance
 
 > `optional` **stars**: `string`[]
 
-Defined in: main.ts:227131
+Defined in: main.ts:229540
 
 hotel stars
 optional field
@@ -449,7 +449,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:227204
+Defined in: main.ts:229613
 
 user-defined task identifier
 optional field
@@ -467,7 +467,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:227217
+Defined in: main.ts:229626
 
 #### Parameters
 
@@ -485,7 +485,7 @@ Defined in: main.ts:227217
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:227266
+Defined in: main.ts:229675
 
 #### Parameters
 
@@ -501,9 +501,9 @@ Defined in: main.ts:227266
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleHotelSearchesLiveRequestInfo`
 
-Defined in: main.ts:227259
+Defined in: main.ts:229668
 
 #### Parameters
 
@@ -513,4 +513,4 @@ Defined in: main.ts:227259
 
 #### Returns
 
-[`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+`BusinessDataGoogleHotelSearchesLiveRequestInfo`

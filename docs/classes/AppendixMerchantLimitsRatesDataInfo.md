@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:241083
+Defined in: main.ts:243496
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241083
 
 ## Constructors
 
-### new AppendixMerchantLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixMerchantLimitsRatesDataInfo**(`data`?): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+> **new AppendixMerchantLimitsRatesDataInfo**(`data`?): `AppendixMerchantLimitsRatesDataInfo`
 
-Defined in: main.ts:241094
+Defined in: main.ts:243507
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241094
 
 #### Returns
 
-[`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+`AppendixMerchantLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241094
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:241085
+Defined in: main.ts:243498
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241085
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:241088
+Defined in: main.ts:243501
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241088
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:241084
+Defined in: main.ts:243497
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241084
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:241087
+Defined in: main.ts:243500
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:241087
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:241086
+Defined in: main.ts:243499
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:241086
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241089
+Defined in: main.ts:243502
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:241089
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:241090
+Defined in: main.ts:243503
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:241090
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241103
+Defined in: main.ts:243516
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:241103
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241126
+Defined in: main.ts:243539
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:241126
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixMerchantLimitsRatesDataInfo`
 
-Defined in: main.ts:241119
+Defined in: main.ts:243532
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:241119
 
 #### Returns
 
-[`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+`AppendixMerchantLimitsRatesDataInfo`

@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveItem
 
-Defined in: main.ts:213797
+Defined in: main.ts:216206
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:213797
 
 ## Constructors
 
-### new AppDataGoogleAppListingsSearchLiveItem()
+### Constructor
 
-> **new AppDataGoogleAppListingsSearchLiveItem**(`data`?): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
+> **new AppDataGoogleAppListingsSearchLiveItem**(`data`?): `AppDataGoogleAppListingsSearchLiveItem`
 
-Defined in: main.ts:213819
+Defined in: main.ts:216228
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:213819
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
+`AppDataGoogleAppListingsSearchLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213819
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:213799
+Defined in: main.ts:216208
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:213808
+Defined in: main.ts:216217
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:213815
+Defined in: main.ts:216224
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:213805
+Defined in: main.ts:216214
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:213803
+Defined in: main.ts:216212
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:213801
+Defined in: main.ts:216210
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:213813
+Defined in: main.ts:216222
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -142,7 +142,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213828
+Defined in: main.ts:216237
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:213828
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213851
+Defined in: main.ts:216260
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:213851
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppListingsSearchLiveItem`
 
-Defined in: main.ts:213844
+Defined in: main.ts:216253
 
 #### Parameters
 
@@ -188,4 +188,4 @@ Defined in: main.ts:213844
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
+`AppDataGoogleAppListingsSearchLiveItem`

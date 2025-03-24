@@ -6,7 +6,7 @@
 
 # Class: RecipesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117954
+Defined in: main.ts:119337
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117954
 
 ## Constructors
 
-### new RecipesDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new RecipesDataforseoLabsSerpElementItem**(`data`?): [`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
+> **new RecipesDataforseoLabsSerpElementItem**(`data`?): `RecipesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117961
+Defined in: main.ts:119344
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117961
 
 #### Returns
 
-[`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
+`RecipesDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117961
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:117957
+Defined in: main.ts:119340
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117966
+Defined in: main.ts:119349
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:117966
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117988
+Defined in: main.ts:119371
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:117988
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `RecipesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117981
+Defined in: main.ts:119364
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:117981
 
 #### Returns
 
-[`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
+`RecipesDataforseoLabsSerpElementItem`
 
 #### Overrides
 

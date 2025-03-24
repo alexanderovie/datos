@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesLiveAdvancedRequestInfo
 
-Defined in: main.ts:54106
+Defined in: main.ts:54533
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:54106
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:54181
+Defined in: main.ts:54608
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:54122
+Defined in: main.ts:54549
 
 keyword
 required field
@@ -53,7 +53,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54160
+Defined in: main.ts:54587
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,7 +68,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:54153
+Defined in: main.ts:54580
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -83,7 +83,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:54136
+Defined in: main.ts:54563
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -98,7 +98,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:54146
+Defined in: main.ts:54573
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -116,7 +116,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:54129
+Defined in: main.ts:54556
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -131,7 +131,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:54188
+Defined in: main.ts:54615
 
 page crawl limit
 optional field
@@ -146,7 +146,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:54166
+Defined in: main.ts:54593
 
 device operating system
 optional field
@@ -160,7 +160,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54172
+Defined in: main.ts:54599
 
 search engine domain
 optional field
@@ -174,7 +174,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:54192
+Defined in: main.ts:54619
 
 additional parameters of the search query
 optional field
@@ -186,7 +186,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:54198
+Defined in: main.ts:54625
 
 user-defined task identifier
 optional field
@@ -200,7 +200,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:54112
+Defined in: main.ts:54539
 
 direct URL of the search query
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-Defined in: main.ts:114960
+Defined in: main.ts:116265
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:114960
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:114973
+Defined in: main.ts:116278
 
 starting date of the time range
 optional field
@@ -32,7 +32,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:114980
+Defined in: main.ts:116285
 
 ending date of the time range
 optional field
@@ -47,7 +47,7 @@ example:
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:114967
+Defined in: main.ts:116272
 
 keyword
 required field
@@ -62,7 +62,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115010
+Defined in: main.ts:116315
 
 unique language identifier
 required field if you don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:115002
+Defined in: main.ts:116307
 
 full name of the language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114994
+Defined in: main.ts:116299
 
 unique location identifier
 required field if you don’t specify location_name
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114987
+Defined in: main.ts:116292
 
 full name of the location
 required field if you don’t specify location_code
@@ -124,7 +124,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:115016
+Defined in: main.ts:116321
 
 user-defined task identifier
 optional field

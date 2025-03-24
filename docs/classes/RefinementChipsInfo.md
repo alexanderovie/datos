@@ -6,7 +6,7 @@
 
 # Class: RefinementChipsInfo
 
-Defined in: main.ts:22787
+Defined in: main.ts:23126
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:22787
 
 ## Constructors
 
-### new RefinementChipsInfo()
+### Constructor
 
-> **new RefinementChipsInfo**(`data`?): [`RefinementChipsInfo`](RefinementChipsInfo.md)
+> **new RefinementChipsInfo**(`data`?): `RefinementChipsInfo`
 
-Defined in: main.ts:22797
+Defined in: main.ts:23136
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:22797
 
 #### Returns
 
-[`RefinementChipsInfo`](RefinementChipsInfo.md)
+`RefinementChipsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22797
 
 > `optional` **items**: [`RefinementChipsElement`](RefinementChipsElement.md)[]
 
-Defined in: main.ts:22793
+Defined in: main.ts:23132
 
 items of the element
 
@@ -54,7 +54,7 @@ items of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22789
+Defined in: main.ts:23128
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22791
+Defined in: main.ts:23130
 
 the XPath of the element
 
@@ -82,7 +82,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22806
+Defined in: main.ts:23145
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:22806
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22829
+Defined in: main.ts:23168
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:22829
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RefinementChipsInfo`](RefinementChipsInfo.md)
+> `static` **fromJS**(`data`): `RefinementChipsInfo`
 
-Defined in: main.ts:22822
+Defined in: main.ts:23161
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:22822
 
 #### Returns
 
-[`RefinementChipsInfo`](RefinementChipsInfo.md)
+`RefinementChipsInfo`

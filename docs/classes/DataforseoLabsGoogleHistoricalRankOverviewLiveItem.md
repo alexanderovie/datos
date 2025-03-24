@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
-Defined in: main.ts:119001
+Defined in: main.ts:120384
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:119001
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalRankOverviewLiveItem()
+### Constructor
 
-> **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data`?): `DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
 
-Defined in: main.ts:119013
+Defined in: main.ts:120396
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:119013
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:119013
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:119009
+Defined in: main.ts:120392
 
 ranking data relevant to the specified domain
 
@@ -58,7 +58,7 @@ ranking data relevant to the specified domain
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:119007
+Defined in: main.ts:120390
 
 month for which the data is provided
 
@@ -72,7 +72,7 @@ month for which the data is provided
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:119003
+Defined in: main.ts:120386
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:119005
+Defined in: main.ts:120388
 
 year for which the data is provided
 
@@ -100,7 +100,7 @@ year for which the data is provided
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119022
+Defined in: main.ts:120405
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:119022
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119048
+Defined in: main.ts:120431
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:119048
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
 
-Defined in: main.ts:119041
+Defined in: main.ts:120424
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:119041
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSubdomainsLiveResultInfo
 
-Defined in: main.ts:113561
+Defined in: main.ts:114866
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:113561
 
 ## Constructors
 
-### new DataforseoLabsGoogleSubdomainsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+> **new DataforseoLabsGoogleSubdomainsLiveResultInfo**(`data`?): `DataforseoLabsGoogleSubdomainsLiveResultInfo`
 
-Defined in: main.ts:113579
+Defined in: main.ts:114884
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:113579
 
 #### Returns
 
-[`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+`DataforseoLabsGoogleSubdomainsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113579
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
-Defined in: main.ts:113575
+Defined in: main.ts:114880
 
 contains subdomains and related data
 
@@ -54,7 +54,7 @@ contains subdomains and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:113573
+Defined in: main.ts:114878
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113569
+Defined in: main.ts:114874
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113567
+Defined in: main.ts:114872
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113563
+Defined in: main.ts:114868
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:113565
+Defined in: main.ts:114870
 
 domain in a POST array
 
@@ -124,7 +124,7 @@ domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:113571
+Defined in: main.ts:114876
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113588
+Defined in: main.ts:114893
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:113588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113615
+Defined in: main.ts:114920
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:113615
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleSubdomainsLiveResultInfo`
 
-Defined in: main.ts:113608
+Defined in: main.ts:114913
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:113608
 
 #### Returns
 
-[`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+`DataforseoLabsGoogleSubdomainsLiveResultInfo`

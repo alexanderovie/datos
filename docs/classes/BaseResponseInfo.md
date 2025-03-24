@@ -6,7 +6,7 @@
 
 # Class: BaseResponseInfo
 
-Defined in: main.ts:26010
+Defined in: main.ts:26349
 
 ## Extended by
 
@@ -181,6 +181,10 @@ Defined in: main.ts:26010
 - [`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)
 - [`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)
 - [`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)
+- [`SerpGoogleFinanceTickerSearchTaskPostResponseInfo`](SerpGoogleFinanceTickerSearchTaskPostResponseInfo.md)
+- [`SerpGoogleFinanceTickerSearchTasksReadyResponseInfo`](SerpGoogleFinanceTickerSearchTasksReadyResponseInfo.md)
+- [`SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.md)
+- [`SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.md)
 - [`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)
 - [`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)
 - [`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)
@@ -206,7 +210,6 @@ Defined in: main.ts:26010
 - [`DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)
 - [`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)
 - [`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)
-- [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 - [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 - [`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
 - [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
@@ -228,6 +231,8 @@ Defined in: main.ts:26010
 - [`DataforseoLabsGooglePageIntersectionLiveResponseInfo`](DataforseoLabsGooglePageIntersectionLiveResponseInfo.md)
 - [`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)
 - [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)
+- [`DataforseoLabsGoogleHistoricalKeywordDataLiveResponseInfo`](DataforseoLabsGoogleHistoricalKeywordDataLiveResponseInfo.md)
+- [`DataforseoLabsGoogleKeywordOverviewLiveResponseInfo`](DataforseoLabsGoogleKeywordOverviewLiveResponseInfo.md)
 - [`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)
 - [`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)
 - [`DataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)
@@ -552,11 +557,11 @@ Defined in: main.ts:26010
 
 ## Constructors
 
-### new BaseResponseInfo()
+### Constructor
 
-> **new BaseResponseInfo**(`data`?): [`BaseResponseInfo`](BaseResponseInfo.md)
+> **new BaseResponseInfo**(`data`?): `BaseResponseInfo`
 
-Defined in: main.ts:26030
+Defined in: main.ts:26369
 
 #### Parameters
 
@@ -566,7 +571,7 @@ Defined in: main.ts:26030
 
 #### Returns
 
-[`BaseResponseInfo`](BaseResponseInfo.md)
+`BaseResponseInfo`
 
 ## Properties
 
@@ -574,7 +579,7 @@ Defined in: main.ts:26030
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -588,7 +593,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -603,7 +608,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -618,7 +623,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -632,7 +637,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -646,7 +651,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -660,7 +665,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -674,7 +679,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26039
+Defined in: main.ts:26378
 
 #### Parameters
 
@@ -692,7 +697,7 @@ Defined in: main.ts:26039
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26062
+Defined in: main.ts:26401
 
 #### Parameters
 
@@ -708,9 +713,9 @@ Defined in: main.ts:26062
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseResponseInfo`](BaseResponseInfo.md)
+> `static` **fromJS**(`data`): `BaseResponseInfo`
 
-Defined in: main.ts:26055
+Defined in: main.ts:26394
 
 #### Parameters
 
@@ -720,4 +725,4 @@ Defined in: main.ts:26055
 
 #### Returns
 
-[`BaseResponseInfo`](BaseResponseInfo.md)
+`BaseResponseInfo`

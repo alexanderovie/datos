@@ -6,7 +6,7 @@
 
 # Class: BaseLocalBusinessLink
 
-Defined in: main.ts:25721
+Defined in: main.ts:26060
 
 ## Extended by
 
@@ -20,11 +20,11 @@ Defined in: main.ts:25721
 
 ## Constructors
 
-### new BaseLocalBusinessLink()
+### Constructor
 
-> **new BaseLocalBusinessLink**(`data`?): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+> **new BaseLocalBusinessLink**(`data`?): `BaseLocalBusinessLink`
 
-Defined in: main.ts:25727
+Defined in: main.ts:26066
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:25727
 
 #### Returns
 
-[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+`BaseLocalBusinessLink`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:25727
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25725
+Defined in: main.ts:26064
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:25725
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25723
+Defined in: main.ts:26062
 
 type of element
 
@@ -64,7 +64,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25737
+Defined in: main.ts:26076
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:25737
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25765
+Defined in: main.ts:26104
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:25765
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+> `static` **fromJS**(`data`): `BaseLocalBusinessLink`
 
-Defined in: main.ts:25743
+Defined in: main.ts:26082
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:25743
 
 #### Returns
 
-[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+`BaseLocalBusinessLink`

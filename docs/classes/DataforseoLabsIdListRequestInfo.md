@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListRequestInfo
 
-Defined in: main.ts:99255
+Defined in: main.ts:101158
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99255
 
 ## Constructors
 
-### new DataforseoLabsIdListRequestInfo()
+### Constructor
 
-> **new DataforseoLabsIdListRequestInfo**(`data`?): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+> **new DataforseoLabsIdListRequestInfo**(`data`?): `DataforseoLabsIdListRequestInfo`
 
-Defined in: main.ts:99293
+Defined in: main.ts:101196
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99293
 
 #### Returns
 
-[`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+`DataforseoLabsIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99293
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:99263
+Defined in: main.ts:101166
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:99270
+Defined in: main.ts:101173
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:99289
+Defined in: main.ts:101192
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:99275
+Defined in: main.ts:101178
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:99280
+Defined in: main.ts:101183
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:99285
+Defined in: main.ts:101188
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99302
+Defined in: main.ts:101205
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:99302
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99324
+Defined in: main.ts:101227
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:99324
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsIdListRequestInfo`
 
-Defined in: main.ts:99317
+Defined in: main.ts:101220
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:99317
 
 #### Returns
 
-[`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+`DataforseoLabsIdListRequestInfo`

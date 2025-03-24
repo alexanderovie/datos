@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
-Defined in: main.ts:141630
+Defined in: main.ts:144031
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:141630
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:141648
+Defined in: main.ts:144049
 
 the maximum custom bid
 required field
@@ -32,7 +32,7 @@ learn more in this help center article
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:141704
+Defined in: main.ts:144105
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -50,7 +50,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:141719
+Defined in: main.ts:144120
 
 forecasting date interval
 optional field
@@ -64,7 +64,7 @@ default value: next_month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:141713
+Defined in: main.ts:144114
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -81,7 +81,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:141642
+Defined in: main.ts:144043
 
 keywords
 required field
@@ -101,7 +101,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:141694
+Defined in: main.ts:144095
 
 search engine language code
 optional field
@@ -115,7 +115,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:141688
+Defined in: main.ts:144089
 
 full name of search engine language
 optional field
@@ -129,7 +129,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141673
+Defined in: main.ts:144074
 
 search engine location code
 optional field
@@ -145,7 +145,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:141682
+Defined in: main.ts:144083
 
 GPS coordinates of a location
 optional field
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:141665
+Defined in: main.ts:144066
 
 full name of search engine location
 optional field
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:141652
+Defined in: main.ts:144053
 
 keywords match-type
 required field
@@ -190,7 +190,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:141657
+Defined in: main.ts:144058
 
 include Google search partners
 optional field
@@ -203,7 +203,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:141724
+Defined in: main.ts:144125
 
 results sorting parameters
 optional field
@@ -216,7 +216,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:141730
+Defined in: main.ts:144131
 
 user-defined task identifier
 optional field

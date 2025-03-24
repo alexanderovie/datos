@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:157559
+Defined in: main.ts:159968
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157559
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
+> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo**(`data`?): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:157579
+Defined in: main.ts:159988
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157579
 
 #### Returns
 
-[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
+`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157579
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:157569
+Defined in: main.ts:159978
 
 target keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:157575
+Defined in: main.ts:159984
 
 user-defined task identifier
 optional field
@@ -80,7 +80,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157588
+Defined in: main.ts:159997
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: main.ts:157588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157610
+Defined in: main.ts:160019
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:157610
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:157603
+Defined in: main.ts:160012
 
 #### Parameters
 
@@ -126,4 +126,4 @@ Defined in: main.ts:157603
 
 #### Returns
 
-[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
+`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`

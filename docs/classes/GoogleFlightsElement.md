@@ -6,7 +6,7 @@
 
 # Class: GoogleFlightsElement
 
-Defined in: main.ts:35410
+Defined in: main.ts:35837
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:35410
 
 ## Constructors
 
-### new GoogleFlightsElement()
+### Constructor
 
-> **new GoogleFlightsElement**(`data`?): [`GoogleFlightsElement`](GoogleFlightsElement.md)
+> **new GoogleFlightsElement**(`data`?): `GoogleFlightsElement`
 
-Defined in: main.ts:35420
+Defined in: main.ts:35847
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:35420
 
 #### Returns
 
-[`GoogleFlightsElement`](GoogleFlightsElement.md)
+`GoogleFlightsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35420
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35414
+Defined in: main.ts:35841
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35412
+Defined in: main.ts:35839
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35416
+Defined in: main.ts:35843
 
 URL
 
@@ -82,7 +82,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35429
+Defined in: main.ts:35856
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:35429
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35448
+Defined in: main.ts:35875
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:35448
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
+> `static` **fromJS**(`data`): `GoogleFlightsElement`
 
-Defined in: main.ts:35441
+Defined in: main.ts:35868
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:35441
 
 #### Returns
 
-[`GoogleFlightsElement`](GoogleFlightsElement.md)
+`GoogleFlightsElement`

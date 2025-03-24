@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemSerpElementItem
 
-Defined in: main.ts:31446
+Defined in: main.ts:31873
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:31446
 
 ## Constructors
 
-### new KnowledgeGraphRowItemSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphRowItemSerpElementItem**(`data`?): [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
+> **new KnowledgeGraphRowItemSerpElementItem**(`data`?): `KnowledgeGraphRowItemSerpElementItem`
 
-Defined in: main.ts:31471
+Defined in: main.ts:31898
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:31471
 
 #### Returns
 
-[`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
+`KnowledgeGraphRowItemSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:31471
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:31458
+Defined in: main.ts:31885
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/common/topic:social media presence
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:31463
+Defined in: main.ts:31890
 
 links featured in the faq_box_element
 
@@ -90,7 +90,7 @@ links featured in the faq_box_element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31450
+Defined in: main.ts:31877
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31467
+Defined in: main.ts:31894
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:31461
+Defined in: main.ts:31888
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -176,7 +176,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31454
+Defined in: main.ts:31881
 
 title of the item
 
@@ -190,7 +190,7 @@ title of the item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -208,7 +208,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31452
+Defined in: main.ts:31879
 
 the XPath of the element
 
@@ -222,7 +222,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31476
+Defined in: main.ts:31903
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:31476
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31504
+Defined in: main.ts:31931
 
 #### Parameters
 
@@ -264,9 +264,9 @@ Defined in: main.ts:31504
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphRowItemSerpElementItem`
 
-Defined in: main.ts:31497
+Defined in: main.ts:31924
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:31497
 
 #### Returns
 
-[`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
+`KnowledgeGraphRowItemSerpElementItem`
 
 #### Overrides
 

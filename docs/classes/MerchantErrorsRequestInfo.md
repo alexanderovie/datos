@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsRequestInfo
 
-Defined in: main.ts:193557
+Defined in: main.ts:195966
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:193557
 
 ## Constructors
 
-### new MerchantErrorsRequestInfo()
+### Constructor
 
-> **new MerchantErrorsRequestInfo**(`data`?): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+> **new MerchantErrorsRequestInfo**(`data`?): `MerchantErrorsRequestInfo`
 
-Defined in: main.ts:193591
+Defined in: main.ts:196000
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:193591
 
 #### Returns
 
-[`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+`MerchantErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193591
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:193580
+Defined in: main.ts:195989
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:193587
+Defined in: main.ts:195996
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:193573
+Defined in: main.ts:195982
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:193562
+Defined in: main.ts:195971
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:193567
+Defined in: main.ts:195976
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193600
+Defined in: main.ts:196009
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:193600
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193621
+Defined in: main.ts:196030
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:193621
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `MerchantErrorsRequestInfo`
 
-Defined in: main.ts:193614
+Defined in: main.ts:196023
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:193614
 
 #### Returns
 
-[`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)
+`MerchantErrorsRequestInfo`

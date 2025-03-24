@@ -6,7 +6,7 @@
 
 # Class: AddressInfo
 
-Defined in: main.ts:43806
+Defined in: main.ts:44233
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:43806
 
 ## Constructors
 
-### new AddressInfo()
+### Constructor
 
-> **new AddressInfo**(`data`?): [`AddressInfo`](AddressInfo.md)
+> **new AddressInfo**(`data`?): `AddressInfo`
 
-Defined in: main.ts:43822
+Defined in: main.ts:44249
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:43822
 
 #### Returns
 
-[`AddressInfo`](AddressInfo.md)
+`AddressInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:43822
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:43810
+Defined in: main.ts:44237
 
 street address of the local establishment
 
@@ -54,7 +54,7 @@ street address of the local establishment
 
 > `optional` **borough**: `string`
 
-Defined in: main.ts:43808
+Defined in: main.ts:44235
 
 administrative unit or district the local establishment belongs to
 
@@ -68,7 +68,7 @@ administrative unit or district the local establishment belongs to
 
 > `optional` **city**: `string`
 
-Defined in: main.ts:43812
+Defined in: main.ts:44239
 
 name of the city where the local establishment is located
 
@@ -82,7 +82,7 @@ name of the city where the local establishment is located
 
 > `optional` **country\_code**: `string`
 
-Defined in: main.ts:43818
+Defined in: main.ts:44245
 
 ISO country code of the local establishment
 
@@ -96,7 +96,7 @@ ISO country code of the local establishment
 
 > `optional` **region**: `string`
 
-Defined in: main.ts:43816
+Defined in: main.ts:44243
 
 DMA region the local establishment belongs to
 
@@ -110,7 +110,7 @@ DMA region the local establishment belongs to
 
 > `optional` **zip**: `string`
 
-Defined in: main.ts:43814
+Defined in: main.ts:44241
 
 ZIP code of the local establishment
 
@@ -124,7 +124,7 @@ ZIP code of the local establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43831
+Defined in: main.ts:44258
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:43831
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43853
+Defined in: main.ts:44280
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:43853
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
+> `static` **fromJS**(`data`): `AddressInfo`
 
-Defined in: main.ts:43846
+Defined in: main.ts:44273
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:43846
 
 #### Returns
 
-[`AddressInfo`](AddressInfo.md)
+`AddressInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:121243
+Defined in: main.ts:123644
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:121243
 
 ## Constructors
 
-### new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+> **new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo**(`data`?): `DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:121307
+Defined in: main.ts:123708
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:121307
 
 #### Returns
 
-[`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121307
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:121250
+Defined in: main.ts:123651
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121297
+Defined in: main.ts:123698
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:121290
+Defined in: main.ts:123691
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121283
+Defined in: main.ts:123684
 
 location code
 required field if don’t specify location_name
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:121275
+Defined in: main.ts:123676
 
 full name of the location
 required field if don’t specify location_code
@@ -154,7 +154,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:121303
+Defined in: main.ts:123704
 
 user-defined task identifier
 optional field
@@ -172,7 +172,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121316
+Defined in: main.ts:123717
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:121316
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121342
+Defined in: main.ts:123743
 
 #### Parameters
 
@@ -206,9 +206,9 @@ Defined in: main.ts:121342
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:121335
+Defined in: main.ts:123736
 
 #### Parameters
 
@@ -218,4 +218,4 @@ Defined in: main.ts:121335
 
 #### Returns
 
-[`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`

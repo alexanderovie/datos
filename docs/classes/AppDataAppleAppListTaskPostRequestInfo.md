@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskPostRequestInfo
 
-Defined in: main.ts:216383
+Defined in: main.ts:218792
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:216383
 
 ## Constructors
 
-### new AppDataAppleAppListTaskPostRequestInfo()
+### Constructor
 
-> **new AppDataAppleAppListTaskPostRequestInfo**(`data`?): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
+> **new AppDataAppleAppListTaskPostRequestInfo**(`data`?): `AppDataAppleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:216480
+Defined in: main.ts:218889
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:216480
 
 #### Returns
 
-[`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
+`AppDataAppleAppListTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:216480
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:216442
+Defined in: main.ts:218851
 
 application category on the App Store
 optional field
@@ -59,7 +59,7 @@ you can review the full list of available categories here or by making a separat
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:216389
+Defined in: main.ts:218798
 
 app collection
 required field
@@ -77,7 +77,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:216435
+Defined in: main.ts:218844
 
 parsing depth
 optional field
@@ -99,7 +99,7 @@ maximum value: 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:216417
+Defined in: main.ts:218826
 
 search engine language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:216410
+Defined in: main.ts:218819
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -137,7 +137,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:216403
+Defined in: main.ts:218812
 
 search engine location code
 required field if you don’t specify location_name
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:216396
+Defined in: main.ts:218805
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -175,7 +175,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:216476
+Defined in: main.ts:218885
 
 notification URL of a completed task
 optional field
@@ -198,7 +198,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:216465
+Defined in: main.ts:218874
 
 postback_url datatype
 required field if you specify postback_url
@@ -216,7 +216,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:216459
+Defined in: main.ts:218868
 
 return URL for sending task results
 optional field
@@ -239,7 +239,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:216425
+Defined in: main.ts:218834
 
 task priority
 optional field
@@ -259,7 +259,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:216448
+Defined in: main.ts:218857
 
 user-defined task identifier
 optional field
@@ -277,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:216489
+Defined in: main.ts:218898
 
 #### Parameters
 
@@ -295,7 +295,7 @@ Defined in: main.ts:216489
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:216517
+Defined in: main.ts:218926
 
 #### Parameters
 
@@ -311,9 +311,9 @@ Defined in: main.ts:216517
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:216510
+Defined in: main.ts:218919
 
 #### Parameters
 
@@ -323,4 +323,4 @@ Defined in: main.ts:216510
 
 #### Returns
 
-[`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
+`AppDataAppleAppListTaskPostRequestInfo`

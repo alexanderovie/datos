@@ -6,7 +6,7 @@
 
 # Class: SerpScreenshotRequestInfo
 
-Defined in: main.ts:27490
+Defined in: main.ts:27917
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27490
 
 ## Constructors
 
-### new SerpScreenshotRequestInfo()
+### Constructor
 
-> **new SerpScreenshotRequestInfo**(`data`?): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+> **new SerpScreenshotRequestInfo**(`data`?): `SerpScreenshotRequestInfo`
 
-Defined in: main.ts:27517
+Defined in: main.ts:27944
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27517
 
 #### Returns
 
-[`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+`SerpScreenshotRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27517
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:27501
+Defined in: main.ts:27928
 
 browser resolution preset
 optional field
@@ -58,7 +58,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:27509
+Defined in: main.ts:27936
 
 height of the browser resolution
 optional field
@@ -74,7 +74,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:27513
+Defined in: main.ts:27940
 
 browser scale factor
 optional field
@@ -90,7 +90,7 @@ can be specified in the following range: 0.5-3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:27505
+Defined in: main.ts:27932
 
 width of the browser resolution
 optional field
@@ -106,7 +106,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:27495
+Defined in: main.ts:27922
 
 task identifier
 required field
@@ -123,7 +123,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27526
+Defined in: main.ts:27953
 
 #### Parameters
 
@@ -141,7 +141,7 @@ Defined in: main.ts:27526
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27547
+Defined in: main.ts:27974
 
 #### Parameters
 
@@ -157,9 +157,9 @@ Defined in: main.ts:27547
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpScreenshotRequestInfo`
 
-Defined in: main.ts:27540
+Defined in: main.ts:27967
 
 #### Parameters
 
@@ -169,4 +169,4 @@ Defined in: main.ts:27540
 
 #### Returns
 
-[`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+`SerpScreenshotRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
-Defined in: main.ts:186035
+Defined in: main.ts:188444
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186035
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:186036
+Defined in: main.ts:188445
 
 #### Index Signature
 

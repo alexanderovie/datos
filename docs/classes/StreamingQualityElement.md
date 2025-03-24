@@ -6,7 +6,7 @@
 
 # Class: StreamingQualityElement
 
-Defined in: main.ts:72812
+Defined in: main.ts:73239
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:72812
 
 ## Constructors
 
-### new StreamingQualityElement()
+### Constructor
 
-> **new StreamingQualityElement**(`data`?): [`StreamingQualityElement`](StreamingQualityElement.md)
+> **new StreamingQualityElement**(`data`?): `StreamingQualityElement`
 
-Defined in: main.ts:72830
+Defined in: main.ts:73257
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:72830
 
 #### Returns
 
-[`StreamingQualityElement`](StreamingQualityElement.md)
+`StreamingQualityElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:72830
 
 > `optional` **bitrate**: `number`
 
-Defined in: main.ts:72822
+Defined in: main.ts:73249
 
 bit rate of the video
 
@@ -54,7 +54,7 @@ bit rate of the video
 
 > `optional` **fps**: `number`
 
-Defined in: main.ts:72826
+Defined in: main.ts:73253
 
 frame rate of the video
 
@@ -68,7 +68,7 @@ frame rate of the video
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:72820
+Defined in: main.ts:73247
 
 video height in pixels
 
@@ -82,7 +82,7 @@ video height in pixels
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:72816
+Defined in: main.ts:73243
 
 label of the quality element
 
@@ -96,7 +96,7 @@ label of the quality element
 
 > `optional` **mime\_type**: `string`
 
-Defined in: main.ts:72824
+Defined in: main.ts:73251
 
 media type of the video
 
@@ -110,7 +110,7 @@ media type of the video
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:72814
+Defined in: main.ts:73241
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:72818
+Defined in: main.ts:73245
 
 video width in pixels
 
@@ -138,7 +138,7 @@ video width in pixels
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72839
+Defined in: main.ts:73266
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:72839
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72862
+Defined in: main.ts:73289
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:72862
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`StreamingQualityElement`](StreamingQualityElement.md)
+> `static` **fromJS**(`data`): `StreamingQualityElement`
 
-Defined in: main.ts:72855
+Defined in: main.ts:73282
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:72855
 
 #### Returns
 
-[`StreamingQualityElement`](StreamingQualityElement.md)
+`StreamingQualityElement`

@@ -6,7 +6,7 @@
 
 # Class: PopularTimes
 
-Defined in: main.ts:220455
+Defined in: main.ts:222864
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:220455
 
 ## Constructors
 
-### new PopularTimes()
+### Constructor
 
-> **new PopularTimes**(`data`?): [`PopularTimes`](PopularTimes.md)
+> **new PopularTimes**(`data`?): `PopularTimes`
 
-Defined in: main.ts:220462
+Defined in: main.ts:222871
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:220462
 
 #### Returns
 
-[`PopularTimes`](PopularTimes.md)
+`PopularTimes`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:220462
 
 > `optional` **popular\_times\_by\_days**: `object`
 
-Defined in: main.ts:220458
+Defined in: main.ts:222867
 
 popular hours
 information about busy hours of the local establishment on each day of the week
@@ -59,7 +59,7 @@ information about busy hours of the local establishment on each day of the week
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:220471
+Defined in: main.ts:222880
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Defined in: main.ts:220471
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:220494
+Defined in: main.ts:222903
 
 #### Parameters
 
@@ -93,9 +93,9 @@ Defined in: main.ts:220494
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
+> `static` **fromJS**(`data`): `PopularTimes`
 
-Defined in: main.ts:220487
+Defined in: main.ts:222896
 
 #### Parameters
 
@@ -105,4 +105,4 @@ Defined in: main.ts:220487
 
 #### Returns
 
-[`PopularTimes`](PopularTimes.md)
+`PopularTimes`

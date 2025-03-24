@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
-Defined in: main.ts:142435
+Defined in: main.ts:144836
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:142435
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsLanguagesResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+> **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): `KeywordsDataGoogleTrendsLanguagesResultInfo`
 
-Defined in: main.ts:142443
+Defined in: main.ts:144844
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:142443
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+`KeywordsDataGoogleTrendsLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:142443
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:142439
+Defined in: main.ts:144840
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:142437
+Defined in: main.ts:144838
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142452
+Defined in: main.ts:144853
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:142452
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142470
+Defined in: main.ts:144871
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:142470
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsLanguagesResultInfo`
 
-Defined in: main.ts:142463
+Defined in: main.ts:144864
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:142463
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+`KeywordsDataGoogleTrendsLanguagesResultInfo`

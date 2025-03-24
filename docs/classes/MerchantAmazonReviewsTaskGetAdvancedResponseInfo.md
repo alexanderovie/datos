@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:206944
+Defined in: main.ts:209353
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:206944
 
 ## Constructors
 
-### new MerchantAmazonReviewsTaskGetAdvancedResponseInfo()
+### Constructor
 
-> **new MerchantAmazonReviewsTaskGetAdvancedResponseInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
+> **new MerchantAmazonReviewsTaskGetAdvancedResponseInfo**(`data`?): `MerchantAmazonReviewsTaskGetAdvancedResponseInfo`
 
-Defined in: main.ts:206950
+Defined in: main.ts:209359
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:206950
 
 #### Returns
 
-[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
+`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:206950
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonReviewsTaskGetAdvancedTaskInfo`](MerchantAmazonReviewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:206946
+Defined in: main.ts:209355
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:206954
+Defined in: main.ts:209363
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:206954
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:206976
+Defined in: main.ts:209385
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:206976
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonReviewsTaskGetAdvancedResponseInfo`
 
-Defined in: main.ts:206969
+Defined in: main.ts:209378
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:206969
 
 #### Returns
 
-[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
+`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`
 
 #### Overrides
 

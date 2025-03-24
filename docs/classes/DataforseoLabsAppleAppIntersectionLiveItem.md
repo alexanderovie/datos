@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppIntersectionLiveItem
 
-Defined in: main.ts:134441
+Defined in: main.ts:136842
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:134441
 
 ## Constructors
 
-### new DataforseoLabsAppleAppIntersectionLiveItem()
+### Constructor
 
-> **new DataforseoLabsAppleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
+> **new DataforseoLabsAppleAppIntersectionLiveItem**(`data`?): `DataforseoLabsAppleAppIntersectionLiveItem`
 
-Defined in: main.ts:134453
+Defined in: main.ts:136854
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:134453
 
 #### Returns
 
-[`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
+`DataforseoLabsAppleAppIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134453
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:134449
+Defined in: main.ts:136850
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -60,7 +60,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:134445
+Defined in: main.ts:136846
 
 keyword data for the returned keyword
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:134443
+Defined in: main.ts:136844
 
 search engine type
 
@@ -88,7 +88,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134462
+Defined in: main.ts:136863
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:134462
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134487
+Defined in: main.ts:136888
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:134487
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleAppIntersectionLiveItem`
 
-Defined in: main.ts:134480
+Defined in: main.ts:136881
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:134480
 
 #### Returns
 
-[`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
+`DataforseoLabsAppleAppIntersectionLiveItem`

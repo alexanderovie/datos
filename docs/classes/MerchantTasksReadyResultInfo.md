@@ -6,7 +6,7 @@
 
 # Class: MerchantTasksReadyResultInfo
 
-Defined in: main.ts:195133
+Defined in: main.ts:197542
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:195133
 
 ## Constructors
 
-### new MerchantTasksReadyResultInfo()
+### Constructor
 
-> **new MerchantTasksReadyResultInfo**(`data`?): [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
+> **new MerchantTasksReadyResultInfo**(`data`?): `MerchantTasksReadyResultInfo`
 
-Defined in: main.ts:195152
+Defined in: main.ts:197561
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:195152
 
 #### Returns
 
-[`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
+`MerchantTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195152
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:195142
+Defined in: main.ts:197551
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:195146
+Defined in: main.ts:197555
 
 URL for collecting the results of the Amazon Reviews Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:195148
+Defined in: main.ts:197557
 
 URL for collecting the results of the Amazon Reviews HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:195136
+Defined in: main.ts:197545
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:195138
+Defined in: main.ts:197547
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:195140
+Defined in: main.ts:197549
 
 type of search engine
 
@@ -125,7 +125,7 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:195144
+Defined in: main.ts:197553
 
 user-defined task identifier
 
@@ -139,7 +139,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195161
+Defined in: main.ts:197570
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:195161
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195184
+Defined in: main.ts:197593
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:195184
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantTasksReadyResultInfo`
 
-Defined in: main.ts:195177
+Defined in: main.ts:197586
 
 #### Parameters
 
@@ -185,4 +185,4 @@ Defined in: main.ts:195177
 
 #### Returns
 
-[`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
+`MerchantTasksReadyResultInfo`

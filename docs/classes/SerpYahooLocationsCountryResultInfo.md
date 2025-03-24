@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsCountryResultInfo
 
-Defined in: main.ts:77245
+Defined in: main.ts:77672
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:77245
 
 ## Constructors
 
-### new SerpYahooLocationsCountryResultInfo()
+### Constructor
 
-> **new SerpYahooLocationsCountryResultInfo**(`data`?): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+> **new SerpYahooLocationsCountryResultInfo**(`data`?): `SerpYahooLocationsCountryResultInfo`
 
-Defined in: main.ts:77266
+Defined in: main.ts:77693
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:77266
 
 #### Returns
 
-[`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+`SerpYahooLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:77266
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:77260
+Defined in: main.ts:77687
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77247
+Defined in: main.ts:77674
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:77258
+Defined in: main.ts:77685
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:77249
+Defined in: main.ts:77676
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:77262
+Defined in: main.ts:77689
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:77275
+Defined in: main.ts:77702
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:77275
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:77296
+Defined in: main.ts:77723
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:77296
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYahooLocationsCountryResultInfo`
 
-Defined in: main.ts:77289
+Defined in: main.ts:77716
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:77289
 
 #### Returns
 
-[`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
+`SerpYahooLocationsCountryResultInfo`

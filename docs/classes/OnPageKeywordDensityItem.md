@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityItem
 
-Defined in: main.ts:180799
+Defined in: main.ts:183208
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:180799
 
 ## Constructors
 
-### new OnPageKeywordDensityItem()
+### Constructor
 
-> **new OnPageKeywordDensityItem**(`data`?): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+> **new OnPageKeywordDensityItem**(`data`?): `OnPageKeywordDensityItem`
 
-Defined in: main.ts:180811
+Defined in: main.ts:183220
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:180811
 
 #### Returns
 
-[`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+`OnPageKeywordDensityItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180811
 
 > `optional` **density**: `number`
 
-Defined in: main.ts:180807
+Defined in: main.ts:183216
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
@@ -55,7 +55,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 > `optional` **frequency**: `number`
 
-Defined in: main.ts:180804
+Defined in: main.ts:183213
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
@@ -70,7 +70,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:180801
+Defined in: main.ts:183210
 
 returned keyword
 
@@ -84,7 +84,7 @@ returned keyword
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180820
+Defined in: main.ts:183229
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:180820
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180839
+Defined in: main.ts:183248
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:180839
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+> `static` **fromJS**(`data`): `OnPageKeywordDensityItem`
 
-Defined in: main.ts:180832
+Defined in: main.ts:183241
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:180832
 
 #### Returns
 
-[`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+`OnPageKeywordDensityItem`

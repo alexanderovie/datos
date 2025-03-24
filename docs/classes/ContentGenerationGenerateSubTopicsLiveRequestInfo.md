@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
 
-Defined in: main.ts:191399
+Defined in: main.ts:193808
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191399
 
 ## Constructors
 
-### new ContentGenerationGenerateSubTopicsLiveRequestInfo()
+### Constructor
 
-> **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+> **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data`?): `ContentGenerationGenerateSubTopicsLiveRequestInfo`
 
-Defined in: main.ts:191421
+Defined in: main.ts:193830
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191421
 
 #### Returns
 
-[`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+`ContentGenerationGenerateSubTopicsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191421
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:191411
+Defined in: main.ts:193820
 
 creativity of content generation
 optional field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191417
+Defined in: main.ts:193826
 
 user-defined task identifier
 optional field
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topic**: `string`
 
-Defined in: main.ts:191404
+Defined in: main.ts:193813
 
 main topic of the content to generate
 required field
@@ -94,7 +94,7 @@ can contain from 1 to 50 tokens
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191430
+Defined in: main.ts:193839
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:191430
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191449
+Defined in: main.ts:193858
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:191449
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGenerateSubTopicsLiveRequestInfo`
 
-Defined in: main.ts:191442
+Defined in: main.ts:193851
 
 #### Parameters
 
@@ -140,4 +140,4 @@ Defined in: main.ts:191442
 
 #### Returns
 
-[`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+`ContentGenerationGenerateSubTopicsLiveRequestInfo`

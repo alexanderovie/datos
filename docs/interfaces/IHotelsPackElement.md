@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackElement
 
-Defined in: main.ts:37652
+Defined in: main.ts:38079
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37652
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37660
+Defined in: main.ts:38087
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37666
+Defined in: main.ts:38093
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:37664
+Defined in: main.ts:38091
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -50,7 +50,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:37670
+Defined in: main.ts:38097
 
 indicates whether the element is an ad
 
@@ -60,7 +60,7 @@ indicates whether the element is an ad
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:37656
+Defined in: main.ts:38083
 
 price indicated in the element
 
@@ -70,7 +70,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:37673
+Defined in: main.ts:38100
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -81,7 +81,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37658
+Defined in: main.ts:38085
 
 title of a given link element
 
@@ -91,7 +91,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37654
+Defined in: main.ts:38081
 
 type of element
 
@@ -101,6 +101,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37668
+Defined in: main.ts:38095
 
 URL

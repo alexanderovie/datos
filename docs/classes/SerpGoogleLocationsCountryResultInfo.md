@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:28350
+Defined in: main.ts:28777
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:28350
 
 ## Constructors
 
-### new SerpGoogleLocationsCountryResultInfo()
+### Constructor
 
-> **new SerpGoogleLocationsCountryResultInfo**(`data`?): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
+> **new SerpGoogleLocationsCountryResultInfo**(`data`?): `SerpGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:28371
+Defined in: main.ts:28798
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:28371
 
 #### Returns
 
-[`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
+`SerpGoogleLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28371
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:28365
+Defined in: main.ts:28792
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:28352
+Defined in: main.ts:28779
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:28363
+Defined in: main.ts:28790
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:28354
+Defined in: main.ts:28781
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:28367
+Defined in: main.ts:28794
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:28380
+Defined in: main.ts:28807
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:28380
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:28401
+Defined in: main.ts:28828
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:28401
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:28394
+Defined in: main.ts:28821
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:28394
 
 #### Returns
 
-[`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
+`SerpGoogleLocationsCountryResultInfo`

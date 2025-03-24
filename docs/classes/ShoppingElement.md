@@ -6,7 +6,7 @@
 
 # Class: ShoppingElement
 
-Defined in: main.ts:35212
+Defined in: main.ts:35639
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:35212
 
 ## Constructors
 
-### new ShoppingElement()
+### Constructor
 
-> **new ShoppingElement**(`data`?): [`ShoppingElement`](ShoppingElement.md)
+> **new ShoppingElement**(`data`?): `ShoppingElement`
 
-Defined in: main.ts:35240
+Defined in: main.ts:35667
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:35240
 
 #### Returns
 
-[`ShoppingElement`](ShoppingElement.md)
+`ShoppingElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35240
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35223
+Defined in: main.ts:35650
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:35228
+Defined in: main.ts:35655
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -71,7 +71,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:35231
+Defined in: main.ts:35658
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -86,7 +86,7 @@ URL of the page on the marketplace website where the product is hosted
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35218
+Defined in: main.ts:35645
 
 price indicated in the element
 
@@ -100,7 +100,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35236
+Defined in: main.ts:35663
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -115,7 +115,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35221
+Defined in: main.ts:35648
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -130,7 +130,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35216
+Defined in: main.ts:35643
 
 title of a given link element
 
@@ -144,7 +144,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35214
+Defined in: main.ts:35641
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35233
+Defined in: main.ts:35660
 
 URL
 
@@ -172,7 +172,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35249
+Defined in: main.ts:35676
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:35249
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35274
+Defined in: main.ts:35701
 
 #### Parameters
 
@@ -206,9 +206,9 @@ Defined in: main.ts:35274
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
+> `static` **fromJS**(`data`): `ShoppingElement`
 
-Defined in: main.ts:35267
+Defined in: main.ts:35694
 
 #### Parameters
 
@@ -218,4 +218,4 @@ Defined in: main.ts:35267
 
 #### Returns
 
-[`ShoppingElement`](ShoppingElement.md)
+`ShoppingElement`

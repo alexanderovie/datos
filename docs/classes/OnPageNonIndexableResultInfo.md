@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableResultInfo
 
-Defined in: main.ts:180003
+Defined in: main.ts:182412
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:180003
 
 ## Constructors
 
-### new OnPageNonIndexableResultInfo()
+### Constructor
 
-> **new OnPageNonIndexableResultInfo**(`data`?): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
+> **new OnPageNonIndexableResultInfo**(`data`?): `OnPageNonIndexableResultInfo`
 
-Defined in: main.ts:180018
+Defined in: main.ts:182427
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:180018
 
 #### Returns
 
-[`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
+`OnPageNonIndexableResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180018
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:180006
+Defined in: main.ts:182415
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:180008
+Defined in: main.ts:182417
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)[]
 
-Defined in: main.ts:180014
+Defined in: main.ts:182423
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:180012
+Defined in: main.ts:182421
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:180010
+Defined in: main.ts:182419
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180027
+Defined in: main.ts:182436
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:180027
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180052
+Defined in: main.ts:182461
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:180052
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageNonIndexableResultInfo`
 
-Defined in: main.ts:180045
+Defined in: main.ts:182454
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:180045
 
 #### Returns
 
-[`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
+`OnPageNonIndexableResultInfo`

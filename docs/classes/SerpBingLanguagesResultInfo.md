@@ -6,7 +6,7 @@
 
 # Class: SerpBingLanguagesResultInfo
 
-Defined in: main.ts:65620
+Defined in: main.ts:66047
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:65620
 
 ## Constructors
 
-### new SerpBingLanguagesResultInfo()
+### Constructor
 
-> **new SerpBingLanguagesResultInfo**(`data`?): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+> **new SerpBingLanguagesResultInfo**(`data`?): `SerpBingLanguagesResultInfo`
 
-Defined in: main.ts:65628
+Defined in: main.ts:66055
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:65628
 
 #### Returns
 
-[`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+`SerpBingLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:65628
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:65624
+Defined in: main.ts:66051
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:65622
+Defined in: main.ts:66049
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:65637
+Defined in: main.ts:66064
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:65637
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:65655
+Defined in: main.ts:66082
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:65655
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLanguagesResultInfo`
 
-Defined in: main.ts:65648
+Defined in: main.ts:66075
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:65648
 
 #### Returns
 
-[`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+`SerpBingLanguagesResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataUserProfileInfo
 
-Defined in: main.ts:236067
+Defined in: main.ts:238476
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:236067
 
 ## Constructors
 
-### new BusinessDataUserProfileInfo()
+### Constructor
 
-> **new BusinessDataUserProfileInfo**(`data`?): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> **new BusinessDataUserProfileInfo**(`data`?): `BusinessDataUserProfileInfo`
 
-Defined in: main.ts:236081
+Defined in: main.ts:238490
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:236081
 
 #### Returns
 
-[`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+`BusinessDataUserProfileInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236081
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:236073
+Defined in: main.ts:238482
 
 URL to the reviewer’s profile picture
 
@@ -54,7 +54,7 @@ URL to the reviewer’s profile picture
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:236075
+Defined in: main.ts:238484
 
 country of the reviewer
 
@@ -68,7 +68,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:236069
+Defined in: main.ts:238478
 
 the name of the reviewer
 
@@ -82,7 +82,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:236077
+Defined in: main.ts:238486
 
 total number of reviews submitted by the reviewer
 
@@ -96,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:236071
+Defined in: main.ts:238480
 
 URL to the reviewer’s profile
 
@@ -110,7 +110,7 @@ URL to the reviewer’s profile
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236090
+Defined in: main.ts:238499
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:236090
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236111
+Defined in: main.ts:238520
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:236111
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataUserProfileInfo`
 
-Defined in: main.ts:236104
+Defined in: main.ts:238513
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:236104
 
 #### Returns
 
-[`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+`BusinessDataUserProfileInfo`

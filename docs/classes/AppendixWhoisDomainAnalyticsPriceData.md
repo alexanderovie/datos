@@ -6,7 +6,7 @@
 
 # Class: AppendixWhoisDomainAnalyticsPriceData
 
-Defined in: main.ts:247797
+Defined in: main.ts:249766
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247797
 
 ## Constructors
 
-### new AppendixWhoisDomainAnalyticsPriceData()
+### Constructor
 
-> **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+> **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): `AppendixWhoisDomainAnalyticsPriceData`
 
-Defined in: main.ts:247802
+Defined in: main.ts:249771
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247802
 
 #### Returns
 
-[`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+`AppendixWhoisDomainAnalyticsPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247802
 
 > `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247798
+Defined in: main.ts:249767
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247798
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247811
+Defined in: main.ts:249780
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:247811
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247828
+Defined in: main.ts:249797
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:247828
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+> `static` **fromJS**(`data`): `AppendixWhoisDomainAnalyticsPriceData`
 
-Defined in: main.ts:247821
+Defined in: main.ts:249790
 
 #### Parameters
 
@@ -98,4 +98,4 @@ Defined in: main.ts:247821
 
 #### Returns
 
-[`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+`AppendixWhoisDomainAnalyticsPriceData`

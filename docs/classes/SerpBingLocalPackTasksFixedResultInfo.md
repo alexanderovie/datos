@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTasksFixedResultInfo
 
-Defined in: main.ts:69698
+Defined in: main.ts:70125
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:69698
 
 ## Constructors
 
-### new SerpBingLocalPackTasksFixedResultInfo()
+### Constructor
 
-> **new SerpBingLocalPackTasksFixedResultInfo**(`data`?): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+> **new SerpBingLocalPackTasksFixedResultInfo**(`data`?): `SerpBingLocalPackTasksFixedResultInfo`
 
-Defined in: main.ts:69723
+Defined in: main.ts:70150
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:69723
 
 #### Returns
 
-[`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+`SerpBingLocalPackTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:69723
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:69708
+Defined in: main.ts:70135
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:69716
+Defined in: main.ts:70143
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:69719
+Defined in: main.ts:70146
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:69713
+Defined in: main.ts:70140
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:69701
+Defined in: main.ts:70128
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:69703
+Defined in: main.ts:70130
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:69706
+Defined in: main.ts:70133
 
 type of search engine
 can take the following values: local_pack
@@ -143,7 +143,7 @@ can take the following values: local_pack
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:69710
+Defined in: main.ts:70137
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69732
+Defined in: main.ts:70159
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:69732
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69756
+Defined in: main.ts:70183
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:69756
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLocalPackTasksFixedResultInfo`
 
-Defined in: main.ts:69749
+Defined in: main.ts:70176
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:69749
 
 #### Returns
 
-[`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)
+`SerpBingLocalPackTasksFixedResultInfo`

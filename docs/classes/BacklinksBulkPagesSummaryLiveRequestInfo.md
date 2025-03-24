@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:171915
+Defined in: main.ts:174324
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171915
 
 ## Constructors
 
-### new BacklinksBulkPagesSummaryLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
+> **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): `BacklinksBulkPagesSummaryLiveRequestInfo`
 
-Defined in: main.ts:171937
+Defined in: main.ts:174346
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171937
 
 #### Returns
 
-[`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
+`BacklinksBulkPagesSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171937
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:171927
+Defined in: main.ts:174336
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -57,7 +57,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171933
+Defined in: main.ts:174342
 
 user-defined task identifier
 optional field
@@ -75,7 +75,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:171922
+Defined in: main.ts:174331
 
 domains, subdomains or webpages to get summary data for
 required field
@@ -94,7 +94,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171946
+Defined in: main.ts:174355
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:171946
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171969
+Defined in: main.ts:174378
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:171969
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkPagesSummaryLiveRequestInfo`
 
-Defined in: main.ts:171962
+Defined in: main.ts:174371
 
 #### Parameters
 
@@ -140,4 +140,4 @@ Defined in: main.ts:171962
 
 #### Returns
 
-[`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
+`BacklinksBulkPagesSummaryLiveRequestInfo`

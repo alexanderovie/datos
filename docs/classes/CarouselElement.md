@@ -6,7 +6,7 @@
 
 # Class: CarouselElement
 
-Defined in: main.ts:34792
+Defined in: main.ts:35219
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:34792
 
 ## Constructors
 
-### new CarouselElement()
+### Constructor
 
-> **new CarouselElement**(`data`?): [`CarouselElement`](CarouselElement.md)
+> **new CarouselElement**(`data`?): `CarouselElement`
 
-Defined in: main.ts:34805
+Defined in: main.ts:35232
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:34805
 
 #### Returns
 
-[`CarouselElement`](CarouselElement.md)
+`CarouselElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34805
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:34801
+Defined in: main.ts:35228
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:34798
+Defined in: main.ts:35225
 
 subtitle of the element
 
@@ -69,7 +69,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34796
+Defined in: main.ts:35223
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34794
+Defined in: main.ts:35221
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34814
+Defined in: main.ts:35241
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:34814
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34834
+Defined in: main.ts:35261
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:34834
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
+> `static` **fromJS**(`data`): `CarouselElement`
 
-Defined in: main.ts:34827
+Defined in: main.ts:35254
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:34827
 
 #### Returns
 
-[`CarouselElement`](CarouselElement.md)
+`CarouselElement`

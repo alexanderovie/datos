@@ -6,7 +6,7 @@
 
 # Class: IndexHistory
 
-Defined in: main.ts:159263
+Defined in: main.ts:161672
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:159263
 
 ## Constructors
 
-### new IndexHistory()
+### Constructor
 
-> **new IndexHistory**(`data`?): [`IndexHistory`](IndexHistory.md)
+> **new IndexHistory**(`data`?): `IndexHistory`
 
-Defined in: main.ts:159278
+Defined in: main.ts:161687
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:159278
 
 #### Returns
 
-[`IndexHistory`](IndexHistory.md)
+`IndexHistory`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159278
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:159268
+Defined in: main.ts:161677
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:159270
+Defined in: main.ts:161679
 
 total number of backlinks our database contained on the given date
 
@@ -71,7 +71,7 @@ total number of backlinks our database contained on the given date
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:159274
+Defined in: main.ts:161683
 
 total number of domains our database contained on the given date
 
@@ -85,7 +85,7 @@ total number of domains our database contained on the given date
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:159272
+Defined in: main.ts:161681
 
 total number of pages our database contained on the given date
 
@@ -99,7 +99,7 @@ total number of pages our database contained on the given date
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159287
+Defined in: main.ts:161696
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:159287
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159307
+Defined in: main.ts:161716
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:159307
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
+> `static` **fromJS**(`data`): `IndexHistory`
 
-Defined in: main.ts:159300
+Defined in: main.ts:161709
 
 #### Parameters
 
@@ -145,4 +145,4 @@ Defined in: main.ts:159300
 
 #### Returns
 
-[`IndexHistory`](IndexHistory.md)
+`IndexHistory`

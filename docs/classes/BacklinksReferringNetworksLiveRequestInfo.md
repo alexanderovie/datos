@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringNetworksLiveRequestInfo
 
-Defined in: main.ts:165555
+Defined in: main.ts:167964
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:165555
 
 ## Constructors
 
-### new BacklinksReferringNetworksLiveRequestInfo()
+### Constructor
 
-> **new BacklinksReferringNetworksLiveRequestInfo**(`data`?): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+> **new BacklinksReferringNetworksLiveRequestInfo**(`data`?): `BacklinksReferringNetworksLiveRequestInfo`
 
-Defined in: main.ts:165660
+Defined in: main.ts:168069
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:165660
 
 #### Returns
 
-[`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+`BacklinksReferringNetworksLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165660
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:165634
+Defined in: main.ts:168043
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:165595
+Defined in: main.ts:168004
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:165650
+Defined in: main.ts:168059
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:165612
+Defined in: main.ts:168021
 
 array of results filtering parameters
 optional field
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:165645
+Defined in: main.ts:168054
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:165639
+Defined in: main.ts:168048
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:165586
+Defined in: main.ts:167995
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:165570
+Defined in: main.ts:167979
 
 the maximum number of returned networks
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **network\_address\_type**: `string`
 
-Defined in: main.ts:165565
+Defined in: main.ts:167974
 
 indicates the type of network to get data for
 optional field
@@ -219,7 +219,7 @@ default value: ip
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:165575
+Defined in: main.ts:167984
 
 offset in the results array of returned networks
 optional field
@@ -236,7 +236,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:165626
+Defined in: main.ts:168035
 
 results sorting rules
 optional field
@@ -262,7 +262,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:165656
+Defined in: main.ts:168065
 
 user-defined task identifier
 optional field
@@ -280,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165560
+Defined in: main.ts:167969
 
 domain, subdomain or webpage to get referring networks for
 required field
@@ -297,7 +297,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165669
+Defined in: main.ts:168078
 
 #### Parameters
 
@@ -315,7 +315,7 @@ Defined in: main.ts:165669
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165710
+Defined in: main.ts:168119
 
 #### Parameters
 
@@ -331,9 +331,9 @@ Defined in: main.ts:165710
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksReferringNetworksLiveRequestInfo`
 
-Defined in: main.ts:165703
+Defined in: main.ts:168112
 
 #### Parameters
 
@@ -343,4 +343,4 @@ Defined in: main.ts:165703
 
 #### Returns
 
-[`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+`BacklinksReferringNetworksLiveRequestInfo`

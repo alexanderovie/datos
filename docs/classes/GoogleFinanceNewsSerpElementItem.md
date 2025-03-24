@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceNewsSerpElementItem
 
-Defined in: main.ts:88065
+Defined in: main.ts:88492
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:88065
 
 ## Constructors
 
-### new GoogleFinanceNewsSerpElementItem()
+### Constructor
 
-> **new GoogleFinanceNewsSerpElementItem**(`data`?): [`GoogleFinanceNewsSerpElementItem`](GoogleFinanceNewsSerpElementItem.md)
+> **new GoogleFinanceNewsSerpElementItem**(`data`?): `GoogleFinanceNewsSerpElementItem`
 
-Defined in: main.ts:88079
+Defined in: main.ts:88506
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:88079
 
 #### Returns
 
-[`GoogleFinanceNewsSerpElementItem`](GoogleFinanceNewsSerpElementItem.md)
+`GoogleFinanceNewsSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructors)
+[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88079
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22141
 
 > `optional` **items**: [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)[]
 
-Defined in: main.ts:88075
+Defined in: main.ts:88502
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:88071
+Defined in: main.ts:88498
 
 sub-title of the news element
 example: Based on Europe, Middle East, and Africa
@@ -91,7 +91,7 @@ example: Based on Europe, Middle East, and Africa
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88068
+Defined in: main.ts:88495
 
 title of the news element
 example: In the news
@@ -106,7 +106,7 @@ example: In the news
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88084
+Defined in: main.ts:88511
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:88084
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88108
+Defined in: main.ts:88535
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:88108
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceNewsSerpElementItem`](GoogleFinanceNewsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFinanceNewsSerpElementItem`
 
-Defined in: main.ts:88101
+Defined in: main.ts:88528
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:88101
 
 #### Returns
 
-[`GoogleFinanceNewsSerpElementItem`](GoogleFinanceNewsSerpElementItem.md)
+`GoogleFinanceNewsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: RelatedImageSearchesElement
 
-Defined in: main.ts:33780
+Defined in: main.ts:34207
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33780
 
 ## Constructors
 
-### new RelatedImageSearchesElement()
+### Constructor
 
-> **new RelatedImageSearchesElement**(`data`?): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+> **new RelatedImageSearchesElement**(`data`?): `RelatedImageSearchesElement`
 
-Defined in: main.ts:33795
+Defined in: main.ts:34222
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33795
 
 #### Returns
 
-[`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+`RelatedImageSearchesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33795
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:33786
+Defined in: main.ts:34213
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:33791
+Defined in: main.ts:34218
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33784
+Defined in: main.ts:34211
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33782
+Defined in: main.ts:34209
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33788
+Defined in: main.ts:34215
 
 relevant URL
 
@@ -111,7 +111,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33804
+Defined in: main.ts:34231
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:33804
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33825
+Defined in: main.ts:34252
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:33825
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+> `static` **fromJS**(`data`): `RelatedImageSearchesElement`
 
-Defined in: main.ts:33818
+Defined in: main.ts:34245
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:33818
 
 #### Returns
 
-[`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+`RelatedImageSearchesElement`

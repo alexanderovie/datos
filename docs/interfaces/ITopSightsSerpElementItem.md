@@ -6,7 +6,7 @@
 
 # Interface: ITopSightsSerpElementItem
 
-Defined in: main.ts:36457
+Defined in: main.ts:36884
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36457
 
 > `optional` **items**: [`TopSightsElement`](../classes/TopSightsElement.md)[]
 
-Defined in: main.ts:36467
+Defined in: main.ts:36894
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:36461
+Defined in: main.ts:36888
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36471
+Defined in: main.ts:36898
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36465
+Defined in: main.ts:36892
 
 title of the row
 
@@ -97,7 +97,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -111,6 +111,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:36463
+Defined in: main.ts:36890
 
 the XPath of the element

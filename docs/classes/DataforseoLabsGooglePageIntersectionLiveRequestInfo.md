@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
-Defined in: main.ts:119285
+Defined in: main.ts:120668
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:119285
 
 ## Constructors
 
-### new DataforseoLabsGooglePageIntersectionLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGooglePageIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+> **new DataforseoLabsGooglePageIntersectionLiveRequestInfo**(`data`?): `DataforseoLabsGooglePageIntersectionLiveRequestInfo`
 
-Defined in: main.ts:119445
+Defined in: main.ts:120828
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:119445
 
 #### Returns
 
-[`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+`DataforseoLabsGooglePageIntersectionLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:119445
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:119319
+Defined in: main.ts:120702
 
 URLs of pages you want to exclude
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:119419
+Defined in: main.ts:120802
 
 array of results filtering parameters
 optional field
@@ -97,7 +97,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:119399
+Defined in: main.ts:120782
 
 ignore highly similar keywords
 optional field
@@ -114,7 +114,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:119394
+Defined in: main.ts:120777
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -133,7 +133,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:119387
+Defined in: main.ts:120770
 
 include data from SERP for each keyword
 optional field
@@ -150,7 +150,7 @@ default value: false
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:119374
+Defined in: main.ts:120757
 
 indicates if the subdomains will be included in the search
 optional field
@@ -167,7 +167,7 @@ default value: true
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:119382
+Defined in: main.ts:120765
 
 indicates whether to intersect keywords
 optional field
@@ -187,7 +187,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:119359
+Defined in: main.ts:120742
 
 search results type
 indicates type of search results included in the response
@@ -207,7 +207,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:119351
+Defined in: main.ts:120734
 
 language code
 required field if you don’t specify language_name
@@ -227,7 +227,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:119343
+Defined in: main.ts:120726
 
 full name of the language
 required field if you don’t specify language_code
@@ -247,7 +247,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:119364
+Defined in: main.ts:120747
 
 the maximum number of returned keywords
 optional field
@@ -264,7 +264,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:119335
+Defined in: main.ts:120718
 
 location code
 required field if you don’t specify location_name
@@ -284,7 +284,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:119327
+Defined in: main.ts:120710
 
 full name of the location
 required field if you don’t specify location_code
@@ -304,7 +304,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:119369
+Defined in: main.ts:120752
 
 offset in the items array of returned keywords
 optional field
@@ -321,7 +321,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:119435
+Defined in: main.ts:120818
 
 results sorting rules
 optional field
@@ -349,7 +349,7 @@ example:
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:119306
+Defined in: main.ts:120689
 
 target URLs of pages
 required field
@@ -386,7 +386,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:119441
+Defined in: main.ts:120824
 
 user-defined task identifier
 optional field
@@ -404,7 +404,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119454
+Defined in: main.ts:120837
 
 #### Parameters
 
@@ -422,7 +422,7 @@ Defined in: main.ts:119454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119509
+Defined in: main.ts:120892
 
 #### Parameters
 
@@ -438,9 +438,9 @@ Defined in: main.ts:119509
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGooglePageIntersectionLiveRequestInfo`
 
-Defined in: main.ts:119502
+Defined in: main.ts:120885
 
 #### Parameters
 
@@ -450,4 +450,4 @@ Defined in: main.ts:119502
 
 #### Returns
 
-[`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+`DataforseoLabsGooglePageIntersectionLiveRequestInfo`

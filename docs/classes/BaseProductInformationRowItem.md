@@ -6,7 +6,7 @@
 
 # Class: BaseProductInformationRowItem
 
-Defined in: main.ts:25119
+Defined in: main.ts:25458
 
 ## Extended by
 
@@ -23,11 +23,11 @@ Defined in: main.ts:25119
 
 ## Constructors
 
-### new BaseProductInformationRowItem()
+### Constructor
 
-> **new BaseProductInformationRowItem**(`data`?): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+> **new BaseProductInformationRowItem**(`data`?): `BaseProductInformationRowItem`
 
-Defined in: main.ts:25127
+Defined in: main.ts:25466
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: main.ts:25127
 
 #### Returns
 
-[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+`BaseProductInformationRowItem`
 
 ## Properties
 
@@ -45,7 +45,7 @@ Defined in: main.ts:25127
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25125
+Defined in: main.ts:25464
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: main.ts:25125
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25121
+Defined in: main.ts:25460
 
 type of element
 
@@ -67,7 +67,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25137
+Defined in: main.ts:25476
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Defined in: main.ts:25137
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25164
+Defined in: main.ts:25503
 
 #### Parameters
 
@@ -101,9 +101,9 @@ Defined in: main.ts:25164
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+> `static` **fromJS**(`data`): `BaseProductInformationRowItem`
 
-Defined in: main.ts:25147
+Defined in: main.ts:25486
 
 #### Parameters
 
@@ -113,4 +113,4 @@ Defined in: main.ts:25147
 
 #### Returns
 
-[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+`BaseProductInformationRowItem`

@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateTextLiveResultInfo
 
-Defined in: main.ts:190939
+Defined in: main.ts:193348
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:190939
 
 ## Constructors
 
-### new ContentGenerationGenerateTextLiveResultInfo()
+### Constructor
 
-> **new ContentGenerationGenerateTextLiveResultInfo**(`data`?): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+> **new ContentGenerationGenerateTextLiveResultInfo**(`data`?): `ContentGenerationGenerateTextLiveResultInfo`
 
-Defined in: main.ts:190955
+Defined in: main.ts:193364
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:190955
 
 #### Returns
 
-[`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+`ContentGenerationGenerateTextLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190955
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:190947
+Defined in: main.ts:193356
 
 resulting text
 
@@ -54,7 +54,7 @@ resulting text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:190941
+Defined in: main.ts:193350
 
 number of input tokens
 
@@ -68,7 +68,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:190945
+Defined in: main.ts:193354
 
 number of new tokens
 
@@ -82,7 +82,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:190943
+Defined in: main.ts:193352
 
 number of output tokens
 
@@ -96,7 +96,7 @@ number of output tokens
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:190951
+Defined in: main.ts:193360
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -112,7 +112,7 @@ supplement_token values are unique for each subsequent task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190964
+Defined in: main.ts:193373
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:190964
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190985
+Defined in: main.ts:193394
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:190985
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGenerateTextLiveResultInfo`
 
-Defined in: main.ts:190978
+Defined in: main.ts:193387
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:190978
 
 #### Returns
 
-[`ContentGenerationGenerateTextLiveResultInfo`](ContentGenerationGenerateTextLiveResultInfo.md)
+`ContentGenerationGenerateTextLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: VisualStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118472
+Defined in: main.ts:119855
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118472
 
 ## Constructors
 
-### new VisualStoriesDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new VisualStoriesDataforseoLabsSerpElementItem**(`data`?): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+> **new VisualStoriesDataforseoLabsSerpElementItem**(`data`?): `VisualStoriesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118479
+Defined in: main.ts:119862
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118479
 
 #### Returns
 
-[`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+`VisualStoriesDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118479
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:118475
+Defined in: main.ts:119858
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118484
+Defined in: main.ts:119867
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:118484
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118506
+Defined in: main.ts:119889
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:118506
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `VisualStoriesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118499
+Defined in: main.ts:119882
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:118499
 
 #### Returns
 
-[`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
+`VisualStoriesDataforseoLabsSerpElementItem`
 
 #### Overrides
 

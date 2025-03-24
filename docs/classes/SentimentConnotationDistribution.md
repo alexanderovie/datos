@@ -6,7 +6,7 @@
 
 # Class: SentimentConnotationDistribution
 
-Defined in: main.ts:188461
+Defined in: main.ts:190870
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:188461
 
 ## Constructors
 
-### new SentimentConnotationDistribution()
+### Constructor
 
-> **new SentimentConnotationDistribution**(`data`?): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> **new SentimentConnotationDistribution**(`data`?): `SentimentConnotationDistribution`
 
-Defined in: main.ts:188471
+Defined in: main.ts:190880
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:188471
 
 #### Returns
 
-[`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+`SentimentConnotationDistribution`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188471
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188462
+Defined in: main.ts:190871
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:188462
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188467
+Defined in: main.ts:190876
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:188467
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188463
+Defined in: main.ts:190872
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:188463
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188464
+Defined in: main.ts:190873
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:188464
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188465
+Defined in: main.ts:190874
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:188465
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188466
+Defined in: main.ts:190875
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:188466
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188480
+Defined in: main.ts:190889
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:188480
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188502
+Defined in: main.ts:190911
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:188502
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> `static` **fromJS**(`data`): `SentimentConnotationDistribution`
 
-Defined in: main.ts:188495
+Defined in: main.ts:190904
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:188495
 
 #### Returns
 
-[`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+`SentimentConnotationDistribution`

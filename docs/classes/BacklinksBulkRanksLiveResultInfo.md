@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkRanksLiveResultInfo
 
-Defined in: main.ts:169943
+Defined in: main.ts:172352
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:169943
 
 ## Constructors
 
-### new BacklinksBulkRanksLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkRanksLiveResultInfo**(`data`?): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+> **new BacklinksBulkRanksLiveResultInfo**(`data`?): `BacklinksBulkRanksLiveResultInfo`
 
-Defined in: main.ts:169951
+Defined in: main.ts:172360
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:169951
 
 #### Returns
 
-[`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+`BacklinksBulkRanksLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169951
 
 > `optional` **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
 
-Defined in: main.ts:169947
+Defined in: main.ts:172356
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169945
+Defined in: main.ts:172354
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169960
+Defined in: main.ts:172369
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:169960
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169982
+Defined in: main.ts:172391
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:169982
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkRanksLiveResultInfo`
 
-Defined in: main.ts:169975
+Defined in: main.ts:172384
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:169975
 
 #### Returns
 
-[`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+`BacklinksBulkRanksLiveResultInfo`

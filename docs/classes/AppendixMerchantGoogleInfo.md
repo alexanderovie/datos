@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantGoogleInfo
 
-Defined in: main.ts:240967
+Defined in: main.ts:243380
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:240967
 
 ## Constructors
 
-### new AppendixMerchantGoogleInfo()
+### Constructor
 
-> **new AppendixMerchantGoogleInfo**(`data`?): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
+> **new AppendixMerchantGoogleInfo**(`data`?): `AppendixMerchantGoogleInfo`
 
-Defined in: main.ts:240975
+Defined in: main.ts:243388
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:240975
 
 #### Returns
 
-[`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
+`AppendixMerchantGoogleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240975
 
 > `optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240971
+Defined in: main.ts:243384
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:240971
 
 > `optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240970
+Defined in: main.ts:243383
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:240970
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240968
+Defined in: main.ts:243381
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:240968
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240969
+Defined in: main.ts:243382
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:240969
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:240984
+Defined in: main.ts:243397
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:240984
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241004
+Defined in: main.ts:243417
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:241004
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
+> `static` **fromJS**(`data`): `AppendixMerchantGoogleInfo`
 
-Defined in: main.ts:240997
+Defined in: main.ts:243410
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:240997
 
 #### Returns
 
-[`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
+`AppendixMerchantGoogleInfo`

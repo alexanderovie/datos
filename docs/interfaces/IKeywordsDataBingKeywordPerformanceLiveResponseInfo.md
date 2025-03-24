@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveResponseInfo
 
-Defined in: main.ts:155306
+Defined in: main.ts:157715
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:155306
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26091
+Defined in: main.ts:26430
 
 total tasks cost, USD
 
@@ -36,7 +36,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26084
+Defined in: main.ts:26423
 
 general status code
 you can find the full list of the response codes here
@@ -51,7 +51,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26087
+Defined in: main.ts:26426
 
 general informational message
 you can find the full list of general informational messages here
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](../classes/KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)[]
 
-Defined in: main.ts:155308
+Defined in: main.ts:157717
 
 array of tasks
 
@@ -76,7 +76,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26093
+Defined in: main.ts:26432
 
 the number of tasks in the tasks array
 
@@ -90,7 +90,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26095
+Defined in: main.ts:26434
 
 the number of tasks in the tasks array returned with an error
 
@@ -104,7 +104,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26089
+Defined in: main.ts:26428
 
 total execution time, seconds
 
@@ -118,7 +118,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26081
+Defined in: main.ts:26420
 
 the current version of the API
 

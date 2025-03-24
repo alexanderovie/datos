@@ -6,7 +6,7 @@
 
 # Class: GoogleImageCarouselSerpElementItem
 
-Defined in: main.ts:53229
+Defined in: main.ts:53656
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:53229
 
 ## Constructors
 
-### new GoogleImageCarouselSerpElementItem()
+### Constructor
 
-> **new GoogleImageCarouselSerpElementItem**(`data`?): [`GoogleImageCarouselSerpElementItem`](GoogleImageCarouselSerpElementItem.md)
+> **new GoogleImageCarouselSerpElementItem**(`data`?): `GoogleImageCarouselSerpElementItem`
 
-Defined in: main.ts:53245
+Defined in: main.ts:53672
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:53245
 
 #### Returns
 
-[`GoogleImageCarouselSerpElementItem`](GoogleImageCarouselSerpElementItem.md)
+`GoogleImageCarouselSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructors)
+[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:53245
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53161
+Defined in: main.ts:53588
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:53161
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:53237
+Defined in: main.ts:53664
 
 items of the element
 
@@ -74,7 +74,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:53233
+Defined in: main.ts:53660
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53157
+Defined in: main.ts:53584
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53154
+Defined in: main.ts:53581
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:53241
+Defined in: main.ts:53668
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:53235
+Defined in: main.ts:53662
 
 title of the element
 
@@ -159,7 +159,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53150
+Defined in: main.ts:53577
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53159
+Defined in: main.ts:53586
 
 the XPath of the element
 
@@ -195,7 +195,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53250
+Defined in: main.ts:53677
 
 #### Parameters
 
@@ -217,7 +217,7 @@ Defined in: main.ts:53250
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53275
+Defined in: main.ts:53702
 
 #### Parameters
 
@@ -237,9 +237,9 @@ Defined in: main.ts:53275
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleImageCarouselSerpElementItem`](GoogleImageCarouselSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleImageCarouselSerpElementItem`
 
-Defined in: main.ts:53268
+Defined in: main.ts:53695
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:53268
 
 #### Returns
 
-[`GoogleImageCarouselSerpElementItem`](GoogleImageCarouselSerpElementItem.md)
+`GoogleImageCarouselSerpElementItem`
 
 #### Overrides
 

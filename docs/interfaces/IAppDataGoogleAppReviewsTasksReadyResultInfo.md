@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyResultInfo
 
-Defined in: main.ts:212584
+Defined in: main.ts:214993
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212584
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:212593
+Defined in: main.ts:215002
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:212597
+Defined in: main.ts:215006
 
 URL for collecting the results of the Google App Reviews task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the Google App Reviews task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:212600
+Defined in: main.ts:215009
 
 URL for collecting the results of the Google App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -49,7 +49,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:212587
+Defined in: main.ts:214996
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -60,7 +60,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:212589
+Defined in: main.ts:214998
 
 search engine specified when setting the task
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:212591
+Defined in: main.ts:215000
 
 search engine type
 
@@ -80,6 +80,6 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:212595
+Defined in: main.ts:215004
 
 user-defined task identifier

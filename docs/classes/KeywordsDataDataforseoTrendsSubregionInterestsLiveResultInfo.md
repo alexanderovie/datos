@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
-Defined in: main.ts:146315
+Defined in: main.ts:148724
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146315
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data`?): `KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
 
-Defined in: main.ts:146339
+Defined in: main.ts:148748
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146339
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146339
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:146330
+Defined in: main.ts:148739
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:146335
+Defined in: main.ts:148744
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
@@ -72,7 +72,7 @@ values in this array represent percentages relative to the maximum value within 
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:146332
+Defined in: main.ts:148741
 
 the number of results returned in the items array
 
@@ -86,7 +86,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146317
+Defined in: main.ts:148726
 
 keywords in a POST array
 
@@ -100,7 +100,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146325
+Defined in: main.ts:148734
 
 language code in a POST array
 if there is no data, then the value is null
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146322
+Defined in: main.ts:148731
 
 location code in a POST array
 if there is no data, then the value is null
@@ -130,7 +130,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:146319
+Defined in: main.ts:148728
 
 type of element
 
@@ -144,7 +144,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146348
+Defined in: main.ts:148757
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:146348
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146379
+Defined in: main.ts:148788
 
 #### Parameters
 
@@ -178,9 +178,9 @@ Defined in: main.ts:146379
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
 
-Defined in: main.ts:146372
+Defined in: main.ts:148781
 
 #### Parameters
 
@@ -190,4 +190,4 @@ Defined in: main.ts:146372
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`

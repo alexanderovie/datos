@@ -6,7 +6,7 @@
 
 # Class: FoundOnWebElement
 
-Defined in: main.ts:39070
+Defined in: main.ts:39497
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:39070
 
 ## Constructors
 
-### new FoundOnWebElement()
+### Constructor
 
-> **new FoundOnWebElement**(`data`?): [`FoundOnWebElement`](FoundOnWebElement.md)
+> **new FoundOnWebElement**(`data`?): `FoundOnWebElement`
 
-Defined in: main.ts:39082
+Defined in: main.ts:39509
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:39082
 
 #### Returns
 
-[`FoundOnWebElement`](FoundOnWebElement.md)
+`FoundOnWebElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39082
 
 > `optional` **image**: [`ImagesElement`](ImagesElement.md)
 
-Defined in: main.ts:39078
+Defined in: main.ts:39505
 
 image of the element
 
@@ -54,7 +54,7 @@ image of the element
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:39076
+Defined in: main.ts:39503
 
 subtitle of the element
 
@@ -68,7 +68,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39074
+Defined in: main.ts:39501
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39072
+Defined in: main.ts:39499
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39091
+Defined in: main.ts:39518
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:39091
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39111
+Defined in: main.ts:39538
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:39111
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
+> `static` **fromJS**(`data`): `FoundOnWebElement`
 
-Defined in: main.ts:39104
+Defined in: main.ts:39531
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:39104
 
 #### Returns
 
-[`FoundOnWebElement`](FoundOnWebElement.md)
+`FoundOnWebElement`

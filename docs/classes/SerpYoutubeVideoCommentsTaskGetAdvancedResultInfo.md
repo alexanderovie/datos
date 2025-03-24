@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:76337
+Defined in: main.ts:76764
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:76337
 
 ## Constructors
 
-### new SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo**(`data`?): [`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
+> **new SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo**(`data`?): `SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:76376
+Defined in: main.ts:76803
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:76376
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
+`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:76376
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:76348
+Defined in: main.ts:76775
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **comments\_count**: `number`
 
-Defined in: main.ts:76368
+Defined in: main.ts:76795
 
 number of comments on the video
 
@@ -69,7 +69,7 @@ number of comments on the video
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:76353
+Defined in: main.ts:76780
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:76364
+Defined in: main.ts:76791
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -103,7 +103,7 @@ youtube_comment
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
-Defined in: main.ts:76372
+Defined in: main.ts:76799
 
 elements of search results found in SERP
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:76370
+Defined in: main.ts:76797
 
 the number of results returned in the items array
 
@@ -131,7 +131,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:76345
+Defined in: main.ts:76772
 
 language code in a POST array
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:76343
+Defined in: main.ts:76770
 
 location code in a POST array
 
@@ -159,7 +159,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:76359
+Defined in: main.ts:76786
 
 search refinement chips
 equals null
@@ -174,7 +174,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:76341
+Defined in: main.ts:76768
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:76356
+Defined in: main.ts:76783
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -203,7 +203,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:76366
+Defined in: main.ts:76793
 
 title of the video
 
@@ -217,7 +217,7 @@ title of the video
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:76339
+Defined in: main.ts:76766
 
 ID of the video received in a POST array
 
@@ -231,7 +231,7 @@ ID of the video received in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:76385
+Defined in: main.ts:76812
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:76385
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:76422
+Defined in: main.ts:76849
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:76422
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:76415
+Defined in: main.ts:76842
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:76415
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
+`SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`

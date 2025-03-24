@@ -6,7 +6,7 @@
 
 # Class: AvailibleVersions
 
-Defined in: main.ts:184475
+Defined in: main.ts:186884
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:184475
 
 ## Constructors
 
-### new AvailibleVersions()
+### Constructor
 
-> **new AvailibleVersions**(`data`?): [`AvailibleVersions`](AvailibleVersions.md)
+> **new AvailibleVersions**(`data`?): `AvailibleVersions`
 
-Defined in: main.ts:184484
+Defined in: main.ts:186893
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:184484
 
 #### Returns
 
-[`AvailibleVersions`](AvailibleVersions.md)
+`AvailibleVersions`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184484
 
 > `optional` **default**: `boolean`
 
-Defined in: main.ts:184480
+Defined in: main.ts:186889
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
@@ -55,7 +55,7 @@ if false, the version is not used by default and should be specified in the corr
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:184477
+Defined in: main.ts:186886
 
 lighthouse version
 
@@ -69,7 +69,7 @@ lighthouse version
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184493
+Defined in: main.ts:186902
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:184493
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184511
+Defined in: main.ts:186920
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:184511
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
+> `static` **fromJS**(`data`): `AvailibleVersions`
 
-Defined in: main.ts:184504
+Defined in: main.ts:186913
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:184504
 
 #### Returns
 
-[`AvailibleVersions`](AvailibleVersions.md)
+`AvailibleVersions`

@@ -6,7 +6,7 @@
 
 # Class: BusinessListingAggregationInfo
 
-Defined in: main.ts:221385
+Defined in: main.ts:223794
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:221385
 
 ## Constructors
 
-### new BusinessListingAggregationInfo()
+### Constructor
 
-> **new BusinessListingAggregationInfo**(`data`?): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+> **new BusinessListingAggregationInfo**(`data`?): `BusinessListingAggregationInfo`
 
-Defined in: main.ts:221405
+Defined in: main.ts:223814
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:221405
 
 #### Returns
 
-[`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+`BusinessListingAggregationInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221405
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:221395
+Defined in: main.ts:223804
 
 number of unique entities
 
@@ -54,7 +54,7 @@ number of unique entities
 
 > `optional` **top\_attributes**: `object`
 
-Defined in: main.ts:221398
+Defined in: main.ts:223807
 
 the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute
@@ -73,7 +73,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 > `optional` **top\_categories**: `object`
 
-Defined in: main.ts:221388
+Defined in: main.ts:223797
 
 the most mentioned related categories
 top categories displayed with the number of businesses in each category
@@ -92,7 +92,7 @@ top categories displayed with the number of businesses in each category
 
 > `optional` **top\_countries**: `object`
 
-Defined in: main.ts:221391
+Defined in: main.ts:223800
 
 the most mentioned counties
 country codes with the biggest number of businesses in the category
@@ -111,7 +111,7 @@ country codes with the biggest number of businesses in the category
 
 > `optional` **top\_place\_topics**: `object`
 
-Defined in: main.ts:221401
+Defined in: main.ts:223810
 
 top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -130,7 +130,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 > `optional` **websites\_count**: `number`
 
-Defined in: main.ts:221393
+Defined in: main.ts:223802
 
 number of unique websites
 
@@ -144,7 +144,7 @@ number of unique websites
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221414
+Defined in: main.ts:223823
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:221414
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221460
+Defined in: main.ts:223869
 
 #### Parameters
 
@@ -178,9 +178,9 @@ Defined in: main.ts:221460
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+> `static` **fromJS**(`data`): `BusinessListingAggregationInfo`
 
-Defined in: main.ts:221453
+Defined in: main.ts:223862
 
 #### Parameters
 
@@ -190,4 +190,4 @@ Defined in: main.ts:221453
 
 #### Returns
 
-[`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+`BusinessListingAggregationInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
-Defined in: main.ts:124407
+Defined in: main.ts:126808
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:124407
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem()
+### Constructor
 
-> **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+> **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data`?): `DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`
 
-Defined in: main.ts:124417
+Defined in: main.ts:126818
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:124417
 
 #### Returns
 
-[`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124417
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:124413
+Defined in: main.ts:126814
 
 data on the intersection
 
@@ -58,7 +58,7 @@ data on the intersection
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:124411
+Defined in: main.ts:126812
 
 keyword data for the returned keyword
 
@@ -72,7 +72,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:124409
+Defined in: main.ts:126810
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124426
+Defined in: main.ts:126827
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:124426
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124451
+Defined in: main.ts:126852
 
 #### Parameters
 
@@ -120,9 +120,9 @@ Defined in: main.ts:124451
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`
 
-Defined in: main.ts:124444
+Defined in: main.ts:126845
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: main.ts:124444
 
 #### Returns
 
-[`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`

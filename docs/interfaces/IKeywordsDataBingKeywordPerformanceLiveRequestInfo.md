@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
-Defined in: main.ts:155042
+Defined in: main.ts:157451
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:155042
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:155055
+Defined in: main.ts:157464
 
 device type
 optional field
@@ -31,7 +31,7 @@ default value: all
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:155050
+Defined in: main.ts:157459
 
 keywords
 required field
@@ -47,7 +47,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155098
+Defined in: main.ts:157507
 
 search engine language code
 required field if you don’t specify language_name
@@ -61,7 +61,7 @@ example:
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:155092
+Defined in: main.ts:157501
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -76,7 +76,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:155077
+Defined in: main.ts:157486
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -91,7 +91,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:155085
+Defined in: main.ts:157494
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -107,7 +107,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:155070
+Defined in: main.ts:157479
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -122,7 +122,7 @@ example:
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:155063
+Defined in: main.ts:157472
 
 keywords match type
 optional field
@@ -138,7 +138,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:155104
+Defined in: main.ts:157513
 
 user-defined task identifier
 optional field

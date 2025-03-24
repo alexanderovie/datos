@@ -6,7 +6,7 @@
 
 # Class: TripadvisorReviewSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:238585
+Defined in: main.ts:240994
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:238585
 
 ## Constructors
 
-### new TripadvisorReviewSearchBusinessDataSerpElementItem()
+### Constructor
 
-> **new TripadvisorReviewSearchBusinessDataSerpElementItem**(`data`?): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
+> **new TripadvisorReviewSearchBusinessDataSerpElementItem**(`data`?): `TripadvisorReviewSearchBusinessDataSerpElementItem`
 
-Defined in: main.ts:238619
+Defined in: main.ts:241028
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:238619
 
 #### Returns
 
-[`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
+`TripadvisorReviewSearchBusinessDataSerpElementItem`
 
 #### Overrides
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:238619
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23016
 
 > `optional` **date\_of\_visit**: `string`
 
-Defined in: main.ts:238597
+Defined in: main.ts:241006
 
 date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:238588
+Defined in: main.ts:240997
 
 the alignment of the review in SERP
 can take the following values: right
@@ -92,7 +92,7 @@ can take the following values: right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -110,7 +110,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:238592
+Defined in: main.ts:241001
 
 the rating score submitted by the reviewer
 
@@ -143,7 +143,7 @@ the rating score submitted by the reviewer
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
 
-Defined in: main.ts:238612
+Defined in: main.ts:241021
 
 contains information about the owner’s response
 
@@ -157,7 +157,7 @@ contains information about the owner’s response
 
 > `optional` **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
 
-Defined in: main.ts:238615
+Defined in: main.ts:241024
 
 review highlights
 contains highlighted review criteria and assessments
@@ -172,7 +172,7 @@ contains highlighted review criteria and assessments
 
 > `optional` **review\_images**: [`ImageUrlInfo`](ImageUrlInfo.md)[]
 
-Defined in: main.ts:238608
+Defined in: main.ts:241017
 
 contains URLs of the images used in the review
 
@@ -186,7 +186,7 @@ contains URLs of the images used in the review
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:238606
+Defined in: main.ts:241015
 
 content of the review
 
@@ -200,7 +200,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:238602
+Defined in: main.ts:241011
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -217,7 +217,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:238604
+Defined in: main.ts:241013
 
 title of the review
 
@@ -231,7 +231,7 @@ title of the review
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:238590
+Defined in: main.ts:240999
 
 URL of the review
 
@@ -263,7 +263,7 @@ URL of the review
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:238610
+Defined in: main.ts:241019
 
 information from the reviewer’s profile
 
@@ -277,7 +277,7 @@ information from the reviewer’s profile
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238624
+Defined in: main.ts:241033
 
 #### Parameters
 
@@ -299,7 +299,7 @@ Defined in: main.ts:238624
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238664
+Defined in: main.ts:241073
 
 #### Parameters
 
@@ -319,9 +319,9 @@ Defined in: main.ts:238664
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `TripadvisorReviewSearchBusinessDataSerpElementItem`
 
-Defined in: main.ts:238657
+Defined in: main.ts:241066
 
 #### Parameters
 
@@ -331,7 +331,7 @@ Defined in: main.ts:238657
 
 #### Returns
 
-[`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
+`TripadvisorReviewSearchBusinessDataSerpElementItem`
 
 #### Overrides
 

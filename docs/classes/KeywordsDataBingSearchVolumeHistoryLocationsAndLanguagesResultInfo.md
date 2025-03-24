@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:155313
+Defined in: main.ts:157722
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:155313
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo()
+### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+> **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:155323
+Defined in: main.ts:157732
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:155323
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155323
 
 > `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
-Defined in: main.ts:155319
+Defined in: main.ts:157728
 
 array of available locations for a certain language
 
@@ -54,7 +54,7 @@ array of available locations for a certain language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155317
+Defined in: main.ts:157726
 
 language code according to ISO 639-1
 
@@ -68,7 +68,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:155315
+Defined in: main.ts:157724
 
 language name
 
@@ -82,7 +82,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155332
+Defined in: main.ts:157741
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:155332
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155355
+Defined in: main.ts:157764
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:155355
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:155348
+Defined in: main.ts:157757
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:155348
 
 #### Returns
 
-[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`

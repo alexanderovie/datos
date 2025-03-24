@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTaskPostRequestInfo
 
-Defined in: main.ts:47602
+Defined in: main.ts:48029
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:47602
 
 ## Constructors
 
-### new SerpGoogleNewsTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleNewsTaskPostRequestInfo**(`data`?): [`SerpGoogleNewsTaskPostRequestInfo`](SerpGoogleNewsTaskPostRequestInfo.md)
+> **new SerpGoogleNewsTaskPostRequestInfo**(`data`?): `SerpGoogleNewsTaskPostRequestInfo`
 
-Defined in: main.ts:47761
+Defined in: main.ts:48188
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:47761
 
 #### Returns
 
-[`SerpGoogleNewsTaskPostRequestInfo`](SerpGoogleNewsTaskPostRequestInfo.md)
+`SerpGoogleNewsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:47761
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:47690
+Defined in: main.ts:48117
 
 browser screen height
 optional field
@@ -58,7 +58,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:47696
+Defined in: main.ts:48123
 
 browser screen resolution ratio
 optional field
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:47684
+Defined in: main.ts:48111
 
 browser screen width
 optional field
@@ -94,7 +94,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:47678
+Defined in: main.ts:48105
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -113,7 +113,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:47712
+Defined in: main.ts:48139
 
 parsing depth
 optional field
@@ -134,7 +134,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:47612
+Defined in: main.ts:48039
 
 keyword
 required field
@@ -156,7 +156,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:47665
+Defined in: main.ts:48092
 
 search engine language code
 required field if you don’t specify language_name
@@ -175,7 +175,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:47658
+Defined in: main.ts:48085
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -194,7 +194,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:47641
+Defined in: main.ts:48068
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -213,7 +213,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:47651
+Defined in: main.ts:48078
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -235,7 +235,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:47634
+Defined in: main.ts:48061
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -254,7 +254,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:47719
+Defined in: main.ts:48146
 
 page crawl limit
 optional field
@@ -273,7 +273,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:47671
+Defined in: main.ts:48098
 
 device operating system
 optional field
@@ -291,7 +291,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:47757
+Defined in: main.ts:48184
 
 notification URL of a completed task
 optional field
@@ -314,7 +314,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:47746
+Defined in: main.ts:48173
 
 postback_url datatype
 required field if you specify postback_url
@@ -332,7 +332,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:47740
+Defined in: main.ts:48167
 
 return URL for sending task results
 optional field
@@ -355,7 +355,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:47627
+Defined in: main.ts:48054
 
 task priority
 optional field
@@ -375,7 +375,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:47703
+Defined in: main.ts:48130
 
 search engine domain
 optional field
@@ -394,7 +394,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:47723
+Defined in: main.ts:48150
 
 additional parameters of the search query
 optional field
@@ -410,7 +410,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:47729
+Defined in: main.ts:48156
 
 user-defined task identifier
 optional field
@@ -428,7 +428,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:47619
+Defined in: main.ts:48046
 
 direct URL of the search query
 optional field
@@ -447,7 +447,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47770
+Defined in: main.ts:48197
 
 #### Parameters
 
@@ -465,7 +465,7 @@ Defined in: main.ts:47770
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47807
+Defined in: main.ts:48234
 
 #### Parameters
 
@@ -481,9 +481,9 @@ Defined in: main.ts:47807
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleNewsTaskPostRequestInfo`](SerpGoogleNewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleNewsTaskPostRequestInfo`
 
-Defined in: main.ts:47800
+Defined in: main.ts:48227
 
 #### Parameters
 
@@ -493,4 +493,4 @@ Defined in: main.ts:47800
 
 #### Returns
 
-[`SerpGoogleNewsTaskPostRequestInfo`](SerpGoogleNewsTaskPostRequestInfo.md)
+`SerpGoogleNewsTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextRow
 
-Defined in: main.ts:203651
+Defined in: main.ts:206060
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:203651
 
 ## Constructors
 
-### new ProductInformationTextRow()
+### Constructor
 
-> **new ProductInformationTextRow**(`data`?): [`ProductInformationTextRow`](ProductInformationTextRow.md)
+> **new ProductInformationTextRow**(`data`?): `ProductInformationTextRow`
 
-Defined in: main.ts:203657
+Defined in: main.ts:206066
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:203657
 
 #### Returns
 
-[`ProductInformationTextRow`](ProductInformationTextRow.md)
+`ProductInformationTextRow`
 
 #### Overrides
 
-[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:203657
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25125
+Defined in: main.ts:25464
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25125
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203653
+Defined in: main.ts:206062
 
 text of the voucher
 
@@ -74,7 +74,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25121
+Defined in: main.ts:25460
 
 type of element
 
@@ -92,7 +92,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203662
+Defined in: main.ts:206071
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:203662
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203680
+Defined in: main.ts:206089
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:203680
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
+> `static` **fromJS**(`data`): `ProductInformationTextRow`
 
-Defined in: main.ts:203673
+Defined in: main.ts:206082
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:203673
 
 #### Returns
 
-[`ProductInformationTextRow`](ProductInformationTextRow.md)
+`ProductInformationTextRow`
 
 #### Overrides
 

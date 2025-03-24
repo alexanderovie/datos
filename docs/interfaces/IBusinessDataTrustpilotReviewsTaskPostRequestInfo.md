@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
-Defined in: main.ts:235705
+Defined in: main.ts:238114
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:235705
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:235736
+Defined in: main.ts:238145
 
 parsing depth
 optional field
@@ -33,7 +33,7 @@ maximum value: 25000
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:235713
+Defined in: main.ts:238122
 
 domain of the local establishment
 required field
@@ -49,7 +49,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:235764
+Defined in: main.ts:238173
 
 notification URL of a completed task
 optional field
@@ -68,7 +68,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:235753
+Defined in: main.ts:238162
 
 return URL for sending task results
 optional field
@@ -87,7 +87,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:235729
+Defined in: main.ts:238138
 
 task priority
 optional field
@@ -103,7 +103,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:235721
+Defined in: main.ts:238130
 
 results sorting parameter
 optional field
@@ -119,7 +119,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:235742
+Defined in: main.ts:238151
 
 user-defined task identifier
 optional field

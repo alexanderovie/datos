@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveRequestInfo
 
-Defined in: main.ts:219937
+Defined in: main.ts:222346
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:219937
 
 ## Constructors
 
-### new BusinessDataBusinessListingsSearchLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsSearchLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
+> **new BusinessDataBusinessListingsSearchLiveRequestInfo**(`data`?): `BusinessDataBusinessListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:220018
+Defined in: main.ts:222427
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:220018
 
 #### Returns
 
-[`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
+`BusinessDataBusinessListingsSearchLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:220018
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:219943
+Defined in: main.ts:222352
 
 business categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:219948
+Defined in: main.ts:222357
 
 description of the element in SERP
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:219977
+Defined in: main.ts:222386
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:219956
+Defined in: main.ts:222365
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -113,7 +113,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:219995
+Defined in: main.ts:222404
 
 the maximum number of returned businesses
 optional field
@@ -130,7 +130,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:219966
+Defined in: main.ts:222375
 
 GPS coordinates of a location
 optional field
@@ -152,7 +152,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:220000
+Defined in: main.ts:222409
 
 offset in the results array of returned businesses
 optional field
@@ -169,7 +169,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:220008
+Defined in: main.ts:222417
 
 token for subsequent requests
 optional field
@@ -189,7 +189,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:219990
+Defined in: main.ts:222399
 
 results sorting rules
 optional field
@@ -214,7 +214,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:220014
+Defined in: main.ts:222423
 
 user-defined task identifier
 optional field
@@ -232,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:219953
+Defined in: main.ts:222362
 
 title of the element in SERP
 optional field
@@ -249,7 +249,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:220027
+Defined in: main.ts:222436
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:220027
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:220066
+Defined in: main.ts:222475
 
 #### Parameters
 
@@ -283,9 +283,9 @@ Defined in: main.ts:220066
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:220059
+Defined in: main.ts:222468
 
 #### Parameters
 
@@ -295,4 +295,4 @@ Defined in: main.ts:220059
 
 #### Returns
 
-[`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
+`BusinessDataBusinessListingsSearchLiveRequestInfo`

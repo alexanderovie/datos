@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsRelatedKeywordsLiveItem
 
-Defined in: main.ts:103337
+Defined in: main.ts:105158
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:103337
 
 ## Constructors
 
-### new DataforseoLabsRelatedKeywordsLiveItem()
+### Constructor
 
-> **new DataforseoLabsRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
+> **new DataforseoLabsRelatedKeywordsLiveItem**(`data`?): `DataforseoLabsRelatedKeywordsLiveItem`
 
-Defined in: main.ts:103350
+Defined in: main.ts:105171
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:103350
 
 #### Returns
 
-[`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
+`DataforseoLabsRelatedKeywordsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103350
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:103343
+Defined in: main.ts:105164
 
 keyword search depth
 
@@ -54,7 +54,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:103341
+Defined in: main.ts:105162
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:103346
+Defined in: main.ts:105167
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -83,7 +83,7 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103339
+Defined in: main.ts:105160
 
 search engine type
 
@@ -97,7 +97,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103359
+Defined in: main.ts:105180
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:103359
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103383
+Defined in: main.ts:105204
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:103383
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsRelatedKeywordsLiveItem`
 
-Defined in: main.ts:103376
+Defined in: main.ts:105197
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:103376
 
 #### Returns
 
-[`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
+`DataforseoLabsRelatedKeywordsLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeHistorySearchInfo
 
-Defined in: main.ts:156153
+Defined in: main.ts:158562
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:156153
 
 ## Constructors
 
-### new SearchVolumeHistorySearchInfo()
+### Constructor
 
-> **new SearchVolumeHistorySearchInfo**(`data`?): [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
+> **new SearchVolumeHistorySearchInfo**(`data`?): `SearchVolumeHistorySearchInfo`
 
-Defined in: main.ts:156169
+Defined in: main.ts:158578
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:156169
 
 #### Returns
 
-[`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
+`SearchVolumeHistorySearchInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156169
 
 > `optional` **desktop**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:156156
+Defined in: main.ts:158565
 
 device type = desktop
 contains historical search volume data for searches made from desktop devices
@@ -55,7 +55,7 @@ contains historical search volume data for searches made from desktop devices
 
 > `optional` **mobile**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:156162
+Defined in: main.ts:158571
 
 device type = mobile
 contains historical search volume data for searches made from mobile devices
@@ -70,7 +70,7 @@ contains historical search volume data for searches made from mobile devices
 
 > `optional` **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:156159
+Defined in: main.ts:158568
 
 device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices)
@@ -85,7 +85,7 @@ contains historical search volume data for searches made from feature phones (no
 
 > `optional` **tablet**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:156165
+Defined in: main.ts:158574
 
 device type = tablet
 contains historical search volume data for searches made from tablets
@@ -100,7 +100,7 @@ contains historical search volume data for searches made from tablets
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156178
+Defined in: main.ts:158587
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:156178
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156214
+Defined in: main.ts:158623
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:156214
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
+> `static` **fromJS**(`data`): `SearchVolumeHistorySearchInfo`
 
-Defined in: main.ts:156207
+Defined in: main.ts:158616
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:156207
 
 #### Returns
 
-[`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
+`SearchVolumeHistorySearchInfo`

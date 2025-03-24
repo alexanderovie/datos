@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:240833
+Defined in: main.ts:243246
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:240833
 
 > `optional` **aggregation\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240839
+Defined in: main.ts:243252
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:240839
 
 > `optional` **domain\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240834
+Defined in: main.ts:243247
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:240834
 
 > `optional` **domains\_by\_html\_terms**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240841
+Defined in: main.ts:243254
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:240841
 
 > `optional` **domains\_by\_technology**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240835
+Defined in: main.ts:243248
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:240835
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:240836
+Defined in: main.ts:243249
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:240836
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:240837
+Defined in: main.ts:243250
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:240837
 
 > `optional` **technologies**: `number`
 
-Defined in: main.ts:240838
+Defined in: main.ts:243251
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:240838
 
 > `optional` **technologies\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240840
+Defined in: main.ts:243253
 
 ***
 
@@ -82,4 +82,4 @@ Defined in: main.ts:240840
 
 > `optional` **technology\_stats**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:240842
+Defined in: main.ts:243255

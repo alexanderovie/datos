@@ -6,7 +6,7 @@
 
 # Interface: IMessageInfo
 
-Defined in: main.ts:25666
+Defined in: main.ts:26005
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25666
 
 > `optional` **level**: `string`
 
-Defined in: main.ts:25669
+Defined in: main.ts:26008
 
 level of error
 can take the following values: fatal, error, warning, info
@@ -29,7 +29,7 @@ can take the following values: fatal, error, warning, info
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:25672
+Defined in: main.ts:26011
 
 message associated with an error
 message providing the details of the detected error

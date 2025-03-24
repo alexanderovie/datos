@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115165
+Defined in: main.ts:116550
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:115165
 
 ## Constructors
 
-### new KnowledgeGraphRowItemDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphRowItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
+> **new KnowledgeGraphRowItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphRowItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115181
+Defined in: main.ts:116566
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:115181
 
 #### Returns
 
-[`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:115181
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:115171
+Defined in: main.ts:116556
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ ss:/webfacts:net_worth
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:115177
+Defined in: main.ts:116562
 
 sitelinks
 the links shown below some of Google’s search results
@@ -92,7 +92,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -112,7 +112,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -131,7 +131,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:115173
+Defined in: main.ts:116558
 
 row content
 
@@ -164,7 +164,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:115167
+Defined in: main.ts:116552
 
 title of the result in SERP
 
@@ -178,7 +178,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -196,7 +196,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115186
+Defined in: main.ts:116571
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:115186
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115211
+Defined in: main.ts:116596
 
 #### Parameters
 
@@ -256,9 +256,9 @@ Defined in: main.ts:115211
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphRowItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115204
+Defined in: main.ts:116589
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:115204
 
 #### Returns
 
-[`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsSubdomainsLiveItem
 
-Defined in: main.ts:113487
+Defined in: main.ts:114792
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:113487
 
 ## Constructors
 
-### new DataforseoLabsSubdomainsLiveItem()
+### Constructor
 
-> **new DataforseoLabsSubdomainsLiveItem**(`data`?): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+> **new DataforseoLabsSubdomainsLiveItem**(`data`?): `DataforseoLabsSubdomainsLiveItem`
 
-Defined in: main.ts:113497
+Defined in: main.ts:114802
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:113497
 
 #### Returns
 
-[`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+`DataforseoLabsSubdomainsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113497
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:113493
+Defined in: main.ts:114798
 
 ranking data relevant to subdomain
 
@@ -58,7 +58,7 @@ ranking data relevant to subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113489
+Defined in: main.ts:114794
 
 search engine type
 
@@ -72,7 +72,7 @@ search engine type
 
 > `optional` **subdomain**: `string`
 
-Defined in: main.ts:113491
+Defined in: main.ts:114796
 
 returned subdomain
 
@@ -86,7 +86,7 @@ returned subdomain
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113506
+Defined in: main.ts:114811
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:113506
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113531
+Defined in: main.ts:114836
 
 #### Parameters
 
@@ -120,9 +120,9 @@ Defined in: main.ts:113531
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsSubdomainsLiveItem`
 
-Defined in: main.ts:113524
+Defined in: main.ts:114829
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: main.ts:113524
 
 #### Returns
 
-[`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+`DataforseoLabsSubdomainsLiveItem`

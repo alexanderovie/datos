@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceMarketInstrumentElement
 
-Defined in: main.ts:87735
+Defined in: main.ts:88162
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87735
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:87755
+Defined in: main.ts:88182
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -29,7 +29,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:87752
+Defined in: main.ts:88179
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -41,7 +41,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:87760
+Defined in: main.ts:88187
 
 location of the market index
 example: Europe/Paris
@@ -52,7 +52,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:87770
+Defined in: main.ts:88197
 
 percentage of change in value of the market index
 
@@ -62,7 +62,7 @@ percentage of change in value of the market index
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:87742
+Defined in: main.ts:88169
 
 value of the base asset compared to the quote asset
 
@@ -72,7 +72,7 @@ value of the base asset compared to the quote asset
 
 > `optional` **price\_currency**: `string`
 
-Defined in: main.ts:87748
+Defined in: main.ts:88175
 
 price currency
 example: USD
@@ -83,7 +83,7 @@ example: USD
 
 > `optional` **price\_delta**: `number`
 
-Defined in: main.ts:87745
+Defined in: main.ts:88172
 
 change in price
 change in price at a given timestamp
@@ -94,7 +94,7 @@ change in price at a given timestamp
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:87740
+Defined in: main.ts:88167
 
 ticker of the market index
 example: DAX
@@ -105,7 +105,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87768
+Defined in: main.ts:88195
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -118,7 +118,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:87763
+Defined in: main.ts:88190
 
 growth trend of the market index
 possible values: up, down, stable
@@ -129,7 +129,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87737
+Defined in: main.ts:88164
 
 type of element
 
@@ -139,6 +139,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87757
+Defined in: main.ts:88184
 
 URL to the page of the market index on Google Finance

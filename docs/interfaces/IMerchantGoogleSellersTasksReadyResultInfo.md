@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleSellersTasksReadyResultInfo
 
-Defined in: main.ts:197032
+Defined in: main.ts:199441
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:197032
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:197042
+Defined in: main.ts:199451
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:197046
+Defined in: main.ts:199455
 
 URL for collecting the results of Google Shopping Sellers Advanced task
 
@@ -38,7 +38,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:197048
+Defined in: main.ts:199457
 
 URL for collecting the results of Google Shopping Sellers HTML task
 
@@ -48,7 +48,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:197035
+Defined in: main.ts:199444
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:197037
+Defined in: main.ts:199446
 
 search engine specified when setting the task
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:197040
+Defined in: main.ts:199449
 
 type of search engine
 can take the following values: shopping
@@ -80,6 +80,6 @@ can take the following values: shopping
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:197044
+Defined in: main.ts:199453
 
 user-defined task identifier

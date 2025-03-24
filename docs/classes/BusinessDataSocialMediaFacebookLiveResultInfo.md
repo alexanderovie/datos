@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
 
-Defined in: main.ts:239347
+Defined in: main.ts:241756
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239347
 
 ## Constructors
 
-### new BusinessDataSocialMediaFacebookLiveResultInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+> **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data`?): `BusinessDataSocialMediaFacebookLiveResultInfo`
 
-Defined in: main.ts:239359
+Defined in: main.ts:241768
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239359
 
 #### Returns
 
-[`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+`BusinessDataSocialMediaFacebookLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239359
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:239355
+Defined in: main.ts:241764
 
 number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed
@@ -55,7 +55,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:239352
+Defined in: main.ts:241761
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -70,7 +70,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:239349
+Defined in: main.ts:241758
 
 type of element
 
@@ -84,7 +84,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239368
+Defined in: main.ts:241777
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:239368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239387
+Defined in: main.ts:241796
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:239387
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaFacebookLiveResultInfo`
 
-Defined in: main.ts:239380
+Defined in: main.ts:241789
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:239380
 
 #### Returns
 
-[`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)
+`BusinessDataSocialMediaFacebookLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleAdsAdvertisersSerpElementItem
 
-Defined in: main.ts:63399
+Defined in: main.ts:63826
 
 ## Extended by
 
@@ -20,11 +20,11 @@ Defined in: main.ts:63399
 
 ## Constructors
 
-### new BaseGoogleAdsAdvertisersSerpElementItem()
+### Constructor
 
-> **new BaseGoogleAdsAdvertisersSerpElementItem**(`data`?): [`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
+> **new BaseGoogleAdsAdvertisersSerpElementItem**(`data`?): `BaseGoogleAdsAdvertisersSerpElementItem`
 
-Defined in: main.ts:63412
+Defined in: main.ts:63839
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:63412
 
 #### Returns
 
-[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
+`BaseGoogleAdsAdvertisersSerpElementItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:63412
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63410
+Defined in: main.ts:63837
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:63410
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63408
+Defined in: main.ts:63835
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63405
+Defined in: main.ts:63832
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63401
+Defined in: main.ts:63828
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63422
+Defined in: main.ts:63849
 
 #### Parameters
 
@@ -113,7 +113,7 @@ Defined in: main.ts:63422
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63452
+Defined in: main.ts:63879
 
 #### Parameters
 
@@ -129,9 +129,9 @@ Defined in: main.ts:63452
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseGoogleAdsAdvertisersSerpElementItem`
 
-Defined in: main.ts:63430
+Defined in: main.ts:63857
 
 #### Parameters
 
@@ -141,4 +141,4 @@ Defined in: main.ts:63430
 
 #### Returns
 
-[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md)
+`BaseGoogleAdsAdvertisersSerpElementItem`

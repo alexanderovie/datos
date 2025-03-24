@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityRequestInfo
 
-Defined in: main.ts:180607
+Defined in: main.ts:183016
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:180607
 
 ## Constructors
 
-### new OnPageKeywordDensityRequestInfo()
+### Constructor
 
-> **new OnPageKeywordDensityRequestInfo**(`data`?): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
+> **new OnPageKeywordDensityRequestInfo**(`data`?): `OnPageKeywordDensityRequestInfo`
 
-Defined in: main.ts:180670
+Defined in: main.ts:183079
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:180670
 
 #### Returns
 
-[`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
+`OnPageKeywordDensityRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180670
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:180646
+Defined in: main.ts:183055
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:180613
+Defined in: main.ts:183022
 
 ID of the task
 required field
@@ -87,7 +87,7 @@ example:
 
 > `optional` **keyword\_length**: `number`
 
-Defined in: main.ts:180618
+Defined in: main.ts:183027
 
 number of words for a keyword
 required field
@@ -104,7 +104,7 @@ possible values:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:180629
+Defined in: main.ts:183038
 
 the maximum number of returned keywords
 optional field
@@ -121,7 +121,7 @@ maximum value: 1000
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:180660
+Defined in: main.ts:183069
 
 results sorting rules
 optional field
@@ -147,7 +147,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180666
+Defined in: main.ts:183075
 
 user-defined task identifier
 optional field
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:180624
+Defined in: main.ts:183033
 
 page URL
 optional field
@@ -183,7 +183,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180679
+Defined in: main.ts:183088
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: main.ts:180679
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180710
+Defined in: main.ts:183119
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:180710
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageKeywordDensityRequestInfo`
 
-Defined in: main.ts:180703
+Defined in: main.ts:183112
 
 #### Parameters
 
@@ -229,4 +229,4 @@ Defined in: main.ts:180703
 
 #### Returns
 
-[`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
+`OnPageKeywordDensityRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTasksReadyResultInfo
 
-Defined in: main.ts:64548
+Defined in: main.ts:64975
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:64548
 
 ## Constructors
 
-### new SerpGoogleAdsSearchTasksReadyResultInfo()
+### Constructor
 
-> **new SerpGoogleAdsSearchTasksReadyResultInfo**(`data`?): [`SerpGoogleAdsSearchTasksReadyResultInfo`](SerpGoogleAdsSearchTasksReadyResultInfo.md)
+> **new SerpGoogleAdsSearchTasksReadyResultInfo**(`data`?): `SerpGoogleAdsSearchTasksReadyResultInfo`
 
-Defined in: main.ts:64573
+Defined in: main.ts:65000
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:64573
 
 #### Returns
 
-[`SerpGoogleAdsSearchTasksReadyResultInfo`](SerpGoogleAdsSearchTasksReadyResultInfo.md)
+`SerpGoogleAdsSearchTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:64573
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:64558
+Defined in: main.ts:64985
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:64566
+Defined in: main.ts:64993
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:64569
+Defined in: main.ts:64996
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:64563
+Defined in: main.ts:64990
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:64551
+Defined in: main.ts:64978
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:64553
+Defined in: main.ts:64980
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:64556
+Defined in: main.ts:64983
 
 type of search engine
 example: ads_search
@@ -143,7 +143,7 @@ example: ads_search
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:64560
+Defined in: main.ts:64987
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64582
+Defined in: main.ts:65009
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:64582
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64606
+Defined in: main.ts:65033
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:64606
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAdsSearchTasksReadyResultInfo`](SerpGoogleAdsSearchTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAdsSearchTasksReadyResultInfo`
 
-Defined in: main.ts:64599
+Defined in: main.ts:65026
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:64599
 
 #### Returns
 
-[`SerpGoogleAdsSearchTasksReadyResultInfo`](SerpGoogleAdsSearchTasksReadyResultInfo.md)
+`SerpGoogleAdsSearchTasksReadyResultInfo`

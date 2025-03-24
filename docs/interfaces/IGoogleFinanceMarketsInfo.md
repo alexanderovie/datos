@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceMarketsInfo
 
-Defined in: main.ts:87831
+Defined in: main.ts:88258
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87831
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](../classes/GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:87836
+Defined in: main.ts:88263
 
 elements of search results found in SERP
 
@@ -28,7 +28,7 @@ elements of search results found in SERP
 
 > `optional` **market**: `string`
 
-Defined in: main.ts:87834
+Defined in: main.ts:88261
 
 financial market identifier
 possible values: US, Europe, Asia, Currencies, Crypto, Futures

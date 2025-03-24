@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseAuditsResultInfo
 
-Defined in: main.ts:184303
+Defined in: main.ts:186712
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:184303
 
 ## Constructors
 
-### new OnPageLighthouseAuditsResultInfo()
+### Constructor
 
-> **new OnPageLighthouseAuditsResultInfo**(`data`?): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+> **new OnPageLighthouseAuditsResultInfo**(`data`?): `OnPageLighthouseAuditsResultInfo`
 
-Defined in: main.ts:184311
+Defined in: main.ts:186720
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:184311
 
 #### Returns
 
-[`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+`OnPageLighthouseAuditsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184311
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:184307
+Defined in: main.ts:186716
 
 the list of available lighthouse audits
 an array containing the titles of available audits
@@ -56,7 +56,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184320
+Defined in: main.ts:186729
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: main.ts:184320
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184341
+Defined in: main.ts:186750
 
 #### Parameters
 
@@ -90,9 +90,9 @@ Defined in: main.ts:184341
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseAuditsResultInfo`
 
-Defined in: main.ts:184334
+Defined in: main.ts:186743
 
 #### Parameters
 
@@ -102,4 +102,4 @@ Defined in: main.ts:184334
 
 #### Returns
 
-[`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+`OnPageLighthouseAuditsResultInfo`

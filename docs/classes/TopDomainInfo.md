@@ -6,7 +6,7 @@
 
 # Class: TopDomainInfo
 
-Defined in: main.ts:24944
+Defined in: main.ts:25283
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24944
 
 ## Constructors
 
-### new TopDomainInfo()
+### Constructor
 
-> **new TopDomainInfo**(`data`?): [`TopDomainInfo`](TopDomainInfo.md)
+> **new TopDomainInfo**(`data`?): `TopDomainInfo`
 
-Defined in: main.ts:24950
+Defined in: main.ts:25289
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24950
 
 #### Returns
 
-[`TopDomainInfo`](TopDomainInfo.md)
+`TopDomainInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24950
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:24946
+Defined in: main.ts:25285
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:24946
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:24945
+Defined in: main.ts:25284
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:24945
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24959
+Defined in: main.ts:25298
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:24959
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24977
+Defined in: main.ts:25316
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:24977
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
+> `static` **fromJS**(`data`): `TopDomainInfo`
 
-Defined in: main.ts:24970
+Defined in: main.ts:25309
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:24970
 
 #### Returns
 
-[`TopDomainInfo`](TopDomainInfo.md)
+`TopDomainInfo`

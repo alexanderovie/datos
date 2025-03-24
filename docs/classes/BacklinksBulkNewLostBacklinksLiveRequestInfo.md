@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveRequestInfo
 
-Defined in: main.ts:171155
+Defined in: main.ts:173564
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171155
 
 ## Constructors
 
-### new BacklinksBulkNewLostBacklinksLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+> **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): `BacklinksBulkNewLostBacklinksLiveRequestInfo`
 
-Defined in: main.ts:171197
+Defined in: main.ts:173606
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171197
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+`BacklinksBulkNewLostBacklinksLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171197
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171187
+Defined in: main.ts:173596
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171193
+Defined in: main.ts:173602
 
 user-defined task identifier
 optional field
@@ -83,7 +83,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:171174
+Defined in: main.ts:173583
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -114,7 +114,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171206
+Defined in: main.ts:173615
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:171206
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171229
+Defined in: main.ts:173638
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:171229
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkNewLostBacklinksLiveRequestInfo`
 
-Defined in: main.ts:171222
+Defined in: main.ts:173631
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:171222
 
 #### Returns
 
-[`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+`BacklinksBulkNewLostBacklinksLiveRequestInfo`

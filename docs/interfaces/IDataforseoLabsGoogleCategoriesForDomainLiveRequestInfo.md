@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
-Defined in: main.ts:106568
+Defined in: main.ts:107865
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:106568
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:106643
+Defined in: main.ts:107940
 
 array of results filtering parameters
 optional field
@@ -42,7 +42,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:106618
+Defined in: main.ts:107915
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -57,7 +57,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_subcategories**: `boolean`
 
-Defined in: main.ts:106611
+Defined in: main.ts:107908
 
 indicates if the subcategories will be included in the search
 optional field
@@ -71,7 +71,7 @@ learn more about the parameter in this help center article
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:106627
+Defined in: main.ts:107924
 
 display results by item type
 optional field
@@ -88,7 +88,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106605
+Defined in: main.ts:107902
 
 language code
 required field if you don’t specify language_name
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:106597
+Defined in: main.ts:107894
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,7 +120,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:106665
+Defined in: main.ts:107962
 
 the maximum number of returned categories
 optional field
@@ -133,7 +133,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106589
+Defined in: main.ts:107886
 
 location code
 required field if you don’t specify location_name
@@ -149,7 +149,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:106581
+Defined in: main.ts:107878
 
 full name of the location
 required field if you don’t specify location_code
@@ -165,7 +165,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:106670
+Defined in: main.ts:107967
 
 offset in the results array of returned categories 
 optional field
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:106660
+Defined in: main.ts:107957
 
 results sorting rules
 optional field
@@ -203,7 +203,7 @@ Note: if the item_types array contains item types that are different from the or
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:106676
+Defined in: main.ts:107973
 
 user-defined task identifier
 optional field
@@ -217,7 +217,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:106573
+Defined in: main.ts:107870
 
 domain or subdomain
 required field

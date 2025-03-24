@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoTrendsKeywordsDataPriceData
 
-Defined in: main.ts:245805
+Defined in: main.ts:247770
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245805
 
 ## Constructors
 
-### new AppendixDataforseoTrendsKeywordsDataPriceData()
+### Constructor
 
-> **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+> **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): `AppendixDataforseoTrendsKeywordsDataPriceData`
 
-Defined in: main.ts:245813
+Defined in: main.ts:247778
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245813
 
 #### Returns
 
-[`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+`AppendixDataforseoTrendsKeywordsDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245813
 
 > `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245806
+Defined in: main.ts:247771
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245806
 
 > `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245807
+Defined in: main.ts:247772
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245807
 
 > `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245808
+Defined in: main.ts:247773
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245808
 
 > `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245809
+Defined in: main.ts:247774
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:245809
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245822
+Defined in: main.ts:247787
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:245822
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245842
+Defined in: main.ts:247807
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:245842
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixDataforseoTrendsKeywordsDataPriceData`
 
-Defined in: main.ts:245835
+Defined in: main.ts:247800
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:245835
 
 #### Returns
 
-[`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+`AppendixDataforseoTrendsKeywordsDataPriceData`

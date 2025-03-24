@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesElement
 
-Defined in: main.ts:31170
+Defined in: main.ts:31597
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:31170
 
 ## Constructors
 
-### new KnowledgeGraphImagesElement()
+### Constructor
 
-> **new KnowledgeGraphImagesElement**(`data`?): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
+> **new KnowledgeGraphImagesElement**(`data`?): `KnowledgeGraphImagesElement`
 
-Defined in: main.ts:31187
+Defined in: main.ts:31614
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:31187
 
 #### Returns
 
-[`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
+`KnowledgeGraphImagesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31187
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:31178
+Defined in: main.ts:31605
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31176
+Defined in: main.ts:31603
 
 domain in SERP of the ad element
 
@@ -68,7 +68,7 @@ domain in SERP of the ad element
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31181
+Defined in: main.ts:31608
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31172
+Defined in: main.ts:31599
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31174
+Defined in: main.ts:31601
 
 relevant URL in SERP
 
@@ -111,7 +111,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31183
+Defined in: main.ts:31610
 
 the XPath of the element
 
@@ -125,7 +125,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31196
+Defined in: main.ts:31623
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:31196
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31218
+Defined in: main.ts:31645
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:31218
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphImagesElement`
 
-Defined in: main.ts:31211
+Defined in: main.ts:31638
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:31211
 
 #### Returns
 
-[`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
+`KnowledgeGraphImagesElement`

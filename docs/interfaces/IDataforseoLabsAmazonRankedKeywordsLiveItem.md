@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
-Defined in: main.ts:122808
+Defined in: main.ts:125209
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122808
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:122812
+Defined in: main.ts:125213
 
 keyword data for the returned keyword
 
@@ -28,7 +28,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](../classes/AmazonRankedSerpElement.md)
 
-Defined in: main.ts:122814
+Defined in: main.ts:125215
 
 contains data on the products’s SERP element found for the returned keyword
 
@@ -38,6 +38,6 @@ contains data on the products’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122810
+Defined in: main.ts:125211
 
 search engine type

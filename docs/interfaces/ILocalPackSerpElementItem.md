@@ -6,7 +6,7 @@
 
 # Interface: ILocalPackSerpElementItem
 
-Defined in: main.ts:34760
+Defined in: main.ts:35187
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34760
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:34783
+Defined in: main.ts:35210
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34770
+Defined in: main.ts:35197
 
 description of the results element in SERP
 
@@ -42,7 +42,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:34772
+Defined in: main.ts:35199
 
 source domain
 
@@ -52,7 +52,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:34778
+Defined in: main.ts:35205
 
 indicates whether the element is an ad
 
@@ -62,7 +62,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:34774
+Defined in: main.ts:35201
 
 phone number
 
@@ -72,7 +72,7 @@ phone number
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34764
+Defined in: main.ts:35191
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,7 +84,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -99,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:34781
+Defined in: main.ts:35208
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -126,7 +126,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34787
+Defined in: main.ts:35214
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -138,7 +138,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34768
+Defined in: main.ts:35195
 
 title of the row
 
@@ -148,7 +148,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -162,7 +162,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34776
+Defined in: main.ts:35203
 
 source URL
 
@@ -172,6 +172,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34766
+Defined in: main.ts:35193
 
 the XPath of the element

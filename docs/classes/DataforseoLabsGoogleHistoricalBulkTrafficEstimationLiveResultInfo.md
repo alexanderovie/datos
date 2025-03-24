@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:121041
+Defined in: main.ts:122424
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:121041
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
+> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo**(`data`?): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:121059
+Defined in: main.ts:122442
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:121059
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121059
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:121055
+Defined in: main.ts:122438
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121053
+Defined in: main.ts:122436
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121049
+Defined in: main.ts:122432
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121046
+Defined in: main.ts:122429
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121043
+Defined in: main.ts:122426
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121051
+Defined in: main.ts:122434
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121068
+Defined in: main.ts:122451
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:121068
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121094
+Defined in: main.ts:122477
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:121094
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:121087
+Defined in: main.ts:122470
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:121087
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`

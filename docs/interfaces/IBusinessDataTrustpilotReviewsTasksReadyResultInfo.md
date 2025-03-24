@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotReviewsTasksReadyResultInfo
 
-Defined in: main.ts:235938
+Defined in: main.ts:238347
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:235938
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:235948
+Defined in: main.ts:238357
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:235952
+Defined in: main.ts:238361
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:235941
+Defined in: main.ts:238350
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -49,7 +49,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:235944
+Defined in: main.ts:238353
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -60,7 +60,7 @@ can take the following values: trustpilot
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:235946
+Defined in: main.ts:238355
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:235950
+Defined in: main.ts:238359
 
 user-defined task identifier

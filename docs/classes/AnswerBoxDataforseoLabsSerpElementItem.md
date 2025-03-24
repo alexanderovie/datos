@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116210
+Defined in: main.ts:117595
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116210
 
 ## Constructors
 
-### new AnswerBoxDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new AnswerBoxDataforseoLabsSerpElementItem**(`data`?): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
+> **new AnswerBoxDataforseoLabsSerpElementItem**(`data`?): `AnswerBoxDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116221
+Defined in: main.ts:117606
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116221
 
 #### Returns
 
-[`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
+`AnswerBoxDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116221
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:116217
+Defined in: main.ts:117602
 
 sitelinks
 the links shown below some of Google’s search results
@@ -76,7 +76,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -96,7 +96,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:116213
+Defined in: main.ts:117598
 
 text
 if there is none, equals null
@@ -149,7 +149,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -167,7 +167,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116226
+Defined in: main.ts:117611
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:116226
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116253
+Defined in: main.ts:117638
 
 #### Parameters
 
@@ -227,9 +227,9 @@ Defined in: main.ts:116253
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `AnswerBoxDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116246
+Defined in: main.ts:117631
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:116246
 
 #### Returns
 
-[`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
+`AnswerBoxDataforseoLabsSerpElementItem`
 
 #### Overrides
 

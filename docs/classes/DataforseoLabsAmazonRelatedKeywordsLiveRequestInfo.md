@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:121693
+Defined in: main.ts:124094
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:121693
 
 ## Constructors
 
-### new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:121773
+Defined in: main.ts:124174
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:121773
 
 #### Returns
 
-[`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121773
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:121743
+Defined in: main.ts:124144
 
 keyword search depth
 optional field
@@ -64,7 +64,7 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:121753
+Defined in: main.ts:124154
 
 ignore highly similar keywords
 optional field
@@ -81,7 +81,7 @@ default value: false
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:121748
+Defined in: main.ts:124149
 
 include data for the seed keyword
 optional field
@@ -98,7 +98,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:121699
+Defined in: main.ts:124100
 
 keyword
 required field
@@ -116,7 +116,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121731
+Defined in: main.ts:124132
 
 language code
 required field if you don’t specify language_name
@@ -135,7 +135,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:121724
+Defined in: main.ts:124125
 
 full name of the language
 required field if you don’t specify language_code
@@ -154,7 +154,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:121758
+Defined in: main.ts:124159
 
 the maximum number of returned keywords
 optional field
@@ -171,7 +171,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121717
+Defined in: main.ts:124118
 
 location code
 required field if you don’t specify location_name
@@ -192,7 +192,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:121708
+Defined in: main.ts:124109
 
 full name of the location
 required field if you don’t specify location_code
@@ -213,7 +213,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:121763
+Defined in: main.ts:124164
 
 offset in the results array of returned keywords
 optional field
@@ -230,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:121769
+Defined in: main.ts:124170
 
 user-defined task identifier
 optional field
@@ -248,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121782
+Defined in: main.ts:124183
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:121782
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121809
+Defined in: main.ts:124210
 
 #### Parameters
 
@@ -282,9 +282,9 @@ Defined in: main.ts:121809
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:121802
+Defined in: main.ts:124203
 
 #### Parameters
 
@@ -294,4 +294,4 @@ Defined in: main.ts:121802
 
 #### Returns
 
-[`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`

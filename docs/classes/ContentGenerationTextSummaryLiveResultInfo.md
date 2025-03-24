@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
 
-Defined in: main.ts:192785
+Defined in: main.ts:195194
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:192785
 
 ## Constructors
 
-### new ContentGenerationTextSummaryLiveResultInfo()
+### Constructor
 
-> **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+> **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): `ContentGenerationTextSummaryLiveResultInfo`
 
-Defined in: main.ts:192820
+Defined in: main.ts:195229
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:192820
 
 #### Returns
 
-[`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+`ContentGenerationTextSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192820
 
 > `optional` **automated\_readability\_index**: `number`
 
-Defined in: main.ts:192806
+Defined in: main.ts:195215
 
 Automated Readability Index
 
@@ -54,7 +54,7 @@ Automated Readability Index
 
 > `optional` **characters\_per\_word**: `number`
 
-Defined in: main.ts:192799
+Defined in: main.ts:195208
 
 average number of characters per word in the target text
 
@@ -68,7 +68,7 @@ average number of characters per word in the target text
 
 > `optional` **characters\_with\_spaces**: `number`
 
-Defined in: main.ts:192795
+Defined in: main.ts:195204
 
 number of characters with spaces found in the target text
 
@@ -82,7 +82,7 @@ number of characters with spaces found in the target text
 
 > `optional` **characters\_without\_spaces**: `number`
 
-Defined in: main.ts:192793
+Defined in: main.ts:195202
 
 number of characters without spaces found in the target text
 
@@ -96,7 +96,7 @@ number of characters without spaces found in the target text
 
 > `optional` **coleman\_liau\_index**: `number`
 
-Defined in: main.ts:192808
+Defined in: main.ts:195217
 
 Coleman–Liau Index
 
@@ -110,7 +110,7 @@ Coleman–Liau Index
 
 > `optional` **flesch\_kincaid\_grade\_level**: `number`
 
-Defined in: main.ts:192810
+Defined in: main.ts:195219
 
 Flesch–Kincaid Readability Index
 
@@ -124,7 +124,7 @@ Flesch–Kincaid Readability Index
 
 > `optional` **grammar\_errors**: `number`
 
-Defined in: main.ts:192816
+Defined in: main.ts:195225
 
 number of grammar errors found in the target text
 
@@ -138,7 +138,7 @@ number of grammar errors found in the target text
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:192804
+Defined in: main.ts:195213
 
 keyword density of the target text
 contains most common words and their count
@@ -157,7 +157,7 @@ contains most common words and their count
 
 > `optional` **paragraphs**: `number`
 
-Defined in: main.ts:192789
+Defined in: main.ts:195198
 
 number of paragraphs found in the target text
 
@@ -171,7 +171,7 @@ number of paragraphs found in the target text
 
 > `optional` **sentences**: `number`
 
-Defined in: main.ts:192787
+Defined in: main.ts:195196
 
 number of sentences found in the target text
 
@@ -185,7 +185,7 @@ number of sentences found in the target text
 
 > `optional` **smog\_readability\_index**: `number`
 
-Defined in: main.ts:192812
+Defined in: main.ts:195221
 
 SMOG Readability Index
 
@@ -199,7 +199,7 @@ SMOG Readability Index
 
 > `optional` **spelling\_errors**: `number`
 
-Defined in: main.ts:192814
+Defined in: main.ts:195223
 
 number of spelling errors found in the target text
 
@@ -213,7 +213,7 @@ number of spelling errors found in the target text
 
 > `optional` **vocabulary\_density**: `number`
 
-Defined in: main.ts:192801
+Defined in: main.ts:195210
 
 vocabulary density of the target text
 
@@ -227,7 +227,7 @@ vocabulary density of the target text
 
 > `optional` **words**: `number`
 
-Defined in: main.ts:192791
+Defined in: main.ts:195200
 
 number of words found in the target text
 
@@ -241,7 +241,7 @@ number of words found in the target text
 
 > `optional` **words\_per\_sentence**: `number`
 
-Defined in: main.ts:192797
+Defined in: main.ts:195206
 
 average number of words per sentence in the target text
 
@@ -255,7 +255,7 @@ average number of words per sentence in the target text
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192829
+Defined in: main.ts:195238
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:192829
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192866
+Defined in: main.ts:195275
 
 #### Parameters
 
@@ -289,9 +289,9 @@ Defined in: main.ts:192866
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationTextSummaryLiveResultInfo`
 
-Defined in: main.ts:192859
+Defined in: main.ts:195268
 
 #### Parameters
 
@@ -301,4 +301,4 @@ Defined in: main.ts:192859
 
 #### Returns
 
-[`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+`ContentGenerationTextSummaryLiveResultInfo`

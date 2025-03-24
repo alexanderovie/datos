@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
 
-Defined in: main.ts:216941
+Defined in: main.ts:219350
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:216941
 
 ## Constructors
 
-### new AppDataAppleAppListTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new AppDataAppleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
+> **new AppDataAppleAppListTaskGetAdvancedResultInfo**(`data`?): `AppDataAppleAppListTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:216969
+Defined in: main.ts:219378
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:216969
 
 #### Returns
 
-[`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
+`AppDataAppleAppListTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:216969
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:216952
+Defined in: main.ts:219361
 
 direct URL to search engine results
 in this case, the value will be null
@@ -55,7 +55,7 @@ in this case, the value will be null
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:216957
+Defined in: main.ts:219366
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:216965
+Defined in: main.ts:219374
 
 found apps
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:216962
+Defined in: main.ts:219371
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:216943
+Defined in: main.ts:219352
 
 app collection received in a POST array
 
@@ -116,7 +116,7 @@ app collection received in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:216949
+Defined in: main.ts:219358
 
 language code in a POST array
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:216947
+Defined in: main.ts:219356
 
 location code in a POST array
 
@@ -144,7 +144,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:216945
+Defined in: main.ts:219354
 
 search engine domain in a POST array
 
@@ -158,7 +158,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:216959
+Defined in: main.ts:219368
 
 the total number of results
 
@@ -172,7 +172,7 @@ the total number of results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:216978
+Defined in: main.ts:219387
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:216978
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217007
+Defined in: main.ts:219416
 
 #### Parameters
 
@@ -206,9 +206,9 @@ Defined in: main.ts:217007
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleAppListTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:217000
+Defined in: main.ts:219409
 
 #### Parameters
 
@@ -218,4 +218,4 @@ Defined in: main.ts:217000
 
 #### Returns
 
-[`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
+`AppDataAppleAppListTaskGetAdvancedResultInfo`

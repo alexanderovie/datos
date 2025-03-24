@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBulkTrafficEstimationLiveItem
 
-Defined in: main.ts:120295
+Defined in: main.ts:121678
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:120295
 
 ## Constructors
 
-### new DataforseoLabsBulkTrafficEstimationLiveItem()
+### Constructor
 
-> **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data`?): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+> **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data`?): `DataforseoLabsBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:120305
+Defined in: main.ts:121688
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:120305
 
 #### Returns
 
-[`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+`DataforseoLabsBulkTrafficEstimationLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120305
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:120301
+Defined in: main.ts:121684
 
 traffic data relevant to the specified domain
 
@@ -58,7 +58,7 @@ traffic data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120297
+Defined in: main.ts:121680
 
 search engine type
 
@@ -72,7 +72,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:120299
+Defined in: main.ts:121682
 
 target domain in a POST array
 
@@ -86,7 +86,7 @@ target domain in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120314
+Defined in: main.ts:121697
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:120314
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120339
+Defined in: main.ts:121722
 
 #### Parameters
 
@@ -120,9 +120,9 @@ Defined in: main.ts:120339
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:120332
+Defined in: main.ts:121715
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: main.ts:120332
 
 #### Returns
 
-[`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)
+`DataforseoLabsBulkTrafficEstimationLiveItem`

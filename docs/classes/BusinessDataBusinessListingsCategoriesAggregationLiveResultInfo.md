@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
-Defined in: main.ts:221593
+Defined in: main.ts:224002
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:221593
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data`?): `BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
 
-Defined in: main.ts:221612
+Defined in: main.ts:224021
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:221612
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221612
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:221598
+Defined in: main.ts:224007
 
 item types
 the number of items in the items array
@@ -55,7 +55,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
-Defined in: main.ts:221608
+Defined in: main.ts:224017
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -71,7 +71,7 @@ possible item types: business_category
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:221600
+Defined in: main.ts:224009
 
 offset in the results array of returned categories
 
@@ -85,7 +85,7 @@ offset in the results array of returned categories
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:221604
+Defined in: main.ts:224013
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -101,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:221595
+Defined in: main.ts:224004
 
 total number of results in our database relevant to your request
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221621
+Defined in: main.ts:224030
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:221621
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221646
+Defined in: main.ts:224055
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:221646
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
 
-Defined in: main.ts:221639
+Defined in: main.ts:224048
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:221639
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`

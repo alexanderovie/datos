@@ -6,7 +6,7 @@
 
 # Class: SerpErrorsRequestInfo
 
-Defined in: main.ts:27148
+Defined in: main.ts:27575
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27148
 
 ## Constructors
 
-### new SerpErrorsRequestInfo()
+### Constructor
 
-> **new SerpErrorsRequestInfo**(`data`?): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+> **new SerpErrorsRequestInfo**(`data`?): `SerpErrorsRequestInfo`
 
-Defined in: main.ts:27182
+Defined in: main.ts:27609
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27182
 
 #### Returns
 
-[`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+`SerpErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27182
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:27171
+Defined in: main.ts:27598
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:27178
+Defined in: main.ts:27605
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:27164
+Defined in: main.ts:27591
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:27153
+Defined in: main.ts:27580
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:27158
+Defined in: main.ts:27585
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27191
+Defined in: main.ts:27618
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:27191
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27212
+Defined in: main.ts:27639
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:27212
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpErrorsRequestInfo`
 
-Defined in: main.ts:27205
+Defined in: main.ts:27632
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:27205
 
 #### Returns
 
-[`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+`SerpErrorsRequestInfo`

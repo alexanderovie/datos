@@ -6,7 +6,7 @@
 
 # Class: BacklinksPageIntersectionLiveResultInfo
 
-Defined in: main.ts:168605
+Defined in: main.ts:171014
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:168605
 
 ## Constructors
 
-### new BacklinksPageIntersectionLiveResultInfo()
+### Constructor
 
-> **new BacklinksPageIntersectionLiveResultInfo**(`data`?): [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
+> **new BacklinksPageIntersectionLiveResultInfo**(`data`?): `BacklinksPageIntersectionLiveResultInfo`
 
-Defined in: main.ts:168617
+Defined in: main.ts:171026
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:168617
 
 #### Returns
 
-[`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
+`BacklinksPageIntersectionLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168617
 
 > `optional` **items**: [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)[]
 
-Defined in: main.ts:168613
+Defined in: main.ts:171022
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:168611
+Defined in: main.ts:171020
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:168607
+Defined in: main.ts:171016
 
 targets from a POST array
 
@@ -86,7 +86,7 @@ targets from a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:168609
+Defined in: main.ts:171018
 
 total amount of results relevant the request
 
@@ -100,7 +100,7 @@ total amount of results relevant the request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168626
+Defined in: main.ts:171035
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:168626
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168656
+Defined in: main.ts:171065
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:168656
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksPageIntersectionLiveResultInfo`
 
-Defined in: main.ts:168649
+Defined in: main.ts:171058
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:168649
 
 #### Returns
 
-[`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
+`BacklinksPageIntersectionLiveResultInfo`

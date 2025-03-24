@@ -6,7 +6,7 @@
 
 # Class: WorkHours
 
-Defined in: main.ts:43886
+Defined in: main.ts:44313
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:43886
 
 ## Constructors
 
-### new WorkHours()
+### Constructor
 
-> **new WorkHours**(`data`?): [`WorkHours`](WorkHours.md)
+> **new WorkHours**(`data`?): `WorkHours`
 
-Defined in: main.ts:43895
+Defined in: main.ts:44322
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:43895
 
 #### Returns
 
-[`WorkHours`](WorkHours.md)
+`WorkHours`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:43895
 
 > `optional` **current\_status**: `string`
 
-Defined in: main.ts:43891
+Defined in: main.ts:44318
 
 current status of the establishment
 indicates whether the establishment is opened or closed
@@ -55,7 +55,7 @@ indicates whether the establishment is opened or closed
 
 > `optional` **timetable**: `object`
 
-Defined in: main.ts:43888
+Defined in: main.ts:44315
 
 work hours timetable
 
@@ -73,7 +73,7 @@ work hours timetable
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43904
+Defined in: main.ts:44331
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:43904
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43928
+Defined in: main.ts:44355
 
 #### Parameters
 
@@ -107,9 +107,9 @@ Defined in: main.ts:43928
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`WorkHours`](WorkHours.md)
+> `static` **fromJS**(`data`): `WorkHours`
 
-Defined in: main.ts:43921
+Defined in: main.ts:44348
 
 #### Parameters
 
@@ -119,4 +119,4 @@ Defined in: main.ts:43921
 
 #### Returns
 
-[`WorkHours`](WorkHours.md)
+`WorkHours`

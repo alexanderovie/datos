@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:128052
+Defined in: main.ts:130453
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:128052
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](../classes/DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:128074
+Defined in: main.ts:130475
 
 contains ranked keywords and related data
 
@@ -28,7 +28,7 @@ contains ranked keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:128066
+Defined in: main.ts:130467
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128062
+Defined in: main.ts:130463
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128059
+Defined in: main.ts:130460
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:128069
+Defined in: main.ts:130470
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
@@ -75,7 +75,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 > `optional` **metrics\_absolute**: `object`
 
-Defined in: main.ts:128072
+Defined in: main.ts:130473
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
@@ -90,7 +90,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:128054
+Defined in: main.ts:130455
 
 search engine type
 
@@ -100,7 +100,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:128056
+Defined in: main.ts:130457
 
 target domain in a POST array
 
@@ -110,6 +110,6 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:128064
+Defined in: main.ts:130465
 
 total number of results in our database relevant to your request

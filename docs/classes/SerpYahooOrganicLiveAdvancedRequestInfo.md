@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:79785
+Defined in: main.ts:80212
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:79785
 
 ## Constructors
 
-### new SerpYahooOrganicLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpYahooOrganicLiveAdvancedRequestInfo**(`data`?): [`SerpYahooOrganicLiveAdvancedRequestInfo`](SerpYahooOrganicLiveAdvancedRequestInfo.md)
+> **new SerpYahooOrganicLiveAdvancedRequestInfo**(`data`?): `SerpYahooOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:79886
+Defined in: main.ts:80313
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:79886
 
 #### Returns
 
-[`SerpYahooOrganicLiveAdvancedRequestInfo`](SerpYahooOrganicLiveAdvancedRequestInfo.md)
+`SerpYahooOrganicLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:79886
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:79865
+Defined in: main.ts:80292
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:79842
+Defined in: main.ts:80269
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:79799
+Defined in: main.ts:80226
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:79837
+Defined in: main.ts:80264
 
 search engine language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:79830
+Defined in: main.ts:80257
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:79813
+Defined in: main.ts:80240
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:79823
+Defined in: main.ts:80250
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:79806
+Defined in: main.ts:80233
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -196,7 +196,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:79872
+Defined in: main.ts:80299
 
 page crawl limit
 optional field
@@ -215,7 +215,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:79849
+Defined in: main.ts:80276
 
 device operating system
 optional field
@@ -234,7 +234,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:79856
+Defined in: main.ts:80283
 
 search engine domain
 optional field
@@ -253,7 +253,7 @@ au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:79876
+Defined in: main.ts:80303
 
 additional parameters of the search query
 optional field
@@ -269,7 +269,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:79882
+Defined in: main.ts:80309
 
 user-defined task identifier
 optional field
@@ -287,7 +287,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:79791
+Defined in: main.ts:80218
 
 direct URL of the search query
 optional field
@@ -305,7 +305,7 @@ https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79895
+Defined in: main.ts:80322
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Defined in: main.ts:79895
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79925
+Defined in: main.ts:80352
 
 #### Parameters
 
@@ -339,9 +339,9 @@ Defined in: main.ts:79925
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYahooOrganicLiveAdvancedRequestInfo`](SerpYahooOrganicLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpYahooOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:79918
+Defined in: main.ts:80345
 
 #### Parameters
 
@@ -351,4 +351,4 @@ Defined in: main.ts:79918
 
 #### Returns
 
-[`SerpYahooOrganicLiveAdvancedRequestInfo`](SerpYahooOrganicLiveAdvancedRequestInfo.md)
+`SerpYahooOrganicLiveAdvancedRequestInfo`

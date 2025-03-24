@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLanguagesResultInfo
 
-Defined in: main.ts:192396
+Defined in: main.ts:194805
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:192396
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:192400
+Defined in: main.ts:194809
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:192398
+Defined in: main.ts:194807
 
 language name

@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTasksFixedResultInfo
 
-Defined in: main.ts:76029
+Defined in: main.ts:76456
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:76029
 
 ## Constructors
 
-### new SerpYoutubeVideoCommentsTasksFixedResultInfo()
+### Constructor
 
-> **new SerpYoutubeVideoCommentsTasksFixedResultInfo**(`data`?): [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
+> **new SerpYoutubeVideoCommentsTasksFixedResultInfo**(`data`?): `SerpYoutubeVideoCommentsTasksFixedResultInfo`
 
-Defined in: main.ts:76054
+Defined in: main.ts:76481
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:76054
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
+`SerpYoutubeVideoCommentsTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:76054
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:76039
+Defined in: main.ts:76466
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:76047
+Defined in: main.ts:76474
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:76050
+Defined in: main.ts:76477
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:76044
+Defined in: main.ts:76471
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:76032
+Defined in: main.ts:76459
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:76034
+Defined in: main.ts:76461
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:76037
+Defined in: main.ts:76464
 
 type of search engine
 can take the following values: video_comments
@@ -143,7 +143,7 @@ can take the following values: video_comments
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:76041
+Defined in: main.ts:76468
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:76063
+Defined in: main.ts:76490
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:76063
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:76087
+Defined in: main.ts:76514
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:76087
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoCommentsTasksFixedResultInfo`
 
-Defined in: main.ts:76080
+Defined in: main.ts:76507
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:76080
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
+`SerpYoutubeVideoCommentsTasksFixedResultInfo`

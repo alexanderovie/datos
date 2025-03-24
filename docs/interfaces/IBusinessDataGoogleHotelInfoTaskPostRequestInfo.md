@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTaskPostRequestInfo
 
-Defined in: main.ts:227920
+Defined in: main.ts:230329
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:227920
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:228009
+Defined in: main.ts:230418
 
 number of adults
 optional field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:227989
+Defined in: main.ts:230398
 
 check-in date
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:227998
+Defined in: main.ts:230407
 
 check-out date
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:228017
+Defined in: main.ts:230426
 
 number and age of children
 optional field
@@ -81,7 +81,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:228003
+Defined in: main.ts:230412
 
 currency
 optional field
@@ -94,7 +94,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:227928
+Defined in: main.ts:230337
 
 unique hotel identifier
 required field if you don’t specify keyword
@@ -110,7 +110,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:227936
+Defined in: main.ts:230345
 
 keyword
 required field if you don’t specify hotel_identifier
@@ -126,7 +126,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:227981
+Defined in: main.ts:230390
 
 search engine language code
 required field if you don’t specify language_name
@@ -141,7 +141,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:227974
+Defined in: main.ts:230383
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -156,7 +156,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227958
+Defined in: main.ts:230367
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -171,7 +171,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:227967
+Defined in: main.ts:230376
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -188,7 +188,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:227951
+Defined in: main.ts:230360
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:228052
+Defined in: main.ts:230461
 
 notification URL of a completed task
 optional field
@@ -223,7 +223,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:228040
+Defined in: main.ts:230449
 
 postback_url datatype
 required field if you specify postback_url
@@ -237,7 +237,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:228034
+Defined in: main.ts:230443
 
 return URL for sending task results
 optional field
@@ -256,7 +256,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:227944
+Defined in: main.ts:230353
 
 task priority
 optional field
@@ -272,7 +272,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:228023
+Defined in: main.ts:230432
 
 user-defined task identifier
 optional field

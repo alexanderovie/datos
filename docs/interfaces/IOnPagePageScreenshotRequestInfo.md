@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePageScreenshotRequestInfo
 
-Defined in: main.ts:182081
+Defined in: main.ts:184490
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182081
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:182091
+Defined in: main.ts:184500
 
 language header for accessing the website
 optional field
@@ -31,7 +31,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:182117
+Defined in: main.ts:184526
 
 preset for browser screen parameters
 optional field
@@ -58,7 +58,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:182131
+Defined in: main.ts:184540
 
 browser screen height
 optional field
@@ -73,7 +73,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:182138
+Defined in: main.ts:184547
 
 browser screen scale factor
 optional field
@@ -88,7 +88,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:182124
+Defined in: main.ts:184533
 
 browser screen width
 optional field
@@ -103,7 +103,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:182098
+Defined in: main.ts:184507
 
 custom user agent
 optional field
@@ -118,7 +118,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:182149
+Defined in: main.ts:184558
 
 disable the cookie popup 
 optional field
@@ -132,7 +132,7 @@ false
 
 > `optional` **full\_page\_screenshot**: `boolean`
 
-Defined in: main.ts:182143
+Defined in: main.ts:184552
 
 take a screenshot of the full page
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:182160
+Defined in: main.ts:184569
 
 proxy pool
 optional field
@@ -159,7 +159,7 @@ possible values: us, de
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:182154
+Defined in: main.ts:184563
 
 switch proxy pool
 optional field
@@ -172,7 +172,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:182086
+Defined in: main.ts:184495
 
 page url
 required field

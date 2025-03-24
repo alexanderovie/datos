@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationIndustriesResultInfo
 
-Defined in: main.ts:149561
+Defined in: main.ts:151970
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:149561
 
 ## Constructors
 
-### new KeywordsDataBingAudienceEstimationIndustriesResultInfo()
+### Constructor
 
-> **new KeywordsDataBingAudienceEstimationIndustriesResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
+> **new KeywordsDataBingAudienceEstimationIndustriesResultInfo**(`data`?): `KeywordsDataBingAudienceEstimationIndustriesResultInfo`
 
-Defined in: main.ts:149569
+Defined in: main.ts:151978
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:149569
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
+`KeywordsDataBingAudienceEstimationIndustriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149569
 
 > `optional` **industry\_id**: `number`
 
-Defined in: main.ts:149563
+Defined in: main.ts:151972
 
 ID of the industry
 
@@ -54,7 +54,7 @@ ID of the industry
 
 > `optional` **industry\_name**: `string`
 
-Defined in: main.ts:149565
+Defined in: main.ts:151974
 
 name of the industry
 
@@ -68,7 +68,7 @@ name of the industry
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149578
+Defined in: main.ts:151987
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:149578
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149596
+Defined in: main.ts:152005
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:149596
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationIndustriesResultInfo`
 
-Defined in: main.ts:149589
+Defined in: main.ts:151998
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:149589
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
+`KeywordsDataBingAudienceEstimationIndustriesResultInfo`

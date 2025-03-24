@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:124701
+Defined in: main.ts:127102
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:124701
 
 ## Constructors
 
-### new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo**(`data`?): `DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:124748
+Defined in: main.ts:127149
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:124748
 
 #### Returns
 
-[`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124748
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:124708
+Defined in: main.ts:127109
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:124738
+Defined in: main.ts:127139
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:124731
+Defined in: main.ts:127132
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:124724
+Defined in: main.ts:127125
 
 location code
 required field if don’t specify location_name
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:124716
+Defined in: main.ts:127117
 
 full name of the location
 required field if don’t specify location_code
@@ -137,7 +137,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:124744
+Defined in: main.ts:127145
 
 user-defined task identifier
 optional field
@@ -155,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124757
+Defined in: main.ts:127158
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:124757
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124783
+Defined in: main.ts:127184
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:124783
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:124776
+Defined in: main.ts:127177
 
 #### Parameters
 
@@ -201,4 +201,4 @@ Defined in: main.ts:124776
 
 #### Returns
 
-[`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLocationsResultInfo
 
-Defined in: main.ts:147685
+Defined in: main.ts:150094
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:147685
 
 ## Constructors
 
-### new KeywordsDataBingLocationsResultInfo()
+### Constructor
 
-> **new KeywordsDataBingLocationsResultInfo**(`data`?): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
+> **new KeywordsDataBingLocationsResultInfo**(`data`?): `KeywordsDataBingLocationsResultInfo`
 
-Defined in: main.ts:147705
+Defined in: main.ts:150114
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:147705
 
 #### Returns
 
-[`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
+`KeywordsDataBingLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147705
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:147699
+Defined in: main.ts:150108
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147687
+Defined in: main.ts:150096
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:147697
+Defined in: main.ts:150106
 
 the code of the superordinate location
 example:
@@ -88,7 +88,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147689
+Defined in: main.ts:150098
 
 full name of the location
 
@@ -102,7 +102,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:147701
+Defined in: main.ts:150110
 
 location type
 
@@ -116,7 +116,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147714
+Defined in: main.ts:150123
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:147714
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147735
+Defined in: main.ts:150144
 
 #### Parameters
 
@@ -150,9 +150,9 @@ Defined in: main.ts:147735
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingLocationsResultInfo`
 
-Defined in: main.ts:147728
+Defined in: main.ts:150137
 
 #### Parameters
 
@@ -162,4 +162,4 @@ Defined in: main.ts:147728
 
 #### Returns
 
-[`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
+`KeywordsDataBingLocationsResultInfo`

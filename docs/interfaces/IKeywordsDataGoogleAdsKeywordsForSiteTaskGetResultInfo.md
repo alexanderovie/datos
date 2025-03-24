@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo
 
-Defined in: main.ts:138461
+Defined in: main.ts:140862
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:138461
 
 > `optional` **competition**: `string`
 
-Defined in: main.ts:138480
+Defined in: main.ts:140881
 
 competition
 represents the relative level of competition associated with the given keyword in paid SERP only
@@ -32,7 +32,7 @@ learn more about the metric in this help center article
 
 > `optional` **competition\_index**: `number`
 
-Defined in: main.ts:138487
+Defined in: main.ts:140888
 
 competition index
 the competition index for the query indicating how competitive ad placement is for the keyword
@@ -47,7 +47,7 @@ learn more about the metric in this help center article
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:138502
+Defined in: main.ts:140903
 
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
@@ -58,7 +58,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:138499
+Defined in: main.ts:140900
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -70,7 +70,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:138463
+Defined in: main.ts:140864
 
 keyword in a POST array
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 > `optional` **keyword\_annotations**: [`KeywordAnnotations`](../classes/KeywordAnnotations.md)
 
-Defined in: main.ts:138508
+Defined in: main.ts:140909
 
 the annotations for the keyword
 
@@ -90,7 +90,7 @@ the annotations for the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138469
+Defined in: main.ts:140870
 
 language code in a POST array
 if there is no data, the value is null
@@ -101,7 +101,7 @@ if there is no data, the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138466
+Defined in: main.ts:140867
 
 location code in a POST array
 if there is no data, the value is null
@@ -112,7 +112,7 @@ if there is no data, the value is null
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:138495
+Defined in: main.ts:140896
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -124,7 +124,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:138506
+Defined in: main.ts:140907
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -136,7 +136,7 @@ if there is no data, the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:138474
+Defined in: main.ts:140875
 
 include Google search partners
 the value you specified when setting the task
@@ -149,7 +149,7 @@ if false, the results are returned for Google search sites only
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:138491
+Defined in: main.ts:140892
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea either on google.com or google.com and partners, depending on the user’s targeting

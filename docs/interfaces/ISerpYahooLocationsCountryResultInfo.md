@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLocationsCountryResultInfo
 
-Defined in: main.ts:77311
+Defined in: main.ts:77738
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:77311
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:77326
+Defined in: main.ts:77753
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77313
+Defined in: main.ts:77740
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:77324
+Defined in: main.ts:77751
 
 the code of the superordinate location
 example:
@@ -55,7 +55,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:77315
+Defined in: main.ts:77742
 
 full name of the location
 
@@ -65,6 +65,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:77328
+Defined in: main.ts:77755
 
 location type

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md)
 
 ***
 
@@ -6,59 +6,57 @@
 
 # Class: AppendixAppendixDaysRatesDataInfo
 
+Defined in: main.ts:242888
+
 ## Implements
 
 - [`IAppendixAppendixDaysRatesDataInfo`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md)
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
-### new AppendixAppendixDaysRatesDataInfo(data)
+### Constructor
 
-> **new AppendixAppendixDaysRatesDataInfo**(`data`?): [`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
+> **new AppendixAppendixDaysRatesDataInfo**(`data`?): `AppendixAppendixDaysRatesDataInfo`
+
+Defined in: main.ts:242894
 
 #### Parameters
 
-• **data?**: [`IAppendixAppendixDaysRatesDataInfo`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md)
+##### data?
+
+[`IAppendixAppendixDaysRatesDataInfo`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md)
 
 #### Returns
 
-[`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
-
-#### Source
-
-main.ts:218886
+`AppendixAppendixDaysRatesDataInfo`
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
+
+Defined in: main.ts:242890
 
 #### Implementation of
 
 [`IAppendixAppendixDaysRatesDataInfo`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md).[`errors`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md#errors)
 
-#### Source
-
-main.ts:218882
-
 ***
 
 ### user\_data?
 
-> **`optional`** **user\_data**: `number`
+> `optional` **user\_data**: `number`
+
+Defined in: main.ts:242889
 
 #### Implementation of
 
 [`IAppendixAppendixDaysRatesDataInfo`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md).[`user_data`](../interfaces/IAppendixAppendixDaysRatesDataInfo.md#user_data)
-
-#### Source
-
-main.ts:218881
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:218881
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:242903
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Source
-
-main.ts:218895
 
 ***
 
@@ -84,32 +82,32 @@ main.ts:218895
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:242921
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Source
-
-main.ts:218913
-
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixAppendixDaysRatesDataInfo`
+
+Defined in: main.ts:242914
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
-[`AppendixAppendixDaysRatesDataInfo`](AppendixAppendixDaysRatesDataInfo.md)
-
-#### Source
-
-main.ts:218906
+`AppendixAppendixDaysRatesDataInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateTagsItem
 
-Defined in: main.ts:178150
+Defined in: main.ts:180559
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:178150
 
 > `optional` **accumulator**: `string`
 
-Defined in: main.ts:178152
+Defined in: main.ts:180561
 
 contains the value of duplicated tag
 
@@ -28,7 +28,7 @@ contains the value of duplicated tag
 
 > `optional` **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:178156
+Defined in: main.ts:180565
 
 pages with duplicate tags
 
@@ -38,6 +38,6 @@ pages with duplicate tags
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:178154
+Defined in: main.ts:180563
 
 total count of duplicate pages

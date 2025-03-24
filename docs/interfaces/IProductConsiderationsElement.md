@@ -6,7 +6,7 @@
 
 # Interface: IProductConsiderationsElement
 
-Defined in: main.ts:38968
+Defined in: main.ts:39395
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:38968
 
 > `optional` **consideration\_category**: `string`
 
-Defined in: main.ts:38975
+Defined in: main.ts:39402
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
@@ -29,7 +29,7 @@ the category is indicated just above the title fo the consideration element
 
 > `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
 
-Defined in: main.ts:38977
+Defined in: main.ts:39404
 
 expanded element
 
@@ -39,7 +39,7 @@ expanded element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38972
+Defined in: main.ts:39399
 
 title of a given link element
 
@@ -49,6 +49,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38970
+Defined in: main.ts:39397
 
 type of element

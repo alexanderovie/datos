@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 
-Defined in: main.ts:170270
+Defined in: main.ts:172679
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:170270
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:170274
+Defined in: main.ts:172683
 
 number of backlinks pointing to the target
 
@@ -28,6 +28,6 @@ number of backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:170272
+Defined in: main.ts:172681
 
 domain, subdomain or webpage from a POST array

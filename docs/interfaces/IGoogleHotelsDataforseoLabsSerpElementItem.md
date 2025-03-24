@@ -6,7 +6,7 @@
 
 # Interface: IGoogleHotelsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118717
+Defined in: main.ts:120100
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118717
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:118721
+Defined in: main.ts:120104
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -34,7 +34,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -50,7 +50,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:118723
+Defined in: main.ts:120106
 
 relevant URL
 
@@ -104,7 +104,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

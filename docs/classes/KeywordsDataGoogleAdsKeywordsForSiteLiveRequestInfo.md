@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
-Defined in: main.ts:138623
+Defined in: main.ts:141024
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:138623
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+> **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data`?): `KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:138714
+Defined in: main.ts:141115
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:138714
 
 #### Returns
 
-[`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138714
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:138685
+Defined in: main.ts:141086
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:138693
+Defined in: main.ts:141094
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:138699
+Defined in: main.ts:141100
 
 include keywords associated with adult content
 optional field
@@ -98,7 +98,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138672
+Defined in: main.ts:141073
 
 search engine language code
 optional field
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:138666
+Defined in: main.ts:141067
 
 full name of search engine language
 optional field
@@ -134,7 +134,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138651
+Defined in: main.ts:141052
 
 search engine location code
 optional field
@@ -154,7 +154,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:138660
+Defined in: main.ts:141061
 
 GPS coordinates of a location
 optional field
@@ -175,7 +175,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:138643
+Defined in: main.ts:141044
 
 full name of search engine location
 optional field
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:138677
+Defined in: main.ts:141078
 
 include Google search partners
 optional field
@@ -212,7 +212,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:138704
+Defined in: main.ts:141105
 
 results sorting parameters
 optional field
@@ -229,7 +229,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:138710
+Defined in: main.ts:141111
 
 user-defined task identifier
 optional field
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:138628
+Defined in: main.ts:141029
 
 domain or page
 required field
@@ -264,7 +264,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 > `optional` **target\_type**: `string`
 
-Defined in: main.ts:138635
+Defined in: main.ts:141036
 
 search keywords for site or for url
 optional field
@@ -283,7 +283,7 @@ if set to page, keywords will be provided for the specified webpage
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138723
+Defined in: main.ts:141124
 
 #### Parameters
 
@@ -301,7 +301,7 @@ Defined in: main.ts:138723
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138752
+Defined in: main.ts:141153
 
 #### Parameters
 
@@ -317,9 +317,9 @@ Defined in: main.ts:138752
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:138745
+Defined in: main.ts:141146
 
 #### Parameters
 
@@ -329,4 +329,4 @@ Defined in: main.ts:138745
 
 #### Returns
 
-[`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`

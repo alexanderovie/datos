@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveItem
 
-Defined in: main.ts:167497
+Defined in: main.ts:169906
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:167497
 
 ## Constructors
 
-### new BacklinksDomainIntersectionLiveItem()
+### Constructor
 
-> **new BacklinksDomainIntersectionLiveItem**(`data`?): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+> **new BacklinksDomainIntersectionLiveItem**(`data`?): `BacklinksDomainIntersectionLiveItem`
 
-Defined in: main.ts:167506
+Defined in: main.ts:169915
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:167506
 
 #### Returns
 
-[`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+`BacklinksDomainIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167506
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:167500
+Defined in: main.ts:169909
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
@@ -59,7 +59,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-Defined in: main.ts:167502
+Defined in: main.ts:169911
 
 contains the domain intersections summary
 
@@ -73,7 +73,7 @@ contains the domain intersections summary
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167515
+Defined in: main.ts:169924
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:167515
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167539
+Defined in: main.ts:169948
 
 #### Parameters
 
@@ -107,9 +107,9 @@ Defined in: main.ts:167539
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksDomainIntersectionLiveItem`
 
-Defined in: main.ts:167532
+Defined in: main.ts:169941
 
 #### Parameters
 
@@ -119,4 +119,4 @@ Defined in: main.ts:167532
 
 #### Returns
 
-[`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+`BacklinksDomainIntersectionLiveItem`

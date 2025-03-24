@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsDomainIntersectionLiveItem
 
-Defined in: main.ts:112930
+Defined in: main.ts:114235
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:112930
 
 > `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:112937
+Defined in: main.ts:114242
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -29,7 +29,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:112934
+Defined in: main.ts:114239
 
 keyword data for the returned keyword
 
@@ -39,7 +39,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112932
+Defined in: main.ts:114237
 
 search engine type
 
@@ -49,7 +49,7 @@ search engine type
 
 > `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:112940
+Defined in: main.ts:114245
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below

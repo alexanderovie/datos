@@ -6,7 +6,7 @@
 
 # Class: AmazonApplicableVouchersItem
 
-Defined in: main.ts:203293
+Defined in: main.ts:205702
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:203293
 
 ## Constructors
 
-### new AmazonApplicableVouchersItem()
+### Constructor
 
-> **new AmazonApplicableVouchersItem**(`data`?): [`AmazonApplicableVouchersItem`](AmazonApplicableVouchersItem.md)
+> **new AmazonApplicableVouchersItem**(`data`?): `AmazonApplicableVouchersItem`
 
-Defined in: main.ts:203310
+Defined in: main.ts:205719
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:203310
 
 #### Returns
 
-[`AmazonApplicableVouchersItem`](AmazonApplicableVouchersItem.md)
+`AmazonApplicableVouchersItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203310
 
 > `optional` **fixed\_discount**: `number`
 
-Defined in: main.ts:203299
+Defined in: main.ts:205708
 
 value of the fixed discount
 
@@ -54,7 +54,7 @@ value of the fixed discount
 
 > `optional` **fixed\_discount\_currency**: `string`
 
-Defined in: main.ts:203301
+Defined in: main.ts:205710
 
 currency code of the fixed discount
 
@@ -68,7 +68,7 @@ currency code of the fixed discount
 
 > `optional` **important\_details**: `string`
 
-Defined in: main.ts:203306
+Defined in: main.ts:205715
 
 important details about the terms of discount vouchers
 
@@ -82,7 +82,7 @@ important details about the terms of discount vouchers
 
 > `optional` **percentage\_discount**: `number`
 
-Defined in: main.ts:203304
+Defined in: main.ts:205713
 
 value of the percentage discount
 if the discount is fixed, the value will be null
@@ -97,7 +97,7 @@ if the discount is fixed, the value will be null
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203297
+Defined in: main.ts:205706
 
 text of the voucher
 
@@ -111,7 +111,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:203295
+Defined in: main.ts:205704
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203319
+Defined in: main.ts:205728
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:203319
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203341
+Defined in: main.ts:205750
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:203341
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonApplicableVouchersItem`](AmazonApplicableVouchersItem.md)
+> `static` **fromJS**(`data`): `AmazonApplicableVouchersItem`
 
-Defined in: main.ts:203334
+Defined in: main.ts:205743
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:203334
 
 #### Returns
 
-[`AmazonApplicableVouchersItem`](AmazonApplicableVouchersItem.md)
+`AmazonApplicableVouchersItem`

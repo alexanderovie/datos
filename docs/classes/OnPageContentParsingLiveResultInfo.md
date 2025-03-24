@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingLiveResultInfo
 
-Defined in: main.ts:183383
+Defined in: main.ts:185792
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:183383
 
 ## Constructors
 
-### new OnPageContentParsingLiveResultInfo()
+### Constructor
 
-> **new OnPageContentParsingLiveResultInfo**(`data`?): [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
+> **new OnPageContentParsingLiveResultInfo**(`data`?): `OnPageContentParsingLiveResultInfo`
 
-Defined in: main.ts:183396
+Defined in: main.ts:185805
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:183396
 
 #### Returns
 
-[`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
+`OnPageContentParsingLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183396
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:183386
+Defined in: main.ts:185795
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:183388
+Defined in: main.ts:185797
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
 
-Defined in: main.ts:183392
+Defined in: main.ts:185801
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183390
+Defined in: main.ts:185799
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183405
+Defined in: main.ts:185814
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:183405
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183429
+Defined in: main.ts:185838
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:183429
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageContentParsingLiveResultInfo`
 
-Defined in: main.ts:183422
+Defined in: main.ts:185831
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:183422
 
 #### Returns
 
-[`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
+`OnPageContentParsingLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
-Defined in: main.ts:147349
+Defined in: main.ts:149758
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147349
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:147385
+Defined in: main.ts:149794
 
 starting date of the time range
 optional field
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:147392
+Defined in: main.ts:149801
 
 ending date of the time range
 optional field
@@ -50,7 +50,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147356
+Defined in: main.ts:149765
 
 keywords
 required field
@@ -65,7 +65,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147374
+Defined in: main.ts:149783
 
 search engine location code
 optional field
@@ -82,7 +82,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147365
+Defined in: main.ts:149774
 
 full name of search engine location
 optional field
@@ -99,7 +99,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147404
+Defined in: main.ts:149813
 
 user-defined task identifier
 optional field
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:147398
+Defined in: main.ts:149807
 
 preset time ranges
 optional field
@@ -127,6 +127,6 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:147376
+Defined in: main.ts:149785
 
 type of element

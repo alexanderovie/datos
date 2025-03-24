@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:67990
+Defined in: main.ts:68417
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:67990
 
 ## Constructors
 
-### new SerpBingOrganicLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpBingOrganicLiveAdvancedRequestInfo**(`data`?): [`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+> **new SerpBingOrganicLiveAdvancedRequestInfo**(`data`?): `SerpBingOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:68125
+Defined in: main.ts:68552
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:68125
 
 #### Returns
 
-[`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+`SerpBingOrganicLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:68125
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:68102
+Defined in: main.ts:68529
 
 browser screen height
 optional field
@@ -61,7 +61,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:68111
+Defined in: main.ts:68538
 
 browser screen resolution ratio
 optional field
@@ -82,7 +82,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:68093
+Defined in: main.ts:68520
 
 browser screen width
 optional field
@@ -103,7 +103,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:68084
+Defined in: main.ts:68511
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -122,7 +122,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:68070
+Defined in: main.ts:68497
 
 parsing depth
 optional field
@@ -143,7 +143,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:68054
+Defined in: main.ts:68481
 
 device type
 optional field
@@ -160,7 +160,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:68005
+Defined in: main.ts:68432
 
 keyword
 required field
@@ -181,7 +181,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:68049
+Defined in: main.ts:68476
 
 search engine language code
 required field if you don’t specify language_name
@@ -200,7 +200,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:68042
+Defined in: main.ts:68469
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -219,7 +219,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:68027
+Defined in: main.ts:68454
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -238,7 +238,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:68035
+Defined in: main.ts:68462
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -258,7 +258,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:68020
+Defined in: main.ts:68447
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -277,7 +277,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:68077
+Defined in: main.ts:68504
 
 page crawl limit
 optional field
@@ -296,7 +296,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:68061
+Defined in: main.ts:68488
 
 device operating system
 optional field
@@ -315,7 +315,7 @@ default value: android
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:68013
+Defined in: main.ts:68440
 
 task priority
 optional field
@@ -335,7 +335,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:68115
+Defined in: main.ts:68542
 
 additional parameters of the search query
 optional field
@@ -351,7 +351,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:68121
+Defined in: main.ts:68548
 
 user-defined task identifier
 optional field
@@ -369,7 +369,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:67996
+Defined in: main.ts:68423
 
 direct URL of the search query
 optional field
@@ -387,7 +387,7 @@ https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:68134
+Defined in: main.ts:68561
 
 #### Parameters
 
@@ -405,7 +405,7 @@ Defined in: main.ts:68134
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:68168
+Defined in: main.ts:68595
 
 #### Parameters
 
@@ -421,9 +421,9 @@ Defined in: main.ts:68168
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpBingOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:68161
+Defined in: main.ts:68588
 
 #### Parameters
 
@@ -433,4 +433,4 @@ Defined in: main.ts:68161
 
 #### Returns
 
-[`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+`SerpBingOrganicLiveAdvancedRequestInfo`

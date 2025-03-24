@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreTaskGetAdvancedResultInfo
 
-Defined in: main.ts:88605
+Defined in: main.ts:89032
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:88605
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceExploreTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleFinanceExploreTaskGetAdvancedResultInfo**(`data`?): `SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:88645
+Defined in: main.ts:89072
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:88645
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResultInfo.md)
+`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88645
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:88619
+Defined in: main.ts:89046
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:88624
+Defined in: main.ts:89051
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:88634
+Defined in: main.ts:89061
 
 types of search results in SERP
 contains types of search results (items) found in SERP;
@@ -88,7 +88,7 @@ possible item types: google_finance_hero_groups, google_finance_interested, goog
 
 > `optional` **items**: [`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)[]
 
-Defined in: main.ts:88641
+Defined in: main.ts:89068
 
 market indexes related to the market trends element
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element
@@ -103,7 +103,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:88638
+Defined in: main.ts:89065
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:88608
+Defined in: main.ts:89035
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:88616
+Defined in: main.ts:89043
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:88614
+Defined in: main.ts:89041
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:88630
+Defined in: main.ts:89057
 
 search refinement chips
 in this case, the value will be null
@@ -175,7 +175,7 @@ in this case, the value will be null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:88612
+Defined in: main.ts:89039
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:88636
+Defined in: main.ts:89063
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:88627
+Defined in: main.ts:89054
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88610
+Defined in: main.ts:89037
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88654
+Defined in: main.ts:89081
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:88654
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88691
+Defined in: main.ts:89118
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:88691
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:88684
+Defined in: main.ts:89111
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:88684
 
 #### Returns
 
-[`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`](SerpGoogleFinanceExploreTaskGetAdvancedResultInfo.md)
+`SerpGoogleFinanceExploreTaskGetAdvancedResultInfo`

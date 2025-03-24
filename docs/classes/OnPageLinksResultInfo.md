@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksResultInfo
 
-Defined in: main.ts:179047
+Defined in: main.ts:181456
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:179047
 
 ## Constructors
 
-### new OnPageLinksResultInfo()
+### Constructor
 
-> **new OnPageLinksResultInfo**(`data`?): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
+> **new OnPageLinksResultInfo**(`data`?): `OnPageLinksResultInfo`
 
-Defined in: main.ts:179062
+Defined in: main.ts:181471
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:179062
 
 #### Returns
 
-[`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
+`OnPageLinksResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179062
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:179050
+Defined in: main.ts:181459
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:179052
+Defined in: main.ts:181461
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
-Defined in: main.ts:179058
+Defined in: main.ts:181467
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:179056
+Defined in: main.ts:181465
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:179054
+Defined in: main.ts:181463
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179071
+Defined in: main.ts:181480
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:179071
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179096
+Defined in: main.ts:181505
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:179096
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageLinksResultInfo`
 
-Defined in: main.ts:179089
+Defined in: main.ts:181498
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:179089
 
 #### Returns
 
-[`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
+`OnPageLinksResultInfo`

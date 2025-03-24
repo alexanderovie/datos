@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsElement
 
-Defined in: main.ts:38912
+Defined in: main.ts:39339
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:38912
 
 ## Constructors
 
-### new ProductConsiderationsElement()
+### Constructor
 
-> **new ProductConsiderationsElement**(`data`?): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+> **new ProductConsiderationsElement**(`data`?): `ProductConsiderationsElement`
 
-Defined in: main.ts:38925
+Defined in: main.ts:39352
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:38925
 
 #### Returns
 
-[`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+`ProductConsiderationsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38925
 
 > `optional` **consideration\_category**: `string`
 
-Defined in: main.ts:38919
+Defined in: main.ts:39346
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
@@ -55,7 +55,7 @@ the category is indicated just above the title fo the consideration element
 
 > `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-Defined in: main.ts:38921
+Defined in: main.ts:39348
 
 expanded element
 
@@ -69,7 +69,7 @@ expanded element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38916
+Defined in: main.ts:39343
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38914
+Defined in: main.ts:39341
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38934
+Defined in: main.ts:39361
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:38934
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38954
+Defined in: main.ts:39381
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:38954
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+> `static` **fromJS**(`data`): `ProductConsiderationsElement`
 
-Defined in: main.ts:38947
+Defined in: main.ts:39374
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:38947
 
 #### Returns
 
-[`ProductConsiderationsElement`](ProductConsiderationsElement.md)
+`ProductConsiderationsElement`

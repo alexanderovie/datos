@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:105311
+Defined in: main.ts:106608
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:105311
 
 ## Constructors
 
-### new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)
+> **new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo**(`data`?): `DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:105356
+Defined in: main.ts:106653
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:105356
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)
+`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105356
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:105318
+Defined in: main.ts:106615
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105346
+Defined in: main.ts:106643
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105339
+Defined in: main.ts:106636
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105332
+Defined in: main.ts:106629
 
 location code
 required field if don’t specify location_name
@@ -116,7 +116,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105325
+Defined in: main.ts:106622
 
 full name of the location
 required field if don’t specify location_code
@@ -135,7 +135,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105352
+Defined in: main.ts:106649
 
 user-defined task identifier
 optional field
@@ -153,7 +153,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105365
+Defined in: main.ts:106662
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:105365
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105391
+Defined in: main.ts:106688
 
 #### Parameters
 
@@ -187,9 +187,9 @@ Defined in: main.ts:105391
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:105384
+Defined in: main.ts:106681
 
 #### Parameters
 
@@ -199,4 +199,4 @@ Defined in: main.ts:105384
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)
+`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
-Defined in: main.ts:146404
+Defined in: main.ts:148813
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:146404
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:146419
+Defined in: main.ts:148828
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:146424
+Defined in: main.ts:148833
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
@@ -42,7 +42,7 @@ values in this array represent percentages relative to the maximum value within 
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:146421
+Defined in: main.ts:148830
 
 the number of results returned in the items array
 
@@ -52,7 +52,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146406
+Defined in: main.ts:148815
 
 keywords in a POST array
 
@@ -62,7 +62,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146414
+Defined in: main.ts:148823
 
 language code in a POST array
 if there is no data, then the value is null
@@ -73,7 +73,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146411
+Defined in: main.ts:148820
 
 location code in a POST array
 if there is no data, then the value is null
@@ -84,6 +84,6 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:146408
+Defined in: main.ts:148817
 
 type of element

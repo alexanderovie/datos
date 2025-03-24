@@ -6,7 +6,7 @@
 
 # Class: LocalServicesElement
 
-Defined in: main.ts:38050
+Defined in: main.ts:38477
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:38050
 
 ## Constructors
 
-### new LocalServicesElement()
+### Constructor
 
-> **new LocalServicesElement**(`data`?): [`LocalServicesElement`](LocalServicesElement.md)
+> **new LocalServicesElement**(`data`?): `LocalServicesElement`
 
-Defined in: main.ts:38069
+Defined in: main.ts:38496
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:38069
 
 #### Returns
 
-[`LocalServicesElement`](LocalServicesElement.md)
+`LocalServicesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38069
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:38060
+Defined in: main.ts:38487
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38058
+Defined in: main.ts:38485
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:38065
+Defined in: main.ts:38492
 
 URL of the image featured in the element
 
@@ -82,7 +82,7 @@ URL of the image featured in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:38063
+Defined in: main.ts:38490
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38054
+Defined in: main.ts:38481
 
 title of a given link element
 
@@ -111,7 +111,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38052
+Defined in: main.ts:38479
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38056
+Defined in: main.ts:38483
 
 URL
 
@@ -139,7 +139,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38078
+Defined in: main.ts:38505
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:38078
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38101
+Defined in: main.ts:38528
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:38101
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
+> `static` **fromJS**(`data`): `LocalServicesElement`
 
-Defined in: main.ts:38094
+Defined in: main.ts:38521
 
 #### Parameters
 
@@ -185,4 +185,4 @@ Defined in: main.ts:38094
 
 #### Returns
 
-[`LocalServicesElement`](LocalServicesElement.md)
+`LocalServicesElement`

@@ -6,7 +6,7 @@
 
 # Class: LocalJustificationInfo
 
-Defined in: main.ts:43956
+Defined in: main.ts:44383
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:43956
 
 ## Constructors
 
-### new LocalJustificationInfo()
+### Constructor
 
-> **new LocalJustificationInfo**(`data`?): [`LocalJustificationInfo`](LocalJustificationInfo.md)
+> **new LocalJustificationInfo**(`data`?): `LocalJustificationInfo`
 
-Defined in: main.ts:43964
+Defined in: main.ts:44391
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:43964
 
 #### Returns
 
-[`LocalJustificationInfo`](LocalJustificationInfo.md)
+`LocalJustificationInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:43964
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:43960
+Defined in: main.ts:44387
 
 text snippet of local justification
 
@@ -54,7 +54,7 @@ text snippet of local justification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:43958
+Defined in: main.ts:44385
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43973
+Defined in: main.ts:44400
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:43973
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43991
+Defined in: main.ts:44418
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:43991
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
+> `static` **fromJS**(`data`): `LocalJustificationInfo`
 
-Defined in: main.ts:43984
+Defined in: main.ts:44411
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:43984
 
 #### Returns
 
-[`LocalJustificationInfo`](LocalJustificationInfo.md)
+`LocalJustificationInfo`

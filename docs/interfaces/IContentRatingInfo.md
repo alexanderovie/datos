@@ -6,7 +6,7 @@
 
 # Interface: IContentRatingInfo
 
-Defined in: main.ts:26622
+Defined in: main.ts:27049
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26622
 
 > `optional` **max\_rating\_value**: `string`
 
-Defined in: main.ts:26631
+Defined in: main.ts:27058
 
 maximum value for the rating name
 
@@ -28,7 +28,7 @@ maximum value for the rating name
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:26625
+Defined in: main.ts:27052
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
@@ -39,7 +39,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **rating\_count**: `string`
 
-Defined in: main.ts:26629
+Defined in: main.ts:27056
 
 number of votes
 
@@ -49,7 +49,7 @@ number of votes
 
 > `optional` **rating\_value**: `string`
 
-Defined in: main.ts:26627
+Defined in: main.ts:27054
 
 the value of the rating
 
@@ -59,6 +59,6 @@ the value of the rating
 
 > `optional` **relative\_rating**: `string`
 
-Defined in: main.ts:26633
+Defined in: main.ts:27060
 
 relative rating

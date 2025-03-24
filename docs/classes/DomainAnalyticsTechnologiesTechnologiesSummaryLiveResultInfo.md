@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
-Defined in: main.ts:96085
+Defined in: main.ts:97988
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:96085
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
 
-Defined in: main.ts:96101
+Defined in: main.ts:98004
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:96101
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96101
 
 > `optional` **content\_languages**: `object`
 
-Defined in: main.ts:96094
+Defined in: main.ts:97997
 
 distribution of websites by content language
 contains content language codes and number of websites per language
@@ -59,7 +59,7 @@ contains content language codes and number of websites per language
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:96088
+Defined in: main.ts:97991
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -78,7 +78,7 @@ contains country codes and number of websites per country
 
 > `optional` **keywords**: `object`
 
-Defined in: main.ts:96097
+Defined in: main.ts:98000
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
@@ -97,7 +97,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:96091
+Defined in: main.ts:97994
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -116,7 +116,7 @@ contains language codes and number of websites per language
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96110
+Defined in: main.ts:98013
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:96110
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96154
+Defined in: main.ts:98057
 
 #### Parameters
 
@@ -150,9 +150,9 @@ Defined in: main.ts:96154
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
 
-Defined in: main.ts:96147
+Defined in: main.ts:98050
 
 #### Parameters
 
@@ -162,4 +162,4 @@ Defined in: main.ts:96147
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`

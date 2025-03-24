@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusResultInfo
 
-Defined in: main.ts:99659
+Defined in: main.ts:101562
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99659
 
 ## Constructors
 
-### new DataforseoLabsStatusResultInfo()
+### Constructor
 
-> **new DataforseoLabsStatusResultInfo**(`data`?): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+> **new DataforseoLabsStatusResultInfo**(`data`?): `DataforseoLabsStatusResultInfo`
 
-Defined in: main.ts:99669
+Defined in: main.ts:101572
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99669
 
 #### Returns
 
-[`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+`DataforseoLabsStatusResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99669
 
 > `optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:99665
+Defined in: main.ts:101568
 
 update information for the Amazon endpoints
 
@@ -54,7 +54,7 @@ update information for the Amazon endpoints
 
 > `optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:99663
+Defined in: main.ts:101566
 
 update information for the Bing endpoints
 
@@ -68,7 +68,7 @@ update information for the Bing endpoints
 
 > `optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:99661
+Defined in: main.ts:101564
 
 update information for the Google endpoints
 
@@ -82,7 +82,7 @@ update information for the Google endpoints
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99678
+Defined in: main.ts:101581
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:99678
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99697
+Defined in: main.ts:101600
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:99697
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsStatusResultInfo`
 
-Defined in: main.ts:99690
+Defined in: main.ts:101593
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:99690
 
 #### Returns
 
-[`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+`DataforseoLabsStatusResultInfo`

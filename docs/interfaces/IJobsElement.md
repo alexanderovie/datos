@@ -6,7 +6,7 @@
 
 # Interface: IJobsElement
 
-Defined in: main.ts:34318
+Defined in: main.ts:34745
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34318
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:34326
+Defined in: main.ts:34753
 
 author
 
@@ -28,7 +28,7 @@ author
 
 > `optional` **contract\_type**: `string`
 
-Defined in: main.ts:34335
+Defined in: main.ts:34762
 
 contract type
 
@@ -38,7 +38,7 @@ contract type
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34324
+Defined in: main.ts:34751
 
 description
 
@@ -48,7 +48,7 @@ description
 
 > `optional` **job\_posted\_time**: `string`
 
-Defined in: main.ts:34328
+Defined in: main.ts:34755
 
 the time when the job was posted
 
@@ -58,7 +58,7 @@ the time when the job was posted
 
 > `optional` **salary**: `string`
 
-Defined in: main.ts:34337
+Defined in: main.ts:34764
 
 salary
 
@@ -68,7 +68,7 @@ salary
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:34333
+Defined in: main.ts:34760
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,7 +81,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34322
+Defined in: main.ts:34749
 
 title of a given link element
 
@@ -91,7 +91,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34320
+Defined in: main.ts:34747
 
 type of element
 
@@ -101,6 +101,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34339
+Defined in: main.ts:34766
 
 URL

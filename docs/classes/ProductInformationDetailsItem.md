@@ -6,7 +6,7 @@
 
 # Class: ProductInformationDetailsItem
 
-Defined in: main.ts:203489
+Defined in: main.ts:205898
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:203489
 
 ## Constructors
 
-### new ProductInformationDetailsItem()
+### Constructor
 
-> **new ProductInformationDetailsItem**(`data`?): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+> **new ProductInformationDetailsItem**(`data`?): `ProductInformationDetailsItem`
 
-Defined in: main.ts:203495
+Defined in: main.ts:205904
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:203495
 
 #### Returns
 
-[`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+`ProductInformationDetailsItem`
 
 #### Overrides
 
-[`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructors)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:203495
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25062
+Defined in: main.ts:25401
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25062
 
 > `optional` **body**: `object`
 
-Defined in: main.ts:203491
+Defined in: main.ts:205900
 
 contains information specified about the product within the section_name
 
@@ -78,7 +78,7 @@ contains information specified about the product within the section_name
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25060
+Defined in: main.ts:25399
 
 name of the section related to product information specified in the contents
 
@@ -96,7 +96,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25058
+Defined in: main.ts:25397
 
 type of element
 
@@ -114,7 +114,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203500
+Defined in: main.ts:205909
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:203500
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203524
+Defined in: main.ts:205933
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:203524
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+> `static` **fromJS**(`data`): `ProductInformationDetailsItem`
 
-Defined in: main.ts:203517
+Defined in: main.ts:205926
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:203517
 
 #### Returns
 
-[`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+`ProductInformationDetailsItem`
 
 #### Overrides
 

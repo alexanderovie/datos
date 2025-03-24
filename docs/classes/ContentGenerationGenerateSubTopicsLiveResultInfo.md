@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
-Defined in: main.ts:191485
+Defined in: main.ts:193894
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191485
 
 ## Constructors
 
-### new ContentGenerationGenerateSubTopicsLiveResultInfo()
+### Constructor
 
-> **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+> **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data`?): `ContentGenerationGenerateSubTopicsLiveResultInfo`
 
-Defined in: main.ts:191497
+Defined in: main.ts:193906
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191497
 
 #### Returns
 
-[`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+`ContentGenerationGenerateSubTopicsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191497
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:191487
+Defined in: main.ts:193896
 
 number of input tokens
 
@@ -54,7 +54,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:191491
+Defined in: main.ts:193900
 
 number of new tokens
 
@@ -68,7 +68,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:191489
+Defined in: main.ts:193898
 
 number of output tokens
 
@@ -82,7 +82,7 @@ number of output tokens
 
 > `optional` **sub\_topics**: `string`[]
 
-Defined in: main.ts:191493
+Defined in: main.ts:193902
 
 resulting subtopics
 
@@ -96,7 +96,7 @@ resulting subtopics
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191506
+Defined in: main.ts:193915
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:191506
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191530
+Defined in: main.ts:193939
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:191530
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGenerateSubTopicsLiveResultInfo`
 
-Defined in: main.ts:191523
+Defined in: main.ts:193932
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:191523
 
 #### Returns
 
-[`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+`ContentGenerationGenerateSubTopicsLiveResultInfo`

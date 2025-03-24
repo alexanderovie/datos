@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
-Defined in: main.ts:189314
+Defined in: main.ts:191723
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:189314
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:189365
+Defined in: main.ts:191774
 
 starting date of the time range
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:189377
+Defined in: main.ts:191786
 
 time range which will be used to group the results
 optional field
@@ -45,7 +45,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:189372
+Defined in: main.ts:191781
 
 ending date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **initial\_dataset\_filter**: `string`[]
 
-Defined in: main.ts:189394
+Defined in: main.ts:191803
 
 initial dataset filtering parameters
 optional field
@@ -85,7 +85,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:189359
+Defined in: main.ts:191768
 
 maximum number of elements within internal arrays
 optional field
@@ -104,7 +104,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:189323
+Defined in: main.ts:191732
 
 target keyword
 required field
@@ -121,7 +121,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:189335
+Defined in: main.ts:191744
 
 target keyword fields and target keywords
 optional field
@@ -145,7 +145,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:189341
+Defined in: main.ts:191750
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:189348
+Defined in: main.ts:191757
 
 results grouping type
 optional field
@@ -174,7 +174,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189400
+Defined in: main.ts:191809
 
 user-defined task identifier
 optional field

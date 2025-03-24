@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:132641
+Defined in: main.ts:135042
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:132641
 
 ## Constructors
 
-### new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+> **new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo**(`data`?): `DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:132696
+Defined in: main.ts:135097
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:132696
 
 #### Returns
 
-[`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132696
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:132650
+Defined in: main.ts:135051
 
 ids of the apps
 required field
@@ -61,7 +61,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132686
+Defined in: main.ts:135087
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:132677
+Defined in: main.ts:135078
 
 full name of the language
 required field if you don’t specify language_code
@@ -103,7 +103,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132668
+Defined in: main.ts:135069
 
 location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:132659
+Defined in: main.ts:135060
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:132692
+Defined in: main.ts:135093
 
 user-defined task identifier
 optional field
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:132705
+Defined in: main.ts:135106
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:132705
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:132731
+Defined in: main.ts:135132
 
 #### Parameters
 
@@ -197,9 +197,9 @@ Defined in: main.ts:132731
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:132724
+Defined in: main.ts:135125
 
 #### Parameters
 
@@ -209,4 +209,4 @@ Defined in: main.ts:132724
 
 #### Returns
 
-[`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`

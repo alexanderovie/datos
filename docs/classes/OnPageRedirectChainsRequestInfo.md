@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsRequestInfo
 
-Defined in: main.ts:179379
+Defined in: main.ts:181788
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:179379
 
 ## Constructors
 
-### new OnPageRedirectChainsRequestInfo()
+### Constructor
 
-> **new OnPageRedirectChainsRequestInfo**(`data`?): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+> **new OnPageRedirectChainsRequestInfo**(`data`?): `OnPageRedirectChainsRequestInfo`
 
-Defined in: main.ts:179421
+Defined in: main.ts:181830
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:179421
 
 #### Returns
 
-[`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+`OnPageRedirectChainsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179421
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:179411
+Defined in: main.ts:181820
 
 array of results filtering parameters
 optional field
@@ -63,7 +63,7 @@ examples:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:179385
+Defined in: main.ts:181794
 
 ID of the task
 required field
@@ -81,7 +81,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:179395
+Defined in: main.ts:181804
 
 the maximum number of returned redirect chains
 optional field
@@ -98,7 +98,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:179400
+Defined in: main.ts:181809
 
 offset in the results array of returned redirect chains
 optional field
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:179417
+Defined in: main.ts:181826
 
 user-defined task identifier
 optional field
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:179390
+Defined in: main.ts:181799
 
 page URL
 optional field
@@ -150,7 +150,7 @@ if you use this field, the API response will return only redirect chains which c
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179430
+Defined in: main.ts:181839
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:179430
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179456
+Defined in: main.ts:181865
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:179456
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageRedirectChainsRequestInfo`
 
-Defined in: main.ts:179449
+Defined in: main.ts:181858
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:179449
 
 #### Returns
 
-[`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+`OnPageRedirectChainsRequestInfo`

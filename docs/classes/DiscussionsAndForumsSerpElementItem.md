@@ -6,7 +6,7 @@
 
 # Class: DiscussionsAndForumsSerpElementItem
 
-Defined in: main.ts:39962
+Defined in: main.ts:40389
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:39962
 
 ## Constructors
 
-### new DiscussionsAndForumsSerpElementItem()
+### Constructor
 
-> **new DiscussionsAndForumsSerpElementItem**(`data`?): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+> **new DiscussionsAndForumsSerpElementItem**(`data`?): `DiscussionsAndForumsSerpElementItem`
 
-Defined in: main.ts:39980
+Defined in: main.ts:40407
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:39980
 
 #### Returns
 
-[`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+`DiscussionsAndForumsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39980
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)[]
 
-Defined in: main.ts:39972
+Defined in: main.ts:40399
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:39966
+Defined in: main.ts:40393
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:39976
+Defined in: main.ts:40403
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39970
+Defined in: main.ts:40397
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39968
+Defined in: main.ts:40395
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39985
+Defined in: main.ts:40412
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:39985
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40011
+Defined in: main.ts:40438
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:40011
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+> `static` **fromJS**(`data`): `DiscussionsAndForumsSerpElementItem`
 
-Defined in: main.ts:40004
+Defined in: main.ts:40431
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:40004
 
 #### Returns
 
-[`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
+`DiscussionsAndForumsSerpElementItem`
 
 #### Overrides
 

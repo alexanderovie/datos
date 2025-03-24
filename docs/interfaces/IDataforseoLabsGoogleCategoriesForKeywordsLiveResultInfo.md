@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
-Defined in: main.ts:107455
+Defined in: main.ts:108752
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:107455
 
 > `optional` **items**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)[]
 
-Defined in: main.ts:107462
+Defined in: main.ts:108759
 
 contains keywords and related keyword difficulty scores
 
@@ -28,7 +28,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:107460
+Defined in: main.ts:108757
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107458
+Defined in: main.ts:108755
 
 language code in a POST array
 if there is no data, then the value is null

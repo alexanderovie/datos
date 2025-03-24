@@ -6,7 +6,7 @@
 
 # Class: BaseDataforseoLabsSerpElementItem
 
-Defined in: main.ts:22214
+Defined in: main.ts:22553
 
 ## Extended by
 
@@ -62,11 +62,11 @@ Defined in: main.ts:22214
 
 ## Constructors
 
-### new BaseDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new BaseDataforseoLabsSerpElementItem**(`data`?): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> **new BaseDataforseoLabsSerpElementItem**(`data`?): `BaseDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:22232
+Defined in: main.ts:22571
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: main.ts:22232
 
 #### Returns
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+`BaseDataforseoLabsSerpElementItem`
 
 ## Properties
 
@@ -84,7 +84,7 @@ Defined in: main.ts:22232
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: main.ts:22230
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -138,7 +138,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -152,7 +152,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -166,7 +166,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22242
+Defined in: main.ts:22581
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:22242
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22484
+Defined in: main.ts:22823
 
 #### Parameters
 
@@ -200,9 +200,9 @@ Defined in: main.ts:22484
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:22252
+Defined in: main.ts:22591
 
 #### Parameters
 
@@ -212,4 +212,4 @@ Defined in: main.ts:22252
 
 #### Returns
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+`BaseDataforseoLabsSerpElementItem`

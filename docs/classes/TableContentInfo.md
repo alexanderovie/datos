@@ -6,7 +6,7 @@
 
 # Class: TableContentInfo
 
-Defined in: main.ts:26348
+Defined in: main.ts:26775
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26348
 
 ## Constructors
 
-### new TableContentInfo()
+### Constructor
 
-> **new TableContentInfo**(`data`?): [`TableContentInfo`](TableContentInfo.md)
+> **new TableContentInfo**(`data`?): `TableContentInfo`
 
-Defined in: main.ts:26358
+Defined in: main.ts:26785
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26358
 
 #### Returns
 
-[`TableContentInfo`](TableContentInfo.md)
+`TableContentInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26358
 
 > `optional` **body**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:26352
+Defined in: main.ts:26779
 
 content of the body of the table
 
@@ -54,7 +54,7 @@ content of the body of the table
 
 > `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:26354
+Defined in: main.ts:26781
 
 content of the footer of the table
 
@@ -68,7 +68,7 @@ content of the footer of the table
 
 > `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:26350
+Defined in: main.ts:26777
 
 parsed content of the header
 
@@ -82,7 +82,7 @@ parsed content of the header
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26367
+Defined in: main.ts:26794
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:26367
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26398
+Defined in: main.ts:26825
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:26398
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TableContentInfo`](TableContentInfo.md)
+> `static` **fromJS**(`data`): `TableContentInfo`
 
-Defined in: main.ts:26391
+Defined in: main.ts:26818
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:26391
 
 #### Returns
 
-[`TableContentInfo`](TableContentInfo.md)
+`TableContentInfo`

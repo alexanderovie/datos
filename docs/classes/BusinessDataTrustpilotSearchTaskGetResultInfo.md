@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
-Defined in: main.ts:235383
+Defined in: main.ts:237792
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:235383
 
 ## Constructors
 
-### new BusinessDataTrustpilotSearchTaskGetResultInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+> **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data`?): `BusinessDataTrustpilotSearchTaskGetResultInfo`
 
-Defined in: main.ts:235405
+Defined in: main.ts:237814
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:235405
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+`BusinessDataTrustpilotSearchTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235405
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:235390
+Defined in: main.ts:237799
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:235395
+Defined in: main.ts:237804
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:235401
+Defined in: main.ts:237810
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:235398
+Defined in: main.ts:237807
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:235385
+Defined in: main.ts:237794
 
 keyword in a POST array
 
@@ -116,7 +116,7 @@ keyword in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:235387
+Defined in: main.ts:237796
 
 search engine domain in a POST array
 
@@ -130,7 +130,7 @@ search engine domain in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235414
+Defined in: main.ts:237823
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:235414
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235440
+Defined in: main.ts:237849
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:235440
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTaskGetResultInfo`
 
-Defined in: main.ts:235433
+Defined in: main.ts:237842
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:235433
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
+`BusinessDataTrustpilotSearchTaskGetResultInfo`

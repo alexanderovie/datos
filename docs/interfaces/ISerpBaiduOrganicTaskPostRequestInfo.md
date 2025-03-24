@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTaskPostRequestInfo
 
-Defined in: main.ts:81530
+Defined in: main.ts:81957
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:81530
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:81555
+Defined in: main.ts:81982
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:81603
+Defined in: main.ts:82030
 
 device type
 optional field
@@ -48,7 +48,7 @@ default value: desktop
 
 > `optional` **get\_website\_url**: `boolean`
 
-Defined in: main.ts:81620
+Defined in: main.ts:82047
 
 include direct URL for each ranked result
 optional field
@@ -64,7 +64,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:81538
+Defined in: main.ts:81965
 
 keyword
 required field
@@ -80,7 +80,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:81574
+Defined in: main.ts:82001
 
 search engine language code
 required field if you don’t specify language_name
@@ -94,7 +94,7 @@ zh_CN
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:81568
+Defined in: main.ts:81995
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -108,7 +108,7 @@ Chinese (Simplified)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:81588
+Defined in: main.ts:82015
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -123,7 +123,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:81598
+Defined in: main.ts:82025
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -141,7 +141,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:81581
+Defined in: main.ts:82008
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -156,7 +156,7 @@ New York,New York,United States
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:81562
+Defined in: main.ts:81989
 
 page crawl limit
 optional field
@@ -171,7 +171,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:81612
+Defined in: main.ts:82039
 
 device operating system
 optional field
@@ -188,7 +188,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:81654
+Defined in: main.ts:82081
 
 notification URL of a completed task
 optional field
@@ -207,7 +207,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:81643
+Defined in: main.ts:82070
 
 postback_url datatype
 required field if you specify postback_url
@@ -221,7 +221,7 @@ regular, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:81637
+Defined in: main.ts:82064
 
 return URL for sending task results
 optional field
@@ -240,7 +240,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:81546
+Defined in: main.ts:81973
 
 task priority
 optional field
@@ -256,7 +256,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:81626
+Defined in: main.ts:82053
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: OnPageSummaryResultInfo
 
-Defined in: main.ts:175159
+Defined in: main.ts:177568
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:175159
 
 ## Constructors
 
-### new OnPageSummaryResultInfo()
+### Constructor
 
-> **new OnPageSummaryResultInfo**(`data`?): [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
+> **new OnPageSummaryResultInfo**(`data`?): `OnPageSummaryResultInfo`
 
-Defined in: main.ts:175186
+Defined in: main.ts:177595
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:175186
 
 #### Returns
 
-[`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
+`OnPageSummaryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:175186
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:175168
+Defined in: main.ts:177577
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -56,7 +56,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:175162
+Defined in: main.ts:177571
 
 status of the crawling session
 possible values: in_progress, finished
@@ -71,7 +71,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:175164
+Defined in: main.ts:177573
 
 details of the crawling session
 
@@ -85,7 +85,7 @@ details of the crawling session
 
 > `optional` **crawl\_stop\_reason**: `string`
 
-Defined in: main.ts:175176
+Defined in: main.ts:177585
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -105,7 +105,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 > `optional` **domain\_info**: [`DomainInfo`](DomainInfo.md)
 
-Defined in: main.ts:175179
+Defined in: main.ts:177588
 
 domain-wide info
 on-page information about the target domain and crawling process
@@ -120,7 +120,7 @@ on-page information about the target domain and crawling process
 
 > `optional` **page\_metrics**: [`PageMetrics`](PageMetrics.md)
 
-Defined in: main.ts:175182
+Defined in: main.ts:177591
 
 page-specific info
 metrics information on the target website pages
@@ -135,7 +135,7 @@ metrics information on the target website pages
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175195
+Defined in: main.ts:177604
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:175195
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175217
+Defined in: main.ts:177626
 
 #### Parameters
 
@@ -169,9 +169,9 @@ Defined in: main.ts:175217
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageSummaryResultInfo`
 
-Defined in: main.ts:175210
+Defined in: main.ts:177619
 
 #### Parameters
 
@@ -181,4 +181,4 @@ Defined in: main.ts:175210
 
 #### Returns
 
-[`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
+`OnPageSummaryResultInfo`

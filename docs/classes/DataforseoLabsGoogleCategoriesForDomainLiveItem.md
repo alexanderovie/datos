@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
 
-Defined in: main.ts:106927
+Defined in: main.ts:108224
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:106927
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForDomainLiveItem()
+### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForDomainLiveItem**(`data`?): [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+> **new DataforseoLabsGoogleCategoriesForDomainLiveItem**(`data`?): `DataforseoLabsGoogleCategoriesForDomainLiveItem`
 
-Defined in: main.ts:106938
+Defined in: main.ts:108235
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:106938
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+`DataforseoLabsGoogleCategoriesForDomainLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106938
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:106932
+Defined in: main.ts:108229
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:106934
+Defined in: main.ts:108231
 
 ranking data relevant to the specified domain or subdomain
 
@@ -73,7 +73,7 @@ ranking data relevant to the specified domain or subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106929
+Defined in: main.ts:108226
 
 search engine type
 
@@ -87,7 +87,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106947
+Defined in: main.ts:108244
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:106947
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106976
+Defined in: main.ts:108273
 
 #### Parameters
 
@@ -121,9 +121,9 @@ Defined in: main.ts:106976
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForDomainLiveItem`
 
-Defined in: main.ts:106969
+Defined in: main.ts:108266
 
 #### Parameters
 
@@ -133,4 +133,4 @@ Defined in: main.ts:106969
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+`DataforseoLabsGoogleCategoriesForDomainLiveItem`

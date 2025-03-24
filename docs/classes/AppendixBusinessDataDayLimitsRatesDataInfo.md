@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
 
-Defined in: main.ts:241351
+Defined in: main.ts:243764
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241351
 
 ## Constructors
 
-### new AppendixBusinessDataDayLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): `AppendixBusinessDataDayLimitsRatesDataInfo`
 
-Defined in: main.ts:241357
+Defined in: main.ts:243770
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241357
 
 #### Returns
 
-[`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+`AppendixBusinessDataDayLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241357
 
 > `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241352
+Defined in: main.ts:243765
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241352
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241353
+Defined in: main.ts:243766
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241353
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241366
+Defined in: main.ts:243779
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:241366
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241384
+Defined in: main.ts:243797
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:241384
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixBusinessDataDayLimitsRatesDataInfo`
 
-Defined in: main.ts:241377
+Defined in: main.ts:243790
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:241377
 
 #### Returns
 
-[`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+`AppendixBusinessDataDayLimitsRatesDataInfo`

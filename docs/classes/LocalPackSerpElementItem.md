@@ -6,7 +6,7 @@
 
 # Class: LocalPackSerpElementItem
 
-Defined in: main.ts:34674
+Defined in: main.ts:35101
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:34674
 
 ## Constructors
 
-### new LocalPackSerpElementItem()
+### Constructor
 
-> **new LocalPackSerpElementItem**(`data`?): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+> **new LocalPackSerpElementItem**(`data`?): `LocalPackSerpElementItem`
 
-Defined in: main.ts:34705
+Defined in: main.ts:35132
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:34705
 
 #### Returns
 
-[`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+`LocalPackSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34705
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:34697
+Defined in: main.ts:35124
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34684
+Defined in: main.ts:35111
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:34686
+Defined in: main.ts:35113
 
 source domain
 
@@ -102,7 +102,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:34692
+Defined in: main.ts:35119
 
 indicates whether the element is an ad
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:34688
+Defined in: main.ts:35115
 
 phone number
 
@@ -130,7 +130,7 @@ phone number
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34678
+Defined in: main.ts:35105
 
 the alignment of the element in SERP
 can take the following values:
@@ -146,7 +146,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -165,7 +165,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -185,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:34695
+Defined in: main.ts:35122
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -200,7 +200,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34701
+Defined in: main.ts:35128
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -216,7 +216,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34682
+Defined in: main.ts:35109
 
 title of the row
 
@@ -230,7 +230,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -248,7 +248,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34690
+Defined in: main.ts:35117
 
 source URL
 
@@ -262,7 +262,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34680
+Defined in: main.ts:35107
 
 the XPath of the element
 
@@ -276,7 +276,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34710
+Defined in: main.ts:35137
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:34710
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34738
+Defined in: main.ts:35165
 
 #### Parameters
 
@@ -318,9 +318,9 @@ Defined in: main.ts:34738
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+> `static` **fromJS**(`data`): `LocalPackSerpElementItem`
 
-Defined in: main.ts:34731
+Defined in: main.ts:35158
 
 #### Parameters
 
@@ -330,7 +330,7 @@ Defined in: main.ts:34731
 
 #### Returns
 
-[`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
+`LocalPackSerpElementItem`
 
 #### Overrides
 

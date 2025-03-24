@@ -6,7 +6,7 @@
 
 # Class: SectionContentItemInfo
 
-Defined in: main.ts:26220
+Defined in: main.ts:26559
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26220
 
 ## Constructors
 
-### new SectionContentItemInfo()
+### Constructor
 
-> **new SectionContentItemInfo**(`data`?): [`SectionContentItemInfo`](SectionContentItemInfo.md)
+> **new SectionContentItemInfo**(`data`?): `SectionContentItemInfo`
 
-Defined in: main.ts:26231
+Defined in: main.ts:26571
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26231
 
 #### Returns
 
-[`SectionContentItemInfo`](SectionContentItemInfo.md)
+`SectionContentItemInfo`
 
 ## Properties
 
@@ -40,9 +40,10 @@ Defined in: main.ts:26231
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:26222
+Defined in: main.ts:26562
 
-content text
+secondary content on the page
+you can find more information about content priority calculation in this help center article
 
 #### Implementation of
 
@@ -54,7 +55,7 @@ content text
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26225
+Defined in: main.ts:26565
 
 page URL.
 displayed in case the text is a link anchor
@@ -69,7 +70,7 @@ displayed in case the text is a link anchor
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
-Defined in: main.ts:26227
+Defined in: main.ts:26567
 
 contains other URLs and anchors found in the content element
 
@@ -83,7 +84,7 @@ contains other URLs and anchors found in the content element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26240
+Defined in: main.ts:26580
 
 #### Parameters
 
@@ -101,7 +102,7 @@ Defined in: main.ts:26240
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26263
+Defined in: main.ts:26603
 
 #### Parameters
 
@@ -117,9 +118,9 @@ Defined in: main.ts:26263
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SectionContentItemInfo`](SectionContentItemInfo.md)
+> `static` **fromJS**(`data`): `SectionContentItemInfo`
 
-Defined in: main.ts:26256
+Defined in: main.ts:26596
 
 #### Parameters
 
@@ -129,4 +130,4 @@ Defined in: main.ts:26256
 
 #### Returns
 
-[`SectionContentItemInfo`](SectionContentItemInfo.md)
+`SectionContentItemInfo`

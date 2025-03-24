@@ -6,7 +6,7 @@
 
 # Class: JobsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117750
+Defined in: main.ts:119133
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117750
 
 ## Constructors
 
-### new JobsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new JobsDataforseoLabsSerpElementItem**(`data`?): [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
+> **new JobsDataforseoLabsSerpElementItem**(`data`?): `JobsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117761
+Defined in: main.ts:119144
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117761
 
 #### Returns
 
-[`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
+`JobsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117761
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`JobsElement`](JobsElement.md)[]
 
-Defined in: main.ts:117757
+Defined in: main.ts:119140
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117752
+Defined in: main.ts:119135
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:117754
+Defined in: main.ts:119137
 
 relevant URL
 
@@ -179,7 +179,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -197,7 +197,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117766
+Defined in: main.ts:119149
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:117766
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117790
+Defined in: main.ts:119173
 
 #### Parameters
 
@@ -239,9 +239,9 @@ Defined in: main.ts:117790
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `JobsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117783
+Defined in: main.ts:119166
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:117783
 
 #### Returns
 
-[`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
+`JobsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

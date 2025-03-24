@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
-Defined in: main.ts:170559
+Defined in: main.ts:172968
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170559
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveItem()
+### Constructor
 
-> **new BacklinksBulkSpamScoreLiveItem**(`data`?): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+> **new BacklinksBulkSpamScoreLiveItem**(`data`?): `BacklinksBulkSpamScoreLiveItem`
 
-Defined in: main.ts:170570
+Defined in: main.ts:172979
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170570
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+`BacklinksBulkSpamScoreLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170570
 
 > `optional` **spam\_score**: `number`
 
-Defined in: main.ts:170566
+Defined in: main.ts:172975
 
 average spam score the target
 learn more about how the metric is calculated
@@ -55,7 +55,7 @@ learn more about how the metric is calculated
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:170563
+Defined in: main.ts:172972
 
 domain, subdomain or webpage from a POST array
 
@@ -69,7 +69,7 @@ domain, subdomain or webpage from a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:170561
+Defined in: main.ts:172970
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170579
+Defined in: main.ts:172988
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:170579
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170598
+Defined in: main.ts:173007
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:170598
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveItem`
 
-Defined in: main.ts:170591
+Defined in: main.ts:173000
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:170591
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+`BacklinksBulkSpamScoreLiveItem`

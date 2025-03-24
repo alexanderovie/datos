@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
-Defined in: main.ts:58521
+Defined in: main.ts:58948
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:58521
 
 ## Constructors
 
-### new SerpGoogleAutocompleteTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleAutocompleteTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleAutocompleteTaskGetAdvancedResultInfo**(`data`?): `SerpGoogleAutocompleteTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:58560
+Defined in: main.ts:58987
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:58560
 
 #### Returns
 
-[`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58560
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:58535
+Defined in: main.ts:58962
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:58540
+Defined in: main.ts:58967
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:58550
+Defined in: main.ts:58977
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ autocomplete
 
 > `optional` **items**: [`SerpGoogleAutocompleteAdvancedItem`](SerpGoogleAutocompleteAdvancedItem.md)[]
 
-Defined in: main.ts:58556
+Defined in: main.ts:58983
 
 items of the element
 
@@ -103,7 +103,7 @@ items of the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:58554
+Defined in: main.ts:58981
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:58524
+Defined in: main.ts:58951
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:58532
+Defined in: main.ts:58959
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:58530
+Defined in: main.ts:58957
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:58545
+Defined in: main.ts:58972
 
 search refinement chips
 
@@ -174,7 +174,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:58528
+Defined in: main.ts:58955
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:58552
+Defined in: main.ts:58979
 
 total number of results in SERP
 
@@ -202,7 +202,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:58543
+Defined in: main.ts:58970
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:58526
+Defined in: main.ts:58953
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:58569
+Defined in: main.ts:58996
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:58569
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:58606
+Defined in: main.ts:59033
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:58606
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAutocompleteTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:58599
+Defined in: main.ts:59026
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:58599
 
 #### Returns
 
-[`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)
+`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`

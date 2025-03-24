@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFlightsElement
 
-Defined in: main.ts:35461
+Defined in: main.ts:35888
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:35461
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35465
+Defined in: main.ts:35892
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35463
+Defined in: main.ts:35890
 
 type of element
 
@@ -38,6 +38,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35467
+Defined in: main.ts:35894
 
 URL

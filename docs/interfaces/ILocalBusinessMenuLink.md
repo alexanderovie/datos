@@ -6,7 +6,7 @@
 
 # Interface: ILocalBusinessMenuLink
 
-Defined in: main.ts:26000
+Defined in: main.ts:26339
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:26000
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:26003
+Defined in: main.ts:26342
 
 title of the element
 domain of the online menu system
@@ -33,7 +33,7 @@ domain of the online menu system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25775
+Defined in: main.ts:26114
 
 type of element
 
@@ -47,6 +47,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26005
+Defined in: main.ts:26344
 
 URL to view the menu

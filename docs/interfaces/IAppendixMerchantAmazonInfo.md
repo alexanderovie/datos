@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMerchantAmazonInfo
 
-Defined in: main.ts:241075
+Defined in: main.ts:243488
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241075
 
 > `optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241076
+Defined in: main.ts:243489
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:241076
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241077
+Defined in: main.ts:243490
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:241077
 
 > `optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241078
+Defined in: main.ts:243491

@@ -6,7 +6,7 @@
 
 # Class: GoogleHotelsSerpElementItem
 
-Defined in: main.ts:38238
+Defined in: main.ts:38665
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:38238
 
 ## Constructors
 
-### new GoogleHotelsSerpElementItem()
+### Constructor
 
-> **new GoogleHotelsSerpElementItem**(`data`?): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+> **new GoogleHotelsSerpElementItem**(`data`?): `GoogleHotelsSerpElementItem`
 
-Defined in: main.ts:38260
+Defined in: main.ts:38687
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:38260
 
 #### Returns
 
-[`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+`GoogleHotelsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38260
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:38252
+Defined in: main.ts:38679
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:38248
+Defined in: main.ts:38675
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -90,7 +90,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38242
+Defined in: main.ts:38669
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38256
+Defined in: main.ts:38683
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38250
+Defined in: main.ts:38677
 
 source URL
 
@@ -193,7 +193,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38244
+Defined in: main.ts:38671
 
 the XPath of the element
 
@@ -207,7 +207,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38265
+Defined in: main.ts:38692
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:38265
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38288
+Defined in: main.ts:38715
 
 #### Parameters
 
@@ -249,9 +249,9 @@ Defined in: main.ts:38288
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleHotelsSerpElementItem`
 
-Defined in: main.ts:38281
+Defined in: main.ts:38708
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:38281
 
 #### Returns
 
-[`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
+`GoogleHotelsSerpElementItem`
 
 #### Overrides
 

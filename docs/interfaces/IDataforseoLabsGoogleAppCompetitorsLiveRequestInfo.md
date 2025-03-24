@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
-Defined in: main.ts:131615
+Defined in: main.ts:134016
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:131615
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:131623
+Defined in: main.ts:134024
 
 id of the app
 required field
@@ -34,7 +34,7 @@ the id is org.telegram.messenger
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:131673
+Defined in: main.ts:134074
 
 array of results filtering parameters
 optional field
@@ -56,7 +56,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131659
+Defined in: main.ts:134060
 
 language code
 required field if you don’t specify language_name
@@ -73,7 +73,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:131650
+Defined in: main.ts:134051
 
 full name of the language
 required field if you don’t specify language_code
@@ -90,7 +90,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:131695
+Defined in: main.ts:134096
 
 the maximum number of returned apps
 optional field
@@ -103,7 +103,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131641
+Defined in: main.ts:134042
 
 location code
 required field if you don’t specify location_name
@@ -120,7 +120,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:131632
+Defined in: main.ts:134033
 
 full name of the location
 required field if you don’t specify location_code
@@ -137,7 +137,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:131700
+Defined in: main.ts:134101
 
 offset in the results array of returned apps
 optional field
@@ -150,7 +150,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:131690
+Defined in: main.ts:134091
 
 results sorting rules
 optional field
@@ -175,7 +175,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:131706
+Defined in: main.ts:134107
 
 user-defined task identifier
 optional field

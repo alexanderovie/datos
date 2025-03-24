@@ -6,7 +6,7 @@
 
 # Class: RefinementChipsElement
 
-Defined in: main.ts:22857
+Defined in: main.ts:23196
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:22857
 
 ## Constructors
 
-### new RefinementChipsElement()
+### Constructor
 
-> **new RefinementChipsElement**(`data`?): [`RefinementChipsElement`](RefinementChipsElement.md)
+> **new RefinementChipsElement**(`data`?): `RefinementChipsElement`
 
-Defined in: main.ts:22871
+Defined in: main.ts:23210
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:22871
 
 #### Returns
 
-[`RefinementChipsElement`](RefinementChipsElement.md)
+`RefinementChipsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22871
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:22865
+Defined in: main.ts:23204
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **options**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:22867
+Defined in: main.ts:23206
 
 further search refinement options
 
@@ -68,7 +68,7 @@ further search refinement options
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22861
+Defined in: main.ts:23200
 
 title of the element
 
@@ -82,7 +82,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22859
+Defined in: main.ts:23198
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22863
+Defined in: main.ts:23202
 
 search URL with refinement parameters
 
@@ -110,7 +110,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22880
+Defined in: main.ts:23219
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:22880
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22905
+Defined in: main.ts:23244
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:22905
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RefinementChipsElement`](RefinementChipsElement.md)
+> `static` **fromJS**(`data`): `RefinementChipsElement`
 
-Defined in: main.ts:22898
+Defined in: main.ts:23237
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:22898
 
 #### Returns
 
-[`RefinementChipsElement`](RefinementChipsElement.md)
+`RefinementChipsElement`

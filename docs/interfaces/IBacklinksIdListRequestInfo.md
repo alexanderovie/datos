@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksIdListRequestInfo
 
-Defined in: main.ts:158350
+Defined in: main.ts:160759
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:158350
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:158358
+Defined in: main.ts:160767
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:158365
+Defined in: main.ts:160774
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:158384
+Defined in: main.ts:160793
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:158370
+Defined in: main.ts:160779
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:158375
+Defined in: main.ts:160784
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:158380
+Defined in: main.ts:160789
 
 sorting by task execution time
 optional field

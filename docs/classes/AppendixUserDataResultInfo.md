@@ -6,7 +6,7 @@
 
 # Class: AppendixUserDataResultInfo
 
-Defined in: main.ts:248201
+Defined in: main.ts:250170
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:248201
 
 ## Constructors
 
-### new AppendixUserDataResultInfo()
+### Constructor
 
-> **new AppendixUserDataResultInfo**(`data`?): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+> **new AppendixUserDataResultInfo**(`data`?): `AppendixUserDataResultInfo`
 
-Defined in: main.ts:248216
+Defined in: main.ts:250185
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:248216
 
 #### Returns
 
-[`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+`AppendixUserDataResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248216
 
 > `optional` **login**: `string`
 
-Defined in: main.ts:248203
+Defined in: main.ts:250172
 
 your login
 
@@ -54,7 +54,7 @@ your login
 
 > `optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
 
-Defined in: main.ts:248210
+Defined in: main.ts:250179
 
 section of your spending, USD
 
@@ -68,7 +68,7 @@ section of your spending, USD
 
 > `optional` **price**: [`AppendixPriceData`](AppendixPriceData.md)
 
-Defined in: main.ts:248212
+Defined in: main.ts:250181
 
 pricing
 
@@ -82,7 +82,7 @@ pricing
 
 > `optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
 
-Defined in: main.ts:248208
+Defined in: main.ts:250177
 
 your API rates
 
@@ -96,7 +96,7 @@ your API rates
 
 > `optional` **timezone**: `string`
 
-Defined in: main.ts:248206
+Defined in: main.ts:250175
 
 your time zone
 can be set in your profile settings
@@ -111,7 +111,7 @@ can be set in your profile settings
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:248225
+Defined in: main.ts:250194
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:248225
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:248246
+Defined in: main.ts:250215
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:248246
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+> `static` **fromJS**(`data`): `AppendixUserDataResultInfo`
 
-Defined in: main.ts:248239
+Defined in: main.ts:250208
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:248239
 
 #### Returns
 
-[`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
+`AppendixUserDataResultInfo`

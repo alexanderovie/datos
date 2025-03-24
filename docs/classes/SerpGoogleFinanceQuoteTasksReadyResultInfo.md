@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteTasksReadyResultInfo
 
-Defined in: main.ts:92073
+Defined in: main.ts:92500
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:92073
 
 ## Constructors
 
-### new SerpGoogleFinanceQuoteTasksReadyResultInfo()
+### Constructor
 
-> **new SerpGoogleFinanceQuoteTasksReadyResultInfo**(`data`?): [`SerpGoogleFinanceQuoteTasksReadyResultInfo`](SerpGoogleFinanceQuoteTasksReadyResultInfo.md)
+> **new SerpGoogleFinanceQuoteTasksReadyResultInfo**(`data`?): `SerpGoogleFinanceQuoteTasksReadyResultInfo`
 
-Defined in: main.ts:92098
+Defined in: main.ts:92525
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:92098
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteTasksReadyResultInfo`](SerpGoogleFinanceQuoteTasksReadyResultInfo.md)
+`SerpGoogleFinanceQuoteTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92098
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:92083
+Defined in: main.ts:92510
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:92091
+Defined in: main.ts:92518
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:92094
+Defined in: main.ts:92521
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:92088
+Defined in: main.ts:92515
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:92076
+Defined in: main.ts:92503
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:92078
+Defined in: main.ts:92505
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:92081
+Defined in: main.ts:92508
 
 type of search engine
 example: finance_quote
@@ -143,7 +143,7 @@ example: finance_quote
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:92085
+Defined in: main.ts:92512
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92107
+Defined in: main.ts:92534
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:92107
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92131
+Defined in: main.ts:92558
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:92131
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceQuoteTasksReadyResultInfo`](SerpGoogleFinanceQuoteTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteTasksReadyResultInfo`
 
-Defined in: main.ts:92124
+Defined in: main.ts:92551
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:92124
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteTasksReadyResultInfo`](SerpGoogleFinanceQuoteTasksReadyResultInfo.md)
+`SerpGoogleFinanceQuoteTasksReadyResultInfo`

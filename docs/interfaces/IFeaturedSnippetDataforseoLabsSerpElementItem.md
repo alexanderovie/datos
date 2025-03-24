@@ -6,7 +6,7 @@
 
 # Interface: IFeaturedSnippetDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116530
+Defined in: main.ts:117914
 
 ## Extends
 
@@ -22,9 +22,7 @@ Defined in: main.ts:116530
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
-Defined in: main.ts:116563
-
-backlinks information for the target website
+Defined in: main.ts:117947
 
 ***
 
@@ -32,7 +30,7 @@ backlinks information for the target website
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:116538
+Defined in: main.ts:117924
 
 description of the results element in SERP
 
@@ -42,9 +40,9 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:116532
+Defined in: main.ts:117918
 
-domain where a link points
+subdomain in SERP
 
 ***
 
@@ -52,10 +50,11 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:116558
+Defined in: main.ts:117943
 
-estimated cost of monthly search traffic
-represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
+estimated cost of converting organic search traffic into paid
+represents the estimated monthly cost of running ads (USD) for the returned keyword;
+the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Bing Search
 learn more about how the metric is calculated in this help center article
 
 ***
@@ -64,11 +63,11 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:116554
+Defined in: main.ts:117938
 
 estimated traffic volume
-estimated paid monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain ranks for
+estimated organic monthly traffic to the domain;
+calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
 ***
@@ -77,7 +76,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:116536
+Defined in: main.ts:117922
 
 the title of the featured snippets source page
 
@@ -87,7 +86,7 @@ the title of the featured snippets source page
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:116547
+Defined in: main.ts:117931
 
 primary domain name in SERP
 
@@ -97,7 +96,7 @@ primary domain name in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -113,7 +112,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,7 +127,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
-Defined in: main.ts:116561
+Defined in: main.ts:117946
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
@@ -139,7 +138,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -154,9 +153,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
-Defined in: main.ts:116565
-
-page and domain rank information
+Defined in: main.ts:117948
 
 ***
 
@@ -164,9 +161,9 @@ page and domain rank information
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:116549
+Defined in: main.ts:117933
 
-URL in SERP that does not specify the HTTPs protocol and domain name
+relative URL in SERP
 
 ***
 
@@ -174,7 +171,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:116545
+Defined in: main.ts:117916
 
 search engine type
 
@@ -184,7 +181,7 @@ search engine type
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:116543
+Defined in: main.ts:117929
 
 results table
 if there are none, equals null
@@ -195,7 +192,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116534
+Defined in: main.ts:117920
 
 title of the result in SERP
 
@@ -205,7 +202,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -219,9 +216,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:116540
+Defined in: main.ts:117926
 
-relevant URL
+relevant URL in SERP
 
 ***
 
@@ -229,7 +226,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

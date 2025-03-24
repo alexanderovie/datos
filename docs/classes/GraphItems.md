@@ -6,7 +6,7 @@
 
 # Class: GraphItems
 
-Defined in: main.ts:92285
+Defined in: main.ts:92712
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:92285
 
 ## Constructors
 
-### new GraphItems()
+### Constructor
 
-> **new GraphItems**(`data`?): [`GraphItems`](GraphItems.md)
+> **new GraphItems**(`data`?): `GraphItems`
 
-Defined in: main.ts:92298
+Defined in: main.ts:92725
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:92298
 
 #### Returns
 
-[`GraphItems`](GraphItems.md)
+`GraphItems`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92298
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:92290
+Defined in: main.ts:92717
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:92292
+Defined in: main.ts:92719
 
 point value on graph
 
@@ -71,7 +71,7 @@ point value on graph
 
 > `optional` **volume**: `number`
 
-Defined in: main.ts:92294
+Defined in: main.ts:92721
 
 volume value on graph
 
@@ -85,7 +85,7 @@ volume value on graph
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92307
+Defined in: main.ts:92734
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:92307
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92326
+Defined in: main.ts:92753
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:92326
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GraphItems`](GraphItems.md)
+> `static` **fromJS**(`data`): `GraphItems`
 
-Defined in: main.ts:92319
+Defined in: main.ts:92746
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:92319
 
 #### Returns
 
-[`GraphItems`](GraphItems.md)
+`GraphItems`

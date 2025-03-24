@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
-Defined in: main.ts:96426
+Defined in: main.ts:98329
 
 items array
 
@@ -20,11 +20,11 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveItem()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data`?): `DomainAnalyticsTechnologiesTechnologyStatsLiveItem`
 
-Defined in: main.ts:96446
+Defined in: main.ts:98349
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:96446
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:96446
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:96435
+Defined in: main.ts:98338
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -61,7 +61,7 @@ contains country codes and number of websites per country
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:96430
+Defined in: main.ts:98333
 
 date for which the data is provided
 
@@ -75,7 +75,7 @@ date for which the data is provided
 
 > `optional` **domains\_count**: `number`
 
-Defined in: main.ts:96432
+Defined in: main.ts:98335
 
 number of domains that use the specified technology
 
@@ -89,7 +89,7 @@ number of domains that use the specified technology
 
 > `optional` **domains\_rank**: `object`
 
-Defined in: main.ts:96442
+Defined in: main.ts:98345
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
@@ -109,7 +109,7 @@ learn more about rank and how it is calculated in this help center article
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:96438
+Defined in: main.ts:98341
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -128,7 +128,7 @@ contains language codes and number of websites per language
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:96428
+Defined in: main.ts:98331
 
 type of element
 
@@ -142,7 +142,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96455
+Defined in: main.ts:98358
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:96455
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96495
+Defined in: main.ts:98398
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:96495
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologyStatsLiveItem`
 
-Defined in: main.ts:96488
+Defined in: main.ts:98391
 
 #### Parameters
 
@@ -188,4 +188,4 @@ Defined in: main.ts:96488
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`

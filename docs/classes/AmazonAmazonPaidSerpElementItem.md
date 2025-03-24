@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonPaidSerpElementItem
 
-Defined in: main.ts:201685
+Defined in: main.ts:204094
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:201685
 
 ## Constructors
 
-### new AmazonAmazonPaidSerpElementItem()
+### Constructor
 
-> **new AmazonAmazonPaidSerpElementItem**(`data`?): [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
+> **new AmazonAmazonPaidSerpElementItem**(`data`?): `AmazonAmazonPaidSerpElementItem`
 
-Defined in: main.ts:201730
+Defined in: main.ts:204139
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:201730
 
 #### Returns
 
-[`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
+`AmazonAmazonPaidSerpElementItem`
 
 #### Overrides
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:201730
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24023
+Defined in: main.ts:24362
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24023
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:201695
+Defined in: main.ts:204104
 
 number of product purchases in the past month
 
@@ -74,7 +74,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:201707
+Defined in: main.ts:204116
 
 currency in the ISO format
 example:
@@ -90,7 +90,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:201715
+Defined in: main.ts:204124
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -107,7 +107,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:201726
+Defined in: main.ts:204135
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:201687
+Defined in: main.ts:204096
 
 Amazon domain
 
@@ -136,7 +136,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:201693
+Defined in: main.ts:204102
 
 URL of the product image featured in the results
 
@@ -150,7 +150,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:201720
+Defined in: main.ts:204129
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -165,7 +165,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:201723
+Defined in: main.ts:204132
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -180,7 +180,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:201699
+Defined in: main.ts:204108
 
 the regular price of a product
 example:
@@ -196,7 +196,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:201703
+Defined in: main.ts:204112
 
 the upper limit of the product price range
 example:
@@ -212,7 +212,7 @@ example:
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24019
+Defined in: main.ts:24358
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -231,7 +231,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24016
+Defined in: main.ts:24355
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -250,7 +250,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:201717
+Defined in: main.ts:204126
 
 product rating info
 
@@ -264,7 +264,7 @@ product rating info
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:201710
+Defined in: main.ts:204119
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -279,7 +279,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:201689
+Defined in: main.ts:204098
 
 product title
 
@@ -293,7 +293,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24013
+Defined in: main.ts:24352
 
 type of element
 
@@ -311,7 +311,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:201691
+Defined in: main.ts:204100
 
 the URL of the product page
 
@@ -325,7 +325,7 @@ the URL of the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24021
+Defined in: main.ts:24360
 
 the XPath of the element
 
@@ -343,7 +343,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201735
+Defined in: main.ts:204144
 
 #### Parameters
 
@@ -365,7 +365,7 @@ Defined in: main.ts:201735
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201770
+Defined in: main.ts:204179
 
 #### Parameters
 
@@ -385,9 +385,9 @@ Defined in: main.ts:201770
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
+> `static` **fromJS**(`data`): `AmazonAmazonPaidSerpElementItem`
 
-Defined in: main.ts:201763
+Defined in: main.ts:204172
 
 #### Parameters
 
@@ -397,7 +397,7 @@ Defined in: main.ts:201763
 
 #### Returns
 
-[`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
+`AmazonAmazonPaidSerpElementItem`
 
 #### Overrides
 

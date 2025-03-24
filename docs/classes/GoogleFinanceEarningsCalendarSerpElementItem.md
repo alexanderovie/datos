@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceEarningsCalendarSerpElementItem
 
-Defined in: main.ts:88215
+Defined in: main.ts:88642
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:88215
 
 ## Constructors
 
-### new GoogleFinanceEarningsCalendarSerpElementItem()
+### Constructor
 
-> **new GoogleFinanceEarningsCalendarSerpElementItem**(`data`?): [`GoogleFinanceEarningsCalendarSerpElementItem`](GoogleFinanceEarningsCalendarSerpElementItem.md)
+> **new GoogleFinanceEarningsCalendarSerpElementItem**(`data`?): `GoogleFinanceEarningsCalendarSerpElementItem`
 
-Defined in: main.ts:88223
+Defined in: main.ts:88650
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:88223
 
 #### Returns
 
-[`GoogleFinanceEarningsCalendarSerpElementItem`](GoogleFinanceEarningsCalendarSerpElementItem.md)
+`GoogleFinanceEarningsCalendarSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructors)
+[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88223
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22141
 
 > `optional` **items**: [`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)[]
 
-Defined in: main.ts:88219
+Defined in: main.ts:88646
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88228
+Defined in: main.ts:88655
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:88228
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88250
+Defined in: main.ts:88677
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:88250
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceEarningsCalendarSerpElementItem`](GoogleFinanceEarningsCalendarSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFinanceEarningsCalendarSerpElementItem`
 
-Defined in: main.ts:88243
+Defined in: main.ts:88670
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:88243
 
 #### Returns
 
-[`GoogleFinanceEarningsCalendarSerpElementItem`](GoogleFinanceEarningsCalendarSerpElementItem.md)
+`GoogleFinanceEarningsCalendarSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingSubdomainsLiveResultInfo
 
-Defined in: main.ts:130170
+Defined in: main.ts:132571
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:130170
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](../classes/DataforseoLabsSubdomainsLiveItem.md)[]
 
-Defined in: main.ts:130184
+Defined in: main.ts:132585
 
 contains subdomains and related data
 
@@ -28,7 +28,7 @@ contains subdomains and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:130182
+Defined in: main.ts:132583
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:130178
+Defined in: main.ts:132579
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:130176
+Defined in: main.ts:132577
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:130172
+Defined in: main.ts:132573
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:130174
+Defined in: main.ts:132575
 
 domain in a POST array
 
@@ -78,6 +78,6 @@ domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:130180
+Defined in: main.ts:132581
 
 total amount of results in our database relevant to your request

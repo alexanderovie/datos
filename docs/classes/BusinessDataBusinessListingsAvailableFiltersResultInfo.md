@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
-Defined in: main.ts:219755
+Defined in: main.ts:222164
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:219755
 
 ## Constructors
 
-### new BusinessDataBusinessListingsAvailableFiltersResultInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+> **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): `BusinessDataBusinessListingsAvailableFiltersResultInfo`
 
-Defined in: main.ts:219761
+Defined in: main.ts:222170
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:219761
 
 #### Returns
 
-[`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+`BusinessDataBusinessListingsAvailableFiltersResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219761
 
 > `optional` **categories\_aggregation**: `object`
 
-Defined in: main.ts:219757
+Defined in: main.ts:222166
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:219757
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:219756
+Defined in: main.ts:222165
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:219756
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219770
+Defined in: main.ts:222179
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:219770
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219800
+Defined in: main.ts:222209
 
 #### Parameters
 
@@ -106,9 +106,9 @@ Defined in: main.ts:219800
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsAvailableFiltersResultInfo`
 
-Defined in: main.ts:219793
+Defined in: main.ts:222202
 
 #### Parameters
 
@@ -118,4 +118,4 @@ Defined in: main.ts:219793
 
 #### Returns
 
-[`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+`BusinessDataBusinessListingsAvailableFiltersResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingSubdomainsLiveRequestInfo
 
-Defined in: main.ts:129977
+Defined in: main.ts:132378
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:129977
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:130057
+Defined in: main.ts:132458
 
 array of results filtering parameters
 optional field
@@ -40,7 +40,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:130038
+Defined in: main.ts:132439
 
 data collection mode
 optional field
@@ -57,7 +57,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:130043
+Defined in: main.ts:132444
 
 ignore highly similar keywords
 optional field
@@ -70,7 +70,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:130029
+Defined in: main.ts:132430
 
 display results by item type
 optional field
@@ -87,7 +87,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:130020
+Defined in: main.ts:132421
 
 language code
 optional field
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:130011
+Defined in: main.ts:132412
 
 full name of the language
 optional field
@@ -121,7 +121,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:130079
+Defined in: main.ts:132480
 
 the maximum number of returned keywords
 optional field
@@ -134,7 +134,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:130002
+Defined in: main.ts:132403
 
 location code
 optional field
@@ -152,7 +152,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:129992
+Defined in: main.ts:132393
 
 full name of the location
 optional field
@@ -170,7 +170,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:130084
+Defined in: main.ts:132485
 
 offset in the results array of returned keywords
 optional field
@@ -183,7 +183,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:130074
+Defined in: main.ts:132475
 
 results sorting rules
 optional field
@@ -208,7 +208,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:130090
+Defined in: main.ts:132491
 
 user-defined task identifier
 optional field
@@ -222,7 +222,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:129982
+Defined in: main.ts:132383
 
 domain
 required field

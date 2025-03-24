@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo
 
-Defined in: main.ts:234699
+Defined in: main.ts:237108
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:234699
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:234715
+Defined in: main.ts:237124
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:234724
+Defined in: main.ts:237133
 
 google-defined client id
 unique id of a local establishment;
@@ -41,7 +41,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:234720
+Defined in: main.ts:237129
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:234726
+Defined in: main.ts:237135
 
 unique identifier of the SERP feature
 
@@ -64,7 +64,7 @@ unique identifier of the SERP feature
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:234730
+Defined in: main.ts:237139
 
 item types
 types of search engine results encountered in the items array;
@@ -76,7 +76,7 @@ possible item types: google_business_question_item
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](../classes/BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
-Defined in: main.ts:234738
+Defined in: main.ts:237147
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -88,7 +88,7 @@ possible item types google_business_answer_element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:234734
+Defined in: main.ts:237143
 
 the number of items in the items array
 
@@ -98,7 +98,7 @@ the number of items in the items array
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](../classes/ItemsWithoutAnswers.md)[]
 
-Defined in: main.ts:234732
+Defined in: main.ts:237141
 
 array of google business question items without answers
 
@@ -108,7 +108,7 @@ array of google business question items without answers
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:234706
+Defined in: main.ts:237115
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -123,7 +123,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:234712
+Defined in: main.ts:237121
 
 language code in a POST array
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:234710
+Defined in: main.ts:237119
 
 location code in a POST array
 
@@ -143,6 +143,6 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:234708
+Defined in: main.ts:237117
 
 search engine domain as specified in a POST array

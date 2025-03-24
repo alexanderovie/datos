@@ -6,7 +6,7 @@
 
 # Class: Redirect
 
-Defined in: main.ts:161311
+Defined in: main.ts:163720
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:161311
 
 ## Constructors
 
-### new Redirect()
+### Constructor
 
-> **new Redirect**(`data`?): [`Redirect`](Redirect.md)
+> **new Redirect**(`data`?): `Redirect`
 
-Defined in: main.ts:161321
+Defined in: main.ts:163730
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:161321
 
 #### Returns
 
-[`Redirect`](Redirect.md)
+`Redirect`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161321
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:161315
+Defined in: main.ts:163724
 
 HTTP status code of the URL
 
@@ -54,7 +54,7 @@ HTTP status code of the URL
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:161313
+Defined in: main.ts:163722
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:161317
+Defined in: main.ts:163726
 
 indirect link URL
 
@@ -82,7 +82,7 @@ indirect link URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161330
+Defined in: main.ts:163739
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:161330
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161349
+Defined in: main.ts:163758
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:161349
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Redirect`](Redirect.md)
+> `static` **fromJS**(`data`): `Redirect`
 
-Defined in: main.ts:161342
+Defined in: main.ts:163751
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:161342
 
 #### Returns
 
-[`Redirect`](Redirect.md)
+`Redirect`

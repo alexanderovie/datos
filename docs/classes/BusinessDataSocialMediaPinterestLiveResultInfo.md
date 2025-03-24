@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveResultInfo
 
-Defined in: main.ts:239087
+Defined in: main.ts:241496
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239087
 
 ## Constructors
 
-### new BusinessDataSocialMediaPinterestLiveResultInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+> **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data`?): `BusinessDataSocialMediaPinterestLiveResultInfo`
 
-Defined in: main.ts:239100
+Defined in: main.ts:241509
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239100
 
 #### Returns
 
-[`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+`BusinessDataSocialMediaPinterestLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239100
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:239092
+Defined in: main.ts:241501
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -55,7 +55,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **pins\_count**: `number`
 
-Defined in: main.ts:239096
+Defined in: main.ts:241505
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
@@ -71,7 +71,7 @@ this field shows the number of content saves made from the related page_url usin
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:239089
+Defined in: main.ts:241498
 
 type of element
 
@@ -85,7 +85,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239109
+Defined in: main.ts:241518
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:239109
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239128
+Defined in: main.ts:241537
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:239128
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaPinterestLiveResultInfo`
 
-Defined in: main.ts:239121
+Defined in: main.ts:241530
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:239121
 
 #### Returns
 
-[`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+`BusinessDataSocialMediaPinterestLiveResultInfo`

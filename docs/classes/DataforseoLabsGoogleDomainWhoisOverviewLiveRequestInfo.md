@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:109401
+Defined in: main.ts:110698
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:109401
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+> **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data`?): `DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:109452
+Defined in: main.ts:110749
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:109452
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:109452
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:109426
+Defined in: main.ts:110723
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:109406
+Defined in: main.ts:110703
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:109411
+Defined in: main.ts:110708
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:109442
+Defined in: main.ts:110739
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:109448
+Defined in: main.ts:110745
 
 user-defined task identifier
 optional field
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109461
+Defined in: main.ts:110758
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:109461
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109490
+Defined in: main.ts:110787
 
 #### Parameters
 
@@ -181,9 +181,9 @@ Defined in: main.ts:109490
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:109483
+Defined in: main.ts:110780
 
 #### Parameters
 
@@ -193,4 +193,4 @@ Defined in: main.ts:109483
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`

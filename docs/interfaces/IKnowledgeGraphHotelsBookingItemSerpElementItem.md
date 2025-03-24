@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:32328
+Defined in: main.ts:32755
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32328
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:32350
+Defined in: main.ts:32777
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:32341
+Defined in: main.ts:32768
 
 starting date of stay
 in the format “year-month-date”
@@ -47,7 +47,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:32346
+Defined in: main.ts:32773
 
 ending date of stay
 in the format “year-month-date”
@@ -60,7 +60,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:32353
+Defined in: main.ts:32780
 
 additional items present in the element
 if there are none, equals null
@@ -71,7 +71,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32332
+Defined in: main.ts:32759
 
 the alignment of the element in SERP
 can take the following values:
@@ -83,7 +83,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -98,7 +98,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -114,7 +114,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32357
+Defined in: main.ts:32784
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -126,7 +126,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32336
+Defined in: main.ts:32763
 
 title of a given link element
 
@@ -136,7 +136,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -150,6 +150,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32334
+Defined in: main.ts:32761
 
 the XPath of the element

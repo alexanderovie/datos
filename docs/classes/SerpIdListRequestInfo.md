@@ -6,7 +6,7 @@
 
 # Class: SerpIdListRequestInfo
 
-Defined in: main.ts:26800
+Defined in: main.ts:27227
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26800
 
 ## Constructors
 
-### new SerpIdListRequestInfo()
+### Constructor
 
-> **new SerpIdListRequestInfo**(`data`?): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
+> **new SerpIdListRequestInfo**(`data`?): `SerpIdListRequestInfo`
 
-Defined in: main.ts:26838
+Defined in: main.ts:27265
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26838
 
 #### Returns
 
-[`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
+`SerpIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26838
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:26808
+Defined in: main.ts:27235
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:26815
+Defined in: main.ts:27242
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:26834
+Defined in: main.ts:27261
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:26820
+Defined in: main.ts:27247
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:26825
+Defined in: main.ts:27252
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:26830
+Defined in: main.ts:27257
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26847
+Defined in: main.ts:27274
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:26847
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26869
+Defined in: main.ts:27296
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:26869
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpIdListRequestInfo`
 
-Defined in: main.ts:26862
+Defined in: main.ts:27289
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:26862
 
 #### Returns
 
-[`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
+`SerpIdListRequestInfo`

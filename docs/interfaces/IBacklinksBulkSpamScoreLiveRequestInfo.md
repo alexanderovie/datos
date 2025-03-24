@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkSpamScoreLiveRequestInfo
 
-Defined in: main.ts:170529
+Defined in: main.ts:172938
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:170529
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:170554
+Defined in: main.ts:172963
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:170548
+Defined in: main.ts:172957
 
 domains, subdomains or webpages to get rank for
 required field

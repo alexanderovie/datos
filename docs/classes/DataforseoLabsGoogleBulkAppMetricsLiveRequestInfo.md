@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:130299
+Defined in: main.ts:132700
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:130299
 
 ## Constructors
 
-### new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:130354
+Defined in: main.ts:132755
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:130354
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:130354
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:130308
+Defined in: main.ts:132709
 
 ids of the app
 required field
@@ -61,7 +61,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:130344
+Defined in: main.ts:132745
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:130335
+Defined in: main.ts:132736
 
 full name of the language
 required field if you don’t specify language_code
@@ -103,7 +103,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:130326
+Defined in: main.ts:132727
 
 location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:130317
+Defined in: main.ts:132718
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:130350
+Defined in: main.ts:132751
 
 user-defined task identifier
 optional field
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:130363
+Defined in: main.ts:132764
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:130363
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:130389
+Defined in: main.ts:132790
 
 #### Parameters
 
@@ -197,9 +197,9 @@ Defined in: main.ts:130389
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:130382
+Defined in: main.ts:132783
 
 #### Parameters
 
@@ -209,4 +209,4 @@ Defined in: main.ts:130382
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`

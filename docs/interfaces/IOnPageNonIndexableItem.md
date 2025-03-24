@@ -6,7 +6,7 @@
 
 # Interface: IOnPageNonIndexableItem
 
-Defined in: main.ts:179993
+Defined in: main.ts:182402
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:179993
 
 > `optional` **reason**: `string`
 
-Defined in: main.ts:179996
+Defined in: main.ts:182405
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
@@ -29,6 +29,6 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:179998
+Defined in: main.ts:182407
 
 url of the non-indexable page

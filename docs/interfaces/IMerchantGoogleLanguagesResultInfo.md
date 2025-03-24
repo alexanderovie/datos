@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 
-Defined in: main.ts:193946
+Defined in: main.ts:196355
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:193946
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:193950
+Defined in: main.ts:196359
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:193948
+Defined in: main.ts:196357
 
 language name

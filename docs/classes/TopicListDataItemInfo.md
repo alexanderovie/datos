@@ -6,7 +6,7 @@
 
 # Class: TopicListDataItemInfo
 
-Defined in: main.ts:144594
+Defined in: main.ts:147003
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:144594
 
 ## Constructors
 
-### new TopicListDataItemInfo()
+### Constructor
 
-> **new TopicListDataItemInfo**(`data`?): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+> **new TopicListDataItemInfo**(`data`?): `TopicListDataItemInfo`
 
-Defined in: main.ts:144608
+Defined in: main.ts:147017
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:144608
 
 #### Returns
 
-[`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+`TopicListDataItemInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144608
 
 > `optional` **topic\_id**: `string`
 
-Defined in: main.ts:144596
+Defined in: main.ts:147005
 
 unique topic identifier in Google Trends
 
@@ -54,7 +54,7 @@ unique topic identifier in Google Trends
 
 > `optional` **topic\_title**: `string`
 
-Defined in: main.ts:144598
+Defined in: main.ts:147007
 
 title of the topic
 
@@ -68,7 +68,7 @@ title of the topic
 
 > `optional` **topic\_type**: `string`
 
-Defined in: main.ts:144601
+Defined in: main.ts:147010
 
 type of the topic
 represents the general type of the topic
@@ -83,7 +83,7 @@ represents the general type of the topic
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:144604
+Defined in: main.ts:147013
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -98,7 +98,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144617
+Defined in: main.ts:147026
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:144617
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144637
+Defined in: main.ts:147046
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:144637
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+> `static` **fromJS**(`data`): `TopicListDataItemInfo`
 
-Defined in: main.ts:144630
+Defined in: main.ts:147039
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:144630
 
 #### Returns
 
-[`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+`TopicListDataItemInfo`

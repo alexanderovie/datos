@@ -6,7 +6,7 @@
 
 # Interface: IExploreBrandsElement
 
-Defined in: main.ts:39566
+Defined in: main.ts:39993
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:39566
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:39576
+Defined in: main.ts:40003
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39574
+Defined in: main.ts:40001
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:39579
+Defined in: main.ts:40006
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -49,7 +49,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39570
+Defined in: main.ts:39997
 
 title of a given link element
 
@@ -59,7 +59,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39568
+Defined in: main.ts:39995
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39572
+Defined in: main.ts:39999
 
 URL
 
@@ -79,6 +79,6 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39581
+Defined in: main.ts:40008
 
 the XPath of the element

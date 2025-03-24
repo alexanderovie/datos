@@ -6,7 +6,7 @@
 
 # Class: PaidSerpElementItem
 
-Defined in: main.ts:29966
+Defined in: main.ts:30393
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:29966
 
 ## Constructors
 
-### new PaidSerpElementItem()
+### Constructor
 
-> **new PaidSerpElementItem**(`data`?): [`PaidSerpElementItem`](PaidSerpElementItem.md)
+> **new PaidSerpElementItem**(`data`?): `PaidSerpElementItem`
 
-Defined in: main.ts:30015
+Defined in: main.ts:30442
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:30015
 
 #### Returns
 
-[`PaidSerpElementItem`](PaidSerpElementItem.md)
+`PaidSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30015
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:29980
+Defined in: main.ts:30407
 
 breadcrumb in SERP
 
@@ -74,7 +74,7 @@ breadcrumb in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:29994
+Defined in: main.ts:30421
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:29997
+Defined in: main.ts:30424
 
 extended description
 if there is none, equals null
@@ -103,7 +103,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29976
+Defined in: main.ts:30403
 
 domain name of the reference
 
@@ -117,7 +117,7 @@ domain name of the reference
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:29992
+Defined in: main.ts:30419
 
 additional information about the result
 
@@ -135,7 +135,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:29990
+Defined in: main.ts:30417
 
 words highlighted in bold within the results description
 
@@ -149,7 +149,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:29986
+Defined in: main.ts:30413
 
 images of the element
 
@@ -163,7 +163,7 @@ images of the element
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:29982
+Defined in: main.ts:30409
 
 indicates whether the element contains an image
 
@@ -177,7 +177,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:29984
+Defined in: main.ts:30411
 
 indicates whether the element contains a video
 
@@ -191,7 +191,7 @@ indicates whether the element contains a video
 
 > `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-Defined in: main.ts:30001
+Defined in: main.ts:30428
 
 sitelinks
 the links shown below some of Google’s search results
@@ -207,7 +207,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:29970
+Defined in: main.ts:30397
 
 the alignment of the element in SERP
 can take the following values:
@@ -223,7 +223,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:30004
+Defined in: main.ts:30431
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -238,7 +238,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -257,7 +257,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -277,7 +277,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:30007
+Defined in: main.ts:30434
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -292,7 +292,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30011
+Defined in: main.ts:30438
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -308,7 +308,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29974
+Defined in: main.ts:30401
 
 title of the result in SERP
 
@@ -322,7 +322,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -340,7 +340,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29988
+Defined in: main.ts:30415
 
 relevant URL in SERP
 
@@ -354,7 +354,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:29978
+Defined in: main.ts:30405
 
 name of the website in SERP
 
@@ -368,7 +368,7 @@ name of the website in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29972
+Defined in: main.ts:30399
 
 the XPath of the element
 
@@ -382,7 +382,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30020
+Defined in: main.ts:30447
 
 #### Parameters
 
@@ -404,7 +404,7 @@ Defined in: main.ts:30020
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30077
+Defined in: main.ts:30504
 
 #### Parameters
 
@@ -424,9 +424,9 @@ Defined in: main.ts:30077
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PaidSerpElementItem`](PaidSerpElementItem.md)
+> `static` **fromJS**(`data`): `PaidSerpElementItem`
 
-Defined in: main.ts:30070
+Defined in: main.ts:30497
 
 #### Parameters
 
@@ -436,7 +436,7 @@ Defined in: main.ts:30070
 
 #### Returns
 
-[`PaidSerpElementItem`](PaidSerpElementItem.md)
+`PaidSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
 
-Defined in: main.ts:94575
+Defined in: main.ts:96478
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94575
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesLocationsResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+> **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): `DomainAnalyticsTechnologiesLocationsResultInfo`
 
-Defined in: main.ts:94583
+Defined in: main.ts:96486
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94583
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+`DomainAnalyticsTechnologiesLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94583
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:94579
+Defined in: main.ts:96482
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:94577
+Defined in: main.ts:96480
 
 full name of the location
 
@@ -68,7 +68,7 @@ full name of the location
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94592
+Defined in: main.ts:96495
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:94592
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94610
+Defined in: main.ts:96513
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:94610
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesLocationsResultInfo`
 
-Defined in: main.ts:94603
+Defined in: main.ts:96506
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:94603
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+`DomainAnalyticsTechnologiesLocationsResultInfo`

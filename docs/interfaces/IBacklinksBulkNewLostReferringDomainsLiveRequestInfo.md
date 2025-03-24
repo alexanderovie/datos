@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:171620
+Defined in: main.ts:174029
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171620
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171652
+Defined in: main.ts:174061
 
 starting date of the time range
 optional field
@@ -39,7 +39,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171658
+Defined in: main.ts:174067
 
 user-defined task identifier
 optional field
@@ -53,7 +53,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:171639
+Defined in: main.ts:174048
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field

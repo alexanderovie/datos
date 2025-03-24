@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
-Defined in: main.ts:143573
+Defined in: main.ts:145978
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:143573
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsExploreTaskGetResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
+> **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data`?): `KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
 
-Defined in: main.ts:143599
+Defined in: main.ts:146004
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:143599
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
+`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:143599
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:143586
+Defined in: main.ts:145991
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:143591
+Defined in: main.ts:145996
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
 
-Defined in: main.ts:143595
+Defined in: main.ts:146000
 
 items on the Google Trends page
 
@@ -86,7 +86,7 @@ items on the Google Trends page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:143593
+Defined in: main.ts:145998
 
 the number of results returned in the items array
 
@@ -100,7 +100,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:143575
+Defined in: main.ts:145980
 
 keywords in a POST array
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:143583
+Defined in: main.ts:145988
 
 language code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:143580
+Defined in: main.ts:145985
 
 location code in a POST array
 if there is no data, then the value is null
@@ -144,7 +144,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:143577
+Defined in: main.ts:145982
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:143608
+Defined in: main.ts:146013
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:143608
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:143640
+Defined in: main.ts:146045
 
 #### Parameters
 
@@ -192,9 +192,9 @@ Defined in: main.ts:143640
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
 
-Defined in: main.ts:143633
+Defined in: main.ts:146038
 
 #### Parameters
 
@@ -204,4 +204,4 @@ Defined in: main.ts:143633
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
+`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`

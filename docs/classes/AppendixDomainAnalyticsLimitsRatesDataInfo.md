@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:240847
+Defined in: main.ts:243260
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:240847
 
 ## Constructors
 
-### new AppendixDomainAnalyticsLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data`?): `AppendixDomainAnalyticsLimitsRatesDataInfo`
 
-Defined in: main.ts:240855
+Defined in: main.ts:243268
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:240855
 
 #### Returns
 
-[`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+`AppendixDomainAnalyticsLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240855
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:240849
+Defined in: main.ts:243262
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:240849
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:240848
+Defined in: main.ts:243261
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:240848
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240851
+Defined in: main.ts:243264
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:240851
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:240850
+Defined in: main.ts:243263
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:240850
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:240864
+Defined in: main.ts:243277
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:240864
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:240884
+Defined in: main.ts:243297
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:240884
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixDomainAnalyticsLimitsRatesDataInfo`
 
-Defined in: main.ts:240877
+Defined in: main.ts:243290
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:240877
 
 #### Returns
 
-[`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
+`AppendixDomainAnalyticsLimitsRatesDataInfo`

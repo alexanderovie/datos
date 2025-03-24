@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:109513
+Defined in: main.ts:110810
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:109513
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:109538
+Defined in: main.ts:110835
 
 array of results filtering parameters
 optional field
@@ -41,7 +41,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:109518
+Defined in: main.ts:110815
 
 the maximum number of returned domains
 optional field
@@ -54,7 +54,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:109523
+Defined in: main.ts:110820
 
 offset in the results array of returned items
 optional field
@@ -67,7 +67,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:109554
+Defined in: main.ts:110851
 
 results sorting rules
 optional field
@@ -91,7 +91,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:109560
+Defined in: main.ts:110857
 
 user-defined task identifier
 optional field

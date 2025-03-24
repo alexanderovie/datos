@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallResultInfo
 
-Defined in: main.ts:180419
+Defined in: main.ts:182828
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:180419
 
 ## Constructors
 
-### new OnPageWaterfallResultInfo()
+### Constructor
 
-> **new OnPageWaterfallResultInfo**(`data`?): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+> **new OnPageWaterfallResultInfo**(`data`?): `OnPageWaterfallResultInfo`
 
-Defined in: main.ts:180432
+Defined in: main.ts:182841
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:180432
 
 #### Returns
 
-[`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+`OnPageWaterfallResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180432
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:180422
+Defined in: main.ts:182831
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:180424
+Defined in: main.ts:182833
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageWaterfallItem`](OnPageWaterfallItem.md)[]
 
-Defined in: main.ts:180428
+Defined in: main.ts:182837
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:180426
+Defined in: main.ts:182835
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180441
+Defined in: main.ts:182850
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:180441
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180465
+Defined in: main.ts:182874
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:180465
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageWaterfallResultInfo`
 
-Defined in: main.ts:180458
+Defined in: main.ts:182867
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:180458
 
 #### Returns
 
-[`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)
+`OnPageWaterfallResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:120717
+Defined in: main.ts:122100
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:120717
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:120761
+Defined in: main.ts:122144
 
 starting date of the time range
 optional field
@@ -32,7 +32,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:120768
+Defined in: main.ts:122151
 
 ending date of the time range
 optional field
@@ -47,7 +47,7 @@ example:
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:120773
+Defined in: main.ts:122156
 
 ignore highly similar keywords
 optional field
@@ -60,7 +60,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:120782
+Defined in: main.ts:122165
 
 display results by item type
 optional field
@@ -77,7 +77,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120755
+Defined in: main.ts:122138
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:120747
+Defined in: main.ts:122130
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -109,7 +109,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120739
+Defined in: main.ts:122122
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -125,7 +125,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:120731
+Defined in: main.ts:122114
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:120788
+Defined in: main.ts:122171
 
 user-defined task identifier
 optional field
@@ -155,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:120723
+Defined in: main.ts:122106
 
 target domains and subdomains
 required field

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsCategoriesResultInfo
 
-Defined in: main.ts:100965
+Defined in: main.ts:102868
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:100965
 
 ## Constructors
 
-### new DataforseoLabsCategoriesResultInfo()
+### Constructor
 
-> **new DataforseoLabsCategoriesResultInfo**(`data`?): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+> **new DataforseoLabsCategoriesResultInfo**(`data`?): `DataforseoLabsCategoriesResultInfo`
 
-Defined in: main.ts:100984
+Defined in: main.ts:102887
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:100984
 
 #### Returns
 
-[`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+`DataforseoLabsCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100984
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:100967
+Defined in: main.ts:102870
 
 category code
 
@@ -54,7 +54,7 @@ category code
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:100980
+Defined in: main.ts:102883
 
 the code of the superordinate category
 example:
@@ -77,7 +77,7 @@ corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:100969
+Defined in: main.ts:102872
 
 full name of the category
 
@@ -91,7 +91,7 @@ full name of the category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100993
+Defined in: main.ts:102896
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:100993
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101012
+Defined in: main.ts:102915
 
 #### Parameters
 
@@ -125,9 +125,9 @@ Defined in: main.ts:101012
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsCategoriesResultInfo`
 
-Defined in: main.ts:101005
+Defined in: main.ts:102908
 
 #### Parameters
 
@@ -137,4 +137,4 @@ Defined in: main.ts:101005
 
 #### Returns
 
-[`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+`DataforseoLabsCategoriesResultInfo`

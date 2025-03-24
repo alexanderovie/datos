@@ -6,7 +6,7 @@
 
 # Class: PageContentInfo
 
-Defined in: main.ts:182699
+Defined in: main.ts:185108
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182699
 
 ## Constructors
 
-### new PageContentInfo()
+### Constructor
 
-> **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
+> **new PageContentInfo**(`data`?): `PageContentInfo`
 
-Defined in: main.ts:182724
+Defined in: main.ts:185133
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182724
 
 #### Returns
 
-[`PageContentInfo`](PageContentInfo.md)
+`PageContentInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182724
 
 > `optional` **comments**: [`ContentCommentInfo`](ContentCommentInfo.md)[]
 
-Defined in: main.ts:182717
+Defined in: main.ts:185126
 
 array of comments displayed on the page
 contains objects with information on comments related to displayed products
@@ -55,7 +55,7 @@ contains objects with information on comments related to displayed products
 
 > `optional` **contacts**: [`Contacts`](Contacts.md)
 
-Defined in: main.ts:182720
+Defined in: main.ts:185129
 
 contact information
 contains contact information displayed on the page
@@ -70,7 +70,7 @@ contains contact information displayed on the page
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:182703
+Defined in: main.ts:185112
 
 parsed content of the footer
 
@@ -84,7 +84,7 @@ parsed content of the footer
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:182701
+Defined in: main.ts:185110
 
 content of the header of the table
 
@@ -98,7 +98,7 @@ content of the header of the table
 
 > `optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:182706
+Defined in: main.ts:185115
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -113,7 +113,7 @@ you can find more information about topic priority calculation in this help cent
 
 > `optional` **offers**: [`ContentOfferInfo`](ContentOfferInfo.md)[]
 
-Defined in: main.ts:182714
+Defined in: main.ts:185123
 
 array of products displayed on the page
 contains objects with information on products displayed on the page
@@ -128,7 +128,7 @@ contains objects with information on products displayed on the page
 
 > `optional` **ratings**: [`ContentRatingInfo`](ContentRatingInfo.md)[]
 
-Defined in: main.ts:182711
+Defined in: main.ts:185120
 
 contains objects with rating information for the products displayed on the page
 
@@ -142,7 +142,7 @@ contains objects with rating information for the products displayed on the page
 
 > `optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:182709
+Defined in: main.ts:185118
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -157,7 +157,7 @@ you can find more information about topic priority calculation in this help cent
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182733
+Defined in: main.ts:185142
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:182733
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182777
+Defined in: main.ts:185186
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:182777
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
+> `static` **fromJS**(`data`): `PageContentInfo`
 
-Defined in: main.ts:182770
+Defined in: main.ts:185179
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:182770
 
 #### Returns
 
-[`PageContentInfo`](PageContentInfo.md)
+`PageContentInfo`

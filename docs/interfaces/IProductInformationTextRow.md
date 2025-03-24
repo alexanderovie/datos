@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationTextRow
 
-Defined in: main.ts:203692
+Defined in: main.ts:206101
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203692
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203694
+Defined in: main.ts:206103
 
 text of the voucher
 
@@ -32,7 +32,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25178
+Defined in: main.ts:25517
 
 type of element
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
-Defined in: main.ts:235873
+Defined in: main.ts:238282
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:235873
 
 ## Constructors
 
-### new BusinessDataTrustpilotReviewsTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+> **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data`?): `BusinessDataTrustpilotReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:235891
+Defined in: main.ts:238300
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:235891
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+`BusinessDataTrustpilotReviewsTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235891
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:235883
+Defined in: main.ts:238292
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:235887
+Defined in: main.ts:238296
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:235876
+Defined in: main.ts:238285
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:235879
+Defined in: main.ts:238288
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -98,7 +98,7 @@ can take the following values: trustpilot
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:235881
+Defined in: main.ts:238290
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:235885
+Defined in: main.ts:238294
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235900
+Defined in: main.ts:238309
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:235900
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235922
+Defined in: main.ts:238331
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:235922
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:235915
+Defined in: main.ts:238324
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:235915
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+`BusinessDataTrustpilotReviewsTasksReadyResultInfo`

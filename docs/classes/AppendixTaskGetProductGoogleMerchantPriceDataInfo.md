@@ -6,7 +6,7 @@
 
 # Class: AppendixTaskGetProductGoogleMerchantPriceDataInfo
 
-Defined in: main.ts:246141
+Defined in: main.ts:248106
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246141
 
 ## Constructors
 
-### new AppendixTaskGetProductGoogleMerchantPriceDataInfo()
+### Constructor
 
-> **new AppendixTaskGetProductGoogleMerchantPriceDataInfo**(`data`?): [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+> **new AppendixTaskGetProductGoogleMerchantPriceDataInfo**(`data`?): `AppendixTaskGetProductGoogleMerchantPriceDataInfo`
 
-Defined in: main.ts:246147
+Defined in: main.ts:248112
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246147
 
 #### Returns
 
-[`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+`AppendixTaskGetProductGoogleMerchantPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246147
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246142
+Defined in: main.ts:248107
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246142
 
 > `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246143
+Defined in: main.ts:248108
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246143
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246156
+Defined in: main.ts:248121
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:246156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246174
+Defined in: main.ts:248139
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:246174
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixTaskGetProductGoogleMerchantPriceDataInfo`
 
-Defined in: main.ts:246167
+Defined in: main.ts:248132
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:246167
 
 #### Returns
 
-[`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+`AppendixTaskGetProductGoogleMerchantPriceDataInfo`

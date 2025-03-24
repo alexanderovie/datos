@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonSellerItemSerpElementItem
 
-Defined in: main.ts:205443
+Defined in: main.ts:207852
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:205443
 
 ## Constructors
 
-### new AmazonAmazonSellerItemSerpElementItem()
+### Constructor
 
-> **new AmazonAmazonSellerItemSerpElementItem**(`data`?): [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
+> **new AmazonAmazonSellerItemSerpElementItem**(`data`?): `AmazonAmazonSellerItemSerpElementItem`
 
-Defined in: main.ts:205472
+Defined in: main.ts:207881
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:205472
 
 #### Returns
 
-[`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
+`AmazonAmazonSellerItemSerpElementItem`
 
 #### Overrides
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:205472
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24023
+Defined in: main.ts:24362
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24023
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:205462
+Defined in: main.ts:207871
 
 product condition
 condition of the product offered by the seller
@@ -75,7 +75,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:205465
+Defined in: main.ts:207874
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -90,7 +90,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:205468
+Defined in: main.ts:207877
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -105,7 +105,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:205447
+Defined in: main.ts:207856
 
 alignment of the element in SERP
 possible values:
@@ -121,7 +121,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:205456
+Defined in: main.ts:207865
 
 product pricing details
 if there are no details, the value will be null
@@ -136,7 +136,7 @@ if there are no details, the value will be null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24019
+Defined in: main.ts:24358
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24016
+Defined in: main.ts:24355
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:205459
+Defined in: main.ts:207868
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:205449
+Defined in: main.ts:207858
 
 business name of the seller
 
@@ -203,7 +203,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:205451
+Defined in: main.ts:207860
 
 url forwarding to the seller’s page on Amazon
 
@@ -217,7 +217,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:205453
+Defined in: main.ts:207862
 
 sender company name
 
@@ -231,7 +231,7 @@ sender company name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24013
+Defined in: main.ts:24352
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24021
+Defined in: main.ts:24360
 
 the XPath of the element
 
@@ -267,7 +267,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205477
+Defined in: main.ts:207886
 
 #### Parameters
 
@@ -289,7 +289,7 @@ Defined in: main.ts:205477
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205503
+Defined in: main.ts:207912
 
 #### Parameters
 
@@ -309,9 +309,9 @@ Defined in: main.ts:205503
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `AmazonAmazonSellerItemSerpElementItem`
 
-Defined in: main.ts:205496
+Defined in: main.ts:207905
 
 #### Parameters
 
@@ -321,7 +321,7 @@ Defined in: main.ts:205496
 
 #### Returns
 
-[`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
+`AmazonAmazonSellerItemSerpElementItem`
 
 #### Overrides
 

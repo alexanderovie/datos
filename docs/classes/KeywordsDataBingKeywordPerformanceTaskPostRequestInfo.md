@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
-Defined in: main.ts:153955
+Defined in: main.ts:156364
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:153955
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo()
+### Constructor
 
-> **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+> **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data`?): `KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
 
-Defined in: main.ts:154043
+Defined in: main.ts:156452
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:154043
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154043
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:153968
+Defined in: main.ts:156377
 
 device type
 optional field
@@ -57,7 +57,7 @@ default value: all
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:153963
+Defined in: main.ts:156372
 
 keywords
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:154011
+Defined in: main.ts:156420
 
 search engine language code
 required field if you don’t specify language_name
@@ -95,7 +95,7 @@ example:
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:154005
+Defined in: main.ts:156414
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -114,7 +114,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:153990
+Defined in: main.ts:156399
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -133,7 +133,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:153998
+Defined in: main.ts:156407
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -153,7 +153,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:153983
+Defined in: main.ts:156392
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -172,7 +172,7 @@ example:
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:153976
+Defined in: main.ts:156385
 
 keywords match type
 optional field
@@ -192,7 +192,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:154033
+Defined in: main.ts:156442
 
 notification URL of a completed task
 optional field
@@ -215,7 +215,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:154022
+Defined in: main.ts:156431
 
 return URL for sending task results
 optional field
@@ -238,7 +238,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154039
+Defined in: main.ts:156448
 
 user-defined task identifier
 optional field
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154052
+Defined in: main.ts:156461
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:154052
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154083
+Defined in: main.ts:156492
 
 #### Parameters
 
@@ -290,9 +290,9 @@ Defined in: main.ts:154083
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
 
-Defined in: main.ts:154076
+Defined in: main.ts:156485
 
 #### Parameters
 
@@ -302,4 +302,4 @@ Defined in: main.ts:154076
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`

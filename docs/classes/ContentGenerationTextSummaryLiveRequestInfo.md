@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
-Defined in: main.ts:192683
+Defined in: main.ts:195092
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:192683
 
 ## Constructors
 
-### new ContentGenerationTextSummaryLiveRequestInfo()
+### Constructor
 
-> **new ContentGenerationTextSummaryLiveRequestInfo**(`data`?): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+> **new ContentGenerationTextSummaryLiveRequestInfo**(`data`?): `ContentGenerationTextSummaryLiveRequestInfo`
 
-Defined in: main.ts:192711
+Defined in: main.ts:195120
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:192711
 
 #### Returns
 
-[`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+`ContentGenerationTextSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192711
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:192701
+Defined in: main.ts:195110
 
 maximum number of elements within internal arrays
 optional field
@@ -57,7 +57,7 @@ default value: 10
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:192696
+Defined in: main.ts:195105
 
 code of the text language
 required field if you do not specify language_name
@@ -73,7 +73,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:192692
+Defined in: main.ts:195101
 
 name of the text language
 required field if you do not specify language_code
@@ -89,7 +89,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:192707
+Defined in: main.ts:195116
 
 user-defined task identifier
 optional field
@@ -107,7 +107,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:192688
+Defined in: main.ts:195097
 
 target text
 required field
@@ -124,7 +124,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192720
+Defined in: main.ts:195129
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:192720
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192741
+Defined in: main.ts:195150
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:192741
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationTextSummaryLiveRequestInfo`
 
-Defined in: main.ts:192734
+Defined in: main.ts:195143
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:192734
 
 #### Returns
 
-[`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+`ContentGenerationTextSummaryLiveRequestInfo`

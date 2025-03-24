@@ -6,7 +6,7 @@
 
 # Class: BaseMerchantSerpElementItem
 
-Defined in: main.ts:22513
+Defined in: main.ts:22852
 
 ## Extended by
 
@@ -25,11 +25,11 @@ Defined in: main.ts:22513
 
 ## Constructors
 
-### new BaseMerchantSerpElementItem()
+### Constructor
 
-> **new BaseMerchantSerpElementItem**(`data`?): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+> **new BaseMerchantSerpElementItem**(`data`?): `BaseMerchantSerpElementItem`
 
-Defined in: main.ts:22529
+Defined in: main.ts:22868
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: main.ts:22529
 
 #### Returns
 
-[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+`BaseMerchantSerpElementItem`
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: main.ts:22529
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22527
+Defined in: main.ts:22866
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: main.ts:22527
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22525
+Defined in: main.ts:22864
 
 alignment of the element in SERP
 can take the following values:
@@ -71,7 +71,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22521
+Defined in: main.ts:22860
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -86,7 +86,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22518
+Defined in: main.ts:22857
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22515
+Defined in: main.ts:22854
 
 type of element
 
@@ -115,7 +115,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22539
+Defined in: main.ts:22878
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:22539
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22595
+Defined in: main.ts:22934
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:22595
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseMerchantSerpElementItem`
 
-Defined in: main.ts:22548
+Defined in: main.ts:22887
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:22548
 
 #### Returns
 
-[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+`BaseMerchantSerpElementItem`

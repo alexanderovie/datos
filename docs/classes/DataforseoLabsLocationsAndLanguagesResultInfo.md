@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:100759
+Defined in: main.ts:102662
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:100759
 
 ## Constructors
 
-### new DataforseoLabsLocationsAndLanguagesResultInfo()
+### Constructor
 
-> **new DataforseoLabsLocationsAndLanguagesResultInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+> **new DataforseoLabsLocationsAndLanguagesResultInfo**(`data`?): `DataforseoLabsLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:100779
+Defined in: main.ts:102682
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:100779
 
 #### Returns
 
-[`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+`DataforseoLabsLocationsAndLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100779
 
 > `optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
 
-Defined in: main.ts:100775
+Defined in: main.ts:102678
 
 supported languages
 contains the languages which are supported for a specific location
@@ -55,7 +55,7 @@ contains the languages which are supported for a specific location
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:100768
+Defined in: main.ts:102671
 
 ISO country code of the location
 
@@ -69,7 +69,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:100761
+Defined in: main.ts:102664
 
 location code
 
@@ -83,7 +83,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:100766
+Defined in: main.ts:102669
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -98,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:100763
+Defined in: main.ts:102666
 
 full name of the location
 
@@ -112,7 +112,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:100772
+Defined in: main.ts:102675
 
 location type
 possible values:
@@ -128,7 +128,7 @@ Country
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100788
+Defined in: main.ts:102691
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:100788
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100814
+Defined in: main.ts:102717
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:100814
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:100807
+Defined in: main.ts:102710
 
 #### Parameters
 
@@ -174,4 +174,4 @@ Defined in: main.ts:100807
 
 #### Returns
 
-[`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
+`DataforseoLabsLocationsAndLanguagesResultInfo`

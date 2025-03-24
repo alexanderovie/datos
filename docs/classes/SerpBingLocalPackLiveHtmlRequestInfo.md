@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveHtmlRequestInfo
 
-Defined in: main.ts:70898
+Defined in: main.ts:71325
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:70898
 
 ## Constructors
 
-### new SerpBingLocalPackLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpBingLocalPackLiveHtmlRequestInfo**(`data`?): [`SerpBingLocalPackLiveHtmlRequestInfo`](SerpBingLocalPackLiveHtmlRequestInfo.md)
+> **new SerpBingLocalPackLiveHtmlRequestInfo**(`data`?): `SerpBingLocalPackLiveHtmlRequestInfo`
 
-Defined in: main.ts:70991
+Defined in: main.ts:71418
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:70991
 
 #### Returns
 
-[`SerpBingLocalPackLiveHtmlRequestInfo`](SerpBingLocalPackLiveHtmlRequestInfo.md)
+`SerpBingLocalPackLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:70991
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:70970
+Defined in: main.ts:71397
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:70954
+Defined in: main.ts:71381
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:70913
+Defined in: main.ts:71340
 
 keyword
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:70949
+Defined in: main.ts:71376
 
 search engine language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:70942
+Defined in: main.ts:71369
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -137,7 +137,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:70927
+Defined in: main.ts:71354
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:70935
+Defined in: main.ts:71362
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -176,7 +176,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:70920
+Defined in: main.ts:71347
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:70977
+Defined in: main.ts:71404
 
 page crawl limit
 optional field
@@ -214,7 +214,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:70961
+Defined in: main.ts:71388
 
 device operating system
 optional field
@@ -233,7 +233,7 @@ default value: android
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:70981
+Defined in: main.ts:71408
 
 additional parameters of the search query
 optional field
@@ -249,7 +249,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:70987
+Defined in: main.ts:71414
 
 user-defined task identifier
 optional field
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:70904
+Defined in: main.ts:71331
 
 direct URL of the search query
 optional field
@@ -285,7 +285,7 @@ https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71000
+Defined in: main.ts:71427
 
 #### Parameters
 
@@ -303,7 +303,7 @@ Defined in: main.ts:71000
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71029
+Defined in: main.ts:71456
 
 #### Parameters
 
@@ -319,9 +319,9 @@ Defined in: main.ts:71029
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLocalPackLiveHtmlRequestInfo`](SerpBingLocalPackLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLocalPackLiveHtmlRequestInfo`
 
-Defined in: main.ts:71022
+Defined in: main.ts:71449
 
 #### Parameters
 
@@ -331,4 +331,4 @@ Defined in: main.ts:71022
 
 #### Returns
 
-[`SerpBingLocalPackLiveHtmlRequestInfo`](SerpBingLocalPackLiveHtmlRequestInfo.md)
+`SerpBingLocalPackLiveHtmlRequestInfo`

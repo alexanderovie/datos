@@ -6,7 +6,7 @@
 
 # Interface: IOnPageWaterfallRequestInfo
 
-Defined in: main.ts:180258
+Defined in: main.ts:182667
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180258
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:180264
+Defined in: main.ts:182673
 
 ID of the task
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180274
+Defined in: main.ts:182683
 
 user-defined task identifier
 optional field
@@ -46,7 +46,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:180268
+Defined in: main.ts:182677
 
 page URL
 required field

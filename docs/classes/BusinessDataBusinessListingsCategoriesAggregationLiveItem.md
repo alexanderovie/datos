@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
-Defined in: main.ts:221521
+Defined in: main.ts:223930
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:221521
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesAggregationLiveItem()
+### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): `BusinessDataBusinessListingsCategoriesAggregationLiveItem`
 
-Defined in: main.ts:221532
+Defined in: main.ts:223941
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:221532
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221532
 
 > `optional` **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:221528
+Defined in: main.ts:223937
 
 aggregation of the category
 
@@ -54,7 +54,7 @@ aggregation of the category
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:221526
+Defined in: main.ts:223935
 
 business categories
 Google My Business general category that best describes the cluster of related categories
@@ -69,7 +69,7 @@ Google My Business general category that best describes the cluster of related c
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:221523
+Defined in: main.ts:223932
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221541
+Defined in: main.ts:223950
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:221541
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221564
+Defined in: main.ts:223973
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:221564
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesAggregationLiveItem`
 
-Defined in: main.ts:221557
+Defined in: main.ts:223966
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:221557
 
 #### Returns
 
-[`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+`BusinessDataBusinessListingsCategoriesAggregationLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: OnPagePageScreenshotResultInfo
 
-Defined in: main.ts:182165
+Defined in: main.ts:184574
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182165
 
 ## Constructors
 
-### new OnPagePageScreenshotResultInfo()
+### Constructor
 
-> **new OnPagePageScreenshotResultInfo**(`data`?): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+> **new OnPagePageScreenshotResultInfo**(`data`?): `OnPagePageScreenshotResultInfo`
 
-Defined in: main.ts:182180
+Defined in: main.ts:184589
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182180
 
 #### Returns
 
-[`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+`OnPagePageScreenshotResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182180
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:182168
+Defined in: main.ts:184577
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:182172
+Defined in: main.ts:184581
 
 error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain "error_message":"Screenshot is empty"
@@ -71,7 +71,7 @@ if no error is encountered, the value will be null
 
 > `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
-Defined in: main.ts:182176
+Defined in: main.ts:184585
 
 items array
 
@@ -85,7 +85,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:182174
+Defined in: main.ts:184583
 
 number of items in the results array
 
@@ -99,7 +99,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182189
+Defined in: main.ts:184598
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:182189
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182213
+Defined in: main.ts:184622
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:182213
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+> `static` **fromJS**(`data`): `OnPagePageScreenshotResultInfo`
 
-Defined in: main.ts:182206
+Defined in: main.ts:184615
 
 #### Parameters
 
@@ -145,4 +145,4 @@ Defined in: main.ts:182206
 
 #### Returns
 
-[`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+`OnPagePageScreenshotResultInfo`

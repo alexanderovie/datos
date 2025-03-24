@@ -6,7 +6,7 @@
 
 # Class: AppendixAKeywordsDataPriceDataInfo
 
-Defined in: main.ts:245513
+Defined in: main.ts:247478
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245513
 
 ## Constructors
 
-### new AppendixAKeywordsDataPriceDataInfo()
+### Constructor
 
-> **new AppendixAKeywordsDataPriceDataInfo**(`data`?): [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
+> **new AppendixAKeywordsDataPriceDataInfo**(`data`?): `AppendixAKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245519
+Defined in: main.ts:247484
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245519
 
 #### Returns
 
-[`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
+`AppendixAKeywordsDataPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245519
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245514
+Defined in: main.ts:247479
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245514
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245515
+Defined in: main.ts:247480
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245515
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245528
+Defined in: main.ts:247493
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:245528
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245546
+Defined in: main.ts:247511
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:245546
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixAKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:245539
+Defined in: main.ts:247504
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:245539
 
 #### Returns
 
-[`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
+`AppendixAKeywordsDataPriceDataInfo`

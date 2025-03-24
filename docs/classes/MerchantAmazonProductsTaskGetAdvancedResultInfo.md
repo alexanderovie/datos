@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:202217
+Defined in: main.ts:204626
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:202217
 
 ## Constructors
 
-### new MerchantAmazonProductsTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new MerchantAmazonProductsTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+> **new MerchantAmazonProductsTaskGetAdvancedResultInfo**(`data`?): `MerchantAmazonProductsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:202256
+Defined in: main.ts:204665
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:202256
 
 #### Returns
 
-[`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+`MerchantAmazonProductsTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202256
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:202248
+Defined in: main.ts:204657
 
 amazon product departments and subcategories
 
@@ -54,7 +54,7 @@ amazon product departments and subcategories
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:202231
+Defined in: main.ts:204640
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:202236
+Defined in: main.ts:204645
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:202244
+Defined in: main.ts:204653
 
 types of search results found in Amazon SERP
 contains types of all search results (items) found in the returned SERP
@@ -103,7 +103,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:202252
+Defined in: main.ts:204661
 
 Amazon product items within the editorial_recommendations element
 
@@ -117,7 +117,7 @@ Amazon product items within the editorial_recommendations element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:202250
+Defined in: main.ts:204659
 
 the number of results returned in the items array
 
@@ -131,7 +131,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:202220
+Defined in: main.ts:204629
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -146,7 +146,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202228
+Defined in: main.ts:204637
 
 language code in a POST array
 
@@ -160,7 +160,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202226
+Defined in: main.ts:204635
 
 location code in a POST array
 
@@ -174,7 +174,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202224
+Defined in: main.ts:204633
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:202246
+Defined in: main.ts:204655
 
 search engine results count
 
@@ -202,7 +202,7 @@ search engine results count
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:202239
+Defined in: main.ts:204648
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:202222
+Defined in: main.ts:204631
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202265
+Defined in: main.ts:204674
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:202265
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202306
+Defined in: main.ts:204715
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:202306
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonProductsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:202299
+Defined in: main.ts:204708
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:202299
 
 #### Returns
 
-[`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+`MerchantAmazonProductsTaskGetAdvancedResultInfo`

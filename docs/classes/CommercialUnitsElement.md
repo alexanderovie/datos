@@ -6,7 +6,7 @@
 
 # Class: CommercialUnitsElement
 
-Defined in: main.ts:37872
+Defined in: main.ts:38299
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:37872
 
 ## Constructors
 
-### new CommercialUnitsElement()
+### Constructor
 
-> **new CommercialUnitsElement**(`data`?): [`CommercialUnitsElement`](CommercialUnitsElement.md)
+> **new CommercialUnitsElement**(`data`?): `CommercialUnitsElement`
 
-Defined in: main.ts:37892
+Defined in: main.ts:38319
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:37892
 
 #### Returns
 
-[`CommercialUnitsElement`](CommercialUnitsElement.md)
+`CommercialUnitsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37892
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37880
+Defined in: main.ts:38307
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:37882
+Defined in: main.ts:38309
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:37888
+Defined in: main.ts:38315
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37885
+Defined in: main.ts:38312
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -98,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37876
+Defined in: main.ts:38303
 
 title of a given link element
 
@@ -112,7 +112,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37874
+Defined in: main.ts:38301
 
 type of element
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37878
+Defined in: main.ts:38305
 
 URL
 
@@ -140,7 +140,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37901
+Defined in: main.ts:38328
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:37901
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37924
+Defined in: main.ts:38351
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:37924
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
+> `static` **fromJS**(`data`): `CommercialUnitsElement`
 
-Defined in: main.ts:37917
+Defined in: main.ts:38344
 
 #### Parameters
 
@@ -186,4 +186,4 @@ Defined in: main.ts:37917
 
 #### Returns
 
-[`CommercialUnitsElement`](CommercialUnitsElement.md)
+`CommercialUnitsElement`

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
-Defined in: main.ts:236907
+Defined in: main.ts:239316
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:236907
 
 ## Constructors
 
-### new BusinessDataTripadvisorLanguagesResultInfo()
+### Constructor
 
-> **new BusinessDataTripadvisorLanguagesResultInfo**(`data`?): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+> **new BusinessDataTripadvisorLanguagesResultInfo**(`data`?): `BusinessDataTripadvisorLanguagesResultInfo`
 
-Defined in: main.ts:236915
+Defined in: main.ts:239324
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:236915
 
 #### Returns
 
-[`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+`BusinessDataTripadvisorLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236915
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:236911
+Defined in: main.ts:239320
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:236909
+Defined in: main.ts:239318
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236924
+Defined in: main.ts:239333
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:236924
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236942
+Defined in: main.ts:239351
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:236942
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTripadvisorLanguagesResultInfo`
 
-Defined in: main.ts:236935
+Defined in: main.ts:239344
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:236935
 
 #### Returns
 
-[`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
+`BusinessDataTripadvisorLanguagesResultInfo`

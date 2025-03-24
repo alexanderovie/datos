@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataDayStatisticsDataInfo
 
-Defined in: main.ts:242739
+Defined in: main.ts:245152
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:242739
 
 ## Constructors
 
-### new AppendixBingKeywordsDataDayStatisticsDataInfo()
+### Constructor
 
-> **new AppendixBingKeywordsDataDayStatisticsDataInfo**(`data`?): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
+> **new AppendixBingKeywordsDataDayStatisticsDataInfo**(`data`?): `AppendixBingKeywordsDataDayStatisticsDataInfo`
 
-Defined in: main.ts:242750
+Defined in: main.ts:245163
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:242750
 
 #### Returns
 
-[`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
+`AppendixBingKeywordsDataDayStatisticsDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242750
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242744
+Defined in: main.ts:245157
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242744
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242740
+Defined in: main.ts:245153
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:242740
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242745
+Defined in: main.ts:245158
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:242745
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242743
+Defined in: main.ts:245156
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:242743
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242742
+Defined in: main.ts:245155
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:242742
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242741
+Defined in: main.ts:245154
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:242741
 
 > `optional` **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242746
+Defined in: main.ts:245159
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:242746
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:242759
+Defined in: main.ts:245172
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:242759
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:242782
+Defined in: main.ts:245195
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:242782
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixBingKeywordsDataDayStatisticsDataInfo`
 
-Defined in: main.ts:242775
+Defined in: main.ts:245188
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:242775
 
 #### Returns
 
-[`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
+`AppendixBingKeywordsDataDayStatisticsDataInfo`

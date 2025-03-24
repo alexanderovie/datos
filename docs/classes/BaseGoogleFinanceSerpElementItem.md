@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleFinanceSerpElementItem
 
-Defined in: main.ts:22137
+Defined in: main.ts:22343
 
 ## Extended by
 
@@ -24,11 +24,11 @@ Defined in: main.ts:22137
 
 ## Constructors
 
-### new BaseGoogleFinanceSerpElementItem()
+### Constructor
 
-> **new BaseGoogleFinanceSerpElementItem**(`data`?): [`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)
+> **new BaseGoogleFinanceSerpElementItem**(`data`?): `BaseGoogleFinanceSerpElementItem`
 
-Defined in: main.ts:22143
+Defined in: main.ts:22349
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: main.ts:22143
 
 #### Returns
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)
+`BaseGoogleFinanceSerpElementItem`
 
 ## Properties
 
@@ -46,7 +46,7 @@ Defined in: main.ts:22143
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: main.ts:22141
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22153
+Defined in: main.ts:22359
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:22153
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22201
+Defined in: main.ts:22407
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:22201
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseGoogleFinanceSerpElementItem`
 
-Defined in: main.ts:22159
+Defined in: main.ts:22365
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:22159
 
 #### Returns
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md)
+`BaseGoogleFinanceSerpElementItem`

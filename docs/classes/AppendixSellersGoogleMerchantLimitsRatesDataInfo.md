@@ -6,7 +6,7 @@
 
 # Class: AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:240907
+Defined in: main.ts:243320
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:240907
 
 ## Constructors
 
-### new AppendixSellersGoogleMerchantLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixSellersGoogleMerchantLimitsRatesDataInfo**(`data`?): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+> **new AppendixSellersGoogleMerchantLimitsRatesDataInfo**(`data`?): `AppendixSellersGoogleMerchantLimitsRatesDataInfo`
 
-Defined in: main.ts:240915
+Defined in: main.ts:243328
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:240915
 
 #### Returns
 
-[`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+`AppendixSellersGoogleMerchantLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240915
 
 > `optional` **ad\_url**: `number`
 
-Defined in: main.ts:240911
+Defined in: main.ts:243324
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:240911
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-Defined in: main.ts:240910
+Defined in: main.ts:243323
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:240910
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:240908
+Defined in: main.ts:243321
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:240908
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:240909
+Defined in: main.ts:243322
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:240909
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:240924
+Defined in: main.ts:243337
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:240924
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:240944
+Defined in: main.ts:243357
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:240944
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixSellersGoogleMerchantLimitsRatesDataInfo`
 
-Defined in: main.ts:240937
+Defined in: main.ts:243350
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:240937
 
 #### Returns
 
-[`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+`AppendixSellersGoogleMerchantLimitsRatesDataInfo`

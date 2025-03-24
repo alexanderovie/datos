@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkBacklinksLiveResultInfo
 
-Defined in: main.ts:170279
+Defined in: main.ts:172688
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170279
 
 ## Constructors
 
-### new BacklinksBulkBacklinksLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+> **new BacklinksBulkBacklinksLiveResultInfo**(`data`?): `BacklinksBulkBacklinksLiveResultInfo`
 
-Defined in: main.ts:170287
+Defined in: main.ts:172696
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170287
 
 #### Returns
 
-[`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+`BacklinksBulkBacklinksLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170287
 
 > `optional` **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
 
-Defined in: main.ts:170283
+Defined in: main.ts:172692
 
 contains relevant backlink data
 
@@ -54,7 +54,7 @@ contains relevant backlink data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170281
+Defined in: main.ts:172690
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170296
+Defined in: main.ts:172705
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:170296
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170318
+Defined in: main.ts:172727
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:170318
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkBacklinksLiveResultInfo`
 
-Defined in: main.ts:170311
+Defined in: main.ts:172720
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:170311
 
 #### Returns
 
-[`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+`BacklinksBulkBacklinksLiveResultInfo`

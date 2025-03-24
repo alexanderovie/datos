@@ -6,7 +6,7 @@
 
 # Class: AmazonMetricsBundleInfo
 
-Defined in: main.ts:123261
+Defined in: main.ts:125662
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:123261
 
 ## Constructors
 
-### new AmazonMetricsBundleInfo()
+### Constructor
 
-> **new AmazonMetricsBundleInfo**(`data`?): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> **new AmazonMetricsBundleInfo**(`data`?): `AmazonMetricsBundleInfo`
 
-Defined in: main.ts:123269
+Defined in: main.ts:125670
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:123269
 
 #### Returns
 
-[`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+`AmazonMetricsBundleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123269
 
 > `optional` **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:123265
+Defined in: main.ts:125666
 
 ranking data from Amazon paid SERP
 
@@ -54,7 +54,7 @@ ranking data from Amazon paid SERP
 
 > `optional` **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:123263
+Defined in: main.ts:125664
 
 ranking data from Amazon organic SERP
 
@@ -68,7 +68,7 @@ ranking data from Amazon organic SERP
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123278
+Defined in: main.ts:125679
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:123278
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123296
+Defined in: main.ts:125697
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:123296
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): `AmazonMetricsBundleInfo`
 
-Defined in: main.ts:123289
+Defined in: main.ts:125690
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:123289
 
 #### Returns
 
-[`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+`AmazonMetricsBundleInfo`

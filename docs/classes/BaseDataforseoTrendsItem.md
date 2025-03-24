@@ -6,7 +6,7 @@
 
 # Class: BaseDataforseoTrendsItem
 
-Defined in: main.ts:23592
+Defined in: main.ts:23931
 
 ## Extended by
 
@@ -20,11 +20,11 @@ Defined in: main.ts:23592
 
 ## Constructors
 
-### new BaseDataforseoTrendsItem()
+### Constructor
 
-> **new BaseDataforseoTrendsItem**(`data`?): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+> **new BaseDataforseoTrendsItem**(`data`?): `BaseDataforseoTrendsItem`
 
-Defined in: main.ts:23604
+Defined in: main.ts:23943
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:23604
 
 #### Returns
 
-[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+`BaseDataforseoTrendsItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:23604
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23602
+Defined in: main.ts:23941
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:23602
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23600
+Defined in: main.ts:23939
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -65,7 +65,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23597
+Defined in: main.ts:23936
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -80,7 +80,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23594
+Defined in: main.ts:23933
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23614
+Defined in: main.ts:23953
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:23614
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23648
+Defined in: main.ts:23987
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:23648
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+> `static` **fromJS**(`data`): `BaseDataforseoTrendsItem`
 
-Defined in: main.ts:23626
+Defined in: main.ts:23965
 
 #### Parameters
 
@@ -140,4 +140,4 @@ Defined in: main.ts:23626
 
 #### Returns
 
-[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+`BaseDataforseoTrendsItem`

@@ -6,7 +6,7 @@
 
 # Interface: IContacts
 
-Defined in: main.ts:182692
+Defined in: main.ts:185101
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:182692
 
 > `optional` **telephones**: `string`[]
 
-Defined in: main.ts:182694
+Defined in: main.ts:185103
 
 array of telephone numbers

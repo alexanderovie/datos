@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
 
-Defined in: main.ts:130095
+Defined in: main.ts:132496
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:130095
 
 ## Constructors
 
-### new DataforseoLabsBingSubdomainsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+> **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): `DataforseoLabsBingSubdomainsLiveResultInfo`
 
-Defined in: main.ts:130113
+Defined in: main.ts:132514
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:130113
 
 #### Returns
 
-[`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+`DataforseoLabsBingSubdomainsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:130113
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
-Defined in: main.ts:130109
+Defined in: main.ts:132510
 
 contains subdomains and related data
 
@@ -54,7 +54,7 @@ contains subdomains and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:130107
+Defined in: main.ts:132508
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:130103
+Defined in: main.ts:132504
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:130101
+Defined in: main.ts:132502
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:130097
+Defined in: main.ts:132498
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:130099
+Defined in: main.ts:132500
 
 domain in a POST array
 
@@ -124,7 +124,7 @@ domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:130105
+Defined in: main.ts:132506
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:130122
+Defined in: main.ts:132523
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:130122
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:130149
+Defined in: main.ts:132550
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:130149
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingSubdomainsLiveResultInfo`
 
-Defined in: main.ts:130142
+Defined in: main.ts:132543
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:130142
 
 #### Returns
 
-[`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
+`DataforseoLabsBingSubdomainsLiveResultInfo`

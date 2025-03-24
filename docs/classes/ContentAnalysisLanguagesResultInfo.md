@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLanguagesResultInfo
 
-Defined in: main.ts:186313
+Defined in: main.ts:188722
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:186313
 
 ## Constructors
 
-### new ContentAnalysisLanguagesResultInfo()
+### Constructor
 
-> **new ContentAnalysisLanguagesResultInfo**(`data`?): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+> **new ContentAnalysisLanguagesResultInfo**(`data`?): `ContentAnalysisLanguagesResultInfo`
 
-Defined in: main.ts:186321
+Defined in: main.ts:188730
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:186321
 
 #### Returns
 
-[`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+`ContentAnalysisLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186321
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:186317
+Defined in: main.ts:188726
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:186315
+Defined in: main.ts:188724
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186330
+Defined in: main.ts:188739
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:186330
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186348
+Defined in: main.ts:188757
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:186348
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisLanguagesResultInfo`
 
-Defined in: main.ts:186341
+Defined in: main.ts:188750
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:186341
 
 #### Returns
 
-[`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+`ContentAnalysisLanguagesResultInfo`

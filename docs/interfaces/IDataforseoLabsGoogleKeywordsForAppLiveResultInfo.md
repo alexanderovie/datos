@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
-Defined in: main.ts:131320
+Defined in: main.ts:133721
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:131320
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:131324
+Defined in: main.ts:133725
 
 id of the app in a POST array
 
@@ -28,7 +28,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordsForAppLiveItem`](../classes/DataforseoLabsGoogleKeywordsForAppLiveItem.md)[]
 
-Defined in: main.ts:131334
+Defined in: main.ts:133735
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -38,7 +38,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:131332
+Defined in: main.ts:133733
 
 the number of results returned in the items array
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131328
+Defined in: main.ts:133729
 
 language code in a POST array
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131326
+Defined in: main.ts:133727
 
 location code in a POST array
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:131322
+Defined in: main.ts:133723
 
 search engine type
 
@@ -78,6 +78,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:131330
+Defined in: main.ts:133731
 
 total amount of results in our database relevant to your request

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 
-Defined in: main.ts:247257
+Defined in: main.ts:249222
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247257
 
 > `optional` **facebook**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247258
+Defined in: main.ts:249223
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247258
 
 > `optional` **pinterest**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247259
+Defined in: main.ts:249224
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:247259
 
 > `optional` **reddit**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247260
+Defined in: main.ts:249225

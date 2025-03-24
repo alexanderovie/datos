@@ -6,7 +6,7 @@
 
 # Class: AiOverviewElement
 
-Defined in: main.ts:32442
+Defined in: main.ts:32869
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:32442
 
 ## Constructors
 
-### new AiOverviewElement()
+### Constructor
 
-> **new AiOverviewElement**(`data`?): [`AiOverviewElement`](AiOverviewElement.md)
+> **new AiOverviewElement**(`data`?): `AiOverviewElement`
 
-Defined in: main.ts:32456
+Defined in: main.ts:32883
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:32456
 
 #### Returns
 
-[`AiOverviewElement`](AiOverviewElement.md)
+`AiOverviewElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32456
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:32450
+Defined in: main.ts:32877
 
 images of the element
 
@@ -54,7 +54,7 @@ images of the element
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:32452
+Defined in: main.ts:32879
 
 references relevant to the element
 
@@ -68,7 +68,7 @@ references relevant to the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:32448
+Defined in: main.ts:32875
 
 description content
 
@@ -82,7 +82,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32446
+Defined in: main.ts:32873
 
 title of the element
 
@@ -96,7 +96,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32444
+Defined in: main.ts:32871
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32465
+Defined in: main.ts:32892
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:32465
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32494
+Defined in: main.ts:32921
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:32494
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AiOverviewElement`](AiOverviewElement.md)
+> `static` **fromJS**(`data`): `AiOverviewElement`
 
-Defined in: main.ts:32487
+Defined in: main.ts:32914
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:32487
 
 #### Returns
 
-[`AiOverviewElement`](AiOverviewElement.md)
+`AiOverviewElement`

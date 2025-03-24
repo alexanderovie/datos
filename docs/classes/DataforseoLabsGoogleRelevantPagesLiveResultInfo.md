@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
-Defined in: main.ts:114171
+Defined in: main.ts:115476
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:114171
 
 ## Constructors
 
-### new DataforseoLabsGoogleRelevantPagesLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+> **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): `DataforseoLabsGoogleRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:114191
+Defined in: main.ts:115496
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:114191
 
 #### Returns
 
-[`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+`DataforseoLabsGoogleRelevantPagesLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114191
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:114187
+Defined in: main.ts:115492
 
 relevant pages and related data
 
@@ -54,7 +54,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:114185
+Defined in: main.ts:115490
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114181
+Defined in: main.ts:115486
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114178
+Defined in: main.ts:115483
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:114173
+Defined in: main.ts:115478
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:114175
+Defined in: main.ts:115480
 
 target domain in a POST array
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:114183
+Defined in: main.ts:115488
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114200
+Defined in: main.ts:115505
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:114200
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114227
+Defined in: main.ts:115532
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:114227
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:114220
+Defined in: main.ts:115525
 
 #### Parameters
 
@@ -186,4 +186,4 @@ Defined in: main.ts:114220
 
 #### Returns
 
-[`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+`DataforseoLabsGoogleRelevantPagesLiveResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveItem
 
-Defined in: main.ts:132412
+Defined in: main.ts:134813
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:132412
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:132420
+Defined in: main.ts:134821
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -34,7 +34,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:132416
+Defined in: main.ts:134817
 
 keyword data for the returned keyword
 
@@ -44,6 +44,6 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132414
+Defined in: main.ts:134815
 
 search engine type

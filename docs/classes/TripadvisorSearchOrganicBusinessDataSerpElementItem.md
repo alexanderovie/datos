@@ -6,7 +6,7 @@
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:237557
+Defined in: main.ts:239966
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:237557
 
 ## Constructors
 
-### new TripadvisorSearchOrganicBusinessDataSerpElementItem()
+### Constructor
 
-> **new TripadvisorSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+> **new TripadvisorSearchOrganicBusinessDataSerpElementItem**(`data`?): `TripadvisorSearchOrganicBusinessDataSerpElementItem`
 
-Defined in: main.ts:237578
+Defined in: main.ts:239987
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:237578
 
 #### Returns
 
-[`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+`TripadvisorSearchOrganicBusinessDataSerpElementItem`
 
 #### Overrides
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:237578
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23016
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:237570
+Defined in: main.ts:239979
 
 place category
 
@@ -74,7 +74,7 @@ place category
 
 > `optional` **is\_sponsored**: `boolean`
 
-Defined in: main.ts:237566
+Defined in: main.ts:239975
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
@@ -89,7 +89,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 > `optional` **price\_rate**: `string`
 
-Defined in: main.ts:237572
+Defined in: main.ts:239981
 
 average price rate
 
@@ -103,7 +103,7 @@ average price rate
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -121,7 +121,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -140,7 +140,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:237574
+Defined in: main.ts:239983
 
 the rating score of the establishment submitted by the reviewers
 
@@ -154,7 +154,7 @@ the rating score of the establishment submitted by the reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:237568
+Defined in: main.ts:239977
 
 the total number of reviews
 
@@ -168,7 +168,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:237559
+Defined in: main.ts:239968
 
 name of the business entity
 
@@ -182,7 +182,7 @@ name of the business entity
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -200,7 +200,7 @@ type of element
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:237563
+Defined in: main.ts:239972
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity
@@ -216,7 +216,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237583
+Defined in: main.ts:239992
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:237583
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237607
+Defined in: main.ts:240016
 
 #### Parameters
 
@@ -258,9 +258,9 @@ Defined in: main.ts:237607
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `TripadvisorSearchOrganicBusinessDataSerpElementItem`
 
-Defined in: main.ts:237600
+Defined in: main.ts:240009
 
 #### Parameters
 
@@ -270,7 +270,7 @@ Defined in: main.ts:237600
 
 #### Returns
 
-[`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+`TripadvisorSearchOrganicBusinessDataSerpElementItem`
 
 #### Overrides
 

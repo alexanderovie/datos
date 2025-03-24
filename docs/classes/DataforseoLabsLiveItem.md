@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLiveItem
 
-Defined in: main.ts:110833
+Defined in: main.ts:112138
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:110833
 
 ## Constructors
 
-### new DataforseoLabsLiveItem()
+### Constructor
 
-> **new DataforseoLabsLiveItem**(`data`?): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
+> **new DataforseoLabsLiveItem**(`data`?): `DataforseoLabsLiveItem`
 
-Defined in: main.ts:110843
+Defined in: main.ts:112148
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:110843
 
 #### Returns
 
-[`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
+`DataforseoLabsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110843
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:110837
+Defined in: main.ts:112142
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
 
-Defined in: main.ts:110839
+Defined in: main.ts:112144
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110835
+Defined in: main.ts:112140
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110852
+Defined in: main.ts:112157
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:110852
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110871
+Defined in: main.ts:112176
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:110871
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsLiveItem`
 
-Defined in: main.ts:110864
+Defined in: main.ts:112169
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:110864
 
 #### Returns
 
-[`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
+`DataforseoLabsLiveItem`

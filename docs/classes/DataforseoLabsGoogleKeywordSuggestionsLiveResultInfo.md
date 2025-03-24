@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
-Defined in: main.ts:103977
+Defined in: main.ts:105798
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:103977
 
 ## Constructors
 
-### new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+> **new DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo**(`data`?): `DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`
 
-Defined in: main.ts:104006
+Defined in: main.ts:105827
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:104006
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104006
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:104002
+Defined in: main.ts:105823
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:103994
+Defined in: main.ts:105815
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:103990
+Defined in: main.ts:105811
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:103987
+Defined in: main.ts:105808
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:103996
+Defined in: main.ts:105817
 
 current offset value
 
@@ -112,7 +112,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:104000
+Defined in: main.ts:105821
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -128,7 +128,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103979
+Defined in: main.ts:105800
 
 search engine type
 
@@ -142,7 +142,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:103981
+Defined in: main.ts:105802
 
 keyword in a POST array
 
@@ -156,7 +156,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:103984
+Defined in: main.ts:105805
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
@@ -171,7 +171,7 @@ fields in this object are identical to those of the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:103992
+Defined in: main.ts:105813
 
 total amount of results in our database relevant to your request
 
@@ -185,7 +185,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104015
+Defined in: main.ts:105836
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:104015
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104045
+Defined in: main.ts:105866
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:104045
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`
 
-Defined in: main.ts:104038
+Defined in: main.ts:105859
 
 #### Parameters
 
@@ -231,4 +231,4 @@ Defined in: main.ts:104038
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo.md)
+`DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo`

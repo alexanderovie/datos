@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreLiveResultInfo
 
-Defined in: main.ts:144419
+Defined in: main.ts:146828
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:144419
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsExploreLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreLiveResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreLiveResultInfo`](KeywordsDataGoogleTrendsExploreLiveResultInfo.md)
+> **new KeywordsDataGoogleTrendsExploreLiveResultInfo**(`data`?): `KeywordsDataGoogleTrendsExploreLiveResultInfo`
 
-Defined in: main.ts:144445
+Defined in: main.ts:146854
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:144445
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreLiveResultInfo`](KeywordsDataGoogleTrendsExploreLiveResultInfo.md)
+`KeywordsDataGoogleTrendsExploreLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144445
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:144432
+Defined in: main.ts:146841
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:144437
+Defined in: main.ts:146846
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
 
-Defined in: main.ts:144441
+Defined in: main.ts:146850
 
 items on the Google Trends page
 
@@ -86,7 +86,7 @@ items on the Google Trends page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:144439
+Defined in: main.ts:146848
 
 the number of results returned in the items array
 
@@ -100,7 +100,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:144421
+Defined in: main.ts:146830
 
 keywords in a POST array
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144429
+Defined in: main.ts:146838
 
 language code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:144426
+Defined in: main.ts:146835
 
 location code in a POST array
 if there is no data, then the value is null
@@ -144,7 +144,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:144423
+Defined in: main.ts:146832
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144454
+Defined in: main.ts:146863
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:144454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144486
+Defined in: main.ts:146895
 
 #### Parameters
 
@@ -192,9 +192,9 @@ Defined in: main.ts:144486
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveResultInfo`](KeywordsDataGoogleTrendsExploreLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreLiveResultInfo`
 
-Defined in: main.ts:144479
+Defined in: main.ts:146888
 
 #### Parameters
 
@@ -204,4 +204,4 @@ Defined in: main.ts:144479
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreLiveResultInfo`](KeywordsDataGoogleTrendsExploreLiveResultInfo.md)
+`KeywordsDataGoogleTrendsExploreLiveResultInfo`

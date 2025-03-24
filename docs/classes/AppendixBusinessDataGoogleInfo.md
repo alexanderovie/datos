@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataGoogleInfo
 
-Defined in: main.ts:241279
+Defined in: main.ts:243692
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241279
 
 ## Constructors
 
-### new AppendixBusinessDataGoogleInfo()
+### Constructor
 
-> **new AppendixBusinessDataGoogleInfo**(`data`?): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> **new AppendixBusinessDataGoogleInfo**(`data`?): `AppendixBusinessDataGoogleInfo`
 
-Defined in: main.ts:241290
+Defined in: main.ts:243703
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241290
 
 #### Returns
 
-[`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+`AppendixBusinessDataGoogleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241290
 
 > `optional` **extended\_reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241286
+Defined in: main.ts:243699
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241286
 
 > `optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241282
+Defined in: main.ts:243695
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241282
 
 > `optional` **hotel\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241283
+Defined in: main.ts:243696
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241283
 
 > `optional` **my\_business\_info**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241280
+Defined in: main.ts:243693
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:241280
 
 > `optional` **my\_business\_updates**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241281
+Defined in: main.ts:243694
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:241281
 
 > `optional` **questions\_and\_answers**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241285
+Defined in: main.ts:243698
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:241285
 
 > `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241284
+Defined in: main.ts:243697
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:241284
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241299
+Defined in: main.ts:243712
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:241299
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241322
+Defined in: main.ts:243735
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:241322
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> `static` **fromJS**(`data`): `AppendixBusinessDataGoogleInfo`
 
-Defined in: main.ts:241315
+Defined in: main.ts:243728
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:241315
 
 #### Returns
 
-[`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+`AppendixBusinessDataGoogleInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageTaskPostRequestInfo
 
-Defined in: main.ts:174102
+Defined in: main.ts:176511
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174102
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:174169
+Defined in: main.ts:176578
 
 language header for accessing the website
 optional field
@@ -31,7 +31,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **allow\_subdomains**: `boolean`
 
-Defined in: main.ts:174299
+Defined in: main.ts:176708
 
 include pages on subdomains
 optional field
@@ -44,7 +44,7 @@ default value: false
 
 > `optional` **allowed\_subdomains**: `string`[]
 
-Defined in: main.ts:174306
+Defined in: main.ts:176715
 
 subdomains to crawl
 optional field
@@ -59,7 +59,7 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:174199
+Defined in: main.ts:176608
 
 preset for browser screen parameters
 optional field
@@ -79,7 +79,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:174213
+Defined in: main.ts:176622
 
 browser screen height
 optional field
@@ -94,7 +94,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:174220
+Defined in: main.ts:176629
 
 browser screen scale factor
 optional field
@@ -109,7 +109,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:174206
+Defined in: main.ts:176615
 
 browser screen width
 optional field
@@ -124,7 +124,7 @@ maximum value, in pixels: 9999
 
 > `optional` **calculate\_keyword\_density**: `boolean`
 
-Defined in: main.ts:174336
+Defined in: main.ts:176745
 
 calculate keyword density for the target domain
 optional field
@@ -139,7 +139,7 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 > `optional` **check\_spell**: `boolean`
 
-Defined in: main.ts:174317
+Defined in: main.ts:176726
 
 check spelling
 optional field
@@ -152,7 +152,7 @@ default value: false
 
 > `optional` **check\_spell\_exceptions**: `string`[]
 
-Defined in: main.ts:174329
+Defined in: main.ts:176738
 
 words excluded from spell check
 optional field
@@ -167,7 +167,7 @@ example: "SERP", "minifiers", "JavaScript"
 
 > `optional` **check\_spell\_language**: `string`
 
-Defined in: main.ts:174322
+Defined in: main.ts:176731
 
 language of the spell check
 optional field
@@ -180,7 +180,7 @@ Note: if no language is specified, it will be set automatically based on page co
 
 > `optional` **checks\_threshold**: `object`
 
-Defined in: main.ts:174361
+Defined in: main.ts:176770
 
 custom threshold values for checks
 optional field
@@ -217,7 +217,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 > `optional` **crawl\_delay**: `number`
 
-Defined in: main.ts:174149
+Defined in: main.ts:176558
 
 delay between hits, ms
 optional field
@@ -230,7 +230,7 @@ default value: 2000
 
 > `optional` **crawl\_sitemap\_only**: `boolean`
 
-Defined in: main.ts:174239
+Defined in: main.ts:176648
 
 crawl only pages indicated in the sitemap
 optional field
@@ -245,7 +245,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 > `optional` **custom\_js**: `string`
 
-Defined in: main.ts:174289
+Defined in: main.ts:176698
 
 custom javascript
 optional field
@@ -266,7 +266,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **custom\_robots\_txt**: `string`
 
-Defined in: main.ts:174173
+Defined in: main.ts:176582
 
 custom robots.txt settings
 optional field
@@ -278,7 +278,7 @@ example: Disallow: /directory1/
 
 > `optional` **custom\_sitemap**: `string`
 
-Defined in: main.ts:174232
+Defined in: main.ts:176641
 
 custom sitemap url
 optional field
@@ -291,7 +291,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:174187
+Defined in: main.ts:176596
 
 custom user agent
 optional field
@@ -306,7 +306,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:174276
+Defined in: main.ts:176685
 
 disable the cookie popup
 optional field
@@ -320,7 +320,7 @@ false
 
 > `optional` **disable\_page\_checks**: `string`[]
 
-Defined in: main.ts:174375
+Defined in: main.ts:176784
 
 prevent certain page checks from running
 optional field
@@ -333,7 +333,7 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 > `optional` **disable\_sitewide\_checks**: `string`[]
 
-Defined in: main.ts:174370
+Defined in: main.ts:176779
 
 prevent certain sitewide checks from running
 optional field
@@ -350,7 +350,7 @@ specify the following checks to prevent them from running on the target website:
 
 > `optional` **disallowed\_subdomains**: `string`[]
 
-Defined in: main.ts:174312
+Defined in: main.ts:176721
 
 subdomains not to crawl
 optional field
@@ -364,7 +364,7 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:174270
+Defined in: main.ts:176679
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -381,7 +381,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_content\_parsing**: `boolean`
 
-Defined in: main.ts:174159
+Defined in: main.ts:176568
 
 parse content on crawled pages
 optional field
@@ -394,7 +394,7 @@ default value: false
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:174256
+Defined in: main.ts:176665
 
 load javascript on a page
 optional field
@@ -408,7 +408,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_www\_redirect\_check**: `boolean`
 
-Defined in: main.ts:174250
+Defined in: main.ts:176659
 
 check if the domain implemented the www redirection
 optional field
@@ -421,7 +421,7 @@ default value: false
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:174261
+Defined in: main.ts:176670
 
 enable XMLHttpRequest on a page
 optional field
@@ -434,7 +434,7 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 > `optional` **force\_sitewide\_checks**: `boolean`
 
-Defined in: main.ts:174127
+Defined in: main.ts:176536
 
 enable sitewide checks when crawling a single page
 optional field
@@ -447,7 +447,7 @@ default value: false
 
 > `optional` **load\_resources**: `boolean`
 
-Defined in: main.ts:174245
+Defined in: main.ts:176654
 
 load resources
 optional field
@@ -461,7 +461,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **max\_crawl\_depth**: `number`
 
-Defined in: main.ts:174144
+Defined in: main.ts:176553
 
 crawl depth
 optional field
@@ -474,7 +474,7 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:174116
+Defined in: main.ts:176525
 
 crawled pages limit
 required field
@@ -491,7 +491,7 @@ to enable them anyway, set force_sitewide_checks to true
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:174402
+Defined in: main.ts:176811
 
 notification URL of a completed task
 optional field
@@ -510,7 +510,7 @@ learn more on our Help Center
 
 > `optional` **priority\_urls**: `string`[]
 
-Defined in: main.ts:174139
+Defined in: main.ts:176548
 
 urls to be crawled bypassing the queue
 optional field
@@ -530,7 +530,7 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 > `optional` **respect\_sitemap**: `boolean`
 
-Defined in: main.ts:174227
+Defined in: main.ts:176636
 
 respect sitemap when crawling
 optional field
@@ -545,7 +545,7 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 > `optional` **return\_despite\_timeout**: `boolean`
 
-Defined in: main.ts:174385
+Defined in: main.ts:176794
 
 return data on pages despite the timeout error
 optional field
@@ -558,7 +558,7 @@ default value: false
 
 > `optional` **robots\_txt\_merge\_mode**: `string`
 
-Defined in: main.ts:174180
+Defined in: main.ts:176589
 
 merge with or override robots.txt settings
 optional field
@@ -573,7 +573,7 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 > `optional` **start\_url**: `string`
 
-Defined in: main.ts:174122
+Defined in: main.ts:176531
 
 the first url to crawl 
 optional field
@@ -587,7 +587,7 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:174154
+Defined in: main.ts:176563
 
 store HTML of crawled pages
 optional field
@@ -600,7 +600,7 @@ default value: false
 
 > `optional` **support\_cookies**: `boolean`
 
-Defined in: main.ts:174164
+Defined in: main.ts:176573
 
 support cookies on crawled pages
 optional field
@@ -613,7 +613,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:174380
+Defined in: main.ts:176789
 
 switch proxy pool
 optional field
@@ -626,7 +626,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:174391
+Defined in: main.ts:176800
 
 user-defined task identifier
 optional field
@@ -640,7 +640,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:174107
+Defined in: main.ts:176516
 
 target domain
 required field
@@ -653,7 +653,7 @@ if you specify the page URL, the results will be returned for the domain include
 
 > `optional` **validate\_micromarkup**: `boolean`
 
-Defined in: main.ts:174294
+Defined in: main.ts:176703
 
 enable microdata validation
 optional field

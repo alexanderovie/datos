@@ -6,7 +6,7 @@
 
 # Interface: IBaseDataforseoTrendsItem
 
-Defined in: main.ts:23662
+Defined in: main.ts:24001
 
 ## Extended by
 
@@ -20,7 +20,7 @@ Defined in: main.ts:23662
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23670
+Defined in: main.ts:24009
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -31,7 +31,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23667
+Defined in: main.ts:24006
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -42,6 +42,6 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23664
+Defined in: main.ts:24003
 
 type of element

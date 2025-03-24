@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceNewsElement
 
-Defined in: main.ts:87959
+Defined in: main.ts:88386
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:87959
 
 ## Constructors
 
-### new GoogleFinanceNewsElement()
+### Constructor
 
-> **new GoogleFinanceNewsElement**(`data`?): [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)
+> **new GoogleFinanceNewsElement**(`data`?): `GoogleFinanceNewsElement`
 
-Defined in: main.ts:87983
+Defined in: main.ts:88410
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:87983
 
 #### Returns
 
-[`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)
+`GoogleFinanceNewsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87983
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:87971
+Defined in: main.ts:88398
 
 featured image URL
 URL of the news article’s featured image
@@ -55,7 +55,7 @@ URL of the news article’s featured image
 
 > `optional` **quotes**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:87979
+Defined in: main.ts:88406
 
 market indexes quoted in the news article
 information about market indexes quoted in the google_finance_news_element
@@ -70,7 +70,7 @@ information about market indexes quoted in the google_finance_news_element
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:87968
+Defined in: main.ts:88395
 
 name of the news source
 name of the website where the news article is published
@@ -85,7 +85,7 @@ name of the website where the news article is published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87976
+Defined in: main.ts:88403
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -102,7 +102,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:87963
+Defined in: main.ts:88390
 
 title of the news article
 
@@ -116,7 +116,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87961
+Defined in: main.ts:88388
 
 type of element
 
@@ -130,7 +130,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87965
+Defined in: main.ts:88392
 
 URL to the page of the market index on Google Finance
 
@@ -144,7 +144,7 @@ URL to the page of the market index on Google Finance
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87992
+Defined in: main.ts:88419
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:87992
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88019
+Defined in: main.ts:88446
 
 #### Parameters
 
@@ -178,9 +178,9 @@ Defined in: main.ts:88019
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)
+> `static` **fromJS**(`data`): `GoogleFinanceNewsElement`
 
-Defined in: main.ts:88012
+Defined in: main.ts:88439
 
 #### Parameters
 
@@ -190,4 +190,4 @@ Defined in: main.ts:88012
 
 #### Returns
 
-[`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)
+`GoogleFinanceNewsElement`

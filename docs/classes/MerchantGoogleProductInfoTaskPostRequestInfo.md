@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductInfoTaskPostRequestInfo
 
-Defined in: main.ts:199113
+Defined in: main.ts:201522
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:199113
 
 ## Constructors
 
-### new MerchantGoogleProductInfoTaskPostRequestInfo()
+### Constructor
 
-> **new MerchantGoogleProductInfoTaskPostRequestInfo**(`data`?): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+> **new MerchantGoogleProductInfoTaskPostRequestInfo**(`data`?): `MerchantGoogleProductInfoTaskPostRequestInfo`
 
-Defined in: main.ts:199216
+Defined in: main.ts:201625
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:199216
 
 #### Returns
 
-[`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+`MerchantGoogleProductInfoTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199216
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:199126
+Defined in: main.ts:201535
 
 unique identifier of the SERP data element
 required field if product_id is not specified
@@ -58,7 +58,7 @@ example:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:199171
+Defined in: main.ts:201580
 
 language code
 required field if you don’t specify language_name
@@ -77,7 +77,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:199164
+Defined in: main.ts:201573
 
 full name of the language
 required field if you don’t specify language_code
@@ -96,7 +96,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:199148
+Defined in: main.ts:201557
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -115,7 +115,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:199157
+Defined in: main.ts:201566
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -136,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:199141
+Defined in: main.ts:201550
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -155,7 +155,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:199212
+Defined in: main.ts:201621
 
 notification URL of a completed task
 optional field
@@ -178,7 +178,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:199201
+Defined in: main.ts:201610
 
 postback_url datatype
 required field if you specify postback_url
@@ -196,7 +196,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:199195
+Defined in: main.ts:201604
 
 return URL for sending task results
 optional field
@@ -219,7 +219,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:199134
+Defined in: main.ts:201543
 
 task priority
 optional field
@@ -239,7 +239,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:199120
+Defined in: main.ts:201529
 
 unique product identifier on Google Shopping
 required field if data_docid is not specified
@@ -258,7 +258,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:199178
+Defined in: main.ts:201587
 
 search engine domain
 optional field
@@ -277,7 +277,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:199184
+Defined in: main.ts:201593
 
 user-defined task identifier
 optional field
@@ -295,7 +295,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199225
+Defined in: main.ts:201634
 
 #### Parameters
 
@@ -313,7 +313,7 @@ Defined in: main.ts:199225
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199254
+Defined in: main.ts:201663
 
 #### Parameters
 
@@ -329,9 +329,9 @@ Defined in: main.ts:199254
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `MerchantGoogleProductInfoTaskPostRequestInfo`
 
-Defined in: main.ts:199247
+Defined in: main.ts:201656
 
 #### Parameters
 
@@ -341,4 +341,4 @@ Defined in: main.ts:199247
 
 #### Returns
 
-[`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
+`MerchantGoogleProductInfoTaskPostRequestInfo`

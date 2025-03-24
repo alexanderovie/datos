@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTasksReadyResultInfo
 
-Defined in: main.ts:232381
+Defined in: main.ts:234790
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:232381
 
 ## Constructors
 
-### new BusinessDataGoogleExtendedReviewsTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleExtendedReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
+> **new BusinessDataGoogleExtendedReviewsTasksReadyResultInfo**(`data`?): `BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:232399
+Defined in: main.ts:234808
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:232399
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
+`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232399
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:232391
+Defined in: main.ts:234800
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:232395
+Defined in: main.ts:234804
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:232384
+Defined in: main.ts:234793
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:232387
+Defined in: main.ts:234796
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:232389
+Defined in: main.ts:234798
 
 type of search engine
 
@@ -112,7 +112,7 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:232393
+Defined in: main.ts:234802
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232408
+Defined in: main.ts:234817
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:232408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232430
+Defined in: main.ts:234839
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:232430
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:232423
+Defined in: main.ts:234832
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:232423
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResultInfo.md)
+`BusinessDataGoogleExtendedReviewsTasksReadyResultInfo`

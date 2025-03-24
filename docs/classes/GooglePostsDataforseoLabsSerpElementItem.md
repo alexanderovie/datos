@@ -6,7 +6,7 @@
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117552
+Defined in: main.ts:118935
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117552
 
 ## Constructors
 
-### new GooglePostsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new GooglePostsDataforseoLabsSerpElementItem**(`data`?): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+> **new GooglePostsDataforseoLabsSerpElementItem**(`data`?): `GooglePostsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117564
+Defined in: main.ts:118947
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117564
 
 #### Returns
 
-[`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+`GooglePostsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117564
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:117560
+Defined in: main.ts:118943
 
 google-defined client id
 unique id of a local establishment;
@@ -76,7 +76,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:117556
+Defined in: main.ts:118939
 
 the additional feature of the review
 
@@ -90,7 +90,7 @@ the additional feature of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -110,7 +110,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:117554
+Defined in: main.ts:118937
 
 the identifier of the google_posts feature
 
@@ -124,7 +124,7 @@ the identifier of the google_posts feature
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -162,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -198,7 +198,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117569
+Defined in: main.ts:118952
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:117569
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117589
+Defined in: main.ts:118972
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:117589
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GooglePostsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117582
+Defined in: main.ts:118965
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:117582
 
 #### Returns
 
-[`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
+`GooglePostsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: TechnologiesInfo
 
-Defined in: main.ts:25249
+Defined in: main.ts:25588
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:25249
 
 ## Constructors
 
-### new TechnologiesInfo()
+### Constructor
 
-> **new TechnologiesInfo**(`data`?): [`TechnologiesInfo`](TechnologiesInfo.md)
+> **new TechnologiesInfo**(`data`?): `TechnologiesInfo`
 
-Defined in: main.ts:25269
+Defined in: main.ts:25608
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:25269
 
 #### Returns
 
-[`TechnologiesInfo`](TechnologiesInfo.md)
+`TechnologiesInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25269
 
 > `optional` **add\_ons**: `object`
 
-Defined in: main.ts:25250
+Defined in: main.ts:25589
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:25250
 
 > `optional` **analytics**: `object`
 
-Defined in: main.ts:25251
+Defined in: main.ts:25590
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:25251
 
 > `optional` **business\_tools**: `object`
 
-Defined in: main.ts:25254
+Defined in: main.ts:25593
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:25254
 
 > `optional` **communication**: `object`
 
-Defined in: main.ts:25264
+Defined in: main.ts:25603
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:25264
 
 > `optional` **content**: `object`
 
-Defined in: main.ts:25261
+Defined in: main.ts:25600
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:25261
 
 > `optional` **location**: `object`
 
-Defined in: main.ts:25260
+Defined in: main.ts:25599
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:25260
 
 > `optional` **marketing**: `object`
 
-Defined in: main.ts:25263
+Defined in: main.ts:25602
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:25263
 
 > `optional` **media**: `object`
 
-Defined in: main.ts:25262
+Defined in: main.ts:25601
 
 #### Index Signature
 
@@ -168,7 +168,7 @@ Defined in: main.ts:25262
 
 > `optional` **other**: `object`
 
-Defined in: main.ts:25256
+Defined in: main.ts:25595
 
 #### Index Signature
 
@@ -184,7 +184,7 @@ Defined in: main.ts:25256
 
 > `optional` **privacy**: `object`
 
-Defined in: main.ts:25258
+Defined in: main.ts:25597
 
 #### Index Signature
 
@@ -200,7 +200,7 @@ Defined in: main.ts:25258
 
 > `optional` **sales**: `object`
 
-Defined in: main.ts:25255
+Defined in: main.ts:25594
 
 #### Index Signature
 
@@ -216,7 +216,7 @@ Defined in: main.ts:25255
 
 > `optional` **security**: `object`
 
-Defined in: main.ts:25253
+Defined in: main.ts:25592
 
 #### Index Signature
 
@@ -232,7 +232,7 @@ Defined in: main.ts:25253
 
 > `optional` **servers**: `object`
 
-Defined in: main.ts:25259
+Defined in: main.ts:25598
 
 #### Index Signature
 
@@ -248,7 +248,7 @@ Defined in: main.ts:25259
 
 > `optional` **user\_generated\_content**: `object`
 
-Defined in: main.ts:25257
+Defined in: main.ts:25596
 
 #### Index Signature
 
@@ -264,7 +264,7 @@ Defined in: main.ts:25257
 
 > `optional` **utilities**: `object`
 
-Defined in: main.ts:25265
+Defined in: main.ts:25604
 
 #### Index Signature
 
@@ -280,7 +280,7 @@ Defined in: main.ts:25265
 
 > `optional` **web\_development**: `object`
 
-Defined in: main.ts:25252
+Defined in: main.ts:25591
 
 #### Index Signature
 
@@ -296,7 +296,7 @@ Defined in: main.ts:25252
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25278
+Defined in: main.ts:25617
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:25278
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25406
+Defined in: main.ts:25745
 
 #### Parameters
 
@@ -330,9 +330,9 @@ Defined in: main.ts:25406
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
+> `static` **fromJS**(`data`): `TechnologiesInfo`
 
-Defined in: main.ts:25399
+Defined in: main.ts:25738
 
 #### Parameters
 
@@ -342,4 +342,4 @@ Defined in: main.ts:25399
 
 #### Returns
 
-[`TechnologiesInfo`](TechnologiesInfo.md)
+`TechnologiesInfo`

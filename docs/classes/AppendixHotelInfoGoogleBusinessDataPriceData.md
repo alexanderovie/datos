@@ -6,7 +6,7 @@
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 
-Defined in: main.ts:247017
+Defined in: main.ts:248982
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247017
 
 ## Constructors
 
-### new AppendixHotelInfoGoogleBusinessDataPriceData()
+### Constructor
 
-> **new AppendixHotelInfoGoogleBusinessDataPriceData**(`data`?): [`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
+> **new AppendixHotelInfoGoogleBusinessDataPriceData**(`data`?): `AppendixHotelInfoGoogleBusinessDataPriceData`
 
-Defined in: main.ts:247025
+Defined in: main.ts:248990
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247025
 
 #### Returns
 
-[`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
+`AppendixHotelInfoGoogleBusinessDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247025
 
 > `optional` **live**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:247018
+Defined in: main.ts:248983
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247018
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:247019
+Defined in: main.ts:248984
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247019
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247020
+Defined in: main.ts:248985
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247020
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247021
+Defined in: main.ts:248986
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247021
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247034
+Defined in: main.ts:248999
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:247034
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247054
+Defined in: main.ts:249019
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:247054
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixHotelInfoGoogleBusinessDataPriceData`
 
-Defined in: main.ts:247047
+Defined in: main.ts:249012
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:247047
 
 #### Returns
 
-[`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
+`AppendixHotelInfoGoogleBusinessDataPriceData`

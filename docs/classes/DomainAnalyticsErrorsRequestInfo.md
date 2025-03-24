@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsRequestInfo
 
-Defined in: main.ts:94019
+Defined in: main.ts:95922
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94019
 
 ## Constructors
 
-### new DomainAnalyticsErrorsRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsErrorsRequestInfo**(`data`?): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
+> **new DomainAnalyticsErrorsRequestInfo**(`data`?): `DomainAnalyticsErrorsRequestInfo`
 
-Defined in: main.ts:94053
+Defined in: main.ts:95956
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94053
 
 #### Returns
 
-[`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
+`DomainAnalyticsErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94053
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:94042
+Defined in: main.ts:95945
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:94049
+Defined in: main.ts:95952
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:94035
+Defined in: main.ts:95938
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:94024
+Defined in: main.ts:95927
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:94029
+Defined in: main.ts:95932
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94062
+Defined in: main.ts:95965
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:94062
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94083
+Defined in: main.ts:95986
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:94083
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsErrorsRequestInfo`
 
-Defined in: main.ts:94076
+Defined in: main.ts:95979
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:94076
 
 #### Returns
 
-[`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
+`DomainAnalyticsErrorsRequestInfo`

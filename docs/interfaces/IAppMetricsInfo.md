@@ -6,7 +6,7 @@
 
 # Interface: IAppMetricsInfo
 
-Defined in: main.ts:123244
+Defined in: main.ts:125645
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123244
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:123254
+Defined in: main.ts:125655
 
 total count of Amazon organic SERPs that contain the product
 
@@ -28,7 +28,7 @@ total count of Amazon organic SERPs that contain the product
 
 > `optional` **pos\_1**: `number`
 
-Defined in: main.ts:123246
+Defined in: main.ts:125647
 
 number of organic SERPs where the product ranks #1
 
@@ -38,7 +38,7 @@ number of organic SERPs where the product ranks #1
 
 > `optional` **pos\_11\_100**: `number`
 
-Defined in: main.ts:123252
+Defined in: main.ts:125653
 
 number of organic SERPs where the product ranks #11-100
 
@@ -48,7 +48,7 @@ number of organic SERPs where the product ranks #11-100
 
 > `optional` **pos\_2\_3**: `number`
 
-Defined in: main.ts:123248
+Defined in: main.ts:125649
 
 number of organic SERPs where the product ranks #2-3
 
@@ -58,7 +58,7 @@ number of organic SERPs where the product ranks #2-3
 
 > `optional` **pos\_4\_10**: `number`
 
-Defined in: main.ts:123250
+Defined in: main.ts:125651
 
 number of organic SERPs where the product ranks #4-10
 
@@ -68,6 +68,6 @@ number of organic SERPs where the product ranks #4-10
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:123256
+Defined in: main.ts:125657
 
 total search volume of the product’s ranking keywords in organic SERP

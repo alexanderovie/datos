@@ -6,7 +6,7 @@
 
 # Class: MerchantIdListResultInfo
 
-Defined in: main.ts:193333
+Defined in: main.ts:195742
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:193333
 
 ## Constructors
 
-### new MerchantIdListResultInfo()
+### Constructor
 
-> **new MerchantIdListResultInfo**(`data`?): [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
+> **new MerchantIdListResultInfo**(`data`?): `MerchantIdListResultInfo`
 
-Defined in: main.ts:193359
+Defined in: main.ts:195768
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:193359
 
 #### Returns
 
-[`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
+`MerchantIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193359
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:193353
+Defined in: main.ts:195762
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:193348
+Defined in: main.ts:195757
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:193343
+Defined in: main.ts:195752
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:193335
+Defined in: main.ts:195744
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:193355
+Defined in: main.ts:195764
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:193351
+Defined in: main.ts:195760
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:193338
+Defined in: main.ts:195747
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193368
+Defined in: main.ts:195777
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:193368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193397
+Defined in: main.ts:195806
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:193397
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantIdListResultInfo`
 
-Defined in: main.ts:193390
+Defined in: main.ts:195799
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:193390
 
 #### Returns
 
-[`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
+`MerchantIdListResultInfo`

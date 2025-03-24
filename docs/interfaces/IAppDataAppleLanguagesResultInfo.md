@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleLanguagesResultInfo
 
-Defined in: main.ts:214498
+Defined in: main.ts:216907
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:214498
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:214502
+Defined in: main.ts:216911
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:214500
+Defined in: main.ts:216909
 
 language name

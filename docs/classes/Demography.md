@@ -6,7 +6,7 @@
 
 # Class: Demography
 
-Defined in: main.ts:146845
+Defined in: main.ts:149254
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146845
 
 ## Constructors
 
-### new Demography()
+### Constructor
 
-> **new Demography**(`data`?): [`Demography`](Demography.md)
+> **new Demography**(`data`?): `Demography`
 
-Defined in: main.ts:146853
+Defined in: main.ts:149262
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146853
 
 #### Returns
 
-[`Demography`](Demography.md)
+`Demography`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146853
 
 > `optional` **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:146847
+Defined in: main.ts:149256
 
 distribution of keyword popularity by age
 
@@ -54,7 +54,7 @@ distribution of keyword popularity by age
 
 > `optional` **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:146849
+Defined in: main.ts:149258
 
 distribution of keyword popularity by gender
 
@@ -68,7 +68,7 @@ distribution of keyword popularity by gender
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146862
+Defined in: main.ts:149271
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:146862
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146888
+Defined in: main.ts:149297
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:146888
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Demography`](Demography.md)
+> `static` **fromJS**(`data`): `Demography`
 
-Defined in: main.ts:146881
+Defined in: main.ts:149290
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:146881
 
 #### Returns
 
-[`Demography`](Demography.md)
+`Demography`

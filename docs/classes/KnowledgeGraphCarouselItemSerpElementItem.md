@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:30974
+Defined in: main.ts:31401
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:30974
 
 ## Constructors
 
-### new KnowledgeGraphCarouselItemSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphCarouselItemSerpElementItem**(`data`?): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
+> **new KnowledgeGraphCarouselItemSerpElementItem**(`data`?): `KnowledgeGraphCarouselItemSerpElementItem`
 
-Defined in: main.ts:30998
+Defined in: main.ts:31425
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:30998
 
 #### Returns
 
-[`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
+`KnowledgeGraphCarouselItemSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30998
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30986
+Defined in: main.ts:31413
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:30990
+Defined in: main.ts:31417
 
 elements of search results found in SERP
 
@@ -90,7 +90,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:30988
+Defined in: main.ts:31415
 
 link of the element
 
@@ -104,7 +104,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:30978
+Defined in: main.ts:31405
 
 the alignment of the element in SERP
 can take the following values:
@@ -120,7 +120,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -139,7 +139,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -159,7 +159,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30994
+Defined in: main.ts:31421
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -175,7 +175,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30982
+Defined in: main.ts:31409
 
 title of the result in SERP
 
@@ -189,7 +189,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -207,7 +207,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:30980
+Defined in: main.ts:31407
 
 the XPath of the element
 
@@ -221,7 +221,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31003
+Defined in: main.ts:31430
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:31003
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31031
+Defined in: main.ts:31458
 
 #### Parameters
 
@@ -263,9 +263,9 @@ Defined in: main.ts:31031
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphCarouselItemSerpElementItem`
 
-Defined in: main.ts:31024
+Defined in: main.ts:31451
 
 #### Parameters
 
@@ -275,7 +275,7 @@ Defined in: main.ts:31024
 
 #### Returns
 
-[`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
+`KnowledgeGraphCarouselItemSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
 
-Defined in: main.ts:215911
+Defined in: main.ts:218320
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:215911
 
 ## Constructors
 
-### new AppDataAppStoreInfoOrganicSerpElementItem()
+### Constructor
 
-> **new AppDataAppStoreInfoOrganicSerpElementItem**(`data`?): [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+> **new AppDataAppStoreInfoOrganicSerpElementItem**(`data`?): `AppDataAppStoreInfoOrganicSerpElementItem`
 
-Defined in: main.ts:215971
+Defined in: main.ts:218380
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:215971
 
 #### Returns
 
-[`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+`AppDataAppStoreInfoOrganicSerpElementItem`
 
 #### Overrides
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:215971
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23691
+Defined in: main.ts:24030
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23691
 
 > `optional` **advisories**: `string`[]
 
-Defined in: main.ts:215933
+Defined in: main.ts:218342
 
 age rating and age-based content advisories
 
@@ -74,7 +74,7 @@ age rating and age-based content advisories
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:215913
+Defined in: main.ts:218322
 
 ID of the app
 
@@ -88,7 +88,7 @@ ID of the app
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:215929
+Defined in: main.ts:218338
 
 all relevant categories/genres of the app
 
@@ -102,7 +102,7 @@ all relevant categories/genres of the app
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:215919
+Defined in: main.ts:218328
 
 description of the app
 
@@ -116,7 +116,7 @@ description of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:215935
+Defined in: main.ts:218344
 
 name of the app developer
 
@@ -130,7 +130,7 @@ name of the app developer
 
 > `optional` **developer\_id**: `string`
 
-Defined in: main.ts:215937
+Defined in: main.ts:218346
 
 ID of the app developer
 
@@ -144,7 +144,7 @@ ID of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:215939
+Defined in: main.ts:218348
 
 URL to the developer page on App Store
 
@@ -158,7 +158,7 @@ URL to the developer page on App Store
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:215917
+Defined in: main.ts:218326
 
 URL to the app icon
 
@@ -172,7 +172,7 @@ URL to the app icon
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:215961
+Defined in: main.ts:218370
 
 app images
 contains URLs to the images used on the app page on App Store
@@ -187,7 +187,7 @@ contains URLs to the images used on the app page on App Store
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:215925
+Defined in: main.ts:218334
 
 indicates whether the app is free
 
@@ -201,7 +201,7 @@ indicates whether the app is free
 
 > `optional` **languages**: `string`[]
 
-Defined in: main.ts:215931
+Defined in: main.ts:218340
 
 languages supported in the app
 
@@ -215,7 +215,7 @@ languages supported in the app
 
 > `optional` **last\_update\_date**: `string`
 
-Defined in: main.ts:215955
+Defined in: main.ts:218364
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -232,7 +232,7 @@ example:
 
 > `optional` **main\_category**: `string`
 
-Defined in: main.ts:215927
+Defined in: main.ts:218336
 
 main category/genre of the app
 
@@ -246,7 +246,7 @@ main category/genre of the app
 
 > `optional` **minimum\_os\_version**: `string`
 
-Defined in: main.ts:215943
+Defined in: main.ts:218352
 
 minimum OS version required to install the app
 
@@ -260,7 +260,7 @@ minimum OS version required to install the app
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](AppsInfo.md)[]
 
-Defined in: main.ts:215967
+Defined in: main.ts:218376
 
 similar apps
 information about apps built by the same developer
@@ -275,7 +275,7 @@ information about apps built by the same developer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23685
+Defined in: main.ts:24024
 
 the alignment of the element in SERP
 can take the following values:
@@ -295,7 +295,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:215923
+Defined in: main.ts:218332
 
 price of the app
 
@@ -309,7 +309,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23681
+Defined in: main.ts:24020
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -328,7 +328,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24017
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -347,7 +347,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:23689
+Defined in: main.ts:24028
 
 average rating of the app
 
@@ -365,7 +365,7 @@ average rating of the app
 
 > `optional` **released\_date**: `string`
 
-Defined in: main.ts:215950
+Defined in: main.ts:218359
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -382,7 +382,7 @@ example:
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:215921
+Defined in: main.ts:218330
 
 the total number of reviews of the app
 
@@ -396,7 +396,7 @@ the total number of reviews of the app
 
 > `optional` **similar\_apps**: [`AppsInfo`](AppsInfo.md)[]
 
-Defined in: main.ts:215964
+Defined in: main.ts:218373
 
 similar apps
 displays apps similar to the app in a POST request
@@ -411,7 +411,7 @@ displays apps similar to the app in a POST request
 
 > `optional` **size**: `string`
 
-Defined in: main.ts:215945
+Defined in: main.ts:218354
 
 size of the app
 
@@ -425,7 +425,7 @@ size of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:24026
 
 title of the app
 
@@ -443,7 +443,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23675
+Defined in: main.ts:24014
 
 type of element
 
@@ -461,7 +461,7 @@ type of element
 
 > `optional` **update\_notes**: `string`
 
-Defined in: main.ts:215958
+Defined in: main.ts:218367
 
 update notes
 contains the latest update notes from the developer
@@ -476,7 +476,7 @@ contains the latest update notes from the developer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:215915
+Defined in: main.ts:218324
 
 URL to the app page on App Store
 
@@ -490,7 +490,7 @@ URL to the app page on App Store
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:215941
+Defined in: main.ts:218350
 
 current version of the app
 
@@ -504,7 +504,7 @@ current version of the app
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:215976
+Defined in: main.ts:218385
 
 #### Parameters
 
@@ -526,7 +526,7 @@ Defined in: main.ts:215976
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:216040
+Defined in: main.ts:218449
 
 #### Parameters
 
@@ -546,9 +546,9 @@ Defined in: main.ts:216040
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): `AppDataAppStoreInfoOrganicSerpElementItem`
 
-Defined in: main.ts:216033
+Defined in: main.ts:218442
 
 #### Parameters
 
@@ -558,7 +558,7 @@ Defined in: main.ts:216033
 
 #### Returns
 
-[`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+`AppDataAppStoreInfoOrganicSerpElementItem`
 
 #### Overrides
 

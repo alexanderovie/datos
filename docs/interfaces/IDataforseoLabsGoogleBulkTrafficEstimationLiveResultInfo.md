@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:120442
+Defined in: main.ts:121825
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:120442
 
 > `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:120456
+Defined in: main.ts:121839
 
 array of items with relevant traffic estimation data
 
@@ -28,7 +28,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:120454
+Defined in: main.ts:121837
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120450
+Defined in: main.ts:121833
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120447
+Defined in: main.ts:121830
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120444
+Defined in: main.ts:121827
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:120452
+Defined in: main.ts:121835
 
 total amount of results in our database relevant to your request

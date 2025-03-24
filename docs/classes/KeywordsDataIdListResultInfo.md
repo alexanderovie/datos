@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListResultInfo
 
-Defined in: main.ts:134859
+Defined in: main.ts:137260
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:134859
 
 ## Constructors
 
-### new KeywordsDataIdListResultInfo()
+### Constructor
 
-> **new KeywordsDataIdListResultInfo**(`data`?): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+> **new KeywordsDataIdListResultInfo**(`data`?): `KeywordsDataIdListResultInfo`
 
-Defined in: main.ts:134885
+Defined in: main.ts:137286
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:134885
 
 #### Returns
 
-[`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+`KeywordsDataIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134885
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:134879
+Defined in: main.ts:137280
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:134874
+Defined in: main.ts:137275
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:134869
+Defined in: main.ts:137270
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:134861
+Defined in: main.ts:137262
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:134881
+Defined in: main.ts:137282
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:134877
+Defined in: main.ts:137278
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:134864
+Defined in: main.ts:137265
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134894
+Defined in: main.ts:137295
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:134894
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134923
+Defined in: main.ts:137324
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:134923
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataIdListResultInfo`
 
-Defined in: main.ts:134916
+Defined in: main.ts:137317
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:134916
 
 #### Returns
 
-[`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
+`KeywordsDataIdListResultInfo`

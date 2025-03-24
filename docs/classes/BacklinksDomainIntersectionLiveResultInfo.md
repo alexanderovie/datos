@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:167567
+Defined in: main.ts:169976
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:167567
 
 ## Constructors
 
-### new BacklinksDomainIntersectionLiveResultInfo()
+### Constructor
 
-> **new BacklinksDomainIntersectionLiveResultInfo**(`data`?): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+> **new BacklinksDomainIntersectionLiveResultInfo**(`data`?): `BacklinksDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:167579
+Defined in: main.ts:169988
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:167579
 
 #### Returns
 
-[`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+`BacklinksDomainIntersectionLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167579
 
 > `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:167575
+Defined in: main.ts:169984
 
 contains domain that link to all targets from the POST array
 
@@ -54,7 +54,7 @@ contains domain that link to all targets from the POST array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:167573
+Defined in: main.ts:169982
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:167569
+Defined in: main.ts:169978
 
 target domains, subdomains or webpages in a POST array
 
@@ -86,7 +86,7 @@ target domains, subdomains or webpages in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:167571
+Defined in: main.ts:169980
 
 total amount of results relevant to your request
 
@@ -100,7 +100,7 @@ total amount of results relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167588
+Defined in: main.ts:169997
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:167588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167618
+Defined in: main.ts:170027
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:167618
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:167611
+Defined in: main.ts:170020
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:167611
 
 #### Returns
 
-[`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)
+`BacklinksDomainIntersectionLiveResultInfo`

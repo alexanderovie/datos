@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsRequestInfo
 
-Defined in: main.ts:158613
+Defined in: main.ts:161022
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:158613
 
 ## Constructors
 
-### new BacklinksErrorsRequestInfo()
+### Constructor
 
-> **new BacklinksErrorsRequestInfo**(`data`?): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
+> **new BacklinksErrorsRequestInfo**(`data`?): `BacklinksErrorsRequestInfo`
 
-Defined in: main.ts:158647
+Defined in: main.ts:161056
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:158647
 
 #### Returns
 
-[`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
+`BacklinksErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158647
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:158636
+Defined in: main.ts:161045
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:158643
+Defined in: main.ts:161052
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:158629
+Defined in: main.ts:161038
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: backlinks/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:158618
+Defined in: main.ts:161027
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:158623
+Defined in: main.ts:161032
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158656
+Defined in: main.ts:161065
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:158656
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158677
+Defined in: main.ts:161086
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:158677
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksErrorsRequestInfo`
 
-Defined in: main.ts:158670
+Defined in: main.ts:161079
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:158670
 
 #### Returns
 
-[`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
+`BacklinksErrorsRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteLiveHtmlRequestInfo
 
-Defined in: main.ts:93279
+Defined in: main.ts:93706
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:93279
 
 ## Constructors
 
-### new SerpGoogleFinanceQuoteLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceQuoteLiveHtmlRequestInfo**(`data`?): [`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`](SerpGoogleFinanceQuoteLiveHtmlRequestInfo.md)
+> **new SerpGoogleFinanceQuoteLiveHtmlRequestInfo**(`data`?): `SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
 
-Defined in: main.ts:93339
+Defined in: main.ts:93766
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:93339
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`](SerpGoogleFinanceQuoteLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93339
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:93320
+Defined in: main.ts:93747
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93288
+Defined in: main.ts:93715
 
 ticker or stock symbol
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93316
+Defined in: main.ts:93743
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:93309
+Defined in: main.ts:93736
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93302
+Defined in: main.ts:93729
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:93295
+Defined in: main.ts:93722
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:93324
+Defined in: main.ts:93751
 
 device operating system
 optional field
@@ -169,7 +169,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:93335
+Defined in: main.ts:93762
 
 user-defined task identifier
 optional field
@@ -187,7 +187,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:93329
+Defined in: main.ts:93756
 
 time window for google_finance_quote graph
 optional field
@@ -204,7 +204,7 @@ default value: 1D
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93348
+Defined in: main.ts:93775
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:93348
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93373
+Defined in: main.ts:93800
 
 #### Parameters
 
@@ -238,9 +238,9 @@ Defined in: main.ts:93373
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`](SerpGoogleFinanceQuoteLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
 
-Defined in: main.ts:93366
+Defined in: main.ts:93793
 
 #### Parameters
 
@@ -250,4 +250,4 @@ Defined in: main.ts:93366
 
 #### Returns
 
-[`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`](SerpGoogleFinanceQuoteLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceQuoteLiveHtmlRequestInfo`

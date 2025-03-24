@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveResultInfo
 
-Defined in: main.ts:172323
+Defined in: main.ts:174732
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:172323
 
 ## Constructors
 
-### new BacklinksBulkPagesSummaryLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkPagesSummaryLiveResultInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
+> **new BacklinksBulkPagesSummaryLiveResultInfo**(`data`?): `BacklinksBulkPagesSummaryLiveResultInfo`
 
-Defined in: main.ts:172333
+Defined in: main.ts:174742
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:172333
 
 #### Returns
 
-[`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
+`BacklinksBulkPagesSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172333
 
 > `optional` **items**: [`BacklinksBulkPagesSummaryLiveItem`](BacklinksBulkPagesSummaryLiveItem.md)[]
 
-Defined in: main.ts:172329
+Defined in: main.ts:174738
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:172327
+Defined in: main.ts:174736
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:172325
+Defined in: main.ts:174734
 
 total number of relevant items in the database
 
@@ -82,7 +82,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172342
+Defined in: main.ts:174751
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:172342
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172365
+Defined in: main.ts:174774
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:172365
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkPagesSummaryLiveResultInfo`
 
-Defined in: main.ts:172358
+Defined in: main.ts:174767
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:172358
 
 #### Returns
 
-[`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
+`BacklinksBulkPagesSummaryLiveResultInfo`

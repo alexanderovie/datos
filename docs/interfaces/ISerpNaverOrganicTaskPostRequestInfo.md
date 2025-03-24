@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTaskPostRequestInfo
 
-Defined in: main.ts:83232
+Defined in: main.ts:83659
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:83232
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:83264
+Defined in: main.ts:83691
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:83276
+Defined in: main.ts:83703
 
 device type
 optional field
@@ -48,7 +48,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:83240
+Defined in: main.ts:83667
 
 keyword
 required field
@@ -64,7 +64,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:83271
+Defined in: main.ts:83698
 
 page crawl limit
 optional field
@@ -79,7 +79,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:83283
+Defined in: main.ts:83710
 
 device operating system
 optional field
@@ -94,7 +94,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:83328
+Defined in: main.ts:83755
 
 notification URL of a completed task
 optional field
@@ -113,7 +113,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:83317
+Defined in: main.ts:83744
 
 postback_url datatype
 required field if you specify postback_url
@@ -127,7 +127,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:83311
+Defined in: main.ts:83738
 
 return URL for sending task results
 optional field
@@ -146,7 +146,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:83255
+Defined in: main.ts:83682
 
 task priority
 optional field
@@ -162,7 +162,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:83290
+Defined in: main.ts:83717
 
 search engine domain
 optional field
@@ -177,7 +177,7 @@ search.naver.com
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:83294
+Defined in: main.ts:83721
 
 additional parameters of the search query
 optional field
@@ -189,7 +189,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:83300
+Defined in: main.ts:83727
 
 user-defined task identifier
 optional field
@@ -203,7 +203,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:83247
+Defined in: main.ts:83674
 
 direct URL of the search query
 optional field

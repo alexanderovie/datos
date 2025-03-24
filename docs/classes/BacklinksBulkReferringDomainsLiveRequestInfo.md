@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:170797
+Defined in: main.ts:173206
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170797
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+> **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data`?): `BacklinksBulkReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:170826
+Defined in: main.ts:173235
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170826
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+`BacklinksBulkReferringDomainsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170826
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:170822
+Defined in: main.ts:173231
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:170816
+Defined in: main.ts:173225
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -89,7 +89,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170835
+Defined in: main.ts:173244
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:170835
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170857
+Defined in: main.ts:173266
 
 #### Parameters
 
@@ -123,9 +123,9 @@ Defined in: main.ts:170857
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:170850
+Defined in: main.ts:173259
 
 #### Parameters
 
@@ -135,4 +135,4 @@ Defined in: main.ts:170850
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+`BacklinksBulkReferringDomainsLiveRequestInfo`

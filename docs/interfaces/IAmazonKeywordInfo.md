@@ -6,7 +6,7 @@
 
 # Interface: IAmazonKeywordInfo
 
-Defined in: main.ts:24712
+Defined in: main.ts:25051
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24712
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:24718
+Defined in: main.ts:25057
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -30,7 +30,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:24714
+Defined in: main.ts:25053
 
 search engine type
 
@@ -40,7 +40,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:24721
+Defined in: main.ts:25060
 
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon

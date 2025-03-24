@@ -6,7 +6,7 @@
 
 # Class: UserProfileInfo
 
-Defined in: main.ts:203825
+Defined in: main.ts:206234
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:203825
 
 ## Constructors
 
-### new UserProfileInfo()
+### Constructor
 
-> **new UserProfileInfo**(`data`?): [`UserProfileInfo`](UserProfileInfo.md)
+> **new UserProfileInfo**(`data`?): `UserProfileInfo`
 
-Defined in: main.ts:203839
+Defined in: main.ts:206248
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:203839
 
 #### Returns
 
-[`UserProfileInfo`](UserProfileInfo.md)
+`UserProfileInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203839
 
 > `optional` **avatar**: `string`
 
-Defined in: main.ts:203829
+Defined in: main.ts:206238
 
 URL to the profile picture of the reviewer
 
@@ -54,7 +54,7 @@ URL to the profile picture of the reviewer
 
 > `optional` **locations**: `string`
 
-Defined in: main.ts:203835
+Defined in: main.ts:206244
 
 country of the reviewer
 
@@ -68,7 +68,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:203827
+Defined in: main.ts:206236
 
 the name of the reviewer
 
@@ -82,7 +82,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:203833
+Defined in: main.ts:206242
 
 total number of reviews submitted by the reviewer
 
@@ -96,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:203831
+Defined in: main.ts:206240
 
 relevant url
 
@@ -110,7 +110,7 @@ relevant url
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203848
+Defined in: main.ts:206257
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:203848
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203869
+Defined in: main.ts:206278
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:203869
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
+> `static` **fromJS**(`data`): `UserProfileInfo`
 
-Defined in: main.ts:203862
+Defined in: main.ts:206271
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:203862
 
 #### Returns
 
-[`UserProfileInfo`](UserProfileInfo.md)
+`UserProfileInfo`

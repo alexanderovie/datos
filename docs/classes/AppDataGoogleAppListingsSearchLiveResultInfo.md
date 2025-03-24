@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:213891
+Defined in: main.ts:216300
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:213891
 
 ## Constructors
 
-### new AppDataGoogleAppListingsSearchLiveResultInfo()
+### Constructor
 
-> **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+> **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): `AppDataGoogleAppListingsSearchLiveResultInfo`
 
-Defined in: main.ts:213906
+Defined in: main.ts:216315
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:213906
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+`AppDataGoogleAppListingsSearchLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213906
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:213895
+Defined in: main.ts:216304
 
 the number of items in the results array
 
@@ -54,7 +54,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:213902
+Defined in: main.ts:216311
 
 array of apps and related data
 
@@ -68,7 +68,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:213897
+Defined in: main.ts:216306
 
 offset in the results array of returned apps
 
@@ -82,7 +82,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:213900
+Defined in: main.ts:216309
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -97,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:213893
+Defined in: main.ts:216302
 
 the total number of relevant results in the database
 
@@ -111,7 +111,7 @@ the total number of relevant results in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213915
+Defined in: main.ts:216324
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:213915
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213940
+Defined in: main.ts:216349
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:213940
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppListingsSearchLiveResultInfo`
 
-Defined in: main.ts:213933
+Defined in: main.ts:216342
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:213933
 
 #### Returns
 
-[`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+`AppDataGoogleAppListingsSearchLiveResultInfo`

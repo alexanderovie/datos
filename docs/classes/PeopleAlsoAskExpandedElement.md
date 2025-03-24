@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskExpandedElement
 
-Defined in: main.ts:33414
+Defined in: main.ts:33841
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33414
 
 ## Constructors
 
-### new PeopleAlsoAskExpandedElement()
+### Constructor
 
-> **new PeopleAlsoAskExpandedElement**(`data`?): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
+> **new PeopleAlsoAskExpandedElement**(`data`?): `PeopleAlsoAskExpandedElement`
 
-Defined in: main.ts:33440
+Defined in: main.ts:33867
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33440
 
 #### Returns
 
-[`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
+`PeopleAlsoAskExpandedElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33440
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33426
+Defined in: main.ts:33853
 
 description of the results element in SERP
 
@@ -54,7 +54,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:33422
+Defined in: main.ts:33849
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:33418
+Defined in: main.ts:33845
 
 the title of the featured snippets source page
 
@@ -82,7 +82,7 @@ the title of the featured snippets source page
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:33428
+Defined in: main.ts:33855
 
 images of the element
 
@@ -96,7 +96,7 @@ images of the element
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:33436
+Defined in: main.ts:33863
 
 results table
 if there are none, equals null
@@ -111,7 +111,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33433
+Defined in: main.ts:33860
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -128,7 +128,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33424
+Defined in: main.ts:33851
 
 title of the carousel item
 
@@ -142,7 +142,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33416
+Defined in: main.ts:33843
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33420
+Defined in: main.ts:33847
 
 URL of element
 
@@ -170,7 +170,7 @@ URL of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33449
+Defined in: main.ts:33876
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:33449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33478
+Defined in: main.ts:33905
 
 #### Parameters
 
@@ -204,9 +204,9 @@ Defined in: main.ts:33478
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
+> `static` **fromJS**(`data`): `PeopleAlsoAskExpandedElement`
 
-Defined in: main.ts:33471
+Defined in: main.ts:33898
 
 #### Parameters
 
@@ -216,4 +216,4 @@ Defined in: main.ts:33471
 
 #### Returns
 
-[`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
+`PeopleAlsoAskExpandedElement`

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
-Defined in: main.ts:170623
+Defined in: main.ts:173032
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170623
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveResultInfo()
+### Constructor
 
-> **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+> **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): `BacklinksBulkSpamScoreLiveResultInfo`
 
-Defined in: main.ts:170631
+Defined in: main.ts:173040
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170631
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+`BacklinksBulkSpamScoreLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170631
 
 > `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
-Defined in: main.ts:170627
+Defined in: main.ts:173036
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170625
+Defined in: main.ts:173034
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170640
+Defined in: main.ts:173049
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:170640
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170662
+Defined in: main.ts:173071
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:170662
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveResultInfo`
 
-Defined in: main.ts:170655
+Defined in: main.ts:173064
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:170655
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+`BacklinksBulkSpamScoreLiveResultInfo`

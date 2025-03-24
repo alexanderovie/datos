@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataGoogleInfo
 
-Defined in: main.ts:241339
+Defined in: main.ts:243752
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241339
 
 > `optional` **extended\_reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241346
+Defined in: main.ts:243759
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:241346
 
 > `optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241342
+Defined in: main.ts:243755
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:241342
 
 > `optional` **hotel\_searches**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241343
+Defined in: main.ts:243756
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:241343
 
 > `optional` **my\_business\_info**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241340
+Defined in: main.ts:243753
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:241340
 
 > `optional` **my\_business\_updates**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241341
+Defined in: main.ts:243754
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:241341
 
 > `optional` **questions\_and\_answers**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241345
+Defined in: main.ts:243758
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:241345
 
 > `optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:241344
+Defined in: main.ts:243757

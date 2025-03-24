@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:128725
+Defined in: main.ts:131126
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:128725
 
 ## Constructors
 
-### new DataforseoLabsBingRelevantPagesLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+> **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data`?): `DataforseoLabsBingRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:128842
+Defined in: main.ts:131243
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:128842
 
 #### Returns
 
-[`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+`DataforseoLabsBingRelevantPagesLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128842
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:128815
+Defined in: main.ts:131216
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:128796
+Defined in: main.ts:131197
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:128801
+Defined in: main.ts:131202
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:128777
+Defined in: main.ts:131178
 
 display results by item type
 optional field
@@ -125,7 +125,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128768
+Defined in: main.ts:131169
 
 language code
 optional field
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:128759
+Defined in: main.ts:131160
 
 full name of the language
 optional field
@@ -167,7 +167,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:128782
+Defined in: main.ts:131183
 
 the maximum number of returned pages
 optional field
@@ -184,7 +184,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128750
+Defined in: main.ts:131151
 
 location code
 optional field
@@ -206,7 +206,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:128740
+Defined in: main.ts:131141
 
 full name of the location
 optional field
@@ -228,7 +228,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:128787
+Defined in: main.ts:131188
 
 offset in the results array of returned pages
 optional field
@@ -245,7 +245,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:128832
+Defined in: main.ts:131233
 
 results sorting rules
 optional field
@@ -274,7 +274,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:128838
+Defined in: main.ts:131239
 
 user-defined task identifier
 optional field
@@ -292,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:128730
+Defined in: main.ts:131131
 
 domain
 required field
@@ -309,7 +309,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128851
+Defined in: main.ts:131252
 
 #### Parameters
 
@@ -327,7 +327,7 @@ Defined in: main.ts:128851
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128892
+Defined in: main.ts:131293
 
 #### Parameters
 
@@ -343,9 +343,9 @@ Defined in: main.ts:128892
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:128885
+Defined in: main.ts:131286
 
 #### Parameters
 
@@ -355,4 +355,4 @@ Defined in: main.ts:128885
 
 #### Returns
 
-[`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+`DataforseoLabsBingRelevantPagesLiveRequestInfo`

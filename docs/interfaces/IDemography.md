@@ -6,7 +6,7 @@
 
 # Interface: IDemography
 
-Defined in: main.ts:146908
+Defined in: main.ts:149317
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:146908
 
 > `optional` **age**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:146910
+Defined in: main.ts:149319
 
 distribution of keyword popularity by age
 
@@ -28,6 +28,6 @@ distribution of keyword popularity by age
 
 > `optional` **gender**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
-Defined in: main.ts:146912
+Defined in: main.ts:149321
 
 distribution of keyword popularity by gender

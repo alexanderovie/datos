@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
-Defined in: main.ts:97891
+Defined in: main.ts:99794
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:97891
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:97900
+Defined in: main.ts:99803
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:97900
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:97900
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:97896
+Defined in: main.ts:99799
 
 target domain
 required field
@@ -57,7 +57,7 @@ Note: results will be returned for the specified domain only
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:97909
+Defined in: main.ts:99812
 
 #### Parameters
 
@@ -75,7 +75,7 @@ Defined in: main.ts:97909
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:97926
+Defined in: main.ts:99829
 
 #### Parameters
 
@@ -91,9 +91,9 @@ Defined in: main.ts:97926
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:97919
+Defined in: main.ts:99822
 
 #### Parameters
 
@@ -103,4 +103,4 @@ Defined in: main.ts:97919
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`

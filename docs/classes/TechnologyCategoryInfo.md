@@ -6,7 +6,7 @@
 
 # Class: TechnologyCategoryInfo
 
-Defined in: main.ts:94907
+Defined in: main.ts:96810
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94907
 
 ## Constructors
 
-### new TechnologyCategoryInfo()
+### Constructor
 
-> **new TechnologyCategoryInfo**(`data`?): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+> **new TechnologyCategoryInfo**(`data`?): `TechnologyCategoryInfo`
 
-Defined in: main.ts:94925
+Defined in: main.ts:96828
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94925
 
 #### Returns
 
-[`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+`TechnologyCategoryInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94925
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:94911
+Defined in: main.ts:96814
 
 id of the technology category
 example:
@@ -56,7 +56,7 @@ crm, cart_abandonment
 
 > `optional` **path**: `string`
 
-Defined in: main.ts:94915
+Defined in: main.ts:96818
 
 path to the technology category
 example:
@@ -72,7 +72,7 @@ user_generated_content.content_curation
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:94921
+Defined in: main.ts:96824
 
 list of technologies in this category
 example:
@@ -88,7 +88,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:94917
+Defined in: main.ts:96820
 
 title of the technology category
 
@@ -102,7 +102,7 @@ title of the technology category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94934
+Defined in: main.ts:96837
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:94934
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94958
+Defined in: main.ts:96861
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:94958
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+> `static` **fromJS**(`data`): `TechnologyCategoryInfo`
 
-Defined in: main.ts:94951
+Defined in: main.ts:96854
 
 #### Parameters
 
@@ -148,4 +148,4 @@ Defined in: main.ts:94951
 
 #### Returns
 
-[`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+`TechnologyCategoryInfo`

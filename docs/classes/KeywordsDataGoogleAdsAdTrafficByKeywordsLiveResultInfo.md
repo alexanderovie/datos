@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
-Defined in: main.ts:141735
+Defined in: main.ts:144136
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:141735
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo**(`data`?): `KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`
 
-Defined in: main.ts:141784
+Defined in: main.ts:144185
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:141784
 
 #### Returns
 
-[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:141784
 
 > `optional` **average\_cpc**: `number`
 
-Defined in: main.ts:141772
+Defined in: main.ts:144173
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:141756
+Defined in: main.ts:144157
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -74,7 +74,7 @@ learn more in this help center article
 
 > `optional` **clicks**: `number`
 
-Defined in: main.ts:141780
+Defined in: main.ts:144181
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -90,7 +90,7 @@ if there is no data, then the value is null
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:141776
+Defined in: main.ts:144177
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 > `optional` **ctr**: `number`
 
-Defined in: main.ts:141768
+Defined in: main.ts:144169
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -122,7 +122,7 @@ if there is no data, then the value is null
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:141745
+Defined in: main.ts:144146
 
 forecasting date interval in a POST array
 
@@ -136,7 +136,7 @@ forecasting date interval in a POST array
 
 > `optional` **impressions**: `number`
 
-Defined in: main.ts:141764
+Defined in: main.ts:144165
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -153,7 +153,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:141737
+Defined in: main.ts:144138
 
 keyword in a POST array
 
@@ -167,7 +167,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:141743
+Defined in: main.ts:144144
 
 language code in a POST array
 if there is no data, then the value is null
@@ -182,7 +182,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141740
+Defined in: main.ts:144141
 
 location code in a POST array
 if there is no data, then the value is null
@@ -197,7 +197,7 @@ if there is no data, then the value is null
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:141759
+Defined in: main.ts:144160
 
 keywords match-type
 can take the following values: exact, broad, phrase
@@ -212,7 +212,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:141750
+Defined in: main.ts:144151
 
 include Google search partners
 the value you specified when setting the task
@@ -229,7 +229,7 @@ if false, the results are returned for Google search sites only
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:141793
+Defined in: main.ts:144194
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:141793
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:141821
+Defined in: main.ts:144222
 
 #### Parameters
 
@@ -263,9 +263,9 @@ Defined in: main.ts:141821
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`
 
-Defined in: main.ts:141814
+Defined in: main.ts:144215
 
 #### Parameters
 
@@ -275,4 +275,4 @@ Defined in: main.ts:141814
 
 #### Returns
 
-[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`

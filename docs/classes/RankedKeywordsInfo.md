@@ -6,7 +6,7 @@
 
 # Class: RankedKeywordsInfo
 
-Defined in: main.ts:161249
+Defined in: main.ts:163658
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:161249
 
 ## Constructors
 
-### new RankedKeywordsInfo()
+### Constructor
 
-> **new RankedKeywordsInfo**(`data`?): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+> **new RankedKeywordsInfo**(`data`?): `RankedKeywordsInfo`
 
-Defined in: main.ts:161259
+Defined in: main.ts:163668
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:161259
 
 #### Returns
 
-[`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+`RankedKeywordsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161259
 
 > `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
-Defined in: main.ts:161253
+Defined in: main.ts:163662
 
 number of keywords for which the page is ranked in top 10 search results
 
@@ -54,7 +54,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
-Defined in: main.ts:161255
+Defined in: main.ts:163664
 
 number of keywords for which the page is ranked in top 100 search results
 
@@ -68,7 +68,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
-Defined in: main.ts:161251
+Defined in: main.ts:163660
 
 number of keywords for which the page is ranked in top 3 search results
 
@@ -82,7 +82,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161268
+Defined in: main.ts:163677
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:161268
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161287
+Defined in: main.ts:163696
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:161287
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+> `static` **fromJS**(`data`): `RankedKeywordsInfo`
 
-Defined in: main.ts:161280
+Defined in: main.ts:163689
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:161280
 
 #### Returns
 
-[`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+`RankedKeywordsInfo`

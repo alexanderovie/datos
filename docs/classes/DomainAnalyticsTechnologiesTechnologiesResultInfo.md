@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
-Defined in: main.ts:95069
+Defined in: main.ts:96972
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:95069
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologiesResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologiesResultInfo`
 
-Defined in: main.ts:95075
+Defined in: main.ts:96978
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:95075
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95075
 
 > `optional` **groups**: [`Groups`](Groups.md)[]
 
-Defined in: main.ts:95071
+Defined in: main.ts:96974
 
 array of technology groups
 
@@ -54,7 +54,7 @@ array of technology groups
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95084
+Defined in: main.ts:96987
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:95084
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95105
+Defined in: main.ts:97008
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:95105
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologiesResultInfo`
 
-Defined in: main.ts:95098
+Defined in: main.ts:97001
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:95098
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologiesResultInfo`

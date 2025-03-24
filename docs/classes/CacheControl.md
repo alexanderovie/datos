@@ -6,7 +6,7 @@
 
 # Class: CacheControl
 
-Defined in: main.ts:176229
+Defined in: main.ts:178638
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176229
 
 ## Constructors
 
-### new CacheControl()
+### Constructor
 
-> **new CacheControl**(`data`?): [`CacheControl`](CacheControl.md)
+> **new CacheControl**(`data`?): `CacheControl`
 
-Defined in: main.ts:176238
+Defined in: main.ts:178647
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176238
 
 #### Returns
 
-[`CacheControl`](CacheControl.md)
+`CacheControl`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176238
 
 > `optional` **cachable**: `boolean`
 
-Defined in: main.ts:176231
+Defined in: main.ts:178640
 
 indicates whether the page is cacheable
 
@@ -54,7 +54,7 @@ indicates whether the page is cacheable
 
 > `optional` **ttl**: `number`
 
-Defined in: main.ts:176234
+Defined in: main.ts:178643
 
 time to live
 the amount of time the browser caches a resource
@@ -69,7 +69,7 @@ the amount of time the browser caches a resource
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176247
+Defined in: main.ts:178656
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:176247
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176265
+Defined in: main.ts:178674
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:176265
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CacheControl`](CacheControl.md)
+> `static` **fromJS**(`data`): `CacheControl`
 
-Defined in: main.ts:176258
+Defined in: main.ts:178667
 
 #### Parameters
 
@@ -115,4 +115,4 @@ Defined in: main.ts:176258
 
 #### Returns
 
-[`CacheControl`](CacheControl.md)
+`CacheControl`

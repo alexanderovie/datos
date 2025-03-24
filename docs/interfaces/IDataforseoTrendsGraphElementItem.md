@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsGraphElementItem
 
-Defined in: main.ts:145512
+Defined in: main.ts:147921
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:145512
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:145516
+Defined in: main.ts:147925
 
 keyword popularity values averaged over the whole time range
 
@@ -32,7 +32,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:145514
+Defined in: main.ts:147923
 
 DataForSEO Trends data for the specified parameters
 
@@ -42,7 +42,7 @@ DataForSEO Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23670
+Defined in: main.ts:24009
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -57,7 +57,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23667
+Defined in: main.ts:24006
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -72,7 +72,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23664
+Defined in: main.ts:24003
 
 type of element
 

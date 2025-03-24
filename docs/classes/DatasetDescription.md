@@ -6,7 +6,7 @@
 
 # Class: DatasetDescription
 
-Defined in: main.ts:60209
+Defined in: main.ts:60636
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:60209
 
 ## Constructors
 
-### new DatasetDescription()
+### Constructor
 
-> **new DatasetDescription**(`data`?): [`DatasetDescription`](DatasetDescription.md)
+> **new DatasetDescription**(`data`?): `DatasetDescription`
 
-Defined in: main.ts:60217
+Defined in: main.ts:60644
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:60217
 
 #### Returns
 
-[`DatasetDescription`](DatasetDescription.md)
+`DatasetDescription`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60217
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:60213
+Defined in: main.ts:60640
 
 links featured in the ‘dataset_description’
 
@@ -54,7 +54,7 @@ links featured in the ‘dataset_description’
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:60211
+Defined in: main.ts:60638
 
 text of the description
 
@@ -68,7 +68,7 @@ text of the description
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60226
+Defined in: main.ts:60653
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:60226
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60248
+Defined in: main.ts:60675
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:60248
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
+> `static` **fromJS**(`data`): `DatasetDescription`
 
-Defined in: main.ts:60241
+Defined in: main.ts:60668
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:60241
 
 #### Returns
 
-[`DatasetDescription`](DatasetDescription.md)
+`DatasetDescription`

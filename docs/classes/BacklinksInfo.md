@@ -6,7 +6,7 @@
 
 # Class: BacklinksInfo
 
-Defined in: main.ts:98817
+Defined in: main.ts:100720
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:98817
 
 ## Constructors
 
-### new BacklinksInfo()
+### Constructor
 
-> **new BacklinksInfo**(`data`?): [`BacklinksInfo`](BacklinksInfo.md)
+> **new BacklinksInfo**(`data`?): `BacklinksInfo`
 
-Defined in: main.ts:98837
+Defined in: main.ts:100740
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:98837
 
 #### Returns
 
-[`BacklinksInfo`](BacklinksInfo.md)
+`BacklinksInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98837
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:98828
+Defined in: main.ts:100731
 
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
@@ -55,7 +55,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 > `optional` **dofollow**: `number`
 
-Defined in: main.ts:98825
+Defined in: main.ts:100728
 
 number of dofollow links
 
@@ -69,7 +69,7 @@ number of dofollow links
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:98819
+Defined in: main.ts:100722
 
 number of referring domains
 
@@ -83,7 +83,7 @@ number of referring domains
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:98821
+Defined in: main.ts:100724
 
 number of referring main domains
 
@@ -97,7 +97,7 @@ number of referring main domains
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:98823
+Defined in: main.ts:100726
 
 number of referring pages
 
@@ -111,7 +111,7 @@ number of referring pages
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:98833
+Defined in: main.ts:100736
 
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"
@@ -128,7 +128,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98846
+Defined in: main.ts:100749
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:98846
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:98868
+Defined in: main.ts:100771
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:98868
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
+> `static` **fromJS**(`data`): `BacklinksInfo`
 
-Defined in: main.ts:98861
+Defined in: main.ts:100764
 
 #### Parameters
 
@@ -174,4 +174,4 @@ Defined in: main.ts:98861
 
 #### Returns
 
-[`BacklinksInfo`](BacklinksInfo.md)
+`BacklinksInfo`

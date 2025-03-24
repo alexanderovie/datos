@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsPageIntersectionLiveItem
 
-Defined in: main.ts:119719
+Defined in: main.ts:121102
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:119719
 
 ## Constructors
 
-### new DataforseoLabsPageIntersectionLiveItem()
+### Constructor
 
-> **new DataforseoLabsPageIntersectionLiveItem**(`data`?): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+> **new DataforseoLabsPageIntersectionLiveItem**(`data`?): `DataforseoLabsPageIntersectionLiveItem`
 
-Defined in: main.ts:119731
+Defined in: main.ts:121114
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:119731
 
 #### Returns
 
-[`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+`DataforseoLabsPageIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:119731
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:119727
+Defined in: main.ts:121110
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
@@ -60,7 +60,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:119723
+Defined in: main.ts:121106
 
 keyword data for the returned keyword
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:119721
+Defined in: main.ts:121104
 
 search engine type
 
@@ -88,7 +88,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119740
+Defined in: main.ts:121123
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:119740
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119765
+Defined in: main.ts:121148
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:119765
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsPageIntersectionLiveItem`
 
-Defined in: main.ts:119758
+Defined in: main.ts:121141
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:119758
 
 #### Returns
 
-[`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)
+`DataforseoLabsPageIntersectionLiveItem`

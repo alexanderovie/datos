@@ -6,7 +6,7 @@
 
 # Interface: ICoursesSerpElementItem
 
-Defined in: main.ts:40408
+Defined in: main.ts:40835
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:40408
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:40419
+Defined in: main.ts:40846
 
 array of course categories
 contains a list of categories relevant to courses
@@ -33,7 +33,7 @@ contains a list of categories relevant to courses
 
 > `optional` **items**: [`CoursesElement`](../classes/CoursesElement.md)[]
 
-Defined in: main.ts:40421
+Defined in: main.ts:40848
 
 contains arrays of specific images
 
@@ -43,7 +43,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40412
+Defined in: main.ts:40839
 
 the alignment of the element in SERP
 can take the following values:
@@ -55,7 +55,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -70,7 +70,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -86,7 +86,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:40425
+Defined in: main.ts:40852
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -98,7 +98,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40416
+Defined in: main.ts:40843
 
 title of the row
 
@@ -108,7 +108,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -122,6 +122,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40414
+Defined in: main.ts:40841
 
 the XPath of the element

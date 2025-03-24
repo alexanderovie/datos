@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphListItemSerpElementItem
 
-Defined in: main.ts:31340
+Defined in: main.ts:31767
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:31340
 
 ## Constructors
 
-### new KnowledgeGraphListItemSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphListItemSerpElementItem**(`data`?): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+> **new KnowledgeGraphListItemSerpElementItem**(`data`?): `KnowledgeGraphListItemSerpElementItem`
 
-Defined in: main.ts:31365
+Defined in: main.ts:31792
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:31365
 
 #### Returns
 
-[`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+`KnowledgeGraphListItemSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:31365
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:31352
+Defined in: main.ts:31779
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:31357
+Defined in: main.ts:31784
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:31354
+Defined in: main.ts:31781
 
 link of the element
 
@@ -105,7 +105,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31344
+Defined in: main.ts:31771
 
 the alignment of the element in SERP
 can take the following values:
@@ -121,7 +121,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -140,7 +140,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -160,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31361
+Defined in: main.ts:31788
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -176,7 +176,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31348
+Defined in: main.ts:31775
 
 title of the link element
 
@@ -190,7 +190,7 @@ title of the link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -208,7 +208,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31346
+Defined in: main.ts:31773
 
 the XPath of the element
 
@@ -222,7 +222,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31370
+Defined in: main.ts:31797
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:31370
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31398
+Defined in: main.ts:31825
 
 #### Parameters
 
@@ -264,9 +264,9 @@ Defined in: main.ts:31398
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphListItemSerpElementItem`
 
-Defined in: main.ts:31391
+Defined in: main.ts:31818
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:31391
 
 #### Returns
 
-[`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+`KnowledgeGraphListItemSerpElementItem`
 
 #### Overrides
 

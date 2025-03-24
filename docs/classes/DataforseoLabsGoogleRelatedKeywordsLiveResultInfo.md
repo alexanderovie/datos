@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
-Defined in: main.ts:103415
+Defined in: main.ts:105236
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:103415
 
 ## Constructors
 
-### new DataforseoLabsGoogleRelatedKeywordsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsGoogleRelatedKeywordsLiveResultInfo**(`data`?): `DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:103436
+Defined in: main.ts:105257
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:103436
 
 #### Returns
 
-[`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103436
 
 > `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:103432
+Defined in: main.ts:105253
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:103430
+Defined in: main.ts:105251
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:103426
+Defined in: main.ts:105247
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:103424
+Defined in: main.ts:105245
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103417
+Defined in: main.ts:105238
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:103419
+Defined in: main.ts:105240
 
 keyword in a POST array
 
@@ -124,7 +124,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:103422
+Defined in: main.ts:105243
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -139,7 +139,7 @@ fields in the array are identical to that of keyword_data
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:103428
+Defined in: main.ts:105249
 
 total amount of results in our database relevant to your request
 
@@ -153,7 +153,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103445
+Defined in: main.ts:105266
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:103445
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103473
+Defined in: main.ts:105294
 
 #### Parameters
 
@@ -187,9 +187,9 @@ Defined in: main.ts:103473
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:103466
+Defined in: main.ts:105287
 
 #### Parameters
 
@@ -199,4 +199,4 @@ Defined in: main.ts:103466
 
 #### Returns
 
-[`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`

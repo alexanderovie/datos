@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
-Defined in: main.ts:196000
+Defined in: main.ts:198409
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:196000
 
 > `optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](../classes/GoogleShoppingSponsoredCarouselElement.md)[]
 
-Defined in: main.ts:196006
+Defined in: main.ts:198415
 
 items in SERP
 
@@ -32,7 +32,7 @@ items in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22618
+Defined in: main.ts:22957
 
 alignment of the element in SERP
 can take the following values:
@@ -48,7 +48,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22614
+Defined in: main.ts:22953
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -63,7 +63,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22611
+Defined in: main.ts:22950
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:196004
+Defined in: main.ts:198413
 
 product title
 
@@ -88,7 +88,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22608
+Defined in: main.ts:22947
 
 type of element
 
@@ -102,6 +102,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:196002
+Defined in: main.ts:198411
 
 XPath of the element

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantErrorsRequestInfo
 
-Defined in: main.ts:193636
+Defined in: main.ts:196045
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:193636
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:193659
+Defined in: main.ts:196068
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:193666
+Defined in: main.ts:196075
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:193652
+Defined in: main.ts:196061
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:193641
+Defined in: main.ts:196050
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:193646
+Defined in: main.ts:196055
 
 offset in the results array of returned tasks
 optional field

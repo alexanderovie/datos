@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTaskGetHtmlResultInfo
 
-Defined in: main.ts:49036
+Defined in: main.ts:49463
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:49036
 
 ## Constructors
 
-### new SerpGoogleNewsTaskGetHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleNewsTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
+> **new SerpGoogleNewsTaskGetHtmlResultInfo**(`data`?): `SerpGoogleNewsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:49060
+Defined in: main.ts:49487
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:49060
 
 #### Returns
 
-[`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
+`SerpGoogleNewsTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49060
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:49052
+Defined in: main.ts:49479
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:49056
+Defined in: main.ts:49483
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:49054
+Defined in: main.ts:49481
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49039
+Defined in: main.ts:49466
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49047
+Defined in: main.ts:49474
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49045
+Defined in: main.ts:49472
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49043
+Defined in: main.ts:49470
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:49041
+Defined in: main.ts:49468
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49069
+Defined in: main.ts:49496
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:49069
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49097
+Defined in: main.ts:49524
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:49097
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleNewsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:49090
+Defined in: main.ts:49517
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:49090
 
 #### Returns
 
-[`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
+`SerpGoogleNewsTaskGetHtmlResultInfo`

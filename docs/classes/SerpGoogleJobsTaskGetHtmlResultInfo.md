@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetHtmlResultInfo
 
-Defined in: main.ts:57351
+Defined in: main.ts:57778
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:57351
 
 ## Constructors
 
-### new SerpGoogleJobsTaskGetHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+> **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data`?): `SerpGoogleJobsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:57375
+Defined in: main.ts:57802
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:57375
 
 #### Returns
 
-[`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+`SerpGoogleJobsTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:57375
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:57367
+Defined in: main.ts:57794
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:57371
+Defined in: main.ts:57798
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:57369
+Defined in: main.ts:57796
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:57354
+Defined in: main.ts:57781
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:57362
+Defined in: main.ts:57789
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:57360
+Defined in: main.ts:57787
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:57358
+Defined in: main.ts:57785
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:57356
+Defined in: main.ts:57783
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57384
+Defined in: main.ts:57811
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:57384
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57412
+Defined in: main.ts:57839
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:57412
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleJobsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:57405
+Defined in: main.ts:57832
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:57405
 
 #### Returns
 
-[`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)
+`SerpGoogleJobsTaskGetHtmlResultInfo`

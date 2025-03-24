@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveItem
 
-Defined in: main.ts:170903
+Defined in: main.ts:173312
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170903
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveItem()
+### Constructor
 
-> **new BacklinksBulkReferringDomainsLiveItem**(`data`?): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
+> **new BacklinksBulkReferringDomainsLiveItem**(`data`?): `BacklinksBulkReferringDomainsLiveItem`
 
-Defined in: main.ts:170919
+Defined in: main.ts:173328
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170919
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
+`BacklinksBulkReferringDomainsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170919
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:170908
+Defined in: main.ts:173317
 
 number of referring domains pointing to the target
 note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric
@@ -55,7 +55,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:170910
+Defined in: main.ts:173319
 
 number of domains pointing at least one nofollow link to the target
 
@@ -69,7 +69,7 @@ number of domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:170913
+Defined in: main.ts:173322
 
 number of referring main domains pointing to the target
 the number of primary (root) domains referring to your target
@@ -84,7 +84,7 @@ the number of primary (root) domains referring to your target
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:170915
+Defined in: main.ts:173324
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -98,7 +98,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:170905
+Defined in: main.ts:173314
 
 domain, subdomain or webpage from a POST array
 
@@ -112,7 +112,7 @@ domain, subdomain or webpage from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170928
+Defined in: main.ts:173337
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:170928
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170949
+Defined in: main.ts:173358
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:170949
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksBulkReferringDomainsLiveItem`
 
-Defined in: main.ts:170942
+Defined in: main.ts:173351
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:170942
 
 #### Returns
 
-[`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
+`BacklinksBulkReferringDomainsLiveItem`

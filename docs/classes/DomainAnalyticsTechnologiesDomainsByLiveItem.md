@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByLiveItem
 
-Defined in: main.ts:97068
+Defined in: main.ts:98971
 
 items array
 
@@ -20,11 +20,11 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainsByLiveItem()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainsByLiveItem**(`data`?): [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)
+> **new DomainAnalyticsTechnologiesDomainsByLiveItem**(`data`?): `DomainAnalyticsTechnologiesDomainsByLiveItem`
 
-Defined in: main.ts:97112
+Defined in: main.ts:99015
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:97112
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)
+`DomainAnalyticsTechnologiesDomainsByLiveItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:97112
 
 > `optional` **content\_language\_code**: `string`
 
-Defined in: main.ts:97095
+Defined in: main.ts:98998
 
 content language
 code of the language that content on the target domain is written with
@@ -57,7 +57,7 @@ code of the language that content on the target domain is written with
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:97089
+Defined in: main.ts:98992
 
 domain ISO code
 ISO code of the country that target domain is determined to belong to
@@ -72,7 +72,7 @@ ISO code of the country that target domain is determined to belong to
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:97076
+Defined in: main.ts:98979
 
 domain meta description
 
@@ -86,7 +86,7 @@ domain meta description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:97072
+Defined in: main.ts:98975
 
 specified domain name
 
@@ -100,7 +100,7 @@ specified domain name
 
 > `optional` **domain\_rank**: `string`
 
-Defined in: main.ts:97081
+Defined in: main.ts:98984
 
 backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article
@@ -115,7 +115,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **emails**: `string`[]
 
-Defined in: main.ts:97101
+Defined in: main.ts:99004
 
 emails of the target
 emails indicated on the target website
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:97092
+Defined in: main.ts:98995
 
 domain language
 code of the language that target domain is determined to be associated with
@@ -145,7 +145,7 @@ code of the language that target domain is determined to be associated with
 
 > `optional` **last\_visited**: `string`
 
-Defined in: main.ts:97086
+Defined in: main.ts:98989
 
 most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -162,7 +162,7 @@ example:
 
 > `optional` **meta\_keywords**: `string`[]
 
-Defined in: main.ts:97078
+Defined in: main.ts:98981
 
 domain meta keywords
 
@@ -176,7 +176,7 @@ domain meta keywords
 
 > `optional` **phone\_numbers**: `string`[]
 
-Defined in: main.ts:97098
+Defined in: main.ts:99001
 
 phone numbers of the target
 contact phone numbers indicated on the target website
@@ -191,7 +191,7 @@ contact phone numbers indicated on the target website
 
 > `optional` **social\_graph\_urls**: `string`[]
 
-Defined in: main.ts:97104
+Defined in: main.ts:99007
 
 social media links and handles
 social media URLs detected in the social graphs of the target website
@@ -206,7 +206,7 @@ social media URLs detected in the social graphs of the target website
 
 > `optional` **technologies**: [`TechnologiesInfo`](TechnologiesInfo.md)
 
-Defined in: main.ts:97108
+Defined in: main.ts:99011
 
 technologies used by target domain
 contains objects with the names of technologies used on the website;
@@ -222,7 +222,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:97074
+Defined in: main.ts:98977
 
 domain meta title
 
@@ -236,7 +236,7 @@ domain meta title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:97070
+Defined in: main.ts:98973
 
 type of element
 
@@ -250,7 +250,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:97121
+Defined in: main.ts:99024
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:97121
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:97167
+Defined in: main.ts:99070
 
 #### Parameters
 
@@ -284,9 +284,9 @@ Defined in: main.ts:97167
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainsByLiveItem`
 
-Defined in: main.ts:97160
+Defined in: main.ts:99063
 
 #### Parameters
 
@@ -296,4 +296,4 @@ Defined in: main.ts:97160
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)
+`DomainAnalyticsTechnologiesDomainsByLiveItem`

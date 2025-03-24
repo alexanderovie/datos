@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessMenuLink
 
-Defined in: main.ts:25954
+Defined in: main.ts:26293
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:25954
 
 ## Constructors
 
-### new LocalBusinessMenuLink()
+### Constructor
 
-> **new LocalBusinessMenuLink**(`data`?): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+> **new LocalBusinessMenuLink**(`data`?): `LocalBusinessMenuLink`
 
-Defined in: main.ts:25963
+Defined in: main.ts:26302
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:25963
 
 #### Returns
 
-[`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+`LocalBusinessMenuLink`
 
 #### Overrides
 
-[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:25963
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25725
+Defined in: main.ts:26064
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25725
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:25957
+Defined in: main.ts:26296
 
 title of the element
 domain of the online menu system
@@ -75,7 +75,7 @@ domain of the online menu system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25723
+Defined in: main.ts:26062
 
 type of element
 
@@ -93,7 +93,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25959
+Defined in: main.ts:26298
 
 URL to view the menu
 
@@ -107,7 +107,7 @@ URL to view the menu
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25968
+Defined in: main.ts:26307
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:25968
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25987
+Defined in: main.ts:26326
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:25987
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+> `static` **fromJS**(`data`): `LocalBusinessMenuLink`
 
-Defined in: main.ts:25980
+Defined in: main.ts:26319
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:25980
 
 #### Returns
 
-[`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+`LocalBusinessMenuLink`
 
 #### Overrides
 

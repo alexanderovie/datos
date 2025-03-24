@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLanguagesResultInfo
 
-Defined in: main.ts:208465
+Defined in: main.ts:210874
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:208465
 
 ## Constructors
 
-### new AppDataGoogleLanguagesResultInfo()
+### Constructor
 
-> **new AppDataGoogleLanguagesResultInfo**(`data`?): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+> **new AppDataGoogleLanguagesResultInfo**(`data`?): `AppDataGoogleLanguagesResultInfo`
 
-Defined in: main.ts:208473
+Defined in: main.ts:210882
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:208473
 
 #### Returns
 
-[`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+`AppDataGoogleLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208473
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208469
+Defined in: main.ts:210878
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:208467
+Defined in: main.ts:210876
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208482
+Defined in: main.ts:210891
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:208482
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208500
+Defined in: main.ts:210909
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:208500
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleLanguagesResultInfo`
 
-Defined in: main.ts:208493
+Defined in: main.ts:210902
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:208493
 
 #### Returns
 
-[`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+`AppDataGoogleLanguagesResultInfo`

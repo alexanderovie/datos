@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveHtmlResultInfo
 
-Defined in: main.ts:54725
+Defined in: main.ts:55152
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:54725
 
 ## Constructors
 
-### new SerpGoogleImagesLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpGoogleImagesLiveHtmlResultInfo**(`data`?): [`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
+> **new SerpGoogleImagesLiveHtmlResultInfo**(`data`?): `SerpGoogleImagesLiveHtmlResultInfo`
 
-Defined in: main.ts:54749
+Defined in: main.ts:55176
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:54749
 
 #### Returns
 
-[`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
+`SerpGoogleImagesLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54749
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:54741
+Defined in: main.ts:55168
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:54745
+Defined in: main.ts:55172
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:54743
+Defined in: main.ts:55170
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:54728
+Defined in: main.ts:55155
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54736
+Defined in: main.ts:55163
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:54734
+Defined in: main.ts:55161
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54732
+Defined in: main.ts:55159
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:54730
+Defined in: main.ts:55157
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54758
+Defined in: main.ts:55185
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:54758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54786
+Defined in: main.ts:55213
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:54786
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleImagesLiveHtmlResultInfo`
 
-Defined in: main.ts:54779
+Defined in: main.ts:55206
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:54779
 
 #### Returns
 
-[`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
+`SerpGoogleImagesLiveHtmlResultInfo`

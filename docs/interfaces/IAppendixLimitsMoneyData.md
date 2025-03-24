@@ -6,7 +6,7 @@
 
 # Interface: IAppendixLimitsMoneyData
 
-Defined in: main.ts:244556
+Defined in: main.ts:246917
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:244556
 
 > `optional` **day**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-Defined in: main.ts:244557
+Defined in: main.ts:246918
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:244557
 
 > `optional` **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-Defined in: main.ts:244558
+Defined in: main.ts:246919

@@ -6,7 +6,7 @@
 
 # Class: DiscussionsAndForumsElement
 
-Defined in: main.ts:39862
+Defined in: main.ts:40289
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:39862
 
 ## Constructors
 
-### new DiscussionsAndForumsElement()
+### Constructor
 
-> **new DiscussionsAndForumsElement**(`data`?): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+> **new DiscussionsAndForumsElement**(`data`?): `DiscussionsAndForumsElement`
 
-Defined in: main.ts:39886
+Defined in: main.ts:40313
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:39886
 
 #### Returns
 
-[`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+`DiscussionsAndForumsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39886
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:39875
+Defined in: main.ts:40302
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39870
+Defined in: main.ts:40297
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **posts\_count**: `number`
 
-Defined in: main.ts:39882
+Defined in: main.ts:40309
 
 number of posts from the discussion on the related source
 
@@ -82,7 +82,7 @@ number of posts from the discussion on the related source
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:39873
+Defined in: main.ts:40300
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -97,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:39880
+Defined in: main.ts:40307
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,7 +114,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39866
+Defined in: main.ts:40293
 
 title of a given link element
 
@@ -128,7 +128,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39864
+Defined in: main.ts:40291
 
 type of element
 
@@ -142,7 +142,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39868
+Defined in: main.ts:40295
 
 URL
 
@@ -156,7 +156,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39895
+Defined in: main.ts:40322
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:39895
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39919
+Defined in: main.ts:40346
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:39919
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+> `static` **fromJS**(`data`): `DiscussionsAndForumsElement`
 
-Defined in: main.ts:39912
+Defined in: main.ts:40339
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:39912
 
 #### Returns
 
-[`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+`DiscussionsAndForumsElement`

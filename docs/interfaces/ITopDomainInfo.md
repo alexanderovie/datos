@@ -6,7 +6,7 @@
 
 # Interface: ITopDomainInfo
 
-Defined in: main.ts:24989
+Defined in: main.ts:25328
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24989
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:24991
+Defined in: main.ts:25330
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:24991
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:24990
+Defined in: main.ts:25329

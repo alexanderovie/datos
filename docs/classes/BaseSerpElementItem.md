@@ -6,7 +6,7 @@
 
 # Class: BaseSerpElementItem
 
-Defined in: main.ts:21772
+Defined in: main.ts:21978
 
 ## Extended by
 
@@ -78,11 +78,11 @@ Defined in: main.ts:21772
 
 ## Constructors
 
-### new BaseSerpElementItem()
+### Constructor
 
-> **new BaseSerpElementItem**(`data`?): [`BaseSerpElementItem`](BaseSerpElementItem.md)
+> **new BaseSerpElementItem**(`data`?): `BaseSerpElementItem`
 
-Defined in: main.ts:21785
+Defined in: main.ts:21991
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:21785
 
 #### Returns
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md)
+`BaseSerpElementItem`
 
 ## Properties
 
@@ -100,7 +100,7 @@ Defined in: main.ts:21785
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: main.ts:21783
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -139,7 +139,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -153,7 +153,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:21795
+Defined in: main.ts:22001
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:21795
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22115
+Defined in: main.ts:22321
 
 #### Parameters
 
@@ -187,9 +187,9 @@ Defined in: main.ts:22115
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseSerpElementItem`
 
-Defined in: main.ts:21803
+Defined in: main.ts:22009
 
 #### Parameters
 
@@ -199,4 +199,4 @@ Defined in: main.ts:21803
 
 #### Returns
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md)
+`BaseSerpElementItem`

@@ -6,7 +6,7 @@
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
 
-Defined in: main.ts:245681
+Defined in: main.ts:247646
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245681
 
 ## Constructors
 
-### new AppendixClickstreamDataKeywordsDataPriceData()
+### Constructor
 
-> **new AppendixClickstreamDataKeywordsDataPriceData**(`data`?): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
+> **new AppendixClickstreamDataKeywordsDataPriceData**(`data`?): `AppendixClickstreamDataKeywordsDataPriceData`
 
-Defined in: main.ts:245689
+Defined in: main.ts:247654
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245689
 
 #### Returns
 
-[`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
+`AppendixClickstreamDataKeywordsDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245689
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245682
+Defined in: main.ts:247647
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245682
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245683
+Defined in: main.ts:247648
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245683
 
 > `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245684
+Defined in: main.ts:247649
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245684
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245685
+Defined in: main.ts:247650
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:245685
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245698
+Defined in: main.ts:247663
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:245698
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245718
+Defined in: main.ts:247683
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:245718
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixClickstreamDataKeywordsDataPriceData`
 
-Defined in: main.ts:245711
+Defined in: main.ts:247676
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:245711
 
 #### Returns
 
-[`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
+`AppendixClickstreamDataKeywordsDataPriceData`

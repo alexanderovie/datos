@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
 
-Defined in: main.ts:231247
+Defined in: main.ts:233656
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:231247
 
 ## Constructors
 
-### new BusinessDataGoogleReviewsTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+> **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data`?): `BusinessDataGoogleReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:231265
+Defined in: main.ts:233674
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:231265
 
 #### Returns
 
-[`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+`BusinessDataGoogleReviewsTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231265
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:231257
+Defined in: main.ts:233666
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:231261
+Defined in: main.ts:233670
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:231250
+Defined in: main.ts:233659
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:231253
+Defined in: main.ts:233662
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:231255
+Defined in: main.ts:233664
 
 type of search engine
 
@@ -112,7 +112,7 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:231259
+Defined in: main.ts:233668
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231274
+Defined in: main.ts:233683
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:231274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231296
+Defined in: main.ts:233705
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:231296
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:231289
+Defined in: main.ts:233698
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:231289
 
 #### Returns
 
-[`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
+`BusinessDataGoogleReviewsTasksReadyResultInfo`

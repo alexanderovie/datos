@@ -6,7 +6,7 @@
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118378
+Defined in: main.ts:119761
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118378
 
 ## Constructors
 
-### new StocksBoxDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+> **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): `StocksBoxDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118400
+Defined in: main.ts:119783
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118400
 
 #### Returns
 
-[`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+`StocksBoxDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118400
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:118391
+Defined in: main.ts:119774
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:118396
+Defined in: main.ts:119779
 
 contains data provided in the graph of the element
 
@@ -88,7 +88,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:118387
+Defined in: main.ts:119770
 
 price of the shopping element
 
@@ -122,7 +122,7 @@ price of the shopping element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,7 +141,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -160,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:118385
+Defined in: main.ts:119768
 
 text alongside the link title
 
@@ -174,7 +174,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:118383
+Defined in: main.ts:119766
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -189,7 +189,7 @@ indicates the source of information included in the shopping_element
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:118394
+Defined in: main.ts:119777
 
 results table
 if there are none, equals null
@@ -204,7 +204,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118380
+Defined in: main.ts:119763
 
 title of the result in SERP
 
@@ -218,7 +218,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -236,7 +236,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:118389
+Defined in: main.ts:119772
 
 relevant URL
 
@@ -250,7 +250,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -268,7 +268,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118405
+Defined in: main.ts:119788
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:118405
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118430
+Defined in: main.ts:119813
 
 #### Parameters
 
@@ -310,9 +310,9 @@ Defined in: main.ts:118430
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `StocksBoxDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118423
+Defined in: main.ts:119806
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: main.ts:118423
 
 #### Returns
 
-[`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
+`StocksBoxDataforseoLabsSerpElementItem`
 
 #### Overrides
 

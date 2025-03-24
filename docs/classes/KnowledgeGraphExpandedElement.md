@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphExpandedElement
 
-Defined in: main.ts:31622
+Defined in: main.ts:32049
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:31622
 
 ## Constructors
 
-### new KnowledgeGraphExpandedElement()
+### Constructor
 
-> **new KnowledgeGraphExpandedElement**(`data`?): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+> **new KnowledgeGraphExpandedElement**(`data`?): `KnowledgeGraphExpandedElement`
 
-Defined in: main.ts:31647
+Defined in: main.ts:32074
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:31647
 
 #### Returns
 
-[`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+`KnowledgeGraphExpandedElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31647
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31630
+Defined in: main.ts:32057
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:31626
+Defined in: main.ts:32053
 
 title of a given element
 
@@ -68,7 +68,7 @@ title of a given element
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:31636
+Defined in: main.ts:32063
 
 images of the element
 
@@ -82,7 +82,7 @@ images of the element
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:31634
+Defined in: main.ts:32061
 
 text alongside the link title
 
@@ -96,7 +96,7 @@ text alongside the link title
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:31643
+Defined in: main.ts:32070
 
 table element
 
@@ -110,7 +110,7 @@ table element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31641
+Defined in: main.ts:32068
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,7 +127,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31632
+Defined in: main.ts:32059
 
 title of the result in SERP
 
@@ -141,7 +141,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31624
+Defined in: main.ts:32051
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31628
+Defined in: main.ts:32055
 
 relevant URL
 
@@ -169,7 +169,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31656
+Defined in: main.ts:32083
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:31656
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31685
+Defined in: main.ts:32112
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:31685
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphExpandedElement`
 
-Defined in: main.ts:31678
+Defined in: main.ts:32105
 
 #### Parameters
 
@@ -215,4 +215,4 @@ Defined in: main.ts:31678
 
 #### Returns
 
-[`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)
+`KnowledgeGraphExpandedElement`

@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesByResourceRequestInfo
 
-Defined in: main.ts:176715
+Defined in: main.ts:179124
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176715
 
 ## Constructors
 
-### new OnPagePagesByResourceRequestInfo()
+### Constructor
 
-> **new OnPagePagesByResourceRequestInfo**(`data`?): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+> **new OnPagePagesByResourceRequestInfo**(`data`?): `OnPagePagesByResourceRequestInfo`
 
-Defined in: main.ts:176775
+Defined in: main.ts:179184
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176775
 
 #### Returns
 
-[`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+`OnPagePagesByResourceRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176775
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:176751
+Defined in: main.ts:179160
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:176721
+Defined in: main.ts:179130
 
 ID of the task
 required field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:176732
+Defined in: main.ts:179141
 
 the maximum number of returned pages
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:176737
+Defined in: main.ts:179146
 
 offset in the results array of returned pages
 optional field
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:176765
+Defined in: main.ts:179174
 
 results sorting rules
 optional field
@@ -144,7 +144,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:176771
+Defined in: main.ts:179180
 
 user-defined task identifier
 optional field
@@ -162,7 +162,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:176727
+Defined in: main.ts:179136
 
 resource URL
 required field
@@ -180,7 +180,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176784
+Defined in: main.ts:179193
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: main.ts:176784
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176815
+Defined in: main.ts:179224
 
 #### Parameters
 
@@ -214,9 +214,9 @@ Defined in: main.ts:176815
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPagePagesByResourceRequestInfo`
 
-Defined in: main.ts:176808
+Defined in: main.ts:179217
 
 #### Parameters
 
@@ -226,4 +226,4 @@ Defined in: main.ts:176808
 
 #### Returns
 
-[`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+`OnPagePagesByResourceRequestInfo`

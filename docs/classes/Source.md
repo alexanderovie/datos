@@ -6,7 +6,7 @@
 
 # Class: Source
 
-Defined in: main.ts:232575
+Defined in: main.ts:234984
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:232575
 
 ## Constructors
 
-### new Source()
+### Constructor
 
-> **new Source**(`data`?): [`Source`](Source.md)
+> **new Source**(`data`?): `Source`
 
-Defined in: main.ts:232585
+Defined in: main.ts:234994
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:232585
 
 #### Returns
 
-[`Source`](Source.md)
+`Source`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232585
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:232581
+Defined in: main.ts:234990
 
 domain of the source where the review was posted
 
@@ -54,7 +54,7 @@ domain of the source where the review was posted
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:232579
+Defined in: main.ts:234988
 
 featured image of the source
 
@@ -68,7 +68,7 @@ featured image of the source
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:232577
+Defined in: main.ts:234986
 
 name of the source where the review was posted
 
@@ -82,7 +82,7 @@ name of the source where the review was posted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232594
+Defined in: main.ts:235003
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232594
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232613
+Defined in: main.ts:235022
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:232613
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Source`](Source.md)
+> `static` **fromJS**(`data`): `Source`
 
-Defined in: main.ts:232606
+Defined in: main.ts:235015
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:232606
 
 #### Returns
 
-[`Source`](Source.md)
+`Source`

@@ -6,7 +6,7 @@
 
 # Class: AmazonDeliveryInfo
 
-Defined in: main.ts:24416
+Defined in: main.ts:24755
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24416
 
 ## Constructors
 
-### new AmazonDeliveryInfo()
+### Constructor
 
-> **new AmazonDeliveryInfo**(`data`?): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+> **new AmazonDeliveryInfo**(`data`?): `AmazonDeliveryInfo`
 
-Defined in: main.ts:24434
+Defined in: main.ts:24773
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24434
 
 #### Returns
 
-[`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+`AmazonDeliveryInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24434
 
 > `optional` **delivery\_date\_from**: `string`
 
-Defined in: main.ts:24420
+Defined in: main.ts:24759
 
 the earliest date when the product can be shipped
 
@@ -54,7 +54,7 @@ the earliest date when the product can be shipped
 
 > `optional` **delivery\_date\_to**: `string`
 
-Defined in: main.ts:24422
+Defined in: main.ts:24761
 
 the latest date when the product can be delivered
 
@@ -68,7 +68,7 @@ the latest date when the product can be delivered
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:24418
+Defined in: main.ts:24757
 
 message accompanying the delivery information as posted by the seller
 
@@ -82,7 +82,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:24430
+Defined in: main.ts:24769
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -98,7 +98,7 @@ if free delivery is available, the value is null
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
 
-Defined in: main.ts:24424
+Defined in: main.ts:24763
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -112,7 +112,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
 
-Defined in: main.ts:24426
+Defined in: main.ts:24765
 
 the latest date when the product can be delivered with a fast delivery option
 
@@ -126,7 +126,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24443
+Defined in: main.ts:24782
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:24443
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24465
+Defined in: main.ts:24804
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:24465
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+> `static` **fromJS**(`data`): `AmazonDeliveryInfo`
 
-Defined in: main.ts:24458
+Defined in: main.ts:24797
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:24458
 
 #### Returns
 
-[`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+`AmazonDeliveryInfo`

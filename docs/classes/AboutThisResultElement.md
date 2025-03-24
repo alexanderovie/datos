@@ -6,7 +6,7 @@
 
 # Class: AboutThisResultElement
 
-Defined in: main.ts:23895
+Defined in: main.ts:24234
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:23895
 
 ## Constructors
 
-### new AboutThisResultElement()
+### Constructor
 
-> **new AboutThisResultElement**(`data`?): [`AboutThisResultElement`](AboutThisResultElement.md)
+> **new AboutThisResultElement**(`data`?): `AboutThisResultElement`
 
-Defined in: main.ts:23918
+Defined in: main.ts:24257
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:23918
 
 #### Returns
 
-[`AboutThisResultElement`](AboutThisResultElement.md)
+`AboutThisResultElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23918
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:23908
+Defined in: main.ts:24247
 
 the language of the result
 
@@ -54,7 +54,7 @@ the language of the result
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23910
+Defined in: main.ts:24249
 
 location for which the result is relevant
 
@@ -68,7 +68,7 @@ location for which the result is relevant
 
 > `optional` **related\_terms**: `string`[]
 
-Defined in: main.ts:23914
+Defined in: main.ts:24253
 
 related search terms that appear in the result
 
@@ -82,7 +82,7 @@ related search terms that appear in the result
 
 > `optional` **search\_terms**: `string`[]
 
-Defined in: main.ts:23912
+Defined in: main.ts:24251
 
 matching search terms that appear in the result
 
@@ -96,7 +96,7 @@ matching search terms that appear in the result
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:23901
+Defined in: main.ts:24240
 
 source of additional information about the result
 
@@ -110,7 +110,7 @@ source of additional information about the result
 
 > `optional` **source\_info**: `string`
 
-Defined in: main.ts:23904
+Defined in: main.ts:24243
 
 additional information about the result
 description of the website from Wikipedia or another additional context
@@ -125,7 +125,7 @@ description of the website from Wikipedia or another additional context
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:23906
+Defined in: main.ts:24245
 
 URL to full information from the 'source'
 
@@ -139,7 +139,7 @@ URL to full information from the 'source'
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23897
+Defined in: main.ts:24236
 
 type of element
 
@@ -153,7 +153,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23899
+Defined in: main.ts:24238
 
 result’s URL
 
@@ -167,7 +167,7 @@ result’s URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23927
+Defined in: main.ts:24266
 
 #### Parameters
 
@@ -185,7 +185,7 @@ Defined in: main.ts:23927
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23960
+Defined in: main.ts:24299
 
 #### Parameters
 
@@ -201,9 +201,9 @@ Defined in: main.ts:23960
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AboutThisResultElement`](AboutThisResultElement.md)
+> `static` **fromJS**(`data`): `AboutThisResultElement`
 
-Defined in: main.ts:23953
+Defined in: main.ts:24292
 
 #### Parameters
 
@@ -213,4 +213,4 @@ Defined in: main.ts:23953
 
 #### Returns
 
-[`AboutThisResultElement`](AboutThisResultElement.md)
+`AboutThisResultElement`

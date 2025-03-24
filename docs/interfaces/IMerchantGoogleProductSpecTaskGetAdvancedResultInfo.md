@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
-Defined in: main.ts:198746
+Defined in: main.ts:201155
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:198746
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:198768
+Defined in: main.ts:201177
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:198773
+Defined in: main.ts:201182
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:198761
+Defined in: main.ts:201170
 
 description of the product
 
@@ -52,7 +52,7 @@ description of the product
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:198763
+Defined in: main.ts:201172
 
 URL of the product image
 
@@ -62,7 +62,7 @@ URL of the product image
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:198777
+Defined in: main.ts:201186
 
 types of items found on the product specification page
 possible item types:
@@ -74,7 +74,7 @@ shopping_specification
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:198782
+Defined in: main.ts:201191
 
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
@@ -85,7 +85,7 @@ contains all product attributes and related data listed on the product specifica
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:198779
+Defined in: main.ts:201188
 
 the number of results returned in the items array
 
@@ -95,7 +95,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:198757
+Defined in: main.ts:201166
 
 language code in a POST array
 
@@ -105,7 +105,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:198755
+Defined in: main.ts:201164
 
 location code in a POST array
 
@@ -115,7 +115,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:198749
+Defined in: main.ts:201158
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -126,7 +126,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:198753
+Defined in: main.ts:201162
 
 search engine domain in a POST array
 
@@ -136,7 +136,7 @@ search engine domain in a POST array
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:198765
+Defined in: main.ts:201174
 
 tags of the product
 
@@ -146,7 +146,7 @@ tags of the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:198759
+Defined in: main.ts:201168
 
 title of the product
 
@@ -156,6 +156,6 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:198751
+Defined in: main.ts:201160
 
 type of element

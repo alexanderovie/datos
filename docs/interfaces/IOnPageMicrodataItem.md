@@ -6,7 +6,7 @@
 
 # Interface: IOnPageMicrodataItem
 
-Defined in: main.ts:181438
+Defined in: main.ts:183847
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181438
 
 > `optional` **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
 
-Defined in: main.ts:181442
+Defined in: main.ts:183851
 
 information related to microdata validation
 
@@ -28,6 +28,6 @@ information related to microdata validation
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:181440
+Defined in: main.ts:183849
 
 type of element

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
 
-Defined in: main.ts:236277
+Defined in: main.ts:238686
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:236277
 
 ## Constructors
 
-### new BusinessDataTrustpilotReviewsTaskGetResultInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotReviewsTaskGetResultInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+> **new BusinessDataTrustpilotReviewsTaskGetResultInfo**(`data`?): `BusinessDataTrustpilotReviewsTaskGetResultInfo`
 
-Defined in: main.ts:236312
+Defined in: main.ts:238721
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:236312
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+`BusinessDataTrustpilotReviewsTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236312
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:236286
+Defined in: main.ts:238695
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:236291
+Defined in: main.ts:238700
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:236279
+Defined in: main.ts:238688
 
 domain of the business entity
 
@@ -86,7 +86,7 @@ domain of the business entity
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:236308
+Defined in: main.ts:238717
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:236305
+Defined in: main.ts:238714
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:236297
+Defined in: main.ts:238706
 
 location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected
@@ -131,7 +131,7 @@ address of the business entity for which the reviews are collected
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:236302
+Defined in: main.ts:238711
 
 rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP
@@ -146,7 +146,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:236299
+Defined in: main.ts:238708
 
 the total number of reviews
 
@@ -160,7 +160,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:236283
+Defined in: main.ts:238692
 
 search engine domain in a POST array
 
@@ -174,7 +174,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:236294
+Defined in: main.ts:238703
 
 title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected
@@ -189,7 +189,7 @@ the name of the business entity for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:236281
+Defined in: main.ts:238690
 
 type of element
 
@@ -203,7 +203,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236321
+Defined in: main.ts:238730
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:236321
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236352
+Defined in: main.ts:238761
 
 #### Parameters
 
@@ -237,9 +237,9 @@ Defined in: main.ts:236352
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotReviewsTaskGetResultInfo`
 
-Defined in: main.ts:236345
+Defined in: main.ts:238754
 
 #### Parameters
 
@@ -249,4 +249,4 @@ Defined in: main.ts:236345
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+`BusinessDataTrustpilotReviewsTaskGetResultInfo`

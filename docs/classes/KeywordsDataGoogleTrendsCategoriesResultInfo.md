@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
 
-Defined in: main.ts:142601
+Defined in: main.ts:145002
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:142601
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsCategoriesResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+> **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data`?): `KeywordsDataGoogleTrendsCategoriesResultInfo`
 
-Defined in: main.ts:142618
+Defined in: main.ts:145019
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:142618
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+`KeywordsDataGoogleTrendsCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:142618
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:142603
+Defined in: main.ts:145004
 
 unique google trends category identifier
 
@@ -54,7 +54,7 @@ unique google trends category identifier
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:142614
+Defined in: main.ts:145015
 
 the code of the superordinate category
 example:
@@ -75,7 +75,7 @@ where category_code_parent corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:142605
+Defined in: main.ts:145006
 
 name of the google trends category
 
@@ -89,7 +89,7 @@ name of the google trends category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142627
+Defined in: main.ts:145028
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:142627
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142646
+Defined in: main.ts:145047
 
 #### Parameters
 
@@ -123,9 +123,9 @@ Defined in: main.ts:142646
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsCategoriesResultInfo`
 
-Defined in: main.ts:142639
+Defined in: main.ts:145040
 
 #### Parameters
 
@@ -135,4 +135,4 @@ Defined in: main.ts:142639
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsCategoriesResultInfo`](KeywordsDataGoogleTrendsCategoriesResultInfo.md)
+`KeywordsDataGoogleTrendsCategoriesResultInfo`

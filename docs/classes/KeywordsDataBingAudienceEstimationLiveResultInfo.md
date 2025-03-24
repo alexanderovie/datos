@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationLiveResultInfo
 
-Defined in: main.ts:150725
+Defined in: main.ts:153134
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:150725
 
 ## Constructors
 
-### new KeywordsDataBingAudienceEstimationLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataBingAudienceEstimationLiveResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationLiveResultInfo`](KeywordsDataBingAudienceEstimationLiveResultInfo.md)
+> **new KeywordsDataBingAudienceEstimationLiveResultInfo**(`data`?): `KeywordsDataBingAudienceEstimationLiveResultInfo`
 
-Defined in: main.ts:150756
+Defined in: main.ts:153165
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:150756
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationLiveResultInfo`](KeywordsDataBingAudienceEstimationLiveResultInfo.md)
+`KeywordsDataBingAudienceEstimationLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150756
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:150752
+Defined in: main.ts:153161
 
 currency name
 example: USDollar
@@ -55,7 +55,7 @@ example: USDollar
 
 > `optional` **est\_audience\_size**: [`EstInfo`](EstInfo.md)
 
-Defined in: main.ts:150729
+Defined in: main.ts:153138
 
 monthly estimated reach user count range
 
@@ -69,7 +69,7 @@ monthly estimated reach user count range
 
 > `optional` **est\_clicks**: [`EstInfo`](EstInfo.md)
 
-Defined in: main.ts:150731
+Defined in: main.ts:153140
 
 monthly estimated click count range
 
@@ -83,7 +83,7 @@ monthly estimated click count range
 
 > `optional` **est\_cost\_per\_event**: [`EstCInfo`](EstCInfo.md)
 
-Defined in: main.ts:150735
+Defined in: main.ts:153144
 
 indicates the estimated cost per event with range result
 
@@ -97,7 +97,7 @@ indicates the estimated cost per event with range result
 
 > `optional` **est\_ctr**: [`EstCInfo`](EstCInfo.md)
 
-Defined in: main.ts:150737
+Defined in: main.ts:153146
 
 estimated click-through rate range
 
@@ -111,7 +111,7 @@ estimated click-through rate range
 
 > `optional` **est\_impressions**: [`EstInfo`](EstInfo.md)
 
-Defined in: main.ts:150727
+Defined in: main.ts:153136
 
 monthly estimated impressions range
 
@@ -125,7 +125,7 @@ monthly estimated impressions range
 
 > `optional` **est\_reach\_audience\_size**: `number`
 
-Defined in: main.ts:150747
+Defined in: main.ts:153156
 
 monthly estimated user count
 
@@ -139,7 +139,7 @@ monthly estimated user count
 
 > `optional` **est\_reach\_impressions**: `number`
 
-Defined in: main.ts:150749
+Defined in: main.ts:153158
 
 monthly estimated impressions
 
@@ -153,7 +153,7 @@ monthly estimated impressions
 
 > `optional` **est\_spend**: [`EstInfo`](EstInfo.md)
 
-Defined in: main.ts:150733
+Defined in: main.ts:153142
 
 monthly estimated spending range
 
@@ -167,7 +167,7 @@ monthly estimated spending range
 
 > `optional` **events\_lost\_to\_bid**: `number`
 
-Defined in: main.ts:150743
+Defined in: main.ts:153152
 
 indicates event lost count due to insufficient input bid
 
@@ -181,7 +181,7 @@ indicates event lost count due to insufficient input bid
 
 > `optional` **events\_lost\_to\_budget**: `number`
 
-Defined in: main.ts:150745
+Defined in: main.ts:153154
 
 indicates the event lost count due to insufficient input budget
 
@@ -195,7 +195,7 @@ indicates the event lost count due to insufficient input budget
 
 > `optional` **suggested\_bid**: `number`
 
-Defined in: main.ts:150739
+Defined in: main.ts:153148
 
 suggested bid value under the current targeting
 
@@ -209,7 +209,7 @@ suggested bid value under the current targeting
 
 > `optional` **suggested\_budget**: `number`
 
-Defined in: main.ts:150741
+Defined in: main.ts:153150
 
 suggested daily budget value under the current targeting and bid
 
@@ -223,7 +223,7 @@ suggested daily budget value under the current targeting and bid
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:150765
+Defined in: main.ts:153174
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:150765
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:150794
+Defined in: main.ts:153203
 
 #### Parameters
 
@@ -257,9 +257,9 @@ Defined in: main.ts:150794
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationLiveResultInfo`](KeywordsDataBingAudienceEstimationLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationLiveResultInfo`
 
-Defined in: main.ts:150787
+Defined in: main.ts:153196
 
 #### Parameters
 
@@ -269,4 +269,4 @@ Defined in: main.ts:150787
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationLiveResultInfo`](KeywordsDataBingAudienceEstimationLiveResultInfo.md)
+`KeywordsDataBingAudienceEstimationLiveResultInfo`

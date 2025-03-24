@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
-Defined in: main.ts:140559
+Defined in: main.ts:142960
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:140559
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo()
+### Constructor
 
-> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data`?): `KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
 
-Defined in: main.ts:140686
+Defined in: main.ts:143087
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:140686
 
 #### Returns
 
-[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:140686
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:140578
+Defined in: main.ts:142979
 
 the maximum custom bid
 required field
@@ -58,7 +58,7 @@ learn more in this help center article
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:140634
+Defined in: main.ts:143035
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -80,7 +80,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:140649
+Defined in: main.ts:143050
 
 forecasting date interval
 optional field
@@ -98,7 +98,7 @@ default value: next_month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:140643
+Defined in: main.ts:143044
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -119,7 +119,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:140572
+Defined in: main.ts:142973
 
 keywords
 required field
@@ -144,7 +144,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:140624
+Defined in: main.ts:143025
 
 search engine language code
 optional field
@@ -162,7 +162,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:140618
+Defined in: main.ts:143019
 
 full name of search engine language
 optional field
@@ -180,7 +180,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:140603
+Defined in: main.ts:143004
 
 search engine location code
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:140612
+Defined in: main.ts:143013
 
 GPS coordinates of a location
 optional field
@@ -221,7 +221,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:140595
+Defined in: main.ts:142996
 
 full name of search engine location
 optional field
@@ -241,7 +241,7 @@ London,England,United Kingdom
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:140582
+Defined in: main.ts:142983
 
 keywords match-type
 required field
@@ -257,7 +257,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:140676
+Defined in: main.ts:143077
 
 notification URL of a completed task
 optional field
@@ -280,7 +280,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:140665
+Defined in: main.ts:143066
 
 return URL for sending task results
 optional field
@@ -303,7 +303,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:140587
+Defined in: main.ts:142988
 
 include Google search partners
 optional field
@@ -320,7 +320,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:140654
+Defined in: main.ts:143055
 
 results sorting parameters
 optional field
@@ -337,7 +337,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:140682
+Defined in: main.ts:143083
 
 user-defined task identifier
 optional field
@@ -355,7 +355,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:140695
+Defined in: main.ts:143096
 
 #### Parameters
 
@@ -373,7 +373,7 @@ Defined in: main.ts:140695
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:140731
+Defined in: main.ts:143132
 
 #### Parameters
 
@@ -389,9 +389,9 @@ Defined in: main.ts:140731
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
 
-Defined in: main.ts:140724
+Defined in: main.ts:143125
 
 #### Parameters
 
@@ -401,4 +401,4 @@ Defined in: main.ts:140724
 
 #### Returns
 
-[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`

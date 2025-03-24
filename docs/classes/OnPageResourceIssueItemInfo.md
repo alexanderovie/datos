@@ -6,7 +6,7 @@
 
 # Class: OnPageResourceIssueItemInfo
 
-Defined in: main.ts:176067
+Defined in: main.ts:178476
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176067
 
 ## Constructors
 
-### new OnPageResourceIssueItemInfo()
+### Constructor
 
-> **new OnPageResourceIssueItemInfo**(`data`?): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+> **new OnPageResourceIssueItemInfo**(`data`?): `OnPageResourceIssueItemInfo`
 
-Defined in: main.ts:176089
+Defined in: main.ts:178498
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176089
 
 #### Returns
 
-[`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+`OnPageResourceIssueItemInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176089
 
 > `optional` **column**: `number`
 
-Defined in: main.ts:176071
+Defined in: main.ts:178480
 
 column where the error was found
 
@@ -54,7 +54,7 @@ column where the error was found
 
 > `optional` **line**: `number`
 
-Defined in: main.ts:176069
+Defined in: main.ts:178478
 
 line where the error was found
 
@@ -68,7 +68,7 @@ line where the error was found
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:176074
+Defined in: main.ts:178483
 
 text message of the error
 the full list of possible HTML errors can be found here
@@ -83,7 +83,7 @@ the full list of possible HTML errors can be found here
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:176085
+Defined in: main.ts:178494
 
 status code of the error
 possible values:
@@ -106,7 +106,7 @@ possible values:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176098
+Defined in: main.ts:178507
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:176098
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176118
+Defined in: main.ts:178527
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:176118
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+> `static` **fromJS**(`data`): `OnPageResourceIssueItemInfo`
 
-Defined in: main.ts:176111
+Defined in: main.ts:178520
 
 #### Parameters
 
@@ -152,4 +152,4 @@ Defined in: main.ts:176111
 
 #### Returns
 
-[`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+`OnPageResourceIssueItemInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListResultInfo
 
-Defined in: main.ts:99379
+Defined in: main.ts:101282
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99379
 
 ## Constructors
 
-### new DataforseoLabsIdListResultInfo()
+### Constructor
 
-> **new DataforseoLabsIdListResultInfo**(`data`?): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+> **new DataforseoLabsIdListResultInfo**(`data`?): `DataforseoLabsIdListResultInfo`
 
-Defined in: main.ts:99405
+Defined in: main.ts:101308
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99405
 
 #### Returns
 
-[`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+`DataforseoLabsIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99405
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:99399
+Defined in: main.ts:101302
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:99394
+Defined in: main.ts:101297
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:99389
+Defined in: main.ts:101292
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:99381
+Defined in: main.ts:101284
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:99401
+Defined in: main.ts:101304
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:99397
+Defined in: main.ts:101300
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:99384
+Defined in: main.ts:101287
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99414
+Defined in: main.ts:101317
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:99414
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99443
+Defined in: main.ts:101346
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:99443
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsIdListResultInfo`
 
-Defined in: main.ts:99436
+Defined in: main.ts:101339
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:99436
 
 #### Returns
 
-[`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+`DataforseoLabsIdListResultInfo`

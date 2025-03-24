@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
-Defined in: main.ts:107215
+Defined in: main.ts:108512
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:107215
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
 
-Defined in: main.ts:107246
+Defined in: main.ts:108543
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:107246
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:107246
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:107222
+Defined in: main.ts:108519
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107236
+Defined in: main.ts:108533
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:107229
+Defined in: main.ts:108526
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:107242
+Defined in: main.ts:108539
 
 user-defined task identifier
 optional field
@@ -115,7 +115,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107255
+Defined in: main.ts:108552
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:107255
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107279
+Defined in: main.ts:108576
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:107279
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
 
-Defined in: main.ts:107272
+Defined in: main.ts:108569
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:107272
 
 #### Returns
 
-[`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`

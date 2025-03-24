@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTaskGetItem
 
-Defined in: main.ts:232637
+Defined in: main.ts:235046
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:232637
 
 ## Constructors
 
-### new BusinessDataGoogleExtendedReviewsTaskGetItem()
+### Constructor
 
-> **new BusinessDataGoogleExtendedReviewsTaskGetItem**(`data`?): [`BusinessDataGoogleExtendedReviewsTaskGetItem`](BusinessDataGoogleExtendedReviewsTaskGetItem.md)
+> **new BusinessDataGoogleExtendedReviewsTaskGetItem**(`data`?): `BusinessDataGoogleExtendedReviewsTaskGetItem`
 
-Defined in: main.ts:232709
+Defined in: main.ts:235118
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:232709
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTaskGetItem`](BusinessDataGoogleExtendedReviewsTaskGetItem.md)
+`BusinessDataGoogleExtendedReviewsTaskGetItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232709
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:232699
+Defined in: main.ts:235108
 
 images submitted by the reviewer
 
@@ -54,7 +54,7 @@ images submitted by the reviewer
 
 > `optional` **local\_guide**: `boolean`
 
-Defined in: main.ts:232671
+Defined in: main.ts:235080
 
 indicates whether the reviewer has a ‘local guide’ status
 
@@ -68,7 +68,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 > `optional` **original\_owner\_answer**: `string`
 
-Defined in: main.ts:232685
+Defined in: main.ts:235094
 
 original text of the owner’s response
 the original response to the review, no auto-translate applied
@@ -83,7 +83,7 @@ the original response to the review, no auto-translate applied
 
 > `optional` **original\_review\_text**: `string`
 
-Defined in: main.ts:232655
+Defined in: main.ts:235064
 
 original content of the review
 the original content of the review, no auto-translate applied
@@ -98,7 +98,7 @@ the original content of the review, no auto-translate applied
 
 > `optional` **owner\_answer**: `string`
 
-Defined in: main.ts:232682
+Defined in: main.ts:235091
 
 text of the owner’s response
 the owner’s response to the review
@@ -113,7 +113,7 @@ the owner’s response to the review
 
 > `optional` **owner\_time\_ago**: `string`
 
-Defined in: main.ts:232688
+Defined in: main.ts:235097
 
 publication time
 indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review
@@ -128,7 +128,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 > `optional` **owner\_timestamp**: `string`
 
-Defined in: main.ts:232693
+Defined in: main.ts:235102
 
 date and time of the owner’s reply to the review
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -145,7 +145,7 @@ example:
 
 > `optional` **photos\_count**: `number`
 
-Defined in: main.ts:232669
+Defined in: main.ts:235078
 
 total number of photos submitted by the reviewer
 
@@ -159,7 +159,7 @@ total number of photos submitted by the reviewer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:232648
+Defined in: main.ts:235057
 
 the alignment of the review in SERP
 can take the following values: right
@@ -174,7 +174,7 @@ can take the following values: right
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:232679
+Defined in: main.ts:235088
 
 URL of the reviewer’s profile image
 
@@ -188,7 +188,7 @@ URL of the reviewer’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:232673
+Defined in: main.ts:235082
 
 profile name of the reviewer
 
@@ -202,7 +202,7 @@ profile name of the reviewer
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:232675
+Defined in: main.ts:235084
 
 URL of the reviewer’s profile
 
@@ -216,7 +216,7 @@ URL of the reviewer’s profile
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:232645
+Defined in: main.ts:235054
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
@@ -231,7 +231,7 @@ absolute position among all reviews on the list
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:232642
+Defined in: main.ts:235051
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -246,7 +246,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:232665
+Defined in: main.ts:235074
 
 the rating score submitted by the reviewer
 
@@ -260,7 +260,7 @@ the rating score submitted by the reviewer
 
 > `optional` **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
 
-Defined in: main.ts:232702
+Defined in: main.ts:235111
 
 review highlights
 contains highlighted review criteria and assessments
@@ -275,7 +275,7 @@ contains highlighted review criteria and assessments
 
 > `optional` **review\_id**: `string`
 
-Defined in: main.ts:232697
+Defined in: main.ts:235106
 
 the unique identifier of a review on Google
 example:
@@ -291,7 +291,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:232652
+Defined in: main.ts:235061
 
 the content of the review
 
@@ -305,7 +305,7 @@ the content of the review
 
 > `optional` **review\_url**: `string`
 
-Defined in: main.ts:232677
+Defined in: main.ts:235086
 
 the URL of the review
 
@@ -319,7 +319,7 @@ the URL of the review
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:232667
+Defined in: main.ts:235076
 
 total number of reviews submitted by the reviewer
 
@@ -333,7 +333,7 @@ total number of reviews submitted by the reviewer
 
 > `optional` **source**: [`Source`](Source.md)
 
-Defined in: main.ts:232705
+Defined in: main.ts:235114
 
 source of the review
 contains information about the source where the review was posted
@@ -348,7 +348,7 @@ contains information about the source where the review was posted
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:232658
+Defined in: main.ts:235067
 
 the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed
@@ -363,7 +363,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:232663
+Defined in: main.ts:235072
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -380,7 +380,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:232639
+Defined in: main.ts:235048
 
 type of element
 
@@ -394,7 +394,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:232650
+Defined in: main.ts:235059
 
 the XPath of the review
 
@@ -408,7 +408,7 @@ the XPath of the review
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232718
+Defined in: main.ts:235127
 
 #### Parameters
 
@@ -426,7 +426,7 @@ Defined in: main.ts:232718
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232767
+Defined in: main.ts:235176
 
 #### Parameters
 
@@ -442,9 +442,9 @@ Defined in: main.ts:232767
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTaskGetItem`](BusinessDataGoogleExtendedReviewsTaskGetItem.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleExtendedReviewsTaskGetItem`
 
-Defined in: main.ts:232760
+Defined in: main.ts:235169
 
 #### Parameters
 
@@ -454,4 +454,4 @@ Defined in: main.ts:232760
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTaskGetItem`](BusinessDataGoogleExtendedReviewsTaskGetItem.md)
+`BusinessDataGoogleExtendedReviewsTaskGetItem`

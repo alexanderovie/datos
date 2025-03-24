@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveResultInfo
 
-Defined in: main.ts:160701
+Defined in: main.ts:163110
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:160701
 
 ## Constructors
 
-### new BacklinksHistoryLiveResultInfo()
+### Constructor
 
-> **new BacklinksHistoryLiveResultInfo**(`data`?): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+> **new BacklinksHistoryLiveResultInfo**(`data`?): `BacklinksHistoryLiveResultInfo`
 
-Defined in: main.ts:160723
+Defined in: main.ts:163132
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:160723
 
 #### Returns
 
-[`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+`BacklinksHistoryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160723
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:160708
+Defined in: main.ts:163117
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:160713
+Defined in: main.ts:163122
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
 
-Defined in: main.ts:160719
+Defined in: main.ts:163128
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
@@ -90,7 +90,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:160715
+Defined in: main.ts:163124
 
 the number of results returned in the items array
 
@@ -104,7 +104,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160703
+Defined in: main.ts:163112
 
 target from the POST array
 
@@ -118,7 +118,7 @@ target from the POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160732
+Defined in: main.ts:163141
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:160732
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160757
+Defined in: main.ts:163166
 
 #### Parameters
 
@@ -152,9 +152,9 @@ Defined in: main.ts:160757
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksHistoryLiveResultInfo`
 
-Defined in: main.ts:160750
+Defined in: main.ts:163159
 
 #### Parameters
 
@@ -164,4 +164,4 @@ Defined in: main.ts:160750
 
 #### Returns
 
-[`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+`BacklinksHistoryLiveResultInfo`

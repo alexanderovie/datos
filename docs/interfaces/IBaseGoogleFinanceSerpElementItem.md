@@ -6,7 +6,7 @@
 
 # Interface: IBaseGoogleFinanceSerpElementItem
 
-Defined in: main.ts:22209
+Defined in: main.ts:22415
 
 ## Extended by
 
@@ -24,6 +24,6 @@ Defined in: main.ts:22209
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22211
+Defined in: main.ts:22417
 
 type of element

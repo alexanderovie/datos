@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkRanksLiveRequestInfo
 
-Defined in: main.ts:169851
+Defined in: main.ts:172260
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:169851
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:169876
+Defined in: main.ts:172285
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:169870
+Defined in: main.ts:172279
 
 domains, subdomains or webpages to get rank for
 required field

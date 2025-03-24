@@ -6,7 +6,7 @@
 
 # Class: ProductInformationRows
 
-Defined in: main.ts:203699
+Defined in: main.ts:206108
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:203699
 
 ## Constructors
 
-### new ProductInformationRows()
+### Constructor
 
-> **new ProductInformationRows**(`data`?): [`ProductInformationRows`](ProductInformationRows.md)
+> **new ProductInformationRows**(`data`?): `ProductInformationRows`
 
-Defined in: main.ts:203709
+Defined in: main.ts:206118
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:203709
 
 #### Returns
 
-[`ProductInformationRows`](ProductInformationRows.md)
+`ProductInformationRows`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203709
 
 > `optional` **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
 
-Defined in: main.ts:203705
+Defined in: main.ts:206114
 
 rows containing related product information
 
@@ -54,7 +54,7 @@ rows containing related product information
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:203703
+Defined in: main.ts:206112
 
 title under which related product information appears on the Amazon product page
 
@@ -68,7 +68,7 @@ title under which related product information appears on the Amazon product page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:203701
+Defined in: main.ts:206110
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203718
+Defined in: main.ts:206127
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:203718
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203741
+Defined in: main.ts:206150
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:203741
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
+> `static` **fromJS**(`data`): `ProductInformationRows`
 
-Defined in: main.ts:203734
+Defined in: main.ts:206143
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:203734
 
 #### Returns
 
-[`ProductInformationRows`](ProductInformationRows.md)
+`ProductInformationRows`

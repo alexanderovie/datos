@@ -6,7 +6,7 @@
 
 # Interface: ISocialMetricsInfo
 
-Defined in: main.ts:24935
+Defined in: main.ts:25274
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24935
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:24939
+Defined in: main.ts:25278
 
 likes count
 
@@ -28,6 +28,6 @@ likes count
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24937
+Defined in: main.ts:25276
 
 type of element

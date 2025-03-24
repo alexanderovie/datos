@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsResultInfo
 
-Defined in: main.ts:193671
+Defined in: main.ts:196080
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:193671
 
 ## Constructors
 
-### new MerchantErrorsResultInfo()
+### Constructor
 
-> **new MerchantErrorsResultInfo**(`data`?): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+> **new MerchantErrorsResultInfo**(`data`?): `MerchantErrorsResultInfo`
 
-Defined in: main.ts:193702
+Defined in: main.ts:196111
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:193702
 
 #### Returns
 
-[`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+`MerchantErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193702
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:193678
+Defined in: main.ts:196087
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:193682
+Defined in: main.ts:196091
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:193685
+Defined in: main.ts:196094
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:193680
+Defined in: main.ts:196089
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:193692
+Defined in: main.ts:196101
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:193690
+Defined in: main.ts:196099
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:193698
+Defined in: main.ts:196107
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:193695
+Defined in: main.ts:196104
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:193688
+Defined in: main.ts:196097
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:193673
+Defined in: main.ts:196082
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193711
+Defined in: main.ts:196120
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:193711
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193737
+Defined in: main.ts:196146
 
 #### Parameters
 
@@ -221,9 +221,9 @@ Defined in: main.ts:193737
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantErrorsResultInfo`
 
-Defined in: main.ts:193730
+Defined in: main.ts:196139
 
 #### Parameters
 
@@ -233,4 +233,4 @@ Defined in: main.ts:193730
 
 #### Returns
 
-[`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)
+`MerchantErrorsResultInfo`

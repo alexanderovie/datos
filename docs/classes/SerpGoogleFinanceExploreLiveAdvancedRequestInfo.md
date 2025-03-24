@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreLiveAdvancedRequestInfo
 
-Defined in: main.ts:89091
+Defined in: main.ts:89518
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:89091
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceExploreLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`](SerpGoogleFinanceExploreLiveAdvancedRequestInfo.md)
+> **new SerpGoogleFinanceExploreLiveAdvancedRequestInfo**(`data`?): `SerpGoogleFinanceExploreLiveAdvancedRequestInfo`
 
-Defined in: main.ts:89143
+Defined in: main.ts:89570
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:89143
 
 #### Returns
 
-[`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`](SerpGoogleFinanceExploreLiveAdvancedRequestInfo.md)
+`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89143
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:89123
+Defined in: main.ts:89550
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:89119
+Defined in: main.ts:89546
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:89112
+Defined in: main.ts:89539
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:89105
+Defined in: main.ts:89532
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:89098
+Defined in: main.ts:89525
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:89133
+Defined in: main.ts:89560
 
 financial news filters
 optional field
@@ -150,7 +150,7 @@ Note: if you specify local_market or world_markets, the charge per task will be 
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:89127
+Defined in: main.ts:89554
 
 device operating system
 optional field
@@ -166,7 +166,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:89139
+Defined in: main.ts:89566
 
 user-defined task identifier
 optional field
@@ -184,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89152
+Defined in: main.ts:89579
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:89152
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89176
+Defined in: main.ts:89603
 
 #### Parameters
 
@@ -218,9 +218,9 @@ Defined in: main.ts:89176
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`](SerpGoogleFinanceExploreLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreLiveAdvancedRequestInfo`
 
-Defined in: main.ts:89169
+Defined in: main.ts:89596
 
 #### Parameters
 
@@ -230,4 +230,4 @@ Defined in: main.ts:89169
 
 #### Returns
 
-[`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`](SerpGoogleFinanceExploreLiveAdvancedRequestInfo.md)
+`SerpGoogleFinanceExploreLiveAdvancedRequestInfo`

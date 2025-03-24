@@ -6,7 +6,7 @@
 
 # Class: RankChanges
 
-Defined in: main.ts:110293
+Defined in: main.ts:111590
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:110293
 
 ## Constructors
 
-### new RankChanges()
+### Constructor
 
-> **new RankChanges**(`data`?): [`RankChanges`](RankChanges.md)
+> **new RankChanges**(`data`?): `RankChanges`
 
-Defined in: main.ts:110310
+Defined in: main.ts:111607
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:110310
 
 #### Returns
 
-[`RankChanges`](RankChanges.md)
+`RankChanges`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110310
 
 > `optional` **is\_down**: `boolean`
 
-Defined in: main.ts:110306
+Defined in: main.ts:111603
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
@@ -55,7 +55,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 > `optional` **is\_new**: `boolean`
 
-Defined in: main.ts:110300
+Defined in: main.ts:111597
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
@@ -70,7 +70,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 > `optional` **is\_up**: `boolean`
 
-Defined in: main.ts:110303
+Defined in: main.ts:111600
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
@@ -85,7 +85,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 > `optional` **previous\_rank\_absolute**: `number`
 
-Defined in: main.ts:110297
+Defined in: main.ts:111594
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
@@ -101,7 +101,7 @@ if this element is new, the value will be null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110319
+Defined in: main.ts:111616
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:110319
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110339
+Defined in: main.ts:111636
 
 #### Parameters
 
@@ -135,9 +135,9 @@ Defined in: main.ts:110339
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RankChanges`](RankChanges.md)
+> `static` **fromJS**(`data`): `RankChanges`
 
-Defined in: main.ts:110332
+Defined in: main.ts:111629
 
 #### Parameters
 
@@ -147,4 +147,4 @@ Defined in: main.ts:110332
 
 #### Returns
 
-[`RankChanges`](RankChanges.md)
+`RankChanges`

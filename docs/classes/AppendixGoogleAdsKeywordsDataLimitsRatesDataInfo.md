@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:240179
+Defined in: main.ts:242588
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:240179
 
 ## Constructors
 
-### new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data`?): `AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:240188
+Defined in: main.ts:242597
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:240188
 
 #### Returns
 
-[`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240188
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240184
+Defined in: main.ts:242593
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:240184
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240182
+Defined in: main.ts:242591
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:240182
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240183
+Defined in: main.ts:242592
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:240183
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:240181
+Defined in: main.ts:242590
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:240181
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:240180
+Defined in: main.ts:242589
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:240180
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:240197
+Defined in: main.ts:242606
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:240197
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:240218
+Defined in: main.ts:242627
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:240218
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:240211
+Defined in: main.ts:242620
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:240211
 
 #### Returns
 
-[`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`

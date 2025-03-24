@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentAnalysisPriceData
 
-Defined in: main.ts:247470
+Defined in: main.ts:249435
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247470
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247471
+Defined in: main.ts:249436
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247471
 
 > `optional` **category\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247472
+Defined in: main.ts:249437
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:247472
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247473
+Defined in: main.ts:249438
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:247473
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247474
+Defined in: main.ts:249439
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:247474
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247475
+Defined in: main.ts:249440
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:247475
 
 > `optional` **phrase\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247476
+Defined in: main.ts:249441
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:247476
 
 > `optional` **rating\_distribution**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247477
+Defined in: main.ts:249442
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:247477
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247478
+Defined in: main.ts:249443
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:247478
 
 > `optional` **sentiment\_analysis**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247479
+Defined in: main.ts:249444
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:247479
 
 > `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247480
+Defined in: main.ts:249445

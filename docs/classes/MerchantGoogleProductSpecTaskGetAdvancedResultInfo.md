@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
-Defined in: main.ts:198619
+Defined in: main.ts:201028
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:198619
 
 ## Constructors
 
-### new MerchantGoogleProductSpecTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+> **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data`?): `MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:198659
+Defined in: main.ts:201068
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:198659
 
 #### Returns
 
-[`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:198659
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:198641
+Defined in: main.ts:201050
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:198646
+Defined in: main.ts:201055
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:198634
+Defined in: main.ts:201043
 
 description of the product
 
@@ -86,7 +86,7 @@ description of the product
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:198636
+Defined in: main.ts:201045
 
 URL of the product image
 
@@ -100,7 +100,7 @@ URL of the product image
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:198650
+Defined in: main.ts:201059
 
 types of items found on the product specification page
 possible item types:
@@ -116,7 +116,7 @@ shopping_specification
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:198655
+Defined in: main.ts:201064
 
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
@@ -131,7 +131,7 @@ contains all product attributes and related data listed on the product specifica
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:198652
+Defined in: main.ts:201061
 
 the number of results returned in the items array
 
@@ -145,7 +145,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:198630
+Defined in: main.ts:201039
 
 language code in a POST array
 
@@ -159,7 +159,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:198628
+Defined in: main.ts:201037
 
 location code in a POST array
 
@@ -173,7 +173,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:198622
+Defined in: main.ts:201031
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -188,7 +188,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:198626
+Defined in: main.ts:201035
 
 search engine domain in a POST array
 
@@ -202,7 +202,7 @@ search engine domain in a POST array
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:198638
+Defined in: main.ts:201047
 
 tags of the product
 
@@ -216,7 +216,7 @@ tags of the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:198632
+Defined in: main.ts:201041
 
 title of the product
 
@@ -230,7 +230,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:198624
+Defined in: main.ts:201033
 
 type of element
 
@@ -244,7 +244,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198668
+Defined in: main.ts:201077
 
 #### Parameters
 
@@ -262,7 +262,7 @@ Defined in: main.ts:198668
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198710
+Defined in: main.ts:201119
 
 #### Parameters
 
@@ -278,9 +278,9 @@ Defined in: main.ts:198710
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:198703
+Defined in: main.ts:201112
 
 #### Parameters
 
@@ -290,4 +290,4 @@ Defined in: main.ts:198703
 
 #### Returns
 
-[`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`](MerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+`MerchantGoogleProductSpecTaskGetAdvancedResultInfo`

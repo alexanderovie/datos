@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveHtmlResultInfo
 
-Defined in: main.ts:80571
+Defined in: main.ts:80998
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:80571
 
 ## Constructors
 
-### new SerpYahooOrganicLiveHtmlResultInfo()
+### Constructor
 
-> **new SerpYahooOrganicLiveHtmlResultInfo**(`data`?): [`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)
+> **new SerpYahooOrganicLiveHtmlResultInfo**(`data`?): `SerpYahooOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:80595
+Defined in: main.ts:81022
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:80595
 
 #### Returns
 
-[`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)
+`SerpYahooOrganicLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:80595
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:80587
+Defined in: main.ts:81014
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:80591
+Defined in: main.ts:81018
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:80589
+Defined in: main.ts:81016
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:80574
+Defined in: main.ts:81001
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:80582
+Defined in: main.ts:81009
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:80580
+Defined in: main.ts:81007
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:80578
+Defined in: main.ts:81005
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:80576
+Defined in: main.ts:81003
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:80604
+Defined in: main.ts:81031
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:80604
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:80632
+Defined in: main.ts:81059
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:80632
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYahooOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:80625
+Defined in: main.ts:81052
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:80625
 
 #### Returns
 
-[`SerpYahooOrganicLiveHtmlResultInfo`](SerpYahooOrganicLiveHtmlResultInfo.md)
+`SerpYahooOrganicLiveHtmlResultInfo`

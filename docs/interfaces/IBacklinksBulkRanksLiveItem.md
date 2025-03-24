@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkRanksLiveItem
 
-Defined in: main.ts:169931
+Defined in: main.ts:172340
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:169931
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:169938
+Defined in: main.ts:172347
 
 rank of the target
 values represent real-time data for the date of the request
@@ -31,6 +31,6 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:169933
+Defined in: main.ts:172342
 
 domain, subdomain or webpage from a POST array

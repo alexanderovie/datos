@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115333
+Defined in: main.ts:116718
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:115333
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:115343
+Defined in: main.ts:116728
 
 card id
 
@@ -32,7 +32,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:115351
+Defined in: main.ts:116736
 
 google-defined client id
 
@@ -42,7 +42,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:115341
+Defined in: main.ts:116726
 
 description of the results element in SERP
 
@@ -52,7 +52,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:115347
+Defined in: main.ts:116732
 
 URL of the image from knowledge graph
 
@@ -62,7 +62,7 @@ URL of the image from knowledge graph
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:115354
+Defined in: main.ts:116739
 
 additional items present in the element
 if there are none, equals null
@@ -73,7 +73,7 @@ if there are none, equals null
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:115349
+Defined in: main.ts:116734
 
 URL of the logo from knowledge graph
 
@@ -83,7 +83,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -99,7 +99,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115335
+Defined in: main.ts:116720
 
 search engine type
 
@@ -139,7 +139,7 @@ search engine type
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:115339
+Defined in: main.ts:116724
 
 subtitle of the item
 
@@ -149,7 +149,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:115337
+Defined in: main.ts:116722
 
 title of the result in SERP
 
@@ -159,7 +159,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -173,7 +173,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:115345
+Defined in: main.ts:116730
 
 relevant URL in SERP
 
@@ -183,7 +183,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

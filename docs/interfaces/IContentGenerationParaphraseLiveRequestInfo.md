@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationParaphraseLiveRequestInfo
 
-Defined in: main.ts:191734
+Defined in: main.ts:194143
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:191734
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:191746
+Defined in: main.ts:194155
 
 creativity of content generation
 required field
@@ -33,7 +33,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191752
+Defined in: main.ts:194161
 
 user-defined task identifier
 optional field
@@ -47,7 +47,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:191739
+Defined in: main.ts:194148
 
 target text
 required field

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTaskPostRequestInfo
 
-Defined in: main.ts:202709
+Defined in: main.ts:205118
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:202709
 
 ## Constructors
 
-### new MerchantAmazonAsinTaskPostRequestInfo()
+### Constructor
 
-> **new MerchantAmazonAsinTaskPostRequestInfo**(`data`?): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
+> **new MerchantAmazonAsinTaskPostRequestInfo**(`data`?): `MerchantAmazonAsinTaskPostRequestInfo`
 
-Defined in: main.ts:202817
+Defined in: main.ts:205226
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:202817
 
 #### Returns
 
-[`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
+`MerchantAmazonAsinTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202817
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:202714
+Defined in: main.ts:205123
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202761
+Defined in: main.ts:205170
 
 search engine language code
 required field if you don’t specify language_name
@@ -76,7 +76,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:202754
+Defined in: main.ts:205163
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -96,7 +96,7 @@ English (United Kingdom)
 
 > `optional` **load\_more\_local\_reviews**: `boolean`
 
-Defined in: main.ts:202773
+Defined in: main.ts:205182
 
 load more local reviews
 optional field
@@ -113,7 +113,7 @@ Note: you will be charged double the price for using this parameter
 
 > `optional` **local\_reviews\_sort**: `string`
 
-Defined in: main.ts:202779
+Defined in: main.ts:205188
 
 sort local reviews
 optional field
@@ -131,7 +131,7 @@ default value: helpful
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202737
+Defined in: main.ts:205146
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -151,7 +151,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:202746
+Defined in: main.ts:205155
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -172,7 +172,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:202729
+Defined in: main.ts:205138
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -191,7 +191,7 @@ HA1,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:202813
+Defined in: main.ts:205222
 
 notification URL of a completed task
 optional field
@@ -214,7 +214,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:202802
+Defined in: main.ts:205211
 
 postback_url datatype
 required field if you specify postback_url
@@ -232,7 +232,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:202796
+Defined in: main.ts:205205
 
 return URL for sending task results
 optional field
@@ -255,7 +255,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:202722
+Defined in: main.ts:205131
 
 task priority
 optional field
@@ -275,7 +275,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202768
+Defined in: main.ts:205177
 
 search engine domain
 optional field
@@ -294,7 +294,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:202785
+Defined in: main.ts:205194
 
 user-defined task identifier
 optional field
@@ -312,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202826
+Defined in: main.ts:205235
 
 #### Parameters
 
@@ -330,7 +330,7 @@ Defined in: main.ts:202826
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202856
+Defined in: main.ts:205265
 
 #### Parameters
 
@@ -346,9 +346,9 @@ Defined in: main.ts:202856
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonAsinTaskPostRequestInfo`
 
-Defined in: main.ts:202849
+Defined in: main.ts:205258
 
 #### Parameters
 
@@ -358,4 +358,4 @@ Defined in: main.ts:202849
 
 #### Returns
 
-[`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
+`MerchantAmazonAsinTaskPostRequestInfo`

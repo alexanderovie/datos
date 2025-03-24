@@ -6,7 +6,7 @@
 
 # Class: SslInfo
 
-Defined in: main.ts:174691
+Defined in: main.ts:177100
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:174691
 
 ## Constructors
 
-### new SslInfo()
+### Constructor
 
-> **new SslInfo**(`data`?): [`SslInfo`](SslInfo.md)
+> **new SslInfo**(`data`?): `SslInfo`
 
-Defined in: main.ts:174716
+Defined in: main.ts:177125
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:174716
 
 #### Returns
 
-[`SslInfo`](SslInfo.md)
+`SslInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174716
 
 > `optional` **certificate\_expiration\_date**: `string`
 
-Defined in: main.ts:174712
+Defined in: main.ts:177121
 
 ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -58,7 +58,7 @@ example:
 
 > `optional` **certificate\_hash**: `string`
 
-Defined in: main.ts:174706
+Defined in: main.ts:177115
 
 ssl certificate hash
 the version of the ssl certificate’s hash function
@@ -73,7 +73,7 @@ the version of the ssl certificate’s hash function
 
 > `optional` **certificate\_issuer**: `string`
 
-Defined in: main.ts:174697
+Defined in: main.ts:177106
 
 ssl certificate authority
 the entity that issued the detected ssl certificate
@@ -88,7 +88,7 @@ the entity that issued the detected ssl certificate
 
 > `optional` **certificate\_subject**: `string`
 
-Defined in: main.ts:174700
+Defined in: main.ts:177109
 
 ssl certificate subject
 the entity associated with the public key
@@ -103,7 +103,7 @@ the entity associated with the public key
 
 > `optional` **certificate\_version**: `string`
 
-Defined in: main.ts:174703
+Defined in: main.ts:177112
 
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
@@ -118,7 +118,7 @@ indicates the version of X.509 used by an ssl certificate
 
 > `optional` **valid\_certificate**: `boolean`
 
-Defined in: main.ts:174694
+Defined in: main.ts:177103
 
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid
@@ -133,7 +133,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174725
+Defined in: main.ts:177134
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:174725
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174747
+Defined in: main.ts:177156
 
 #### Parameters
 
@@ -167,9 +167,9 @@ Defined in: main.ts:174747
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SslInfo`](SslInfo.md)
+> `static` **fromJS**(`data`): `SslInfo`
 
-Defined in: main.ts:174740
+Defined in: main.ts:177149
 
 #### Parameters
 
@@ -179,4 +179,4 @@ Defined in: main.ts:174740
 
 #### Returns
 
-[`SslInfo`](SslInfo.md)
+`SslInfo`

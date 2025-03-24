@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTaskPostRequestInfo
 
-Defined in: main.ts:71926
+Defined in: main.ts:72353
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:71926
 
 ## Constructors
 
-### new SerpYoutubeVideoInfoTaskPostRequestInfo()
+### Constructor
 
-> **new SerpYoutubeVideoInfoTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
+> **new SerpYoutubeVideoInfoTaskPostRequestInfo**(`data`?): `SerpYoutubeVideoInfoTaskPostRequestInfo`
 
-Defined in: main.ts:72015
+Defined in: main.ts:72442
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:72015
 
 #### Returns
 
-[`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
+`SerpYoutubeVideoInfoTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:72015
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:71972
+Defined in: main.ts:72399
 
 device type
 optional field
@@ -56,7 +56,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71968
+Defined in: main.ts:72395
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:71961
+Defined in: main.ts:72388
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71954
+Defined in: main.ts:72381
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71947
+Defined in: main.ts:72374
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:71977
+Defined in: main.ts:72404
 
 device operating system
 optional field
@@ -149,7 +149,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:72011
+Defined in: main.ts:72438
 
 notification URL of a completed task
 optional field
@@ -172,7 +172,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:72000
+Defined in: main.ts:72427
 
 postback_url datatype
 required field if you specify postback_url
@@ -190,7 +190,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:71994
+Defined in: main.ts:72421
 
 return URL for sending task results
 optional field
@@ -213,7 +213,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:71940
+Defined in: main.ts:72367
 
 task priority
 optional field
@@ -233,7 +233,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:71983
+Defined in: main.ts:72410
 
 user-defined task identifier
 optional field
@@ -251,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:71932
+Defined in: main.ts:72359
 
 ID of the video
 required field
@@ -269,7 +269,7 @@ vQXvyV0zIP4
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72024
+Defined in: main.ts:72451
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: main.ts:72024
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72052
+Defined in: main.ts:72479
 
 #### Parameters
 
@@ -303,9 +303,9 @@ Defined in: main.ts:72052
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoInfoTaskPostRequestInfo`
 
-Defined in: main.ts:72045
+Defined in: main.ts:72472
 
 #### Parameters
 
@@ -315,4 +315,4 @@ Defined in: main.ts:72045
 
 #### Returns
 
-[`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
+`SerpYoutubeVideoInfoTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
-Defined in: main.ts:151549
+Defined in: main.ts:153958
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:151549
 
 ## Constructors
 
-### new KeywordsDataBingKeywordsForSiteTaskGetResultInfo()
+### Constructor
 
-> **new KeywordsDataBingKeywordsForSiteTaskGetResultInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+> **new KeywordsDataBingKeywordsForSiteTaskGetResultInfo**(`data`?): `KeywordsDataBingKeywordsForSiteTaskGetResultInfo`
 
-Defined in: main.ts:151590
+Defined in: main.ts:153999
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:151590
 
 #### Returns
 
-[`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151590
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:151581
+Defined in: main.ts:153990
 
 product and service categories
 legacy field, the value will always be null
@@ -55,7 +55,7 @@ legacy field, the value will always be null
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:151570
+Defined in: main.ts:153979
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -75,7 +75,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:151574
+Defined in: main.ts:153983
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -91,7 +91,7 @@ if there is no data the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:151562
+Defined in: main.ts:153971
 
 device type in a POST array
 if there is no data, then the value is null
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:151551
+Defined in: main.ts:153960
 
 keyword in a POST array
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:151557
+Defined in: main.ts:153966
 
 language code in a POST array
 if there is no data the value is null
@@ -135,7 +135,7 @@ if there is no data the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:151554
+Defined in: main.ts:153963
 
 location code in a POST array
 if there is no data the value is null
@@ -150,7 +150,7 @@ if there is no data the value is null
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:151586
+Defined in: main.ts:153995
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -167,7 +167,7 @@ if there is no data the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:151559
+Defined in: main.ts:153968
 
 indicates whether data from partner networks included in the response
 
@@ -181,7 +181,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:151578
+Defined in: main.ts:153987
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea on Bing search engine depending on the user’s targeting
@@ -197,7 +197,7 @@ if there is no data then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151599
+Defined in: main.ts:154008
 
 #### Parameters
 
@@ -215,7 +215,7 @@ Defined in: main.ts:151599
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151633
+Defined in: main.ts:154042
 
 #### Parameters
 
@@ -231,9 +231,9 @@ Defined in: main.ts:151633
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingKeywordsForSiteTaskGetResultInfo`
 
-Defined in: main.ts:151626
+Defined in: main.ts:154035
 
 #### Parameters
 
@@ -243,4 +243,4 @@ Defined in: main.ts:151626
 
 #### Returns
 
-[`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`](KeywordsDataBingKeywordsForSiteTaskGetResultInfo.md)
+`KeywordsDataBingKeywordsForSiteTaskGetResultInfo`

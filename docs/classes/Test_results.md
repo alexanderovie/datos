@@ -6,7 +6,7 @@
 
 # Class: Test\_results
 
-Defined in: main.ts:249019
+Defined in: main.ts:250988
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:249019
 
 ## Constructors
 
-### new Test\_results()
+### Constructor
 
-> **new Test\_results**(`data`?): [`Test_results`](Test_results.md)
+> **new Test\_results**(`data`?): `Test_results`
 
-Defined in: main.ts:249023
+Defined in: main.ts:250992
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:249023
 
 #### Returns
 
-[`Test_results`](Test_results.md)
+`Test_results`
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in: main.ts:249023
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:249032
+Defined in: main.ts:251001
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:249032
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:249048
+Defined in: main.ts:251017
 
 #### Parameters
 
@@ -74,9 +74,9 @@ Defined in: main.ts:249048
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Test_results`](Test_results.md)
+> `static` **fromJS**(`data`): `Test_results`
 
-Defined in: main.ts:249041
+Defined in: main.ts:251010
 
 #### Parameters
 
@@ -86,4 +86,4 @@ Defined in: main.ts:249041
 
 #### Returns
 
-[`Test_results`](Test_results.md)
+`Test_results`

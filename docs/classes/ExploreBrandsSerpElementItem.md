@@ -6,7 +6,7 @@
 
 # Class: ExploreBrandsSerpElementItem
 
-Defined in: main.ts:39586
+Defined in: main.ts:40013
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:39586
 
 ## Constructors
 
-### new ExploreBrandsSerpElementItem()
+### Constructor
 
-> **new ExploreBrandsSerpElementItem**(`data`?): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+> **new ExploreBrandsSerpElementItem**(`data`?): `ExploreBrandsSerpElementItem`
 
-Defined in: main.ts:39604
+Defined in: main.ts:40031
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:39604
 
 #### Returns
 
-[`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+`ExploreBrandsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39604
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`ExploreBrandsElement`](ExploreBrandsElement.md)[]
 
-Defined in: main.ts:39596
+Defined in: main.ts:40023
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:39590
+Defined in: main.ts:40017
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:39600
+Defined in: main.ts:40027
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39594
+Defined in: main.ts:40021
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39592
+Defined in: main.ts:40019
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39609
+Defined in: main.ts:40036
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:39609
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39635
+Defined in: main.ts:40062
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:39635
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+> `static` **fromJS**(`data`): `ExploreBrandsSerpElementItem`
 
-Defined in: main.ts:39628
+Defined in: main.ts:40055
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:39628
 
 #### Returns
 
-[`ExploreBrandsSerpElementItem`](ExploreBrandsSerpElementItem.md)
+`ExploreBrandsSerpElementItem`
 
 #### Overrides
 

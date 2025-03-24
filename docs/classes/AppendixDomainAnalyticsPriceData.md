@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsPriceData
 
-Defined in: main.ts:247925
+Defined in: main.ts:249894
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247925
 
 ## Constructors
 
-### new AppendixDomainAnalyticsPriceData()
+### Constructor
 
-> **new AppendixDomainAnalyticsPriceData**(`data`?): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
+> **new AppendixDomainAnalyticsPriceData**(`data`?): `AppendixDomainAnalyticsPriceData`
 
-Defined in: main.ts:247933
+Defined in: main.ts:249902
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247933
 
 #### Returns
 
-[`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
+`AppendixDomainAnalyticsPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247933
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247928
+Defined in: main.ts:249897
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247928
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247929
+Defined in: main.ts:249898
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247929
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:247927
+Defined in: main.ts:249896
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247927
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:247926
+Defined in: main.ts:249895
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247926
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247942
+Defined in: main.ts:249911
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:247942
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247962
+Defined in: main.ts:249931
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:247962
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
+> `static` **fromJS**(`data`): `AppendixDomainAnalyticsPriceData`
 
-Defined in: main.ts:247955
+Defined in: main.ts:249924
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:247955
 
 #### Returns
 
-[`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
+`AppendixDomainAnalyticsPriceData`

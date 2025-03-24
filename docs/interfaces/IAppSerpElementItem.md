@@ -6,7 +6,7 @@
 
 # Interface: IAppSerpElementItem
 
-Defined in: main.ts:34657
+Defined in: main.ts:35084
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34657
 
 > `optional` **items**: [`AppElement`](../classes/AppElement.md)[]
 
-Defined in: main.ts:34665
+Defined in: main.ts:35092
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34661
+Defined in: main.ts:35088
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34669
+Defined in: main.ts:35096
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -101,6 +101,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34663
+Defined in: main.ts:35090
 
 the XPath of the element

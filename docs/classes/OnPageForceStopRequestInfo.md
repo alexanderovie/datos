@@ -6,7 +6,7 @@
 
 # Class: OnPageForceStopRequestInfo
 
-Defined in: main.ts:173193
+Defined in: main.ts:175602
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:173193
 
 ## Constructors
 
-### new OnPageForceStopRequestInfo()
+### Constructor
 
-> **new OnPageForceStopRequestInfo**(`data`?): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+> **new OnPageForceStopRequestInfo**(`data`?): `OnPageForceStopRequestInfo`
 
-Defined in: main.ts:173204
+Defined in: main.ts:175613
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:173204
 
 #### Returns
 
-[`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+`OnPageForceStopRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173204
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:173200
+Defined in: main.ts:175609
 
 ID of the task
 required field
@@ -59,7 +59,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173213
+Defined in: main.ts:175622
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Defined in: main.ts:173213
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173230
+Defined in: main.ts:175639
 
 #### Parameters
 
@@ -93,9 +93,9 @@ Defined in: main.ts:173230
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageForceStopRequestInfo`
 
-Defined in: main.ts:173223
+Defined in: main.ts:175632
 
 #### Parameters
 
@@ -105,4 +105,4 @@ Defined in: main.ts:173223
 
 #### Returns
 
-[`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+`OnPageForceStopRequestInfo`

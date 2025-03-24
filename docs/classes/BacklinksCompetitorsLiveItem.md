@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveItem
 
-Defined in: main.ts:166543
+Defined in: main.ts:168952
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:166543
 
 ## Constructors
 
-### new BacklinksCompetitorsLiveItem()
+### Constructor
 
-> **new BacklinksCompetitorsLiveItem**(`data`?): [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
+> **new BacklinksCompetitorsLiveItem**(`data`?): `BacklinksCompetitorsLiveItem`
 
-Defined in: main.ts:166558
+Defined in: main.ts:168967
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:166558
 
 #### Returns
 
-[`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
+`BacklinksCompetitorsLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166558
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:166554
+Defined in: main.ts:168963
 
 indicates the number of backlink intersections with the target specified in the POST array
 
@@ -54,7 +54,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:166552
+Defined in: main.ts:168961
 
 domain rank
 domain rank across all domains in the database
@@ -71,7 +71,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:166547
+Defined in: main.ts:168956
 
 competitor domain
 
@@ -85,7 +85,7 @@ competitor domain
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:166545
+Defined in: main.ts:168954
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166567
+Defined in: main.ts:168976
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:166567
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166587
+Defined in: main.ts:168996
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:166587
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksCompetitorsLiveItem`
 
-Defined in: main.ts:166580
+Defined in: main.ts:168989
 
 #### Parameters
 
@@ -145,4 +145,4 @@ Defined in: main.ts:166580
 
 #### Returns
 
-[`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
+`BacklinksCompetitorsLiveItem`

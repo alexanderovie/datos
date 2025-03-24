@@ -6,7 +6,7 @@
 
 # Class: VideoElement
 
-Defined in: main.ts:34950
+Defined in: main.ts:35377
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:34950
 
 ## Constructors
 
-### new VideoElement()
+### Constructor
 
-> **new VideoElement**(`data`?): [`VideoElement`](VideoElement.md)
+> **new VideoElement**(`data`?): `VideoElement`
 
-Defined in: main.ts:34968
+Defined in: main.ts:35395
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:34968
 
 #### Returns
 
-[`VideoElement`](VideoElement.md)
+`VideoElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34968
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:34955
+Defined in: main.ts:35382
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -55,7 +55,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:34962
+Defined in: main.ts:35389
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34957
+Defined in: main.ts:35384
 
 title of a given link element
 
@@ -86,7 +86,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34952
+Defined in: main.ts:35379
 
 type of element
 
@@ -100,7 +100,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34964
+Defined in: main.ts:35391
 
 URL
 
@@ -114,7 +114,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34977
+Defined in: main.ts:35404
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:34977
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34998
+Defined in: main.ts:35425
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:34998
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`VideoElement`](VideoElement.md)
+> `static` **fromJS**(`data`): `VideoElement`
 
-Defined in: main.ts:34991
+Defined in: main.ts:35418
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:34991
 
 #### Returns
 
-[`VideoElement`](VideoElement.md)
+`VideoElement`

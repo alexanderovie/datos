@@ -6,7 +6,7 @@
 
 # Interface: IEventsSerpElementItem
 
-Defined in: main.ts:35879
+Defined in: main.ts:36306
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35879
 
 > `optional` **items**: [`EventsElement`](../classes/EventsElement.md)[]
 
-Defined in: main.ts:35891
+Defined in: main.ts:36318
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35883
+Defined in: main.ts:36310
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35895
+Defined in: main.ts:36322
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35887
+Defined in: main.ts:36314
 
 title of the row
 
@@ -97,7 +97,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35889
+Defined in: main.ts:36316
 
 source URL
 
@@ -121,6 +121,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35885
+Defined in: main.ts:36312
 
 the XPath of the element

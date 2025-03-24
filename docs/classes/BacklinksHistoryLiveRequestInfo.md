@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveRequestInfo
 
-Defined in: main.ts:160249
+Defined in: main.ts:162658
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:160249
 
 ## Constructors
 
-### new BacklinksHistoryLiveRequestInfo()
+### Constructor
 
-> **new BacklinksHistoryLiveRequestInfo**(`data`?): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+> **new BacklinksHistoryLiveRequestInfo**(`data`?): `BacklinksHistoryLiveRequestInfo`
 
-Defined in: main.ts:160278
+Defined in: main.ts:162687
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:160278
 
 #### Returns
 
-[`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+`BacklinksHistoryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160278
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:160261
+Defined in: main.ts:162670
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:160268
+Defined in: main.ts:162677
 
 ending date of the time range
 optional field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160274
+Defined in: main.ts:162683
 
 user-defined task identifier
 optional field
@@ -97,7 +97,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160253
+Defined in: main.ts:162662
 
 domain
 required field
@@ -113,7 +113,7 @@ a domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160287
+Defined in: main.ts:162696
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:160287
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160307
+Defined in: main.ts:162716
 
 #### Parameters
 
@@ -147,9 +147,9 @@ Defined in: main.ts:160307
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksHistoryLiveRequestInfo`
 
-Defined in: main.ts:160300
+Defined in: main.ts:162709
 
 #### Parameters
 
@@ -159,4 +159,4 @@ Defined in: main.ts:160300
 
 #### Returns
 
-[`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+`BacklinksHistoryLiveRequestInfo`

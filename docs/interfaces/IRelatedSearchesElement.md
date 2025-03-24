@@ -6,7 +6,7 @@
 
 # Interface: IRelatedSearchesElement
 
-Defined in: main.ts:24315
+Defined in: main.ts:24654
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24315
 
 > `optional` **image\_alt**: `string`
 
-Defined in: main.ts:24323
+Defined in: main.ts:24662
 
 the alt tag of the product image featured in the results
 
@@ -28,7 +28,7 @@ the alt tag of the product image featured in the results
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:24325
+Defined in: main.ts:24664
 
 URL of the product image featured in the results
 
@@ -38,7 +38,7 @@ URL of the product image featured in the results
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24319
+Defined in: main.ts:24658
 
 product title
 
@@ -48,7 +48,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24317
+Defined in: main.ts:24656
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24321
+Defined in: main.ts:24660
 
 the URL of the product page

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkBacklinksLiveResultInfo
 
-Defined in: main.ts:170334
+Defined in: main.ts:172743
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:170334
 
 > `optional` **items**: [`BacklinksBulkBacklinksLiveItem`](../classes/BacklinksBulkBacklinksLiveItem.md)[]
 
-Defined in: main.ts:170338
+Defined in: main.ts:172747
 
 contains relevant backlink data
 
@@ -28,6 +28,6 @@ contains relevant backlink data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:170336
+Defined in: main.ts:172745
 
 the number of results returned in the items array

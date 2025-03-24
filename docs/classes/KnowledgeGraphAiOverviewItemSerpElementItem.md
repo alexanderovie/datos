@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphAiOverviewItemSerpElementItem
 
-Defined in: main.ts:32532
+Defined in: main.ts:32959
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:32532
 
 ## Constructors
 
-### new KnowledgeGraphAiOverviewItemSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphAiOverviewItemSerpElementItem**(`data`?): [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
+> **new KnowledgeGraphAiOverviewItemSerpElementItem**(`data`?): `KnowledgeGraphAiOverviewItemSerpElementItem`
 
-Defined in: main.ts:32556
+Defined in: main.ts:32983
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:32556
 
 #### Returns
 
-[`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
+`KnowledgeGraphAiOverviewItemSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32556
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:32542
+Defined in: main.ts:32969
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:32545
+Defined in: main.ts:32972
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32536
+Defined in: main.ts:32963
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,7 +107,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -126,7 +126,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32552
+Defined in: main.ts:32979
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,7 +162,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:32548
+Defined in: main.ts:32975
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -177,7 +177,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -195,7 +195,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32538
+Defined in: main.ts:32965
 
 the XPath of the element
 
@@ -209,7 +209,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32561
+Defined in: main.ts:32988
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:32561
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32592
+Defined in: main.ts:33019
 
 #### Parameters
 
@@ -251,9 +251,9 @@ Defined in: main.ts:32592
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphAiOverviewItemSerpElementItem`
 
-Defined in: main.ts:32585
+Defined in: main.ts:33012
 
 #### Parameters
 
@@ -263,7 +263,7 @@ Defined in: main.ts:32585
 
 #### Returns
 
-[`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
+`KnowledgeGraphAiOverviewItemSerpElementItem`
 
 #### Overrides
 

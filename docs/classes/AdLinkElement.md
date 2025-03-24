@@ -6,7 +6,7 @@
 
 # Class: AdLinkElement
 
-Defined in: main.ts:32778
+Defined in: main.ts:33205
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:32778
 
 ## Constructors
 
-### new AdLinkElement()
+### Constructor
 
-> **new AdLinkElement**(`data`?): [`AdLinkElement`](AdLinkElement.md)
+> **new AdLinkElement**(`data`?): `AdLinkElement`
 
-Defined in: main.ts:32794
+Defined in: main.ts:33221
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:32794
 
 #### Returns
 
-[`AdLinkElement`](AdLinkElement.md)
+`AdLinkElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32794
 
 > `optional` **ad\_aclk**: `string`
 
-Defined in: main.ts:32790
+Defined in: main.ts:33217
 
 the identifier of the ad
 
@@ -54,7 +54,7 @@ the identifier of the ad
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32784
+Defined in: main.ts:33211
 
 description of the results element in SERP
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32788
+Defined in: main.ts:33215
 
 domain where a link points
 
@@ -82,7 +82,7 @@ domain where a link points
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32782
+Defined in: main.ts:33209
 
 title of the element
 
@@ -96,7 +96,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32780
+Defined in: main.ts:33207
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32786
+Defined in: main.ts:33213
 
 URL of element
 
@@ -124,7 +124,7 @@ URL of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32803
+Defined in: main.ts:33230
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:32803
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32825
+Defined in: main.ts:33252
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:32825
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
+> `static` **fromJS**(`data`): `AdLinkElement`
 
-Defined in: main.ts:32818
+Defined in: main.ts:33245
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:32818
 
 #### Returns
 
-[`AdLinkElement`](AdLinkElement.md)
+`AdLinkElement`

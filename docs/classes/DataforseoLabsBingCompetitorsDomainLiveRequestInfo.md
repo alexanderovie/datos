@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
-Defined in: main.ts:125445
+Defined in: main.ts:127846
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:125445
 
 ## Constructors
 
-### new DataforseoLabsBingCompetitorsDomainLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingCompetitorsDomainLiveRequestInfo**(`data`?): [`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
+> **new DataforseoLabsBingCompetitorsDomainLiveRequestInfo**(`data`?): `DataforseoLabsBingCompetitorsDomainLiveRequestInfo`
 
-Defined in: main.ts:125582
+Defined in: main.ts:127983
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:125582
 
 #### Returns
 
-[`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
+`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125582
 
 > `optional` **exclude\_top\_domains**: `boolean`
 
-Defined in: main.ts:125561
+Defined in: main.ts:127962
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -74,7 +74,7 @@ slideshare.net
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:125507
+Defined in: main.ts:127908
 
 array of results filtering parameters
 optional field
@@ -100,7 +100,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:125572
+Defined in: main.ts:127973
 
 ignore highly similar keywords
 optional field
@@ -117,7 +117,7 @@ default value: false
 
 > `optional` **intersecting\_domains**: `string`[]
 
-Defined in: main.ts:125567
+Defined in: main.ts:127968
 
 additional domains for improving results accuracy
 optional field
@@ -135,7 +135,7 @@ Note: you can specify up to 20 domains in this array
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:125493
+Defined in: main.ts:127894
 
 display results by item type
 optional field
@@ -156,7 +156,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125484
+Defined in: main.ts:127885
 
 language code
 required field if you don’t specify language_name
@@ -176,7 +176,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:125476
+Defined in: main.ts:127877
 
 full name of the language
 required field if you don’t specify language_code
@@ -196,7 +196,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:125529
+Defined in: main.ts:127930
 
 the maximum number of returned domains
 optional field
@@ -213,7 +213,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125468
+Defined in: main.ts:127869
 
 location code
 required field if you don’t specify location_name
@@ -234,7 +234,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:125459
+Defined in: main.ts:127860
 
 full name of the location
 required field if you don’t specify location_code
@@ -255,7 +255,7 @@ United States
 
 > `optional` **max\_rank\_group**: `number`
 
-Defined in: main.ts:125539
+Defined in: main.ts:127940
 
 maximum rank up to which competitors will be considered
 optional field
@@ -272,7 +272,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:125534
+Defined in: main.ts:127935
 
 offset in the results array of returned domains
 optional field
@@ -289,7 +289,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:125524
+Defined in: main.ts:127925
 
 results sorting rules
 optional field
@@ -318,7 +318,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:125578
+Defined in: main.ts:127979
 
 user-defined task identifier
 optional field
@@ -336,7 +336,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:125450
+Defined in: main.ts:127851
 
 domain
 required field
@@ -353,7 +353,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125591
+Defined in: main.ts:127992
 
 #### Parameters
 
@@ -371,7 +371,7 @@ Defined in: main.ts:125591
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125638
+Defined in: main.ts:128039
 
 #### Parameters
 
@@ -387,9 +387,9 @@ Defined in: main.ts:125638
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingCompetitorsDomainLiveRequestInfo`
 
-Defined in: main.ts:125631
+Defined in: main.ts:128032
 
 #### Parameters
 
@@ -399,4 +399,4 @@ Defined in: main.ts:125631
 
 #### Returns
 
-[`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
+`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`

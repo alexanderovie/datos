@@ -6,7 +6,7 @@
 
 # Class: OnPageAvailableFiltersResultInfo
 
-Defined in: main.ts:173355
+Defined in: main.ts:175764
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:173355
 
 ## Constructors
 
-### new OnPageAvailableFiltersResultInfo()
+### Constructor
 
-> **new OnPageAvailableFiltersResultInfo**(`data`?): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
+> **new OnPageAvailableFiltersResultInfo**(`data`?): `OnPageAvailableFiltersResultInfo`
 
-Defined in: main.ts:173366
+Defined in: main.ts:175775
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:173366
 
 #### Returns
 
-[`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
+`OnPageAvailableFiltersResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173366
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:173362
+Defined in: main.ts:175771
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:173362
 
 > `optional` **links**: `object`
 
-Defined in: main.ts:173359
+Defined in: main.ts:175768
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:173359
 
 > `optional` **non\_indexable**: `object`
 
-Defined in: main.ts:173358
+Defined in: main.ts:175767
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:173358
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:173357
+Defined in: main.ts:175766
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:173357
 
 > `optional` **pages\_by\_resource**: `object`
 
-Defined in: main.ts:173360
+Defined in: main.ts:175769
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:173360
 
 > `optional` **redirect\_chains**: `object`
 
-Defined in: main.ts:173361
+Defined in: main.ts:175770
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:173361
 
 > `optional` **resources**: `object`
 
-Defined in: main.ts:173356
+Defined in: main.ts:175765
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:173356
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173375
+Defined in: main.ts:175784
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:173375
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173440
+Defined in: main.ts:175849
 
 #### Parameters
 
@@ -186,9 +186,9 @@ Defined in: main.ts:173440
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageAvailableFiltersResultInfo`
 
-Defined in: main.ts:173433
+Defined in: main.ts:175842
 
 #### Parameters
 
@@ -198,4 +198,4 @@ Defined in: main.ts:173433
 
 #### Returns
 
-[`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
+`OnPageAvailableFiltersResultInfo`

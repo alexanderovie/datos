@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTaskPostRequestInfo
 
-Defined in: main.ts:231997
+Defined in: main.ts:234406
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:231997
 
 ## Constructors
 
-### new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
+> **new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo**(`data`?): `BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:232106
+Defined in: main.ts:234515
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:232106
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
+`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232106
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:232015
+Defined in: main.ts:234424
 
 unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -59,7 +59,7 @@ Note: if you use this field, your account will be charged two times the standard
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:232074
+Defined in: main.ts:234483
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ maximum value: 700
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:232008
+Defined in: main.ts:234417
 
 keyword
 required field if you don’t specify cid or place_id
@@ -101,7 +101,7 @@ Note: if you use this field, your account will be charged three times the standa
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:232067
+Defined in: main.ts:234476
 
 search engine language code
 required field if you don’t specify language_name
@@ -120,7 +120,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:232060
+Defined in: main.ts:234469
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:232044
+Defined in: main.ts:234453
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:232053
+Defined in: main.ts:234462
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -179,7 +179,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:232037
+Defined in: main.ts:234446
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -198,7 +198,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:232102
+Defined in: main.ts:234511
 
 notification URL of a completed task
 optional field
@@ -221,7 +221,7 @@ learn more on our Help Center
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:232022
+Defined in: main.ts:234431
 
 identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -240,7 +240,7 @@ Note: if you use this field, your account will be charged two times the standard
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:232091
+Defined in: main.ts:234500
 
 return URL for sending task results
 optional field
@@ -263,7 +263,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:232030
+Defined in: main.ts:234439
 
 task priority
 optional field
@@ -283,7 +283,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:232080
+Defined in: main.ts:234489
 
 user-defined task identifier
 optional field
@@ -301,7 +301,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232115
+Defined in: main.ts:234524
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:232115
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232144
+Defined in: main.ts:234553
 
 #### Parameters
 
@@ -335,9 +335,9 @@ Defined in: main.ts:232144
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:232137
+Defined in: main.ts:234546
 
 #### Parameters
 
@@ -347,4 +347,4 @@ Defined in: main.ts:232137
 
 #### Returns
 
-[`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
+`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`

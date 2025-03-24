@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringNetworksLiveResultInfo
 
-Defined in: main.ts:166212
+Defined in: main.ts:168621
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:166212
 
 > `optional` **items**: [`BacklinksReferringNetworksLiveItem`](../classes/BacklinksReferringNetworksLiveItem.md)[]
 
-Defined in: main.ts:166220
+Defined in: main.ts:168629
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:166218
+Defined in: main.ts:168627
 
 number of items in the items array
 
@@ -38,7 +38,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:166214
+Defined in: main.ts:168623
 
 target in a POST array
 
@@ -48,6 +48,6 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:166216
+Defined in: main.ts:168625
 
 total number of relevant items in the database

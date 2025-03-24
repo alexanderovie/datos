@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
 
-Defined in: main.ts:193043
+Defined in: main.ts:195452
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:193043
 
 ## Constructors
 
-### new ContentGenerationTextSummaryLanguagesResultInfo()
+### Constructor
 
-> **new ContentGenerationTextSummaryLanguagesResultInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+> **new ContentGenerationTextSummaryLanguagesResultInfo**(`data`?): `ContentGenerationTextSummaryLanguagesResultInfo`
 
-Defined in: main.ts:193051
+Defined in: main.ts:195460
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:193051
 
 #### Returns
 
-[`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+`ContentGenerationTextSummaryLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193051
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:193047
+Defined in: main.ts:195456
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:193045
+Defined in: main.ts:195454
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193060
+Defined in: main.ts:195469
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:193060
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193078
+Defined in: main.ts:195487
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:193078
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationTextSummaryLanguagesResultInfo`
 
-Defined in: main.ts:193071
+Defined in: main.ts:195480
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:193071
 
 #### Returns
 
-[`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
+`ContentGenerationTextSummaryLanguagesResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: Table
 
-Defined in: main.ts:24500
+Defined in: main.ts:24839
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24500
 
 ## Constructors
 
-### new Table()
+### Constructor
 
-> **new Table**(`data`?): [`Table`](Table.md)
+> **new Table**(`data`?): `Table`
 
-Defined in: main.ts:24513
+Defined in: main.ts:24852
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24513
 
 #### Returns
 
-[`Table`](Table.md)
+`Table`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24513
 
 > `optional` **table\_content**: `string`[][]
 
-Defined in: main.ts:24509
+Defined in: main.ts:24848
 
 the content of the table
 one line of the table in this element of the array
@@ -55,7 +55,7 @@ one line of the table in this element of the array
 
 > `optional` **table\_element**: `string`
 
-Defined in: main.ts:24504
+Defined in: main.ts:24843
 
 name assigned to the table element
 possible values:
@@ -71,7 +71,7 @@ table_element
 
 > `optional` **table\_header**: `string`[]
 
-Defined in: main.ts:24506
+Defined in: main.ts:24845
 
 column names
 
@@ -85,7 +85,7 @@ column names
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24522
+Defined in: main.ts:24861
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:24522
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24549
+Defined in: main.ts:24888
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:24549
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Table`](Table.md)
+> `static` **fromJS**(`data`): `Table`
 
-Defined in: main.ts:24542
+Defined in: main.ts:24881
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:24542
 
 #### Returns
 
-[`Table`](Table.md)
+`Table`

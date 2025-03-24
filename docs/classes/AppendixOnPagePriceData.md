@@ -6,7 +6,7 @@
 
 # Class: AppendixOnPagePriceData
 
-Defined in: main.ts:247985
+Defined in: main.ts:249954
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247985
 
 ## Constructors
 
-### new AppendixOnPagePriceData()
+### Constructor
 
-> **new AppendixOnPagePriceData**(`data`?): [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
+> **new AppendixOnPagePriceData**(`data`?): `AppendixOnPagePriceData`
 
-Defined in: main.ts:248009
+Defined in: main.ts:249978
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:248009
 
 #### Returns
 
-[`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
+`AppendixOnPagePriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248009
 
 > `optional` **content\_parsing**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247988
+Defined in: main.ts:249957
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247988
 
 > `optional` **content\_parsing\_live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247989
+Defined in: main.ts:249958
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247989
 
 > `optional` **duplicate\_content**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247990
+Defined in: main.ts:249959
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247990
 
 > `optional` **duplicate\_tags**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247991
+Defined in: main.ts:249960
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247991
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247986
+Defined in: main.ts:249955
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:247986
 
 > `optional` **instant\_pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247992
+Defined in: main.ts:249961
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:247992
 
 > `optional` **keyword\_density**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247993
+Defined in: main.ts:249962
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:247993
 
 > `optional` **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:247987
+Defined in: main.ts:249956
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:247987
 
 > `optional` **links**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247994
+Defined in: main.ts:249963
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:247994
 
 > `optional` **non\_indexable**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247995
+Defined in: main.ts:249964
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:247995
 
 > `optional` **page\_screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247998
+Defined in: main.ts:249967
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:247998
 
 > `optional` **pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247996
+Defined in: main.ts:249965
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:247996
 
 > `optional` **pages\_by\_resource**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247997
+Defined in: main.ts:249966
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:247997
 
 > `optional` **raw\_html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247999
+Defined in: main.ts:249968
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:247999
 
 > `optional` **redirect\_chains**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248000
+Defined in: main.ts:249969
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:248000
 
 > `optional` **resources**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248001
+Defined in: main.ts:249970
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:248001
 
 > `optional` **summary**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248002
+Defined in: main.ts:249971
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:248002
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248003
+Defined in: main.ts:249972
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:248003
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248004
+Defined in: main.ts:249973
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:248004
 
 > `optional` **waterfall**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248005
+Defined in: main.ts:249974
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:248005
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:248018
+Defined in: main.ts:249987
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:248018
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:248054
+Defined in: main.ts:250023
 
 #### Parameters
 
@@ -314,9 +314,9 @@ Defined in: main.ts:248054
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
+> `static` **fromJS**(`data`): `AppendixOnPagePriceData`
 
-Defined in: main.ts:248047
+Defined in: main.ts:250016
 
 #### Parameters
 
@@ -326,4 +326,4 @@ Defined in: main.ts:248047
 
 #### Returns
 
-[`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
+`AppendixOnPagePriceData`

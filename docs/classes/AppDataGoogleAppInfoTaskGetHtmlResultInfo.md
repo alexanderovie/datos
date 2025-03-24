@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTaskGetHtmlResultInfo
 
-Defined in: main.ts:211923
+Defined in: main.ts:214332
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:211923
 
 ## Constructors
 
-### new AppDataGoogleAppInfoTaskGetHtmlResultInfo()
+### Constructor
 
-> **new AppDataGoogleAppInfoTaskGetHtmlResultInfo**(`data`?): [`AppDataGoogleAppInfoTaskGetHtmlResultInfo`](AppDataGoogleAppInfoTaskGetHtmlResultInfo.md)
+> **new AppDataGoogleAppInfoTaskGetHtmlResultInfo**(`data`?): `AppDataGoogleAppInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:211946
+Defined in: main.ts:214355
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:211946
 
 #### Returns
 
-[`AppDataGoogleAppInfoTaskGetHtmlResultInfo`](AppDataGoogleAppInfoTaskGetHtmlResultInfo.md)
+`AppDataGoogleAppInfoTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211946
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:211925
+Defined in: main.ts:214334
 
 application ID received in a POST request
 
@@ -54,7 +54,7 @@ application ID received in a POST request
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:211938
+Defined in: main.ts:214347
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:211942
+Defined in: main.ts:214351
 
 HTML pages and related data
 
@@ -85,7 +85,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:211940
+Defined in: main.ts:214349
 
 the number of results returned in the items array
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:211933
+Defined in: main.ts:214342
 
 language code in a POST array
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:211931
+Defined in: main.ts:214340
 
 location code in a POST array
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:211929
+Defined in: main.ts:214338
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:211927
+Defined in: main.ts:214336
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211955
+Defined in: main.ts:214364
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:211955
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211983
+Defined in: main.ts:214392
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:211983
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskGetHtmlResultInfo`](AppDataGoogleAppInfoTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:211976
+Defined in: main.ts:214385
 
 #### Parameters
 
@@ -201,4 +201,4 @@ Defined in: main.ts:211976
 
 #### Returns
 
-[`AppDataGoogleAppInfoTaskGetHtmlResultInfo`](AppDataGoogleAppInfoTaskGetHtmlResultInfo.md)
+`AppDataGoogleAppInfoTaskGetHtmlResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:121830
+Defined in: main.ts:124231
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:121830
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:121880
+Defined in: main.ts:124281
 
 keyword search depth
 optional field
@@ -38,7 +38,7 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:121890
+Defined in: main.ts:124291
 
 ignore highly similar keywords
 optional field
@@ -51,7 +51,7 @@ default value: false
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:121885
+Defined in: main.ts:124286
 
 include data for the seed keyword
 optional field
@@ -64,7 +64,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:121836
+Defined in: main.ts:124237
 
 keyword
 required field
@@ -78,7 +78,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121868
+Defined in: main.ts:124269
 
 language code
 required field if you don’t specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:121861
+Defined in: main.ts:124262
 
 full name of the language
 required field if you don’t specify language_code
@@ -108,7 +108,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:121895
+Defined in: main.ts:124296
 
 the maximum number of returned keywords
 optional field
@@ -121,7 +121,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121854
+Defined in: main.ts:124255
 
 location code
 required field if you don’t specify location_name
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:121845
+Defined in: main.ts:124246
 
 full name of the location
 required field if you don’t specify location_code
@@ -155,7 +155,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:121900
+Defined in: main.ts:124301
 
 offset in the results array of returned keywords
 optional field
@@ -168,7 +168,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:121906
+Defined in: main.ts:124307
 
 user-defined task identifier
 optional field

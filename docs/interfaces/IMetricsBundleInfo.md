@@ -6,7 +6,7 @@
 
 # Interface: IMetricsBundleInfo
 
-Defined in: main.ts:98808
+Defined in: main.ts:100711
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:98808
 
 > `optional` **organic**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-Defined in: main.ts:98810
+Defined in: main.ts:100713
 
 ranking and traffic data from organic search
 
@@ -28,6 +28,6 @@ ranking and traffic data from organic search
 
 > `optional` **paid**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
-Defined in: main.ts:98812
+Defined in: main.ts:100715
 
 ranking and traffic data from paid search

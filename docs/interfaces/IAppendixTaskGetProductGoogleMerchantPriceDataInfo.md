@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTaskGetProductGoogleMerchantPriceDataInfo
 
-Defined in: main.ts:246186
+Defined in: main.ts:248151
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:246186
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246187
+Defined in: main.ts:248152
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:246187
 
 > `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246188
+Defined in: main.ts:248153

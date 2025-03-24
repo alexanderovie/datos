@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchTasksFixedResultInfo
 
-Defined in: main.ts:59931
+Defined in: main.ts:60358
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:59931
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:59941
+Defined in: main.ts:60368
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:59949
+Defined in: main.ts:60376
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:59952
+Defined in: main.ts:60379
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:59946
+Defined in: main.ts:60373
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:59934
+Defined in: main.ts:60361
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:59936
+Defined in: main.ts:60363
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:59939
+Defined in: main.ts:60366
 
 type of search engine
 can take the following values: dataset_search
@@ -93,6 +93,6 @@ can take the following values: dataset_search
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59943
+Defined in: main.ts:60370
 
 user-defined task identifier

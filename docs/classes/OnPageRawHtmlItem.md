@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlItem
 
-Defined in: main.ts:181711
+Defined in: main.ts:184120
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181711
 
 ## Constructors
 
-### new OnPageRawHtmlItem()
+### Constructor
 
-> **new OnPageRawHtmlItem**(`data`?): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> **new OnPageRawHtmlItem**(`data`?): `OnPageRawHtmlItem`
 
-Defined in: main.ts:181717
+Defined in: main.ts:184126
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:181717
 
 #### Returns
 
-[`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+`OnPageRawHtmlItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181717
 
 > `optional` **html**: `string`
 
-Defined in: main.ts:181713
+Defined in: main.ts:184122
 
 HTML page
 
@@ -54,7 +54,7 @@ HTML page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181726
+Defined in: main.ts:184135
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:181726
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181743
+Defined in: main.ts:184152
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:181743
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> `static` **fromJS**(`data`): `OnPageRawHtmlItem`
 
-Defined in: main.ts:181736
+Defined in: main.ts:184145
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:181736
 
 #### Returns
 
-[`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+`OnPageRawHtmlItem`

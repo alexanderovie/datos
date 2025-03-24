@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusEndpointsInfo
 
-Defined in: main.ts:248715
+Defined in: main.ts:250684
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:248715
 
 ## Constructors
 
-### new AppendixStatusEndpointsInfo()
+### Constructor
 
-> **new AppendixStatusEndpointsInfo**(`data`?): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+> **new AppendixStatusEndpointsInfo**(`data`?): `AppendixStatusEndpointsInfo`
 
-Defined in: main.ts:248736
+Defined in: main.ts:250705
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:248736
 
 #### Returns
 
-[`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+`AppendixStatusEndpointsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248736
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:248722
+Defined in: main.ts:250691
 
 name of the endpoint
 the list of possible endpoints:
@@ -59,7 +59,7 @@ postback/pingback
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:248732
+Defined in: main.ts:250701
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -81,7 +81,7 @@ send_delay
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:248745
+Defined in: main.ts:250714
 
 #### Parameters
 
@@ -99,7 +99,7 @@ Defined in: main.ts:248745
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:248763
+Defined in: main.ts:250732
 
 #### Parameters
 
@@ -115,9 +115,9 @@ Defined in: main.ts:248763
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+> `static` **fromJS**(`data`): `AppendixStatusEndpointsInfo`
 
-Defined in: main.ts:248756
+Defined in: main.ts:250725
 
 #### Parameters
 
@@ -127,4 +127,4 @@ Defined in: main.ts:248756
 
 #### Returns
 
-[`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+`AppendixStatusEndpointsInfo`

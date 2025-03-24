@@ -6,7 +6,7 @@
 
 # Interface: IIntersectionSummaryInfo
 
-Defined in: main.ts:167490
+Defined in: main.ts:169899
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:167490
 
 > `optional` **intersections\_count**: `number`
 
-Defined in: main.ts:167492
+Defined in: main.ts:169901
 
 total number of intersections

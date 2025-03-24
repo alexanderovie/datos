@@ -6,7 +6,7 @@
 
 # Interface: IOnPageIdListRequestInfo
 
-Defined in: main.ts:172588
+Defined in: main.ts:174997
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:172588
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:172596
+Defined in: main.ts:175005
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:172603
+Defined in: main.ts:175012
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:172622
+Defined in: main.ts:175031
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:172608
+Defined in: main.ts:175017
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:172613
+Defined in: main.ts:175022
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:172618
+Defined in: main.ts:175027
 
 sorting by task execution time
 optional field

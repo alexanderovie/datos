@@ -6,7 +6,7 @@
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
-Defined in: main.ts:199853
+Defined in: main.ts:202262
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:199853
 
 ## Constructors
 
-### new ProductInfoElementMerchantSerpElementItem()
+### Constructor
 
-> **new ProductInfoElementMerchantSerpElementItem**(`data`?): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
+> **new ProductInfoElementMerchantSerpElementItem**(`data`?): `ProductInfoElementMerchantSerpElementItem`
 
-Defined in: main.ts:199885
+Defined in: main.ts:202294
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:199885
 
 #### Returns
 
-[`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
+`ProductInfoElementMerchantSerpElementItem`
 
 #### Overrides
 
-[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:199885
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22527
+Defined in: main.ts:22866
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22527
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:199860
+Defined in: main.ts:202269
 
 description of the product
 
@@ -74,7 +74,7 @@ description of the product
 
 > `optional` **features**: `string`[]
 
-Defined in: main.ts:199869
+Defined in: main.ts:202278
 
 product features
 contains snippets with the description of product features
@@ -89,7 +89,7 @@ contains snippets with the description of product features
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:199866
+Defined in: main.ts:202275
 
 product images
 contains urls to product images
@@ -104,7 +104,7 @@ contains urls to product images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22525
+Defined in: main.ts:22864
 
 alignment of the element in SERP
 can take the following values:
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:199856
+Defined in: main.ts:202265
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
@@ -139,7 +139,7 @@ ilearn more about the parameter in this help center guide
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22521
+Defined in: main.ts:22860
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -158,7 +158,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22518
+Defined in: main.ts:22857
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:199872
+Defined in: main.ts:202281
 
 product rating 
 the popularity rate based on reviews
@@ -192,7 +192,7 @@ the popularity rate based on reviews
 
 > `optional` **seller\_reviews\_count**: `number`
 
-Defined in: main.ts:199875
+Defined in: main.ts:202284
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -207,7 +207,7 @@ number of reviews on the product seller’s account
 
 > `optional` **sellers**: [`ProductSeller`](ProductSeller.md)[]
 
-Defined in: main.ts:199878
+Defined in: main.ts:202287
 
 sellers of the product
 number of reviews on the product seller’s account
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:199858
+Defined in: main.ts:202267
 
 title of the product
 
@@ -236,7 +236,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22515
+Defined in: main.ts:22854
 
 type of element
 
@@ -254,7 +254,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:199863
+Defined in: main.ts:202272
 
 product url
 url of the product on Google Shopping
@@ -269,7 +269,7 @@ url of the product on Google Shopping
 
 > `optional` **variations**: [`ProductVariation`](ProductVariation.md)[]
 
-Defined in: main.ts:199881
+Defined in: main.ts:202290
 
 variations of the product
 contains brief information about different product variations
@@ -284,7 +284,7 @@ contains brief information about different product variations
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199890
+Defined in: main.ts:202299
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:199890
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199933
+Defined in: main.ts:202342
 
 #### Parameters
 
@@ -326,9 +326,9 @@ Defined in: main.ts:199933
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): `ProductInfoElementMerchantSerpElementItem`
 
-Defined in: main.ts:199926
+Defined in: main.ts:202335
 
 #### Parameters
 
@@ -338,7 +338,7 @@ Defined in: main.ts:199926
 
 #### Returns
 
-[`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
+`ProductInfoElementMerchantSerpElementItem`
 
 #### Overrides
 

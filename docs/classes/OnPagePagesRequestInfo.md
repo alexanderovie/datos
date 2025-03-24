@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesRequestInfo
 
-Defined in: main.ts:175371
+Defined in: main.ts:177780
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:175371
 
 ## Constructors
 
-### new OnPagePagesRequestInfo()
+### Constructor
 
-> **new OnPagePagesRequestInfo**(`data`?): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+> **new OnPagePagesRequestInfo**(`data`?): `OnPagePagesRequestInfo`
 
-Defined in: main.ts:175422
+Defined in: main.ts:177831
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:175422
 
 #### Returns
 
-[`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+`OnPagePagesRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:175422
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:175398
+Defined in: main.ts:177807
 
 array of results filtering parameters
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:175377
+Defined in: main.ts:177786
 
 ID of the task
 required field
@@ -81,7 +81,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:175382
+Defined in: main.ts:177791
 
 the maximum number of returned pages
 optional field
@@ -98,7 +98,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:175387
+Defined in: main.ts:177796
 
 offset in the results array of returned pages
 optional field
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:175412
+Defined in: main.ts:177821
 
 results sorting rules
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:175418
+Defined in: main.ts:177827
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175431
+Defined in: main.ts:177840
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:175431
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175461
+Defined in: main.ts:177870
 
 #### Parameters
 
@@ -193,9 +193,9 @@ Defined in: main.ts:175461
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPagePagesRequestInfo`
 
-Defined in: main.ts:175454
+Defined in: main.ts:177863
 
 #### Parameters
 
@@ -205,4 +205,4 @@ Defined in: main.ts:175454
 
 #### Returns
 
-[`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+`OnPagePagesRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: FetchTiming
 
-Defined in: main.ts:177397
+Defined in: main.ts:179806
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:177397
 
 ## Constructors
 
-### new FetchTiming()
+### Constructor
 
-> **new FetchTiming**(`data`?): [`FetchTiming`](FetchTiming.md)
+> **new FetchTiming**(`data`?): `FetchTiming`
 
-Defined in: main.ts:177409
+Defined in: main.ts:179818
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:177409
 
 #### Returns
 
-[`FetchTiming`](FetchTiming.md)
+`FetchTiming`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177409
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:177399
+Defined in: main.ts:179808
 
 indicates how many milliseconds it took to fetch a resource
 
@@ -54,7 +54,7 @@ indicates how many milliseconds it took to fetch a resource
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:177405
+Defined in: main.ts:179814
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -69,7 +69,7 @@ the amount of time a browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:177402
+Defined in: main.ts:179811
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
@@ -84,7 +84,7 @@ the amount of time a browser needs to start downloading a resource
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177418
+Defined in: main.ts:179827
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:177418
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177437
+Defined in: main.ts:179846
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:177437
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
+> `static` **fromJS**(`data`): `FetchTiming`
 
-Defined in: main.ts:177430
+Defined in: main.ts:179839
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:177430
 
 #### Returns
 
-[`FetchTiming`](FetchTiming.md)
+`FetchTiming`

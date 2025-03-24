@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetRegularResultInfo
 
-Defined in: main.ts:82187
+Defined in: main.ts:82614
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:82187
 
 ## Constructors
 
-### new SerpBaiduOrganicTaskGetRegularResultInfo()
+### Constructor
 
-> **new SerpBaiduOrganicTaskGetRegularResultInfo**(`data`?): [`SerpBaiduOrganicTaskGetRegularResultInfo`](SerpBaiduOrganicTaskGetRegularResultInfo.md)
+> **new SerpBaiduOrganicTaskGetRegularResultInfo**(`data`?): `SerpBaiduOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:82227
+Defined in: main.ts:82654
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:82227
 
 #### Returns
 
-[`SerpBaiduOrganicTaskGetRegularResultInfo`](SerpBaiduOrganicTaskGetRegularResultInfo.md)
+`SerpBaiduOrganicTaskGetRegularResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:82227
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:82201
+Defined in: main.ts:82628
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:82206
+Defined in: main.ts:82633
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:82217
+Defined in: main.ts:82644
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -89,7 +89,7 @@ organic, paid
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:82223
+Defined in: main.ts:82650
 
 items in SERP
 
@@ -103,7 +103,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:82221
+Defined in: main.ts:82648
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:82190
+Defined in: main.ts:82617
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:82198
+Defined in: main.ts:82625
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:82196
+Defined in: main.ts:82623
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:82212
+Defined in: main.ts:82639
 
 search refinement chips
 equals null
@@ -175,7 +175,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:82194
+Defined in: main.ts:82621
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:82219
+Defined in: main.ts:82646
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:82209
+Defined in: main.ts:82636
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:82192
+Defined in: main.ts:82619
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82236
+Defined in: main.ts:82663
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:82236
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82273
+Defined in: main.ts:82700
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:82273
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskGetRegularResultInfo`](SerpBaiduOrganicTaskGetRegularResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBaiduOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:82266
+Defined in: main.ts:82693
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:82266
 
 #### Returns
 
-[`SerpBaiduOrganicTaskGetRegularResultInfo`](SerpBaiduOrganicTaskGetRegularResultInfo.md)
+`SerpBaiduOrganicTaskGetRegularResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlRequestInfo
 
-Defined in: main.ts:181641
+Defined in: main.ts:184050
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181641
 
 ## Constructors
 
-### new OnPageRawHtmlRequestInfo()
+### Constructor
 
-> **new OnPageRawHtmlRequestInfo**(`data`?): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+> **new OnPageRawHtmlRequestInfo**(`data`?): `OnPageRawHtmlRequestInfo`
 
-Defined in: main.ts:181656
+Defined in: main.ts:184065
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:181656
 
 #### Returns
 
-[`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+`OnPageRawHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181656
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:181647
+Defined in: main.ts:184056
 
 ID of the task
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:181652
+Defined in: main.ts:184061
 
 page url
 required field
@@ -75,7 +75,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181665
+Defined in: main.ts:184074
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: main.ts:181665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181683
+Defined in: main.ts:184092
 
 #### Parameters
 
@@ -109,9 +109,9 @@ Defined in: main.ts:181683
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageRawHtmlRequestInfo`
 
-Defined in: main.ts:181676
+Defined in: main.ts:184085
 
 #### Parameters
 
@@ -121,4 +121,4 @@ Defined in: main.ts:181676
 
 #### Returns
 
-[`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+`OnPageRawHtmlRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: CountryDistribution
 
-Defined in: main.ts:157647
+Defined in: main.ts:160056
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157647
 
 ## Constructors
 
-### new CountryDistribution()
+### Constructor
 
-> **new CountryDistribution**(`data`?): [`CountryDistribution`](CountryDistribution.md)
+> **new CountryDistribution**(`data`?): `CountryDistribution`
 
-Defined in: main.ts:157657
+Defined in: main.ts:160066
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157657
 
 #### Returns
 
-[`CountryDistribution`](CountryDistribution.md)
+`CountryDistribution`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157657
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:157649
+Defined in: main.ts:160058
 
 country ISO code
 
@@ -54,7 +54,7 @@ country ISO code
 
 > `optional` **percentage**: `number`
 
-Defined in: main.ts:157653
+Defined in: main.ts:160062
 
 percentage of global search volume
 
@@ -68,7 +68,7 @@ percentage of global search volume
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:157651
+Defined in: main.ts:160060
 
 search volume in a given country
 
@@ -82,7 +82,7 @@ search volume in a given country
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157666
+Defined in: main.ts:160075
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:157666
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157685
+Defined in: main.ts:160094
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:157685
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`CountryDistribution`](CountryDistribution.md)
+> `static` **fromJS**(`data`): `CountryDistribution`
 
-Defined in: main.ts:157678
+Defined in: main.ts:160087
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:157678
 
 #### Returns
 
-[`CountryDistribution`](CountryDistribution.md)
+`CountryDistribution`

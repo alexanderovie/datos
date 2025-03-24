@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveRequestInfo
 
-Defined in: main.ts:224077
+Defined in: main.ts:226486
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:224077
 
 ## Constructors
 
-### new BusinessDataGoogleMyBusinessInfoLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoLiveRequestInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
+> **new BusinessDataGoogleMyBusinessInfoLiveRequestInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoLiveRequestInfo`
 
-Defined in: main.ts:224142
+Defined in: main.ts:226551
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:224142
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
+`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224142
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:224094
+Defined in: main.ts:226503
 
 keyword
 required field
@@ -69,7 +69,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:224132
+Defined in: main.ts:226541
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,7 +88,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:224125
+Defined in: main.ts:226534
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -107,7 +107,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:224108
+Defined in: main.ts:226517
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,7 +126,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:224118
+Defined in: main.ts:226527
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:224101
+Defined in: main.ts:226510
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,7 +167,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:224138
+Defined in: main.ts:226547
 
 user-defined task identifier
 optional field
@@ -185,7 +185,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:224151
+Defined in: main.ts:226560
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:224151
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:224174
+Defined in: main.ts:226583
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:224174
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoLiveRequestInfo`
 
-Defined in: main.ts:224167
+Defined in: main.ts:226576
 
 #### Parameters
 
@@ -231,4 +231,4 @@ Defined in: main.ts:224167
 
 #### Returns
 
-[`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
+`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`

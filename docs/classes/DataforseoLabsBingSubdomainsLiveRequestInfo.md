@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSubdomainsLiveRequestInfo
 
-Defined in: main.ts:129775
+Defined in: main.ts:132176
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:129775
 
 ## Constructors
 
-### new DataforseoLabsBingSubdomainsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingSubdomainsLiveRequestInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
+> **new DataforseoLabsBingSubdomainsLiveRequestInfo**(`data`?): `DataforseoLabsBingSubdomainsLiveRequestInfo`
 
-Defined in: main.ts:129892
+Defined in: main.ts:132293
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:129892
 
 #### Returns
 
-[`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
+`DataforseoLabsBingSubdomainsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129892
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:129855
+Defined in: main.ts:132256
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:129836
+Defined in: main.ts:132237
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:129841
+Defined in: main.ts:132242
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:129827
+Defined in: main.ts:132228
 
 display results by item type
 optional field
@@ -125,7 +125,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129818
+Defined in: main.ts:132219
 
 language code
 optional field
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:129809
+Defined in: main.ts:132210
 
 full name of the language
 optional field
@@ -167,7 +167,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:129877
+Defined in: main.ts:132278
 
 the maximum number of returned keywords
 optional field
@@ -184,7 +184,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129800
+Defined in: main.ts:132201
 
 location code
 optional field
@@ -206,7 +206,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:129790
+Defined in: main.ts:132191
 
 full name of the location
 optional field
@@ -228,7 +228,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:129882
+Defined in: main.ts:132283
 
 offset in the results array of returned keywords
 optional field
@@ -245,7 +245,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:129872
+Defined in: main.ts:132273
 
 results sorting rules
 optional field
@@ -274,7 +274,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:129888
+Defined in: main.ts:132289
 
 user-defined task identifier
 optional field
@@ -292,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:129780
+Defined in: main.ts:132181
 
 domain
 required field
@@ -309,7 +309,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:129901
+Defined in: main.ts:132302
 
 #### Parameters
 
@@ -327,7 +327,7 @@ Defined in: main.ts:129901
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:129942
+Defined in: main.ts:132343
 
 #### Parameters
 
@@ -343,9 +343,9 @@ Defined in: main.ts:129942
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingSubdomainsLiveRequestInfo`
 
-Defined in: main.ts:129935
+Defined in: main.ts:132336
 
 #### Parameters
 
@@ -355,4 +355,4 @@ Defined in: main.ts:129935
 
 #### Returns
 
-[`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
+`DataforseoLabsBingSubdomainsLiveRequestInfo`

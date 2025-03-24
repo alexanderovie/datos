@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
-Defined in: main.ts:190301
+Defined in: main.ts:192710
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:190301
 
 ## Constructors
 
-### new ContentGenerationGenerateLiveRequestInfo()
+### Constructor
 
-> **new ContentGenerationGenerateLiveRequestInfo**(`data`?): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+> **new ContentGenerationGenerateLiveRequestInfo**(`data`?): `ContentGenerationGenerateLiveRequestInfo`
 
-Defined in: main.ts:190394
+Defined in: main.ts:192803
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:190394
 
 #### Returns
 
-[`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+`ContentGenerationGenerateLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190394
 
 > `optional` **avoid\_starting\_words**: `string`[]
 
-Defined in: main.ts:190372
+Defined in: main.ts:192781
 
 words or phrases to avoid in the beginning of the generated text
 optional field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **avoid\_words**: `string`[]
 
-Defined in: main.ts:190366
+Defined in: main.ts:192775
 
 words or phrases to avoid when generating a text
 optional field
@@ -76,7 +76,7 @@ example:
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:190329
+Defined in: main.ts:192738
 
 creativity of content generation
 optional field
@@ -96,7 +96,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_new\_tokens**: `number`
 
-Defined in: main.ts:190314
+Defined in: main.ts:192723
 
 generation limit for new tokens
 required field if max_tokens is not specified
@@ -115,7 +115,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_tokens**: `number`
 
-Defined in: main.ts:190321
+Defined in: main.ts:192730
 
 generation limit for all tokens
 required field if max_new_tokens is not specified
@@ -134,7 +134,7 @@ learn more about this parameter on our help center
 
 > `optional` **stop\_words**: `string`[]
 
-Defined in: main.ts:190378
+Defined in: main.ts:192787
 
 words or phrases to end the text
 optional field
@@ -152,7 +152,7 @@ example:
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:190384
+Defined in: main.ts:192793
 
 token for generating subsequent results
 optional field
@@ -170,7 +170,7 @@ supplement_token values are unique for each subsequent task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:190390
+Defined in: main.ts:192799
 
 user-defined task identifier
 optional field
@@ -188,7 +188,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **temperature**: `number`
 
-Defined in: main.ts:190360
+Defined in: main.ts:192769
 
 controls the randomness in the output
 optional field
@@ -208,7 +208,7 @@ learn more about this parameter on our help center
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:190307
+Defined in: main.ts:192716
 
 initial target text
 required field
@@ -226,7 +226,7 @@ learn more about tokens on our help center
 
 > `optional` **token\_repetition\_penalty**: `number`
 
-Defined in: main.ts:190335
+Defined in: main.ts:192744
 
 token repetition
 optional field
@@ -244,7 +244,7 @@ default value: 1
 
 > `optional` **top\_k**: `number`
 
-Defined in: main.ts:190343
+Defined in: main.ts:192752
 
 the number of initial tokens in each iteration for choosing a subsequent word
 optional field
@@ -264,7 +264,7 @@ learn more about this parameter on our help center
 
 > `optional` **top\_p**: `number`
 
-Defined in: main.ts:190352
+Defined in: main.ts:192761
 
 excludes initial tokens with probability lower than one
 optional field
@@ -285,7 +285,7 @@ learn more about this parameter on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190403
+Defined in: main.ts:192812
 
 #### Parameters
 
@@ -303,7 +303,7 @@ Defined in: main.ts:190403
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190444
+Defined in: main.ts:192853
 
 #### Parameters
 
@@ -319,9 +319,9 @@ Defined in: main.ts:190444
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationGenerateLiveRequestInfo`
 
-Defined in: main.ts:190437
+Defined in: main.ts:192846
 
 #### Parameters
 
@@ -331,4 +331,4 @@ Defined in: main.ts:190437
 
 #### Returns
 
-[`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)
+`ContentGenerationGenerateLiveRequestInfo`

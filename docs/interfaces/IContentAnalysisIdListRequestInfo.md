@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisIdListRequestInfo
 
-Defined in: main.ts:185718
+Defined in: main.ts:188127
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:185718
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:185726
+Defined in: main.ts:188135
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:185733
+Defined in: main.ts:188142
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:185752
+Defined in: main.ts:188161
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:185738
+Defined in: main.ts:188147
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:185743
+Defined in: main.ts:188152
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:185748
+Defined in: main.ts:188157
 
 sorting by task execution time
 optional field

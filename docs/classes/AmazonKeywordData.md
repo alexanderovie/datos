@@ -6,7 +6,7 @@
 
 # Class: AmazonKeywordData
 
-Defined in: main.ts:24584
+Defined in: main.ts:24923
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24584
 
 ## Constructors
 
-### new AmazonKeywordData()
+### Constructor
 
-> **new AmazonKeywordData**(`data`?): [`AmazonKeywordData`](AmazonKeywordData.md)
+> **new AmazonKeywordData**(`data`?): `AmazonKeywordData`
 
-Defined in: main.ts:24598
+Defined in: main.ts:24937
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24598
 
 #### Returns
 
-[`AmazonKeywordData`](AmazonKeywordData.md)
+`AmazonKeywordData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24598
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:24588
+Defined in: main.ts:24927
 
 related keyword
 
@@ -54,7 +54,7 @@ related keyword
 
 > `optional` **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-Defined in: main.ts:24594
+Defined in: main.ts:24933
 
 keyword info for the returned keyword
 
@@ -68,7 +68,7 @@ keyword info for the returned keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:24592
+Defined in: main.ts:24931
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:24590
+Defined in: main.ts:24929
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:24586
+Defined in: main.ts:24925
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24607
+Defined in: main.ts:24946
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:24607
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24628
+Defined in: main.ts:24967
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:24628
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
+> `static` **fromJS**(`data`): `AmazonKeywordData`
 
-Defined in: main.ts:24621
+Defined in: main.ts:24960
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:24621
 
 #### Returns
 
-[`AmazonKeywordData`](AmazonKeywordData.md)
+`AmazonKeywordData`

@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
-Defined in: main.ts:74989
+Defined in: main.ts:75416
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:74989
 
 ## Constructors
 
-### new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+> **new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo**(`data`?): `SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:75049
+Defined in: main.ts:75476
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:75049
 
 #### Returns
 
-[`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:75049
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:75034
+Defined in: main.ts:75461
 
 device type
 optional field
@@ -56,7 +56,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:75030
+Defined in: main.ts:75457
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:75023
+Defined in: main.ts:75450
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:75016
+Defined in: main.ts:75443
 
 search engine location code
 required field if you don’t specify location_name 
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:75009
+Defined in: main.ts:75436
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:75039
+Defined in: main.ts:75466
 
 device operating system
 optional field
@@ -149,7 +149,7 @@ default value: windows
 
 > `optional` **subtitles\_language**: `string`
 
-Defined in: main.ts:74998
+Defined in: main.ts:75425
 
 language code of original text
 you can get the language code from YouTube Video Info result
@@ -164,7 +164,7 @@ you can get the language code from YouTube Video Info result
 
 > `optional` **subtitles\_translate\_language**: `string`
 
-Defined in: main.ts:75002
+Defined in: main.ts:75429
 
 language code of translated text
 possible values:
@@ -180,7 +180,7 @@ possible values:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:75045
+Defined in: main.ts:75472
 
 user-defined task identifier
 optional field
@@ -198,7 +198,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:74995
+Defined in: main.ts:75422
 
 ID of the video
 required field
@@ -216,7 +216,7 @@ Y8Wu4rSNJms
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75058
+Defined in: main.ts:75485
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:75058
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75084
+Defined in: main.ts:75511
 
 #### Parameters
 
@@ -250,9 +250,9 @@ Defined in: main.ts:75084
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:75077
+Defined in: main.ts:75504
 
 #### Parameters
 
@@ -262,4 +262,4 @@ Defined in: main.ts:75077
 
 #### Returns
 
-[`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`

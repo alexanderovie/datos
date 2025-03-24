@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
-Defined in: main.ts:157787
+Defined in: main.ts:160196
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157787
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo**(`data`?): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:157795
+Defined in: main.ts:160204
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157795
 
 #### Returns
 
-[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157795
 
 > `optional` **items**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:157791
+Defined in: main.ts:160200
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:157789
+Defined in: main.ts:160198
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157804
+Defined in: main.ts:160213
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:157804
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157826
+Defined in: main.ts:160235
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:157826
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:157819
+Defined in: main.ts:160228
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:157819
 
 #### Returns
 
-[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`

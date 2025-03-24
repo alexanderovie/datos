@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceQuoteLiveAdvancedRequestInfo
 
-Defined in: main.ts:92951
+Defined in: main.ts:93378
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:92951
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:92992
+Defined in: main.ts:93419
 
 device type
 optional field
@@ -30,7 +30,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:92960
+Defined in: main.ts:93387
 
 ticker or stock symbol
 required field
@@ -47,7 +47,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:92988
+Defined in: main.ts:93415
 
 search engine language code
 required field if you don’t specify language_name
@@ -62,7 +62,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:92981
+Defined in: main.ts:93408
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -77,7 +77,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:92974
+Defined in: main.ts:93401
 
 search engine location code
 required field if you don’t specify location_name
@@ -92,7 +92,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:92967
+Defined in: main.ts:93394
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -107,7 +107,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:92996
+Defined in: main.ts:93423
 
 device operating system
 optional field
@@ -119,7 +119,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:93008
+Defined in: main.ts:93435
 
 user-defined task identifier
 optional field
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:93002
+Defined in: main.ts:93429
 
 time window for google_finance_quote graph
 optional field

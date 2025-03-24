@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackSerpElementItem
 
-Defined in: main.ts:37761
+Defined in: main.ts:38188
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37761
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:37774
+Defined in: main.ts:38201
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:37779
+Defined in: main.ts:38206
 
 ending date of stay
 in the format “year-month-date”
@@ -48,7 +48,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:37781
+Defined in: main.ts:38208
 
 contains arrays of specific images
 
@@ -58,7 +58,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:37765
+Defined in: main.ts:38192
 
 the alignment of the element in SERP
 can take the following values:
@@ -70,7 +70,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37785
+Defined in: main.ts:38212
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -113,7 +113,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37769
+Defined in: main.ts:38196
 
 title of the row
 
@@ -123,7 +123,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -137,6 +137,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37767
+Defined in: main.ts:38194
 
 the XPath of the element

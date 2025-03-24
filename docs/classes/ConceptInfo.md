@@ -6,7 +6,7 @@
 
 # Class: ConceptInfo
 
-Defined in: main.ts:138229
+Defined in: main.ts:140630
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:138229
 
 ## Constructors
 
-### new ConceptInfo()
+### Constructor
 
-> **new ConceptInfo**(`data`?): [`ConceptInfo`](ConceptInfo.md)
+> **new ConceptInfo**(`data`?): `ConceptInfo`
 
-Defined in: main.ts:138237
+Defined in: main.ts:140638
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:138237
 
 #### Returns
 
-[`ConceptInfo`](ConceptInfo.md)
+`ConceptInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138237
 
 > `optional` **concept\_group**: [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
-Defined in: main.ts:138233
+Defined in: main.ts:140634
 
 the concept group of the concept details
 
@@ -54,7 +54,7 @@ the concept group of the concept details
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:138231
+Defined in: main.ts:140632
 
 the concept name for the keyword in the concept_group
 
@@ -68,7 +68,7 @@ the concept name for the keyword in the concept_group
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138246
+Defined in: main.ts:140647
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:138246
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138264
+Defined in: main.ts:140665
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:138264
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
+> `static` **fromJS**(`data`): `ConceptInfo`
 
-Defined in: main.ts:138257
+Defined in: main.ts:140658
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:138257
 
 #### Returns
 
-[`ConceptInfo`](ConceptInfo.md)
+`ConceptInfo`

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTaskGetAdvancedItem
 
-Defined in: main.ts:64822
+Defined in: main.ts:65249
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:64822
 
 ## Constructors
 
-### new SerpGoogleAdsSearchTaskGetAdvancedItem()
+### Constructor
 
-> **new SerpGoogleAdsSearchTaskGetAdvancedItem**(`data`?): [`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
+> **new SerpGoogleAdsSearchTaskGetAdvancedItem**(`data`?): `SerpGoogleAdsSearchTaskGetAdvancedItem`
 
-Defined in: main.ts:64859
+Defined in: main.ts:65286
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:64859
 
 #### Returns
 
-[`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
+`SerpGoogleAdsSearchTaskGetAdvancedItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:64859
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:64833
+Defined in: main.ts:65260
 
 unique identifier of the advertiser account
 
@@ -54,7 +54,7 @@ unique identifier of the advertiser account
 
 > `optional` **creative\_id**: `string`
 
-Defined in: main.ts:64835
+Defined in: main.ts:65262
 
 unique identifier of the advertisement
 
@@ -68,7 +68,7 @@ unique identifier of the advertisement
 
 > `optional` **first\_shown**: `string`
 
-Defined in: main.ts:64852
+Defined in: main.ts:65279
 
 date and time when the ad was shown for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -83,7 +83,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:64845
+Defined in: main.ts:65272
 
 format of the advertisement
 possible values: text, image, video
@@ -98,7 +98,7 @@ possible values: text, image, video
 
 > `optional` **last\_shown**: `string`
 
-Defined in: main.ts:64855
+Defined in: main.ts:65282
 
 date and time when the ad was shown the last time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -113,7 +113,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **preview\_image**: [`PreviewImage`](PreviewImage.md)
 
-Defined in: main.ts:64847
+Defined in: main.ts:65274
 
 preview image of the advertisement
 
@@ -127,7 +127,7 @@ preview image of the advertisement
 
 > `optional` **preview\_url**: `string`
 
-Defined in: main.ts:64849
+Defined in: main.ts:65276
 
 url pointing to the ad preview
 
@@ -141,7 +141,7 @@ url pointing to the ad preview
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:64831
+Defined in: main.ts:65258
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -156,7 +156,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:64828
+Defined in: main.ts:65255
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -172,7 +172,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:64837
+Defined in: main.ts:65264
 
 title of the element
 
@@ -186,7 +186,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:64824
+Defined in: main.ts:65251
 
 type of element
 
@@ -200,7 +200,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:64839
+Defined in: main.ts:65266
 
 search URL with refinement parameters
 
@@ -214,7 +214,7 @@ search URL with refinement parameters
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:64842
+Defined in: main.ts:65269
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -229,7 +229,7 @@ equals true if advertiser account is verified by Google Ads
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64868
+Defined in: main.ts:65295
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:64868
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64897
+Defined in: main.ts:65324
 
 #### Parameters
 
@@ -263,9 +263,9 @@ Defined in: main.ts:64897
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
+> `static` **fromJS**(`data`): `SerpGoogleAdsSearchTaskGetAdvancedItem`
 
-Defined in: main.ts:64890
+Defined in: main.ts:65317
 
 #### Parameters
 
@@ -275,4 +275,4 @@ Defined in: main.ts:64890
 
 #### Returns
 
-[`SerpGoogleAdsSearchTaskGetAdvancedItem`](SerpGoogleAdsSearchTaskGetAdvancedItem.md)
+`SerpGoogleAdsSearchTaskGetAdvancedItem`

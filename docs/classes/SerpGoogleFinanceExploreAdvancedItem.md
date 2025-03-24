@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreAdvancedItem
 
-Defined in: main.ts:88409
+Defined in: main.ts:88836
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:88409
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreAdvancedItem()
+### Constructor
 
-> **new SerpGoogleFinanceExploreAdvancedItem**(`data`?): [`SerpGoogleFinanceExploreAdvancedItem`](SerpGoogleFinanceExploreAdvancedItem.md)
+> **new SerpGoogleFinanceExploreAdvancedItem**(`data`?): `SerpGoogleFinanceExploreAdvancedItem`
 
-Defined in: main.ts:88418
+Defined in: main.ts:88845
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:88418
 
 #### Returns
 
-[`SerpGoogleFinanceExploreAdvancedItem`](SerpGoogleFinanceExploreAdvancedItem.md)
+`SerpGoogleFinanceExploreAdvancedItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88418
 
 > `optional` **gainers**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88413
+Defined in: main.ts:88840
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:88413
 
 > `optional` **losers**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88414
+Defined in: main.ts:88841
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:88414
 
 > `optional` **most\_active**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88412
+Defined in: main.ts:88839
 
 array of items
 this array can take the following names: most_active, gainers, losers
@@ -79,7 +79,7 @@ this array can take the following names: most_active, gainers, losers
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88427
+Defined in: main.ts:88854
 
 #### Parameters
 
@@ -97,7 +97,7 @@ Defined in: main.ts:88427
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88458
+Defined in: main.ts:88885
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:88458
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreAdvancedItem`](SerpGoogleFinanceExploreAdvancedItem.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreAdvancedItem`
 
-Defined in: main.ts:88451
+Defined in: main.ts:88878
 
 #### Parameters
 
@@ -125,4 +125,4 @@ Defined in: main.ts:88451
 
 #### Returns
 
-[`SerpGoogleFinanceExploreAdvancedItem`](SerpGoogleFinanceExploreAdvancedItem.md)
+`SerpGoogleFinanceExploreAdvancedItem`

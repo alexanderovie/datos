@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117010
+Defined in: main.ts:118393
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:117010
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:117016
+Defined in: main.ts:118399
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:117021
+Defined in: main.ts:118404
 
 additional items present in the element
 if there are none, equals null
@@ -45,7 +45,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:117018
+Defined in: main.ts:118401
 
 link of the element
 
@@ -55,7 +55,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22508
+Defined in: main.ts:22847
 
 the alignment of the element in SERP
 can take the following values:
@@ -71,7 +71,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22504
+Defined in: main.ts:22843
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -86,7 +86,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22501
+Defined in: main.ts:22840
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117012
+Defined in: main.ts:118395
 
 title of the element
 
@@ -111,7 +111,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22498
+Defined in: main.ts:22837
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22510
+Defined in: main.ts:22849
 
 the XPath of the element
 

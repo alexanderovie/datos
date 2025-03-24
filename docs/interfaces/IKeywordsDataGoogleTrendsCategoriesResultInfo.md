@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
-Defined in: main.ts:142659
+Defined in: main.ts:145060
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:142659
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:142661
+Defined in: main.ts:145062
 
 unique google trends category identifier
 
@@ -28,7 +28,7 @@ unique google trends category identifier
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:142672
+Defined in: main.ts:145073
 
 the code of the superordinate category
 example:
@@ -45,6 +45,6 @@ where category_code_parent corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:142663
+Defined in: main.ts:145064
 
 name of the google trends category

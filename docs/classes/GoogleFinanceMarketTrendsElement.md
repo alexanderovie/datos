@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketTrendsElement
 
-Defined in: main.ts:88335
+Defined in: main.ts:88762
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:88335
 
 ## Constructors
 
-### new GoogleFinanceMarketTrendsElement()
+### Constructor
 
-> **new GoogleFinanceMarketTrendsElement**(`data`?): [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)
+> **new GoogleFinanceMarketTrendsElement**(`data`?): `GoogleFinanceMarketTrendsElement`
 
-Defined in: main.ts:88347
+Defined in: main.ts:88774
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:88347
 
 #### Returns
 
-[`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)
+`GoogleFinanceMarketTrendsElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88347
 
 > `optional` **news**: [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)[]
 
-Defined in: main.ts:88343
+Defined in: main.ts:88770
 
 array of items
 array contains the following type of items: google_finance_news_element
@@ -55,7 +55,7 @@ array contains the following type of items: google_finance_news_element
 
 > `optional` **quote**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
 
-Defined in: main.ts:88340
+Defined in: main.ts:88767
 
 object of items
 array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element
@@ -70,7 +70,7 @@ array contains the following type of items: google_finance_asset_pair_element, g
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88337
+Defined in: main.ts:88764
 
 type of element
 
@@ -84,7 +84,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88356
+Defined in: main.ts:88783
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:88356
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88379
+Defined in: main.ts:88806
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:88379
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)
+> `static` **fromJS**(`data`): `GoogleFinanceMarketTrendsElement`
 
-Defined in: main.ts:88372
+Defined in: main.ts:88799
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:88372
 
 #### Returns
 
-[`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)
+`GoogleFinanceMarketTrendsElement`

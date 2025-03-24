@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:196011
+Defined in: main.ts:198420
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:196011
 
 ## Constructors
 
-### new RelatedSearchesMerchantSerpElementItem()
+### Constructor
 
-> **new RelatedSearchesMerchantSerpElementItem**(`data`?): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
+> **new RelatedSearchesMerchantSerpElementItem**(`data`?): `RelatedSearchesMerchantSerpElementItem`
 
-Defined in: main.ts:196020
+Defined in: main.ts:198429
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:196020
 
 #### Returns
 
-[`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
+`RelatedSearchesMerchantSerpElementItem`
 
 #### Overrides
 
-[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:196020
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22527
+Defined in: main.ts:22866
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22527
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:196016
+Defined in: main.ts:198425
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22525
+Defined in: main.ts:22864
 
 alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22521
+Defined in: main.ts:22860
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -114,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22518
+Defined in: main.ts:22857
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22515
+Defined in: main.ts:22854
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:196013
+Defined in: main.ts:198422
 
 XPath of the element
 
@@ -165,7 +165,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196025
+Defined in: main.ts:198434
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:196025
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196048
+Defined in: main.ts:198457
 
 #### Parameters
 
@@ -207,9 +207,9 @@ Defined in: main.ts:196048
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): `RelatedSearchesMerchantSerpElementItem`
 
-Defined in: main.ts:196041
+Defined in: main.ts:198450
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:196041
 
 #### Returns
 
-[`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
+`RelatedSearchesMerchantSerpElementItem`
 
 #### Overrides
 

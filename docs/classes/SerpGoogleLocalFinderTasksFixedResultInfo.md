@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTasksFixedResultInfo
 
-Defined in: main.ts:45896
+Defined in: main.ts:46323
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:45896
 
 ## Constructors
 
-### new SerpGoogleLocalFinderTasksFixedResultInfo()
+### Constructor
 
-> **new SerpGoogleLocalFinderTasksFixedResultInfo**(`data`?): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+> **new SerpGoogleLocalFinderTasksFixedResultInfo**(`data`?): `SerpGoogleLocalFinderTasksFixedResultInfo`
 
-Defined in: main.ts:45921
+Defined in: main.ts:46348
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:45921
 
 #### Returns
 
-[`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+`SerpGoogleLocalFinderTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:45921
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:45906
+Defined in: main.ts:46333
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:45914
+Defined in: main.ts:46341
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:45917
+Defined in: main.ts:46344
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:45911
+Defined in: main.ts:46338
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:45899
+Defined in: main.ts:46326
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:45901
+Defined in: main.ts:46328
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:45904
+Defined in: main.ts:46331
 
 type of search engine
 can take the following values: local_finder
@@ -143,7 +143,7 @@ can take the following values: local_finder
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:45908
+Defined in: main.ts:46335
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:45930
+Defined in: main.ts:46357
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:45930
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:45954
+Defined in: main.ts:46381
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:45954
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocalFinderTasksFixedResultInfo`
 
-Defined in: main.ts:45947
+Defined in: main.ts:46374
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:45947
 
 #### Returns
 
-[`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)
+`SerpGoogleLocalFinderTasksFixedResultInfo`

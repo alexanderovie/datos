@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:186853
+Defined in: main.ts:189262
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186853
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:186909
+Defined in: main.ts:189318
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:186862
+Defined in: main.ts:189271
 
 target keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:186874
+Defined in: main.ts:189283
 
 target keyword fields and target keywords
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:186892
+Defined in: main.ts:189301
 
 the maximum number of returned citations
 optional field
@@ -97,7 +97,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:186930
+Defined in: main.ts:189339
 
 offset in the results array of returned citations
 optional field
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:186938
+Defined in: main.ts:189347
 
 offset token for subsequent requests
 optional field
@@ -126,7 +126,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:186925
+Defined in: main.ts:189334
 
 results sorting rules
 optional field
@@ -150,7 +150,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:186880
+Defined in: main.ts:189289
 
 target page types
 optional field
@@ -164,7 +164,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:186887
+Defined in: main.ts:189296
 
 results grouping type
 optional field
@@ -179,7 +179,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:186944
+Defined in: main.ts:189353
 
 user-defined task identifier
 optional field

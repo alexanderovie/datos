@@ -6,7 +6,7 @@
 
 # Class: LicensesElement
 
-Defined in: main.ts:22939
+Defined in: main.ts:23278
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:22939
 
 ## Constructors
 
-### new LicensesElement()
+### Constructor
 
-> **new LicensesElement**(`data`?): [`LicensesElement`](LicensesElement.md)
+> **new LicensesElement**(`data`?): `LicensesElement`
 
-Defined in: main.ts:22951
+Defined in: main.ts:23290
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:22951
 
 #### Returns
 
-[`LicensesElement`](LicensesElement.md)
+`LicensesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22951
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:22947
+Defined in: main.ts:23286
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:22943
+Defined in: main.ts:23282
 
 title of the element
 
@@ -68,7 +68,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22941
+Defined in: main.ts:23280
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22945
+Defined in: main.ts:23284
 
 search URL with refinement parameters
 
@@ -96,7 +96,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22960
+Defined in: main.ts:23299
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:22960
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22980
+Defined in: main.ts:23319
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:22980
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
+> `static` **fromJS**(`data`): `LicensesElement`
 
-Defined in: main.ts:22973
+Defined in: main.ts:23312
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:22973
 
 #### Returns
 
-[`LicensesElement`](LicensesElement.md)
+`LicensesElement`

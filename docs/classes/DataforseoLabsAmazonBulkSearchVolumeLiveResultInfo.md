@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:121491
+Defined in: main.ts:123892
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:121491
 
 ## Constructors
 
-### new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
+> **new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo**(`data`?): `DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:121509
+Defined in: main.ts:123910
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:121509
 
 #### Returns
 
-[`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
+`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121509
 
 > `optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:121505
+Defined in: main.ts:123906
 
 contains keyword search volume data data
 
@@ -54,7 +54,7 @@ contains keyword search volume data data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121503
+Defined in: main.ts:123904
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121499
+Defined in: main.ts:123900
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121496
+Defined in: main.ts:123897
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121493
+Defined in: main.ts:123894
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121501
+Defined in: main.ts:123902
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121518
+Defined in: main.ts:123919
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:121518
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121544
+Defined in: main.ts:123945
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:121544
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:121537
+Defined in: main.ts:123938
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:121537
 
 #### Returns
 
-[`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
+`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`

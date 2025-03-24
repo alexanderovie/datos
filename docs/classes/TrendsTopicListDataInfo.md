@@ -6,7 +6,7 @@
 
 # Class: TrendsTopicListDataInfo
 
-Defined in: main.ts:144666
+Defined in: main.ts:147075
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:144666
 
 ## Constructors
 
-### new TrendsTopicListDataInfo()
+### Constructor
 
-> **new TrendsTopicListDataInfo**(`data`?): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> **new TrendsTopicListDataInfo**(`data`?): `TrendsTopicListDataInfo`
 
-Defined in: main.ts:144676
+Defined in: main.ts:147085
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:144676
 
 #### Returns
 
-[`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+`TrendsTopicListDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144676
 
 > `optional` **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:144672
+Defined in: main.ts:147081
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -55,7 +55,7 @@ represents the list of related topics with the biggest increase in search freque
 
 > `optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:144669
+Defined in: main.ts:147078
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -70,7 +70,7 @@ represents the list of the most popular related topics
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144685
+Defined in: main.ts:147094
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:144685
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144711
+Defined in: main.ts:147120
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:144711
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> `static` **fromJS**(`data`): `TrendsTopicListDataInfo`
 
-Defined in: main.ts:144704
+Defined in: main.ts:147113
 
 #### Parameters
 
@@ -116,4 +116,4 @@ Defined in: main.ts:144704
 
 #### Returns
 
-[`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+`TrendsTopicListDataInfo`

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:171529
+Defined in: main.ts:173938
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:171529
 
 ## Constructors
 
-### new BacklinksBulkNewLostReferringDomainsLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+> **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data`?): `BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:171571
+Defined in: main.ts:173980
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:171571
 
 #### Returns
 
-[`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171571
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171561
+Defined in: main.ts:173970
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171567
+Defined in: main.ts:173976
 
 user-defined task identifier
 optional field
@@ -83,7 +83,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:171548
+Defined in: main.ts:173957
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -114,7 +114,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171580
+Defined in: main.ts:173989
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:171580
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171603
+Defined in: main.ts:174012
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:171603
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:171596
+Defined in: main.ts:174005
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:171596
 
 #### Returns
 
-[`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`

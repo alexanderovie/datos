@@ -6,7 +6,7 @@
 
 # Interface: IHotelPriceItemInfo
 
-Defined in: main.ts:226545
+Defined in: main.ts:228954
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:226545
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:226554
+Defined in: main.ts:228963
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -29,7 +29,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:226560
+Defined in: main.ts:228969
 
 third-party domain
 domain of the third-party website page with pricing information
@@ -40,7 +40,7 @@ domain of the third-party website page with pricing information
 
 > `optional` **free\_cancellation\_until**: `string`
 
-Defined in: main.ts:226568
+Defined in: main.ts:228977
 
 date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ equals null if free cancellation is not available for the selected dates
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:226564
+Defined in: main.ts:228973
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -64,7 +64,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 > `optional` **offers**: [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)[]
 
-Defined in: main.ts:226570
+Defined in: main.ts:228979
 
 featured price offers
 
@@ -74,7 +74,7 @@ featured price offers
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:226551
+Defined in: main.ts:228960
 
 price per night
 
@@ -84,7 +84,7 @@ price per night
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:226549
+Defined in: main.ts:228958
 
 title of the hotel
 
@@ -94,7 +94,7 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:226547
+Defined in: main.ts:228956
 
 type of element
 
@@ -104,7 +104,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226557
+Defined in: main.ts:228966
 
 third-party page url
 URL to the third-party website page with pricing information

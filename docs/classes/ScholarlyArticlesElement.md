@@ -6,7 +6,7 @@
 
 # Class: ScholarlyArticlesElement
 
-Defined in: main.ts:36476
+Defined in: main.ts:36903
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:36476
 
 ## Constructors
 
-### new ScholarlyArticlesElement()
+### Constructor
 
-> **new ScholarlyArticlesElement**(`data`?): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+> **new ScholarlyArticlesElement**(`data`?): `ScholarlyArticlesElement`
 
-Defined in: main.ts:36490
+Defined in: main.ts:36917
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:36490
 
 #### Returns
 
-[`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+`ScholarlyArticlesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36490
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:36484
+Defined in: main.ts:36911
 
 author
 
@@ -54,7 +54,7 @@ author
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36486
+Defined in: main.ts:36913
 
 description
 
@@ -68,7 +68,7 @@ description
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36480
+Defined in: main.ts:36907
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36478
+Defined in: main.ts:36905
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36482
+Defined in: main.ts:36909
 
 URL
 
@@ -110,7 +110,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36499
+Defined in: main.ts:36926
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:36499
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36520
+Defined in: main.ts:36947
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:36520
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+> `static` **fromJS**(`data`): `ScholarlyArticlesElement`
 
-Defined in: main.ts:36513
+Defined in: main.ts:36940
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:36513
 
 #### Returns
 
-[`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+`ScholarlyArticlesElement`

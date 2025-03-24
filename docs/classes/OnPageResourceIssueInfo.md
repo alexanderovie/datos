@@ -6,7 +6,7 @@
 
 # Class: OnPageResourceIssueInfo
 
-Defined in: main.ts:176156
+Defined in: main.ts:178565
 
 resource errors and warnings
 
@@ -20,11 +20,11 @@ resource errors and warnings
 
 ## Constructors
 
-### new OnPageResourceIssueInfo()
+### Constructor
 
-> **new OnPageResourceIssueInfo**(`data`?): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> **new OnPageResourceIssueInfo**(`data`?): `OnPageResourceIssueInfo`
 
-Defined in: main.ts:176164
+Defined in: main.ts:178573
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:176164
 
 #### Returns
 
-[`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+`OnPageResourceIssueInfo`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:176164
 
 > `optional` **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
-Defined in: main.ts:176158
+Defined in: main.ts:178567
 
 resource errors
 
@@ -56,7 +56,7 @@ resource errors
 
 > `optional` **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
-Defined in: main.ts:176160
+Defined in: main.ts:178569
 
 resource warnings
 
@@ -70,7 +70,7 @@ resource warnings
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176173
+Defined in: main.ts:178582
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:176173
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176199
+Defined in: main.ts:178608
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:176199
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> `static` **fromJS**(`data`): `OnPageResourceIssueInfo`
 
-Defined in: main.ts:176192
+Defined in: main.ts:178601
 
 #### Parameters
 
@@ -116,4 +116,4 @@ Defined in: main.ts:176192
 
 #### Returns
 
-[`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+`OnPageResourceIssueInfo`

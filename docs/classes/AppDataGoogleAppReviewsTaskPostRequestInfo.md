@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
-Defined in: main.ts:212139
+Defined in: main.ts:214548
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:212139
 
 ## Constructors
 
-### new AppDataGoogleAppReviewsTaskPostRequestInfo()
+### Constructor
 
-> **new AppDataGoogleAppReviewsTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
+> **new AppDataGoogleAppReviewsTaskPostRequestInfo**(`data`?): `AppDataGoogleAppReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:212244
+Defined in: main.ts:214653
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:212244
 
 #### Returns
 
-[`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
+`AppDataGoogleAppReviewsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212244
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:212146
+Defined in: main.ts:214555
 
 id of the app
 required field
@@ -59,7 +59,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:212189
+Defined in: main.ts:214598
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ maximum value: 100000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:212174
+Defined in: main.ts:214583
 
 search engine language code
 required field if you don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:212167
+Defined in: main.ts:214576
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:212160
+Defined in: main.ts:214569
 
 search engine location code
 required field if you don’t specify location_name
@@ -135,7 +135,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:212153
+Defined in: main.ts:214562
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,7 +154,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:212240
+Defined in: main.ts:214649
 
 notification URL of a completed task
 optional field
@@ -176,7 +176,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:212230
+Defined in: main.ts:214639
 
 postback_url datatype
 required field if you specify postback_url
@@ -194,7 +194,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:212224
+Defined in: main.ts:214633
 
 return URL for sending task results
 optional field
@@ -216,7 +216,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:212182
+Defined in: main.ts:214591
 
 task priority
 optional field
@@ -236,7 +236,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **rating**: `number`
 
-Defined in: main.ts:212200
+Defined in: main.ts:214609
 
 filter reviews by rating
 optional field
@@ -259,7 +259,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:212208
+Defined in: main.ts:214617
 
 results sorting parameters
 optional field
@@ -279,7 +279,7 @@ default rule: most_relevant
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:212214
+Defined in: main.ts:214623
 
 user-defined task identifier
 optional field
@@ -297,7 +297,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212253
+Defined in: main.ts:214662
 
 #### Parameters
 
@@ -315,7 +315,7 @@ Defined in: main.ts:212253
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212282
+Defined in: main.ts:214691
 
 #### Parameters
 
@@ -331,9 +331,9 @@ Defined in: main.ts:212282
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:212275
+Defined in: main.ts:214684
 
 #### Parameters
 
@@ -343,4 +343,4 @@ Defined in: main.ts:212275
 
 #### Returns
 
-[`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
+`AppDataGoogleAppReviewsTaskPostRequestInfo`

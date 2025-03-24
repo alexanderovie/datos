@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
-Defined in: main.ts:130995
+Defined in: main.ts:133396
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:130995
 
 ## Constructors
 
-### new AppDataGooglePlaySearchOrganicSerpElementItem()
+### Constructor
 
-> **new AppDataGooglePlaySearchOrganicSerpElementItem**(`data`?): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+> **new AppDataGooglePlaySearchOrganicSerpElementItem**(`data`?): `AppDataGooglePlaySearchOrganicSerpElementItem`
 
-Defined in: main.ts:131015
+Defined in: main.ts:133416
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:131015
 
 #### Returns
 
-[`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+`AppDataGooglePlaySearchOrganicSerpElementItem`
 
 #### Overrides
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:131015
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23691
+Defined in: main.ts:24030
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23691
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:130997
+Defined in: main.ts:133398
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:131009
+Defined in: main.ts:133410
 
 name of the app developer
 
@@ -88,7 +88,7 @@ name of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:131011
+Defined in: main.ts:133412
 
 URL to the developer page on Google Play
 
@@ -102,7 +102,7 @@ URL to the developer page on Google Play
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:131001
+Defined in: main.ts:133402
 
 URL to the app icon
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:131005
+Defined in: main.ts:133406
 
 indicates whether the app is free
 
@@ -130,7 +130,7 @@ indicates whether the app is free
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23685
+Defined in: main.ts:24024
 
 the alignment of the element in SERP
 can take the following values:
@@ -150,7 +150,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:131007
+Defined in: main.ts:133408
 
 price of the app
 
@@ -164,7 +164,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23681
+Defined in: main.ts:24020
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24017
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -202,7 +202,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:23689
+Defined in: main.ts:24028
 
 average rating of the app
 
@@ -220,7 +220,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:131003
+Defined in: main.ts:133404
 
 the total number of reviews of the app
 
@@ -234,7 +234,7 @@ the total number of reviews of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:24026
 
 title of the app
 
@@ -252,7 +252,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23675
+Defined in: main.ts:24014
 
 type of element
 
@@ -270,7 +270,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:130999
+Defined in: main.ts:133400
 
 URL to the app page on Google Play
 
@@ -284,7 +284,7 @@ URL to the app page on Google Play
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:131020
+Defined in: main.ts:133421
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:131020
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:131045
+Defined in: main.ts:133446
 
 #### Parameters
 
@@ -326,9 +326,9 @@ Defined in: main.ts:131045
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): `AppDataGooglePlaySearchOrganicSerpElementItem`
 
-Defined in: main.ts:131038
+Defined in: main.ts:133439
 
 #### Parameters
 
@@ -338,7 +338,7 @@ Defined in: main.ts:131038
 
 #### Returns
 
-[`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+`AppDataGooglePlaySearchOrganicSerpElementItem`
 
 #### Overrides
 

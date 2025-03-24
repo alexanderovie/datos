@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
-Defined in: main.ts:114379
+Defined in: main.ts:115684
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:114379
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+> **new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo**(`data`?): `DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:114445
+Defined in: main.ts:115750
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:114445
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114445
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:114425
+Defined in: main.ts:115730
 
 ignore highly similar keywords
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114420
+Defined in: main.ts:115725
 
 language code
 optional field
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114411
+Defined in: main.ts:115716
 
 full name of the language
 optional field
@@ -99,7 +99,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114430
+Defined in: main.ts:115735
 
 the maximum number of returned results for domain
 optional field
@@ -116,7 +116,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114402
+Defined in: main.ts:115707
 
 location code
 optional field
@@ -137,7 +137,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114393
+Defined in: main.ts:115698
 
 full name of the location
 optional field
@@ -158,7 +158,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114435
+Defined in: main.ts:115740
 
 offset in the results array of returned items
 optional field
@@ -175,7 +175,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114441
+Defined in: main.ts:115746
 
 user-defined task identifier
 optional field
@@ -193,7 +193,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:114384
+Defined in: main.ts:115689
 
 domain
 required field
@@ -210,7 +210,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114454
+Defined in: main.ts:115759
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:114454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114479
+Defined in: main.ts:115784
 
 #### Parameters
 
@@ -244,9 +244,9 @@ Defined in: main.ts:114479
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:114472
+Defined in: main.ts:115777
 
 #### Parameters
 
@@ -256,4 +256,4 @@ Defined in: main.ts:114472
 
 #### Returns
 
-[`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`

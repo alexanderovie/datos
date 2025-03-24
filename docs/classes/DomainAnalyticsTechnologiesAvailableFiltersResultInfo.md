@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
-Defined in: main.ts:94361
+Defined in: main.ts:96264
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94361
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAvailableFiltersResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+> **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data`?): `DomainAnalyticsTechnologiesAvailableFiltersResultInfo`
 
-Defined in: main.ts:94369
+Defined in: main.ts:96272
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94369
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94369
 
 > `optional` **aggregation\_technologies**: `object`
 
-Defined in: main.ts:94363
+Defined in: main.ts:96266
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:94363
 
 > `optional` **domains\_by\_html\_terms**: `object`
 
-Defined in: main.ts:94365
+Defined in: main.ts:96268
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:94365
 
 > `optional` **domains\_by\_technology**: `object`
 
-Defined in: main.ts:94362
+Defined in: main.ts:96265
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:94362
 
 > `optional` **technologies\_summary**: `object`
 
-Defined in: main.ts:94364
+Defined in: main.ts:96267
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:94364
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94378
+Defined in: main.ts:96281
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:94378
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94422
+Defined in: main.ts:96325
 
 #### Parameters
 
@@ -138,9 +138,9 @@ Defined in: main.ts:94422
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAvailableFiltersResultInfo`
 
-Defined in: main.ts:94415
+Defined in: main.ts:96318
 
 #### Parameters
 
@@ -150,4 +150,4 @@ Defined in: main.ts:94415
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`

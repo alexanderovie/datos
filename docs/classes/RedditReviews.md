@@ -6,7 +6,7 @@
 
 # Class: RedditReviews
 
-Defined in: main.ts:239605
+Defined in: main.ts:242014
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239605
 
 ## Constructors
 
-### new RedditReviews()
+### Constructor
 
-> **new RedditReviews**(`data`?): [`RedditReviews`](RedditReviews.md)
+> **new RedditReviews**(`data`?): `RedditReviews`
 
-Defined in: main.ts:239620
+Defined in: main.ts:242029
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239620
 
 #### Returns
 
-[`RedditReviews`](RedditReviews.md)
+`RedditReviews`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239620
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:239610
+Defined in: main.ts:242019
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
@@ -55,7 +55,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 > `optional` **permalink**: `string`
 
-Defined in: main.ts:239614
+Defined in: main.ts:242023
 
 URL to the subreddit post
 
@@ -69,7 +69,7 @@ URL to the subreddit post
 
 > `optional` **subreddit**: `string`
 
-Defined in: main.ts:239607
+Defined in: main.ts:242016
 
 the name of the subreddit
 
@@ -83,7 +83,7 @@ the name of the subreddit
 
 > `optional` **subreddit\_members**: `number`
 
-Defined in: main.ts:239616
+Defined in: main.ts:242025
 
 number of subreddit members
 
@@ -97,7 +97,7 @@ number of subreddit members
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:239612
+Defined in: main.ts:242021
 
 title of the subreddit post
 
@@ -111,7 +111,7 @@ title of the subreddit post
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239629
+Defined in: main.ts:242038
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:239629
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239650
+Defined in: main.ts:242059
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:239650
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
+> `static` **fromJS**(`data`): `RedditReviews`
 
-Defined in: main.ts:239643
+Defined in: main.ts:242052
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:239643
 
 #### Returns
 
-[`RedditReviews`](RedditReviews.md)
+`RedditReviews`

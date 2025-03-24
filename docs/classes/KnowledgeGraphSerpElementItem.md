@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphSerpElementItem
 
-Defined in: main.ts:32642
+Defined in: main.ts:33069
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:32642
 
 ## Constructors
 
-### new KnowledgeGraphSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphSerpElementItem**(`data`?): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+> **new KnowledgeGraphSerpElementItem**(`data`?): `KnowledgeGraphSerpElementItem`
 
-Defined in: main.ts:32677
+Defined in: main.ts:33104
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:32677
 
 #### Returns
 
-[`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+`KnowledgeGraphSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32677
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:32656
+Defined in: main.ts:33083
 
 card id
 
@@ -74,7 +74,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32667
+Defined in: main.ts:33094
 
 google-defined client id
 unique id of a local establishment;
@@ -90,7 +90,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32654
+Defined in: main.ts:33081
 
 description of the results element in SERP
 
@@ -104,7 +104,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:32661
+Defined in: main.ts:33088
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:32669
+Defined in: main.ts:33096
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -133,7 +133,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:32663
+Defined in: main.ts:33090
 
 URL of the logo from knowledge graph
 
@@ -147,7 +147,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32646
+Defined in: main.ts:33073
 
 the alignment of the element in SERP
 can take the following values:
@@ -163,7 +163,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -182,7 +182,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -202,7 +202,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32673
+Defined in: main.ts:33100
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -218,7 +218,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:32652
+Defined in: main.ts:33079
 
 subtitle of the item
 
@@ -232,7 +232,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32650
+Defined in: main.ts:33077
 
 title of the result in SERP
 
@@ -246,7 +246,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -264,7 +264,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32658
+Defined in: main.ts:33085
 
 relevant URL in SERP
 
@@ -278,7 +278,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32648
+Defined in: main.ts:33075
 
 the XPath of the element
 
@@ -292,7 +292,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32682
+Defined in: main.ts:33109
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:32682
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32715
+Defined in: main.ts:33142
 
 #### Parameters
 
@@ -334,9 +334,9 @@ Defined in: main.ts:32715
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphSerpElementItem`
 
-Defined in: main.ts:32708
+Defined in: main.ts:33135
 
 #### Parameters
 
@@ -346,7 +346,7 @@ Defined in: main.ts:32708
 
 #### Returns
 
-[`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+`KnowledgeGraphSerpElementItem`
 
 #### Overrides
 

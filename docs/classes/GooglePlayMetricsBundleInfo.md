@@ -6,7 +6,7 @@
 
 # Class: GooglePlayMetricsBundleInfo
 
-Defined in: main.ts:131711
+Defined in: main.ts:134112
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:131711
 
 ## Constructors
 
-### new GooglePlayMetricsBundleInfo()
+### Constructor
 
-> **new GooglePlayMetricsBundleInfo**(`data`?): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> **new GooglePlayMetricsBundleInfo**(`data`?): `GooglePlayMetricsBundleInfo`
 
-Defined in: main.ts:131717
+Defined in: main.ts:134118
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:131717
 
 #### Returns
 
-[`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+`GooglePlayMetricsBundleInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:131717
 
 > `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:131713
+Defined in: main.ts:134114
 
 ranking data from Google Play organic search
 
@@ -54,7 +54,7 @@ ranking data from Google Play organic search
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:131726
+Defined in: main.ts:134127
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:131726
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:131743
+Defined in: main.ts:134144
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:131743
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): `GooglePlayMetricsBundleInfo`
 
-Defined in: main.ts:131736
+Defined in: main.ts:134137
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:131736
 
 #### Returns
 
-[`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+`GooglePlayMetricsBundleInfo`

@@ -6,7 +6,7 @@
 
 # Class: BaseAmazonSerpElementItem
 
-Defined in: main.ts:24011
+Defined in: main.ts:24350
 
 ## Extended by
 
@@ -26,11 +26,11 @@ Defined in: main.ts:24011
 
 ## Constructors
 
-### new BaseAmazonSerpElementItem()
+### Constructor
 
-> **new BaseAmazonSerpElementItem**(`data`?): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> **new BaseAmazonSerpElementItem**(`data`?): `BaseAmazonSerpElementItem`
 
-Defined in: main.ts:24025
+Defined in: main.ts:24364
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24025
 
 #### Returns
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+`BaseAmazonSerpElementItem`
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:24025
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24023
+Defined in: main.ts:24362
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: main.ts:24023
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24019
+Defined in: main.ts:24358
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24016
+Defined in: main.ts:24355
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -86,7 +86,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24013
+Defined in: main.ts:24352
 
 type of element
 
@@ -100,7 +100,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24021
+Defined in: main.ts:24360
 
 the XPath of the element
 
@@ -114,7 +114,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24035
+Defined in: main.ts:24374
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:24035
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24096
+Defined in: main.ts:24435
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:24096
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseAmazonSerpElementItem`
 
-Defined in: main.ts:24044
+Defined in: main.ts:24383
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:24044
 
 #### Returns
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+`BaseAmazonSerpElementItem`

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsResultInfo
 
-Defined in: main.ts:94133
+Defined in: main.ts:96036
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94133
 
 ## Constructors
 
-### new DomainAnalyticsErrorsResultInfo()
+### Constructor
 
-> **new DomainAnalyticsErrorsResultInfo**(`data`?): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+> **new DomainAnalyticsErrorsResultInfo**(`data`?): `DomainAnalyticsErrorsResultInfo`
 
-Defined in: main.ts:94164
+Defined in: main.ts:96067
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94164
 
 #### Returns
 
-[`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+`DomainAnalyticsErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94164
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:94140
+Defined in: main.ts:96043
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:94144
+Defined in: main.ts:96047
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:94147
+Defined in: main.ts:96050
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:94142
+Defined in: main.ts:96045
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:94154
+Defined in: main.ts:96057
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:94152
+Defined in: main.ts:96055
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:94160
+Defined in: main.ts:96063
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:94157
+Defined in: main.ts:96060
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:94150
+Defined in: main.ts:96053
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:94135
+Defined in: main.ts:96038
 
 id of the task
 
@@ -187,7 +187,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94173
+Defined in: main.ts:96076
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:94173
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94199
+Defined in: main.ts:96102
 
 #### Parameters
 
@@ -221,9 +221,9 @@ Defined in: main.ts:94199
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsErrorsResultInfo`
 
-Defined in: main.ts:94192
+Defined in: main.ts:96095
 
 #### Parameters
 
@@ -233,4 +233,4 @@ Defined in: main.ts:94192
 
 #### Returns
 
-[`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)
+`DomainAnalyticsErrorsResultInfo`

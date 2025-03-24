@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocationsResultInfo
 
-Defined in: main.ts:65224
+Defined in: main.ts:65651
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:65224
 
 ## Constructors
 
-### new SerpBingLocationsResultInfo()
+### Constructor
 
-> **new SerpBingLocationsResultInfo**(`data`?): [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
+> **new SerpBingLocationsResultInfo**(`data`?): `SerpBingLocationsResultInfo`
 
-Defined in: main.ts:65245
+Defined in: main.ts:65672
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:65245
 
 #### Returns
 
-[`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
+`SerpBingLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:65245
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:65239
+Defined in: main.ts:65666
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:65226
+Defined in: main.ts:65653
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:65237
+Defined in: main.ts:65664
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:65228
+Defined in: main.ts:65655
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:65241
+Defined in: main.ts:65668
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:65254
+Defined in: main.ts:65681
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:65254
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:65275
+Defined in: main.ts:65702
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:65275
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingLocationsResultInfo`
 
-Defined in: main.ts:65268
+Defined in: main.ts:65695
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:65268
 
 #### Returns
 
-[`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
+`SerpBingLocationsResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117104
+Defined in: main.ts:118487
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117104
 
 ## Constructors
 
-### new KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
+> **new KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117116
+Defined in: main.ts:118499
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117116
 
 #### Returns
 
-[`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117116
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:117110
+Defined in: main.ts:118493
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:117112
+Defined in: main.ts:118495
 
 expanded element
 
@@ -90,7 +90,7 @@ expanded element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -110,7 +110,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -129,7 +129,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117106
+Defined in: main.ts:118489
 
 title of a given link element
 
@@ -162,7 +162,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -198,7 +198,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117121
+Defined in: main.ts:118504
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:117121
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117145
+Defined in: main.ts:118528
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:117145
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117138
+Defined in: main.ts:118521
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:117138
 
 #### Returns
 
-[`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 

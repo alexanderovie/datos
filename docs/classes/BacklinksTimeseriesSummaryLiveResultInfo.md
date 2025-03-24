@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
-Defined in: main.ts:169089
+Defined in: main.ts:171498
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:169089
 
 ## Constructors
 
-### new BacklinksTimeseriesSummaryLiveResultInfo()
+### Constructor
 
-> **new BacklinksTimeseriesSummaryLiveResultInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
+> **new BacklinksTimeseriesSummaryLiveResultInfo**(`data`?): `BacklinksTimeseriesSummaryLiveResultInfo`
 
-Defined in: main.ts:169111
+Defined in: main.ts:171520
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:169111
 
 #### Returns
 
-[`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
+`BacklinksTimeseriesSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169111
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:169096
+Defined in: main.ts:171505
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:169101
+Defined in: main.ts:171510
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:169103
+Defined in: main.ts:171512
 
 group_range from a POST array
 
@@ -88,7 +88,7 @@ group_range from a POST array
 
 > `optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)[]
 
-Defined in: main.ts:169107
+Defined in: main.ts:171516
 
 contains relevant summary data
 
@@ -102,7 +102,7 @@ contains relevant summary data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169105
+Defined in: main.ts:171514
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:169091
+Defined in: main.ts:171500
 
 target from a POST array
 
@@ -130,7 +130,7 @@ target from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169120
+Defined in: main.ts:171529
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:169120
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169146
+Defined in: main.ts:171555
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:169146
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksTimeseriesSummaryLiveResultInfo`
 
-Defined in: main.ts:169139
+Defined in: main.ts:171548
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:169139
 
 #### Returns
 
-[`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
+`BacklinksTimeseriesSummaryLiveResultInfo`

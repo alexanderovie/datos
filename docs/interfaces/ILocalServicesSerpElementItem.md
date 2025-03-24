@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesSerpElementItem
 
-Defined in: main.ts:38215
+Defined in: main.ts:38642
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38215
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38227
+Defined in: main.ts:38654
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-Defined in: main.ts:38229
+Defined in: main.ts:38656
 
 contains arrays of specific images
 
@@ -42,7 +42,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38219
+Defined in: main.ts:38646
 
 the alignment of the element in SERP
 can take the following values:
@@ -54,7 +54,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -69,7 +69,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -85,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38233
+Defined in: main.ts:38660
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -97,7 +97,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38223
+Defined in: main.ts:38650
 
 title of the row
 
@@ -107,7 +107,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -121,7 +121,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38225
+Defined in: main.ts:38652
 
 source URL
 
@@ -131,6 +131,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38221
+Defined in: main.ts:38648
 
 the XPath of the element

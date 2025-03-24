@@ -6,7 +6,7 @@
 
 # Class: HotelAmenityItemInfo
 
-Defined in: main.ts:228361
+Defined in: main.ts:230770
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:228361
 
 ## Constructors
 
-### new HotelAmenityItemInfo()
+### Constructor
 
-> **new HotelAmenityItemInfo**(`data`?): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+> **new HotelAmenityItemInfo**(`data`?): `HotelAmenityItemInfo`
 
-Defined in: main.ts:228375
+Defined in: main.ts:230784
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:228375
 
 #### Returns
 
-[`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+`HotelAmenityItemInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228375
 
 > `optional` **amenity**: `string`
 
-Defined in: main.ts:228363
+Defined in: main.ts:230772
 
 standardised amenity name
 
@@ -54,7 +54,7 @@ standardised amenity name
 
 > `optional` **amenity\_label**: `string`
 
-Defined in: main.ts:228365
+Defined in: main.ts:230774
 
 displayed amenity name
 
@@ -68,7 +68,7 @@ displayed amenity name
 
 > `optional` **hint**: `string`
 
-Defined in: main.ts:228367
+Defined in: main.ts:230776
 
 standardised details about the amenity
 
@@ -82,7 +82,7 @@ standardised details about the amenity
 
 > `optional` **hint\_label**: `string`
 
-Defined in: main.ts:228369
+Defined in: main.ts:230778
 
 displayed details about the amenity
 
@@ -96,7 +96,7 @@ displayed details about the amenity
 
 > `optional` **is\_available**: `boolean`
 
-Defined in: main.ts:228371
+Defined in: main.ts:230780
 
 indicates whether the amenity is available in the hotel
 
@@ -110,7 +110,7 @@ indicates whether the amenity is available in the hotel
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228384
+Defined in: main.ts:230793
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:228384
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228405
+Defined in: main.ts:230814
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:228405
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+> `static` **fromJS**(`data`): `HotelAmenityItemInfo`
 
-Defined in: main.ts:228398
+Defined in: main.ts:230807
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:228398
 
 #### Returns
 
-[`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+`HotelAmenityItemInfo`

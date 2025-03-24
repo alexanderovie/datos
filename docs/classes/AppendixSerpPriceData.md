@@ -6,7 +6,7 @@
 
 # Class: AppendixSerpPriceData
 
-Defined in: main.ts:246553
+Defined in: main.ts:248518
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246553
 
 ## Constructors
 
-### new AppendixSerpPriceData()
+### Constructor
 
-> **new AppendixSerpPriceData**(`data`?): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
+> **new AppendixSerpPriceData**(`data`?): `AppendixSerpPriceData`
 
-Defined in: main.ts:246567
+Defined in: main.ts:248532
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246567
 
 #### Returns
 
-[`AppendixSerpPriceData`](AppendixSerpPriceData.md)
+`AppendixSerpPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246567
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246555
+Defined in: main.ts:248520
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246555
 
 > `optional` **jobs**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246556
+Defined in: main.ts:248521
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246556
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246557
+Defined in: main.ts:248522
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:246557
 
 > `optional` **live**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-Defined in: main.ts:246558
+Defined in: main.ts:248523
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:246558
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246559
+Defined in: main.ts:248524
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:246559
 
 > `optional` **screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246560
+Defined in: main.ts:248525
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:246560
 
 > `optional` **task\_get**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-Defined in: main.ts:246561
+Defined in: main.ts:248526
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:246561
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246562
+Defined in: main.ts:248527
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:246562
 
 > `optional` **tasks\_fixed**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246554
+Defined in: main.ts:248519
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:246554
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246563
+Defined in: main.ts:248528
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:246563
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246576
+Defined in: main.ts:248541
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:246576
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246602
+Defined in: main.ts:248567
 
 #### Parameters
 
@@ -194,9 +194,9 @@ Defined in: main.ts:246602
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
+> `static` **fromJS**(`data`): `AppendixSerpPriceData`
 
-Defined in: main.ts:246595
+Defined in: main.ts:248560
 
 #### Parameters
 
@@ -206,4 +206,4 @@ Defined in: main.ts:246595
 
 #### Returns
 
-[`AppendixSerpPriceData`](AppendixSerpPriceData.md)
+`AppendixSerpPriceData`

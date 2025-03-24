@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleTrendsItem
 
-Defined in: main.ts:23500
+Defined in: main.ts:23839
 
 ## Extended by
 
@@ -21,11 +21,11 @@ Defined in: main.ts:23500
 
 ## Constructors
 
-### new BaseGoogleTrendsItem()
+### Constructor
 
-> **new BaseGoogleTrendsItem**(`data`?): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+> **new BaseGoogleTrendsItem**(`data`?): `BaseGoogleTrendsItem`
 
-Defined in: main.ts:23514
+Defined in: main.ts:23853
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: main.ts:23514
 
 #### Returns
 
-[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+`BaseGoogleTrendsItem`
 
 ## Properties
 
@@ -43,7 +43,7 @@ Defined in: main.ts:23514
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23512
+Defined in: main.ts:23851
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: main.ts:23512
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23510
+Defined in: main.ts:23849
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -66,7 +66,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23505
+Defined in: main.ts:23844
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -81,7 +81,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23507
+Defined in: main.ts:23846
 
 title of the element in Google Trends
 
@@ -95,7 +95,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23502
+Defined in: main.ts:23841
 
 type of element
 
@@ -109,7 +109,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23524
+Defined in: main.ts:23863
 
 #### Parameters
 
@@ -127,7 +127,7 @@ Defined in: main.ts:23524
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23564
+Defined in: main.ts:23903
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:23564
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+> `static` **fromJS**(`data`): `BaseGoogleTrendsItem`
 
-Defined in: main.ts:23537
+Defined in: main.ts:23876
 
 #### Parameters
 
@@ -155,4 +155,4 @@ Defined in: main.ts:23537
 
 #### Returns
 
-[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+`BaseGoogleTrendsItem`

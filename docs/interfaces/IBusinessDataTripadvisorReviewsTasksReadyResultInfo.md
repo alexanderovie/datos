@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
-Defined in: main.ts:238406
+Defined in: main.ts:240815
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238406
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:238416
+Defined in: main.ts:240825
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:238420
+Defined in: main.ts:240829
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:238409
+Defined in: main.ts:240818
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -49,7 +49,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:238412
+Defined in: main.ts:240821
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -60,7 +60,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:238414
+Defined in: main.ts:240823
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:238418
+Defined in: main.ts:240827
 
 user-defined task identifier

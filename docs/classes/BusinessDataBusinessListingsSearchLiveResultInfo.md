@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
-Defined in: main.ts:220987
+Defined in: main.ts:223396
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:220987
 
 ## Constructors
 
-### new BusinessDataBusinessListingsSearchLiveResultInfo()
+### Constructor
 
-> **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+> **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data`?): `BusinessDataBusinessListingsSearchLiveResultInfo`
 
-Defined in: main.ts:221006
+Defined in: main.ts:223415
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:221006
 
 #### Returns
 
-[`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+`BusinessDataBusinessListingsSearchLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221006
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:220992
+Defined in: main.ts:223401
 
 item types
 the number of items in the items array
@@ -55,7 +55,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:221002
+Defined in: main.ts:223411
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -71,7 +71,7 @@ possible item types: business_listing
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:220994
+Defined in: main.ts:223403
 
 offset in the results array of returned businesses
 
@@ -85,7 +85,7 @@ offset in the results array of returned businesses
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:220998
+Defined in: main.ts:223407
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -101,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:220989
+Defined in: main.ts:223398
 
 total number of results in our database relevant to your request
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221015
+Defined in: main.ts:223424
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:221015
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221040
+Defined in: main.ts:223449
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:221040
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataBusinessListingsSearchLiveResultInfo`
 
-Defined in: main.ts:221033
+Defined in: main.ts:223442
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:221033
 
 #### Returns
 
-[`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+`BusinessDataBusinessListingsSearchLiveResultInfo`

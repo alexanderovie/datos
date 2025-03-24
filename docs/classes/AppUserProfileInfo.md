@@ -6,7 +6,7 @@
 
 # Class: AppUserProfileInfo
 
-Defined in: main.ts:212715
+Defined in: main.ts:215124
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:212715
 
 ## Constructors
 
-### new AppUserProfileInfo()
+### Constructor
 
-> **new AppUserProfileInfo**(`data`?): [`AppUserProfileInfo`](AppUserProfileInfo.md)
+> **new AppUserProfileInfo**(`data`?): `AppUserProfileInfo`
 
-Defined in: main.ts:212723
+Defined in: main.ts:215132
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:212723
 
 #### Returns
 
-[`AppUserProfileInfo`](AppUserProfileInfo.md)
+`AppUserProfileInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212723
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:212719
+Defined in: main.ts:215128
 
 URL to the reviewer’s profile image
 
@@ -54,7 +54,7 @@ URL to the reviewer’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:212717
+Defined in: main.ts:215126
 
 profile name of the reviewer
 
@@ -68,7 +68,7 @@ profile name of the reviewer
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212732
+Defined in: main.ts:215141
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:212732
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212750
+Defined in: main.ts:215159
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:212750
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppUserProfileInfo`](AppUserProfileInfo.md)
+> `static` **fromJS**(`data`): `AppUserProfileInfo`
 
-Defined in: main.ts:212743
+Defined in: main.ts:215152
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:212743
 
 #### Returns
 
-[`AppUserProfileInfo`](AppUserProfileInfo.md)
+`AppUserProfileInfo`

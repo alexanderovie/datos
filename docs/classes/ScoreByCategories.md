@@ -6,7 +6,7 @@
 
 # Class: ScoreByCategories
 
-Defined in: main.ts:229869
+Defined in: main.ts:232278
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:229869
 
 ## Constructors
 
-### new ScoreByCategories()
+### Constructor
 
-> **new ScoreByCategories**(`data`?): [`ScoreByCategories`](ScoreByCategories.md)
+> **new ScoreByCategories**(`data`?): `ScoreByCategories`
 
-Defined in: main.ts:229894
+Defined in: main.ts:232303
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:229894
 
 #### Returns
 
-[`ScoreByCategories`](ScoreByCategories.md)
+`ScoreByCategories`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:229894
 
 > `optional` **airport\_access**: `number`
 
-Defined in: main.ts:229890
+Defined in: main.ts:232299
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -56,7 +56,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 > `optional` **overall**: `number`
 
-Defined in: main.ts:229874
+Defined in: main.ts:232283
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -73,7 +73,7 @@ note that the criteria are not weighted equally in the overall score
 
 > `optional` **restaurants**: `number`
 
-Defined in: main.ts:229882
+Defined in: main.ts:232291
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -89,7 +89,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 > `optional` **things\_to\_do**: `number`
 
-Defined in: main.ts:229878
+Defined in: main.ts:232287
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -105,7 +105,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 > `optional` **transit**: `number`
 
-Defined in: main.ts:229886
+Defined in: main.ts:232295
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -121,7 +121,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:229903
+Defined in: main.ts:232312
 
 #### Parameters
 
@@ -139,7 +139,7 @@ Defined in: main.ts:229903
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:229924
+Defined in: main.ts:232333
 
 #### Parameters
 
@@ -155,9 +155,9 @@ Defined in: main.ts:229924
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ScoreByCategories`](ScoreByCategories.md)
+> `static` **fromJS**(`data`): `ScoreByCategories`
 
-Defined in: main.ts:229917
+Defined in: main.ts:232326
 
 #### Parameters
 
@@ -167,4 +167,4 @@ Defined in: main.ts:229917
 
 #### Returns
 
-[`ScoreByCategories`](ScoreByCategories.md)
+`ScoreByCategories`

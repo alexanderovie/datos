@@ -6,7 +6,7 @@
 
 # Class: MapDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116376
+Defined in: main.ts:117761
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:116376
 
 ## Constructors
 
-### new MapDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new MapDataforseoLabsSerpElementItem**(`data`?): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
+> **new MapDataforseoLabsSerpElementItem**(`data`?): `MapDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116384
+Defined in: main.ts:117769
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:116384
 
 #### Returns
 
-[`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
+`MapDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116384
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -80,7 +80,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -99,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116378
+Defined in: main.ts:117763
 
 title of the result in SERP
 
@@ -132,7 +132,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -150,7 +150,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:116380
+Defined in: main.ts:117765
 
 relevant URL
 
@@ -164,7 +164,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116389
+Defined in: main.ts:117774
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:116389
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116408
+Defined in: main.ts:117793
 
 #### Parameters
 
@@ -224,9 +224,9 @@ Defined in: main.ts:116408
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `MapDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116401
+Defined in: main.ts:117786
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:116401
 
 #### Returns
 
-[`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
+`MapDataforseoLabsSerpElementItem`
 
 #### Overrides
 

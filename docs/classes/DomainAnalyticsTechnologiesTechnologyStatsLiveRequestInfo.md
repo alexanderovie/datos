@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
-Defined in: main.ts:96319
+Defined in: main.ts:98222
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:96319
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`
 
-Defined in: main.ts:96350
+Defined in: main.ts:98253
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:96350
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96350
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:96333
+Defined in: main.ts:98236
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:96340
+Defined in: main.ts:98243
 
 ending date of the time range
 optional field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:96346
+Defined in: main.ts:98249
 
 user-defined task identifier
 optional field
@@ -97,7 +97,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:96325
+Defined in: main.ts:98228
 
 target technology
 required field
@@ -115,7 +115,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96359
+Defined in: main.ts:98262
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:96359
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96379
+Defined in: main.ts:98282
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:96379
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`
 
-Defined in: main.ts:96372
+Defined in: main.ts:98275
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:96372
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`

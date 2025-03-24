@@ -6,7 +6,7 @@
 
 # Class: SerpAiSummaryRequestInfo
 
-Defined in: main.ts:27818
+Defined in: main.ts:28245
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27818
 
 ## Constructors
 
-### new SerpAiSummaryRequestInfo()
+### Constructor
 
-> **new SerpAiSummaryRequestInfo**(`data`?): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
+> **new SerpAiSummaryRequestInfo**(`data`?): `SerpAiSummaryRequestInfo`
 
-Defined in: main.ts:27849
+Defined in: main.ts:28276
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27849
 
 #### Returns
 
-[`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
+`SerpAiSummaryRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27849
 
 > `optional` **fetch\_content**: `boolean`
 
-Defined in: main.ts:27840
+Defined in: main.ts:28267
 
 fetch content from pages in SERPs
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **include\_links**: `boolean`
 
-Defined in: main.ts:27845
+Defined in: main.ts:28272
 
 include source links in the summary
 optional field
@@ -74,7 +74,7 @@ default value: false
 
 > `optional` **prompt**: `string`
 
-Defined in: main.ts:27830
+Defined in: main.ts:28257
 
 AI prompt
 optional field
@@ -93,7 +93,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 > `optional` **support\_extra**: `boolean`
 
-Defined in: main.ts:27835
+Defined in: main.ts:28262
 
 support extra SERP features
 optional field
@@ -110,7 +110,7 @@ default value: true
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:27823
+Defined in: main.ts:28250
 
 task identifier
 required field
@@ -127,7 +127,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27858
+Defined in: main.ts:28285
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:27858
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:27879
+Defined in: main.ts:28306
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:27879
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpAiSummaryRequestInfo`
 
-Defined in: main.ts:27872
+Defined in: main.ts:28299
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:27872
 
 #### Returns
 
-[`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
+`SerpAiSummaryRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMostFollowedSerpElementItem
 
-Defined in: main.ts:88275
+Defined in: main.ts:88702
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:88275
 
 ## Constructors
 
-### new GoogleFinanceMostFollowedSerpElementItem()
+### Constructor
 
-> **new GoogleFinanceMostFollowedSerpElementItem**(`data`?): [`GoogleFinanceMostFollowedSerpElementItem`](GoogleFinanceMostFollowedSerpElementItem.md)
+> **new GoogleFinanceMostFollowedSerpElementItem**(`data`?): `GoogleFinanceMostFollowedSerpElementItem`
 
-Defined in: main.ts:88283
+Defined in: main.ts:88710
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:88283
 
 #### Returns
 
-[`GoogleFinanceMostFollowedSerpElementItem`](GoogleFinanceMostFollowedSerpElementItem.md)
+`GoogleFinanceMostFollowedSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructors)
+[`BaseGoogleFinanceSerpElementItem`](BaseGoogleFinanceSerpElementItem.md).[`constructor`](BaseGoogleFinanceSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88283
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22141
+Defined in: main.ts:22347
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22141
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88279
+Defined in: main.ts:88706
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22139
+Defined in: main.ts:22345
 
 type of element
 
@@ -94,7 +94,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88288
+Defined in: main.ts:88715
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:88288
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88310
+Defined in: main.ts:88737
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:88310
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFinanceMostFollowedSerpElementItem`](GoogleFinanceMostFollowedSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFinanceMostFollowedSerpElementItem`
 
-Defined in: main.ts:88303
+Defined in: main.ts:88730
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:88303
 
 #### Returns
 
-[`GoogleFinanceMostFollowedSerpElementItem`](GoogleFinanceMostFollowedSerpElementItem.md)
+`GoogleFinanceMostFollowedSerpElementItem`
 
 #### Overrides
 

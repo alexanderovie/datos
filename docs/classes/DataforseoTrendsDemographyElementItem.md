@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsDemographyElementItem
 
-Defined in: main.ts:147409
+Defined in: main.ts:149818
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:147409
 
 ## Constructors
 
-### new DataforseoTrendsDemographyElementItem()
+### Constructor
 
-> **new DataforseoTrendsDemographyElementItem**(`data`?): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+> **new DataforseoTrendsDemographyElementItem**(`data`?): `DataforseoTrendsDemographyElementItem`
 
-Defined in: main.ts:147417
+Defined in: main.ts:149826
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:147417
 
 #### Returns
 
-[`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+`DataforseoTrendsDemographyElementItem`
 
 #### Overrides
 
-[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:147417
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23602
+Defined in: main.ts:23941
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23602
 
 > `optional` **demography**: [`Demography`](Demography.md)
 
-Defined in: main.ts:147412
+Defined in: main.ts:149821
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -75,7 +75,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-Defined in: main.ts:147413
+Defined in: main.ts:149822
 
 #### Implementation of
 
@@ -87,7 +87,7 @@ Defined in: main.ts:147413
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23600
+Defined in: main.ts:23939
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -106,7 +106,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23597
+Defined in: main.ts:23936
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -125,7 +125,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23594
+Defined in: main.ts:23933
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147422
+Defined in: main.ts:149831
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:147422
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147441
+Defined in: main.ts:149850
 
 #### Parameters
 
@@ -185,9 +185,9 @@ Defined in: main.ts:147441
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+> `static` **fromJS**(`data`): `DataforseoTrendsDemographyElementItem`
 
-Defined in: main.ts:147434
+Defined in: main.ts:149843
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: main.ts:147434
 
 #### Returns
 
-[`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+`DataforseoTrendsDemographyElementItem`
 
 #### Overrides
 

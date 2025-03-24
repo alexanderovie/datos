@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLocationsResultInfo
 
-Defined in: main.ts:200431
+Defined in: main.ts:202840
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:200431
 
 ## Constructors
 
-### new MerchantAmazonLocationsResultInfo()
+### Constructor
 
-> **new MerchantAmazonLocationsResultInfo**(`data`?): [`MerchantAmazonLocationsResultInfo`](MerchantAmazonLocationsResultInfo.md)
+> **new MerchantAmazonLocationsResultInfo**(`data`?): `MerchantAmazonLocationsResultInfo`
 
-Defined in: main.ts:200449
+Defined in: main.ts:202858
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:200449
 
 #### Returns
 
-[`MerchantAmazonLocationsResultInfo`](MerchantAmazonLocationsResultInfo.md)
+`MerchantAmazonLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:200449
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:200443
+Defined in: main.ts:202852
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:200433
+Defined in: main.ts:202842
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:200435
+Defined in: main.ts:202844
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:200441
+Defined in: main.ts:202850
 
 the name of the superordinate location
 example:
@@ -100,7 +100,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:200445
+Defined in: main.ts:202854
 
 location type
 
@@ -114,7 +114,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:200458
+Defined in: main.ts:202867
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:200458
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200479
+Defined in: main.ts:202888
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:200479
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonLocationsResultInfo`](MerchantAmazonLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonLocationsResultInfo`
 
-Defined in: main.ts:200472
+Defined in: main.ts:202881
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:200472
 
 #### Returns
 
-[`MerchantAmazonLocationsResultInfo`](MerchantAmazonLocationsResultInfo.md)
+`MerchantAmazonLocationsResultInfo`

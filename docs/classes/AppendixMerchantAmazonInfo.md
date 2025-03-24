@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantAmazonInfo
 
-Defined in: main.ts:241027
+Defined in: main.ts:243440
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241027
 
 ## Constructors
 
-### new AppendixMerchantAmazonInfo()
+### Constructor
 
-> **new AppendixMerchantAmazonInfo**(`data`?): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+> **new AppendixMerchantAmazonInfo**(`data`?): `AppendixMerchantAmazonInfo`
 
-Defined in: main.ts:241034
+Defined in: main.ts:243447
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241034
 
 #### Returns
 
-[`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+`AppendixMerchantAmazonInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241034
 
 > `optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241028
+Defined in: main.ts:243441
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241028
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241029
+Defined in: main.ts:243442
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241029
 
 > `optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241030
+Defined in: main.ts:243443
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241030
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241043
+Defined in: main.ts:243456
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:241043
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241062
+Defined in: main.ts:243475
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:241062
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+> `static` **fromJS**(`data`): `AppendixMerchantAmazonInfo`
 
-Defined in: main.ts:241055
+Defined in: main.ts:243468
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:241055
 
 #### Returns
 
-[`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+`AppendixMerchantAmazonInfo`

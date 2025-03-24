@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:161125
+Defined in: main.ts:163534
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161125
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:161221
+Defined in: main.ts:163630
 
 set what backlinks to return and count
 optional field
@@ -35,7 +35,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:161145
+Defined in: main.ts:163554
 
 detailed results grouping type
 optional field
@@ -54,7 +54,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:161238
+Defined in: main.ts:163647
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -68,7 +68,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:161158
+Defined in: main.ts:163567
 
 response field
 required field if you choose to specify custom_mode
@@ -89,7 +89,7 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:161179
+Defined in: main.ts:163588
 
 array of results filtering parameters
 optional field
@@ -114,7 +114,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:161232
+Defined in: main.ts:163641
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -128,7 +128,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:161226
+Defined in: main.ts:163635
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -141,7 +141,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:161212
+Defined in: main.ts:163621
 
 the maximum number of returned backlinks
 optional field
@@ -154,7 +154,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:161138
+Defined in: main.ts:163547
 
 results grouping type
 optional field
@@ -170,7 +170,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:161199
+Defined in: main.ts:163608
 
 offset in the results array of the returned backlinks
 optional field
@@ -184,7 +184,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:161193
+Defined in: main.ts:163602
 
 results sorting rules
 optional field
@@ -206,7 +206,7 @@ example:
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:161207
+Defined in: main.ts:163616
 
 token for subsequent requests
 optional field
@@ -222,7 +222,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:161244
+Defined in: main.ts:163653
 
 user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:161130
+Defined in: main.ts:163539
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -249,7 +249,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:161162
+Defined in: main.ts:163571
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode

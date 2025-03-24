@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
-Defined in: main.ts:101321
+Defined in: main.ts:103224
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:101321
 
 ## Constructors
 
-### new DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
+> **new DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo**(`data`?): `DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:101443
+Defined in: main.ts:103346
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:101443
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
+`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101443
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:101419
+Defined in: main.ts:103322
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:101384
+Defined in: main.ts:103287
 
 ignore highly similar keywords
 optional field
@@ -86,7 +86,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:101379
+Defined in: main.ts:103282
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -105,7 +105,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:101367
+Defined in: main.ts:103270
 
 include data from SERP for each keyword
 optional field
@@ -122,7 +122,7 @@ default value: false
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:101372
+Defined in: main.ts:103275
 
 indicates if the subdomains will be included in the search
 optional field
@@ -139,7 +139,7 @@ default value: true
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:101362
+Defined in: main.ts:103265
 
 language code
 optional field
@@ -161,7 +161,7 @@ refer to the available_languages.keywords field of the Locations and Languages e
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:101352
+Defined in: main.ts:103255
 
 full name of the language
 optional field
@@ -183,7 +183,7 @@ refer to the available_languages.keywords field of the Locations and Languages e
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:101389
+Defined in: main.ts:103292
 
 the maximum number of keywords in the results array
 optional field
@@ -200,7 +200,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:101342
+Defined in: main.ts:103245
 
 unique location identifier
 required field if you don’t specify location_name
@@ -220,7 +220,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:101334
+Defined in: main.ts:103237
 
 full name of the location
 required field if you don’t specify location_code
@@ -240,7 +240,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:101394
+Defined in: main.ts:103297
 
 offset in the results array of returned keywords
 optional field
@@ -257,7 +257,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:101402
+Defined in: main.ts:103305
 
 offset token for subsequent requests
 optional field
@@ -277,7 +277,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:101433
+Defined in: main.ts:103336
 
 results sorting rules
 optional field
@@ -303,7 +303,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:101439
+Defined in: main.ts:103342
 
 user-defined task identifier
 optional field
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:101326
+Defined in: main.ts:103229
 
 target domain
 required field
@@ -338,7 +338,7 @@ the domain should be specified without https://
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101452
+Defined in: main.ts:103355
 
 #### Parameters
 
@@ -356,7 +356,7 @@ Defined in: main.ts:101452
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101491
+Defined in: main.ts:103394
 
 #### Parameters
 
@@ -372,9 +372,9 @@ Defined in: main.ts:101491
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:101484
+Defined in: main.ts:103387
 
 #### Parameters
 
@@ -384,4 +384,4 @@ Defined in: main.ts:101484
 
 #### Returns
 
-[`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)
+`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`

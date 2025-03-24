@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
-Defined in: main.ts:111143
+Defined in: main.ts:112448
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:111143
 
 ## Constructors
 
-### new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:111247
+Defined in: main.ts:112552
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:111247
 
 #### Returns
 
-[`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111247
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:111221
+Defined in: main.ts:112526
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:111188
+Defined in: main.ts:112493
 
 indicates if the subdomains will be included in the search
 optional field
@@ -84,7 +84,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:111196
+Defined in: main.ts:112501
 
 search results type
 indicates type of search results included in the response
@@ -104,7 +104,7 @@ default value:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:111151
+Defined in: main.ts:112456
 
 keywords array
 required field
@@ -124,7 +124,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:111183
+Defined in: main.ts:112488
 
 unique language identifier
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:111175
+Defined in: main.ts:112480
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,7 +164,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:111201
+Defined in: main.ts:112506
 
 the maximum number of returned domains
 optional field
@@ -181,7 +181,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:111167
+Defined in: main.ts:112472
 
 unique location identifier
 required field if you don’t specify location_name
@@ -201,7 +201,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:111159
+Defined in: main.ts:112464
 
 full name of the location
 required field if you don’t specify location_code
@@ -221,7 +221,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:111206
+Defined in: main.ts:112511
 
 offset in the results array of returned domains
 optional field
@@ -238,7 +238,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:111237
+Defined in: main.ts:112542
 
 results sorting rules
 optional field
@@ -266,7 +266,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:111243
+Defined in: main.ts:112548
 
 user-defined task identifier
 optional field
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:111256
+Defined in: main.ts:112561
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: main.ts:111256
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:111300
+Defined in: main.ts:112605
 
 #### Parameters
 
@@ -318,9 +318,9 @@ Defined in: main.ts:111300
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:111293
+Defined in: main.ts:112598
 
 #### Parameters
 
@@ -330,4 +330,4 @@ Defined in: main.ts:111293
 
 #### Returns
 
-[`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`

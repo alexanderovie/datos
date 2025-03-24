@@ -6,7 +6,7 @@
 
 # Interface: ICarouselElement
 
-Defined in: main.ts:34848
+Defined in: main.ts:35275
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34848
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:34857
+Defined in: main.ts:35284
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -29,7 +29,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:34854
+Defined in: main.ts:35281
 
 subtitle of the element
 
@@ -39,7 +39,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34852
+Defined in: main.ts:35279
 
 title of a given link element
 
@@ -49,6 +49,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34850
+Defined in: main.ts:35277
 
 type of element

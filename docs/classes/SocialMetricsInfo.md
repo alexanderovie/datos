@@ -6,7 +6,7 @@
 
 # Class: SocialMetricsInfo
 
-Defined in: main.ts:24888
+Defined in: main.ts:25227
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24888
 
 ## Constructors
 
-### new SocialMetricsInfo()
+### Constructor
 
-> **new SocialMetricsInfo**(`data`?): [`SocialMetricsInfo`](SocialMetricsInfo.md)
+> **new SocialMetricsInfo**(`data`?): `SocialMetricsInfo`
 
-Defined in: main.ts:24896
+Defined in: main.ts:25235
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24896
 
 #### Returns
 
-[`SocialMetricsInfo`](SocialMetricsInfo.md)
+`SocialMetricsInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24896
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:24892
+Defined in: main.ts:25231
 
 likes count
 
@@ -54,7 +54,7 @@ likes count
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24890
+Defined in: main.ts:25229
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24905
+Defined in: main.ts:25244
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:24905
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24923
+Defined in: main.ts:25262
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:24923
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
+> `static` **fromJS**(`data`): `SocialMetricsInfo`
 
-Defined in: main.ts:24916
+Defined in: main.ts:25255
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:24916
 
 #### Returns
 
-[`SocialMetricsInfo`](SocialMetricsInfo.md)
+`SocialMetricsInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGooglePageIntersectionLiveResultInfo
 
-Defined in: main.ts:119797
+Defined in: main.ts:121180
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:119797
 
 ## Constructors
 
-### new DataforseoLabsGooglePageIntersectionLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGooglePageIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
+> **new DataforseoLabsGooglePageIntersectionLiveResultInfo**(`data`?): `DataforseoLabsGooglePageIntersectionLiveResultInfo`
 
-Defined in: main.ts:119817
+Defined in: main.ts:121200
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:119817
 
 #### Returns
 
-[`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
+`DataforseoLabsGooglePageIntersectionLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:119817
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:119803
+Defined in: main.ts:121186
 
 URLs you specified in a POST array that will be excluded from the results
 
@@ -54,7 +54,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 > `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
 
-Defined in: main.ts:119813
+Defined in: main.ts:121196
 
 contains keywords, relevant SERP elements and related data
 
@@ -68,7 +68,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:119811
+Defined in: main.ts:121194
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:119807
+Defined in: main.ts:121190
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:119805
+Defined in: main.ts:121188
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:119801
+Defined in: main.ts:121184
 
 URLs you specified a POST array
 
@@ -128,7 +128,7 @@ URLs you specified a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:119799
+Defined in: main.ts:121182
 
 search engine type
 
@@ -142,7 +142,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:119809
+Defined in: main.ts:121192
 
 total amount of results in our database relevant to your request
 
@@ -156,7 +156,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119826
+Defined in: main.ts:121209
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:119826
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119864
+Defined in: main.ts:121247
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:119864
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGooglePageIntersectionLiveResultInfo`
 
-Defined in: main.ts:119857
+Defined in: main.ts:121240
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:119857
 
 #### Returns
 
-[`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
+`DataforseoLabsGooglePageIntersectionLiveResultInfo`

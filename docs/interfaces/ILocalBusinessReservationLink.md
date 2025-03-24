@@ -6,7 +6,7 @@
 
 # Interface: ILocalBusinessReservationLink
 
-Defined in: main.ts:25824
+Defined in: main.ts:26163
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:25824
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:25827
+Defined in: main.ts:26166
 
 title of the element
 domain of the reservation software
@@ -33,7 +33,7 @@ domain of the reservation software
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25775
+Defined in: main.ts:26114
 
 type of element
 
@@ -47,6 +47,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25829
+Defined in: main.ts:26168
 
 URL to make a reservation

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md)
 
 ***
 
@@ -6,26 +6,24 @@
 
 # Interface: IAppendixAppendixDaysRatesDataInfo
 
+Defined in: main.ts:242933
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
-
-main.ts:218927
+Defined in: main.ts:242935
 
 ***
 
 ### user\_data?
 
-> **`optional`** **user\_data**: `number`
+> `optional` **user\_data**: `number`
 
-#### Source
-
-main.ts:218926
+Defined in: main.ts:242934

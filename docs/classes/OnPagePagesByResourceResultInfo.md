@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesByResourceResultInfo
 
-Defined in: main.ts:176901
+Defined in: main.ts:179310
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176901
 
 ## Constructors
 
-### new OnPagePagesByResourceResultInfo()
+### Constructor
 
-> **new OnPagePagesByResourceResultInfo**(`data`?): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+> **new OnPagePagesByResourceResultInfo**(`data`?): `OnPagePagesByResourceResultInfo`
 
-Defined in: main.ts:176916
+Defined in: main.ts:179325
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176916
 
 #### Returns
 
-[`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+`OnPagePagesByResourceResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176916
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:176904
+Defined in: main.ts:179313
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:176906
+Defined in: main.ts:179315
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:176912
+Defined in: main.ts:179321
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:176910
+Defined in: main.ts:179319
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:176908
+Defined in: main.ts:179317
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176925
+Defined in: main.ts:179334
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:176925
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176950
+Defined in: main.ts:179359
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:176950
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+> `static` **fromJS**(`data`): `OnPagePagesByResourceResultInfo`
 
-Defined in: main.ts:176943
+Defined in: main.ts:179352
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:176943
 
 #### Returns
 
-[`OnPagePagesByResourceResultInfo`](OnPagePagesByResourceResultInfo.md)
+`OnPagePagesByResourceResultInfo`

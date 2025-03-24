@@ -6,7 +6,7 @@
 
 # Interface: ISerpTasksReadyResultInfo
 
-Defined in: main.ts:29618
+Defined in: main.ts:30045
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:29618
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:29628
+Defined in: main.ts:30055
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:29636
+Defined in: main.ts:30063
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:29639
+Defined in: main.ts:30066
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:29633
+Defined in: main.ts:30060
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:29621
+Defined in: main.ts:30048
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:29623
+Defined in: main.ts:30050
 
 search engine specified when setting the task
 
@@ -82,10 +82,10 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:29626
+Defined in: main.ts:30053
 
 type of search engine
-example: finance_quote
+example: finance_ticker_search
 
 ***
 
@@ -93,6 +93,6 @@ example: finance_quote
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:29630
+Defined in: main.ts:30057
 
 user-defined task identifier

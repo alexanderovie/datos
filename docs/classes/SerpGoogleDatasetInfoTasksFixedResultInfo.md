@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoTasksFixedResultInfo
 
-Defined in: main.ts:61757
+Defined in: main.ts:62184
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:61757
 
 ## Constructors
 
-### new SerpGoogleDatasetInfoTasksFixedResultInfo()
+### Constructor
 
-> **new SerpGoogleDatasetInfoTasksFixedResultInfo**(`data`?): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+> **new SerpGoogleDatasetInfoTasksFixedResultInfo**(`data`?): `SerpGoogleDatasetInfoTasksFixedResultInfo`
 
-Defined in: main.ts:61782
+Defined in: main.ts:62209
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:61782
 
 #### Returns
 
-[`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+`SerpGoogleDatasetInfoTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:61782
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:61767
+Defined in: main.ts:62194
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:61775
+Defined in: main.ts:62202
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:61778
+Defined in: main.ts:62205
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:61772
+Defined in: main.ts:62199
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:61760
+Defined in: main.ts:62187
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:61762
+Defined in: main.ts:62189
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:61765
+Defined in: main.ts:62192
 
 type of search engine
 can take the following values: dataset_info
@@ -143,7 +143,7 @@ can take the following values: dataset_info
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61769
+Defined in: main.ts:62196
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61791
+Defined in: main.ts:62218
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:61791
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61815
+Defined in: main.ts:62242
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:61815
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleDatasetInfoTasksFixedResultInfo`
 
-Defined in: main.ts:61808
+Defined in: main.ts:62235
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:61808
 
 #### Returns
 
-[`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+`SerpGoogleDatasetInfoTasksFixedResultInfo`

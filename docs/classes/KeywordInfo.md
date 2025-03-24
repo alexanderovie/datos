@@ -6,7 +6,7 @@
 
 # Class: KeywordInfo
 
-Defined in: main.ts:101771
+Defined in: main.ts:103674
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:101771
 
 ## Constructors
 
-### new KeywordInfo()
+### Constructor
 
-> **new KeywordInfo**(`data`?): [`KeywordInfo`](KeywordInfo.md)
+> **new KeywordInfo**(`data`?): `KeywordInfo`
 
-Defined in: main.ts:101814
+Defined in: main.ts:103717
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:101814
 
 #### Returns
 
-[`KeywordInfo`](KeywordInfo.md)
+`KeywordInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101814
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:101804
+Defined in: main.ts:103707
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:101781
+Defined in: main.ts:103684
 
 competition
 represents the relative amount of competition associated with the given keyword. This value is based on Google Ads data and can be between 0 and 1 (inclusive)
@@ -70,7 +70,7 @@ represents the relative amount of competition associated with the given keyword.
 
 > `optional` **competition\_level**: `string`
 
-Defined in: main.ts:101787
+Defined in: main.ts:103690
 
 competition level
 represents the relative level of competition associated with the given keyword in paid SERP only;
@@ -88,7 +88,7 @@ learn more about the metric in this help center article
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:101790
+Defined in: main.ts:103693
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword
@@ -103,7 +103,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:101801
+Defined in: main.ts:103704
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -119,7 +119,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:101778
+Defined in: main.ts:103681
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -136,7 +136,7 @@ example:
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:101797
+Defined in: main.ts:103700
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -152,7 +152,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:101807
+Defined in: main.ts:103710
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -167,7 +167,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:101773
+Defined in: main.ts:103676
 
 search engine type
 
@@ -181,7 +181,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:101793
+Defined in: main.ts:103696
 
 average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea on google.com
@@ -196,7 +196,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 > `optional` **search\_volume\_trend**: [`SearchVolumeTrend`](SearchVolumeTrend.md)
 
-Defined in: main.ts:101810
+Defined in: main.ts:103713
 
 search volume trend changes
 represents search volume change in percent compared to the previous period
@@ -211,7 +211,7 @@ represents search volume change in percent compared to the previous period
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101823
+Defined in: main.ts:103726
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:101823
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101858
+Defined in: main.ts:103761
 
 #### Parameters
 
@@ -245,9 +245,9 @@ Defined in: main.ts:101858
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordInfo`](KeywordInfo.md)
+> `static` **fromJS**(`data`): `KeywordInfo`
 
-Defined in: main.ts:101851
+Defined in: main.ts:103754
 
 #### Parameters
 
@@ -257,4 +257,4 @@ Defined in: main.ts:101851
 
 #### Returns
 
-[`KeywordInfo`](KeywordInfo.md)
+`KeywordInfo`

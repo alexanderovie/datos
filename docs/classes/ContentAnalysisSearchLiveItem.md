@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveItem
 
-Defined in: main.ts:187193
+Defined in: main.ts:189602
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:187193
 
 ## Constructors
 
-### new ContentAnalysisSearchLiveItem()
+### Constructor
 
-> **new ContentAnalysisSearchLiveItem**(`data`?): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
+> **new ContentAnalysisSearchLiveItem**(`data`?): `ContentAnalysisSearchLiveItem`
 
-Defined in: main.ts:187248
+Defined in: main.ts:189657
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:187248
 
 #### Returns
 
-[`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
+`ContentAnalysisSearchLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187248
 
 > `optional` **content\_info**: [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
-Defined in: main.ts:187244
+Defined in: main.ts:189653
 
 contains data on citations from the given url
 
@@ -54,7 +54,7 @@ contains data on citations from the given url
 
 > `optional` **country**: `string`
 
-Defined in: main.ts:187223
+Defined in: main.ts:189632
 
 country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint
@@ -69,7 +69,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:187199
+Defined in: main.ts:189608
 
 domain name
 
@@ -83,7 +83,7 @@ domain name
 
 > `optional` **domain\_rank**: `string`
 
-Defined in: main.ts:187215
+Defined in: main.ts:189624
 
 rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
@@ -100,7 +100,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:187220
+Defined in: main.ts:189629
 
 date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -117,7 +117,7 @@ example:
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:187226
+Defined in: main.ts:189635
 
 main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -132,7 +132,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:187201
+Defined in: main.ts:189610
 
 main domain
 
@@ -146,7 +146,7 @@ main domain
 
 > `optional` **page\_category**: `number`[]
 
-Defined in: main.ts:187234
+Defined in: main.ts:189643
 
 contains all relevant page categories
 product and service categories relevant for the page
@@ -162,7 +162,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `string`[]
 
-Defined in: main.ts:187236
+Defined in: main.ts:189645
 
 page types
 
@@ -176,7 +176,7 @@ page types
 
 > `optional` **ratings**: [`ContentRatingInfo`](ContentRatingInfo.md)[]
 
-Defined in: main.ts:187239
+Defined in: main.ts:189648
 
 ratings found on the page
 all ratings found on the page based on microdata
@@ -191,7 +191,7 @@ all ratings found on the page based on microdata
 
 > `optional` **score**: `string`
 
-Defined in: main.ts:187230
+Defined in: main.ts:189639
 
 citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
@@ -207,7 +207,7 @@ the higher the score, the more value the related citation has
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
 
-Defined in: main.ts:187242
+Defined in: main.ts:189651
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -222,7 +222,7 @@ data on social media interactions associated with the content based on website e
 
 > `optional` **spam\_score**: `string`
 
-Defined in: main.ts:187210
+Defined in: main.ts:189619
 
 backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -238,7 +238,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:187195
+Defined in: main.ts:189604
 
 type of element
 
@@ -252,7 +252,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:187197
+Defined in: main.ts:189606
 
 URL where the citation was found
 
@@ -266,7 +266,7 @@ URL where the citation was found
 
 > `optional` **url\_rank**: `number`
 
-Defined in: main.ts:187206
+Defined in: main.ts:189615
 
 rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -283,7 +283,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187257
+Defined in: main.ts:189666
 
 #### Parameters
 
@@ -301,7 +301,7 @@ Defined in: main.ts:187257
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187305
+Defined in: main.ts:189714
 
 #### Parameters
 
@@ -317,9 +317,9 @@ Defined in: main.ts:187305
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
+> `static` **fromJS**(`data`): `ContentAnalysisSearchLiveItem`
 
-Defined in: main.ts:187298
+Defined in: main.ts:189707
 
 #### Parameters
 
@@ -329,4 +329,4 @@ Defined in: main.ts:187298
 
 #### Returns
 
-[`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
+`ContentAnalysisSearchLiveItem`

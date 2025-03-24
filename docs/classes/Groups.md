@@ -6,7 +6,7 @@
 
 # Class: Groups
 
-Defined in: main.ts:94995
+Defined in: main.ts:96898
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94995
 
 ## Constructors
 
-### new Groups()
+### Constructor
 
-> **new Groups**(`data`?): [`Groups`](Groups.md)
+> **new Groups**(`data`?): `Groups`
 
-Defined in: main.ts:95007
+Defined in: main.ts:96910
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:95007
 
 #### Returns
 
-[`Groups`](Groups.md)
+`Groups`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95007
 
 > `optional` **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
 
-Defined in: main.ts:95003
+Defined in: main.ts:96906
 
 technology categories in this group
 
@@ -54,7 +54,7 @@ technology categories in this group
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:94999
+Defined in: main.ts:96902
 
 id of the technology group
 example:
@@ -70,7 +70,7 @@ marketing, sales
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:95001
+Defined in: main.ts:96904
 
 title of the technology group
 
@@ -84,7 +84,7 @@ title of the technology group
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95016
+Defined in: main.ts:96919
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:95016
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95039
+Defined in: main.ts:96942
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:95039
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Groups`](Groups.md)
+> `static` **fromJS**(`data`): `Groups`
 
-Defined in: main.ts:95032
+Defined in: main.ts:96935
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:95032
 
 #### Returns
 
-[`Groups`](Groups.md)
+`Groups`

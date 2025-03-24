@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLocationsResultInfo
 
-Defined in: main.ts:186147
+Defined in: main.ts:188556
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:186147
 
 ## Constructors
 
-### new ContentAnalysisLocationsResultInfo()
+### Constructor
 
-> **new ContentAnalysisLocationsResultInfo**(`data`?): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+> **new ContentAnalysisLocationsResultInfo**(`data`?): `ContentAnalysisLocationsResultInfo`
 
-Defined in: main.ts:186155
+Defined in: main.ts:188564
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:186155
 
 #### Returns
 
-[`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+`ContentAnalysisLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186155
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:186151
+Defined in: main.ts:188560
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:186149
+Defined in: main.ts:188558
 
 full name of the location
 
@@ -68,7 +68,7 @@ full name of the location
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186164
+Defined in: main.ts:188573
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:186164
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186182
+Defined in: main.ts:188591
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:186182
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisLocationsResultInfo`
 
-Defined in: main.ts:186175
+Defined in: main.ts:188584
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:186175
 
 #### Returns
 
-[`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+`ContentAnalysisLocationsResultInfo`

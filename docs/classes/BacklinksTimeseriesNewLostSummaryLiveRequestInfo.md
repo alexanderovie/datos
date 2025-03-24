@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
-Defined in: main.ts:169299
+Defined in: main.ts:171708
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:169299
 
 ## Constructors
 
-### new BacklinksTimeseriesNewLostSummaryLiveRequestInfo()
+### Constructor
 
-> **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+> **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data`?): `BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
 
-Defined in: main.ts:169353
+Defined in: main.ts:171762
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:169353
 
 #### Returns
 
-[`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169353
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:169316
+Defined in: main.ts:171725
 
 starting date of the time range
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:169325
+Defined in: main.ts:171734
 
 ending date of the time range
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:169338
+Defined in: main.ts:171747
 
 time range which will be used to group the results
 optional field
@@ -109,7 +109,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:169343
+Defined in: main.ts:171752
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -126,7 +126,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:169349
+Defined in: main.ts:171758
 
 user-defined task identifier
 optional field
@@ -144,7 +144,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:169305
+Defined in: main.ts:171714
 
 domain to get data for
 required field
@@ -162,7 +162,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169362
+Defined in: main.ts:171771
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:169362
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169384
+Defined in: main.ts:171793
 
 #### Parameters
 
@@ -196,9 +196,9 @@ Defined in: main.ts:169384
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
 
-Defined in: main.ts:169377
+Defined in: main.ts:171786
 
 #### Parameters
 
@@ -208,4 +208,4 @@ Defined in: main.ts:169377
 
 #### Returns
 
-[`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`

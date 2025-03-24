@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
-Defined in: main.ts:187403
+Defined in: main.ts:189812
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:187403
 
 ## Constructors
 
-### new ContentAnalysisSearchLiveResultInfo()
+### Constructor
 
-> **new ContentAnalysisSearchLiveResultInfo**(`data`?): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
+> **new ContentAnalysisSearchLiveResultInfo**(`data`?): `ContentAnalysisSearchLiveResultInfo`
 
-Defined in: main.ts:187417
+Defined in: main.ts:189826
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:187417
 
 #### Returns
 
-[`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
+`ContentAnalysisSearchLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187417
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)[]
 
-Defined in: main.ts:187413
+Defined in: main.ts:189822
 
 contains citations and related data
 
@@ -54,7 +54,7 @@ contains citations and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:187411
+Defined in: main.ts:189820
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:187407
+Defined in: main.ts:189816
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -84,7 +84,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:187409
+Defined in: main.ts:189818
 
 total amount of results in our database relevant to your request
 
@@ -98,7 +98,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187426
+Defined in: main.ts:189835
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:187426
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187450
+Defined in: main.ts:189859
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:187450
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisSearchLiveResultInfo`
 
-Defined in: main.ts:187443
+Defined in: main.ts:189852
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:187443
 
 #### Returns
 
-[`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
+`ContentAnalysisSearchLiveResultInfo`

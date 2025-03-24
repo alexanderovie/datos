@@ -6,7 +6,7 @@
 
 # Class: Pages
 
-Defined in: main.ts:178481
+Defined in: main.ts:180890
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:178481
 
 ## Constructors
 
-### new Pages()
+### Constructor
 
-> **new Pages**(`data`?): [`Pages`](Pages.md)
+> **new Pages**(`data`?): `Pages`
 
-Defined in: main.ts:178491
+Defined in: main.ts:180900
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:178491
 
 #### Returns
 
-[`Pages`](Pages.md)
+`Pages`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178491
 
 > `optional` **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:178487
+Defined in: main.ts:180896
 
 information about the page with duplicate content
 
@@ -54,7 +54,7 @@ information about the page with duplicate content
 
 > `optional` **similarity**: `number`
 
-Defined in: main.ts:178485
+Defined in: main.ts:180894
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -70,7 +70,7 @@ can take values from 0 to 10
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178500
+Defined in: main.ts:180909
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:178500
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178522
+Defined in: main.ts:180931
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:178522
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Pages`](Pages.md)
+> `static` **fromJS**(`data`): `Pages`
 
-Defined in: main.ts:178515
+Defined in: main.ts:180924
 
 #### Parameters
 
@@ -116,4 +116,4 @@ Defined in: main.ts:178515
 
 #### Returns
 
-[`Pages`](Pages.md)
+`Pages`

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResultInfo
 
-Defined in: main.ts:235117
+Defined in: main.ts:237526
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:235117
 
 ## Constructors
 
-### new BusinessDataTrustpilotSearchTasksReadyResultInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotSearchTasksReadyResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+> **new BusinessDataTrustpilotSearchTasksReadyResultInfo**(`data`?): `BusinessDataTrustpilotSearchTasksReadyResultInfo`
 
-Defined in: main.ts:235135
+Defined in: main.ts:237544
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:235135
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+`BusinessDataTrustpilotSearchTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235135
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:235127
+Defined in: main.ts:237536
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:235131
+Defined in: main.ts:237540
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:235120
+Defined in: main.ts:237529
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:235123
+Defined in: main.ts:237532
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -98,7 +98,7 @@ can take the following values: trustpilot
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:235125
+Defined in: main.ts:237534
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:235129
+Defined in: main.ts:237538
 
 user-defined task identifier
 
@@ -126,7 +126,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235144
+Defined in: main.ts:237553
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:235144
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235166
+Defined in: main.ts:237575
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:235166
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTasksReadyResultInfo`
 
-Defined in: main.ts:235159
+Defined in: main.ts:237568
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:235159
 
 #### Returns
 
-[`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+`BusinessDataTrustpilotSearchTasksReadyResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskPostRequestInfo
 
-Defined in: main.ts:204775
+Defined in: main.ts:207184
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:204775
 
 ## Constructors
 
-### new MerchantAmazonSellersTaskPostRequestInfo()
+### Constructor
 
-> **new MerchantAmazonSellersTaskPostRequestInfo**(`data`?): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
+> **new MerchantAmazonSellersTaskPostRequestInfo**(`data`?): `MerchantAmazonSellersTaskPostRequestInfo`
 
-Defined in: main.ts:204873
+Defined in: main.ts:207282
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:204873
 
 #### Returns
 
-[`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
+`MerchantAmazonSellersTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:204873
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:204783
+Defined in: main.ts:207192
 
 unique product identifier on Amazon
 required field
@@ -60,7 +60,7 @@ learn more about the identifier in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204828
+Defined in: main.ts:207237
 
 language code
 required field if you don’t specify language_name
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:204821
+Defined in: main.ts:207230
 
 full name of the language
 required field if you don’t specify language_code
@@ -98,7 +98,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204805
+Defined in: main.ts:207214
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:204814
+Defined in: main.ts:207223
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:204798
+Defined in: main.ts:207207
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -157,7 +157,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:204869
+Defined in: main.ts:207278
 
 notification URL of a completed task
 optional field
@@ -180,7 +180,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:204858
+Defined in: main.ts:207267
 
 postback_url datatype
 required field if you specify postback_url
@@ -198,7 +198,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:204852
+Defined in: main.ts:207261
 
 return URL for sending task results
 optional field
@@ -221,7 +221,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:204791
+Defined in: main.ts:207200
 
 task priority
 optional field
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204835
+Defined in: main.ts:207244
 
 search engine domain
 optional field
@@ -260,7 +260,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:204841
+Defined in: main.ts:207250
 
 user-defined task identifier
 optional field
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204882
+Defined in: main.ts:207291
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Defined in: main.ts:204882
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204910
+Defined in: main.ts:207319
 
 #### Parameters
 
@@ -312,9 +312,9 @@ Defined in: main.ts:204910
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonSellersTaskPostRequestInfo`
 
-Defined in: main.ts:204903
+Defined in: main.ts:207312
 
 #### Parameters
 
@@ -324,4 +324,4 @@ Defined in: main.ts:204903
 
 #### Returns
 
-[`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
+`MerchantAmazonSellersTaskPostRequestInfo`

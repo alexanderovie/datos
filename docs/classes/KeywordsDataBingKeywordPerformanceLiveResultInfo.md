@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResultInfo
 
-Defined in: main.ts:155109
+Defined in: main.ts:157518
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:155109
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceLiveResultInfo()
+### Constructor
 
-> **new KeywordsDataBingKeywordPerformanceLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+> **new KeywordsDataBingKeywordPerformanceLiveResultInfo**(`data`?): `KeywordsDataBingKeywordPerformanceLiveResultInfo`
 
-Defined in: main.ts:155132
+Defined in: main.ts:157541
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:155132
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+`KeywordsDataBingKeywordPerformanceLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155132
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:155111
+Defined in: main.ts:157520
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
 
-Defined in: main.ts:155128
+Defined in: main.ts:157537
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155117
+Defined in: main.ts:157526
 
 language code in a POST array
 if there is no data, then the value is null
@@ -84,7 +84,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:155114
+Defined in: main.ts:157523
 
 location code in a POST array
 if there is no data, then the value is null
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:155125
+Defined in: main.ts:157534
 
 indicates the month for which the data is provided for
 example:
@@ -115,7 +115,7 @@ example:
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:155121
+Defined in: main.ts:157530
 
 indicates the year for which the data is provided for
 example:
@@ -131,7 +131,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155141
+Defined in: main.ts:157550
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:155141
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155163
+Defined in: main.ts:157572
 
 #### Parameters
 
@@ -165,9 +165,9 @@ Defined in: main.ts:155163
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingKeywordPerformanceLiveResultInfo`
 
-Defined in: main.ts:155156
+Defined in: main.ts:157565
 
 #### Parameters
 
@@ -177,4 +177,4 @@ Defined in: main.ts:155156
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+`KeywordsDataBingKeywordPerformanceLiveResultInfo`

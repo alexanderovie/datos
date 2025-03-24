@@ -6,7 +6,7 @@
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
-Defined in: main.ts:198549
+Defined in: main.ts:200958
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:198549
 
 ## Constructors
 
-### new ShoppingSpecificationMerchantSerpElementItem()
+### Constructor
 
-> **new ShoppingSpecificationMerchantSerpElementItem**(`data`?): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+> **new ShoppingSpecificationMerchantSerpElementItem**(`data`?): `ShoppingSpecificationMerchantSerpElementItem`
 
-Defined in: main.ts:198563
+Defined in: main.ts:200972
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:198563
 
 #### Returns
 
-[`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+`ShoppingSpecificationMerchantSerpElementItem`
 
 #### Overrides
 
-[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:198563
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22527
+Defined in: main.ts:22866
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22527
 
 > `optional` **block\_name**: `string`
 
-Defined in: main.ts:198554
+Defined in: main.ts:200963
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -75,7 +75,7 @@ indicates the name of the product specification section in which the related ele
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22525
+Defined in: main.ts:22864
 
 alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22521
+Defined in: main.ts:22860
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -114,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22518
+Defined in: main.ts:22857
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **specification\_name**: `string`
 
-Defined in: main.ts:198557
+Defined in: main.ts:200966
 
 product attribute
 attribute name of the product data specification
@@ -148,7 +148,7 @@ attribute name of the product data specification
 
 > `optional` **specification\_value**: `string`
 
-Defined in: main.ts:198559
+Defined in: main.ts:200968
 
 content of the specification
 
@@ -162,7 +162,7 @@ content of the specification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22515
+Defined in: main.ts:22854
 
 type of element
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:198551
+Defined in: main.ts:200960
 
 XPath of the element
 
@@ -194,7 +194,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198568
+Defined in: main.ts:200977
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: main.ts:198568
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198589
+Defined in: main.ts:200998
 
 #### Parameters
 
@@ -236,9 +236,9 @@ Defined in: main.ts:198589
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): `ShoppingSpecificationMerchantSerpElementItem`
 
-Defined in: main.ts:198582
+Defined in: main.ts:200991
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Defined in: main.ts:198582
 
 #### Returns
 
-[`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+`ShoppingSpecificationMerchantSerpElementItem`
 
 #### Overrides
 

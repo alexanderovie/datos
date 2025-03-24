@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTasksFixedResultInfo
 
-Defined in: main.ts:66506
+Defined in: main.ts:66933
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:66506
 
 ## Constructors
 
-### new SerpBingOrganicTasksFixedResultInfo()
+### Constructor
 
-> **new SerpBingOrganicTasksFixedResultInfo**(`data`?): [`SerpBingOrganicTasksFixedResultInfo`](SerpBingOrganicTasksFixedResultInfo.md)
+> **new SerpBingOrganicTasksFixedResultInfo**(`data`?): `SerpBingOrganicTasksFixedResultInfo`
 
-Defined in: main.ts:66531
+Defined in: main.ts:66958
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:66531
 
 #### Returns
 
-[`SerpBingOrganicTasksFixedResultInfo`](SerpBingOrganicTasksFixedResultInfo.md)
+`SerpBingOrganicTasksFixedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:66531
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:66516
+Defined in: main.ts:66943
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:66524
+Defined in: main.ts:66951
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:66527
+Defined in: main.ts:66954
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:66521
+Defined in: main.ts:66948
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:66509
+Defined in: main.ts:66936
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:66511
+Defined in: main.ts:66938
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:66514
+Defined in: main.ts:66941
 
 type of search engine
 can take the following values: organic
@@ -143,7 +143,7 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:66518
+Defined in: main.ts:66945
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:66540
+Defined in: main.ts:66967
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:66540
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:66564
+Defined in: main.ts:66991
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:66564
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBingOrganicTasksFixedResultInfo`](SerpBingOrganicTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBingOrganicTasksFixedResultInfo`
 
-Defined in: main.ts:66557
+Defined in: main.ts:66984
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:66557
 
 #### Returns
 
-[`SerpBingOrganicTasksFixedResultInfo`](SerpBingOrganicTasksFixedResultInfo.md)
+`SerpBingOrganicTasksFixedResultInfo`

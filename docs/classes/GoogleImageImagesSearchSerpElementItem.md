@@ -6,7 +6,7 @@
 
 # Class: GoogleImageImagesSearchSerpElementItem
 
-Defined in: main.ts:53311
+Defined in: main.ts:53738
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:53311
 
 ## Constructors
 
-### new GoogleImageImagesSearchSerpElementItem()
+### Constructor
 
-> **new GoogleImageImagesSearchSerpElementItem**(`data`?): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
+> **new GoogleImageImagesSearchSerpElementItem**(`data`?): `GoogleImageImagesSearchSerpElementItem`
 
-Defined in: main.ts:53327
+Defined in: main.ts:53754
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:53327
 
 #### Returns
 
-[`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
+`GoogleImageImagesSearchSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructors)
+[`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:53327
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53161
+Defined in: main.ts:53588
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:53161
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:53317
+Defined in: main.ts:53744
 
 the alt tag of the image
 
@@ -74,7 +74,7 @@ the alt tag of the image
 
 > `optional` **encoded\_url**: `string`
 
-Defined in: main.ts:53323
+Defined in: main.ts:53750
 
 the URL of the cached version of the image stored on Google’s servers
 
@@ -88,7 +88,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53157
+Defined in: main.ts:53584
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53154
+Defined in: main.ts:53581
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:53321
+Defined in: main.ts:53748
 
 the URL of the source image
 
@@ -141,7 +141,7 @@ the URL of the source image
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:53315
+Defined in: main.ts:53742
 
 subtitle of the result in SERP
 
@@ -155,7 +155,7 @@ subtitle of the result in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:53313
+Defined in: main.ts:53740
 
 title of the result in SERP
 
@@ -169,7 +169,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53150
+Defined in: main.ts:53577
 
 type of element
 
@@ -187,7 +187,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:53319
+Defined in: main.ts:53746
 
 search URL with refinement parameters
 
@@ -201,7 +201,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53159
+Defined in: main.ts:53586
 
 the XPath of the element
 
@@ -219,7 +219,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53332
+Defined in: main.ts:53759
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:53332
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53355
+Defined in: main.ts:53782
 
 #### Parameters
 
@@ -261,9 +261,9 @@ Defined in: main.ts:53355
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleImageImagesSearchSerpElementItem`
 
-Defined in: main.ts:53348
+Defined in: main.ts:53775
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:53348
 
 #### Returns
 
-[`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
+`GoogleImageImagesSearchSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115805
+Defined in: main.ts:117190
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:115805
 
 ## Constructors
 
-### new PeopleAlsoSearchDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new PeopleAlsoSearchDataforseoLabsSerpElementItem**(`data`?): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
+> **new PeopleAlsoSearchDataforseoLabsSerpElementItem**(`data`?): `PeopleAlsoSearchDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115816
+Defined in: main.ts:117201
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:115816
 
 #### Returns
 
-[`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
+`PeopleAlsoSearchDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:115816
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:115812
+Defined in: main.ts:117197
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115807
+Defined in: main.ts:117192
 
 search engine type
 
@@ -147,7 +147,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:115809
+Defined in: main.ts:117194
 
 title of the result in SERP
 
@@ -161,7 +161,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -197,7 +197,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115821
+Defined in: main.ts:117206
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:115821
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115845
+Defined in: main.ts:117230
 
 #### Parameters
 
@@ -239,9 +239,9 @@ Defined in: main.ts:115845
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `PeopleAlsoSearchDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115838
+Defined in: main.ts:117223
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:115838
 
 #### Returns
 
-[`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
+`PeopleAlsoSearchDataforseoLabsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
-Defined in: main.ts:237191
+Defined in: main.ts:239600
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:237191
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:237226
+Defined in: main.ts:239635
 
 parsing depth
 optional field
@@ -33,7 +33,7 @@ maximum value: 210
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:237199
+Defined in: main.ts:239608
 
 keyword
 required field
@@ -49,7 +49,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:237211
+Defined in: main.ts:239620
 
 search engine location code
 required field if you don’t specify location_name
@@ -63,7 +63,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:237205
+Defined in: main.ts:239614
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -77,7 +77,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:237254
+Defined in: main.ts:239663
 
 notification URL of a completed task
 optional field
@@ -96,7 +96,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:237243
+Defined in: main.ts:239652
 
 return URL for sending task results
 optional field
@@ -115,7 +115,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:237219
+Defined in: main.ts:239628
 
 task priority
 optional field
@@ -131,7 +131,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:237232
+Defined in: main.ts:239641
 
 user-defined task identifier
 optional field

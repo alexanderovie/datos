@@ -6,7 +6,7 @@
 
 # Interface: ISerpAiSummaryResultInfo
 
-Defined in: main.ts:28033
+Defined in: main.ts:28460
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:28033
 
 > `optional` **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
 
-Defined in: main.ts:28037
+Defined in: main.ts:28464
 
 items array
 
@@ -28,6 +28,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:28035
+Defined in: main.ts:28462
 
 number of items in the results array

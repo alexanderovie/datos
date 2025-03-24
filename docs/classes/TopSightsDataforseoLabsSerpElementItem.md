@@ -6,7 +6,7 @@
 
 # Class: TopSightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118012
+Defined in: main.ts:119395
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118012
 
 ## Constructors
 
-### new TopSightsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new TopSightsDataforseoLabsSerpElementItem**(`data`?): [`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
+> **new TopSightsDataforseoLabsSerpElementItem**(`data`?): `TopSightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118021
+Defined in: main.ts:119404
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118021
 
 #### Returns
 
-[`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
+`TopSightsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118021
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-Defined in: main.ts:118017
+Defined in: main.ts:119400
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118014
+Defined in: main.ts:119397
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -183,7 +183,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118026
+Defined in: main.ts:119409
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:118026
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118049
+Defined in: main.ts:119432
 
 #### Parameters
 
@@ -225,9 +225,9 @@ Defined in: main.ts:118049
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `TopSightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118042
+Defined in: main.ts:119425
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:118042
 
 #### Returns
 
-[`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
+`TopSightsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

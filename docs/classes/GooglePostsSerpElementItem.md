@@ -6,7 +6,7 @@
 
 # Class: GooglePostsSerpElementItem
 
-Defined in: main.ts:38704
+Defined in: main.ts:39131
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:38704
 
 ## Constructors
 
-### new GooglePostsSerpElementItem()
+### Constructor
 
-> **new GooglePostsSerpElementItem**(`data`?): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+> **new GooglePostsSerpElementItem**(`data`?): `GooglePostsSerpElementItem`
 
-Defined in: main.ts:38724
+Defined in: main.ts:39151
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:38724
 
 #### Returns
 
-[`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+`GooglePostsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38724
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:38716
+Defined in: main.ts:39143
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:38714
+Defined in: main.ts:39141
 
 the additional feature of the review
 
@@ -88,7 +88,7 @@ the additional feature of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38708
+Defined in: main.ts:39135
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,7 +104,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:38712
+Defined in: main.ts:39139
 
 the identifier of the google_posts feature
 
@@ -118,7 +118,7 @@ the identifier of the google_posts feature
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -137,7 +137,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -157,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38720
+Defined in: main.ts:39147
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -173,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38710
+Defined in: main.ts:39137
 
 the XPath of the element
 
@@ -205,7 +205,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38729
+Defined in: main.ts:39156
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:38729
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38752
+Defined in: main.ts:39179
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:38752
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GooglePostsSerpElementItem`
 
-Defined in: main.ts:38745
+Defined in: main.ts:39172
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:38745
 
 #### Returns
 
-[`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+`GooglePostsSerpElementItem`
 
 #### Overrides
 

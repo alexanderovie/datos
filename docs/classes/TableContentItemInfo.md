@@ -6,7 +6,7 @@
 
 # Class: TableContentItemInfo
 
-Defined in: main.ts:26434
+Defined in: main.ts:26861
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26434
 
 ## Constructors
 
-### new TableContentItemInfo()
+### Constructor
 
-> **new TableContentItemInfo**(`data`?): [`TableContentItemInfo`](TableContentItemInfo.md)
+> **new TableContentItemInfo**(`data`?): `TableContentItemInfo`
 
-Defined in: main.ts:26440
+Defined in: main.ts:26867
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26440
 
 #### Returns
 
-[`TableContentItemInfo`](TableContentItemInfo.md)
+`TableContentItemInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26440
 
 > `optional` **row\_cells**: [`RowCellInfo`](RowCellInfo.md)[]
 
-Defined in: main.ts:26436
+Defined in: main.ts:26863
 
 content of the row cells of the header
 
@@ -54,7 +54,7 @@ content of the row cells of the header
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26449
+Defined in: main.ts:26876
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:26449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26470
+Defined in: main.ts:26897
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:26470
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TableContentItemInfo`](TableContentItemInfo.md)
+> `static` **fromJS**(`data`): `TableContentItemInfo`
 
-Defined in: main.ts:26463
+Defined in: main.ts:26890
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:26463
 
 #### Returns
 
-[`TableContentItemInfo`](TableContentItemInfo.md)
+`TableContentItemInfo`

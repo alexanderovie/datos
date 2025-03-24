@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreLiveHtmlRequestInfo
 
-Defined in: main.ts:89515
+Defined in: main.ts:89942
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:89515
 
 ## Constructors
 
-### new SerpGoogleFinanceExploreLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceExploreLiveHtmlRequestInfo**(`data`?): [`SerpGoogleFinanceExploreLiveHtmlRequestInfo`](SerpGoogleFinanceExploreLiveHtmlRequestInfo.md)
+> **new SerpGoogleFinanceExploreLiveHtmlRequestInfo**(`data`?): `SerpGoogleFinanceExploreLiveHtmlRequestInfo`
 
-Defined in: main.ts:89566
+Defined in: main.ts:89993
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:89566
 
 #### Returns
 
-[`SerpGoogleFinanceExploreLiveHtmlRequestInfo`](SerpGoogleFinanceExploreLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceExploreLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89566
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:89547
+Defined in: main.ts:89974
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:89543
+Defined in: main.ts:89970
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:89536
+Defined in: main.ts:89963
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:89529
+Defined in: main.ts:89956
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:89522
+Defined in: main.ts:89949
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:89556
+Defined in: main.ts:89983
 
 financial news filters
 optional field
@@ -149,7 +149,7 @@ default value: top_stories
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:89551
+Defined in: main.ts:89978
 
 device operating system
 optional field
@@ -165,7 +165,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:89562
+Defined in: main.ts:89989
 
 user-defined task identifier
 optional field
@@ -183,7 +183,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89575
+Defined in: main.ts:90002
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: main.ts:89575
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89599
+Defined in: main.ts:90026
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:89599
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceExploreLiveHtmlRequestInfo`](SerpGoogleFinanceExploreLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceExploreLiveHtmlRequestInfo`
 
-Defined in: main.ts:89592
+Defined in: main.ts:90019
 
 #### Parameters
 
@@ -229,4 +229,4 @@ Defined in: main.ts:89592
 
 #### Returns
 
-[`SerpGoogleFinanceExploreLiveHtmlRequestInfo`](SerpGoogleFinanceExploreLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceExploreLiveHtmlRequestInfo`

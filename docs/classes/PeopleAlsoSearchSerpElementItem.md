@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchSerpElementItem
 
-Defined in: main.ts:33692
+Defined in: main.ts:34119
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:33692
 
 ## Constructors
 
-### new PeopleAlsoSearchSerpElementItem()
+### Constructor
 
-> **new PeopleAlsoSearchSerpElementItem**(`data`?): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+> **new PeopleAlsoSearchSerpElementItem**(`data`?): `PeopleAlsoSearchSerpElementItem`
 
-Defined in: main.ts:33710
+Defined in: main.ts:34137
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:33710
 
 #### Returns
 
-[`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+`PeopleAlsoSearchSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:33710
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:33702
+Defined in: main.ts:34129
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:33696
+Defined in: main.ts:34123
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33706
+Defined in: main.ts:34133
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33700
+Defined in: main.ts:34127
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33698
+Defined in: main.ts:34125
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33715
+Defined in: main.ts:34142
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:33715
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33741
+Defined in: main.ts:34168
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:33741
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): `PeopleAlsoSearchSerpElementItem`
 
-Defined in: main.ts:33734
+Defined in: main.ts:34161
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:33734
 
 #### Returns
 
-[`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
+`PeopleAlsoSearchSerpElementItem`
 
 #### Overrides
 

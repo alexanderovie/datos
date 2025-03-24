@@ -6,7 +6,7 @@
 
 # Class: ClickstreamKeywordInfo
 
-Defined in: main.ts:25677
+Defined in: main.ts:26016
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:25677
 
 ## Constructors
 
-### new ClickstreamKeywordInfo()
+### Constructor
 
-> **new ClickstreamKeywordInfo**(`data`?): [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+> **new ClickstreamKeywordInfo**(`data`?): `ClickstreamKeywordInfo`
 
-Defined in: main.ts:25681
+Defined in: main.ts:26020
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:25681
 
 #### Returns
 
-[`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+`ClickstreamKeywordInfo`
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25681
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:25690
+Defined in: main.ts:26029
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:25690
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:25706
+Defined in: main.ts:26045
 
 #### Parameters
 
@@ -74,9 +74,9 @@ Defined in: main.ts:25706
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+> `static` **fromJS**(`data`): `ClickstreamKeywordInfo`
 
-Defined in: main.ts:25699
+Defined in: main.ts:26038
 
 #### Parameters
 
@@ -86,4 +86,4 @@ Defined in: main.ts:25699
 
 #### Returns
 
-[`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+`ClickstreamKeywordInfo`

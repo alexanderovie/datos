@@ -6,7 +6,7 @@
 
 # Class: MicrodataInspectionInfo
 
-Defined in: main.ts:181315
+Defined in: main.ts:183724
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181315
 
 ## Constructors
 
-### new MicrodataInspectionInfo()
+### Constructor
 
-> **new MicrodataInspectionInfo**(`data`?): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> **new MicrodataInspectionInfo**(`data`?): `MicrodataInspectionInfo`
 
-Defined in: main.ts:181325
+Defined in: main.ts:183734
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:181325
 
 #### Returns
 
-[`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+`MicrodataInspectionInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181325
 
 > `optional` **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
 
-Defined in: main.ts:181321
+Defined in: main.ts:183730
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -55,7 +55,7 @@ an array of objects containing data fields related to the certain microdata type
 
 > `optional` **types**: `string`[]
 
-Defined in: main.ts:181318
+Defined in: main.ts:183727
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -70,7 +70,7 @@ for a full list of available types, please visit schema.org
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181334
+Defined in: main.ts:183743
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:181334
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181360
+Defined in: main.ts:183769
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:181360
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> `static` **fromJS**(`data`): `MicrodataInspectionInfo`
 
-Defined in: main.ts:181353
+Defined in: main.ts:183762
 
 #### Parameters
 
@@ -116,4 +116,4 @@ Defined in: main.ts:181353
 
 #### Returns
 
-[`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+`MicrodataInspectionInfo`

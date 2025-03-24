@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
 
-Defined in: main.ts:204005
+Defined in: main.ts:206414
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:204005
 
 > `optional` **helpful\_votes**: `number`
 
-Defined in: main.ts:204015
+Defined in: main.ts:206424
 
 helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text
@@ -33,7 +33,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:204017
+Defined in: main.ts:206426
 
 images of the product submitted by the reviewer
 
@@ -43,7 +43,7 @@ images of the product submitted by the reviewer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:204008
+Defined in: main.ts:206417
 
 the alignment of the review in SERP
 can take the following values: right
@@ -54,7 +54,7 @@ can take the following values: right
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:204032
+Defined in: main.ts:206441
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -67,7 +67,7 @@ example:
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24115
+Defined in: main.ts:24454
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -82,7 +82,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24112
+Defined in: main.ts:24451
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -97,7 +97,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:204034
+Defined in: main.ts:206443
 
 the rating score submitted by the reviewer
 
@@ -107,7 +107,7 @@ the rating score submitted by the reviewer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:204027
+Defined in: main.ts:206436
 
 content of the review
 
@@ -117,7 +117,7 @@ content of the review
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:204012
+Defined in: main.ts:206421
 
 subtitle of the review
 
@@ -127,7 +127,7 @@ subtitle of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:204023
+Defined in: main.ts:206432
 
 title of the review
 
@@ -137,7 +137,7 @@ title of the review
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24109
+Defined in: main.ts:24448
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:204025
+Defined in: main.ts:206434
 
 URL to the reviewer’s profile
 
@@ -161,7 +161,7 @@ URL to the reviewer’s profile
 
 > `optional` **user\_profile**: [`UserProfileInfo`](../classes/UserProfileInfo.md)
 
-Defined in: main.ts:204021
+Defined in: main.ts:206430
 
 user profile of the reviewer
 
@@ -171,7 +171,7 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:204010
+Defined in: main.ts:206419
 
 indicates whether the review has the “Verified Purchase” mark
 
@@ -181,7 +181,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 > `optional` **videos**: [`VideoElement`](../classes/VideoElement.md)[]
 
-Defined in: main.ts:204019
+Defined in: main.ts:206428
 
 videos of the product submitted by the reviewer
 
@@ -191,7 +191,7 @@ videos of the product submitted by the reviewer
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24117
+Defined in: main.ts:24456
 
 the XPath of the element
 

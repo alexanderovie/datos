@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorReviewsTaskGetResponseInfo
 
-Defined in: main.ts:238950
+Defined in: main.ts:241359
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:238950
 
 ## Constructors
 
-### new BusinessDataTripadvisorReviewsTaskGetResponseInfo()
+### Constructor
 
-> **new BusinessDataTripadvisorReviewsTaskGetResponseInfo**(`data`?): [`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
+> **new BusinessDataTripadvisorReviewsTaskGetResponseInfo**(`data`?): `BusinessDataTripadvisorReviewsTaskGetResponseInfo`
 
-Defined in: main.ts:238956
+Defined in: main.ts:241365
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:238956
 
 #### Returns
 
-[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
+`BusinessDataTripadvisorReviewsTaskGetResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:238956
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTripadvisorReviewsTaskGetTaskInfo`](BusinessDataTripadvisorReviewsTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:238952
+Defined in: main.ts:241361
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238960
+Defined in: main.ts:241369
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:238960
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238982
+Defined in: main.ts:241391
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:238982
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTripadvisorReviewsTaskGetResponseInfo`
 
-Defined in: main.ts:238975
+Defined in: main.ts:241384
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:238975
 
 #### Returns
 
-[`BusinessDataTripadvisorReviewsTaskGetResponseInfo`](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
+`BusinessDataTripadvisorReviewsTaskGetResponseInfo`
 
 #### Overrides
 

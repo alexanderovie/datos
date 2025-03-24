@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersItem
 
-Defined in: main.ts:233957
+Defined in: main.ts:236366
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:233957
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersItem()
+### Constructor
 
-> **new BusinessDataGoogleQuestionsAndAnswersItem**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
+> **new BusinessDataGoogleQuestionsAndAnswersItem**(`data`?): `BusinessDataGoogleQuestionsAndAnswersItem`
 
-Defined in: main.ts:233989
+Defined in: main.ts:236398
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:233989
 
 #### Returns
 
-[`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
+`BusinessDataGoogleQuestionsAndAnswersItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233989
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)[]
 
-Defined in: main.ts:233985
+Defined in: main.ts:236394
 
 array of google business question items with answers
 possible item types: google_business_question_item
@@ -55,7 +55,7 @@ possible item types: google_business_question_item
 
 > `optional` **original\_question\_text**: `string`
 
-Defined in: main.ts:233978
+Defined in: main.ts:236387
 
 original text of the question
 
@@ -69,7 +69,7 @@ original text of the question
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:233970
+Defined in: main.ts:236379
 
 URL of the user’s profile image
 
@@ -83,7 +83,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:233974
+Defined in: main.ts:236383
 
 displayed name of the user
 
@@ -97,7 +97,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:233972
+Defined in: main.ts:236381
 
 URL of the user’s profile
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 > `optional` **question\_id**: `string`
 
-Defined in: main.ts:233966
+Defined in: main.ts:236375
 
 ID of the question
 
@@ -125,7 +125,7 @@ ID of the question
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:233976
+Defined in: main.ts:236385
 
 current text of the question
 
@@ -139,7 +139,7 @@ current text of the question
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:233964
+Defined in: main.ts:236373
 
 absolute rank among all the elements
 
@@ -153,7 +153,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:233962
+Defined in: main.ts:236371
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -168,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:233980
+Defined in: main.ts:236389
 
 estimated time when the question was posted
 
@@ -182,7 +182,7 @@ estimated time when the question was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:233982
+Defined in: main.ts:236391
 
 exact time when the question was posted
 
@@ -196,7 +196,7 @@ exact time when the question was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:233959
+Defined in: main.ts:236368
 
 type of element
 
@@ -210,7 +210,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:233968
+Defined in: main.ts:236377
 
 URL of the question
 
@@ -224,7 +224,7 @@ URL of the question
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233998
+Defined in: main.ts:236407
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:233998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234031
+Defined in: main.ts:236440
 
 #### Parameters
 
@@ -258,9 +258,9 @@ Defined in: main.ts:234031
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleQuestionsAndAnswersItem`
 
-Defined in: main.ts:234024
+Defined in: main.ts:236433
 
 #### Parameters
 
@@ -270,4 +270,4 @@ Defined in: main.ts:234024
 
 #### Returns
 
-[`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
+`BusinessDataGoogleQuestionsAndAnswersItem`

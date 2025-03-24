@@ -6,7 +6,7 @@
 
 # Class: Rectangle
 
-Defined in: main.ts:24120
+Defined in: main.ts:24459
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24120
 
 ## Constructors
 
-### new Rectangle()
+### Constructor
 
-> **new Rectangle**(`data`?): [`Rectangle`](Rectangle.md)
+> **new Rectangle**(`data`?): `Rectangle`
 
-Defined in: main.ts:24134
+Defined in: main.ts:24473
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24134
 
 #### Returns
 
-[`Rectangle`](Rectangle.md)
+`Rectangle`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24134
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:24130
+Defined in: main.ts:24469
 
 height of the element in pixels
 
@@ -54,7 +54,7 @@ height of the element in pixels
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:24128
+Defined in: main.ts:24467
 
 width of the element in pixels
 
@@ -68,7 +68,7 @@ width of the element in pixels
 
 > `optional` **x**: `number`
 
-Defined in: main.ts:24123
+Defined in: main.ts:24462
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -83,7 +83,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 > `optional` **y**: `number`
 
-Defined in: main.ts:24126
+Defined in: main.ts:24465
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -98,7 +98,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24143
+Defined in: main.ts:24482
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:24143
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24163
+Defined in: main.ts:24502
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:24163
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`Rectangle`](Rectangle.md)
+> `static` **fromJS**(`data`): `Rectangle`
 
-Defined in: main.ts:24156
+Defined in: main.ts:24495
 
 #### Parameters
 
@@ -144,4 +144,4 @@ Defined in: main.ts:24156
 
 #### Returns
 
-[`Rectangle`](Rectangle.md)
+`Rectangle`

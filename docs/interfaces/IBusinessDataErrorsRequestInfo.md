@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataErrorsRequestInfo
 
-Defined in: main.ts:219154
+Defined in: main.ts:221563
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:219154
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:219177
+Defined in: main.ts:221586
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:219184
+Defined in: main.ts:221593
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:219170
+Defined in: main.ts:221579
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:219159
+Defined in: main.ts:221568
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:219164
+Defined in: main.ts:221573
 
 offset in the results array of returned tasks
 optional field

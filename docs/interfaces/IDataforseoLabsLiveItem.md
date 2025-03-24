@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsLiveItem
 
-Defined in: main.ts:110884
+Defined in: main.ts:112189
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110884
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:110888
+Defined in: main.ts:112193
 
 keyword data for the returned keyword
 
@@ -28,7 +28,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
 
-Defined in: main.ts:110890
+Defined in: main.ts:112195
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -38,6 +38,6 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110886
+Defined in: main.ts:112191
 
 search engine type

@@ -6,7 +6,7 @@
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118594
+Defined in: main.ts:119977
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118594
 
 ## Constructors
 
-### new LocalServicesDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new LocalServicesDataforseoLabsSerpElementItem**(`data`?): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+> **new LocalServicesDataforseoLabsSerpElementItem**(`data`?): `LocalServicesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118607
+Defined in: main.ts:119990
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118607
 
 #### Returns
 
-[`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+`LocalServicesDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118607
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:118600
+Defined in: main.ts:119983
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:118603
+Defined in: main.ts:119986
 
 additional items present in the element
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -109,7 +109,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118596
+Defined in: main.ts:119979
 
 title of the result in SERP
 
@@ -161,7 +161,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:118598
+Defined in: main.ts:119981
 
 relevant URL
 
@@ -193,7 +193,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -211,7 +211,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118612
+Defined in: main.ts:119995
 
 #### Parameters
 
@@ -233,7 +233,7 @@ Defined in: main.ts:118612
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118637
+Defined in: main.ts:120020
 
 #### Parameters
 
@@ -253,9 +253,9 @@ Defined in: main.ts:118637
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `LocalServicesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118630
+Defined in: main.ts:120013
 
 #### Parameters
 
@@ -265,7 +265,7 @@ Defined in: main.ts:118630
 
 #### Returns
 
-[`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
+`LocalServicesDataforseoLabsSerpElementItem`
 
 #### Overrides
 

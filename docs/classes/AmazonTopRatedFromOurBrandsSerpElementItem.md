@@ -6,7 +6,7 @@
 
 # Class: AmazonTopRatedFromOurBrandsSerpElementItem
 
-Defined in: main.ts:202151
+Defined in: main.ts:204560
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:202151
 
 ## Constructors
 
-### new AmazonTopRatedFromOurBrandsSerpElementItem()
+### Constructor
 
-> **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data`?): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
+> **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data`?): `AmazonTopRatedFromOurBrandsSerpElementItem`
 
-Defined in: main.ts:202161
+Defined in: main.ts:204570
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:202161
 
 #### Returns
 
-[`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
+`AmazonTopRatedFromOurBrandsSerpElementItem`
 
 #### Overrides
 
-[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:202161
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24023
+Defined in: main.ts:24362
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24023
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:202157
+Defined in: main.ts:204566
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:202155
+Defined in: main.ts:204564
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24019
+Defined in: main.ts:24358
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24016
+Defined in: main.ts:24355
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24013
+Defined in: main.ts:24352
 
 type of element
 
@@ -146,7 +146,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24021
+Defined in: main.ts:24360
 
 the XPath of the element
 
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202166
+Defined in: main.ts:204575
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:202166
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202189
+Defined in: main.ts:204598
 
 #### Parameters
 
@@ -206,9 +206,9 @@ Defined in: main.ts:202189
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
+> `static` **fromJS**(`data`): `AmazonTopRatedFromOurBrandsSerpElementItem`
 
-Defined in: main.ts:202182
+Defined in: main.ts:204591
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:202182
 
 #### Returns
 
-[`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
+`AmazonTopRatedFromOurBrandsSerpElementItem`
 
 #### Overrides
 

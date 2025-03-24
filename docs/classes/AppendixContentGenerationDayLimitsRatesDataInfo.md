@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
 
-Defined in: main.ts:241903
+Defined in: main.ts:244316
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241903
 
 ## Constructors
 
-### new AppendixContentGenerationDayLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixContentGenerationDayLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
+> **new AppendixContentGenerationDayLimitsRatesDataInfo**(`data`?): `AppendixContentGenerationDayLimitsRatesDataInfo`
 
-Defined in: main.ts:241909
+Defined in: main.ts:244322
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241909
 
 #### Returns
 
-[`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
+`AppendixContentGenerationDayLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241909
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:241905
+Defined in: main.ts:244318
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241905
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:241904
+Defined in: main.ts:244317
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241904
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241918
+Defined in: main.ts:244331
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:241918
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241936
+Defined in: main.ts:244349
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:241936
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixContentGenerationDayLimitsRatesDataInfo`
 
-Defined in: main.ts:241929
+Defined in: main.ts:244342
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:241929
 
 #### Returns
 
-[`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
+`AppendixContentGenerationDayLimitsRatesDataInfo`

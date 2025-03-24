@@ -6,7 +6,7 @@
 
 # Class: QuestionsAndAnswersDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118262
+Defined in: main.ts:119645
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118262
 
 ## Constructors
 
-### new QuestionsAndAnswersDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new QuestionsAndAnswersDataforseoLabsSerpElementItem**(`data`?): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+> **new QuestionsAndAnswersDataforseoLabsSerpElementItem**(`data`?): `QuestionsAndAnswersDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118269
+Defined in: main.ts:119652
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118269
 
 #### Returns
 
-[`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+`QuestionsAndAnswersDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118269
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-Defined in: main.ts:118265
+Defined in: main.ts:119648
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118274
+Defined in: main.ts:119657
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:118274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118296
+Defined in: main.ts:119679
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:118296
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `QuestionsAndAnswersDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118289
+Defined in: main.ts:119672
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:118289
 
 #### Returns
 
-[`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
+`QuestionsAndAnswersDataforseoLabsSerpElementItem`
 
 #### Overrides
 

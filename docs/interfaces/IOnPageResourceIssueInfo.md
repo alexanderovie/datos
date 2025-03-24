@@ -6,7 +6,7 @@
 
 # Interface: IOnPageResourceIssueInfo
 
-Defined in: main.ts:176220
+Defined in: main.ts:178629
 
 resource errors and warnings
 
@@ -20,7 +20,7 @@ resource errors and warnings
 
 > `optional` **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
-Defined in: main.ts:176222
+Defined in: main.ts:178631
 
 resource errors
 
@@ -30,6 +30,6 @@ resource errors
 
 > `optional` **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
-Defined in: main.ts:176224
+Defined in: main.ts:178633
 
 resource warnings

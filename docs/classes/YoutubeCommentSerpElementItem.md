@@ -6,7 +6,7 @@
 
 # Class: YoutubeCommentSerpElementItem
 
-Defined in: main.ts:76241
+Defined in: main.ts:76668
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:76241
 
 ## Constructors
 
-### new YoutubeCommentSerpElementItem()
+### Constructor
 
-> **new YoutubeCommentSerpElementItem**(`data`?): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+> **new YoutubeCommentSerpElementItem**(`data`?): `YoutubeCommentSerpElementItem`
 
-Defined in: main.ts:76264
+Defined in: main.ts:76691
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:76264
 
 #### Returns
 
-[`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+`YoutubeCommentSerpElementItem`
 
 #### Overrides
 
-[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructors)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:76264
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:72909
+Defined in: main.ts:73336
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:72909
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:76243
+Defined in: main.ts:76670
 
 name of the author of the comment
 
@@ -74,7 +74,7 @@ name of the author of the comment
 
 > `optional` **author\_thumbnail**: `string`
 
-Defined in: main.ts:76245
+Defined in: main.ts:76672
 
 the URL of the page where the author’s channel logo is hosted
 
@@ -88,7 +88,7 @@ the URL of the page where the author’s channel logo is hosted
 
 > `optional` **author\_url**: `string`
 
-Defined in: main.ts:76247
+Defined in: main.ts:76674
 
 URL of the author’s channel
 
@@ -102,7 +102,7 @@ URL of the author’s channel
 
 > `optional` **likes\_count**: `number`
 
-Defined in: main.ts:76258
+Defined in: main.ts:76685
 
 number of likes on the comment
 
@@ -116,7 +116,7 @@ number of likes on the comment
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:76251
+Defined in: main.ts:76678
 
 displayed publication date
 
@@ -130,7 +130,7 @@ displayed publication date
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:72907
+Defined in: main.ts:73334
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -149,7 +149,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:72904
+Defined in: main.ts:73331
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -169,7 +169,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **reply\_count**: `number`
 
-Defined in: main.ts:76260
+Defined in: main.ts:76687
 
 number of replies on the comment
 
@@ -183,7 +183,7 @@ number of replies on the comment
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:76249
+Defined in: main.ts:76676
 
 text of the comment
 
@@ -197,7 +197,7 @@ text of the comment
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:76256
+Defined in: main.ts:76683
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -214,7 +214,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:72900
+Defined in: main.ts:73327
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:76269
+Defined in: main.ts:76696
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:76269
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:76294
+Defined in: main.ts:76721
 
 #### Parameters
 
@@ -274,9 +274,9 @@ Defined in: main.ts:76294
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+> `static` **fromJS**(`data`): `YoutubeCommentSerpElementItem`
 
-Defined in: main.ts:76287
+Defined in: main.ts:76714
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: main.ts:76287
 
 #### Returns
 
-[`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+`YoutubeCommentSerpElementItem`
 
 #### Overrides
 

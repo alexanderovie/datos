@@ -6,7 +6,7 @@
 
 # Class: MapSerpElementItem
 
-Defined in: main.ts:34438
+Defined in: main.ts:34865
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:34438
 
 ## Constructors
 
-### new MapSerpElementItem()
+### Constructor
 
-> **new MapSerpElementItem**(`data`?): [`MapSerpElementItem`](MapSerpElementItem.md)
+> **new MapSerpElementItem**(`data`?): `MapSerpElementItem`
 
-Defined in: main.ts:34456
+Defined in: main.ts:34883
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:34456
 
 #### Returns
 
-[`MapSerpElementItem`](MapSerpElementItem.md)
+`MapSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34456
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34442
+Defined in: main.ts:34869
 
 the alignment of the element in SERP
 can take the following values:
@@ -76,7 +76,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -95,7 +95,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34452
+Defined in: main.ts:34879
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -131,7 +131,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34446
+Defined in: main.ts:34873
 
 title of the row
 
@@ -145,7 +145,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34448
+Defined in: main.ts:34875
 
 source URL
 
@@ -177,7 +177,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34444
+Defined in: main.ts:34871
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34461
+Defined in: main.ts:34888
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:34461
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34483
+Defined in: main.ts:34910
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:34483
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MapSerpElementItem`](MapSerpElementItem.md)
+> `static` **fromJS**(`data`): `MapSerpElementItem`
 
-Defined in: main.ts:34476
+Defined in: main.ts:34903
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:34476
 
 #### Returns
 
-[`MapSerpElementItem`](MapSerpElementItem.md)
+`MapSerpElementItem`
 
 #### Overrides
 

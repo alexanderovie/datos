@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
-Defined in: main.ts:239005
+Defined in: main.ts:241414
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239005
 
 ## Constructors
 
-### new BusinessDataSocialMediaPinterestLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaPinterestLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
+> **new BusinessDataSocialMediaPinterestLiveRequestInfo**(`data`?): `BusinessDataSocialMediaPinterestLiveRequestInfo`
 
-Defined in: main.ts:239022
+Defined in: main.ts:241431
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239022
 
 #### Returns
 
-[`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
+`BusinessDataSocialMediaPinterestLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239022
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:239018
+Defined in: main.ts:241427
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:239012
+Defined in: main.ts:241421
 
 target URLs
 required field
@@ -77,7 +77,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239031
+Defined in: main.ts:241440
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:239031
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239053
+Defined in: main.ts:241462
 
 #### Parameters
 
@@ -111,9 +111,9 @@ Defined in: main.ts:239053
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaPinterestLiveRequestInfo`
 
-Defined in: main.ts:239046
+Defined in: main.ts:241455
 
 #### Parameters
 
@@ -123,4 +123,4 @@ Defined in: main.ts:239046
 
 #### Returns
 
-[`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
+`BusinessDataSocialMediaPinterestLiveRequestInfo`

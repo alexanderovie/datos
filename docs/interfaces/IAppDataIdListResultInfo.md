@@ -6,7 +6,7 @@
 
 # Interface: IAppDataIdListResultInfo
 
-Defined in: main.ts:207426
+Defined in: main.ts:209835
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:207426
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:207446
+Defined in: main.ts:209855
 
 cost of the task, USD
 
@@ -28,7 +28,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:207441
+Defined in: main.ts:209850
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:207436
+Defined in: main.ts:209845
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:207428
+Defined in: main.ts:209837
 
 id of the task
 
@@ -64,7 +64,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:207448
+Defined in: main.ts:209857
 
 contains parameters you specified in the POST request
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:207444
+Defined in: main.ts:209853
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -89,7 +89,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:207431
+Defined in: main.ts:209840
 
 URL of the task
 URL you used for making an API call

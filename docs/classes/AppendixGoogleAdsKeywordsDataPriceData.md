@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 
-Defined in: main.ts:245741
+Defined in: main.ts:247706
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245741
 
 ## Constructors
 
-### new AppendixGoogleAdsKeywordsDataPriceData()
+### Constructor
 
-> **new AppendixGoogleAdsKeywordsDataPriceData**(`data`?): [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
+> **new AppendixGoogleAdsKeywordsDataPriceData**(`data`?): `AppendixGoogleAdsKeywordsDataPriceData`
 
-Defined in: main.ts:245750
+Defined in: main.ts:247715
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245750
 
 #### Returns
 
-[`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
+`AppendixGoogleAdsKeywordsDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245750
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245742
+Defined in: main.ts:247707
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245742
 
 > `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245743
+Defined in: main.ts:247708
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245743
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245744
+Defined in: main.ts:247709
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245744
 
 > `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245745
+Defined in: main.ts:247710
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:245745
 
 > `optional` **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245746
+Defined in: main.ts:247711
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:245746
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245759
+Defined in: main.ts:247724
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:245759
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245780
+Defined in: main.ts:247745
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:245780
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixGoogleAdsKeywordsDataPriceData`
 
-Defined in: main.ts:245773
+Defined in: main.ts:247738
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:245773
 
 #### Returns
 
-[`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
+`AppendixGoogleAdsKeywordsDataPriceData`

@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:241459
+Defined in: main.ts:243872
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241459
 
 ## Constructors
 
-### new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): `AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241467
+Defined in: main.ts:243880
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241467
 
 #### Returns
 
-[`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241467
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:241462
+Defined in: main.ts:243875
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241462
 
 > `optional` **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241461
+Defined in: main.ts:243874
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241461
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:241463
+Defined in: main.ts:243876
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241463
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:241460
+Defined in: main.ts:243873
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:241460
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241476
+Defined in: main.ts:243889
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:241476
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241496
+Defined in: main.ts:243909
 
 #### Parameters
 
@@ -122,9 +122,9 @@ Defined in: main.ts:241496
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241489
+Defined in: main.ts:243902
 
 #### Parameters
 
@@ -134,4 +134,4 @@ Defined in: main.ts:241489
 
 #### Returns
 
-[`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`

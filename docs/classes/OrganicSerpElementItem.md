@@ -6,7 +6,7 @@
 
 # Class: OrganicSerpElementItem
 
-Defined in: main.ts:30178
+Defined in: main.ts:30605
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:30178
 
 ## Constructors
 
-### new OrganicSerpElementItem()
+### Constructor
 
-> **new OrganicSerpElementItem**(`data`?): [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
+> **new OrganicSerpElementItem**(`data`?): `OrganicSerpElementItem`
 
-Defined in: main.ts:30261
+Defined in: main.ts:30688
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:30261
 
 #### Returns
 
-[`OrganicSerpElementItem`](OrganicSerpElementItem.md)
+`OrganicSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30261
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
-Defined in: main.ts:30244
+Defined in: main.ts:30671
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -76,7 +76,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:30220
+Defined in: main.ts:30647
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -91,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:30197
+Defined in: main.ts:30624
 
 breadcrumb in SERP
 
@@ -105,7 +105,7 @@ breadcrumb in SERP
 
 > `optional` **cache\_url**: `string`
 
-Defined in: main.ts:30192
+Defined in: main.ts:30619
 
 cached version of the page
 
@@ -119,7 +119,7 @@ cached version of the page
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:30211
+Defined in: main.ts:30638
 
 description of the results element in SERP
 
@@ -133,7 +133,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30186
+Defined in: main.ts:30613
 
 domain name of the reference
 
@@ -147,7 +147,7 @@ domain name of the reference
 
 > `optional` **extended\_people\_also\_search**: `string`[]
 
-Defined in: main.ts:30240
+Defined in: main.ts:30667
 
 extension of the organic element
 extension of the organic result containing related search queries
@@ -163,7 +163,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 > `optional` **extended\_snippet**: `string`
 
-Defined in: main.ts:30215
+Defined in: main.ts:30642
 
 includes additional information appended after the result description in SERP
 
@@ -177,7 +177,7 @@ includes additional information appended after the result description in SERP
 
 > `optional` **faq**: [`FaqBox`](FaqBox.md)
 
-Defined in: main.ts:30236
+Defined in: main.ts:30663
 
 frequently asked questions
 questions and answers extension shown below some of Google’s search results
@@ -193,7 +193,7 @@ if there are none, equals null
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:30228
+Defined in: main.ts:30655
 
 words highlighted in bold within the results description
 
@@ -207,7 +207,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:30217
+Defined in: main.ts:30644
 
 images of the element
 
@@ -221,7 +221,7 @@ images of the element
 
 > `optional` **is\_featured\_snippet**: `boolean`
 
-Defined in: main.ts:30205
+Defined in: main.ts:30632
 
 indicates whether the element is a featured_snippet
 
@@ -235,7 +235,7 @@ indicates whether the element is a featured_snippet
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:30201
+Defined in: main.ts:30628
 
 indicates whether the element contains an image
 
@@ -249,7 +249,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_malicious**: `boolean`
 
-Defined in: main.ts:30207
+Defined in: main.ts:30634
 
 indicates whether the element is marked as malicious
 
@@ -263,7 +263,7 @@ indicates whether the element is marked as malicious
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:30203
+Defined in: main.ts:30630
 
 indicates whether the element contains a video
 
@@ -277,7 +277,7 @@ indicates whether the element contains a video
 
 > `optional` **is\_web\_story**: `boolean`
 
-Defined in: main.ts:30209
+Defined in: main.ts:30636
 
 indicates whether the element is marked as Google web story
 
@@ -291,7 +291,7 @@ indicates whether the element is marked as Google web story
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:30232
+Defined in: main.ts:30659
 
 sitelinks
 the links shown below some of Google’s search results
@@ -307,7 +307,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:30182
+Defined in: main.ts:30609
 
 the alignment of the element in SERP
 can take the following values:
@@ -323,7 +323,7 @@ left, right
 
 > `optional` **pre\_snippet**: `string`
 
-Defined in: main.ts:30213
+Defined in: main.ts:30640
 
 includes additional information appended before the result description in SERP
 
@@ -337,7 +337,7 @@ includes additional information appended before the result description in SERP
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:30226
+Defined in: main.ts:30653
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -352,7 +352,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -371,7 +371,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -391,7 +391,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:30223
+Defined in: main.ts:30650
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -406,7 +406,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30257
+Defined in: main.ts:30684
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -422,7 +422,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_result**: [`RelatedResult`](RelatedResult.md)[]
 
-Defined in: main.ts:30248
+Defined in: main.ts:30675
 
 related result from the same domain
 related result from the same domain appears as a part of the main result snippet;
@@ -438,7 +438,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 > `optional` **related\_search\_url**: `string`
 
-Defined in: main.ts:30195
+Defined in: main.ts:30622
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -453,7 +453,7 @@ URL to a new search for the same keyword(s) on related sites
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:30253
+Defined in: main.ts:30680
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -470,7 +470,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30188
+Defined in: main.ts:30615
 
 title of the result in SERP
 
@@ -484,7 +484,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -502,7 +502,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30190
+Defined in: main.ts:30617
 
 relevant URL in SERP
 
@@ -516,7 +516,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:30199
+Defined in: main.ts:30626
 
 name of the website in SERP
 
@@ -530,7 +530,7 @@ name of the website in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:30184
+Defined in: main.ts:30611
 
 the XPath of the element
 
@@ -544,7 +544,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30266
+Defined in: main.ts:30693
 
 #### Parameters
 
@@ -566,7 +566,7 @@ Defined in: main.ts:30266
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30332
+Defined in: main.ts:30759
 
 #### Parameters
 
@@ -586,9 +586,9 @@ Defined in: main.ts:30332
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): `OrganicSerpElementItem`
 
-Defined in: main.ts:30325
+Defined in: main.ts:30752
 
 #### Parameters
 
@@ -598,7 +598,7 @@ Defined in: main.ts:30325
 
 #### Returns
 
-[`OrganicSerpElementItem`](OrganicSerpElementItem.md)
+`OrganicSerpElementItem`
 
 #### Overrides
 

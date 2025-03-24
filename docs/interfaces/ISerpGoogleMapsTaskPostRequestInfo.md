@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 
-Defined in: main.ts:43127
+Defined in: main.ts:43554
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:43127
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:43219
+Defined in: main.ts:43646
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:43196
+Defined in: main.ts:43623
 
 device type
 optional field
@@ -49,7 +49,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:43143
+Defined in: main.ts:43570
 
 keyword
 required field
@@ -67,7 +67,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:43190
+Defined in: main.ts:43617
 
 search engine language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:43183
+Defined in: main.ts:43610
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:43165
+Defined in: main.ts:43592
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -112,7 +112,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:43176
+Defined in: main.ts:43603
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -131,7 +131,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:43158
+Defined in: main.ts:43585
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -146,7 +146,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:43226
+Defined in: main.ts:43653
 
 page crawl limit
 optional field
@@ -161,7 +161,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:43203
+Defined in: main.ts:43630
 
 device operating system
 optional field
@@ -176,7 +176,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:43273
+Defined in: main.ts:43700
 
 notification URL of a completed task
 optional field
@@ -195,7 +195,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:43262
+Defined in: main.ts:43689
 
 postback_url datatype
 required field if you specify postback_url
@@ -209,7 +209,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:43256
+Defined in: main.ts:43683
 
 return URL for sending task results
 optional field
@@ -228,7 +228,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:43151
+Defined in: main.ts:43578
 
 task priority
 optional field
@@ -244,7 +244,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:43210
+Defined in: main.ts:43637
 
 search engine domain
 optional field
@@ -259,7 +259,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:43239
+Defined in: main.ts:43666
 
 search places mode
 optional field
@@ -274,7 +274,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:43232
+Defined in: main.ts:43659
 
 search this area
 optional field
@@ -288,7 +288,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:43245
+Defined in: main.ts:43672
 
 user-defined task identifier
 optional field
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:43133
+Defined in: main.ts:43560
 
 direct URL of the search query
 optional field

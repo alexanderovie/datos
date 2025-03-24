@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskPostRequestInfo
 
-Defined in: main.ts:62793
+Defined in: main.ts:63220
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:62793
 
 ## Constructors
 
-### new SerpGoogleAdsAdvertisersTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleAdsAdvertisersTaskPostRequestInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
+> **new SerpGoogleAdsAdvertisersTaskPostRequestInfo**(`data`?): `SerpGoogleAdsAdvertisersTaskPostRequestInfo`
 
-Defined in: main.ts:62870
+Defined in: main.ts:63297
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:62870
 
 #### Returns
 
-[`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
+`SerpGoogleAdsAdvertisersTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:62870
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:62801
+Defined in: main.ts:63228
 
 keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:62817
+Defined in: main.ts:63244
 
 search engine location code
 optional field
@@ -80,7 +80,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:62824
+Defined in: main.ts:63251
 
 GPS coordinates of a location
 optional field
@@ -99,7 +99,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:62809
+Defined in: main.ts:63236
 
 full name of search engine location
 optional field
@@ -119,7 +119,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:62866
+Defined in: main.ts:63293
 
 notification URL of a completed task
 optional field
@@ -142,7 +142,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:62855
+Defined in: main.ts:63282
 
 postback_url datatype
 required field if you specify postback_url
@@ -160,7 +160,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:62849
+Defined in: main.ts:63276
 
 return URL for sending task results
 optional field
@@ -183,7 +183,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:62832
+Defined in: main.ts:63259
 
 task priority
 optional field
@@ -203,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:62838
+Defined in: main.ts:63265
 
 user-defined task identifier
 optional field
@@ -221,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62879
+Defined in: main.ts:63306
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:62879
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62904
+Defined in: main.ts:63331
 
 #### Parameters
 
@@ -255,9 +255,9 @@ Defined in: main.ts:62904
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAdsAdvertisersTaskPostRequestInfo`
 
-Defined in: main.ts:62897
+Defined in: main.ts:63324
 
 #### Parameters
 
@@ -267,4 +267,4 @@ Defined in: main.ts:62897
 
 #### Returns
 
-[`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
+`SerpGoogleAdsAdvertisersTaskPostRequestInfo`

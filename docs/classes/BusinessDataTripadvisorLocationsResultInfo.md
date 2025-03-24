@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLocationsResultInfo
 
-Defined in: main.ts:236523
+Defined in: main.ts:238932
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:236523
 
 ## Constructors
 
-### new BusinessDataTripadvisorLocationsResultInfo()
+### Constructor
 
-> **new BusinessDataTripadvisorLocationsResultInfo**(`data`?): [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
+> **new BusinessDataTripadvisorLocationsResultInfo**(`data`?): `BusinessDataTripadvisorLocationsResultInfo`
 
-Defined in: main.ts:236541
+Defined in: main.ts:238950
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:236541
 
 #### Returns
 
-[`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
+`BusinessDataTripadvisorLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236541
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:236535
+Defined in: main.ts:238944
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:236525
+Defined in: main.ts:238934
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:236527
+Defined in: main.ts:238936
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:236533
+Defined in: main.ts:238942
 
 the name of the superordinate location
 example:
@@ -100,7 +100,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:236537
+Defined in: main.ts:238946
 
 location type
 
@@ -114,7 +114,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236550
+Defined in: main.ts:238959
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:236550
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236571
+Defined in: main.ts:238980
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:236571
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTripadvisorLocationsResultInfo`
 
-Defined in: main.ts:236564
+Defined in: main.ts:238973
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:236564
 
 #### Returns
 
-[`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
+`BusinessDataTripadvisorLocationsResultInfo`

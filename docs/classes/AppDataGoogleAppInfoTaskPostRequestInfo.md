@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
 
-Defined in: main.ts:210829
+Defined in: main.ts:213238
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:210829
 
 ## Constructors
 
-### new AppDataGoogleAppInfoTaskPostRequestInfo()
+### Constructor
 
-> **new AppDataGoogleAppInfoTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
+> **new AppDataGoogleAppInfoTaskPostRequestInfo**(`data`?): `AppDataGoogleAppInfoTaskPostRequestInfo`
 
-Defined in: main.ts:210909
+Defined in: main.ts:213318
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:210909
 
 #### Returns
 
-[`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
+`AppDataGoogleAppInfoTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210909
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:210837
+Defined in: main.ts:213246
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is org.telegram.messenger
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:210865
+Defined in: main.ts:213274
 
 search engine language code
 required field if language_name is not specified
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:210858
+Defined in: main.ts:213267
 
 full name of search engine language
 required field if language_code is not specified
@@ -98,7 +98,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:210851
+Defined in: main.ts:213260
 
 search engine location code
 required field if you don’t specify location_name
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210844
+Defined in: main.ts:213253
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -136,7 +136,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:210905
+Defined in: main.ts:213314
 
 notification URL of a completed task
 optional field
@@ -158,7 +158,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:210895
+Defined in: main.ts:213304
 
 postback_url datatype
 required field if you specify postback_url
@@ -176,7 +176,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:210889
+Defined in: main.ts:213298
 
 return URL for sending task results
 optional field
@@ -198,7 +198,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:210873
+Defined in: main.ts:213282
 
 task priority
 optional field
@@ -218,7 +218,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:210879
+Defined in: main.ts:213288
 
 user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210918
+Defined in: main.ts:213327
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:210918
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210944
+Defined in: main.ts:213353
 
 #### Parameters
 
@@ -270,9 +270,9 @@ Defined in: main.ts:210944
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppInfoTaskPostRequestInfo`
 
-Defined in: main.ts:210937
+Defined in: main.ts:213346
 
 #### Parameters
 
@@ -282,4 +282,4 @@ Defined in: main.ts:210937
 
 #### Returns
 
-[`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
+`AppDataGoogleAppInfoTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IPriceInfo
 
-Defined in: main.ts:24795
+Defined in: main.ts:25134
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24795
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:24807
+Defined in: main.ts:25146
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -29,7 +29,7 @@ ISO code of the currency applied to the price
 
 > `optional` **current**: `number`
 
-Defined in: main.ts:24798
+Defined in: main.ts:25137
 
 current price
 indicates the current price of the product or service featured in the result
@@ -40,7 +40,7 @@ indicates the current price of the product or service featured in the result
 
 > `optional` **displayed\_price**: `string`
 
-Defined in: main.ts:24813
+Defined in: main.ts:25152
 
 price string in the result
 raw price string as provided in the result
@@ -51,7 +51,7 @@ raw price string as provided in the result
 
 > `optional` **is\_price\_range**: `boolean`
 
-Defined in: main.ts:24810
+Defined in: main.ts:25149
 
 price is provided as a range
 indicates whether a price is provided in a range
@@ -62,7 +62,7 @@ indicates whether a price is provided in a range
 
 > `optional` **max\_value**: `number`
 
-Defined in: main.ts:24804
+Defined in: main.ts:25143
 
 the maximum price
 the maximum price of the product or service as indicated in the result
@@ -73,7 +73,7 @@ the maximum price of the product or service as indicated in the result
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:24801
+Defined in: main.ts:25140
 
 regular price
 indicates the regular price of the product or service with no discounts applied

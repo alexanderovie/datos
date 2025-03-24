@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesResultInfo
 
-Defined in: main.ts:176521
+Defined in: main.ts:178930
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:176521
 
 ## Constructors
 
-### new OnPagePagesResultInfo()
+### Constructor
 
-> **new OnPagePagesResultInfo**(`data`?): [`OnPagePagesResultInfo`](OnPagePagesResultInfo.md)
+> **new OnPagePagesResultInfo**(`data`?): `OnPagePagesResultInfo`
 
-Defined in: main.ts:176536
+Defined in: main.ts:178945
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:176536
 
 #### Returns
 
-[`OnPagePagesResultInfo`](OnPagePagesResultInfo.md)
+`OnPagePagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176536
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:176524
+Defined in: main.ts:178933
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:176526
+Defined in: main.ts:178935
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:176532
+Defined in: main.ts:178941
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:176530
+Defined in: main.ts:178939
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:176528
+Defined in: main.ts:178937
 
 total number of relevant items in the database
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176545
+Defined in: main.ts:178954
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:176545
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176570
+Defined in: main.ts:178979
 
 #### Parameters
 
@@ -145,9 +145,9 @@ Defined in: main.ts:176570
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPagePagesResultInfo`](OnPagePagesResultInfo.md)
+> `static` **fromJS**(`data`): `OnPagePagesResultInfo`
 
-Defined in: main.ts:176563
+Defined in: main.ts:178972
 
 #### Parameters
 
@@ -157,4 +157,4 @@ Defined in: main.ts:176563
 
 #### Returns
 
-[`OnPagePagesResultInfo`](OnPagePagesResultInfo.md)
+`OnPagePagesResultInfo`

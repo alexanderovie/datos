@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
-Defined in: main.ts:46108
+Defined in: main.ts:46535
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:46108
 
 ## Constructors
 
-### new SerpGoogleLocalFinderTaskGetAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleLocalFinderTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+> **new SerpGoogleLocalFinderTaskGetAdvancedResultInfo**(`data`?): `SerpGoogleLocalFinderTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:46147
+Defined in: main.ts:46574
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:46147
 
 #### Returns
 
-[`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:46147
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:46122
+Defined in: main.ts:46549
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided exact results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:46127
+Defined in: main.ts:46554
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:46137
+Defined in: main.ts:46564
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ local_pack
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:46143
+Defined in: main.ts:46570
 
 items of the element
 
@@ -103,7 +103,7 @@ items of the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:46141
+Defined in: main.ts:46568
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:46111
+Defined in: main.ts:46538
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:46119
+Defined in: main.ts:46546
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:46117
+Defined in: main.ts:46544
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:46132
+Defined in: main.ts:46559
 
 search refinement chips
 
@@ -174,7 +174,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:46115
+Defined in: main.ts:46542
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:46139
+Defined in: main.ts:46566
 
 total number of results in SERP
 
@@ -202,7 +202,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:46130
+Defined in: main.ts:46557
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:46113
+Defined in: main.ts:46540
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46156
+Defined in: main.ts:46583
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:46156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:46193
+Defined in: main.ts:46620
 
 #### Parameters
 
@@ -265,9 +265,9 @@ Defined in: main.ts:46193
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocalFinderTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:46186
+Defined in: main.ts:46613
 
 #### Parameters
 
@@ -277,4 +277,4 @@ Defined in: main.ts:46186
 
 #### Returns
 
-[`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`

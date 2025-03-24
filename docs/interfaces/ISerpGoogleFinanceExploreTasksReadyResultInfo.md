@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceExploreTasksReadyResultInfo
 
-Defined in: main.ts:87207
+Defined in: main.ts:87634
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87207
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:87217
+Defined in: main.ts:87644
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:87225
+Defined in: main.ts:87652
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:87228
+Defined in: main.ts:87655
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:87222
+Defined in: main.ts:87649
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:87210
+Defined in: main.ts:87637
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:87212
+Defined in: main.ts:87639
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:87215
+Defined in: main.ts:87642
 
 type of search engine
 example: finance_explore
@@ -93,6 +93,6 @@ example: finance_explore
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:87219
+Defined in: main.ts:87646
 
 user-defined task identifier

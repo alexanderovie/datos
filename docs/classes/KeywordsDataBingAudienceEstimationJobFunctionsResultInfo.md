@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationJobFunctionsResultInfo
 
-Defined in: main.ts:149395
+Defined in: main.ts:151804
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:149395
 
 ## Constructors
 
-### new KeywordsDataBingAudienceEstimationJobFunctionsResultInfo()
+### Constructor
 
-> **new KeywordsDataBingAudienceEstimationJobFunctionsResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
+> **new KeywordsDataBingAudienceEstimationJobFunctionsResultInfo**(`data`?): `KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`
 
-Defined in: main.ts:149403
+Defined in: main.ts:151812
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:149403
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
+`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149403
 
 > `optional` **job\_function\_id**: `number`
 
-Defined in: main.ts:149397
+Defined in: main.ts:151806
 
 ID of the job function
 
@@ -54,7 +54,7 @@ ID of the job function
 
 > `optional` **job\_function\_name**: `string`
 
-Defined in: main.ts:149399
+Defined in: main.ts:151808
 
 name of the job function
 
@@ -68,7 +68,7 @@ name of the job function
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149412
+Defined in: main.ts:151821
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:149412
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149430
+Defined in: main.ts:151839
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:149430
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`
 
-Defined in: main.ts:149423
+Defined in: main.ts:151832
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:149423
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
+`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`

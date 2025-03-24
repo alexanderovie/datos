@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsResultInfo
 
-Defined in: main.ts:84623
+Defined in: main.ts:85050
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:84623
 
 ## Constructors
 
-### new SerpSeznamLocationsResultInfo()
+### Constructor
 
-> **new SerpSeznamLocationsResultInfo**(`data`?): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+> **new SerpSeznamLocationsResultInfo**(`data`?): `SerpSeznamLocationsResultInfo`
 
-Defined in: main.ts:84639
+Defined in: main.ts:85066
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:84639
 
 #### Returns
 
-[`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+`SerpSeznamLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84639
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:84633
+Defined in: main.ts:85060
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84625
+Defined in: main.ts:85052
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:84631
+Defined in: main.ts:85058
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:84627
+Defined in: main.ts:85054
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:84635
+Defined in: main.ts:85062
 
 location type
 
@@ -112,7 +112,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84648
+Defined in: main.ts:85075
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:84648
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84669
+Defined in: main.ts:85096
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:84669
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `SerpSeznamLocationsResultInfo`
 
-Defined in: main.ts:84662
+Defined in: main.ts:85089
 
 #### Parameters
 
@@ -158,4 +158,4 @@ Defined in: main.ts:84662
 
 #### Returns
 
-[`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)
+`SerpSeznamLocationsResultInfo`

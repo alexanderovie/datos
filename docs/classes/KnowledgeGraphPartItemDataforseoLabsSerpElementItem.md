@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117026
+Defined in: main.ts:118409
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117026
 
 ## Constructors
 
-### new KnowledgeGraphPartItemDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphPartItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
+> **new KnowledgeGraphPartItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphPartItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117040
+Defined in: main.ts:118423
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117040
 
 #### Returns
 
-[`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117040
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:117032
+Defined in: main.ts:118415
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:117036
+Defined in: main.ts:118419
 
 link of the element
 
@@ -90,7 +90,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -110,7 +110,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -129,7 +129,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:117034
+Defined in: main.ts:118417
 
 description content
 
@@ -162,7 +162,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117028
+Defined in: main.ts:118411
 
 title of the element
 
@@ -176,7 +176,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -212,7 +212,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117045
+Defined in: main.ts:118428
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:117045
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117070
+Defined in: main.ts:118453
 
 #### Parameters
 
@@ -254,9 +254,9 @@ Defined in: main.ts:117070
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphPartItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117063
+Defined in: main.ts:118446
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:117063
 
 #### Returns
 
-[`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 

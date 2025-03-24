@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamLocationsCountryResultInfo
 
-Defined in: main.ts:84872
+Defined in: main.ts:85299
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:84872
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:84882
+Defined in: main.ts:85309
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84874
+Defined in: main.ts:85301
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:84880
+Defined in: main.ts:85307
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -50,7 +50,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:84876
+Defined in: main.ts:85303
 
 full name of the location
 
@@ -60,6 +60,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:84884
+Defined in: main.ts:85311
 
 location type

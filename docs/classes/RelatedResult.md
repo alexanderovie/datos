@@ -6,7 +6,7 @@
 
 # Class: RelatedResult
 
-Defined in: main.ts:33000
+Defined in: main.ts:33427
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:33000
 
 ## Constructors
 
-### new RelatedResult()
+### Constructor
 
-> **new RelatedResult**(`data`?): [`RelatedResult`](RelatedResult.md)
+> **new RelatedResult**(`data`?): `RelatedResult`
 
-Defined in: main.ts:33054
+Defined in: main.ts:33481
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:33054
 
 #### Returns
 
-[`RelatedResult`](RelatedResult.md)
+`RelatedResult`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33054
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
-Defined in: main.ts:33045
+Defined in: main.ts:33472
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -56,7 +56,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:33034
+Defined in: main.ts:33461
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -71,7 +71,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:33017
+Defined in: main.ts:33444
 
 breadcrumb in SERP
 
@@ -85,7 +85,7 @@ breadcrumb in SERP
 
 > `optional` **cache\_url**: `string`
 
-Defined in: main.ts:33012
+Defined in: main.ts:33439
 
 cached version of the page
 
@@ -99,7 +99,7 @@ cached version of the page
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33025
+Defined in: main.ts:33452
 
 description of the hotel booking element
 
@@ -113,7 +113,7 @@ description of the hotel booking element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:33006
+Defined in: main.ts:33433
 
 domain where a link points
 
@@ -127,7 +127,7 @@ domain where a link points
 
 > `optional` **extended\_snippet**: `string`
 
-Defined in: main.ts:33029
+Defined in: main.ts:33456
 
 includes additional information appended after the result description in SERP
 
@@ -141,7 +141,7 @@ includes additional information appended after the result description in SERP
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:33041
+Defined in: main.ts:33468
 
 words highlighted in bold within the results description
 
@@ -155,7 +155,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:33031
+Defined in: main.ts:33458
 
 images of the element
 
@@ -169,7 +169,7 @@ images of the element
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:33021
+Defined in: main.ts:33448
 
 indicates whether the element contains an image
 
@@ -183,7 +183,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:33023
+Defined in: main.ts:33450
 
 indicates whether the element contains a video
 
@@ -197,7 +197,7 @@ indicates whether the element contains a video
 
 > `optional` **pre\_snippet**: `string`
 
-Defined in: main.ts:33027
+Defined in: main.ts:33454
 
 includes additional information appended before the result description in SERP
 
@@ -211,7 +211,7 @@ includes additional information appended before the result description in SERP
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:33039
+Defined in: main.ts:33466
 
 price of booking a place for the specified dates of stay
 
@@ -225,7 +225,7 @@ price of booking a place for the specified dates of stay
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:33037
+Defined in: main.ts:33464
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -240,7 +240,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **related\_search\_url**: `string`
 
-Defined in: main.ts:33015
+Defined in: main.ts:33442
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -255,7 +255,7 @@ URL to a new search for the same keyword(s) on related sites
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33050
+Defined in: main.ts:33477
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -272,7 +272,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33008
+Defined in: main.ts:33435
 
 title of a given link element
 
@@ -286,7 +286,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33002
+Defined in: main.ts:33429
 
 type of element
 
@@ -300,7 +300,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33010
+Defined in: main.ts:33437
 
 reference page URL
 
@@ -314,7 +314,7 @@ reference page URL
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:33019
+Defined in: main.ts:33446
 
 name of the website in the ad element
 
@@ -328,7 +328,7 @@ name of the website in the ad element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33004
+Defined in: main.ts:33431
 
 the XPath of the element
 
@@ -342,7 +342,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33063
+Defined in: main.ts:33490
 
 #### Parameters
 
@@ -360,7 +360,7 @@ Defined in: main.ts:33063
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33108
+Defined in: main.ts:33535
 
 #### Parameters
 
@@ -376,9 +376,9 @@ Defined in: main.ts:33108
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
+> `static` **fromJS**(`data`): `RelatedResult`
 
-Defined in: main.ts:33101
+Defined in: main.ts:33528
 
 #### Parameters
 
@@ -388,4 +388,4 @@ Defined in: main.ts:33101
 
 #### Returns
 
-[`RelatedResult`](RelatedResult.md)
+`RelatedResult`

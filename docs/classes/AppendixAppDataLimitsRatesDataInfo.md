@@ -6,7 +6,7 @@
 
 # Class: AppendixAppDataLimitsRatesDataInfo
 
-Defined in: main.ts:241735
+Defined in: main.ts:244148
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:241735
 
 ## Constructors
 
-### new AppendixAppDataLimitsRatesDataInfo()
+### Constructor
 
-> **new AppendixAppDataLimitsRatesDataInfo**(`data`?): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+> **new AppendixAppDataLimitsRatesDataInfo**(`data`?): `AppendixAppDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241749
+Defined in: main.ts:244162
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:241749
 
 #### Returns
 
-[`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+`AppendixAppDataLimitsRatesDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241749
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241736
+Defined in: main.ts:244149
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:241736
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241737
+Defined in: main.ts:244150
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:241737
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241744
+Defined in: main.ts:244157
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:241744
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241738
+Defined in: main.ts:244151
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:241738
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241739
+Defined in: main.ts:244152
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:241739
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:241743
+Defined in: main.ts:244156
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:241743
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:241740
+Defined in: main.ts:244153
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:241740
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:241741
+Defined in: main.ts:244154
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:241741
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:241742
+Defined in: main.ts:244155
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:241742
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:241745
+Defined in: main.ts:244158
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:241745
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:241758
+Defined in: main.ts:244171
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:241758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:241784
+Defined in: main.ts:244197
 
 #### Parameters
 
@@ -194,9 +194,9 @@ Defined in: main.ts:241784
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixAppDataLimitsRatesDataInfo`
 
-Defined in: main.ts:241777
+Defined in: main.ts:244190
 
 #### Parameters
 
@@ -206,4 +206,4 @@ Defined in: main.ts:241777
 
 #### Returns
 
-[`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+`AppendixAppDataLimitsRatesDataInfo`

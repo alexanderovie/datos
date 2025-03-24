@@ -6,7 +6,7 @@
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:236141
+Defined in: main.ts:238550
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:236141
 
 ## Constructors
 
-### new TrustpilotReviewSearchBusinessDataSerpElementItem()
+### Constructor
 
-> **new TrustpilotReviewSearchBusinessDataSerpElementItem**(`data`?): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
+> **new TrustpilotReviewSearchBusinessDataSerpElementItem**(`data`?): `TrustpilotReviewSearchBusinessDataSerpElementItem`
 
-Defined in: main.ts:236173
+Defined in: main.ts:238582
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:236173
 
 #### Returns
 
-[`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
+`TrustpilotReviewSearchBusinessDataSerpElementItem`
 
 #### Overrides
 
-[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:236173
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23016
+Defined in: main.ts:23355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23016
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:236152
+Defined in: main.ts:238561
 
 the language of the review
 
@@ -74,7 +74,7 @@ the language of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:236144
+Defined in: main.ts:238553
 
 the alignment of the review in SERP
 can take the following values: right
@@ -89,7 +89,7 @@ can take the following values: right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23014
+Defined in: main.ts:23353
 
 absolute rank among all the elements
 
@@ -107,7 +107,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23012
+Defined in: main.ts:23351
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:236148
+Defined in: main.ts:238557
 
 the rating score submitted by the reviewer
 
@@ -140,7 +140,7 @@ the rating score submitted by the reviewer
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
 
-Defined in: main.ts:236169
+Defined in: main.ts:238578
 
 owner’s response to the submitted review
 
@@ -154,7 +154,7 @@ owner’s response to the submitted review
 
 > `optional` **review\_images**: `string`[]
 
-Defined in: main.ts:236165
+Defined in: main.ts:238574
 
 images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
@@ -170,7 +170,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:236161
+Defined in: main.ts:238570
 
 the content of the review
 
@@ -184,7 +184,7 @@ the content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:236157
+Defined in: main.ts:238566
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -201,7 +201,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:236159
+Defined in: main.ts:238568
 
 the title of the review
 
@@ -215,7 +215,7 @@ the title of the review
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23009
+Defined in: main.ts:23348
 
 type of element
 
@@ -233,7 +233,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:236146
+Defined in: main.ts:238555
 
 the URL of the review
 
@@ -247,7 +247,7 @@ the URL of the review
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:236167
+Defined in: main.ts:238576
 
 user profile of the reviewer
 
@@ -261,7 +261,7 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:236150
+Defined in: main.ts:238559
 
 indicates whether the review has the “Verified” mark
 
@@ -275,7 +275,7 @@ indicates whether the review has the “Verified” mark
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236178
+Defined in: main.ts:238587
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: main.ts:236178
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236214
+Defined in: main.ts:238623
 
 #### Parameters
 
@@ -317,9 +317,9 @@ Defined in: main.ts:236214
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `TrustpilotReviewSearchBusinessDataSerpElementItem`
 
-Defined in: main.ts:236207
+Defined in: main.ts:238616
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:236207
 
 #### Returns
 
-[`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
+`TrustpilotReviewSearchBusinessDataSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:110895
+Defined in: main.ts:112200
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:110895
 
 ## Constructors
 
-### new DataforseoLabsGoogleRankedKeywordsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+> **new DataforseoLabsGoogleRankedKeywordsLiveResultInfo**(`data`?): `DataforseoLabsGoogleRankedKeywordsLiveResultInfo`
 
-Defined in: main.ts:110921
+Defined in: main.ts:112226
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:110921
 
 #### Returns
 
-[`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110921
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:110917
+Defined in: main.ts:112222
 
 contains ranked keywords and related data
 
@@ -54,7 +54,7 @@ contains ranked keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:110909
+Defined in: main.ts:112214
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110905
+Defined in: main.ts:112210
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110902
+Defined in: main.ts:112207
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:110912
+Defined in: main.ts:112217
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 > `optional` **metrics\_absolute**: `object`
 
-Defined in: main.ts:110915
+Defined in: main.ts:112220
 
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
@@ -136,7 +136,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110897
+Defined in: main.ts:112202
 
 search engine type
 
@@ -150,7 +150,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:110899
+Defined in: main.ts:112204
 
 target domain in a POST array
 
@@ -164,7 +164,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:110907
+Defined in: main.ts:112212
 
 total number of results in our database relevant to your request
 
@@ -178,7 +178,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110930
+Defined in: main.ts:112235
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:110930
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110971
+Defined in: main.ts:112276
 
 #### Parameters
 
@@ -212,9 +212,9 @@ Defined in: main.ts:110971
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleRankedKeywordsLiveResultInfo`
 
-Defined in: main.ts:110964
+Defined in: main.ts:112269
 
 #### Parameters
 
@@ -224,4 +224,4 @@ Defined in: main.ts:110964
 
 #### Returns
 
-[`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)
+`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`

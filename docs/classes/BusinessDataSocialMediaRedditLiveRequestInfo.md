@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveRequestInfo
 
-Defined in: main.ts:239523
+Defined in: main.ts:241932
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:239523
 
 ## Constructors
 
-### new BusinessDataSocialMediaRedditLiveRequestInfo()
+### Constructor
 
-> **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+> **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data`?): `BusinessDataSocialMediaRedditLiveRequestInfo`
 
-Defined in: main.ts:239540
+Defined in: main.ts:241949
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:239540
 
 #### Returns
 
-[`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+`BusinessDataSocialMediaRedditLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239540
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:239536
+Defined in: main.ts:241945
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:239530
+Defined in: main.ts:241939
 
 target URLs
 required field
@@ -77,7 +77,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239549
+Defined in: main.ts:241958
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:239549
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239571
+Defined in: main.ts:241980
 
 #### Parameters
 
@@ -111,9 +111,9 @@ Defined in: main.ts:239571
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataSocialMediaRedditLiveRequestInfo`
 
-Defined in: main.ts:239564
+Defined in: main.ts:241973
 
 #### Parameters
 
@@ -123,4 +123,4 @@ Defined in: main.ts:239564
 
 #### Returns
 
-[`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+`BusinessDataSocialMediaRedditLiveRequestInfo`

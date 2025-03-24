@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveAdvancedResultInfo
 
-Defined in: main.ts:42120
+Defined in: main.ts:42547
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:42120
 
 ## Constructors
 
-### new SerpGoogleOrganicLiveAdvancedResultInfo()
+### Constructor
 
-> **new SerpGoogleOrganicLiveAdvancedResultInfo**(`data`?): [`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
+> **new SerpGoogleOrganicLiveAdvancedResultInfo**(`data`?): `SerpGoogleOrganicLiveAdvancedResultInfo`
 
-Defined in: main.ts:42160
+Defined in: main.ts:42587
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:42160
 
 #### Returns
 
-[`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
+`SerpGoogleOrganicLiveAdvancedResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42160
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:42134
+Defined in: main.ts:42561
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:42139
+Defined in: main.ts:42566
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:42149
+Defined in: main.ts:42576
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:42156
+Defined in: main.ts:42583
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:42153
+Defined in: main.ts:42580
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42123
+Defined in: main.ts:42550
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42131
+Defined in: main.ts:42558
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42129
+Defined in: main.ts:42556
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:42144
+Defined in: main.ts:42571
 
 search refinement chips
 
@@ -175,7 +175,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42127
+Defined in: main.ts:42554
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:42151
+Defined in: main.ts:42578
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:42142
+Defined in: main.ts:42569
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:42125
+Defined in: main.ts:42552
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42169
+Defined in: main.ts:42596
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:42169
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42206
+Defined in: main.ts:42633
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:42206
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleOrganicLiveAdvancedResultInfo`
 
-Defined in: main.ts:42199
+Defined in: main.ts:42626
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:42199
 
 #### Returns
 
-[`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)
+`SerpGoogleOrganicLiveAdvancedResultInfo`

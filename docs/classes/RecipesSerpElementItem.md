@@ -6,7 +6,7 @@
 
 # Class: RecipesSerpElementItem
 
-Defined in: main.ts:36230
+Defined in: main.ts:36657
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:36230
 
 ## Constructors
 
-### new RecipesSerpElementItem()
+### Constructor
 
-> **new RecipesSerpElementItem**(`data`?): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+> **new RecipesSerpElementItem**(`data`?): `RecipesSerpElementItem`
 
-Defined in: main.ts:36246
+Defined in: main.ts:36673
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:36246
 
 #### Returns
 
-[`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+`RecipesSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36246
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:36238
+Defined in: main.ts:36665
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:36234
+Defined in: main.ts:36661
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36242
+Defined in: main.ts:36669
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:36236
+Defined in: main.ts:36663
 
 the XPath of the element
 
@@ -177,7 +177,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36251
+Defined in: main.ts:36678
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:36251
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36276
+Defined in: main.ts:36703
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:36276
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+> `static` **fromJS**(`data`): `RecipesSerpElementItem`
 
-Defined in: main.ts:36269
+Defined in: main.ts:36696
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:36269
 
 #### Returns
 
-[`RecipesSerpElementItem`](RecipesSerpElementItem.md)
+`RecipesSerpElementItem`
 
 #### Overrides
 

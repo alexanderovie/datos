@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantDayStatisticsRatesData
 
-Defined in: main.ts:243291
+Defined in: main.ts:245652
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:243291
 
 ## Constructors
 
-### new AppendixMerchantDayStatisticsRatesData()
+### Constructor
 
-> **new AppendixMerchantDayStatisticsRatesData**(`data`?): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
+> **new AppendixMerchantDayStatisticsRatesData**(`data`?): `AppendixMerchantDayStatisticsRatesData`
 
-Defined in: main.ts:243303
+Defined in: main.ts:245664
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:243303
 
 #### Returns
 
-[`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
+`AppendixMerchantDayStatisticsRatesData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243303
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:243293
+Defined in: main.ts:245654
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243293
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243296
+Defined in: main.ts:245657
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243296
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:243292
+Defined in: main.ts:245653
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243292
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:243299
+Defined in: main.ts:245660
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243299
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:243295
+Defined in: main.ts:245656
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243295
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:243294
+Defined in: main.ts:245655
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243294
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243297
+Defined in: main.ts:245658
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243297
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243298
+Defined in: main.ts:245659
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:243298
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:243312
+Defined in: main.ts:245673
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:243312
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:243336
+Defined in: main.ts:245697
 
 #### Parameters
 
@@ -170,9 +170,9 @@ Defined in: main.ts:243336
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
+> `static` **fromJS**(`data`): `AppendixMerchantDayStatisticsRatesData`
 
-Defined in: main.ts:243329
+Defined in: main.ts:245690
 
 #### Parameters
 
@@ -182,4 +182,4 @@ Defined in: main.ts:243329
 
 #### Returns
 
-[`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
+`AppendixMerchantDayStatisticsRatesData`

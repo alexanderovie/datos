@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchLocationsResultInfo
 
-Defined in: main.ts:63944
+Defined in: main.ts:64371
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:63944
 
 ## Constructors
 
-### new SerpGoogleAdsSearchLocationsResultInfo()
+### Constructor
 
-> **new SerpGoogleAdsSearchLocationsResultInfo**(`data`?): [`SerpGoogleAdsSearchLocationsResultInfo`](SerpGoogleAdsSearchLocationsResultInfo.md)
+> **new SerpGoogleAdsSearchLocationsResultInfo**(`data`?): `SerpGoogleAdsSearchLocationsResultInfo`
 
-Defined in: main.ts:63965
+Defined in: main.ts:64392
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:63965
 
 #### Returns
 
-[`SerpGoogleAdsSearchLocationsResultInfo`](SerpGoogleAdsSearchLocationsResultInfo.md)
+`SerpGoogleAdsSearchLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:63965
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:63959
+Defined in: main.ts:64386
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:63946
+Defined in: main.ts:64373
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:63957
+Defined in: main.ts:64384
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:63948
+Defined in: main.ts:64375
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:63961
+Defined in: main.ts:64388
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63974
+Defined in: main.ts:64401
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:63974
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63995
+Defined in: main.ts:64422
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:63995
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleAdsSearchLocationsResultInfo`](SerpGoogleAdsSearchLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleAdsSearchLocationsResultInfo`
 
-Defined in: main.ts:63988
+Defined in: main.ts:64415
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:63988
 
 #### Returns
 
-[`SerpGoogleAdsSearchLocationsResultInfo`](SerpGoogleAdsSearchLocationsResultInfo.md)
+`SerpGoogleAdsSearchLocationsResultInfo`

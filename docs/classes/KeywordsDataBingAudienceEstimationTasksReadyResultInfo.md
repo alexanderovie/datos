@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTasksReadyResultInfo
 
-Defined in: main.ts:150009
+Defined in: main.ts:152418
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:150009
 
 ## Constructors
 
-### new KeywordsDataBingAudienceEstimationTasksReadyResultInfo()
+### Constructor
 
-> **new KeywordsDataBingAudienceEstimationTasksReadyResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`](KeywordsDataBingAudienceEstimationTasksReadyResultInfo.md)
+> **new KeywordsDataBingAudienceEstimationTasksReadyResultInfo**(`data`?): `KeywordsDataBingAudienceEstimationTasksReadyResultInfo`
 
-Defined in: main.ts:150026
+Defined in: main.ts:152435
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:150026
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`](KeywordsDataBingAudienceEstimationTasksReadyResultInfo.md)
+`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150026
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:150018
+Defined in: main.ts:152427
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:150022
+Defined in: main.ts:152431
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:150016
+Defined in: main.ts:152425
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:150012
+Defined in: main.ts:152421
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:150014
+Defined in: main.ts:152423
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:150020
+Defined in: main.ts:152429
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:150035
+Defined in: main.ts:152444
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:150035
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:150057
+Defined in: main.ts:152466
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:150057
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`](KeywordsDataBingAudienceEstimationTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationTasksReadyResultInfo`
 
-Defined in: main.ts:150050
+Defined in: main.ts:152459
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:150050
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`](KeywordsDataBingAudienceEstimationTasksReadyResultInfo.md)
+`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`

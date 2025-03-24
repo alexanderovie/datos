@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLocationsResultInfo
 
-Defined in: main.ts:200494
+Defined in: main.ts:202903
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:200494
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:200506
+Defined in: main.ts:202915
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:200496
+Defined in: main.ts:202905
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:200498
+Defined in: main.ts:202907
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:200504
+Defined in: main.ts:202913
 
 the name of the superordinate location
 example:
@@ -62,6 +62,6 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:200508
+Defined in: main.ts:202917
 
 location type

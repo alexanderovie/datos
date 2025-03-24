@@ -6,7 +6,7 @@
 
 # Class: WorkDayInfo
 
-Defined in: main.ts:23783
+Defined in: main.ts:24122
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:23783
 
 ## Constructors
 
-### new WorkDayInfo()
+### Constructor
 
-> **new WorkDayInfo**(`data`?): [`WorkDayInfo`](WorkDayInfo.md)
+> **new WorkDayInfo**(`data`?): `WorkDayInfo`
 
-Defined in: main.ts:23791
+Defined in: main.ts:24130
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:23791
 
 #### Returns
 
-[`WorkDayInfo`](WorkDayInfo.md)
+`WorkDayInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23791
 
 > `optional` **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:23787
+Defined in: main.ts:24126
 
 closing time
 
@@ -54,7 +54,7 @@ closing time
 
 > `optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:23785
+Defined in: main.ts:24124
 
 opening time
 
@@ -68,7 +68,7 @@ opening time
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23800
+Defined in: main.ts:24139
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:23800
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23818
+Defined in: main.ts:24157
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:23818
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
+> `static` **fromJS**(`data`): `WorkDayInfo`
 
-Defined in: main.ts:23811
+Defined in: main.ts:24150
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:23811
 
 #### Returns
 
-[`WorkDayInfo`](WorkDayInfo.md)
+`WorkDayInfo`

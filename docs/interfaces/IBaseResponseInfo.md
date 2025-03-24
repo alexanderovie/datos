@@ -6,7 +6,7 @@
 
 # Interface: IBaseResponseInfo
 
-Defined in: main.ts:26079
+Defined in: main.ts:26418
 
 ## Extended by
 
@@ -181,6 +181,10 @@ Defined in: main.ts:26079
 - [`ISerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](ISerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)
 - [`ISerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](ISerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)
 - [`ISerpGoogleFinanceQuoteLiveHtmlResponseInfo`](ISerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)
+- [`ISerpGoogleFinanceTickerSearchTaskPostResponseInfo`](ISerpGoogleFinanceTickerSearchTaskPostResponseInfo.md)
+- [`ISerpGoogleFinanceTickerSearchTasksReadyResponseInfo`](ISerpGoogleFinanceTickerSearchTasksReadyResponseInfo.md)
+- [`ISerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo`](ISerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.md)
+- [`ISerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo`](ISerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.md)
 - [`IDomainAnalyticsIdListResponseInfo`](IDomainAnalyticsIdListResponseInfo.md)
 - [`IDomainAnalyticsErrorsResponseInfo`](IDomainAnalyticsErrorsResponseInfo.md)
 - [`IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)
@@ -206,7 +210,6 @@ Defined in: main.ts:26079
 - [`IDataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](IDataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](IDataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](IDataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)
-- [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleSearchIntentLiveResponseInfo`](IDataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
@@ -228,6 +231,8 @@ Defined in: main.ts:26079
 - [`IDataforseoLabsGooglePageIntersectionLiveResponseInfo`](IDataforseoLabsGooglePageIntersectionLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](IDataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)
+- [`IDataforseoLabsGoogleHistoricalKeywordDataLiveResponseInfo`](IDataforseoLabsGoogleHistoricalKeywordDataLiveResponseInfo.md)
+- [`IDataforseoLabsGoogleKeywordOverviewLiveResponseInfo`](IDataforseoLabsGoogleKeywordOverviewLiveResponseInfo.md)
 - [`IDataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](IDataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)
 - [`IDataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](IDataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)
 - [`IDataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](IDataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)
@@ -552,7 +557,7 @@ Defined in: main.ts:26079
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26091
+Defined in: main.ts:26430
 
 total tasks cost, USD
 
@@ -562,7 +567,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26084
+Defined in: main.ts:26423
 
 general status code
 you can find the full list of the response codes here
@@ -573,7 +578,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26087
+Defined in: main.ts:26426
 
 general informational message
 you can find the full list of general informational messages here
@@ -584,7 +589,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26093
+Defined in: main.ts:26432
 
 the number of tasks in the tasks array
 
@@ -594,7 +599,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26095
+Defined in: main.ts:26434
 
 the number of tasks in the tasks array returned with an error
 
@@ -604,7 +609,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26089
+Defined in: main.ts:26428
 
 total execution time, seconds
 
@@ -614,6 +619,6 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26081
+Defined in: main.ts:26420
 
 the current version of the API

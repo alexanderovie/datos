@@ -6,7 +6,7 @@
 
 # Class: LocalServicesSerpElementItem
 
-Defined in: main.ts:38138
+Defined in: main.ts:38565
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:38138
 
 ## Constructors
 
-### new LocalServicesSerpElementItem()
+### Constructor
 
-> **new LocalServicesSerpElementItem**(`data`?): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+> **new LocalServicesSerpElementItem**(`data`?): `LocalServicesSerpElementItem`
 
-Defined in: main.ts:38160
+Defined in: main.ts:38587
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:38160
 
 #### Returns
 
-[`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+`LocalServicesSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38160
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38150
+Defined in: main.ts:38577
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:38152
+Defined in: main.ts:38579
 
 contains arrays of specific images
 
@@ -88,7 +88,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38142
+Defined in: main.ts:38569
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,7 +104,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38156
+Defined in: main.ts:38583
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -159,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38146
+Defined in: main.ts:38573
 
 title of the row
 
@@ -173,7 +173,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38148
+Defined in: main.ts:38575
 
 source URL
 
@@ -205,7 +205,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38144
+Defined in: main.ts:38571
 
 the XPath of the element
 
@@ -219,7 +219,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38165
+Defined in: main.ts:38592
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:38165
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38193
+Defined in: main.ts:38620
 
 #### Parameters
 
@@ -261,9 +261,9 @@ Defined in: main.ts:38193
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+> `static` **fromJS**(`data`): `LocalServicesSerpElementItem`
 
-Defined in: main.ts:38186
+Defined in: main.ts:38613
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:38186
 
 #### Returns
 
-[`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+`LocalServicesSerpElementItem`
 
 #### Overrides
 

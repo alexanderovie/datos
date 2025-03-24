@@ -6,7 +6,7 @@
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 
-Defined in: main.ts:242230
+Defined in: main.ts:244643
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:242230
 
 > `optional` **keywords\_for\_category**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:242231
+Defined in: main.ts:244644
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:242231
 
 > `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:242232
+Defined in: main.ts:244645

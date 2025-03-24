@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsErrorsRequestInfo
 
-Defined in: main.ts:94098
+Defined in: main.ts:96001
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:94098
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:94121
+Defined in: main.ts:96024
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:94128
+Defined in: main.ts:96031
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:94114
+Defined in: main.ts:96017
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:94103
+Defined in: main.ts:96006
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:94108
+Defined in: main.ts:96011
 
 offset in the results array of returned tasks
 optional field

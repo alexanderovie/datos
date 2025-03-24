@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
-Defined in: main.ts:76603
+Defined in: main.ts:77030
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:76603
 
 ## Constructors
 
-### new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+> **new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo**(`data`?): `SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:76665
+Defined in: main.ts:77092
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:76665
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:76665
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:76655
+Defined in: main.ts:77082
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:76641
+Defined in: main.ts:77068
 
 device type
 optional field
@@ -77,7 +77,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:76637
+Defined in: main.ts:77064
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:76630
+Defined in: main.ts:77057
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:76623
+Defined in: main.ts:77050
 
 search engine location code
 required field if you don’t specify location_name 
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:76616
+Defined in: main.ts:77043
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:76646
+Defined in: main.ts:77073
 
 device operating system
 optional field
@@ -170,7 +170,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:76661
+Defined in: main.ts:77088
 
 user-defined task identifier
 optional field
@@ -188,7 +188,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:76609
+Defined in: main.ts:77036
 
 ID of the video
 required field
@@ -206,7 +206,7 @@ vQXvyV0zIP4
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:76674
+Defined in: main.ts:77101
 
 #### Parameters
 
@@ -224,7 +224,7 @@ Defined in: main.ts:76674
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:76699
+Defined in: main.ts:77126
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:76699
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:76692
+Defined in: main.ts:77119
 
 #### Parameters
 
@@ -252,4 +252,4 @@ Defined in: main.ts:76692
 
 #### Returns
 
-[`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-Defined in: main.ts:114849
+Defined in: main.ts:116154
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:114849
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+> **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`
 
-Defined in: main.ts:114909
+Defined in: main.ts:116214
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:114909
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114909
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:114862
+Defined in: main.ts:116167
 
 starting date of the time range
 optional field
@@ -58,7 +58,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:114869
+Defined in: main.ts:116174
 
 ending date of the time range
 optional field
@@ -77,7 +77,7 @@ example:
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:114856
+Defined in: main.ts:116161
 
 keyword
 required field
@@ -96,7 +96,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114899
+Defined in: main.ts:116204
 
 unique language identifier
 required field if you don’t specify language_name
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114891
+Defined in: main.ts:116196
 
 full name of the language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114883
+Defined in: main.ts:116188
 
 unique location identifier
 required field if you don’t specify location_name
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114876
+Defined in: main.ts:116181
 
 full name of the location
 required field if you don’t specify location_code
@@ -174,7 +174,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114905
+Defined in: main.ts:116210
 
 user-defined task identifier
 optional field
@@ -192,7 +192,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114918
+Defined in: main.ts:116223
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:114918
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114942
+Defined in: main.ts:116247
 
 #### Parameters
 
@@ -226,9 +226,9 @@ Defined in: main.ts:114942
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`
 
-Defined in: main.ts:114935
+Defined in: main.ts:116240
 
 #### Parameters
 
@@ -238,4 +238,4 @@ Defined in: main.ts:114935
 
 #### Returns
 
-[`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`

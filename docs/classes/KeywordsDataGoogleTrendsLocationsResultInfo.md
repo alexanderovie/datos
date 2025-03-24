@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLocationsResultInfo
 
-Defined in: main.ts:142003
+Defined in: main.ts:144404
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:142003
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsLocationsResultInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsLocationsResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
+> **new KeywordsDataGoogleTrendsLocationsResultInfo**(`data`?): `KeywordsDataGoogleTrendsLocationsResultInfo`
 
-Defined in: main.ts:142031
+Defined in: main.ts:144432
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:142031
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
+`KeywordsDataGoogleTrendsLocationsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:142031
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:142018
+Defined in: main.ts:144419
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:142027
+Defined in: main.ts:144428
 
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -69,7 +69,7 @@ you can use this field for matching obtained results with the location_code para
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:142024
+Defined in: main.ts:144425
 
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -84,7 +84,7 @@ you can use this field for matching obtained results with the location_name para
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:142005
+Defined in: main.ts:144406
 
 location code
 
@@ -98,7 +98,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:142016
+Defined in: main.ts:144417
 
 the code of the superordinate location
 example:
@@ -119,7 +119,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:142007
+Defined in: main.ts:144408
 
 full name of the location
 
@@ -133,7 +133,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:142021
+Defined in: main.ts:144422
 
 location type
 possible values according to Google’s target types
@@ -148,7 +148,7 @@ possible values according to Google’s target types
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142040
+Defined in: main.ts:144441
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:142040
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142063
+Defined in: main.ts:144464
 
 #### Parameters
 
@@ -182,9 +182,9 @@ Defined in: main.ts:142063
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsLocationsResultInfo`
 
-Defined in: main.ts:142056
+Defined in: main.ts:144457
 
 #### Parameters
 
@@ -194,4 +194,4 @@ Defined in: main.ts:142056
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
+`KeywordsDataGoogleTrendsLocationsResultInfo`

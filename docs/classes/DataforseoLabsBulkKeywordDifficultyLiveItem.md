@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBulkKeywordDifficultyLiveItem
 
-Defined in: main.ts:105457
+Defined in: main.ts:106754
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:105457
 
 ## Constructors
 
-### new DataforseoLabsBulkKeywordDifficultyLiveItem()
+### Constructor
 
-> **new DataforseoLabsBulkKeywordDifficultyLiveItem**(`data`?): [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)
+> **new DataforseoLabsBulkKeywordDifficultyLiveItem**(`data`?): `DataforseoLabsBulkKeywordDifficultyLiveItem`
 
-Defined in: main.ts:105470
+Defined in: main.ts:106767
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:105470
 
 #### Returns
 
-[`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)
+`DataforseoLabsBulkKeywordDifficultyLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105470
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105461
+Defined in: main.ts:106758
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:105466
+Defined in: main.ts:106763
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -71,7 +71,7 @@ learn more about the metric in this help center guide
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105459
+Defined in: main.ts:106756
 
 search engine type
 
@@ -85,7 +85,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105479
+Defined in: main.ts:106776
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: main.ts:105479
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105498
+Defined in: main.ts:106795
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:105498
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBulkKeywordDifficultyLiveItem`
 
-Defined in: main.ts:105491
+Defined in: main.ts:106788
 
 #### Parameters
 
@@ -131,4 +131,4 @@ Defined in: main.ts:105491
 
 #### Returns
 
-[`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)
+`DataforseoLabsBulkKeywordDifficultyLiveItem`

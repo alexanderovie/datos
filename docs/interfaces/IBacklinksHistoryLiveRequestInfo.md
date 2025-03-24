@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
-Defined in: main.ts:160321
+Defined in: main.ts:162730
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160321
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:160333
+Defined in: main.ts:162742
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:160340
+Defined in: main.ts:162749
 
 ending date of the time range
 optional field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160346
+Defined in: main.ts:162755
 
 user-defined task identifier
 optional field
@@ -63,7 +63,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160325
+Defined in: main.ts:162734
 
 domain
 required field

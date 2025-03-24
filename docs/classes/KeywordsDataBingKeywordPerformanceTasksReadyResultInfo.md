@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTasksReadyResultInfo
 
-Defined in: main.ts:154301
+Defined in: main.ts:156710
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:154301
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceTasksReadyResultInfo()
+### Constructor
 
-> **new KeywordsDataBingKeywordPerformanceTasksReadyResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
+> **new KeywordsDataBingKeywordPerformanceTasksReadyResultInfo**(`data`?): `KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`
 
-Defined in: main.ts:154318
+Defined in: main.ts:156727
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:154318
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
+`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154318
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:154310
+Defined in: main.ts:156719
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:154314
+Defined in: main.ts:156723
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:154308
+Defined in: main.ts:156717
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:154304
+Defined in: main.ts:156713
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:154306
+Defined in: main.ts:156715
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154312
+Defined in: main.ts:156721
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154327
+Defined in: main.ts:156736
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:154327
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154349
+Defined in: main.ts:156758
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:154349
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`
 
-Defined in: main.ts:154342
+Defined in: main.ts:156751
 
 #### Parameters
 
@@ -171,4 +171,4 @@ Defined in: main.ts:154342
 
 #### Returns
 
-[`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
+`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`

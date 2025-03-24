@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverExpandedElement
 
-Defined in: main.ts:38388
+Defined in: main.ts:38815
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:38388
 
 > `optional` **solution**: `string`[]
 
-Defined in: main.ts:38395
+Defined in: main.ts:38822
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
@@ -29,7 +29,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38392
+Defined in: main.ts:38819
 
 title of the carousel item
 
@@ -39,6 +39,6 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38390
+Defined in: main.ts:38817
 
 type of element

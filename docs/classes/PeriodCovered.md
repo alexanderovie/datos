@@ -6,7 +6,7 @@
 
 # Class: PeriodCovered
 
-Defined in: main.ts:60131
+Defined in: main.ts:60558
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:60131
 
 ## Constructors
 
-### new PeriodCovered()
+### Constructor
 
-> **new PeriodCovered**(`data`?): [`PeriodCovered`](PeriodCovered.md)
+> **new PeriodCovered**(`data`?): `PeriodCovered`
 
-Defined in: main.ts:60149
+Defined in: main.ts:60576
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:60149
 
 #### Returns
 
-[`PeriodCovered`](PeriodCovered.md)
+`PeriodCovered`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60149
 
 > `optional` **displayed\_date**: `string`
 
-Defined in: main.ts:60145
+Defined in: main.ts:60572
 
 period displayed in SERP
 example:
@@ -56,7 +56,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 > `optional` **end\_date**: `string`
 
-Defined in: main.ts:60141
+Defined in: main.ts:60568
 
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -73,7 +73,7 @@ example:
 
 > `optional` **start\_date**: `string`
 
-Defined in: main.ts:60136
+Defined in: main.ts:60563
 
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -90,7 +90,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60158
+Defined in: main.ts:60585
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: main.ts:60158
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60177
+Defined in: main.ts:60604
 
 #### Parameters
 
@@ -124,9 +124,9 @@ Defined in: main.ts:60177
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
+> `static` **fromJS**(`data`): `PeriodCovered`
 
-Defined in: main.ts:60170
+Defined in: main.ts:60597
 
 #### Parameters
 
@@ -136,4 +136,4 @@ Defined in: main.ts:60170
 
 #### Returns
 
-[`PeriodCovered`](PeriodCovered.md)
+`PeriodCovered`

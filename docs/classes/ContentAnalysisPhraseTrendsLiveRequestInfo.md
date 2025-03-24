@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
 
-Defined in: main.ts:189141
+Defined in: main.ts:191550
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:189141
 
 ## Constructors
 
-### new ContentAnalysisPhraseTrendsLiveRequestInfo()
+### Constructor
 
-> **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+> **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data`?): `ContentAnalysisPhraseTrendsLiveRequestInfo`
 
-Defined in: main.ts:189231
+Defined in: main.ts:191640
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:189231
 
 #### Returns
 
-[`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+`ContentAnalysisPhraseTrendsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:189231
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:189192
+Defined in: main.ts:191601
 
 starting date of the time range
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:189204
+Defined in: main.ts:191613
 
 time range which will be used to group the results
 optional field
@@ -75,7 +75,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:189199
+Defined in: main.ts:191608
 
 ending date of the time range
 optional field
@@ -94,7 +94,7 @@ example:
 
 > `optional` **initial\_dataset\_filter**: `string`[]
 
-Defined in: main.ts:189221
+Defined in: main.ts:191630
 
 initial dataset filtering parameters
 optional field
@@ -123,7 +123,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:189186
+Defined in: main.ts:191595
 
 maximum number of elements within internal arrays
 optional field
@@ -146,7 +146,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:189150
+Defined in: main.ts:191559
 
 target keyword
 required field
@@ -167,7 +167,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:189162
+Defined in: main.ts:191571
 
 target keyword fields and target keywords
 optional field
@@ -195,7 +195,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:189168
+Defined in: main.ts:191577
 
 target page types
 optional field
@@ -213,7 +213,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:189175
+Defined in: main.ts:191584
 
 results grouping type
 optional field
@@ -232,7 +232,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189227
+Defined in: main.ts:191636
 
 user-defined task identifier
 optional field
@@ -250,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189240
+Defined in: main.ts:191649
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:189240
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189280
+Defined in: main.ts:191689
 
 #### Parameters
 
@@ -284,9 +284,9 @@ Defined in: main.ts:189280
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisPhraseTrendsLiveRequestInfo`
 
-Defined in: main.ts:189273
+Defined in: main.ts:191682
 
 #### Parameters
 
@@ -296,4 +296,4 @@ Defined in: main.ts:189273
 
 #### Returns
 
-[`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+`ContentAnalysisPhraseTrendsLiveRequestInfo`

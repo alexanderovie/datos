@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
-Defined in: main.ts:129450
+Defined in: main.ts:131851
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:129450
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:129530
+Defined in: main.ts:131931
 
 array of results filtering parameters
 optional field
@@ -41,7 +41,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:129497
+Defined in: main.ts:131898
 
 indicates if the subdomains will be included in the search
 optional field
@@ -54,7 +54,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:129505
+Defined in: main.ts:131906
 
 search results type
 indicates type of search results included in the response
@@ -70,7 +70,7 @@ default value:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:129458
+Defined in: main.ts:131859
 
 keywords array
 required field
@@ -86,7 +86,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129492
+Defined in: main.ts:131893
 
 unique language identifier
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:129484
+Defined in: main.ts:131885
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:129510
+Defined in: main.ts:131911
 
 the maximum number of returned domains
 optional field
@@ -131,7 +131,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129476
+Defined in: main.ts:131877
 
 unique location identifier
 required field if you don’t specify location_name
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:129467
+Defined in: main.ts:131868
 
 full name of the location
 required field if you don’t specify location_code
@@ -165,7 +165,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:129515
+Defined in: main.ts:131916
 
 offset in the results array of returned domains
 optional field
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:129546
+Defined in: main.ts:131947
 
 results sorting rules
 optional field
@@ -202,7 +202,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:129552
+Defined in: main.ts:131953
 
 user-defined task identifier
 optional field

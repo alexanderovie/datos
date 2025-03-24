@@ -6,7 +6,7 @@
 
 # Class: GoogleNewsNewsSearchSerpElementItem
 
-Defined in: main.ts:48618
+Defined in: main.ts:49045
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:48618
 
 ## Constructors
 
-### new GoogleNewsNewsSearchSerpElementItem()
+### Constructor
 
-> **new GoogleNewsNewsSearchSerpElementItem**(`data`?): [`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
+> **new GoogleNewsNewsSearchSerpElementItem**(`data`?): `GoogleNewsNewsSearchSerpElementItem`
 
-Defined in: main.ts:48638
+Defined in: main.ts:49065
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:48638
 
 #### Returns
 
-[`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
+`GoogleNewsNewsSearchSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`constructor`](BaseGoogleNewsSerpElementItem.md#constructors)
+[`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`constructor`](BaseGoogleNewsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:48638
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:48545
+Defined in: main.ts:48972
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:48545
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:48620
+Defined in: main.ts:49047
 
 domain in SERP
 
@@ -74,7 +74,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:48625
+Defined in: main.ts:49052
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -89,7 +89,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:48535
+Defined in: main.ts:48962
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -108,7 +108,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:48532
+Defined in: main.ts:48959
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:48543
+Defined in: main.ts:48970
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -148,7 +148,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:48627
+Defined in: main.ts:49054
 
 snippet of the result in SERP
 
@@ -162,7 +162,7 @@ snippet of the result in SERP
 
 > `optional` **time\_published**: `string`
 
-Defined in: main.ts:48629
+Defined in: main.ts:49056
 
 indicates the time the result was published
 
@@ -176,7 +176,7 @@ indicates the time the result was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:48634
+Defined in: main.ts:49061
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -193,7 +193,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:48539
+Defined in: main.ts:48966
 
 title of the element
 
@@ -211,7 +211,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:48528
+Defined in: main.ts:48955
 
 type of element
 
@@ -229,7 +229,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:48622
+Defined in: main.ts:49049
 
 search URL with refinement parameters
 
@@ -243,7 +243,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:48537
+Defined in: main.ts:48964
 
 the XPath of the element
 
@@ -261,7 +261,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48643
+Defined in: main.ts:49070
 
 #### Parameters
 
@@ -283,7 +283,7 @@ Defined in: main.ts:48643
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48666
+Defined in: main.ts:49093
 
 #### Parameters
 
@@ -303,9 +303,9 @@ Defined in: main.ts:48666
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleNewsNewsSearchSerpElementItem`
 
-Defined in: main.ts:48659
+Defined in: main.ts:49086
 
 #### Parameters
 
@@ -315,7 +315,7 @@ Defined in: main.ts:48659
 
 #### Returns
 
-[`GoogleNewsNewsSearchSerpElementItem`](GoogleNewsNewsSearchSerpElementItem.md)
+`GoogleNewsNewsSearchSerpElementItem`
 
 #### Overrides
 

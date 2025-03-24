@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
-Defined in: main.ts:106023
+Defined in: main.ts:107320
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:106023
 
 ## Constructors
 
-### new DataforseoLabsGoogleSearchIntentLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+> **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data`?): `DataforseoLabsGoogleSearchIntentLiveResultInfo`
 
-Defined in: main.ts:106034
+Defined in: main.ts:107331
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:106034
 
 #### Returns
 
-[`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+`DataforseoLabsGoogleSearchIntentLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106034
 
 > `optional` **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)[]
 
-Defined in: main.ts:106030
+Defined in: main.ts:107327
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:106028
+Defined in: main.ts:107325
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106026
+Defined in: main.ts:107323
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106043
+Defined in: main.ts:107340
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:106043
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106066
+Defined in: main.ts:107363
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:106066
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleSearchIntentLiveResultInfo`
 
-Defined in: main.ts:106059
+Defined in: main.ts:107356
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:106059
 
 #### Returns
 
-[`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+`DataforseoLabsGoogleSearchIntentLiveResultInfo`

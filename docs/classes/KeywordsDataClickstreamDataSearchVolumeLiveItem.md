@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataSearchVolumeLiveItem
 
-Defined in: main.ts:157283
+Defined in: main.ts:159692
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:157283
 
 ## Constructors
 
-### new KeywordsDataClickstreamDataSearchVolumeLiveItem()
+### Constructor
 
-> **new KeywordsDataClickstreamDataSearchVolumeLiveItem**(`data`?): [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)
+> **new KeywordsDataClickstreamDataSearchVolumeLiveItem**(`data`?): `KeywordsDataClickstreamDataSearchVolumeLiveItem`
 
-Defined in: main.ts:157294
+Defined in: main.ts:159703
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:157294
 
 #### Returns
 
-[`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)
+`KeywordsDataClickstreamDataSearchVolumeLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157294
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:157285
+Defined in: main.ts:159694
 
 keyword provided in the POST array
 
@@ -54,7 +54,7 @@ keyword provided in the POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:157290
+Defined in: main.ts:159699
 
 monthly search volume rates
 array of objects with search volume rates in a certain month of a year
@@ -69,7 +69,7 @@ array of objects with search volume rates in a certain month of a year
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:157287
+Defined in: main.ts:159696
 
 current search volume rate of a keyword
 
@@ -83,7 +83,7 @@ current search volume rate of a keyword
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157303
+Defined in: main.ts:159712
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:157303
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157326
+Defined in: main.ts:159735
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:157326
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)
+> `static` **fromJS**(`data`): `KeywordsDataClickstreamDataSearchVolumeLiveItem`
 
-Defined in: main.ts:157319
+Defined in: main.ts:159728
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:157319
 
 #### Returns
 
-[`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)
+`KeywordsDataClickstreamDataSearchVolumeLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: OnPageInstantPagesResultInfo
 
-Defined in: main.ts:183937
+Defined in: main.ts:186346
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:183937
 
 ## Constructors
 
-### new OnPageInstantPagesResultInfo()
+### Constructor
 
-> **new OnPageInstantPagesResultInfo**(`data`?): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+> **new OnPageInstantPagesResultInfo**(`data`?): `OnPageInstantPagesResultInfo`
 
-Defined in: main.ts:183955
+Defined in: main.ts:186364
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:183955
 
 #### Returns
 
-[`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+`OnPageInstantPagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183955
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:183947
+Defined in: main.ts:186356
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -56,7 +56,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:183940
+Defined in: main.ts:186349
 
 status of the crawling session
 possible values: in_progress, finished
@@ -71,7 +71,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:183943
+Defined in: main.ts:186352
 
 details of the crawling session
 in this case the value will be null
@@ -86,7 +86,7 @@ in this case the value will be null
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:183951
+Defined in: main.ts:186360
 
 items array
 
@@ -100,7 +100,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183949
+Defined in: main.ts:186358
 
 number of items in the results array
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183964
+Defined in: main.ts:186373
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:183964
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183989
+Defined in: main.ts:186398
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:183989
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageInstantPagesResultInfo`
 
-Defined in: main.ts:183982
+Defined in: main.ts:186391
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:183982
 
 #### Returns
 
-[`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+`OnPageInstantPagesResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:82853
+Defined in: main.ts:83280
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:82853
 
 ## Constructors
 
-### new SerpBaiduOrganicTaskGetHtmlResultInfo()
+### Constructor
 
-> **new SerpBaiduOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+> **new SerpBaiduOrganicTaskGetHtmlResultInfo**(`data`?): `SerpBaiduOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:82877
+Defined in: main.ts:83304
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:82877
 
 #### Returns
 
-[`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+`SerpBaiduOrganicTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:82877
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:82869
+Defined in: main.ts:83296
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:82873
+Defined in: main.ts:83300
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:82871
+Defined in: main.ts:83298
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:82856
+Defined in: main.ts:83283
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:82864
+Defined in: main.ts:83291
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:82862
+Defined in: main.ts:83289
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:82860
+Defined in: main.ts:83287
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:82858
+Defined in: main.ts:83285
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82886
+Defined in: main.ts:83313
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:82886
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82914
+Defined in: main.ts:83341
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:82914
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBaiduOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:82907
+Defined in: main.ts:83334
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:82907
 
 #### Returns
 
-[`SerpBaiduOrganicTaskGetHtmlResultInfo`](SerpBaiduOrganicTaskGetHtmlResultInfo.md)
+`SerpBaiduOrganicTaskGetHtmlResultInfo`

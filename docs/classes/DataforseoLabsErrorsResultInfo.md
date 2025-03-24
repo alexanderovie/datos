@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsErrorsResultInfo
 
-Defined in: main.ts:99945
+Defined in: main.ts:101848
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99945
 
 ## Constructors
 
-### new DataforseoLabsErrorsResultInfo()
+### Constructor
 
-> **new DataforseoLabsErrorsResultInfo**(`data`?): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+> **new DataforseoLabsErrorsResultInfo**(`data`?): `DataforseoLabsErrorsResultInfo`
 
-Defined in: main.ts:99975
+Defined in: main.ts:101878
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99975
 
 #### Returns
 
-[`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+`DataforseoLabsErrorsResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99975
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:99952
+Defined in: main.ts:101855
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:99956
+Defined in: main.ts:101859
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:99959
+Defined in: main.ts:101862
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:99954
+Defined in: main.ts:101857
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:99966
+Defined in: main.ts:101869
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:99964
+Defined in: main.ts:101867
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:99971
+Defined in: main.ts:101874
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:99968
+Defined in: main.ts:101871
 
 time taken by HTTP request
 
@@ -157,7 +157,7 @@ time taken by HTTP request
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:99962
+Defined in: main.ts:101865
 
 URL that caused an error
 URL you used for making an API call
@@ -172,7 +172,7 @@ URL you used for making an API call
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:99947
+Defined in: main.ts:101850
 
 id of the task
 
@@ -186,7 +186,7 @@ id of the task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99984
+Defined in: main.ts:101887
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:99984
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100010
+Defined in: main.ts:101913
 
 #### Parameters
 
@@ -220,9 +220,9 @@ Defined in: main.ts:100010
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsErrorsResultInfo`
 
-Defined in: main.ts:100003
+Defined in: main.ts:101906
 
 #### Parameters
 
@@ -232,4 +232,4 @@ Defined in: main.ts:100003
 
 #### Returns
 
-[`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)
+`DataforseoLabsErrorsResultInfo`

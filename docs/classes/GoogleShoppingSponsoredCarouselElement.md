@@ -6,7 +6,7 @@
 
 # Class: GoogleShoppingSponsoredCarouselElement
 
-Defined in: main.ts:195799
+Defined in: main.ts:198208
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:195799
 
 ## Constructors
 
-### new GoogleShoppingSponsoredCarouselElement()
+### Constructor
 
-> **new GoogleShoppingSponsoredCarouselElement**(`data`?): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
+> **new GoogleShoppingSponsoredCarouselElement**(`data`?): `GoogleShoppingSponsoredCarouselElement`
 
-Defined in: main.ts:195834
+Defined in: main.ts:198243
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:195834
 
 #### Returns
 
-[`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
+`GoogleShoppingSponsoredCarouselElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195834
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:195818
+Defined in: main.ts:198227
 
 currency in the ISO format
 example:
@@ -56,7 +56,7 @@ USD
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
-Defined in: main.ts:195830
+Defined in: main.ts:198239
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -71,7 +71,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:195814
+Defined in: main.ts:198223
 
 product price
 example:
@@ -87,7 +87,7 @@ example:
 
 > `optional` **product\_images**: `string`[]
 
-Defined in: main.ts:195824
+Defined in: main.ts:198233
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -102,7 +102,7 @@ the first URL in the array is the featured image of the product
 
 > `optional` **product\_rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:195821
+Defined in: main.ts:198230
 
 product rating
 the product popularity rate based on product reviews
@@ -117,7 +117,7 @@ the product popularity rate based on product reviews
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:195810
+Defined in: main.ts:198219
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -132,7 +132,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:195827
+Defined in: main.ts:198236
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -147,7 +147,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:195807
+Defined in: main.ts:198216
 
 tags assigned to the product
 
@@ -161,7 +161,7 @@ tags assigned to the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:195805
+Defined in: main.ts:198214
 
 product title
 
@@ -175,7 +175,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:195801
+Defined in: main.ts:198210
 
 type of element
 
@@ -189,7 +189,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:195803
+Defined in: main.ts:198212
 
 XPath of the element
 
@@ -203,7 +203,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195843
+Defined in: main.ts:198252
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:195843
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195878
+Defined in: main.ts:198287
 
 #### Parameters
 
@@ -237,9 +237,9 @@ Defined in: main.ts:195878
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
+> `static` **fromJS**(`data`): `GoogleShoppingSponsoredCarouselElement`
 
-Defined in: main.ts:195871
+Defined in: main.ts:198280
 
 #### Parameters
 
@@ -249,4 +249,4 @@ Defined in: main.ts:195871
 
 #### Returns
 
-[`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
+`GoogleShoppingSponsoredCarouselElement`

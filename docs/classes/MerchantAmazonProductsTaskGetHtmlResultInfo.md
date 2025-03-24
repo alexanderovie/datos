@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTaskGetHtmlResultInfo
 
-Defined in: main.ts:202491
+Defined in: main.ts:204900
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:202491
 
 ## Constructors
 
-### new MerchantAmazonProductsTaskGetHtmlResultInfo()
+### Constructor
 
-> **new MerchantAmazonProductsTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
+> **new MerchantAmazonProductsTaskGetHtmlResultInfo**(`data`?): `MerchantAmazonProductsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:202515
+Defined in: main.ts:204924
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:202515
 
 #### Returns
 
-[`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
+`MerchantAmazonProductsTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202515
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:202507
+Defined in: main.ts:204916
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:202511
+Defined in: main.ts:204920
 
 HTML pages and related data
 
@@ -71,7 +71,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:202509
+Defined in: main.ts:204918
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:202494
+Defined in: main.ts:204903
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202502
+Defined in: main.ts:204911
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202500
+Defined in: main.ts:204909
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202498
+Defined in: main.ts:204907
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:202496
+Defined in: main.ts:204905
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202524
+Defined in: main.ts:204933
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:202524
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202552
+Defined in: main.ts:204961
 
 #### Parameters
 
@@ -190,9 +190,9 @@ Defined in: main.ts:202552
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `MerchantAmazonProductsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:202545
+Defined in: main.ts:204954
 
 #### Parameters
 
@@ -202,4 +202,4 @@ Defined in: main.ts:202545
 
 #### Returns
 
-[`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
+`MerchantAmazonProductsTaskGetHtmlResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: AppendixAmazonMerchantPriceData
 
-Defined in: main.ts:246369
+Defined in: main.ts:248334
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246369
 
 ## Constructors
 
-### new AppendixAmazonMerchantPriceData()
+### Constructor
 
-> **new AppendixAmazonMerchantPriceData**(`data`?): [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
+> **new AppendixAmazonMerchantPriceData**(`data`?): `AppendixAmazonMerchantPriceData`
 
-Defined in: main.ts:246376
+Defined in: main.ts:248341
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246376
 
 #### Returns
 
-[`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
+`AppendixAmazonMerchantPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246376
 
 > `optional` **asin**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:246370
+Defined in: main.ts:248335
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246370
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:246371
+Defined in: main.ts:248336
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246371
 
 > `optional` **sellers**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:246372
+Defined in: main.ts:248337
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:246372
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246385
+Defined in: main.ts:248350
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:246385
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246404
+Defined in: main.ts:248369
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:246404
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
+> `static` **fromJS**(`data`): `AppendixAmazonMerchantPriceData`
 
-Defined in: main.ts:246397
+Defined in: main.ts:248362
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:246397
 
 #### Returns
 
-[`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
+`AppendixAmazonMerchantPriceData`

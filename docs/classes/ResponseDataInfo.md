@@ -6,7 +6,7 @@
 
 # Class: ResponseDataInfo
 
-Defined in: main.ts:212771
+Defined in: main.ts:215180
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:212771
 
 ## Constructors
 
-### new ResponseDataInfo()
+### Constructor
 
-> **new ResponseDataInfo**(`data`?): [`ResponseDataInfo`](ResponseDataInfo.md)
+> **new ResponseDataInfo**(`data`?): `ResponseDataInfo`
 
-Defined in: main.ts:212787
+Defined in: main.ts:215196
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:212787
 
 #### Returns
 
-[`ResponseDataInfo`](ResponseDataInfo.md)
+`ResponseDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212787
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:212773
+Defined in: main.ts:215182
 
 author of the response
 
@@ -54,7 +54,7 @@ author of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:212778
+Defined in: main.ts:215187
 
 content of the response
 
@@ -68,7 +68,7 @@ content of the response
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:212783
+Defined in: main.ts:215192
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -85,7 +85,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:212776
+Defined in: main.ts:215185
 
 title of the response
 in this case, will equal null
@@ -100,7 +100,7 @@ in this case, will equal null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212796
+Defined in: main.ts:215205
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:212796
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212816
+Defined in: main.ts:215225
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:212816
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
+> `static` **fromJS**(`data`): `ResponseDataInfo`
 
-Defined in: main.ts:212809
+Defined in: main.ts:215218
 
 #### Parameters
 
@@ -146,4 +146,4 @@ Defined in: main.ts:212809
 
 #### Returns
 
-[`ResponseDataInfo`](ResponseDataInfo.md)
+`ResponseDataInfo`

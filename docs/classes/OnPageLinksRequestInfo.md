@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksRequestInfo
 
-Defined in: main.ts:178807
+Defined in: main.ts:181216
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:178807
 
 ## Constructors
 
-### new OnPageLinksRequestInfo()
+### Constructor
 
-> **new OnPageLinksRequestInfo**(`data`?): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
+> **new OnPageLinksRequestInfo**(`data`?): `OnPageLinksRequestInfo`
 
-Defined in: main.ts:178860
+Defined in: main.ts:181269
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:178860
 
 #### Returns
 
-[`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
+`OnPageLinksRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178860
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:178850
+Defined in: main.ts:181259
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:178813
+Defined in: main.ts:181222
 
 ID of the task
 required field
@@ -87,7 +87,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:178828
+Defined in: main.ts:181237
 
 the maximum number of returned links
 optional field
@@ -104,7 +104,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:178833
+Defined in: main.ts:181242
 
 offset in the results array of returned links
 optional field
@@ -121,7 +121,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:178818
+Defined in: main.ts:181227
 
 relative page URL
 optional field
@@ -138,7 +138,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:178823
+Defined in: main.ts:181232
 
 relative page URL
 optional field
@@ -155,7 +155,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:178856
+Defined in: main.ts:181265
 
 user-defined task identifier
 optional field
@@ -173,7 +173,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178869
+Defined in: main.ts:181278
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:178869
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178896
+Defined in: main.ts:181305
 
 #### Parameters
 
@@ -207,9 +207,9 @@ Defined in: main.ts:178896
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageLinksRequestInfo`
 
-Defined in: main.ts:178889
+Defined in: main.ts:181298
 
 #### Parameters
 
@@ -219,4 +219,4 @@ Defined in: main.ts:178889
 
 #### Returns
 
-[`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
+`OnPageLinksRequestInfo`

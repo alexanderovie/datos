@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceMarketsLiveHtmlRequestInfo
 
-Defined in: main.ts:91343
+Defined in: main.ts:91770
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:91343
 
 ## Constructors
 
-### new SerpGoogleFinanceMarketsLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpGoogleFinanceMarketsLiveHtmlRequestInfo**(`data`?): [`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`](SerpGoogleFinanceMarketsLiveHtmlRequestInfo.md)
+> **new SerpGoogleFinanceMarketsLiveHtmlRequestInfo**(`data`?): `SerpGoogleFinanceMarketsLiveHtmlRequestInfo`
 
-Defined in: main.ts:91394
+Defined in: main.ts:91821
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:91394
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`](SerpGoogleFinanceMarketsLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91394
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:91375
+Defined in: main.ts:91802
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91371
+Defined in: main.ts:91798
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91364
+Defined in: main.ts:91791
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91357
+Defined in: main.ts:91784
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:91350
+Defined in: main.ts:91777
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 > `optional` **market\_type**: `string`
 
-Defined in: main.ts:91384
+Defined in: main.ts:91811
 
 type of google finance market
 optional field
@@ -149,7 +149,7 @@ default value: most-active
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:91379
+Defined in: main.ts:91806
 
 device operating system
 optional field
@@ -165,7 +165,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:91390
+Defined in: main.ts:91817
 
 user-defined task identifier
 optional field
@@ -183,7 +183,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91403
+Defined in: main.ts:91830
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: main.ts:91403
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91427
+Defined in: main.ts:91854
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:91427
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`](SerpGoogleFinanceMarketsLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleFinanceMarketsLiveHtmlRequestInfo`
 
-Defined in: main.ts:91420
+Defined in: main.ts:91847
 
 #### Parameters
 
@@ -229,4 +229,4 @@ Defined in: main.ts:91420
 
 #### Returns
 
-[`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`](SerpGoogleFinanceMarketsLiveHtmlRequestInfo.md)
+`SerpGoogleFinanceMarketsLiveHtmlRequestInfo`

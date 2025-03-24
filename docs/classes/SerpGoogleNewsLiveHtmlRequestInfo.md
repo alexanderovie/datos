@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveHtmlRequestInfo
 
-Defined in: main.ts:49820
+Defined in: main.ts:50247
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:49820
 
 ## Constructors
 
-### new SerpGoogleNewsLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpGoogleNewsLiveHtmlRequestInfo**(`data`?): [`SerpGoogleNewsLiveHtmlRequestInfo`](SerpGoogleNewsLiveHtmlRequestInfo.md)
+> **new SerpGoogleNewsLiveHtmlRequestInfo**(`data`?): `SerpGoogleNewsLiveHtmlRequestInfo`
 
-Defined in: main.ts:49917
+Defined in: main.ts:50344
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:49917
 
 #### Returns
 
-[`SerpGoogleNewsLiveHtmlRequestInfo`](SerpGoogleNewsLiveHtmlRequestInfo.md)
+`SerpGoogleNewsLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49917
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49896
+Defined in: main.ts:50323
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49836
+Defined in: main.ts:50263
 
 keyword
 required field
@@ -83,7 +83,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49874
+Defined in: main.ts:50301
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49867
+Defined in: main.ts:50294
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,7 +121,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49850
+Defined in: main.ts:50277
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -140,7 +140,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49860
+Defined in: main.ts:50287
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49843
+Defined in: main.ts:50270
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49903
+Defined in: main.ts:50330
 
 page crawl limit
 optional field
@@ -200,7 +200,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49880
+Defined in: main.ts:50307
 
 device operating system
 optional field
@@ -218,7 +218,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49887
+Defined in: main.ts:50314
 
 search engine domain
 optional field
@@ -237,7 +237,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:49907
+Defined in: main.ts:50334
 
 additional parameters of the search query
 optional field
@@ -253,7 +253,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:49913
+Defined in: main.ts:50340
 
 user-defined task identifier
 optional field
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49826
+Defined in: main.ts:50253
 
 direct URL of the search query
 optional field
@@ -289,7 +289,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49926
+Defined in: main.ts:50353
 
 #### Parameters
 
@@ -307,7 +307,7 @@ Defined in: main.ts:49926
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49955
+Defined in: main.ts:50382
 
 #### Parameters
 
@@ -323,9 +323,9 @@ Defined in: main.ts:49955
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleNewsLiveHtmlRequestInfo`](SerpGoogleNewsLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleNewsLiveHtmlRequestInfo`
 
-Defined in: main.ts:49948
+Defined in: main.ts:50375
 
 #### Parameters
 
@@ -335,4 +335,4 @@ Defined in: main.ts:49948
 
 #### Returns
 
-[`SerpGoogleNewsLiveHtmlRequestInfo`](SerpGoogleNewsLiveHtmlRequestInfo.md)
+`SerpGoogleNewsLiveHtmlRequestInfo`

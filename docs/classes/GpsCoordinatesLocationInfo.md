@@ -6,7 +6,7 @@
 
 # Class: GpsCoordinatesLocationInfo
 
-Defined in: main.ts:226277
+Defined in: main.ts:228686
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:226277
 
 ## Constructors
 
-### new GpsCoordinatesLocationInfo()
+### Constructor
 
-> **new GpsCoordinatesLocationInfo**(`data`?): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> **new GpsCoordinatesLocationInfo**(`data`?): `GpsCoordinatesLocationInfo`
 
-Defined in: main.ts:226289
+Defined in: main.ts:228698
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:226289
 
 #### Returns
 
-[`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+`GpsCoordinatesLocationInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:226289
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:226281
+Defined in: main.ts:228690
 
 latitude coordinate of the hotel in google maps
 example:
@@ -56,7 +56,7 @@ example:
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:226285
+Defined in: main.ts:228694
 
 longitude coordinate of the hotel in google maps
 example:
@@ -72,7 +72,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226298
+Defined in: main.ts:228707
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:226298
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226316
+Defined in: main.ts:228725
 
 #### Parameters
 
@@ -106,9 +106,9 @@ Defined in: main.ts:226316
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> `static` **fromJS**(`data`): `GpsCoordinatesLocationInfo`
 
-Defined in: main.ts:226309
+Defined in: main.ts:228718
 
 #### Parameters
 
@@ -118,4 +118,4 @@ Defined in: main.ts:226309
 
 #### Returns
 
-[`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+`GpsCoordinatesLocationInfo`

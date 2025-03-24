@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
-Defined in: main.ts:133955
+Defined in: main.ts:136356
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:133955
 
 ## Constructors
 
-### new DataforseoLabsAppleAppCompetitorsLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsAppleAppCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+> **new DataforseoLabsAppleAppCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsAppleAppCompetitorsLiveResultInfo`
 
-Defined in: main.ts:133973
+Defined in: main.ts:136374
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:133973
 
 #### Returns
 
-[`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+`DataforseoLabsAppleAppCompetitorsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133973
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:133959
+Defined in: main.ts:136360
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsAppleAppCompetitorsLiveItem`](DataforseoLabsAppleAppCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:133969
+Defined in: main.ts:136370
 
 contains data related to the app_id and competitor applications
 
@@ -68,7 +68,7 @@ contains data related to the app_id and competitor applications
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:133967
+Defined in: main.ts:136368
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:133963
+Defined in: main.ts:136364
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:133961
+Defined in: main.ts:136362
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:133957
+Defined in: main.ts:136358
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:133965
+Defined in: main.ts:136366
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133982
+Defined in: main.ts:136383
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:133982
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134009
+Defined in: main.ts:136410
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:134009
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAppleAppCompetitorsLiveResultInfo`
 
-Defined in: main.ts:134002
+Defined in: main.ts:136403
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:134002
 
 #### Returns
 
-[`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)
+`DataforseoLabsAppleAppCompetitorsLiveResultInfo`

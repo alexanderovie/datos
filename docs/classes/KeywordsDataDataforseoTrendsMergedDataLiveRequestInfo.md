@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
-Defined in: main.ts:147231
+Defined in: main.ts:149640
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:147231
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo()
+### Constructor
 
-> **new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
+> **new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo**(`data`?): `KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`
 
-Defined in: main.ts:147290
+Defined in: main.ts:149699
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:147290
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
+`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147290
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:147267
+Defined in: main.ts:149676
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:147274
+Defined in: main.ts:149683
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147238
+Defined in: main.ts:149647
 
 keywords
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147256
+Defined in: main.ts:149665
 
 search engine location code
 optional field
@@ -120,7 +120,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147247
+Defined in: main.ts:149656
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147286
+Defined in: main.ts:149695
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:147280
+Defined in: main.ts:149689
 
 preset time ranges
 optional field
@@ -177,7 +177,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:147258
+Defined in: main.ts:149667
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147299
+Defined in: main.ts:149708
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:147299
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147327
+Defined in: main.ts:149736
 
 #### Parameters
 
@@ -225,9 +225,9 @@ Defined in: main.ts:147327
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`
 
-Defined in: main.ts:147320
+Defined in: main.ts:149729
 
 #### Parameters
 
@@ -237,4 +237,4 @@ Defined in: main.ts:147320
 
 #### Returns
 
-[`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
+`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`

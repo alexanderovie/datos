@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
-Defined in: main.ts:60777
+Defined in: main.ts:61204
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:60777
 
 ## Constructors
 
-### new SerpGoogleDatasetSearchLiveAdvancedRequestInfo()
+### Constructor
 
-> **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+> **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): `SerpGoogleDatasetSearchLiveAdvancedRequestInfo`
 
-Defined in: main.ts:60845
+Defined in: main.ts:61272
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:60845
 
 #### Returns
 
-[`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60845
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:60815
+Defined in: main.ts:61242
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:60801
+Defined in: main.ts:61228
 
 device type
 optional field
@@ -77,7 +77,7 @@ possible value: desktop
 
 > `optional` **file\_formats**: `string`[]
 
-Defined in: main.ts:60823
+Defined in: main.ts:61250
 
 file formats of the dataset
 optional field
@@ -93,7 +93,7 @@ possible values: other, archive, text, image, document, tabular
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:60831
+Defined in: main.ts:61258
 
 indicates whether displayed datasets are free
 optional field
@@ -109,7 +109,7 @@ possible values: true, false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:60785
+Defined in: main.ts:61212
 
 keyword
 required field
@@ -129,7 +129,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:60797
+Defined in: main.ts:61224
 
 search engine language code
 optional field if you don’t specify language_name
@@ -147,7 +147,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:60791
+Defined in: main.ts:61218
 
 full name of search engine language
 optional field
@@ -165,7 +165,7 @@ English
 
 > `optional` **last\_updated**: `string`
 
-Defined in: main.ts:60819
+Defined in: main.ts:61246
 
 last time the dataset was updated
 optional field
@@ -181,7 +181,7 @@ possible values: 1m, 1y, 3y
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:60806
+Defined in: main.ts:61233
 
 device operating system
 optional field
@@ -198,7 +198,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:60841
+Defined in: main.ts:61268
 
 user-defined task identifier
 optional field
@@ -216,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topics**: `string`[]
 
-Defined in: main.ts:60835
+Defined in: main.ts:61262
 
 dataset topics
 optional field
@@ -232,7 +232,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 > `optional` **usage\_rights**: `string`
 
-Defined in: main.ts:60827
+Defined in: main.ts:61254
 
 usage rights of the dataset
 optional field
@@ -248,7 +248,7 @@ possible values: commercial, noncommercial
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60854
+Defined in: main.ts:61281
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:60854
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60890
+Defined in: main.ts:61317
 
 #### Parameters
 
@@ -282,9 +282,9 @@ Defined in: main.ts:60890
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleDatasetSearchLiveAdvancedRequestInfo`
 
-Defined in: main.ts:60883
+Defined in: main.ts:61310
 
 #### Parameters
 
@@ -294,4 +294,4 @@ Defined in: main.ts:60883
 
 #### Returns
 
-[`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationTextSummaryLiveRequestInfo
 
-Defined in: main.ts:192756
+Defined in: main.ts:195165
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:192756
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:192774
+Defined in: main.ts:195183
 
 maximum number of elements within internal arrays
 optional field
@@ -31,7 +31,7 @@ default value: 10
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:192769
+Defined in: main.ts:195178
 
 code of the text language
 required field if you do not specify language_name
@@ -43,7 +43,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:192765
+Defined in: main.ts:195174
 
 name of the text language
 required field if you do not specify language_code
@@ -55,7 +55,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:192780
+Defined in: main.ts:195189
 
 user-defined task identifier
 optional field
@@ -69,7 +69,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:192761
+Defined in: main.ts:195170
 
 target text
 required field

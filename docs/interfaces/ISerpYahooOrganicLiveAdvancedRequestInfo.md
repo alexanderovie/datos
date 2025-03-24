@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:79949
+Defined in: main.ts:80376
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:79949
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:80029
+Defined in: main.ts:80456
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:80006
+Defined in: main.ts:80433
 
 device type
 optional field
@@ -48,7 +48,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:79963
+Defined in: main.ts:80390
 
 keyword
 required field
@@ -64,7 +64,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:80001
+Defined in: main.ts:80428
 
 search engine language code
 required field if you don’t specify language_name
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:79994
+Defined in: main.ts:80421
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:79977
+Defined in: main.ts:80404
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:79987
+Defined in: main.ts:80414
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -127,7 +127,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:79970
+Defined in: main.ts:80397
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -142,7 +142,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:80036
+Defined in: main.ts:80463
 
 page crawl limit
 optional field
@@ -157,7 +157,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:80013
+Defined in: main.ts:80440
 
 device operating system
 optional field
@@ -172,7 +172,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:80020
+Defined in: main.ts:80447
 
 search engine domain
 optional field
@@ -187,7 +187,7 @@ au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:80040
+Defined in: main.ts:80467
 
 additional parameters of the search query
 optional field
@@ -199,7 +199,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:80046
+Defined in: main.ts:80473
 
 user-defined task identifier
 optional field
@@ -213,7 +213,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:79955
+Defined in: main.ts:80382
 
 direct URL of the search query
 optional field

@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLocationsCountryResultInfo
 
-Defined in: main.ts:71562
+Defined in: main.ts:71989
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:71562
 
 ## Constructors
 
-### new SerpYoutubeLocationsCountryResultInfo()
+### Constructor
 
-> **new SerpYoutubeLocationsCountryResultInfo**(`data`?): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+> **new SerpYoutubeLocationsCountryResultInfo**(`data`?): `SerpYoutubeLocationsCountryResultInfo`
 
-Defined in: main.ts:71583
+Defined in: main.ts:72010
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:71583
 
 #### Returns
 
-[`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+`SerpYoutubeLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:71583
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:71577
+Defined in: main.ts:72004
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71564
+Defined in: main.ts:71991
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:71575
+Defined in: main.ts:72002
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71566
+Defined in: main.ts:71993
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:71579
+Defined in: main.ts:72006
 
 location type
 
@@ -117,7 +117,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71592
+Defined in: main.ts:72019
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:71592
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71613
+Defined in: main.ts:72040
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:71613
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYoutubeLocationsCountryResultInfo`
 
-Defined in: main.ts:71606
+Defined in: main.ts:72033
 
 #### Parameters
 
@@ -163,4 +163,4 @@ Defined in: main.ts:71606
 
 #### Returns
 
-[`SerpYoutubeLocationsCountryResultInfo`](SerpYoutubeLocationsCountryResultInfo.md)
+`SerpYoutubeLocationsCountryResultInfo`

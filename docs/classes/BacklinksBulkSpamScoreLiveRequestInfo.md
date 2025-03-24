@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveRequestInfo
 
-Defined in: main.ts:170453
+Defined in: main.ts:172862
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170453
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+> **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): `BacklinksBulkSpamScoreLiveRequestInfo`
 
-Defined in: main.ts:170482
+Defined in: main.ts:172891
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170482
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+`BacklinksBulkSpamScoreLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170482
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:170478
+Defined in: main.ts:172887
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:170472
+Defined in: main.ts:172881
 
 domains, subdomains or webpages to get rank for
 required field
@@ -89,7 +89,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170491
+Defined in: main.ts:172900
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:170491
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170513
+Defined in: main.ts:172922
 
 #### Parameters
 
@@ -123,9 +123,9 @@ Defined in: main.ts:170513
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveRequestInfo`
 
-Defined in: main.ts:170506
+Defined in: main.ts:172915
 
 #### Parameters
 
@@ -135,4 +135,4 @@ Defined in: main.ts:170506
 
 #### Returns
 
-[`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+`BacklinksBulkSpamScoreLiveRequestInfo`

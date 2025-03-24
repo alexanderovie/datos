@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
-Defined in: main.ts:123370
+Defined in: main.ts:125771
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123370
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:123376
+Defined in: main.ts:125777
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -30,7 +30,7 @@ for more information, refer to this help center guide
 
 > `optional` **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:123378
+Defined in: main.ts:125779
 
 average keyword position of the product
 
@@ -40,6 +40,6 @@ average keyword position of the product
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123372
+Defined in: main.ts:125773
 
 search engine type

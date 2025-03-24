@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
-Defined in: main.ts:56081
+Defined in: main.ts:56508
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:56081
 
 ## Constructors
 
-### new SerpGoogleJobsTaskPostRequestInfo()
+### Constructor
 
-> **new SerpGoogleJobsTaskPostRequestInfo**(`data`?): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+> **new SerpGoogleJobsTaskPostRequestInfo**(`data`?): `SerpGoogleJobsTaskPostRequestInfo`
 
-Defined in: main.ts:56196
+Defined in: main.ts:56623
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:56196
 
 #### Returns
 
-[`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+`SerpGoogleJobsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:56196
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:56158
+Defined in: main.ts:56585
 
 job posting date
 optional field
@@ -61,7 +61,7 @@ month — return job vacancies posted no longer than a month ago
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:56143
+Defined in: main.ts:56570
 
 parsing depth
 optional field
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **employment\_type**: `string`[]
 
-Defined in: main.ts:56149
+Defined in: main.ts:56576
 
 employment contract type
 optional field
@@ -100,7 +100,7 @@ fulltime, partime, contractor, intern
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:56091
+Defined in: main.ts:56518
 
 keyword
 required field
@@ -122,7 +122,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:56134
+Defined in: main.ts:56561
 
 search engine language code
 required field if you don’t specify language_name
@@ -141,7 +141,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:56127
+Defined in: main.ts:56554
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -160,7 +160,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:56112
+Defined in: main.ts:56539
 
 search engine location code
 required field if you don’t specify location_name;
@@ -178,7 +178,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:56106
+Defined in: main.ts:56533
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -197,7 +197,7 @@ London,England,United Kingdom
 
 > `optional` **location\_radius**: `number`
 
-Defined in: main.ts:56120
+Defined in: main.ts:56547
 
 location search radius
 optional field
@@ -217,7 +217,7 @@ minimal value: > 0
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:56192
+Defined in: main.ts:56619
 
 notification URL of a completed task
 optional field
@@ -240,7 +240,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:56181
+Defined in: main.ts:56608
 
 postback_url datatype
 required field if you specify postback_url
@@ -258,7 +258,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:56175
+Defined in: main.ts:56602
 
 return URL for sending task results
 optional field
@@ -281,7 +281,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:56099
+Defined in: main.ts:56526
 
 task priority
 optional field
@@ -301,7 +301,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:56164
+Defined in: main.ts:56591
 
 user-defined task identifier
 optional field
@@ -319,7 +319,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:56205
+Defined in: main.ts:56632
 
 #### Parameters
 
@@ -337,7 +337,7 @@ Defined in: main.ts:56205
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:56239
+Defined in: main.ts:56666
 
 #### Parameters
 
@@ -353,9 +353,9 @@ Defined in: main.ts:56239
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleJobsTaskPostRequestInfo`
 
-Defined in: main.ts:56232
+Defined in: main.ts:56659
 
 #### Parameters
 
@@ -365,4 +365,4 @@ Defined in: main.ts:56232
 
 #### Returns
 
-[`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
+`SerpGoogleJobsTaskPostRequestInfo`

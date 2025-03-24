@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:113024
+Defined in: main.ts:114329
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:113024
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:113040
+Defined in: main.ts:114345
 
 contains keywords, relevant SERP elements and related data
 
@@ -28,7 +28,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:113038
+Defined in: main.ts:114343
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113034
+Defined in: main.ts:114339
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113032
+Defined in: main.ts:114337
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113026
+Defined in: main.ts:114331
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:113028
+Defined in: main.ts:114333
 
 the first target domain in a POST array
 
@@ -78,7 +78,7 @@ the first target domain in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:113030
+Defined in: main.ts:114335
 
 the second target domain in a POST array
 
@@ -88,6 +88,6 @@ the second target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:113036
+Defined in: main.ts:114341
 
 total amount of results in our database relevant to your request

@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeTrend
 
-Defined in: main.ts:101709
+Defined in: main.ts:103612
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:101709
 
 ## Constructors
 
-### new SearchVolumeTrend()
+### Constructor
 
-> **new SearchVolumeTrend**(`data`?): [`SearchVolumeTrend`](SearchVolumeTrend.md)
+> **new SearchVolumeTrend**(`data`?): `SearchVolumeTrend`
 
-Defined in: main.ts:101719
+Defined in: main.ts:103622
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:101719
 
 #### Returns
 
-[`SearchVolumeTrend`](SearchVolumeTrend.md)
+`SearchVolumeTrend`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101719
 
 > `optional` **monthly**: `number`
 
-Defined in: main.ts:101711
+Defined in: main.ts:103614
 
 search volume change in percent compared to the previous month
 
@@ -54,7 +54,7 @@ search volume change in percent compared to the previous month
 
 > `optional` **quarterly**: `number`
 
-Defined in: main.ts:101713
+Defined in: main.ts:103616
 
 search volume change in percent compared to the previous quarter
 
@@ -68,7 +68,7 @@ search volume change in percent compared to the previous quarter
 
 > `optional` **yearly**: `number`
 
-Defined in: main.ts:101715
+Defined in: main.ts:103618
 
 search volume change in percent compared to the previous year
 
@@ -82,7 +82,7 @@ search volume change in percent compared to the previous year
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101728
+Defined in: main.ts:103631
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:101728
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101747
+Defined in: main.ts:103650
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:101747
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SearchVolumeTrend`](SearchVolumeTrend.md)
+> `static` **fromJS**(`data`): `SearchVolumeTrend`
 
-Defined in: main.ts:101740
+Defined in: main.ts:103643
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:101740
 
 #### Returns
 
-[`SearchVolumeTrend`](SearchVolumeTrend.md)
+`SearchVolumeTrend`

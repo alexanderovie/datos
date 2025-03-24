@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
-Defined in: main.ts:108006
+Defined in: main.ts:109303
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:108006
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
-Defined in: main.ts:108026
+Defined in: main.ts:109323
 
 contains keyword ideas and related data
 
@@ -28,7 +28,7 @@ contains keyword ideas and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:108018
+Defined in: main.ts:109315
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:108014
+Defined in: main.ts:109311
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:108012
+Defined in: main.ts:109309
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:108020
+Defined in: main.ts:109317
 
 current offset value
 
@@ -68,7 +68,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:108024
+Defined in: main.ts:109321
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -80,7 +80,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:108008
+Defined in: main.ts:109305
 
 search engine type
 
@@ -90,7 +90,7 @@ search engine type
 
 > `optional` **seed\_categories**: `number`[]
 
-Defined in: main.ts:108010
+Defined in: main.ts:109307
 
 categories in a POST array
 
@@ -100,6 +100,6 @@ categories in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:108016
+Defined in: main.ts:109313
 
 the total amount of results in our database relevant to your request

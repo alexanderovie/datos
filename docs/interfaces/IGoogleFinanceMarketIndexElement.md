@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceMarketIndexElement
 
-Defined in: main.ts:87596
+Defined in: main.ts:88023
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87596
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:87617
+Defined in: main.ts:88044
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -29,7 +29,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:87614
+Defined in: main.ts:88041
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -41,7 +41,7 @@ example: PX1:INDEXDB
 
 > `optional` **index\_value**: `number`
 
-Defined in: main.ts:87607
+Defined in: main.ts:88034
 
 value of the market index
 numerical value of the index at a given timestamp
@@ -52,7 +52,7 @@ numerical value of the index at a given timestamp
 
 > `optional` **index\_value\_delta**: `number`
 
-Defined in: main.ts:87610
+Defined in: main.ts:88037
 
 change in value of the market index
 change in the index_value at a given timestamp
@@ -63,7 +63,7 @@ change in the index_value at a given timestamp
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:87622
+Defined in: main.ts:88049
 
 location of the market index
 example: Europe/Paris
@@ -74,7 +74,7 @@ example: Europe/Paris
 
 > `optional` **market\_identifier**: `string`
 
-Defined in: main.ts:87604
+Defined in: main.ts:88031
 
 market identifier
 example: INDEXDB
@@ -85,7 +85,7 @@ example: INDEXDB
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:87632
+Defined in: main.ts:88059
 
 percentage of change in value of the market index
 
@@ -95,7 +95,7 @@ percentage of change in value of the market index
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:87601
+Defined in: main.ts:88028
 
 ticker of the market index
 example: DAX
@@ -106,7 +106,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87630
+Defined in: main.ts:88057
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -119,7 +119,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:87625
+Defined in: main.ts:88052
 
 growth trend of the market index
 possible values: up, down, stable
@@ -130,7 +130,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87598
+Defined in: main.ts:88025
 
 type of element
 
@@ -140,6 +140,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87619
+Defined in: main.ts:88046
 
 URL to the page of the market index on Google Finance

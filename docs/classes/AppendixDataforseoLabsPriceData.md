@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoLabsPriceData
 
-Defined in: main.ts:247609
+Defined in: main.ts:249574
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247609
 
 ## Constructors
 
-### new AppendixDataforseoLabsPriceData()
+### Constructor
 
-> **new AppendixDataforseoLabsPriceData**(`data`?): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+> **new AppendixDataforseoLabsPriceData**(`data`?): `AppendixDataforseoLabsPriceData`
 
-Defined in: main.ts:247649
+Defined in: main.ts:249615
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247649
 
 #### Returns
 
-[`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+`AppendixDataforseoLabsPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247649
 
 > `optional` **app\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247610
+Defined in: main.ts:249575
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247610
 
 > `optional` **app\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247611
+Defined in: main.ts:249576
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247611
 
 > `optional` **bulk\_app\_metrics**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247612
+Defined in: main.ts:249577
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247612
 
 > `optional` **bulk\_keyword\_difficulty**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247613
+Defined in: main.ts:249578
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247613
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247614
+Defined in: main.ts:249579
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:247614
 
 > `optional` **bulk\_traffic\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247615
+Defined in: main.ts:249580
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:247615
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247616
+Defined in: main.ts:249581
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:247616
 
 > `optional` **categories\_for\_domain**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247617
+Defined in: main.ts:249582
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:247617
 
 > `optional` **categories\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247618
+Defined in: main.ts:249583
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:247618
 
 > `optional` **competitors\_domain**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247619
+Defined in: main.ts:249584
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:247619
 
 > `optional` **domain\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247620
+Defined in: main.ts:249585
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:247620
 
 > `optional` **domain\_metrics\_by\_categories**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247621
+Defined in: main.ts:249586
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:247621
 
 > `optional` **domain\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247622
+Defined in: main.ts:249587
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:247622
 
 > `optional` **domain\_whois\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247623
+Defined in: main.ts:249588
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:247623
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247624
+Defined in: main.ts:249589
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:247624
 
 > `optional` **historical\_bulk\_traffic\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247625
+Defined in: main.ts:249590
 
 #### Implementation of
 
@@ -228,11 +228,23 @@ Defined in: main.ts:247625
 
 ***
 
+### historical\_keyword\_data?
+
+> `optional` **historical\_keyword\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:249591
+
+#### Implementation of
+
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`historical_keyword_data`](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_keyword_data)
+
+***
+
 ### historical\_rank\_overview?
 
 > `optional` **historical\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247626
+Defined in: main.ts:249592
 
 #### Implementation of
 
@@ -240,23 +252,11 @@ Defined in: main.ts:247626
 
 ***
 
-### historical\_search\_volume?
-
-> `optional` **historical\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
-
-Defined in: main.ts:247627
-
-#### Implementation of
-
-[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`historical_search_volume`](../interfaces/IAppendixDataforseoLabsPriceData.md#historical_search_volume)
-
-***
-
 ### historical\_serps?
 
 > `optional` **historical\_serps**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247628
+Defined in: main.ts:249593
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:247628
 
 > `optional` **keyword\_ideas**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247629
+Defined in: main.ts:249594
 
 #### Implementation of
 
@@ -276,11 +276,23 @@ Defined in: main.ts:247629
 
 ***
 
+### keyword\_overview?
+
+> `optional` **keyword\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:249595
+
+#### Implementation of
+
+[`IAppendixDataforseoLabsPriceData`](../interfaces/IAppendixDataforseoLabsPriceData.md).[`keyword_overview`](../interfaces/IAppendixDataforseoLabsPriceData.md#keyword_overview)
+
+***
+
 ### keyword\_suggestions?
 
 > `optional` **keyword\_suggestions**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247633
+Defined in: main.ts:249599
 
 #### Implementation of
 
@@ -292,7 +304,7 @@ Defined in: main.ts:247633
 
 > `optional` **keywords\_for\_app**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247630
+Defined in: main.ts:249596
 
 #### Implementation of
 
@@ -304,7 +316,7 @@ Defined in: main.ts:247630
 
 > `optional` **keywords\_for\_categories**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247631
+Defined in: main.ts:249597
 
 #### Implementation of
 
@@ -316,7 +328,7 @@ Defined in: main.ts:247631
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247632
+Defined in: main.ts:249598
 
 #### Implementation of
 
@@ -328,7 +340,7 @@ Defined in: main.ts:247632
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247634
+Defined in: main.ts:249600
 
 #### Implementation of
 
@@ -340,7 +352,7 @@ Defined in: main.ts:247634
 
 > `optional` **page\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247635
+Defined in: main.ts:249601
 
 #### Implementation of
 
@@ -352,7 +364,7 @@ Defined in: main.ts:247635
 
 > `optional` **product\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247636
+Defined in: main.ts:249602
 
 #### Implementation of
 
@@ -364,7 +376,7 @@ Defined in: main.ts:247636
 
 > `optional` **product\_keyword\_intersections**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247637
+Defined in: main.ts:249603
 
 #### Implementation of
 
@@ -376,7 +388,7 @@ Defined in: main.ts:247637
 
 > `optional` **product\_rank\_overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247638
+Defined in: main.ts:249604
 
 #### Implementation of
 
@@ -388,7 +400,7 @@ Defined in: main.ts:247638
 
 > `optional` **ranked\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247639
+Defined in: main.ts:249605
 
 #### Implementation of
 
@@ -400,7 +412,7 @@ Defined in: main.ts:247639
 
 > `optional` **related\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247640
+Defined in: main.ts:249606
 
 #### Implementation of
 
@@ -412,7 +424,7 @@ Defined in: main.ts:247640
 
 > `optional` **relevant\_pages**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247641
+Defined in: main.ts:249607
 
 #### Implementation of
 
@@ -424,7 +436,7 @@ Defined in: main.ts:247641
 
 > `optional` **search\_intent**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247642
+Defined in: main.ts:249608
 
 #### Implementation of
 
@@ -436,7 +448,7 @@ Defined in: main.ts:247642
 
 > `optional` **serp\_competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247643
+Defined in: main.ts:249609
 
 #### Implementation of
 
@@ -448,7 +460,7 @@ Defined in: main.ts:247643
 
 > `optional` **subdomains**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247644
+Defined in: main.ts:249610
 
 #### Implementation of
 
@@ -460,7 +472,7 @@ Defined in: main.ts:247644
 
 > `optional` **top\_searches**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247645
+Defined in: main.ts:249611
 
 #### Implementation of
 
@@ -472,7 +484,7 @@ Defined in: main.ts:247645
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247658
+Defined in: main.ts:249624
 
 #### Parameters
 
@@ -490,7 +502,7 @@ Defined in: main.ts:247658
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247710
+Defined in: main.ts:249677
 
 #### Parameters
 
@@ -506,9 +518,9 @@ Defined in: main.ts:247710
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+> `static` **fromJS**(`data`): `AppendixDataforseoLabsPriceData`
 
-Defined in: main.ts:247703
+Defined in: main.ts:249670
 
 #### Parameters
 
@@ -518,4 +530,4 @@ Defined in: main.ts:247703
 
 #### Returns
 
-[`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
+`AppendixDataforseoLabsPriceData`

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
-Defined in: main.ts:230631
+Defined in: main.ts:233040
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:230631
 
 ## Constructors
 
-### new BusinessDataGoogleHotelInfoLiveHtmlResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleHotelInfoLiveHtmlResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+> **new BusinessDataGoogleHotelInfoLiveHtmlResultInfo**(`data`?): `BusinessDataGoogleHotelInfoLiveHtmlResultInfo`
 
-Defined in: main.ts:230654
+Defined in: main.ts:233063
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:230654
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230654
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:230646
+Defined in: main.ts:233055
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:230650
+Defined in: main.ts:233059
 
 HTML pages
 
@@ -71,7 +71,7 @@ HTML pages
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:230648
+Defined in: main.ts:233057
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:230633
+Defined in: main.ts:233042
 
 unique hotel identifier specified as "hotel_id:$"
 
@@ -99,7 +99,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:230641
+Defined in: main.ts:233050
 
 language code in a POST array
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:230639
+Defined in: main.ts:233048
 
 location code in a POST array
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:230637
+Defined in: main.ts:233046
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:230635
+Defined in: main.ts:233044
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230663
+Defined in: main.ts:233072
 
 #### Parameters
 
@@ -173,7 +173,7 @@ Defined in: main.ts:230663
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230691
+Defined in: main.ts:233100
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:230691
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleHotelInfoLiveHtmlResultInfo`
 
-Defined in: main.ts:230684
+Defined in: main.ts:233093
 
 #### Parameters
 
@@ -201,4 +201,4 @@ Defined in: main.ts:230684
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`](BusinessDataGoogleHotelInfoLiveHtmlResultInfo.md)
+`BusinessDataGoogleHotelInfoLiveHtmlResultInfo`

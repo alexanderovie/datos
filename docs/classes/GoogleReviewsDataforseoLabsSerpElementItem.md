@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117474
+Defined in: main.ts:118857
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117474
 
 ## Constructors
 
-### new GoogleReviewsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new GoogleReviewsDataforseoLabsSerpElementItem**(`data`?): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+> **new GoogleReviewsDataforseoLabsSerpElementItem**(`data`?): `GoogleReviewsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117491
+Defined in: main.ts:118874
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117491
 
 #### Returns
 
-[`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+`GoogleReviewsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117491
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:117487
+Defined in: main.ts:118870
 
 google-defined client id
 unique id of a local establishment;
@@ -76,7 +76,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:117483
+Defined in: main.ts:118866
 
 the additional feature of the review
 
@@ -90,7 +90,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:117481
+Defined in: main.ts:118864
 
 the identifier of a place
 
@@ -104,7 +104,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -162,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:117479
+Defined in: main.ts:118862
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -177,7 +177,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:117476
+Defined in: main.ts:118859
 
 the number of reviews
 
@@ -191,7 +191,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -209,7 +209,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -227,7 +227,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117496
+Defined in: main.ts:118879
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:117496
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117518
+Defined in: main.ts:118901
 
 #### Parameters
 
@@ -269,9 +269,9 @@ Defined in: main.ts:117518
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleReviewsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117511
+Defined in: main.ts:118894
 
 #### Parameters
 
@@ -281,7 +281,7 @@ Defined in: main.ts:117511
 
 #### Returns
 
-[`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
+`GoogleReviewsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

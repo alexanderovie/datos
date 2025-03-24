@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsCountryResultInfo
 
-Defined in: main.ts:80979
+Defined in: main.ts:81406
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:80979
 
 ## Constructors
 
-### new SerpBaiduLocationsCountryResultInfo()
+### Constructor
 
-> **new SerpBaiduLocationsCountryResultInfo**(`data`?): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+> **new SerpBaiduLocationsCountryResultInfo**(`data`?): `SerpBaiduLocationsCountryResultInfo`
 
-Defined in: main.ts:80996
+Defined in: main.ts:81423
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:80996
 
 #### Returns
 
-[`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+`SerpBaiduLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:80996
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:80989
+Defined in: main.ts:81416
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:80981
+Defined in: main.ts:81408
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:80987
+Defined in: main.ts:81414
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:80983
+Defined in: main.ts:81410
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:80992
+Defined in: main.ts:81419
 
 location type
 only City is supported for all countries except China (where Country is also supported)
@@ -113,7 +113,7 @@ only City is supported for all countries except China (where Country is also sup
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81005
+Defined in: main.ts:81432
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:81005
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81026
+Defined in: main.ts:81453
 
 #### Parameters
 
@@ -147,9 +147,9 @@ Defined in: main.ts:81026
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `SerpBaiduLocationsCountryResultInfo`
 
-Defined in: main.ts:81019
+Defined in: main.ts:81446
 
 #### Parameters
 
@@ -159,4 +159,4 @@ Defined in: main.ts:81019
 
 #### Returns
 
-[`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)
+`SerpBaiduLocationsCountryResultInfo`

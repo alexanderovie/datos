@@ -6,7 +6,7 @@
 
 # Class: ImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115551
+Defined in: main.ts:116936
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:115551
 
 ## Constructors
 
-### new ImagesDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new ImagesDataforseoLabsSerpElementItem**(`data`?): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
+> **new ImagesDataforseoLabsSerpElementItem**(`data`?): `ImagesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115567
+Defined in: main.ts:116952
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:115567
 
 #### Returns
 
-[`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
+`ImagesDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:115567
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:115560
+Defined in: main.ts:116945
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-Defined in: main.ts:115563
+Defined in: main.ts:116948
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -148,7 +148,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115553
+Defined in: main.ts:116938
 
 search engine type
 
@@ -162,7 +162,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:115555
+Defined in: main.ts:116940
 
 title of the result in SERP
 
@@ -176,7 +176,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:115557
+Defined in: main.ts:116942
 
 relevant URL
 
@@ -208,7 +208,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -226,7 +226,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115572
+Defined in: main.ts:116957
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Defined in: main.ts:115572
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115598
+Defined in: main.ts:116983
 
 #### Parameters
 
@@ -268,9 +268,9 @@ Defined in: main.ts:115598
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `ImagesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115591
+Defined in: main.ts:116976
 
 #### Parameters
 
@@ -280,7 +280,7 @@ Defined in: main.ts:115591
 
 #### Returns
 
-[`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
+`ImagesDataforseoLabsSerpElementItem`
 
 #### Overrides
 

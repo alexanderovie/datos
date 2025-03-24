@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsRelevantPagesLiveItem
 
-Defined in: main.ts:114097
+Defined in: main.ts:115402
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:114097
 
 ## Constructors
 
-### new DataforseoLabsRelevantPagesLiveItem()
+### Constructor
 
-> **new DataforseoLabsRelevantPagesLiveItem**(`data`?): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+> **new DataforseoLabsRelevantPagesLiveItem**(`data`?): `DataforseoLabsRelevantPagesLiveItem`
 
-Defined in: main.ts:114107
+Defined in: main.ts:115412
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:114107
 
 #### Returns
 
-[`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+`DataforseoLabsRelevantPagesLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114107
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:114103
+Defined in: main.ts:115408
 
 rankings and traffic metrics for the relevant page
 
@@ -58,7 +58,7 @@ rankings and traffic metrics for the relevant page
 
 > `optional` **page\_address**: `string`
 
-Defined in: main.ts:114101
+Defined in: main.ts:115406
 
 absolute URL of the relevant page
 
@@ -72,7 +72,7 @@ absolute URL of the relevant page
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:114099
+Defined in: main.ts:115404
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114116
+Defined in: main.ts:115421
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:114116
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114141
+Defined in: main.ts:115446
 
 #### Parameters
 
@@ -120,9 +120,9 @@ Defined in: main.ts:114141
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsRelevantPagesLiveItem`
 
-Defined in: main.ts:114134
+Defined in: main.ts:115439
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: main.ts:114134
 
 #### Returns
 
-[`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+`DataforseoLabsRelevantPagesLiveItem`

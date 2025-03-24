@@ -6,7 +6,7 @@
 
 # Interface: IGooglePostsSerpElementItem
 
-Defined in: main.ts:38769
+Defined in: main.ts:39196
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38769
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:38781
+Defined in: main.ts:39208
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:38779
+Defined in: main.ts:39206
 
 the additional feature of the review
 
@@ -42,7 +42,7 @@ the additional feature of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38773
+Defined in: main.ts:39200
 
 the alignment of the element in SERP
 can take the following values:
@@ -54,7 +54,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:38777
+Defined in: main.ts:39204
 
 the identifier of the google_posts feature
 
@@ -64,7 +64,7 @@ the identifier of the google_posts feature
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22134
+Defined in: main.ts:22340
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22131
+Defined in: main.ts:22337
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38785
+Defined in: main.ts:39212
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -107,7 +107,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22127
+Defined in: main.ts:22333
 
 type of element
 
@@ -121,6 +121,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38775
+Defined in: main.ts:39202
 
 the XPath of the element

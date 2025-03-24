@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingResultInfo
 
-Defined in: main.ts:182913
+Defined in: main.ts:185322
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:182913
 
 ## Constructors
 
-### new OnPageContentParsingResultInfo()
+### Constructor
 
-> **new OnPageContentParsingResultInfo**(`data`?): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+> **new OnPageContentParsingResultInfo**(`data`?): `OnPageContentParsingResultInfo`
 
-Defined in: main.ts:182926
+Defined in: main.ts:185335
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:182926
 
 #### Returns
 
-[`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+`OnPageContentParsingResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182926
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:182916
+Defined in: main.ts:185325
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:182918
+Defined in: main.ts:185327
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
 
-Defined in: main.ts:182922
+Defined in: main.ts:185331
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:182920
+Defined in: main.ts:185329
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182935
+Defined in: main.ts:185344
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:182935
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182959
+Defined in: main.ts:185368
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:182959
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageContentParsingResultInfo`
 
-Defined in: main.ts:182952
+Defined in: main.ts:185361
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:182952
 
 #### Returns
 
-[`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
+`OnPageContentParsingResultInfo`

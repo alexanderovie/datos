@@ -6,7 +6,7 @@
 
 # Class: PodcastsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118204
+Defined in: main.ts:119587
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:118204
 
 ## Constructors
 
-### new PodcastsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new PodcastsDataforseoLabsSerpElementItem**(`data`?): [`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
+> **new PodcastsDataforseoLabsSerpElementItem**(`data`?): `PodcastsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118211
+Defined in: main.ts:119594
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:118211
 
 #### Returns
 
-[`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
+`PodcastsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118211
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-Defined in: main.ts:118207
+Defined in: main.ts:119590
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -169,7 +169,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118216
+Defined in: main.ts:119599
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:118216
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118238
+Defined in: main.ts:119621
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:118238
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `PodcastsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118231
+Defined in: main.ts:119614
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:118231
 
 #### Returns
 
-[`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
+`PodcastsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

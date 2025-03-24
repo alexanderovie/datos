@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentResultInfo
 
-Defined in: main.ts:178619
+Defined in: main.ts:181028
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:178619
 
 ## Constructors
 
-### new OnPageDuplicateContentResultInfo()
+### Constructor
 
-> **new OnPageDuplicateContentResultInfo**(`data`?): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+> **new OnPageDuplicateContentResultInfo**(`data`?): `OnPageDuplicateContentResultInfo`
 
-Defined in: main.ts:178632
+Defined in: main.ts:181041
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:178632
 
 #### Returns
 
-[`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+`OnPageDuplicateContentResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178632
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:178622
+Defined in: main.ts:181031
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:178624
+Defined in: main.ts:181033
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)[]
 
-Defined in: main.ts:178628
+Defined in: main.ts:181037
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:178626
+Defined in: main.ts:181035
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178641
+Defined in: main.ts:181050
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:178641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178665
+Defined in: main.ts:181074
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:178665
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageDuplicateContentResultInfo`
 
-Defined in: main.ts:178658
+Defined in: main.ts:181067
 
 #### Parameters
 
@@ -143,4 +143,4 @@ Defined in: main.ts:178658
 
 #### Returns
 
-[`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)
+`OnPageDuplicateContentResultInfo`

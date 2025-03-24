@@ -6,7 +6,7 @@
 
 # Class: ContentCommentInfo
 
-Defined in: main.ts:26710
+Defined in: main.ts:27137
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26710
 
 ## Constructors
 
-### new ContentCommentInfo()
+### Constructor
 
-> **new ContentCommentInfo**(`data`?): [`ContentCommentInfo`](ContentCommentInfo.md)
+> **new ContentCommentInfo**(`data`?): `ContentCommentInfo`
 
-Defined in: main.ts:26727
+Defined in: main.ts:27154
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26727
 
 #### Returns
 
-[`ContentCommentInfo`](ContentCommentInfo.md)
+`ContentCommentInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26727
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:26719
+Defined in: main.ts:27146
 
 author of the comment
 
@@ -54,7 +54,7 @@ author of the comment
 
 > `optional` **have\_form**: `boolean`
 
-Defined in: main.ts:26720
+Defined in: main.ts:27147
 
 #### Implementation of
 
@@ -66,7 +66,7 @@ Defined in: main.ts:26720
 
 > `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:26723
+Defined in: main.ts:27150
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -81,7 +81,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **publish\_date**: `string`
 
-Defined in: main.ts:26717
+Defined in: main.ts:27144
 
 date when the comment was published
 
@@ -95,7 +95,7 @@ date when the comment was published
 
 > `optional` **rating**: [`ContentRatingInfo`](ContentRatingInfo.md)
 
-Defined in: main.ts:26713
+Defined in: main.ts:27140
 
 product’s rating
 contains information about the rating a customer has given to the product
@@ -110,7 +110,7 @@ contains information about the rating a customer has given to the product
 
 > `optional` **title**: `number`
 
-Defined in: main.ts:26715
+Defined in: main.ts:27142
 
 title of the customer’s comment
 
@@ -124,7 +124,7 @@ title of the customer’s comment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26736
+Defined in: main.ts:27163
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:26736
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26762
+Defined in: main.ts:27189
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:26762
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentCommentInfo`](ContentCommentInfo.md)
+> `static` **fromJS**(`data`): `ContentCommentInfo`
 
-Defined in: main.ts:26755
+Defined in: main.ts:27182
 
 #### Parameters
 
@@ -170,4 +170,4 @@ Defined in: main.ts:26755
 
 #### Returns
 
-[`ContentCommentInfo`](ContentCommentInfo.md)
+`ContentCommentInfo`

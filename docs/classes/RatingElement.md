@@ -6,7 +6,7 @@
 
 # Class: RatingElement
 
-Defined in: main.ts:22701
+Defined in: main.ts:23040
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:22701
 
 ## Constructors
 
-### new RatingElement()
+### Constructor
 
-> **new RatingElement**(`data`?): [`RatingElement`](RatingElement.md)
+> **new RatingElement**(`data`?): `RatingElement`
 
-Defined in: main.ts:22720
+Defined in: main.ts:23059
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:22720
 
 #### Returns
 
-[`RatingElement`](RatingElement.md)
+`RatingElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22720
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22716
+Defined in: main.ts:23055
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:22710
+Defined in: main.ts:23049
 
 the maximum value for a rating_type
 
@@ -70,7 +70,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:22704
+Defined in: main.ts:23043
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -85,7 +85,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22712
+Defined in: main.ts:23051
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:22706
+Defined in: main.ts:23045
 
 the value of the rating
 
@@ -113,7 +113,7 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:22708
+Defined in: main.ts:23047
 
 the amount of feedbac
 
@@ -127,7 +127,7 @@ the amount of feedbac
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:22729
+Defined in: main.ts:23068
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:22729
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:22751
+Defined in: main.ts:23090
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:22751
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RatingElement`](RatingElement.md)
+> `static` **fromJS**(`data`): `RatingElement`
 
-Defined in: main.ts:22744
+Defined in: main.ts:23083
 
 #### Parameters
 
@@ -173,4 +173,4 @@ Defined in: main.ts:22744
 
 #### Returns
 
-[`RatingElement`](RatingElement.md)
+`RatingElement`

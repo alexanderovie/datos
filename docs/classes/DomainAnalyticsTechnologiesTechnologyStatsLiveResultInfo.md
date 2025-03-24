@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
-Defined in: main.ts:96551
+Defined in: main.ts:98454
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:96551
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
 
-Defined in: main.ts:96565
+Defined in: main.ts:98468
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:96565
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96565
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:96555
+Defined in: main.ts:98458
 
 starting date of the time range
 
@@ -54,7 +54,7 @@ starting date of the time range
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:96557
+Defined in: main.ts:98460
 
 ending date of the time range
 
@@ -68,7 +68,7 @@ ending date of the time range
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
-Defined in: main.ts:96561
+Defined in: main.ts:98464
 
 items array
 
@@ -82,7 +82,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:96559
+Defined in: main.ts:98462
 
 number of items in the results array
 
@@ -96,7 +96,7 @@ number of items in the results array
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:96553
+Defined in: main.ts:98456
 
 target technology
 
@@ -110,7 +110,7 @@ target technology
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96574
+Defined in: main.ts:98477
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:96574
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96599
+Defined in: main.ts:98502
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:96599
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
 
-Defined in: main.ts:96592
+Defined in: main.ts:98495
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:96592
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`

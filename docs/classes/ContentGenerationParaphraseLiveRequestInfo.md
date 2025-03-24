@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationParaphraseLiveRequestInfo
 
-Defined in: main.ts:191671
+Defined in: main.ts:194080
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:191671
 
 ## Constructors
 
-### new ContentGenerationParaphraseLiveRequestInfo()
+### Constructor
 
-> **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+> **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): `ContentGenerationParaphraseLiveRequestInfo`
 
-Defined in: main.ts:191693
+Defined in: main.ts:194102
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:191693
 
 #### Returns
 
-[`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+`ContentGenerationParaphraseLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191693
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:191683
+Defined in: main.ts:194092
 
 creativity of content generation
 required field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191689
+Defined in: main.ts:194098
 
 user-defined task identifier
 optional field
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:191676
+Defined in: main.ts:194085
 
 target text
 required field
@@ -94,7 +94,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191702
+Defined in: main.ts:194111
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:191702
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191721
+Defined in: main.ts:194130
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:191721
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentGenerationParaphraseLiveRequestInfo`
 
-Defined in: main.ts:191714
+Defined in: main.ts:194123
 
 #### Parameters
 
@@ -140,4 +140,4 @@ Defined in: main.ts:191714
 
 #### Returns
 
-[`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+`ContentGenerationParaphraseLiveRequestInfo`

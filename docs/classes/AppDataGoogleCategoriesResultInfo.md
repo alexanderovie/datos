@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleCategoriesResultInfo
 
-Defined in: main.ts:207905
+Defined in: main.ts:210314
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:207905
 
 ## Constructors
 
-### new AppDataGoogleCategoriesResultInfo()
+### Constructor
 
-> **new AppDataGoogleCategoriesResultInfo**(`data`?): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+> **new AppDataGoogleCategoriesResultInfo**(`data`?): `AppDataGoogleCategoriesResultInfo`
 
-Defined in: main.ts:207911
+Defined in: main.ts:210320
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:207911
 
 #### Returns
 
-[`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+`AppDataGoogleCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:207911
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:207907
+Defined in: main.ts:210316
 
 contains full list of supported app categories
 
@@ -54,7 +54,7 @@ contains full list of supported app categories
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207920
+Defined in: main.ts:210329
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:207920
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207941
+Defined in: main.ts:210350
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:207941
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleCategoriesResultInfo`
 
-Defined in: main.ts:207934
+Defined in: main.ts:210343
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:207934
 
 #### Returns
 
-[`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+`AppDataGoogleCategoriesResultInfo`

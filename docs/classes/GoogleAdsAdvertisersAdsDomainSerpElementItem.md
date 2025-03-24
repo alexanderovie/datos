@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsDomainSerpElementItem
 
-Defined in: main.ts:63630
+Defined in: main.ts:64057
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:63630
 
 ## Constructors
 
-### new GoogleAdsAdvertisersAdsDomainSerpElementItem()
+### Constructor
 
-> **new GoogleAdsAdvertisersAdsDomainSerpElementItem**(`data`?): [`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
+> **new GoogleAdsAdvertisersAdsDomainSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
-Defined in: main.ts:63636
+Defined in: main.ts:64063
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:63636
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
+`GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructors)
+[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:63636
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63410
+Defined in: main.ts:63837
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63410
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:63632
+Defined in: main.ts:64059
 
 domain in SERP
 
@@ -74,7 +74,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63408
+Defined in: main.ts:63835
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -93,7 +93,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63405
+Defined in: main.ts:63832
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63401
+Defined in: main.ts:63828
 
 type of element
 
@@ -131,7 +131,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63641
+Defined in: main.ts:64068
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:63641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63659
+Defined in: main.ts:64086
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:63659
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
-Defined in: main.ts:63652
+Defined in: main.ts:64079
 
 #### Parameters
 
@@ -185,7 +185,7 @@ Defined in: main.ts:63652
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
+`GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
 #### Overrides
 

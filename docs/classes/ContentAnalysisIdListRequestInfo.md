@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisIdListRequestInfo
 
-Defined in: main.ts:185633
+Defined in: main.ts:188042
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:185633
 
 ## Constructors
 
-### new ContentAnalysisIdListRequestInfo()
+### Constructor
 
-> **new ContentAnalysisIdListRequestInfo**(`data`?): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+> **new ContentAnalysisIdListRequestInfo**(`data`?): `ContentAnalysisIdListRequestInfo`
 
-Defined in: main.ts:185671
+Defined in: main.ts:188080
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:185671
 
 #### Returns
 
-[`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+`ContentAnalysisIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185671
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:185641
+Defined in: main.ts:188050
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:185648
+Defined in: main.ts:188057
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:185667
+Defined in: main.ts:188076
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:185653
+Defined in: main.ts:188062
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:185658
+Defined in: main.ts:188067
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:185663
+Defined in: main.ts:188072
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185680
+Defined in: main.ts:188089
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:185680
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185702
+Defined in: main.ts:188111
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:185702
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisIdListRequestInfo`
 
-Defined in: main.ts:185695
+Defined in: main.ts:188104
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:185695
 
 #### Returns
 
-[`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+`ContentAnalysisIdListRequestInfo`

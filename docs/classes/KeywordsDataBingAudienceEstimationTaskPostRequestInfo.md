@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTaskPostRequestInfo
 
-Defined in: main.ts:149727
+Defined in: main.ts:152136
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:149727
 
 ## Constructors
 
-### new KeywordsDataBingAudienceEstimationTaskPostRequestInfo()
+### Constructor
 
-> **new KeywordsDataBingAudienceEstimationTaskPostRequestInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`](KeywordsDataBingAudienceEstimationTaskPostRequestInfo.md)
+> **new KeywordsDataBingAudienceEstimationTaskPostRequestInfo**(`data`?): `KeywordsDataBingAudienceEstimationTaskPostRequestInfo`
 
-Defined in: main.ts:149773
+Defined in: main.ts:152182
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:149773
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`](KeywordsDataBingAudienceEstimationTaskPostRequestInfo.md)
+`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149773
 
 > `optional` **age**: `string`[]
 
-Defined in: main.ts:149752
+Defined in: main.ts:152161
 
 selection of age ranges for targeting
 possible values: eighteen_to_twenty_four, fifty_to_sixty_four, sixty_five_and_above, thirteen_to_seventeen, thirty_five_to_forty_nine, twenty_five_to_thirty_four, unknown, zero_to_twelve
@@ -55,7 +55,7 @@ possible values: eighteen_to_twenty_four, fifty_to_sixty_four, sixty_five_and_ab
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:149755
+Defined in: main.ts:152164
 
 desired bid setting value in USD
 maximum value: 1000
@@ -70,7 +70,7 @@ maximum value: 1000
 
 > `optional` **daily\_budget**: `number`
 
-Defined in: main.ts:149758
+Defined in: main.ts:152167
 
 daily campaign budget value in USD
 maximum value: 10000
@@ -85,7 +85,7 @@ maximum value: 10000
 
 > `optional` **gender**: `string`[]
 
-Defined in: main.ts:149761
+Defined in: main.ts:152170
 
 gender to target
 possible values: male, female, unknown
@@ -100,7 +100,7 @@ possible values: male, female, unknown
 
 > `optional` **industry**: `string`[]
 
-Defined in: main.ts:149765
+Defined in: main.ts:152174
 
 industry of LinkedIn profile targeting
 if you use this field, you can receive the list of available industry names  with industry_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/industries
@@ -116,7 +116,7 @@ example: 806301758
 
 > `optional` **job\_function**: `string`[]
 
-Defined in: main.ts:149769
+Defined in: main.ts:152178
 
 job function of LinkedIn profile targeting
 if you use this field, you can receive the list of available job function names  with job_function_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/job_functions
@@ -132,7 +132,7 @@ example: 806300451
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:149741
+Defined in: main.ts:152150
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -151,7 +151,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:149749
+Defined in: main.ts:152158
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -171,7 +171,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:149734
+Defined in: main.ts:152143
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -190,7 +190,7 @@ London,England,United Kingdom
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149782
+Defined in: main.ts:152191
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:149782
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149823
+Defined in: main.ts:152232
 
 #### Parameters
 
@@ -224,9 +224,9 @@ Defined in: main.ts:149823
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`](KeywordsDataBingAudienceEstimationTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationTaskPostRequestInfo`
 
-Defined in: main.ts:149816
+Defined in: main.ts:152225
 
 #### Parameters
 
@@ -236,4 +236,4 @@ Defined in: main.ts:149816
 
 #### Returns
 
-[`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`](KeywordsDataBingAudienceEstimationTaskPostRequestInfo.md)
+`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`

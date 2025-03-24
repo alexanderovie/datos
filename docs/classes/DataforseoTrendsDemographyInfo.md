@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsDemographyInfo
 
-Defined in: main.ts:146917
+Defined in: main.ts:149326
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:146917
 
 ## Constructors
 
-### new DataforseoTrendsDemographyInfo()
+### Constructor
 
-> **new DataforseoTrendsDemographyInfo**(`data`?): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+> **new DataforseoTrendsDemographyInfo**(`data`?): `DataforseoTrendsDemographyInfo`
 
-Defined in: main.ts:146936
+Defined in: main.ts:149345
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:146936
 
 #### Returns
 
-[`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+`DataforseoTrendsDemographyInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146936
 
 > `optional` **demography**: [`Demography`](Demography.md)
 
-Defined in: main.ts:146928
+Defined in: main.ts:149337
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -55,7 +55,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-Defined in: main.ts:146932
+Defined in: main.ts:149341
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -71,7 +71,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146925
+Defined in: main.ts:149334
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
@@ -86,7 +86,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:146920
+Defined in: main.ts:149329
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -101,7 +101,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:146922
+Defined in: main.ts:149331
 
 type of element
 
@@ -115,7 +115,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146945
+Defined in: main.ts:149354
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:146945
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146970
+Defined in: main.ts:149379
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:146970
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+> `static` **fromJS**(`data`): `DataforseoTrendsDemographyInfo`
 
-Defined in: main.ts:146963
+Defined in: main.ts:149372
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:146963
 
 #### Returns
 
-[`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+`DataforseoTrendsDemographyInfo`

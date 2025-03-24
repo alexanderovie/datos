@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsSerpElementItem
 
-Defined in: main.ts:38982
+Defined in: main.ts:39409
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:38982
 
 ## Constructors
 
-### new ProductConsiderationsSerpElementItem()
+### Constructor
 
-> **new ProductConsiderationsSerpElementItem**(`data`?): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+> **new ProductConsiderationsSerpElementItem**(`data`?): `ProductConsiderationsSerpElementItem`
 
-Defined in: main.ts:39000
+Defined in: main.ts:39427
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:39000
 
 #### Returns
 
-[`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+`ProductConsiderationsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39000
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
 
-Defined in: main.ts:38992
+Defined in: main.ts:39419
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38986
+Defined in: main.ts:39413
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38996
+Defined in: main.ts:39423
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38990
+Defined in: main.ts:39417
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38988
+Defined in: main.ts:39415
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39005
+Defined in: main.ts:39432
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:39005
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39031
+Defined in: main.ts:39458
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:39031
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+> `static` **fromJS**(`data`): `ProductConsiderationsSerpElementItem`
 
-Defined in: main.ts:39024
+Defined in: main.ts:39451
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:39024
 
 #### Returns
 
-[`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
+`ProductConsiderationsSerpElementItem`
 
 #### Overrides
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
 
-Defined in: main.ts:47122
+Defined in: main.ts:47549
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:47122
 
 ## Constructors
 
-### new SerpGoogleLocalFinderLiveHtmlRequestInfo()
+### Constructor
 
-> **new SerpGoogleLocalFinderLiveHtmlRequestInfo**(`data`?): [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+> **new SerpGoogleLocalFinderLiveHtmlRequestInfo**(`data`?): `SerpGoogleLocalFinderLiveHtmlRequestInfo`
 
-Defined in: main.ts:47222
+Defined in: main.ts:47649
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:47222
 
 #### Returns
 
-[`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+`SerpGoogleLocalFinderLiveHtmlRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:47222
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:47198
+Defined in: main.ts:47625
 
 parsing depth
 optional field
@@ -63,7 +63,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:47180
+Defined in: main.ts:47607
 
 device type
 optional field
@@ -80,7 +80,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:47129
+Defined in: main.ts:47556
 
 keyword
 required field
@@ -99,7 +99,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:47175
+Defined in: main.ts:47602
 
 search engine language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ example:en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:47169
+Defined in: main.ts:47596
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:47151
+Defined in: main.ts:47578
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:47162
+Defined in: main.ts:47589
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -178,7 +178,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:47144
+Defined in: main.ts:47571
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -197,7 +197,7 @@ London,England,United Kingdom
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:47203
+Defined in: main.ts:47630
 
 filter results by minimum rating
 optional field
@@ -214,7 +214,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:47187
+Defined in: main.ts:47614
 
 device operating system
 optional field
@@ -233,7 +233,7 @@ default value: android
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:47137
+Defined in: main.ts:47564
 
 task priority
 optional field
@@ -253,7 +253,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:47218
+Defined in: main.ts:47645
 
 user-defined task identifier
 optional field
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_filter**: `string`
 
-Defined in: main.ts:47212
+Defined in: main.ts:47639
 
 filter results by open hours
 optional field
@@ -292,7 +292,7 @@ example: "tuesday;18"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47231
+Defined in: main.ts:47658
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: main.ts:47231
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47260
+Defined in: main.ts:47687
 
 #### Parameters
 
@@ -326,9 +326,9 @@ Defined in: main.ts:47260
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): `SerpGoogleLocalFinderLiveHtmlRequestInfo`
 
-Defined in: main.ts:47253
+Defined in: main.ts:47680
 
 #### Parameters
 
@@ -338,4 +338,4 @@ Defined in: main.ts:47253
 
 #### Returns
 
-[`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+`SerpGoogleLocalFinderLiveHtmlRequestInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveResultInfo
 
-Defined in: main.ts:132512
+Defined in: main.ts:134913
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:132512
 
 > `optional` **app\_ids**: `object`
 
-Defined in: main.ts:132516
+Defined in: main.ts:134917
 
 ids of the apps in a POST array
 
@@ -32,7 +32,7 @@ ids of the apps in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](../classes/DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
 
-Defined in: main.ts:132526
+Defined in: main.ts:134927
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -42,7 +42,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:132524
+Defined in: main.ts:134925
 
 the number of results returned in the items array
 
@@ -52,7 +52,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132520
+Defined in: main.ts:134921
 
 language code in a POST array
 
@@ -62,7 +62,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132518
+Defined in: main.ts:134919
 
 location code in a POST array
 
@@ -72,7 +72,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132514
+Defined in: main.ts:134915
 
 search engine type
 
@@ -82,6 +82,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:132522
+Defined in: main.ts:134923
 
 total amount of results in our database relevant to your request

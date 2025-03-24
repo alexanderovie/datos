@@ -6,7 +6,7 @@
 
 # Interface: IAppendixOnPageDayStatisticsRatesData
 
-Defined in: main.ts:243550
+Defined in: main.ts:245911
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:243550
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:243572
+Defined in: main.ts:245935
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:243572
 
 > `optional` **content\_parsing**: `number`
 
-Defined in: main.ts:243569
+Defined in: main.ts:245930
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:243569
 
 > `optional` **content\_parsing\_live**: `number`
 
-Defined in: main.ts:243570
+Defined in: main.ts:245931
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:243570
 
 > `optional` **duplicate\_content**: `number`
 
-Defined in: main.ts:243562
+Defined in: main.ts:245923
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:243562
 
 > `optional` **duplicate\_tags**: `number`
 
-Defined in: main.ts:243557
+Defined in: main.ts:245918
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:243557
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243560
+Defined in: main.ts:245921
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:243560
 
 > `optional` **force\_stop**: `number`
 
-Defined in: main.ts:243571
+Defined in: main.ts:245934
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:243571
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:243573
+Defined in: main.ts:245933
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:243573
 
 > `optional` **instant\_pages**: `number`
 
-Defined in: main.ts:243564
+Defined in: main.ts:245925
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:243564
 
 > `optional` **keyword\_density**: `number`
 
-Defined in: main.ts:243567
+Defined in: main.ts:245928
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:243567
 
 > `optional` **lighthouse**: [`AppendixLighthouseOnPageDayStatisticsRatesData`](../classes/AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
-Defined in: main.ts:243566
+Defined in: main.ts:245927
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: main.ts:243566
 
 > `optional` **links**: `number`
 
-Defined in: main.ts:243558
+Defined in: main.ts:245919
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: main.ts:243558
 
 > `optional` **microdata**: `number`
 
-Defined in: main.ts:243574
+Defined in: main.ts:245932
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: main.ts:243574
 
 > `optional` **non\_indexable**: `number`
 
-Defined in: main.ts:243556
+Defined in: main.ts:245917
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: main.ts:243556
 
 > `optional` **page\_screenshot**: `number`
 
-Defined in: main.ts:243568
+Defined in: main.ts:245929
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: main.ts:243568
 
 > `optional` **pages**: `number`
 
-Defined in: main.ts:243555
+Defined in: main.ts:245916
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: main.ts:243555
 
 > `optional` **pages\_by\_resource**: `number`
 
-Defined in: main.ts:243561
+Defined in: main.ts:245922
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: main.ts:243561
 
 > `optional` **raw\_html**: `number`
 
-Defined in: main.ts:243563
+Defined in: main.ts:245924
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: main.ts:243563
 
 > `optional` **redirect\_chains**: `number`
 
-Defined in: main.ts:243565
+Defined in: main.ts:245926
 
 ***
 
@@ -170,7 +170,7 @@ Defined in: main.ts:243565
 
 > `optional` **resources**: `number`
 
-Defined in: main.ts:243554
+Defined in: main.ts:245915
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: main.ts:243554
 
 > `optional` **summary**: `number`
 
-Defined in: main.ts:243553
+Defined in: main.ts:245914
 
 ***
 
@@ -186,7 +186,7 @@ Defined in: main.ts:243553
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:243551
+Defined in: main.ts:245912
 
 ***
 
@@ -194,7 +194,7 @@ Defined in: main.ts:243551
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243552
+Defined in: main.ts:245913
 
 ***
 
@@ -202,4 +202,4 @@ Defined in: main.ts:243552
 
 > `optional` **waterfall**: `number`
 
-Defined in: main.ts:243559
+Defined in: main.ts:245920

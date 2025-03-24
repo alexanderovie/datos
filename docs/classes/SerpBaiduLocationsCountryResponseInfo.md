@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsCountryResponseInfo
 
-Defined in: main.ts:81114
+Defined in: main.ts:81541
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:81114
 
 ## Constructors
 
-### new SerpBaiduLocationsCountryResponseInfo()
+### Constructor
 
-> **new SerpBaiduLocationsCountryResponseInfo**(`data`?): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+> **new SerpBaiduLocationsCountryResponseInfo**(`data`?): `SerpBaiduLocationsCountryResponseInfo`
 
-Defined in: main.ts:81120
+Defined in: main.ts:81547
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:81120
 
 #### Returns
 
-[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+`SerpBaiduLocationsCountryResponseInfo`
 
 #### Overrides
 
-[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:81120
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26022
+Defined in: main.ts:26361
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26015
+Defined in: main.ts:26354
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26018
+Defined in: main.ts:26357
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:81116
+Defined in: main.ts:81543
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26024
+Defined in: main.ts:26363
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26026
+Defined in: main.ts:26365
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26020
+Defined in: main.ts:26359
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26012
+Defined in: main.ts:26351
 
 the current version of the API
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81124
+Defined in: main.ts:81551
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:81124
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81146
+Defined in: main.ts:81573
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:81146
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+> `static` **fromJS**(`data`): `SerpBaiduLocationsCountryResponseInfo`
 
-Defined in: main.ts:81139
+Defined in: main.ts:81566
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:81139
 
 #### Returns
 
-[`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
+`SerpBaiduLocationsCountryResponseInfo`
 
 #### Overrides
 

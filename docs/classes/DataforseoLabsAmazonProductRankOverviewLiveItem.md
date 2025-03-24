@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
-Defined in: main.ts:123317
+Defined in: main.ts:125718
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:123317
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductRankOverviewLiveItem()
+### Constructor
 
-> **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+> **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data`?): `DataforseoLabsAmazonProductRankOverviewLiveItem`
 
-Defined in: main.ts:123329
+Defined in: main.ts:125730
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:123329
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+`DataforseoLabsAmazonProductRankOverviewLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123329
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:123323
+Defined in: main.ts:125724
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -56,7 +56,7 @@ for more information, refer to this help center guide
 
 > `optional` **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:123325
+Defined in: main.ts:125726
 
 average keyword position of the product
 
@@ -70,7 +70,7 @@ average keyword position of the product
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123319
+Defined in: main.ts:125720
 
 search engine type
 
@@ -84,7 +84,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123338
+Defined in: main.ts:125739
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:123338
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123357
+Defined in: main.ts:125758
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:123357
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+> `static` **fromJS**(`data`): `DataforseoLabsAmazonProductRankOverviewLiveItem`
 
-Defined in: main.ts:123350
+Defined in: main.ts:125751
 
 #### Parameters
 
@@ -130,4 +130,4 @@ Defined in: main.ts:123350
 
 #### Returns
 
-[`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)
+`DataforseoLabsAmazonProductRankOverviewLiveItem`

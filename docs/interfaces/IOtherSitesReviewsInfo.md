@@ -6,7 +6,7 @@
 
 # Interface: IOtherSitesReviewsInfo
 
-Defined in: main.ts:228992
+Defined in: main.ts:231401
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:228992
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:229004
+Defined in: main.ts:231413
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
@@ -29,7 +29,7 @@ information about the rating enclosed in the review on a third-party site
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:229001
+Defined in: main.ts:231410
 
 review text
 text of the review
@@ -40,7 +40,7 @@ text of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:228995
+Defined in: main.ts:231404
 
 review title
 contains a name of the third-party site where review initially appeared
@@ -51,7 +51,7 @@ contains a name of the third-party site where review initially appeared
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:228998
+Defined in: main.ts:231407
 
 review url
 URL to the a third-party site where review initially appeared

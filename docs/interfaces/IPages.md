@@ -6,7 +6,7 @@
 
 # Interface: IPages
 
-Defined in: main.ts:178538
+Defined in: main.ts:180947
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:178538
 
 > `optional` **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:178544
+Defined in: main.ts:180953
 
 information about the page with duplicate content
 
@@ -28,7 +28,7 @@ information about the page with duplicate content
 
 > `optional` **similarity**: `number`
 
-Defined in: main.ts:178542
+Defined in: main.ts:180951
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6

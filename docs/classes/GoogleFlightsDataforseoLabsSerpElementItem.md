@@ -6,7 +6,7 @@
 
 # Class: GoogleFlightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117616
+Defined in: main.ts:118999
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:117616
 
 ## Constructors
 
-### new GoogleFlightsDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new GoogleFlightsDataforseoLabsSerpElementItem**(`data`?): [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
+> **new GoogleFlightsDataforseoLabsSerpElementItem**(`data`?): `GoogleFlightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117627
+Defined in: main.ts:119010
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:117627
 
 #### Returns
 
-[`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
+`GoogleFlightsDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117627
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22230
 
 > `optional` **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-Defined in: main.ts:117623
+Defined in: main.ts:119006
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117618
+Defined in: main.ts:119001
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:117620
+Defined in: main.ts:119003
 
 relevant URL
 
@@ -179,7 +179,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -197,7 +197,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117632
+Defined in: main.ts:119015
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:117632
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117656
+Defined in: main.ts:119039
 
 #### Parameters
 
@@ -239,9 +239,9 @@ Defined in: main.ts:117656
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleFlightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117649
+Defined in: main.ts:119032
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:117649
 
 #### Returns
 
-[`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
+`GoogleFlightsDataforseoLabsSerpElementItem`
 
 #### Overrides
 

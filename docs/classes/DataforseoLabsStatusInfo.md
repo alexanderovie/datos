@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusInfo
 
-Defined in: main.ts:99603
+Defined in: main.ts:101506
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:99603
 
 ## Constructors
 
-### new DataforseoLabsStatusInfo()
+### Constructor
 
-> **new DataforseoLabsStatusInfo**(`data`?): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> **new DataforseoLabsStatusInfo**(`data`?): `DataforseoLabsStatusInfo`
 
-Defined in: main.ts:99612
+Defined in: main.ts:101515
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:99612
 
 #### Returns
 
-[`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+`DataforseoLabsStatusInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99612
 
 > `optional` **date\_update**: `string`
 
-Defined in: main.ts:99608
+Defined in: main.ts:101511
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
@@ -57,7 +57,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99621
+Defined in: main.ts:101524
 
 #### Parameters
 
@@ -75,7 +75,7 @@ Defined in: main.ts:99621
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99638
+Defined in: main.ts:101541
 
 #### Parameters
 
@@ -91,9 +91,9 @@ Defined in: main.ts:99638
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsStatusInfo`
 
-Defined in: main.ts:99631
+Defined in: main.ts:101534
 
 #### Parameters
 
@@ -103,4 +103,4 @@ Defined in: main.ts:99631
 
 #### Returns
 
-[`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+`DataforseoLabsStatusInfo`

@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListRequestInfo
 
-Defined in: main.ts:172503
+Defined in: main.ts:174912
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:172503
 
 ## Constructors
 
-### new OnPageIdListRequestInfo()
+### Constructor
 
-> **new OnPageIdListRequestInfo**(`data`?): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+> **new OnPageIdListRequestInfo**(`data`?): `OnPageIdListRequestInfo`
 
-Defined in: main.ts:172541
+Defined in: main.ts:174950
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:172541
 
 #### Returns
 
-[`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+`OnPageIdListRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172541
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:172511
+Defined in: main.ts:174920
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:172518
+Defined in: main.ts:174927
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:172537
+Defined in: main.ts:174946
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:172523
+Defined in: main.ts:174932
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:172528
+Defined in: main.ts:174937
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:172533
+Defined in: main.ts:174942
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172550
+Defined in: main.ts:174959
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:172550
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172572
+Defined in: main.ts:174981
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:172572
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageIdListRequestInfo`
 
-Defined in: main.ts:172565
+Defined in: main.ts:174974
 
 #### Parameters
 
@@ -192,4 +192,4 @@ Defined in: main.ts:172565
 
 #### Returns
 
-[`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+`OnPageIdListRequestInfo`

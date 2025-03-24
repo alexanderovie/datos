@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateContentRequestInfo
 
-Defined in: main.ts:178446
+Defined in: main.ts:180855
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:178446
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:178452
+Defined in: main.ts:180861
 
 ID of the task
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:178465
+Defined in: main.ts:180874
 
 the maximum number of returned pages
 optional field
@@ -45,7 +45,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:178470
+Defined in: main.ts:180879
 
 offset in the results array of returned pages
 optional field
@@ -58,7 +58,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **similarity**: `number`
 
-Defined in: main.ts:178460
+Defined in: main.ts:180869
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -70,7 +70,7 @@ you can specify any similarity score in the 0-to-10 range
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:178476
+Defined in: main.ts:180885
 
 user-defined task identifier
 optional field
@@ -84,7 +84,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:178456
+Defined in: main.ts:180865
 
 page URL
 required field

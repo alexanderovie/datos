@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppInfoTaskPostRequestInfo
 
-Defined in: main.ts:210964
+Defined in: main.ts:213373
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:210964
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:210972
+Defined in: main.ts:213381
 
 id of the app
 required field
@@ -34,7 +34,7 @@ the id is org.telegram.messenger
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:211000
+Defined in: main.ts:213409
 
 search engine language code
 required field if language_name is not specified
@@ -49,7 +49,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:210993
+Defined in: main.ts:213402
 
 full name of search engine language
 required field if language_code is not specified
@@ -64,7 +64,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:210986
+Defined in: main.ts:213395
 
 search engine location code
 required field if you don’t specify location_name
@@ -79,7 +79,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210979
+Defined in: main.ts:213388
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -94,7 +94,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:211040
+Defined in: main.ts:213449
 
 notification URL of a completed task
 optional field
@@ -112,7 +112,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:211030
+Defined in: main.ts:213439
 
 postback_url datatype
 required field if you specify postback_url
@@ -126,7 +126,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:211024
+Defined in: main.ts:213433
 
 return URL for sending task results
 optional field
@@ -144,7 +144,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:211008
+Defined in: main.ts:213417
 
 task priority
 optional field
@@ -160,7 +160,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:211014
+Defined in: main.ts:213423
 
 user-defined task identifier
 optional field

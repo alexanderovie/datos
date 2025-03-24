@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMerchantGoogleInfo
 
-Defined in: main.ts:241018
+Defined in: main.ts:243431
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241018
 
 > `optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241022
+Defined in: main.ts:243435
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:241022
 
 > `optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241021
+Defined in: main.ts:243434
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:241021
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241019
+Defined in: main.ts:243432
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:241019
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](../classes/AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241020
+Defined in: main.ts:243433

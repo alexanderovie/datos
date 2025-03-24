@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
-Defined in: main.ts:104651
+Defined in: main.ts:106472
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104651
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
-Defined in: main.ts:104672
+Defined in: main.ts:106493
 
 contains keyword ideas and related data
 
@@ -28,7 +28,7 @@ contains keyword ideas and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:104664
+Defined in: main.ts:106485
 
 number of results returned in the items array
 
@@ -38,7 +38,7 @@ number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104660
+Defined in: main.ts:106481
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104658
+Defined in: main.ts:106479
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104666
+Defined in: main.ts:106487
 
 current offset value
 
@@ -68,7 +68,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:104670
+Defined in: main.ts:106491
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -80,7 +80,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104653
+Defined in: main.ts:106474
 
 search engine type
 
@@ -90,7 +90,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:104656
+Defined in: main.ts:106477
 
 keywords in a POST array
 keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -101,6 +101,6 @@ keywords are returned with decoded %## (plus character ‘+’ will be decoded t
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:104662
+Defined in: main.ts:106483
 
 total number of results relevant to your request in our database

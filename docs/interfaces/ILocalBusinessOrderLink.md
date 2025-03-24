@@ -6,7 +6,7 @@
 
 # Interface: ILocalBusinessOrderLink
 
-Defined in: main.ts:25883
+Defined in: main.ts:26222
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:25883
 
 > `optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](../classes/LocalBusinessDeliveryServiceInfo.md)[]
 
-Defined in: main.ts:25885
+Defined in: main.ts:26224
 
 lists available delivery services
 
@@ -32,7 +32,7 @@ lists available delivery services
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25775
+Defined in: main.ts:26114
 
 type of element
 

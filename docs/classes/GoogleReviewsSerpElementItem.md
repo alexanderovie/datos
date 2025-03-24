@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsSerpElementItem
 
-Defined in: main.ts:34140
+Defined in: main.ts:34567
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:34140
 
 ## Constructors
 
-### new GoogleReviewsSerpElementItem()
+### Constructor
 
-> **new GoogleReviewsSerpElementItem**(`data`?): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+> **new GoogleReviewsSerpElementItem**(`data`?): `GoogleReviewsSerpElementItem`
 
-Defined in: main.ts:34165
+Defined in: main.ts:34592
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:34165
 
 #### Returns
 
-[`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+`GoogleReviewsSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34165
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:34157
+Defined in: main.ts:34584
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:34155
+Defined in: main.ts:34582
 
 the additional feature of the review
 
@@ -88,7 +88,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:34153
+Defined in: main.ts:34580
 
 the identifier of a place
 
@@ -102,7 +102,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34144
+Defined in: main.ts:34571
 
 the alignment of the element in SERP
 can take the following values:
@@ -118,7 +118,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -137,7 +137,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -157,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:34151
+Defined in: main.ts:34578
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -172,7 +172,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34161
+Defined in: main.ts:34588
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -188,7 +188,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:34148
+Defined in: main.ts:34575
 
 the number of reviews
 
@@ -202,7 +202,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -220,7 +220,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34146
+Defined in: main.ts:34573
 
 the XPath of the element
 
@@ -234,7 +234,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34170
+Defined in: main.ts:34597
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:34170
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34195
+Defined in: main.ts:34622
 
 #### Parameters
 
@@ -276,9 +276,9 @@ Defined in: main.ts:34195
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleReviewsSerpElementItem`
 
-Defined in: main.ts:34188
+Defined in: main.ts:34615
 
 #### Parameters
 
@@ -288,7 +288,7 @@ Defined in: main.ts:34188
 
 #### Returns
 
-[`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
+`GoogleReviewsSerpElementItem`
 
 #### Overrides
 

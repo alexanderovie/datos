@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoTaskPostRequestInfo
 
-Defined in: main.ts:61368
+Defined in: main.ts:61795
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:61368
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:61374
+Defined in: main.ts:61801
 
 ID of the dataset
 required field
@@ -32,7 +32,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:61398
+Defined in: main.ts:61825
 
 device type
 optional field
@@ -44,7 +44,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:61394
+Defined in: main.ts:61821
 
 search engine language code
 optional field
@@ -58,7 +58,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:61388
+Defined in: main.ts:61815
 
 full name of search engine language
 optional field
@@ -72,7 +72,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:61403
+Defined in: main.ts:61830
 
 device operating system
 optional field
@@ -85,7 +85,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:61436
+Defined in: main.ts:61863
 
 notification URL of a completed task
 optional field
@@ -104,7 +104,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:61425
+Defined in: main.ts:61852
 
 postback_url datatype
 required field if you specify postback_url
@@ -117,7 +117,7 @@ possible value: advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:61420
+Defined in: main.ts:61847
 
 return URL for sending task results
 optional field
@@ -136,7 +136,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:61382
+Defined in: main.ts:61809
 
 task priority
 optional field
@@ -152,7 +152,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61409
+Defined in: main.ts:61836
 
 user-defined task identifier
 optional field

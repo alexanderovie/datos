@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
 
-Defined in: main.ts:98906
+Defined in: main.ts:100809
 
 items array
 
@@ -20,11 +20,11 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveItem()
+### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveItem**(`data`?): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
+> **new DomainAnalyticsWhoisOverviewLiveItem**(`data`?): `DomainAnalyticsWhoisOverviewLiveItem`
 
-Defined in: main.ts:98956
+Defined in: main.ts:100859
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: main.ts:98956
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
+`DomainAnalyticsWhoisOverviewLiveItem`
 
 ## Properties
 
@@ -42,7 +42,7 @@ Defined in: main.ts:98956
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:98952
+Defined in: main.ts:100855
 
 backlink data for the returned domain
 
@@ -56,7 +56,7 @@ backlink data for the returned domain
 
 > `optional` **changed\_datetime**: `string`
 
-Defined in: main.ts:98918
+Defined in: main.ts:100821
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -73,7 +73,7 @@ example:
 
 > `optional` **created\_datetime**: `string`
 
-Defined in: main.ts:98913
+Defined in: main.ts:100816
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -90,7 +90,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:98908
+Defined in: main.ts:100811
 
 domain name
 
@@ -104,7 +104,7 @@ domain name
 
 > `optional` **epp\_status\_codes**: `string`[]
 
-Defined in: main.ts:98936
+Defined in: main.ts:100839
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -119,7 +119,7 @@ the status of a domain name registration as defined by ICANN
 
 > `optional` **expiration\_datetime**: `string`
 
-Defined in: main.ts:98923
+Defined in: main.ts:100826
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -136,7 +136,7 @@ example:
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:98933
+Defined in: main.ts:100836
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -153,7 +153,7 @@ example:
 
 > `optional` **metrics**: [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-Defined in: main.ts:98950
+Defined in: main.ts:100853
 
 ranking data relevant to the specified domain
 
@@ -167,7 +167,7 @@ ranking data relevant to the specified domain
 
 > `optional` **registered**: `boolean`
 
-Defined in: main.ts:98943
+Defined in: main.ts:100846
 
 domain registration status
 if false, the domain name registration has expired
@@ -183,7 +183,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 > `optional` **registrar**: `string`
 
-Defined in: main.ts:98948
+Defined in: main.ts:100851
 
 domain registrar
 if null, the domain registrar is unknown
@@ -200,7 +200,7 @@ NameCheap, Inc.
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:98939
+Defined in: main.ts:100842
 
 top-level domain
 top-level domain in the DNS root zone
@@ -215,7 +215,7 @@ top-level domain in the DNS root zone
 
 > `optional` **updated\_datetime**: `string`
 
-Defined in: main.ts:98928
+Defined in: main.ts:100831
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -232,7 +232,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98965
+Defined in: main.ts:100868
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:98965
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:98997
+Defined in: main.ts:100900
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:98997
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveItem`
 
-Defined in: main.ts:98990
+Defined in: main.ts:100893
 
 #### Parameters
 
@@ -278,4 +278,4 @@ Defined in: main.ts:98990
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
+`DomainAnalyticsWhoisOverviewLiveItem`

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
-Defined in: main.ts:112333
+Defined in: main.ts:113638
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:112333
 
 ## Constructors
 
-### new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo**(`data`?): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+> **new DataforseoLabsGoogleCompetitorsDomainLiveResultInfo**(`data`?): `DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`
 
-Defined in: main.ts:112351
+Defined in: main.ts:113656
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:112351
 
 #### Returns
 
-[`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112351
 
 > `optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
-Defined in: main.ts:112347
+Defined in: main.ts:113652
 
 contains data related to the target and competitor domains
 
@@ -54,7 +54,7 @@ contains data related to the target and competitor domains
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:112345
+Defined in: main.ts:113650
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112341
+Defined in: main.ts:113646
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112339
+Defined in: main.ts:113644
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112335
+Defined in: main.ts:113640
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:112337
+Defined in: main.ts:113642
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:112343
+Defined in: main.ts:113648
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112360
+Defined in: main.ts:113665
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:112360
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112387
+Defined in: main.ts:113692
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:112387
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`
 
-Defined in: main.ts:112380
+Defined in: main.ts:113685
 
 #### Parameters
 
@@ -184,4 +184,4 @@ Defined in: main.ts:112380
 
 #### Returns
 
-[`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)
+`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`

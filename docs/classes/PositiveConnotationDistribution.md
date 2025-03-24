@@ -6,7 +6,7 @@
 
 # Class: PositiveConnotationDistribution
 
-Defined in: main.ts:188405
+Defined in: main.ts:190814
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:188405
 
 ## Constructors
 
-### new PositiveConnotationDistribution()
+### Constructor
 
-> **new PositiveConnotationDistribution**(`data`?): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> **new PositiveConnotationDistribution**(`data`?): `PositiveConnotationDistribution`
 
-Defined in: main.ts:188412
+Defined in: main.ts:190821
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:188412
 
 #### Returns
 
-[`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+`PositiveConnotationDistribution`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188412
 
 > `optional` **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188407
+Defined in: main.ts:190816
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:188407
 
 > `optional` **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188408
+Defined in: main.ts:190817
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:188408
 
 > `optional` **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:188406
+Defined in: main.ts:190815
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:188406
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188421
+Defined in: main.ts:190830
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:188421
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188440
+Defined in: main.ts:190849
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:188440
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> `static` **fromJS**(`data`): `PositiveConnotationDistribution`
 
-Defined in: main.ts:188433
+Defined in: main.ts:190842
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:188433
 
 #### Returns
 
-[`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+`PositiveConnotationDistribution`

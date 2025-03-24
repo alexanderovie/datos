@@ -6,7 +6,7 @@
 
 # Interface: ISerpIdListRequestInfo
 
-Defined in: main.ts:26885
+Defined in: main.ts:27312
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26885
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:26893
+Defined in: main.ts:27320
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:26900
+Defined in: main.ts:27327
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:26919
+Defined in: main.ts:27346
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:26905
+Defined in: main.ts:27332
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:26910
+Defined in: main.ts:27337
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:26915
+Defined in: main.ts:27342
 
 sorting by task execution time
 optional field

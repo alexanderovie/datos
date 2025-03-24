@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
-Defined in: main.ts:229403
+Defined in: main.ts:231812
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:229403
 
 ## Constructors
 
-### new BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
+> **new BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo**(`data`?): `BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:229427
+Defined in: main.ts:231836
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:229427
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
+`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:229427
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:229417
+Defined in: main.ts:231826
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:229421
+Defined in: main.ts:231830
 
 HTML pages
 
@@ -71,7 +71,7 @@ HTML pages
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:229419
+Defined in: main.ts:231828
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:229408
+Defined in: main.ts:231817
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
@@ -102,7 +102,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:229412
+Defined in: main.ts:231821
 
 language code in a POST array
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:229410
+Defined in: main.ts:231819
 
 location code in a POST array
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:229423
+Defined in: main.ts:231832
 
 #### Implementation of
 
@@ -142,7 +142,7 @@ Defined in: main.ts:229423
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:229422
+Defined in: main.ts:231831
 
 #### Implementation of
 
@@ -154,7 +154,7 @@ Defined in: main.ts:229422
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:229436
+Defined in: main.ts:231845
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:229436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:229464
+Defined in: main.ts:231873
 
 #### Parameters
 
@@ -188,9 +188,9 @@ Defined in: main.ts:229464
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:229457
+Defined in: main.ts:231866
 
 #### Parameters
 
@@ -200,4 +200,4 @@ Defined in: main.ts:229457
 
 #### Returns
 
-[`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
+`BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`

@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataDayStatisticsRatesData
 
-Defined in: main.ts:243579
+Defined in: main.ts:245940
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:243579
 
 ## Constructors
 
-### new AppendixBusinessDataDayStatisticsRatesData()
+### Constructor
 
-> **new AppendixBusinessDataDayStatisticsRatesData**(`data`?): [`AppendixBusinessDataDayStatisticsRatesData`](AppendixBusinessDataDayStatisticsRatesData.md)
+> **new AppendixBusinessDataDayStatisticsRatesData**(`data`?): `AppendixBusinessDataDayStatisticsRatesData`
 
-Defined in: main.ts:243595
+Defined in: main.ts:245956
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:243595
 
 #### Returns
 
-[`AppendixBusinessDataDayStatisticsRatesData`](AppendixBusinessDataDayStatisticsRatesData.md)
+`AppendixBusinessDataDayStatisticsRatesData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243595
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:243591
+Defined in: main.ts:245952
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243591
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243588
+Defined in: main.ts:245949
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243588
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243583
+Defined in: main.ts:245944
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243583
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
-Defined in: main.ts:243580
+Defined in: main.ts:245941
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243580
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:243590
+Defined in: main.ts:245951
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243590
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:243582
+Defined in: main.ts:245943
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243582
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:243581
+Defined in: main.ts:245942
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243581
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243585
+Defined in: main.ts:245946
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:243585
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243589
+Defined in: main.ts:245950
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:243589
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243586
+Defined in: main.ts:245947
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:243586
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243587
+Defined in: main.ts:245948
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:243587
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243584
+Defined in: main.ts:245945
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:243584
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:243604
+Defined in: main.ts:245965
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:243604
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:243632
+Defined in: main.ts:245993
 
 #### Parameters
 
@@ -218,9 +218,9 @@ Defined in: main.ts:243632
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixBusinessDataDayStatisticsRatesData`](AppendixBusinessDataDayStatisticsRatesData.md)
+> `static` **fromJS**(`data`): `AppendixBusinessDataDayStatisticsRatesData`
 
-Defined in: main.ts:243625
+Defined in: main.ts:245986
 
 #### Parameters
 
@@ -230,4 +230,4 @@ Defined in: main.ts:243625
 
 #### Returns
 
-[`AppendixBusinessDataDayStatisticsRatesData`](AppendixBusinessDataDayStatisticsRatesData.md)
+`AppendixBusinessDataDayStatisticsRatesData`

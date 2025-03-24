@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
-Defined in: main.ts:235593
+Defined in: main.ts:238002
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:235593
 
 ## Constructors
 
-### new BusinessDataTrustpilotReviewsTaskPostRequestInfo()
+### Constructor
 
-> **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+> **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data`?): `BusinessDataTrustpilotReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:235656
+Defined in: main.ts:238065
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:235656
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+`BusinessDataTrustpilotReviewsTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235656
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:235624
+Defined in: main.ts:238033
 
 parsing depth
 optional field
@@ -59,7 +59,7 @@ maximum value: 25000
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:235601
+Defined in: main.ts:238010
 
 domain of the local establishment
 required field
@@ -79,7 +79,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:235652
+Defined in: main.ts:238061
 
 notification URL of a completed task
 optional field
@@ -102,7 +102,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:235641
+Defined in: main.ts:238050
 
 return URL for sending task results
 optional field
@@ -125,7 +125,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:235617
+Defined in: main.ts:238026
 
 task priority
 optional field
@@ -145,7 +145,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:235609
+Defined in: main.ts:238018
 
 results sorting parameter
 optional field
@@ -165,7 +165,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:235630
+Defined in: main.ts:238039
 
 user-defined task identifier
 optional field
@@ -183,7 +183,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235665
+Defined in: main.ts:238074
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: main.ts:235665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235688
+Defined in: main.ts:238097
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:235688
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataTrustpilotReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:235681
+Defined in: main.ts:238090
 
 #### Parameters
 
@@ -229,4 +229,4 @@ Defined in: main.ts:235681
 
 #### Returns
 
-[`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+`BusinessDataTrustpilotReviewsTaskPostRequestInfo`

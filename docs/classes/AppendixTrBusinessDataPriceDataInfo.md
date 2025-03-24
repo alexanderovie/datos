@@ -6,7 +6,7 @@
 
 # Class: AppendixTrBusinessDataPriceDataInfo
 
-Defined in: main.ts:247265
+Defined in: main.ts:249230
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:247265
 
 ## Constructors
 
-### new AppendixTrBusinessDataPriceDataInfo()
+### Constructor
 
-> **new AppendixTrBusinessDataPriceDataInfo**(`data`?): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> **new AppendixTrBusinessDataPriceDataInfo**(`data`?): `AppendixTrBusinessDataPriceDataInfo`
 
-Defined in: main.ts:247271
+Defined in: main.ts:249236
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:247271
 
 #### Returns
 
-[`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+`AppendixTrBusinessDataPriceDataInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247271
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:247266
+Defined in: main.ts:249231
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247266
 
 > `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:247267
+Defined in: main.ts:249232
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247267
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:247280
+Defined in: main.ts:249245
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:247280
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:247298
+Defined in: main.ts:249263
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:247298
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): `AppendixTrBusinessDataPriceDataInfo`
 
-Defined in: main.ts:247291
+Defined in: main.ts:249256
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:247291
 
 #### Returns
 
-[`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+`AppendixTrBusinessDataPriceDataInfo`

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 
-Defined in: main.ts:185043
+Defined in: main.ts:187452
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:185043
 
 ## Constructors
 
-### new OnPageLighthouseTasksReadyResultInfo()
+### Constructor
 
-> **new OnPageLighthouseTasksReadyResultInfo**(`data`?): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+> **new OnPageLighthouseTasksReadyResultInfo**(`data`?): `OnPageLighthouseTasksReadyResultInfo`
 
-Defined in: main.ts:185054
+Defined in: main.ts:187463
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:185054
 
 #### Returns
 
-[`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+`OnPageLighthouseTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185054
 
 > `optional` **endpoint\_json**: `string`
 
-Defined in: main.ts:185050
+Defined in: main.ts:187459
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
@@ -54,7 +54,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:185046
+Defined in: main.ts:187455
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:185048
+Defined in: main.ts:187457
 
 user-defined task identifier
 
@@ -83,7 +83,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185063
+Defined in: main.ts:187472
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:185063
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185082
+Defined in: main.ts:187491
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:185082
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageLighthouseTasksReadyResultInfo`
 
-Defined in: main.ts:185075
+Defined in: main.ts:187484
 
 #### Parameters
 
@@ -129,4 +129,4 @@ Defined in: main.ts:185075
 
 #### Returns
 
-[`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+`OnPageLighthouseTasksReadyResultInfo`

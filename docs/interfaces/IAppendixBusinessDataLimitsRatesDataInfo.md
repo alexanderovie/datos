@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:241588
+Defined in: main.ts:244001
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241588
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241597
+Defined in: main.ts:244010
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:241597
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:241592
+Defined in: main.ts:244005
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:241592
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
 
-Defined in: main.ts:241589
+Defined in: main.ts:244002
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:241589
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:241591
+Defined in: main.ts:244004
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:241591
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:241590
+Defined in: main.ts:244003
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:241590
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241594
+Defined in: main.ts:244007
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:241594
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:241598
+Defined in: main.ts:244011
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:241598
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241595
+Defined in: main.ts:244008
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:241595
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241596
+Defined in: main.ts:244009
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:241596
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:241593
+Defined in: main.ts:244006

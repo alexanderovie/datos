@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListResultInfo
 
-Defined in: main.ts:172627
+Defined in: main.ts:175036
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:172627
 
 ## Constructors
 
-### new OnPageIdListResultInfo()
+### Constructor
 
-> **new OnPageIdListResultInfo**(`data`?): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+> **new OnPageIdListResultInfo**(`data`?): `OnPageIdListResultInfo`
 
-Defined in: main.ts:172653
+Defined in: main.ts:175062
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:172653
 
 #### Returns
 
-[`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+`OnPageIdListResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172653
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:172647
+Defined in: main.ts:175056
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:172642
+Defined in: main.ts:175051
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:172637
+Defined in: main.ts:175046
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:172629
+Defined in: main.ts:175038
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:172649
+Defined in: main.ts:175058
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:172645
+Defined in: main.ts:175054
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:172632
+Defined in: main.ts:175041
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172662
+Defined in: main.ts:175071
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:172662
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172691
+Defined in: main.ts:175100
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:172691
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+> `static` **fromJS**(`data`): `OnPageIdListResultInfo`
 
-Defined in: main.ts:172684
+Defined in: main.ts:175093
 
 #### Parameters
 
@@ -196,4 +196,4 @@ Defined in: main.ts:172684
 
 #### Returns
 
-[`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+`OnPageIdListResultInfo`

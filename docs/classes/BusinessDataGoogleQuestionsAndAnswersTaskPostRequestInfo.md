@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
 
-Defined in: main.ts:233169
+Defined in: main.ts:235578
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:233169
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo()
+### Constructor
 
-> **new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
+> **new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo**(`data`?): `BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`
 
-Defined in: main.ts:233273
+Defined in: main.ts:235682
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:233273
 
 #### Returns
 
-[`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
+`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233273
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:233241
+Defined in: main.ts:235650
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of questions in the response, t
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:233186
+Defined in: main.ts:235595
 
 keyword
 required field
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:233232
+Defined in: main.ts:235641
 
 search engine language code
 required field if you don’t specify language_name
@@ -109,7 +109,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:233225
+Defined in: main.ts:235634
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -128,7 +128,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:233208
+Defined in: main.ts:235617
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -147,7 +147,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:233218
+Defined in: main.ts:235627
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -169,7 +169,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:233201
+Defined in: main.ts:235610
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:233269
+Defined in: main.ts:235678
 
 notification URL of a completed task
 optional field
@@ -211,7 +211,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:233258
+Defined in: main.ts:235667
 
 return URL for sending task results
 optional field
@@ -234,7 +234,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:233194
+Defined in: main.ts:235603
 
 task priority
 optional field
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:233247
+Defined in: main.ts:235656
 
 user-defined task identifier
 optional field
@@ -272,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233282
+Defined in: main.ts:235691
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:233282
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:233309
+Defined in: main.ts:235718
 
 #### Parameters
 
@@ -306,9 +306,9 @@ Defined in: main.ts:233309
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`
 
-Defined in: main.ts:233302
+Defined in: main.ts:235711
 
 #### Parameters
 
@@ -318,4 +318,4 @@ Defined in: main.ts:233302
 
 #### Returns
 
-[`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
+`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`

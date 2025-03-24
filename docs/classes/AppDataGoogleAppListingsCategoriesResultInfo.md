@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:213415
+Defined in: main.ts:215824
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:213415
 
 ## Constructors
 
-### new AppDataGoogleAppListingsCategoriesResultInfo()
+### Constructor
 
-> **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+> **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): `AppDataGoogleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:213423
+Defined in: main.ts:215832
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:213423
 
 #### Returns
 
-[`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+`AppDataGoogleAppListingsCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213423
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:213417
+Defined in: main.ts:215826
 
 name of the supported app category
 
@@ -54,7 +54,7 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:213419
+Defined in: main.ts:215828
 
 number of app listings that make up the supported app category
 
@@ -68,7 +68,7 @@ number of app listings that make up the supported app category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213432
+Defined in: main.ts:215841
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:213432
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213450
+Defined in: main.ts:215859
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:213450
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:213443
+Defined in: main.ts:215852
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:213443
 
 #### Returns
 
-[`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+`AppDataGoogleAppListingsCategoriesResultInfo`

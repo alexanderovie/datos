@@ -6,7 +6,7 @@
 
 # Class: BaseAppDataSerpElementItem
 
-Defined in: main.ts:23673
+Defined in: main.ts:24012
 
 ## Extended by
 
@@ -23,11 +23,11 @@ Defined in: main.ts:23673
 
 ## Constructors
 
-### new BaseAppDataSerpElementItem()
+### Constructor
 
-> **new BaseAppDataSerpElementItem**(`data`?): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **new BaseAppDataSerpElementItem**(`data`?): `BaseAppDataSerpElementItem`
 
-Defined in: main.ts:23693
+Defined in: main.ts:24032
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: main.ts:23693
 
 #### Returns
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+`BaseAppDataSerpElementItem`
 
 ## Properties
 
@@ -45,7 +45,7 @@ Defined in: main.ts:23693
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23691
+Defined in: main.ts:24030
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: main.ts:23691
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23685
+Defined in: main.ts:24024
 
 the alignment of the element in SERP
 can take the following values:
@@ -69,7 +69,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23681
+Defined in: main.ts:24020
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -84,7 +84,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23678
+Defined in: main.ts:24017
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:23689
+Defined in: main.ts:24028
 
 average rating of the app
 
@@ -113,7 +113,7 @@ average rating of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:24026
 
 title of the app
 
@@ -127,7 +127,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23675
+Defined in: main.ts:24014
 
 type of element
 
@@ -141,7 +141,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:23703
+Defined in: main.ts:24042
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:23703
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:23751
+Defined in: main.ts:24090
 
 #### Parameters
 
@@ -175,9 +175,9 @@ Defined in: main.ts:23751
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> `static` **fromJS**(`data`): `BaseAppDataSerpElementItem`
 
-Defined in: main.ts:23714
+Defined in: main.ts:24053
 
 #### Parameters
 
@@ -187,4 +187,4 @@ Defined in: main.ts:23714
 
 #### Returns
 
-[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+`BaseAppDataSerpElementItem`

@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesElement
 
-Defined in: main.ts:24256
+Defined in: main.ts:24595
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:24256
 
 ## Constructors
 
-### new RelatedSearchesElement()
+### Constructor
 
-> **new RelatedSearchesElement**(`data`?): [`RelatedSearchesElement`](RelatedSearchesElement.md)
+> **new RelatedSearchesElement**(`data`?): `RelatedSearchesElement`
 
-Defined in: main.ts:24270
+Defined in: main.ts:24609
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:24270
 
 #### Returns
 
-[`RelatedSearchesElement`](RelatedSearchesElement.md)
+`RelatedSearchesElement`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24270
 
 > `optional` **image\_alt**: `string`
 
-Defined in: main.ts:24264
+Defined in: main.ts:24603
 
 the alt tag of the product image featured in the results
 
@@ -54,7 +54,7 @@ the alt tag of the product image featured in the results
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:24266
+Defined in: main.ts:24605
 
 URL of the product image featured in the results
 
@@ -68,7 +68,7 @@ URL of the product image featured in the results
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24260
+Defined in: main.ts:24599
 
 product title
 
@@ -82,7 +82,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24258
+Defined in: main.ts:24597
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24262
+Defined in: main.ts:24601
 
 the URL of the product page
 
@@ -110,7 +110,7 @@ the URL of the product page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:24279
+Defined in: main.ts:24618
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:24279
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:24300
+Defined in: main.ts:24639
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:24300
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RelatedSearchesElement`](RelatedSearchesElement.md)
+> `static` **fromJS**(`data`): `RelatedSearchesElement`
 
-Defined in: main.ts:24293
+Defined in: main.ts:24632
 
 #### Parameters
 
@@ -156,4 +156,4 @@ Defined in: main.ts:24293
 
 #### Returns
 
-[`RelatedSearchesElement`](RelatedSearchesElement.md)
+`RelatedSearchesElement`

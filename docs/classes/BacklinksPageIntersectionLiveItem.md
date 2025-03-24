@@ -6,7 +6,7 @@
 
 # Class: BacklinksPageIntersectionLiveItem
 
-Defined in: main.ts:168535
+Defined in: main.ts:170944
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:168535
 
 ## Constructors
 
-### new BacklinksPageIntersectionLiveItem()
+### Constructor
 
-> **new BacklinksPageIntersectionLiveItem**(`data`?): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
+> **new BacklinksPageIntersectionLiveItem**(`data`?): `BacklinksPageIntersectionLiveItem`
 
-Defined in: main.ts:168544
+Defined in: main.ts:170953
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:168544
 
 #### Returns
 
-[`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
+`BacklinksPageIntersectionLiveItem`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168544
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:168538
+Defined in: main.ts:170947
 
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
@@ -59,7 +59,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-Defined in: main.ts:168540
+Defined in: main.ts:170949
 
 contains the page intersections summary
 
@@ -73,7 +73,7 @@ contains the page intersections summary
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168553
+Defined in: main.ts:170962
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:168553
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168577
+Defined in: main.ts:170986
 
 #### Parameters
 
@@ -107,9 +107,9 @@ Defined in: main.ts:168577
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): `BacklinksPageIntersectionLiveItem`
 
-Defined in: main.ts:168570
+Defined in: main.ts:170979
 
 #### Parameters
 
@@ -119,4 +119,4 @@ Defined in: main.ts:168570
 
 #### Returns
 
-[`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
+`BacklinksPageIntersectionLiveItem`

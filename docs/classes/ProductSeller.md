@@ -6,7 +6,7 @@
 
 # Class: ProductSeller
 
-Defined in: main.ts:199687
+Defined in: main.ts:202096
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:199687
 
 ## Constructors
 
-### new ProductSeller()
+### Constructor
 
-> **new ProductSeller**(`data`?): [`ProductSeller`](ProductSeller.md)
+> **new ProductSeller**(`data`?): `ProductSeller`
 
-Defined in: main.ts:199709
+Defined in: main.ts:202118
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:199709
 
 #### Returns
 
-[`ProductSeller`](ProductSeller.md)
+`ProductSeller`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199709
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
-Defined in: main.ts:199705
+Defined in: main.ts:202114
 
 delivery information
 product delivery information
@@ -55,7 +55,7 @@ product delivery information
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:199702
+Defined in: main.ts:202111
 
 product price
 product price details on the seller’s website
@@ -70,7 +70,7 @@ product price details on the seller’s website
 
 > `optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:199696
+Defined in: main.ts:202105
 
 rating of the seller
 
@@ -84,7 +84,7 @@ rating of the seller
 
 > `optional` **seller\_review\_count**: `number`
 
-Defined in: main.ts:199699
+Defined in: main.ts:202108
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -99,7 +99,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:199691
+Defined in: main.ts:202100
 
 product title
 
@@ -113,7 +113,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:199689
+Defined in: main.ts:202098
 
 type of element
 
@@ -127,7 +127,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:199694
+Defined in: main.ts:202103
 
 seller url
 url of the page where the product is sold
@@ -142,7 +142,7 @@ url of the page where the product is sold
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199718
+Defined in: main.ts:202127
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:199718
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199741
+Defined in: main.ts:202150
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:199741
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
+> `static` **fromJS**(`data`): `ProductSeller`
 
-Defined in: main.ts:199734
+Defined in: main.ts:202143
 
 #### Parameters
 
@@ -188,4 +188,4 @@ Defined in: main.ts:199734
 
 #### Returns
 
-[`ProductSeller`](ProductSeller.md)
+`ProductSeller`

@@ -6,7 +6,7 @@
 
 # Class: BacklinksIndexResultInfo
 
-Defined in: main.ts:159337
+Defined in: main.ts:161746
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:159337
 
 ## Constructors
 
-### new BacklinksIndexResultInfo()
+### Constructor
 
-> **new BacklinksIndexResultInfo**(`data`?): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+> **new BacklinksIndexResultInfo**(`data`?): `BacklinksIndexResultInfo`
 
-Defined in: main.ts:159349
+Defined in: main.ts:161758
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:159349
 
 #### Returns
 
-[`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+`BacklinksIndexResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159349
 
 > `optional` **index\_history**: [`IndexHistory`](IndexHistory.md)[]
 
-Defined in: main.ts:159345
+Defined in: main.ts:161754
 
 index volume data for the past 12 months
 
@@ -54,7 +54,7 @@ index volume data for the past 12 months
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:159339
+Defined in: main.ts:161748
 
 total number of backlinks our database contains for the moment of checking
 
@@ -68,7 +68,7 @@ total number of backlinks our database contains for the moment of checking
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:159343
+Defined in: main.ts:161752
 
 total number of domains our database contains for the moment of checking
 
@@ -82,7 +82,7 @@ total number of domains our database contains for the moment of checking
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:159341
+Defined in: main.ts:161750
 
 total number of pages our database contains for the moment of checking
 
@@ -96,7 +96,7 @@ total number of pages our database contains for the moment of checking
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159358
+Defined in: main.ts:161767
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:159358
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159382
+Defined in: main.ts:161791
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:159382
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksIndexResultInfo`
 
-Defined in: main.ts:159375
+Defined in: main.ts:161784
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:159375
 
 #### Returns
 
-[`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+`BacklinksIndexResultInfo`

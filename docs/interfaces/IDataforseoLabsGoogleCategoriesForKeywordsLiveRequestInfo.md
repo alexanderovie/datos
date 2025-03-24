@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
-Defined in: main.ts:107297
+Defined in: main.ts:108594
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:107297
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:107304
+Defined in: main.ts:108601
 
 target keywords
 required field
@@ -33,7 +33,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107318
+Defined in: main.ts:108615
 
 language code
 required field if don’t specify language_name
@@ -48,7 +48,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:107311
+Defined in: main.ts:108608
 
 full name of the language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:107324
+Defined in: main.ts:108621
 
 user-defined task identifier
 optional field

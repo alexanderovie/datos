@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
-Defined in: main.ts:142787
+Defined in: main.ts:145188
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:142787
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo()
+### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+> **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): `KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
 
-Defined in: main.ts:142902
+Defined in: main.ts:145305
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:142902
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:142902
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:142835
+Defined in: main.ts:145238
 
 google trends search category
 optional field
@@ -57,7 +57,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:142844
+Defined in: main.ts:145247
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:142851
+Defined in: main.ts:145254
 
 ending date of the time range
 optional field
@@ -97,7 +97,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:142870
+Defined in: main.ts:145273
 
 types of items returned
 optional field
@@ -118,12 +118,14 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:142794
+Defined in: main.ts:145197
 
 keywords
 required field
-The maximum number of keywords you can specify: 5
+the maximum number of keywords you can specify: 5
+the minimum number of symbols must be greater than 1
 comma characters (,) in the specified keywords will be unset and ignored
+Note: keywords cannot consist of a combination of the following characters: < > | \ " - + = ~ ! : * ( ) [ ] { }
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -137,7 +139,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:142828
+Defined in: main.ts:145231
 
 search engine language code
 optional field
@@ -157,7 +159,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:142820
+Defined in: main.ts:145223
 
 full name of search engine language
 optional field
@@ -177,7 +179,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:142812
+Defined in: main.ts:145215
 
 search engine location code
 optional field
@@ -198,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:142803
+Defined in: main.ts:145206
 
 full name of search engine location
 optional field
@@ -219,7 +221,7 @@ United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:142892
+Defined in: main.ts:145295
 
 notification URL of a completed task
 optional field
@@ -242,7 +244,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:142881
+Defined in: main.ts:145284
 
 return URL for sending task results
 optional field
@@ -265,7 +267,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:142898
+Defined in: main.ts:145301
 
 user-defined task identifier
 optional field
@@ -283,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:142861
+Defined in: main.ts:145264
 
 preset time ranges
 optional field
@@ -305,7 +307,7 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:142830
+Defined in: main.ts:145233
 
 type of element
 
@@ -319,7 +321,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142911
+Defined in: main.ts:145314
 
 #### Parameters
 
@@ -337,7 +339,7 @@ Defined in: main.ts:142911
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142957
+Defined in: main.ts:145360
 
 #### Parameters
 
@@ -353,9 +355,9 @@ Defined in: main.ts:142957
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
 
-Defined in: main.ts:142950
+Defined in: main.ts:145353
 
 #### Parameters
 
@@ -365,4 +367,4 @@ Defined in: main.ts:142950
 
 #### Returns
 
-[`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`

@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsRequestInfo
 
-Defined in: main.ts:172851
+Defined in: main.ts:175260
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:172851
 
 ## Constructors
 
-### new OnPageErrorsRequestInfo()
+### Constructor
 
-> **new OnPageErrorsRequestInfo**(`data`?): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+> **new OnPageErrorsRequestInfo**(`data`?): `OnPageErrorsRequestInfo`
 
-Defined in: main.ts:172885
+Defined in: main.ts:175294
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:172885
 
 #### Returns
 
-[`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+`OnPageErrorsRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172885
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:172874
+Defined in: main.ts:175283
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:172881
+Defined in: main.ts:175290
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:172867
+Defined in: main.ts:175276
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:172856
+Defined in: main.ts:175265
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:172861
+Defined in: main.ts:175270
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172894
+Defined in: main.ts:175303
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:172894
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172915
+Defined in: main.ts:175324
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:172915
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageErrorsRequestInfo`
 
-Defined in: main.ts:172908
+Defined in: main.ts:175317
 
 #### Parameters
 
@@ -176,4 +176,4 @@ Defined in: main.ts:172908
 
 #### Returns
 
-[`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+`OnPageErrorsRequestInfo`

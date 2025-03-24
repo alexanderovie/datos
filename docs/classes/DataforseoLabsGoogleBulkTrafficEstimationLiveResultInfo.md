@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:120369
+Defined in: main.ts:121752
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:120369
 
 ## Constructors
 
-### new DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo()
+### Constructor
 
-> **new DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
+> **new DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo**(`data`?): `DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:120387
+Defined in: main.ts:121770
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:120387
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120387
 
 > `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:120383
+Defined in: main.ts:121766
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:120381
+Defined in: main.ts:121764
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120377
+Defined in: main.ts:121760
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120374
+Defined in: main.ts:121757
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120371
+Defined in: main.ts:121754
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:120379
+Defined in: main.ts:121762
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120396
+Defined in: main.ts:121779
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:120396
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120422
+Defined in: main.ts:121805
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:120422
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:120415
+Defined in: main.ts:121798
 
 #### Parameters
 
@@ -172,4 +172,4 @@ Defined in: main.ts:120415
 
 #### Returns
 
-[`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
+`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`

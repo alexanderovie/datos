@@ -6,7 +6,7 @@
 
 # Class: MicrodataFieldsInfo
 
-Defined in: main.ts:181215
+Defined in: main.ts:183624
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:181215
 
 ## Constructors
 
-### new MicrodataFieldsInfo()
+### Constructor
 
-> **new MicrodataFieldsInfo**(`data`?): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
+> **new MicrodataFieldsInfo**(`data`?): `MicrodataFieldsInfo`
 
-Defined in: main.ts:181234
+Defined in: main.ts:183643
 
 #### Parameters
 
@@ -32,15 +32,15 @@ Defined in: main.ts:181234
 
 #### Returns
 
-[`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
+`MicrodataFieldsInfo`
 
 ## Properties
 
 ### fields?
 
-> `optional` **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
+> `optional` **fields**: `MicrodataFieldsInfo`[]
 
-Defined in: main.ts:181230
+Defined in: main.ts:183639
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -55,7 +55,7 @@ an array of objects containing data fields related to the certain microdata type
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:181218
+Defined in: main.ts:183627
 
 field name
 name of the data field
@@ -70,7 +70,7 @@ name of the data field
 
 > `optional` **test\_results**: [`Test_results`](Test_results.md)
 
-Defined in: main.ts:181227
+Defined in: main.ts:183636
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
@@ -85,7 +85,7 @@ sub-type microdata test results that contain detected errors and related message
 
 > `optional` **types**: `string`[]
 
-Defined in: main.ts:181221
+Defined in: main.ts:183630
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -100,7 +100,7 @@ for a full list of available types, please visit schema.org
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:181224
+Defined in: main.ts:183633
 
 microdata value
 microdata value specified on a target web page
@@ -115,7 +115,7 @@ microdata value specified on a target web page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181243
+Defined in: main.ts:183652
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:181243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181272
+Defined in: main.ts:183681
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:181272
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
+> `static` **fromJS**(`data`): `MicrodataFieldsInfo`
 
-Defined in: main.ts:181265
+Defined in: main.ts:183674
 
 #### Parameters
 
@@ -161,4 +161,4 @@ Defined in: main.ts:181265
 
 #### Returns
 
-[`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
+`MicrodataFieldsInfo`

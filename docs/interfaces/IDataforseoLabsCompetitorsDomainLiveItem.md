@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsCompetitorsDomainLiveItem
 
-Defined in: main.ts:112303
+Defined in: main.ts:113608
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:112303
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:112311
+Defined in: main.ts:113616
 
 average position of the domain in SERP
 Note: average position is calculated for intersected keywords only;
@@ -30,7 +30,7 @@ the value for a given domain may differ when combined with different target webs
 
 > `optional` **competitor\_metrics**: `object`
 
-Defined in: main.ts:112328
+Defined in: main.ts:113633
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -46,7 +46,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:112307
+Defined in: main.ts:113612
 
 domain name
 
@@ -56,7 +56,7 @@ domain name
 
 > `optional` **full\_domain\_metrics**: `object`
 
-Defined in: main.ts:112320
+Defined in: main.ts:113625
 
 metrics for all keywords of the domain
 full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for
@@ -71,7 +71,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:112317
+Defined in: main.ts:113622
 
 number of intersecting keywords
 
@@ -81,7 +81,7 @@ number of intersecting keywords
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:112324
+Defined in: main.ts:113629
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -97,7 +97,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112305
+Defined in: main.ts:113610
 
 search engine type
 
@@ -107,7 +107,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:112315
+Defined in: main.ts:113620
 
 sum of all domain positions in SERP
 Note: average position is calculated for intersected keywords only;

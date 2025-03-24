@@ -6,7 +6,7 @@
 
 # Class: AppendixAppListingsAppDataPriceData
 
-Defined in: main.ts:246689
+Defined in: main.ts:248654
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:246689
 
 ## Constructors
 
-### new AppendixAppListingsAppDataPriceData()
+### Constructor
 
-> **new AppendixAppListingsAppDataPriceData**(`data`?): [`AppendixAppListingsAppDataPriceData`](AppendixAppListingsAppDataPriceData.md)
+> **new AppendixAppListingsAppDataPriceData**(`data`?): `AppendixAppListingsAppDataPriceData`
 
-Defined in: main.ts:246695
+Defined in: main.ts:248660
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:246695
 
 #### Returns
 
-[`AppendixAppListingsAppDataPriceData`](AppendixAppListingsAppDataPriceData.md)
+`AppendixAppListingsAppDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246695
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246690
+Defined in: main.ts:248655
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246690
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:246691
+Defined in: main.ts:248656
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246691
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:246704
+Defined in: main.ts:248669
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:246704
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:246722
+Defined in: main.ts:248687
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:246722
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixAppListingsAppDataPriceData`](AppendixAppListingsAppDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixAppListingsAppDataPriceData`
 
-Defined in: main.ts:246715
+Defined in: main.ts:248680
 
 #### Parameters
 
@@ -110,4 +110,4 @@ Defined in: main.ts:246715
 
 #### Returns
 
-[`AppendixAppListingsAppDataPriceData`](AppendixAppListingsAppDataPriceData.md)
+`AppendixAppListingsAppDataPriceData`

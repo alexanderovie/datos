@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsAdvertiserSerpElementItem
 
-Defined in: main.ts:63552
+Defined in: main.ts:63979
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:63552
 
 ## Constructors
 
-### new GoogleAdsAdvertisersAdsAdvertiserSerpElementItem()
+### Constructor
 
-> **new GoogleAdsAdvertisersAdsAdvertiserSerpElementItem**(`data`?): [`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsAdvertiserSerpElementItem.md)
+> **new GoogleAdsAdvertisersAdsAdvertiserSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
-Defined in: main.ts:63569
+Defined in: main.ts:63996
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:63569
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsAdvertiserSerpElementItem.md)
+`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
 #### Overrides
 
-[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructors)
+[`BaseGoogleAdsAdvertisersSerpElementItem`](BaseGoogleAdsAdvertisersSerpElementItem.md).[`constructor`](BaseGoogleAdsAdvertisersSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:63569
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63410
+Defined in: main.ts:63837
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63410
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:63557
+Defined in: main.ts:63984
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -75,7 +75,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:63565
+Defined in: main.ts:63992
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -90,7 +90,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:63559
+Defined in: main.ts:63986
 
 advertiser location
 
@@ -104,7 +104,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63408
+Defined in: main.ts:63835
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63405
+Defined in: main.ts:63832
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:63554
+Defined in: main.ts:63981
 
 title of the element
 
@@ -157,7 +157,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63401
+Defined in: main.ts:63828
 
 type of element
 
@@ -175,7 +175,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:63562
+Defined in: main.ts:63989
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -190,7 +190,7 @@ equals true if advertiser account is verified by Google Ads
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63574
+Defined in: main.ts:64001
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:63574
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63596
+Defined in: main.ts:64023
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:63596
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsAdvertiserSerpElementItem.md)
+> `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
-Defined in: main.ts:63589
+Defined in: main.ts:64016
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:63589
 
 #### Returns
 
-[`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`](GoogleAdsAdvertisersAdsAdvertiserSerpElementItem.md)
+`GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
 #### Overrides
 

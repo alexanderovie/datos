@@ -6,7 +6,7 @@
 
 # Class: AppendixExploreKeywordsDataPriceData
 
-Defined in: main.ts:245865
+Defined in: main.ts:247830
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:245865
 
 ## Constructors
 
-### new AppendixExploreKeywordsDataPriceData()
+### Constructor
 
-> **new AppendixExploreKeywordsDataPriceData**(`data`?): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
+> **new AppendixExploreKeywordsDataPriceData**(`data`?): `AppendixExploreKeywordsDataPriceData`
 
-Defined in: main.ts:245872
+Defined in: main.ts:247837
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:245872
 
 #### Returns
 
-[`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
+`AppendixExploreKeywordsDataPriceData`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245872
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245866
+Defined in: main.ts:247831
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245866
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245867
+Defined in: main.ts:247832
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245867
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:245868
+Defined in: main.ts:247833
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245868
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:245881
+Defined in: main.ts:247846
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:245881
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:245900
+Defined in: main.ts:247865
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:245900
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): `AppendixExploreKeywordsDataPriceData`
 
-Defined in: main.ts:245893
+Defined in: main.ts:247858
 
 #### Parameters
 
@@ -122,4 +122,4 @@ Defined in: main.ts:245893
 
 #### Returns
 
-[`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
+`AppendixExploreKeywordsDataPriceData`

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
-Defined in: main.ts:170117
+Defined in: main.ts:172526
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:170117
 
 ## Constructors
 
-### new BacklinksBulkBacklinksLiveRequestInfo()
+### Constructor
 
-> **new BacklinksBulkBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+> **new BacklinksBulkBacklinksLiveRequestInfo**(`data`?): `BacklinksBulkBacklinksLiveRequestInfo`
 
-Defined in: main.ts:170146
+Defined in: main.ts:172555
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:170146
 
 #### Returns
 
-[`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+`BacklinksBulkBacklinksLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170146
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:170142
+Defined in: main.ts:172551
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:170136
+Defined in: main.ts:172545
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -89,7 +89,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170155
+Defined in: main.ts:172564
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:170155
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170177
+Defined in: main.ts:172586
 
 #### Parameters
 
@@ -123,9 +123,9 @@ Defined in: main.ts:170177
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `BacklinksBulkBacklinksLiveRequestInfo`
 
-Defined in: main.ts:170170
+Defined in: main.ts:172579
 
 #### Parameters
 
@@ -135,4 +135,4 @@ Defined in: main.ts:170170
 
 #### Returns
 
-[`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+`BacklinksBulkBacklinksLiveRequestInfo`

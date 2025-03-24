@@ -6,7 +6,7 @@
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:237625
+Defined in: main.ts:240034
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237625
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:237638
+Defined in: main.ts:240047
 
 place category
 
@@ -32,7 +32,7 @@ place category
 
 > `optional` **is\_sponsored**: `boolean`
 
-Defined in: main.ts:237634
+Defined in: main.ts:240043
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
@@ -43,7 +43,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 > `optional` **price\_rate**: `string`
 
-Defined in: main.ts:237640
+Defined in: main.ts:240049
 
 average price rate
 
@@ -53,7 +53,7 @@ average price rate
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23100
+Defined in: main.ts:23439
 
 absolute rank among all the elements
 
@@ -67,7 +67,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23098
+Defined in: main.ts:23437
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -82,7 +82,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:237642
+Defined in: main.ts:240051
 
 the rating score of the establishment submitted by the reviewers
 
@@ -92,7 +92,7 @@ the rating score of the establishment submitted by the reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:237636
+Defined in: main.ts:240045
 
 the total number of reviews
 
@@ -102,7 +102,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:237627
+Defined in: main.ts:240036
 
 name of the business entity
 
@@ -112,7 +112,7 @@ name of the business entity
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23095
+Defined in: main.ts:23434
 
 type of element
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:237631
+Defined in: main.ts:240040
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity

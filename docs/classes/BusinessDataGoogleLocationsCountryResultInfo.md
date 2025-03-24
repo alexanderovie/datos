@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:221987
+Defined in: main.ts:224396
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:221987
 
 ## Constructors
 
-### new BusinessDataGoogleLocationsCountryResultInfo()
+### Constructor
 
-> **new BusinessDataGoogleLocationsCountryResultInfo**(`data`?): [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
+> **new BusinessDataGoogleLocationsCountryResultInfo**(`data`?): `BusinessDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:222005
+Defined in: main.ts:224414
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:222005
 
 #### Returns
 
-[`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
+`BusinessDataGoogleLocationsCountryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222005
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:221999
+Defined in: main.ts:224408
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:221989
+Defined in: main.ts:224398
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:221991
+Defined in: main.ts:224400
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:221997
+Defined in: main.ts:224406
 
 the name of the superordinate location
 example:
@@ -100,7 +100,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:222001
+Defined in: main.ts:224410
 
 location type
 
@@ -114,7 +114,7 @@ location type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222014
+Defined in: main.ts:224423
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:222014
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222035
+Defined in: main.ts:224444
 
 #### Parameters
 
@@ -148,9 +148,9 @@ Defined in: main.ts:222035
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): `BusinessDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:222028
+Defined in: main.ts:224437
 
 #### Parameters
 
@@ -160,4 +160,4 @@ Defined in: main.ts:222028
 
 #### Returns
 
-[`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
+`BusinessDataGoogleLocationsCountryResultInfo`

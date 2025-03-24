@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLanguagesResultInfo
 
-Defined in: main.ts:208512
+Defined in: main.ts:210921
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:208512
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208516
+Defined in: main.ts:210925
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:208514
+Defined in: main.ts:210923
 
 language name

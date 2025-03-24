@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
-Defined in: main.ts:94741
+Defined in: main.ts:96644
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:94741
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesLanguagesResultInfo()
+### Constructor
 
-> **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+> **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): `DomainAnalyticsTechnologiesLanguagesResultInfo`
 
-Defined in: main.ts:94749
+Defined in: main.ts:96652
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:94749
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+`DomainAnalyticsTechnologiesLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94749
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:94745
+Defined in: main.ts:96648
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:94743
+Defined in: main.ts:96646
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94758
+Defined in: main.ts:96661
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:94758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94776
+Defined in: main.ts:96679
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:94776
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesLanguagesResultInfo`
 
-Defined in: main.ts:94769
+Defined in: main.ts:96672
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:94769
 
 #### Returns
 
-[`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+`DomainAnalyticsTechnologiesLanguagesResultInfo`

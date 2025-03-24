@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
-Defined in: main.ts:129253
+Defined in: main.ts:131654
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:129253
 
 ## Constructors
 
-### new DataforseoLabsBingSerpCompetitorsLiveRequestInfo()
+### Constructor
 
-> **new DataforseoLabsBingSerpCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+> **new DataforseoLabsBingSerpCompetitorsLiveRequestInfo**(`data`?): `DataforseoLabsBingSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:129359
+Defined in: main.ts:131760
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:129359
 
 #### Returns
 
-[`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129359
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:129333
+Defined in: main.ts:131734
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:129300
+Defined in: main.ts:131701
 
 indicates if the subdomains will be included in the search
 optional field
@@ -84,7 +84,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:129308
+Defined in: main.ts:131709
 
 search results type
 indicates type of search results included in the response
@@ -104,7 +104,7 @@ default value:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:129261
+Defined in: main.ts:131662
 
 keywords array
 required field
@@ -124,7 +124,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129295
+Defined in: main.ts:131696
 
 unique language identifier
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:129287
+Defined in: main.ts:131688
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,7 +164,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:129313
+Defined in: main.ts:131714
 
 the maximum number of returned domains
 optional field
@@ -181,7 +181,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129279
+Defined in: main.ts:131680
 
 unique location identifier
 required field if you don’t specify location_name
@@ -202,7 +202,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:129270
+Defined in: main.ts:131671
 
 full name of the location
 required field if you don’t specify location_code
@@ -223,7 +223,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:129318
+Defined in: main.ts:131719
 
 offset in the results array of returned domains
 optional field
@@ -240,7 +240,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:129349
+Defined in: main.ts:131750
 
 results sorting rules
 optional field
@@ -268,7 +268,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:129355
+Defined in: main.ts:131756
 
 user-defined task identifier
 optional field
@@ -286,7 +286,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:129368
+Defined in: main.ts:131769
 
 #### Parameters
 
@@ -304,7 +304,7 @@ Defined in: main.ts:129368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:129412
+Defined in: main.ts:131813
 
 #### Parameters
 
@@ -320,9 +320,9 @@ Defined in: main.ts:129412
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DataforseoLabsBingSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:129405
+Defined in: main.ts:131806
 
 #### Parameters
 
@@ -332,4 +332,4 @@ Defined in: main.ts:129405
 
 #### Returns
 
-[`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`

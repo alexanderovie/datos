@@ -6,7 +6,7 @@
 
 # Class: SerpTasksReadyResultInfo
 
-Defined in: main.ts:29542
+Defined in: main.ts:29969
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:29542
 
 ## Constructors
 
-### new SerpTasksReadyResultInfo()
+### Constructor
 
-> **new SerpTasksReadyResultInfo**(`data`?): [`SerpTasksReadyResultInfo`](SerpTasksReadyResultInfo.md)
+> **new SerpTasksReadyResultInfo**(`data`?): `SerpTasksReadyResultInfo`
 
-Defined in: main.ts:29567
+Defined in: main.ts:29994
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:29567
 
 #### Returns
 
-[`SerpTasksReadyResultInfo`](SerpTasksReadyResultInfo.md)
+`SerpTasksReadyResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:29567
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:29552
+Defined in: main.ts:29979
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:29560
+Defined in: main.ts:29987
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:29563
+Defined in: main.ts:29990
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:29557
+Defined in: main.ts:29984
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:29545
+Defined in: main.ts:29972
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:29547
+Defined in: main.ts:29974
 
 search engine specified when setting the task
 
@@ -128,10 +128,10 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:29550
+Defined in: main.ts:29977
 
 type of search engine
-example: finance_quote
+example: finance_ticker_search
 
 #### Implementation of
 
@@ -143,7 +143,7 @@ example: finance_quote
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:29554
+Defined in: main.ts:29981
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29576
+Defined in: main.ts:30003
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:29576
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29600
+Defined in: main.ts:30027
 
 #### Parameters
 
@@ -191,9 +191,9 @@ Defined in: main.ts:29600
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpTasksReadyResultInfo`](SerpTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): `SerpTasksReadyResultInfo`
 
-Defined in: main.ts:29593
+Defined in: main.ts:30020
 
 #### Parameters
 
@@ -203,4 +203,4 @@ Defined in: main.ts:29593
 
 #### Returns
 
-[`SerpTasksReadyResultInfo`](SerpTasksReadyResultInfo.md)
+`SerpTasksReadyResultInfo`

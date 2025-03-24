@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTaskPostRequestInfo
 
-Defined in: main.ts:209813
+Defined in: main.ts:212222
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:209813
 
 ## Constructors
 
-### new AppDataGoogleAppListTaskPostRequestInfo()
+### Constructor
 
-> **new AppDataGoogleAppListTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
+> **new AppDataGoogleAppListTaskPostRequestInfo**(`data`?): `AppDataGoogleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:209917
+Defined in: main.ts:212326
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:209917
 
 #### Returns
 
-[`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
+`AppDataGoogleAppListTaskPostRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:209917
 
 > `optional` **age\_rating**: `string`
 
-Defined in: main.ts:209881
+Defined in: main.ts:212290
 
 filter results by age rating
 optional field
@@ -62,7 +62,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:209871
+Defined in: main.ts:212280
 
 application category on Google Play
 optional field
@@ -82,7 +82,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:209820
+Defined in: main.ts:212229
 
 app collection
 required field
@@ -101,7 +101,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:209863
+Defined in: main.ts:212272
 
 parsing depth
 optional field
@@ -120,7 +120,7 @@ maximum value: 200
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:209848
+Defined in: main.ts:212257
 
 search engine language code
 required field if language_name is not specified
@@ -139,7 +139,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:209841
+Defined in: main.ts:212250
 
 full name of search engine language
 required field if language_code is not specified
@@ -158,7 +158,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:209834
+Defined in: main.ts:212243
 
 search engine location code
 required field if you don’t specify location_name
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:209827
+Defined in: main.ts:212236
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -196,7 +196,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:209913
+Defined in: main.ts:212322
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:209903
+Defined in: main.ts:212312
 
 postback_url datatype
 required field if you specify postback_url
@@ -236,7 +236,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:209897
+Defined in: main.ts:212306
 
 return URL for sending task results
 optional field
@@ -258,7 +258,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:209856
+Defined in: main.ts:212265
 
 task priority
 optional field
@@ -278,7 +278,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:209887
+Defined in: main.ts:212296
 
 user-defined task identifier
 optional field
@@ -296,7 +296,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209926
+Defined in: main.ts:212335
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:209926
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209955
+Defined in: main.ts:212364
 
 #### Parameters
 
@@ -330,9 +330,9 @@ Defined in: main.ts:209955
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): `AppDataGoogleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:209948
+Defined in: main.ts:212357
 
 #### Parameters
 
@@ -342,4 +342,4 @@ Defined in: main.ts:209948
 
 #### Returns
 
-[`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
+`AppDataGoogleAppListTaskPostRequestInfo`

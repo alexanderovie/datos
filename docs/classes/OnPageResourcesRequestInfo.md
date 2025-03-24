@@ -6,7 +6,7 @@
 
 # Class: OnPageResourcesRequestInfo
 
-Defined in: main.ts:177095
+Defined in: main.ts:179504
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:177095
 
 ## Constructors
 
-### new OnPageResourcesRequestInfo()
+### Constructor
 
-> **new OnPageResourcesRequestInfo**(`data`?): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+> **new OnPageResourcesRequestInfo**(`data`?): `OnPageResourcesRequestInfo`
 
-Defined in: main.ts:177167
+Defined in: main.ts:179576
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:177167
 
 #### Returns
 
-[`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+`OnPageResourcesRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177167
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177131
+Defined in: main.ts:179540
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:177101
+Defined in: main.ts:179510
 
 ID of the task
 required field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177112
+Defined in: main.ts:179521
 
 the maximum number of returned resources
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177117
+Defined in: main.ts:179526
 
 offset in the results array of returned resources
 optional field
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177157
+Defined in: main.ts:179566
 
 results sorting rules
 optional field
@@ -144,7 +144,7 @@ example:
 
 > `optional` **relevant\_pages\_filters**: `string`[]
 
-Defined in: main.ts:177143
+Defined in: main.ts:179552
 
 filter the resources by relevant pages
 optional field
@@ -168,7 +168,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177163
+Defined in: main.ts:179572
 
 user-defined task identifier
 optional field
@@ -186,7 +186,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:177107
+Defined in: main.ts:179516
 
 page URL
 optional field
@@ -204,7 +204,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177176
+Defined in: main.ts:179585
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:177176
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177212
+Defined in: main.ts:179621
 
 #### Parameters
 
@@ -238,9 +238,9 @@ Defined in: main.ts:177212
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+> `static` **fromJS**(`data`): `OnPageResourcesRequestInfo`
 
-Defined in: main.ts:177205
+Defined in: main.ts:179614
 
 #### Parameters
 
@@ -250,4 +250,4 @@ Defined in: main.ts:177205
 
 #### Returns
 
-[`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
+`OnPageResourcesRequestInfo`

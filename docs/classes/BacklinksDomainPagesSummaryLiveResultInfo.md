@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesSummaryLiveResultInfo
 
-Defined in: main.ts:164587
+Defined in: main.ts:166996
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:164587
 
 ## Constructors
 
-### new BacklinksDomainPagesSummaryLiveResultInfo()
+### Constructor
 
-> **new BacklinksDomainPagesSummaryLiveResultInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
+> **new BacklinksDomainPagesSummaryLiveResultInfo**(`data`?): `BacklinksDomainPagesSummaryLiveResultInfo`
 
-Defined in: main.ts:164599
+Defined in: main.ts:167008
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:164599
 
 #### Returns
 
-[`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
+`BacklinksDomainPagesSummaryLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:164599
 
 > `optional` **items**: [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)[]
 
-Defined in: main.ts:164595
+Defined in: main.ts:167004
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:164593
+Defined in: main.ts:167002
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:164589
+Defined in: main.ts:166998
 
 target in the post array
 
@@ -82,7 +82,7 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:164591
+Defined in: main.ts:167000
 
 total number of relevant items in the database
 
@@ -96,7 +96,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:164608
+Defined in: main.ts:167017
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:164608
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:164632
+Defined in: main.ts:167041
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:164632
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): `BacklinksDomainPagesSummaryLiveResultInfo`
 
-Defined in: main.ts:164625
+Defined in: main.ts:167034
 
 #### Parameters
 
@@ -142,4 +142,4 @@ Defined in: main.ts:164625
 
 #### Returns
 
-[`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
+`BacklinksDomainPagesSummaryLiveResultInfo`

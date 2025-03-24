@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:115021
+Defined in: main.ts:116406
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:115021
 
 ## Constructors
 
-### new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem()
+### Constructor
 
-> **new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+> **new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115031
+Defined in: main.ts:116416
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:115031
 
 #### Returns
 
-[`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 
-[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:115031
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22230
+Defined in: main.ts:22569
 
 #### Inherited from
 
@@ -58,9 +58,9 @@ Defined in: main.ts:22230
 
 ### links?
 
-> `optional` **links**: [`LinkElement`](LinkElement.md)[]
+> `optional` **links**: [`KnowledgeGraphLinkElementInfo`](KnowledgeGraphLinkElementInfo.md)[]
 
-Defined in: main.ts:115027
+Defined in: main.ts:116412
 
 sitelinks
 the links shown below some of Google’s search results
@@ -76,7 +76,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22226
+Defined in: main.ts:22565
 
 the alignment of the element in SERP
 can take the following values:
@@ -96,7 +96,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22222
+Defined in: main.ts:22561
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22219
+Defined in: main.ts:22558
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:115023
+Defined in: main.ts:116408
 
 description content
 
@@ -148,7 +148,7 @@ description content
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22216
+Defined in: main.ts:22555
 
 type of element
 
@@ -166,7 +166,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22228
+Defined in: main.ts:22567
 
 the XPath of the element
 
@@ -184,7 +184,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115036
+Defined in: main.ts:116421
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:115036
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115059
+Defined in: main.ts:116444
 
 #### Parameters
 
@@ -226,9 +226,9 @@ Defined in: main.ts:115059
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): `KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:115052
+Defined in: main.ts:116437
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:115052
 
 #### Returns
 
-[`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
 #### Overrides
 

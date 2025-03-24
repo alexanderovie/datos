@@ -6,7 +6,7 @@
 
 # Class: RowCellInfo
 
-Defined in: main.ts:26492
+Defined in: main.ts:26919
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:26492
 
 ## Constructors
 
-### new RowCellInfo()
+### Constructor
 
-> **new RowCellInfo**(`data`?): [`RowCellInfo`](RowCellInfo.md)
+> **new RowCellInfo**(`data`?): `RowCellInfo`
 
-Defined in: main.ts:26502
+Defined in: main.ts:26929
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:26502
 
 #### Returns
 
-[`RowCellInfo`](RowCellInfo.md)
+`RowCellInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26502
 
 > `optional` **is\_header**: `boolean`
 
-Defined in: main.ts:26498
+Defined in: main.ts:26925
 
 content of the row cells of the header
 
@@ -54,7 +54,7 @@ content of the row cells of the header
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:26494
+Defined in: main.ts:26921
 
 content of the row cells of the header
 
@@ -68,7 +68,7 @@ content of the row cells of the header
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
-Defined in: main.ts:26496
+Defined in: main.ts:26923
 
 contains other URLs and anchors found in the content element
 
@@ -82,7 +82,7 @@ contains other URLs and anchors found in the content element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:26511
+Defined in: main.ts:26938
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:26511
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:26534
+Defined in: main.ts:26961
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:26534
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`RowCellInfo`](RowCellInfo.md)
+> `static` **fromJS**(`data`): `RowCellInfo`
 
-Defined in: main.ts:26527
+Defined in: main.ts:26954
 
 #### Parameters
 
@@ -128,4 +128,4 @@ Defined in: main.ts:26527
 
 #### Returns
 
-[`RowCellInfo`](RowCellInfo.md)
+`RowCellInfo`

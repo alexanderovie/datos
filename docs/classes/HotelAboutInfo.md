@@ -6,7 +6,7 @@
 
 # Class: HotelAboutInfo
 
-Defined in: main.ts:228505
+Defined in: main.ts:230914
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:228505
 
 ## Constructors
 
-### new HotelAboutInfo()
+### Constructor
 
-> **new HotelAboutInfo**(`data`?): [`HotelAboutInfo`](HotelAboutInfo.md)
+> **new HotelAboutInfo**(`data`?): `HotelAboutInfo`
 
-Defined in: main.ts:228536
+Defined in: main.ts:230945
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:228536
 
 #### Returns
 
-[`HotelAboutInfo`](HotelAboutInfo.md)
+`HotelAboutInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:228536
 
 > `optional` **amenities**: [`HotelAmenityInfo`](HotelAmenityInfo.md)[]
 
-Defined in: main.ts:228529
+Defined in: main.ts:230938
 
 hotel amenities
 information about hotel amenities
@@ -55,7 +55,7 @@ information about hotel amenities
 
 > `optional` **check\_in\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:228514
+Defined in: main.ts:230923
 
 hotel check-in time
 check-in time indicated in the hotel listing
@@ -70,7 +70,7 @@ check-in time indicated in the hotel listing
 
 > `optional` **check\_out\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:228517
+Defined in: main.ts:230926
 
 hotel check-out time
 check-out time indicated in the hotel listing
@@ -85,7 +85,7 @@ check-out time indicated in the hotel listing
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:228508
+Defined in: main.ts:230917
 
 description of the hotel
 the description of the hotel entity for which the results are collected
@@ -100,7 +100,7 @@ the description of the hotel entity for which the results are collected
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:228523
+Defined in: main.ts:230932
 
 hotel domain
 domain of the hotel’s website
@@ -115,7 +115,7 @@ domain of the hotel’s website
 
 > `optional` **full\_address**: `string`
 
-Defined in: main.ts:228520
+Defined in: main.ts:230929
 
 full address of the hotel
 address of the hotel indicated in the standardised format
@@ -130,7 +130,7 @@ address of the hotel indicated in the standardised format
 
 > `optional` **popular\_amenities**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
 
-Defined in: main.ts:228532
+Defined in: main.ts:230941
 
 hotel amenities
 information about hotel amenities labelled as “popular”
@@ -145,7 +145,7 @@ information about hotel amenities labelled as “popular”
 
 > `optional` **sub\_descriptions**: `string`[]
 
-Defined in: main.ts:228511
+Defined in: main.ts:230920
 
 additional description of the hotel
 details about the hotel provided in addition to the description
@@ -160,7 +160,7 @@ details about the hotel provided in addition to the description
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:228526
+Defined in: main.ts:230935
 
 hotel url
 URL to the hotel’s website indicated in the listing
@@ -175,7 +175,7 @@ URL to the hotel’s website indicated in the listing
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228545
+Defined in: main.ts:230954
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:228545
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228582
+Defined in: main.ts:230991
 
 #### Parameters
 
@@ -209,9 +209,9 @@ Defined in: main.ts:228582
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`HotelAboutInfo`](HotelAboutInfo.md)
+> `static` **fromJS**(`data`): `HotelAboutInfo`
 
-Defined in: main.ts:228575
+Defined in: main.ts:230984
 
 #### Parameters
 
@@ -221,4 +221,4 @@ Defined in: main.ts:228575
 
 #### Returns
 
-[`HotelAboutInfo`](HotelAboutInfo.md)
+`HotelAboutInfo`

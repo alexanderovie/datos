@@ -6,7 +6,7 @@
 
 # Class: ShortVideosSerpElementItem
 
-Defined in: main.ts:39240
+Defined in: main.ts:39667
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:39240
 
 ## Constructors
 
-### new ShortVideosSerpElementItem()
+### Constructor
 
-> **new ShortVideosSerpElementItem**(`data`?): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+> **new ShortVideosSerpElementItem**(`data`?): `ShortVideosSerpElementItem`
 
-Defined in: main.ts:39258
+Defined in: main.ts:39685
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:39258
 
 #### Returns
 
-[`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+`ShortVideosSerpElementItem`
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39258
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21783
+Defined in: main.ts:21989
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21783
 
 > `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-Defined in: main.ts:39250
+Defined in: main.ts:39677
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:39244
+Defined in: main.ts:39671
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21781
+Defined in: main.ts:21987
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21778
+Defined in: main.ts:21984
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:39254
+Defined in: main.ts:39681
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39248
+Defined in: main.ts:39675
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21774
+Defined in: main.ts:21980
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39246
+Defined in: main.ts:39673
 
 the XPath of the element
 
@@ -191,7 +191,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39263
+Defined in: main.ts:39690
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:39263
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39289
+Defined in: main.ts:39716
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:39289
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+> `static` **fromJS**(`data`): `ShortVideosSerpElementItem`
 
-Defined in: main.ts:39282
+Defined in: main.ts:39709
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:39282
 
 #### Returns
 
-[`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
+`ShortVideosSerpElementItem`
 
 #### Overrides
 

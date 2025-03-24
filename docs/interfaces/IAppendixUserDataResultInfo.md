@@ -6,7 +6,7 @@
 
 # Interface: IAppendixUserDataResultInfo
 
-Defined in: main.ts:248261
+Defined in: main.ts:250230
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:248261
 
 > `optional` **login**: `string`
 
-Defined in: main.ts:248263
+Defined in: main.ts:250232
 
 your login
 
@@ -28,7 +28,7 @@ your login
 
 > `optional` **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
 
-Defined in: main.ts:248270
+Defined in: main.ts:250239
 
 section of your spending, USD
 
@@ -38,7 +38,7 @@ section of your spending, USD
 
 > `optional` **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
 
-Defined in: main.ts:248272
+Defined in: main.ts:250241
 
 pricing
 
@@ -48,7 +48,7 @@ pricing
 
 > `optional` **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
 
-Defined in: main.ts:248268
+Defined in: main.ts:250237
 
 your API rates
 
@@ -58,7 +58,7 @@ your API rates
 
 > `optional` **timezone**: `string`
 
-Defined in: main.ts:248266
+Defined in: main.ts:250235
 
 your time zone
 can be set in your profile settings

@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLanguagesResultInfo
 
-Defined in: main.ts:77443
+Defined in: main.ts:77870
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:77443
 
 ## Constructors
 
-### new SerpYahooLanguagesResultInfo()
+### Constructor
 
-> **new SerpYahooLanguagesResultInfo**(`data`?): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+> **new SerpYahooLanguagesResultInfo**(`data`?): `SerpYahooLanguagesResultInfo`
 
-Defined in: main.ts:77451
+Defined in: main.ts:77878
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:77451
 
 #### Returns
 
-[`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+`SerpYahooLanguagesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:77451
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77447
+Defined in: main.ts:77874
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:77445
+Defined in: main.ts:77872
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:77460
+Defined in: main.ts:77887
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:77460
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:77478
+Defined in: main.ts:77905
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:77478
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): `SerpYahooLanguagesResultInfo`
 
-Defined in: main.ts:77471
+Defined in: main.ts:77898
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:77471
 
 #### Returns
 
-[`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+`SerpYahooLanguagesResultInfo`

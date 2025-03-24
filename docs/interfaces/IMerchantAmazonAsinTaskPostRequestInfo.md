@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonAsinTaskPostRequestInfo
 
-Defined in: main.ts:202880
+Defined in: main.ts:205289
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:202880
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:202885
+Defined in: main.ts:205294
 
 product ID
 required field
@@ -31,7 +31,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202932
+Defined in: main.ts:205341
 
 search engine language code
 required field if you don’t specify language_name
@@ -46,7 +46,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:202925
+Defined in: main.ts:205334
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -62,7 +62,7 @@ English (United Kingdom)
 
 > `optional` **load\_more\_local\_reviews**: `boolean`
 
-Defined in: main.ts:202944
+Defined in: main.ts:205353
 
 load more local reviews
 optional field
@@ -75,7 +75,7 @@ Note: you will be charged double the price for using this parameter
 
 > `optional` **local\_reviews\_sort**: `string`
 
-Defined in: main.ts:202950
+Defined in: main.ts:205359
 
 sort local reviews
 optional field
@@ -89,7 +89,7 @@ default value: helpful
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202908
+Defined in: main.ts:205317
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -105,7 +105,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:202917
+Defined in: main.ts:205326
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -122,7 +122,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:202900
+Defined in: main.ts:205309
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -137,7 +137,7 @@ HA1,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:202984
+Defined in: main.ts:205393
 
 notification URL of a completed task
 optional field
@@ -156,7 +156,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:202973
+Defined in: main.ts:205382
 
 postback_url datatype
 required field if you specify postback_url
@@ -170,7 +170,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:202967
+Defined in: main.ts:205376
 
 return URL for sending task results
 optional field
@@ -189,7 +189,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:202893
+Defined in: main.ts:205302
 
 task priority
 optional field
@@ -205,7 +205,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:202939
+Defined in: main.ts:205348
 
 search engine domain
 optional field
@@ -220,7 +220,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:202956
+Defined in: main.ts:205365
 
 user-defined task identifier
 optional field

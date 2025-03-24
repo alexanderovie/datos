@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
-Defined in: main.ts:188529
+Defined in: main.ts:190938
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:188529
 
 ## Constructors
 
-### new ContentAnalysisSentimentAnalysisLiveResultInfo()
+### Constructor
 
-> **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+> **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): `ContentAnalysisSentimentAnalysisLiveResultInfo`
 
-Defined in: main.ts:188543
+Defined in: main.ts:190952
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:188543
 
 #### Returns
 
-[`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+`ContentAnalysisSentimentAnalysisLiveResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188543
 
 > `optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-Defined in: main.ts:188535
+Defined in: main.ts:190944
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -56,7 +56,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-Defined in: main.ts:188539
+Defined in: main.ts:190948
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -72,7 +72,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:188531
+Defined in: main.ts:190940
 
 type of element
 
@@ -86,7 +86,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188552
+Defined in: main.ts:190961
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:188552
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188571
+Defined in: main.ts:190980
 
 #### Parameters
 
@@ -120,9 +120,9 @@ Defined in: main.ts:188571
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisSentimentAnalysisLiveResultInfo`
 
-Defined in: main.ts:188564
+Defined in: main.ts:190973
 
 #### Parameters
 
@@ -132,4 +132,4 @@ Defined in: main.ts:188564
 
 #### Returns
 
-[`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+`ContentAnalysisSentimentAnalysisLiveResultInfo`

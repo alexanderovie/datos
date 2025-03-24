@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
-Defined in: main.ts:185981
+Defined in: main.ts:188390
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:185981
 
 ## Constructors
 
-### new ContentAnalysisAvailableFiltersResultInfo()
+### Constructor
 
-> **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+> **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): `ContentAnalysisAvailableFiltersResultInfo`
 
-Defined in: main.ts:185986
+Defined in: main.ts:188395
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:185986
 
 #### Returns
 
-[`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+`ContentAnalysisAvailableFiltersResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185986
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:185982
+Defined in: main.ts:188391
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:185982
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185995
+Defined in: main.ts:188404
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: main.ts:185995
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186018
+Defined in: main.ts:188427
 
 #### Parameters
 
@@ -90,9 +90,9 @@ Defined in: main.ts:186018
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): `ContentAnalysisAvailableFiltersResultInfo`
 
-Defined in: main.ts:186011
+Defined in: main.ts:188420
 
 #### Parameters
 
@@ -102,4 +102,4 @@ Defined in: main.ts:186011
 
 #### Returns
 
-[`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+`ContentAnalysisAvailableFiltersResultInfo`

@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsMapElementItem
 
-Defined in: main.ts:143895
+Defined in: main.ts:146300
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:143895
 
 > `optional` **data**: [`TrendsMapDataInfo`](../classes/TrendsMapDataInfo.md)[]
 
-Defined in: main.ts:143897
+Defined in: main.ts:146302
 
 Google Trends data from the corresponding item
 
@@ -32,7 +32,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23589
+Defined in: main.ts:23928
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -47,7 +47,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23584
+Defined in: main.ts:23923
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -62,7 +62,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23586
+Defined in: main.ts:23925
 
 title of the element in Google Trends
 
@@ -76,7 +76,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23581
+Defined in: main.ts:23920
 
 type of element
 

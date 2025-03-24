@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleCategoriesResultInfo
 
-Defined in: main.ts:214085
+Defined in: main.ts:216494
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:214085
 
 ## Constructors
 
-### new AppDataAppleCategoriesResultInfo()
+### Constructor
 
-> **new AppDataAppleCategoriesResultInfo**(`data`?): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+> **new AppDataAppleCategoriesResultInfo**(`data`?): `AppDataAppleCategoriesResultInfo`
 
-Defined in: main.ts:214091
+Defined in: main.ts:216500
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:214091
 
 #### Returns
 
-[`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+`AppDataAppleCategoriesResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:214091
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:214087
+Defined in: main.ts:216496
 
 contains full list of supported app categories
 
@@ -54,7 +54,7 @@ contains full list of supported app categories
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214100
+Defined in: main.ts:216509
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:214100
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214121
+Defined in: main.ts:216530
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:214121
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): `AppDataAppleCategoriesResultInfo`
 
-Defined in: main.ts:214114
+Defined in: main.ts:216523
 
 #### Parameters
 
@@ -100,4 +100,4 @@ Defined in: main.ts:214114
 
 #### Returns
 
-[`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+`AppDataAppleCategoriesResultInfo`

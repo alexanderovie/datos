@@ -6,7 +6,7 @@
 
 # Interface: IAvailibleVersions
 
-Defined in: main.ts:184523
+Defined in: main.ts:186932
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:184523
 
 > `optional` **default**: `boolean`
 
-Defined in: main.ts:184528
+Defined in: main.ts:186937
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
@@ -29,6 +29,6 @@ if false, the version is not used by default and should be specified in the corr
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:184525
+Defined in: main.ts:186934
 
 lighthouse version

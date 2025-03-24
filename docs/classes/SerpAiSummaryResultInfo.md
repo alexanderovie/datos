@@ -6,7 +6,7 @@
 
 # Class: SerpAiSummaryResultInfo
 
-Defined in: main.ts:27978
+Defined in: main.ts:28405
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:27978
 
 ## Constructors
 
-### new SerpAiSummaryResultInfo()
+### Constructor
 
-> **new SerpAiSummaryResultInfo**(`data`?): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+> **new SerpAiSummaryResultInfo**(`data`?): `SerpAiSummaryResultInfo`
 
-Defined in: main.ts:27986
+Defined in: main.ts:28413
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:27986
 
 #### Returns
 
-[`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+`SerpAiSummaryResultInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27986
 
 > `optional` **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
 
-Defined in: main.ts:27982
+Defined in: main.ts:28409
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:27980
+Defined in: main.ts:28407
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:27995
+Defined in: main.ts:28422
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:27995
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:28017
+Defined in: main.ts:28444
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:28017
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+> `static` **fromJS**(`data`): `SerpAiSummaryResultInfo`
 
-Defined in: main.ts:28010
+Defined in: main.ts:28437
 
 #### Parameters
 
@@ -114,4 +114,4 @@ Defined in: main.ts:28010
 
 #### Returns
 
-[`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+`SerpAiSummaryResultInfo`

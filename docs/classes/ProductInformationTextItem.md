@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextItem
 
-Defined in: main.ts:203549
+Defined in: main.ts:205958
 
 ## Extends
 
@@ -22,11 +22,11 @@ Defined in: main.ts:203549
 
 ## Constructors
 
-### new ProductInformationTextItem()
+### Constructor
 
-> **new ProductInformationTextItem**(`data`?): [`ProductInformationTextItem`](ProductInformationTextItem.md)
+> **new ProductInformationTextItem**(`data`?): `ProductInformationTextItem`
 
-Defined in: main.ts:203555
+Defined in: main.ts:205964
 
 #### Parameters
 
@@ -36,11 +36,11 @@ Defined in: main.ts:203555
 
 #### Returns
 
-[`ProductInformationTextItem`](ProductInformationTextItem.md)
+`ProductInformationTextItem`
 
 #### Overrides
 
-[`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructors)
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructor)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: main.ts:203555
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25062
+Defined in: main.ts:25401
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25062
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25060
+Defined in: main.ts:25399
 
 name of the section related to product information specified in the contents
 
@@ -78,7 +78,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203551
+Defined in: main.ts:205960
 
 text specified under the given title within the section_name
 
@@ -92,7 +92,7 @@ text specified under the given title within the section_name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25058
+Defined in: main.ts:25397
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203560
+Defined in: main.ts:205969
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:203560
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203578
+Defined in: main.ts:205987
 
 #### Parameters
 
@@ -152,9 +152,9 @@ Defined in: main.ts:203578
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`ProductInformationTextItem`](ProductInformationTextItem.md)
+> `static` **fromJS**(`data`): `ProductInformationTextItem`
 
-Defined in: main.ts:203571
+Defined in: main.ts:205980
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:203571
 
 #### Returns
 
-[`ProductInformationTextItem`](ProductInformationTextItem.md)
+`ProductInformationTextItem`
 
 #### Overrides
 

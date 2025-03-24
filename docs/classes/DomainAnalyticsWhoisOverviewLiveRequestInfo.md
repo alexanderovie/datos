@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:98407
+Defined in: main.ts:100310
 
 ## Implements
 
@@ -18,11 +18,11 @@ Defined in: main.ts:98407
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveRequestInfo()
+### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+> **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): `DomainAnalyticsWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:98458
+Defined in: main.ts:100361
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: main.ts:98458
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+`DomainAnalyticsWhoisOverviewLiveRequestInfo`
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98458
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:98432
+Defined in: main.ts:100335
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:98412
+Defined in: main.ts:100315
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:98417
+Defined in: main.ts:100320
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:98448
+Defined in: main.ts:100351
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:98454
+Defined in: main.ts:100357
 
 user-defined task identifier
 optional field
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98467
+Defined in: main.ts:100370
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:98467
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:98496
+Defined in: main.ts:100399
 
 #### Parameters
 
@@ -181,9 +181,9 @@ Defined in: main.ts:98496
 
 ### fromJS()
 
-> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:98489
+Defined in: main.ts:100392
 
 #### Parameters
 
@@ -193,4 +193,4 @@ Defined in: main.ts:98489
 
 #### Returns
 
-[`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+`DomainAnalyticsWhoisOverviewLiveRequestInfo`
