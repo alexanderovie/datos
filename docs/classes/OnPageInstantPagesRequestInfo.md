@@ -6,7 +6,7 @@
 
 # Class: OnPageInstantPagesRequestInfo
 
-Defined in: main.ts:185980
+Defined in: main.ts:186390
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:185980
 
 ### Constructor
 
-> **new OnPageInstantPagesRequestInfo**(`data`?): `OnPageInstantPagesRequestInfo`
+> **new OnPageInstantPagesRequestInfo**(`data?`): `OnPageInstantPagesRequestInfo`
 
-Defined in: main.ts:186119
+Defined in: main.ts:186529
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186119
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:186039
+Defined in: main.ts:186449
 
 language header for accessing the website
 optional field
@@ -57,7 +57,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:186011
+Defined in: main.ts:186421
 
 preset for browser screen parameters
 optional field
@@ -86,7 +86,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:186023
+Defined in: main.ts:186433
 
 browser screen height
 optional field
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:186029
+Defined in: main.ts:186439
 
 browser screen scale factor
 optional field
@@ -122,7 +122,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:186017
+Defined in: main.ts:186427
 
 browser screen width
 optional field
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 > `optional` **check\_spell**: `boolean`
 
-Defined in: main.ts:186099
+Defined in: main.ts:186509
 
 check spelling
 optional field
@@ -157,7 +157,7 @@ default value: false
 
 > `optional` **checks\_threshold**: `object`
 
-Defined in: main.ts:186104
+Defined in: main.ts:186514
 
 custom threshold values for checks
 optional field
@@ -178,7 +178,7 @@ Note: only integer threshold values can be modified;
 
 > `optional` **custom\_js**: `string`
 
-Defined in: main.ts:186089
+Defined in: main.ts:186499
 
 custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
@@ -202,7 +202,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:185994
+Defined in: main.ts:186404
 
 custom user agent
 optional field
@@ -221,7 +221,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:186066
+Defined in: main.ts:186476
 
 disable the cookie popup 
 optional field
@@ -239,7 +239,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:186060
+Defined in: main.ts:186470
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -260,7 +260,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:186051
+Defined in: main.ts:186461
 
 load javascript on a page
 optional field
@@ -278,7 +278,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:186077
+Defined in: main.ts:186487
 
 enable XMLHttpRequest on a page
 optional field
@@ -296,7 +296,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:186115
+Defined in: main.ts:186525
 
 proxy pool
 optional field
@@ -314,7 +314,7 @@ possible values: us, de
 
 > `optional` **load\_resources**: `boolean`
 
-Defined in: main.ts:186045
+Defined in: main.ts:186455
 
 load resources
 optional field
@@ -332,7 +332,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **return\_despite\_timeout**: `boolean`
 
-Defined in: main.ts:186071
+Defined in: main.ts:186481
 
 return data on pages despite the timeout error
 optional field
@@ -349,7 +349,7 @@ default value: false
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:186034
+Defined in: main.ts:186444
 
 store HTML of a crawled page
 optional field
@@ -366,7 +366,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:186109
+Defined in: main.ts:186519
 
 switch proxy pool
 optional field
@@ -383,7 +383,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:185987
+Defined in: main.ts:186397
 
 target page url
 required field
@@ -402,7 +402,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 > `optional` **validate\_micromarkup**: `boolean`
 
-Defined in: main.ts:186094
+Defined in: main.ts:186504
 
 enable microdata validation
 optional field
@@ -417,9 +417,9 @@ default value: false
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:186128
+Defined in: main.ts:186538
 
 #### Parameters
 
@@ -435,9 +435,9 @@ Defined in: main.ts:186128
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:186170
+Defined in: main.ts:186580
 
 #### Parameters
 
@@ -455,7 +455,7 @@ Defined in: main.ts:186170
 
 > `static` **fromJS**(`data`): `OnPageInstantPagesRequestInfo`
 
-Defined in: main.ts:186163
+Defined in: main.ts:186573
 
 #### Parameters
 

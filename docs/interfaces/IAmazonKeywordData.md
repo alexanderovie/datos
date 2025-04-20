@@ -6,7 +6,7 @@
 
 # Interface: IAmazonKeywordData
 
-Defined in: main.ts:24982
+Defined in: main.ts:24990
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24982
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:24986
+Defined in: main.ts:24994
 
 related keyword
 
@@ -28,7 +28,7 @@ related keyword
 
 > `optional` **keyword\_info**: [`AmazonKeywordInfo`](../classes/AmazonKeywordInfo.md)
 
-Defined in: main.ts:24992
+Defined in: main.ts:25000
 
 keyword info for the returned keyword
 
@@ -38,7 +38,7 @@ keyword info for the returned keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:24990
+Defined in: main.ts:24998
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:24988
+Defined in: main.ts:24996
 
 location code in a POST array
 
@@ -58,6 +58,6 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:24984
+Defined in: main.ts:24992
 
 search engine type

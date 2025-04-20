@@ -6,15 +6,15 @@
 
 # Class: AppendixApi
 
-Defined in: main.ts:21814
+Defined in: main.ts:21817
 
 ## Constructors
 
 ### Constructor
 
-> **new AppendixApi**(`baseUrl`?, `http`?): `AppendixApi`
+> **new AppendixApi**(`baseUrl?`, `http?`): `AppendixApi`
 
-Defined in: main.ts:21819
+Defined in: main.ts:21822
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:21819
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:21817
+Defined in: main.ts:21820
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:21817
 
 > **appendixErrors**(): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
-Defined in: main.ts:21864
+Defined in: main.ts:21867
 
 #### Returns
 
@@ -72,7 +72,7 @@ Successful operation
 
 > **appendixStatus**(): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
-Defined in: main.ts:21943
+Defined in: main.ts:21946
 
 #### Returns
 
@@ -86,7 +86,7 @@ Successful operation
 
 > `protected` **processAppendixErrors**(`response`): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
-Defined in: main.ts:21880
+Defined in: main.ts:21883
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:21880
 
 > `protected` **processAppendixStatus**(`response`): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
-Defined in: main.ts:21959
+Defined in: main.ts:21962
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:21959
 
 > `protected` **processUserData**(`response`): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
-Defined in: main.ts:21843
+Defined in: main.ts:21846
 
 #### Parameters
 
@@ -140,7 +140,7 @@ Defined in: main.ts:21843
 
 > `protected` **processWebhookResend**(`response`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
-Defined in: main.ts:21922
+Defined in: main.ts:21925
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:21922
 
 > **userData**(): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
-Defined in: main.ts:21827
+Defined in: main.ts:21830
 
 #### Returns
 
@@ -172,7 +172,7 @@ Successful operation
 
 > **webhookResend**(`body`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
-Defined in: main.ts:21902
+Defined in: main.ts:21905
 
 #### Parameters
 

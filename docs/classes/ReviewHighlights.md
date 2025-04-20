@@ -6,7 +6,7 @@
 
 # Class: ReviewHighlights
 
-Defined in: main.ts:233850
+Defined in: main.ts:234380
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:233850
 
 ### Constructor
 
-> **new ReviewHighlights**(`data`?): `ReviewHighlights`
+> **new ReviewHighlights**(`data?`): `ReviewHighlights`
 
-Defined in: main.ts:233858
+Defined in: main.ts:234388
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233858
 
 > `optional` **assessment**: `string`
 
-Defined in: main.ts:233854
+Defined in: main.ts:234384
 
 feature assessment
 
@@ -54,7 +54,7 @@ feature assessment
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:233852
+Defined in: main.ts:234382
 
 reviewed feature
 
@@ -66,9 +66,9 @@ reviewed feature
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:233867
+Defined in: main.ts:234397
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:233867
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:233885
+Defined in: main.ts:234415
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:233885
 
 > `static` **fromJS**(`data`): `ReviewHighlights`
 
-Defined in: main.ts:233878
+Defined in: main.ts:234408
 
 #### Parameters
 

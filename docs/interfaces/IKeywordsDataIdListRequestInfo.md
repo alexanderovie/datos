@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataIdListRequestInfo
 
-Defined in: main.ts:137221
+Defined in: main.ts:137343
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:137221
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:137229
+Defined in: main.ts:137351
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:137236
+Defined in: main.ts:137358
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:137255
+Defined in: main.ts:137377
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:137241
+Defined in: main.ts:137363
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:137246
+Defined in: main.ts:137368
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:137251
+Defined in: main.ts:137373
 
 sorting by task execution time
 optional field

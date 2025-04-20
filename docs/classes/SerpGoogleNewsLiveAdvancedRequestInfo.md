@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveAdvancedRequestInfo
 
-Defined in: main.ts:49681
+Defined in: main.ts:49789
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:49681
 
 ### Constructor
 
-> **new SerpGoogleNewsLiveAdvancedRequestInfo**(`data`?): `SerpGoogleNewsLiveAdvancedRequestInfo`
+> **new SerpGoogleNewsLiveAdvancedRequestInfo**(`data?`): `SerpGoogleNewsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:49797
+Defined in: main.ts:49905
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49797
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:49760
+Defined in: main.ts:49868
 
 browser screen height
 optional field
@@ -58,7 +58,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:49766
+Defined in: main.ts:49874
 
 browser screen resolution ratio
 optional field
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:49754
+Defined in: main.ts:49862
 
 browser screen width
 optional field
@@ -94,7 +94,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:49748
+Defined in: main.ts:49856
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -113,7 +113,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49782
+Defined in: main.ts:49890
 
 parsing depth
 optional field
@@ -134,7 +134,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49691
+Defined in: main.ts:49799
 
 keyword
 required field
@@ -156,7 +156,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49735
+Defined in: main.ts:49843
 
 search engine language code
 required field if you don’t specify language_name
@@ -175,7 +175,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49728
+Defined in: main.ts:49836
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -194,7 +194,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49711
+Defined in: main.ts:49819
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -213,7 +213,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49721
+Defined in: main.ts:49829
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -235,7 +235,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49704
+Defined in: main.ts:49812
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -254,7 +254,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49789
+Defined in: main.ts:49897
 
 page crawl limit
 optional field
@@ -273,7 +273,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49741
+Defined in: main.ts:49849
 
 device operating system
 optional field
@@ -291,7 +291,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49773
+Defined in: main.ts:49881
 
 search engine domain
 optional field
@@ -310,7 +310,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:49793
+Defined in: main.ts:49901
 
 additional parameters of the search query
 optional field
@@ -326,7 +326,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49697
+Defined in: main.ts:49805
 
 direct URL of the search query
 optional field
@@ -342,9 +342,9 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:49806
+Defined in: main.ts:49914
 
 #### Parameters
 
@@ -360,9 +360,9 @@ Defined in: main.ts:49806
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:49838
+Defined in: main.ts:49946
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Defined in: main.ts:49838
 
 > `static` **fromJS**(`data`): `SerpGoogleNewsLiveAdvancedRequestInfo`
 
-Defined in: main.ts:49831
+Defined in: main.ts:49939
 
 #### Parameters
 

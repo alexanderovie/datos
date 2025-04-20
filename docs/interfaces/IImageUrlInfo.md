@@ -6,7 +6,7 @@
 
 # Interface: IImageUrlInfo
 
-Defined in: main.ts:240987
+Defined in: main.ts:241517
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:240987
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:240989
+Defined in: main.ts:241519
 
 URL of the image used in the review

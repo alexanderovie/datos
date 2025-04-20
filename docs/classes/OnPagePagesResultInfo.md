@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesResultInfo
 
-Defined in: main.ts:178930
+Defined in: main.ts:179340
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:178930
 
 ### Constructor
 
-> **new OnPagePagesResultInfo**(`data`?): `OnPagePagesResultInfo`
+> **new OnPagePagesResultInfo**(`data?`): `OnPagePagesResultInfo`
 
-Defined in: main.ts:178945
+Defined in: main.ts:179355
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178945
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:178933
+Defined in: main.ts:179343
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:178935
+Defined in: main.ts:179345
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:178941
+Defined in: main.ts:179351
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:178939
+Defined in: main.ts:179349
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:178937
+Defined in: main.ts:179347
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:178954
+Defined in: main.ts:179364
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:178954
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:178979
+Defined in: main.ts:179389
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:178979
 
 > `static` **fromJS**(`data`): `OnPagePagesResultInfo`
 
-Defined in: main.ts:178972
+Defined in: main.ts:179382
 
 #### Parameters
 

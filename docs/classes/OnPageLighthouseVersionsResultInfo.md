@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseVersionsResultInfo
 
-Defined in: main.ts:186942
+Defined in: main.ts:187352
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:186942
 
 ### Constructor
 
-> **new OnPageLighthouseVersionsResultInfo**(`data`?): `OnPageLighthouseVersionsResultInfo`
+> **new OnPageLighthouseVersionsResultInfo**(`data?`): `OnPageLighthouseVersionsResultInfo`
 
-Defined in: main.ts:186947
+Defined in: main.ts:187357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186947
 
 > `optional` **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
 
-Defined in: main.ts:186943
+Defined in: main.ts:187353
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:186943
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:186956
+Defined in: main.ts:187366
 
 #### Parameters
 
@@ -68,9 +68,9 @@ Defined in: main.ts:186956
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:186977
+Defined in: main.ts:187387
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:186977
 
 > `static` **fromJS**(`data`): `OnPageLighthouseVersionsResultInfo`
 
-Defined in: main.ts:186970
+Defined in: main.ts:187380
 
 #### Parameters
 

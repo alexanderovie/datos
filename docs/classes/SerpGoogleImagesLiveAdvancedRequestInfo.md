@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveAdvancedRequestInfo
 
-Defined in: main.ts:54376
+Defined in: main.ts:54490
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:54376
 
 ### Constructor
 
-> **new SerpGoogleImagesLiveAdvancedRequestInfo**(`data`?): `SerpGoogleImagesLiveAdvancedRequestInfo`
+> **new SerpGoogleImagesLiveAdvancedRequestInfo**(`data?`): `SerpGoogleImagesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:54472
+Defined in: main.ts:54586
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54472
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:54451
+Defined in: main.ts:54565
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:54392
+Defined in: main.ts:54506
 
 keyword
 required field
@@ -83,7 +83,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54430
+Defined in: main.ts:54544
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:54423
+Defined in: main.ts:54537
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,7 +121,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:54406
+Defined in: main.ts:54520
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -140,7 +140,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:54416
+Defined in: main.ts:54530
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:54399
+Defined in: main.ts:54513
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:54458
+Defined in: main.ts:54572
 
 page crawl limit
 optional field
@@ -200,7 +200,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:54436
+Defined in: main.ts:54550
 
 device operating system
 optional field
@@ -218,7 +218,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54442
+Defined in: main.ts:54556
 
 search engine domain
 optional field
@@ -236,7 +236,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:54462
+Defined in: main.ts:54576
 
 additional parameters of the search query
 optional field
@@ -252,7 +252,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:54468
+Defined in: main.ts:54582
 
 user-defined task identifier
 optional field
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:54382
+Defined in: main.ts:54496
 
 direct URL of the search query
 optional field
@@ -286,9 +286,9 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:54481
+Defined in: main.ts:54595
 
 #### Parameters
 
@@ -304,9 +304,9 @@ Defined in: main.ts:54481
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:54510
+Defined in: main.ts:54624
 
 #### Parameters
 
@@ -324,7 +324,7 @@ Defined in: main.ts:54510
 
 > `static` **fromJS**(`data`): `SerpGoogleImagesLiveAdvancedRequestInfo`
 
-Defined in: main.ts:54503
+Defined in: main.ts:54617
 
 #### Parameters
 

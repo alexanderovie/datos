@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
-Defined in: main.ts:141024
+Defined in: main.ts:141146
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:141024
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data`?): `KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
+> **new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo**(`data?`): `KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:141115
+Defined in: main.ts:141237
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:141115
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:141086
+Defined in: main.ts:141208
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:141094
+Defined in: main.ts:141216
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:141100
+Defined in: main.ts:141222
 
 include keywords associated with adult content
 optional field
@@ -98,7 +98,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:141073
+Defined in: main.ts:141195
 
 search engine language code
 optional field
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:141067
+Defined in: main.ts:141189
 
 full name of search engine language
 optional field
@@ -134,7 +134,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141052
+Defined in: main.ts:141174
 
 search engine location code
 optional field
@@ -154,7 +154,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:141061
+Defined in: main.ts:141183
 
 GPS coordinates of a location
 optional field
@@ -175,7 +175,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:141044
+Defined in: main.ts:141166
 
 full name of search engine location
 optional field
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:141078
+Defined in: main.ts:141200
 
 include Google search partners
 optional field
@@ -212,7 +212,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:141105
+Defined in: main.ts:141227
 
 results sorting parameters
 optional field
@@ -229,7 +229,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:141111
+Defined in: main.ts:141233
 
 user-defined task identifier
 optional field
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:141029
+Defined in: main.ts:141151
 
 domain or page
 required field
@@ -264,7 +264,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 > `optional` **target\_type**: `string`
 
-Defined in: main.ts:141036
+Defined in: main.ts:141158
 
 search keywords for site or for url
 optional field
@@ -281,9 +281,9 @@ if set to page, keywords will be provided for the specified webpage
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:141124
+Defined in: main.ts:141246
 
 #### Parameters
 
@@ -299,9 +299,9 @@ Defined in: main.ts:141124
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:141153
+Defined in: main.ts:141275
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:141153
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`
 
-Defined in: main.ts:141146
+Defined in: main.ts:141268
 
 #### Parameters
 

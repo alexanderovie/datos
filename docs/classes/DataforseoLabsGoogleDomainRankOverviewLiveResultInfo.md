@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
-Defined in: main.ts:115950
+Defined in: main.ts:116072
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:115950
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data`?): `DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`
+> **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data?`): `DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`
 
-Defined in: main.ts:115968
+Defined in: main.ts:116090
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:115968
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:115964
+Defined in: main.ts:116086
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:115962
+Defined in: main.ts:116084
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115958
+Defined in: main.ts:116080
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115956
+Defined in: main.ts:116078
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115952
+Defined in: main.ts:116074
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:115954
+Defined in: main.ts:116076
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:115960
+Defined in: main.ts:116082
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:115977
+Defined in: main.ts:116099
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:115977
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:116004
+Defined in: main.ts:116126
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:116004
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`
 
-Defined in: main.ts:115997
+Defined in: main.ts:116119
 
 #### Parameters
 

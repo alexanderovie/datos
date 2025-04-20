@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsSubdomainsLiveItem
 
-Defined in: main.ts:114792
+Defined in: main.ts:114914
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:114792
 
 ### Constructor
 
-> **new DataforseoLabsSubdomainsLiveItem**(`data`?): `DataforseoLabsSubdomainsLiveItem`
+> **new DataforseoLabsSubdomainsLiveItem**(`data?`): `DataforseoLabsSubdomainsLiveItem`
 
-Defined in: main.ts:114802
+Defined in: main.ts:114924
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114802
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:114798
+Defined in: main.ts:114920
 
 ranking data relevant to subdomain
 
@@ -58,7 +58,7 @@ ranking data relevant to subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:114794
+Defined in: main.ts:114916
 
 search engine type
 
@@ -72,7 +72,7 @@ search engine type
 
 > `optional` **subdomain**: `string`
 
-Defined in: main.ts:114796
+Defined in: main.ts:114918
 
 returned subdomain
 
@@ -84,9 +84,9 @@ returned subdomain
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:114811
+Defined in: main.ts:114933
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:114811
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:114836
+Defined in: main.ts:114958
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:114836
 
 > `static` **fromJS**(`data`): `DataforseoLabsSubdomainsLiveItem`
 
-Defined in: main.ts:114829
+Defined in: main.ts:114951
 
 #### Parameters
 

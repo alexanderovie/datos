@@ -6,7 +6,7 @@
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
 
-Defined in: main.ts:201013
+Defined in: main.ts:201543
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:201013
 
 > `optional` **block\_name**: `string`
 
-Defined in: main.ts:201018
+Defined in: main.ts:201548
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -33,7 +33,7 @@ indicates the name of the product specification section in which the related ele
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22957
+Defined in: main.ts:22965
 
 alignment of the element in SERP
 can take the following values:
@@ -49,7 +49,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22953
+Defined in: main.ts:22961
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -64,7 +64,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22950
+Defined in: main.ts:22958
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **specification\_name**: `string`
 
-Defined in: main.ts:201021
+Defined in: main.ts:201551
 
 product attribute
 attribute name of the product data specification
@@ -90,7 +90,7 @@ attribute name of the product data specification
 
 > `optional` **specification\_value**: `string`
 
-Defined in: main.ts:201023
+Defined in: main.ts:201553
 
 content of the specification
 
@@ -100,7 +100,7 @@ content of the specification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22947
+Defined in: main.ts:22955
 
 type of element
 
@@ -114,6 +114,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:201015
+Defined in: main.ts:201545
 
 XPath of the element

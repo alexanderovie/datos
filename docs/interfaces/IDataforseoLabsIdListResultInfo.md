@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsIdListResultInfo
 
-Defined in: main.ts:101369
+Defined in: main.ts:101481
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:101369
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:101389
+Defined in: main.ts:101501
 
 cost of the task, USD
 
@@ -28,7 +28,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:101384
+Defined in: main.ts:101496
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:101379
+Defined in: main.ts:101491
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:101371
+Defined in: main.ts:101483
 
 id of the task
 
@@ -64,7 +64,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:101391
+Defined in: main.ts:101503
 
 contains parameters you specified in the POST request
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:101387
+Defined in: main.ts:101499
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -89,7 +89,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:101374
+Defined in: main.ts:101486
 
 URL of the task
 URL you used for making an API call

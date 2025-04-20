@@ -6,7 +6,7 @@
 
 # Class: BacklinksBacklinksLiveResultInfo
 
-Defined in: main.ts:164240
+Defined in: main.ts:164420
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:164240
 
 ### Constructor
 
-> **new BacklinksBacklinksLiveResultInfo**(`data`?): `BacklinksBacklinksLiveResultInfo`
+> **new BacklinksBacklinksLiveResultInfo**(`data?`): `BacklinksBacklinksLiveResultInfo`
 
-Defined in: main.ts:164260
+Defined in: main.ts:164440
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:164260
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:164246
+Defined in: main.ts:164426
 
 custom mode specified in a POST array
 
@@ -58,7 +58,7 @@ custom mode specified in a POST array
 
 > `optional` **items**: [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)[]
 
-Defined in: main.ts:164252
+Defined in: main.ts:164432
 
 contains relevant backlinks and referring domains data
 
@@ -72,7 +72,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:164250
+Defined in: main.ts:164430
 
 the number of results returned in the items array
 
@@ -86,7 +86,7 @@ the number of results returned in the items array
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:164244
+Defined in: main.ts:164424
 
 mode specified in a POST array
 
@@ -100,7 +100,7 @@ mode specified in a POST array
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:164256
+Defined in: main.ts:164436
 
 token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
@@ -116,7 +116,7 @@ search_after_token values are unique for each subsequent task
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:164242
+Defined in: main.ts:164422
 
 target domain in a POST array
 
@@ -130,7 +130,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:164248
+Defined in: main.ts:164428
 
 total amount of results relevant the request
 
@@ -142,9 +142,9 @@ total amount of results relevant the request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:164269
+Defined in: main.ts:164449
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:164269
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:164302
+Defined in: main.ts:164482
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:164302
 
 > `static` **fromJS**(`data`): `BacklinksBacklinksLiveResultInfo`
 
-Defined in: main.ts:164295
+Defined in: main.ts:164475
 
 #### Parameters
 

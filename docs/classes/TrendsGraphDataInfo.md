@@ -6,7 +6,7 @@
 
 # Class: TrendsGraphDataInfo
 
-Defined in: main.ts:145814
+Defined in: main.ts:145938
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:145814
 
 ### Constructor
 
-> **new TrendsGraphDataInfo**(`data`?): `TrendsGraphDataInfo`
+> **new TrendsGraphDataInfo**(`data?`): `TrendsGraphDataInfo`
 
-Defined in: main.ts:145834
+Defined in: main.ts:145958
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145834
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:145817
+Defined in: main.ts:145941
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -55,7 +55,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:145820
+Defined in: main.ts:145944
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -70,7 +70,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **missing\_data**: `boolean`
 
-Defined in: main.ts:145825
+Defined in: main.ts:145949
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
@@ -85,7 +85,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 > `optional` **timestamp**: `number`
 
-Defined in: main.ts:145822
+Defined in: main.ts:145946
 
 a point in time in the Unix time format
 
@@ -99,7 +99,7 @@ a point in time in the Unix time format
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:145830
+Defined in: main.ts:145954
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
@@ -114,9 +114,9 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:145843
+Defined in: main.ts:145967
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:145843
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:145868
+Defined in: main.ts:145992
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:145868
 
 > `static` **fromJS**(`data`): `TrendsGraphDataInfo`
 
-Defined in: main.ts:145861
+Defined in: main.ts:145985
 
 #### Parameters
 

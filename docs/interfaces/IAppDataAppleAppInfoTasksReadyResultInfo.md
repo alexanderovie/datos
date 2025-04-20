@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppInfoTasksReadyResultInfo
 
-Defined in: main.ts:218189
+Defined in: main.ts:218719
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:218189
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:218198
+Defined in: main.ts:218728
 
 date when the task was posted (in the UTC format)
 
@@ -28,9 +28,9 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:218202
+Defined in: main.ts:218732
 
-URL for collecting the results of the Apple App Info task
+URL for collecting the results of the Apple app_info task
 
 ***
 
@@ -38,9 +38,9 @@ URL for collecting the results of the Apple App Info task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:218205
+Defined in: main.ts:218735
 
-URL for collecting the results of the Apple App Info HTML task
+URL for collecting the results of the Apple app_info HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 ***
@@ -49,7 +49,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:218192
+Defined in: main.ts:218722
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -60,7 +60,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:218194
+Defined in: main.ts:218724
 
 search engine specified when setting the task
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:218196
+Defined in: main.ts:218726
 
 search engine type
 
@@ -80,6 +80,6 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:218200
+Defined in: main.ts:218730
 
 user-defined task identifier

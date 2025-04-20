@@ -6,7 +6,7 @@
 
 # Interface: IBaseProductInformationItem
 
-Defined in: main.ts:25451
+Defined in: main.ts:25459
 
 ## Extended by
 
@@ -20,7 +20,7 @@ Defined in: main.ts:25451
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25455
+Defined in: main.ts:25463
 
 name of the section related to product information specified in the contents
 
@@ -30,6 +30,6 @@ name of the section related to product information specified in the contents
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25453
+Defined in: main.ts:25461
 
 type of element

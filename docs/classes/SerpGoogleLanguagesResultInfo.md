@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLanguagesResultInfo
 
-Defined in: main.ts:28975
+Defined in: main.ts:28983
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:28975
 
 ### Constructor
 
-> **new SerpGoogleLanguagesResultInfo**(`data`?): `SerpGoogleLanguagesResultInfo`
+> **new SerpGoogleLanguagesResultInfo**(`data?`): `SerpGoogleLanguagesResultInfo`
 
-Defined in: main.ts:28983
+Defined in: main.ts:28991
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28983
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:28979
+Defined in: main.ts:28987
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:28977
+Defined in: main.ts:28985
 
 language name
 
@@ -66,9 +66,9 @@ language name
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:28992
+Defined in: main.ts:29000
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:28992
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:29010
+Defined in: main.ts:29018
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:29010
 
 > `static` **fromJS**(`data`): `SerpGoogleLanguagesResultInfo`
 
-Defined in: main.ts:29003
+Defined in: main.ts:29011
 
 #### Parameters
 

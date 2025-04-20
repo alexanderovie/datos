@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTasksReadyResultInfo
 
-Defined in: main.ts:76244
+Defined in: main.ts:76356
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:76244
 
 ### Constructor
 
-> **new SerpYoutubeVideoCommentsTasksReadyResultInfo**(`data`?): `SerpYoutubeVideoCommentsTasksReadyResultInfo`
+> **new SerpYoutubeVideoCommentsTasksReadyResultInfo**(`data?`): `SerpYoutubeVideoCommentsTasksReadyResultInfo`
 
-Defined in: main.ts:76269
+Defined in: main.ts:76381
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:76269
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:76254
+Defined in: main.ts:76366
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:76262
+Defined in: main.ts:76374
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:76265
+Defined in: main.ts:76377
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:76259
+Defined in: main.ts:76371
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:76247
+Defined in: main.ts:76359
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:76249
+Defined in: main.ts:76361
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:76252
+Defined in: main.ts:76364
 
 type of search engine
 example: video_comments
@@ -143,7 +143,7 @@ example: video_comments
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:76256
+Defined in: main.ts:76368
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:76278
+Defined in: main.ts:76390
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:76278
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:76302
+Defined in: main.ts:76414
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:76302
 
 > `static` **fromJS**(`data`): `SerpYoutubeVideoCommentsTasksReadyResultInfo`
 
-Defined in: main.ts:76295
+Defined in: main.ts:76407
 
 #### Parameters
 

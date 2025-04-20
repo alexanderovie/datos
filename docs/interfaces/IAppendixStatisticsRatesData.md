@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatisticsRatesData
 
-Defined in: main.ts:246809
+Defined in: main.ts:247427
 
 ## Indexable
 
@@ -18,12 +18,12 @@ Defined in: main.ts:246809
 
 > `optional` **day**: [`AppendixDayStatisticsRatesData`](../classes/AppendixDayStatisticsRatesData.md)
 
-Defined in: main.ts:246810
+Defined in: main.ts:247428
 
 ***
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](../classes/AppendixMinuteStatisticsDataInfo.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](../classes/AppendixMinuteStatisticsRatesData.md)
 
-Defined in: main.ts:246811
+Defined in: main.ts:247429

@@ -6,7 +6,7 @@
 
 # Interface: ISearchVolumeHistoryItemInfo
 
-Defined in: main.ts:158549
+Defined in: main.ts:158673
 
 device type = desktop contains historical search volume data for searches made from desktop devices
 
@@ -20,7 +20,7 @@ device type = desktop contains historical search volume data for searches made f
 
 > `optional` **day**: `number`
 
-Defined in: main.ts:158555
+Defined in: main.ts:158679
 
 day of the month
 
@@ -30,7 +30,7 @@ day of the month
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:158553
+Defined in: main.ts:158677
 
 month
 
@@ -40,7 +40,7 @@ month
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:158557
+Defined in: main.ts:158681
 
 search volume rate
 
@@ -50,6 +50,6 @@ search volume rate
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:158551
+Defined in: main.ts:158675
 
 year

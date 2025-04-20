@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocationsCountryResultInfo
 
-Defined in: main.ts:65849
+Defined in: main.ts:65963
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:65849
 
 ### Constructor
 
-> **new SerpBingLocationsCountryResultInfo**(`data`?): `SerpBingLocationsCountryResultInfo`
+> **new SerpBingLocationsCountryResultInfo**(`data?`): `SerpBingLocationsCountryResultInfo`
 
-Defined in: main.ts:65870
+Defined in: main.ts:65984
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:65870
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:65864
+Defined in: main.ts:65978
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:65851
+Defined in: main.ts:65965
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:65862
+Defined in: main.ts:65976
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:65853
+Defined in: main.ts:65967
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:65866
+Defined in: main.ts:65980
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:65879
+Defined in: main.ts:65993
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:65879
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:65900
+Defined in: main.ts:66014
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:65900
 
 > `static` **fromJS**(`data`): `SerpBingLocationsCountryResultInfo`
 
-Defined in: main.ts:65893
+Defined in: main.ts:66007
 
 #### Parameters
 

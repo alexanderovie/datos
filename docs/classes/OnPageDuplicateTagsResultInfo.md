@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsResultInfo
 
-Defined in: main.ts:180570
+Defined in: main.ts:180980
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180570
 
 ### Constructor
 
-> **new OnPageDuplicateTagsResultInfo**(`data`?): `OnPageDuplicateTagsResultInfo`
+> **new OnPageDuplicateTagsResultInfo**(`data?`): `OnPageDuplicateTagsResultInfo`
 
-Defined in: main.ts:180589
+Defined in: main.ts:180999
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180589
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:180573
+Defined in: main.ts:180983
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:180575
+Defined in: main.ts:180985
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)[]
 
-Defined in: main.ts:180585
+Defined in: main.ts:180995
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:180583
+Defined in: main.ts:180993
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **pages\_count**: `number`
 
-Defined in: main.ts:180581
+Defined in: main.ts:180991
 
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
@@ -112,7 +112,7 @@ displays the number of pages with duplicate tags returned in the response
 
 > `optional` **total\_pages\_count**: `number`
 
-Defined in: main.ts:180578
+Defined in: main.ts:180988
 
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website
@@ -125,9 +125,9 @@ displays the total number of pages with duplicate tags of the target website
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180598
+Defined in: main.ts:181008
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:180598
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180624
+Defined in: main.ts:181034
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:180624
 
 > `static` **fromJS**(`data`): `OnPageDuplicateTagsResultInfo`
 
-Defined in: main.ts:180617
+Defined in: main.ts:181027
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
 
-Defined in: main.ts:145002
+Defined in: main.ts:145124
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:145002
 
 ### Constructor
 
-> **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data`?): `KeywordsDataGoogleTrendsCategoriesResultInfo`
+> **new KeywordsDataGoogleTrendsCategoriesResultInfo**(`data?`): `KeywordsDataGoogleTrendsCategoriesResultInfo`
 
-Defined in: main.ts:145019
+Defined in: main.ts:145141
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145019
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:145004
+Defined in: main.ts:145126
 
 unique google trends category identifier
 
@@ -54,7 +54,7 @@ unique google trends category identifier
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:145015
+Defined in: main.ts:145137
 
 the code of the superordinate category
 example:
@@ -75,7 +75,7 @@ where category_code_parent corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:145006
+Defined in: main.ts:145128
 
 name of the google trends category
 
@@ -87,9 +87,9 @@ name of the google trends category
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:145028
+Defined in: main.ts:145150
 
 #### Parameters
 
@@ -105,9 +105,9 @@ Defined in: main.ts:145028
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:145047
+Defined in: main.ts:145169
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:145047
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsCategoriesResultInfo`
 
-Defined in: main.ts:145040
+Defined in: main.ts:145162
 
 #### Parameters
 

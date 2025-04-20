@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:62648
+Defined in: main.ts:62762
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:62648
 
 ### Constructor
 
-> **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): `SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
+> **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data?`): `SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
 
-Defined in: main.ts:62685
+Defined in: main.ts:62799
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:62685
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:62654
+Defined in: main.ts:62768
 
 ID of the dataset
 required field
@@ -58,7 +58,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:62670
+Defined in: main.ts:62784
 
 device type
 optional field
@@ -74,7 +74,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:62666
+Defined in: main.ts:62780
 
 search engine language code
 optional field
@@ -92,7 +92,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:62660
+Defined in: main.ts:62774
 
 full name of search engine language
 optional field
@@ -110,7 +110,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:62675
+Defined in: main.ts:62789
 
 device operating system
 optional field
@@ -127,7 +127,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:62681
+Defined in: main.ts:62795
 
 user-defined task identifier
 optional field
@@ -143,9 +143,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:62694
+Defined in: main.ts:62808
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:62694
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:62716
+Defined in: main.ts:62830
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:62716
 
 > `static` **fromJS**(`data`): `SerpGoogleDatasetInfoLiveAdvancedRequestInfo`
 
-Defined in: main.ts:62709
+Defined in: main.ts:62823
 
 #### Parameters
 

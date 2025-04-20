@@ -6,7 +6,7 @@
 
 # Class: HotelAmenityInfo
 
-Defined in: main.ts:230844
+Defined in: main.ts:231374
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:230844
 
 ### Constructor
 
-> **new HotelAmenityInfo**(`data`?): `HotelAmenityInfo`
+> **new HotelAmenityInfo**(`data?`): `HotelAmenityInfo`
 
-Defined in: main.ts:230854
+Defined in: main.ts:231384
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230854
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:230846
+Defined in: main.ts:231376
 
 standardised category of the ammenity
 
@@ -54,7 +54,7 @@ standardised category of the ammenity
 
 > `optional` **category\_label**: `string`
 
-Defined in: main.ts:230848
+Defined in: main.ts:231378
 
 label of the category
 
@@ -68,7 +68,7 @@ label of the category
 
 > `optional` **items**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
 
-Defined in: main.ts:230850
+Defined in: main.ts:231380
 
 specific amenities and details
 
@@ -80,9 +80,9 @@ specific amenities and details
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:230863
+Defined in: main.ts:231393
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:230863
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:230886
+Defined in: main.ts:231416
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:230886
 
 > `static` **fromJS**(`data`): `HotelAmenityInfo`
 
-Defined in: main.ts:230879
+Defined in: main.ts:231409
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:62732
+Defined in: main.ts:62846
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:62732
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:62738
+Defined in: main.ts:62852
 
 ID of the dataset
 required field
@@ -32,7 +32,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:62754
+Defined in: main.ts:62868
 
 device type
 optional field
@@ -44,7 +44,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:62750
+Defined in: main.ts:62864
 
 search engine language code
 optional field
@@ -58,7 +58,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:62744
+Defined in: main.ts:62858
 
 full name of search engine language
 optional field
@@ -72,7 +72,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:62759
+Defined in: main.ts:62873
 
 device operating system
 optional field
@@ -85,7 +85,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:62765
+Defined in: main.ts:62879
 
 user-defined task identifier
 optional field

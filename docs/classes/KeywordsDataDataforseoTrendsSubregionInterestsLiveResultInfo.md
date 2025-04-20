@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
-Defined in: main.ts:148724
+Defined in: main.ts:148848
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:148724
 
 ### Constructor
 
-> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data`?): `KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
+> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data?`): `KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
 
-Defined in: main.ts:148748
+Defined in: main.ts:148872
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148748
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:148739
+Defined in: main.ts:148863
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:148744
+Defined in: main.ts:148868
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
@@ -72,7 +72,7 @@ values in this array represent percentages relative to the maximum value within 
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:148741
+Defined in: main.ts:148865
 
 the number of results returned in the items array
 
@@ -86,7 +86,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148726
+Defined in: main.ts:148850
 
 keywords in a POST array
 
@@ -100,7 +100,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:148734
+Defined in: main.ts:148858
 
 language code in a POST array
 if there is no data, then the value is null
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148731
+Defined in: main.ts:148855
 
 location code in a POST array
 if there is no data, then the value is null
@@ -130,7 +130,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:148728
+Defined in: main.ts:148852
 
 type of element
 
@@ -142,9 +142,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:148757
+Defined in: main.ts:148881
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:148757
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:148788
+Defined in: main.ts:148912
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:148788
 
 > `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`
 
-Defined in: main.ts:148781
+Defined in: main.ts:148905
 
 #### Parameters
 

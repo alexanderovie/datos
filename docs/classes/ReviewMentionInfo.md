@@ -6,7 +6,7 @@
 
 # Class: ReviewMentionInfo
 
-Defined in: main.ts:231260
+Defined in: main.ts:231790
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:231260
 
 ### Constructor
 
-> **new ReviewMentionInfo**(`data`?): `ReviewMentionInfo`
+> **new ReviewMentionInfo**(`data?`): `ReviewMentionInfo`
 
-Defined in: main.ts:231277
+Defined in: main.ts:231807
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231277
 
 > `optional` **negative\_count**: `number`
 
-Defined in: main.ts:231268
+Defined in: main.ts:231798
 
 count of negative reviews by criterion
 
@@ -54,7 +54,7 @@ count of negative reviews by criterion
 
 > `optional` **positive\_count**: `number`
 
-Defined in: main.ts:231266
+Defined in: main.ts:231796
 
 count of positive reviews by criterion
 
@@ -68,7 +68,7 @@ count of positive reviews by criterion
 
 > `optional` **positive\_score**: `number`
 
-Defined in: main.ts:231264
+Defined in: main.ts:231794
 
 positive score by criterion
 
@@ -82,7 +82,7 @@ positive score by criterion
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:231262
+Defined in: main.ts:231792
 
 title of the evaluated criterion
 
@@ -96,7 +96,7 @@ title of the evaluated criterion
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:231270
+Defined in: main.ts:231800
 
 count of all reviews by criterion
 
@@ -110,7 +110,7 @@ count of all reviews by criterion
 
 > `optional` **visible\_by\_default**: `boolean`
 
-Defined in: main.ts:231273
+Defined in: main.ts:231803
 
 element is visible by default
 indicates whether the review element is visible by default
@@ -123,9 +123,9 @@ indicates whether the review element is visible by default
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:231286
+Defined in: main.ts:231816
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:231286
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:231308
+Defined in: main.ts:231838
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:231308
 
 > `static` **fromJS**(`data`): `ReviewMentionInfo`
 
-Defined in: main.ts:231301
+Defined in: main.ts:231831
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119832
+Defined in: main.ts:119954
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:119832
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:119845
+Defined in: main.ts:119967
 
 domain where a link points
 
@@ -32,7 +32,7 @@ domain where a link points
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
-Defined in: main.ts:119850
+Defined in: main.ts:119972
 
 contains data provided in the graph of the element
 
@@ -42,7 +42,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:119841
+Defined in: main.ts:119963
 
 price of the shopping element
 
@@ -68,7 +68,7 @@ price of the shopping element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -98,7 +98,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:119839
+Defined in: main.ts:119961
 
 text alongside the link title
 
@@ -108,7 +108,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:119837
+Defined in: main.ts:119959
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -119,7 +119,7 @@ indicates the source of information included in the shopping_element
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:119848
+Defined in: main.ts:119970
 
 results table
 if there are none, equals null
@@ -130,7 +130,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119834
+Defined in: main.ts:119956
 
 title of the result in SERP
 
@@ -140,7 +140,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -154,7 +154,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:119843
+Defined in: main.ts:119965
 
 relevant URL
 
@@ -164,7 +164,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

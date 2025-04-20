@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
-Defined in: main.ts:97910
+Defined in: main.ts:98022
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:97910
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:97933
+Defined in: main.ts:98045
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -33,7 +33,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:97969
+Defined in: main.ts:98081
 
 array of results filtering parameters
 optional field
@@ -55,7 +55,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:97926
+Defined in: main.ts:98038
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -70,7 +70,7 @@ example:
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:97977
+Defined in: main.ts:98089
 
 maximum number of elements within internal arrays
 optional field
@@ -86,7 +86,7 @@ maximum value: 10000
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:97948
+Defined in: main.ts:98060
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -102,7 +102,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:97955
+Defined in: main.ts:98067
 
 search mode
 optional field
@@ -117,7 +117,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:97983
+Defined in: main.ts:98095
 
 user-defined task identifier
 optional field
@@ -131,7 +131,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:97940
+Defined in: main.ts:98052
 
 target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -146,7 +146,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:97919
+Defined in: main.ts:98031
 
 target technology paths
 required field if you don’t specify groups, technologies and categories

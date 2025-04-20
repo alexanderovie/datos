@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBulkTrafficEstimationLiveItem
 
-Defined in: main.ts:121678
+Defined in: main.ts:121800
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:121678
 
 ### Constructor
 
-> **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data`?): `DataforseoLabsBulkTrafficEstimationLiveItem`
+> **new DataforseoLabsBulkTrafficEstimationLiveItem**(`data?`): `DataforseoLabsBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:121688
+Defined in: main.ts:121810
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121688
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:121684
+Defined in: main.ts:121806
 
 traffic data relevant to the specified domain
 
@@ -58,7 +58,7 @@ traffic data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121680
+Defined in: main.ts:121802
 
 search engine type
 
@@ -72,7 +72,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:121682
+Defined in: main.ts:121804
 
 target domain in a POST array
 
@@ -84,9 +84,9 @@ target domain in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:121697
+Defined in: main.ts:121819
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:121697
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:121722
+Defined in: main.ts:121844
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:121722
 
 > `static` **fromJS**(`data`): `DataforseoLabsBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:121715
+Defined in: main.ts:121837
 
 #### Parameters
 

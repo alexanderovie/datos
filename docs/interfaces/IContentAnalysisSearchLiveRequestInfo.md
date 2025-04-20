@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:189262
+Defined in: main.ts:189683
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:189262
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:189318
+Defined in: main.ts:189739
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:189271
+Defined in: main.ts:189692
 
 target keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:189283
+Defined in: main.ts:189704
 
 target keyword fields and target keywords
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:189301
+Defined in: main.ts:189722
 
 the maximum number of returned citations
 optional field
@@ -97,7 +97,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:189339
+Defined in: main.ts:189760
 
 offset in the results array of returned citations
 optional field
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:189347
+Defined in: main.ts:189768
 
 offset token for subsequent requests
 optional field
@@ -126,7 +126,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:189334
+Defined in: main.ts:189755
 
 results sorting rules
 optional field
@@ -150,7 +150,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:189289
+Defined in: main.ts:189710
 
 target page types
 optional field
@@ -160,11 +160,28 @@ possible values:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:189777
+
+defines the scale used for calculating and displaying the domain_rank, and url_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+***
+
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:189296
+Defined in: main.ts:189717
 
 results grouping type
 optional field
@@ -179,7 +196,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189353
+Defined in: main.ts:189783
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
-Defined in: main.ts:141176
+Defined in: main.ts:141298
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:141176
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:141238
+Defined in: main.ts:141360
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:141246
+Defined in: main.ts:141368
 
 ending date of the time range
 optional field
@@ -50,7 +50,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:141252
+Defined in: main.ts:141374
 
 include keywords associated with adult content
 optional field
@@ -64,7 +64,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:141225
+Defined in: main.ts:141347
 
 search engine language code
 optional field
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:141219
+Defined in: main.ts:141341
 
 full name of search engine language
 optional field
@@ -92,7 +92,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141204
+Defined in: main.ts:141326
 
 search engine location code
 optional field
@@ -108,7 +108,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:141213
+Defined in: main.ts:141335
 
 GPS coordinates of a location
 optional field
@@ -125,7 +125,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:141196
+Defined in: main.ts:141318
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ London,England,United Kingdom
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:141230
+Defined in: main.ts:141352
 
 include Google search partners
 optional field
@@ -154,7 +154,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:141257
+Defined in: main.ts:141379
 
 results sorting parameters
 optional field
@@ -167,7 +167,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:141263
+Defined in: main.ts:141385
 
 user-defined task identifier
 optional field
@@ -181,7 +181,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:141181
+Defined in: main.ts:141303
 
 domain or page
 required field
@@ -194,7 +194,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 > `optional` **target\_type**: `string`
 
-Defined in: main.ts:141188
+Defined in: main.ts:141310
 
 search keywords for site or for url
 optional field

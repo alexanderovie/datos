@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
 
-Defined in: main.ts:174072
+Defined in: main.ts:174460
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:174072
 
 ### Constructor
 
-> **new BacklinksBulkNewLostReferringDomainsLiveItem**(`data`?): `BacklinksBulkNewLostReferringDomainsLiveItem`
+> **new BacklinksBulkNewLostReferringDomainsLiveItem**(`data?`): `BacklinksBulkNewLostReferringDomainsLiveItem`
 
-Defined in: main.ts:174088
+Defined in: main.ts:174476
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174088
 
 > `optional` **lost\_referring\_domains**: `number`
 
-Defined in: main.ts:174080
+Defined in: main.ts:174468
 
 number of lost referring domains
 number of lost referring domains of the target
@@ -55,7 +55,7 @@ number of lost referring domains of the target
 
 > `optional` **lost\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:174084
+Defined in: main.ts:174472
 
 number of lost referring main domains pointing to the target
 
@@ -69,7 +69,7 @@ number of lost referring main domains pointing to the target
 
 > `optional` **new\_referring\_domains**: `number`
 
-Defined in: main.ts:174077
+Defined in: main.ts:174465
 
 number of new referring domains
 number of new referring domains pointing to the target
@@ -84,7 +84,7 @@ number of new referring domains pointing to the target
 
 > `optional` **new\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:174082
+Defined in: main.ts:174470
 
 number of new referring main domains pointing to the target
 
@@ -98,7 +98,7 @@ number of new referring main domains pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:174074
+Defined in: main.ts:174462
 
 domain, subdomain or webpage from a POST array
 
@@ -110,9 +110,9 @@ domain, subdomain or webpage from a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:174097
+Defined in: main.ts:174485
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:174097
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:174118
+Defined in: main.ts:174506
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:174118
 
 > `static` **fromJS**(`data`): `BacklinksBulkNewLostReferringDomainsLiveItem`
 
-Defined in: main.ts:174111
+Defined in: main.ts:174499
 
 #### Parameters
 

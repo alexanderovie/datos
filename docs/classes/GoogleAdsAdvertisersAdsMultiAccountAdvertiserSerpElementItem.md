@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem
 
-Defined in: main.ts:63901
+Defined in: main.ts:64015
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:63901
 
 ### Constructor
 
-> **new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
+> **new GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem**(`data?`): `GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
-Defined in: main.ts:63915
+Defined in: main.ts:64029
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:63915
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63837
+Defined in: main.ts:63951
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63837
 
 > `optional` **advertisers**: [`Advertiser`](Advertiser.md)[]
 
-Defined in: main.ts:63911
+Defined in: main.ts:64025
 
 associated advertiser accounts
 contains objects with data on associated advertiser accounts
@@ -75,7 +75,7 @@ contains objects with data on associated advertiser accounts
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:63908
+Defined in: main.ts:64022
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -90,7 +90,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:63905
+Defined in: main.ts:64019
 
 advertiser location
 
@@ -104,7 +104,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63835
+Defined in: main.ts:63949
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63832
+Defined in: main.ts:63946
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:63903
+Defined in: main.ts:64017
 
 title of the element
 
@@ -157,7 +157,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63828
+Defined in: main.ts:63942
 
 type of element
 
@@ -173,9 +173,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:63920
+Defined in: main.ts:64034
 
 #### Parameters
 
@@ -195,9 +195,9 @@ Defined in: main.ts:63920
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:63945
+Defined in: main.ts:64059
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:63945
 
 > `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem`
 
-Defined in: main.ts:63938
+Defined in: main.ts:64052
 
 #### Parameters
 

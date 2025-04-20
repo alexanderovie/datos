@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
-Defined in: main.ts:125718
+Defined in: main.ts:125840
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:125718
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data`?): `DataforseoLabsAmazonProductRankOverviewLiveItem`
+> **new DataforseoLabsAmazonProductRankOverviewLiveItem**(`data?`): `DataforseoLabsAmazonProductRankOverviewLiveItem`
 
-Defined in: main.ts:125730
+Defined in: main.ts:125852
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125730
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:125724
+Defined in: main.ts:125846
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -56,7 +56,7 @@ for more information, refer to this help center guide
 
 > `optional` **metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:125726
+Defined in: main.ts:125848
 
 average keyword position of the product
 
@@ -70,7 +70,7 @@ average keyword position of the product
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125720
+Defined in: main.ts:125842
 
 search engine type
 
@@ -82,9 +82,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:125739
+Defined in: main.ts:125861
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:125739
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:125758
+Defined in: main.ts:125880
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:125758
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductRankOverviewLiveItem`
 
-Defined in: main.ts:125751
+Defined in: main.ts:125873
 
 #### Parameters
 

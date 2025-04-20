@@ -6,7 +6,7 @@
 
 # Interface: IHtmlItem
 
-Defined in: main.ts:41285
+Defined in: main.ts:41387
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:41285
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:41292
+Defined in: main.ts:41394
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **html**: `string`
 
-Defined in: main.ts:41294
+Defined in: main.ts:41396
 
 HTML page
 
@@ -41,6 +41,6 @@ HTML page
 
 > `optional` **page**: `number`
 
-Defined in: main.ts:41287
+Defined in: main.ts:41389
 
 serial number of the returned HTML page

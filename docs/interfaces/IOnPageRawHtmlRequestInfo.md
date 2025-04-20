@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRawHtmlRequestInfo
 
-Defined in: main.ts:184104
+Defined in: main.ts:184514
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:184104
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:184110
+Defined in: main.ts:184520
 
 ID of the task
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:184115
+Defined in: main.ts:184525
 
 page url
 required field

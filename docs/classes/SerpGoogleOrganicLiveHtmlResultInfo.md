@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveHtmlResultInfo
 
-Defined in: main.ts:43113
+Defined in: main.ts:43215
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:43113
 
 ### Constructor
 
-> **new SerpGoogleOrganicLiveHtmlResultInfo**(`data`?): `SerpGoogleOrganicLiveHtmlResultInfo`
+> **new SerpGoogleOrganicLiveHtmlResultInfo**(`data?`): `SerpGoogleOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:43137
+Defined in: main.ts:43239
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:43137
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:43129
+Defined in: main.ts:43231
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:43133
+Defined in: main.ts:43235
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:43131
+Defined in: main.ts:43233
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:43116
+Defined in: main.ts:43218
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:43124
+Defined in: main.ts:43226
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:43122
+Defined in: main.ts:43224
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:43120
+Defined in: main.ts:43222
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:43118
+Defined in: main.ts:43220
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:43146
+Defined in: main.ts:43248
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:43146
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:43174
+Defined in: main.ts:43276
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:43174
 
 > `static` **fromJS**(`data`): `SerpGoogleOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:43167
+Defined in: main.ts:43269
 
 #### Parameters
 

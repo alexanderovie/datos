@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
 
-Defined in: main.ts:192154
+Defined in: main.ts:192664
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:192154
 
 ### Constructor
 
-> **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data`?): `ContentAnalysisCategoryTrendsLiveRequestInfo`
+> **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data?`): `ContentAnalysisCategoryTrendsLiveRequestInfo`
 
-Defined in: main.ts:192227
+Defined in: main.ts:192746
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192227
 
 > `optional` **category\_code**: `string`
 
-Defined in: main.ts:192158
+Defined in: main.ts:192668
 
 target category code
 required field
@@ -56,7 +56,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:192188
+Defined in: main.ts:192698
 
 starting date of the time range
 required field
@@ -74,7 +74,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:192200
+Defined in: main.ts:192710
 
 time range which will be used to group the results
 optional field
@@ -91,7 +91,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:192195
+Defined in: main.ts:192705
 
 ending date of the time range
 optional field
@@ -110,7 +110,7 @@ example:
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:192217
+Defined in: main.ts:192727
 
 initial dataset filtering parameters
 optional field
@@ -139,7 +139,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:192182
+Defined in: main.ts:192692
 
 maximum number of elements within internal arrays
 optional field
@@ -162,7 +162,7 @@ maximum value: 20
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:192164
+Defined in: main.ts:192674
 
 target page types
 optional field
@@ -176,11 +176,32 @@ possible values:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:192736
+
+defines the scale used for calculating and displaying the rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+#### Implementation of
+
+[`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`rank_scale`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#rank_scale)
+
+***
+
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:192171
+Defined in: main.ts:192681
 
 results grouping type
 optional field
@@ -199,7 +220,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:192223
+Defined in: main.ts:192742
 
 user-defined task identifier
 optional field
@@ -215,9 +236,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:192236
+Defined in: main.ts:192755
 
 #### Parameters
 
@@ -233,9 +254,9 @@ Defined in: main.ts:192236
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:192269
+Defined in: main.ts:192789
 
 #### Parameters
 
@@ -253,7 +274,7 @@ Defined in: main.ts:192269
 
 > `static` **fromJS**(`data`): `ContentAnalysisCategoryTrendsLiveRequestInfo`
 
-Defined in: main.ts:192262
+Defined in: main.ts:192782
 
 #### Parameters
 

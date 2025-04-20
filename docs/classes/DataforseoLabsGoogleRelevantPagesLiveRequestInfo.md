@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:115070
+Defined in: main.ts:115192
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:115070
 
 ### Constructor
 
-> **new DataforseoLabsGoogleRelevantPagesLiveRequestInfo**(`data`?): `DataforseoLabsGoogleRelevantPagesLiveRequestInfo`
+> **new DataforseoLabsGoogleRelevantPagesLiveRequestInfo**(`data?`): `DataforseoLabsGoogleRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:115192
+Defined in: main.ts:115314
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:115192
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:115165
+Defined in: main.ts:115287
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:115146
+Defined in: main.ts:115268
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:115151
+Defined in: main.ts:115273
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:115127
+Defined in: main.ts:115249
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -123,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:115120
+Defined in: main.ts:115242
 
 display results by item type
 optional field
@@ -144,7 +144,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115111
+Defined in: main.ts:115233
 
 language code
 optional field
@@ -165,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:115102
+Defined in: main.ts:115224
 
 full name of the language
 optional field
@@ -186,7 +186,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:115132
+Defined in: main.ts:115254
 
 the maximum number of returned pages
 optional field
@@ -203,7 +203,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115093
+Defined in: main.ts:115215
 
 location code
 optional field
@@ -224,7 +224,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:115084
+Defined in: main.ts:115206
 
 full name of the location
 optional field
@@ -245,7 +245,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:115137
+Defined in: main.ts:115259
 
 offset in the results array of returned pages
 optional field
@@ -262,7 +262,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:115182
+Defined in: main.ts:115304
 
 results sorting rules
 optional field
@@ -291,7 +291,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:115188
+Defined in: main.ts:115310
 
 user-defined task identifier
 optional field
@@ -309,7 +309,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:115075
+Defined in: main.ts:115197
 
 domain
 required field
@@ -324,9 +324,9 @@ the domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:115201
+Defined in: main.ts:115323
 
 #### Parameters
 
@@ -342,9 +342,9 @@ Defined in: main.ts:115201
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:115243
+Defined in: main.ts:115365
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Defined in: main.ts:115243
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:115236
+Defined in: main.ts:115358
 
 #### Parameters
 

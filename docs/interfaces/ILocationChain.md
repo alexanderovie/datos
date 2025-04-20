@@ -6,7 +6,7 @@
 
 # Interface: ILocationChain
 
-Defined in: main.ts:231111
+Defined in: main.ts:231641
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231111
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:231113
+Defined in: main.ts:231643
 
 card identifier
 
@@ -28,7 +28,7 @@ card identifier
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:231119
+Defined in: main.ts:231649
 
 client id
 learn more about the identifier in this help center article
@@ -39,7 +39,7 @@ learn more about the identifier in this help center article
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:231116
+Defined in: main.ts:231646
 
 feature identifier
 learn more about the identifier in this help center article
@@ -50,6 +50,6 @@ learn more about the identifier in this help center article
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:231121
+Defined in: main.ts:231651
 
 title of the element in the location chain

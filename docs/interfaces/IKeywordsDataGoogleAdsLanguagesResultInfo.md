@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsLanguagesResultInfo
 
-Defined in: main.ts:138463
+Defined in: main.ts:138585
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:138463
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138467
+Defined in: main.ts:138589
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:138465
+Defined in: main.ts:138587
 
 language name

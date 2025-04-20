@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveRequestInfo
 
-Defined in: main.ts:215990
+Defined in: main.ts:216520
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:215990
 
 ### Constructor
 
-> **new AppDataGoogleAppListingsSearchLiveRequestInfo**(`data`?): `AppDataGoogleAppListingsSearchLiveRequestInfo`
+> **new AppDataGoogleAppListingsSearchLiveRequestInfo**(`data?`): `AppDataGoogleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:216059
+Defined in: main.ts:216589
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:216059
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:215996
+Defined in: main.ts:216526
 
 app categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:216001
+Defined in: main.ts:216531
 
 keyword in the app’s description
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:216017
+Defined in: main.ts:216547
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:216036
+Defined in: main.ts:216566
 
 the maximum number of returned apps
 optional field
@@ -115,7 +115,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:216041
+Defined in: main.ts:216571
 
 offset in the results array of returned apps
 optional field
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:216049
+Defined in: main.ts:216579
 
 token for subsequent requests
 optional field
@@ -152,7 +152,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:216031
+Defined in: main.ts:216561
 
 results sorting rules
 optional field
@@ -178,7 +178,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:216055
+Defined in: main.ts:216585
 
 user-defined task identifier
 optional field
@@ -196,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:216006
+Defined in: main.ts:216536
 
 keyword in the app’s title
 optional field
@@ -211,9 +211,9 @@ can contain up to 200 characters
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:216068
+Defined in: main.ts:216598
 
 #### Parameters
 
@@ -229,9 +229,9 @@ Defined in: main.ts:216068
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:216105
+Defined in: main.ts:216635
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:216105
 
 > `static` **fromJS**(`data`): `AppDataGoogleAppListingsSearchLiveRequestInfo`
 
-Defined in: main.ts:216098
+Defined in: main.ts:216628
 
 #### Parameters
 

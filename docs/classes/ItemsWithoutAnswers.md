@@ -6,7 +6,7 @@
 
 # Class: ItemsWithoutAnswers
 
-Defined in: main.ts:236142
+Defined in: main.ts:236672
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:236142
 
 ### Constructor
 
-> **new ItemsWithoutAnswers**(`data`?): `ItemsWithoutAnswers`
+> **new ItemsWithoutAnswers**(`data?`): `ItemsWithoutAnswers`
 
-Defined in: main.ts:236174
+Defined in: main.ts:236704
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236174
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
-Defined in: main.ts:236170
+Defined in: main.ts:236700
 
 array of items
 items within google_business_question_item
@@ -55,7 +55,7 @@ items within google_business_question_item
 
 > `optional` **original\_question\_text**: `string`
 
-Defined in: main.ts:236163
+Defined in: main.ts:236693
 
 original text of the question
 
@@ -69,7 +69,7 @@ original text of the question
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:236155
+Defined in: main.ts:236685
 
 URL of the user’s profile image
 
@@ -83,7 +83,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:236159
+Defined in: main.ts:236689
 
 displayed name of the user
 
@@ -97,7 +97,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:236157
+Defined in: main.ts:236687
 
 URL of the user’s profile
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 > `optional` **question\_id**: `string`
 
-Defined in: main.ts:236151
+Defined in: main.ts:236681
 
 ID of the question
 
@@ -125,7 +125,7 @@ ID of the question
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:236161
+Defined in: main.ts:236691
 
 current text of the question
 
@@ -139,7 +139,7 @@ current text of the question
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:236149
+Defined in: main.ts:236679
 
 absolute rank among all the elements
 
@@ -153,7 +153,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:236147
+Defined in: main.ts:236677
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -168,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:236165
+Defined in: main.ts:236695
 
 estimated time when the question was posted
 
@@ -182,7 +182,7 @@ estimated time when the question was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:236167
+Defined in: main.ts:236697
 
 exact time when the question was posted
 
@@ -196,7 +196,7 @@ exact time when the question was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:236144
+Defined in: main.ts:236674
 
 type of element
 
@@ -210,7 +210,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:236153
+Defined in: main.ts:236683
 
 URL of the question
 
@@ -222,9 +222,9 @@ URL of the question
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:236183
+Defined in: main.ts:236713
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:236183
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:236212
+Defined in: main.ts:236742
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:236212
 
 > `static` **fromJS**(`data`): `ItemsWithoutAnswers`
 
-Defined in: main.ts:236205
+Defined in: main.ts:236735
 
 #### Parameters
 

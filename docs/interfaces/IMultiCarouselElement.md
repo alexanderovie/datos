@@ -6,7 +6,7 @@
 
 # Interface: IMultiCarouselElement
 
-Defined in: main.ts:36468
+Defined in: main.ts:36476
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:36468
 
 > `optional` **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-Defined in: main.ts:36474
+Defined in: main.ts:36482
 
 multi_carousel_snippet results
 
@@ -28,7 +28,7 @@ multi_carousel_snippet results
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36472
+Defined in: main.ts:36480
 
 title of a given link element
 
@@ -38,6 +38,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36470
+Defined in: main.ts:36478
 
 type of element

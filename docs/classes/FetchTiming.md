@@ -6,7 +6,7 @@
 
 # Class: FetchTiming
 
-Defined in: main.ts:179806
+Defined in: main.ts:180216
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:179806
 
 ### Constructor
 
-> **new FetchTiming**(`data`?): `FetchTiming`
+> **new FetchTiming**(`data?`): `FetchTiming`
 
-Defined in: main.ts:179818
+Defined in: main.ts:180228
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179818
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:179808
+Defined in: main.ts:180218
 
 indicates how many milliseconds it took to fetch a resource
 
@@ -54,7 +54,7 @@ indicates how many milliseconds it took to fetch a resource
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:179814
+Defined in: main.ts:180224
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -69,7 +69,7 @@ the amount of time a browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:179811
+Defined in: main.ts:180221
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
@@ -82,9 +82,9 @@ the amount of time a browser needs to start downloading a resource
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:179827
+Defined in: main.ts:180237
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:179827
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:179846
+Defined in: main.ts:180256
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:179846
 
 > `static` **fromJS**(`data`): `FetchTiming`
 
-Defined in: main.ts:179839
+Defined in: main.ts:180249
 
 #### Parameters
 

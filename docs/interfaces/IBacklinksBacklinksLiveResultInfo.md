@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBacklinksLiveResultInfo
 
-Defined in: main.ts:164329
+Defined in: main.ts:164509
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:164329
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:164335
+Defined in: main.ts:164515
 
 custom mode specified in a POST array
 
@@ -32,7 +32,7 @@ custom mode specified in a POST array
 
 > `optional` **items**: [`BacklinksBacklinksLiveItem`](../classes/BacklinksBacklinksLiveItem.md)[]
 
-Defined in: main.ts:164341
+Defined in: main.ts:164521
 
 contains relevant backlinks and referring domains data
 
@@ -42,7 +42,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:164339
+Defined in: main.ts:164519
 
 the number of results returned in the items array
 
@@ -52,7 +52,7 @@ the number of results returned in the items array
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:164333
+Defined in: main.ts:164513
 
 mode specified in a POST array
 
@@ -62,7 +62,7 @@ mode specified in a POST array
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:164345
+Defined in: main.ts:164525
 
 token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
@@ -74,7 +74,7 @@ search_after_token values are unique for each subsequent task
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:164331
+Defined in: main.ts:164511
 
 target domain in a POST array
 
@@ -84,6 +84,6 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:164337
+Defined in: main.ts:164517
 
 total amount of results relevant the request

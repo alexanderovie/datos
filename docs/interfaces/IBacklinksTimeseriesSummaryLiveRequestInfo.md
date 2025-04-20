@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesSummaryLiveRequestInfo
 
-Defined in: main.ts:171311
+Defined in: main.ts:171670
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171311
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171326
+Defined in: main.ts:171685
 
 starting date of the time range
 optional field
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:171335
+Defined in: main.ts:171694
 
 ending date of the time range
 optional field
@@ -52,7 +52,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:171348
+Defined in: main.ts:171707
 
 time range which will be used to group the results
 optional field
@@ -73,7 +73,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:171353
+Defined in: main.ts:171712
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -82,11 +82,28 @@ default value: true
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:171721
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171359
+Defined in: main.ts:171727
 
 user-defined task identifier
 optional field
@@ -100,7 +117,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171317
+Defined in: main.ts:171676
 
 domain to get data for
 required field

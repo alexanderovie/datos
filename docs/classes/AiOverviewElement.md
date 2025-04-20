@@ -6,7 +6,7 @@
 
 # Class: AiOverviewElement
 
-Defined in: main.ts:32869
+Defined in: main.ts:32877
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:32869
 
 ### Constructor
 
-> **new AiOverviewElement**(`data`?): `AiOverviewElement`
+> **new AiOverviewElement**(`data?`): `AiOverviewElement`
 
-Defined in: main.ts:32883
+Defined in: main.ts:32891
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32883
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:32877
+Defined in: main.ts:32885
 
 images of the element
 
@@ -54,7 +54,7 @@ images of the element
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:32879
+Defined in: main.ts:32887
 
 references relevant to the element
 
@@ -68,7 +68,7 @@ references relevant to the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:32875
+Defined in: main.ts:32883
 
 description content
 
@@ -82,7 +82,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32873
+Defined in: main.ts:32881
 
 title of the element
 
@@ -96,7 +96,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32871
+Defined in: main.ts:32879
 
 type of element
 
@@ -108,9 +108,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:32892
+Defined in: main.ts:32900
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:32892
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:32921
+Defined in: main.ts:32929
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:32921
 
 > `static` **fromJS**(`data`): `AiOverviewElement`
 
-Defined in: main.ts:32914
+Defined in: main.ts:32922
 
 #### Parameters
 

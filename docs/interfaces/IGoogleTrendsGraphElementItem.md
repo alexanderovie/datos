@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsGraphElementItem
 
-Defined in: main.ts:145969
+Defined in: main.ts:146093
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:145969
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:145973
+Defined in: main.ts:146097
 
 keyword popularity values averaged over the whole time range
 
@@ -32,7 +32,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:145971
+Defined in: main.ts:146095
 
 Google Trends data for the specified parameters
 
@@ -42,7 +42,7 @@ Google Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23928
+Defined in: main.ts:23936
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -57,7 +57,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23923
+Defined in: main.ts:23931
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -72,7 +72,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23925
+Defined in: main.ts:23933
 
 title of the element in Google Trends
 
@@ -86,7 +86,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23920
+Defined in: main.ts:23928
 
 type of element
 

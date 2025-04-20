@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetAdvancedItem
 
-Defined in: main.ts:60700
+Defined in: main.ts:60814
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:60700
 
 ### Constructor
 
-> **new SerpGoogleDatasetAdvancedItem**(`data`?): `SerpGoogleDatasetAdvancedItem`
+> **new SerpGoogleDatasetAdvancedItem**(`data?`): `SerpGoogleDatasetAdvancedItem`
 
-Defined in: main.ts:60763
+Defined in: main.ts:60877
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60763
 
 > `optional` **area\_covered**: `string`[]
 
-Defined in: main.ts:60755
+Defined in: main.ts:60869
 
 the list of areas covered in the dataset
 for example: Africa, Global
@@ -55,7 +55,7 @@ for example: Africa, Global
 
 > `optional` **authors**: [`AuthorsElement`](AuthorsElement.md)[]
 
-Defined in: main.ts:60745
+Defined in: main.ts:60859
 
 the list of authors of the dataset
 
@@ -69,7 +69,7 @@ the list of authors of the dataset
 
 > `optional` **dataset\_description**: [`DatasetDescription`](DatasetDescription.md)
 
-Defined in: main.ts:60759
+Defined in: main.ts:60873
 
 description of the dataset
 
@@ -83,7 +83,7 @@ description of the dataset
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:60717
+Defined in: main.ts:60831
 
 ID of the dataset
 
@@ -97,7 +97,7 @@ ID of the dataset
 
 > `optional` **dataset\_providers**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:60741
+Defined in: main.ts:60855
 
 the list of institutions that provided the dataset
 
@@ -111,7 +111,7 @@ the list of institutions that provided the dataset
 
 > `optional` **formats**: [`FormatsElement`](FormatsElement.md)[]
 
-Defined in: main.ts:60743
+Defined in: main.ts:60857
 
 the list of file formats of the dataset
 
@@ -125,7 +125,7 @@ the list of file formats of the dataset
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:60722
+Defined in: main.ts:60836
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -140,7 +140,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **licenses**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:60747
+Defined in: main.ts:60861
 
 the list of licenses issued to the dataset
 
@@ -154,7 +154,7 @@ the list of licenses issued to the dataset
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:60739
+Defined in: main.ts:60853
 
 sitelinks
 the links shown below some of Google Dataset’s search results
@@ -170,7 +170,7 @@ if there are none, equals null
 
 > `optional` **period\_covered**: [`PeriodCovered`](PeriodCovered.md)
 
-Defined in: main.ts:60757
+Defined in: main.ts:60871
 
 period covered in the dataset
 
@@ -184,7 +184,7 @@ period covered in the dataset
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:60713
+Defined in: main.ts:60827
 
 the alignment of the element in SERP
 can take the following values:
@@ -200,7 +200,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:60709
+Defined in: main.ts:60823
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -215,7 +215,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:60706
+Defined in: main.ts:60820
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -231,7 +231,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_article**: `string`
 
-Defined in: main.ts:60735
+Defined in: main.ts:60849
 
 link to related article
 link to the published article that is related to the dataset
@@ -246,7 +246,7 @@ link to the published article that is related to the dataset
 
 > `optional` **scholarly\_articles\_url**: `string`
 
-Defined in: main.ts:60728
+Defined in: main.ts:60842
 
 url of scholarly articles
 link to the list of scholarly articles on Google Scholar
@@ -262,7 +262,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 > `optional` **scholarly\_citations\_count**: `number`
 
-Defined in: main.ts:60724
+Defined in: main.ts:60838
 
 count of articles that refer to the dataset
 
@@ -276,7 +276,7 @@ count of articles that refer to the dataset
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:60719
+Defined in: main.ts:60833
 
 title of the element
 
@@ -290,7 +290,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60702
+Defined in: main.ts:60816
 
 type of element
 
@@ -304,7 +304,7 @@ type of element
 
 > `optional` **unique\_identifier**: `string`
 
-Defined in: main.ts:60732
+Defined in: main.ts:60846
 
 digital identifier of an object
 unique digital identifier of the dataset
@@ -320,7 +320,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 > `optional` **updated\_date**: `string`
 
-Defined in: main.ts:60752
+Defined in: main.ts:60866
 
 date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -337,7 +337,7 @@ example:
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:60715
+Defined in: main.ts:60829
 
 the XPath of the element
 
@@ -349,9 +349,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:60772
+Defined in: main.ts:60886
 
 #### Parameters
 
@@ -367,9 +367,9 @@ Defined in: main.ts:60772
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:60833
+Defined in: main.ts:60947
 
 #### Parameters
 
@@ -387,7 +387,7 @@ Defined in: main.ts:60833
 
 > `static` **fromJS**(`data`): `SerpGoogleDatasetAdvancedItem`
 
-Defined in: main.ts:60826
+Defined in: main.ts:60940
 
 #### Parameters
 

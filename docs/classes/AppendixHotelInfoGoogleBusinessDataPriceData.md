@@ -6,7 +6,7 @@
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 
-Defined in: main.ts:248982
+Defined in: main.ts:249808
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:248982
 
 ### Constructor
 
-> **new AppendixHotelInfoGoogleBusinessDataPriceData**(`data`?): `AppendixHotelInfoGoogleBusinessDataPriceData`
+> **new AppendixHotelInfoGoogleBusinessDataPriceData**(`data?`): `AppendixHotelInfoGoogleBusinessDataPriceData`
 
-Defined in: main.ts:248990
+Defined in: main.ts:249816
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248990
 
 > `optional` **live**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248983
+Defined in: main.ts:249809
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248983
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248984
+Defined in: main.ts:249810
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:248984
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248985
+Defined in: main.ts:249811
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:248985
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248986
+Defined in: main.ts:249812
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:248986
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:248999
+Defined in: main.ts:249825
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:248999
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:249019
+Defined in: main.ts:249845
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:249019
 
 > `static` **fromJS**(`data`): `AppendixHotelInfoGoogleBusinessDataPriceData`
 
-Defined in: main.ts:249012
+Defined in: main.ts:249838
 
 #### Parameters
 

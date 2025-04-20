@@ -6,7 +6,7 @@
 
 # Class: OnPageInstantPagesResultInfo
 
-Defined in: main.ts:186346
+Defined in: main.ts:186756
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:186346
 
 ### Constructor
 
-> **new OnPageInstantPagesResultInfo**(`data`?): `OnPageInstantPagesResultInfo`
+> **new OnPageInstantPagesResultInfo**(`data?`): `OnPageInstantPagesResultInfo`
 
-Defined in: main.ts:186364
+Defined in: main.ts:186774
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186364
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:186356
+Defined in: main.ts:186766
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -56,7 +56,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:186349
+Defined in: main.ts:186759
 
 status of the crawling session
 possible values: in_progress, finished
@@ -71,7 +71,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:186352
+Defined in: main.ts:186762
 
 details of the crawling session
 in this case the value will be null
@@ -86,7 +86,7 @@ in this case the value will be null
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:186360
+Defined in: main.ts:186770
 
 items array
 
@@ -100,7 +100,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:186358
+Defined in: main.ts:186768
 
 number of items in the results array
 
@@ -112,9 +112,9 @@ number of items in the results array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:186373
+Defined in: main.ts:186783
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:186373
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:186398
+Defined in: main.ts:186808
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:186398
 
 > `static` **fromJS**(`data`): `OnPageInstantPagesResultInfo`
 
-Defined in: main.ts:186391
+Defined in: main.ts:186801
 
 #### Parameters
 

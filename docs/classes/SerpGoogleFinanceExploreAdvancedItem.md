@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreAdvancedItem
 
-Defined in: main.ts:88836
+Defined in: main.ts:88948
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:88836
 
 ### Constructor
 
-> **new SerpGoogleFinanceExploreAdvancedItem**(`data`?): `SerpGoogleFinanceExploreAdvancedItem`
+> **new SerpGoogleFinanceExploreAdvancedItem**(`data?`): `SerpGoogleFinanceExploreAdvancedItem`
 
-Defined in: main.ts:88845
+Defined in: main.ts:88957
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88845
 
 > `optional` **gainers**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88840
+Defined in: main.ts:88952
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:88840
 
 > `optional` **losers**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88841
+Defined in: main.ts:88953
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:88841
 
 > `optional` **most\_active**: [`GoogleFinanceMarketTrendsElement`](GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88839
+Defined in: main.ts:88951
 
 array of items
 this array can take the following names: most_active, gainers, losers
@@ -77,9 +77,9 @@ this array can take the following names: most_active, gainers, losers
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88854
+Defined in: main.ts:88966
 
 #### Parameters
 
@@ -95,9 +95,9 @@ Defined in: main.ts:88854
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88885
+Defined in: main.ts:88997
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:88885
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceExploreAdvancedItem`
 
-Defined in: main.ts:88878
+Defined in: main.ts:88990
 
 #### Parameters
 

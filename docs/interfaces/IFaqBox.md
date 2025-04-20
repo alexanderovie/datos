@@ -6,7 +6,7 @@
 
 # Interface: IFaqBox
 
-Defined in: main.ts:33417
+Defined in: main.ts:33425
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33417
 
 > `optional` **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
 
-Defined in: main.ts:33422
+Defined in: main.ts:33430
 
 additional items present in the element
 if there are none, equals null
@@ -29,6 +29,6 @@ if there are none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33419
+Defined in: main.ts:33427
 
 type of element

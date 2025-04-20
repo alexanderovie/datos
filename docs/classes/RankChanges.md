@@ -6,7 +6,7 @@
 
 # Class: RankChanges
 
-Defined in: main.ts:111590
+Defined in: main.ts:111712
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:111590
 
 ### Constructor
 
-> **new RankChanges**(`data`?): `RankChanges`
+> **new RankChanges**(`data?`): `RankChanges`
 
-Defined in: main.ts:111607
+Defined in: main.ts:111729
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111607
 
 > `optional` **is\_down**: `boolean`
 
-Defined in: main.ts:111603
+Defined in: main.ts:111725
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
@@ -55,7 +55,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 > `optional` **is\_new**: `boolean`
 
-Defined in: main.ts:111597
+Defined in: main.ts:111719
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
@@ -70,7 +70,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 > `optional` **is\_up**: `boolean`
 
-Defined in: main.ts:111600
+Defined in: main.ts:111722
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
@@ -85,7 +85,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 > `optional` **previous\_rank\_absolute**: `number`
 
-Defined in: main.ts:111594
+Defined in: main.ts:111716
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
@@ -99,9 +99,9 @@ if this element is new, the value will be null
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:111616
+Defined in: main.ts:111738
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:111616
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:111636
+Defined in: main.ts:111758
 
 #### Parameters
 
@@ -137,7 +137,7 @@ Defined in: main.ts:111636
 
 > `static` **fromJS**(`data`): `RankChanges`
 
-Defined in: main.ts:111629
+Defined in: main.ts:111751
 
 #### Parameters
 

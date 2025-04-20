@@ -6,7 +6,7 @@
 
 # Interface: IGoogleAdsAdvertisersAdsDomainSerpElementItem
 
-Defined in: main.ts:64098
+Defined in: main.ts:64212
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:64098
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:64100
+Defined in: main.ts:64214
 
 domain in SERP
 
@@ -32,7 +32,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63898
+Defined in: main.ts:64012
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -47,7 +47,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63895
+Defined in: main.ts:64009
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -63,7 +63,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63891
+Defined in: main.ts:64005
 
 type of element
 

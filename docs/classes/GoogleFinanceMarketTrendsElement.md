@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketTrendsElement
 
-Defined in: main.ts:88762
+Defined in: main.ts:88874
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:88762
 
 ### Constructor
 
-> **new GoogleFinanceMarketTrendsElement**(`data`?): `GoogleFinanceMarketTrendsElement`
+> **new GoogleFinanceMarketTrendsElement**(`data?`): `GoogleFinanceMarketTrendsElement`
 
-Defined in: main.ts:88774
+Defined in: main.ts:88886
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88774
 
 > `optional` **news**: [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)[]
 
-Defined in: main.ts:88770
+Defined in: main.ts:88882
 
 array of items
 array contains the following type of items: google_finance_news_element
@@ -55,7 +55,7 @@ array contains the following type of items: google_finance_news_element
 
 > `optional` **quote**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)
 
-Defined in: main.ts:88767
+Defined in: main.ts:88879
 
 object of items
 array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element
@@ -70,7 +70,7 @@ array contains the following type of items: google_finance_asset_pair_element, g
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88764
+Defined in: main.ts:88876
 
 type of element
 
@@ -82,9 +82,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88783
+Defined in: main.ts:88895
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:88783
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88806
+Defined in: main.ts:88918
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:88806
 
 > `static` **fromJS**(`data`): `GoogleFinanceMarketTrendsElement`
 
-Defined in: main.ts:88799
+Defined in: main.ts:88911
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IImagesSerpElementItem
 
-Defined in: main.ts:34369
+Defined in: main.ts:34377
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34369
 
 > `optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:34381
+Defined in: main.ts:34389
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34373
+Defined in: main.ts:34381
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34388
+Defined in: main.ts:34396
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
 
-Defined in: main.ts:34384
+Defined in: main.ts:34392
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -98,7 +98,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34377
+Defined in: main.ts:34385
 
 title of the row
 
@@ -108,7 +108,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -122,7 +122,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34379
+Defined in: main.ts:34387
 
 source URL
 
@@ -132,6 +132,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34375
+Defined in: main.ts:34383
 
 the XPath of the element

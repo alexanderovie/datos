@@ -6,7 +6,7 @@
 
 # Class: GoogleShoppingSponsoredCarouselElement
 
-Defined in: main.ts:198208
+Defined in: main.ts:198738
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:198208
 
 ### Constructor
 
-> **new GoogleShoppingSponsoredCarouselElement**(`data`?): `GoogleShoppingSponsoredCarouselElement`
+> **new GoogleShoppingSponsoredCarouselElement**(`data?`): `GoogleShoppingSponsoredCarouselElement`
 
-Defined in: main.ts:198243
+Defined in: main.ts:198773
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:198243
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:198227
+Defined in: main.ts:198757
 
 currency in the ISO format
 example:
@@ -56,7 +56,7 @@ USD
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
-Defined in: main.ts:198239
+Defined in: main.ts:198769
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -71,7 +71,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:198223
+Defined in: main.ts:198753
 
 product price
 example:
@@ -87,7 +87,7 @@ example:
 
 > `optional` **product\_images**: `string`[]
 
-Defined in: main.ts:198233
+Defined in: main.ts:198763
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -102,7 +102,7 @@ the first URL in the array is the featured image of the product
 
 > `optional` **product\_rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:198230
+Defined in: main.ts:198760
 
 product rating
 the product popularity rate based on product reviews
@@ -117,7 +117,7 @@ the product popularity rate based on product reviews
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:198219
+Defined in: main.ts:198749
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -132,7 +132,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:198236
+Defined in: main.ts:198766
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -147,7 +147,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:198216
+Defined in: main.ts:198746
 
 tags assigned to the product
 
@@ -161,7 +161,7 @@ tags assigned to the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:198214
+Defined in: main.ts:198744
 
 product title
 
@@ -175,7 +175,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:198210
+Defined in: main.ts:198740
 
 type of element
 
@@ -189,7 +189,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:198212
+Defined in: main.ts:198742
 
 XPath of the element
 
@@ -201,9 +201,9 @@ XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:198252
+Defined in: main.ts:198782
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:198252
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:198287
+Defined in: main.ts:198817
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:198287
 
 > `static` **fromJS**(`data`): `GoogleShoppingSponsoredCarouselElement`
 
-Defined in: main.ts:198280
+Defined in: main.ts:198810
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationRows
 
-Defined in: main.ts:206167
+Defined in: main.ts:206697
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:206167
 
 > `optional` **rows**: [`BaseProductInformationRowItem`](../classes/BaseProductInformationRowItem.md)[]
 
-Defined in: main.ts:206173
+Defined in: main.ts:206703
 
 rows containing related product information
 
@@ -28,7 +28,7 @@ rows containing related product information
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:206171
+Defined in: main.ts:206701
 
 title under which related product information appears on the Amazon product page
 
@@ -38,6 +38,6 @@ title under which related product information appears on the Amazon product page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:206169
+Defined in: main.ts:206699
 
 type of element

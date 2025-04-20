@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo
 
-Defined in: main.ts:224754
+Defined in: main.ts:225284
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:224754
 
 ### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
+> **new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo**(`data?`): `BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
 
-Defined in: main.ts:224849
+Defined in: main.ts:225379
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224849
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:224771
+Defined in: main.ts:225301
 
 keyword
 required field
@@ -69,7 +69,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:224817
+Defined in: main.ts:225347
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,7 +88,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:224810
+Defined in: main.ts:225340
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -107,7 +107,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:224793
+Defined in: main.ts:225323
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,7 +126,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:224803
+Defined in: main.ts:225333
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:224786
+Defined in: main.ts:225316
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,7 +167,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:224845
+Defined in: main.ts:225375
 
 notification URL of a completed task
 optional field
@@ -190,7 +190,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:224834
+Defined in: main.ts:225364
 
 return URL for sending task results
 optional field
@@ -213,7 +213,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:224779
+Defined in: main.ts:225309
 
 task priority
 optional field
@@ -233,7 +233,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:224823
+Defined in: main.ts:225353
 
 user-defined task identifier
 optional field
@@ -249,9 +249,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:224858
+Defined in: main.ts:225388
 
 #### Parameters
 
@@ -267,9 +267,9 @@ Defined in: main.ts:224858
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:224884
+Defined in: main.ts:225414
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: main.ts:224884
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`
 
-Defined in: main.ts:224877
+Defined in: main.ts:225407
 
 #### Parameters
 

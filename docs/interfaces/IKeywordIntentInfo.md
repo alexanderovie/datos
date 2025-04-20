@@ -6,7 +6,7 @@
 
 # Interface: IKeywordIntentInfo
 
-Defined in: main.ts:107239
+Defined in: main.ts:107361
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:107239
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:107242
+Defined in: main.ts:107364
 
 search intent name
 possible values: informational, navigational, commercial, transactional
@@ -29,7 +29,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **probability**: `number`
 
-Defined in: main.ts:107245
+Defined in: main.ts:107367
 
 search intent probability
 1 indicates the highest probability

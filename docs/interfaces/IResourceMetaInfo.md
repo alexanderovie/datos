@@ -6,7 +6,7 @@
 
 # Interface: IResourceMetaInfo
 
-Defined in: main.ts:179788
+Defined in: main.ts:180198
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:179788
 
 > `optional` **alternative\_text**: `string`
 
-Defined in: main.ts:179791
+Defined in: main.ts:180201
 
 content of the image alt attribute
 the value depends on the resource_type
@@ -29,7 +29,7 @@ the value depends on the resource_type
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:179801
+Defined in: main.ts:180211
 
 image height in px
 
@@ -39,7 +39,7 @@ image height in px
 
 > `optional` **original\_height**: `number`
 
-Defined in: main.ts:179797
+Defined in: main.ts:180207
 
 original image height in px
 
@@ -49,7 +49,7 @@ original image height in px
 
 > `optional` **original\_width**: `number`
 
-Defined in: main.ts:179795
+Defined in: main.ts:180205
 
 original image width in px
 
@@ -59,7 +59,7 @@ original image width in px
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:179793
+Defined in: main.ts:180203
 
 title
 
@@ -69,6 +69,6 @@ title
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:179799
+Defined in: main.ts:180209
 
 image width in px

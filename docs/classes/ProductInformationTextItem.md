@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextItem
 
-Defined in: main.ts:205958
+Defined in: main.ts:206488
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:205958
 
 ### Constructor
 
-> **new ProductInformationTextItem**(`data`?): `ProductInformationTextItem`
+> **new ProductInformationTextItem**(`data?`): `ProductInformationTextItem`
 
-Defined in: main.ts:205964
+Defined in: main.ts:206494
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:205964
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25401
+Defined in: main.ts:25409
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25401
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25399
+Defined in: main.ts:25407
 
 name of the section related to product information specified in the contents
 
@@ -78,7 +78,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:205960
+Defined in: main.ts:206490
 
 text specified under the given title within the section_name
 
@@ -92,7 +92,7 @@ text specified under the given title within the section_name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25397
+Defined in: main.ts:25405
 
 type of element
 
@@ -108,9 +108,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:205969
+Defined in: main.ts:206499
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:205969
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:205987
+Defined in: main.ts:206517
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:205987
 
 > `static` **fromJS**(`data`): `ProductInformationTextItem`
 
-Defined in: main.ts:205980
+Defined in: main.ts:206510
 
 #### Parameters
 

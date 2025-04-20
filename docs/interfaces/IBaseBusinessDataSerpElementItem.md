@@ -6,7 +6,7 @@
 
 # Interface: IBaseBusinessDataSerpElementItem
 
-Defined in: main.ts:23432
+Defined in: main.ts:23440
 
 ## Extended by
 
@@ -25,7 +25,7 @@ Defined in: main.ts:23432
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23439
+Defined in: main.ts:23447
 
 absolute rank among all the elements
 
@@ -35,7 +35,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23437
+Defined in: main.ts:23445
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -46,6 +46,6 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23434
+Defined in: main.ts:23442
 
 type of element

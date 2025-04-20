@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsRequestInfo
 
-Defined in: main.ts:180388
+Defined in: main.ts:180798
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180388
 
 ### Constructor
 
-> **new OnPageDuplicateTagsRequestInfo**(`data`?): `OnPageDuplicateTagsRequestInfo`
+> **new OnPageDuplicateTagsRequestInfo**(`data?`): `OnPageDuplicateTagsRequestInfo`
 
-Defined in: main.ts:180420
+Defined in: main.ts:180830
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180420
 
 > `optional` **accumulator**: `string`
 
-Defined in: main.ts:180400
+Defined in: main.ts:180810
 
 tag value
 optional field
@@ -56,7 +56,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:180394
+Defined in: main.ts:180804
 
 ID of the task
 required field
@@ -74,7 +74,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:180405
+Defined in: main.ts:180815
 
 the maximum number of returned pages
 optional field
@@ -91,7 +91,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:180410
+Defined in: main.ts:180820
 
 offset in the results array of returned pages
 optional field
@@ -108,7 +108,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180416
+Defined in: main.ts:180826
 
 user-defined task identifier
 optional field
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:180396
+Defined in: main.ts:180806
 
 type of element
 
@@ -138,9 +138,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180429
+Defined in: main.ts:180839
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:180429
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180451
+Defined in: main.ts:180861
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:180451
 
 > `static` **fromJS**(`data`): `OnPageDuplicateTagsRequestInfo`
 
-Defined in: main.ts:180444
+Defined in: main.ts:180854
 
 #### Parameters
 

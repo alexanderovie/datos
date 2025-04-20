@@ -6,7 +6,7 @@
 
 # Class: AmazonDeliveryInfo
 
-Defined in: main.ts:24755
+Defined in: main.ts:24763
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24755
 
 ### Constructor
 
-> **new AmazonDeliveryInfo**(`data`?): `AmazonDeliveryInfo`
+> **new AmazonDeliveryInfo**(`data?`): `AmazonDeliveryInfo`
 
-Defined in: main.ts:24773
+Defined in: main.ts:24781
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24773
 
 > `optional` **delivery\_date\_from**: `string`
 
-Defined in: main.ts:24759
+Defined in: main.ts:24767
 
 the earliest date when the product can be shipped
 
@@ -54,7 +54,7 @@ the earliest date when the product can be shipped
 
 > `optional` **delivery\_date\_to**: `string`
 
-Defined in: main.ts:24761
+Defined in: main.ts:24769
 
 the latest date when the product can be delivered
 
@@ -68,7 +68,7 @@ the latest date when the product can be delivered
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:24757
+Defined in: main.ts:24765
 
 message accompanying the delivery information as posted by the seller
 
@@ -82,7 +82,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:24769
+Defined in: main.ts:24777
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -98,7 +98,7 @@ if free delivery is available, the value is null
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
 
-Defined in: main.ts:24763
+Defined in: main.ts:24771
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -112,7 +112,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
 
-Defined in: main.ts:24765
+Defined in: main.ts:24773
 
 the latest date when the product can be delivered with a fast delivery option
 
@@ -124,9 +124,9 @@ the latest date when the product can be delivered with a fast delivery option
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24782
+Defined in: main.ts:24790
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:24782
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24804
+Defined in: main.ts:24812
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:24804
 
 > `static` **fromJS**(`data`): `AmazonDeliveryInfo`
 
-Defined in: main.ts:24797
+Defined in: main.ts:24805
 
 #### Parameters
 

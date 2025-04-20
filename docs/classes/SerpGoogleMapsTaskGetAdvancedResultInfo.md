@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:44849
+Defined in: main.ts:44951
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:44849
 
 ### Constructor
 
-> **new SerpGoogleMapsTaskGetAdvancedResultInfo**(`data`?): `SerpGoogleMapsTaskGetAdvancedResultInfo`
+> **new SerpGoogleMapsTaskGetAdvancedResultInfo**(`data?`): `SerpGoogleMapsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:44889
+Defined in: main.ts:44991
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:44889
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:44864
+Defined in: main.ts:44966
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -56,7 +56,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:44869
+Defined in: main.ts:44971
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -73,7 +73,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:44879
+Defined in: main.ts:44981
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -90,7 +90,7 @@ maps_search, maps_paid_item
 
 > `optional` **items**: [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)[]
 
-Defined in: main.ts:44885
+Defined in: main.ts:44987
 
 items of the element
 
@@ -104,7 +104,7 @@ items of the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:44883
+Defined in: main.ts:44985
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:44852
+Defined in: main.ts:44954
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:44860
+Defined in: main.ts:44962
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:44858
+Defined in: main.ts:44960
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:44874
+Defined in: main.ts:44976
 
 search refinement chips
 
@@ -175,7 +175,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:44856
+Defined in: main.ts:44958
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:44881
+Defined in: main.ts:44983
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:44872
+Defined in: main.ts:44974
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:44854
+Defined in: main.ts:44956
 
 type of element
 
@@ -230,9 +230,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:44898
+Defined in: main.ts:45000
 
 #### Parameters
 
@@ -248,9 +248,9 @@ Defined in: main.ts:44898
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:44935
+Defined in: main.ts:45037
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:44935
 
 > `static` **fromJS**(`data`): `SerpGoogleMapsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:44928
+Defined in: main.ts:45030
 
 #### Parameters
 

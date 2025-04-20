@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:42099
+Defined in: main.ts:42201
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:42099
 
 ### Constructor
 
-> **new SerpGoogleOrganicLiveAdvancedRequestInfo**(`data`?): `SerpGoogleOrganicLiveAdvancedRequestInfo`
+> **new SerpGoogleOrganicLiveAdvancedRequestInfo**(`data?`): `SerpGoogleOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:42278
+Defined in: main.ts:42380
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42278
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:42232
+Defined in: main.ts:42334
 
 browser screen height
 optional field
@@ -61,7 +61,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:42242
+Defined in: main.ts:42344
 
 browser screen resolution ratio
 optional field
@@ -83,7 +83,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:42223
+Defined in: main.ts:42325
 
 browser screen width
 optional field
@@ -104,7 +104,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:42214
+Defined in: main.ts:42316
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -123,7 +123,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:42124
+Defined in: main.ts:42226
 
 parsing depth
 optional field
@@ -144,7 +144,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:42181
+Defined in: main.ts:42283
 
 device type
 optional field
@@ -161,7 +161,7 @@ default value: desktop
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:42207
+Defined in: main.ts:42309
 
 display related results
 optional field
@@ -179,7 +179,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42109
+Defined in: main.ts:42211
 
 keyword
 required field
@@ -201,7 +201,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42169
+Defined in: main.ts:42271
 
 search engine language code
 optional field if you specify language_name
@@ -220,7 +220,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:42162
+Defined in: main.ts:42264
 
 full name of search engine language
 optional field if you specify language_code
@@ -239,7 +239,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:42257
+Defined in: main.ts:42359
 
 load asynchronous ai overview
 optional field
@@ -259,7 +259,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42145
+Defined in: main.ts:42247
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -278,7 +278,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:42155
+Defined in: main.ts:42257
 
 GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -300,7 +300,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:42138
+Defined in: main.ts:42240
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -319,7 +319,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:42131
+Defined in: main.ts:42233
 
 page crawl limit
 optional field
@@ -338,7 +338,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:42188
+Defined in: main.ts:42290
 
 device operating system
 optional field
@@ -357,7 +357,7 @@ default value: android
 
 > `optional` **people\_also\_ask\_click\_depth**: `number`
 
-Defined in: main.ts:42249
+Defined in: main.ts:42351
 
 clicks on the corresponding element
 optional field
@@ -376,7 +376,7 @@ possible values: from 1 to 4
 
 > `optional` **remove\_from\_url**: `string`[]
 
-Defined in: main.ts:42268
+Defined in: main.ts:42370
 
 remove specific parameters from URLs
 optional field
@@ -395,7 +395,7 @@ Note: if the target field is specified, the specified URL parameters will be rem
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42176
+Defined in: main.ts:42278
 
 search engine domain
 optional field
@@ -414,7 +414,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:42261
+Defined in: main.ts:42363
 
 additional parameters of the search query
 optional field
@@ -430,7 +430,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:42274
+Defined in: main.ts:42376
 
 user-defined task identifier
 optional field
@@ -448,7 +448,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:42201
+Defined in: main.ts:42303
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -473,7 +473,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:42115
+Defined in: main.ts:42217
 
 direct URL of the search query
 optional field
@@ -489,9 +489,9 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:42287
+Defined in: main.ts:42389
 
 #### Parameters
 
@@ -507,9 +507,9 @@ Defined in: main.ts:42287
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:42330
+Defined in: main.ts:42432
 
 #### Parameters
 
@@ -527,7 +527,7 @@ Defined in: main.ts:42330
 
 > `static` **fromJS**(`data`): `SerpGoogleOrganicLiveAdvancedRequestInfo`
 
-Defined in: main.ts:42323
+Defined in: main.ts:42425
 
 #### Parameters
 

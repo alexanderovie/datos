@@ -6,7 +6,7 @@
 
 # Interface: IHotelPriceInfo
 
-Defined in: main.ts:229072
+Defined in: main.ts:229602
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:229072
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:229086
+Defined in: main.ts:229616
 
 check-in date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:229091
+Defined in: main.ts:229621
 
 check-out date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -44,7 +44,7 @@ example:
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:229079
+Defined in: main.ts:229609
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -55,7 +55,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **discount\_text**: `string`
 
-Defined in: main.ts:229081
+Defined in: main.ts:229611
 
 text about a discount applied
 
@@ -65,7 +65,7 @@ text about a discount applied
 
 > `optional` **items**: [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)[]
 
-Defined in: main.ts:229097
+Defined in: main.ts:229627
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -77,7 +77,7 @@ possible item types: hotel_search_item
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:229074
+Defined in: main.ts:229604
 
 price per night
 
@@ -87,7 +87,7 @@ price per night
 
 > `optional` **price\_without\_discount**: `number`
 
-Defined in: main.ts:229076
+Defined in: main.ts:229606
 
 full price per night without a discount applied
 
@@ -97,6 +97,6 @@ full price per night without a discount applied
 
 > `optional` **visitors**: `number`
 
-Defined in: main.ts:229093
+Defined in: main.ts:229623
 
 number of hotel visitors for this price

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:160370
+Defined in: main.ts:160494
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:160370
 
 ### Constructor
 
-> **new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo**(`data`?): `KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
+> **new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo**(`data?`): `KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:160406
+Defined in: main.ts:160530
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160406
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:160380
+Defined in: main.ts:160504
 
 target keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:160396
+Defined in: main.ts:160520
 
 location code
 required field if you don’t specify location_name
@@ -82,7 +82,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:160388
+Defined in: main.ts:160512
 
 full name of the location
 required field if you don’t specify location_code
@@ -102,7 +102,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160402
+Defined in: main.ts:160526
 
 user-defined task identifier
 optional field
@@ -118,9 +118,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:160415
+Defined in: main.ts:160539
 
 #### Parameters
 
@@ -136,9 +136,9 @@ Defined in: main.ts:160415
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:160439
+Defined in: main.ts:160563
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:160439
 
 > `static` **fromJS**(`data`): `KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:160432
+Defined in: main.ts:160556
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveRequestInfo
 
-Defined in: main.ts:191118
+Defined in: main.ts:191588
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:191118
 
 ### Constructor
 
-> **new ContentAnalysisRatingDistributionLiveRequestInfo**(`data`?): `ContentAnalysisRatingDistributionLiveRequestInfo`
+> **new ContentAnalysisRatingDistributionLiveRequestInfo**(`data?`): `ContentAnalysisRatingDistributionLiveRequestInfo`
 
-Defined in: main.ts:191204
+Defined in: main.ts:191683
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:191204
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:191194
+Defined in: main.ts:191664
 
 initial dataset filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:191156
+Defined in: main.ts:191626
 
 maximum number of elements within internal arrays
 optional field
@@ -92,7 +92,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:191127
+Defined in: main.ts:191597
 
 target keyword
 required field
@@ -113,7 +113,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:191139
+Defined in: main.ts:191609
 
 target keyword fields and target keywords
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:191145
+Defined in: main.ts:191615
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:191170
+Defined in: main.ts:191640
 
 positive connotation threshold
 optional field
@@ -174,11 +174,32 @@ default value: 0.4
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:191673
+
+defines the scale used for calculating and displaying the rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+#### Implementation of
+
+[`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`rank_scale`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#rank_scale)
+
+***
+
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:191163
+Defined in: main.ts:191633
 
 results grouping type
 optional field
@@ -197,7 +218,7 @@ default value: as_is
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:191177
+Defined in: main.ts:191647
 
 sentiment connotation threshold
 optional field
@@ -216,7 +237,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191200
+Defined in: main.ts:191679
 
 user-defined task identifier
 optional field
@@ -232,9 +253,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:191213
+Defined in: main.ts:191692
 
 #### Parameters
 
@@ -250,9 +271,9 @@ Defined in: main.ts:191213
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:191252
+Defined in: main.ts:191732
 
 #### Parameters
 
@@ -270,7 +291,7 @@ Defined in: main.ts:191252
 
 > `static` **fromJS**(`data`): `ContentAnalysisRatingDistributionLiveRequestInfo`
 
-Defined in: main.ts:191245
+Defined in: main.ts:191725
 
 #### Parameters
 

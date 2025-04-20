@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:242520
+Defined in: main.ts:243050
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242520
 
 ### Constructor
 
-> **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data`?): `AppendixBingKeywordsDataLimitsRatesDataInfo`
+> **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data?`): `AppendixBingKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242530
+Defined in: main.ts:243060
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242530
 
 > `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242525
+Defined in: main.ts:243055
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242525
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242521
+Defined in: main.ts:243051
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:242521
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242526
+Defined in: main.ts:243056
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:242526
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242524
+Defined in: main.ts:243054
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:242524
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242523
+Defined in: main.ts:243053
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:242523
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242522
+Defined in: main.ts:243052
 
 #### Implementation of
 
@@ -110,9 +110,9 @@ Defined in: main.ts:242522
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242539
+Defined in: main.ts:243069
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:242539
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242561
+Defined in: main.ts:243091
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:242561
 
 > `static` **fromJS**(`data`): `AppendixBingKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242554
+Defined in: main.ts:243084
 
 #### Parameters
 

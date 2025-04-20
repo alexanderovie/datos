@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 
-Defined in: main.ts:187452
+Defined in: main.ts:187862
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:187452
 
 ### Constructor
 
-> **new OnPageLighthouseTasksReadyResultInfo**(`data`?): `OnPageLighthouseTasksReadyResultInfo`
+> **new OnPageLighthouseTasksReadyResultInfo**(`data?`): `OnPageLighthouseTasksReadyResultInfo`
 
-Defined in: main.ts:187463
+Defined in: main.ts:187873
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187463
 
 > `optional` **endpoint\_json**: `string`
 
-Defined in: main.ts:187459
+Defined in: main.ts:187869
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
@@ -54,7 +54,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:187455
+Defined in: main.ts:187865
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187457
+Defined in: main.ts:187867
 
 user-defined task identifier
 
@@ -81,9 +81,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:187472
+Defined in: main.ts:187882
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:187472
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:187491
+Defined in: main.ts:187901
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:187491
 
 > `static` **fromJS**(`data`): `OnPageLighthouseTasksReadyResultInfo`
 
-Defined in: main.ts:187484
+Defined in: main.ts:187894
 
 #### Parameters
 

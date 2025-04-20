@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
-Defined in: main.ts:122362
+Defined in: main.ts:122484
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122362
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem**(`data`?): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`
+> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem**(`data?`): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:122372
+Defined in: main.ts:122494
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122372
 
 > `optional` **metrics**: [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
 
-Defined in: main.ts:122368
+Defined in: main.ts:122490
 
 traffic data relevant to the specified domain
 
@@ -54,7 +54,7 @@ traffic data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122364
+Defined in: main.ts:122486
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:122366
+Defined in: main.ts:122488
 
 target domain in a POST array
 
@@ -80,9 +80,9 @@ target domain in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122381
+Defined in: main.ts:122503
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:122381
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122400
+Defined in: main.ts:122522
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:122400
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`
 
-Defined in: main.ts:122393
+Defined in: main.ts:122515
 
 #### Parameters
 

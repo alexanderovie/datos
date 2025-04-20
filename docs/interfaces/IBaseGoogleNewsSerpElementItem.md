@@ -6,7 +6,7 @@
 
 # Interface: IBaseGoogleNewsSerpElementItem
 
-Defined in: main.ts:49025
+Defined in: main.ts:49127
 
 ## Extended by
 
@@ -19,7 +19,7 @@ Defined in: main.ts:49025
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:49034
+Defined in: main.ts:49136
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -30,7 +30,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:49031
+Defined in: main.ts:49133
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -42,7 +42,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:49042
+Defined in: main.ts:49144
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -54,7 +54,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:49038
+Defined in: main.ts:49140
 
 title of the element
 
@@ -64,7 +64,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:49027
+Defined in: main.ts:49129
 
 type of element
 
@@ -74,6 +74,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:49036
+Defined in: main.ts:49138
 
 the XPath of the element

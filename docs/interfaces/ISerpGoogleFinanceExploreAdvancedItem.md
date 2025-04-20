@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceExploreAdvancedItem
 
-Defined in: main.ts:88910
+Defined in: main.ts:89022
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88910
 
 > `optional` **gainers**: [`GoogleFinanceMarketTrendsElement`](../classes/GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88914
+Defined in: main.ts:89026
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:88914
 
 > `optional` **losers**: [`GoogleFinanceMarketTrendsElement`](../classes/GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88915
+Defined in: main.ts:89027
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:88915
 
 > `optional` **most\_active**: [`GoogleFinanceMarketTrendsElement`](../classes/GoogleFinanceMarketTrendsElement.md)[]
 
-Defined in: main.ts:88913
+Defined in: main.ts:89025
 
 array of items
 this array can take the following names: most_active, gainers, losers

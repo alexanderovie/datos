@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLinksRequestInfo
 
-Defined in: main.ts:181326
+Defined in: main.ts:181736
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181326
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:181369
+Defined in: main.ts:181779
 
 array of results filtering parameters
 optional field
@@ -43,7 +43,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:181332
+Defined in: main.ts:181742
 
 ID of the task
 required field
@@ -57,7 +57,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:181347
+Defined in: main.ts:181757
 
 the maximum number of returned links
 optional field
@@ -70,7 +70,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:181352
+Defined in: main.ts:181762
 
 offset in the results array of returned links
 optional field
@@ -83,7 +83,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:181337
+Defined in: main.ts:181747
 
 relative page URL
 optional field
@@ -96,7 +96,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:181342
+Defined in: main.ts:181752
 
 relative page URL
 optional field
@@ -109,7 +109,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181375
+Defined in: main.ts:181785
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:49197
+Defined in: main.ts:49299
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:49197
 
 ### Constructor
 
-> **new SerpGoogleNewsTaskGetAdvancedResultInfo**(`data`?): `SerpGoogleNewsTaskGetAdvancedResultInfo`
+> **new SerpGoogleNewsTaskGetAdvancedResultInfo**(`data?`): `SerpGoogleNewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:49236
+Defined in: main.ts:49340
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49236
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:49211
+Defined in: main.ts:49313
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:49216
+Defined in: main.ts:49318
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,11 +68,25 @@ example:
 
 ***
 
+### includes\_non\_news\_search\_results?
+
+> `optional` **includes\_non\_news\_search\_results**: `boolean`
+
+Defined in: main.ts:49325
+
+indicates whether the response contains non-news search results in addition to news content
+
+#### Implementation of
+
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`includes_non_news_search_results`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#includes_non_news_search_results)
+
+***
+
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:49226
+Defined in: main.ts:49330
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +103,7 @@ top_stories, news_search
 
 > `optional` **items**: [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md)[]
 
-Defined in: main.ts:49232
+Defined in: main.ts:49336
 
 elements of search results found in SERP
 
@@ -103,7 +117,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:49230
+Defined in: main.ts:49334
 
 the number of results returned in the items array
 
@@ -117,7 +131,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49200
+Defined in: main.ts:49302
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +146,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49208
+Defined in: main.ts:49310
 
 language code in a POST array
 
@@ -146,7 +160,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49206
+Defined in: main.ts:49308
 
 location code in a POST array
 
@@ -160,7 +174,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:49221
+Defined in: main.ts:49323
 
 search refinement chips
 
@@ -174,7 +188,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49204
+Defined in: main.ts:49306
 
 search engine domain in a POST array
 
@@ -188,7 +202,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:49228
+Defined in: main.ts:49332
 
 total number of results in SERP
 
@@ -202,7 +216,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:49219
+Defined in: main.ts:49321
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +231,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:49202
+Defined in: main.ts:49304
 
 type of element
 
@@ -229,9 +243,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:49245
+Defined in: main.ts:49349
 
 #### Parameters
 
@@ -247,9 +261,9 @@ Defined in: main.ts:49245
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:49282
+Defined in: main.ts:49387
 
 #### Parameters
 
@@ -267,7 +281,7 @@ Defined in: main.ts:49282
 
 > `static` **fromJS**(`data`): `SerpGoogleNewsTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:49275
+Defined in: main.ts:49380
 
 #### Parameters
 

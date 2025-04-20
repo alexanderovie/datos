@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
-Defined in: main.ts:126713
+Defined in: main.ts:126835
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:126713
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:126724
+Defined in: main.ts:126846
 
 asins of target products
 required field
@@ -41,7 +41,7 @@ learn more about the parameter on this help center page
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:126776
+Defined in: main.ts:126898
 
 array of results filtering parameters
 optional field
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:126765
+Defined in: main.ts:126887
 
 mode for finding asin intersections
 optional field
@@ -74,7 +74,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126754
+Defined in: main.ts:126876
 
 language code
 required field if don’t specify language_name
@@ -89,7 +89,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:126747
+Defined in: main.ts:126869
 
 full name of the language
 required field if don’t specify language_code
@@ -104,7 +104,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:126759
+Defined in: main.ts:126881
 
 the maximum number of products in the results array
 optional field
@@ -117,7 +117,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126740
+Defined in: main.ts:126862
 
 location code
 required field if don’t specify location_name
@@ -133,7 +133,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:126732
+Defined in: main.ts:126854
 
 full name of the location
 required field if don’t specify location_code
@@ -149,7 +149,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:126797
+Defined in: main.ts:126919
 
 offset in the results array of returned keywords
 optional field
@@ -162,7 +162,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:126792
+Defined in: main.ts:126914
 
 results sorting rules
 optional field
@@ -186,7 +186,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:126803
+Defined in: main.ts:126925
 
 user-defined task identifier
 optional field

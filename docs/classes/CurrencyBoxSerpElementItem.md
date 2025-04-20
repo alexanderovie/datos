@@ -6,7 +6,7 @@
 
 # Class: CurrencyBoxSerpElementItem
 
-Defined in: main.ts:39007
+Defined in: main.ts:39015
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:39007
 
 ### Constructor
 
-> **new CurrencyBoxSerpElementItem**(`data`?): `CurrencyBoxSerpElementItem`
+> **new CurrencyBoxSerpElementItem**(`data?`): `CurrencyBoxSerpElementItem`
 
-Defined in: main.ts:39042
+Defined in: main.ts:39050
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39042
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **converted\_currency**: `string`
 
-Defined in: main.ts:39024
+Defined in: main.ts:39032
 
 converted currency
 
@@ -74,7 +74,7 @@ converted currency
 
 > `optional` **converted\_value**: `number`
 
-Defined in: main.ts:39019
+Defined in: main.ts:39027
 
 value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
@@ -90,7 +90,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:39022
+Defined in: main.ts:39030
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -105,7 +105,7 @@ ISO code of the currency applied to the price
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:39034
+Defined in: main.ts:39042
 
 contains data provided in the graph of the element
 
@@ -119,7 +119,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:39011
+Defined in: main.ts:39019
 
 the alignment of the element in SERP
 can take the following values:
@@ -135,7 +135,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -154,7 +154,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:39038
+Defined in: main.ts:39046
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -190,7 +190,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:39032
+Defined in: main.ts:39040
 
 results table
 if there are none, equals null
@@ -205,7 +205,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:39029
+Defined in: main.ts:39037
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -222,7 +222,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -240,7 +240,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:39015
+Defined in: main.ts:39023
 
 the value of the rating
 
@@ -254,7 +254,7 @@ the value of the rating
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39013
+Defined in: main.ts:39021
 
 the XPath of the element
 
@@ -266,9 +266,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39047
+Defined in: main.ts:39055
 
 #### Parameters
 
@@ -288,9 +288,9 @@ Defined in: main.ts:39047
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39074
+Defined in: main.ts:39082
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: main.ts:39074
 
 > `static` **fromJS**(`data`): `CurrencyBoxSerpElementItem`
 
-Defined in: main.ts:39067
+Defined in: main.ts:39075
 
 #### Parameters
 

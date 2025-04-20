@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
-Defined in: main.ts:194344
+Defined in: main.ts:194874
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:194344
 
 ### Constructor
 
-> **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): `ContentGenerationCheckGrammarLiveRequestInfo`
+> **new ContentGenerationCheckGrammarLiveRequestInfo**(`data?`): `ContentGenerationCheckGrammarLiveRequestInfo`
 
-Defined in: main.ts:194367
+Defined in: main.ts:194897
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194367
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:194353
+Defined in: main.ts:194883
 
 code of the text language
 required field if you do not specify language_name
@@ -56,7 +56,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:194357
+Defined in: main.ts:194887
 
 name of the text language
 required field if you do not specify language_code
@@ -72,7 +72,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:194363
+Defined in: main.ts:194893
 
 user-defined task identifier
 optional field
@@ -90,7 +90,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:194349
+Defined in: main.ts:194879
 
 target text
 required field
@@ -105,9 +105,9 @@ learn more about tokens on our help center
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:194376
+Defined in: main.ts:194906
 
 #### Parameters
 
@@ -123,9 +123,9 @@ Defined in: main.ts:194376
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:194396
+Defined in: main.ts:194926
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:194396
 
 > `static` **fromJS**(`data`): `ContentGenerationCheckGrammarLiveRequestInfo`
 
-Defined in: main.ts:194389
+Defined in: main.ts:194919
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
-Defined in: main.ts:125857
+Defined in: main.ts:125979
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125857
 
 > `optional` **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](../classes/DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:125871
+Defined in: main.ts:125993
 
 contains detected Amazon product competitors and related data
 
@@ -28,7 +28,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:125869
+Defined in: main.ts:125991
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125865
+Defined in: main.ts:125987
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125862
+Defined in: main.ts:125984
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125859
+Defined in: main.ts:125981
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:125867
+Defined in: main.ts:125989
 
 total amount of results in our database relevant to your request

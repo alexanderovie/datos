@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
-Defined in: main.ts:222045
+Defined in: main.ts:222575
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222045
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:222049
+Defined in: main.ts:222579
 
 number of businesses in the category
 
@@ -28,6 +28,6 @@ number of businesses in the category
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:222047
+Defined in: main.ts:222577
 
 full name of the category

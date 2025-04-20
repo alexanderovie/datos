@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableResultInfo
 
-Defined in: main.ts:182412
+Defined in: main.ts:182822
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:182412
 
 ### Constructor
 
-> **new OnPageNonIndexableResultInfo**(`data`?): `OnPageNonIndexableResultInfo`
+> **new OnPageNonIndexableResultInfo**(`data?`): `OnPageNonIndexableResultInfo`
 
-Defined in: main.ts:182427
+Defined in: main.ts:182837
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182427
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:182415
+Defined in: main.ts:182825
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:182417
+Defined in: main.ts:182827
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)[]
 
-Defined in: main.ts:182423
+Defined in: main.ts:182833
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:182421
+Defined in: main.ts:182831
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:182419
+Defined in: main.ts:182829
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:182436
+Defined in: main.ts:182846
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:182436
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:182461
+Defined in: main.ts:182871
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:182461
 
 > `static` **fromJS**(`data`): `OnPageNonIndexableResultInfo`
 
-Defined in: main.ts:182454
+Defined in: main.ts:182864
 
 #### Parameters
 

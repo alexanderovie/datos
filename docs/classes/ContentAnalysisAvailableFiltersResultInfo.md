@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
-Defined in: main.ts:188390
+Defined in: main.ts:188800
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:188390
 
 ### Constructor
 
-> **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): `ContentAnalysisAvailableFiltersResultInfo`
+> **new ContentAnalysisAvailableFiltersResultInfo**(`data?`): `ContentAnalysisAvailableFiltersResultInfo`
 
-Defined in: main.ts:188395
+Defined in: main.ts:188805
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:188395
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:188391
+Defined in: main.ts:188801
 
 #### Index Signature
 
@@ -54,9 +54,9 @@ Defined in: main.ts:188391
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:188404
+Defined in: main.ts:188814
 
 #### Parameters
 
@@ -72,9 +72,9 @@ Defined in: main.ts:188404
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:188427
+Defined in: main.ts:188837
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:188427
 
 > `static` **fromJS**(`data`): `ContentAnalysisAvailableFiltersResultInfo`
 
-Defined in: main.ts:188420
+Defined in: main.ts:188830
 
 #### Parameters
 

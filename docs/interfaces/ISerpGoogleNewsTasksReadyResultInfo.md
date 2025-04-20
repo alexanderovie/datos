@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsTasksReadyResultInfo
 
-Defined in: main.ts:48605
+Defined in: main.ts:48707
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:48605
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:48615
+Defined in: main.ts:48717
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:48623
+Defined in: main.ts:48725
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:48626
+Defined in: main.ts:48728
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:48620
+Defined in: main.ts:48722
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:48608
+Defined in: main.ts:48710
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:48610
+Defined in: main.ts:48712
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:48613
+Defined in: main.ts:48715
 
 type of search engine
 example: news
@@ -93,6 +93,6 @@ example: news
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:48617
+Defined in: main.ts:48719
 
 user-defined task identifier

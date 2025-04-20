@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
-Defined in: main.ts:59338
+Defined in: main.ts:59452
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:59338
 
 > `optional` **client**: `string`
 
-Defined in: main.ts:59401
+Defined in: main.ts:59515
 
 search client for autocomplete
 optional field
@@ -43,7 +43,7 @@ products-cc — used in google shopping search
 
 > `optional` **cursor\_pointer**: `number`
 
-Defined in: main.ts:59384
+Defined in: main.ts:59498
 
 search bar cursor pointer
 optional field
@@ -62,7 +62,7 @@ which que|ry is s – "cursor_pointer": 9
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:59346
+Defined in: main.ts:59460
 
 keyword
 required field
@@ -78,7 +78,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:59373
+Defined in: main.ts:59487
 
 search engine language code
 required field if you don’t specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:59366
+Defined in: main.ts:59480
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -108,7 +108,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:59359
+Defined in: main.ts:59473
 
 search engine location code
 required field if you don’t specify location_name;
@@ -122,7 +122,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:59353
+Defined in: main.ts:59467
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -137,7 +137,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59407
+Defined in: main.ts:59521
 
 user-defined task identifier
 optional field

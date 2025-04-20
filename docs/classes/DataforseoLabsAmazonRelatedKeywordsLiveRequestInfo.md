@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:124094
+Defined in: main.ts:124216
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:124094
 
 ### Constructor
 
-> **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
+> **new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo**(`data?`): `DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:124174
+Defined in: main.ts:124296
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124174
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:124144
+Defined in: main.ts:124266
 
 keyword search depth
 optional field
@@ -64,7 +64,7 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:124154
+Defined in: main.ts:124276
 
 ignore highly similar keywords
 optional field
@@ -81,7 +81,7 @@ default value: false
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:124149
+Defined in: main.ts:124271
 
 include data for the seed keyword
 optional field
@@ -98,7 +98,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:124100
+Defined in: main.ts:124222
 
 keyword
 required field
@@ -116,7 +116,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:124132
+Defined in: main.ts:124254
 
 language code
 required field if you don’t specify language_name
@@ -135,7 +135,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:124125
+Defined in: main.ts:124247
 
 full name of the language
 required field if you don’t specify language_code
@@ -154,7 +154,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:124159
+Defined in: main.ts:124281
 
 the maximum number of returned keywords
 optional field
@@ -171,7 +171,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:124118
+Defined in: main.ts:124240
 
 location code
 required field if you don’t specify location_name
@@ -192,7 +192,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:124109
+Defined in: main.ts:124231
 
 full name of the location
 required field if you don’t specify location_code
@@ -213,7 +213,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:124164
+Defined in: main.ts:124286
 
 offset in the results array of returned keywords
 optional field
@@ -230,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:124170
+Defined in: main.ts:124292
 
 user-defined task identifier
 optional field
@@ -246,9 +246,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:124183
+Defined in: main.ts:124305
 
 #### Parameters
 
@@ -264,9 +264,9 @@ Defined in: main.ts:124183
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:124210
+Defined in: main.ts:124332
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:124210
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:124203
+Defined in: main.ts:124325
 
 #### Parameters
 

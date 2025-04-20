@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleCategoriesResultInfo
 
-Defined in: main.ts:210365
+Defined in: main.ts:210895
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:210365
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:210367
+Defined in: main.ts:210897
 
 contains full list of supported app categories

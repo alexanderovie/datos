@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:173206
+Defined in: main.ts:173594
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173206
 
 ### Constructor
 
-> **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data`?): `BacklinksBulkReferringDomainsLiveRequestInfo`
+> **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data?`): `BacklinksBulkReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:173235
+Defined in: main.ts:173623
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173235
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:173231
+Defined in: main.ts:173619
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:173225
+Defined in: main.ts:173613
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -87,9 +87,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173244
+Defined in: main.ts:173632
 
 #### Parameters
 
@@ -105,9 +105,9 @@ Defined in: main.ts:173244
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173266
+Defined in: main.ts:173654
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:173266
 
 > `static` **fromJS**(`data`): `BacklinksBulkReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:173259
+Defined in: main.ts:173647
 
 #### Parameters
 

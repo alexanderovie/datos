@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingPageIntersectionLiveResultInfo
 
-Defined in: main.ts:129764
+Defined in: main.ts:129886
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:129764
 
 ### Constructor
 
-> **new DataforseoLabsBingPageIntersectionLiveResultInfo**(`data`?): `DataforseoLabsBingPageIntersectionLiveResultInfo`
+> **new DataforseoLabsBingPageIntersectionLiveResultInfo**(`data?`): `DataforseoLabsBingPageIntersectionLiveResultInfo`
 
-Defined in: main.ts:129786
+Defined in: main.ts:129908
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129786
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:129772
+Defined in: main.ts:129894
 
 URLs you specified in a POST array that will be excluded from the results
 
@@ -54,7 +54,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 > `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
 
-Defined in: main.ts:129782
+Defined in: main.ts:129904
 
 contains keywords, relevant SERP elements and related data
 
@@ -68,7 +68,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:129780
+Defined in: main.ts:129902
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129776
+Defined in: main.ts:129898
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129774
+Defined in: main.ts:129896
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:129770
+Defined in: main.ts:129892
 
 URLs you specified a POST array
 
@@ -128,7 +128,7 @@ URLs you specified a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:129768
+Defined in: main.ts:129890
 
 search engine type
 search engine type specified in a POST request;
@@ -144,7 +144,7 @@ for this endpoint, the field equals bing
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:129778
+Defined in: main.ts:129900
 
 total amount of results in our database relevant to your request
 
@@ -156,9 +156,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:129795
+Defined in: main.ts:129917
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:129795
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:129833
+Defined in: main.ts:129955
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: main.ts:129833
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingPageIntersectionLiveResultInfo`
 
-Defined in: main.ts:129826
+Defined in: main.ts:129948
 
 #### Parameters
 

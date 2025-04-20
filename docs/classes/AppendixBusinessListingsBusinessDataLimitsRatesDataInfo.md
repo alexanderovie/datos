@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:243872
+Defined in: main.ts:244402
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243872
 
 ### Constructor
 
-> **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): `AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
+> **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data?`): `AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:243880
+Defined in: main.ts:244410
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243880
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:243875
+Defined in: main.ts:244405
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243875
 
 > `optional` **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243874
+Defined in: main.ts:244404
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243874
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:243876
+Defined in: main.ts:244406
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243876
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243873
+Defined in: main.ts:244403
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:243873
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243889
+Defined in: main.ts:244419
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:243889
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243909
+Defined in: main.ts:244439
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243909
 
 > `static` **fromJS**(`data`): `AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:243902
+Defined in: main.ts:244432
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISentimentConnotationDistribution
 
-Defined in: main.ts:190927
+Defined in: main.ts:191397
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190927
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190928
+Defined in: main.ts:191398
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:190928
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190933
+Defined in: main.ts:191403
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:190933
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190929
+Defined in: main.ts:191399
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:190929
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190930
+Defined in: main.ts:191400
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:190930
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190931
+Defined in: main.ts:191401
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: main.ts:190931
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190932
+Defined in: main.ts:191402

@@ -6,7 +6,7 @@
 
 # Class: AppRankedSerpElementInfo
 
-Defined in: main.ts:133486
+Defined in: main.ts:133608
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:133486
 
 ### Constructor
 
-> **new AppRankedSerpElementInfo**(`data`?): `AppRankedSerpElementInfo`
+> **new AppRankedSerpElementInfo**(`data?`): `AppRankedSerpElementInfo`
 
-Defined in: main.ts:133511
+Defined in: main.ts:133633
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133511
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:133494
+Defined in: main.ts:133616
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:133501
+Defined in: main.ts:133623
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:133507
+Defined in: main.ts:133629
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -90,7 +90,7 @@ in this case, will equal null
 
 > `optional` **se\_results\_count**: `string`
 
-Defined in: main.ts:133496
+Defined in: main.ts:133618
 
 number of search results for the returned keyword
 
@@ -104,7 +104,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:133488
+Defined in: main.ts:133610
 
 search engine type
 
@@ -118,7 +118,7 @@ search engine type
 
 > `optional` **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:133491
+Defined in: main.ts:133613
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -131,9 +131,9 @@ the list of supported SERP elements can be found below
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:133520
+Defined in: main.ts:133642
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:133520
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:133542
+Defined in: main.ts:133664
 
 #### Parameters
 
@@ -169,7 +169,7 @@ Defined in: main.ts:133542
 
 > `static` **fromJS**(`data`): `AppRankedSerpElementInfo`
 
-Defined in: main.ts:133535
+Defined in: main.ts:133657
 
 #### Parameters
 

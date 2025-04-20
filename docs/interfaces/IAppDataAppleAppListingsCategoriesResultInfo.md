@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:220513
+Defined in: main.ts:221043
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:220513
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:220515
+Defined in: main.ts:221045
 
 name of the supported app category
 
@@ -28,6 +28,6 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:220517
+Defined in: main.ts:221047
 
 number of app listings that make up the supported app category

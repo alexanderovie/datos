@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
-Defined in: main.ts:99794
+Defined in: main.ts:99906
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:99794
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
+> **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data?`): `DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:99803
+Defined in: main.ts:99915
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99803
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:99799
+Defined in: main.ts:99911
 
 target domain
 required field
@@ -55,9 +55,9 @@ Note: results will be returned for the specified domain only
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:99812
+Defined in: main.ts:99924
 
 #### Parameters
 
@@ -73,9 +73,9 @@ Defined in: main.ts:99812
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:99829
+Defined in: main.ts:99941
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: main.ts:99829
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:99822
+Defined in: main.ts:99934
 
 #### Parameters
 

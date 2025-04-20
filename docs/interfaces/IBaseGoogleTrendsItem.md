@@ -6,7 +6,7 @@
 
 # Interface: IBaseGoogleTrendsItem
 
-Defined in: main.ts:23918
+Defined in: main.ts:23926
 
 ## Extended by
 
@@ -21,7 +21,7 @@ Defined in: main.ts:23918
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23928
+Defined in: main.ts:23936
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -32,7 +32,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23923
+Defined in: main.ts:23931
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -43,7 +43,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23925
+Defined in: main.ts:23933
 
 title of the element in Google Trends
 
@@ -53,6 +53,6 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23920
+Defined in: main.ts:23928
 
 type of element

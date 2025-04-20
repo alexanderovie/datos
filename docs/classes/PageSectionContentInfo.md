@@ -6,7 +6,7 @@
 
 # Class: PageSectionContentInfo
 
-Defined in: main.ts:184840
+Defined in: main.ts:185250
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:184840
 
 ### Constructor
 
-> **new PageSectionContentInfo**(`data`?): `PageSectionContentInfo`
+> **new PageSectionContentInfo**(`data?`): `PageSectionContentInfo`
 
-Defined in: main.ts:184852
+Defined in: main.ts:185262
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184852
 
 > `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:184843
+Defined in: main.ts:185253
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -55,7 +55,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **secondary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:184846
+Defined in: main.ts:185256
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -70,7 +70,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **table\_content**: [`TableContentInfo`](TableContentInfo.md)[]
 
-Defined in: main.ts:184848
+Defined in: main.ts:185258
 
 content of the table on the page
 
@@ -82,9 +82,9 @@ content of the table on the page
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:184861
+Defined in: main.ts:185271
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:184861
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:184892
+Defined in: main.ts:185302
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:184892
 
 > `static` **fromJS**(`data`): `PageSectionContentInfo`
 
-Defined in: main.ts:184885
+Defined in: main.ts:185295
 
 #### Parameters
 

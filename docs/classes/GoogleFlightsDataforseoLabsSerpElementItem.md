@@ -6,7 +6,7 @@
 
 # Class: GoogleFlightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118999
+Defined in: main.ts:119121
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:118999
 
 ### Constructor
 
-> **new GoogleFlightsDataforseoLabsSerpElementItem**(`data`?): `GoogleFlightsDataforseoLabsSerpElementItem`
+> **new GoogleFlightsDataforseoLabsSerpElementItem**(`data?`): `GoogleFlightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119010
+Defined in: main.ts:119132
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119010
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-Defined in: main.ts:119006
+Defined in: main.ts:119128
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119001
+Defined in: main.ts:119123
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:119003
+Defined in: main.ts:119125
 
 relevant URL
 
@@ -179,7 +179,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -195,9 +195,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119015
+Defined in: main.ts:119137
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:119015
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:119039
+Defined in: main.ts:119161
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:119039
 
 > `static` **fromJS**(`data`): `GoogleFlightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119032
+Defined in: main.ts:119154
 
 #### Parameters
 

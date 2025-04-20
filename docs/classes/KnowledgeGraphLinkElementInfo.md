@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphLinkElementInfo
 
-Defined in: main.ts:116326
+Defined in: main.ts:116448
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:116326
 
 ### Constructor
 
-> **new KnowledgeGraphLinkElementInfo**(`data`?): `KnowledgeGraphLinkElementInfo`
+> **new KnowledgeGraphLinkElementInfo**(`data?`): `KnowledgeGraphLinkElementInfo`
 
-Defined in: main.ts:116342
+Defined in: main.ts:116464
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:116342
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:116334
+Defined in: main.ts:116456
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:116336
+Defined in: main.ts:116458
 
 text alongside the link title
 
@@ -68,7 +68,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116330
+Defined in: main.ts:116452
 
 title of the result in SERP
 
@@ -82,7 +82,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:116328
+Defined in: main.ts:116450
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:116332
+Defined in: main.ts:116454
 
 sitelink URL
 
@@ -110,7 +110,7 @@ sitelink URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:116338
+Defined in: main.ts:116460
 
 the XPath of the element
 
@@ -122,9 +122,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:116351
+Defined in: main.ts:116473
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:116351
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:116373
+Defined in: main.ts:116495
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:116373
 
 > `static` **fromJS**(`data`): `KnowledgeGraphLinkElementInfo`
 
-Defined in: main.ts:116366
+Defined in: main.ts:116488
 
 #### Parameters
 

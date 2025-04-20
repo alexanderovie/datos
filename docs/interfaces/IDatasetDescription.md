@@ -6,7 +6,7 @@
 
 # Interface: IDatasetDescription
 
-Defined in: main.ts:60691
+Defined in: main.ts:60805
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60691
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:60695
+Defined in: main.ts:60809
 
 links featured in the ‘dataset_description’
 
@@ -28,6 +28,6 @@ links featured in the ‘dataset_description’
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:60693
+Defined in: main.ts:60807
 
 text of the description

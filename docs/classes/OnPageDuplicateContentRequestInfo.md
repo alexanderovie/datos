@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentRequestInfo
 
-Defined in: main.ts:180774
+Defined in: main.ts:181184
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180774
 
 ### Constructor
 
-> **new OnPageDuplicateContentRequestInfo**(`data`?): `OnPageDuplicateContentRequestInfo`
+> **new OnPageDuplicateContentRequestInfo**(`data?`): `OnPageDuplicateContentRequestInfo`
 
-Defined in: main.ts:180808
+Defined in: main.ts:181218
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180808
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:180780
+Defined in: main.ts:181190
 
 ID of the task
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:180793
+Defined in: main.ts:181203
 
 the maximum number of returned pages
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:180798
+Defined in: main.ts:181208
 
 offset in the results array of returned pages
 optional field
@@ -92,7 +92,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **similarity**: `number`
 
-Defined in: main.ts:180788
+Defined in: main.ts:181198
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -108,7 +108,7 @@ you can specify any similarity score in the 0-to-10 range
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180804
+Defined in: main.ts:181214
 
 user-defined task identifier
 optional field
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:180784
+Defined in: main.ts:181194
 
 page URL
 required field
@@ -140,9 +140,9 @@ specify the initial page you want to receive duplicate content for
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180817
+Defined in: main.ts:181227
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:180817
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180839
+Defined in: main.ts:181249
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:180839
 
 > `static` **fromJS**(`data`): `OnPageDuplicateContentRequestInfo`
 
-Defined in: main.ts:180832
+Defined in: main.ts:181242
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListRequestInfo
 
-Defined in: main.ts:160674
+Defined in: main.ts:160798
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:160674
 
 ### Constructor
 
-> **new BacklinksIdListRequestInfo**(`data`?): `BacklinksIdListRequestInfo`
+> **new BacklinksIdListRequestInfo**(`data?`): `BacklinksIdListRequestInfo`
 
-Defined in: main.ts:160712
+Defined in: main.ts:160836
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160712
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:160682
+Defined in: main.ts:160806
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:160689
+Defined in: main.ts:160813
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:160708
+Defined in: main.ts:160832
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:160694
+Defined in: main.ts:160818
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:160699
+Defined in: main.ts:160823
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:160704
+Defined in: main.ts:160828
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:160721
+Defined in: main.ts:160845
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:160721
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:160743
+Defined in: main.ts:160867
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:160743
 
 > `static` **fromJS**(`data`): `BacklinksIdListRequestInfo`
 
-Defined in: main.ts:160736
+Defined in: main.ts:160860
 
 #### Parameters
 

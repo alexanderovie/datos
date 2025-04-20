@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveHtmlResultInfo
 
-Defined in: main.ts:50503
+Defined in: main.ts:50617
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:50503
 
 ### Constructor
 
-> **new SerpGoogleNewsLiveHtmlResultInfo**(`data`?): `SerpGoogleNewsLiveHtmlResultInfo`
+> **new SerpGoogleNewsLiveHtmlResultInfo**(`data?`): `SerpGoogleNewsLiveHtmlResultInfo`
 
-Defined in: main.ts:50527
+Defined in: main.ts:50641
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:50527
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:50519
+Defined in: main.ts:50633
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:50523
+Defined in: main.ts:50637
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:50521
+Defined in: main.ts:50635
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:50506
+Defined in: main.ts:50620
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:50514
+Defined in: main.ts:50628
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:50512
+Defined in: main.ts:50626
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:50510
+Defined in: main.ts:50624
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50508
+Defined in: main.ts:50622
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:50536
+Defined in: main.ts:50650
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:50536
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:50564
+Defined in: main.ts:50678
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:50564
 
 > `static` **fromJS**(`data`): `SerpGoogleNewsLiveHtmlResultInfo`
 
-Defined in: main.ts:50557
+Defined in: main.ts:50671
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsResultInfo
 
-Defined in: main.ts:182036
+Defined in: main.ts:182446
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:182036
 
 ### Constructor
 
-> **new OnPageRedirectChainsResultInfo**(`data`?): `OnPageRedirectChainsResultInfo`
+> **new OnPageRedirectChainsResultInfo**(`data?`): `OnPageRedirectChainsResultInfo`
 
-Defined in: main.ts:182051
+Defined in: main.ts:182461
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182051
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:182039
+Defined in: main.ts:182449
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:182041
+Defined in: main.ts:182451
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
 
-Defined in: main.ts:182047
+Defined in: main.ts:182457
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:182045
+Defined in: main.ts:182455
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:182043
+Defined in: main.ts:182453
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:182060
+Defined in: main.ts:182470
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:182060
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:182085
+Defined in: main.ts:182495
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:182085
 
 > `static` **fromJS**(`data`): `OnPageRedirectChainsResultInfo`
 
-Defined in: main.ts:182078
+Defined in: main.ts:182488
 
 #### Parameters
 

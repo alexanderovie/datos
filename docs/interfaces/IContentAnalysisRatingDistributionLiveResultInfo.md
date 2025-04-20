@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 
-Defined in: main.ts:191427
+Defined in: main.ts:191917
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:191427
 
 > `optional` **max**: `number`
 
-Defined in: main.ts:191433
+Defined in: main.ts:191923
 
 max rating on a distribution scale
 
@@ -28,7 +28,7 @@ max rating on a distribution scale
 
 > `optional` **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:191435
+Defined in: main.ts:191925
 
 contains rating distribution metrics
 
@@ -38,7 +38,7 @@ contains rating distribution metrics
 
 > `optional` **min**: `number`
 
-Defined in: main.ts:191431
+Defined in: main.ts:191921
 
 min rating on a distribution scale
 
@@ -48,6 +48,6 @@ min rating on a distribution scale
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:191429
+Defined in: main.ts:191919
 
 type of element

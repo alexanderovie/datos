@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
-Defined in: main.ts:97988
+Defined in: main.ts:98100
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:97988
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
+> **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data?`): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
 
-Defined in: main.ts:98004
+Defined in: main.ts:98116
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98004
 
 > `optional` **content\_languages**: `object`
 
-Defined in: main.ts:97997
+Defined in: main.ts:98109
 
 distribution of websites by content language
 contains content language codes and number of websites per language
@@ -59,7 +59,7 @@ contains content language codes and number of websites per language
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:97991
+Defined in: main.ts:98103
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -78,7 +78,7 @@ contains country codes and number of websites per country
 
 > `optional` **keywords**: `object`
 
-Defined in: main.ts:98000
+Defined in: main.ts:98112
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
@@ -97,7 +97,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:97994
+Defined in: main.ts:98106
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -114,9 +114,9 @@ contains language codes and number of websites per language
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:98013
+Defined in: main.ts:98125
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:98013
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:98057
+Defined in: main.ts:98169
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:98057
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`
 
-Defined in: main.ts:98050
+Defined in: main.ts:98162
 
 #### Parameters
 

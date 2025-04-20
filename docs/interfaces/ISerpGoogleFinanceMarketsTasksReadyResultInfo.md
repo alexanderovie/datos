@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceMarketsTasksReadyResultInfo
 
-Defined in: main.ts:90726
+Defined in: main.ts:90838
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90726
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:90736
+Defined in: main.ts:90848
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:90744
+Defined in: main.ts:90856
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:90747
+Defined in: main.ts:90859
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:90741
+Defined in: main.ts:90853
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:90729
+Defined in: main.ts:90841
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:90731
+Defined in: main.ts:90843
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:90734
+Defined in: main.ts:90846
 
 type of search engine
 example: finance_markets
@@ -93,6 +93,6 @@ example: finance_markets
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:90738
+Defined in: main.ts:90850
 
 user-defined task identifier

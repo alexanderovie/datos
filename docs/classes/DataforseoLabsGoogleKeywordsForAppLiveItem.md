@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveItem
 
-Defined in: main.ts:133584
+Defined in: main.ts:133706
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:133584
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForAppLiveItem**(`data`?): `DataforseoLabsGoogleKeywordsForAppLiveItem`
+> **new DataforseoLabsGoogleKeywordsForAppLiveItem**(`data?`): `DataforseoLabsGoogleKeywordsForAppLiveItem`
 
-Defined in: main.ts:133594
+Defined in: main.ts:133716
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133594
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:133588
+Defined in: main.ts:133710
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-Defined in: main.ts:133590
+Defined in: main.ts:133712
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:133586
+Defined in: main.ts:133708
 
 search engine type
 
@@ -80,9 +80,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:133603
+Defined in: main.ts:133725
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:133603
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:133622
+Defined in: main.ts:133744
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:133622
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForAppLiveItem`
 
-Defined in: main.ts:133615
+Defined in: main.ts:133737
 
 #### Parameters
 

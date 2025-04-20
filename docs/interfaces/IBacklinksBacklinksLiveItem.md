@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBacklinksLiveItem
 
-Defined in: main.ts:164087
+Defined in: main.ts:164269
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:164087
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:164193
+Defined in: main.ts:164373
 
 alternative text of the image
 this field will be null if backlink type is not image
@@ -29,7 +29,7 @@ this field will be null if backlink type is not image
 
 > `optional` **anchor**: `string`
 
-Defined in: main.ts:164198
+Defined in: main.ts:164378
 
 anchor text of the backlink
 
@@ -39,7 +39,7 @@ anchor text of the backlink
 
 > `optional` **attributes**: `string`[]
 
-Defined in: main.ts:164185
+Defined in: main.ts:164365
 
 link attributes of the referring links
 example:
@@ -51,7 +51,7 @@ nofollow
 
 > `optional` **backlink\_spam\_score**: `number`
 
-Defined in: main.ts:164114
+Defined in: main.ts:164296
 
 spam score of the backlink
 learn more about how the metric is calculated on this help center page
@@ -62,7 +62,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **dofollow**: `boolean`
 
-Defined in: main.ts:164188
+Defined in: main.ts:164368
 
 indicates whether the backlink is dofollow
 if false, the backlink is nofollow
@@ -73,7 +73,7 @@ if false, the backlink is nofollow
 
 > `optional` **domain\_from**: `string`
 
-Defined in: main.ts:164091
+Defined in: main.ts:164273
 
 domain referring to the target domain or webpage
 
@@ -83,7 +83,7 @@ domain referring to the target domain or webpage
 
 > `optional` **domain\_from\_country**: `string`
 
-Defined in: main.ts:164139
+Defined in: main.ts:164319
 
 ISO country code of the referring domain
 
@@ -93,7 +93,7 @@ ISO country code of the referring domain
 
 > `optional` **domain\_from\_ip**: `string`
 
-Defined in: main.ts:164137
+Defined in: main.ts:164317
 
 IP address of the referring domain
 
@@ -103,7 +103,7 @@ IP address of the referring domain
 
 > `optional` **domain\_from\_is\_ip**: `boolean`
 
-Defined in: main.ts:164135
+Defined in: main.ts:164315
 
 indicates if the domain is IP
 if true, the domain functions as an IP address and does not have a domain name
@@ -114,12 +114,10 @@ if true, the domain functions as an IP address and does not have a domain name
 
 > `optional` **domain\_from\_platform\_type**: `string`[]
 
-Defined in: main.ts:164132
+Defined in: main.ts:164312
 
 platform types of the referring domain
-example:
-"cms",
-"blogs"
+possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization
 
 ***
 
@@ -127,7 +125,7 @@ example:
 
 > `optional` **domain\_from\_rank**: `number`
 
-Defined in: main.ts:164127
+Defined in: main.ts:164309
 
 domain rank of the referring domain
 domain_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -139,7 +137,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **domain\_to**: `string`
 
-Defined in: main.ts:164098
+Defined in: main.ts:164280
 
 domain the backlink is pointing to
 
@@ -149,7 +147,7 @@ domain the backlink is pointing to
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:164167
+Defined in: main.ts:164347
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -162,7 +160,7 @@ example:
 
 > `optional` **group\_count**: `number`
 
-Defined in: main.ts:164212
+Defined in: main.ts:164392
 
 indicates total number of backlinks from this domain
 for example, if mode is set to one_per_domain, this field will indicate the total number of backlinks coming from this domain
@@ -173,7 +171,7 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:164196
+Defined in: main.ts:164376
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -184,7 +182,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **indirect\_link\_path**: [`Redirect`](../classes/Redirect.md)[]
 
-Defined in: main.ts:164235
+Defined in: main.ts:164415
 
 indirect link path
 indicates a URL or a sequence of URLs that lead to url_to
@@ -195,7 +193,7 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 > `optional` **is\_broken**: `boolean`
 
-Defined in: main.ts:164215
+Defined in: main.ts:164395
 
 indicates whether the backlink is broken
 if true, the backlink is pointing to a page responding with a 4xx or 5xx status code
@@ -206,7 +204,7 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 > `optional` **is\_indirect\_link**: `boolean`
 
-Defined in: main.ts:164232
+Defined in: main.ts:164412
 
 indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page
@@ -217,7 +215,7 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 > `optional` **is\_lost**: `boolean`
 
-Defined in: main.ts:164111
+Defined in: main.ts:164293
 
 indicates whether the backlink was removed
 if true, the backlink or the entire page was removed
@@ -228,7 +226,7 @@ if true, the backlink or the entire page was removed
 
 > `optional` **is\_new**: `boolean`
 
-Defined in: main.ts:164108
+Defined in: main.ts:164290
 
 indicates whether the backlink is new
 if true, the backlink was found on the page last time our crawler visited it
@@ -239,7 +237,7 @@ if true, the backlink was found on the page last time our crawler visited it
 
 > `optional` **item\_type**: `string`
 
-Defined in: main.ts:164181
+Defined in: main.ts:164361
 
 link type
 possible values:
@@ -251,7 +249,7 @@ anchor, image, meta, canonical, alternate, redirect
 
 > `optional` **last\_seen**: `string`
 
-Defined in: main.ts:164177
+Defined in: main.ts:164357
 
 most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -264,7 +262,7 @@ example:
 
 > `optional` **links\_count**: `number`
 
-Defined in: main.ts:164209
+Defined in: main.ts:164389
 
 number of identical backlinks found on the referring page
 
@@ -274,7 +272,7 @@ number of identical backlinks found on the referring page
 
 > `optional` **original**: `boolean`
 
-Defined in: main.ts:164190
+Defined in: main.ts:164370
 
 indicates whether the backlink was present on the referring page when our crawler first visited it
 
@@ -284,7 +282,7 @@ indicates whether the backlink was present on the referring page when our crawle
 
 > `optional` **page\_from\_encoding**: `string`
 
-Defined in: main.ts:164151
+Defined in: main.ts:164331
 
 character encoding of the referring page
 example:
@@ -296,7 +294,7 @@ utf-8
 
 > `optional` **page\_from\_external\_links**: `number`
 
-Defined in: main.ts:164141
+Defined in: main.ts:164321
 
 number of external links found on the referring page
 
@@ -306,7 +304,7 @@ number of external links found on the referring page
 
 > `optional` **page\_from\_internal\_links**: `number`
 
-Defined in: main.ts:164143
+Defined in: main.ts:164323
 
 number of internal links found on the referring page
 
@@ -316,7 +314,7 @@ number of internal links found on the referring page
 
 > `optional` **page\_from\_language**: `string`
 
-Defined in: main.ts:164156
+Defined in: main.ts:164336
 
 language of the referring page
 in ISO 639-1 format
@@ -329,7 +327,7 @@ en
 
 > `optional` **page\_from\_rank**: `number`
 
-Defined in: main.ts:164123
+Defined in: main.ts:164305
 
 page rank of the referring page
 page_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -341,7 +339,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **page\_from\_size**: `number`
 
-Defined in: main.ts:164147
+Defined in: main.ts:164327
 
 size of the referring page, in bytes
 example:
@@ -353,7 +351,7 @@ example:
 
 > `optional` **page\_from\_status\_code**: `number`
 
-Defined in: main.ts:164162
+Defined in: main.ts:164342
 
 HTTP status code returned by the referring page
 example:
@@ -365,7 +363,7 @@ example:
 
 > `optional` **page\_from\_title**: `string`
 
-Defined in: main.ts:164158
+Defined in: main.ts:164338
 
 title of the referring page
 
@@ -375,7 +373,7 @@ title of the referring page
 
 > `optional` **prev\_seen**: `string`
 
-Defined in: main.ts:164172
+Defined in: main.ts:164352
 
 previous to the most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -388,7 +386,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:164119
+Defined in: main.ts:164301
 
 backlink rank
 rank that the given backlink passes to the target
@@ -401,7 +399,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **ranked\_keywords\_info**: [`RankedKeywordsInfo`](../classes/RankedKeywordsInfo.md)
 
-Defined in: main.ts:164229
+Defined in: main.ts:164409
 
 number of keywords for which the page is ranked in top search results
 
@@ -411,7 +409,7 @@ number of keywords for which the page is ranked in top search results
 
 > `optional` **semantic\_location**: `string`
 
-Defined in: main.ts:164207
+Defined in: main.ts:164387
 
 indicates semantic element in HTML where the backlink is found
 you can get the full list of semantic elements here
@@ -424,7 +422,7 @@ article, section, summary
 
 > `optional` **text\_post**: `string`
 
-Defined in: main.ts:164202
+Defined in: main.ts:164382
 
 snippet after the anchor text
 
@@ -434,7 +432,7 @@ snippet after the anchor text
 
 > `optional` **text\_pre**: `string`
 
-Defined in: main.ts:164200
+Defined in: main.ts:164380
 
 snippet before the anchor text
 
@@ -444,7 +442,7 @@ snippet before the anchor text
 
 > `optional` **tld\_from**: `string`
 
-Defined in: main.ts:164105
+Defined in: main.ts:164287
 
 top-level domain of the referring URL
 
@@ -454,7 +452,7 @@ top-level domain of the referring URL
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:164089
+Defined in: main.ts:164271
 
 type of element
 
@@ -464,7 +462,7 @@ type of element
 
 > `optional` **url\_from**: `string`
 
-Defined in: main.ts:164093
+Defined in: main.ts:164275
 
 URL of the page where the backlink is found
 
@@ -474,7 +472,7 @@ URL of the page where the backlink is found
 
 > `optional` **url\_from\_https**: `boolean`
 
-Defined in: main.ts:164096
+Defined in: main.ts:164278
 
 indicates whether the referring URL is secured with HTTPS
 if true, the referring URL is secured with HTTPS
@@ -485,7 +483,7 @@ if true, the referring URL is secured with HTTPS
 
 > `optional` **url\_to**: `string`
 
-Defined in: main.ts:164100
+Defined in: main.ts:164282
 
 URL the backlink is pointing to
 
@@ -495,7 +493,7 @@ URL the backlink is pointing to
 
 > `optional` **url\_to\_https**: `boolean`
 
-Defined in: main.ts:164103
+Defined in: main.ts:164285
 
 indicates if the URL the backlink is pointing to is secured with HTTPS
 if true, the URL is secured with HTTPS
@@ -506,7 +504,7 @@ if true, the URL is secured with HTTPS
 
 > `optional` **url\_to\_redirect\_target**: `string`
 
-Defined in: main.ts:164227
+Defined in: main.ts:164407
 
 target url of the redirect
 target page the redirect is pointing to
@@ -517,7 +515,7 @@ target page the redirect is pointing to
 
 > `optional` **url\_to\_spam\_score**: `number`
 
-Defined in: main.ts:164224
+Defined in: main.ts:164404
 
 spam score of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to;
@@ -529,7 +527,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **url\_to\_status\_code**: `number`
 
-Defined in: main.ts:164220
+Defined in: main.ts:164400
 
 status code of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
-Defined in: main.ts:135740
+Defined in: main.ts:135862
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:135740
 
 ### Constructor
 
-> **new DataforseoLabsAppleKeywordsForAppLiveResultInfo**(`data`?): `DataforseoLabsAppleKeywordsForAppLiveResultInfo`
+> **new DataforseoLabsAppleKeywordsForAppLiveResultInfo**(`data?`): `DataforseoLabsAppleKeywordsForAppLiveResultInfo`
 
-Defined in: main.ts:135758
+Defined in: main.ts:135880
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:135758
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:135744
+Defined in: main.ts:135866
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:135754
+Defined in: main.ts:135876
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -68,7 +68,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:135752
+Defined in: main.ts:135874
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:135748
+Defined in: main.ts:135870
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:135746
+Defined in: main.ts:135868
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:135742
+Defined in: main.ts:135864
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:135750
+Defined in: main.ts:135872
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:135767
+Defined in: main.ts:135889
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:135767
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:135794
+Defined in: main.ts:135916
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:135794
 
 > `static` **fromJS**(`data`): `DataforseoLabsAppleKeywordsForAppLiveResultInfo`
 
-Defined in: main.ts:135787
+Defined in: main.ts:135909
 
 #### Parameters
 

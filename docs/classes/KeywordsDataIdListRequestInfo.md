@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListRequestInfo
 
-Defined in: main.ts:137136
+Defined in: main.ts:137258
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:137136
 
 ### Constructor
 
-> **new KeywordsDataIdListRequestInfo**(`data`?): `KeywordsDataIdListRequestInfo`
+> **new KeywordsDataIdListRequestInfo**(`data?`): `KeywordsDataIdListRequestInfo`
 
-Defined in: main.ts:137174
+Defined in: main.ts:137296
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137174
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:137144
+Defined in: main.ts:137266
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:137151
+Defined in: main.ts:137273
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:137170
+Defined in: main.ts:137292
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:137156
+Defined in: main.ts:137278
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:137161
+Defined in: main.ts:137283
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:137166
+Defined in: main.ts:137288
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:137183
+Defined in: main.ts:137305
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:137183
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:137205
+Defined in: main.ts:137327
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:137205
 
 > `static` **fromJS**(`data`): `KeywordsDataIdListRequestInfo`
 
-Defined in: main.ts:137198
+Defined in: main.ts:137320
 
 #### Parameters
 

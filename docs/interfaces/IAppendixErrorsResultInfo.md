@@ -6,7 +6,7 @@
 
 # Interface: IAppendixErrorsResultInfo
 
-Defined in: main.ts:250403
+Defined in: main.ts:251229
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:250403
 
 > `optional` **code**: `number`
 
-Defined in: main.ts:250405
+Defined in: main.ts:251231
 
 code
 
@@ -28,6 +28,6 @@ code
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:250407
+Defined in: main.ts:251233
 
 message

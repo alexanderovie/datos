@@ -6,7 +6,7 @@
 
 # Interface: IAvgBacklinksInfo
 
-Defined in: main.ts:104332
+Defined in: main.ts:104444
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104332
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:104336
+Defined in: main.ts:104448
 
 average number of backlinks
 
@@ -28,7 +28,7 @@ average number of backlinks
 
 > `optional` **dofollow**: `number`
 
-Defined in: main.ts:104338
+Defined in: main.ts:104450
 
 average number of dofollow links
 
@@ -38,7 +38,7 @@ average number of dofollow links
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:104355
+Defined in: main.ts:104467
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -51,7 +51,7 @@ example:
 
 > `optional` **main\_domain\_rank**: `number`
 
-Defined in: main.ts:104350
+Defined in: main.ts:104462
 
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
@@ -62,7 +62,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:104347
+Defined in: main.ts:104459
 
 average rank
 learn more about the metric and its calculation formula in this help center article
@@ -73,7 +73,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:104342
+Defined in: main.ts:104454
 
 average number of referring domains
 
@@ -83,7 +83,7 @@ average number of referring domains
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:104344
+Defined in: main.ts:104456
 
 average number of referring main domains
 
@@ -93,7 +93,7 @@ average number of referring main domains
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:104340
+Defined in: main.ts:104452
 
 average number of referring pages
 
@@ -103,6 +103,6 @@ average number of referring pages
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104334
+Defined in: main.ts:104446
 
 search engine type

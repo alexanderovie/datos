@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:79537
+Defined in: main.ts:79649
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:79537
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:79553
+Defined in: main.ts:79665
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:79557
+Defined in: main.ts:79669
 
 elements of search results found in SERP
 
@@ -41,7 +41,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:79555
+Defined in: main.ts:79667
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:79540
+Defined in: main.ts:79652
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -62,7 +62,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:79548
+Defined in: main.ts:79660
 
 language code in a POST array
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:79546
+Defined in: main.ts:79658
 
 location code in a POST array
 
@@ -82,7 +82,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:79544
+Defined in: main.ts:79656
 
 search engine domain in a POST array
 
@@ -92,6 +92,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:79542
+Defined in: main.ts:79654
 
 type of element

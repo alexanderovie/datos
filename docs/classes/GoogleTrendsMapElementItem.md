@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsMapElementItem
 
-Defined in: main.ts:146251
+Defined in: main.ts:146375
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:146251
 
 ### Constructor
 
-> **new GoogleTrendsMapElementItem**(`data`?): `GoogleTrendsMapElementItem`
+> **new GoogleTrendsMapElementItem**(`data?`): `GoogleTrendsMapElementItem`
 
-Defined in: main.ts:146257
+Defined in: main.ts:146381
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:146257
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23851
+Defined in: main.ts:23859
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23851
 
 > `optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
-Defined in: main.ts:146253
+Defined in: main.ts:146377
 
 Google Trends data from the corresponding item
 
@@ -74,7 +74,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23849
+Defined in: main.ts:23857
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -93,7 +93,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23844
+Defined in: main.ts:23852
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -112,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23846
+Defined in: main.ts:23854
 
 title of the element in Google Trends
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23841
+Defined in: main.ts:23849
 
 type of element
 
@@ -146,9 +146,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:146262
+Defined in: main.ts:146386
 
 #### Parameters
 
@@ -168,9 +168,9 @@ Defined in: main.ts:146262
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:146284
+Defined in: main.ts:146408
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:146284
 
 > `static` **fromJS**(`data`): `GoogleTrendsMapElementItem`
 
-Defined in: main.ts:146277
+Defined in: main.ts:146401
 
 #### Parameters
 

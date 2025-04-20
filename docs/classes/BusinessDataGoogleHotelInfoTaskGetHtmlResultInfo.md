@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
-Defined in: main.ts:231812
+Defined in: main.ts:232342
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:231812
 
 ### Constructor
 
-> **new BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo**(`data`?): `BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
+> **new BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo**(`data?`): `BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:231836
+Defined in: main.ts:232366
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231836
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:231826
+Defined in: main.ts:232356
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:231830
+Defined in: main.ts:232360
 
 HTML pages
 
@@ -71,7 +71,7 @@ HTML pages
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:231828
+Defined in: main.ts:232358
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:231817
+Defined in: main.ts:232347
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
@@ -102,7 +102,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:231821
+Defined in: main.ts:232351
 
 language code in a POST array
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:231819
+Defined in: main.ts:232349
 
 location code in a POST array
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:231832
+Defined in: main.ts:232362
 
 #### Implementation of
 
@@ -142,7 +142,7 @@ Defined in: main.ts:231832
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:231831
+Defined in: main.ts:232361
 
 #### Implementation of
 
@@ -152,9 +152,9 @@ Defined in: main.ts:231831
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:231845
+Defined in: main.ts:232375
 
 #### Parameters
 
@@ -170,9 +170,9 @@ Defined in: main.ts:231845
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:231873
+Defined in: main.ts:232403
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:231873
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`
 
-Defined in: main.ts:231866
+Defined in: main.ts:232396
 
 #### Parameters
 

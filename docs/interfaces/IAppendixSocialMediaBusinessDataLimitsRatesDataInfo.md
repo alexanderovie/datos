@@ -6,7 +6,7 @@
 
 # Interface: IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:243864
+Defined in: main.ts:244394
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:243864
 
 > `optional` **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:243865
+Defined in: main.ts:244395
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:243865
 
 > `optional` **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:243866
+Defined in: main.ts:244396
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:243866
 
 > `optional` **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:243867
+Defined in: main.ts:244397

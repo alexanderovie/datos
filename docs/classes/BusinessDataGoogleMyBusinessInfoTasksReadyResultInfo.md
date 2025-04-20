@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
-Defined in: main.ts:225104
+Defined in: main.ts:225634
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:225104
 
 ### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
+> **new BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo**(`data?`): `BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
 
-Defined in: main.ts:225122
+Defined in: main.ts:225652
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:225122
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:225114
+Defined in: main.ts:225644
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:225118
+Defined in: main.ts:225648
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:225107
+Defined in: main.ts:225637
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:225110
+Defined in: main.ts:225640
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:225112
+Defined in: main.ts:225642
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:225116
+Defined in: main.ts:225646
 
 user-defined task identifier
 
@@ -124,9 +124,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:225131
+Defined in: main.ts:225661
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:225131
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:225153
+Defined in: main.ts:225683
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:225153
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoTasksReadyResultInfo`
 
-Defined in: main.ts:225146
+Defined in: main.ts:225676
 
 #### Parameters
 

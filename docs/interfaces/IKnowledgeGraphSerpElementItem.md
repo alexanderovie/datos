@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphSerpElementItem
 
-Defined in: main.ts:33169
+Defined in: main.ts:33177
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33169
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:33183
+Defined in: main.ts:33191
 
 card id
 
@@ -32,7 +32,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:33194
+Defined in: main.ts:33202
 
 google-defined client id
 unique id of a local establishment;
@@ -44,7 +44,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33181
+Defined in: main.ts:33189
 
 description of the results element in SERP
 
@@ -54,7 +54,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:33188
+Defined in: main.ts:33196
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -65,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-Defined in: main.ts:33196
+Defined in: main.ts:33204
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -75,7 +75,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:33190
+Defined in: main.ts:33198
 
 URL of the logo from knowledge graph
 
@@ -85,7 +85,7 @@ URL of the logo from knowledge graph
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:33173
+Defined in: main.ts:33181
 
 the alignment of the element in SERP
 can take the following values:
@@ -97,7 +97,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -112,7 +112,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33200
+Defined in: main.ts:33208
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -140,7 +140,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:33179
+Defined in: main.ts:33187
 
 subtitle of the item
 
@@ -150,7 +150,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33177
+Defined in: main.ts:33185
 
 title of the result in SERP
 
@@ -160,7 +160,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -174,7 +174,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33185
+Defined in: main.ts:33193
 
 relevant URL in SERP
 
@@ -184,6 +184,6 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33175
+Defined in: main.ts:33183
 
 the XPath of the element

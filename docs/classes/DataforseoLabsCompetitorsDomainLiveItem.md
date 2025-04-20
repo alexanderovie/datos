@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
 
-Defined in: main.ts:113492
+Defined in: main.ts:113614
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:113492
 
 ### Constructor
 
-> **new DataforseoLabsCompetitorsDomainLiveItem**(`data`?): `DataforseoLabsCompetitorsDomainLiveItem`
+> **new DataforseoLabsCompetitorsDomainLiveItem**(`data?`): `DataforseoLabsCompetitorsDomainLiveItem`
 
-Defined in: main.ts:113521
+Defined in: main.ts:113643
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113521
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:113500
+Defined in: main.ts:113622
 
 average position of the domain in SERP
 Note: average position is calculated for intersected keywords only;
@@ -56,7 +56,7 @@ the value for a given domain may differ when combined with different target webs
 
 > `optional` **competitor\_metrics**: `object`
 
-Defined in: main.ts:113517
+Defined in: main.ts:113639
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -76,7 +76,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:113496
+Defined in: main.ts:113618
 
 domain name
 
@@ -90,7 +90,7 @@ domain name
 
 > `optional` **full\_domain\_metrics**: `object`
 
-Defined in: main.ts:113509
+Defined in: main.ts:113631
 
 metrics for all keywords of the domain
 full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for
@@ -109,7 +109,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:113506
+Defined in: main.ts:113628
 
 number of intersecting keywords
 
@@ -123,7 +123,7 @@ number of intersecting keywords
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:113513
+Defined in: main.ts:113635
 
 metrics for intersecting keywords
 ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
@@ -143,7 +143,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113494
+Defined in: main.ts:113616
 
 search engine type
 
@@ -157,7 +157,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:113504
+Defined in: main.ts:113626
 
 sum of all domain positions in SERP
 Note: average position is calculated for intersected keywords only;
@@ -171,9 +171,9 @@ the value for a given domain may differ when combined with different target webs
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:113530
+Defined in: main.ts:113652
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:113530
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:113572
+Defined in: main.ts:113694
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:113572
 
 > `static` **fromJS**(`data`): `DataforseoLabsCompetitorsDomainLiveItem`
 
-Defined in: main.ts:113565
+Defined in: main.ts:113687
 
 #### Parameters
 

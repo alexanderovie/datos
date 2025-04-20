@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveItem
 
-Defined in: main.ts:166038
+Defined in: main.ts:166262
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:166038
 
 ### Constructor
 
-> **new BacklinksDomainPagesLiveItem**(`data`?): `BacklinksDomainPagesLiveItem`
+> **new BacklinksDomainPagesLiveItem**(`data?`): `BacklinksDomainPagesLiveItem`
 
-Defined in: main.ts:166094
+Defined in: main.ts:166318
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166094
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:166082
+Defined in: main.ts:166306
 
 type of encoding
 
@@ -54,7 +54,7 @@ type of encoding
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:166046
+Defined in: main.ts:166270
 
 domain
 domain where the page was found
@@ -69,7 +69,7 @@ domain where the page was found
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:166080
+Defined in: main.ts:166304
 
 page size after encoding
 indicates the size of the encoded page, in bytes
@@ -84,7 +84,7 @@ indicates the size of the encoded page, in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:166070
+Defined in: main.ts:166294
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -101,7 +101,7 @@ example:
 
 > `optional` **first\_visited**: `string`
 
-Defined in: main.ts:166060
+Defined in: main.ts:166284
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -119,7 +119,7 @@ example:
 
 > `optional` **ip**: `string`
 
-Defined in: main.ts:166054
+Defined in: main.ts:166278
 
 Internet Protocol address
 
@@ -133,7 +133,7 @@ Internet Protocol address
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:166075
+Defined in: main.ts:166299
 
 location header
 indicates the URL to redirect a page to if exists
@@ -148,7 +148,7 @@ indicates the URL to redirect a page to if exists
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:166043
+Defined in: main.ts:166267
 
 main website domain
 main website domain does not include subdomains
@@ -163,7 +163,7 @@ main website domain does not include subdomains
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:166084
+Defined in: main.ts:166308
 
 types of media used to display a page
 
@@ -177,7 +177,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
-Defined in: main.ts:166088
+Defined in: main.ts:166312
 
 page meta data
 
@@ -191,7 +191,7 @@ page meta data
 
 > `optional` **page**: `string`
 
-Defined in: main.ts:166052
+Defined in: main.ts:166276
 
 page URL
 relevant page URL
@@ -206,7 +206,7 @@ relevant page URL
 
 > `optional` **page\_summary**: [`PageSummary`](PageSummary.md)
 
-Defined in: main.ts:166090
+Defined in: main.ts:166314
 
 contains backlink data for this page
 
@@ -220,7 +220,7 @@ contains backlink data for this page
 
 > `optional` **prev\_visited**: `string`
 
-Defined in: main.ts:166065
+Defined in: main.ts:166289
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -237,7 +237,7 @@ example:
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:166086
+Defined in: main.ts:166310
 
 server version
 
@@ -251,7 +251,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:166077
+Defined in: main.ts:166301
 
 indicates the page size, in bytes
 
@@ -265,7 +265,7 @@ indicates the page size, in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:166072
+Defined in: main.ts:166296
 
 HTTP status code of the page
 
@@ -279,7 +279,7 @@ HTTP status code of the page
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:166049
+Defined in: main.ts:166273
 
 top-level domain
 top-level domain in the DNS root zone
@@ -294,7 +294,7 @@ top-level domain in the DNS root zone
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:166040
+Defined in: main.ts:166264
 
 type of element
 
@@ -306,9 +306,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:166103
+Defined in: main.ts:166327
 
 #### Parameters
 
@@ -324,9 +324,9 @@ Defined in: main.ts:166103
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:166137
+Defined in: main.ts:166361
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:166137
 
 > `static` **fromJS**(`data`): `BacklinksDomainPagesLiveItem`
 
-Defined in: main.ts:166130
+Defined in: main.ts:166354
 
 #### Parameters
 

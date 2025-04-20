@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:127582
+Defined in: main.ts:127704
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:127582
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:127633
+Defined in: main.ts:127755
 
 ignore highly similar keywords
 optional field
@@ -31,7 +31,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:127628
+Defined in: main.ts:127750
 
 display results by item type
 optional field
@@ -48,7 +48,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127619
+Defined in: main.ts:127741
 
 language code
 required field if don’t specify language_name
@@ -63,7 +63,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:127612
+Defined in: main.ts:127734
 
 full name of the language
 required field if don’t specify language_code
@@ -78,7 +78,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127605
+Defined in: main.ts:127727
 
 location code
 required field if don’t specify location_name
@@ -94,7 +94,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:127597
+Defined in: main.ts:127719
 
 full name of the location
 required field if don’t specify location_code
@@ -110,7 +110,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:127639
+Defined in: main.ts:127761
 
 user-defined task identifier
 optional field
@@ -124,9 +124,9 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:127589
+Defined in: main.ts:127711
 
-target domains and websites
+target domains, subdomains, and webpages
 required field
 you can specify domains, subdomains, and webpages in this field;
 domains and subdomains should be specified without https:// and www.;

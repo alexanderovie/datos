@@ -6,7 +6,7 @@
 
 # Interface: IBaseOnPageLinkItemInfo
 
-Defined in: main.ts:23800
+Defined in: main.ts:23808
 
 ## Extended by
 
@@ -21,7 +21,7 @@ Defined in: main.ts:23800
 
 > `optional` **direction**: `string`
 
-Defined in: main.ts:23830
+Defined in: main.ts:23838
 
 direction of the link
 possible values: internal, external
@@ -32,7 +32,7 @@ possible values: internal, external
 
 > `optional` **dofollow**: `boolean`
 
-Defined in: main.ts:23823
+Defined in: main.ts:23831
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -43,7 +43,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 > `optional` **domain\_from**: `string`
 
-Defined in: main.ts:23805
+Defined in: main.ts:23813
 
 referring domain
 the link was found on this domain
@@ -54,7 +54,7 @@ the link was found on this domain
 
 > `optional` **domain\_to**: `string`
 
-Defined in: main.ts:23808
+Defined in: main.ts:23816
 
 referenced domain
 the link is pointing to this domain
@@ -65,7 +65,7 @@ the link is pointing to this domain
 
 > `optional` **is\_broken**: `boolean`
 
-Defined in: main.ts:23833
+Defined in: main.ts:23841
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -76,7 +76,7 @@ indicates whether a link is directing to a broken page or resource
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
-Defined in: main.ts:23836
+Defined in: main.ts:23844
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -87,7 +87,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_from**: `string`
 
-Defined in: main.ts:23817
+Defined in: main.ts:23825
 
 referring page
 absolute URL of the page on which the link was found
@@ -98,7 +98,7 @@ absolute URL of the page on which the link was found
 
 > `optional` **link\_to**: `string`
 
-Defined in: main.ts:23820
+Defined in: main.ts:23828
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -109,7 +109,7 @@ absolute URL of the page to which the link is pointing
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:23811
+Defined in: main.ts:23819
 
 referring page
 relative URL of the page on which the link was found
@@ -120,7 +120,7 @@ relative URL of the page on which the link was found
 
 > `optional` **page\_from\_scheme**: `string`
 
-Defined in: main.ts:23825
+Defined in: main.ts:23833
 
 url scheme of the referring page
 
@@ -130,7 +130,7 @@ url scheme of the referring page
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:23814
+Defined in: main.ts:23822
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -141,7 +141,7 @@ relative URL of the page to which the link is pointing
 
 > `optional` **page\_to\_scheme**: `string`
 
-Defined in: main.ts:23827
+Defined in: main.ts:23835
 
 url scheme of the referenced page
 
@@ -151,6 +151,6 @@ url scheme of the referenced page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23802
+Defined in: main.ts:23810
 
 type of element

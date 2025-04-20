@@ -6,7 +6,7 @@
 
 # Class: RecipesSerpElementItem
 
-Defined in: main.ts:36657
+Defined in: main.ts:36665
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:36657
 
 ### Constructor
 
-> **new RecipesSerpElementItem**(`data`?): `RecipesSerpElementItem`
+> **new RecipesSerpElementItem**(`data?`): `RecipesSerpElementItem`
 
-Defined in: main.ts:36673
+Defined in: main.ts:36681
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36673
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:36665
+Defined in: main.ts:36673
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:36661
+Defined in: main.ts:36669
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36669
+Defined in: main.ts:36677
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:36663
+Defined in: main.ts:36671
 
 the XPath of the element
 
@@ -175,9 +175,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:36678
+Defined in: main.ts:36686
 
 #### Parameters
 
@@ -197,9 +197,9 @@ Defined in: main.ts:36678
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:36703
+Defined in: main.ts:36711
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:36703
 
 > `static` **fromJS**(`data`): `RecipesSerpElementItem`
 
-Defined in: main.ts:36696
+Defined in: main.ts:36704
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
 
-Defined in: main.ts:148152
+Defined in: main.ts:148276
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:148152
 
 ### Constructor
 
-> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo**(`data`?): `KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`
+> **new KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo**(`data?`): `KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`
 
-Defined in: main.ts:148211
+Defined in: main.ts:148335
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148211
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:148188
+Defined in: main.ts:148312
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:148195
+Defined in: main.ts:148319
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148159
+Defined in: main.ts:148283
 
 keywords
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148177
+Defined in: main.ts:148301
 
 search engine location code
 optional field
@@ -120,7 +120,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:148168
+Defined in: main.ts:148292
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:148207
+Defined in: main.ts:148331
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:148201
+Defined in: main.ts:148325
 
 preset time ranges
 optional field
@@ -177,7 +177,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:148179
+Defined in: main.ts:148303
 
 type of element
 
@@ -189,9 +189,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:148220
+Defined in: main.ts:148344
 
 #### Parameters
 
@@ -207,9 +207,9 @@ Defined in: main.ts:148220
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:148248
+Defined in: main.ts:148372
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:148248
 
 > `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`
 
-Defined in: main.ts:148241
+Defined in: main.ts:148365
 
 #### Parameters
 

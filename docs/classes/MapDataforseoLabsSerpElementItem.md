@@ -6,7 +6,7 @@
 
 # Class: MapDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117761
+Defined in: main.ts:117883
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:117761
 
 ### Constructor
 
-> **new MapDataforseoLabsSerpElementItem**(`data`?): `MapDataforseoLabsSerpElementItem`
+> **new MapDataforseoLabsSerpElementItem**(`data?`): `MapDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117769
+Defined in: main.ts:117891
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:117769
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -80,7 +80,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -99,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117763
+Defined in: main.ts:117885
 
 title of the result in SERP
 
@@ -132,7 +132,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -150,7 +150,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:117765
+Defined in: main.ts:117887
 
 relevant URL
 
@@ -164,7 +164,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -180,9 +180,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:117774
+Defined in: main.ts:117896
 
 #### Parameters
 
@@ -202,9 +202,9 @@ Defined in: main.ts:117774
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:117793
+Defined in: main.ts:117915
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:117793
 
 > `static` **fromJS**(`data`): `MapDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:117786
+Defined in: main.ts:117908
 
 #### Parameters
 

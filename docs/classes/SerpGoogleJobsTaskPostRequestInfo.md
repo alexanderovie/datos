@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
-Defined in: main.ts:56508
+Defined in: main.ts:56622
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:56508
 
 ### Constructor
 
-> **new SerpGoogleJobsTaskPostRequestInfo**(`data`?): `SerpGoogleJobsTaskPostRequestInfo`
+> **new SerpGoogleJobsTaskPostRequestInfo**(`data?`): `SerpGoogleJobsTaskPostRequestInfo`
 
-Defined in: main.ts:56623
+Defined in: main.ts:56737
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:56623
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:56585
+Defined in: main.ts:56699
 
 job posting date
 optional field
@@ -61,7 +61,7 @@ month — return job vacancies posted no longer than a month ago
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:56570
+Defined in: main.ts:56684
 
 parsing depth
 optional field
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **employment\_type**: `string`[]
 
-Defined in: main.ts:56576
+Defined in: main.ts:56690
 
 employment contract type
 optional field
@@ -100,7 +100,7 @@ fulltime, partime, contractor, intern
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:56518
+Defined in: main.ts:56632
 
 keyword
 required field
@@ -122,7 +122,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:56561
+Defined in: main.ts:56675
 
 search engine language code
 required field if you don’t specify language_name
@@ -141,7 +141,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:56554
+Defined in: main.ts:56668
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -160,7 +160,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:56539
+Defined in: main.ts:56653
 
 search engine location code
 required field if you don’t specify location_name;
@@ -178,7 +178,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:56533
+Defined in: main.ts:56647
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -197,7 +197,7 @@ London,England,United Kingdom
 
 > `optional` **location\_radius**: `number`
 
-Defined in: main.ts:56547
+Defined in: main.ts:56661
 
 location search radius
 optional field
@@ -217,7 +217,7 @@ minimal value: > 0
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:56619
+Defined in: main.ts:56733
 
 notification URL of a completed task
 optional field
@@ -240,7 +240,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:56608
+Defined in: main.ts:56722
 
 postback_url datatype
 required field if you specify postback_url
@@ -258,7 +258,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:56602
+Defined in: main.ts:56716
 
 return URL for sending task results
 optional field
@@ -281,7 +281,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:56526
+Defined in: main.ts:56640
 
 task priority
 optional field
@@ -301,7 +301,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:56591
+Defined in: main.ts:56705
 
 user-defined task identifier
 optional field
@@ -317,9 +317,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:56632
+Defined in: main.ts:56746
 
 #### Parameters
 
@@ -335,9 +335,9 @@ Defined in: main.ts:56632
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:56666
+Defined in: main.ts:56780
 
 #### Parameters
 
@@ -355,7 +355,7 @@ Defined in: main.ts:56666
 
 > `static` **fromJS**(`data`): `SerpGoogleJobsTaskPostRequestInfo`
 
-Defined in: main.ts:56659
+Defined in: main.ts:56773
 
 #### Parameters
 

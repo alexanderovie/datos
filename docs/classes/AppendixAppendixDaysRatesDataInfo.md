@@ -6,7 +6,7 @@
 
 # Class: AppendixAppendixDaysRatesDataInfo
 
-Defined in: main.ts:242888
+Defined in: main.ts:243418
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242888
 
 ### Constructor
 
-> **new AppendixAppendixDaysRatesDataInfo**(`data`?): `AppendixAppendixDaysRatesDataInfo`
+> **new AppendixAppendixDaysRatesDataInfo**(`data?`): `AppendixAppendixDaysRatesDataInfo`
 
-Defined in: main.ts:242894
+Defined in: main.ts:243424
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242894
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:242890
+Defined in: main.ts:243420
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242890
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:242889
+Defined in: main.ts:243419
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:242889
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242903
+Defined in: main.ts:243433
 
 #### Parameters
 
@@ -80,9 +80,9 @@ Defined in: main.ts:242903
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242921
+Defined in: main.ts:243451
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:242921
 
 > `static` **fromJS**(`data`): `AppendixAppendixDaysRatesDataInfo`
 
-Defined in: main.ts:242914
+Defined in: main.ts:243444
 
 #### Parameters
 

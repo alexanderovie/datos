@@ -6,7 +6,7 @@
 
 # Class: FeaturedSnippetSerpElementItem
 
-Defined in: main.ts:30903
+Defined in: main.ts:30911
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:30903
 
 ### Constructor
 
-> **new FeaturedSnippetSerpElementItem**(`data`?): `FeaturedSnippetSerpElementItem`
+> **new FeaturedSnippetSerpElementItem**(`data?`): `FeaturedSnippetSerpElementItem`
 
-Defined in: main.ts:30939
+Defined in: main.ts:30947
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30939
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:30913
+Defined in: main.ts:30921
 
 breadcrumb of the ad element in SERP
 
@@ -74,7 +74,7 @@ breadcrumb of the ad element in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:30909
+Defined in: main.ts:30917
 
 description of the ad element in SERP
 
@@ -88,7 +88,7 @@ description of the ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30905
+Defined in: main.ts:30913
 
 domain of the ad element in SERP
 
@@ -102,7 +102,7 @@ domain of the ad element in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:30921
+Defined in: main.ts:30929
 
 title
 
@@ -116,7 +116,7 @@ title
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:30928
+Defined in: main.ts:30936
 
 images of the element
 
@@ -130,7 +130,7 @@ images of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:30917
+Defined in: main.ts:30925
 
 the alignment of the element in SERP
 can take the following values:
@@ -146,7 +146,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -165,7 +165,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -185,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30935
+Defined in: main.ts:30943
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -201,7 +201,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:30931
+Defined in: main.ts:30939
 
 results table
 if there are none, equals null
@@ -216,7 +216,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:30926
+Defined in: main.ts:30934
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -233,7 +233,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30907
+Defined in: main.ts:30915
 
 title of the ad element in SERP
 
@@ -247,7 +247,7 @@ title of the ad element in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -265,7 +265,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30911
+Defined in: main.ts:30919
 
 relevant URL of the ad element in SERP
 
@@ -279,7 +279,7 @@ relevant URL of the ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:30919
+Defined in: main.ts:30927
 
 the XPath of the element
 
@@ -291,9 +291,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:30944
+Defined in: main.ts:30952
 
 #### Parameters
 
@@ -313,9 +313,9 @@ Defined in: main.ts:30944
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:30977
+Defined in: main.ts:30985
 
 #### Parameters
 
@@ -337,7 +337,7 @@ Defined in: main.ts:30977
 
 > `static` **fromJS**(`data`): `FeaturedSnippetSerpElementItem`
 
-Defined in: main.ts:30970
+Defined in: main.ts:30978
 
 #### Parameters
 

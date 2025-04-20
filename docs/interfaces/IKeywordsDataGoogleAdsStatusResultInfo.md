@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsStatusResultInfo
 
-Defined in: main.ts:137887
+Defined in: main.ts:138009
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:137887
 
 > `optional` **actual\_data**: `boolean`
 
-Defined in: main.ts:137892
+Defined in: main.ts:138014
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
@@ -31,7 +31,7 @@ if the value is false, we are not able to provide data for the previous month
 
 > `optional` **date\_update**: `string`
 
-Defined in: main.ts:137897
+Defined in: main.ts:138019
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
@@ -44,7 +44,7 @@ example:
 
 > `optional` **last\_month\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:137901
+Defined in: main.ts:138023
 
 the latest month for which search volume data is available
 
@@ -54,6 +54,6 @@ the latest month for which search volume data is available
 
 > `optional` **last\_year\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:137899
+Defined in: main.ts:138021
 
 the latest year for which search volume data is available

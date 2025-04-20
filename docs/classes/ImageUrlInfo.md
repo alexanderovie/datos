@@ -6,7 +6,7 @@
 
 # Class: ImageUrlInfo
 
-Defined in: main.ts:240944
+Defined in: main.ts:241474
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:240944
 
 ### Constructor
 
-> **new ImageUrlInfo**(`data`?): `ImageUrlInfo`
+> **new ImageUrlInfo**(`data?`): `ImageUrlInfo`
 
-Defined in: main.ts:240950
+Defined in: main.ts:241480
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240950
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:240946
+Defined in: main.ts:241476
 
 URL of the image used in the review
 
@@ -52,9 +52,9 @@ URL of the image used in the review
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:240959
+Defined in: main.ts:241489
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:240959
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:240976
+Defined in: main.ts:241506
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:240976
 
 > `static` **fromJS**(`data`): `ImageUrlInfo`
 
-Defined in: main.ts:240969
+Defined in: main.ts:241499
 
 #### Parameters
 

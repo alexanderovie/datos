@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveRegularResultInfo
 
-Defined in: main.ts:41827
+Defined in: main.ts:41929
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:41827
 
 ### Constructor
 
-> **new SerpGoogleOrganicLiveRegularResultInfo**(`data`?): `SerpGoogleOrganicLiveRegularResultInfo`
+> **new SerpGoogleOrganicLiveRegularResultInfo**(`data?`): `SerpGoogleOrganicLiveRegularResultInfo`
 
-Defined in: main.ts:41869
+Defined in: main.ts:41971
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:41869
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:41841
+Defined in: main.ts:41943
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided exact results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:41846
+Defined in: main.ts:41948
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:41859
+Defined in: main.ts:41961
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -92,7 +92,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:41865
+Defined in: main.ts:41967
 
 items in SERP
 
@@ -106,7 +106,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:41863
+Defined in: main.ts:41965
 
 the number of results returned in the items array
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:41830
+Defined in: main.ts:41932
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -135,7 +135,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:41838
+Defined in: main.ts:41940
 
 language code in a POST array
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:41836
+Defined in: main.ts:41938
 
 location code in a POST array
 
@@ -163,7 +163,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:41851
+Defined in: main.ts:41953
 
 search refinement chips
 
@@ -177,7 +177,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:41834
+Defined in: main.ts:41936
 
 search engine domain in a POST array
 
@@ -191,7 +191,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:41861
+Defined in: main.ts:41963
 
 total number of results in SERP
 
@@ -205,7 +205,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:41849
+Defined in: main.ts:41951
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -220,7 +220,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:41832
+Defined in: main.ts:41934
 
 type of element
 
@@ -232,9 +232,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:41878
+Defined in: main.ts:41980
 
 #### Parameters
 
@@ -250,9 +250,9 @@ Defined in: main.ts:41878
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:41915
+Defined in: main.ts:42017
 
 #### Parameters
 
@@ -270,7 +270,7 @@ Defined in: main.ts:41915
 
 > `static` **fromJS**(`data`): `SerpGoogleOrganicLiveRegularResultInfo`
 
-Defined in: main.ts:41908
+Defined in: main.ts:42010
 
 #### Parameters
 

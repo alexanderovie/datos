@@ -6,7 +6,7 @@
 
 # Class: BusinessDirectoryInfo
 
-Defined in: main.ts:225770
+Defined in: main.ts:226300
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:225770
 
 ### Constructor
 
-> **new BusinessDirectoryInfo**(`data`?): `BusinessDirectoryInfo`
+> **new BusinessDirectoryInfo**(`data?`): `BusinessDirectoryInfo`
 
-Defined in: main.ts:225781
+Defined in: main.ts:226311
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:225781
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:225777
+Defined in: main.ts:226307
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -56,7 +56,7 @@ possible item types: google_business_info
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:225773
+Defined in: main.ts:226303
 
 title of the element
 domain of the online menu system
@@ -69,9 +69,9 @@ domain of the online menu system
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:225790
+Defined in: main.ts:226320
 
 #### Parameters
 
@@ -87,9 +87,9 @@ Defined in: main.ts:225790
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:225812
+Defined in: main.ts:226342
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:225812
 
 > `static` **fromJS**(`data`): `BusinessDirectoryInfo`
 
-Defined in: main.ts:225805
+Defined in: main.ts:226335
 
 #### Parameters
 

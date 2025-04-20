@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsElement
 
-Defined in: main.ts:39339
+Defined in: main.ts:39347
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:39339
 
 ### Constructor
 
-> **new ProductConsiderationsElement**(`data`?): `ProductConsiderationsElement`
+> **new ProductConsiderationsElement**(`data?`): `ProductConsiderationsElement`
 
-Defined in: main.ts:39352
+Defined in: main.ts:39360
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39352
 
 > `optional` **consideration\_category**: `string`
 
-Defined in: main.ts:39346
+Defined in: main.ts:39354
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
@@ -55,7 +55,7 @@ the category is indicated just above the title fo the consideration element
 
 > `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-Defined in: main.ts:39348
+Defined in: main.ts:39356
 
 expanded element
 
@@ -69,7 +69,7 @@ expanded element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39343
+Defined in: main.ts:39351
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39341
+Defined in: main.ts:39349
 
 type of element
 
@@ -95,9 +95,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39361
+Defined in: main.ts:39369
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:39361
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39381
+Defined in: main.ts:39389
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:39381
 
 > `static` **fromJS**(`data`): `ProductConsiderationsElement`
 
-Defined in: main.ts:39374
+Defined in: main.ts:39382
 
 #### Parameters
 

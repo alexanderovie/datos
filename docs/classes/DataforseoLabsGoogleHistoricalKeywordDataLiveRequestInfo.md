@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo
 
-Defined in: main.ts:122626
+Defined in: main.ts:122748
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122626
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo**(`data`?): `DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo`
+> **new DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo**(`data?`): `DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo`
 
-Defined in: main.ts:122678
+Defined in: main.ts:122800
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122678
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:122636
+Defined in: main.ts:122758
 
 keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122668
+Defined in: main.ts:122790
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122660
+Defined in: main.ts:122782
 
 full name of the language
 required field if you don’t specify language_code
@@ -102,7 +102,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122652
+Defined in: main.ts:122774
 
 location code
 required field if you don’t specify location_name
@@ -122,7 +122,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122644
+Defined in: main.ts:122766
 
 full name of the location
 required field if you don’t specify location_code
@@ -142,7 +142,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122674
+Defined in: main.ts:122796
 
 user-defined task identifier
 optional field
@@ -158,9 +158,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122687
+Defined in: main.ts:122809
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:122687
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122713
+Defined in: main.ts:122835
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:122713
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo`
 
-Defined in: main.ts:122706
+Defined in: main.ts:122828
 
 #### Parameters
 

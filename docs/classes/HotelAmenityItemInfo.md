@@ -6,7 +6,7 @@
 
 # Class: HotelAmenityItemInfo
 
-Defined in: main.ts:230770
+Defined in: main.ts:231300
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:230770
 
 ### Constructor
 
-> **new HotelAmenityItemInfo**(`data`?): `HotelAmenityItemInfo`
+> **new HotelAmenityItemInfo**(`data?`): `HotelAmenityItemInfo`
 
-Defined in: main.ts:230784
+Defined in: main.ts:231314
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230784
 
 > `optional` **amenity**: `string`
 
-Defined in: main.ts:230772
+Defined in: main.ts:231302
 
 standardised amenity name
 
@@ -54,7 +54,7 @@ standardised amenity name
 
 > `optional` **amenity\_label**: `string`
 
-Defined in: main.ts:230774
+Defined in: main.ts:231304
 
 displayed amenity name
 
@@ -68,7 +68,7 @@ displayed amenity name
 
 > `optional` **hint**: `string`
 
-Defined in: main.ts:230776
+Defined in: main.ts:231306
 
 standardised details about the amenity
 
@@ -82,7 +82,7 @@ standardised details about the amenity
 
 > `optional` **hint\_label**: `string`
 
-Defined in: main.ts:230778
+Defined in: main.ts:231308
 
 displayed details about the amenity
 
@@ -96,7 +96,7 @@ displayed details about the amenity
 
 > `optional` **is\_available**: `boolean`
 
-Defined in: main.ts:230780
+Defined in: main.ts:231310
 
 indicates whether the amenity is available in the hotel
 
@@ -108,9 +108,9 @@ indicates whether the amenity is available in the hotel
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:230793
+Defined in: main.ts:231323
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:230793
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:230814
+Defined in: main.ts:231344
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:230814
 
 > `static` **fromJS**(`data`): `HotelAmenityItemInfo`
 
-Defined in: main.ts:230807
+Defined in: main.ts:231337
 
 #### Parameters
 

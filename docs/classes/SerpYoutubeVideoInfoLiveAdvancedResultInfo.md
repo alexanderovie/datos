@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedResultInfo
 
-Defined in: main.ts:74022
+Defined in: main.ts:74134
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:74022
 
 ### Constructor
 
-> **new SerpYoutubeVideoInfoLiveAdvancedResultInfo**(`data`?): `SerpYoutubeVideoInfoLiveAdvancedResultInfo`
+> **new SerpYoutubeVideoInfoLiveAdvancedResultInfo**(`data?`): `SerpYoutubeVideoInfoLiveAdvancedResultInfo`
 
-Defined in: main.ts:74057
+Defined in: main.ts:74169
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:74057
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:74033
+Defined in: main.ts:74145
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:74038
+Defined in: main.ts:74150
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:74049
+Defined in: main.ts:74161
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ youtube_video_info
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
-Defined in: main.ts:74053
+Defined in: main.ts:74165
 
 elements of search results found in SERP
 
@@ -103,7 +103,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:74051
+Defined in: main.ts:74163
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:74030
+Defined in: main.ts:74142
 
 language code in a POST array
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:74028
+Defined in: main.ts:74140
 
 location code in a POST array
 
@@ -145,7 +145,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:74044
+Defined in: main.ts:74156
 
 search refinement chips
 equals null
@@ -160,7 +160,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:74026
+Defined in: main.ts:74138
 
 search engine domain in a POST array
 
@@ -174,7 +174,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:74041
+Defined in: main.ts:74153
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -189,7 +189,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:74024
+Defined in: main.ts:74136
 
 ID of the video received in a POST array
 
@@ -201,9 +201,9 @@ ID of the video received in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:74066
+Defined in: main.ts:74178
 
 #### Parameters
 
@@ -219,9 +219,9 @@ Defined in: main.ts:74066
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:74101
+Defined in: main.ts:74213
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:74101
 
 > `static` **fromJS**(`data`): `SerpYoutubeVideoInfoLiveAdvancedResultInfo`
 
-Defined in: main.ts:74094
+Defined in: main.ts:74206
 
 #### Parameters
 

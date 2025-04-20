@@ -6,7 +6,7 @@
 
 # Class: BaseAmazonSerpElementItem
 
-Defined in: main.ts:24350
+Defined in: main.ts:24358
 
 ## Extended by
 
@@ -28,9 +28,9 @@ Defined in: main.ts:24350
 
 ### Constructor
 
-> **new BaseAmazonSerpElementItem**(`data`?): `BaseAmazonSerpElementItem`
+> **new BaseAmazonSerpElementItem**(`data?`): `BaseAmazonSerpElementItem`
 
-Defined in: main.ts:24364
+Defined in: main.ts:24372
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:24364
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24362
+Defined in: main.ts:24370
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: main.ts:24362
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24358
+Defined in: main.ts:24366
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24355
+Defined in: main.ts:24363
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -86,7 +86,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24352
+Defined in: main.ts:24360
 
 type of element
 
@@ -100,7 +100,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24360
+Defined in: main.ts:24368
 
 the XPath of the element
 
@@ -112,9 +112,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24374
+Defined in: main.ts:24382
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:24374
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24435
+Defined in: main.ts:24443
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:24435
 
 > `static` **fromJS**(`data`): `BaseAmazonSerpElementItem`
 
-Defined in: main.ts:24383
+Defined in: main.ts:24391
 
 #### Parameters
 

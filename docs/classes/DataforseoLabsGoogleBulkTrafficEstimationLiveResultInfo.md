@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:121752
+Defined in: main.ts:121874
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:121752
 
 ### Constructor
 
-> **new DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo**(`data`?): `DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
+> **new DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo**(`data?`): `DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:121770
+Defined in: main.ts:121892
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121770
 
 > `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:121766
+Defined in: main.ts:121888
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121764
+Defined in: main.ts:121886
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121760
+Defined in: main.ts:121882
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121757
+Defined in: main.ts:121879
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121754
+Defined in: main.ts:121876
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121762
+Defined in: main.ts:121884
 
 total amount of results in our database relevant to your request
 
@@ -124,9 +124,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:121779
+Defined in: main.ts:121901
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:121779
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:121805
+Defined in: main.ts:121927
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:121805
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:121798
+Defined in: main.ts:121920
 
 #### Parameters
 

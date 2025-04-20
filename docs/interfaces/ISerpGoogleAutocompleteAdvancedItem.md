@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteAdvancedItem
 
-Defined in: main.ts:58905
+Defined in: main.ts:59019
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:58905
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:58943
+Defined in: main.ts:59057
 
 keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -33,7 +33,7 @@ gws-wiz-local
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:58914
+Defined in: main.ts:59028
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -44,7 +44,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:58911
+Defined in: main.ts:59025
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -56,7 +56,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **relevance**: `number`
 
-Defined in: main.ts:58921
+Defined in: main.ts:59035
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -71,7 +71,7 @@ chrome/chrome-omni
 
 > `optional` **search\_query\_url**: `string`
 
-Defined in: main.ts:58930
+Defined in: main.ts:59044
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
@@ -82,7 +82,7 @@ url to search results relevant to the google autocomplete suggestion
 
 > `optional` **suggestion**: `string`
 
-Defined in: main.ts:58923
+Defined in: main.ts:59037
 
 google autocomplete keyword suggestion
 
@@ -92,7 +92,7 @@ google autocomplete keyword suggestion
 
 > `optional` **suggestion\_type**: `string`
 
-Defined in: main.ts:58927
+Defined in: main.ts:59041
 
 google autocomplete suggestion type
 Note: only available for the following client:
@@ -104,7 +104,7 @@ chrome/chrome-omni
 
 > `optional` **thumbnail\_url**: `string`
 
-Defined in: main.ts:58936
+Defined in: main.ts:59050
 
 url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -118,6 +118,6 @@ gws-wiz-serp
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:58907
+Defined in: main.ts:59021
 
 type of element

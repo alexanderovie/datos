@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTasksReadyResultInfo
 
-Defined in: main.ts:205502
+Defined in: main.ts:206032
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:205502
 
 ### Constructor
 
-> **new MerchantAmazonAsinTasksReadyResultInfo**(`data`?): `MerchantAmazonAsinTasksReadyResultInfo`
+> **new MerchantAmazonAsinTasksReadyResultInfo**(`data?`): `MerchantAmazonAsinTasksReadyResultInfo`
 
-Defined in: main.ts:205522
+Defined in: main.ts:206052
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205522
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:205512
+Defined in: main.ts:206042
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:205516
+Defined in: main.ts:206046
 
 URL for collecting the results of the Amazon ASIN Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:205518
+Defined in: main.ts:206048
 
 URL for collecting the results of the Amazon ASIN HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:205505
+Defined in: main.ts:206035
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:205507
+Defined in: main.ts:206037
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:205510
+Defined in: main.ts:206040
 
 type of search engine
 can take the following values: shopping
@@ -126,7 +126,7 @@ can take the following values: shopping
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:205514
+Defined in: main.ts:206044
 
 user-defined task identifier
 
@@ -138,9 +138,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:205531
+Defined in: main.ts:206061
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:205531
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:205554
+Defined in: main.ts:206084
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:205554
 
 > `static` **fromJS**(`data`): `MerchantAmazonAsinTasksReadyResultInfo`
 
-Defined in: main.ts:205547
+Defined in: main.ts:206077
 
 #### Parameters
 

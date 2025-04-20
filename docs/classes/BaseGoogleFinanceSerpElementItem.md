@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleFinanceSerpElementItem
 
-Defined in: main.ts:22343
+Defined in: main.ts:22351
 
 ## Extended by
 
@@ -26,9 +26,9 @@ Defined in: main.ts:22343
 
 ### Constructor
 
-> **new BaseGoogleFinanceSerpElementItem**(`data`?): `BaseGoogleFinanceSerpElementItem`
+> **new BaseGoogleFinanceSerpElementItem**(`data?`): `BaseGoogleFinanceSerpElementItem`
 
-Defined in: main.ts:22349
+Defined in: main.ts:22357
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: main.ts:22349
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: main.ts:22347
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -66,9 +66,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:22359
+Defined in: main.ts:22367
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:22359
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:22407
+Defined in: main.ts:22415
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:22407
 
 > `static` **fromJS**(`data`): `BaseGoogleFinanceSerpElementItem`
 
-Defined in: main.ts:22365
+Defined in: main.ts:22373
 
 #### Parameters
 

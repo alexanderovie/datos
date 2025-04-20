@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
-Defined in: main.ts:162730
+Defined in: main.ts:162883
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:162730
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:162742
+Defined in: main.ts:162895
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:162749
+Defined in: main.ts:162902
 
 ending date of the time range
 optional field
@@ -45,11 +45,28 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:162911
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:162755
+Defined in: main.ts:162917
 
 user-defined task identifier
 optional field
@@ -63,7 +80,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:162734
+Defined in: main.ts:162887
 
 domain
 required field

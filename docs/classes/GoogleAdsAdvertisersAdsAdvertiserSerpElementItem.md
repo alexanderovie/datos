@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsAdvertiserSerpElementItem
 
-Defined in: main.ts:63979
+Defined in: main.ts:64093
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:63979
 
 ### Constructor
 
-> **new GoogleAdsAdvertisersAdsAdvertiserSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
+> **new GoogleAdsAdvertisersAdsAdvertiserSerpElementItem**(`data?`): `GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
-Defined in: main.ts:63996
+Defined in: main.ts:64110
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:63996
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63837
+Defined in: main.ts:63951
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63837
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:63984
+Defined in: main.ts:64098
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -75,7 +75,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:63992
+Defined in: main.ts:64106
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -90,7 +90,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:63986
+Defined in: main.ts:64100
 
 advertiser location
 
@@ -104,7 +104,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63835
+Defined in: main.ts:63949
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63832
+Defined in: main.ts:63946
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:63981
+Defined in: main.ts:64095
 
 title of the element
 
@@ -157,7 +157,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63828
+Defined in: main.ts:63942
 
 type of element
 
@@ -175,7 +175,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:63989
+Defined in: main.ts:64103
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -188,9 +188,9 @@ equals true if advertiser account is verified by Google Ads
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:64001
+Defined in: main.ts:64115
 
 #### Parameters
 
@@ -210,9 +210,9 @@ Defined in: main.ts:64001
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:64023
+Defined in: main.ts:64137
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:64023
 
 > `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsAdvertiserSerpElementItem`
 
-Defined in: main.ts:64016
+Defined in: main.ts:64130
 
 #### Parameters
 

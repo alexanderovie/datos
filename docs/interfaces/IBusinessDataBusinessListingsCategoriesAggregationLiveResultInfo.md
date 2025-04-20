@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
-Defined in: main.ts:224074
+Defined in: main.ts:224604
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:224074
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:224079
+Defined in: main.ts:224609
 
 item types
 the number of items in the items array
@@ -29,7 +29,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](../classes/BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
-Defined in: main.ts:224089
+Defined in: main.ts:224619
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -41,7 +41,7 @@ possible item types: business_category
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:224081
+Defined in: main.ts:224611
 
 offset in the results array of returned categories
 
@@ -51,7 +51,7 @@ offset in the results array of returned categories
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:224085
+Defined in: main.ts:224615
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -63,6 +63,6 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:224076
+Defined in: main.ts:224606
 
 total number of results in our database relevant to your request

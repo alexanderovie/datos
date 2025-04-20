@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLanguagesResultInfo
 
-Defined in: main.ts:81643
+Defined in: main.ts:81755
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:81643
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:81647
+Defined in: main.ts:81759
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:81645
+Defined in: main.ts:81757
 
 language name

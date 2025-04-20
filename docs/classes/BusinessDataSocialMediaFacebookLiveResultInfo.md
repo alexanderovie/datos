@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
 
-Defined in: main.ts:241756
+Defined in: main.ts:242286
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:241756
 
 ### Constructor
 
-> **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data`?): `BusinessDataSocialMediaFacebookLiveResultInfo`
+> **new BusinessDataSocialMediaFacebookLiveResultInfo**(`data?`): `BusinessDataSocialMediaFacebookLiveResultInfo`
 
-Defined in: main.ts:241768
+Defined in: main.ts:242298
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241768
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:241764
+Defined in: main.ts:242294
 
 number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed
@@ -55,7 +55,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:241761
+Defined in: main.ts:242291
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -70,7 +70,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:241758
+Defined in: main.ts:242288
 
 type of element
 
@@ -82,9 +82,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:241777
+Defined in: main.ts:242307
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:241777
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:241796
+Defined in: main.ts:242326
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:241796
 
 > `static` **fromJS**(`data`): `BusinessDataSocialMediaFacebookLiveResultInfo`
 
-Defined in: main.ts:241789
+Defined in: main.ts:242319
 
 #### Parameters
 

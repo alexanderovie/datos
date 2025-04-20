@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBusinessDataDayStatisticsRatesData
 
-Defined in: main.ts:246015
+Defined in: main.ts:246633
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:246015
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:246027
+Defined in: main.ts:246644
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:246027
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246024
+Defined in: main.ts:246642
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:246024
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:246019
+Defined in: main.ts:246637
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:246019
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
 
-Defined in: main.ts:246016
+Defined in: main.ts:246634
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:246016
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:246026
+Defined in: main.ts:246645
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:246026
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:246018
+Defined in: main.ts:246636
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:246018
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:246017
+Defined in: main.ts:246635
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:246017
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246021
+Defined in: main.ts:246639
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:246021
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:246025
+Defined in: main.ts:246643
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:246025
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246022
+Defined in: main.ts:246640
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:246022
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246023
+Defined in: main.ts:246641
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: main.ts:246023
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246020
+Defined in: main.ts:246638

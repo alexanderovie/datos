@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsStatusInfo
 
-Defined in: main.ts:101552
+Defined in: main.ts:101664
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:101552
 
 > `optional` **date\_update**: `string`
 
-Defined in: main.ts:101557
+Defined in: main.ts:101669
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;

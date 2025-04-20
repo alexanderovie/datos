@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:198420
+Defined in: main.ts:198950
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:198420
 
 ### Constructor
 
-> **new RelatedSearchesMerchantSerpElementItem**(`data`?): `RelatedSearchesMerchantSerpElementItem`
+> **new RelatedSearchesMerchantSerpElementItem**(`data?`): `RelatedSearchesMerchantSerpElementItem`
 
-Defined in: main.ts:198429
+Defined in: main.ts:198959
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:198429
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22866
+Defined in: main.ts:22874
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22866
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:198425
+Defined in: main.ts:198955
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22864
+Defined in: main.ts:22872
 
 alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22860
+Defined in: main.ts:22868
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -114,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22857
+Defined in: main.ts:22865
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22854
+Defined in: main.ts:22862
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:198422
+Defined in: main.ts:198952
 
 XPath of the element
 
@@ -163,9 +163,9 @@ XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:198434
+Defined in: main.ts:198964
 
 #### Parameters
 
@@ -185,9 +185,9 @@ Defined in: main.ts:198434
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:198457
+Defined in: main.ts:198987
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:198457
 
 > `static` **fromJS**(`data`): `RelatedSearchesMerchantSerpElementItem`
 
-Defined in: main.ts:198450
+Defined in: main.ts:198980
 
 #### Parameters
 

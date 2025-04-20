@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
-Defined in: main.ts:240302
+Defined in: main.ts:240832
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:240302
 
 ### Constructor
 
-> **new BusinessDataTripadvisorReviewsTaskPostRequestInfo**(`data`?): `BusinessDataTripadvisorReviewsTaskPostRequestInfo`
+> **new BusinessDataTripadvisorReviewsTaskPostRequestInfo**(`data?`): `BusinessDataTripadvisorReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:240427
+Defined in: main.ts:240957
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:240427
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:240361
+Defined in: main.ts:240891
 
 parsing depth
 optional field
@@ -59,7 +59,7 @@ max value: 4490
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:240316
+Defined in: main.ts:240846
 
 keyword
 required field if you do not specify url_path
@@ -78,7 +78,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:240354
+Defined in: main.ts:240884
 
 search engine language code
 optional field
@@ -99,7 +99,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:240345
+Defined in: main.ts:240875
 
 full name of search engine language
 optional field
@@ -120,7 +120,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:240328
+Defined in: main.ts:240858
 
 search engine location code
 required field if you don’t specify location_name or url_path
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:240322
+Defined in: main.ts:240852
 
 full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -156,7 +156,7 @@ London,England,United Kingdom
 
 > `optional` **months**: `string`[]
 
-Defined in: main.ts:240377
+Defined in: main.ts:240907
 
 filter by months when a traveler made a visit
 optional field
@@ -173,7 +173,7 @@ you can specify several values at once
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:240423
+Defined in: main.ts:240953
 
 notification URL of a completed task
 optional field
@@ -196,7 +196,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:240412
+Defined in: main.ts:240942
 
 return URL for sending task results
 optional field
@@ -219,7 +219,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:240336
+Defined in: main.ts:240866
 
 task priority
 optional field
@@ -239,7 +239,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **ratings**: `string`[]
 
-Defined in: main.ts:240367
+Defined in: main.ts:240897
 
 Tripadvisor traveler rating for a place of interest
 optional field
@@ -257,7 +257,7 @@ you can specify several values at once
 
 > `optional` **search\_reviews\_keyword**: `string`
 
-Defined in: main.ts:240381
+Defined in: main.ts:240911
 
 search reviews containing a specified keyword
 example:
@@ -273,7 +273,7 @@ dessert
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:240388
+Defined in: main.ts:240918
 
 results sorting parameters
 optional field
@@ -292,7 +292,7 @@ detailed_reviews
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:240401
+Defined in: main.ts:240931
 
 user-defined task identifier
 optional field
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **translate\_reviews**: `boolean`
 
-Defined in: main.ts:240395
+Defined in: main.ts:240925
 
 translate reviews according to the URL path
 optional field
@@ -329,7 +329,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:240309
+Defined in: main.ts:240839
 
 URL path of the business entity
 required field if you do not specify keyword
@@ -348,7 +348,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 > `optional` **visit\_type**: `string`[]
 
-Defined in: main.ts:240372
+Defined in: main.ts:240902
 
 filter by type of travelers who left a review
 optional field
@@ -363,9 +363,9 @@ you can specify several values at once
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:240436
+Defined in: main.ts:240966
 
 #### Parameters
 
@@ -381,9 +381,9 @@ Defined in: main.ts:240436
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:240481
+Defined in: main.ts:241011
 
 #### Parameters
 
@@ -401,7 +401,7 @@ Defined in: main.ts:240481
 
 > `static` **fromJS**(`data`): `BusinessDataTripadvisorReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:240474
+Defined in: main.ts:241004
 
 #### Parameters
 

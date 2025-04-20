@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkRanksLiveRequestInfo
 
-Defined in: main.ts:172184
+Defined in: main.ts:172552
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:172184
 
 ### Constructor
 
-> **new BacklinksBulkRanksLiveRequestInfo**(`data`?): `BacklinksBulkRanksLiveRequestInfo`
+> **new BacklinksBulkRanksLiveRequestInfo**(`data?`): `BacklinksBulkRanksLiveRequestInfo`
 
-Defined in: main.ts:172213
+Defined in: main.ts:172590
 
 #### Parameters
 
@@ -36,11 +36,32 @@ Defined in: main.ts:172213
 
 ## Properties
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:172580
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:172209
+Defined in: main.ts:172586
 
 user-defined task identifier
 optional field
@@ -58,7 +79,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:172203
+Defined in: main.ts:172571
 
 domains, subdomains or webpages to get rank for
 required field
@@ -87,9 +108,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:172222
+Defined in: main.ts:172599
 
 #### Parameters
 
@@ -105,9 +126,9 @@ Defined in: main.ts:172222
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:172244
+Defined in: main.ts:172622
 
 #### Parameters
 
@@ -125,7 +146,7 @@ Defined in: main.ts:172244
 
 > `static` **fromJS**(`data`): `BacklinksBulkRanksLiveRequestInfo`
 
-Defined in: main.ts:172237
+Defined in: main.ts:172615
 
 #### Parameters
 

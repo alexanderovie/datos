@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
-Defined in: main.ts:168744
+Defined in: main.ts:169034
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:168744
 
 ### Constructor
 
-> **new BacklinksCompetitorsLiveRequestInfo**(`data`?): `BacklinksCompetitorsLiveRequestInfo`
+> **new BacklinksCompetitorsLiveRequestInfo**(`data?`): `BacklinksCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:168813
+Defined in: main.ts:169112
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168813
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:168803
+Defined in: main.ts:169093
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -58,7 +58,7 @@ default value: true
 
 > `optional` **exclude\_large\_domains**: `boolean`
 
-Defined in: main.ts:168797
+Defined in: main.ts:169087
 
 indicates whether large domain will appear in results
 optional field
@@ -75,7 +75,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:168773
+Defined in: main.ts:169063
 
 array of results filtering parameters
 optional field
@@ -101,7 +101,7 @@ The full list of possible filters is available here.
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:168754
+Defined in: main.ts:169044
 
 the maximum number of returned domains
 optional field
@@ -118,7 +118,7 @@ maximum value: 1000
 
 > `optional` **main\_domain**: `boolean`
 
-Defined in: main.ts:168792
+Defined in: main.ts:169082
 
 indicates if only main domain of the target will be included in the search
 optional field
@@ -135,7 +135,7 @@ default value: true
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:168759
+Defined in: main.ts:169049
 
 offset in the results array of returned domains
 optional field
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:168787
+Defined in: main.ts:169077
 
 results sorting rules
 optional field
@@ -174,11 +174,32 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:169102
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:168809
+Defined in: main.ts:169108
 
 user-defined task identifier
 optional field
@@ -196,7 +217,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:168749
+Defined in: main.ts:169039
 
 domain, subdomain or webpage to get competitor domains for
 required field
@@ -211,9 +232,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:168822
+Defined in: main.ts:169121
 
 #### Parameters
 
@@ -229,9 +250,9 @@ Defined in: main.ts:168822
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:168855
+Defined in: main.ts:169155
 
 #### Parameters
 
@@ -249,7 +270,7 @@ Defined in: main.ts:168855
 
 > `static` **fromJS**(`data`): `BacklinksCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:168848
+Defined in: main.ts:169148
 
 #### Parameters
 

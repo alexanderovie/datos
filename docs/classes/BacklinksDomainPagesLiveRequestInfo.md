@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveRequestInfo
 
-Defined in: main.ts:165234
+Defined in: main.ts:165436
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:165234
 
 ### Constructor
 
-> **new BacklinksDomainPagesLiveRequestInfo**(`data`?): `BacklinksDomainPagesLiveRequestInfo`
+> **new BacklinksDomainPagesLiveRequestInfo**(`data?`): `BacklinksDomainPagesLiveRequestInfo`
 
-Defined in: main.ts:165330
+Defined in: main.ts:165541
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165330
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:165309
+Defined in: main.ts:165511
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:165270
+Defined in: main.ts:165472
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:165320
+Defined in: main.ts:165522
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -99,7 +99,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:165287
+Defined in: main.ts:165489
 
 array of results filtering parameters
 optional field
@@ -128,7 +128,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:165314
+Defined in: main.ts:165516
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:165261
+Defined in: main.ts:165463
 
 maximum number of elements within internal arrays
 optional field
@@ -168,7 +168,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:165245
+Defined in: main.ts:165447
 
 the maximum number of returned pages
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:165250
+Defined in: main.ts:165452
 
 offset in the results array of returned pages
 optional field
@@ -202,7 +202,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:165301
+Defined in: main.ts:165503
 
 results sorting rules
 optional field
@@ -224,11 +224,32 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:165531
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:165326
+Defined in: main.ts:165537
 
 user-defined task identifier
 optional field
@@ -246,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165240
+Defined in: main.ts:165442
 
 domain or subdomain
 required field
@@ -262,9 +283,9 @@ forbes.com
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:165339
+Defined in: main.ts:165550
 
 #### Parameters
 
@@ -280,9 +301,9 @@ Defined in: main.ts:165339
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:165378
+Defined in: main.ts:165590
 
 #### Parameters
 
@@ -300,7 +321,7 @@ Defined in: main.ts:165378
 
 > `static` **fromJS**(`data`): `BacklinksDomainPagesLiveRequestInfo`
 
-Defined in: main.ts:165371
+Defined in: main.ts:165583
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
-Defined in: main.ts:112448
+Defined in: main.ts:112570
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:112448
 
 ### Constructor
 
-> **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
+> **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data?`): `DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:112552
+Defined in: main.ts:112674
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112552
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:112526
+Defined in: main.ts:112648
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:112493
+Defined in: main.ts:112615
 
 indicates if the subdomains will be included in the search
 optional field
@@ -84,7 +84,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:112501
+Defined in: main.ts:112623
 
 search results type
 indicates type of search results included in the response
@@ -104,7 +104,7 @@ default value:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:112456
+Defined in: main.ts:112578
 
 keywords array
 required field
@@ -124,7 +124,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112488
+Defined in: main.ts:112610
 
 unique language identifier
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:112480
+Defined in: main.ts:112602
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,7 +164,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:112506
+Defined in: main.ts:112628
 
 the maximum number of returned domains
 optional field
@@ -181,7 +181,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112472
+Defined in: main.ts:112594
 
 unique location identifier
 required field if you don’t specify location_name
@@ -201,7 +201,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:112464
+Defined in: main.ts:112586
 
 full name of the location
 required field if you don’t specify location_code
@@ -221,7 +221,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:112511
+Defined in: main.ts:112633
 
 offset in the results array of returned domains
 optional field
@@ -238,7 +238,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:112542
+Defined in: main.ts:112664
 
 results sorting rules
 optional field
@@ -266,7 +266,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:112548
+Defined in: main.ts:112670
 
 user-defined task identifier
 optional field
@@ -282,9 +282,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:112561
+Defined in: main.ts:112683
 
 #### Parameters
 
@@ -300,9 +300,9 @@ Defined in: main.ts:112561
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:112605
+Defined in: main.ts:112727
 
 #### Parameters
 
@@ -320,7 +320,7 @@ Defined in: main.ts:112605
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:112598
+Defined in: main.ts:112720
 
 #### Parameters
 

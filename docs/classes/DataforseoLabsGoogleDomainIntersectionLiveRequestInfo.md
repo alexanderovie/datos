@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:113842
+Defined in: main.ts:113964
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:113842
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo**(`data`?): `DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
+> **new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo**(`data?`): `DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:113965
+Defined in: main.ts:114087
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113965
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:113939
+Defined in: main.ts:114061
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:113912
+Defined in: main.ts:114034
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -88,7 +88,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:113905
+Defined in: main.ts:114027
 
 include data from SERP for each keyword
 optional field
@@ -105,7 +105,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:113892
+Defined in: main.ts:114014
 
 domain intersections in SERP
 optional field
@@ -125,7 +125,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:113900
+Defined in: main.ts:114022
 
 search results type
 indicates type of search results included in the response
@@ -145,7 +145,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113884
+Defined in: main.ts:114006
 
 language code
 required field if you don’t specify language_name
@@ -165,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:113876
+Defined in: main.ts:113998
 
 full name of the language
 required field if you don’t specify language_code
@@ -185,7 +185,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:113917
+Defined in: main.ts:114039
 
 the maximum number of returned keywords
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113868
+Defined in: main.ts:113990
 
 location code
 required field if you don’t specify location_name
@@ -222,7 +222,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:113860
+Defined in: main.ts:113982
 
 full name of the location
 required field if you don’t specify location_code
@@ -242,7 +242,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:113922
+Defined in: main.ts:114044
 
 offset in the items array of returned keywords
 optional field
@@ -259,7 +259,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:113955
+Defined in: main.ts:114077
 
 results sorting rules
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:113961
+Defined in: main.ts:114083
 
 user-defined task identifier
 optional field
@@ -305,7 +305,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:113847
+Defined in: main.ts:113969
 
 domain
 required field
@@ -322,7 +322,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:113852
+Defined in: main.ts:113974
 
 domain
 required field
@@ -337,9 +337,9 @@ the domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:113974
+Defined in: main.ts:114096
 
 #### Parameters
 
@@ -355,9 +355,9 @@ Defined in: main.ts:113974
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:114017
+Defined in: main.ts:114139
 
 #### Parameters
 
@@ -375,7 +375,7 @@ Defined in: main.ts:114017
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:114010
+Defined in: main.ts:114132
 
 #### Parameters
 

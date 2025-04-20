@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTasksReadyResultInfo
 
-Defined in: main.ts:63532
+Defined in: main.ts:63646
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:63532
 
 ### Constructor
 
-> **new SerpGoogleAdsAdvertisersTasksReadyResultInfo**(`data`?): `SerpGoogleAdsAdvertisersTasksReadyResultInfo`
+> **new SerpGoogleAdsAdvertisersTasksReadyResultInfo**(`data?`): `SerpGoogleAdsAdvertisersTasksReadyResultInfo`
 
-Defined in: main.ts:63557
+Defined in: main.ts:63671
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:63557
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:63542
+Defined in: main.ts:63656
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:63550
+Defined in: main.ts:63664
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:63553
+Defined in: main.ts:63667
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:63547
+Defined in: main.ts:63661
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:63535
+Defined in: main.ts:63649
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:63537
+Defined in: main.ts:63651
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:63540
+Defined in: main.ts:63654
 
 type of search engine
 example: ads_advertisers
@@ -143,7 +143,7 @@ example: ads_advertisers
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:63544
+Defined in: main.ts:63658
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:63566
+Defined in: main.ts:63680
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:63566
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:63590
+Defined in: main.ts:63704
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:63590
 
 > `static` **fromJS**(`data`): `SerpGoogleAdsAdvertisersTasksReadyResultInfo`
 
-Defined in: main.ts:63583
+Defined in: main.ts:63697
 
 #### Parameters
 

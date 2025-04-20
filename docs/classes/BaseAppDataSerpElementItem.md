@@ -6,7 +6,7 @@
 
 # Class: BaseAppDataSerpElementItem
 
-Defined in: main.ts:24012
+Defined in: main.ts:24020
 
 ## Extended by
 
@@ -25,9 +25,9 @@ Defined in: main.ts:24012
 
 ### Constructor
 
-> **new BaseAppDataSerpElementItem**(`data`?): `BaseAppDataSerpElementItem`
+> **new BaseAppDataSerpElementItem**(`data?`): `BaseAppDataSerpElementItem`
 
-Defined in: main.ts:24032
+Defined in: main.ts:24040
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: main.ts:24032
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24030
+Defined in: main.ts:24038
 
 ***
 
@@ -53,7 +53,7 @@ Defined in: main.ts:24030
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:24024
+Defined in: main.ts:24032
 
 the alignment of the element in SERP
 can take the following values:
@@ -69,7 +69,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24020
+Defined in: main.ts:24028
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -84,7 +84,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24017
+Defined in: main.ts:24025
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:24028
+Defined in: main.ts:24036
 
 average rating of the app
 
@@ -113,7 +113,7 @@ average rating of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24026
+Defined in: main.ts:24034
 
 title of the app
 
@@ -127,7 +127,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24014
+Defined in: main.ts:24022
 
 type of element
 
@@ -139,9 +139,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24042
+Defined in: main.ts:24050
 
 #### Parameters
 
@@ -157,9 +157,9 @@ Defined in: main.ts:24042
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24090
+Defined in: main.ts:24098
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:24090
 
 > `static` **fromJS**(`data`): `BaseAppDataSerpElementItem`
 
-Defined in: main.ts:24053
+Defined in: main.ts:24061
 
 #### Parameters
 

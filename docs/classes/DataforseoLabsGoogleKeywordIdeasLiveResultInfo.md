@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
-Defined in: main.ts:106378
+Defined in: main.ts:106490
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:106378
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordIdeasLiveResultInfo**(`data`?): `DataforseoLabsGoogleKeywordIdeasLiveResultInfo`
+> **new DataforseoLabsGoogleKeywordIdeasLiveResultInfo**(`data?`): `DataforseoLabsGoogleKeywordIdeasLiveResultInfo`
 
-Defined in: main.ts:106403
+Defined in: main.ts:106515
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106403
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:106399
+Defined in: main.ts:106511
 
 contains keyword ideas and related data
 
@@ -54,7 +54,7 @@ contains keyword ideas and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:106391
+Defined in: main.ts:106503
 
 number of results returned in the items array
 
@@ -68,7 +68,7 @@ number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106387
+Defined in: main.ts:106499
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106385
+Defined in: main.ts:106497
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:106393
+Defined in: main.ts:106505
 
 current offset value
 
@@ -110,7 +110,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:106397
+Defined in: main.ts:106509
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,7 +126,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106380
+Defined in: main.ts:106492
 
 search engine type
 
@@ -140,7 +140,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:106383
+Defined in: main.ts:106495
 
 keywords in a POST array
 keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -155,7 +155,7 @@ keywords are returned with decoded %## (plus character ‘+’ will be decoded t
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:106389
+Defined in: main.ts:106501
 
 total number of results relevant to your request in our database
 
@@ -167,9 +167,9 @@ total number of results relevant to your request in our database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:106412
+Defined in: main.ts:106524
 
 #### Parameters
 
@@ -185,9 +185,9 @@ Defined in: main.ts:106412
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:106445
+Defined in: main.ts:106557
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:106445
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordIdeasLiveResultInfo`
 
-Defined in: main.ts:106438
+Defined in: main.ts:106550
 
 #### Parameters
 

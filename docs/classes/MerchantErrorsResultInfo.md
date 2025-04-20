@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsResultInfo
 
-Defined in: main.ts:196080
+Defined in: main.ts:196610
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:196080
 
 ### Constructor
 
-> **new MerchantErrorsResultInfo**(`data`?): `MerchantErrorsResultInfo`
+> **new MerchantErrorsResultInfo**(`data?`): `MerchantErrorsResultInfo`
 
-Defined in: main.ts:196111
+Defined in: main.ts:196641
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:196111
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:196087
+Defined in: main.ts:196617
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:196091
+Defined in: main.ts:196621
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:196094
+Defined in: main.ts:196624
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:196089
+Defined in: main.ts:196619
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:196101
+Defined in: main.ts:196631
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:196099
+Defined in: main.ts:196629
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:196107
+Defined in: main.ts:196637
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:196104
+Defined in: main.ts:196634
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:196097
+Defined in: main.ts:196627
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:196082
+Defined in: main.ts:196612
 
 id of the task
 
@@ -185,9 +185,9 @@ id of the task
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:196120
+Defined in: main.ts:196650
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:196120
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:196146
+Defined in: main.ts:196676
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:196146
 
 > `static` **fromJS**(`data`): `MerchantErrorsResultInfo`
 
-Defined in: main.ts:196139
+Defined in: main.ts:196669
 
 #### Parameters
 

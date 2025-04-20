@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTaskPostRequestInfo
 
-Defined in: main.ts:50721
+Defined in: main.ts:50835
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:50721
 
 ### Constructor
 
-> **new SerpGoogleEventsTaskPostRequestInfo**(`data`?): `SerpGoogleEventsTaskPostRequestInfo`
+> **new SerpGoogleEventsTaskPostRequestInfo**(`data?`): `SerpGoogleEventsTaskPostRequestInfo`
 
-Defined in: main.ts:50850
+Defined in: main.ts:50964
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:50850
 
 > `optional` **date\_range**: `string`
 
-Defined in: main.ts:50783
+Defined in: main.ts:50897
 
 date range to get events for
 optional field
@@ -57,7 +57,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:50805
+Defined in: main.ts:50919
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:50729
+Defined in: main.ts:50843
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:50778
+Defined in: main.ts:50892
 
 search engine language code
 optional field
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:50770
+Defined in: main.ts:50884
 
 full name of search engine language
 optional field
@@ -138,7 +138,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:50751
+Defined in: main.ts:50865
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -157,7 +157,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:50762
+Defined in: main.ts:50876
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:50744
+Defined in: main.ts:50858
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -199,7 +199,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:50812
+Defined in: main.ts:50926
 
 page crawl limit
 optional field
@@ -218,7 +218,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:50789
+Defined in: main.ts:50903
 
 device operating system
 optional field
@@ -236,7 +236,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:50846
+Defined in: main.ts:50960
 
 notification URL of a completed task
 optional field
@@ -259,7 +259,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:50835
+Defined in: main.ts:50949
 
 postback_url datatype
 required field if you specify postback_url
@@ -277,7 +277,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:50829
+Defined in: main.ts:50943
 
 return URL for sending task results
 optional field
@@ -300,7 +300,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:50737
+Defined in: main.ts:50851
 
 task priority
 optional field
@@ -320,7 +320,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:50796
+Defined in: main.ts:50910
 
 search engine domain
 optional field
@@ -339,7 +339,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:50818
+Defined in: main.ts:50932
 
 user-defined task identifier
 optional field
@@ -355,9 +355,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:50859
+Defined in: main.ts:50973
 
 #### Parameters
 
@@ -373,9 +373,9 @@ Defined in: main.ts:50859
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:50891
+Defined in: main.ts:51005
 
 #### Parameters
 
@@ -393,7 +393,7 @@ Defined in: main.ts:50891
 
 > `static` **fromJS**(`data`): `SerpGoogleEventsTaskPostRequestInfo`
 
-Defined in: main.ts:50884
+Defined in: main.ts:50998
 
 #### Parameters
 

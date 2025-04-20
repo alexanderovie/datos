@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonProductsTaskGetHtmlResultInfo
 
-Defined in: main.ts:204983
+Defined in: main.ts:205513
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:204983
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:204999
+Defined in: main.ts:205529
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:205003
+Defined in: main.ts:205533
 
 HTML pages and related data
 
@@ -41,7 +41,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:205001
+Defined in: main.ts:205531
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:204986
+Defined in: main.ts:205516
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -62,7 +62,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204994
+Defined in: main.ts:205524
 
 language code in a POST array
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204992
+Defined in: main.ts:205522
 
 location code in a POST array
 
@@ -82,7 +82,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204990
+Defined in: main.ts:205520
 
 search engine domain in a POST array
 
@@ -92,6 +92,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:204988
+Defined in: main.ts:205518
 
 type of element

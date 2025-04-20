@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateLiveResultInfo
 
-Defined in: main.ts:192982
+Defined in: main.ts:193512
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:192982
 
 ### Constructor
 
-> **new ContentGenerationGenerateLiveResultInfo**(`data`?): `ContentGenerationGenerateLiveResultInfo`
+> **new ContentGenerationGenerateLiveResultInfo**(`data?`): `ContentGenerationGenerateLiveResultInfo`
 
-Defined in: main.ts:192998
+Defined in: main.ts:193528
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:192998
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:192990
+Defined in: main.ts:193520
 
 resulting text
 
@@ -54,7 +54,7 @@ resulting text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:192984
+Defined in: main.ts:193514
 
 number of input tokens
 
@@ -68,7 +68,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:192988
+Defined in: main.ts:193518
 
 number of new tokens
 
@@ -82,7 +82,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:192986
+Defined in: main.ts:193516
 
 number of output tokens
 
@@ -96,7 +96,7 @@ number of output tokens
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:192994
+Defined in: main.ts:193524
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -110,9 +110,9 @@ supplement_token values are unique for each subsequent task
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:193007
+Defined in: main.ts:193537
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:193007
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:193028
+Defined in: main.ts:193558
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:193028
 
 > `static` **fromJS**(`data`): `ContentGenerationGenerateLiveResultInfo`
 
-Defined in: main.ts:193021
+Defined in: main.ts:193551
 
 #### Parameters
 

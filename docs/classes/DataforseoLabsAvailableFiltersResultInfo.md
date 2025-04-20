@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAvailableFiltersResultInfo
 
-Defined in: main.ts:102074
+Defined in: main.ts:102186
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:102074
 
 ### Constructor
 
-> **new DataforseoLabsAvailableFiltersResultInfo**(`data`?): `DataforseoLabsAvailableFiltersResultInfo`
+> **new DataforseoLabsAvailableFiltersResultInfo**(`data?`): `DataforseoLabsAvailableFiltersResultInfo`
 
-Defined in: main.ts:102100
+Defined in: main.ts:102212
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102100
 
 > `optional` **app\_competitors**: `object`
 
-Defined in: main.ts:102094
+Defined in: main.ts:102206
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:102094
 
 > `optional` **app\_intersection**: `object`
 
-Defined in: main.ts:102093
+Defined in: main.ts:102205
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:102093
 
 > `optional` **categories\_for\_domain**: `object`
 
-Defined in: main.ts:102083
+Defined in: main.ts:102195
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:102083
 
 > `optional` **competitors\_domain**: `object`
 
-Defined in: main.ts:102082
+Defined in: main.ts:102194
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:102082
 
 > `optional` **database\_rows\_count**: `object`
 
-Defined in: main.ts:102096
+Defined in: main.ts:102208
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:102096
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:102085
+Defined in: main.ts:102197
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:102085
 
 > `optional` **domain\_metrics\_by\_categories**: `object`
 
-Defined in: main.ts:102089
+Defined in: main.ts:102201
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:102089
 
 > `optional` **domain\_whois\_overview**: `object`
 
-Defined in: main.ts:102087
+Defined in: main.ts:102199
 
 #### Index Signature
 
@@ -168,7 +168,7 @@ Defined in: main.ts:102087
 
 > `optional` **keyword\_ideas**: `object`
 
-Defined in: main.ts:102078
+Defined in: main.ts:102190
 
 #### Index Signature
 
@@ -184,7 +184,7 @@ Defined in: main.ts:102078
 
 > `optional` **keyword\_suggestions**: `object`
 
-Defined in: main.ts:102076
+Defined in: main.ts:102188
 
 #### Index Signature
 
@@ -200,7 +200,7 @@ Defined in: main.ts:102076
 
 > `optional` **keywords\_for\_app**: `object`
 
-Defined in: main.ts:102095
+Defined in: main.ts:102207
 
 #### Index Signature
 
@@ -216,7 +216,7 @@ Defined in: main.ts:102095
 
 > `optional` **keywords\_for\_categories**: `object`
 
-Defined in: main.ts:102084
+Defined in: main.ts:102196
 
 #### Index Signature
 
@@ -232,7 +232,7 @@ Defined in: main.ts:102084
 
 > `optional` **keywords\_for\_site**: `object`
 
-Defined in: main.ts:102090
+Defined in: main.ts:102202
 
 #### Index Signature
 
@@ -248,7 +248,7 @@ Defined in: main.ts:102090
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:102086
+Defined in: main.ts:102198
 
 #### Index Signature
 
@@ -264,7 +264,7 @@ Defined in: main.ts:102086
 
 > `optional` **product\_competitors**: `object`
 
-Defined in: main.ts:102091
+Defined in: main.ts:102203
 
 #### Index Signature
 
@@ -280,7 +280,7 @@ Defined in: main.ts:102091
 
 > `optional` **product\_keyword\_intersections**: `object`
 
-Defined in: main.ts:102092
+Defined in: main.ts:102204
 
 #### Index Signature
 
@@ -296,7 +296,7 @@ Defined in: main.ts:102092
 
 > `optional` **ranked\_keywords**: `object`
 
-Defined in: main.ts:102077
+Defined in: main.ts:102189
 
 #### Index Signature
 
@@ -312,7 +312,7 @@ Defined in: main.ts:102077
 
 > `optional` **related\_keywords**: `object`
 
-Defined in: main.ts:102075
+Defined in: main.ts:102187
 
 #### Index Signature
 
@@ -328,7 +328,7 @@ Defined in: main.ts:102075
 
 > `optional` **relevant\_pages**: `object`
 
-Defined in: main.ts:102080
+Defined in: main.ts:102192
 
 #### Index Signature
 
@@ -344,7 +344,7 @@ Defined in: main.ts:102080
 
 > `optional` **serp\_competitors**: `object`
 
-Defined in: main.ts:102079
+Defined in: main.ts:102191
 
 #### Index Signature
 
@@ -360,7 +360,7 @@ Defined in: main.ts:102079
 
 > `optional` **subdomains**: `object`
 
-Defined in: main.ts:102081
+Defined in: main.ts:102193
 
 #### Index Signature
 
@@ -376,7 +376,7 @@ Defined in: main.ts:102081
 
 > `optional` **top\_searches**: `object`
 
-Defined in: main.ts:102088
+Defined in: main.ts:102200
 
 #### Index Signature
 
@@ -390,9 +390,9 @@ Defined in: main.ts:102088
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:102109
+Defined in: main.ts:102221
 
 #### Parameters
 
@@ -408,9 +408,9 @@ Defined in: main.ts:102109
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:102279
+Defined in: main.ts:102391
 
 #### Parameters
 
@@ -428,7 +428,7 @@ Defined in: main.ts:102279
 
 > `static` **fromJS**(`data`): `DataforseoLabsAvailableFiltersResultInfo`
 
-Defined in: main.ts:102272
+Defined in: main.ts:102384
 
 #### Parameters
 

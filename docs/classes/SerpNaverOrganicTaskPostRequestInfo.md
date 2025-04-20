@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskPostRequestInfo
 
-Defined in: main.ts:83498
+Defined in: main.ts:83610
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:83498
 
 ### Constructor
 
-> **new SerpNaverOrganicTaskPostRequestInfo**(`data`?): `SerpNaverOrganicTaskPostRequestInfo`
+> **new SerpNaverOrganicTaskPostRequestInfo**(`data?`): `SerpNaverOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:83598
+Defined in: main.ts:83710
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:83598
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:83530
+Defined in: main.ts:83642
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:83542
+Defined in: main.ts:83654
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:83506
+Defined in: main.ts:83618
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:83537
+Defined in: main.ts:83649
 
 page crawl limit
 optional field
@@ -117,7 +117,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:83549
+Defined in: main.ts:83661
 
 device operating system
 optional field
@@ -136,7 +136,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:83594
+Defined in: main.ts:83706
 
 notification URL of a completed task
 optional field
@@ -159,7 +159,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:83583
+Defined in: main.ts:83695
 
 postback_url datatype
 required field if you specify postback_url
@@ -177,7 +177,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:83577
+Defined in: main.ts:83689
 
 return URL for sending task results
 optional field
@@ -200,7 +200,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:83521
+Defined in: main.ts:83633
 
 task priority
 optional field
@@ -220,7 +220,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:83556
+Defined in: main.ts:83668
 
 search engine domain
 optional field
@@ -239,7 +239,7 @@ search.naver.com
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:83560
+Defined in: main.ts:83672
 
 additional parameters of the search query
 optional field
@@ -255,7 +255,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:83566
+Defined in: main.ts:83678
 
 user-defined task identifier
 optional field
@@ -273,7 +273,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:83513
+Defined in: main.ts:83625
 
 direct URL of the search query
 optional field
@@ -290,9 +290,9 @@ https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&qu
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:83607
+Defined in: main.ts:83719
 
 #### Parameters
 
@@ -308,9 +308,9 @@ Defined in: main.ts:83607
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:83636
+Defined in: main.ts:83748
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:83636
 
 > `static` **fromJS**(`data`): `SerpNaverOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:83629
+Defined in: main.ts:83741
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IFetchTiming
 
-Defined in: main.ts:179859
+Defined in: main.ts:180269
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:179859
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:179861
+Defined in: main.ts:180271
 
 indicates how many milliseconds it took to fetch a resource
 
@@ -28,7 +28,7 @@ indicates how many milliseconds it took to fetch a resource
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:179867
+Defined in: main.ts:180277
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -39,7 +39,7 @@ the amount of time a browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:179864
+Defined in: main.ts:180274
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource

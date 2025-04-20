@@ -6,7 +6,7 @@
 
 # Class: DiscussionsAndForumsElement
 
-Defined in: main.ts:40289
+Defined in: main.ts:40297
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:40289
 
 ### Constructor
 
-> **new DiscussionsAndForumsElement**(`data`?): `DiscussionsAndForumsElement`
+> **new DiscussionsAndForumsElement**(`data?`): `DiscussionsAndForumsElement`
 
-Defined in: main.ts:40313
+Defined in: main.ts:40321
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:40313
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:40302
+Defined in: main.ts:40310
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:40297
+Defined in: main.ts:40305
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **posts\_count**: `number`
 
-Defined in: main.ts:40309
+Defined in: main.ts:40317
 
 number of posts from the discussion on the related source
 
@@ -82,7 +82,7 @@ number of posts from the discussion on the related source
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:40300
+Defined in: main.ts:40308
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -97,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:40307
+Defined in: main.ts:40315
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,7 +114,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40293
+Defined in: main.ts:40301
 
 title of a given link element
 
@@ -128,7 +128,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:40291
+Defined in: main.ts:40299
 
 type of element
 
@@ -142,7 +142,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40295
+Defined in: main.ts:40303
 
 URL
 
@@ -154,9 +154,9 @@ URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:40322
+Defined in: main.ts:40330
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:40322
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:40346
+Defined in: main.ts:40354
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:40346
 
 > `static` **fromJS**(`data`): `DiscussionsAndForumsElement`
 
-Defined in: main.ts:40339
+Defined in: main.ts:40347
 
 #### Parameters
 

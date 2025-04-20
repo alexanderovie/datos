@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
 
-Defined in: main.ts:207962
+Defined in: main.ts:208492
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:207962
 
 ### Constructor
 
-> **new MerchantAmazonSellersTaskGetAdvancedResultInfo**(`data`?): `MerchantAmazonSellersTaskGetAdvancedResultInfo`
+> **new MerchantAmazonSellersTaskGetAdvancedResultInfo**(`data?`): `MerchantAmazonSellersTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:208000
+Defined in: main.ts:208530
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208000
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:207965
+Defined in: main.ts:208495
 
 asin received in a POST array
 learn more about ASINs in this help center guide
@@ -55,7 +55,7 @@ learn more about ASINs in this help center guide
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:207976
+Defined in: main.ts:208506
 
 direct URL to Amazon results
 you can use it to make sure the provided results are accurate
@@ -70,7 +70,7 @@ you can use it to make sure the provided results are accurate
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:207981
+Defined in: main.ts:208511
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -87,7 +87,7 @@ example:
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:207987
+Defined in: main.ts:208517
 
 product image url
 image URL of the product relevant to the asin received in a POST array
@@ -102,7 +102,7 @@ image URL of the product relevant to the asin received in a POST array
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:207992
+Defined in: main.ts:208522
 
 types of search results found in Amazon Sellers SERP
 contains types of all search results (items) found in the returned SERP
@@ -119,7 +119,7 @@ amazon_seller_main_item, amazon_seller_item
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:207996
+Defined in: main.ts:208526
 
 items in SERP
 
@@ -133,7 +133,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:207994
+Defined in: main.ts:208524
 
 the number of results returned in the items array
 
@@ -147,7 +147,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:207973
+Defined in: main.ts:208503
 
 language code received in a POST array
 
@@ -161,7 +161,7 @@ language code received in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:207971
+Defined in: main.ts:208501
 
 location code received in a POST array
 
@@ -175,7 +175,7 @@ location code received in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:207969
+Defined in: main.ts:208499
 
 search engine domain received in a POST array
 
@@ -189,7 +189,7 @@ search engine domain received in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:207984
+Defined in: main.ts:208514
 
 product title
 title of the product relevant to the asin received in a POST array
@@ -204,7 +204,7 @@ title of the product relevant to the asin received in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:207967
+Defined in: main.ts:208497
 
 type of element
 
@@ -216,9 +216,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:208009
+Defined in: main.ts:208539
 
 #### Parameters
 
@@ -234,9 +234,9 @@ Defined in: main.ts:208009
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:208045
+Defined in: main.ts:208575
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:208045
 
 > `static` **fromJS**(`data`): `MerchantAmazonSellersTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:208038
+Defined in: main.ts:208568
 
 #### Parameters
 

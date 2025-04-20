@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
-Defined in: main.ts:224002
+Defined in: main.ts:224532
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:224002
 
 ### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data`?): `BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data?`): `BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
 
-Defined in: main.ts:224021
+Defined in: main.ts:224551
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224021
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:224007
+Defined in: main.ts:224537
 
 item types
 the number of items in the items array
@@ -55,7 +55,7 @@ the number of items in the items array
 
 > `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
-Defined in: main.ts:224017
+Defined in: main.ts:224547
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -71,7 +71,7 @@ possible item types: business_category
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:224009
+Defined in: main.ts:224539
 
 offset in the results array of returned categories
 
@@ -85,7 +85,7 @@ offset in the results array of returned categories
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:224013
+Defined in: main.ts:224543
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -101,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:224004
+Defined in: main.ts:224534
 
 total number of results in our database relevant to your request
 
@@ -113,9 +113,9 @@ total number of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:224030
+Defined in: main.ts:224560
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:224030
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:224055
+Defined in: main.ts:224585
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:224055
 
 > `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`
 
-Defined in: main.ts:224048
+Defined in: main.ts:224578
 
 #### Parameters
 

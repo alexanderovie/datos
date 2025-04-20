@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonSellerMainItemSerpElementItem
 
-Defined in: main.ts:207822
+Defined in: main.ts:208352
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:207822
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:207841
+Defined in: main.ts:208371
 
 product condition
 condition of the product offered by the seller
@@ -33,7 +33,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:207844
+Defined in: main.ts:208374
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -44,7 +44,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
-Defined in: main.ts:207847
+Defined in: main.ts:208377
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -55,7 +55,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:207826
+Defined in: main.ts:208356
 
 alignment of the element in SERP
 possible values:
@@ -67,7 +67,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:207835
+Defined in: main.ts:208365
 
 product pricing details
 if there are no details, the value will be null
@@ -78,7 +78,7 @@ if there are no details, the value will be null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24454
+Defined in: main.ts:24462
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -93,7 +93,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24451
+Defined in: main.ts:24459
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -108,7 +108,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:207838
+Defined in: main.ts:208368
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -119,7 +119,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:207828
+Defined in: main.ts:208358
 
 business name of the seller
 
@@ -129,7 +129,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:207830
+Defined in: main.ts:208360
 
 url forwarding to the seller’s page on Amazon
 
@@ -139,7 +139,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:207832
+Defined in: main.ts:208362
 
 sender company name
 
@@ -149,7 +149,7 @@ sender company name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24448
+Defined in: main.ts:24456
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24456
+Defined in: main.ts:24464
 
 the XPath of the element
 

@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetRegularResultInfo
 
-Defined in: main.ts:84288
+Defined in: main.ts:84400
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:84288
 
 ### Constructor
 
-> **new SerpNaverOrganicTaskGetRegularResultInfo**(`data`?): `SerpNaverOrganicTaskGetRegularResultInfo`
+> **new SerpNaverOrganicTaskGetRegularResultInfo**(`data?`): `SerpNaverOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:84331
+Defined in: main.ts:84443
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84331
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:84302
+Defined in: main.ts:84414
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:84307
+Defined in: main.ts:84419
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:84321
+Defined in: main.ts:84433
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -92,7 +92,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:84327
+Defined in: main.ts:84439
 
 items in SERP
 
@@ -106,7 +106,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:84325
+Defined in: main.ts:84437
 
 the number of results returned in the items array
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:84291
+Defined in: main.ts:84403
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -135,7 +135,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:84299
+Defined in: main.ts:84411
 
 language code in a POST array
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84297
+Defined in: main.ts:84409
 
 location code in a POST array
 
@@ -163,7 +163,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:84313
+Defined in: main.ts:84425
 
 search refinement chips
 equals null
@@ -178,7 +178,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:84295
+Defined in: main.ts:84407
 
 search engine domain in a POST array
 
@@ -192,7 +192,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:84323
+Defined in: main.ts:84435
 
 total number of results in SERP
 
@@ -206,7 +206,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:84310
+Defined in: main.ts:84422
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -221,7 +221,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:84293
+Defined in: main.ts:84405
 
 type of element
 
@@ -233,9 +233,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:84340
+Defined in: main.ts:84452
 
 #### Parameters
 
@@ -251,9 +251,9 @@ Defined in: main.ts:84340
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:84377
+Defined in: main.ts:84489
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:84377
 
 > `static` **fromJS**(`data`): `SerpNaverOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:84370
+Defined in: main.ts:84482
 
 #### Parameters
 

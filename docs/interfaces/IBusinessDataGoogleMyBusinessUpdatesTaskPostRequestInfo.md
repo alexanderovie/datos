@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
-Defined in: main.ts:227070
+Defined in: main.ts:227600
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:227070
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:227133
+Defined in: main.ts:227663
 
 parsing depth
 optional field
@@ -33,7 +33,7 @@ default value: 10
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:227081
+Defined in: main.ts:227611
 
 keyword
 required field
@@ -52,7 +52,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:227126
+Defined in: main.ts:227656
 
 search engine language code
 required field if you don’t specify language_name
@@ -67,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:227119
+Defined in: main.ts:227649
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -82,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227103
+Defined in: main.ts:227633
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:227112
+Defined in: main.ts:227642
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -114,7 +114,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:227096
+Defined in: main.ts:227626
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -129,7 +129,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:227161
+Defined in: main.ts:227691
 
 notification URL of a completed task
 optional field
@@ -148,7 +148,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:227150
+Defined in: main.ts:227680
 
 return URL for sending task results
 optional field
@@ -167,7 +167,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:227089
+Defined in: main.ts:227619
 
 task priority
 optional field
@@ -183,7 +183,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:227139
+Defined in: main.ts:227669
 
 user-defined task identifier
 optional field

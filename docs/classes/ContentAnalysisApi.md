@@ -6,15 +6,15 @@
 
 # Class: ContentAnalysisApi
 
-Defined in: main.ts:15265
+Defined in: main.ts:15268
 
 ## Constructors
 
 ### Constructor
 
-> **new ContentAnalysisApi**(`baseUrl`?, `http`?): `ContentAnalysisApi`
+> **new ContentAnalysisApi**(`baseUrl?`, `http?`): `ContentAnalysisApi`
 
-Defined in: main.ts:15270
+Defined in: main.ts:15273
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:15270
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:15268
+Defined in: main.ts:15271
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:15268
 
 > **categoryTrendsLive**(`body`): `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15679
+Defined in: main.ts:15682
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Successful operation
 
 > **contentAnalysisAvailableFilters**(): `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:15320
+Defined in: main.ts:15323
 
 #### Returns
 
@@ -94,7 +94,7 @@ Successful operation
 
 > **contentAnalysisCategories**(): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:15431
+Defined in: main.ts:15434
 
 #### Returns
 
@@ -108,7 +108,7 @@ Successful operation
 
 > **contentAnalysisIdList**(`body`): `Promise`\<[`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)\>
 
-Defined in: main.ts:15279
+Defined in: main.ts:15282
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Successful operation
 
 > **contentAnalysisLanguages**(): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15394
+Defined in: main.ts:15397
 
 #### Returns
 
@@ -144,7 +144,7 @@ Successful operation
 
 > **contentAnalysisLocations**(): `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
 
-Defined in: main.ts:15357
+Defined in: main.ts:15360
 
 #### Returns
 
@@ -158,7 +158,7 @@ Successful operation
 
 > **contentAnalysisSummaryLive**(`body`): `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:15511
+Defined in: main.ts:15514
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Successful operation
 
 > **phraseTrendsLive**(`body`): `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15637
+Defined in: main.ts:15640
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Successful operation
 
 > `protected` **processCategoryTrendsLive**(`response`): `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15699
+Defined in: main.ts:15702
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:15699
 
 > `protected` **processContentAnalysisAvailableFilters**(`response`): `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:15336
+Defined in: main.ts:15339
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:15336
 
 > `protected` **processContentAnalysisCategories**(`response`): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:15447
+Defined in: main.ts:15450
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:15447
 
 > `protected` **processContentAnalysisIdList**(`response`): `Promise`\<[`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)\>
 
-Defined in: main.ts:15299
+Defined in: main.ts:15302
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:15299
 
 > `protected` **processContentAnalysisLanguages**(`response`): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15410
+Defined in: main.ts:15413
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: main.ts:15410
 
 > `protected` **processContentAnalysisLocations**(`response`): `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
 
-Defined in: main.ts:15373
+Defined in: main.ts:15376
 
 #### Parameters
 
@@ -310,7 +310,7 @@ Defined in: main.ts:15373
 
 > `protected` **processContentAnalysisSummaryLive**(`response`): `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:15531
+Defined in: main.ts:15534
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:15531
 
 > `protected` **processPhraseTrendsLive**(`response`): `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
 
-Defined in: main.ts:15657
+Defined in: main.ts:15660
 
 #### Parameters
 
@@ -346,7 +346,7 @@ Defined in: main.ts:15657
 
 > `protected` **processRatingDistributionLive**(`response`): `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
 
-Defined in: main.ts:15615
+Defined in: main.ts:15618
 
 #### Parameters
 
@@ -364,7 +364,7 @@ Defined in: main.ts:15615
 
 > `protected` **processSearchLive**(`response`): `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:15489
+Defined in: main.ts:15492
 
 #### Parameters
 
@@ -382,7 +382,7 @@ Defined in: main.ts:15489
 
 > `protected` **processSentimentAnalysisLive**(`response`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
 
-Defined in: main.ts:15573
+Defined in: main.ts:15576
 
 #### Parameters
 
@@ -400,7 +400,7 @@ Defined in: main.ts:15573
 
 > **ratingDistributionLive**(`body`): `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
 
-Defined in: main.ts:15595
+Defined in: main.ts:15598
 
 #### Parameters
 
@@ -422,7 +422,7 @@ Successful operation
 
 > **searchLive**(`body`): `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:15469
+Defined in: main.ts:15472
 
 #### Parameters
 
@@ -444,7 +444,7 @@ Successful operation
 
 > **sentimentAnalysisLive**(`body`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
 
-Defined in: main.ts:15553
+Defined in: main.ts:15556
 
 #### Parameters
 

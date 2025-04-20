@@ -6,7 +6,7 @@
 
 # Interface: IFeaturedSnippetSerpElementItem
 
-Defined in: main.ts:31004
+Defined in: main.ts:31012
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31004
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:31014
+Defined in: main.ts:31022
 
 breadcrumb of the ad element in SERP
 
@@ -32,7 +32,7 @@ breadcrumb of the ad element in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31010
+Defined in: main.ts:31018
 
 description of the ad element in SERP
 
@@ -42,7 +42,7 @@ description of the ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31006
+Defined in: main.ts:31014
 
 domain of the ad element in SERP
 
@@ -52,7 +52,7 @@ domain of the ad element in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:31022
+Defined in: main.ts:31030
 
 title
 
@@ -62,7 +62,7 @@ title
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:31029
+Defined in: main.ts:31037
 
 images of the element
 
@@ -72,7 +72,7 @@ images of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31018
+Defined in: main.ts:31026
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,7 +84,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -99,7 +99,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31036
+Defined in: main.ts:31044
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -127,7 +127,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:31032
+Defined in: main.ts:31040
 
 results table
 if there are none, equals null
@@ -138,7 +138,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31027
+Defined in: main.ts:31035
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -151,7 +151,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31008
+Defined in: main.ts:31016
 
 title of the ad element in SERP
 
@@ -161,7 +161,7 @@ title of the ad element in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -175,7 +175,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31012
+Defined in: main.ts:31020
 
 relevant URL of the ad element in SERP
 
@@ -185,6 +185,6 @@ relevant URL of the ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31020
+Defined in: main.ts:31028
 
 the XPath of the element

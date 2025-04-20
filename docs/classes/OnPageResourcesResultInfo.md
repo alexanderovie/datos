@@ -6,7 +6,7 @@
 
 # Class: OnPageResourcesResultInfo
 
-Defined in: main.ts:180050
+Defined in: main.ts:180388
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180050
 
 ### Constructor
 
-> **new OnPageResourcesResultInfo**(`data`?): `OnPageResourcesResultInfo`
+> **new OnPageResourcesResultInfo**(`data?`): `OnPageResourcesResultInfo`
 
-Defined in: main.ts:180065
+Defined in: main.ts:180403
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180065
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:180053
+Defined in: main.ts:180391
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:180055
+Defined in: main.ts:180393
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:180061
+Defined in: main.ts:180399
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:180059
+Defined in: main.ts:180397
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:180057
+Defined in: main.ts:180395
 
 total number of relevant items crawled
 
@@ -109,9 +109,9 @@ total number of relevant items crawled
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180074
+Defined in: main.ts:180412
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:180074
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180099
+Defined in: main.ts:180437
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:180099
 
 > `static` **fromJS**(`data`): `OnPageResourcesResultInfo`
 
-Defined in: main.ts:180092
+Defined in: main.ts:180430
 
 #### Parameters
 

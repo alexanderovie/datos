@@ -6,7 +6,7 @@
 
 # Class: HotelsPackSerpElementItem
 
-Defined in: main.ts:38105
+Defined in: main.ts:38113
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:38105
 
 ### Constructor
 
-> **new HotelsPackSerpElementItem**(`data`?): `HotelsPackSerpElementItem`
+> **new HotelsPackSerpElementItem**(`data?`): `HotelsPackSerpElementItem`
 
-Defined in: main.ts:38133
+Defined in: main.ts:38141
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38133
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:38118
+Defined in: main.ts:38126
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:38123
+Defined in: main.ts:38131
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:38125
+Defined in: main.ts:38133
 
 contains arrays of specific images
 
@@ -108,7 +108,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38109
+Defined in: main.ts:38117
 
 the alignment of the element in SERP
 can take the following values:
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38129
+Defined in: main.ts:38137
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -179,7 +179,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38113
+Defined in: main.ts:38121
 
 title of the row
 
@@ -193,7 +193,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -211,7 +211,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38111
+Defined in: main.ts:38119
 
 the XPath of the element
 
@@ -223,9 +223,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38138
+Defined in: main.ts:38146
 
 #### Parameters
 
@@ -245,9 +245,9 @@ Defined in: main.ts:38138
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38166
+Defined in: main.ts:38174
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:38166
 
 > `static` **fromJS**(`data`): `HotelsPackSerpElementItem`
 
-Defined in: main.ts:38159
+Defined in: main.ts:38167
 
 #### Parameters
 

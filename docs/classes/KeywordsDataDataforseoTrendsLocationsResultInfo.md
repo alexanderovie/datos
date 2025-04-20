@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsLocationsResultInfo
 
-Defined in: main.ts:147254
+Defined in: main.ts:147378
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:147254
 
 ### Constructor
 
-> **new KeywordsDataDataforseoTrendsLocationsResultInfo**(`data`?): `KeywordsDataDataforseoTrendsLocationsResultInfo`
+> **new KeywordsDataDataforseoTrendsLocationsResultInfo**(`data?`): `KeywordsDataDataforseoTrendsLocationsResultInfo`
 
-Defined in: main.ts:147282
+Defined in: main.ts:147406
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147282
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:147269
+Defined in: main.ts:147393
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:147278
+Defined in: main.ts:147402
 
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -69,7 +69,7 @@ you can use this field for matching obtained results with the location_code para
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:147275
+Defined in: main.ts:147399
 
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -84,7 +84,7 @@ you can use this field for matching obtained results with the location_name para
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147256
+Defined in: main.ts:147380
 
 location code
 
@@ -98,7 +98,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:147267
+Defined in: main.ts:147391
 
 the code of the superordinate location
 example:
@@ -119,7 +119,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147258
+Defined in: main.ts:147382
 
 full name of the location
 
@@ -133,7 +133,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:147272
+Defined in: main.ts:147396
 
 location type
 possible values according to Google’s target types
@@ -146,9 +146,9 @@ possible values according to Google’s target types
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:147291
+Defined in: main.ts:147415
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:147291
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:147314
+Defined in: main.ts:147438
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:147314
 
 > `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsLocationsResultInfo`
 
-Defined in: main.ts:147307
+Defined in: main.ts:147431
 
 #### Parameters
 

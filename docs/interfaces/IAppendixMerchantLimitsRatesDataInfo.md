@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMerchantLimitsRatesDataInfo
 
-Defined in: main.ts:243556
+Defined in: main.ts:244086
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:243556
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:243558
+Defined in: main.ts:244088
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:243558
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243561
+Defined in: main.ts:244091
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:243561
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:243557
+Defined in: main.ts:244087
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:243557
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:243560
+Defined in: main.ts:244090
 
 ***
 
@@ -50,15 +50,15 @@ Defined in: main.ts:243560
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:243559
+Defined in: main.ts:244089
 
 ***
 
 ### reviews?
 
-> `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **reviews**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:243562
+Defined in: main.ts:244092
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:243562
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243563
+Defined in: main.ts:244093

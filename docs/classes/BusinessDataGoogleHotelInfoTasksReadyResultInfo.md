@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
-Defined in: main.ts:230570
+Defined in: main.ts:231100
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:230570
 
 ### Constructor
 
-> **new BusinessDataGoogleHotelInfoTasksReadyResultInfo**(`data`?): `BusinessDataGoogleHotelInfoTasksReadyResultInfo`
+> **new BusinessDataGoogleHotelInfoTasksReadyResultInfo**(`data?`): `BusinessDataGoogleHotelInfoTasksReadyResultInfo`
 
-Defined in: main.ts:230590
+Defined in: main.ts:231120
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230590
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:230580
+Defined in: main.ts:231110
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:230584
+Defined in: main.ts:231114
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:230586
+Defined in: main.ts:231116
 
 URL for collecting the results of the task
 
@@ -82,7 +82,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:230573
+Defined in: main.ts:231103
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:230576
+Defined in: main.ts:231106
 
 search engine specified when setting the task
 can take the following values: google
@@ -112,7 +112,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:230578
+Defined in: main.ts:231108
 
 search engine specified when setting the task
 
@@ -126,7 +126,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230582
+Defined in: main.ts:231112
 
 user-defined task identifier
 
@@ -138,9 +138,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:230599
+Defined in: main.ts:231129
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:230599
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:230622
+Defined in: main.ts:231152
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:230622
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleHotelInfoTasksReadyResultInfo`
 
-Defined in: main.ts:230615
+Defined in: main.ts:231145
 
 #### Parameters
 

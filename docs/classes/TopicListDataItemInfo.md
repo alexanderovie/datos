@@ -6,7 +6,7 @@
 
 # Class: TopicListDataItemInfo
 
-Defined in: main.ts:147003
+Defined in: main.ts:147127
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:147003
 
 ### Constructor
 
-> **new TopicListDataItemInfo**(`data`?): `TopicListDataItemInfo`
+> **new TopicListDataItemInfo**(`data?`): `TopicListDataItemInfo`
 
-Defined in: main.ts:147017
+Defined in: main.ts:147141
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147017
 
 > `optional` **topic\_id**: `string`
 
-Defined in: main.ts:147005
+Defined in: main.ts:147129
 
 unique topic identifier in Google Trends
 
@@ -54,7 +54,7 @@ unique topic identifier in Google Trends
 
 > `optional` **topic\_title**: `string`
 
-Defined in: main.ts:147007
+Defined in: main.ts:147131
 
 title of the topic
 
@@ -68,7 +68,7 @@ title of the topic
 
 > `optional` **topic\_type**: `string`
 
-Defined in: main.ts:147010
+Defined in: main.ts:147134
 
 type of the topic
 represents the general type of the topic
@@ -83,7 +83,7 @@ represents the general type of the topic
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:147013
+Defined in: main.ts:147137
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -96,9 +96,9 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:147026
+Defined in: main.ts:147150
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:147026
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:147046
+Defined in: main.ts:147170
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:147046
 
 > `static` **fromJS**(`data`): `TopicListDataItemInfo`
 
-Defined in: main.ts:147039
+Defined in: main.ts:147163
 
 #### Parameters
 

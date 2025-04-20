@@ -6,7 +6,7 @@
 
 # Class: ContentCommentInfo
 
-Defined in: main.ts:27137
+Defined in: main.ts:27145
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27137
 
 ### Constructor
 
-> **new ContentCommentInfo**(`data`?): `ContentCommentInfo`
+> **new ContentCommentInfo**(`data?`): `ContentCommentInfo`
 
-Defined in: main.ts:27154
+Defined in: main.ts:27162
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27154
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:27146
+Defined in: main.ts:27154
 
 author of the comment
 
@@ -54,7 +54,7 @@ author of the comment
 
 > `optional` **have\_form**: `boolean`
 
-Defined in: main.ts:27147
+Defined in: main.ts:27155
 
 #### Implementation of
 
@@ -66,7 +66,7 @@ Defined in: main.ts:27147
 
 > `optional` **primary\_content**: [`SectionContentItemInfo`](SectionContentItemInfo.md)[]
 
-Defined in: main.ts:27150
+Defined in: main.ts:27158
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -81,7 +81,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **publish\_date**: `string`
 
-Defined in: main.ts:27144
+Defined in: main.ts:27152
 
 date when the comment was published
 
@@ -95,7 +95,7 @@ date when the comment was published
 
 > `optional` **rating**: [`ContentRatingInfo`](ContentRatingInfo.md)
 
-Defined in: main.ts:27140
+Defined in: main.ts:27148
 
 product’s rating
 contains information about the rating a customer has given to the product
@@ -110,7 +110,7 @@ contains information about the rating a customer has given to the product
 
 > `optional` **title**: `number`
 
-Defined in: main.ts:27142
+Defined in: main.ts:27150
 
 title of the customer’s comment
 
@@ -122,9 +122,9 @@ title of the customer’s comment
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27163
+Defined in: main.ts:27171
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:27163
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27189
+Defined in: main.ts:27197
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:27189
 
 > `static` **fromJS**(`data`): `ContentCommentInfo`
 
-Defined in: main.ts:27182
+Defined in: main.ts:27190
 
 #### Parameters
 

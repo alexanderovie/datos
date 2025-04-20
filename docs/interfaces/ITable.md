@@ -6,7 +6,7 @@
 
 # Interface: ITable
 
-Defined in: main.ts:24909
+Defined in: main.ts:24917
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:24909
 
 > `optional` **table\_content**: `string`[][]
 
-Defined in: main.ts:24918
+Defined in: main.ts:24926
 
 the content of the table
 one line of the table in this element of the array
@@ -29,7 +29,7 @@ one line of the table in this element of the array
 
 > `optional` **table\_element**: `string`
 
-Defined in: main.ts:24913
+Defined in: main.ts:24921
 
 name assigned to the table element
 possible values:
@@ -41,6 +41,6 @@ table_element
 
 > `optional` **table\_header**: `string`[]
 
-Defined in: main.ts:24915
+Defined in: main.ts:24923
 
 column names

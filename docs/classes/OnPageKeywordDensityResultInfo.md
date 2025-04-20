@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityResultInfo
 
-Defined in: main.ts:183274
+Defined in: main.ts:183684
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:183274
 
 ### Constructor
 
-> **new OnPageKeywordDensityResultInfo**(`data`?): `OnPageKeywordDensityResultInfo`
+> **new OnPageKeywordDensityResultInfo**(`data?`): `OnPageKeywordDensityResultInfo`
 
-Defined in: main.ts:183290
+Defined in: main.ts:183700
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183290
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:183277
+Defined in: main.ts:183687
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:183279
+Defined in: main.ts:183689
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)[]
 
-Defined in: main.ts:183286
+Defined in: main.ts:183696
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183284
+Defined in: main.ts:183694
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:183282
+Defined in: main.ts:183692
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
@@ -110,9 +110,9 @@ total number of keywords on the specified website or web page matching the set k
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:183299
+Defined in: main.ts:183709
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:183299
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:183324
+Defined in: main.ts:183734
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:183324
 
 > `static` **fromJS**(`data`): `OnPageKeywordDensityResultInfo`
 
-Defined in: main.ts:183317
+Defined in: main.ts:183727
 
 #### Parameters
 

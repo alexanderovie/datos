@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppendixDataInfo
 
-Defined in: main.ts:244829
+Defined in: main.ts:245447
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:244829
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:244831
+Defined in: main.ts:245449
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:244831
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:244832
+Defined in: main.ts:245450
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:244832
 
 > `optional` **test**: `number`
 
-Defined in: main.ts:244833
+Defined in: main.ts:245451
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:244833
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:244830
+Defined in: main.ts:245448

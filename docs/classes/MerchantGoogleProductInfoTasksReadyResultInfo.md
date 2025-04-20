@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductInfoTasksReadyResultInfo
 
-Defined in: main.ts:201894
+Defined in: main.ts:202424
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:201894
 
 ### Constructor
 
-> **new MerchantGoogleProductInfoTasksReadyResultInfo**(`data`?): `MerchantGoogleProductInfoTasksReadyResultInfo`
+> **new MerchantGoogleProductInfoTasksReadyResultInfo**(`data?`): `MerchantGoogleProductInfoTasksReadyResultInfo`
 
-Defined in: main.ts:201915
+Defined in: main.ts:202445
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:201915
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:201904
+Defined in: main.ts:202434
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:201908
+Defined in: main.ts:202438
 
 URL for collecting the results of the Google Shopping Product Specifications Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Google Shopping Product Specifications Adv
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:201911
+Defined in: main.ts:202441
 
 URL for collecting the results of the Google Shopping Product Specifications HTML task
 note: HTML is not available for this endpoint, the value will be null
@@ -83,7 +83,7 @@ note: HTML is not available for this endpoint, the value will be null
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:201897
+Defined in: main.ts:202427
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:201899
+Defined in: main.ts:202429
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:201902
+Defined in: main.ts:202432
 
 type of search engine
 can take the following values: shopping_specifications
@@ -127,7 +127,7 @@ can take the following values: shopping_specifications
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:201906
+Defined in: main.ts:202436
 
 user-defined task identifier
 
@@ -139,9 +139,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:201924
+Defined in: main.ts:202454
 
 #### Parameters
 
@@ -157,9 +157,9 @@ Defined in: main.ts:201924
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:201947
+Defined in: main.ts:202477
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:201947
 
 > `static` **fromJS**(`data`): `MerchantGoogleProductInfoTasksReadyResultInfo`
 
-Defined in: main.ts:201940
+Defined in: main.ts:202470
 
 #### Parameters
 

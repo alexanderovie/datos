@@ -6,7 +6,7 @@
 
 # Interface: IRowCellInfo
 
-Defined in: main.ts:26978
+Defined in: main.ts:26986
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26978
 
 > `optional` **is\_header**: `boolean`
 
-Defined in: main.ts:26984
+Defined in: main.ts:26992
 
 content of the row cells of the header
 
@@ -28,7 +28,7 @@ content of the row cells of the header
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:26980
+Defined in: main.ts:26988
 
 content of the row cells of the header
 
@@ -38,6 +38,6 @@ content of the row cells of the header
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
-Defined in: main.ts:26982
+Defined in: main.ts:26990
 
 contains other URLs and anchors found in the content element

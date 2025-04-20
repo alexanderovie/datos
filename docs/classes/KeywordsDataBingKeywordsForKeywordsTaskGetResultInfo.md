@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
 
-Defined in: main.ts:155326
+Defined in: main.ts:155450
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:155326
 
 ### Constructor
 
-> **new KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo**(`data`?): `KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`
+> **new KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo**(`data?`): `KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`
 
-Defined in: main.ts:155366
+Defined in: main.ts:155490
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155366
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:155358
+Defined in: main.ts:155482
 
 product and service categories
 legacy field, the value will always be null
@@ -55,7 +55,7 @@ legacy field, the value will always be null
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:155346
+Defined in: main.ts:155470
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -75,7 +75,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:155350
+Defined in: main.ts:155474
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -91,7 +91,7 @@ if there is no data, then the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:155338
+Defined in: main.ts:155462
 
 device type
 indicates for what device type the data is provided;
@@ -107,7 +107,7 @@ possible values: all, mobile, desktop, tablet
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:155328
+Defined in: main.ts:155452
 
 keyword in a POST array
 
@@ -121,7 +121,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155332
+Defined in: main.ts:155456
 
 language code in a POST array
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:155330
+Defined in: main.ts:155454
 
 location code in a POST array
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:155362
+Defined in: main.ts:155486
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
@@ -165,7 +165,7 @@ if there is no data, then the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:155334
+Defined in: main.ts:155458
 
 indicates whether data from partner networks included in the response
 
@@ -179,7 +179,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:155355
+Defined in: main.ts:155479
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targeting
@@ -194,9 +194,9 @@ if there is no data, then the value is null
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:155375
+Defined in: main.ts:155499
 
 #### Parameters
 
@@ -212,9 +212,9 @@ Defined in: main.ts:155375
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:155409
+Defined in: main.ts:155533
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:155409
 
 > `static` **fromJS**(`data`): `KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`
 
-Defined in: main.ts:155402
+Defined in: main.ts:155526
 
 #### Parameters
 

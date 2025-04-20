@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:110698
+Defined in: main.ts:110820
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:110698
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data`?): `DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
+> **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data?`): `DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:110749
+Defined in: main.ts:110871
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110749
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:110723
+Defined in: main.ts:110845
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:110703
+Defined in: main.ts:110825
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:110708
+Defined in: main.ts:110830
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:110739
+Defined in: main.ts:110861
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:110745
+Defined in: main.ts:110867
 
 user-defined task identifier
 optional field
@@ -145,9 +145,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:110758
+Defined in: main.ts:110880
 
 #### Parameters
 
@@ -163,9 +163,9 @@ Defined in: main.ts:110758
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:110787
+Defined in: main.ts:110909
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: main.ts:110787
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:110780
+Defined in: main.ts:110902
 
 #### Parameters
 

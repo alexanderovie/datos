@@ -6,7 +6,7 @@
 
 # Class: BusinessDataErrorsResultInfo
 
-Defined in: main.ts:221598
+Defined in: main.ts:222128
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:221598
 
 ### Constructor
 
-> **new BusinessDataErrorsResultInfo**(`data`?): `BusinessDataErrorsResultInfo`
+> **new BusinessDataErrorsResultInfo**(`data?`): `BusinessDataErrorsResultInfo`
 
-Defined in: main.ts:221629
+Defined in: main.ts:222159
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221629
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:221605
+Defined in: main.ts:222135
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:221609
+Defined in: main.ts:222139
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:221612
+Defined in: main.ts:222142
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:221607
+Defined in: main.ts:222137
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:221619
+Defined in: main.ts:222149
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:221617
+Defined in: main.ts:222147
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:221625
+Defined in: main.ts:222155
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:221622
+Defined in: main.ts:222152
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:221615
+Defined in: main.ts:222145
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:221600
+Defined in: main.ts:222130
 
 id of the task
 
@@ -185,9 +185,9 @@ id of the task
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:221638
+Defined in: main.ts:222168
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:221638
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:221664
+Defined in: main.ts:222194
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:221664
 
 > `static` **fromJS**(`data`): `BusinessDataErrorsResultInfo`
 
-Defined in: main.ts:221657
+Defined in: main.ts:222187
 
 #### Parameters
 

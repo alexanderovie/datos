@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMostFollowedSerpElementItem
 
-Defined in: main.ts:88702
+Defined in: main.ts:88814
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:88702
 
 ### Constructor
 
-> **new GoogleFinanceMostFollowedSerpElementItem**(`data`?): `GoogleFinanceMostFollowedSerpElementItem`
+> **new GoogleFinanceMostFollowedSerpElementItem**(`data?`): `GoogleFinanceMostFollowedSerpElementItem`
 
-Defined in: main.ts:88710
+Defined in: main.ts:88822
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88710
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22347
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88706
+Defined in: main.ts:88818
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88715
+Defined in: main.ts:88827
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:88715
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88737
+Defined in: main.ts:88849
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:88737
 
 > `static` **fromJS**(`data`): `GoogleFinanceMostFollowedSerpElementItem`
 
-Defined in: main.ts:88730
+Defined in: main.ts:88842
 
 #### Parameters
 

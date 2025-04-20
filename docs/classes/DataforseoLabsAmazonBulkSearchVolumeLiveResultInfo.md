@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:123892
+Defined in: main.ts:124014
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:123892
 
 ### Constructor
 
-> **new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo**(`data`?): `DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
+> **new DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo**(`data?`): `DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:123910
+Defined in: main.ts:124032
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123910
 
 > `optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:123906
+Defined in: main.ts:124028
 
 contains keyword search volume data data
 
@@ -54,7 +54,7 @@ contains keyword search volume data data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123904
+Defined in: main.ts:124026
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123900
+Defined in: main.ts:124022
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123897
+Defined in: main.ts:124019
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123894
+Defined in: main.ts:124016
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123902
+Defined in: main.ts:124024
 
 total amount of results in our database relevant to your request
 
@@ -124,9 +124,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:123919
+Defined in: main.ts:124041
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:123919
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:123945
+Defined in: main.ts:124067
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:123945
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:123938
+Defined in: main.ts:124060
 
 #### Parameters
 

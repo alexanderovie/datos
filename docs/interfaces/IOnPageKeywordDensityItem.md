@@ -6,7 +6,7 @@
 
 # Interface: IOnPageKeywordDensityItem
 
-Defined in: main.ts:183261
+Defined in: main.ts:183671
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:183261
 
 > `optional` **density**: `number`
 
-Defined in: main.ts:183269
+Defined in: main.ts:183679
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
@@ -29,7 +29,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 > `optional` **frequency**: `number`
 
-Defined in: main.ts:183266
+Defined in: main.ts:183676
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
@@ -40,6 +40,6 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:183263
+Defined in: main.ts:183673
 
 returned keyword

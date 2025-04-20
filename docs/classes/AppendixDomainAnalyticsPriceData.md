@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsPriceData
 
-Defined in: main.ts:249894
+Defined in: main.ts:250720
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:249894
 
 ### Constructor
 
-> **new AppendixDomainAnalyticsPriceData**(`data`?): `AppendixDomainAnalyticsPriceData`
+> **new AppendixDomainAnalyticsPriceData**(`data?`): `AppendixDomainAnalyticsPriceData`
 
-Defined in: main.ts:249902
+Defined in: main.ts:250728
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:249902
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249897
+Defined in: main.ts:250723
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:249897
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249898
+Defined in: main.ts:250724
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:249898
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:249896
+Defined in: main.ts:250722
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:249896
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:249895
+Defined in: main.ts:250721
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:249895
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:249911
+Defined in: main.ts:250737
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:249911
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:249931
+Defined in: main.ts:250757
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:249931
 
 > `static` **fromJS**(`data`): `AppendixDomainAnalyticsPriceData`
 
-Defined in: main.ts:249924
+Defined in: main.ts:250750
 
 #### Parameters
 

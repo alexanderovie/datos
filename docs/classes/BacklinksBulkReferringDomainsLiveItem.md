@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveItem
 
-Defined in: main.ts:173312
+Defined in: main.ts:173700
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173312
 
 ### Constructor
 
-> **new BacklinksBulkReferringDomainsLiveItem**(`data`?): `BacklinksBulkReferringDomainsLiveItem`
+> **new BacklinksBulkReferringDomainsLiveItem**(`data?`): `BacklinksBulkReferringDomainsLiveItem`
 
-Defined in: main.ts:173328
+Defined in: main.ts:173716
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173328
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:173317
+Defined in: main.ts:173705
 
 number of referring domains pointing to the target
 note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric
@@ -55,7 +55,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:173319
+Defined in: main.ts:173707
 
 number of domains pointing at least one nofollow link to the target
 
@@ -69,7 +69,7 @@ number of domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:173322
+Defined in: main.ts:173710
 
 number of referring main domains pointing to the target
 the number of primary (root) domains referring to your target
@@ -84,7 +84,7 @@ the number of primary (root) domains referring to your target
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:173324
+Defined in: main.ts:173712
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -98,7 +98,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:173314
+Defined in: main.ts:173702
 
 domain, subdomain or webpage from a POST array
 
@@ -110,9 +110,9 @@ domain, subdomain or webpage from a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173337
+Defined in: main.ts:173725
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:173337
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173358
+Defined in: main.ts:173746
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:173358
 
 > `static` **fromJS**(`data`): `BacklinksBulkReferringDomainsLiveItem`
 
-Defined in: main.ts:173351
+Defined in: main.ts:173739
 
 #### Parameters
 

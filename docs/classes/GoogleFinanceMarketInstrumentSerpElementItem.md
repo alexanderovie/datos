@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketInstrumentSerpElementItem
 
-Defined in: main.ts:94734
+Defined in: main.ts:94846
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:94734
 
 ### Constructor
 
-> **new GoogleFinanceMarketInstrumentSerpElementItem**(`data`?): `GoogleFinanceMarketInstrumentSerpElementItem`
+> **new GoogleFinanceMarketInstrumentSerpElementItem**(`data?`): `GoogleFinanceMarketInstrumentSerpElementItem`
 
-Defined in: main.ts:94749
+Defined in: main.ts:94861
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:94749
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22453
+Defined in: main.ts:22461
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22453
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:22436
+Defined in: main.ts:22444
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -79,7 +79,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:22433
+Defined in: main.ts:22441
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -99,7 +99,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22441
+Defined in: main.ts:22449
 
 location of the market index
 example: Europe/Paris
@@ -118,7 +118,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:22451
+Defined in: main.ts:22459
 
 percentage of change in value of the market index
 
@@ -136,7 +136,7 @@ percentage of change in value of the market index
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:94739
+Defined in: main.ts:94851
 
 value of the base asset compared to the quote asset
 
@@ -150,7 +150,7 @@ value of the base asset compared to the quote asset
 
 > `optional` **price\_currency**: `string`
 
-Defined in: main.ts:94745
+Defined in: main.ts:94857
 
 price currency
 example: USD
@@ -165,7 +165,7 @@ example: USD
 
 > `optional` **price\_delta**: `number`
 
-Defined in: main.ts:94742
+Defined in: main.ts:94854
 
 change in price
 change in price at a given timestamp
@@ -180,7 +180,7 @@ change in price at a given timestamp
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22429
+Defined in: main.ts:22437
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -199,7 +199,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22426
+Defined in: main.ts:22434
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -219,7 +219,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:94737
+Defined in: main.ts:94849
 
 ticker of the market index
 example: DAX
@@ -234,7 +234,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:22449
+Defined in: main.ts:22457
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -255,7 +255,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:22444
+Defined in: main.ts:22452
 
 growth trend of the market index
 possible values: up, down, stable
@@ -274,7 +274,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22422
+Defined in: main.ts:22430
 
 type of element
 
@@ -292,7 +292,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22438
+Defined in: main.ts:22446
 
 URL to the page of the market index on Google Finance
 
@@ -308,9 +308,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:94754
+Defined in: main.ts:94866
 
 #### Parameters
 
@@ -330,9 +330,9 @@ Defined in: main.ts:94754
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:94775
+Defined in: main.ts:94887
 
 #### Parameters
 
@@ -354,7 +354,7 @@ Defined in: main.ts:94775
 
 > `static` **fromJS**(`data`): `GoogleFinanceMarketInstrumentSerpElementItem`
 
-Defined in: main.ts:94768
+Defined in: main.ts:94880
 
 #### Parameters
 

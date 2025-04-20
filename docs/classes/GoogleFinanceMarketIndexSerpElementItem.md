@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketIndexSerpElementItem
 
-Defined in: main.ts:94806
+Defined in: main.ts:94918
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:94806
 
 ### Constructor
 
-> **new GoogleFinanceMarketIndexSerpElementItem**(`data`?): `GoogleFinanceMarketIndexSerpElementItem`
+> **new GoogleFinanceMarketIndexSerpElementItem**(`data?`): `GoogleFinanceMarketIndexSerpElementItem`
 
-Defined in: main.ts:94822
+Defined in: main.ts:94934
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:94822
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22453
+Defined in: main.ts:22461
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22453
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:22436
+Defined in: main.ts:22444
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -79,7 +79,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:22433
+Defined in: main.ts:22441
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -99,7 +99,7 @@ example: PX1:INDEXDB
 
 > `optional` **index\_value**: `number`
 
-Defined in: main.ts:94815
+Defined in: main.ts:94927
 
 value of the market index
 numerical value of the index at a given timestamp
@@ -114,7 +114,7 @@ numerical value of the index at a given timestamp
 
 > `optional` **index\_value\_delta**: `number`
 
-Defined in: main.ts:94818
+Defined in: main.ts:94930
 
 change in value of the market index
 change in the index_value at a given timestamp
@@ -129,7 +129,7 @@ change in the index_value at a given timestamp
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22441
+Defined in: main.ts:22449
 
 location of the market index
 example: Europe/Paris
@@ -148,7 +148,7 @@ example: Europe/Paris
 
 > `optional` **market\_identifier**: `string`
 
-Defined in: main.ts:94812
+Defined in: main.ts:94924
 
 market identifier
 example: INDEXDB
@@ -163,7 +163,7 @@ example: INDEXDB
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:22451
+Defined in: main.ts:22459
 
 percentage of change in value of the market index
 
@@ -181,7 +181,7 @@ percentage of change in value of the market index
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22429
+Defined in: main.ts:22437
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -200,7 +200,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22426
+Defined in: main.ts:22434
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -220,7 +220,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:94809
+Defined in: main.ts:94921
 
 ticker of the market index
 example: DAX
@@ -235,7 +235,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:22449
+Defined in: main.ts:22457
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -256,7 +256,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:22444
+Defined in: main.ts:22452
 
 growth trend of the market index
 possible values: up, down, stable
@@ -275,7 +275,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22422
+Defined in: main.ts:22430
 
 type of element
 
@@ -293,7 +293,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22438
+Defined in: main.ts:22446
 
 URL to the page of the market index on Google Finance
 
@@ -309,9 +309,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:94827
+Defined in: main.ts:94939
 
 #### Parameters
 
@@ -331,9 +331,9 @@ Defined in: main.ts:94827
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:94848
+Defined in: main.ts:94960
 
 #### Parameters
 
@@ -355,7 +355,7 @@ Defined in: main.ts:94848
 
 > `static` **fromJS**(`data`): `GoogleFinanceMarketIndexSerpElementItem`
 
-Defined in: main.ts:94841
+Defined in: main.ts:94953
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
-Defined in: main.ts:171498
+Defined in: main.ts:171866
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:171498
 
 ### Constructor
 
-> **new BacklinksTimeseriesSummaryLiveResultInfo**(`data`?): `BacklinksTimeseriesSummaryLiveResultInfo`
+> **new BacklinksTimeseriesSummaryLiveResultInfo**(`data?`): `BacklinksTimeseriesSummaryLiveResultInfo`
 
-Defined in: main.ts:171520
+Defined in: main.ts:171888
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171520
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171505
+Defined in: main.ts:171873
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:171510
+Defined in: main.ts:171878
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:171512
+Defined in: main.ts:171880
 
 group_range from a POST array
 
@@ -88,7 +88,7 @@ group_range from a POST array
 
 > `optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)[]
 
-Defined in: main.ts:171516
+Defined in: main.ts:171884
 
 contains relevant summary data
 
@@ -102,7 +102,7 @@ contains relevant summary data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171514
+Defined in: main.ts:171882
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171500
+Defined in: main.ts:171868
 
 target from a POST array
 
@@ -128,9 +128,9 @@ target from a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:171529
+Defined in: main.ts:171897
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:171529
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:171555
+Defined in: main.ts:171923
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:171555
 
 > `static` **fromJS**(`data`): `BacklinksTimeseriesSummaryLiveResultInfo`
 
-Defined in: main.ts:171548
+Defined in: main.ts:171916
 
 #### Parameters
 

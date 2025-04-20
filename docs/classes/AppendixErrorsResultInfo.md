@@ -6,7 +6,7 @@
 
 # Class: AppendixErrorsResultInfo
 
-Defined in: main.ts:250356
+Defined in: main.ts:251182
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250356
 
 ### Constructor
 
-> **new AppendixErrorsResultInfo**(`data`?): `AppendixErrorsResultInfo`
+> **new AppendixErrorsResultInfo**(`data?`): `AppendixErrorsResultInfo`
 
-Defined in: main.ts:250364
+Defined in: main.ts:251190
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:250364
 
 > `optional` **code**: `number`
 
-Defined in: main.ts:250358
+Defined in: main.ts:251184
 
 code
 
@@ -54,7 +54,7 @@ code
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:250360
+Defined in: main.ts:251186
 
 message
 
@@ -66,9 +66,9 @@ message
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:250373
+Defined in: main.ts:251199
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:250373
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:250391
+Defined in: main.ts:251217
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:250391
 
 > `static` **fromJS**(`data`): `AppendixErrorsResultInfo`
 
-Defined in: main.ts:250384
+Defined in: main.ts:251210
 
 #### Parameters
 

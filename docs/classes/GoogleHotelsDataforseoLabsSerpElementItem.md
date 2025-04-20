@@ -6,7 +6,7 @@
 
 # Class: GoogleHotelsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:120053
+Defined in: main.ts:120175
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:120053
 
 ### Constructor
 
-> **new GoogleHotelsDataforseoLabsSerpElementItem**(`data`?): `GoogleHotelsDataforseoLabsSerpElementItem`
+> **new GoogleHotelsDataforseoLabsSerpElementItem**(`data?`): `GoogleHotelsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:120063
+Defined in: main.ts:120185
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:120063
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:120057
+Defined in: main.ts:120179
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -76,7 +76,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -96,7 +96,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -152,7 +152,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:120059
+Defined in: main.ts:120181
 
 relevant URL
 
@@ -166,7 +166,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -182,9 +182,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:120068
+Defined in: main.ts:120190
 
 #### Parameters
 
@@ -204,9 +204,9 @@ Defined in: main.ts:120068
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:120087
+Defined in: main.ts:120209
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:120087
 
 > `static` **fromJS**(`data`): `GoogleHotelsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:120080
+Defined in: main.ts:120202
 
 #### Parameters
 

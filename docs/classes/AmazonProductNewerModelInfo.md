@@ -6,7 +6,7 @@
 
 # Class: AmazonProductNewerModelInfo
 
-Defined in: main.ts:205784
+Defined in: main.ts:206314
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:205784
 
 ### Constructor
 
-> **new AmazonProductNewerModelInfo**(`data`?): `AmazonProductNewerModelInfo`
+> **new AmazonProductNewerModelInfo**(`data?`): `AmazonProductNewerModelInfo`
 
-Defined in: main.ts:205792
+Defined in: main.ts:206322
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205792
 
 > `optional` **newer\_model\_asin**: `string`
 
-Defined in: main.ts:205788
+Defined in: main.ts:206318
 
 ASIN of the newer product model
 
@@ -54,7 +54,7 @@ ASIN of the newer product model
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:205786
+Defined in: main.ts:206316
 
 product title
 
@@ -66,9 +66,9 @@ product title
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:205801
+Defined in: main.ts:206331
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:205801
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:205819
+Defined in: main.ts:206349
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:205819
 
 > `static` **fromJS**(`data`): `AmazonProductNewerModelInfo`
 
-Defined in: main.ts:205812
+Defined in: main.ts:206342
 
 #### Parameters
 

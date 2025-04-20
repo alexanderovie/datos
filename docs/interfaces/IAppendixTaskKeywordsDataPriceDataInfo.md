@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTaskKeywordsDataPriceDataInfo
 
-Defined in: main.ts:247470
+Defined in: main.ts:248296
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247470
 
 > `optional` **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:247473
+Defined in: main.ts:248299
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247473
 
 > `optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:247471
+Defined in: main.ts:248297
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:247471
 
 > `optional` **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-Defined in: main.ts:247472
+Defined in: main.ts:248298

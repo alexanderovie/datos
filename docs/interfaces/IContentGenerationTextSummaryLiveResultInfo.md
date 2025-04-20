@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 
-Defined in: main.ts:195306
+Defined in: main.ts:195836
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:195306
 
 > `optional` **automated\_readability\_index**: `number`
 
-Defined in: main.ts:195327
+Defined in: main.ts:195857
 
 Automated Readability Index
 
@@ -28,7 +28,7 @@ Automated Readability Index
 
 > `optional` **characters\_per\_word**: `number`
 
-Defined in: main.ts:195320
+Defined in: main.ts:195850
 
 average number of characters per word in the target text
 
@@ -38,7 +38,7 @@ average number of characters per word in the target text
 
 > `optional` **characters\_with\_spaces**: `number`
 
-Defined in: main.ts:195316
+Defined in: main.ts:195846
 
 number of characters with spaces found in the target text
 
@@ -48,7 +48,7 @@ number of characters with spaces found in the target text
 
 > `optional` **characters\_without\_spaces**: `number`
 
-Defined in: main.ts:195314
+Defined in: main.ts:195844
 
 number of characters without spaces found in the target text
 
@@ -58,7 +58,7 @@ number of characters without spaces found in the target text
 
 > `optional` **coleman\_liau\_index**: `number`
 
-Defined in: main.ts:195329
+Defined in: main.ts:195859
 
 Coleman–Liau Index
 
@@ -68,7 +68,7 @@ Coleman–Liau Index
 
 > `optional` **flesch\_kincaid\_grade\_level**: `number`
 
-Defined in: main.ts:195331
+Defined in: main.ts:195861
 
 Flesch–Kincaid Readability Index
 
@@ -78,7 +78,7 @@ Flesch–Kincaid Readability Index
 
 > `optional` **grammar\_errors**: `number`
 
-Defined in: main.ts:195337
+Defined in: main.ts:195867
 
 number of grammar errors found in the target text
 
@@ -88,7 +88,7 @@ number of grammar errors found in the target text
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:195325
+Defined in: main.ts:195855
 
 keyword density of the target text
 contains most common words and their count
@@ -103,7 +103,7 @@ contains most common words and their count
 
 > `optional` **paragraphs**: `number`
 
-Defined in: main.ts:195310
+Defined in: main.ts:195840
 
 number of paragraphs found in the target text
 
@@ -113,7 +113,7 @@ number of paragraphs found in the target text
 
 > `optional` **sentences**: `number`
 
-Defined in: main.ts:195308
+Defined in: main.ts:195838
 
 number of sentences found in the target text
 
@@ -123,7 +123,7 @@ number of sentences found in the target text
 
 > `optional` **smog\_readability\_index**: `number`
 
-Defined in: main.ts:195333
+Defined in: main.ts:195863
 
 SMOG Readability Index
 
@@ -133,7 +133,7 @@ SMOG Readability Index
 
 > `optional` **spelling\_errors**: `number`
 
-Defined in: main.ts:195335
+Defined in: main.ts:195865
 
 number of spelling errors found in the target text
 
@@ -143,7 +143,7 @@ number of spelling errors found in the target text
 
 > `optional` **vocabulary\_density**: `number`
 
-Defined in: main.ts:195322
+Defined in: main.ts:195852
 
 vocabulary density of the target text
 
@@ -153,7 +153,7 @@ vocabulary density of the target text
 
 > `optional` **words**: `number`
 
-Defined in: main.ts:195312
+Defined in: main.ts:195842
 
 number of words found in the target text
 
@@ -163,6 +163,6 @@ number of words found in the target text
 
 > `optional` **words\_per\_sentence**: `number`
 
-Defined in: main.ts:195318
+Defined in: main.ts:195848
 
 average number of words per sentence in the target text

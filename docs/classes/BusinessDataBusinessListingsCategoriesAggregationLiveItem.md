@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
-Defined in: main.ts:223930
+Defined in: main.ts:224460
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:223930
 
 ### Constructor
 
-> **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): `BusinessDataBusinessListingsCategoriesAggregationLiveItem`
+> **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data?`): `BusinessDataBusinessListingsCategoriesAggregationLiveItem`
 
-Defined in: main.ts:223941
+Defined in: main.ts:224471
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:223941
 
 > `optional` **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:223937
+Defined in: main.ts:224467
 
 aggregation of the category
 
@@ -54,7 +54,7 @@ aggregation of the category
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:223935
+Defined in: main.ts:224465
 
 business categories
 Google My Business general category that best describes the cluster of related categories
@@ -69,7 +69,7 @@ Google My Business general category that best describes the cluster of related c
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:223932
+Defined in: main.ts:224462
 
 type of element
 
@@ -81,9 +81,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:223950
+Defined in: main.ts:224480
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:223950
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:223973
+Defined in: main.ts:224503
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:223973
 
 > `static` **fromJS**(`data`): `BusinessDataBusinessListingsCategoriesAggregationLiveItem`
 
-Defined in: main.ts:223966
+Defined in: main.ts:224496
 
 #### Parameters
 

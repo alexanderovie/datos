@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkRanksLiveRequestInfo
 
-Defined in: main.ts:172260
+Defined in: main.ts:172639
 
 ## Indexable
 
@@ -14,11 +14,28 @@ Defined in: main.ts:172260
 
 ## Properties
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:172667
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:172285
+Defined in: main.ts:172673
 
 user-defined task identifier
 optional field
@@ -32,7 +49,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:172279
+Defined in: main.ts:172658
 
 domains, subdomains or webpages to get rank for
 required field

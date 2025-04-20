@@ -6,7 +6,7 @@
 
 # Class: HtmlResourceElementItem
 
-Defined in: main.ts:178782
+Defined in: main.ts:179192
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:178782
 
 ### Constructor
 
-> **new HtmlResourceElementItem**(`data`?): `HtmlResourceElementItem`
+> **new HtmlResourceElementItem**(`data?`): `HtmlResourceElementItem`
 
-Defined in: main.ts:178824
+Defined in: main.ts:179234
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:178824
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23483
+Defined in: main.ts:23491
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23483
 
 > `optional` **broken\_links**: `boolean`
 
-Defined in: main.ts:178805
+Defined in: main.ts:179215
 
 indicates whether a page contains broken links
 
@@ -74,7 +74,7 @@ indicates whether a page contains broken links
 
 > `optional` **broken\_resources**: `boolean`
 
-Defined in: main.ts:178803
+Defined in: main.ts:179213
 
 indicates whether a page contains broken resources
 
@@ -88,7 +88,7 @@ indicates whether a page contains broken resources
 
 > `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
-Defined in: main.ts:23469
+Defined in: main.ts:23477
 
 instructions for caching
 
@@ -106,7 +106,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:23472
+Defined in: main.ts:23480
 
 website checks
 on-page check-ups related to the page
@@ -129,7 +129,7 @@ on-page check-ups related to the page
 
 > `optional` **click\_depth**: `number`
 
-Defined in: main.ts:178814
+Defined in: main.ts:179224
 
 number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page
@@ -144,7 +144,7 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:23474
+Defined in: main.ts:23482
 
 type of encoding
 
@@ -162,7 +162,7 @@ type of encoding
 
 > `optional` **custom\_js\_client\_exception**: `string`
 
-Defined in: main.ts:178801
+Defined in: main.ts:179211
 
 error when executing a custom js
 if the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here
@@ -177,7 +177,7 @@ if the error occurred when executing the script you specified in the custom_js f
 
 > `optional` **custom\_js\_response**: `any`
 
-Defined in: main.ts:178798
+Defined in: main.ts:179208
 
 the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;you can also filter the results by this value specifying filters in the following way:
@@ -193,7 +193,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 > `optional` **duplicate\_content**: `boolean`
 
-Defined in: main.ts:178811
+Defined in: main.ts:179221
 
 indicates whether a page has duplicate content
 
@@ -207,7 +207,7 @@ indicates whether a page has duplicate content
 
 > `optional` **duplicate\_description**: `boolean`
 
-Defined in: main.ts:178809
+Defined in: main.ts:179219
 
 indicates whether a page has a duplicate description
 
@@ -221,7 +221,7 @@ indicates whether a page has a duplicate description
 
 > `optional` **duplicate\_title**: `boolean`
 
-Defined in: main.ts:178807
+Defined in: main.ts:179217
 
 indicates whether a page has duplicate title tags
 
@@ -235,7 +235,7 @@ indicates whether a page has duplicate title tags
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:23459
+Defined in: main.ts:23467
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -254,7 +254,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:23467
+Defined in: main.ts:23475
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -275,7 +275,7 @@ example:
 
 > `optional` **is\_resource**: `boolean`
 
-Defined in: main.ts:178816
+Defined in: main.ts:179226
 
 indicates whether a page is a single resource
 
@@ -289,7 +289,7 @@ indicates whether a page is a single resource
 
 > `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
-Defined in: main.ts:23481
+Defined in: main.ts:23489
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -308,7 +308,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23449
+Defined in: main.ts:23457
 
 location header
 indicates the URL to redirect a page to
@@ -327,7 +327,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:23476
+Defined in: main.ts:23484
 
 types of media used to display a page
 
@@ -345,7 +345,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`PageMetaInfo`](PageMetaInfo.md)
 
-Defined in: main.ts:178785
+Defined in: main.ts:179195
 
 page properties
 the value depends on the resource_type
@@ -360,7 +360,7 @@ the value depends on the resource_type
 
 > `optional` **onpage\_score**: `number`
 
-Defined in: main.ts:178792
+Defined in: main.ts:179202
 
 shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
@@ -377,7 +377,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **page\_timing**: [`PageTiming`](PageTiming.md)
 
-Defined in: main.ts:178787
+Defined in: main.ts:179197
 
 object of page load metrics
 
@@ -391,7 +391,7 @@ object of page load metrics
 
 > `optional` **relative\_url\_length**: `number`
 
-Defined in: main.ts:178820
+Defined in: main.ts:179230
 
 relative URL length in characters
 
@@ -405,7 +405,7 @@ relative URL length in characters
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:23453
+Defined in: main.ts:23461
 
 resource errors and warnings
 
@@ -423,7 +423,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:23444
+Defined in: main.ts:23452
 
 type of the returned resource
 
@@ -441,7 +441,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:23478
+Defined in: main.ts:23486
 
 server version
 
@@ -459,7 +459,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:23456
+Defined in: main.ts:23464
 
 resource size
 indicates the size of a given page measured in bytes
@@ -478,7 +478,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:23446
+Defined in: main.ts:23454
 
 status code of the page
 
@@ -496,7 +496,7 @@ status code of the page
 
 > `optional` **total\_dom\_size**: `number`
 
-Defined in: main.ts:178794
+Defined in: main.ts:179204
 
 total DOM size of a page
 
@@ -510,7 +510,7 @@ total DOM size of a page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:23462
+Defined in: main.ts:23470
 
 compressed page size
 indicates the compressed size of a given page
@@ -529,7 +529,7 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23451
+Defined in: main.ts:23459
 
 page URL
 
@@ -547,7 +547,7 @@ page URL
 
 > `optional` **url\_length**: `number`
 
-Defined in: main.ts:178818
+Defined in: main.ts:179228
 
 page URL length in characters
 
@@ -559,9 +559,9 @@ page URL length in characters
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:178829
+Defined in: main.ts:179239
 
 #### Parameters
 
@@ -581,9 +581,9 @@ Defined in: main.ts:178829
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:178861
+Defined in: main.ts:179271
 
 #### Parameters
 
@@ -605,7 +605,7 @@ Defined in: main.ts:178861
 
 > `static` **fromJS**(`data`): `HtmlResourceElementItem`
 
-Defined in: main.ts:178854
+Defined in: main.ts:179264
 
 #### Parameters
 

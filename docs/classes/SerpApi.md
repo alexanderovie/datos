@@ -12,7 +12,7 @@ Defined in: main.ts:11
 
 ### Constructor
 
-> **new SerpApi**(`baseUrl`?, `http`?): `SerpApi`
+> **new SerpApi**(`baseUrl?`, `http?`): `SerpApi`
 
 Defined in: main.ts:16
 
@@ -1292,7 +1292,7 @@ Successful operation
 
 > **googleFinanceQuoteLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:6885
+Defined in: main.ts:6888
 
 #### Parameters
 
@@ -1314,7 +1314,7 @@ Successful operation
 
 > **googleFinanceQuoteLiveHtml**(`body`): `Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
 
-Defined in: main.ts:6927
+Defined in: main.ts:6930
 
 #### Parameters
 
@@ -1336,13 +1336,17 @@ Successful operation
 
 > **googleFinanceQuoteTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:6801
+Defined in: main.ts:6804
 
 #### Parameters
 
 ##### id
 
 `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
 
 #### Returns
 
@@ -1356,7 +1360,7 @@ Successful operation
 
 > **googleFinanceQuoteTaskGetHtml**(`id`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:6844
+Defined in: main.ts:6847
 
 #### Parameters
 
@@ -1416,7 +1420,7 @@ Successful operation
 
 > **googleFinanceTickerSearchLiveAdvanced**(`body`): `Promise`\<[`SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:7091
+Defined in: main.ts:7094
 
 #### Parameters
 
@@ -1438,7 +1442,7 @@ Successful operation
 
 > **googleFinanceTickerSearchTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:7050
+Defined in: main.ts:7053
 
 #### Parameters
 
@@ -1462,7 +1466,7 @@ Successful operation
 
 > **googleFinanceTickerSearchTaskPost**(`body`): `Promise`\<[`SerpGoogleFinanceTickerSearchTaskPostResponseInfo`](SerpGoogleFinanceTickerSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:6969
+Defined in: main.ts:6972
 
 #### Parameters
 
@@ -1484,7 +1488,7 @@ Successful operation
 
 > **googleFinanceTickerSearchTasksReady**(): `Promise`\<[`SerpGoogleFinanceTickerSearchTasksReadyResponseInfo`](SerpGoogleFinanceTickerSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:7010
+Defined in: main.ts:7013
 
 #### Returns
 
@@ -3602,7 +3606,7 @@ Defined in: main.ts:6531
 
 > `protected` **processGoogleFinanceQuoteLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteLiveAdvancedResponseInfo`](SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:6905
+Defined in: main.ts:6908
 
 #### Parameters
 
@@ -3620,7 +3624,7 @@ Defined in: main.ts:6905
 
 > `protected` **processGoogleFinanceQuoteLiveHtml**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteLiveHtmlResponseInfo`](SerpGoogleFinanceQuoteLiveHtmlResponseInfo.md)\>
 
-Defined in: main.ts:6947
+Defined in: main.ts:6950
 
 #### Parameters
 
@@ -3638,7 +3642,7 @@ Defined in: main.ts:6947
 
 > `protected` **processGoogleFinanceQuoteTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo`](SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:6820
+Defined in: main.ts:6823
 
 #### Parameters
 
@@ -3656,7 +3660,7 @@ Defined in: main.ts:6820
 
 > `protected` **processGoogleFinanceQuoteTaskGetHtml**(`response`): `Promise`\<[`SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo`](SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:6863
+Defined in: main.ts:6866
 
 #### Parameters
 
@@ -3710,7 +3714,7 @@ Defined in: main.ts:6780
 
 > `protected` **processGoogleFinanceTickerSearchLiveAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:7111
+Defined in: main.ts:7114
 
 #### Parameters
 
@@ -3728,7 +3732,7 @@ Defined in: main.ts:7111
 
 > `protected` **processGoogleFinanceTickerSearchTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo`](SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:7069
+Defined in: main.ts:7072
 
 #### Parameters
 
@@ -3746,7 +3750,7 @@ Defined in: main.ts:7069
 
 > `protected` **processGoogleFinanceTickerSearchTaskPost**(`response`): `Promise`\<[`SerpGoogleFinanceTickerSearchTaskPostResponseInfo`](SerpGoogleFinanceTickerSearchTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:6989
+Defined in: main.ts:6992
 
 #### Parameters
 
@@ -3764,7 +3768,7 @@ Defined in: main.ts:6989
 
 > `protected` **processGoogleFinanceTickerSearchTasksReady**(`response`): `Promise`\<[`SerpGoogleFinanceTickerSearchTasksReadyResponseInfo`](SerpGoogleFinanceTickerSearchTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:7026
+Defined in: main.ts:7029
 
 #### Parameters
 

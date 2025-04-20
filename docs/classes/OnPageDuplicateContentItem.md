@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentItem
 
-Defined in: main.ts:180958
+Defined in: main.ts:181368
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180958
 
 ### Constructor
 
-> **new OnPageDuplicateContentItem**(`data`?): `OnPageDuplicateContentItem`
+> **new OnPageDuplicateContentItem**(`data?`): `OnPageDuplicateContentItem`
 
-Defined in: main.ts:180968
+Defined in: main.ts:181378
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180968
 
 > `optional` **pages**: [`Pages`](Pages.md)[]
 
-Defined in: main.ts:180964
+Defined in: main.ts:181374
 
 pages with duplicate content
 
@@ -54,7 +54,7 @@ pages with duplicate content
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:180962
+Defined in: main.ts:181372
 
 total count of duplicate pages
 
@@ -68,7 +68,7 @@ total count of duplicate pages
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:180960
+Defined in: main.ts:181370
 
 URL of the specified page
 
@@ -80,9 +80,9 @@ URL of the specified page
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180977
+Defined in: main.ts:181387
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:180977
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:181000
+Defined in: main.ts:181410
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:181000
 
 > `static` **fromJS**(`data`): `OnPageDuplicateContentItem`
 
-Defined in: main.ts:180993
+Defined in: main.ts:181403
 
 #### Parameters
 

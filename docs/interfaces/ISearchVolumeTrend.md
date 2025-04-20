@@ -6,7 +6,7 @@
 
 # Interface: ISearchVolumeTrend
 
-Defined in: main.ts:103663
+Defined in: main.ts:103775
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:103663
 
 > `optional` **monthly**: `number`
 
-Defined in: main.ts:103665
+Defined in: main.ts:103777
 
 search volume change in percent compared to the previous month
 
@@ -28,7 +28,7 @@ search volume change in percent compared to the previous month
 
 > `optional` **quarterly**: `number`
 
-Defined in: main.ts:103667
+Defined in: main.ts:103779
 
 search volume change in percent compared to the previous quarter
 
@@ -38,6 +38,6 @@ search volume change in percent compared to the previous quarter
 
 > `optional` **yearly**: `number`
 
-Defined in: main.ts:103669
+Defined in: main.ts:103781
 
 search volume change in percent compared to the previous year

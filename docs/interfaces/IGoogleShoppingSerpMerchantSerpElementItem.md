@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingSerpMerchantSerpElementItem
 
-Defined in: main.ts:198052
+Defined in: main.ts:198582
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:198052
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:198097
+Defined in: main.ts:198627
 
 object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint
@@ -37,7 +37,7 @@ you can get more details about the product by using this object in the POST requ
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:198079
+Defined in: main.ts:198609
 
 currency in the ISO format
 example:
@@ -49,7 +49,7 @@ USD
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:198091
+Defined in: main.ts:198621
 
 unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
@@ -62,7 +62,7 @@ example:
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
-Defined in: main.ts:198120
+Defined in: main.ts:198650
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -73,7 +73,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:198060
+Defined in: main.ts:198590
 
 description of the product in Google Shopping SERP
 
@@ -83,7 +83,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:198056
+Defined in: main.ts:198586
 
 domain in SERP
 
@@ -93,7 +93,7 @@ domain in SERP
 
 > `optional` **is\_best\_match**: `boolean`
 
-Defined in: main.ts:198105
+Defined in: main.ts:198635
 
 “best match” label
 if the value is true, the product is marked with the “best match” label
@@ -105,7 +105,7 @@ if there are no values, you will get null
 
 > `optional` **old\_price**: `number`
 
-Defined in: main.ts:198075
+Defined in: main.ts:198605
 
 product old price
 displayed if the product price has been changed
@@ -118,7 +118,7 @@ example:
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22957
+Defined in: main.ts:22965
 
 alignment of the element in SERP
 can take the following values:
@@ -134,7 +134,7 @@ left, right
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:198070
+Defined in: main.ts:198600
 
 product price
 example:
@@ -146,7 +146,7 @@ example:
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:198086
+Defined in: main.ts:198616
 
 unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -161,7 +161,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **product\_images**: `string`[]
 
-Defined in: main.ts:198114
+Defined in: main.ts:198644
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -172,7 +172,7 @@ the first URL in the array is the featured image of the product
 
 > `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:198108
+Defined in: main.ts:198638
 
 product rating
 the product popularity rate based on product reviews
@@ -183,7 +183,7 @@ the product popularity rate based on product reviews
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22953
+Defined in: main.ts:22961
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -198,7 +198,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22950
+Defined in: main.ts:22958
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -213,7 +213,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:198101
+Defined in: main.ts:198631
 
 number of product reviews
 indicates the number of reviews left by users on Google Shopping
@@ -225,7 +225,7 @@ if there are no values, you will get null
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:198094
+Defined in: main.ts:198624
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -236,7 +236,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:198117
+Defined in: main.ts:198647
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -247,7 +247,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **shop\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:198111
+Defined in: main.ts:198641
 
 shop rating
 the popularity rate of the seller based on user reviews
@@ -258,7 +258,7 @@ the popularity rate of the seller based on user reviews
 
 > `optional` **shopping\_url**: `string`
 
-Defined in: main.ts:198064
+Defined in: main.ts:198594
 
 URL to the product page on Google Shopping
 
@@ -268,7 +268,7 @@ URL to the product page on Google Shopping
 
 > `optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
 
-Defined in: main.ts:198123
+Defined in: main.ts:198653
 
 stores count information
 contains information about the number of stores that offer the same product
@@ -279,7 +279,7 @@ contains information about the number of stores that offer the same product
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:198066
+Defined in: main.ts:198596
 
 tags assigned to the product
 
@@ -289,7 +289,7 @@ tags assigned to the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:198058
+Defined in: main.ts:198588
 
 title of the element
 
@@ -299,7 +299,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22947
+Defined in: main.ts:22955
 
 type of element
 
@@ -313,7 +313,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:198062
+Defined in: main.ts:198592
 
 URL to the product page on the seller’s website
 
@@ -323,6 +323,6 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:198054
+Defined in: main.ts:198584
 
 XPath of the element

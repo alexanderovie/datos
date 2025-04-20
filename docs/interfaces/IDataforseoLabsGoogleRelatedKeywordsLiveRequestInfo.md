@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:105023
+Defined in: main.ts:105135
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:105023
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:105073
+Defined in: main.ts:105185
 
 keyword search depth
 optional field
@@ -38,7 +38,7 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:105121
+Defined in: main.ts:105233
 
 array of results filtering parameters
 optional field
@@ -65,7 +65,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:105095
+Defined in: main.ts:105207
 
 ignore highly similar keywords
 optional field
@@ -78,7 +78,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:105090
+Defined in: main.ts:105202
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -93,7 +93,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:105078
+Defined in: main.ts:105190
 
 include data for the seed keyword
 optional field
@@ -106,7 +106,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:105083
+Defined in: main.ts:105195
 
 include data from SERP for each keyword
 optional field
@@ -119,7 +119,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105029
+Defined in: main.ts:105141
 
 keyword
 required field
@@ -133,7 +133,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105061
+Defined in: main.ts:105173
 
 language code
 required field if you don’t specify language_name
@@ -149,7 +149,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105053
+Defined in: main.ts:105165
 
 full name of the language
 required field if you don’t specify language_code
@@ -165,7 +165,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:105142
+Defined in: main.ts:105254
 
 the maximum number of returned keywords
 optional field
@@ -178,7 +178,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105045
+Defined in: main.ts:105157
 
 location code
 required field if you don’t specify location_name
@@ -194,7 +194,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105037
+Defined in: main.ts:105149
 
 full name of the location
 required field if you don’t specify location_code
@@ -210,7 +210,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:105147
+Defined in: main.ts:105259
 
 offset in the results array of returned keywords
 optional field
@@ -223,7 +223,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:105137
+Defined in: main.ts:105249
 
 results sorting rules
 optional field
@@ -247,7 +247,7 @@ example:
 
 > `optional` **replace\_with\_core\_keyword**: `boolean`
 
-Defined in: main.ts:105102
+Defined in: main.ts:105214
 
 return data for core keyword
 optional field
@@ -262,7 +262,7 @@ default value: false
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105153
+Defined in: main.ts:105265
 
 user-defined task identifier
 optional field

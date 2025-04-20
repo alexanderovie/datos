@@ -6,7 +6,7 @@
 
 # Class: AppStoreMetricsBundleInfo
 
-Defined in: main.ts:136206
+Defined in: main.ts:136328
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:136206
 
 ### Constructor
 
-> **new AppStoreMetricsBundleInfo**(`data`?): `AppStoreMetricsBundleInfo`
+> **new AppStoreMetricsBundleInfo**(`data?`): `AppStoreMetricsBundleInfo`
 
-Defined in: main.ts:136212
+Defined in: main.ts:136334
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:136212
 
 > `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:136208
+Defined in: main.ts:136330
 
 ranking data from App Store organic search
 
@@ -52,9 +52,9 @@ ranking data from App Store organic search
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:136221
+Defined in: main.ts:136343
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:136221
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:136238
+Defined in: main.ts:136360
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:136238
 
 > `static` **fromJS**(`data`): `AppStoreMetricsBundleInfo`
 
-Defined in: main.ts:136231
+Defined in: main.ts:136353
 
 #### Parameters
 

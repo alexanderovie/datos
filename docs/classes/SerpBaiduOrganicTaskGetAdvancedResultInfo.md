@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetAdvancedResultInfo
 
-Defined in: main.ts:83010
+Defined in: main.ts:83122
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:83010
 
 ### Constructor
 
-> **new SerpBaiduOrganicTaskGetAdvancedResultInfo**(`data`?): `SerpBaiduOrganicTaskGetAdvancedResultInfo`
+> **new SerpBaiduOrganicTaskGetAdvancedResultInfo**(`data?`): `SerpBaiduOrganicTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:83051
+Defined in: main.ts:83163
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:83051
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:83024
+Defined in: main.ts:83136
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:83029
+Defined in: main.ts:83141
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:83040
+Defined in: main.ts:83152
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ images, local_pack, map, organic, paid, related_searches, video, stocks_box, dic
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:83047
+Defined in: main.ts:83159
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:83044
+Defined in: main.ts:83156
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:83013
+Defined in: main.ts:83125
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:83021
+Defined in: main.ts:83133
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:83019
+Defined in: main.ts:83131
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:83035
+Defined in: main.ts:83147
 
 search refinement chips
 equals null
@@ -176,7 +176,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:83017
+Defined in: main.ts:83129
 
 search engine domain in a POST array
 
@@ -190,7 +190,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:83042
+Defined in: main.ts:83154
 
 total number of results in SERP
 
@@ -204,7 +204,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:83032
+Defined in: main.ts:83144
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -219,7 +219,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:83015
+Defined in: main.ts:83127
 
 type of element
 
@@ -231,9 +231,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:83060
+Defined in: main.ts:83172
 
 #### Parameters
 
@@ -249,9 +249,9 @@ Defined in: main.ts:83060
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:83097
+Defined in: main.ts:83209
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:83097
 
 > `static` **fromJS**(`data`): `SerpBaiduOrganicTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:83090
+Defined in: main.ts:83202
 
 #### Parameters
 

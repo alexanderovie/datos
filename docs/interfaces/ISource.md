@@ -6,7 +6,7 @@
 
 # Interface: ISource
 
-Defined in: main.ts:235035
+Defined in: main.ts:235565
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:235035
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:235041
+Defined in: main.ts:235571
 
 domain of the source where the review was posted
 
@@ -28,7 +28,7 @@ domain of the source where the review was posted
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:235039
+Defined in: main.ts:235569
 
 featured image of the source
 
@@ -38,6 +38,6 @@ featured image of the source
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:235037
+Defined in: main.ts:235567
 
 name of the source where the review was posted

@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveRequestInfo
 
-Defined in: main.ts:162658
+Defined in: main.ts:162800
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:162658
 
 ### Constructor
 
-> **new BacklinksHistoryLiveRequestInfo**(`data`?): `BacklinksHistoryLiveRequestInfo`
+> **new BacklinksHistoryLiveRequestInfo**(`data?`): `BacklinksHistoryLiveRequestInfo`
 
-Defined in: main.ts:162687
+Defined in: main.ts:162838
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162687
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:162670
+Defined in: main.ts:162812
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:162677
+Defined in: main.ts:162819
 
 ending date of the time range
 optional field
@@ -75,11 +75,32 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:162828
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:162683
+Defined in: main.ts:162834
 
 user-defined task identifier
 optional field
@@ -97,7 +118,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:162662
+Defined in: main.ts:162804
 
 domain
 required field
@@ -111,9 +132,9 @@ a domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:162696
+Defined in: main.ts:162847
 
 #### Parameters
 
@@ -129,9 +150,9 @@ Defined in: main.ts:162696
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:162716
+Defined in: main.ts:162868
 
 #### Parameters
 
@@ -149,7 +170,7 @@ Defined in: main.ts:162716
 
 > `static` **fromJS**(`data`): `BacklinksHistoryLiveRequestInfo`
 
-Defined in: main.ts:162709
+Defined in: main.ts:162861
 
 #### Parameters
 

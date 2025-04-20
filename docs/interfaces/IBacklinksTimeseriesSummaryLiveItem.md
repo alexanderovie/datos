@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
-Defined in: main.ts:171461
+Defined in: main.ts:171829
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171461
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:171473
+Defined in: main.ts:171841
 
 number of backlinks for the given date
 
@@ -28,7 +28,7 @@ number of backlinks for the given date
 
 > `optional` **backlinks\_nofollow**: `number`
 
-Defined in: main.ts:171475
+Defined in: main.ts:171843
 
 number of nofollow backlinks for the given date
 
@@ -38,7 +38,7 @@ number of nofollow backlinks for the given date
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:171468
+Defined in: main.ts:171836
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -51,7 +51,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:171471
+Defined in: main.ts:171839
 
 target rank for the given date
 learn more about the metric and how it is calculated in this help center article
@@ -62,7 +62,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:171482
+Defined in: main.ts:171850
 
 number of referring domains for the given date
 referring domains include subdomains that are counted as separate domains for this metric
@@ -73,7 +73,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:171484
+Defined in: main.ts:171852
 
 number of domains pointing at least one nofollow link to the target for the given date
 
@@ -83,7 +83,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:171491
+Defined in: main.ts:171859
 
 number of referring IP addresses for the given date
 number of IP addresses pointing to this page
@@ -94,7 +94,7 @@ number of IP addresses pointing to this page
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:171486
+Defined in: main.ts:171854
 
 number of referring main domains for the given date
 
@@ -104,7 +104,7 @@ number of referring main domains for the given date
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:171488
+Defined in: main.ts:171856
 
 number of main domains pointing at least one nofollow link to the target for the given date
 
@@ -114,7 +114,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:171477
+Defined in: main.ts:171845
 
 number of pages pointing to target for the given date
 
@@ -124,7 +124,7 @@ number of pages pointing to target for the given date
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:171479
+Defined in: main.ts:171847
 
 number of referring pages pointing at least one nofollow link to the target for the given date
 
@@ -134,7 +134,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:171493
+Defined in: main.ts:171861
 
 number of referring subnetworks for the given date
 
@@ -144,6 +144,6 @@ number of referring subnetworks for the given date
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:171463
+Defined in: main.ts:171831
 
 type of element

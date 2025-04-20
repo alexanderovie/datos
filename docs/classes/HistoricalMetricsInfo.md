@@ -6,7 +6,7 @@
 
 # Class: HistoricalMetricsInfo
 
-Defined in: main.ts:122176
+Defined in: main.ts:122298
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122176
 
 ### Constructor
 
-> **new HistoricalMetricsInfo**(`data`?): `HistoricalMetricsInfo`
+> **new HistoricalMetricsInfo**(`data?`): `HistoricalMetricsInfo`
 
-Defined in: main.ts:122196
+Defined in: main.ts:122318
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122196
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:122192
+Defined in: main.ts:122314
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -57,7 +57,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:122187
+Defined in: main.ts:122309
 
 total count of organic SERPs that contain the domain
 
@@ -71,7 +71,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:122185
+Defined in: main.ts:122307
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:122180
+Defined in: main.ts:122302
 
 month for which the data is provided
 
@@ -102,7 +102,7 @@ month for which the data is provided
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:122178
+Defined in: main.ts:122300
 
 year for which the data is provided
 
@@ -114,9 +114,9 @@ year for which the data is provided
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122205
+Defined in: main.ts:122327
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:122205
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122226
+Defined in: main.ts:122348
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:122226
 
 > `static` **fromJS**(`data`): `HistoricalMetricsInfo`
 
-Defined in: main.ts:122219
+Defined in: main.ts:122341
 
 #### Parameters
 

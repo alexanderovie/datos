@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
-Defined in: main.ts:187740
+Defined in: main.ts:188150
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:187740
 
 ### Constructor
 
-> **new OnPageLighthouseLiveJsonRequestInfo**(`data`?): `OnPageLighthouseLiveJsonRequestInfo`
+> **new OnPageLighthouseLiveJsonRequestInfo**(`data?`): `OnPageLighthouseLiveJsonRequestInfo`
 
-Defined in: main.ts:187800
+Defined in: main.ts:188210
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187800
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:187773
+Defined in: main.ts:188183
 
 Lighthouse audits
 optional field
@@ -65,7 +65,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:187760
+Defined in: main.ts:188170
 
 categories of Lighthouse audits
 optional field
@@ -85,7 +85,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:187752
+Defined in: main.ts:188162
 
 applies mobile emulation
 optional field
@@ -103,7 +103,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:187790
+Defined in: main.ts:188200
 
 lighthouse language code
 optional field
@@ -121,7 +121,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:187784
+Defined in: main.ts:188194
 
 lighthouse language name
 optional field
@@ -139,7 +139,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187796
+Defined in: main.ts:188206
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:187746
+Defined in: main.ts:188156
 
 target URL
 required field
@@ -175,7 +175,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:187778
+Defined in: main.ts:188188
 
 lighthouse version
 optional field
@@ -190,9 +190,9 @@ the list of available versions is available through the Lighthouse Versions endp
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:187809
+Defined in: main.ts:188219
 
 #### Parameters
 
@@ -208,9 +208,9 @@ Defined in: main.ts:187809
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:187841
+Defined in: main.ts:188251
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:187841
 
 > `static` **fromJS**(`data`): `OnPageLighthouseLiveJsonRequestInfo`
 
-Defined in: main.ts:187834
+Defined in: main.ts:188244
 
 #### Parameters
 

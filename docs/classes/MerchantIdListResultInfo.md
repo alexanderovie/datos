@@ -6,7 +6,7 @@
 
 # Class: MerchantIdListResultInfo
 
-Defined in: main.ts:195742
+Defined in: main.ts:196272
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:195742
 
 ### Constructor
 
-> **new MerchantIdListResultInfo**(`data`?): `MerchantIdListResultInfo`
+> **new MerchantIdListResultInfo**(`data?`): `MerchantIdListResultInfo`
 
-Defined in: main.ts:195768
+Defined in: main.ts:196298
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195768
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:195762
+Defined in: main.ts:196292
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:195757
+Defined in: main.ts:196287
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:195752
+Defined in: main.ts:196282
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:195744
+Defined in: main.ts:196274
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:195764
+Defined in: main.ts:196294
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:195760
+Defined in: main.ts:196290
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:195747
+Defined in: main.ts:196277
 
 URL of the task
 URL you used for making an API call
@@ -148,9 +148,9 @@ URL you used for making an API call
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:195777
+Defined in: main.ts:196307
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:195777
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:195806
+Defined in: main.ts:196336
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:195806
 
 > `static` **fromJS**(`data`): `MerchantIdListResultInfo`
 
-Defined in: main.ts:195799
+Defined in: main.ts:196329
 
 #### Parameters
 

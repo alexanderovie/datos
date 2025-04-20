@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
-Defined in: main.ts:189812
+Defined in: main.ts:190242
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:189812
 
 ### Constructor
 
-> **new ContentAnalysisSearchLiveResultInfo**(`data`?): `ContentAnalysisSearchLiveResultInfo`
+> **new ContentAnalysisSearchLiveResultInfo**(`data?`): `ContentAnalysisSearchLiveResultInfo`
 
-Defined in: main.ts:189826
+Defined in: main.ts:190256
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:189826
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)[]
 
-Defined in: main.ts:189822
+Defined in: main.ts:190252
 
 contains citations and related data
 
@@ -54,7 +54,7 @@ contains citations and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:189820
+Defined in: main.ts:190250
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:189816
+Defined in: main.ts:190246
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -84,7 +84,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:189818
+Defined in: main.ts:190248
 
 total amount of results in our database relevant to your request
 
@@ -96,9 +96,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:189835
+Defined in: main.ts:190265
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:189835
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:189859
+Defined in: main.ts:190289
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:189859
 
 > `static` **fromJS**(`data`): `ContentAnalysisSearchLiveResultInfo`
 
-Defined in: main.ts:189852
+Defined in: main.ts:190282
 
 #### Parameters
 

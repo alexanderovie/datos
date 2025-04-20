@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLanguagesResultInfo
 
-Defined in: main.ts:186593
+Defined in: main.ts:187003
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186593
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:186597
+Defined in: main.ts:187007
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:186595
+Defined in: main.ts:187005
 
 language name

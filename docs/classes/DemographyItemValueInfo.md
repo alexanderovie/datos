@@ -6,7 +6,7 @@
 
 # Class: DemographyItemValueInfo
 
-Defined in: main.ts:149126
+Defined in: main.ts:149250
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:149126
 
 ### Constructor
 
-> **new DemographyItemValueInfo**(`data`?): `DemographyItemValueInfo`
+> **new DemographyItemValueInfo**(`data?`): `DemographyItemValueInfo`
 
-Defined in: main.ts:149138
+Defined in: main.ts:149262
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149138
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:149128
+Defined in: main.ts:149252
 
 type of element
 
@@ -54,7 +54,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:149134
+Defined in: main.ts:149258
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -70,9 +70,9 @@ a value of 0 means there was not enough data for this term
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:149147
+Defined in: main.ts:149271
 
 #### Parameters
 
@@ -88,9 +88,9 @@ Defined in: main.ts:149147
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:149165
+Defined in: main.ts:149289
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: main.ts:149165
 
 > `static` **fromJS**(`data`): `DemographyItemValueInfo`
 
-Defined in: main.ts:149158
+Defined in: main.ts:149282
 
 #### Parameters
 

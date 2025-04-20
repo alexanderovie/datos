@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:132700
+Defined in: main.ts:132822
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:132700
 
 ### Constructor
 
-> **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
+> **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data?`): `DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:132755
+Defined in: main.ts:132877
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132755
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:132709
+Defined in: main.ts:132831
 
 ids of the app
 required field
@@ -61,7 +61,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132745
+Defined in: main.ts:132867
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:132736
+Defined in: main.ts:132858
 
 full name of the language
 required field if you don’t specify language_code
@@ -103,7 +103,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132727
+Defined in: main.ts:132849
 
 location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:132718
+Defined in: main.ts:132840
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:132751
+Defined in: main.ts:132873
 
 user-defined task identifier
 optional field
@@ -161,9 +161,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:132764
+Defined in: main.ts:132886
 
 #### Parameters
 
@@ -179,9 +179,9 @@ Defined in: main.ts:132764
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:132790
+Defined in: main.ts:132912
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:132790
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`
 
-Defined in: main.ts:132783
+Defined in: main.ts:132905
 
 #### Parameters
 

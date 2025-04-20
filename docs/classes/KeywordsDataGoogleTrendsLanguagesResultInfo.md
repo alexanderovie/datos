@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
-Defined in: main.ts:144836
+Defined in: main.ts:144958
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:144836
 
 ### Constructor
 
-> **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): `KeywordsDataGoogleTrendsLanguagesResultInfo`
+> **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data?`): `KeywordsDataGoogleTrendsLanguagesResultInfo`
 
-Defined in: main.ts:144844
+Defined in: main.ts:144966
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144844
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144840
+Defined in: main.ts:144962
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:144838
+Defined in: main.ts:144960
 
 language name
 
@@ -66,9 +66,9 @@ language name
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:144853
+Defined in: main.ts:144975
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:144853
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:144871
+Defined in: main.ts:144993
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:144871
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsLanguagesResultInfo`
 
-Defined in: main.ts:144864
+Defined in: main.ts:144986
 
 #### Parameters
 

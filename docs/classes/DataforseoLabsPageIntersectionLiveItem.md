@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsPageIntersectionLiveItem
 
-Defined in: main.ts:121102
+Defined in: main.ts:121224
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:121102
 
 ### Constructor
 
-> **new DataforseoLabsPageIntersectionLiveItem**(`data`?): `DataforseoLabsPageIntersectionLiveItem`
+> **new DataforseoLabsPageIntersectionLiveItem**(`data?`): `DataforseoLabsPageIntersectionLiveItem`
 
-Defined in: main.ts:121114
+Defined in: main.ts:121236
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121114
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:121110
+Defined in: main.ts:121232
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
@@ -60,7 +60,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:121106
+Defined in: main.ts:121228
 
 keyword data for the returned keyword
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121104
+Defined in: main.ts:121226
 
 search engine type
 
@@ -86,9 +86,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:121123
+Defined in: main.ts:121245
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:121123
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:121148
+Defined in: main.ts:121270
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:121148
 
 > `static` **fromJS**(`data`): `DataforseoLabsPageIntersectionLiveItem`
 
-Defined in: main.ts:121141
+Defined in: main.ts:121263
 
 #### Parameters
 

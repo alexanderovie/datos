@@ -6,7 +6,7 @@
 
 # Class: CommercialUnitsElement
 
-Defined in: main.ts:38299
+Defined in: main.ts:38307
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:38299
 
 ### Constructor
 
-> **new CommercialUnitsElement**(`data`?): `CommercialUnitsElement`
+> **new CommercialUnitsElement**(`data?`): `CommercialUnitsElement`
 
-Defined in: main.ts:38319
+Defined in: main.ts:38327
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38319
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38307
+Defined in: main.ts:38315
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:38309
+Defined in: main.ts:38317
 
 price indicated in the element
 
@@ -68,7 +68,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:38315
+Defined in: main.ts:38323
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:38312
+Defined in: main.ts:38320
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -98,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38303
+Defined in: main.ts:38311
 
 title of a given link element
 
@@ -112,7 +112,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38301
+Defined in: main.ts:38309
 
 type of element
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38305
+Defined in: main.ts:38313
 
 URL
 
@@ -138,9 +138,9 @@ URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38328
+Defined in: main.ts:38336
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:38328
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38351
+Defined in: main.ts:38359
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:38351
 
 > `static` **fromJS**(`data`): `CommercialUnitsElement`
 
-Defined in: main.ts:38344
+Defined in: main.ts:38352
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: StreamingQualityElement
 
-Defined in: main.ts:73239
+Defined in: main.ts:73351
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:73239
 
 ### Constructor
 
-> **new StreamingQualityElement**(`data`?): `StreamingQualityElement`
+> **new StreamingQualityElement**(`data?`): `StreamingQualityElement`
 
-Defined in: main.ts:73257
+Defined in: main.ts:73369
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:73257
 
 > `optional` **bitrate**: `number`
 
-Defined in: main.ts:73249
+Defined in: main.ts:73361
 
 bit rate of the video
 
@@ -54,7 +54,7 @@ bit rate of the video
 
 > `optional` **fps**: `number`
 
-Defined in: main.ts:73253
+Defined in: main.ts:73365
 
 frame rate of the video
 
@@ -68,7 +68,7 @@ frame rate of the video
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:73247
+Defined in: main.ts:73359
 
 video height in pixels
 
@@ -82,7 +82,7 @@ video height in pixels
 
 > `optional` **label**: `string`
 
-Defined in: main.ts:73243
+Defined in: main.ts:73355
 
 label of the quality element
 
@@ -96,7 +96,7 @@ label of the quality element
 
 > `optional` **mime\_type**: `string`
 
-Defined in: main.ts:73251
+Defined in: main.ts:73363
 
 media type of the video
 
@@ -110,7 +110,7 @@ media type of the video
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:73241
+Defined in: main.ts:73353
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:73245
+Defined in: main.ts:73357
 
 video width in pixels
 
@@ -136,9 +136,9 @@ video width in pixels
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:73266
+Defined in: main.ts:73378
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:73266
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:73289
+Defined in: main.ts:73401
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:73289
 
 > `static` **fromJS**(`data`): `StreamingQualityElement`
 
-Defined in: main.ts:73282
+Defined in: main.ts:73394
 
 #### Parameters
 

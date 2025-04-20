@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
-Defined in: main.ts:107668
+Defined in: main.ts:107790
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:107668
 
 ### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo**(`data`?): `DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`
+> **new DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo**(`data?`): `DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`
 
-Defined in: main.ts:107780
+Defined in: main.ts:107902
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:107780
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:107743
+Defined in: main.ts:107865
 
 array of results filtering parameters
 optional field
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:107718
+Defined in: main.ts:107840
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -87,7 +87,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_subcategories**: `boolean`
 
-Defined in: main.ts:107711
+Defined in: main.ts:107833
 
 indicates if the subcategories will be included in the search
 optional field
@@ -105,7 +105,7 @@ learn more about the parameter in this help center article
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:107727
+Defined in: main.ts:107849
 
 display results by item type
 optional field
@@ -126,7 +126,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107705
+Defined in: main.ts:107827
 
 language code
 required field if you don’t specify language_name
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:107697
+Defined in: main.ts:107819
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,7 +166,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:107765
+Defined in: main.ts:107887
 
 the maximum number of returned categories
 optional field
@@ -183,7 +183,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:107689
+Defined in: main.ts:107811
 
 location code
 required field if you don’t specify location_name
@@ -203,7 +203,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:107681
+Defined in: main.ts:107803
 
 full name of the location
 required field if you don’t specify location_code
@@ -223,7 +223,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:107770
+Defined in: main.ts:107892
 
 offset in the results array of returned categories 
 optional field
@@ -240,7 +240,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:107760
+Defined in: main.ts:107882
 
 results sorting rules
 optional field
@@ -269,7 +269,7 @@ Note: if the item_types array contains item types that are different from the or
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:107776
+Defined in: main.ts:107898
 
 user-defined task identifier
 optional field
@@ -287,7 +287,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:107673
+Defined in: main.ts:107795
 
 domain or subdomain
 required field
@@ -302,9 +302,9 @@ the domain or subdomain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:107789
+Defined in: main.ts:107911
 
 #### Parameters
 
@@ -320,9 +320,9 @@ Defined in: main.ts:107789
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:107830
+Defined in: main.ts:107952
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:107830
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`
 
-Defined in: main.ts:107823
+Defined in: main.ts:107945
 
 #### Parameters
 

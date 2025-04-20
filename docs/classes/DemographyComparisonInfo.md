@@ -6,7 +6,7 @@
 
 # Class: DemographyComparisonInfo
 
-Defined in: main.ts:22960
+Defined in: main.ts:22968
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:22960
 
 ### Constructor
 
-> **new DemographyComparisonInfo**(`data`?): `DemographyComparisonInfo`
+> **new DemographyComparisonInfo**(`data?`): `DemographyComparisonInfo`
 
-Defined in: main.ts:22968
+Defined in: main.ts:22976
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:22968
 
 > `optional` **age**: `object`
 
-Defined in: main.ts:22962
+Defined in: main.ts:22970
 
 type of element
 
@@ -58,7 +58,7 @@ type of element
 
 > `optional` **gender**: `object`
 
-Defined in: main.ts:22964
+Defined in: main.ts:22972
 
 type of element
 
@@ -74,9 +74,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:22977
+Defined in: main.ts:22985
 
 #### Parameters
 
@@ -92,9 +92,9 @@ Defined in: main.ts:22977
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:23007
+Defined in: main.ts:23015
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:23007
 
 > `static` **fromJS**(`data`): `DemographyComparisonInfo`
 
-Defined in: main.ts:23000
+Defined in: main.ts:23008
 
 #### Parameters
 

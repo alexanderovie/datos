@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
-Defined in: main.ts:173032
+Defined in: main.ts:173420
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173032
 
 ### Constructor
 
-> **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): `BacklinksBulkSpamScoreLiveResultInfo`
+> **new BacklinksBulkSpamScoreLiveResultInfo**(`data?`): `BacklinksBulkSpamScoreLiveResultInfo`
 
-Defined in: main.ts:173040
+Defined in: main.ts:173428
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173040
 
 > `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
-Defined in: main.ts:173036
+Defined in: main.ts:173424
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:173034
+Defined in: main.ts:173422
 
 the number of results returned in the items array
 
@@ -66,9 +66,9 @@ the number of results returned in the items array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173049
+Defined in: main.ts:173437
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:173049
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173071
+Defined in: main.ts:173459
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:173071
 
 > `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveResultInfo`
 
-Defined in: main.ts:173064
+Defined in: main.ts:173452
 
 #### Parameters
 

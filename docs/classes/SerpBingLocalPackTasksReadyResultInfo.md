@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTasksReadyResultInfo
 
-Defined in: main.ts:69913
+Defined in: main.ts:70025
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:69913
 
 ### Constructor
 
-> **new SerpBingLocalPackTasksReadyResultInfo**(`data`?): `SerpBingLocalPackTasksReadyResultInfo`
+> **new SerpBingLocalPackTasksReadyResultInfo**(`data?`): `SerpBingLocalPackTasksReadyResultInfo`
 
-Defined in: main.ts:69938
+Defined in: main.ts:70050
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:69938
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:69923
+Defined in: main.ts:70035
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:69931
+Defined in: main.ts:70043
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:69934
+Defined in: main.ts:70046
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:69928
+Defined in: main.ts:70040
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:69916
+Defined in: main.ts:70028
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:69918
+Defined in: main.ts:70030
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:69921
+Defined in: main.ts:70033
 
 type of search engine
 example: local_pack
@@ -143,7 +143,7 @@ example: local_pack
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:69925
+Defined in: main.ts:70037
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:69947
+Defined in: main.ts:70059
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:69947
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:69971
+Defined in: main.ts:70083
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:69971
 
 > `static` **fromJS**(`data`): `SerpBingLocalPackTasksReadyResultInfo`
 
-Defined in: main.ts:69964
+Defined in: main.ts:70076
 
 #### Parameters
 

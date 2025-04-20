@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteLiveHtmlRequestInfo
 
-Defined in: main.ts:93706
+Defined in: main.ts:93818
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:93706
 
 ### Constructor
 
-> **new SerpGoogleFinanceQuoteLiveHtmlRequestInfo**(`data`?): `SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
+> **new SerpGoogleFinanceQuoteLiveHtmlRequestInfo**(`data?`): `SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
 
-Defined in: main.ts:93766
+Defined in: main.ts:93878
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93766
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:93747
+Defined in: main.ts:93859
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93715
+Defined in: main.ts:93827
 
 ticker or stock symbol
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93743
+Defined in: main.ts:93855
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:93736
+Defined in: main.ts:93848
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93729
+Defined in: main.ts:93841
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:93722
+Defined in: main.ts:93834
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:93751
+Defined in: main.ts:93863
 
 device operating system
 optional field
@@ -169,7 +169,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:93762
+Defined in: main.ts:93874
 
 user-defined task identifier
 optional field
@@ -187,7 +187,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:93756
+Defined in: main.ts:93868
 
 time window for google_finance_quote graph
 optional field
@@ -202,9 +202,9 @@ default value: 1D
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:93775
+Defined in: main.ts:93887
 
 #### Parameters
 
@@ -220,9 +220,9 @@ Defined in: main.ts:93775
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:93800
+Defined in: main.ts:93912
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:93800
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteLiveHtmlRequestInfo`
 
-Defined in: main.ts:93793
+Defined in: main.ts:93905
 
 #### Parameters
 

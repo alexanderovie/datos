@@ -6,7 +6,7 @@
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
-Defined in: main.ts:227464
+Defined in: main.ts:227994
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:227464
 
 ### Constructor
 
-> **new GoogleBusinessPostBusinessDataSerpElementItem**(`data`?): `GoogleBusinessPostBusinessDataSerpElementItem`
+> **new GoogleBusinessPostBusinessDataSerpElementItem**(`data?`): `GoogleBusinessPostBusinessDataSerpElementItem`
 
-Defined in: main.ts:227494
+Defined in: main.ts:228024
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:227494
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23355
+Defined in: main.ts:23363
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23355
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:227471
+Defined in: main.ts:228001
 
 author of the post
 
@@ -74,7 +74,7 @@ author of the post
 
 > `optional` **images\_url**: `string`
 
-Defined in: main.ts:227479
+Defined in: main.ts:228009
 
 url of an image included in the post
 
@@ -88,7 +88,7 @@ url of an image included in the post
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:227490
+Defined in: main.ts:228020
 
 links included in the post
 
@@ -102,7 +102,7 @@ links included in the post
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:227467
+Defined in: main.ts:227997
 
 the alignment of the element in SERP
 can take the following values: right
@@ -117,7 +117,7 @@ can take the following values: right
 
 > `optional` **post\_date**: `string`
 
-Defined in: main.ts:227483
+Defined in: main.ts:228013
 
 date when a post was published
 in the following format:
@@ -133,7 +133,7 @@ in the following format:
 
 > `optional` **post\_text**: `string`
 
-Defined in: main.ts:227475
+Defined in: main.ts:228005
 
 main content of a post
 
@@ -147,7 +147,7 @@ main content of a post
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23353
+Defined in: main.ts:23361
 
 absolute rank among all the elements
 
@@ -165,7 +165,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23351
+Defined in: main.ts:23359
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -184,7 +184,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:227473
+Defined in: main.ts:228003
 
 additional content of a post
 
@@ -198,7 +198,7 @@ additional content of a post
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:227488
+Defined in: main.ts:228018
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -215,7 +215,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23348
+Defined in: main.ts:23356
 
 type of element
 
@@ -233,7 +233,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:227477
+Defined in: main.ts:228007
 
 url of a post
 
@@ -247,7 +247,7 @@ url of a post
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:227469
+Defined in: main.ts:227999
 
 the XPath of the element
 
@@ -259,9 +259,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:227499
+Defined in: main.ts:228029
 
 #### Parameters
 
@@ -281,9 +281,9 @@ Defined in: main.ts:227499
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:227530
+Defined in: main.ts:228060
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:227530
 
 > `static` **fromJS**(`data`): `GoogleBusinessPostBusinessDataSerpElementItem`
 
-Defined in: main.ts:227523
+Defined in: main.ts:228053
 
 #### Parameters
 

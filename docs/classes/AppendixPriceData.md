@@ -6,7 +6,7 @@
 
 # Class: AppendixPriceData
 
-Defined in: main.ts:250078
+Defined in: main.ts:250904
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250078
 
 ### Constructor
 
-> **new AppendixPriceData**(`data`?): `AppendixPriceData`
+> **new AppendixPriceData**(`data?`): `AppendixPriceData`
 
-Defined in: main.ts:250094
+Defined in: main.ts:250920
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:250094
 
 > `optional` **app\_data**: [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
-Defined in: main.ts:250083
+Defined in: main.ts:250909
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:250083
 
 > `optional` **appendix**: [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-Defined in: main.ts:250082
+Defined in: main.ts:250908
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:250082
 
 > `optional` **backlinks**: [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
-Defined in: main.ts:250084
+Defined in: main.ts:250910
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:250084
 
 > `optional` **business\_data**: [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-Defined in: main.ts:250085
+Defined in: main.ts:250911
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:250085
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
 
-Defined in: main.ts:250086
+Defined in: main.ts:250912
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:250086
 
 > `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
 
-Defined in: main.ts:250087
+Defined in: main.ts:250913
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:250087
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
-Defined in: main.ts:250088
+Defined in: main.ts:250914
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:250088
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:250089
+Defined in: main.ts:250915
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:250089
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
-Defined in: main.ts:250079
+Defined in: main.ts:250905
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:250079
 
 > `optional` **merchant**: [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
 
-Defined in: main.ts:250080
+Defined in: main.ts:250906
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:250080
 
 > `optional` **on\_page**: [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
-Defined in: main.ts:250090
+Defined in: main.ts:250916
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:250090
 
 > `optional` **serp**: [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
-Defined in: main.ts:250081
+Defined in: main.ts:250907
 
 #### Implementation of
 
@@ -182,9 +182,9 @@ Defined in: main.ts:250081
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:250103
+Defined in: main.ts:250929
 
 #### Parameters
 
@@ -200,9 +200,9 @@ Defined in: main.ts:250103
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:250131
+Defined in: main.ts:250957
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:250131
 
 > `static` **fromJS**(`data`): `AppendixPriceData`
 
-Defined in: main.ts:250124
+Defined in: main.ts:250950
 
 #### Parameters
 

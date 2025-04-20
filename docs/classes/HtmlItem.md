@@ -6,7 +6,7 @@
 
 # Class: HtmlItem
 
-Defined in: main.ts:41231
+Defined in: main.ts:41333
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:41231
 
 ### Constructor
 
-> **new HtmlItem**(`data`?): `HtmlItem`
+> **new HtmlItem**(`data?`): `HtmlItem`
 
-Defined in: main.ts:41244
+Defined in: main.ts:41346
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:41244
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:41238
+Defined in: main.ts:41340
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **html**: `string`
 
-Defined in: main.ts:41240
+Defined in: main.ts:41342
 
 HTML page
 
@@ -71,7 +71,7 @@ HTML page
 
 > `optional` **page**: `number`
 
-Defined in: main.ts:41233
+Defined in: main.ts:41335
 
 serial number of the returned HTML page
 
@@ -83,9 +83,9 @@ serial number of the returned HTML page
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:41253
+Defined in: main.ts:41355
 
 #### Parameters
 
@@ -101,9 +101,9 @@ Defined in: main.ts:41253
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:41272
+Defined in: main.ts:41374
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:41272
 
 > `static` **fromJS**(`data`): `HtmlItem`
 
-Defined in: main.ts:41265
+Defined in: main.ts:41367
 
 #### Parameters
 

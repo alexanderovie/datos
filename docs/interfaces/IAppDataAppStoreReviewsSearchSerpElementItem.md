@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
-Defined in: main.ts:220197
+Defined in: main.ts:220727
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:220197
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:220207
+Defined in: main.ts:220737
 
 id of the review
 
@@ -32,7 +32,7 @@ id of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:24115
+Defined in: main.ts:24123
 
 the alignment of the element in SERP
 can take the following values:
@@ -48,7 +48,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24111
+Defined in: main.ts:24119
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -63,7 +63,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24108
+Defined in: main.ts:24116
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:24119
+Defined in: main.ts:24127
 
 average rating of the app
 
@@ -92,7 +92,7 @@ average rating of the app
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:220209
+Defined in: main.ts:220739
 
 content of the review
 
@@ -102,7 +102,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:220205
+Defined in: main.ts:220735
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -115,7 +115,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24117
+Defined in: main.ts:24125
 
 title of the app
 
@@ -129,7 +129,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24105
+Defined in: main.ts:24113
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
-Defined in: main.ts:220211
+Defined in: main.ts:220741
 
 user profile of the reviewer
 
@@ -153,7 +153,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:220200
+Defined in: main.ts:220730
 
 version of the app
 version of the app for which the review is submitted

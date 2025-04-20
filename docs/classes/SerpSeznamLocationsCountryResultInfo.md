@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsCountryResultInfo
 
-Defined in: main.ts:85238
+Defined in: main.ts:85350
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:85238
 
 ### Constructor
 
-> **new SerpSeznamLocationsCountryResultInfo**(`data`?): `SerpSeznamLocationsCountryResultInfo`
+> **new SerpSeznamLocationsCountryResultInfo**(`data?`): `SerpSeznamLocationsCountryResultInfo`
 
-Defined in: main.ts:85254
+Defined in: main.ts:85366
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85254
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:85248
+Defined in: main.ts:85360
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:85240
+Defined in: main.ts:85352
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:85246
+Defined in: main.ts:85358
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:85242
+Defined in: main.ts:85354
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:85250
+Defined in: main.ts:85362
 
 location type
 
@@ -110,9 +110,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:85263
+Defined in: main.ts:85375
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:85263
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:85284
+Defined in: main.ts:85396
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:85284
 
 > `static` **fromJS**(`data`): `SerpSeznamLocationsCountryResultInfo`
 
-Defined in: main.ts:85277
+Defined in: main.ts:85389
 
 #### Parameters
 

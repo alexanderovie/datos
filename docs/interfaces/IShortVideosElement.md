@@ -6,7 +6,7 @@
 
 # Interface: IShortVideosElement
 
-Defined in: main.ts:37733
+Defined in: main.ts:37741
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37733
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37739
+Defined in: main.ts:37747
 
 website domain
 
@@ -28,7 +28,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37744
+Defined in: main.ts:37752
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -39,7 +39,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37737
+Defined in: main.ts:37745
 
 title of a given link element
 
@@ -49,7 +49,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37735
+Defined in: main.ts:37743
 
 type of element
 
@@ -59,6 +59,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37741
+Defined in: main.ts:37749
 
 URL

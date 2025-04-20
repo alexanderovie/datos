@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsRequestInfo
 
-Defined in: main.ts:195966
+Defined in: main.ts:196496
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:195966
 
 ### Constructor
 
-> **new MerchantErrorsRequestInfo**(`data`?): `MerchantErrorsRequestInfo`
+> **new MerchantErrorsRequestInfo**(`data?`): `MerchantErrorsRequestInfo`
 
-Defined in: main.ts:196000
+Defined in: main.ts:196530
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:196000
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:195989
+Defined in: main.ts:196519
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:195996
+Defined in: main.ts:196526
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:195982
+Defined in: main.ts:196512
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:195971
+Defined in: main.ts:196501
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:195976
+Defined in: main.ts:196506
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:196009
+Defined in: main.ts:196539
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:196009
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:196030
+Defined in: main.ts:196560
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:196030
 
 > `static` **fromJS**(`data`): `MerchantErrorsRequestInfo`
 
-Defined in: main.ts:196023
+Defined in: main.ts:196553
 
 #### Parameters
 

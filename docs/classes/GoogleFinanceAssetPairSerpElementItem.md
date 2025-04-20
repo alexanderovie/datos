@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceAssetPairSerpElementItem
 
-Defined in: main.ts:94646
+Defined in: main.ts:94758
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:94646
 
 ### Constructor
 
-> **new GoogleFinanceAssetPairSerpElementItem**(`data`?): `GoogleFinanceAssetPairSerpElementItem`
+> **new GoogleFinanceAssetPairSerpElementItem**(`data?`): `GoogleFinanceAssetPairSerpElementItem`
 
-Defined in: main.ts:94667
+Defined in: main.ts:94779
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:94667
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22453
+Defined in: main.ts:22461
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22453
 
 > `optional` **base\_display\_name**: `string`
 
-Defined in: main.ts:94655
+Defined in: main.ts:94767
 
 full name of the base asset in a pair
 example: Euro
@@ -75,7 +75,7 @@ example: Euro
 
 > `optional` **base\_symbol**: `string`
 
-Defined in: main.ts:94649
+Defined in: main.ts:94761
 
 identifier of the base asset in a pair
 example: EUR
@@ -90,7 +90,7 @@ example: EUR
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:22436
+Defined in: main.ts:22444
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -109,7 +109,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:22433
+Defined in: main.ts:22441
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -129,7 +129,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22441
+Defined in: main.ts:22449
 
 location of the market index
 example: Europe/Paris
@@ -148,7 +148,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:22451
+Defined in: main.ts:22459
 
 percentage of change in value of the market index
 
@@ -166,7 +166,7 @@ percentage of change in value of the market index
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:94660
+Defined in: main.ts:94772
 
 value of the base asset compared to the quote asset
 
@@ -180,7 +180,7 @@ value of the base asset compared to the quote asset
 
 > `optional` **price\_delta**: `number`
 
-Defined in: main.ts:94663
+Defined in: main.ts:94775
 
 change in price
 change in price at a given timestamp
@@ -195,7 +195,7 @@ change in price at a given timestamp
 
 > `optional` **quote\_display\_name**: `string`
 
-Defined in: main.ts:94658
+Defined in: main.ts:94770
 
 full name of the base asset in a pair
 example: Euro
@@ -210,7 +210,7 @@ example: Euro
 
 > `optional` **quote\_symbol**: `string`
 
-Defined in: main.ts:94652
+Defined in: main.ts:94764
 
 identifier of the quote asset in a pair
 example: USD
@@ -225,7 +225,7 @@ example: USD
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22429
+Defined in: main.ts:22437
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -244,7 +244,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22426
+Defined in: main.ts:22434
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -264,7 +264,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:22449
+Defined in: main.ts:22457
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -285,7 +285,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:22444
+Defined in: main.ts:22452
 
 growth trend of the market index
 possible values: up, down, stable
@@ -304,7 +304,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22422
+Defined in: main.ts:22430
 
 type of element
 
@@ -322,7 +322,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22438
+Defined in: main.ts:22446
 
 URL to the page of the market index on Google Finance
 
@@ -338,9 +338,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:94672
+Defined in: main.ts:94784
 
 #### Parameters
 
@@ -360,9 +360,9 @@ Defined in: main.ts:94672
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:94695
+Defined in: main.ts:94807
 
 #### Parameters
 
@@ -384,7 +384,7 @@ Defined in: main.ts:94695
 
 > `static` **fromJS**(`data`): `GoogleFinanceAssetPairSerpElementItem`
 
-Defined in: main.ts:94688
+Defined in: main.ts:94800
 
 #### Parameters
 

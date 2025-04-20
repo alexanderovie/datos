@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsErrorsResultInfo
 
-Defined in: main.ts:96122
+Defined in: main.ts:96234
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96122
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:96129
+Defined in: main.ts:96241
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:96133
+Defined in: main.ts:96245
 
 error code
 
@@ -41,7 +41,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:96136
+Defined in: main.ts:96248
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -52,7 +52,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:96131
+Defined in: main.ts:96243
 
 corresponding API function
 
@@ -62,7 +62,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:96143
+Defined in: main.ts:96255
 
 HTTP status code
 
@@ -72,7 +72,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:96141
+Defined in: main.ts:96253
 
 HTTP method
 
@@ -82,7 +82,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:96149
+Defined in: main.ts:96261
 
 HTTP response
 server response
@@ -93,7 +93,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:96146
+Defined in: main.ts:96258
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -104,7 +104,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:96139
+Defined in: main.ts:96251
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -115,6 +115,6 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:96124
+Defined in: main.ts:96236
 
 id of the task

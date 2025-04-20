@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsDomainSerpElementItem
 
-Defined in: main.ts:64057
+Defined in: main.ts:64171
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:64057
 
 ### Constructor
 
-> **new GoogleAdsAdvertisersAdsDomainSerpElementItem**(`data`?): `GoogleAdsAdvertisersAdsDomainSerpElementItem`
+> **new GoogleAdsAdvertisersAdsDomainSerpElementItem**(`data?`): `GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
-Defined in: main.ts:64063
+Defined in: main.ts:64177
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:64063
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:63837
+Defined in: main.ts:63951
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:63837
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:64059
+Defined in: main.ts:64173
 
 domain in SERP
 
@@ -74,7 +74,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:63835
+Defined in: main.ts:63949
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -93,7 +93,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:63832
+Defined in: main.ts:63946
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63828
+Defined in: main.ts:63942
 
 type of element
 
@@ -129,9 +129,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:64068
+Defined in: main.ts:64182
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:64068
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:64086
+Defined in: main.ts:64200
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:64086
 
 > `static` **fromJS**(`data`): `GoogleAdsAdvertisersAdsDomainSerpElementItem`
 
-Defined in: main.ts:64079
+Defined in: main.ts:64193
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IGpsCoordinatesLocationInfo
 
-Defined in: main.ts:228737
+Defined in: main.ts:229267
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:228737
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:228741
+Defined in: main.ts:229271
 
 latitude coordinate of the hotel in google maps
 example:
@@ -30,7 +30,7 @@ example:
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:228745
+Defined in: main.ts:229275
 
 longitude coordinate of the hotel in google maps
 example:

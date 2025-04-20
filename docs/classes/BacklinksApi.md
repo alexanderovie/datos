@@ -6,15 +6,15 @@
 
 # Class: BacklinksApi
 
-Defined in: main.ts:13009
+Defined in: main.ts:13012
 
 ## Constructors
 
 ### Constructor
 
-> **new BacklinksApi**(`baseUrl`?, `http`?): `BacklinksApi`
+> **new BacklinksApi**(`baseUrl?`, `http?`): `BacklinksApi`
 
-Defined in: main.ts:13014
+Defined in: main.ts:13017
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:13014
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:13012
+Defined in: main.ts:13015
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:13012
 
 > **anchorsLive**(`body`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13307
+Defined in: main.ts:13310
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Successful operation
 
 > **backlinksAvailableFilters**(): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:13106
+Defined in: main.ts:13109
 
 #### Returns
 
@@ -94,7 +94,7 @@ Successful operation
 
 > **backlinksErrors**(`body`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
 
-Defined in: main.ts:13065
+Defined in: main.ts:13068
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Successful operation
 
 > **backlinksIdList**(`body`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
 
-Defined in: main.ts:13023
+Defined in: main.ts:13026
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Successful operation
 
 > **backlinksLive**(`body`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13265
+Defined in: main.ts:13268
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Successful operation
 
 > **bulkBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13769
+Defined in: main.ts:13772
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Successful operation
 
 > **bulkNewLostBacklinksLive**(`body`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13895
+Defined in: main.ts:13898
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Successful operation
 
 > **bulkNewLostReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13937
+Defined in: main.ts:13940
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Successful operation
 
 > **bulkPagesSummaryLive**(`body`): `Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13979
+Defined in: main.ts:13982
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Successful operation
 
 > **bulkRanksLive**(`body`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13727
+Defined in: main.ts:13730
 
 #### Parameters
 
@@ -270,7 +270,7 @@ Successful operation
 
 > **bulkReferringDomainsLive**(`body`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13853
+Defined in: main.ts:13856
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Successful operation
 
 > **bulkSpamScoreLive**(`body`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
 
-Defined in: main.ts:13811
+Defined in: main.ts:13814
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Successful operation
 
 > **competitorsLive**(`body`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13517
+Defined in: main.ts:13520
 
 #### Parameters
 
@@ -336,7 +336,7 @@ Successful operation
 
 > **domainIntersectionLive**(`body`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
 
-Defined in: main.ts:13559
+Defined in: main.ts:13562
 
 #### Parameters
 
@@ -358,7 +358,7 @@ Successful operation
 
 > **domainPagesLive**(`body`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
 
-Defined in: main.ts:13349
+Defined in: main.ts:13352
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Successful operation
 
 > **domainPagesSummaryLive**(`body`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13391
+Defined in: main.ts:13394
 
 #### Parameters
 
@@ -402,7 +402,7 @@ Successful operation
 
 > **historyLive**(`body`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13223
+Defined in: main.ts:13226
 
 #### Parameters
 
@@ -424,7 +424,7 @@ Successful operation
 
 > **index**(): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
 
-Defined in: main.ts:13143
+Defined in: main.ts:13146
 
 #### Returns
 
@@ -438,7 +438,7 @@ Successful operation
 
 > **pageIntersectionLive**(`body`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
 
-Defined in: main.ts:13601
+Defined in: main.ts:13604
 
 #### Parameters
 
@@ -460,7 +460,7 @@ Successful operation
 
 > `protected` **processAnchorsLive**(`response`): `Promise`\<[`BacklinksAnchorsLiveResponseInfo`](BacklinksAnchorsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13327
+Defined in: main.ts:13330
 
 #### Parameters
 
@@ -478,7 +478,7 @@ Defined in: main.ts:13327
 
 > `protected` **processBacklinksAvailableFilters**(`response`): `Promise`\<[`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:13122
+Defined in: main.ts:13125
 
 #### Parameters
 
@@ -496,7 +496,7 @@ Defined in: main.ts:13122
 
 > `protected` **processBacklinksErrors**(`response`): `Promise`\<[`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)\>
 
-Defined in: main.ts:13085
+Defined in: main.ts:13088
 
 #### Parameters
 
@@ -514,7 +514,7 @@ Defined in: main.ts:13085
 
 > `protected` **processBacklinksIdList**(`response`): `Promise`\<[`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)\>
 
-Defined in: main.ts:13043
+Defined in: main.ts:13046
 
 #### Parameters
 
@@ -532,7 +532,7 @@ Defined in: main.ts:13043
 
 > `protected` **processBacklinksLive**(`response`): `Promise`\<[`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13285
+Defined in: main.ts:13288
 
 #### Parameters
 
@@ -550,7 +550,7 @@ Defined in: main.ts:13285
 
 > `protected` **processBulkBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkBacklinksLiveResponseInfo`](BacklinksBulkBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13789
+Defined in: main.ts:13792
 
 #### Parameters
 
@@ -568,7 +568,7 @@ Defined in: main.ts:13789
 
 > `protected` **processBulkNewLostBacklinksLive**(`response`): `Promise`\<[`BacklinksBulkNewLostBacklinksLiveResponseInfo`](BacklinksBulkNewLostBacklinksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13915
+Defined in: main.ts:13918
 
 #### Parameters
 
@@ -586,7 +586,7 @@ Defined in: main.ts:13915
 
 > `protected` **processBulkNewLostReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13957
+Defined in: main.ts:13960
 
 #### Parameters
 
@@ -604,7 +604,7 @@ Defined in: main.ts:13957
 
 > `protected` **processBulkPagesSummaryLive**(`response`): `Promise`\<[`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13999
+Defined in: main.ts:14002
 
 #### Parameters
 
@@ -622,7 +622,7 @@ Defined in: main.ts:13999
 
 > `protected` **processBulkRanksLive**(`response`): `Promise`\<[`BacklinksBulkRanksLiveResponseInfo`](BacklinksBulkRanksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13747
+Defined in: main.ts:13750
 
 #### Parameters
 
@@ -640,7 +640,7 @@ Defined in: main.ts:13747
 
 > `protected` **processBulkReferringDomainsLive**(`response`): `Promise`\<[`BacklinksBulkReferringDomainsLiveResponseInfo`](BacklinksBulkReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13873
+Defined in: main.ts:13876
 
 #### Parameters
 
@@ -658,7 +658,7 @@ Defined in: main.ts:13873
 
 > `protected` **processBulkSpamScoreLive**(`response`): `Promise`\<[`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)\>
 
-Defined in: main.ts:13831
+Defined in: main.ts:13834
 
 #### Parameters
 
@@ -676,7 +676,7 @@ Defined in: main.ts:13831
 
 > `protected` **processCompetitorsLive**(`response`): `Promise`\<[`BacklinksCompetitorsLiveResponseInfo`](BacklinksCompetitorsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13537
+Defined in: main.ts:13540
 
 #### Parameters
 
@@ -694,7 +694,7 @@ Defined in: main.ts:13537
 
 > `protected` **processDomainIntersectionLive**(`response`): `Promise`\<[`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)\>
 
-Defined in: main.ts:13579
+Defined in: main.ts:13582
 
 #### Parameters
 
@@ -712,7 +712,7 @@ Defined in: main.ts:13579
 
 > `protected` **processDomainPagesLive**(`response`): `Promise`\<[`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)\>
 
-Defined in: main.ts:13369
+Defined in: main.ts:13372
 
 #### Parameters
 
@@ -730,7 +730,7 @@ Defined in: main.ts:13369
 
 > `protected` **processDomainPagesSummaryLive**(`response`): `Promise`\<[`BacklinksDomainPagesSummaryLiveResponseInfo`](BacklinksDomainPagesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13411
+Defined in: main.ts:13414
 
 #### Parameters
 
@@ -748,7 +748,7 @@ Defined in: main.ts:13411
 
 > `protected` **processHistoryLive**(`response`): `Promise`\<[`BacklinksHistoryLiveResponseInfo`](BacklinksHistoryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13243
+Defined in: main.ts:13246
 
 #### Parameters
 
@@ -766,7 +766,7 @@ Defined in: main.ts:13243
 
 > `protected` **processIndex**(`response`): `Promise`\<[`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)\>
 
-Defined in: main.ts:13159
+Defined in: main.ts:13162
 
 #### Parameters
 
@@ -784,7 +784,7 @@ Defined in: main.ts:13159
 
 > `protected` **processPageIntersectionLive**(`response`): `Promise`\<[`BacklinksPageIntersectionLiveResponseInfo`](BacklinksPageIntersectionLiveResponseInfo.md)\>
 
-Defined in: main.ts:13621
+Defined in: main.ts:13624
 
 #### Parameters
 
@@ -802,7 +802,7 @@ Defined in: main.ts:13621
 
 > `protected` **processReferringDomainsLive**(`response`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13453
+Defined in: main.ts:13456
 
 #### Parameters
 
@@ -820,7 +820,7 @@ Defined in: main.ts:13453
 
 > `protected` **processReferringNetworksLive**(`response`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13495
+Defined in: main.ts:13498
 
 #### Parameters
 
@@ -838,7 +838,7 @@ Defined in: main.ts:13495
 
 > `protected` **processSummaryLive**(`response`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13201
+Defined in: main.ts:13204
 
 #### Parameters
 
@@ -856,7 +856,7 @@ Defined in: main.ts:13201
 
 > `protected` **processTimeseriesNewLostSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13705
+Defined in: main.ts:13708
 
 #### Parameters
 
@@ -874,7 +874,7 @@ Defined in: main.ts:13705
 
 > `protected` **processTimeseriesSummaryLive**(`response`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13663
+Defined in: main.ts:13666
 
 #### Parameters
 
@@ -892,7 +892,7 @@ Defined in: main.ts:13663
 
 > **referringDomainsLive**(`body`): `Promise`\<[`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)\>
 
-Defined in: main.ts:13433
+Defined in: main.ts:13436
 
 #### Parameters
 
@@ -914,7 +914,7 @@ Successful operation
 
 > **referringNetworksLive**(`body`): `Promise`\<[`BacklinksReferringNetworksLiveResponseInfo`](BacklinksReferringNetworksLiveResponseInfo.md)\>
 
-Defined in: main.ts:13475
+Defined in: main.ts:13478
 
 #### Parameters
 
@@ -936,7 +936,7 @@ Successful operation
 
 > **summaryLive**(`body`): `Promise`\<[`BacklinksSummaryLiveResponseInfo`](BacklinksSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13181
+Defined in: main.ts:13184
 
 #### Parameters
 
@@ -958,7 +958,7 @@ Successful operation
 
 > **timeseriesNewLostSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13685
+Defined in: main.ts:13688
 
 #### Parameters
 
@@ -980,7 +980,7 @@ Successful operation
 
 > **timeseriesSummaryLive**(`body`): `Promise`\<[`BacklinksTimeseriesSummaryLiveResponseInfo`](BacklinksTimeseriesSummaryLiveResponseInfo.md)\>
 
-Defined in: main.ts:13643
+Defined in: main.ts:13646
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantIdListRequestInfo
 
-Defined in: main.ts:195618
+Defined in: main.ts:196148
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:195618
 
 ### Constructor
 
-> **new MerchantIdListRequestInfo**(`data`?): `MerchantIdListRequestInfo`
+> **new MerchantIdListRequestInfo**(`data?`): `MerchantIdListRequestInfo`
 
-Defined in: main.ts:195656
+Defined in: main.ts:196186
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195656
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:195626
+Defined in: main.ts:196156
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:195633
+Defined in: main.ts:196163
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:195652
+Defined in: main.ts:196182
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:195638
+Defined in: main.ts:196168
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:195643
+Defined in: main.ts:196173
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:195648
+Defined in: main.ts:196178
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:195665
+Defined in: main.ts:196195
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:195665
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:195687
+Defined in: main.ts:196217
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:195687
 
 > `static` **fromJS**(`data`): `MerchantIdListRequestInfo`
 
-Defined in: main.ts:195680
+Defined in: main.ts:196210
 
 #### Parameters
 

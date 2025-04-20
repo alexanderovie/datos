@@ -6,7 +6,7 @@
 
 # Class: SslInfo
 
-Defined in: main.ts:177100
+Defined in: main.ts:177510
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:177100
 
 ### Constructor
 
-> **new SslInfo**(`data`?): `SslInfo`
+> **new SslInfo**(`data?`): `SslInfo`
 
-Defined in: main.ts:177125
+Defined in: main.ts:177535
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177125
 
 > `optional` **certificate\_expiration\_date**: `string`
 
-Defined in: main.ts:177121
+Defined in: main.ts:177531
 
 ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -58,7 +58,7 @@ example:
 
 > `optional` **certificate\_hash**: `string`
 
-Defined in: main.ts:177115
+Defined in: main.ts:177525
 
 ssl certificate hash
 the version of the ssl certificate’s hash function
@@ -73,7 +73,7 @@ the version of the ssl certificate’s hash function
 
 > `optional` **certificate\_issuer**: `string`
 
-Defined in: main.ts:177106
+Defined in: main.ts:177516
 
 ssl certificate authority
 the entity that issued the detected ssl certificate
@@ -88,7 +88,7 @@ the entity that issued the detected ssl certificate
 
 > `optional` **certificate\_subject**: `string`
 
-Defined in: main.ts:177109
+Defined in: main.ts:177519
 
 ssl certificate subject
 the entity associated with the public key
@@ -103,7 +103,7 @@ the entity associated with the public key
 
 > `optional` **certificate\_version**: `string`
 
-Defined in: main.ts:177112
+Defined in: main.ts:177522
 
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
@@ -118,7 +118,7 @@ indicates the version of X.509 used by an ssl certificate
 
 > `optional` **valid\_certificate**: `boolean`
 
-Defined in: main.ts:177103
+Defined in: main.ts:177513
 
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid
@@ -131,9 +131,9 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:177134
+Defined in: main.ts:177544
 
 #### Parameters
 
@@ -149,9 +149,9 @@ Defined in: main.ts:177134
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:177156
+Defined in: main.ts:177566
 
 #### Parameters
 
@@ -169,7 +169,7 @@ Defined in: main.ts:177156
 
 > `static` **fromJS**(`data`): `SslInfo`
 
-Defined in: main.ts:177149
+Defined in: main.ts:177559
 
 #### Parameters
 

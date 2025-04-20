@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphShoppingItemSerpElementItem
 
-Defined in: main.ts:32477
+Defined in: main.ts:32485
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:32477
 
 ### Constructor
 
-> **new KnowledgeGraphShoppingItemSerpElementItem**(`data`?): `KnowledgeGraphShoppingItemSerpElementItem`
+> **new KnowledgeGraphShoppingItemSerpElementItem**(`data?`): `KnowledgeGraphShoppingItemSerpElementItem`
 
-Defined in: main.ts:32500
+Defined in: main.ts:32508
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32500
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:32489
+Defined in: main.ts:32497
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
 
-Defined in: main.ts:32492
+Defined in: main.ts:32500
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32481
+Defined in: main.ts:32489
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,7 +107,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -126,7 +126,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32496
+Defined in: main.ts:32504
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,7 +162,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32485
+Defined in: main.ts:32493
 
 title of the place
 
@@ -176,7 +176,7 @@ title of the place
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32483
+Defined in: main.ts:32491
 
 the XPath of the element
 
@@ -206,9 +206,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:32505
+Defined in: main.ts:32513
 
 #### Parameters
 
@@ -228,9 +228,9 @@ Defined in: main.ts:32505
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:32532
+Defined in: main.ts:32540
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:32532
 
 > `static` **fromJS**(`data`): `KnowledgeGraphShoppingItemSerpElementItem`
 
-Defined in: main.ts:32525
+Defined in: main.ts:32533
 
 #### Parameters
 

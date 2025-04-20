@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
-Defined in: main.ts:98646
+Defined in: main.ts:98758
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:98646
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
+> **new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo**(`data?`): `DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
 
-Defined in: main.ts:98751
+Defined in: main.ts:98863
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98751
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:98670
+Defined in: main.ts:98782
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:98710
+Defined in: main.ts:98822
 
 array of results filtering parameters
 optional field
@@ -88,7 +88,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **groups**: `string`[]
 
-Defined in: main.ts:98663
+Defined in: main.ts:98775
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -107,7 +107,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:98686
+Defined in: main.ts:98798
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -128,7 +128,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:98732
+Defined in: main.ts:98844
 
 the maximum number of returned domains
 optional field
@@ -145,7 +145,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:98693
+Defined in: main.ts:98805
 
 search mode
 optional field
@@ -164,7 +164,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:98739
+Defined in: main.ts:98851
 
 offset in the results array of returned domains
 optional field
@@ -183,7 +183,7 @@ use the offset_token if you would like to offset more results
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:98747
+Defined in: main.ts:98859
 
 token for subsequent requests
 optional field
@@ -203,7 +203,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:98727
+Defined in: main.ts:98839
 
 results sorting rules
 optional field
@@ -232,7 +232,7 @@ example:
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:98677
+Defined in: main.ts:98789
 
 target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -251,7 +251,7 @@ example:
 
 > `optional` **technology\_paths**: `string`[]
 
-Defined in: main.ts:98656
+Defined in: main.ts:98768
 
 target technology paths
 required field if you don’t specify groups, technologies, keywords or categories
@@ -271,9 +271,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:98760
+Defined in: main.ts:98872
 
 #### Parameters
 
@@ -289,9 +289,9 @@ Defined in: main.ts:98760
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:98815
+Defined in: main.ts:98927
 
 #### Parameters
 
@@ -309,7 +309,7 @@ Defined in: main.ts:98815
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`
 
-Defined in: main.ts:98808
+Defined in: main.ts:98920
 
 #### Parameters
 

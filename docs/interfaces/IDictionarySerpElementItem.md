@@ -6,7 +6,7 @@
 
 # Interface: IDictionarySerpElementItem
 
-Defined in: main.ts:82977
+Defined in: main.ts:83089
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:82977
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:82991
+Defined in: main.ts:83103
 
 breadcrumb of the Ad element in SERP
 
@@ -32,7 +32,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:82989
+Defined in: main.ts:83101
 
 domain in SERP
 
@@ -42,7 +42,7 @@ domain in SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:82993
+Defined in: main.ts:83105
 
 keyword highlighted in the result
 
@@ -52,7 +52,7 @@ keyword highlighted in the result
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:83001
+Defined in: main.ts:83113
 
 sitelinks
 the links shown below some of search results
@@ -64,7 +64,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:82981
+Defined in: main.ts:83093
 
 the alignment of the element in SERP
 can take the following values:
@@ -76,7 +76,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -91,7 +91,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -107,7 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:83005
+Defined in: main.ts:83117
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -119,7 +119,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:82995
+Defined in: main.ts:83107
 
 snippet of the element
 
@@ -129,7 +129,7 @@ snippet of the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:82997
+Defined in: main.ts:83109
 
 description of the results element in SERP
 
@@ -139,7 +139,7 @@ description of the results element in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:82985
+Defined in: main.ts:83097
 
 title of the result in SERP
 
@@ -149,7 +149,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:82987
+Defined in: main.ts:83099
 
 relevant URL of the Ad element in SERP
 
@@ -173,6 +173,6 @@ relevant URL of the Ad element in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:82983
+Defined in: main.ts:83095
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeLiveResultInfo
 
-Defined in: main.ts:151653
+Defined in: main.ts:151777
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:151653
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:151685
+Defined in: main.ts:151809
 
 product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null
@@ -29,7 +29,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:151673
+Defined in: main.ts:151797
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -44,7 +44,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:151677
+Defined in: main.ts:151801
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -56,7 +56,7 @@ if there is no data then the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:151666
+Defined in: main.ts:151790
 
 device type in a POST array
 if there is no data, then the value is null
@@ -67,7 +67,7 @@ if there is no data, then the value is null
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:151655
+Defined in: main.ts:151779
 
 keyword in a POST array
 
@@ -77,7 +77,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:151661
+Defined in: main.ts:151785
 
 language code in a POST array
 if there is no data, then the value is null
@@ -88,7 +88,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:151658
+Defined in: main.ts:151782
 
 location code in a POST array
 if there is no data, then the value is null
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:151689
+Defined in: main.ts:151813
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -111,7 +111,7 @@ if there is no data then the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:151663
+Defined in: main.ts:151787
 
 indicates whether data from partner networks included in the response
 
@@ -121,7 +121,7 @@ indicates whether data from partner networks included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:151682
+Defined in: main.ts:151806
 
 monthly average search volume rate
 represents either the (approximate) number of searches for the given keyword idea on bing search engine depending on the user’s targeting;

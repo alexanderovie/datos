@@ -6,7 +6,7 @@
 
 # Class: MessageInfo
 
-Defined in: main.ts:25956
+Defined in: main.ts:25964
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25956
 
 ### Constructor
 
-> **new MessageInfo**(`data`?): `MessageInfo`
+> **new MessageInfo**(`data?`): `MessageInfo`
 
-Defined in: main.ts:25966
+Defined in: main.ts:25974
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25966
 
 > `optional` **level**: `string`
 
-Defined in: main.ts:25959
+Defined in: main.ts:25967
 
 level of error
 can take the following values: fatal, error, warning, info
@@ -55,7 +55,7 @@ can take the following values: fatal, error, warning, info
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:25962
+Defined in: main.ts:25970
 
 message associated with an error
 message providing the details of the detected error
@@ -68,9 +68,9 @@ message providing the details of the detected error
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25975
+Defined in: main.ts:25983
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:25975
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25993
+Defined in: main.ts:26001
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:25993
 
 > `static` **fromJS**(`data`): `MessageInfo`
 
-Defined in: main.ts:25986
+Defined in: main.ts:25994
 
 #### Parameters
 

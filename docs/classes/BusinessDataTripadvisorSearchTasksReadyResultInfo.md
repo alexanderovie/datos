@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTasksReadyResultInfo
 
-Defined in: main.ts:239772
+Defined in: main.ts:240302
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:239772
 
 ### Constructor
 
-> **new BusinessDataTripadvisorSearchTasksReadyResultInfo**(`data`?): `BusinessDataTripadvisorSearchTasksReadyResultInfo`
+> **new BusinessDataTripadvisorSearchTasksReadyResultInfo**(`data?`): `BusinessDataTripadvisorSearchTasksReadyResultInfo`
 
-Defined in: main.ts:239790
+Defined in: main.ts:240320
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:239790
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:239782
+Defined in: main.ts:240312
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:239786
+Defined in: main.ts:240316
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:239775
+Defined in: main.ts:240305
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:239778
+Defined in: main.ts:240308
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -98,7 +98,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:239780
+Defined in: main.ts:240310
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:239784
+Defined in: main.ts:240314
 
 user-defined task identifier
 
@@ -124,9 +124,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:239799
+Defined in: main.ts:240329
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:239799
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:239821
+Defined in: main.ts:240351
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:239821
 
 > `static` **fromJS**(`data`): `BusinessDataTripadvisorSearchTasksReadyResultInfo`
 
-Defined in: main.ts:239814
+Defined in: main.ts:240344
 
 #### Parameters
 

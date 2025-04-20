@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateContentResultInfo
 
-Defined in: main.ts:181092
+Defined in: main.ts:181502
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181092
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:181095
+Defined in: main.ts:181505
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:181097
+Defined in: main.ts:181507
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateContentItem`](../classes/OnPageDuplicateContentItem.md)[]
 
-Defined in: main.ts:181101
+Defined in: main.ts:181511
 
 items array
 
@@ -49,6 +49,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:181099
+Defined in: main.ts:181509
 
 number of items in the results array

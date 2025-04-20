@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleFinanceTickerSearchSerpElementItem
 
-Defined in: main.ts:22420
+Defined in: main.ts:22428
 
 ## Extended by
 
@@ -22,9 +22,9 @@ Defined in: main.ts:22420
 
 ### Constructor
 
-> **new BaseGoogleFinanceTickerSearchSerpElementItem**(`data`?): `BaseGoogleFinanceTickerSearchSerpElementItem`
+> **new BaseGoogleFinanceTickerSearchSerpElementItem**(`data?`): `BaseGoogleFinanceTickerSearchSerpElementItem`
 
-Defined in: main.ts:22455
+Defined in: main.ts:22463
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:22455
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22453
+Defined in: main.ts:22461
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:22453
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:22436
+Defined in: main.ts:22444
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -65,7 +65,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:22433
+Defined in: main.ts:22441
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -81,7 +81,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22441
+Defined in: main.ts:22449
 
 location of the market index
 example: Europe/Paris
@@ -96,7 +96,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:22451
+Defined in: main.ts:22459
 
 percentage of change in value of the market index
 
@@ -110,7 +110,7 @@ percentage of change in value of the market index
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22429
+Defined in: main.ts:22437
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22426
+Defined in: main.ts:22434
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:22449
+Defined in: main.ts:22457
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -158,7 +158,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:22444
+Defined in: main.ts:22452
 
 growth trend of the market index
 possible values: up, down, stable
@@ -173,7 +173,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22422
+Defined in: main.ts:22430
 
 type of element
 
@@ -187,7 +187,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22438
+Defined in: main.ts:22446
 
 URL to the page of the market index on Google Finance
 
@@ -199,9 +199,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:22465
+Defined in: main.ts:22473
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:22465
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:22502
+Defined in: main.ts:22510
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:22502
 
 > `static` **fromJS**(`data`): `BaseGoogleFinanceTickerSearchSerpElementItem`
 
-Defined in: main.ts:22480
+Defined in: main.ts:22488
 
 #### Parameters
 

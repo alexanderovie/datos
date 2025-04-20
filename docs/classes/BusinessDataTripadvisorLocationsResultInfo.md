@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLocationsResultInfo
 
-Defined in: main.ts:238932
+Defined in: main.ts:239462
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:238932
 
 ### Constructor
 
-> **new BusinessDataTripadvisorLocationsResultInfo**(`data`?): `BusinessDataTripadvisorLocationsResultInfo`
+> **new BusinessDataTripadvisorLocationsResultInfo**(`data?`): `BusinessDataTripadvisorLocationsResultInfo`
 
-Defined in: main.ts:238950
+Defined in: main.ts:239480
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238950
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:238944
+Defined in: main.ts:239474
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:238934
+Defined in: main.ts:239464
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:238936
+Defined in: main.ts:239466
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:238942
+Defined in: main.ts:239472
 
 the name of the superordinate location
 example:
@@ -100,7 +100,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:238946
+Defined in: main.ts:239476
 
 location type
 
@@ -112,9 +112,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:238959
+Defined in: main.ts:239489
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:238959
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:238980
+Defined in: main.ts:239510
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:238980
 
 > `static` **fromJS**(`data`): `BusinessDataTripadvisorLocationsResultInfo`
 
-Defined in: main.ts:238973
+Defined in: main.ts:239503
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationDayStatisticsRatesData
 
-Defined in: main.ts:246364
+Defined in: main.ts:246982
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:246364
 
 ### Constructor
 
-> **new AppendixContentGenerationDayStatisticsRatesData**(`data`?): `AppendixContentGenerationDayStatisticsRatesData`
+> **new AppendixContentGenerationDayStatisticsRatesData**(`data?`): `AppendixContentGenerationDayStatisticsRatesData`
 
-Defined in: main.ts:246376
+Defined in: main.ts:246994
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:246376
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246369
+Defined in: main.ts:246987
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:246369
 
 > `optional` **generate**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:246365
+Defined in: main.ts:246983
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:246365
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:246366
+Defined in: main.ts:246984
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:246366
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:246371
+Defined in: main.ts:246989
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:246371
 
 > `optional` **generate\_text**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:246367
+Defined in: main.ts:246985
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:246367
 
 > `optional` **grammar\_rules**: `number`
 
-Defined in: main.ts:246372
+Defined in: main.ts:246990
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:246372
 
 > `optional` **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:246368
+Defined in: main.ts:246986
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:246368
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246370
+Defined in: main.ts:246988
 
 #### Implementation of
 
@@ -134,9 +134,9 @@ Defined in: main.ts:246370
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:246385
+Defined in: main.ts:247003
 
 #### Parameters
 
@@ -152,9 +152,9 @@ Defined in: main.ts:246385
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:246409
+Defined in: main.ts:247027
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:246409
 
 > `static` **fromJS**(`data`): `AppendixContentGenerationDayStatisticsRatesData`
 
-Defined in: main.ts:246402
+Defined in: main.ts:247020
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: Rectangle
 
-Defined in: main.ts:24459
+Defined in: main.ts:24467
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24459
 
 ### Constructor
 
-> **new Rectangle**(`data`?): `Rectangle`
+> **new Rectangle**(`data?`): `Rectangle`
 
-Defined in: main.ts:24473
+Defined in: main.ts:24481
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24473
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:24469
+Defined in: main.ts:24477
 
 height of the element in pixels
 
@@ -54,7 +54,7 @@ height of the element in pixels
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:24467
+Defined in: main.ts:24475
 
 width of the element in pixels
 
@@ -68,7 +68,7 @@ width of the element in pixels
 
 > `optional` **x**: `number`
 
-Defined in: main.ts:24462
+Defined in: main.ts:24470
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -83,7 +83,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 > `optional` **y**: `number`
 
-Defined in: main.ts:24465
+Defined in: main.ts:24473
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -96,9 +96,9 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24482
+Defined in: main.ts:24490
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:24482
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24502
+Defined in: main.ts:24510
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:24502
 
 > `static` **fromJS**(`data`): `Rectangle`
 
-Defined in: main.ts:24495
+Defined in: main.ts:24503
 
 #### Parameters
 

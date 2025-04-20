@@ -6,7 +6,7 @@
 
 # Interface: IShoppingElement
 
-Defined in: main.ts:35720
+Defined in: main.ts:35728
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:35720
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35731
+Defined in: main.ts:35739
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:35736
+Defined in: main.ts:35744
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -41,7 +41,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:35739
+Defined in: main.ts:35747
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -52,7 +52,7 @@ URL of the page on the marketplace website where the product is hosted
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:35726
+Defined in: main.ts:35734
 
 price indicated in the element
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:35744
+Defined in: main.ts:35752
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -73,7 +73,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35729
+Defined in: main.ts:35737
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -84,7 +84,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35724
+Defined in: main.ts:35732
 
 title of a given link element
 
@@ -94,7 +94,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35722
+Defined in: main.ts:35730
 
 type of element
 
@@ -104,6 +104,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35741
+Defined in: main.ts:35749
 
 URL

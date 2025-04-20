@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:215824
+Defined in: main.ts:216354
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:215824
 
 ### Constructor
 
-> **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): `AppDataGoogleAppListingsCategoriesResultInfo`
+> **new AppDataGoogleAppListingsCategoriesResultInfo**(`data?`): `AppDataGoogleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:215832
+Defined in: main.ts:216362
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:215832
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:215826
+Defined in: main.ts:216356
 
 name of the supported app category
 
@@ -54,7 +54,7 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:215828
+Defined in: main.ts:216358
 
 number of app listings that make up the supported app category
 
@@ -66,9 +66,9 @@ number of app listings that make up the supported app category
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:215841
+Defined in: main.ts:216371
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:215841
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:215859
+Defined in: main.ts:216389
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:215859
 
 > `static` **fromJS**(`data`): `AppDataGoogleAppListingsCategoriesResultInfo`
 
-Defined in: main.ts:215852
+Defined in: main.ts:216382
 
 #### Parameters
 

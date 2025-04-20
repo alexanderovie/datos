@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedElement
 
-Defined in: main.ts:32135
+Defined in: main.ts:32143
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:32135
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32143
+Defined in: main.ts:32151
 
 domain in SERP
 
@@ -28,7 +28,7 @@ domain in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:32139
+Defined in: main.ts:32147
 
 title of a given element
 
@@ -38,7 +38,7 @@ title of a given element
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:32149
+Defined in: main.ts:32157
 
 images of the element
 
@@ -48,7 +48,7 @@ images of the element
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:32147
+Defined in: main.ts:32155
 
 text alongside the link title
 
@@ -58,7 +58,7 @@ text alongside the link title
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:32156
+Defined in: main.ts:32164
 
 table element
 
@@ -68,7 +68,7 @@ table element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:32154
+Defined in: main.ts:32162
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,7 +81,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32145
+Defined in: main.ts:32153
 
 title of the result in SERP
 
@@ -91,7 +91,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32137
+Defined in: main.ts:32145
 
 type of element
 
@@ -101,6 +101,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32141
+Defined in: main.ts:32149
 
 relevant URL

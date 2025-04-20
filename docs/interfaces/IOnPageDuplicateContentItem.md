@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateContentItem
 
-Defined in: main.ts:181017
+Defined in: main.ts:181427
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181017
 
 > `optional` **pages**: [`Pages`](../classes/Pages.md)[]
 
-Defined in: main.ts:181023
+Defined in: main.ts:181433
 
 pages with duplicate content
 
@@ -28,7 +28,7 @@ pages with duplicate content
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:181021
+Defined in: main.ts:181431
 
 total count of duplicate pages
 
@@ -38,6 +38,6 @@ total count of duplicate pages
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:181019
+Defined in: main.ts:181429
 
 URL of the specified page

@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesElement
 
-Defined in: main.ts:24595
+Defined in: main.ts:24603
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24595
 
 ### Constructor
 
-> **new RelatedSearchesElement**(`data`?): `RelatedSearchesElement`
+> **new RelatedSearchesElement**(`data?`): `RelatedSearchesElement`
 
-Defined in: main.ts:24609
+Defined in: main.ts:24617
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24609
 
 > `optional` **image\_alt**: `string`
 
-Defined in: main.ts:24603
+Defined in: main.ts:24611
 
 the alt tag of the product image featured in the results
 
@@ -54,7 +54,7 @@ the alt tag of the product image featured in the results
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:24605
+Defined in: main.ts:24613
 
 URL of the product image featured in the results
 
@@ -68,7 +68,7 @@ URL of the product image featured in the results
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24599
+Defined in: main.ts:24607
 
 product title
 
@@ -82,7 +82,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24597
+Defined in: main.ts:24605
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24601
+Defined in: main.ts:24609
 
 the URL of the product page
 
@@ -108,9 +108,9 @@ the URL of the product page
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24618
+Defined in: main.ts:24626
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:24618
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24639
+Defined in: main.ts:24647
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:24639
 
 > `static` **fromJS**(`data`): `RelatedSearchesElement`
 
-Defined in: main.ts:24632
+Defined in: main.ts:24640
 
 #### Parameters
 

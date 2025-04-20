@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:127454
+Defined in: main.ts:127576
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:127454
 
 ### Constructor
 
-> **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data`?): `DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
+> **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data?`): `DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
 
-Defined in: main.ts:127515
+Defined in: main.ts:127637
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:127515
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:127505
+Defined in: main.ts:127627
 
 ignore highly similar keywords
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:127500
+Defined in: main.ts:127622
 
 display results by item type
 optional field
@@ -78,7 +78,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127491
+Defined in: main.ts:127613
 
 language code
 required field if don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:127484
+Defined in: main.ts:127606
 
 full name of the language
 required field if don’t specify language_code
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127477
+Defined in: main.ts:127599
 
 location code
 required field if don’t specify location_name
@@ -136,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:127469
+Defined in: main.ts:127591
 
 full name of the location
 required field if don’t specify location_code
@@ -156,7 +156,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:127511
+Defined in: main.ts:127633
 
 user-defined task identifier
 optional field
@@ -174,9 +174,9 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:127461
+Defined in: main.ts:127583
 
-target domains and websites
+target domains, subdomains, and webpages
 required field
 you can specify domains, subdomains, and webpages in this field;
 domains and subdomains should be specified without https:// and www.;
@@ -191,9 +191,9 @@ you can set up to 1000 domains, subdomains or webpages
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:127524
+Defined in: main.ts:127646
 
 #### Parameters
 
@@ -209,9 +209,9 @@ Defined in: main.ts:127524
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:127556
+Defined in: main.ts:127678
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:127556
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`
 
-Defined in: main.ts:127549
+Defined in: main.ts:127671
 
 #### Parameters
 

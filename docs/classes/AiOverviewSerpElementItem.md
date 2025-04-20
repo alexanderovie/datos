@@ -6,7 +6,7 @@
 
 # Class: AiOverviewSerpElementItem
 
-Defined in: main.ts:40857
+Defined in: main.ts:40865
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:40857
 
 ### Constructor
 
-> **new AiOverviewSerpElementItem**(`data`?): `AiOverviewSerpElementItem`
+> **new AiOverviewSerpElementItem**(`data?`): `AiOverviewSerpElementItem`
 
-Defined in: main.ts:40880
+Defined in: main.ts:40888
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:40880
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40867
+Defined in: main.ts:40875
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:40869
+Defined in: main.ts:40877
 
 contains arrays of specific images
 
@@ -90,7 +90,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40861
+Defined in: main.ts:40869
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:40876
+Defined in: main.ts:40884
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:40872
+Defined in: main.ts:40880
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -176,7 +176,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40863
+Defined in: main.ts:40871
 
 the XPath of the element
 
@@ -206,9 +206,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:40885
+Defined in: main.ts:40893
 
 #### Parameters
 
@@ -228,9 +228,9 @@ Defined in: main.ts:40885
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:40916
+Defined in: main.ts:40924
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:40916
 
 > `static` **fromJS**(`data`): `AiOverviewSerpElementItem`
 
-Defined in: main.ts:40909
+Defined in: main.ts:40917
 
 #### Parameters
 

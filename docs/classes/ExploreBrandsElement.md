@@ -6,7 +6,7 @@
 
 # Class: ExploreBrandsElement
 
-Defined in: main.ts:39925
+Defined in: main.ts:39933
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:39925
 
 ### Constructor
 
-> **new ExploreBrandsElement**(`data`?): `ExploreBrandsElement`
+> **new ExploreBrandsElement**(`data?`): `ExploreBrandsElement`
 
-Defined in: main.ts:39944
+Defined in: main.ts:39952
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39944
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:39935
+Defined in: main.ts:39943
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39933
+Defined in: main.ts:39941
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:39938
+Defined in: main.ts:39946
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39929
+Defined in: main.ts:39937
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39927
+Defined in: main.ts:39935
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39931
+Defined in: main.ts:39939
 
 URL
 
@@ -125,7 +125,7 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39940
+Defined in: main.ts:39948
 
 the XPath of the element
 
@@ -137,9 +137,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39953
+Defined in: main.ts:39961
 
 #### Parameters
 
@@ -155,9 +155,9 @@ Defined in: main.ts:39953
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39976
+Defined in: main.ts:39984
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:39976
 
 > `static` **fromJS**(`data`): `ExploreBrandsElement`
 
-Defined in: main.ts:39969
+Defined in: main.ts:39977
 
 #### Parameters
 

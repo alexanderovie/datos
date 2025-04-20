@@ -6,7 +6,7 @@
 
 # Class: PreviewImage
 
-Defined in: main.ts:65187
+Defined in: main.ts:65301
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:65187
 
 ### Constructor
 
-> **new PreviewImage**(`data`?): `PreviewImage`
+> **new PreviewImage**(`data?`): `PreviewImage`
 
-Defined in: main.ts:65197
+Defined in: main.ts:65311
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:65197
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:65191
+Defined in: main.ts:65305
 
 height of the preview image
 
@@ -54,7 +54,7 @@ height of the preview image
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:65189
+Defined in: main.ts:65303
 
 search URL with refinement parameters
 
@@ -68,7 +68,7 @@ search URL with refinement parameters
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:65193
+Defined in: main.ts:65307
 
 width of the preview image
 
@@ -80,9 +80,9 @@ width of the preview image
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:65206
+Defined in: main.ts:65320
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:65206
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:65225
+Defined in: main.ts:65339
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:65225
 
 > `static` **fromJS**(`data`): `PreviewImage`
 
-Defined in: main.ts:65218
+Defined in: main.ts:65332
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo
 
-Defined in: main.ts:95150
+Defined in: main.ts:95262
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:95150
 
 ### Constructor
 
-> **new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo**(`data`?): `SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo`
+> **new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo**(`data?`): `SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo`
 
-Defined in: main.ts:95202
+Defined in: main.ts:95314
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95202
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:95192
+Defined in: main.ts:95304
 
 category of financial instruments to search for
 optional field
@@ -57,7 +57,7 @@ default value: all
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:95159
+Defined in: main.ts:95271
 
 company or financial instrument name
 required field
@@ -78,7 +78,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95187
+Defined in: main.ts:95299
 
 search engine language code
 required field if you don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:95180
+Defined in: main.ts:95292
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95173
+Defined in: main.ts:95285
 
 search engine location code
 required field if you don’t specify location_name
@@ -135,7 +135,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:95166
+Defined in: main.ts:95278
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,7 +154,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95198
+Defined in: main.ts:95310
 
 user-defined task identifier
 optional field
@@ -170,9 +170,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:95211
+Defined in: main.ts:95323
 
 #### Parameters
 
@@ -188,9 +188,9 @@ Defined in: main.ts:95211
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:95234
+Defined in: main.ts:95346
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:95234
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo`
 
-Defined in: main.ts:95227
+Defined in: main.ts:95339
 
 #### Parameters
 

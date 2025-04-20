@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:111456
+Defined in: main.ts:111578
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:111456
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:111563
+Defined in: main.ts:111685
 
 array of results filtering parameters
 optional field
@@ -46,7 +46,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:111543
+Defined in: main.ts:111665
 
 data collection mode
 optional field
@@ -63,7 +63,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:111503
+Defined in: main.ts:111625
 
 ignore highly similar keywords
 optional field
@@ -76,7 +76,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:111519
+Defined in: main.ts:111641
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -91,7 +91,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:111512
+Defined in: main.ts:111634
 
 display results by item type
 optional field
@@ -108,7 +108,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:111498
+Defined in: main.ts:111620
 
 language code
 optional field
@@ -125,7 +125,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:111489
+Defined in: main.ts:111611
 
 full name of the language
 optional field
@@ -142,7 +142,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:111524
+Defined in: main.ts:111646
 
 the maximum number of returned keywords
 optional field
@@ -155,7 +155,7 @@ maximum value: 1000
 
 > `optional` **load\_rank\_absolute**: `boolean`
 
-Defined in: main.ts:111534
+Defined in: main.ts:111656
 
 return rankings distribution by rank_absolute
 optional field
@@ -168,7 +168,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:111480
+Defined in: main.ts:111602
 
 location code
 optional field
@@ -185,7 +185,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:111471
+Defined in: main.ts:111593
 
 full name of the location
 optional field
@@ -202,7 +202,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:111529
+Defined in: main.ts:111651
 
 offset in the results array of returned keywords
 optional field
@@ -215,7 +215,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:111579
+Defined in: main.ts:111701
 
 results sorting rules
 optional field
@@ -239,7 +239,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:111585
+Defined in: main.ts:111707
 
 user-defined task identifier
 optional field
@@ -253,7 +253,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:111462
+Defined in: main.ts:111584
 
 domain name or page url
 required field

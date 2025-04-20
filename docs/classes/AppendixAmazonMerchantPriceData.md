@@ -6,7 +6,7 @@
 
 # Class: AppendixAmazonMerchantPriceData
 
-Defined in: main.ts:248334
+Defined in: main.ts:249160
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:248334
 
 ### Constructor
 
-> **new AppendixAmazonMerchantPriceData**(`data`?): `AppendixAmazonMerchantPriceData`
+> **new AppendixAmazonMerchantPriceData**(`data?`): `AppendixAmazonMerchantPriceData`
 
-Defined in: main.ts:248341
+Defined in: main.ts:249167
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248341
 
 > `optional` **asin**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248335
+Defined in: main.ts:249161
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248335
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248336
+Defined in: main.ts:249162
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:248336
 
 > `optional` **sellers**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248337
+Defined in: main.ts:249163
 
 #### Implementation of
 
@@ -74,9 +74,9 @@ Defined in: main.ts:248337
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:248350
+Defined in: main.ts:249176
 
 #### Parameters
 
@@ -92,9 +92,9 @@ Defined in: main.ts:248350
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:248369
+Defined in: main.ts:249195
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:248369
 
 > `static` **fromJS**(`data`): `AppendixAmazonMerchantPriceData`
 
-Defined in: main.ts:248362
+Defined in: main.ts:249188
 
 #### Parameters
 

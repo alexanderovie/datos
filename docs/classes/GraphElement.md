@@ -6,7 +6,7 @@
 
 # Class: GraphElement
 
-Defined in: main.ts:37417
+Defined in: main.ts:37425
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:37417
 
 ### Constructor
 
-> **new GraphElement**(`data`?): `GraphElement`
+> **new GraphElement**(`data?`): `GraphElement`
 
-Defined in: main.ts:37427
+Defined in: main.ts:37435
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37427
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:37421
+Defined in: main.ts:37429
 
 the posting date
 
@@ -54,7 +54,7 @@ the posting date
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37419
+Defined in: main.ts:37427
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:37423
+Defined in: main.ts:37431
 
 the value of the rating
 
@@ -80,9 +80,9 @@ the value of the rating
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37436
+Defined in: main.ts:37444
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:37436
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37455
+Defined in: main.ts:37463
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:37455
 
 > `static` **fromJS**(`data`): `GraphElement`
 
-Defined in: main.ts:37448
+Defined in: main.ts:37456
 
 #### Parameters
 

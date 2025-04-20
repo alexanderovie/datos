@@ -6,7 +6,7 @@
 
 # Interface: IAppendixDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:243311
+Defined in: main.ts:243841
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:243311
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243313
+Defined in: main.ts:243843
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:243313
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243312
+Defined in: main.ts:243842
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:243312
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243315
+Defined in: main.ts:243845
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:243315
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243314
+Defined in: main.ts:243844

@@ -6,7 +6,7 @@
 
 # Class: AppendixDomainAnalyticsDayStatisticsRatesData
 
-Defined in: main.ts:245584
+Defined in: main.ts:246202
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:245584
 
 ### Constructor
 
-> **new AppendixDomainAnalyticsDayStatisticsRatesData**(`data`?): `AppendixDomainAnalyticsDayStatisticsRatesData`
+> **new AppendixDomainAnalyticsDayStatisticsRatesData**(`data?`): `AppendixDomainAnalyticsDayStatisticsRatesData`
 
-Defined in: main.ts:245594
+Defined in: main.ts:246212
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245594
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:245590
+Defined in: main.ts:246207
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245590
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:245586
+Defined in: main.ts:246204
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245586
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:245589
+Defined in: main.ts:246208
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245589
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:245585
+Defined in: main.ts:246203
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:245585
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:245588
+Defined in: main.ts:246206
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:245588
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:245587
+Defined in: main.ts:246205
 
 #### Implementation of
 
@@ -110,9 +110,9 @@ Defined in: main.ts:245587
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:245603
+Defined in: main.ts:246221
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:245603
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:245625
+Defined in: main.ts:246243
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:245625
 
 > `static` **fromJS**(`data`): `AppendixDomainAnalyticsDayStatisticsRatesData`
 
-Defined in: main.ts:245618
+Defined in: main.ts:246236
 
 #### Parameters
 

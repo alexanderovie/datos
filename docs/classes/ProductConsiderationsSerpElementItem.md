@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsSerpElementItem
 
-Defined in: main.ts:39409
+Defined in: main.ts:39417
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:39409
 
 ### Constructor
 
-> **new ProductConsiderationsSerpElementItem**(`data`?): `ProductConsiderationsSerpElementItem`
+> **new ProductConsiderationsSerpElementItem**(`data?`): `ProductConsiderationsSerpElementItem`
 
-Defined in: main.ts:39427
+Defined in: main.ts:39435
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:39427
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
 
-Defined in: main.ts:39419
+Defined in: main.ts:39427
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:39413
+Defined in: main.ts:39421
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:39423
+Defined in: main.ts:39431
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39417
+Defined in: main.ts:39425
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39415
+Defined in: main.ts:39423
 
 the XPath of the element
 
@@ -189,9 +189,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39432
+Defined in: main.ts:39440
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:39432
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39458
+Defined in: main.ts:39466
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:39458
 
 > `static` **fromJS**(`data`): `ProductConsiderationsSerpElementItem`
 
-Defined in: main.ts:39451
+Defined in: main.ts:39459
 
 #### Parameters
 

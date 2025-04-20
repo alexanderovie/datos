@@ -6,7 +6,7 @@
 
 # Interface: IExploreBrandsSerpElementItem
 
-Defined in: main.ts:40082
+Defined in: main.ts:40090
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:40082
 
 > `optional` **items**: [`ExploreBrandsElement`](../classes/ExploreBrandsElement.md)[]
 
-Defined in: main.ts:40092
+Defined in: main.ts:40100
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40086
+Defined in: main.ts:40094
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:40096
+Defined in: main.ts:40104
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40090
+Defined in: main.ts:40098
 
 title of the row
 
@@ -97,7 +97,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -111,6 +111,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40088
+Defined in: main.ts:40096
 
 the XPath of the element

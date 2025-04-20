@@ -6,7 +6,7 @@
 
 # Class: BaseMerchantSerpElementItem
 
-Defined in: main.ts:22852
+Defined in: main.ts:22860
 
 ## Extended by
 
@@ -27,9 +27,9 @@ Defined in: main.ts:22852
 
 ### Constructor
 
-> **new BaseMerchantSerpElementItem**(`data`?): `BaseMerchantSerpElementItem`
+> **new BaseMerchantSerpElementItem**(`data?`): `BaseMerchantSerpElementItem`
 
-Defined in: main.ts:22868
+Defined in: main.ts:22876
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: main.ts:22868
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22866
+Defined in: main.ts:22874
 
 ***
 
@@ -55,7 +55,7 @@ Defined in: main.ts:22866
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22864
+Defined in: main.ts:22872
 
 alignment of the element in SERP
 can take the following values:
@@ -71,7 +71,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22860
+Defined in: main.ts:22868
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -86,7 +86,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22857
+Defined in: main.ts:22865
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22854
+Defined in: main.ts:22862
 
 type of element
 
@@ -113,9 +113,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:22878
+Defined in: main.ts:22886
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:22878
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:22934
+Defined in: main.ts:22942
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:22934
 
 > `static` **fromJS**(`data`): `BaseMerchantSerpElementItem`
 
-Defined in: main.ts:22887
+Defined in: main.ts:22895
 
 #### Parameters
 

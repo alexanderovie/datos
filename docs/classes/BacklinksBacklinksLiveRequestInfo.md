@@ -6,7 +6,7 @@
 
 # Class: BacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:163318
+Defined in: main.ts:163482
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:163318
 
 ### Constructor
 
-> **new BacklinksBacklinksLiveRequestInfo**(`data`?): `BacklinksBacklinksLiveRequestInfo`
+> **new BacklinksBacklinksLiveRequestInfo**(`data?`): `BacklinksBacklinksLiveRequestInfo`
 
-Defined in: main.ts:163441
+Defined in: main.ts:163614
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163441
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:163414
+Defined in: main.ts:163578
 
 set what backlinks to return and count
 optional field
@@ -61,7 +61,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:163338
+Defined in: main.ts:163502
 
 detailed results grouping type
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:163431
+Defined in: main.ts:163595
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -102,7 +102,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:163351
+Defined in: main.ts:163515
 
 response field
 required field if you choose to specify custom_mode
@@ -127,7 +127,7 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:163372
+Defined in: main.ts:163536
 
 array of results filtering parameters
 optional field
@@ -156,7 +156,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:163425
+Defined in: main.ts:163589
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -174,7 +174,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:163419
+Defined in: main.ts:163583
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -191,7 +191,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:163405
+Defined in: main.ts:163569
 
 the maximum number of returned backlinks
 optional field
@@ -208,7 +208,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:163331
+Defined in: main.ts:163495
 
 results grouping type
 optional field
@@ -228,7 +228,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:163392
+Defined in: main.ts:163556
 
 offset in the results array of the returned backlinks
 optional field
@@ -246,7 +246,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:163386
+Defined in: main.ts:163550
 
 results sorting rules
 optional field
@@ -268,11 +268,32 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:163604
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#rank_scale)
+
+***
+
 ### search\_after\_token?
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:163400
+Defined in: main.ts:163564
 
 token for subsequent requests
 optional field
@@ -292,7 +313,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:163437
+Defined in: main.ts:163610
 
 user-defined task identifier
 optional field
@@ -310,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:163323
+Defined in: main.ts:163487
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -327,7 +348,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:163355
+Defined in: main.ts:163519
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode
@@ -341,9 +362,9 @@ can be set from 1 to 1000
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:163450
+Defined in: main.ts:163623
 
 #### Parameters
 
@@ -359,9 +380,9 @@ Defined in: main.ts:163450
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:163495
+Defined in: main.ts:163669
 
 #### Parameters
 
@@ -379,7 +400,7 @@ Defined in: main.ts:163495
 
 > `static` **fromJS**(`data`): `BacklinksBacklinksLiveRequestInfo`
 
-Defined in: main.ts:163488
+Defined in: main.ts:163662
 
 #### Parameters
 

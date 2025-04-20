@@ -6,7 +6,7 @@
 
 # Class: CrawlStatusInfo
 
-Defined in: main.ts:24531
+Defined in: main.ts:24539
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24531
 
 ### Constructor
 
-> **new CrawlStatusInfo**(`data`?): `CrawlStatusInfo`
+> **new CrawlStatusInfo**(`data?`): `CrawlStatusInfo`
 
-Defined in: main.ts:24542
+Defined in: main.ts:24550
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24542
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:24534
+Defined in: main.ts:24542
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
@@ -55,7 +55,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 > `optional` **pages\_crawled**: `number`
 
-Defined in: main.ts:24538
+Defined in: main.ts:24546
 
 number of crawled pages
 
@@ -69,7 +69,7 @@ number of crawled pages
 
 > `optional` **pages\_in\_queue**: `number`
 
-Defined in: main.ts:24536
+Defined in: main.ts:24544
 
 number of pages that are currently in the crawling queue
 
@@ -81,9 +81,9 @@ number of pages that are currently in the crawling queue
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24551
+Defined in: main.ts:24559
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:24551
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24570
+Defined in: main.ts:24578
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:24570
 
 > `static` **fromJS**(`data`): `CrawlStatusInfo`
 
-Defined in: main.ts:24563
+Defined in: main.ts:24571
 
 #### Parameters
 

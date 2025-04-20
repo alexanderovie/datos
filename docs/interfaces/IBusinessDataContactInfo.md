@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataContactInfo
 
-Defined in: main.ts:222981
+Defined in: main.ts:223511
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222981
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:222989
+Defined in: main.ts:223519
 
 data source
 
@@ -28,7 +28,7 @@ data source
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:222983
+Defined in: main.ts:223513
 
 type of element
 
@@ -38,7 +38,7 @@ type of element
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:222987
+Defined in: main.ts:223517
 
 contact displayed in SERP 
 example:

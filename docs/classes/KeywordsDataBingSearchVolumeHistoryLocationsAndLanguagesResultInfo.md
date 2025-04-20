@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:157722
+Defined in: main.ts:157846
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:157722
 
 ### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
+> **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data?`): `KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:157732
+Defined in: main.ts:157856
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157732
 
 > `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
-Defined in: main.ts:157728
+Defined in: main.ts:157852
 
 array of available locations for a certain language
 
@@ -54,7 +54,7 @@ array of available locations for a certain language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:157726
+Defined in: main.ts:157850
 
 language code according to ISO 639-1
 
@@ -68,7 +68,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:157724
+Defined in: main.ts:157848
 
 language name
 
@@ -80,9 +80,9 @@ language name
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:157741
+Defined in: main.ts:157865
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:157741
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:157764
+Defined in: main.ts:157888
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:157764
 
 > `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`
 
-Defined in: main.ts:157757
+Defined in: main.ts:157881
 
 #### Parameters
 

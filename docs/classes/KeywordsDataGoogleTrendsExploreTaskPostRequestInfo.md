@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
-Defined in: main.ts:145188
+Defined in: main.ts:145310
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:145188
 
 ### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): `KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
+> **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data?`): `KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
 
-Defined in: main.ts:145305
+Defined in: main.ts:145428
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145305
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:145238
+Defined in: main.ts:145361
 
 google trends search category
 optional field
@@ -57,7 +57,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:145247
+Defined in: main.ts:145370
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:145254
+Defined in: main.ts:145377
 
 ending date of the time range
 optional field
@@ -97,7 +97,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:145273
+Defined in: main.ts:145396
 
 types of items returned
 optional field
@@ -118,12 +118,13 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:145197
+Defined in: main.ts:145320
 
 keywords
 required field
 the maximum number of keywords you can specify: 5
-the minimum number of symbols must be greater than 1
+the maximum number of characters you can specify in a keyword: 100
+the minimum number of characters must be greater than 1
 comma characters (,) in the specified keywords will be unset and ignored
 Note: keywords cannot consist of a combination of the following characters: < > | \ " - + = ~ ! : * ( ) [ ] { }
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
@@ -139,7 +140,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145231
+Defined in: main.ts:145354
 
 search engine language code
 optional field
@@ -159,7 +160,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:145223
+Defined in: main.ts:145346
 
 full name of search engine language
 optional field
@@ -179,7 +180,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:145215
+Defined in: main.ts:145338
 
 search engine location code
 optional field
@@ -200,7 +201,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:145206
+Defined in: main.ts:145329
 
 full name of search engine location
 optional field
@@ -221,7 +222,7 @@ United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:145295
+Defined in: main.ts:145418
 
 notification URL of a completed task
 optional field
@@ -244,7 +245,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:145284
+Defined in: main.ts:145407
 
 return URL for sending task results
 optional field
@@ -267,7 +268,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:145301
+Defined in: main.ts:145424
 
 user-defined task identifier
 optional field
@@ -285,7 +286,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:145264
+Defined in: main.ts:145387
 
 preset time ranges
 optional field
@@ -307,7 +308,7 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:145233
+Defined in: main.ts:145356
 
 type of element
 
@@ -319,9 +320,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:145314
+Defined in: main.ts:145437
 
 #### Parameters
 
@@ -337,9 +338,9 @@ Defined in: main.ts:145314
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:145360
+Defined in: main.ts:145483
 
 #### Parameters
 
@@ -357,7 +358,7 @@ Defined in: main.ts:145360
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`
 
-Defined in: main.ts:145353
+Defined in: main.ts:145476
 
 #### Parameters
 

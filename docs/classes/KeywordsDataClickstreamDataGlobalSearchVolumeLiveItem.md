@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
-Defined in: main.ts:160118
+Defined in: main.ts:160242
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:160118
 
 ### Constructor
 
-> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem**(`data`?): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`
+> **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem**(`data?`): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`
 
-Defined in: main.ts:160132
+Defined in: main.ts:160256
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160132
 
 > `optional` **country\_distribution**: [`CountryDistribution`](CountryDistribution.md)[]
 
-Defined in: main.ts:160128
+Defined in: main.ts:160252
 
 distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume
@@ -55,7 +55,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:160121
+Defined in: main.ts:160245
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -70,7 +70,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:160125
+Defined in: main.ts:160249
 
 clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream
@@ -84,9 +84,9 @@ you can learn more about clickstream search volume in this Help Center article
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:160141
+Defined in: main.ts:160265
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:160141
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:160164
+Defined in: main.ts:160288
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:160164
 
 > `static` **fromJS**(`data`): `KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`
 
-Defined in: main.ts:160157
+Defined in: main.ts:160281
 
 #### Parameters
 

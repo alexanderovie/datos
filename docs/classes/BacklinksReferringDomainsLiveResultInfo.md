@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringDomainsLiveResultInfo
 
-Defined in: main.ts:167774
+Defined in: main.ts:168042
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:167774
 
 ### Constructor
 
-> **new BacklinksReferringDomainsLiveResultInfo**(`data`?): `BacklinksReferringDomainsLiveResultInfo`
+> **new BacklinksReferringDomainsLiveResultInfo**(`data?`): `BacklinksReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:167788
+Defined in: main.ts:168056
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167788
 
 > `optional` **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
 
-Defined in: main.ts:167784
+Defined in: main.ts:168052
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:167782
+Defined in: main.ts:168050
 
 number of items in the items array
 
@@ -68,7 +68,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:167776
+Defined in: main.ts:168044
 
 target in a POST array
 
@@ -82,7 +82,7 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:167780
+Defined in: main.ts:168048
 
 total number of relevant items in the database
 total number of main domains referring to your target;
@@ -96,9 +96,9 @@ example.com and blog.example.com are counted as one referring domain
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:167797
+Defined in: main.ts:168065
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:167797
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:167821
+Defined in: main.ts:168089
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:167821
 
 > `static` **fromJS**(`data`): `BacklinksReferringDomainsLiveResultInfo`
 
-Defined in: main.ts:167814
+Defined in: main.ts:168082
 
 #### Parameters
 

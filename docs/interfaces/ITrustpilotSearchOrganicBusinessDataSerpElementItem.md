@@ -6,7 +6,7 @@
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:237777
+Defined in: main.ts:238307
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237777
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:237781
+Defined in: main.ts:238311
 
 domain of the establishment
 
@@ -32,7 +32,7 @@ domain of the establishment
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:23439
+Defined in: main.ts:23447
 
 absolute rank among all the elements
 
@@ -46,7 +46,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:23437
+Defined in: main.ts:23445
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -61,7 +61,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:237787
+Defined in: main.ts:238317
 
 the rating score of the establishment submitted by reviewers
 
@@ -71,7 +71,7 @@ the rating score of the establishment submitted by reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:237785
+Defined in: main.ts:238315
 
 the total number of reviews
 
@@ -81,7 +81,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:237779
+Defined in: main.ts:238309
 
 title of the establishment
 
@@ -91,7 +91,7 @@ title of the establishment
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23434
+Defined in: main.ts:23442
 
 type of element
 
@@ -105,6 +105,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:237783
+Defined in: main.ts:238313
 
 URL to the establishment

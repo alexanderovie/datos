@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo
 
-Defined in: main.ts:138582
+Defined in: main.ts:138704
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:138582
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo**(`data`?): `KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo`
+> **new KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo**(`data?`): `KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo`
 
-Defined in: main.ts:138696
+Defined in: main.ts:138818
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138696
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:138645
+Defined in: main.ts:138767
 
 starting date of the time range
 optional field
@@ -60,7 +60,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:138653
+Defined in: main.ts:138775
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:138659
+Defined in: main.ts:138781
 
 include keywords associated with adult content
 optional field
@@ -98,7 +98,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:138595
+Defined in: main.ts:138717
 
 keywords
 required field
@@ -123,7 +123,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:138632
+Defined in: main.ts:138754
 
 search engine language code
 optional field
@@ -141,7 +141,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:138626
+Defined in: main.ts:138748
 
 full name of search engine language
 optional field
@@ -159,7 +159,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138611
+Defined in: main.ts:138733
 
 search engine location code
 optional field
@@ -179,7 +179,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:138620
+Defined in: main.ts:138742
 
 GPS coordinates of a location
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:138603
+Defined in: main.ts:138725
 
 full name of search engine location
 optional field
@@ -220,7 +220,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:138686
+Defined in: main.ts:138808
 
 notification URL of a completed task
 optional field
@@ -243,7 +243,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:138675
+Defined in: main.ts:138797
 
 return URL for sending task results
 optional field
@@ -266,7 +266,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:138637
+Defined in: main.ts:138759
 
 include Google search partners
 optional field
@@ -283,7 +283,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:138664
+Defined in: main.ts:138786
 
 results sorting parameters
 optional field
@@ -300,7 +300,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:138692
+Defined in: main.ts:138814
 
 user-defined task identifier
 optional field
@@ -316,9 +316,9 @@ you will find the specified tag value in the data array of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:138705
+Defined in: main.ts:138827
 
 #### Parameters
 
@@ -334,9 +334,9 @@ Defined in: main.ts:138705
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:138739
+Defined in: main.ts:138861
 
 #### Parameters
 
@@ -354,7 +354,7 @@ Defined in: main.ts:138739
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo`
 
-Defined in: main.ts:138732
+Defined in: main.ts:138854
 
 #### Parameters
 

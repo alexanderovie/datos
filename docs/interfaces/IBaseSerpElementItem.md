@@ -6,7 +6,7 @@
 
 # Interface: IBaseSerpElementItem
 
-Defined in: main.ts:22331
+Defined in: main.ts:22339
 
 ## Extended by
 
@@ -69,6 +69,7 @@ Defined in: main.ts:22331
 - [`ICompareSitesSerpElementItem`](ICompareSitesSerpElementItem.md)
 - [`ICoursesSerpElementItem`](ICoursesSerpElementItem.md)
 - [`IAiOverviewSerpElementItem`](IAiOverviewSerpElementItem.md)
+- [`IThirdPartyReviewsSerpElementItem`](IThirdPartyReviewsSerpElementItem.md)
 - [`IEventItemSerpElementItem`](IEventItemSerpElementItem.md)
 - [`IDictionarySerpElementItem`](IDictionarySerpElementItem.md)
 
@@ -78,7 +79,7 @@ Defined in: main.ts:22331
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -89,7 +90,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -101,6 +102,6 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element

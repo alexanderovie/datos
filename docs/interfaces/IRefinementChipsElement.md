@@ -6,7 +6,7 @@
 
 # Interface: IRefinementChipsElement
 
-Defined in: main.ts:23263
+Defined in: main.ts:23271
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23263
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:23271
+Defined in: main.ts:23279
 
 domain in SERP
 
@@ -28,7 +28,7 @@ domain in SERP
 
 > `optional` **options**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-Defined in: main.ts:23273
+Defined in: main.ts:23281
 
 further search refinement options
 
@@ -38,7 +38,7 @@ further search refinement options
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23267
+Defined in: main.ts:23275
 
 title of the element
 
@@ -48,7 +48,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23265
+Defined in: main.ts:23273
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23269
+Defined in: main.ts:23277
 
 search URL with refinement parameters

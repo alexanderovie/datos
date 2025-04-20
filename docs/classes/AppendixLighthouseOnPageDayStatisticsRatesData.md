@@ -6,7 +6,7 @@
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
 
-Defined in: main.ts:245728
+Defined in: main.ts:246346
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:245728
 
 ### Constructor
 
-> **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data`?): `AppendixLighthouseOnPageDayStatisticsRatesData`
+> **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data?`): `AppendixLighthouseOnPageDayStatisticsRatesData`
 
-Defined in: main.ts:245739
+Defined in: main.ts:246357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:245739
 
 > `optional` **audits**: `number`
 
-Defined in: main.ts:245733
+Defined in: main.ts:246352
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:245733
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:245735
+Defined in: main.ts:246351
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:245735
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:245732
+Defined in: main.ts:246350
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:245732
 
 > `optional` **task\_get**: `number`
 
-Defined in: main.ts:245731
+Defined in: main.ts:246349
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:245731
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:245729
+Defined in: main.ts:246347
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:245729
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:245730
+Defined in: main.ts:246348
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:245730
 
 > `optional` **versions**: `number`
 
-Defined in: main.ts:245734
+Defined in: main.ts:246353
 
 #### Implementation of
 
@@ -122,9 +122,9 @@ Defined in: main.ts:245734
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:245748
+Defined in: main.ts:246366
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:245748
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:245771
+Defined in: main.ts:246389
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:245771
 
 > `static` **fromJS**(`data`): `AppendixLighthouseOnPageDayStatisticsRatesData`
 
-Defined in: main.ts:245764
+Defined in: main.ts:246382
 
 #### Parameters
 

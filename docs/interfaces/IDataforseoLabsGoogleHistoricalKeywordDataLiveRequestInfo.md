@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo
 
-Defined in: main.ts:122733
+Defined in: main.ts:122855
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122733
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:122743
+Defined in: main.ts:122865
 
 keywords
 required field
@@ -36,7 +36,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122775
+Defined in: main.ts:122897
 
 language code
 required field if you don’t specify language_name
@@ -52,7 +52,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:122767
+Defined in: main.ts:122889
 
 full name of the language
 required field if you don’t specify language_code
@@ -68,7 +68,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122759
+Defined in: main.ts:122881
 
 location code
 required field if you don’t specify location_name
@@ -84,7 +84,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:122751
+Defined in: main.ts:122873
 
 full name of the location
 required field if you don’t specify location_code
@@ -100,7 +100,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:122781
+Defined in: main.ts:122903
 
 user-defined task identifier
 optional field

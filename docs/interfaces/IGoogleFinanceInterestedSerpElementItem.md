@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceInterestedSerpElementItem
 
-Defined in: main.ts:88377
+Defined in: main.ts:88489
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88377
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](../classes/GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88381
+Defined in: main.ts:88493
 
 market indexes data
 array of items containing market indexes data;
@@ -34,7 +34,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22417
+Defined in: main.ts:22425
 
 type of element
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
-Defined in: main.ts:126222
+Defined in: main.ts:126344
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:126222
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductCompetitorsLiveItem**(`data`?): `DataforseoLabsAmazonProductCompetitorsLiveItem`
+> **new DataforseoLabsAmazonProductCompetitorsLiveItem**(`data?`): `DataforseoLabsAmazonProductCompetitorsLiveItem`
 
-Defined in: main.ts:126249
+Defined in: main.ts:126371
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126249
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:126228
+Defined in: main.ts:126350
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -56,7 +56,7 @@ for more information, refer to this help center guide
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:126232
+Defined in: main.ts:126354
 
 average position of the product in Amazon SERP
 Note: average position is calculated for intersected keywords only;
@@ -72,7 +72,7 @@ the value for a given product may differ when combined with different target pro
 
 > `optional` **competitor\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:126242
+Defined in: main.ts:126364
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided asin shares with the target asin;
@@ -88,7 +88,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 > `optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:126245
+Defined in: main.ts:126367
 
 metrics for all keywords of the product
 full overview of ranking data relevant to all keywords that the provided asin is ranking for
@@ -103,7 +103,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:126238
+Defined in: main.ts:126360
 
 number of intersecting keywords
 
@@ -117,7 +117,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126224
+Defined in: main.ts:126346
 
 search engine type
 
@@ -131,7 +131,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:126236
+Defined in: main.ts:126358
 
 sum of all product positions in Amazon SERP
 Note: average position is calculated for intersected keywords only;
@@ -145,9 +145,9 @@ the value for a given product may differ when combined with different target pro
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:126258
+Defined in: main.ts:126380
 
 #### Parameters
 
@@ -163,9 +163,9 @@ Defined in: main.ts:126258
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:126281
+Defined in: main.ts:126403
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: main.ts:126281
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductCompetitorsLiveItem`
 
-Defined in: main.ts:126274
+Defined in: main.ts:126396
 
 #### Parameters
 

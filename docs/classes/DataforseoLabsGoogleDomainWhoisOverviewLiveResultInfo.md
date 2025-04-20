@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:111048
+Defined in: main.ts:111170
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:111048
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo**(`data`?): `DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`
+> **new DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo**(`data?`): `DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:111060
+Defined in: main.ts:111182
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111060
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:111056
+Defined in: main.ts:111178
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:111054
+Defined in: main.ts:111176
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:111050
+Defined in: main.ts:111172
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:111052
+Defined in: main.ts:111174
 
 total amount of results in our database relevant to your request
 
@@ -94,9 +94,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:111069
+Defined in: main.ts:111191
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:111069
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:111093
+Defined in: main.ts:111215
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:111093
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:111086
+Defined in: main.ts:111208
 
 #### Parameters
 

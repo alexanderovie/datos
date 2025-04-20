@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
-Defined in: main.ts:159764
+Defined in: main.ts:159888
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:159764
 
 ### Constructor
 
-> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo**(`data`?): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
+> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo**(`data?`): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:159784
+Defined in: main.ts:159908
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159784
 
 > `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:159780
+Defined in: main.ts:159904
 
 array of keywords
 contains keywords and their search volume rates
@@ -55,7 +55,7 @@ contains keywords and their search volume rates
 
 > `optional` **items\_count**: `string`
 
-Defined in: main.ts:159777
+Defined in: main.ts:159901
 
 ithe number of results returned in the items array
 
@@ -69,7 +69,7 @@ ithe number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:159772
+Defined in: main.ts:159896
 
 language code in a POST array
 
@@ -86,7 +86,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:159767
+Defined in: main.ts:159891
 
 location code in a POST array
 if there is no data, then the value is null
@@ -101,7 +101,7 @@ if there is no data, then the value is null
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:159775
+Defined in: main.ts:159899
 
 indicates if the use_clickstream parameter is active
 possible values: true, false
@@ -114,9 +114,9 @@ possible values: true, false
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:159793
+Defined in: main.ts:159917
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:159793
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:159818
+Defined in: main.ts:159942
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:159818
 
 > `static` **fromJS**(`data`): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`
 
-Defined in: main.ts:159811
+Defined in: main.ts:159935
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: RatingElement
 
-Defined in: main.ts:23040
+Defined in: main.ts:23048
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:23040
 
 ### Constructor
 
-> **new RatingElement**(`data`?): `RatingElement`
+> **new RatingElement**(`data?`): `RatingElement`
 
-Defined in: main.ts:23059
+Defined in: main.ts:23067
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23059
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:23055
+Defined in: main.ts:23063
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:23049
+Defined in: main.ts:23057
 
 the maximum value for a rating_type
 
@@ -70,7 +70,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:23043
+Defined in: main.ts:23051
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -85,7 +85,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23051
+Defined in: main.ts:23059
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:23045
+Defined in: main.ts:23053
 
 the value of the rating
 
@@ -113,7 +113,7 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:23047
+Defined in: main.ts:23055
 
 the amount of feedbac
 
@@ -125,9 +125,9 @@ the amount of feedbac
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:23068
+Defined in: main.ts:23076
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:23068
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:23090
+Defined in: main.ts:23098
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:23090
 
 > `static` **fromJS**(`data`): `RatingElement`
 
-Defined in: main.ts:23083
+Defined in: main.ts:23091
 
 #### Parameters
 

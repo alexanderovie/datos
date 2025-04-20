@@ -6,7 +6,7 @@
 
 # Interface: IGoogleHotelsSerpElementItem
 
-Defined in: main.ts:38732
+Defined in: main.ts:38740
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38732
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:38746
+Defined in: main.ts:38754
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:38742
+Defined in: main.ts:38750
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -44,7 +44,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38736
+Defined in: main.ts:38744
 
 the alignment of the element in SERP
 can take the following values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -87,7 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38750
+Defined in: main.ts:38758
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -99,7 +99,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -113,7 +113,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38744
+Defined in: main.ts:38752
 
 source URL
 
@@ -123,6 +123,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38738
+Defined in: main.ts:38746
 
 the XPath of the element

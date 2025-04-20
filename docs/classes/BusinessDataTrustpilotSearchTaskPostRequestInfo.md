@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
-Defined in: main.ts:237262
+Defined in: main.ts:237792
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:237262
 
 ### Constructor
 
-> **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): `BusinessDataTrustpilotSearchTaskPostRequestInfo`
+> **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data?`): `BusinessDataTrustpilotSearchTaskPostRequestInfo`
 
-Defined in: main.ts:237318
+Defined in: main.ts:237848
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237318
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:237286
+Defined in: main.ts:237816
 
 parsing depth
 optional field
@@ -60,7 +60,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:237270
+Defined in: main.ts:237800
 
 keyword
 required field
@@ -80,7 +80,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:237314
+Defined in: main.ts:237844
 
 notification URL of a completed task
 optional field
@@ -103,7 +103,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:237303
+Defined in: main.ts:237833
 
 return URL for sending task results
 optional field
@@ -126,7 +126,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:237278
+Defined in: main.ts:237808
 
 task priority
 optional field
@@ -146,7 +146,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:237292
+Defined in: main.ts:237822
 
 user-defined task identifier
 optional field
@@ -162,9 +162,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:237327
+Defined in: main.ts:237857
 
 #### Parameters
 
@@ -180,9 +180,9 @@ Defined in: main.ts:237327
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:237349
+Defined in: main.ts:237879
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Defined in: main.ts:237349
 
 > `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTaskPostRequestInfo`
 
-Defined in: main.ts:237342
+Defined in: main.ts:237872
 
 #### Parameters
 

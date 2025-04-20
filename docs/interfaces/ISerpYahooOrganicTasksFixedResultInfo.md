@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTasksFixedResultInfo
 
-Defined in: main.ts:78774
+Defined in: main.ts:78886
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:78774
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:78784
+Defined in: main.ts:78896
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:78792
+Defined in: main.ts:78904
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:78795
+Defined in: main.ts:78907
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:78789
+Defined in: main.ts:78901
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:78777
+Defined in: main.ts:78889
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:78779
+Defined in: main.ts:78891
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:78782
+Defined in: main.ts:78894
 
 type of search engine
 can take the following values: organic
@@ -93,6 +93,6 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:78786
+Defined in: main.ts:78898
 
 user-defined task identifier

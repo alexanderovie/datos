@@ -6,7 +6,7 @@
 
 # Class: ScoreByCategories
 
-Defined in: main.ts:232278
+Defined in: main.ts:232808
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:232278
 
 ### Constructor
 
-> **new ScoreByCategories**(`data`?): `ScoreByCategories`
+> **new ScoreByCategories**(`data?`): `ScoreByCategories`
 
-Defined in: main.ts:232303
+Defined in: main.ts:232833
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232303
 
 > `optional` **airport\_access**: `number`
 
-Defined in: main.ts:232299
+Defined in: main.ts:232829
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -56,7 +56,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 > `optional` **overall**: `number`
 
-Defined in: main.ts:232283
+Defined in: main.ts:232813
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -73,7 +73,7 @@ note that the criteria are not weighted equally in the overall score
 
 > `optional` **restaurants**: `number`
 
-Defined in: main.ts:232291
+Defined in: main.ts:232821
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -89,7 +89,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 > `optional` **things\_to\_do**: `number`
 
-Defined in: main.ts:232287
+Defined in: main.ts:232817
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -105,7 +105,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 > `optional` **transit**: `number`
 
-Defined in: main.ts:232295
+Defined in: main.ts:232825
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -119,9 +119,9 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:232312
+Defined in: main.ts:232842
 
 #### Parameters
 
@@ -137,9 +137,9 @@ Defined in: main.ts:232312
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:232333
+Defined in: main.ts:232863
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:232333
 
 > `static` **fromJS**(`data`): `ScoreByCategories`
 
-Defined in: main.ts:232326
+Defined in: main.ts:232856
 
 #### Parameters
 

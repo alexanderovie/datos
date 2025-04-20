@@ -6,7 +6,7 @@
 
 # Interface: ITrendsMapDataInfo
 
-Defined in: main.ts:146227
+Defined in: main.ts:146351
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:146227
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:146232
+Defined in: main.ts:146356
 
 Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -31,7 +31,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:146235
+Defined in: main.ts:146359
 
 Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -42,7 +42,7 @@ you can use this field for matching obtained results with location parameters sp
 
 > `optional` **max\_value\_index**: `number`
 
-Defined in: main.ts:146246
+Defined in: main.ts:146370
 
 max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
@@ -54,7 +54,7 @@ if you specified only one keyword, the value will be null
 
 > `optional` **values**: `any`[]
 
-Defined in: main.ts:146242
+Defined in: main.ts:146366
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range

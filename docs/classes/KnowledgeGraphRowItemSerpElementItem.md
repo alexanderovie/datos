@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemSerpElementItem
 
-Defined in: main.ts:31873
+Defined in: main.ts:31881
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:31873
 
 ### Constructor
 
-> **new KnowledgeGraphRowItemSerpElementItem**(`data`?): `KnowledgeGraphRowItemSerpElementItem`
+> **new KnowledgeGraphRowItemSerpElementItem**(`data?`): `KnowledgeGraphRowItemSerpElementItem`
 
-Defined in: main.ts:31898
+Defined in: main.ts:31906
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:31898
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:31885
+Defined in: main.ts:31893
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/common/topic:social media presence
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:31890
+Defined in: main.ts:31898
 
 links featured in the faq_box_element
 
@@ -90,7 +90,7 @@ links featured in the faq_box_element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31877
+Defined in: main.ts:31885
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31894
+Defined in: main.ts:31902
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:31888
+Defined in: main.ts:31896
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -176,7 +176,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31881
+Defined in: main.ts:31889
 
 title of the item
 
@@ -190,7 +190,7 @@ title of the item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -208,7 +208,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31879
+Defined in: main.ts:31887
 
 the XPath of the element
 
@@ -220,9 +220,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:31903
+Defined in: main.ts:31911
 
 #### Parameters
 
@@ -242,9 +242,9 @@ Defined in: main.ts:31903
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:31931
+Defined in: main.ts:31939
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:31931
 
 > `static` **fromJS**(`data`): `KnowledgeGraphRowItemSerpElementItem`
 
-Defined in: main.ts:31924
+Defined in: main.ts:31932
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
-Defined in: main.ts:120384
+Defined in: main.ts:120506
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:120384
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data`?): `DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data?`): `DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
 
-Defined in: main.ts:120396
+Defined in: main.ts:120518
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120396
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:120392
+Defined in: main.ts:120514
 
 ranking data relevant to the specified domain
 
@@ -58,7 +58,7 @@ ranking data relevant to the specified domain
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:120390
+Defined in: main.ts:120512
 
 month for which the data is provided
 
@@ -72,7 +72,7 @@ month for which the data is provided
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120386
+Defined in: main.ts:120508
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:120388
+Defined in: main.ts:120510
 
 year for which the data is provided
 
@@ -98,9 +98,9 @@ year for which the data is provided
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:120405
+Defined in: main.ts:120527
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:120405
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:120431
+Defined in: main.ts:120553
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:120431
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalRankOverviewLiveItem`
 
-Defined in: main.ts:120424
+Defined in: main.ts:120546
 
 #### Parameters
 

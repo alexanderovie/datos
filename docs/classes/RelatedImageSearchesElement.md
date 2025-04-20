@@ -6,7 +6,7 @@
 
 # Class: RelatedImageSearchesElement
 
-Defined in: main.ts:34207
+Defined in: main.ts:34215
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:34207
 
 ### Constructor
 
-> **new RelatedImageSearchesElement**(`data`?): `RelatedImageSearchesElement`
+> **new RelatedImageSearchesElement**(`data?`): `RelatedImageSearchesElement`
 
-Defined in: main.ts:34222
+Defined in: main.ts:34230
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34222
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:34213
+Defined in: main.ts:34221
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:34218
+Defined in: main.ts:34226
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34211
+Defined in: main.ts:34219
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34209
+Defined in: main.ts:34217
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34215
+Defined in: main.ts:34223
 
 relevant URL
 
@@ -109,9 +109,9 @@ relevant URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:34231
+Defined in: main.ts:34239
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:34231
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:34252
+Defined in: main.ts:34260
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:34252
 
 > `static` **fromJS**(`data`): `RelatedImageSearchesElement`
 
-Defined in: main.ts:34245
+Defined in: main.ts:34253
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:210743
+Defined in: main.ts:211273
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:210743
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:210757
+Defined in: main.ts:211287
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:210745
+Defined in: main.ts:211275
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210747
+Defined in: main.ts:211277
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:210755
+Defined in: main.ts:211285
 
 the name of the superordinate location
 example:
@@ -64,6 +64,6 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:210759
+Defined in: main.ts:211289
 
 location type

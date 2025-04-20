@@ -6,7 +6,7 @@
 
 # Interface: IBaseLocalBusinessLink
 
-Defined in: main.ts:26112
+Defined in: main.ts:26120
 
 ## Extended by
 
@@ -20,6 +20,6 @@ Defined in: main.ts:26112
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:26114
+Defined in: main.ts:26122
 
 type of element

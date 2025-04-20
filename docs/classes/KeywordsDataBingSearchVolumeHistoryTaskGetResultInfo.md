@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
-Defined in: main.ts:158670
+Defined in: main.ts:158794
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:158670
 
 ### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
+> **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data?`): `KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
 
-Defined in: main.ts:158690
+Defined in: main.ts:158814
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158690
 
 > `optional` **device**: `string`[]
 
-Defined in: main.ts:158679
+Defined in: main.ts:158803
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:158679
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:158672
+Defined in: main.ts:158796
 
 keyword in a POST array
 
@@ -66,7 +66,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:158678
+Defined in: main.ts:158802
 
 language code in a POST array
 if there is no data, then the value is null
@@ -81,7 +81,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:158675
+Defined in: main.ts:158799
 
 location code in a POST array
 if there is no data, then the value is null
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:158683
+Defined in: main.ts:158807
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -112,7 +112,7 @@ default value monthly
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
-Defined in: main.ts:158686
+Defined in: main.ts:158810
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
@@ -125,9 +125,9 @@ if the device parameter is not specified, the data will be returned for all avai
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:158699
+Defined in: main.ts:158823
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:158699
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:158725
+Defined in: main.ts:158849
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:158725
 
 > `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`
 
-Defined in: main.ts:158718
+Defined in: main.ts:158842
 
 #### Parameters
 

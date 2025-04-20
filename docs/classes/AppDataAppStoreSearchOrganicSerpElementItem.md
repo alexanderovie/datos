@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
-Defined in: main.ts:135662
+Defined in: main.ts:135784
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:135662
 
 ### Constructor
 
-> **new AppDataAppStoreSearchOrganicSerpElementItem**(`data`?): `AppDataAppStoreSearchOrganicSerpElementItem`
+> **new AppDataAppStoreSearchOrganicSerpElementItem**(`data?`): `AppDataAppStoreSearchOrganicSerpElementItem`
 
-Defined in: main.ts:135678
+Defined in: main.ts:135800
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:135678
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24030
+Defined in: main.ts:24038
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24030
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:135664
+Defined in: main.ts:135786
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:135668
+Defined in: main.ts:135790
 
 URL to the app icon
 
@@ -88,7 +88,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:135672
+Defined in: main.ts:135794
 
 indicates whether the app is free
 
@@ -102,7 +102,7 @@ indicates whether the app is free
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:24024
+Defined in: main.ts:24032
 
 the alignment of the element in SERP
 can take the following values:
@@ -122,7 +122,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:135674
+Defined in: main.ts:135796
 
 price of the app
 
@@ -136,7 +136,7 @@ price of the app
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24020
+Defined in: main.ts:24028
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24017
+Defined in: main.ts:24025
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:24028
+Defined in: main.ts:24036
 
 average rating of the app
 
@@ -192,7 +192,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:135670
+Defined in: main.ts:135792
 
 the total number of reviews of the app
 
@@ -206,7 +206,7 @@ the total number of reviews of the app
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24026
+Defined in: main.ts:24034
 
 title of the app
 
@@ -224,7 +224,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24014
+Defined in: main.ts:24022
 
 type of element
 
@@ -242,7 +242,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:135666
+Defined in: main.ts:135788
 
 URL to the app page on App Store
 
@@ -254,9 +254,9 @@ URL to the app page on App Store
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:135683
+Defined in: main.ts:135805
 
 #### Parameters
 
@@ -276,9 +276,9 @@ Defined in: main.ts:135683
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:135706
+Defined in: main.ts:135828
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: main.ts:135706
 
 > `static` **fromJS**(`data`): `AppDataAppStoreSearchOrganicSerpElementItem`
 
-Defined in: main.ts:135699
+Defined in: main.ts:135821
 
 #### Parameters
 

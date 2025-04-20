@@ -6,7 +6,7 @@
 
 # Class: PageTiming
 
-Defined in: main.ts:178342
+Defined in: main.ts:178752
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:178342
 
 ### Constructor
 
-> **new PageTiming**(`data`?): `PageTiming`
+> **new PageTiming**(`data?`): `PageTiming`
 
-Defined in: main.ts:178379
+Defined in: main.ts:178789
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178379
 
 > `optional` **connection\_time**: `number`
 
-Defined in: main.ts:178357
+Defined in: main.ts:178767
 
 time to connect to a server
 the time it takes until the connection with a server is established (in milliseconds)
@@ -55,7 +55,7 @@ the time it takes until the connection with a server is established (in millisec
 
 > `optional` **dom\_complete**: `number`
 
-Defined in: main.ts:178348
+Defined in: main.ts:178758
 
 time to load resources
 the time it takes until the page and all of its subresources are downloaded (in milliseconds)
@@ -70,7 +70,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 > `optional` **download\_time**: `number`
 
-Defined in: main.ts:178367
+Defined in: main.ts:178777
 
 time it takes for a browser to receive a response (in milliseconds)
 
@@ -84,7 +84,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:178369
+Defined in: main.ts:178779
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -98,7 +98,7 @@ total time it takes until a browser receives a complete response from a server (
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:178375
+Defined in: main.ts:178785
 
 time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:178372
+Defined in: main.ts:178782
 
 time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page
@@ -128,7 +128,7 @@ the amount of time the browser needs to start downloading a page
 
 > `optional` **first\_input\_delay**: `number`
 
-Defined in: main.ts:178354
+Defined in: main.ts:178764
 
 Core Web Vitals metric indicating the responsiveness of a page
 The time (in milliseconds) from when a user first interacts with your page to the time when the browser responds to that interaction. Learn more.
@@ -143,7 +143,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 > `optional` **largest\_contentful\_paint**: `number`
 
-Defined in: main.ts:178351
+Defined in: main.ts:178761
 
 Core Web Vitals metric measuring how fast the largest above-the-fold content element is displayed
 The amount of time (in milliseconds) to render the largest content element visible in the viewport, from when the user requests the URL. Learn more.
@@ -158,7 +158,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 > `optional` **request\_sent\_time**: `number`
 
-Defined in: main.ts:178363
+Defined in: main.ts:178773
 
 time to send a request to a server
 the time it takes until the request to a server is sent (in milliseconds)
@@ -173,7 +173,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 > `optional` **time\_to\_interactive**: `number`
 
-Defined in: main.ts:178345
+Defined in: main.ts:178755
 
 Time To Interactive (TTI) metric
 the time it takes until the user can interact with a page (in milliseconds)
@@ -188,7 +188,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 > `optional` **time\_to\_secure\_connection**: `number`
 
-Defined in: main.ts:178360
+Defined in: main.ts:178770
 
 time to establish a secure connection
 the time it takes until the secure connection with a server is established (in milliseconds)
@@ -203,7 +203,7 @@ the time it takes until the secure connection with a server is established (in m
 
 > `optional` **waiting\_time**: `number`
 
-Defined in: main.ts:178365
+Defined in: main.ts:178775
 
 time to first byte (TTFB) in milliseconds
 
@@ -215,9 +215,9 @@ time to first byte (TTFB) in milliseconds
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:178388
+Defined in: main.ts:178798
 
 #### Parameters
 
@@ -233,9 +233,9 @@ Defined in: main.ts:178388
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:178416
+Defined in: main.ts:178826
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:178416
 
 > `static` **fromJS**(`data`): `PageTiming`
 
-Defined in: main.ts:178409
+Defined in: main.ts:178819
 
 #### Parameters
 

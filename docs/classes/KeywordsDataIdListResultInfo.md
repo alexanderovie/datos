@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListResultInfo
 
-Defined in: main.ts:137260
+Defined in: main.ts:137382
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:137260
 
 ### Constructor
 
-> **new KeywordsDataIdListResultInfo**(`data`?): `KeywordsDataIdListResultInfo`
+> **new KeywordsDataIdListResultInfo**(`data?`): `KeywordsDataIdListResultInfo`
 
-Defined in: main.ts:137286
+Defined in: main.ts:137408
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137286
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:137280
+Defined in: main.ts:137402
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:137275
+Defined in: main.ts:137397
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:137270
+Defined in: main.ts:137392
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:137262
+Defined in: main.ts:137384
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:137282
+Defined in: main.ts:137404
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:137278
+Defined in: main.ts:137400
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:137265
+Defined in: main.ts:137387
 
 URL of the task
 URL you used for making an API call
@@ -148,9 +148,9 @@ URL you used for making an API call
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:137295
+Defined in: main.ts:137417
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:137295
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:137324
+Defined in: main.ts:137446
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:137324
 
 > `static` **fromJS**(`data`): `KeywordsDataIdListResultInfo`
 
-Defined in: main.ts:137317
+Defined in: main.ts:137439
 
 #### Parameters
 

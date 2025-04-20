@@ -6,7 +6,7 @@
 
 # Interface: IInformationAndTicketsElement
 
-Defined in: main.ts:51804
+Defined in: main.ts:51918
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:51804
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:51810
+Defined in: main.ts:51924
 
 description of the element
 
@@ -28,7 +28,7 @@ description of the element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:51814
+Defined in: main.ts:51928
 
 domain in SERP
 
@@ -38,7 +38,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:51808
+Defined in: main.ts:51922
 
 title of the element
 
@@ -48,7 +48,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:51806
+Defined in: main.ts:51920
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51812
+Defined in: main.ts:51926
 
 relevant URL

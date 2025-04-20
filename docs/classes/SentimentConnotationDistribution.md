@@ -6,7 +6,7 @@
 
 # Class: SentimentConnotationDistribution
 
-Defined in: main.ts:190870
+Defined in: main.ts:191340
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:190870
 
 ### Constructor
 
-> **new SentimentConnotationDistribution**(`data`?): `SentimentConnotationDistribution`
+> **new SentimentConnotationDistribution**(`data?`): `SentimentConnotationDistribution`
 
-Defined in: main.ts:190880
+Defined in: main.ts:191350
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190880
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190871
+Defined in: main.ts:191341
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:190871
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190876
+Defined in: main.ts:191346
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:190876
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190872
+Defined in: main.ts:191342
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:190872
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190873
+Defined in: main.ts:191343
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:190873
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190874
+Defined in: main.ts:191344
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:190874
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190875
+Defined in: main.ts:191345
 
 #### Implementation of
 
@@ -110,9 +110,9 @@ Defined in: main.ts:190875
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:190889
+Defined in: main.ts:191359
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:190889
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:190911
+Defined in: main.ts:191381
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:190911
 
 > `static` **fromJS**(`data`): `SentimentConnotationDistribution`
 
-Defined in: main.ts:190904
+Defined in: main.ts:191374
 
 #### Parameters
 

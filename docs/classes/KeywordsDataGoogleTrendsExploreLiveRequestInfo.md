@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
-Defined in: main.ts:146544
+Defined in: main.ts:146668
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:146544
 
 ### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreLiveRequestInfo**(`data`?): `KeywordsDataGoogleTrendsExploreLiveRequestInfo`
+> **new KeywordsDataGoogleTrendsExploreLiveRequestInfo**(`data?`): `KeywordsDataGoogleTrendsExploreLiveRequestInfo`
 
-Defined in: main.ts:146640
+Defined in: main.ts:146764
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146640
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:146595
+Defined in: main.ts:146719
 
 google trends search category
 optional field
@@ -57,7 +57,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:146604
+Defined in: main.ts:146728
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:146611
+Defined in: main.ts:146735
 
 ending date of the time range
 optional field
@@ -97,7 +97,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:146630
+Defined in: main.ts:146754
 
 types of items returned
 optional field
@@ -118,13 +118,13 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146554
+Defined in: main.ts:146678
 
 keywords
 required field
-if keywords are not specified, the results will not contain keyword-related data;
 the maximum number of keywords you can specify: 5
-the minimum number of symbols must be greater than 1
+the maximum number of characters you can specify in a keyword: 100
+the minimum number of characters must be greater than 1
 comma characters (,) in the specified keywords will be unset and ignored
 Note: keywords cannot consist of a combination of the following characters: < > | \ " - + = ~ ! : * ( ) [ ] { }
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
@@ -140,7 +140,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146588
+Defined in: main.ts:146712
 
 search engine language code
 optional field
@@ -160,7 +160,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:146580
+Defined in: main.ts:146704
 
 full name of search engine language
 optional field
@@ -180,7 +180,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:146572
+Defined in: main.ts:146696
 
 search engine location code
 optional field
@@ -201,7 +201,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:146563
+Defined in: main.ts:146687
 
 full name of search engine location
 optional field
@@ -222,7 +222,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:146636
+Defined in: main.ts:146760
 
 user-defined task identifier
 optional field
@@ -240,7 +240,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:146621
+Defined in: main.ts:146745
 
 preset time ranges
 optional field
@@ -262,7 +262,7 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:146590
+Defined in: main.ts:146714
 
 type of element
 
@@ -274,9 +274,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:146649
+Defined in: main.ts:146773
 
 #### Parameters
 
@@ -292,9 +292,9 @@ Defined in: main.ts:146649
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:146693
+Defined in: main.ts:146817
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: main.ts:146693
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreLiveRequestInfo`
 
-Defined in: main.ts:146686
+Defined in: main.ts:146810
 
 #### Parameters
 

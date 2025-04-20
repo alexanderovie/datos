@@ -6,7 +6,7 @@
 
 # Class: AbsoluteItems
 
-Defined in: main.ts:148486
+Defined in: main.ts:148610
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:148486
 
 ### Constructor
 
-> **new AbsoluteItems**(`data`?): `AbsoluteItems`
+> **new AbsoluteItems**(`data?`): `AbsoluteItems`
 
-Defined in: main.ts:148511
+Defined in: main.ts:148635
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148511
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:148492
+Defined in: main.ts:148616
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -58,7 +58,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:148498
+Defined in: main.ts:148622
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -76,7 +76,7 @@ Andorra
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:148507
+Defined in: main.ts:148631
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -95,9 +95,9 @@ a value of 0 means there was not enough data for this term
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:148520
+Defined in: main.ts:148644
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:148520
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:148543
+Defined in: main.ts:148667
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:148543
 
 > `static` **fromJS**(`data`): `AbsoluteItems`
 
-Defined in: main.ts:148536
+Defined in: main.ts:148660
 
 #### Parameters
 

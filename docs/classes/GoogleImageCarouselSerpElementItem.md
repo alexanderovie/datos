@@ -6,7 +6,7 @@
 
 # Class: GoogleImageCarouselSerpElementItem
 
-Defined in: main.ts:53656
+Defined in: main.ts:53770
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:53656
 
 ### Constructor
 
-> **new GoogleImageCarouselSerpElementItem**(`data`?): `GoogleImageCarouselSerpElementItem`
+> **new GoogleImageCarouselSerpElementItem**(`data?`): `GoogleImageCarouselSerpElementItem`
 
-Defined in: main.ts:53672
+Defined in: main.ts:53786
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:53672
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53588
+Defined in: main.ts:53702
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:53588
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:53664
+Defined in: main.ts:53778
 
 items of the element
 
@@ -74,7 +74,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:53660
+Defined in: main.ts:53774
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53584
+Defined in: main.ts:53698
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53581
+Defined in: main.ts:53695
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:53668
+Defined in: main.ts:53782
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:53662
+Defined in: main.ts:53776
 
 title of the element
 
@@ -159,7 +159,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53577
+Defined in: main.ts:53691
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53586
+Defined in: main.ts:53700
 
 the XPath of the element
 
@@ -193,9 +193,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:53677
+Defined in: main.ts:53791
 
 #### Parameters
 
@@ -215,9 +215,9 @@ Defined in: main.ts:53677
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:53702
+Defined in: main.ts:53816
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:53702
 
 > `static` **fromJS**(`data`): `GoogleImageCarouselSerpElementItem`
 
-Defined in: main.ts:53695
+Defined in: main.ts:53809
 
 #### Parameters
 

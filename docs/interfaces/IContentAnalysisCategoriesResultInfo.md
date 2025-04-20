@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoriesResultInfo
 
-Defined in: main.ts:188947
+Defined in: main.ts:189357
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:188947
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:188949
+Defined in: main.ts:189359
 
 category code
 
@@ -28,7 +28,7 @@ category code
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:188961
+Defined in: main.ts:189371
 
 the code of the superordinate category
 example:
@@ -46,6 +46,6 @@ corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:188951
+Defined in: main.ts:189361
 
 full name of the category

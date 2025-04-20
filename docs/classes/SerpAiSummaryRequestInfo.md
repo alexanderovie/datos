@@ -6,7 +6,7 @@
 
 # Class: SerpAiSummaryRequestInfo
 
-Defined in: main.ts:28245
+Defined in: main.ts:28253
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:28245
 
 ### Constructor
 
-> **new SerpAiSummaryRequestInfo**(`data`?): `SerpAiSummaryRequestInfo`
+> **new SerpAiSummaryRequestInfo**(`data?`): `SerpAiSummaryRequestInfo`
 
-Defined in: main.ts:28276
+Defined in: main.ts:28284
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28276
 
 > `optional` **fetch\_content**: `boolean`
 
-Defined in: main.ts:28267
+Defined in: main.ts:28275
 
 fetch content from pages in SERPs
 optional field
@@ -57,7 +57,7 @@ default value: false
 
 > `optional` **include\_links**: `boolean`
 
-Defined in: main.ts:28272
+Defined in: main.ts:28280
 
 include source links in the summary
 optional field
@@ -74,7 +74,7 @@ default value: false
 
 > `optional` **prompt**: `string`
 
-Defined in: main.ts:28257
+Defined in: main.ts:28265
 
 AI prompt
 optional field
@@ -93,7 +93,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 > `optional` **support\_extra**: `boolean`
 
-Defined in: main.ts:28262
+Defined in: main.ts:28270
 
 support extra SERP features
 optional field
@@ -110,7 +110,7 @@ default value: true
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:28250
+Defined in: main.ts:28258
 
 task identifier
 required field
@@ -125,9 +125,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:28285
+Defined in: main.ts:28293
 
 #### Parameters
 
@@ -143,9 +143,9 @@ Defined in: main.ts:28285
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:28306
+Defined in: main.ts:28314
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:28306
 
 > `static` **fromJS**(`data`): `SerpAiSummaryRequestInfo`
 
-Defined in: main.ts:28299
+Defined in: main.ts:28307
 
 #### Parameters
 

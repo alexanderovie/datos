@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
-Defined in: main.ts:171708
+Defined in: main.ts:172076
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:171708
 
 ### Constructor
 
-> **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data`?): `BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
+> **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data?`): `BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
 
-Defined in: main.ts:171762
+Defined in: main.ts:172130
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171762
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171725
+Defined in: main.ts:172093
 
 starting date of the time range
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:171734
+Defined in: main.ts:172102
 
 ending date of the time range
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:171747
+Defined in: main.ts:172115
 
 time range which will be used to group the results
 optional field
@@ -109,7 +109,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:171752
+Defined in: main.ts:172120
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -126,7 +126,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171758
+Defined in: main.ts:172126
 
 user-defined task identifier
 optional field
@@ -144,7 +144,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171714
+Defined in: main.ts:172082
 
 domain to get data for
 required field
@@ -160,9 +160,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:171771
+Defined in: main.ts:172139
 
 #### Parameters
 
@@ -178,9 +178,9 @@ Defined in: main.ts:171771
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:171793
+Defined in: main.ts:172161
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: main.ts:171793
 
 > `static` **fromJS**(`data`): `BacklinksTimeseriesNewLostSummaryLiveRequestInfo`
 
-Defined in: main.ts:171786
+Defined in: main.ts:172154
 
 #### Parameters
 

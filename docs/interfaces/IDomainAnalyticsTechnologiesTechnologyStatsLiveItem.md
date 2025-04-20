@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
-Defined in: main.ts:98433
+Defined in: main.ts:98545
 
 items array
 
@@ -20,7 +20,7 @@ items array
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:98442
+Defined in: main.ts:98554
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -35,7 +35,7 @@ contains country codes and number of websites per country
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:98437
+Defined in: main.ts:98549
 
 date for which the data is provided
 
@@ -45,7 +45,7 @@ date for which the data is provided
 
 > `optional` **domains\_count**: `number`
 
-Defined in: main.ts:98439
+Defined in: main.ts:98551
 
 number of domains that use the specified technology
 
@@ -55,7 +55,7 @@ number of domains that use the specified technology
 
 > `optional` **domains\_rank**: `object`
 
-Defined in: main.ts:98449
+Defined in: main.ts:98561
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
@@ -71,7 +71,7 @@ learn more about rank and how it is calculated in this help center article
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:98445
+Defined in: main.ts:98557
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -86,6 +86,6 @@ contains language codes and number of websites per language
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:98435
+Defined in: main.ts:98547
 
 type of element

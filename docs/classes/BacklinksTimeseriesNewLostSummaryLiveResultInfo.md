@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
-Defined in: main.ts:171974
+Defined in: main.ts:172342
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:171974
 
 ### Constructor
 
-> **new BacklinksTimeseriesNewLostSummaryLiveResultInfo**(`data`?): `BacklinksTimeseriesNewLostSummaryLiveResultInfo`
+> **new BacklinksTimeseriesNewLostSummaryLiveResultInfo**(`data?`): `BacklinksTimeseriesNewLostSummaryLiveResultInfo`
 
-Defined in: main.ts:171996
+Defined in: main.ts:172364
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171996
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171981
+Defined in: main.ts:172349
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:171986
+Defined in: main.ts:172354
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:171988
+Defined in: main.ts:172356
 
 group_range from the POST array
 
@@ -88,7 +88,7 @@ group_range from the POST array
 
 > `optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
-Defined in: main.ts:171992
+Defined in: main.ts:172360
 
 contains relevant backlinks and referring domains data
 
@@ -102,7 +102,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171990
+Defined in: main.ts:172358
 
 the number of results returned in the items array
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171976
+Defined in: main.ts:172344
 
 target from a POST array
 
@@ -128,9 +128,9 @@ target from a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:172005
+Defined in: main.ts:172373
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:172005
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:172031
+Defined in: main.ts:172399
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:172031
 
 > `static` **fromJS**(`data`): `BacklinksTimeseriesNewLostSummaryLiveResultInfo`
 
-Defined in: main.ts:172024
+Defined in: main.ts:172392
 
 #### Parameters
 

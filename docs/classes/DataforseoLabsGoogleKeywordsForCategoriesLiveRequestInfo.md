@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
-Defined in: main.ts:108874
+Defined in: main.ts:108996
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:108874
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo**(`data`?): `DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`
+> **new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo**(`data?`): `DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`
 
-Defined in: main.ts:108997
+Defined in: main.ts:109119
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108997
 
 > `optional` **category\_codes**: `string`[]
 
-Defined in: main.ts:108879
+Defined in: main.ts:109001
 
 product and service categories
 required field
@@ -57,7 +57,7 @@ you can download the full list of possible categories
 
 > `optional` **category\_intersection**: `boolean`
 
-Defined in: main.ts:108917
+Defined in: main.ts:109039
 
 category intersections
 optional field
@@ -75,7 +75,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:108971
+Defined in: main.ts:109093
 
 array of results filtering parameters
 optional field
@@ -106,7 +106,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:108934
+Defined in: main.ts:109056
 
 ignore highly similar keywords
 optional field
@@ -123,7 +123,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:108929
+Defined in: main.ts:109051
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -142,7 +142,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:108922
+Defined in: main.ts:109044
 
 include data from SERP for each keyword
 optional field
@@ -159,7 +159,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:108911
+Defined in: main.ts:109033
 
 unique language identifier
 required field if you don’t specify language_name
@@ -179,7 +179,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:108903
+Defined in: main.ts:109025
 
 full name of the language
 required field if you don’t specify language_code
@@ -199,7 +199,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:108939
+Defined in: main.ts:109061
 
 the maximum number of keywords in the results array
 optional field
@@ -216,7 +216,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:108895
+Defined in: main.ts:109017
 
 unique location identifier
 required field if you don’t specify location_name
@@ -236,7 +236,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:108887
+Defined in: main.ts:109009
 
 full name of the location
 required field if you don’t specify location_code
@@ -256,7 +256,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:108944
+Defined in: main.ts:109066
 
 offset in the results array of returned keywords
 optional field
@@ -273,7 +273,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:108952
+Defined in: main.ts:109074
 
 offset token for subsequent requests
 optional field
@@ -293,7 +293,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:108987
+Defined in: main.ts:109109
 
 results sorting rules
 optional field
@@ -321,7 +321,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:108993
+Defined in: main.ts:109115
 
 user-defined task identifier
 optional field
@@ -337,9 +337,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:109006
+Defined in: main.ts:109128
 
 #### Parameters
 
@@ -355,9 +355,9 @@ Defined in: main.ts:109006
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:109049
+Defined in: main.ts:109171
 
 #### Parameters
 
@@ -375,7 +375,7 @@ Defined in: main.ts:109049
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`
 
-Defined in: main.ts:109042
+Defined in: main.ts:109164
 
 #### Parameters
 

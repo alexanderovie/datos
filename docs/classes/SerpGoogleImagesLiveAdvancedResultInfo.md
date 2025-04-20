@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveAdvancedResultInfo
 
-Defined in: main.ts:54630
+Defined in: main.ts:54744
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:54630
 
 ### Constructor
 
-> **new SerpGoogleImagesLiveAdvancedResultInfo**(`data`?): `SerpGoogleImagesLiveAdvancedResultInfo`
+> **new SerpGoogleImagesLiveAdvancedResultInfo**(`data?`): `SerpGoogleImagesLiveAdvancedResultInfo`
 
-Defined in: main.ts:54669
+Defined in: main.ts:54783
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54669
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:54644
+Defined in: main.ts:54758
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:54649
+Defined in: main.ts:54763
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:54659
+Defined in: main.ts:54773
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ carousel, images_search, related_searches
 
 > `optional` **items**: [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)[]
 
-Defined in: main.ts:54665
+Defined in: main.ts:54779
 
 elements of search results found in SERP
 
@@ -103,7 +103,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:54663
+Defined in: main.ts:54777
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:54633
+Defined in: main.ts:54747
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54641
+Defined in: main.ts:54755
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:54639
+Defined in: main.ts:54753
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:54654
+Defined in: main.ts:54768
 
 search refinement chips
 
@@ -174,7 +174,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54637
+Defined in: main.ts:54751
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:54661
+Defined in: main.ts:54775
 
 total number of results in SERP
 
@@ -202,7 +202,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:54652
+Defined in: main.ts:54766
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:54635
+Defined in: main.ts:54749
 
 type of element
 
@@ -229,9 +229,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:54678
+Defined in: main.ts:54792
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:54678
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:54715
+Defined in: main.ts:54829
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:54715
 
 > `static` **fromJS**(`data`): `SerpGoogleImagesLiveAdvancedResultInfo`
 
-Defined in: main.ts:54708
+Defined in: main.ts:54822
 
 #### Parameters
 

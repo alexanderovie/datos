@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTasksReadyResultInfo
 
-Defined in: main.ts:213558
+Defined in: main.ts:214088
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:213558
 
 ### Constructor
 
-> **new AppDataGoogleAppInfoTasksReadyResultInfo**(`data`?): `AppDataGoogleAppInfoTasksReadyResultInfo`
+> **new AppDataGoogleAppInfoTasksReadyResultInfo**(`data?`): `AppDataGoogleAppInfoTasksReadyResultInfo`
 
-Defined in: main.ts:213578
+Defined in: main.ts:214108
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:213578
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:213567
+Defined in: main.ts:214097
 
 date when the task was posted (in the UTC format)
 
@@ -54,9 +54,9 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:213571
+Defined in: main.ts:214101
 
-URL for collecting the results of the Google App Info task
+URL for collecting the results of the Google app_info task
 
 #### Implementation of
 
@@ -68,9 +68,9 @@ URL for collecting the results of the Google App Info task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:213574
+Defined in: main.ts:214104
 
-URL for collecting the results of the Google App Info HTML task
+URL for collecting the results of the Google app_info HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 #### Implementation of
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:213561
+Defined in: main.ts:214091
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:213563
+Defined in: main.ts:214093
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:213565
+Defined in: main.ts:214095
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:213569
+Defined in: main.ts:214099
 
 user-defined task identifier
 
@@ -138,9 +138,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:213587
+Defined in: main.ts:214117
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:213587
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:213610
+Defined in: main.ts:214140
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:213610
 
 > `static` **fromJS**(`data`): `AppDataGoogleAppInfoTasksReadyResultInfo`
 
-Defined in: main.ts:213603
+Defined in: main.ts:214133
 
 #### Parameters
 

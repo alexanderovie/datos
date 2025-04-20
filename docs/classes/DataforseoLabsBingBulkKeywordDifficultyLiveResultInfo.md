@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
-Defined in: main.ts:127252
+Defined in: main.ts:127374
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:127252
 
 ### Constructor
 
-> **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data`?): `DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo**(`data?`): `DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
 
-Defined in: main.ts:127270
+Defined in: main.ts:127392
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:127270
 
 > `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
-Defined in: main.ts:127266
+Defined in: main.ts:127388
 
 contains keywords and related keyword difficulty scores
 
@@ -54,7 +54,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:127264
+Defined in: main.ts:127386
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127260
+Defined in: main.ts:127382
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127257
+Defined in: main.ts:127379
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:127254
+Defined in: main.ts:127376
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:127262
+Defined in: main.ts:127384
 
 total amount of results in our database relevant to your request
 
@@ -124,9 +124,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:127279
+Defined in: main.ts:127401
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:127279
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:127305
+Defined in: main.ts:127427
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:127305
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`
 
-Defined in: main.ts:127298
+Defined in: main.ts:127420
 
 #### Parameters
 

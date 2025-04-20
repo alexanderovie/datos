@@ -6,7 +6,7 @@
 
 # Class: AppendixContentAnalysisLimitsRatesDataInfo
 
-Defined in: main.ts:244232
+Defined in: main.ts:244762
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:244232
 
 ### Constructor
 
-> **new AppendixContentAnalysisLimitsRatesDataInfo**(`data`?): `AppendixContentAnalysisLimitsRatesDataInfo`
+> **new AppendixContentAnalysisLimitsRatesDataInfo**(`data?`): `AppendixContentAnalysisLimitsRatesDataInfo`
 
-Defined in: main.ts:244246
+Defined in: main.ts:244776
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:244246
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:244241
+Defined in: main.ts:244771
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:244241
 
 > `optional` **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244238
+Defined in: main.ts:244768
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:244238
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:244242
+Defined in: main.ts:244772
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:244242
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:244240
+Defined in: main.ts:244770
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:244240
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:244239
+Defined in: main.ts:244769
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:244239
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244237
+Defined in: main.ts:244767
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:244237
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244236
+Defined in: main.ts:244766
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:244236
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244233
+Defined in: main.ts:244763
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:244233
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244235
+Defined in: main.ts:244765
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:244235
 
 > `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:244234
+Defined in: main.ts:244764
 
 #### Implementation of
 
@@ -158,9 +158,9 @@ Defined in: main.ts:244234
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:244255
+Defined in: main.ts:244785
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:244255
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:244281
+Defined in: main.ts:244811
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:244281
 
 > `static` **fromJS**(`data`): `AppendixContentAnalysisLimitsRatesDataInfo`
 
-Defined in: main.ts:244274
+Defined in: main.ts:244804
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordProperties
 
-Defined in: main.ts:103834
+Defined in: main.ts:103946
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:103834
 
 ### Constructor
 
-> **new KeywordProperties**(`data`?): `KeywordProperties`
+> **new KeywordProperties**(`data?`): `KeywordProperties`
 
-Defined in: main.ts:103861
+Defined in: main.ts:103973
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103861
 
 > `optional` **core\_keyword**: `string`
 
-Defined in: main.ts:103840
+Defined in: main.ts:103952
 
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
@@ -56,7 +56,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 > `optional` **detected\_language**: `string`
 
-Defined in: main.ts:103854
+Defined in: main.ts:103966
 
 detected language of the keyword
 indicates the language of the keyword as identified by our system
@@ -71,7 +71,7 @@ indicates the language of the keyword as identified by our system
 
 > `optional` **is\_another\_language**: `boolean`
 
-Defined in: main.ts:103857
+Defined in: main.ts:103969
 
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
@@ -86,7 +86,7 @@ if true, the language set in the request does not match the language determined 
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:103851
+Defined in: main.ts:103963
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -103,7 +103,7 @@ learn more about the metric in this help center guide
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:103836
+Defined in: main.ts:103948
 
 search engine type
 
@@ -117,7 +117,7 @@ search engine type
 
 > `optional` **synonym\_clustering\_algorithm**: `string`
 
-Defined in: main.ts:103846
+Defined in: main.ts:103958
 
 the algorithm used to identify synonyms
 possible values:
@@ -133,9 +133,9 @@ if the value is null, our database does not contain any keywords the correspondi
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:103870
+Defined in: main.ts:103982
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:103870
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:103892
+Defined in: main.ts:104004
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:103892
 
 > `static` **fromJS**(`data`): `KeywordProperties`
 
-Defined in: main.ts:103885
+Defined in: main.ts:103997
 
 #### Parameters
 

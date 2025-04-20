@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
-Defined in: main.ts:238282
+Defined in: main.ts:238812
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:238282
 
 ### Constructor
 
-> **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data`?): `BusinessDataTrustpilotReviewsTasksReadyResultInfo`
+> **new BusinessDataTrustpilotReviewsTasksReadyResultInfo**(`data?`): `BusinessDataTrustpilotReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:238300
+Defined in: main.ts:238830
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238300
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:238292
+Defined in: main.ts:238822
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:238296
+Defined in: main.ts:238826
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:238285
+Defined in: main.ts:238815
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:238288
+Defined in: main.ts:238818
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -98,7 +98,7 @@ can take the following values: trustpilot
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:238290
+Defined in: main.ts:238820
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:238294
+Defined in: main.ts:238824
 
 user-defined task identifier
 
@@ -124,9 +124,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:238309
+Defined in: main.ts:238839
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:238309
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:238331
+Defined in: main.ts:238861
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:238331
 
 > `static` **fromJS**(`data`): `BusinessDataTrustpilotReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:238324
+Defined in: main.ts:238854
 
 #### Parameters
 

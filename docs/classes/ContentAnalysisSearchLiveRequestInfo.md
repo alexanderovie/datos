@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:189076
+Defined in: main.ts:189486
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:189076
 
 ### Constructor
 
-> **new ContentAnalysisSearchLiveRequestInfo**(`data`?): `ContentAnalysisSearchLiveRequestInfo`
+> **new ContentAnalysisSearchLiveRequestInfo**(`data?`): `ContentAnalysisSearchLiveRequestInfo`
 
-Defined in: main.ts:189171
+Defined in: main.ts:189590
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:189171
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:189132
+Defined in: main.ts:189542
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:189085
+Defined in: main.ts:189495
 
 target keyword
 required field
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:189097
+Defined in: main.ts:189507
 
 target keyword fields and target keywords
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:189115
+Defined in: main.ts:189525
 
 the maximum number of returned citations
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:189153
+Defined in: main.ts:189563
 
 offset in the results array of returned citations
 optional field
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:189161
+Defined in: main.ts:189571
 
 offset token for subsequent requests
 optional field
@@ -172,7 +172,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:189148
+Defined in: main.ts:189558
 
 results sorting rules
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:189103
+Defined in: main.ts:189513
 
 target page types
 optional field
@@ -214,11 +214,32 @@ possible values:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:189580
+
+defines the scale used for calculating and displaying the domain_rank, and url_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+#### Implementation of
+
+[`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`rank_scale`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#rank_scale)
+
+***
+
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:189110
+Defined in: main.ts:189520
 
 results grouping type
 optional field
@@ -237,7 +258,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189167
+Defined in: main.ts:189586
 
 user-defined task identifier
 optional field
@@ -253,9 +274,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:189180
+Defined in: main.ts:189599
 
 #### Parameters
 
@@ -271,9 +292,9 @@ Defined in: main.ts:189180
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:189224
+Defined in: main.ts:189644
 
 #### Parameters
 
@@ -291,7 +312,7 @@ Defined in: main.ts:189224
 
 > `static` **fromJS**(`data`): `ContentAnalysisSearchLiveRequestInfo`
 
-Defined in: main.ts:189217
+Defined in: main.ts:189637
 
 #### Parameters
 

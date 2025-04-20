@@ -6,7 +6,7 @@
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 
-Defined in: main.ts:26281
+Defined in: main.ts:26289
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26281
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:26286
+Defined in: main.ts:26294
 
 title of the element
 domain of the online food ordering system
@@ -29,7 +29,7 @@ domain of the online food ordering system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:26283
+Defined in: main.ts:26291
 
 type of element
 
@@ -39,6 +39,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26288
+Defined in: main.ts:26296
 
 URL to place an order

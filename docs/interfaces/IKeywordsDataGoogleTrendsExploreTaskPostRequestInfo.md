@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
-Defined in: main.ts:145400
+Defined in: main.ts:145523
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145400
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:145450
+Defined in: main.ts:145574
 
 google trends search category
 optional field
@@ -31,7 +31,7 @@ you can receive the list of available categories with their category_code by mak
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:145459
+Defined in: main.ts:145583
 
 starting date of the time range
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:145466
+Defined in: main.ts:145590
 
 ending date of the time range
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:145485
+Defined in: main.ts:145609
 
 types of items returned
 optional field
@@ -80,12 +80,13 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:145409
+Defined in: main.ts:145533
 
 keywords
 required field
 the maximum number of keywords you can specify: 5
-the minimum number of symbols must be greater than 1
+the maximum number of characters you can specify in a keyword: 100
+the minimum number of characters must be greater than 1
 comma characters (,) in the specified keywords will be unset and ignored
 Note: keywords cannot consist of a combination of the following characters: < > | \ " - + = ~ ! : * ( ) [ ] { }
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
@@ -97,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145443
+Defined in: main.ts:145567
 
 search engine language code
 optional field
@@ -113,7 +114,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:145435
+Defined in: main.ts:145559
 
 full name of search engine language
 optional field
@@ -129,7 +130,7 @@ English
 
 > `optional` **location\_code**: `number`[]
 
-Defined in: main.ts:145427
+Defined in: main.ts:145551
 
 search engine location code
 optional field
@@ -146,7 +147,7 @@ example:
 
 > `optional` **location\_name**: `string`[]
 
-Defined in: main.ts:145418
+Defined in: main.ts:145542
 
 full name of search engine location
 optional field
@@ -163,7 +164,7 @@ United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:145507
+Defined in: main.ts:145631
 
 notification URL of a completed task
 optional field
@@ -182,7 +183,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:145496
+Defined in: main.ts:145620
 
 return URL for sending task results
 optional field
@@ -201,7 +202,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:145513
+Defined in: main.ts:145637
 
 user-defined task identifier
 optional field
@@ -215,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:145476
+Defined in: main.ts:145600
 
 preset time ranges
 optional field
@@ -233,6 +234,6 @@ possible values for news, youtube, images, froogle:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:145445
+Defined in: main.ts:145569
 
 type of element

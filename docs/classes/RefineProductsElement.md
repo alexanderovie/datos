@@ -6,7 +6,7 @@
 
 # Class: RefineProductsElement
 
-Defined in: main.ts:39755
+Defined in: main.ts:39763
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:39755
 
 ### Constructor
 
-> **new RefineProductsElement**(`data`?): `RefineProductsElement`
+> **new RefineProductsElement**(`data?`): `RefineProductsElement`
 
-Defined in: main.ts:39772
+Defined in: main.ts:39780
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39772
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:39762
+Defined in: main.ts:39770
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:39764
+Defined in: main.ts:39772
 
 keyword for the related refined search
 
@@ -69,7 +69,7 @@ keyword for the related refined search
 
 > `optional` **refine\_type**: `string`
 
-Defined in: main.ts:39766
+Defined in: main.ts:39774
 
 type of search refinement
 
@@ -83,7 +83,7 @@ type of search refinement
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39759
+Defined in: main.ts:39767
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39757
+Defined in: main.ts:39765
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:39768
+Defined in: main.ts:39776
 
 the XPath of the element
 
@@ -123,9 +123,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39781
+Defined in: main.ts:39789
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:39781
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39803
+Defined in: main.ts:39811
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:39803
 
 > `static` **fromJS**(`data`): `RefineProductsElement`
 
-Defined in: main.ts:39796
+Defined in: main.ts:39804
 
 #### Parameters
 

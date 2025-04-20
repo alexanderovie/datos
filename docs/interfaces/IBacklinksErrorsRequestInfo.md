@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksErrorsRequestInfo
 
-Defined in: main.ts:161101
+Defined in: main.ts:161225
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161101
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:161124
+Defined in: main.ts:161248
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:161131
+Defined in: main.ts:161255
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:161117
+Defined in: main.ts:161241
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: backlinks/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:161106
+Defined in: main.ts:161230
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:161111
+Defined in: main.ts:161235
 
 offset in the results array of returned tasks
 optional field

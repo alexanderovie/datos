@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceHeroGroupsSerpElementItem
 
-Defined in: main.ts:88318
+Defined in: main.ts:88430
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88318
 
 > `optional` **markets**: [`GoogleFinanceMarketsInfo`](../classes/GoogleFinanceMarketsInfo.md)[]
 
-Defined in: main.ts:88321
+Defined in: main.ts:88433
 
 financial markets data
 array of items containing market indexes and other financial information related to these indexes
@@ -33,7 +33,7 @@ array of items containing market indexes and other financial information related
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22417
+Defined in: main.ts:22425
 
 type of element
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:127102
+Defined in: main.ts:127224
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:127102
 
 ### Constructor
 
-> **new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo**(`data`?): `DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
+> **new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo**(`data?`): `DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:127149
+Defined in: main.ts:127271
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:127149
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:127109
+Defined in: main.ts:127231
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127139
+Defined in: main.ts:127261
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:127132
+Defined in: main.ts:127254
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127125
+Defined in: main.ts:127247
 
 location code
 required field if don’t specify location_name
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:127117
+Defined in: main.ts:127239
 
 full name of the location
 required field if don’t specify location_code
@@ -137,7 +137,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:127145
+Defined in: main.ts:127267
 
 user-defined task identifier
 optional field
@@ -153,9 +153,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:127158
+Defined in: main.ts:127280
 
 #### Parameters
 
@@ -171,9 +171,9 @@ Defined in: main.ts:127158
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:127184
+Defined in: main.ts:127306
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:127184
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:127177
+Defined in: main.ts:127299
 
 #### Parameters
 

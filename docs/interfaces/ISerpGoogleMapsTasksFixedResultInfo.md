@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTasksFixedResultInfo
 
-Defined in: main.ts:44097
+Defined in: main.ts:44199
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:44097
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:44107
+Defined in: main.ts:44209
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:44115
+Defined in: main.ts:44217
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:44118
+Defined in: main.ts:44220
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:44112
+Defined in: main.ts:44214
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:44100
+Defined in: main.ts:44202
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:44102
+Defined in: main.ts:44204
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:44105
+Defined in: main.ts:44207
 
 type of search engine
 can take the following values: maps
@@ -93,6 +93,6 @@ can take the following values: maps
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:44109
+Defined in: main.ts:44211
 
 user-defined task identifier

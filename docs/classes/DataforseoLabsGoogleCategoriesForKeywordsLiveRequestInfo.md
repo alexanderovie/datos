@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
-Defined in: main.ts:108512
+Defined in: main.ts:108634
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:108512
 
 ### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
+> **new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo**(`data?`): `DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
 
-Defined in: main.ts:108543
+Defined in: main.ts:108665
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108543
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:108519
+Defined in: main.ts:108641
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:108533
+Defined in: main.ts:108655
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:108526
+Defined in: main.ts:108648
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:108539
+Defined in: main.ts:108661
 
 user-defined task identifier
 optional field
@@ -113,9 +113,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:108552
+Defined in: main.ts:108674
 
 #### Parameters
 
@@ -131,9 +131,9 @@ Defined in: main.ts:108552
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:108576
+Defined in: main.ts:108698
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:108576
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`
 
-Defined in: main.ts:108569
+Defined in: main.ts:108691
 
 #### Parameters
 

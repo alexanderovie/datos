@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsTasksFixedResultInfo
 
-Defined in: main.ts:48817
+Defined in: main.ts:48919
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:48817
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:48827
+Defined in: main.ts:48929
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:48835
+Defined in: main.ts:48937
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:48838
+Defined in: main.ts:48940
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:48832
+Defined in: main.ts:48934
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:48820
+Defined in: main.ts:48922
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:48822
+Defined in: main.ts:48924
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:48825
+Defined in: main.ts:48927
 
 type of search engine
 can take the following values: news
@@ -93,6 +93,6 @@ can take the following values: news
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:48829
+Defined in: main.ts:48931
 
 user-defined task identifier

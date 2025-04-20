@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityRequestInfo
 
-Defined in: main.ts:183016
+Defined in: main.ts:183426
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:183016
 
 ### Constructor
 
-> **new OnPageKeywordDensityRequestInfo**(`data`?): `OnPageKeywordDensityRequestInfo`
+> **new OnPageKeywordDensityRequestInfo**(`data?`): `OnPageKeywordDensityRequestInfo`
 
-Defined in: main.ts:183079
+Defined in: main.ts:183489
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183079
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:183055
+Defined in: main.ts:183465
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:183022
+Defined in: main.ts:183432
 
 ID of the task
 required field
@@ -87,7 +87,7 @@ example:
 
 > `optional` **keyword\_length**: `number`
 
-Defined in: main.ts:183027
+Defined in: main.ts:183437
 
 number of words for a keyword
 required field
@@ -104,7 +104,7 @@ possible values:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:183038
+Defined in: main.ts:183448
 
 the maximum number of returned keywords
 optional field
@@ -121,7 +121,7 @@ maximum value: 1000
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:183069
+Defined in: main.ts:183479
 
 results sorting rules
 optional field
@@ -147,7 +147,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:183075
+Defined in: main.ts:183485
 
 user-defined task identifier
 optional field
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:183033
+Defined in: main.ts:183443
 
 page URL
 optional field
@@ -181,9 +181,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:183088
+Defined in: main.ts:183498
 
 #### Parameters
 
@@ -199,9 +199,9 @@ Defined in: main.ts:183088
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:183119
+Defined in: main.ts:183529
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:183119
 
 > `static` **fromJS**(`data`): `OnPageKeywordDensityRequestInfo`
 
-Defined in: main.ts:183112
+Defined in: main.ts:183522
 
 #### Parameters
 

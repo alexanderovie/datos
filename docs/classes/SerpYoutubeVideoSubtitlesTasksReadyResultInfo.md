@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
-Defined in: main.ts:74636
+Defined in: main.ts:74748
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:74636
 
 ### Constructor
 
-> **new SerpYoutubeVideoSubtitlesTasksReadyResultInfo**(`data`?): `SerpYoutubeVideoSubtitlesTasksReadyResultInfo`
+> **new SerpYoutubeVideoSubtitlesTasksReadyResultInfo**(`data?`): `SerpYoutubeVideoSubtitlesTasksReadyResultInfo`
 
-Defined in: main.ts:74661
+Defined in: main.ts:74773
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:74661
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:74646
+Defined in: main.ts:74758
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:74654
+Defined in: main.ts:74766
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:74657
+Defined in: main.ts:74769
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:74651
+Defined in: main.ts:74763
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:74639
+Defined in: main.ts:74751
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:74641
+Defined in: main.ts:74753
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:74644
+Defined in: main.ts:74756
 
 type of search engine
 example: video_subtitles
@@ -143,7 +143,7 @@ example: video_subtitles
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:74648
+Defined in: main.ts:74760
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:74670
+Defined in: main.ts:74782
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:74670
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:74694
+Defined in: main.ts:74806
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:74694
 
 > `static` **fromJS**(`data`): `SerpYoutubeVideoSubtitlesTasksReadyResultInfo`
 
-Defined in: main.ts:74687
+Defined in: main.ts:74799
 
 #### Parameters
 

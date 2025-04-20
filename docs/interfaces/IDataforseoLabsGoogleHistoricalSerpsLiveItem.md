@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveItem
 
-Defined in: main.ts:117144
+Defined in: main.ts:117266
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:117144
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:117160
+Defined in: main.ts:117282
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:117185
+Defined in: main.ts:117307
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -42,7 +42,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:117165
+Defined in: main.ts:117287
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -55,7 +55,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:117173
+Defined in: main.ts:117295
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -68,7 +68,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:117180
+Defined in: main.ts:117302
 
 additional items present in the element
 if there are none, equals null
@@ -79,7 +79,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:117177
+Defined in: main.ts:117299
 
 the number of results returned in the items array
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:117149
+Defined in: main.ts:117271
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -100,7 +100,7 @@ the results will be provided for the corrected keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:117157
+Defined in: main.ts:117279
 
 language code in a POST array
 
@@ -110,7 +110,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:117155
+Defined in: main.ts:117277
 
 location code in a POST array
 
@@ -120,7 +120,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:117153
+Defined in: main.ts:117275
 
 search engine domain in a POST array
 
@@ -130,7 +130,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:117175
+Defined in: main.ts:117297
 
 total number of results in SERP
 
@@ -140,7 +140,7 @@ total number of results in SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:117146
+Defined in: main.ts:117268
 
 search engine type
 
@@ -150,7 +150,7 @@ search engine type
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:117168
+Defined in: main.ts:117290
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -161,6 +161,6 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:117151
+Defined in: main.ts:117273
 
 type of element

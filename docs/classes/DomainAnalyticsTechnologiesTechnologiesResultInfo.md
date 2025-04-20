@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
-Defined in: main.ts:96972
+Defined in: main.ts:97084
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:96972
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologiesResultInfo`
+> **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data?`): `DomainAnalyticsTechnologiesTechnologiesResultInfo`
 
-Defined in: main.ts:96978
+Defined in: main.ts:97090
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96978
 
 > `optional` **groups**: [`Groups`](Groups.md)[]
 
-Defined in: main.ts:96974
+Defined in: main.ts:97086
 
 array of technology groups
 
@@ -52,9 +52,9 @@ array of technology groups
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:96987
+Defined in: main.ts:97099
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:96987
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:97008
+Defined in: main.ts:97120
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:97008
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologiesResultInfo`
 
-Defined in: main.ts:97001
+Defined in: main.ts:97113
 
 #### Parameters
 

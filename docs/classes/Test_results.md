@@ -6,7 +6,7 @@
 
 # Class: Test\_results
 
-Defined in: main.ts:250988
+Defined in: main.ts:251814
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250988
 
 ### Constructor
 
-> **new Test\_results**(`data`?): `Test_results`
+> **new Test\_results**(`data?`): `Test_results`
 
-Defined in: main.ts:250992
+Defined in: main.ts:251818
 
 #### Parameters
 
@@ -38,9 +38,9 @@ Defined in: main.ts:250992
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:251001
+Defined in: main.ts:251827
 
 #### Parameters
 
@@ -56,9 +56,9 @@ Defined in: main.ts:251001
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:251017
+Defined in: main.ts:251843
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: main.ts:251017
 
 > `static` **fromJS**(`data`): `Test_results`
 
-Defined in: main.ts:251010
+Defined in: main.ts:251836
 
 #### Parameters
 

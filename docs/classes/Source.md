@@ -6,7 +6,7 @@
 
 # Class: Source
 
-Defined in: main.ts:234984
+Defined in: main.ts:235514
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:234984
 
 ### Constructor
 
-> **new Source**(`data`?): `Source`
+> **new Source**(`data?`): `Source`
 
-Defined in: main.ts:234994
+Defined in: main.ts:235524
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234994
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:234990
+Defined in: main.ts:235520
 
 domain of the source where the review was posted
 
@@ -54,7 +54,7 @@ domain of the source where the review was posted
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:234988
+Defined in: main.ts:235518
 
 featured image of the source
 
@@ -68,7 +68,7 @@ featured image of the source
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:234986
+Defined in: main.ts:235516
 
 name of the source where the review was posted
 
@@ -80,9 +80,9 @@ name of the source where the review was posted
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:235003
+Defined in: main.ts:235533
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:235003
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:235022
+Defined in: main.ts:235552
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:235022
 
 > `static` **fromJS**(`data`): `Source`
 
-Defined in: main.ts:235015
+Defined in: main.ts:235545
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:210678
+Defined in: main.ts:211208
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:210678
 
 ### Constructor
 
-> **new AppDataGoogleLocationsCountryResultInfo**(`data`?): `AppDataGoogleLocationsCountryResultInfo`
+> **new AppDataGoogleLocationsCountryResultInfo**(`data?`): `AppDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:210698
+Defined in: main.ts:211228
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210698
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:210692
+Defined in: main.ts:211222
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:210680
+Defined in: main.ts:211210
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210682
+Defined in: main.ts:211212
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:210690
+Defined in: main.ts:211220
 
 the name of the superordinate location
 example:
@@ -102,7 +102,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:210694
+Defined in: main.ts:211224
 
 location type
 
@@ -114,9 +114,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:210707
+Defined in: main.ts:211237
 
 #### Parameters
 
@@ -132,9 +132,9 @@ Defined in: main.ts:210707
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:210728
+Defined in: main.ts:211258
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:210728
 
 > `static` **fromJS**(`data`): `AppDataGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:210721
+Defined in: main.ts:211251
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringNetworksLiveResultInfo
 
-Defined in: main.ts:168558
+Defined in: main.ts:168848
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:168558
 
 ### Constructor
 
-> **new BacklinksReferringNetworksLiveResultInfo**(`data`?): `BacklinksReferringNetworksLiveResultInfo`
+> **new BacklinksReferringNetworksLiveResultInfo**(`data?`): `BacklinksReferringNetworksLiveResultInfo`
 
-Defined in: main.ts:168570
+Defined in: main.ts:168860
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168570
 
 > `optional` **items**: [`BacklinksReferringNetworksLiveItem`](BacklinksReferringNetworksLiveItem.md)[]
 
-Defined in: main.ts:168566
+Defined in: main.ts:168856
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:168564
+Defined in: main.ts:168854
 
 number of items in the items array
 
@@ -68,7 +68,7 @@ number of items in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:168560
+Defined in: main.ts:168850
 
 target in a POST array
 
@@ -82,7 +82,7 @@ target in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:168562
+Defined in: main.ts:168852
 
 total number of relevant items in the database
 
@@ -94,9 +94,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:168579
+Defined in: main.ts:168869
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:168579
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:168603
+Defined in: main.ts:168893
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:168603
 
 > `static` **fromJS**(`data`): `BacklinksReferringNetworksLiveResultInfo`
 
-Defined in: main.ts:168596
+Defined in: main.ts:168886
 
 #### Parameters
 

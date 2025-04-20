@@ -6,7 +6,7 @@
 
 # Class: MetricsInfo
 
-Defined in: main.ts:100474
+Defined in: main.ts:100586
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:100474
 
 ### Constructor
 
-> **new MetricsInfo**(`data`?): `MetricsInfo`
+> **new MetricsInfo**(`data?`): `MetricsInfo`
 
-Defined in: main.ts:100531
+Defined in: main.ts:100643
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100531
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:100510
+Defined in: main.ts:100622
 
 total count of organic SERPs that contain the domain
 
@@ -54,7 +54,7 @@ total count of organic SERPs that contain the domain
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:100515
+Defined in: main.ts:100627
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
@@ -71,7 +71,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:100503
+Defined in: main.ts:100615
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -88,7 +88,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:100508
+Defined in: main.ts:100620
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -105,7 +105,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **is\_down**: `number`
 
-Defined in: main.ts:100524
+Defined in: main.ts:100636
 
 rank went down
 indicates how many ranked elements of this domain went down in Google Search
@@ -120,7 +120,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 > `optional` **is\_lost**: `number`
 
-Defined in: main.ts:100527
+Defined in: main.ts:100639
 
 lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check
@@ -135,7 +135,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 > `optional` **is\_new**: `number`
 
-Defined in: main.ts:100518
+Defined in: main.ts:100630
 
 number of new ranked elements
 indicates how many new ranked elements were found for this domain
@@ -150,7 +150,7 @@ indicates how many new ranked elements were found for this domain
 
 > `optional` **is\_up**: `number`
 
-Defined in: main.ts:100521
+Defined in: main.ts:100633
 
 rank went up
 indicates how many ranked elements of this domain went up in Google Search
@@ -165,7 +165,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 > `optional` **pos\_1**: `number`
 
-Defined in: main.ts:100476
+Defined in: main.ts:100588
 
 number of organic SERPs where the domain ranks #1
 
@@ -179,7 +179,7 @@ number of organic SERPs where the domain ranks #1
 
 > `optional` **pos\_11\_20**: `number`
 
-Defined in: main.ts:100482
+Defined in: main.ts:100594
 
 number of organic SERPs where the domain ranks #11-20
 
@@ -193,7 +193,7 @@ number of organic SERPs where the domain ranks #11-20
 
 > `optional` **pos\_2\_3**: `number`
 
-Defined in: main.ts:100478
+Defined in: main.ts:100590
 
 number of organic SERPs where the domain ranks #2-3
 
@@ -207,7 +207,7 @@ number of organic SERPs where the domain ranks #2-3
 
 > `optional` **pos\_21\_30**: `number`
 
-Defined in: main.ts:100484
+Defined in: main.ts:100596
 
 number of organic SERPs where the domain ranks #21-30
 
@@ -221,7 +221,7 @@ number of organic SERPs where the domain ranks #21-30
 
 > `optional` **pos\_31\_40**: `number`
 
-Defined in: main.ts:100486
+Defined in: main.ts:100598
 
 number of organic SERPs where the domain ranks #31-40
 
@@ -235,7 +235,7 @@ number of organic SERPs where the domain ranks #31-40
 
 > `optional` **pos\_4\_10**: `number`
 
-Defined in: main.ts:100480
+Defined in: main.ts:100592
 
 number of organic SERPs where the domain ranks #4-10
 
@@ -249,7 +249,7 @@ number of organic SERPs where the domain ranks #4-10
 
 > `optional` **pos\_41\_50**: `number`
 
-Defined in: main.ts:100488
+Defined in: main.ts:100600
 
 number of organic SERPs where the domain ranks #41-50
 
@@ -263,7 +263,7 @@ number of organic SERPs where the domain ranks #41-50
 
 > `optional` **pos\_51\_60**: `number`
 
-Defined in: main.ts:100490
+Defined in: main.ts:100602
 
 number of organic SERPs where the domain ranks #51-60
 
@@ -277,7 +277,7 @@ number of organic SERPs where the domain ranks #51-60
 
 > `optional` **pos\_61\_70**: `number`
 
-Defined in: main.ts:100492
+Defined in: main.ts:100604
 
 number of organic SERPs where the domain ranks #61-70
 
@@ -291,7 +291,7 @@ number of organic SERPs where the domain ranks #61-70
 
 > `optional` **pos\_71\_80**: `number`
 
-Defined in: main.ts:100494
+Defined in: main.ts:100606
 
 number of organic SERPs where the domain ranks #71-80
 
@@ -305,7 +305,7 @@ number of organic SERPs where the domain ranks #71-80
 
 > `optional` **pos\_81\_90**: `number`
 
-Defined in: main.ts:100496
+Defined in: main.ts:100608
 
 number of organic SERPs where the domain ranks #81-90
 
@@ -319,7 +319,7 @@ number of organic SERPs where the domain ranks #81-90
 
 > `optional` **pos\_91\_100**: `number`
 
-Defined in: main.ts:100498
+Defined in: main.ts:100610
 
 number of organic SERPs where the domain ranks #91-100
 
@@ -331,9 +331,9 @@ number of organic SERPs where the domain ranks #91-100
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:100540
+Defined in: main.ts:100652
 
 #### Parameters
 
@@ -349,9 +349,9 @@ Defined in: main.ts:100540
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:100576
+Defined in: main.ts:100688
 
 #### Parameters
 
@@ -369,7 +369,7 @@ Defined in: main.ts:100576
 
 > `static` **fromJS**(`data`): `MetricsInfo`
 
-Defined in: main.ts:100569
+Defined in: main.ts:100681
 
 #### Parameters
 

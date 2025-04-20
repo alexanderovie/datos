@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTasksReadyResultInfo
 
-Defined in: main.ts:51151
+Defined in: main.ts:51265
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:51151
 
 ### Constructor
 
-> **new SerpGoogleEventsTasksReadyResultInfo**(`data`?): `SerpGoogleEventsTasksReadyResultInfo`
+> **new SerpGoogleEventsTasksReadyResultInfo**(`data?`): `SerpGoogleEventsTasksReadyResultInfo`
 
-Defined in: main.ts:51176
+Defined in: main.ts:51290
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:51176
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:51161
+Defined in: main.ts:51275
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:51169
+Defined in: main.ts:51283
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:51172
+Defined in: main.ts:51286
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:51166
+Defined in: main.ts:51280
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:51154
+Defined in: main.ts:51268
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:51156
+Defined in: main.ts:51270
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:51159
+Defined in: main.ts:51273
 
 type of search engine
 example: events
@@ -143,7 +143,7 @@ example: events
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:51163
+Defined in: main.ts:51277
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:51185
+Defined in: main.ts:51299
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:51185
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:51209
+Defined in: main.ts:51323
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:51209
 
 > `static` **fromJS**(`data`): `SerpGoogleEventsTasksReadyResultInfo`
 
-Defined in: main.ts:51202
+Defined in: main.ts:51316
 
 #### Parameters
 

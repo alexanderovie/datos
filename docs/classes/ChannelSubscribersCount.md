@@ -6,7 +6,7 @@
 
 # Class: ChannelSubscribersCount
 
-Defined in: main.ts:73119
+Defined in: main.ts:73231
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:73119
 
 ### Constructor
 
-> **new ChannelSubscribersCount**(`data`?): `ChannelSubscribersCount`
+> **new ChannelSubscribersCount**(`data?`): `ChannelSubscribersCount`
 
-Defined in: main.ts:73128
+Defined in: main.ts:73240
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:73128
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:73124
+Defined in: main.ts:73236
 
 subscriber count
 
@@ -54,7 +54,7 @@ subscriber count
 
 > `optional` **displayed\_count**: `string`
 
-Defined in: main.ts:73122
+Defined in: main.ts:73234
 
 displayed subscriber count
 subscriber count as displayed on YouTube
@@ -67,9 +67,9 @@ subscriber count as displayed on YouTube
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:73137
+Defined in: main.ts:73249
 
 #### Parameters
 
@@ -85,9 +85,9 @@ Defined in: main.ts:73137
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:73155
+Defined in: main.ts:73267
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:73155
 
 > `static` **fromJS**(`data`): `ChannelSubscribersCount`
 
-Defined in: main.ts:73148
+Defined in: main.ts:73260
 
 #### Parameters
 

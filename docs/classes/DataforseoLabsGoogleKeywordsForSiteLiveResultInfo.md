@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
-Defined in: main.ts:104586
+Defined in: main.ts:104698
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:104586
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForSiteLiveResultInfo**(`data`?): `DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`
+> **new DataforseoLabsGoogleKeywordsForSiteLiveResultInfo**(`data?`): `DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`
 
-Defined in: main.ts:104610
+Defined in: main.ts:104722
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104610
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:104606
+Defined in: main.ts:104718
 
 contains keyword ideas and related data
 
@@ -54,7 +54,7 @@ contains keyword ideas and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:104598
+Defined in: main.ts:104710
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104594
+Defined in: main.ts:104706
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104592
+Defined in: main.ts:104704
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104600
+Defined in: main.ts:104712
 
 current offset value
 
@@ -110,7 +110,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:104604
+Defined in: main.ts:104716
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,7 +126,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104588
+Defined in: main.ts:104700
 
 search engine type
 
@@ -140,7 +140,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104590
+Defined in: main.ts:104702
 
 target domain in a POST array
 
@@ -154,7 +154,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:104596
+Defined in: main.ts:104708
 
 total number of results in our database relevant to your request
 
@@ -166,9 +166,9 @@ total number of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:104619
+Defined in: main.ts:104731
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:104619
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:104648
+Defined in: main.ts:104760
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:104648
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`
 
-Defined in: main.ts:104641
+Defined in: main.ts:104753
 
 #### Parameters
 

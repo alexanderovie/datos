@@ -6,15 +6,15 @@
 
 # Class: KeywordsDataApi
 
-Defined in: main.ts:10163
+Defined in: main.ts:10166
 
 ## Constructors
 
 ### Constructor
 
-> **new KeywordsDataApi**(`baseUrl`?, `http`?): `KeywordsDataApi`
+> **new KeywordsDataApi**(`baseUrl?`, `http?`): `KeywordsDataApi`
 
-Defined in: main.ts:10168
+Defined in: main.ts:10171
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:10168
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:10166
+Defined in: main.ts:10169
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:10166
 
 > **bingAudienceEstimationIndustries**(): `Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
 
-Defined in: main.ts:11917
+Defined in: main.ts:11920
 
 #### Returns
 
@@ -72,7 +72,7 @@ Successful operation
 
 > **bingAudienceEstimationJobFunctions**(): `Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
 
-Defined in: main.ts:11880
+Defined in: main.ts:11883
 
 #### Returns
 
@@ -86,7 +86,7 @@ Successful operation
 
 > **bingAudienceEstimationLive**(`body`): `Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
 
-Defined in: main.ts:12077
+Defined in: main.ts:12080
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Successful operation
 
 > **bingAudienceEstimationTaskGet**(`id`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12036
+Defined in: main.ts:12039
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Successful operation
 
 > **bingAudienceEstimationTaskPost**(`body`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11955
+Defined in: main.ts:11958
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Successful operation
 
 > **bingAudienceEstimationTasksReady**(): `Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:11996
+Defined in: main.ts:11999
 
 #### Returns
 
@@ -168,7 +168,7 @@ Successful operation
 
 > **bingKeywordPerformanceLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
-Defined in: main.ts:12606
+Defined in: main.ts:12609
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Successful operation
 
 > **bingKeywordPerformanceTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12565
+Defined in: main.ts:12568
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Successful operation
 
 > **bingKeywordPerformanceTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12484
+Defined in: main.ts:12487
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Successful operation
 
 > **bingKeywordPerformanceTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12525
+Defined in: main.ts:12528
 
 #### Returns
 
@@ -250,7 +250,7 @@ Successful operation
 
 > **bingKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:12405
+Defined in: main.ts:12408
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Successful operation
 
 > **bingKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12364
+Defined in: main.ts:12367
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Successful operation
 
 > **bingKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12283
+Defined in: main.ts:12286
 
 #### Parameters
 
@@ -318,7 +318,7 @@ Successful operation
 
 > **bingKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12324
+Defined in: main.ts:12327
 
 #### Returns
 
@@ -332,7 +332,7 @@ Successful operation
 
 > **bingKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
-Defined in: main.ts:12241
+Defined in: main.ts:12244
 
 #### Parameters
 
@@ -354,7 +354,7 @@ Successful operation
 
 > **bingKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12200
+Defined in: main.ts:12203
 
 #### Parameters
 
@@ -378,7 +378,7 @@ Successful operation
 
 > **bingKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12119
+Defined in: main.ts:12122
 
 #### Parameters
 
@@ -400,7 +400,7 @@ Successful operation
 
 > **bingKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12160
+Defined in: main.ts:12163
 
 #### Returns
 
@@ -414,7 +414,7 @@ Successful operation
 
 > **bingSearchVolumeHistoryLive**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
 
-Defined in: main.ts:12807
+Defined in: main.ts:12810
 
 #### Parameters
 
@@ -436,7 +436,7 @@ Successful operation
 
 > **bingSearchVolumeHistoryTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12766
+Defined in: main.ts:12769
 
 #### Parameters
 
@@ -460,7 +460,7 @@ Successful operation
 
 > **bingSearchVolumeHistoryTaskPost**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12685
+Defined in: main.ts:12688
 
 #### Parameters
 
@@ -482,7 +482,7 @@ Successful operation
 
 > **bingSearchVolumeHistoryTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12726
+Defined in: main.ts:12729
 
 #### Returns
 
@@ -496,7 +496,7 @@ Successful operation
 
 > **bingSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:11839
+Defined in: main.ts:11842
 
 #### Parameters
 
@@ -518,7 +518,7 @@ Successful operation
 
 > **bingSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:11798
+Defined in: main.ts:11801
 
 #### Parameters
 
@@ -542,7 +542,7 @@ Successful operation
 
 > **bingSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11717
+Defined in: main.ts:11720
 
 #### Parameters
 
@@ -564,7 +564,7 @@ Successful operation
 
 > **bingSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:11758
+Defined in: main.ts:11761
 
 #### Returns
 
@@ -578,7 +578,7 @@ Successful operation
 
 > **clickstreamDataBulkSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12970
+Defined in: main.ts:12973
 
 #### Parameters
 
@@ -600,7 +600,7 @@ Successful operation
 
 > **clickstreamDataDataforseoSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12886
+Defined in: main.ts:12889
 
 #### Parameters
 
@@ -622,7 +622,7 @@ Successful operation
 
 > **clickstreamDataGlobalSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12928
+Defined in: main.ts:12931
 
 #### Parameters
 
@@ -644,7 +644,7 @@ Successful operation
 
 > **dataforseoTrendsDemographyLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
-Defined in: main.ts:11559
+Defined in: main.ts:11562
 
 #### Parameters
 
@@ -666,7 +666,7 @@ Successful operation
 
 > **dataforseoTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
-Defined in: main.ts:11475
+Defined in: main.ts:11478
 
 #### Parameters
 
@@ -688,7 +688,7 @@ Successful operation
 
 > **dataforseoTrendsMergedDataLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
-Defined in: main.ts:11601
+Defined in: main.ts:11604
 
 #### Parameters
 
@@ -710,7 +710,7 @@ Successful operation
 
 > **dataforseoTrendsSubregionInterestsLive**(`body`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
-Defined in: main.ts:11517
+Defined in: main.ts:11520
 
 #### Parameters
 
@@ -732,7 +732,7 @@ Successful operation
 
 > **googleAdsAdTrafficByKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:11031
+Defined in: main.ts:11034
 
 #### Parameters
 
@@ -754,7 +754,7 @@ Successful operation
 
 > **googleAdsAdTrafficByKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10990
+Defined in: main.ts:10993
 
 #### Parameters
 
@@ -778,7 +778,7 @@ Successful operation
 
 > **googleAdsAdTrafficByKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10909
+Defined in: main.ts:10912
 
 #### Parameters
 
@@ -800,7 +800,7 @@ Successful operation
 
 > **googleAdsAdTrafficByKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10950
+Defined in: main.ts:10953
 
 #### Returns
 
@@ -814,7 +814,7 @@ Successful operation
 
 > **googleAdsKeywordsForKeywordsLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:10867
+Defined in: main.ts:10870
 
 #### Parameters
 
@@ -836,7 +836,7 @@ Successful operation
 
 > **googleAdsKeywordsForKeywordsTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10826
+Defined in: main.ts:10829
 
 #### Parameters
 
@@ -860,7 +860,7 @@ Successful operation
 
 > **googleAdsKeywordsForKeywordsTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10745
+Defined in: main.ts:10748
 
 #### Parameters
 
@@ -882,7 +882,7 @@ Successful operation
 
 > **googleAdsKeywordsForKeywordsTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10786
+Defined in: main.ts:10789
 
 #### Returns
 
@@ -896,7 +896,7 @@ Successful operation
 
 > **googleAdsKeywordsForSiteLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
-Defined in: main.ts:10703
+Defined in: main.ts:10706
 
 #### Parameters
 
@@ -918,7 +918,7 @@ Successful operation
 
 > **googleAdsKeywordsForSiteTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10662
+Defined in: main.ts:10665
 
 #### Parameters
 
@@ -942,7 +942,7 @@ Successful operation
 
 > **googleAdsKeywordsForSiteTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10581
+Defined in: main.ts:10584
 
 #### Parameters
 
@@ -964,7 +964,7 @@ Successful operation
 
 > **googleAdsKeywordsForSiteTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10622
+Defined in: main.ts:10625
 
 #### Returns
 
@@ -978,7 +978,7 @@ Successful operation
 
 > **googleAdsSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:10539
+Defined in: main.ts:10542
 
 #### Parameters
 
@@ -1000,7 +1000,7 @@ Successful operation
 
 > **googleAdsSearchVolumeTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10498
+Defined in: main.ts:10501
 
 #### Parameters
 
@@ -1024,7 +1024,7 @@ Successful operation
 
 > **googleAdsSearchVolumeTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10417
+Defined in: main.ts:10420
 
 #### Parameters
 
@@ -1046,7 +1046,7 @@ Successful operation
 
 > **googleAdsSearchVolumeTasksReady**(): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10458
+Defined in: main.ts:10461
 
 #### Returns
 
@@ -1060,7 +1060,7 @@ Successful operation
 
 > **googleAdsStatus**(): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
-Defined in: main.ts:10260
+Defined in: main.ts:10263
 
 #### Returns
 
@@ -1074,7 +1074,7 @@ Successful operation
 
 > **googleTrendsCategories**(): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:11191
+Defined in: main.ts:11194
 
 #### Returns
 
@@ -1088,7 +1088,7 @@ Successful operation
 
 > **googleTrendsExploreLive**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
-Defined in: main.ts:11351
+Defined in: main.ts:11354
 
 #### Parameters
 
@@ -1110,7 +1110,7 @@ Successful operation
 
 > **googleTrendsExploreTaskGet**(`id`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:11310
+Defined in: main.ts:11313
 
 #### Parameters
 
@@ -1134,7 +1134,7 @@ Successful operation
 
 > **googleTrendsExploreTaskPost**(`body`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11229
+Defined in: main.ts:11232
 
 #### Parameters
 
@@ -1156,7 +1156,7 @@ Successful operation
 
 > **googleTrendsExploreTasksReady**(): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:11270
+Defined in: main.ts:11273
 
 #### Returns
 
@@ -1170,7 +1170,7 @@ Successful operation
 
 > **keywordsDataBingKeywordPerformanceLocationsAndLanguages**(): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12446
+Defined in: main.ts:12449
 
 #### Returns
 
@@ -1184,7 +1184,7 @@ Successful operation
 
 > **keywordsDataBingLanguages**(): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:11679
+Defined in: main.ts:11682
 
 #### Returns
 
@@ -1198,7 +1198,7 @@ Successful operation
 
 > **keywordsDataBingLocations**(): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11642
+Defined in: main.ts:11645
 
 #### Returns
 
@@ -1212,7 +1212,7 @@ Successful operation
 
 > **keywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12647
+Defined in: main.ts:12650
 
 #### Returns
 
@@ -1226,7 +1226,7 @@ Successful operation
 
 > **keywordsDataClickstreamDataLocationsAndLanguages**(): `Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12848
+Defined in: main.ts:12851
 
 #### Returns
 
@@ -1240,7 +1240,7 @@ Successful operation
 
 > **keywordsDataDataforseoTrendsLocations**(): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11392
+Defined in: main.ts:11395
 
 #### Returns
 
@@ -1254,7 +1254,7 @@ Successful operation
 
 > **keywordsDataDataforseoTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:11434
+Defined in: main.ts:11437
 
 #### Parameters
 
@@ -1280,7 +1280,7 @@ Successful operation
 
 > **keywordsDataErrors**(`body`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:10219
+Defined in: main.ts:10222
 
 #### Parameters
 
@@ -1302,7 +1302,7 @@ Successful operation
 
 > **keywordsDataGoogleAdsLanguages**(): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:10379
+Defined in: main.ts:10382
 
 #### Returns
 
@@ -1316,7 +1316,7 @@ Successful operation
 
 > **keywordsDataGoogleAdsLocations**(): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:10297
+Defined in: main.ts:10300
 
 #### Returns
 
@@ -1330,7 +1330,7 @@ Successful operation
 
 > **keywordsDataGoogleAdsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:10339
+Defined in: main.ts:10342
 
 #### Parameters
 
@@ -1356,7 +1356,7 @@ Successful operation
 
 > **keywordsDataGoogleTrendsLanguages**(): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:11154
+Defined in: main.ts:11157
 
 #### Returns
 
@@ -1370,7 +1370,7 @@ Successful operation
 
 > **keywordsDataGoogleTrendsLocations**(): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11072
+Defined in: main.ts:11075
 
 #### Returns
 
@@ -1384,7 +1384,7 @@ Successful operation
 
 > **keywordsDataGoogleTrendsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:11114
+Defined in: main.ts:11117
 
 #### Parameters
 
@@ -1410,7 +1410,7 @@ Successful operation
 
 > **keywordsDataIdList**(`body`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:10177
+Defined in: main.ts:10180
 
 #### Parameters
 
@@ -1432,7 +1432,7 @@ Successful operation
 
 > `protected` **processBingAudienceEstimationIndustries**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
 
-Defined in: main.ts:11933
+Defined in: main.ts:11936
 
 #### Parameters
 
@@ -1450,7 +1450,7 @@ Defined in: main.ts:11933
 
 > `protected` **processBingAudienceEstimationJobFunctions**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
 
-Defined in: main.ts:11896
+Defined in: main.ts:11899
 
 #### Parameters
 
@@ -1468,7 +1468,7 @@ Defined in: main.ts:11896
 
 > `protected` **processBingAudienceEstimationLive**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
 
-Defined in: main.ts:12097
+Defined in: main.ts:12100
 
 #### Parameters
 
@@ -1486,7 +1486,7 @@ Defined in: main.ts:12097
 
 > `protected` **processBingAudienceEstimationTaskGet**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12055
+Defined in: main.ts:12058
 
 #### Parameters
 
@@ -1504,7 +1504,7 @@ Defined in: main.ts:12055
 
 > `protected` **processBingAudienceEstimationTaskPost**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11975
+Defined in: main.ts:11978
 
 #### Parameters
 
@@ -1522,7 +1522,7 @@ Defined in: main.ts:11975
 
 > `protected` **processBingAudienceEstimationTasksReady**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12012
+Defined in: main.ts:12015
 
 #### Parameters
 
@@ -1540,7 +1540,7 @@ Defined in: main.ts:12012
 
 > `protected` **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
-Defined in: main.ts:12626
+Defined in: main.ts:12629
 
 #### Parameters
 
@@ -1558,7 +1558,7 @@ Defined in: main.ts:12626
 
 > `protected` **processBingKeywordPerformanceTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12584
+Defined in: main.ts:12587
 
 #### Parameters
 
@@ -1576,7 +1576,7 @@ Defined in: main.ts:12584
 
 > `protected` **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12504
+Defined in: main.ts:12507
 
 #### Parameters
 
@@ -1594,7 +1594,7 @@ Defined in: main.ts:12504
 
 > `protected` **processBingKeywordPerformanceTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12541
+Defined in: main.ts:12544
 
 #### Parameters
 
@@ -1612,7 +1612,7 @@ Defined in: main.ts:12541
 
 > `protected` **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:12425
+Defined in: main.ts:12428
 
 #### Parameters
 
@@ -1630,7 +1630,7 @@ Defined in: main.ts:12425
 
 > `protected` **processBingKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12383
+Defined in: main.ts:12386
 
 #### Parameters
 
@@ -1648,7 +1648,7 @@ Defined in: main.ts:12383
 
 > `protected` **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12303
+Defined in: main.ts:12306
 
 #### Parameters
 
@@ -1666,7 +1666,7 @@ Defined in: main.ts:12303
 
 > `protected` **processBingKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12340
+Defined in: main.ts:12343
 
 #### Parameters
 
@@ -1684,7 +1684,7 @@ Defined in: main.ts:12340
 
 > `protected` **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
-Defined in: main.ts:12261
+Defined in: main.ts:12264
 
 #### Parameters
 
@@ -1702,7 +1702,7 @@ Defined in: main.ts:12261
 
 > `protected` **processBingKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12219
+Defined in: main.ts:12222
 
 #### Parameters
 
@@ -1720,7 +1720,7 @@ Defined in: main.ts:12219
 
 > `protected` **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12139
+Defined in: main.ts:12142
 
 #### Parameters
 
@@ -1738,7 +1738,7 @@ Defined in: main.ts:12139
 
 > `protected` **processBingKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12176
+Defined in: main.ts:12179
 
 #### Parameters
 
@@ -1756,7 +1756,7 @@ Defined in: main.ts:12176
 
 > `protected` **processBingSearchVolumeHistoryLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
 
-Defined in: main.ts:12827
+Defined in: main.ts:12830
 
 #### Parameters
 
@@ -1774,7 +1774,7 @@ Defined in: main.ts:12827
 
 > `protected` **processBingSearchVolumeHistoryTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:12785
+Defined in: main.ts:12788
 
 #### Parameters
 
@@ -1792,7 +1792,7 @@ Defined in: main.ts:12785
 
 > `protected` **processBingSearchVolumeHistoryTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:12705
+Defined in: main.ts:12708
 
 #### Parameters
 
@@ -1810,7 +1810,7 @@ Defined in: main.ts:12705
 
 > `protected` **processBingSearchVolumeHistoryTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:12742
+Defined in: main.ts:12745
 
 #### Parameters
 
@@ -1828,7 +1828,7 @@ Defined in: main.ts:12742
 
 > `protected` **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:11859
+Defined in: main.ts:11862
 
 #### Parameters
 
@@ -1846,7 +1846,7 @@ Defined in: main.ts:11859
 
 > `protected` **processBingSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:11817
+Defined in: main.ts:11820
 
 #### Parameters
 
@@ -1864,7 +1864,7 @@ Defined in: main.ts:11817
 
 > `protected` **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11737
+Defined in: main.ts:11740
 
 #### Parameters
 
@@ -1882,7 +1882,7 @@ Defined in: main.ts:11737
 
 > `protected` **processBingSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:11774
+Defined in: main.ts:11777
 
 #### Parameters
 
@@ -1900,7 +1900,7 @@ Defined in: main.ts:11774
 
 > `protected` **processClickstreamDataBulkSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12990
+Defined in: main.ts:12993
 
 #### Parameters
 
@@ -1918,7 +1918,7 @@ Defined in: main.ts:12990
 
 > `protected` **processClickstreamDataDataforseoSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12906
+Defined in: main.ts:12909
 
 #### Parameters
 
@@ -1936,7 +1936,7 @@ Defined in: main.ts:12906
 
 > `protected` **processClickstreamDataGlobalSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:12948
+Defined in: main.ts:12951
 
 #### Parameters
 
@@ -1954,7 +1954,7 @@ Defined in: main.ts:12948
 
 > `protected` **processDataforseoTrendsDemographyLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
-Defined in: main.ts:11579
+Defined in: main.ts:11582
 
 #### Parameters
 
@@ -1972,7 +1972,7 @@ Defined in: main.ts:11579
 
 > `protected` **processDataforseoTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
-Defined in: main.ts:11495
+Defined in: main.ts:11498
 
 #### Parameters
 
@@ -1990,7 +1990,7 @@ Defined in: main.ts:11495
 
 > `protected` **processDataforseoTrendsMergedDataLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
-Defined in: main.ts:11621
+Defined in: main.ts:11624
 
 #### Parameters
 
@@ -2008,7 +2008,7 @@ Defined in: main.ts:11621
 
 > `protected` **processDataforseoTrendsSubregionInterestsLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
-Defined in: main.ts:11537
+Defined in: main.ts:11540
 
 #### Parameters
 
@@ -2026,7 +2026,7 @@ Defined in: main.ts:11537
 
 > `protected` **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:11051
+Defined in: main.ts:11054
 
 #### Parameters
 
@@ -2044,7 +2044,7 @@ Defined in: main.ts:11051
 
 > `protected` **processGoogleAdsAdTrafficByKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:11009
+Defined in: main.ts:11012
 
 #### Parameters
 
@@ -2062,7 +2062,7 @@ Defined in: main.ts:11009
 
 > `protected` **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10929
+Defined in: main.ts:10932
 
 #### Parameters
 
@@ -2080,7 +2080,7 @@ Defined in: main.ts:10929
 
 > `protected` **processGoogleAdsAdTrafficByKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10966
+Defined in: main.ts:10969
 
 #### Parameters
 
@@ -2098,7 +2098,7 @@ Defined in: main.ts:10966
 
 > `protected` **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
-Defined in: main.ts:10887
+Defined in: main.ts:10890
 
 #### Parameters
 
@@ -2116,7 +2116,7 @@ Defined in: main.ts:10887
 
 > `protected` **processGoogleAdsKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10845
+Defined in: main.ts:10848
 
 #### Parameters
 
@@ -2134,7 +2134,7 @@ Defined in: main.ts:10845
 
 > `protected` **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10765
+Defined in: main.ts:10768
 
 #### Parameters
 
@@ -2152,7 +2152,7 @@ Defined in: main.ts:10765
 
 > `protected` **processGoogleAdsKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10802
+Defined in: main.ts:10805
 
 #### Parameters
 
@@ -2170,7 +2170,7 @@ Defined in: main.ts:10802
 
 > `protected` **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
-Defined in: main.ts:10723
+Defined in: main.ts:10726
 
 #### Parameters
 
@@ -2188,7 +2188,7 @@ Defined in: main.ts:10723
 
 > `protected` **processGoogleAdsKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10681
+Defined in: main.ts:10684
 
 #### Parameters
 
@@ -2206,7 +2206,7 @@ Defined in: main.ts:10681
 
 > `protected` **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10601
+Defined in: main.ts:10604
 
 #### Parameters
 
@@ -2224,7 +2224,7 @@ Defined in: main.ts:10601
 
 > `protected` **processGoogleAdsKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10638
+Defined in: main.ts:10641
 
 #### Parameters
 
@@ -2242,7 +2242,7 @@ Defined in: main.ts:10638
 
 > `protected` **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
-Defined in: main.ts:10559
+Defined in: main.ts:10562
 
 #### Parameters
 
@@ -2260,7 +2260,7 @@ Defined in: main.ts:10559
 
 > `protected` **processGoogleAdsSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:10517
+Defined in: main.ts:10520
 
 #### Parameters
 
@@ -2278,7 +2278,7 @@ Defined in: main.ts:10517
 
 > `protected` **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:10437
+Defined in: main.ts:10440
 
 #### Parameters
 
@@ -2296,7 +2296,7 @@ Defined in: main.ts:10437
 
 > `protected` **processGoogleAdsSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:10474
+Defined in: main.ts:10477
 
 #### Parameters
 
@@ -2314,7 +2314,7 @@ Defined in: main.ts:10474
 
 > `protected` **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
-Defined in: main.ts:10276
+Defined in: main.ts:10279
 
 #### Parameters
 
@@ -2332,7 +2332,7 @@ Defined in: main.ts:10276
 
 > `protected` **processGoogleTrendsCategories**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:11207
+Defined in: main.ts:11210
 
 #### Parameters
 
@@ -2350,7 +2350,7 @@ Defined in: main.ts:11207
 
 > `protected` **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
-Defined in: main.ts:11371
+Defined in: main.ts:11374
 
 #### Parameters
 
@@ -2368,7 +2368,7 @@ Defined in: main.ts:11371
 
 > `protected` **processGoogleTrendsExploreTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
-Defined in: main.ts:11329
+Defined in: main.ts:11332
 
 #### Parameters
 
@@ -2386,7 +2386,7 @@ Defined in: main.ts:11329
 
 > `protected` **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:11249
+Defined in: main.ts:11252
 
 #### Parameters
 
@@ -2404,7 +2404,7 @@ Defined in: main.ts:11249
 
 > `protected` **processGoogleTrendsExploreTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:11286
+Defined in: main.ts:11289
 
 #### Parameters
 
@@ -2422,7 +2422,7 @@ Defined in: main.ts:11286
 
 > `protected` **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12462
+Defined in: main.ts:12465
 
 #### Parameters
 
@@ -2440,7 +2440,7 @@ Defined in: main.ts:12462
 
 > `protected` **processKeywordsDataBingLanguages**(`response`): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:11695
+Defined in: main.ts:11698
 
 #### Parameters
 
@@ -2458,7 +2458,7 @@ Defined in: main.ts:11695
 
 > `protected` **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11658
+Defined in: main.ts:11661
 
 #### Parameters
 
@@ -2476,7 +2476,7 @@ Defined in: main.ts:11658
 
 > `protected` **processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12663
+Defined in: main.ts:12666
 
 #### Parameters
 
@@ -2494,7 +2494,7 @@ Defined in: main.ts:12663
 
 > `protected` **processKeywordsDataClickstreamDataLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:12864
+Defined in: main.ts:12867
 
 #### Parameters
 
@@ -2512,7 +2512,7 @@ Defined in: main.ts:12864
 
 > `protected` **processKeywordsDataDataforseoTrendsLocations**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11408
+Defined in: main.ts:11411
 
 #### Parameters
 
@@ -2530,7 +2530,7 @@ Defined in: main.ts:11408
 
 > `protected` **processKeywordsDataDataforseoTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:11453
+Defined in: main.ts:11456
 
 #### Parameters
 
@@ -2548,7 +2548,7 @@ Defined in: main.ts:11453
 
 > `protected` **processKeywordsDataErrors**(`response`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:10239
+Defined in: main.ts:10242
 
 #### Parameters
 
@@ -2566,7 +2566,7 @@ Defined in: main.ts:10239
 
 > `protected` **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:10395
+Defined in: main.ts:10398
 
 #### Parameters
 
@@ -2584,7 +2584,7 @@ Defined in: main.ts:10395
 
 > `protected` **processKeywordsDataGoogleAdsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:10313
+Defined in: main.ts:10316
 
 #### Parameters
 
@@ -2602,7 +2602,7 @@ Defined in: main.ts:10313
 
 > `protected` **processKeywordsDataGoogleAdsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:10358
+Defined in: main.ts:10361
 
 #### Parameters
 
@@ -2620,7 +2620,7 @@ Defined in: main.ts:10358
 
 > `protected` **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:11170
+Defined in: main.ts:11173
 
 #### Parameters
 
@@ -2638,7 +2638,7 @@ Defined in: main.ts:11170
 
 > `protected` **processKeywordsDataGoogleTrendsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
-Defined in: main.ts:11088
+Defined in: main.ts:11091
 
 #### Parameters
 
@@ -2656,7 +2656,7 @@ Defined in: main.ts:11088
 
 > `protected` **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:11133
+Defined in: main.ts:11136
 
 #### Parameters
 
@@ -2674,7 +2674,7 @@ Defined in: main.ts:11133
 
 > `protected` **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:10197
+Defined in: main.ts:10200
 
 #### Parameters
 

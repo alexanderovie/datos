@@ -6,7 +6,7 @@
 
 # Interface: IFeaturedSnippetDataforseoLabsSerpElementItem
 
-Defined in: main.ts:117914
+Defined in: main.ts:118036
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:117914
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
-Defined in: main.ts:117947
+Defined in: main.ts:118069
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: main.ts:117947
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:117924
+Defined in: main.ts:118046
 
 description of the results element in SERP
 
@@ -40,7 +40,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:117918
+Defined in: main.ts:118040
 
 subdomain in SERP
 
@@ -50,7 +50,7 @@ subdomain in SERP
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:117943
+Defined in: main.ts:118065
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads (USD) for the returned keyword;
@@ -63,7 +63,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:117938
+Defined in: main.ts:118060
 
 estimated traffic volume
 estimated organic monthly traffic to the domain;
@@ -76,7 +76,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:117922
+Defined in: main.ts:118044
 
 the title of the featured snippets source page
 
@@ -86,7 +86,7 @@ the title of the featured snippets source page
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:117931
+Defined in: main.ts:118053
 
 primary domain name in SERP
 
@@ -96,7 +96,7 @@ primary domain name in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -112,7 +112,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -127,7 +127,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
-Defined in: main.ts:117946
+Defined in: main.ts:118068
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
@@ -138,7 +138,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -153,7 +153,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
-Defined in: main.ts:117948
+Defined in: main.ts:118070
 
 ***
 
@@ -161,7 +161,7 @@ Defined in: main.ts:117948
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:117933
+Defined in: main.ts:118055
 
 relative URL in SERP
 
@@ -171,7 +171,7 @@ relative URL in SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:117916
+Defined in: main.ts:118038
 
 search engine type
 
@@ -181,7 +181,7 @@ search engine type
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:117929
+Defined in: main.ts:118051
 
 results table
 if there are none, equals null
@@ -192,7 +192,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:117920
+Defined in: main.ts:118042
 
 title of the result in SERP
 
@@ -202,7 +202,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -216,7 +216,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:117926
+Defined in: main.ts:118048
 
 relevant URL in SERP
 
@@ -226,7 +226,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

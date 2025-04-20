@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
-Defined in: main.ts:223990
+Defined in: main.ts:224520
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:223990
 
 > `optional` **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:223997
+Defined in: main.ts:224527
 
 aggregation of the category
 
@@ -28,7 +28,7 @@ aggregation of the category
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:223995
+Defined in: main.ts:224525
 
 business categories
 Google My Business general category that best describes the cluster of related categories
@@ -39,6 +39,6 @@ Google My Business general category that best describes the cluster of related c
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:223992
+Defined in: main.ts:224522
 
 type of element

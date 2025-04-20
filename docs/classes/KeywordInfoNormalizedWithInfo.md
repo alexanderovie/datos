@@ -6,7 +6,7 @@
 
 # Class: KeywordInfoNormalizedWithInfo
 
-Defined in: main.ts:26633
+Defined in: main.ts:26641
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:26633
 
 ### Constructor
 
-> **new KeywordInfoNormalizedWithInfo**(`data`?): `KeywordInfoNormalizedWithInfo`
+> **new KeywordInfoNormalizedWithInfo**(`data?`): `KeywordInfoNormalizedWithInfo`
 
-Defined in: main.ts:26650
+Defined in: main.ts:26658
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26650
 
 > `optional` **is\_normalized**: `string`
 
-Defined in: main.ts:26643
+Defined in: main.ts:26651
 
 keyword info is normalized
 if true, values are normalized with Bing data
@@ -55,7 +55,7 @@ if true, values are normalized with Bing data
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:26638
+Defined in: main.ts:26646
 
 date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:26646
+Defined in: main.ts:26654
 
 monthly search volume rates
 array of objects with search volume rates in a certain month of a year
@@ -87,7 +87,7 @@ array of objects with search volume rates in a certain month of a year
 
 > `optional` **search\_volume**: `string`
 
-Defined in: main.ts:26640
+Defined in: main.ts:26648
 
 current search volume rate of a keyword
 
@@ -99,9 +99,9 @@ current search volume rate of a keyword
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:26659
+Defined in: main.ts:26667
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:26659
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:26683
+Defined in: main.ts:26691
 
 #### Parameters
 
@@ -137,7 +137,7 @@ Defined in: main.ts:26683
 
 > `static` **fromJS**(`data`): `KeywordInfoNormalizedWithInfo`
 
-Defined in: main.ts:26676
+Defined in: main.ts:26684
 
 #### Parameters
 

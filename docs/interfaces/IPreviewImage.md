@@ -6,7 +6,7 @@
 
 # Interface: IPreviewImage
 
-Defined in: main.ts:65238
+Defined in: main.ts:65352
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:65238
 
 > `optional` **height**: `number`
 
-Defined in: main.ts:65242
+Defined in: main.ts:65356
 
 height of the preview image
 
@@ -28,7 +28,7 @@ height of the preview image
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:65240
+Defined in: main.ts:65354
 
 search URL with refinement parameters
 
@@ -38,6 +38,6 @@ search URL with refinement parameters
 
 > `optional` **width**: `number`
 
-Defined in: main.ts:65244
+Defined in: main.ts:65358
 
 width of the preview image

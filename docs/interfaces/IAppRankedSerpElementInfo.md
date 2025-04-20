@@ -6,7 +6,7 @@
 
 # Interface: IAppRankedSerpElementInfo
 
-Defined in: main.ts:133558
+Defined in: main.ts:133680
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:133558
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:133566
+Defined in: main.ts:133688
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:133573
+Defined in: main.ts:133695
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:133579
+Defined in: main.ts:133701
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -56,7 +56,7 @@ in this case, will equal null
 
 > `optional` **se\_results\_count**: `string`
 
-Defined in: main.ts:133568
+Defined in: main.ts:133690
 
 number of search results for the returned keyword
 
@@ -66,7 +66,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:133560
+Defined in: main.ts:133682
 
 search engine type
 
@@ -76,7 +76,7 @@ search engine type
 
 > `optional` **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](../classes/AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:133563
+Defined in: main.ts:133685
 
 contains data on the SERP element
 the list of supported SERP elements can be found below

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveResultInfo
 
-Defined in: main.ts:236982
+Defined in: main.ts:237512
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:236982
 
 ### Constructor
 
-> **new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo**(`data`?): `BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`
+> **new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo**(`data?`): `BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`
 
-Defined in: main.ts:237025
+Defined in: main.ts:237555
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237025
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:236998
+Defined in: main.ts:237528
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:237007
+Defined in: main.ts:237537
 
 google-defined client id
 unique id of a local establishment;
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:237003
+Defined in: main.ts:237533
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:237009
+Defined in: main.ts:237539
 
 unique identifier of the SERP feature
 
@@ -102,7 +102,7 @@ unique identifier of the SERP feature
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:237013
+Defined in: main.ts:237543
 
 item types
 types of search engine results encountered in the items array;
@@ -118,7 +118,7 @@ possible item types: google_business_question_item
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
-Defined in: main.ts:237021
+Defined in: main.ts:237551
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -134,7 +134,7 @@ possible item types google_business_answer_element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:237017
+Defined in: main.ts:237547
 
 the number of items in the items array
 
@@ -148,7 +148,7 @@ the number of items in the items array
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
 
-Defined in: main.ts:237015
+Defined in: main.ts:237545
 
 array of google business question items without answers
 
@@ -162,7 +162,7 @@ array of google business question items without answers
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:236989
+Defined in: main.ts:237519
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -181,7 +181,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:236995
+Defined in: main.ts:237525
 
 language code in a POST array
 
@@ -195,7 +195,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:236993
+Defined in: main.ts:237523
 
 location code in a POST array
 
@@ -209,7 +209,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:236991
+Defined in: main.ts:237521
 
 search engine domain as specified in a POST array
 
@@ -221,9 +221,9 @@ search engine domain as specified in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:237034
+Defined in: main.ts:237564
 
 #### Parameters
 
@@ -239,9 +239,9 @@ Defined in: main.ts:237034
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:237074
+Defined in: main.ts:237604
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:237074
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`
 
-Defined in: main.ts:237067
+Defined in: main.ts:237597
 
 #### Parameters
 

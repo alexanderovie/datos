@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveItem
 
-Defined in: main.ts:216206
+Defined in: main.ts:216736
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:216206
 
 ### Constructor
 
-> **new AppDataGoogleAppListingsSearchLiveItem**(`data`?): `AppDataGoogleAppListingsSearchLiveItem`
+> **new AppDataGoogleAppListingsSearchLiveItem**(`data?`): `AppDataGoogleAppListingsSearchLiveItem`
 
-Defined in: main.ts:216228
+Defined in: main.ts:216758
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:216228
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:216208
+Defined in: main.ts:216738
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:216217
+Defined in: main.ts:216747
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:216224
+Defined in: main.ts:216754
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:216214
+Defined in: main.ts:216744
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:216212
+Defined in: main.ts:216742
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:216210
+Defined in: main.ts:216740
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:216222
+Defined in: main.ts:216752
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -140,9 +140,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:216237
+Defined in: main.ts:216767
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:216237
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:216260
+Defined in: main.ts:216790
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:216260
 
 > `static` **fromJS**(`data`): `AppDataGoogleAppListingsSearchLiveItem`
 
-Defined in: main.ts:216253
+Defined in: main.ts:216783
 
 #### Parameters
 

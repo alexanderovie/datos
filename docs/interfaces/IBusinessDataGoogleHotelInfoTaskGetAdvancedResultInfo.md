@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:231651
+Defined in: main.ts:232181
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231651
 
 > `optional` **about**: [`HotelAboutInfo`](../classes/HotelAboutInfo.md)
 
-Defined in: main.ts:231685
+Defined in: main.ts:232215
 
 information about the hotel
 
@@ -28,7 +28,7 @@ information about the hotel
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:231680
+Defined in: main.ts:232210
 
 hotel address
 physical address of the hotel
@@ -39,7 +39,7 @@ physical address of the hotel
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:231663
+Defined in: main.ts:232193
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -50,7 +50,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:231668
+Defined in: main.ts:232198
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,7 +63,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:231656
+Defined in: main.ts:232186
 
 unique hotel identifier
 this field will contain the hotel_identifier parameter;
@@ -76,7 +76,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:231660
+Defined in: main.ts:232190
 
 language code in a POST array
 
@@ -86,7 +86,7 @@ language code in a POST array
 
 > `optional` **location**: [`HotelLocationInfo`](../classes/HotelLocationInfo.md)
 
-Defined in: main.ts:231688
+Defined in: main.ts:232218
 
 information about the hotel location
 information about the location where the hotel is located
@@ -97,7 +97,7 @@ information about the location where the hotel is located
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:231658
+Defined in: main.ts:232188
 
 location code in a POST array
 
@@ -107,7 +107,7 @@ location code in a POST array
 
 > `optional` **overview\_images**: `string`[]
 
-Defined in: main.ts:231694
+Defined in: main.ts:232224
 
 images displayed in the hotel overview
 array containing URLs to images displayed in the hotel overview
@@ -118,7 +118,7 @@ array containing URLs to images displayed in the hotel overview
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:231683
+Defined in: main.ts:232213
 
 hotel phone number
 contact phone number of the hotel
@@ -129,7 +129,7 @@ contact phone number of the hotel
 
 > `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
-Defined in: main.ts:231697
+Defined in: main.ts:232227
 
 pricing details of the hotel entity
 contains information about the hotel’s prices
@@ -140,7 +140,7 @@ contains information about the hotel’s prices
 
 > `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
-Defined in: main.ts:231691
+Defined in: main.ts:232221
 
 hotel reviews by criteria
 information about reviews of the hotel entity
@@ -151,7 +151,7 @@ information about reviews of the hotel entity
 
 > `optional` **stars**: `number`
 
-Defined in: main.ts:231674
+Defined in: main.ts:232204
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary
@@ -162,7 +162,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 > `optional` **stars\_description**: `string`
 
-Defined in: main.ts:231677
+Defined in: main.ts:232207
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary
@@ -173,7 +173,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:231671
+Defined in: main.ts:232201
 
 hotel title
 the title of the hotel entity for which the results are collected

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
-Defined in: main.ts:215334
+Defined in: main.ts:215864
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:215334
 
 > `optional` **helpful\_count**: `number`
 
-Defined in: main.ts:215347
+Defined in: main.ts:215877
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -33,7 +33,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:215344
+Defined in: main.ts:215874
 
 id of the review
 
@@ -43,7 +43,7 @@ id of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:24115
+Defined in: main.ts:24123
 
 the alignment of the element in SERP
 can take the following values:
@@ -59,7 +59,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24111
+Defined in: main.ts:24119
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -74,7 +74,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24108
+Defined in: main.ts:24116
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:24119
+Defined in: main.ts:24127
 
 average rating of the app
 
@@ -103,7 +103,7 @@ average rating of the app
 
 > `optional` **responses**: [`ResponseDataInfo`](../classes/ResponseDataInfo.md)[]
 
-Defined in: main.ts:215353
+Defined in: main.ts:215883
 
 response from the developer
 
@@ -113,7 +113,7 @@ response from the developer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:215349
+Defined in: main.ts:215879
 
 content of the review
 
@@ -123,7 +123,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:215342
+Defined in: main.ts:215872
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -136,7 +136,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24117
+Defined in: main.ts:24125
 
 title of the app
 
@@ -150,7 +150,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24105
+Defined in: main.ts:24113
 
 type of element
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
-Defined in: main.ts:215351
+Defined in: main.ts:215881
 
 user profile of the reviewer
 
@@ -174,7 +174,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:215337
+Defined in: main.ts:215867
 
 version of the app
 version of the app for which the review is submitted

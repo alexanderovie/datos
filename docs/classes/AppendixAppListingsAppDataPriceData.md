@@ -6,7 +6,7 @@
 
 # Class: AppendixAppListingsAppDataPriceData
 
-Defined in: main.ts:248654
+Defined in: main.ts:249480
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:248654
 
 ### Constructor
 
-> **new AppendixAppListingsAppDataPriceData**(`data`?): `AppendixAppListingsAppDataPriceData`
+> **new AppendixAppListingsAppDataPriceData**(`data?`): `AppendixAppListingsAppDataPriceData`
 
-Defined in: main.ts:248660
+Defined in: main.ts:249486
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248660
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248655
+Defined in: main.ts:249481
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248655
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248656
+Defined in: main.ts:249482
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:248656
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:248669
+Defined in: main.ts:249495
 
 #### Parameters
 
@@ -80,9 +80,9 @@ Defined in: main.ts:248669
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:248687
+Defined in: main.ts:249513
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:248687
 
 > `static` **fromJS**(`data`): `AppendixAppListingsAppDataPriceData`
 
-Defined in: main.ts:248680
+Defined in: main.ts:249506
 
 #### Parameters
 

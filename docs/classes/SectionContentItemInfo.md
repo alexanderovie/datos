@@ -6,7 +6,7 @@
 
 # Class: SectionContentItemInfo
 
-Defined in: main.ts:26559
+Defined in: main.ts:26567
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:26559
 
 ### Constructor
 
-> **new SectionContentItemInfo**(`data`?): `SectionContentItemInfo`
+> **new SectionContentItemInfo**(`data?`): `SectionContentItemInfo`
 
-Defined in: main.ts:26571
+Defined in: main.ts:26579
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26571
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:26562
+Defined in: main.ts:26570
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -55,7 +55,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26565
+Defined in: main.ts:26573
 
 page URL.
 displayed in case the text is a link anchor
@@ -70,7 +70,7 @@ displayed in case the text is a link anchor
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
-Defined in: main.ts:26567
+Defined in: main.ts:26575
 
 contains other URLs and anchors found in the content element
 
@@ -82,9 +82,9 @@ contains other URLs and anchors found in the content element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:26580
+Defined in: main.ts:26588
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:26580
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:26603
+Defined in: main.ts:26611
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:26603
 
 > `static` **fromJS**(`data`): `SectionContentItemInfo`
 
-Defined in: main.ts:26596
+Defined in: main.ts:26604
 
 #### Parameters
 

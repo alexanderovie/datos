@@ -6,7 +6,7 @@
 
 # Class: CarouselElement
 
-Defined in: main.ts:35219
+Defined in: main.ts:35227
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:35219
 
 ### Constructor
 
-> **new CarouselElement**(`data`?): `CarouselElement`
+> **new CarouselElement**(`data?`): `CarouselElement`
 
-Defined in: main.ts:35232
+Defined in: main.ts:35240
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35232
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:35228
+Defined in: main.ts:35236
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:35225
+Defined in: main.ts:35233
 
 subtitle of the element
 
@@ -69,7 +69,7 @@ subtitle of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35223
+Defined in: main.ts:35231
 
 title of a given link element
 
@@ -83,7 +83,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35221
+Defined in: main.ts:35229
 
 type of element
 
@@ -95,9 +95,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:35241
+Defined in: main.ts:35249
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:35241
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:35261
+Defined in: main.ts:35269
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:35261
 
 > `static` **fromJS**(`data`): `CarouselElement`
 
-Defined in: main.ts:35254
+Defined in: main.ts:35262
 
 #### Parameters
 

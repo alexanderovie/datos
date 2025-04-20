@@ -6,7 +6,7 @@
 
 # Class: BacklinksAnchorsLiveRequestInfo
 
-Defined in: main.ts:164460
+Defined in: main.ts:164640
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:164460
 
 ### Constructor
 
-> **new BacklinksAnchorsLiveRequestInfo**(`data`?): `BacklinksAnchorsLiveRequestInfo`
+> **new BacklinksAnchorsLiveRequestInfo**(`data?`): `BacklinksAnchorsLiveRequestInfo`
 
-Defined in: main.ts:164560
+Defined in: main.ts:164749
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:164560
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:164534
+Defined in: main.ts:164714
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:164495
+Defined in: main.ts:164675
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:164550
+Defined in: main.ts:164730
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:164512
+Defined in: main.ts:164692
 
 array of results filtering parameters
 optional field
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:164545
+Defined in: main.ts:164725
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:164539
+Defined in: main.ts:164719
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:164486
+Defined in: main.ts:164666
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:164470
+Defined in: main.ts:164650
 
 the maximum number of returned anchors
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:164475
+Defined in: main.ts:164655
 
 offset in the results array of returned anchors
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:164526
+Defined in: main.ts:164706
 
 results sorting rules
 optional field
@@ -241,11 +241,32 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:164739
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksAnchorsLiveRequestInfo`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksAnchorsLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:164556
+Defined in: main.ts:164745
 
 user-defined task identifier
 optional field
@@ -263,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:164465
+Defined in: main.ts:164645
 
 domain, subdomain or webpage to get anchors for
 required field
@@ -278,9 +299,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:164569
+Defined in: main.ts:164758
 
 #### Parameters
 
@@ -296,9 +317,9 @@ Defined in: main.ts:164569
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:164609
+Defined in: main.ts:164799
 
 #### Parameters
 
@@ -316,7 +337,7 @@ Defined in: main.ts:164609
 
 > `static` **fromJS**(`data`): `BacklinksAnchorsLiveRequestInfo`
 
-Defined in: main.ts:164602
+Defined in: main.ts:164792
 
 #### Parameters
 

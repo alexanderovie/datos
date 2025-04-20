@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceMarketIndexSerpElementItem
 
-Defined in: main.ts:94863
+Defined in: main.ts:94975
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:94863
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:22535
+Defined in: main.ts:22543
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -37,7 +37,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:22532
+Defined in: main.ts:22540
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -53,7 +53,7 @@ example: PX1:INDEXDB
 
 > `optional` **index\_value**: `number`
 
-Defined in: main.ts:94872
+Defined in: main.ts:94984
 
 value of the market index
 numerical value of the index at a given timestamp
@@ -64,7 +64,7 @@ numerical value of the index at a given timestamp
 
 > `optional` **index\_value\_delta**: `number`
 
-Defined in: main.ts:94875
+Defined in: main.ts:94987
 
 change in value of the market index
 change in the index_value at a given timestamp
@@ -75,7 +75,7 @@ change in the index_value at a given timestamp
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:22540
+Defined in: main.ts:22548
 
 location of the market index
 example: Europe/Paris
@@ -90,7 +90,7 @@ example: Europe/Paris
 
 > `optional` **market\_identifier**: `string`
 
-Defined in: main.ts:94869
+Defined in: main.ts:94981
 
 market identifier
 example: INDEXDB
@@ -101,7 +101,7 @@ example: INDEXDB
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:22550
+Defined in: main.ts:22558
 
 percentage of change in value of the market index
 
@@ -115,7 +115,7 @@ percentage of change in value of the market index
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22528
+Defined in: main.ts:22536
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -130,7 +130,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22525
+Defined in: main.ts:22533
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:94866
+Defined in: main.ts:94978
 
 ticker of the market index
 example: DAX
@@ -157,7 +157,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:22548
+Defined in: main.ts:22556
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -174,7 +174,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:22543
+Defined in: main.ts:22551
 
 growth trend of the market index
 possible values: up, down, stable
@@ -189,7 +189,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22521
+Defined in: main.ts:22529
 
 type of element
 
@@ -203,7 +203,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:22537
+Defined in: main.ts:22545
 
 URL to the page of the market index on Google Finance
 

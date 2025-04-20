@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveItem
 
-Defined in: main.ts:134162
+Defined in: main.ts:134284
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:134162
 
 ### Constructor
 
-> **new DataforseoLabsGoogleAppCompetitorsLiveItem**(`data`?): `DataforseoLabsGoogleAppCompetitorsLiveItem`
+> **new DataforseoLabsGoogleAppCompetitorsLiveItem**(`data?`): `DataforseoLabsGoogleAppCompetitorsLiveItem`
 
-Defined in: main.ts:134187
+Defined in: main.ts:134309
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134187
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:134166
+Defined in: main.ts:134288
 
 id of the competitor app
 
@@ -54,7 +54,7 @@ id of the competitor app
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:134170
+Defined in: main.ts:134292
 
 average position of the app in Google Play SERP
 Note: average position is calculated for intersected keywords only;
@@ -70,7 +70,7 @@ the value for a given application may differ when combined with different target
 
 > `optional` **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:134180
+Defined in: main.ts:134302
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -86,7 +86,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 > `optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:134183
+Defined in: main.ts:134305
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
@@ -101,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:134176
+Defined in: main.ts:134298
 
 number of intersecting keywords
 
@@ -115,7 +115,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:134164
+Defined in: main.ts:134286
 
 search engine type
 
@@ -129,7 +129,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:134174
+Defined in: main.ts:134296
 
 sum of all app positions in Google Play SERP
 Note: sum position is calculated for intersected keywords only;
@@ -143,9 +143,9 @@ the value for a given application may differ when combined with different target
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:134196
+Defined in: main.ts:134318
 
 #### Parameters
 
@@ -161,9 +161,9 @@ Defined in: main.ts:134196
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:134219
+Defined in: main.ts:134341
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:134219
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleAppCompetitorsLiveItem`
 
-Defined in: main.ts:134212
+Defined in: main.ts:134334
 
 #### Parameters
 

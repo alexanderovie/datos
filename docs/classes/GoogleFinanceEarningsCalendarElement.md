@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceEarningsCalendarElement
 
-Defined in: main.ts:88568
+Defined in: main.ts:88680
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:88568
 
 ### Constructor
 
-> **new GoogleFinanceEarningsCalendarElement**(`data`?): `GoogleFinanceEarningsCalendarElement`
+> **new GoogleFinanceEarningsCalendarElement**(`data?`): `GoogleFinanceEarningsCalendarElement`
 
-Defined in: main.ts:88583
+Defined in: main.ts:88695
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88583
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:88579
+Defined in: main.ts:88691
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88572
+Defined in: main.ts:88684
 
 title of the news article
 
@@ -71,7 +71,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88570
+Defined in: main.ts:88682
 
 type of element
 
@@ -85,7 +85,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:88574
+Defined in: main.ts:88686
 
 URL to the page of the market index on Google Finance
 
@@ -97,9 +97,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88592
+Defined in: main.ts:88704
 
 #### Parameters
 
@@ -115,9 +115,9 @@ Defined in: main.ts:88592
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88612
+Defined in: main.ts:88724
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:88612
 
 > `static` **fromJS**(`data`): `GoogleFinanceEarningsCalendarElement`
 
-Defined in: main.ts:88605
+Defined in: main.ts:88717
 
 #### Parameters
 

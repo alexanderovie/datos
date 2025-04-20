@@ -6,7 +6,7 @@
 
 # Interface: IAppendixJobsSerpLimitsRatesDataInfo
 
-Defined in: main.ts:242370
+Defined in: main.ts:242900
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:242370
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:242371
+Defined in: main.ts:242901

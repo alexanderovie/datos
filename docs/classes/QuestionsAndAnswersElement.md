@@ -6,7 +6,7 @@
 
 # Class: QuestionsAndAnswersElement
 
-Defined in: main.ts:37831
+Defined in: main.ts:37839
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:37831
 
 ### Constructor
 
-> **new QuestionsAndAnswersElement**(`data`?): `QuestionsAndAnswersElement`
+> **new QuestionsAndAnswersElement**(`data?`): `QuestionsAndAnswersElement`
 
-Defined in: main.ts:37850
+Defined in: main.ts:37858
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37850
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:37839
+Defined in: main.ts:37847
 
 answer included in the item
 
@@ -54,7 +54,7 @@ answer included in the item
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37844
+Defined in: main.ts:37852
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:37837
+Defined in: main.ts:37845
 
 question included in the item
 
@@ -82,7 +82,7 @@ question included in the item
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37842
+Defined in: main.ts:37850
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -97,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37833
+Defined in: main.ts:37841
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37835
+Defined in: main.ts:37843
 
 URL
 
@@ -125,7 +125,7 @@ URL
 
 > `optional` **votes**: `number`
 
-Defined in: main.ts:37846
+Defined in: main.ts:37854
 
 answer upvotes from the source
 
@@ -137,9 +137,9 @@ answer upvotes from the source
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37859
+Defined in: main.ts:37867
 
 #### Parameters
 
@@ -155,9 +155,9 @@ Defined in: main.ts:37859
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37882
+Defined in: main.ts:37890
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:37882
 
 > `static` **fromJS**(`data`): `QuestionsAndAnswersElement`
 
-Defined in: main.ts:37875
+Defined in: main.ts:37883
 
 #### Parameters
 

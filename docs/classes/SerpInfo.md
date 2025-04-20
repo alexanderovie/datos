@@ -6,7 +6,7 @@
 
 # Class: SerpInfo
 
-Defined in: main.ts:104142
+Defined in: main.ts:104254
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:104142
 
 ### Constructor
 
-> **new SerpInfo**(`data`?): `SerpInfo`
+> **new SerpInfo**(`data?`): `SerpInfo`
 
-Defined in: main.ts:104169
+Defined in: main.ts:104281
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104169
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:104147
+Defined in: main.ts:104259
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:104160
+Defined in: main.ts:104272
 
 date and time when impressions data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:104165
+Defined in: main.ts:104277
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -89,7 +89,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:104155
+Defined in: main.ts:104267
 
 number of search results for the returned keyword
 
@@ -103,7 +103,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104144
+Defined in: main.ts:104256
 
 search engine type
 
@@ -117,7 +117,7 @@ search engine type
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:104153
+Defined in: main.ts:104265
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -133,9 +133,9 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:104178
+Defined in: main.ts:104290
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:104178
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:104204
+Defined in: main.ts:104316
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:104204
 
 > `static` **fromJS**(`data`): `SerpInfo`
 
-Defined in: main.ts:104197
+Defined in: main.ts:104309
 
 #### Parameters
 

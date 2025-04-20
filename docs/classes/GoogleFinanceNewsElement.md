@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceNewsElement
 
-Defined in: main.ts:88386
+Defined in: main.ts:88498
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:88386
 
 ### Constructor
 
-> **new GoogleFinanceNewsElement**(`data`?): `GoogleFinanceNewsElement`
+> **new GoogleFinanceNewsElement**(`data?`): `GoogleFinanceNewsElement`
 
-Defined in: main.ts:88410
+Defined in: main.ts:88522
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88410
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:88398
+Defined in: main.ts:88510
 
 featured image URL
 URL of the news article’s featured image
@@ -55,7 +55,7 @@ URL of the news article’s featured image
 
 > `optional` **quotes**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88406
+Defined in: main.ts:88518
 
 market indexes quoted in the news article
 information about market indexes quoted in the google_finance_news_element
@@ -70,7 +70,7 @@ information about market indexes quoted in the google_finance_news_element
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:88395
+Defined in: main.ts:88507
 
 name of the news source
 name of the website where the news article is published
@@ -85,7 +85,7 @@ name of the website where the news article is published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:88403
+Defined in: main.ts:88515
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -102,7 +102,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88390
+Defined in: main.ts:88502
 
 title of the news article
 
@@ -116,7 +116,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88388
+Defined in: main.ts:88500
 
 type of element
 
@@ -130,7 +130,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:88392
+Defined in: main.ts:88504
 
 URL to the page of the market index on Google Finance
 
@@ -142,9 +142,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88419
+Defined in: main.ts:88531
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:88419
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88446
+Defined in: main.ts:88558
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:88446
 
 > `static` **fromJS**(`data`): `GoogleFinanceNewsElement`
 
-Defined in: main.ts:88439
+Defined in: main.ts:88551
 
 #### Parameters
 

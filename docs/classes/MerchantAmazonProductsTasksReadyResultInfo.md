@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTasksReadyResultInfo
 
-Defined in: main.ts:203894
+Defined in: main.ts:204424
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:203894
 
 ### Constructor
 
-> **new MerchantAmazonProductsTasksReadyResultInfo**(`data`?): `MerchantAmazonProductsTasksReadyResultInfo`
+> **new MerchantAmazonProductsTasksReadyResultInfo**(`data?`): `MerchantAmazonProductsTasksReadyResultInfo`
 
-Defined in: main.ts:203914
+Defined in: main.ts:204444
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203914
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:203904
+Defined in: main.ts:204434
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:203908
+Defined in: main.ts:204438
 
 URL for collecting the results of the Amazon Products Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:203910
+Defined in: main.ts:204440
 
 URL for collecting the results of the Amazon Products HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:203897
+Defined in: main.ts:204427
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:203899
+Defined in: main.ts:204429
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:203902
+Defined in: main.ts:204432
 
 type of search engine
 can take the following values: organic
@@ -126,7 +126,7 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:203906
+Defined in: main.ts:204436
 
 user-defined task identifier
 
@@ -138,9 +138,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:203923
+Defined in: main.ts:204453
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:203923
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:203946
+Defined in: main.ts:204476
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:203946
 
 > `static` **fromJS**(`data`): `MerchantAmazonProductsTasksReadyResultInfo`
 
-Defined in: main.ts:203939
+Defined in: main.ts:204469
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveResultInfo
 
-Defined in: main.ts:173764
+Defined in: main.ts:174152
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173764
 
 ### Constructor
 
-> **new BacklinksBulkNewLostBacklinksLiveResultInfo**(`data`?): `BacklinksBulkNewLostBacklinksLiveResultInfo`
+> **new BacklinksBulkNewLostBacklinksLiveResultInfo**(`data?`): `BacklinksBulkNewLostBacklinksLiveResultInfo`
 
-Defined in: main.ts:173772
+Defined in: main.ts:174160
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173772
 
 > `optional` **items**: [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)[]
 
-Defined in: main.ts:173768
+Defined in: main.ts:174156
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:173766
+Defined in: main.ts:174154
 
 the number of results returned in the items array
 
@@ -66,9 +66,9 @@ the number of results returned in the items array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173781
+Defined in: main.ts:174169
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:173781
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173803
+Defined in: main.ts:174191
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:173803
 
 > `static` **fromJS**(`data`): `BacklinksBulkNewLostBacklinksLiveResultInfo`
 
-Defined in: main.ts:173796
+Defined in: main.ts:174184
 
 #### Parameters
 

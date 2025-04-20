@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordOverviewLiveItem
 
-Defined in: main.ts:123314
+Defined in: main.ts:123436
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:123314
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordOverviewLiveItem**(`data`?): `DataforseoLabsGoogleKeywordOverviewLiveItem`
+> **new DataforseoLabsGoogleKeywordOverviewLiveItem**(`data?`): `DataforseoLabsGoogleKeywordOverviewLiveItem`
 
-Defined in: main.ts:123352
+Defined in: main.ts:123474
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123352
 
 > `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
-Defined in: main.ts:123345
+Defined in: main.ts:123467
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
@@ -55,7 +55,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 > `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
 
-Defined in: main.ts:123337
+Defined in: main.ts:123459
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -70,7 +70,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:123319
+Defined in: main.ts:123441
 
 keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -85,7 +85,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
-Defined in: main.ts:123330
+Defined in: main.ts:123452
 
 keyword data for the returned keyword
 
@@ -99,7 +99,7 @@ keyword data for the returned keyword
 
 > `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:123332
+Defined in: main.ts:123454
 
 contains keyword search volume normalized with Bing search volume
 
@@ -113,7 +113,7 @@ contains keyword search volume normalized with Bing search volume
 
 > `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:123334
+Defined in: main.ts:123456
 
 contains keyword search volume normalized with clickstream data
 
@@ -127,7 +127,7 @@ contains keyword search volume normalized with clickstream data
 
 > `optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
 
-Defined in: main.ts:123339
+Defined in: main.ts:123461
 
 additional information about the keyword
 
@@ -141,7 +141,7 @@ additional information about the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123324
+Defined in: main.ts:123446
 
 language code in a POST array
 
@@ -155,7 +155,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123322
+Defined in: main.ts:123444
 
 location code in a POST array
 if there is no data, then the value is null
@@ -170,7 +170,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123316
+Defined in: main.ts:123438
 
 search engine type
 
@@ -184,7 +184,7 @@ search engine type
 
 > `optional` **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
 
-Defined in: main.ts:123348
+Defined in: main.ts:123470
 
 search intent info for the returned keyword
 learn about search intent in this help center article
@@ -199,7 +199,7 @@ learn about search intent in this help center article
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:123328
+Defined in: main.ts:123450
 
 indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
@@ -215,7 +215,7 @@ if false, the results are returned for Google search sites only
 
 > `optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
 
-Defined in: main.ts:123342
+Defined in: main.ts:123464
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
@@ -228,9 +228,9 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:123361
+Defined in: main.ts:123483
 
 #### Parameters
 
@@ -246,9 +246,9 @@ Defined in: main.ts:123361
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:123390
+Defined in: main.ts:123512
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:123390
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordOverviewLiveItem`
 
-Defined in: main.ts:123383
+Defined in: main.ts:123505
 
 #### Parameters
 

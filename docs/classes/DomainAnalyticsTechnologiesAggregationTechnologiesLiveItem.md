@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
-Defined in: main.ts:97453
+Defined in: main.ts:97565
 
 items array
 
@@ -22,9 +22,9 @@ items array
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data?`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
 
-Defined in: main.ts:97474
+Defined in: main.ts:97586
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:97474
 
 > `optional` **categories\_count**: `number`
 
-Defined in: main.ts:97467
+Defined in: main.ts:97579
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
@@ -57,7 +57,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:97459
+Defined in: main.ts:97571
 
 technology category id
 
@@ -71,7 +71,7 @@ technology category id
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:97457
+Defined in: main.ts:97569
 
 technology group id
 
@@ -85,7 +85,7 @@ technology group id
 
 > `optional` **groups\_count**: `number`
 
-Defined in: main.ts:97464
+Defined in: main.ts:97576
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
@@ -100,7 +100,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **technologies\_count**: `number`
 
-Defined in: main.ts:97470
+Defined in: main.ts:97582
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
@@ -115,7 +115,7 @@ number of domains that match the parameters you specified and are using the indi
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:97461
+Defined in: main.ts:97573
 
 technology name
 
@@ -129,7 +129,7 @@ technology name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:97455
+Defined in: main.ts:97567
 
 type of element
 
@@ -141,9 +141,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:97483
+Defined in: main.ts:97595
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:97483
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:97506
+Defined in: main.ts:97618
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:97506
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`
 
-Defined in: main.ts:97499
+Defined in: main.ts:97611
 
 #### Parameters
 

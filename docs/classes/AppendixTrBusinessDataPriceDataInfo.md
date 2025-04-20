@@ -6,7 +6,7 @@
 
 # Class: AppendixTrBusinessDataPriceDataInfo
 
-Defined in: main.ts:249230
+Defined in: main.ts:250056
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:249230
 
 ### Constructor
 
-> **new AppendixTrBusinessDataPriceDataInfo**(`data`?): `AppendixTrBusinessDataPriceDataInfo`
+> **new AppendixTrBusinessDataPriceDataInfo**(`data?`): `AppendixTrBusinessDataPriceDataInfo`
 
-Defined in: main.ts:249236
+Defined in: main.ts:250062
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:249236
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249231
+Defined in: main.ts:250057
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:249231
 
 > `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249232
+Defined in: main.ts:250058
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:249232
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:249245
+Defined in: main.ts:250071
 
 #### Parameters
 
@@ -80,9 +80,9 @@ Defined in: main.ts:249245
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:249263
+Defined in: main.ts:250089
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:249263
 
 > `static` **fromJS**(`data`): `AppendixTrBusinessDataPriceDataInfo`
 
-Defined in: main.ts:249256
+Defined in: main.ts:250082
 
 #### Parameters
 

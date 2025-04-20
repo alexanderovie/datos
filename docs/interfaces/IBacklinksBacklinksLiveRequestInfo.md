@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:163534
+Defined in: main.ts:163709
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:163534
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:163630
+Defined in: main.ts:163805
 
 set what backlinks to return and count
 optional field
@@ -35,7 +35,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:163554
+Defined in: main.ts:163729
 
 detailed results grouping type
 optional field
@@ -54,7 +54,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:163647
+Defined in: main.ts:163822
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -68,7 +68,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:163567
+Defined in: main.ts:163742
 
 response field
 required field if you choose to specify custom_mode
@@ -89,7 +89,7 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:163588
+Defined in: main.ts:163763
 
 array of results filtering parameters
 optional field
@@ -114,7 +114,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:163641
+Defined in: main.ts:163816
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -128,7 +128,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:163635
+Defined in: main.ts:163810
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -141,7 +141,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:163621
+Defined in: main.ts:163796
 
 the maximum number of returned backlinks
 optional field
@@ -154,7 +154,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:163547
+Defined in: main.ts:163722
 
 results grouping type
 optional field
@@ -170,7 +170,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:163608
+Defined in: main.ts:163783
 
 offset in the results array of the returned backlinks
 optional field
@@ -184,7 +184,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:163602
+Defined in: main.ts:163777
 
 results sorting rules
 optional field
@@ -202,11 +202,28 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:163831
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+***
+
 ### search\_after\_token?
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:163616
+Defined in: main.ts:163791
 
 token for subsequent requests
 optional field
@@ -222,7 +239,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:163653
+Defined in: main.ts:163837
 
 user-defined task identifier
 optional field
@@ -236,7 +253,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:163539
+Defined in: main.ts:163714
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -249,7 +266,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:163571
+Defined in: main.ts:163746
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode

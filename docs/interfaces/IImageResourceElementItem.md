@@ -6,7 +6,7 @@
 
 # Interface: IImageResourceElementItem
 
-Defined in: main.ts:180244
+Defined in: main.ts:180654
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:180244
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:180256
+Defined in: main.ts:180666
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -35,7 +35,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 > `optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
-Defined in: main.ts:23608
+Defined in: main.ts:23616
 
 instructions for caching
 
@@ -49,7 +49,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:23611
+Defined in: main.ts:23619
 
 website checks
 on-page check-ups related to the page
@@ -68,7 +68,7 @@ on-page check-ups related to the page
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:23613
+Defined in: main.ts:23621
 
 type of encoding
 
@@ -82,7 +82,7 @@ type of encoding
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:23598
+Defined in: main.ts:23606
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -97,7 +97,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:23606
+Defined in: main.ts:23614
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,7 +114,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
-Defined in: main.ts:180251
+Defined in: main.ts:180661
 
 resource fething time range
 
@@ -124,7 +124,7 @@ resource fething time range
 
 > `optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
-Defined in: main.ts:23620
+Defined in: main.ts:23628
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -139,7 +139,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23588
+Defined in: main.ts:23596
 
 location header
 indicates the URL to redirect a page to
@@ -154,7 +154,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:23615
+Defined in: main.ts:23623
 
 types of media used to display a page
 
@@ -168,7 +168,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
 
-Defined in: main.ts:180249
+Defined in: main.ts:180659
 
 resource properties
 the value depends on the resource_type
@@ -181,7 +181,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:23592
+Defined in: main.ts:23600
 
 resource errors and warnings
 
@@ -195,7 +195,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:23583
+Defined in: main.ts:23591
 
 type of the returned resource
 
@@ -209,7 +209,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:23617
+Defined in: main.ts:23625
 
 server version
 
@@ -223,7 +223,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:23595
+Defined in: main.ts:23603
 
 resource size
 indicates the size of a given page measured in bytes
@@ -238,7 +238,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:23585
+Defined in: main.ts:23593
 
 status code of the page
 
@@ -252,7 +252,7 @@ status code of the page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:23601
+Defined in: main.ts:23609
 
 compressed page size
 indicates the compressed size of a given page
@@ -267,7 +267,7 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23590
+Defined in: main.ts:23598
 
 page URL
 

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveItem
 
-Defined in: main.ts:173751
+Defined in: main.ts:174139
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173751
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:173759
+Defined in: main.ts:174147
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -29,7 +29,7 @@ number of lost backlinks of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:173756
+Defined in: main.ts:174144
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -40,6 +40,6 @@ number of new backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:173753
+Defined in: main.ts:174141
 
 domain, subdomain or webpage from a POST array

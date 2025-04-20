@@ -6,7 +6,7 @@
 
 # Interface: ICommercialUnitsElement
 
-Defined in: main.ts:38368
+Defined in: main.ts:38376
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:38368
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38376
+Defined in: main.ts:38384
 
 website domain
 
@@ -28,7 +28,7 @@ website domain
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:38378
+Defined in: main.ts:38386
 
 price indicated in the element
 
@@ -38,7 +38,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:38384
+Defined in: main.ts:38392
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -49,7 +49,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:38381
+Defined in: main.ts:38389
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -60,7 +60,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38372
+Defined in: main.ts:38380
 
 title of a given link element
 
@@ -70,7 +70,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38370
+Defined in: main.ts:38378
 
 type of element
 
@@ -80,6 +80,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38374
+Defined in: main.ts:38382
 
 URL

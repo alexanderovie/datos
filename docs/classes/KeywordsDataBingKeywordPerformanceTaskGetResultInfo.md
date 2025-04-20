@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
-Defined in: main.ts:157120
+Defined in: main.ts:157244
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:157120
 
 ### Constructor
 
-> **new KeywordsDataBingKeywordPerformanceTaskGetResultInfo**(`data`?): `KeywordsDataBingKeywordPerformanceTaskGetResultInfo`
+> **new KeywordsDataBingKeywordPerformanceTaskGetResultInfo**(`data?`): `KeywordsDataBingKeywordPerformanceTaskGetResultInfo`
 
-Defined in: main.ts:157143
+Defined in: main.ts:157267
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157143
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:157122
+Defined in: main.ts:157246
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
 
-Defined in: main.ts:157139
+Defined in: main.ts:157263
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -69,7 +69,7 @@ if there is no data, then the value is null
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:157128
+Defined in: main.ts:157252
 
 language code in a POST array
 if there is no data, then the value is null
@@ -84,7 +84,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:157125
+Defined in: main.ts:157249
 
 location code in a POST array
 if there is no data, then the value is null
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:157136
+Defined in: main.ts:157260
 
 indicates the month for which the data is provided for
 example:
@@ -115,7 +115,7 @@ example:
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:157132
+Defined in: main.ts:157256
 
 indicates the year for which the data is provided for
 example:
@@ -129,9 +129,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:157152
+Defined in: main.ts:157276
 
 #### Parameters
 
@@ -147,9 +147,9 @@ Defined in: main.ts:157152
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:157174
+Defined in: main.ts:157298
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:157174
 
 > `static` **fromJS**(`data`): `KeywordsDataBingKeywordPerformanceTaskGetResultInfo`
 
-Defined in: main.ts:157167
+Defined in: main.ts:157291
 
 #### Parameters
 

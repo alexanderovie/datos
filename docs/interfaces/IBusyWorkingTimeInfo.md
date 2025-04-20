@@ -6,7 +6,7 @@
 
 # Interface: IBusyWorkingTimeInfo
 
-Defined in: main.ts:222853
+Defined in: main.ts:223383
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222853
 
 > `optional` **popular\_index**: `number`
 
-Defined in: main.ts:222859
+Defined in: main.ts:223389
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -30,6 +30,6 @@ higher value corresponds to a busier time of a day
 
 > `optional` **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
-Defined in: main.ts:222855
+Defined in: main.ts:223385
 
 busy hours

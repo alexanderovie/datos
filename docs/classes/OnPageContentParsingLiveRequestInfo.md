@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingLiveRequestInfo
 
-Defined in: main.ts:185510
+Defined in: main.ts:185920
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:185510
 
 ### Constructor
 
-> **new OnPageContentParsingLiveRequestInfo**(`data`?): `OnPageContentParsingLiveRequestInfo`
+> **new OnPageContentParsingLiveRequestInfo**(`data?`): `OnPageContentParsingLiveRequestInfo`
 
-Defined in: main.ts:185619
+Defined in: main.ts:186029
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185619
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:185582
+Defined in: main.ts:185992
 
 language header for accessing the website
 optional field
@@ -57,7 +57,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:185542
+Defined in: main.ts:185952
 
 preset for browser screen parameters
 optional field
@@ -88,7 +88,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:185558
+Defined in: main.ts:185968
 
 browser screen height
 optional field
@@ -108,7 +108,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:185566
+Defined in: main.ts:185976
 
 browser screen scale factor
 optional field
@@ -128,7 +128,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:185550
+Defined in: main.ts:185960
 
 browser screen width
 optional field
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:185523
+Defined in: main.ts:185933
 
 custom user agent
 optional field
@@ -167,7 +167,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:185577
+Defined in: main.ts:185987
 
 disable the cookie popup 
 optional field
@@ -185,7 +185,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:185597
+Defined in: main.ts:186007
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -206,7 +206,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:185588
+Defined in: main.ts:185998
 
 load javascript on a page
 optional field
@@ -224,7 +224,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:185604
+Defined in: main.ts:186014
 
 enable XMLHttpRequest on a page
 optional field
@@ -243,7 +243,7 @@ if you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:185615
+Defined in: main.ts:186025
 
 proxy pool
 optional field
@@ -261,7 +261,7 @@ possible values: us, de
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:185571
+Defined in: main.ts:185981
 
 store HTML of a crawled page
 optional field
@@ -278,7 +278,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:185609
+Defined in: main.ts:186019
 
 switch proxy pool
 optional field
@@ -295,7 +295,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:185516
+Defined in: main.ts:185926
 
 URL of the content to parse
 required field
@@ -311,9 +311,9 @@ https://www.fujielectric.com/
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:185628
+Defined in: main.ts:186038
 
 #### Parameters
 
@@ -329,9 +329,9 @@ Defined in: main.ts:185628
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:185658
+Defined in: main.ts:186068
 
 #### Parameters
 
@@ -349,7 +349,7 @@ Defined in: main.ts:185658
 
 > `static` **fromJS**(`data`): `OnPageContentParsingLiveRequestInfo`
 
-Defined in: main.ts:185651
+Defined in: main.ts:186061
 
 #### Parameters
 

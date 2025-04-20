@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
-Defined in: main.ts:237792
+Defined in: main.ts:238322
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:237792
 
 ### Constructor
 
-> **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data`?): `BusinessDataTrustpilotSearchTaskGetResultInfo`
+> **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data?`): `BusinessDataTrustpilotSearchTaskGetResultInfo`
 
-Defined in: main.ts:237814
+Defined in: main.ts:238344
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237814
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:237799
+Defined in: main.ts:238329
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:237804
+Defined in: main.ts:238334
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:237810
+Defined in: main.ts:238340
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:237807
+Defined in: main.ts:238337
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:237794
+Defined in: main.ts:238324
 
 keyword in a POST array
 
@@ -116,7 +116,7 @@ keyword in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:237796
+Defined in: main.ts:238326
 
 search engine domain in a POST array
 
@@ -128,9 +128,9 @@ search engine domain in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:237823
+Defined in: main.ts:238353
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:237823
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:237849
+Defined in: main.ts:238379
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:237849
 
 > `static` **fromJS**(`data`): `BusinessDataTrustpilotSearchTaskGetResultInfo`
 
-Defined in: main.ts:237842
+Defined in: main.ts:238372
 
 #### Parameters
 

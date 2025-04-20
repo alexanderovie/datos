@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:159534
+Defined in: main.ts:159658
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:159534
 
 ### Constructor
 
-> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo**(`data`?): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`
+> **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo**(`data?`): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:159584
+Defined in: main.ts:159708
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159584
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:159543
+Defined in: main.ts:159667
 
 target keywords
 required field
@@ -61,7 +61,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:159567
+Defined in: main.ts:159691
 
 search engine language code
 required field if don’t specify language_name
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:159561
+Defined in: main.ts:159685
 
 full name of search engine language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:159555
+Defined in: main.ts:159679
 
 search engine location code
 required field if you don’t specify location_name
@@ -115,7 +115,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:159549
+Defined in: main.ts:159673
 
 full name of search engine location
 required field if you don’t specify location_code 
@@ -133,7 +133,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:159580
+Defined in: main.ts:159704
 
 user-defined task identifier
 optional field
@@ -151,7 +151,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:159574
+Defined in: main.ts:159698
 
 use clickstream data to provide results
 optional field
@@ -168,9 +168,9 @@ Note: Bing search volume is available for locations provided in Bing Search Volu
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:159593
+Defined in: main.ts:159717
 
 #### Parameters
 
@@ -186,9 +186,9 @@ Defined in: main.ts:159593
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:159620
+Defined in: main.ts:159744
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:159620
 
 > `static` **fromJS**(`data`): `KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`
 
-Defined in: main.ts:159613
+Defined in: main.ts:159737
 
 #### Parameters
 

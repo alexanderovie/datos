@@ -6,7 +6,7 @@
 
 # Class: KeywordAnnotations
 
-Defined in: main.ts:140686
+Defined in: main.ts:140808
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:140686
 
 ### Constructor
 
-> **new KeywordAnnotations**(`data`?): `KeywordAnnotations`
+> **new KeywordAnnotations**(`data?`): `KeywordAnnotations`
 
-Defined in: main.ts:140692
+Defined in: main.ts:140814
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:140692
 
 > `optional` **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
 
-Defined in: main.ts:140688
+Defined in: main.ts:140810
 
 the list of concepts for the keyword
 
@@ -52,9 +52,9 @@ the list of concepts for the keyword
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:140701
+Defined in: main.ts:140823
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:140701
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:140722
+Defined in: main.ts:140844
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:140722
 
 > `static` **fromJS**(`data`): `KeywordAnnotations`
 
-Defined in: main.ts:140715
+Defined in: main.ts:140837
 
 #### Parameters
 

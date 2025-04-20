@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
-Defined in: main.ts:125532
+Defined in: main.ts:125654
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125532
 
 > `optional` **asins**: `string`[]
 
-Defined in: main.ts:125541
+Defined in: main.ts:125663
 
 product IDs to compare
 required field
@@ -35,7 +35,7 @@ B01LW2SL7R
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125571
+Defined in: main.ts:125693
 
 language code
 required field if don’t specify language_name
@@ -50,7 +50,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:125564
+Defined in: main.ts:125686
 
 full name of the language
 required field if don’t specify language_code
@@ -65,7 +65,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125557
+Defined in: main.ts:125679
 
 location code
 required field if don’t specify location_name
@@ -81,7 +81,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:125549
+Defined in: main.ts:125671
 
 full name of the location
 required field if don’t specify location_code
@@ -97,7 +97,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:125577
+Defined in: main.ts:125699
 
 user-defined task identifier
 optional field

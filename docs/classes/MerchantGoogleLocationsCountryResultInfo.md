@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:196664
+Defined in: main.ts:197194
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:196664
 
 ### Constructor
 
-> **new MerchantGoogleLocationsCountryResultInfo**(`data`?): `MerchantGoogleLocationsCountryResultInfo`
+> **new MerchantGoogleLocationsCountryResultInfo**(`data?`): `MerchantGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:196681
+Defined in: main.ts:197211
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:196681
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:196675
+Defined in: main.ts:197205
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:196666
+Defined in: main.ts:197196
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:196668
+Defined in: main.ts:197198
 
 full name of the location
 
@@ -82,7 +82,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:196673
+Defined in: main.ts:197203
 
 the name of the superordinate location
 example:
@@ -99,7 +99,7 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:196677
+Defined in: main.ts:197207
 
 location type
 
@@ -111,9 +111,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:196690
+Defined in: main.ts:197220
 
 #### Parameters
 
@@ -129,9 +129,9 @@ Defined in: main.ts:196690
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:196711
+Defined in: main.ts:197241
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:196711
 
 > `static` **fromJS**(`data`): `MerchantGoogleLocationsCountryResultInfo`
 
-Defined in: main.ts:196704
+Defined in: main.ts:197234
 
 #### Parameters
 

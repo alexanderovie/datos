@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceEarningsCalendarSerpElementItem
 
-Defined in: main.ts:88642
+Defined in: main.ts:88754
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:88642
 
 ### Constructor
 
-> **new GoogleFinanceEarningsCalendarSerpElementItem**(`data`?): `GoogleFinanceEarningsCalendarSerpElementItem`
+> **new GoogleFinanceEarningsCalendarSerpElementItem**(`data?`): `GoogleFinanceEarningsCalendarSerpElementItem`
 
-Defined in: main.ts:88650
+Defined in: main.ts:88762
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88650
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22347
 
 > `optional` **items**: [`GoogleFinanceEarningsCalendarElement`](GoogleFinanceEarningsCalendarElement.md)[]
 
-Defined in: main.ts:88646
+Defined in: main.ts:88758
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88655
+Defined in: main.ts:88767
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:88655
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88677
+Defined in: main.ts:88789
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:88677
 
 > `static` **fromJS**(`data`): `GoogleFinanceEarningsCalendarSerpElementItem`
 
-Defined in: main.ts:88670
+Defined in: main.ts:88782
 
 #### Parameters
 

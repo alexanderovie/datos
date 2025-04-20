@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallItem
 
-Defined in: main.ts:182688
+Defined in: main.ts:183098
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:182688
 
 ### Constructor
 
-> **new OnPageWaterfallItem**(`data`?): `OnPageWaterfallItem`
+> **new OnPageWaterfallItem**(`data?`): `OnPageWaterfallItem`
 
-Defined in: main.ts:182724
+Defined in: main.ts:183134
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182724
 
 > `optional` **connection\_time**: `number`
 
-Defined in: main.ts:182699
+Defined in: main.ts:183109
 
 time to connect to a server
 the time it takes until the connection with a server is established (in milliseconds)
@@ -55,7 +55,7 @@ the time it takes until the connection with a server is established (in millisec
 
 > `optional` **dom\_complete**: `number`
 
-Defined in: main.ts:182696
+Defined in: main.ts:183106
 
 time to load resources
 the time it takes until the page and all of its subresources are downloaded (in milliseconds)
@@ -70,7 +70,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 > `optional` **download\_time**: `number`
 
-Defined in: main.ts:182709
+Defined in: main.ts:183119
 
 time it takes for a browser to receive a response (in milliseconds)
 
@@ -84,7 +84,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:182711
+Defined in: main.ts:183121
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -98,7 +98,7 @@ total time it takes until a browser receives a complete response from a server (
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:182717
+Defined in: main.ts:183127
 
 time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:182714
+Defined in: main.ts:183124
 
 time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page
@@ -128,7 +128,7 @@ the amount of time the browser needs to start downloading a page
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:182690
+Defined in: main.ts:183100
 
 URL of the page
 
@@ -142,7 +142,7 @@ URL of the page
 
 > `optional` **request\_sent\_time**: `number`
 
-Defined in: main.ts:182705
+Defined in: main.ts:183115
 
 time to send a request to a server
 the time it takes until the request to a server is sent (in milliseconds)
@@ -157,7 +157,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 > `optional` **resources**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:182720
+Defined in: main.ts:183130
 
 resource-specific timing
 contains separate arrays with timing for each resource found on the page
@@ -172,7 +172,7 @@ contains separate arrays with timing for each resource found on the page
 
 > `optional` **time\_to\_interactive**: `number`
 
-Defined in: main.ts:182693
+Defined in: main.ts:183103
 
 Time To Interactive (TTI) metric
 the time it takes until the user can interact with a page (in milliseconds)
@@ -187,7 +187,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 > `optional` **time\_to\_secure\_connection**: `number`
 
-Defined in: main.ts:182702
+Defined in: main.ts:183112
 
 time to establish a secure connection
 the time it takes until the secure connection with a server is established (in milliseconds)
@@ -202,7 +202,7 @@ the time it takes until the secure connection with a server is established (in m
 
 > `optional` **waiting\_time**: `number`
 
-Defined in: main.ts:182707
+Defined in: main.ts:183117
 
 time to first byte (TTFB) in milliseconds
 
@@ -214,9 +214,9 @@ time to first byte (TTFB) in milliseconds
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:182733
+Defined in: main.ts:183143
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:182733
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:182765
+Defined in: main.ts:183175
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:182765
 
 > `static` **fromJS**(`data`): `OnPageWaterfallItem`
 
-Defined in: main.ts:182758
+Defined in: main.ts:183168
 
 #### Parameters
 

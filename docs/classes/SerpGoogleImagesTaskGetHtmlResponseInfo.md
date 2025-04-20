@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTaskGetHtmlResponseInfo
 
-Defined in: main.ts:54321
+Defined in: main.ts:54435
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:54321
 
 ### Constructor
 
-> **new SerpGoogleImagesTaskGetHtmlResponseInfo**(`data`?): `SerpGoogleImagesTaskGetHtmlResponseInfo`
+> **new SerpGoogleImagesTaskGetHtmlResponseInfo**(`data?`): `SerpGoogleImagesTaskGetHtmlResponseInfo`
 
-Defined in: main.ts:54327
+Defined in: main.ts:54441
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:54327
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26361
+Defined in: main.ts:26369
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26354
+Defined in: main.ts:26362
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26357
+Defined in: main.ts:26365
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleImagesTaskGetHtmlTaskInfo`](SerpGoogleImagesTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:54323
+Defined in: main.ts:54437
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26363
+Defined in: main.ts:26371
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26365
+Defined in: main.ts:26373
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26359
+Defined in: main.ts:26367
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26351
+Defined in: main.ts:26359
 
 the current version of the API
 
@@ -188,9 +188,9 @@ the current version of the API
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:54331
+Defined in: main.ts:54445
 
 #### Parameters
 
@@ -210,9 +210,9 @@ Defined in: main.ts:54331
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:54353
+Defined in: main.ts:54467
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:54353
 
 > `static` **fromJS**(`data`): `SerpGoogleImagesTaskGetHtmlResponseInfo`
 
-Defined in: main.ts:54346
+Defined in: main.ts:54460
 
 #### Parameters
 

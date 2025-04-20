@@ -6,7 +6,7 @@
 
 # Interface: IAmazonProductNewerModelInfo
 
-Defined in: main.ts:205831
+Defined in: main.ts:206361
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:205831
 
 > `optional` **newer\_model\_asin**: `string`
 
-Defined in: main.ts:205835
+Defined in: main.ts:206365
 
 ASIN of the newer product model
 
@@ -28,6 +28,6 @@ ASIN of the newer product model
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:205833
+Defined in: main.ts:206363
 
 product title

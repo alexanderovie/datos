@@ -6,7 +6,7 @@
 
 # Interface: IAdLinkElement
 
-Defined in: main.ts:33268
+Defined in: main.ts:33276
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33268
 
 > `optional` **ad\_aclk**: `string`
 
-Defined in: main.ts:33280
+Defined in: main.ts:33288
 
 the identifier of the ad
 
@@ -28,7 +28,7 @@ the identifier of the ad
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33274
+Defined in: main.ts:33282
 
 description of the results element in SERP
 
@@ -38,7 +38,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:33278
+Defined in: main.ts:33286
 
 domain where a link points
 
@@ -48,7 +48,7 @@ domain where a link points
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33272
+Defined in: main.ts:33280
 
 title of the element
 
@@ -58,7 +58,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33270
+Defined in: main.ts:33278
 
 type of element
 
@@ -68,6 +68,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33276
+Defined in: main.ts:33284
 
 URL of element

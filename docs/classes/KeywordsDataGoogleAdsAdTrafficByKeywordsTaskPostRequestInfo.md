@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
-Defined in: main.ts:142960
+Defined in: main.ts:143082
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:142960
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data`?): `KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data?`): `KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
 
-Defined in: main.ts:143087
+Defined in: main.ts:143209
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:143087
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:142979
+Defined in: main.ts:143101
 
 the maximum custom bid
 required field
@@ -58,7 +58,7 @@ learn more in this help center article
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:143035
+Defined in: main.ts:143157
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -80,7 +80,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:143050
+Defined in: main.ts:143172
 
 forecasting date interval
 optional field
@@ -98,7 +98,7 @@ default value: next_month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:143044
+Defined in: main.ts:143166
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -119,7 +119,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:142973
+Defined in: main.ts:143095
 
 keywords
 required field
@@ -144,7 +144,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:143025
+Defined in: main.ts:143147
 
 search engine language code
 optional field
@@ -162,7 +162,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:143019
+Defined in: main.ts:143141
 
 full name of search engine language
 optional field
@@ -180,7 +180,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:143004
+Defined in: main.ts:143126
 
 search engine location code
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:143013
+Defined in: main.ts:143135
 
 GPS coordinates of a location
 optional field
@@ -221,7 +221,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:142996
+Defined in: main.ts:143118
 
 full name of search engine location
 optional field
@@ -241,7 +241,7 @@ London,England,United Kingdom
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:142983
+Defined in: main.ts:143105
 
 keywords match-type
 required field
@@ -257,7 +257,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:143077
+Defined in: main.ts:143199
 
 notification URL of a completed task
 optional field
@@ -280,7 +280,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:143066
+Defined in: main.ts:143188
 
 return URL for sending task results
 optional field
@@ -303,7 +303,7 @@ learn more on our Help Center
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:142988
+Defined in: main.ts:143110
 
 include Google search partners
 optional field
@@ -320,7 +320,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:143055
+Defined in: main.ts:143177
 
 results sorting parameters
 optional field
@@ -337,7 +337,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:143083
+Defined in: main.ts:143205
 
 user-defined task identifier
 optional field
@@ -353,9 +353,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:143096
+Defined in: main.ts:143218
 
 #### Parameters
 
@@ -371,9 +371,9 @@ Defined in: main.ts:143096
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:143132
+Defined in: main.ts:143254
 
 #### Parameters
 
@@ -391,7 +391,7 @@ Defined in: main.ts:143132
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`
 
-Defined in: main.ts:143125
+Defined in: main.ts:143247
 
 #### Parameters
 

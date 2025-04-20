@@ -6,7 +6,7 @@
 
 # Class: ContentRatingInfo
 
-Defined in: main.ts:26989
+Defined in: main.ts:26997
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:26989
 
 ### Constructor
 
-> **new ContentRatingInfo**(`data`?): `ContentRatingInfo`
+> **new ContentRatingInfo**(`data?`): `ContentRatingInfo`
 
-Defined in: main.ts:27004
+Defined in: main.ts:27012
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27004
 
 > `optional` **max\_rating\_value**: `string`
 
-Defined in: main.ts:26998
+Defined in: main.ts:27006
 
 maximum value for the rating name
 
@@ -54,7 +54,7 @@ maximum value for the rating name
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:26992
+Defined in: main.ts:27000
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
@@ -69,7 +69,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **rating\_count**: `string`
 
-Defined in: main.ts:26996
+Defined in: main.ts:27004
 
 number of votes
 
@@ -83,7 +83,7 @@ number of votes
 
 > `optional` **rating\_value**: `string`
 
-Defined in: main.ts:26994
+Defined in: main.ts:27002
 
 the value of the rating
 
@@ -97,7 +97,7 @@ the value of the rating
 
 > `optional` **relative\_rating**: `string`
 
-Defined in: main.ts:27000
+Defined in: main.ts:27008
 
 relative rating
 
@@ -109,9 +109,9 @@ relative rating
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27013
+Defined in: main.ts:27021
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:27013
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27034
+Defined in: main.ts:27042
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:27034
 
 > `static` **fromJS**(`data`): `ContentRatingInfo`
 
-Defined in: main.ts:27027
+Defined in: main.ts:27035
 
 #### Parameters
 

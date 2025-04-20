@@ -6,7 +6,7 @@
 
 # Class: TechnologyCategoryInfo
 
-Defined in: main.ts:96810
+Defined in: main.ts:96922
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:96810
 
 ### Constructor
 
-> **new TechnologyCategoryInfo**(`data`?): `TechnologyCategoryInfo`
+> **new TechnologyCategoryInfo**(`data?`): `TechnologyCategoryInfo`
 
-Defined in: main.ts:96828
+Defined in: main.ts:96940
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96828
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:96814
+Defined in: main.ts:96926
 
 id of the technology category
 example:
@@ -56,7 +56,7 @@ crm, cart_abandonment
 
 > `optional` **path**: `string`
 
-Defined in: main.ts:96818
+Defined in: main.ts:96930
 
 path to the technology category
 example:
@@ -72,7 +72,7 @@ user_generated_content.content_curation
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:96824
+Defined in: main.ts:96936
 
 list of technologies in this category
 example:
@@ -88,7 +88,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:96820
+Defined in: main.ts:96932
 
 title of the technology category
 
@@ -100,9 +100,9 @@ title of the technology category
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:96837
+Defined in: main.ts:96949
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:96837
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:96861
+Defined in: main.ts:96973
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:96861
 
 > `static` **fromJS**(`data`): `TechnologyCategoryInfo`
 
-Defined in: main.ts:96854
+Defined in: main.ts:96966
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoSearch
 
-Defined in: main.ts:222734
+Defined in: main.ts:223264
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222734
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:222738
+Defined in: main.ts:223268
 
 google-defined client id
 unique id of a local establishment
@@ -30,7 +30,7 @@ learn more about the identifier in this help center article
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:222741
+Defined in: main.ts:223271
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -41,7 +41,7 @@ learn more about the identifier in this help center article
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:222747
+Defined in: main.ts:223277
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -52,7 +52,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:222744
+Defined in: main.ts:223274
 
 title of the element in SERP
 the name of the business entity for which the results are collected

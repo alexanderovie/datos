@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
-Defined in: main.ts:189877
+Defined in: main.ts:190307
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:189877
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](../classes/ContentAnalysisSearchLiveItem.md)[]
 
-Defined in: main.ts:189887
+Defined in: main.ts:190317
 
 contains citations and related data
 
@@ -28,7 +28,7 @@ contains citations and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:189885
+Defined in: main.ts:190315
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:189881
+Defined in: main.ts:190311
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -50,6 +50,6 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:189883
+Defined in: main.ts:190313
 
 total amount of results in our database relevant to your request

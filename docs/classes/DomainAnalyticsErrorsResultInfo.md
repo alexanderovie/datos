@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsResultInfo
 
-Defined in: main.ts:96036
+Defined in: main.ts:96148
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:96036
 
 ### Constructor
 
-> **new DomainAnalyticsErrorsResultInfo**(`data`?): `DomainAnalyticsErrorsResultInfo`
+> **new DomainAnalyticsErrorsResultInfo**(`data?`): `DomainAnalyticsErrorsResultInfo`
 
-Defined in: main.ts:96067
+Defined in: main.ts:96179
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96067
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:96043
+Defined in: main.ts:96155
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:96047
+Defined in: main.ts:96159
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:96050
+Defined in: main.ts:96162
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:96045
+Defined in: main.ts:96157
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:96057
+Defined in: main.ts:96169
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:96055
+Defined in: main.ts:96167
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:96063
+Defined in: main.ts:96175
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:96060
+Defined in: main.ts:96172
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -158,7 +158,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:96053
+Defined in: main.ts:96165
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -173,7 +173,7 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:96038
+Defined in: main.ts:96150
 
 id of the task
 
@@ -185,9 +185,9 @@ id of the task
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:96076
+Defined in: main.ts:96188
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:96076
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:96102
+Defined in: main.ts:96214
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:96102
 
 > `static` **fromJS**(`data`): `DomainAnalyticsErrorsResultInfo`
 
-Defined in: main.ts:96095
+Defined in: main.ts:96207
 
 #### Parameters
 

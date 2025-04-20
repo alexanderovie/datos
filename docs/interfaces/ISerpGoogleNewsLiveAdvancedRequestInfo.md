@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsLiveAdvancedRequestInfo
 
-Defined in: main.ts:49864
+Defined in: main.ts:49972
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:49864
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:49943
+Defined in: main.ts:50051
 
 browser screen height
 optional field
@@ -32,7 +32,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:49949
+Defined in: main.ts:50057
 
 browser screen resolution ratio
 optional field
@@ -46,7 +46,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:49937
+Defined in: main.ts:50045
 
 browser screen width
 optional field
@@ -60,7 +60,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:49931
+Defined in: main.ts:50039
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -75,7 +75,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49965
+Defined in: main.ts:50073
 
 parsing depth
 optional field
@@ -92,7 +92,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49874
+Defined in: main.ts:49982
 
 keyword
 required field
@@ -110,7 +110,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49918
+Defined in: main.ts:50026
 
 search engine language code
 required field if you don’t specify language_name
@@ -125,7 +125,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49911
+Defined in: main.ts:50019
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -140,7 +140,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49894
+Defined in: main.ts:50002
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49904
+Defined in: main.ts:50012
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -173,7 +173,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49887
+Defined in: main.ts:49995
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49972
+Defined in: main.ts:50080
 
 page crawl limit
 optional field
@@ -203,7 +203,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49924
+Defined in: main.ts:50032
 
 device operating system
 optional field
@@ -217,7 +217,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49956
+Defined in: main.ts:50064
 
 search engine domain
 optional field
@@ -232,7 +232,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:49976
+Defined in: main.ts:50084
 
 additional parameters of the search query
 optional field
@@ -244,7 +244,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49880
+Defined in: main.ts:49988
 
 direct URL of the search query
 optional field

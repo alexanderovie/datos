@@ -6,7 +6,7 @@
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
-Defined in: main.ts:247336
+Defined in: main.ts:248162
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:247336
 
 ### Constructor
 
-> **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data`?): `AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
+> **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data?`): `AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:247347
+Defined in: main.ts:248173
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247347
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:247343
+Defined in: main.ts:248169
 
 cost, USD
 
@@ -54,7 +54,7 @@ cost, USD
 
 > `optional` **cost\_type**: `string`
 
-Defined in: main.ts:247341
+Defined in: main.ts:248167
 
 charge type
 can take the following values:
@@ -69,9 +69,9 @@ per_request – charge for a GET or POST request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:247356
+Defined in: main.ts:248182
 
 #### Parameters
 
@@ -87,9 +87,9 @@ Defined in: main.ts:247356
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:247374
+Defined in: main.ts:248200
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:247374
 
 > `static` **fromJS**(`data`): `AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`
 
-Defined in: main.ts:247367
+Defined in: main.ts:248193
 
 #### Parameters
 

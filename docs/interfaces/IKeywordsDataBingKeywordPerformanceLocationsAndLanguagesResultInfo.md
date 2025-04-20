@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:156242
+Defined in: main.ts:156366
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:156242
 
 > `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
-Defined in: main.ts:156249
+Defined in: main.ts:156373
 
 supported locations
 contains locations supported in combination with a specific language
@@ -29,7 +29,7 @@ contains locations supported in combination with a specific language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:156246
+Defined in: main.ts:156370
 
 language code
 
@@ -39,6 +39,6 @@ language code
 
 > `optional` **language\_name**: `number`
 
-Defined in: main.ts:156244
+Defined in: main.ts:156368
 
 language name

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:174324
+Defined in: main.ts:174712
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:174324
 
 ### Constructor
 
-> **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): `BacklinksBulkPagesSummaryLiveRequestInfo`
+> **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data?`): `BacklinksBulkPagesSummaryLiveRequestInfo`
 
-Defined in: main.ts:174346
+Defined in: main.ts:174743
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174346
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:174336
+Defined in: main.ts:174724
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -53,11 +53,32 @@ default value: true
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:174733
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:174342
+Defined in: main.ts:174739
 
 user-defined task identifier
 optional field
@@ -75,7 +96,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:174331
+Defined in: main.ts:174719
 
 domains, subdomains or webpages to get summary data for
 required field
@@ -92,9 +113,9 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:174355
+Defined in: main.ts:174752
 
 #### Parameters
 
@@ -110,9 +131,9 @@ Defined in: main.ts:174355
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:174378
+Defined in: main.ts:174776
 
 #### Parameters
 
@@ -130,7 +151,7 @@ Defined in: main.ts:174378
 
 > `static` **fromJS**(`data`): `BacklinksBulkPagesSummaryLiveRequestInfo`
 
-Defined in: main.ts:174371
+Defined in: main.ts:174769
 
 #### Parameters
 

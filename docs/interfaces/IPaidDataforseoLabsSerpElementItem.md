@@ -6,7 +6,7 @@
 
 # Interface: IPaidDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118798
+Defined in: main.ts:118920
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118798
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
-Defined in: main.ts:118850
+Defined in: main.ts:118972
 
 backlinks information for the target website
 
@@ -32,7 +32,7 @@ backlinks information for the target website
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:118806
+Defined in: main.ts:118928
 
 breadcrumb of the Ad element in SERP
 
@@ -42,7 +42,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:118846
+Defined in: main.ts:118968
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -55,7 +55,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:118804
+Defined in: main.ts:118926
 
 description of the results element in SERP
 
@@ -65,7 +65,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:118815
+Defined in: main.ts:118937
 
 extended description
 if there is none, equals null
@@ -76,7 +76,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:118802
+Defined in: main.ts:118924
 
 domain where a link points
 
@@ -86,7 +86,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:118837
+Defined in: main.ts:118959
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -99,7 +99,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:118827
+Defined in: main.ts:118949
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -112,7 +112,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:118812
+Defined in: main.ts:118934
 
 additional information about the result
 
@@ -126,7 +126,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:118810
+Defined in: main.ts:118932
 
 words highlighted in bold within the results description
 
@@ -136,7 +136,7 @@ words highlighted in bold within the results description
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:118832
+Defined in: main.ts:118954
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -149,7 +149,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
 
-Defined in: main.ts:118818
+Defined in: main.ts:118940
 
 links featured in the math_solver element
 if there are none, equals null
@@ -160,7 +160,7 @@ if there are none, equals null
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:118820
+Defined in: main.ts:118942
 
 primary domain name in SERP
 
@@ -170,7 +170,7 @@ primary domain name in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -186,7 +186,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -201,7 +201,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
-Defined in: main.ts:118841
+Defined in: main.ts:118963
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -213,7 +213,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -228,7 +228,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
-Defined in: main.ts:118852
+Defined in: main.ts:118974
 
 page and domain rank information
 
@@ -238,7 +238,7 @@ page and domain rank information
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:118822
+Defined in: main.ts:118944
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -248,7 +248,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:118848
+Defined in: main.ts:118970
 
 search engine type
 
@@ -258,7 +258,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118800
+Defined in: main.ts:118922
 
 title of the result in SERP
 
@@ -268,7 +268,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -282,7 +282,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:118808
+Defined in: main.ts:118930
 
 relevant URL
 
@@ -292,7 +292,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

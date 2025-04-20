@@ -6,7 +6,7 @@
 
 # Interface: IRefinementChipsInfo
 
-Defined in: main.ts:23185
+Defined in: main.ts:23193
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23185
 
 > `optional` **items**: [`RefinementChipsElement`](../classes/RefinementChipsElement.md)[]
 
-Defined in: main.ts:23191
+Defined in: main.ts:23199
 
 items of the element
 
@@ -28,7 +28,7 @@ items of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23187
+Defined in: main.ts:23195
 
 type of element
 
@@ -38,6 +38,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:23189
+Defined in: main.ts:23197
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
-Defined in: main.ts:159197
+Defined in: main.ts:159321
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:159197
 
 > `optional` **device**: `string`[]
 
-Defined in: main.ts:159206
+Defined in: main.ts:159330
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:159206
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:159199
+Defined in: main.ts:159323
 
 keyword in a POST array
 
@@ -36,7 +36,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:159205
+Defined in: main.ts:159329
 
 language code in a POST array
 if there is no data, then the value is null
@@ -47,7 +47,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:159202
+Defined in: main.ts:159326
 
 location code in a POST array
 if there is no data, then the value is null
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:159210
+Defined in: main.ts:159334
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -70,7 +70,7 @@ default value monthly
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](../classes/SearchVolumeHistorySearchInfo.md)
 
-Defined in: main.ts:159213
+Defined in: main.ts:159337
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types

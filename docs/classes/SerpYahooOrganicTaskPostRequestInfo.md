@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicTaskPostRequestInfo
 
-Defined in: main.ts:78036
+Defined in: main.ts:78148
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:78036
 
 ### Constructor
 
-> **new SerpYahooOrganicTaskPostRequestInfo**(`data`?): `SerpYahooOrganicTaskPostRequestInfo`
+> **new SerpYahooOrganicTaskPostRequestInfo**(`data?`): `SerpYahooOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:78173
+Defined in: main.ts:78285
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78173
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:78124
+Defined in: main.ts:78236
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:78101
+Defined in: main.ts:78213
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:78050
+Defined in: main.ts:78162
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:78096
+Defined in: main.ts:78208
 
 search engine language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:78089
+Defined in: main.ts:78201
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:78072
+Defined in: main.ts:78184
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:78082
+Defined in: main.ts:78194
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:78065
+Defined in: main.ts:78177
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -196,7 +196,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:78131
+Defined in: main.ts:78243
 
 page crawl limit
 optional field
@@ -215,7 +215,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:78108
+Defined in: main.ts:78220
 
 device operating system
 optional field
@@ -234,7 +234,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:78169
+Defined in: main.ts:78281
 
 notification URL of a completed task
 optional field
@@ -257,7 +257,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:78158
+Defined in: main.ts:78270
 
 postback_url datatype
 required field if you specify postback_url
@@ -275,7 +275,7 @@ regular, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:78152
+Defined in: main.ts:78264
 
 return URL for sending task results
 optional field
@@ -298,7 +298,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:78058
+Defined in: main.ts:78170
 
 task priority
 optional field
@@ -318,7 +318,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:78115
+Defined in: main.ts:78227
 
 search engine domain
 optional field
@@ -337,7 +337,7 @@ au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:78135
+Defined in: main.ts:78247
 
 additional parameters of the search query
 optional field
@@ -353,7 +353,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:78141
+Defined in: main.ts:78253
 
 user-defined task identifier
 optional field
@@ -371,7 +371,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:78042
+Defined in: main.ts:78154
 
 direct URL of the search query
 optional field
@@ -387,9 +387,9 @@ https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:78182
+Defined in: main.ts:78294
 
 #### Parameters
 
@@ -405,9 +405,9 @@ Defined in: main.ts:78182
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:78216
+Defined in: main.ts:78328
 
 #### Parameters
 
@@ -425,7 +425,7 @@ Defined in: main.ts:78216
 
 > `static` **fromJS**(`data`): `SerpYahooOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:78209
+Defined in: main.ts:78321
 
 #### Parameters
 

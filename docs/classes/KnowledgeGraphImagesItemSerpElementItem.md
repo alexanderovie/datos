@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesItemSerpElementItem
 
-Defined in: main.ts:31679
+Defined in: main.ts:31687
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:31679
 
 ### Constructor
 
-> **new KnowledgeGraphImagesItemSerpElementItem**(`data`?): `KnowledgeGraphImagesItemSerpElementItem`
+> **new KnowledgeGraphImagesItemSerpElementItem**(`data?`): `KnowledgeGraphImagesItemSerpElementItem`
 
-Defined in: main.ts:31697
+Defined in: main.ts:31705
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:31697
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)[]
 
-Defined in: main.ts:31689
+Defined in: main.ts:31697
 
 items featured in the faq_box
 
@@ -74,7 +74,7 @@ items featured in the faq_box
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:31687
+Defined in: main.ts:31695
 
 link of the element
 
@@ -88,7 +88,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31683
+Defined in: main.ts:31691
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,7 +104,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31693
+Defined in: main.ts:31701
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -159,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31685
+Defined in: main.ts:31693
 
 the XPath of the element
 
@@ -189,9 +189,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:31702
+Defined in: main.ts:31710
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:31702
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:31728
+Defined in: main.ts:31736
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:31728
 
 > `static` **fromJS**(`data`): `KnowledgeGraphImagesItemSerpElementItem`
 
-Defined in: main.ts:31721
+Defined in: main.ts:31729
 
 #### Parameters
 

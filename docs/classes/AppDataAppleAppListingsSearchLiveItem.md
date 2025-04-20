@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveItem
 
-Defined in: main.ts:220848
+Defined in: main.ts:221378
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:220848
 
 ### Constructor
 
-> **new AppDataAppleAppListingsSearchLiveItem**(`data`?): `AppDataAppleAppListingsSearchLiveItem`
+> **new AppDataAppleAppListingsSearchLiveItem**(`data?`): `AppDataAppleAppListingsSearchLiveItem`
 
-Defined in: main.ts:220870
+Defined in: main.ts:221400
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:220870
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:220850
+Defined in: main.ts:221380
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:220859
+Defined in: main.ts:221389
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:220866
+Defined in: main.ts:221396
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:220856
+Defined in: main.ts:221386
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:220854
+Defined in: main.ts:221384
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:220852
+Defined in: main.ts:221382
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:220864
+Defined in: main.ts:221394
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -140,9 +140,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:220879
+Defined in: main.ts:221409
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:220879
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:220902
+Defined in: main.ts:221432
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:220902
 
 > `static` **fromJS**(`data`): `AppDataAppleAppListingsSearchLiveItem`
 
-Defined in: main.ts:220895
+Defined in: main.ts:221425
 
 #### Parameters
 

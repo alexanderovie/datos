@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceExploreLiveHtmlRequestInfo
 
-Defined in: main.ts:90044
+Defined in: main.ts:90156
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90044
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:90076
+Defined in: main.ts:90188
 
 device type
 optional field
@@ -30,7 +30,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:90072
+Defined in: main.ts:90184
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:90065
+Defined in: main.ts:90177
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:90058
+Defined in: main.ts:90170
 
 search engine location code
 required field if you don’t specify location_name
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:90051
+Defined in: main.ts:90163
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:90085
+Defined in: main.ts:90197
 
 financial news filters
 optional field
@@ -103,7 +103,7 @@ default value: top_stories
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:90080
+Defined in: main.ts:90192
 
 device operating system
 optional field
@@ -115,7 +115,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:90091
+Defined in: main.ts:90203
 
 user-defined task identifier
 optional field

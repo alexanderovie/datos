@@ -6,7 +6,7 @@
 
 # Interface: IYoutubeCommentSerpElementItem
 
-Defined in: main.ts:76740
+Defined in: main.ts:76852
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:76740
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:76742
+Defined in: main.ts:76854
 
 name of the author of the comment
 
@@ -32,7 +32,7 @@ name of the author of the comment
 
 > `optional` **author\_thumbnail**: `string`
 
-Defined in: main.ts:76744
+Defined in: main.ts:76856
 
 the URL of the page where the author’s channel logo is hosted
 
@@ -42,7 +42,7 @@ the URL of the page where the author’s channel logo is hosted
 
 > `optional` **author\_url**: `string`
 
-Defined in: main.ts:76746
+Defined in: main.ts:76858
 
 URL of the author’s channel
 
@@ -52,7 +52,7 @@ URL of the author’s channel
 
 > `optional` **likes\_count**: `number`
 
-Defined in: main.ts:76757
+Defined in: main.ts:76869
 
 number of likes on the comment
 
@@ -62,7 +62,7 @@ number of likes on the comment
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:76750
+Defined in: main.ts:76862
 
 displayed publication date
 
@@ -72,7 +72,7 @@ displayed publication date
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:73397
+Defined in: main.ts:73509
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -87,7 +87,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:73394
+Defined in: main.ts:73506
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **reply\_count**: `number`
 
-Defined in: main.ts:76759
+Defined in: main.ts:76871
 
 number of replies on the comment
 
@@ -113,7 +113,7 @@ number of replies on the comment
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:76748
+Defined in: main.ts:76860
 
 text of the comment
 
@@ -123,7 +123,7 @@ text of the comment
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:76755
+Defined in: main.ts:76867
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -136,7 +136,7 @@ example:
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:73390
+Defined in: main.ts:73502
 
 type of element
 

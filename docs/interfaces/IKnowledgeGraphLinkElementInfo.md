@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphLinkElementInfo
 
-Defined in: main.ts:116389
+Defined in: main.ts:116511
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:116389
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:116397
+Defined in: main.ts:116519
 
 domain in SERP
 
@@ -28,7 +28,7 @@ domain in SERP
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:116399
+Defined in: main.ts:116521
 
 text alongside the link title
 
@@ -38,7 +38,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116393
+Defined in: main.ts:116515
 
 title of the result in SERP
 
@@ -48,7 +48,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:116391
+Defined in: main.ts:116513
 
 type of element
 
@@ -58,7 +58,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:116395
+Defined in: main.ts:116517
 
 sitelink URL
 
@@ -68,6 +68,6 @@ sitelink URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:116401
+Defined in: main.ts:116523
 
 the XPath of the element

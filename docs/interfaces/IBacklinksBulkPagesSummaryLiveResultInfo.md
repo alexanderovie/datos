@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkPagesSummaryLiveResultInfo
 
-Defined in: main.ts:174791
+Defined in: main.ts:175201
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174791
 
 > `optional` **items**: [`BacklinksBulkPagesSummaryLiveItem`](../classes/BacklinksBulkPagesSummaryLiveItem.md)[]
 
-Defined in: main.ts:174797
+Defined in: main.ts:175207
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:174795
+Defined in: main.ts:175205
 
 number of items in the results array
 
@@ -38,6 +38,6 @@ number of items in the results array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:174793
+Defined in: main.ts:175203
 
 total number of relevant items in the database

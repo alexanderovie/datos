@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainIntersectionLiveItem
 
-Defined in: main.ts:169966
+Defined in: main.ts:170298
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:169966
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:169969
+Defined in: main.ts:170301
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
@@ -33,6 +33,6 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
-Defined in: main.ts:169971
+Defined in: main.ts:170303
 
 contains the domain intersections summary

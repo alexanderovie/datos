@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
-Defined in: main.ts:126871
+Defined in: main.ts:126993
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:126871
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:126877
+Defined in: main.ts:126999
 
 data on the intersection
 
@@ -32,7 +32,7 @@ data on the intersection
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
-Defined in: main.ts:126875
+Defined in: main.ts:126997
 
 keyword data for the returned keyword
 
@@ -42,6 +42,6 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126873
+Defined in: main.ts:126995
 
 search engine type

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
-Defined in: main.ts:242090
+Defined in: main.ts:242620
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242090
 
 ### Constructor
 
-> **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): `BusinessDataSocialMediaRedditLiveResultInfo`
+> **new BusinessDataSocialMediaRedditLiveResultInfo**(`data?`): `BusinessDataSocialMediaRedditLiveResultInfo`
 
-Defined in: main.ts:242101
+Defined in: main.ts:242631
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242101
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:242095
+Defined in: main.ts:242625
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -55,7 +55,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
 
-Defined in: main.ts:242097
+Defined in: main.ts:242627
 
 reddit reviews for the page_url
 
@@ -69,7 +69,7 @@ reddit reviews for the page_url
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:242092
+Defined in: main.ts:242622
 
 type of element
 
@@ -81,9 +81,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242110
+Defined in: main.ts:242640
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:242110
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242133
+Defined in: main.ts:242663
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:242133
 
 > `static` **fromJS**(`data`): `BusinessDataSocialMediaRedditLiveResultInfo`
 
-Defined in: main.ts:242126
+Defined in: main.ts:242656
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IShopsListMerchantSerpElementItem
 
-Defined in: main.ts:199685
+Defined in: main.ts:200215
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:199685
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:199699
+Defined in: main.ts:200229
 
 product price without tax and shipping
 
@@ -32,7 +32,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:199710
+Defined in: main.ts:200240
 
 currency in the ISO format
 example:
@@ -44,7 +44,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:199697
+Defined in: main.ts:200227
 
 details and special offers
 if there are no details, the value will be null
@@ -55,7 +55,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:199689
+Defined in: main.ts:200219
 
 domain in SERP
 
@@ -65,7 +65,7 @@ domain in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22957
+Defined in: main.ts:22965
 
 alignment of the element in SERP
 can take the following values:
@@ -81,7 +81,7 @@ left, right
 
 > `optional` **price\_multiplier**: `number`
 
-Defined in: main.ts:199713
+Defined in: main.ts:200243
 
 monthly price multiplier
 indicates the number of months covered by the monthly payment for the product
@@ -92,7 +92,7 @@ indicates the number of months covered by the monthly payment for the product
 
 > `optional` **product\_annotation**: `string`
 
-Defined in: main.ts:199729
+Defined in: main.ts:200259
 
 data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
@@ -104,7 +104,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 > `optional` **product\_condition**: `string`
 
-Defined in: main.ts:199725
+Defined in: main.ts:200255
 
 indicated condition of the product
 possible values: Used, Refurbished, New, null
@@ -115,7 +115,7 @@ possible values: Used, Refurbished, New, null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22953
+Defined in: main.ts:22961
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -130,7 +130,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22950
+Defined in: main.ts:22958
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:199719
+Defined in: main.ts:200249
 
 shop rating
 the shop popularity rate based on product reviews
@@ -156,7 +156,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:199716
+Defined in: main.ts:200246
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -167,7 +167,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:199704
+Defined in: main.ts:200234
 
 product shipping price
 
@@ -177,7 +177,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:199722
+Defined in: main.ts:200252
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -188,7 +188,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:199702
+Defined in: main.ts:200232
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -199,7 +199,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:199691
+Defined in: main.ts:200221
 
 product title
 
@@ -209,7 +209,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:199706
+Defined in: main.ts:200236
 
 product price including tax and shipping
 
@@ -219,7 +219,7 @@ product price including tax and shipping
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22947
+Defined in: main.ts:22955
 
 type of element
 
@@ -233,7 +233,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:199694
+Defined in: main.ts:200224
 
 Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint
@@ -244,6 +244,6 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:199687
+Defined in: main.ts:200217
 
 XPath of the element

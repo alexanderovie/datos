@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoAskElement
 
-Defined in: main.ts:34022
+Defined in: main.ts:34030
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34022
 
 > `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
 
-Defined in: main.ts:34032
+Defined in: main.ts:34040
 
 expanded element
 
@@ -28,7 +28,7 @@ expanded element
 
 > `optional` **seed\_question**: `string`
 
-Defined in: main.ts:34028
+Defined in: main.ts:34036
 
 question that triggered additional expanded elements
 
@@ -38,7 +38,7 @@ question that triggered additional expanded elements
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34026
+Defined in: main.ts:34034
 
 title of a given link element
 
@@ -48,7 +48,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34024
+Defined in: main.ts:34032
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34030
+Defined in: main.ts:34038
 
 the XPath of the element

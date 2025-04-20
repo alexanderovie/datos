@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTasksReadyResultInfo
 
-Defined in: main.ts:43809
+Defined in: main.ts:43911
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:43809
 
 ### Constructor
 
-> **new SerpGoogleMapsTasksReadyResultInfo**(`data`?): `SerpGoogleMapsTasksReadyResultInfo`
+> **new SerpGoogleMapsTasksReadyResultInfo**(`data?`): `SerpGoogleMapsTasksReadyResultInfo`
 
-Defined in: main.ts:43834
+Defined in: main.ts:43936
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:43834
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:43819
+Defined in: main.ts:43921
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:43827
+Defined in: main.ts:43929
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:43830
+Defined in: main.ts:43932
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:43824
+Defined in: main.ts:43926
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:43812
+Defined in: main.ts:43914
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:43814
+Defined in: main.ts:43916
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:43817
+Defined in: main.ts:43919
 
 type of search engine
 example: maps
@@ -143,7 +143,7 @@ example: maps
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:43821
+Defined in: main.ts:43923
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:43843
+Defined in: main.ts:43945
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:43843
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:43867
+Defined in: main.ts:43969
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:43867
 
 > `static` **fromJS**(`data`): `SerpGoogleMapsTasksReadyResultInfo`
 
-Defined in: main.ts:43860
+Defined in: main.ts:43962
 
 #### Parameters
 

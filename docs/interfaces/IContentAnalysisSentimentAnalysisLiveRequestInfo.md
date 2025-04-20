@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
 
-Defined in: main.ts:190734
+Defined in: main.ts:191195
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190734
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:190803
+Defined in: main.ts:191264
 
 initial dataset filtering parameters
 optional field
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:190772
+Defined in: main.ts:191233
 
 maximum number of elements within internal arrays
 optional field
@@ -62,7 +62,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:190743
+Defined in: main.ts:191204
 
 target keyword
 required field
@@ -79,7 +79,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:190755
+Defined in: main.ts:191216
 
 target keyword fields and target keywords
 optional field
@@ -103,7 +103,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:190761
+Defined in: main.ts:191222
 
 target page types
 optional field
@@ -117,7 +117,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:190779
+Defined in: main.ts:191240
 
 positive connotation threshold
 optional field
@@ -128,11 +128,28 @@ default value: 0.4
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:191273
+
+defines the scale used for calculating and displaying the rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+***
+
 ### sentiments\_connotation\_threshold?
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:190786
+Defined in: main.ts:191247
 
 sentiment connotation threshold
 optional field
@@ -147,7 +164,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:190809
+Defined in: main.ts:191279
 
 user-defined task identifier
 optional field

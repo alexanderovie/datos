@@ -6,7 +6,7 @@
 
 # Interface: IContentOfferInfo
 
-Defined in: main.ts:27122
+Defined in: main.ts:27130
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:27122
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:27124
+Defined in: main.ts:27132
 
 name of the product
 
@@ -28,7 +28,7 @@ name of the product
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:27126
+Defined in: main.ts:27134
 
 price of the product
 
@@ -38,7 +38,7 @@ price of the product
 
 > `optional` **price\_currency**: `string`
 
-Defined in: main.ts:27128
+Defined in: main.ts:27136
 
 price currency
 
@@ -48,7 +48,7 @@ price currency
 
 > `optional` **price\_valid\_until**: `string`
 
-Defined in: main.ts:27132
+Defined in: main.ts:27140
 
 displays the date and time until which the price is valid
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

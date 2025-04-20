@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAmazonMerchantPriceData
 
-Defined in: main.ts:248382
+Defined in: main.ts:249208
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:248382
 
 > `optional` **asin**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248383
+Defined in: main.ts:249209
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:248383
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248384
+Defined in: main.ts:249210
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:248384
 
 > `optional` **sellers**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248385
+Defined in: main.ts:249211

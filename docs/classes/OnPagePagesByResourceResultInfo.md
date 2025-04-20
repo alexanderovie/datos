@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesByResourceResultInfo
 
-Defined in: main.ts:179310
+Defined in: main.ts:179720
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:179310
 
 ### Constructor
 
-> **new OnPagePagesByResourceResultInfo**(`data`?): `OnPagePagesByResourceResultInfo`
+> **new OnPagePagesByResourceResultInfo**(`data?`): `OnPagePagesByResourceResultInfo`
 
-Defined in: main.ts:179325
+Defined in: main.ts:179735
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179325
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:179313
+Defined in: main.ts:179723
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:179315
+Defined in: main.ts:179725
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:179321
+Defined in: main.ts:179731
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:179319
+Defined in: main.ts:179729
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:179317
+Defined in: main.ts:179727
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:179334
+Defined in: main.ts:179744
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:179334
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:179359
+Defined in: main.ts:179769
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:179359
 
 > `static` **fromJS**(`data`): `OnPagePagesByResourceResultInfo`
 
-Defined in: main.ts:179352
+Defined in: main.ts:179762
 
 #### Parameters
 

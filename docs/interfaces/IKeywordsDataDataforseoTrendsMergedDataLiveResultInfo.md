@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
-Defined in: main.ts:149960
+Defined in: main.ts:150084
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:149960
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:149975
+Defined in: main.ts:150099
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:149979
+Defined in: main.ts:150103
 
 contains keyword popularity and related data
 
@@ -41,7 +41,7 @@ contains keyword popularity and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:149977
+Defined in: main.ts:150101
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:149962
+Defined in: main.ts:150086
 
 keywords in a POST array
 
@@ -61,7 +61,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:149970
+Defined in: main.ts:150094
 
 language code in a POST array
 if there is no data, then the value is null
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:149967
+Defined in: main.ts:150091
 
 location code in a POST array
 if there is no data, then the value is null
@@ -83,6 +83,6 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:149964
+Defined in: main.ts:150088
 
 type of element

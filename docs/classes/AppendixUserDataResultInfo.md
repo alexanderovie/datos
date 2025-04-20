@@ -6,7 +6,7 @@
 
 # Class: AppendixUserDataResultInfo
 
-Defined in: main.ts:250170
+Defined in: main.ts:250996
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250170
 
 ### Constructor
 
-> **new AppendixUserDataResultInfo**(`data`?): `AppendixUserDataResultInfo`
+> **new AppendixUserDataResultInfo**(`data?`): `AppendixUserDataResultInfo`
 
-Defined in: main.ts:250185
+Defined in: main.ts:251011
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:250185
 
 > `optional` **login**: `string`
 
-Defined in: main.ts:250172
+Defined in: main.ts:250998
 
 your login
 
@@ -54,7 +54,7 @@ your login
 
 > `optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
 
-Defined in: main.ts:250179
+Defined in: main.ts:251005
 
 section of your spending, USD
 
@@ -68,7 +68,7 @@ section of your spending, USD
 
 > `optional` **price**: [`AppendixPriceData`](AppendixPriceData.md)
 
-Defined in: main.ts:250181
+Defined in: main.ts:251007
 
 pricing
 
@@ -82,7 +82,7 @@ pricing
 
 > `optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
 
-Defined in: main.ts:250177
+Defined in: main.ts:251003
 
 your API rates
 
@@ -96,7 +96,7 @@ your API rates
 
 > `optional` **timezone**: `string`
 
-Defined in: main.ts:250175
+Defined in: main.ts:251001
 
 your time zone
 can be set in your profile settings
@@ -109,9 +109,9 @@ can be set in your profile settings
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:250194
+Defined in: main.ts:251020
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:250194
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:250215
+Defined in: main.ts:251041
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:250215
 
 > `static` **fromJS**(`data`): `AppendixUserDataResultInfo`
 
-Defined in: main.ts:250208
+Defined in: main.ts:251034
 
 #### Parameters
 

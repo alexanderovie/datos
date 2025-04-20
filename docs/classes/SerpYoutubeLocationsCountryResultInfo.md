@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLocationsCountryResultInfo
 
-Defined in: main.ts:71989
+Defined in: main.ts:72101
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:71989
 
 ### Constructor
 
-> **new SerpYoutubeLocationsCountryResultInfo**(`data`?): `SerpYoutubeLocationsCountryResultInfo`
+> **new SerpYoutubeLocationsCountryResultInfo**(`data?`): `SerpYoutubeLocationsCountryResultInfo`
 
-Defined in: main.ts:72010
+Defined in: main.ts:72122
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:72010
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:72004
+Defined in: main.ts:72116
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71991
+Defined in: main.ts:72103
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:72002
+Defined in: main.ts:72114
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71993
+Defined in: main.ts:72105
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:72006
+Defined in: main.ts:72118
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:72019
+Defined in: main.ts:72131
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:72019
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:72040
+Defined in: main.ts:72152
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:72040
 
 > `static` **fromJS**(`data`): `SerpYoutubeLocationsCountryResultInfo`
 
-Defined in: main.ts:72033
+Defined in: main.ts:72145
 
 #### Parameters
 

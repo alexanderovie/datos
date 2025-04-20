@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonProductInfoSerpElementItem
 
-Defined in: main.ts:206448
+Defined in: main.ts:206978
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:206448
 
 ### Constructor
 
-> **new AmazonAmazonProductInfoSerpElementItem**(`data`?): `AmazonAmazonProductInfoSerpElementItem`
+> **new AmazonAmazonProductInfoSerpElementItem**(`data?`): `AmazonAmazonProductInfoSerpElementItem`
 
-Defined in: main.ts:206511
+Defined in: main.ts:207041
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:206511
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24362
+Defined in: main.ts:24370
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24362
 
 > `optional` **applicable\_vouchers**: [`AmazonApplicableVouchersItem`](AmazonApplicableVouchersItem.md)[]
 
-Defined in: main.ts:206487
+Defined in: main.ts:207017
 
 array of objects containing information about applicable vouchers
 
@@ -74,7 +74,7 @@ array of objects containing information about applicable vouchers
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:206460
+Defined in: main.ts:206990
 
 product brand name
 
@@ -88,7 +88,7 @@ product brand name
 
 > `optional` **categories**: [`ProductCategoryInfo`](ProductCategoryInfo.md)[]
 
-Defined in: main.ts:206491
+Defined in: main.ts:207021
 
 contains related product categories
 
@@ -102,7 +102,7 @@ contains related product categories
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:206478
+Defined in: main.ts:207008
 
 currency in the ISO format
 example:
@@ -118,7 +118,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:206462
+Defined in: main.ts:206992
 
 ASIN of the product received in a POST array
 
@@ -132,7 +132,7 @@ ASIN of the product received in a POST array
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:206499
+Defined in: main.ts:207029
 
 contains description of the product
 
@@ -146,7 +146,7 @@ contains description of the product
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:206456
+Defined in: main.ts:206986
 
 product specs and other details
 
@@ -160,7 +160,7 @@ product specs and other details
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:206458
+Defined in: main.ts:206988
 
 the URL of the product image
 
@@ -174,7 +174,7 @@ the URL of the product image
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:206481
+Defined in: main.ts:207011
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -189,7 +189,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_available**: `boolean`
 
-Defined in: main.ts:206502
+Defined in: main.ts:207032
 
 indicates whether the product is available for ordering
 if the value is true, the product can be ordered
@@ -204,7 +204,7 @@ if the value is true, the product can be ordered
 
 > `optional` **is\_newer\_model\_available**: `boolean`
 
-Defined in: main.ts:206485
+Defined in: main.ts:207015
 
 indicates whether the newer model of the product is available
 
@@ -218,7 +218,7 @@ indicates whether the newer model of the product is available
 
 > `optional` **newer\_model**: [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-Defined in: main.ts:206489
+Defined in: main.ts:207019
 
 information about the newer model of the product
 
@@ -232,7 +232,7 @@ information about the newer model of the product
 
 > `optional` **parent\_asin**: `string`
 
-Defined in: main.ts:206464
+Defined in: main.ts:206994
 
 parent ASIN of the product
 
@@ -246,7 +246,7 @@ parent ASIN of the product
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:206452
+Defined in: main.ts:206982
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -262,7 +262,7 @@ left, right
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:206470
+Defined in: main.ts:207000
 
 the lower limit of the product price range
 example:
@@ -278,7 +278,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:206474
+Defined in: main.ts:207004
 
 the upper limit of the product price range
 example:
@@ -294,7 +294,7 @@ example:
 
 > `optional` **product\_asins**: `string`[]
 
-Defined in: main.ts:206466
+Defined in: main.ts:206996
 
 ASINs of all found product modifications
 
@@ -308,7 +308,7 @@ ASINs of all found product modifications
 
 > `optional` **product\_images\_list**: `string`[]
 
-Defined in: main.ts:206495
+Defined in: main.ts:207025
 
 contains URLs for all images of the product displayed on the left side of the main image
 
@@ -322,7 +322,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 > `optional` **product\_information**: [`BaseProductInformationItem`](BaseProductInformationItem.md)[]
 
-Defined in: main.ts:206493
+Defined in: main.ts:207023
 
 contains related product information
 
@@ -336,7 +336,7 @@ contains related product information
 
 > `optional` **product\_videos\_list**: `string`[]
 
-Defined in: main.ts:206497
+Defined in: main.ts:207027
 
 contains URLs for all videos of the product displayed on the right side of the main video
 
@@ -350,7 +350,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24358
+Defined in: main.ts:24366
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -369,7 +369,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24355
+Defined in: main.ts:24363
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -388,7 +388,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:206483
+Defined in: main.ts:207013
 
 product rating info
 
@@ -402,7 +402,7 @@ product rating info
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:206454
+Defined in: main.ts:206984
 
 product title
 
@@ -416,7 +416,7 @@ product title
 
 > `optional` **top\_global\_reviews**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:206507
+Defined in: main.ts:207037
 
 array of objects with top reviews from around the world
 
@@ -430,7 +430,7 @@ array of objects with top reviews from around the world
 
 > `optional` **top\_local\_reviews**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:206505
+Defined in: main.ts:207035
 
 array of objects with top reviews from target location
 to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST
@@ -445,7 +445,7 @@ to obtain additional local reviews, you can specify the load_more_local_reviews 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24352
+Defined in: main.ts:24360
 
 type of element
 
@@ -463,7 +463,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24360
+Defined in: main.ts:24368
 
 the XPath of the element
 
@@ -479,9 +479,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:206516
+Defined in: main.ts:207046
 
 #### Parameters
 
@@ -501,9 +501,9 @@ Defined in: main.ts:206516
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:206589
+Defined in: main.ts:207119
 
 #### Parameters
 
@@ -525,7 +525,7 @@ Defined in: main.ts:206589
 
 > `static` **fromJS**(`data`): `AmazonAmazonProductInfoSerpElementItem`
 
-Defined in: main.ts:206582
+Defined in: main.ts:207112
 
 #### Parameters
 

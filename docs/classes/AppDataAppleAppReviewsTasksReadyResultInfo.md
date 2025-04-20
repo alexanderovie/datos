@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTasksReadyResultInfo
 
-Defined in: main.ts:219936
+Defined in: main.ts:220466
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:219936
 
 ### Constructor
 
-> **new AppDataAppleAppReviewsTasksReadyResultInfo**(`data`?): `AppDataAppleAppReviewsTasksReadyResultInfo`
+> **new AppDataAppleAppReviewsTasksReadyResultInfo**(`data?`): `AppDataAppleAppReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:219956
+Defined in: main.ts:220486
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219956
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:219945
+Defined in: main.ts:220475
 
 date when the task was posted (in the UTC format)
 
@@ -54,9 +54,9 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:219949
+Defined in: main.ts:220479
 
-URL for collecting the results of the Apple App Reviews task
+URL for collecting the results of the Apple app_reviews task
 
 #### Implementation of
 
@@ -68,9 +68,9 @@ URL for collecting the results of the Apple App Reviews task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:219952
+Defined in: main.ts:220482
 
-URL for collecting the results of the Apple App Reviews HTML task
+URL for collecting the results of the Apple app_reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 #### Implementation of
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:219939
+Defined in: main.ts:220469
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:219941
+Defined in: main.ts:220471
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:219943
+Defined in: main.ts:220473
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:219947
+Defined in: main.ts:220477
 
 user-defined task identifier
 
@@ -138,9 +138,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:219965
+Defined in: main.ts:220495
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:219965
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:219988
+Defined in: main.ts:220518
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:219988
 
 > `static` **fromJS**(`data`): `AppDataAppleAppReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:219981
+Defined in: main.ts:220511
 
 #### Parameters
 

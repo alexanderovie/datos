@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearch
 
-Defined in: main.ts:222674
+Defined in: main.ts:223204
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:222674
 
 ### Constructor
 
-> **new PeopleAlsoSearch**(`data`?): `PeopleAlsoSearch`
+> **new PeopleAlsoSearch**(`data?`): `PeopleAlsoSearch`
 
-Defined in: main.ts:222691
+Defined in: main.ts:223221
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222691
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:222678
+Defined in: main.ts:223208
 
 google-defined client id
 unique id of a local establishment
@@ -56,7 +56,7 @@ learn more about the identifier in this help center article
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:222681
+Defined in: main.ts:223211
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:222687
+Defined in: main.ts:223217
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -86,7 +86,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:222684
+Defined in: main.ts:223214
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -99,9 +99,9 @@ the name of the business entity for which the results are collected
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:222700
+Defined in: main.ts:223230
 
 #### Parameters
 
@@ -117,9 +117,9 @@ Defined in: main.ts:222700
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:222720
+Defined in: main.ts:223250
 
 #### Parameters
 
@@ -137,7 +137,7 @@ Defined in: main.ts:222720
 
 > `static` **fromJS**(`data`): `PeopleAlsoSearch`
 
-Defined in: main.ts:222713
+Defined in: main.ts:223243
 
 #### Parameters
 

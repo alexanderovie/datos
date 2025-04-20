@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceNewsSerpElementItem
 
-Defined in: main.ts:88492
+Defined in: main.ts:88604
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:88492
 
 ### Constructor
 
-> **new GoogleFinanceNewsSerpElementItem**(`data`?): `GoogleFinanceNewsSerpElementItem`
+> **new GoogleFinanceNewsSerpElementItem**(`data?`): `GoogleFinanceNewsSerpElementItem`
 
-Defined in: main.ts:88506
+Defined in: main.ts:88618
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88506
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22347
 
 > `optional` **items**: [`GoogleFinanceNewsElement`](GoogleFinanceNewsElement.md)[]
 
-Defined in: main.ts:88502
+Defined in: main.ts:88614
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:88498
+Defined in: main.ts:88610
 
 sub-title of the news element
 example: Based on Europe, Middle East, and Africa
@@ -91,7 +91,7 @@ example: Based on Europe, Middle East, and Africa
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88495
+Defined in: main.ts:88607
 
 title of the news element
 example: In the news
@@ -106,7 +106,7 @@ example: In the news
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -122,9 +122,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88511
+Defined in: main.ts:88623
 
 #### Parameters
 
@@ -144,9 +144,9 @@ Defined in: main.ts:88511
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88535
+Defined in: main.ts:88647
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:88535
 
 > `static` **fromJS**(`data`): `GoogleFinanceNewsSerpElementItem`
 
-Defined in: main.ts:88528
+Defined in: main.ts:88640
 
 #### Parameters
 

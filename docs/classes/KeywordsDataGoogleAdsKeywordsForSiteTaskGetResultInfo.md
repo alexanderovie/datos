@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo
 
-Defined in: main.ts:140744
+Defined in: main.ts:140866
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:140744
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo**(`data`?): `KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo`
+> **new KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo**(`data?`): `KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo`
 
-Defined in: main.ts:140795
+Defined in: main.ts:140917
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:140795
 
 > `optional` **competition**: `string`
 
-Defined in: main.ts:140763
+Defined in: main.ts:140885
 
 competition
 represents the relative level of competition associated with the given keyword in paid SERP only
@@ -58,7 +58,7 @@ learn more about the metric in this help center article
 
 > `optional` **competition\_index**: `number`
 
-Defined in: main.ts:140770
+Defined in: main.ts:140892
 
 competition index
 the competition index for the query indicating how competitive ad placement is for the keyword
@@ -77,7 +77,7 @@ learn more about the metric in this help center article
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:140785
+Defined in: main.ts:140907
 
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
@@ -92,7 +92,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:140782
+Defined in: main.ts:140904
 
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -108,7 +108,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:140746
+Defined in: main.ts:140868
 
 keyword in a POST array
 
@@ -122,7 +122,7 @@ keyword in a POST array
 
 > `optional` **keyword\_annotations**: [`KeywordAnnotations`](KeywordAnnotations.md)
 
-Defined in: main.ts:140791
+Defined in: main.ts:140913
 
 the annotations for the keyword
 
@@ -136,7 +136,7 @@ the annotations for the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:140752
+Defined in: main.ts:140874
 
 language code in a POST array
 if there is no data, the value is null
@@ -151,7 +151,7 @@ if there is no data, the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:140749
+Defined in: main.ts:140871
 
 location code in a POST array
 if there is no data, the value is null
@@ -166,7 +166,7 @@ if there is no data, the value is null
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
-Defined in: main.ts:140778
+Defined in: main.ts:140900
 
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers)
@@ -182,7 +182,7 @@ the value may differ depending on the location specified in a POST request
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:140789
+Defined in: main.ts:140911
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -198,7 +198,7 @@ if there is no data, the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:140757
+Defined in: main.ts:140879
 
 include Google search partners
 the value you specified when setting the task
@@ -215,7 +215,7 @@ if false, the results are returned for Google search sites only
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:140774
+Defined in: main.ts:140896
 
 monthly average search volume rate
 represents the (approximate) number of searches for the given keyword idea either on google.com or google.com and partners, depending on the user’s targeting
@@ -229,9 +229,9 @@ if there is no data, the value is null
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:140804
+Defined in: main.ts:140926
 
 #### Parameters
 
@@ -247,9 +247,9 @@ Defined in: main.ts:140804
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:140836
+Defined in: main.ts:140958
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:140836
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo`
 
-Defined in: main.ts:140829
+Defined in: main.ts:140951
 
 #### Parameters
 

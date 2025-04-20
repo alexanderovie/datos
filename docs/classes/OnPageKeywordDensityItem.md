@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityItem
 
-Defined in: main.ts:183208
+Defined in: main.ts:183618
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:183208
 
 ### Constructor
 
-> **new OnPageKeywordDensityItem**(`data`?): `OnPageKeywordDensityItem`
+> **new OnPageKeywordDensityItem**(`data?`): `OnPageKeywordDensityItem`
 
-Defined in: main.ts:183220
+Defined in: main.ts:183630
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183220
 
 > `optional` **density**: `number`
 
-Defined in: main.ts:183216
+Defined in: main.ts:183626
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
@@ -55,7 +55,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 > `optional` **frequency**: `number`
 
-Defined in: main.ts:183213
+Defined in: main.ts:183623
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
@@ -70,7 +70,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:183210
+Defined in: main.ts:183620
 
 returned keyword
 
@@ -82,9 +82,9 @@ returned keyword
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:183229
+Defined in: main.ts:183639
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:183229
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:183248
+Defined in: main.ts:183658
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:183248
 
 > `static` **fromJS**(`data`): `OnPageKeywordDensityItem`
 
-Defined in: main.ts:183241
+Defined in: main.ts:183651
 
 #### Parameters
 

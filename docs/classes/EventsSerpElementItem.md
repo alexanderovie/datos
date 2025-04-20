@@ -6,7 +6,7 @@
 
 # Class: EventsSerpElementItem
 
-Defined in: main.ts:36233
+Defined in: main.ts:36241
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:36233
 
 ### Constructor
 
-> **new EventsSerpElementItem**(`data`?): `EventsSerpElementItem`
+> **new EventsSerpElementItem**(`data?`): `EventsSerpElementItem`
 
-Defined in: main.ts:36253
+Defined in: main.ts:36261
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:36253
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`EventsElement`](EventsElement.md)[]
 
-Defined in: main.ts:36245
+Defined in: main.ts:36253
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:36237
+Defined in: main.ts:36245
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36249
+Defined in: main.ts:36257
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36241
+Defined in: main.ts:36249
 
 title of the row
 
@@ -159,7 +159,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -177,7 +177,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36243
+Defined in: main.ts:36251
 
 source URL
 
@@ -191,7 +191,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:36239
+Defined in: main.ts:36247
 
 the XPath of the element
 
@@ -203,9 +203,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:36258
+Defined in: main.ts:36266
 
 #### Parameters
 
@@ -225,9 +225,9 @@ Defined in: main.ts:36258
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:36285
+Defined in: main.ts:36293
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:36285
 
 > `static` **fromJS**(`data`): `EventsSerpElementItem`
 
-Defined in: main.ts:36278
+Defined in: main.ts:36286
 
 #### Parameters
 

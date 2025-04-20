@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
-Defined in: main.ts:155959
+Defined in: main.ts:156083
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:155959
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:155991
+Defined in: main.ts:156115
 
 product and service categories
 legacy field, the value will always be null
@@ -29,7 +29,7 @@ legacy field, the value will always be null
 
 > `optional` **competition**: `number`
 
-Defined in: main.ts:155980
+Defined in: main.ts:156104
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -44,7 +44,7 @@ if there is no data the value is null
 
 > `optional` **cpc**: `number`
 
-Defined in: main.ts:155984
+Defined in: main.ts:156108
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:155973
+Defined in: main.ts:156097
 
 device type
 indicates for what device type the data is provided;
@@ -68,7 +68,7 @@ possible values: all, mobile, desktop, tablet
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:155961
+Defined in: main.ts:156085
 
 keyword in a POST array
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:155967
+Defined in: main.ts:156091
 
 language code in a POST array
 if there is no data, then the value is null
@@ -89,7 +89,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:155964
+Defined in: main.ts:156088
 
 location code in a POST array
 if there is no data, then the value is null
@@ -100,7 +100,7 @@ if there is no data, then the value is null
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:155995
+Defined in: main.ts:156119
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:155969
+Defined in: main.ts:156093
 
 indicates whether data from partner networks is included in the response
 
@@ -122,7 +122,7 @@ indicates whether data from partner networks is included in the response
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:155988
+Defined in: main.ts:156112
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targetingsearch volume is rounded to the closest decimal values

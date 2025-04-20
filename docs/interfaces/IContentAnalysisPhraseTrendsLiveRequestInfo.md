@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
-Defined in: main.ts:191723
+Defined in: main.ts:192224
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:191723
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:191774
+Defined in: main.ts:192275
 
 starting date of the time range
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:191786
+Defined in: main.ts:192287
 
 time range which will be used to group the results
 optional field
@@ -45,7 +45,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:191781
+Defined in: main.ts:192282
 
 ending date of the time range
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **initial\_dataset\_filter**: `string`[]
 
-Defined in: main.ts:191803
+Defined in: main.ts:192304
 
 initial dataset filtering parameters
 optional field
@@ -85,7 +85,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:191768
+Defined in: main.ts:192269
 
 maximum number of elements within internal arrays
 optional field
@@ -104,7 +104,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:191732
+Defined in: main.ts:192233
 
 target keyword
 required field
@@ -121,7 +121,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:191744
+Defined in: main.ts:192245
 
 target keyword fields and target keywords
 optional field
@@ -145,7 +145,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:191750
+Defined in: main.ts:192251
 
 target page types
 optional field
@@ -155,11 +155,28 @@ possible values:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:192313
+
+defines the scale used for calculating and displaying the rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works in this Help Center article
+
+***
+
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:191757
+Defined in: main.ts:192258
 
 results grouping type
 optional field
@@ -174,7 +191,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:191809
+Defined in: main.ts:192319
 
 user-defined task identifier
 optional field

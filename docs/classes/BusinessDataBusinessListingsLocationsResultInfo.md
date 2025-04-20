@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
-Defined in: main.ts:221826
+Defined in: main.ts:222356
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:221826
 
 ### Constructor
 
-> **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): `BusinessDataBusinessListingsLocationsResultInfo`
+> **new BusinessDataBusinessListingsLocationsResultInfo**(`data?`): `BusinessDataBusinessListingsLocationsResultInfo`
 
-Defined in: main.ts:221836
+Defined in: main.ts:222366
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221836
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:221832
+Defined in: main.ts:222362
 
 number of businesses in this location in our database
 
@@ -54,7 +54,7 @@ number of businesses in this location in our database
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:221830
+Defined in: main.ts:222360
 
 ISO country code of the location
 
@@ -68,7 +68,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:221828
+Defined in: main.ts:222358
 
 full name of the location
 
@@ -80,9 +80,9 @@ full name of the location
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:221845
+Defined in: main.ts:222375
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:221845
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:221864
+Defined in: main.ts:222394
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:221864
 
 > `static` **fromJS**(`data`): `BusinessDataBusinessListingsLocationsResultInfo`
 
-Defined in: main.ts:221857
+Defined in: main.ts:222387
 
 #### Parameters
 

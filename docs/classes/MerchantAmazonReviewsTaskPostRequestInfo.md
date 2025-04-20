@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskPostRequestInfo
 
-Defined in: main.ts:208440
+Defined in: main.ts:208970
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:208440
 
 ### Constructor
 
-> **new MerchantAmazonReviewsTaskPostRequestInfo**(`data`?): `MerchantAmazonReviewsTaskPostRequestInfo`
+> **new MerchantAmazonReviewsTaskPostRequestInfo**(`data?`): `MerchantAmazonReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:208594
+Defined in: main.ts:209124
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208594
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:208445
+Defined in: main.ts:208975
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:208506
+Defined in: main.ts:209036
 
 parsing depth
 optional field
@@ -76,7 +76,7 @@ default value: 10
 
 > `optional` **filter\_by\_keyword**: `string`
 
-Defined in: main.ts:208539
+Defined in: main.ts:209069
 
 filter reviews by specified keyword
 optional field
@@ -93,7 +93,7 @@ if you use this field, the response will only include reviews that contain the s
 
 > `optional` **filter\_by\_star**: `string`
 
-Defined in: main.ts:208534
+Defined in: main.ts:209064
 
 filter reviews by stars
 optional field
@@ -119,7 +119,7 @@ default rule: all_stars
 
 > `optional` **format\_type**: `string`
 
-Defined in: main.ts:208556
+Defined in: main.ts:209086
 
 filter reviews by product modification
 optional field
@@ -140,7 +140,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208492
+Defined in: main.ts:209022
 
 search engine language code
 required field if you don’t specify language_name
@@ -159,7 +159,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:208485
+Defined in: main.ts:209015
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -179,7 +179,7 @@ English (United Kingdom)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208468
+Defined in: main.ts:208998
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -199,7 +199,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:208477
+Defined in: main.ts:209007
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -220,7 +220,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:208460
+Defined in: main.ts:208990
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -239,7 +239,7 @@ HA1,England,United Kingdom
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:208547
+Defined in: main.ts:209077
 
 filter reviews by media type
 optional field
@@ -259,7 +259,7 @@ default rule: all_contents
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:208590
+Defined in: main.ts:209120
 
 notification URL of a completed task
 optional field
@@ -282,7 +282,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:208579
+Defined in: main.ts:209109
 
 postback_url datatype
 required field if you specify postback_url
@@ -300,7 +300,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:208573
+Defined in: main.ts:209103
 
 return URL for sending task results
 optional field
@@ -323,7 +323,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:208453
+Defined in: main.ts:208983
 
 task priority
 optional field
@@ -343,7 +343,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **reviewer\_type**: `string`
 
-Defined in: main.ts:208520
+Defined in: main.ts:209050
 
 filter reviews by reviewer type
 optional field
@@ -363,7 +363,7 @@ default rule: all_reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:208499
+Defined in: main.ts:209029
 
 search engine domain
 optional field
@@ -382,7 +382,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:208512
+Defined in: main.ts:209042
 
 results sorting parameters
 optional field
@@ -400,7 +400,7 @@ default rule: helpful
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:208562
+Defined in: main.ts:209092
 
 user-defined task identifier
 optional field
@@ -416,9 +416,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:208603
+Defined in: main.ts:209133
 
 #### Parameters
 
@@ -434,9 +434,9 @@ Defined in: main.ts:208603
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:208638
+Defined in: main.ts:209168
 
 #### Parameters
 
@@ -454,7 +454,7 @@ Defined in: main.ts:208638
 
 > `static` **fromJS**(`data`): `MerchantAmazonReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:208631
+Defined in: main.ts:209161
 
 #### Parameters
 

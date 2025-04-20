@@ -6,7 +6,7 @@
 
 # Class: LocalJustificationInfo
 
-Defined in: main.ts:44383
+Defined in: main.ts:44485
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:44383
 
 ### Constructor
 
-> **new LocalJustificationInfo**(`data`?): `LocalJustificationInfo`
+> **new LocalJustificationInfo**(`data?`): `LocalJustificationInfo`
 
-Defined in: main.ts:44391
+Defined in: main.ts:44493
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:44391
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:44387
+Defined in: main.ts:44489
 
 text snippet of local justification
 
@@ -54,7 +54,7 @@ text snippet of local justification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:44385
+Defined in: main.ts:44487
 
 type of element
 
@@ -66,9 +66,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:44400
+Defined in: main.ts:44502
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:44400
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:44418
+Defined in: main.ts:44520
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:44418
 
 > `static` **fromJS**(`data`): `LocalJustificationInfo`
 
-Defined in: main.ts:44411
+Defined in: main.ts:44513
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceAssetPairElement
 
-Defined in: main.ts:87878
+Defined in: main.ts:87990
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:87878
 
 > `optional` **base\_display\_name**: `string`
 
-Defined in: main.ts:87889
+Defined in: main.ts:88001
 
 full name of the base asset in a pair
 example: Euro
@@ -29,7 +29,7 @@ example: Euro
 
 > `optional` **base\_symbol**: `string`
 
-Defined in: main.ts:87883
+Defined in: main.ts:87995
 
 identifier of the base asset in a pair
 example: EUR
@@ -40,7 +40,7 @@ example: EUR
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:87904
+Defined in: main.ts:88016
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -51,7 +51,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:87901
+Defined in: main.ts:88013
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -63,7 +63,7 @@ example: PX1:INDEXDB
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:87909
+Defined in: main.ts:88021
 
 location of the market index
 example: Europe/Paris
@@ -74,7 +74,7 @@ example: Europe/Paris
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:87919
+Defined in: main.ts:88031
 
 percentage of change in value of the market index
 
@@ -84,7 +84,7 @@ percentage of change in value of the market index
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:87894
+Defined in: main.ts:88006
 
 value of the base asset compared to the quote asset
 
@@ -94,7 +94,7 @@ value of the base asset compared to the quote asset
 
 > `optional` **price\_delta**: `number`
 
-Defined in: main.ts:87897
+Defined in: main.ts:88009
 
 change in price
 change in price at a given timestamp
@@ -105,7 +105,7 @@ change in price at a given timestamp
 
 > `optional` **quote\_display\_name**: `string`
 
-Defined in: main.ts:87892
+Defined in: main.ts:88004
 
 full name of the base asset in a pair
 example: Euro
@@ -116,7 +116,7 @@ example: Euro
 
 > `optional` **quote\_symbol**: `string`
 
-Defined in: main.ts:87886
+Defined in: main.ts:87998
 
 identifier of the quote asset in a pair
 example: USD
@@ -127,7 +127,7 @@ example: USD
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87917
+Defined in: main.ts:88029
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -140,7 +140,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:87912
+Defined in: main.ts:88024
 
 growth trend of the market index
 possible values: up, down, stable
@@ -151,7 +151,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87880
+Defined in: main.ts:87992
 
 type of element
 
@@ -161,6 +161,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87906
+Defined in: main.ts:88018
 
 URL to the page of the market index on Google Finance

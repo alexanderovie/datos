@@ -6,7 +6,7 @@
 
 # Interface: ISectionContentItemInfo
 
-Defined in: main.ts:26620
+Defined in: main.ts:26628
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:26620
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:26623
+Defined in: main.ts:26631
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -29,7 +29,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26626
+Defined in: main.ts:26634
 
 page URL.
 displayed in case the text is a link anchor
@@ -40,6 +40,6 @@ displayed in case the text is a link anchor
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
-Defined in: main.ts:26628
+Defined in: main.ts:26636
 
 contains other URLs and anchors found in the content element

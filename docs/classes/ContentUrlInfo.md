@@ -6,7 +6,7 @@
 
 # Class: ContentUrlInfo
 
-Defined in: main.ts:26719
+Defined in: main.ts:26727
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:26719
 
 ### Constructor
 
-> **new ContentUrlInfo**(`data`?): `ContentUrlInfo`
+> **new ContentUrlInfo**(`data?`): `ContentUrlInfo`
 
-Defined in: main.ts:26727
+Defined in: main.ts:26735
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26727
 
 > `optional` **anchor\_text**: `string`
 
-Defined in: main.ts:26723
+Defined in: main.ts:26731
 
 text of the URL’s anchor
 
@@ -54,7 +54,7 @@ text of the URL’s anchor
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26721
+Defined in: main.ts:26729
 
 contains other URLs and anchors found in the content element
 
@@ -66,9 +66,9 @@ contains other URLs and anchors found in the content element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:26736
+Defined in: main.ts:26744
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:26736
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:26754
+Defined in: main.ts:26762
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:26754
 
 > `static` **fromJS**(`data`): `ContentUrlInfo`
 
-Defined in: main.ts:26747
+Defined in: main.ts:26755
 
 #### Parameters
 

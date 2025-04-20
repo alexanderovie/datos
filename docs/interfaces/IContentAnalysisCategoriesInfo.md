@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoriesInfo
 
-Defined in: main.ts:25388
+Defined in: main.ts:25396
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25388
 
 > `optional` **category**: `number`[]
 
-Defined in: main.ts:25389
+Defined in: main.ts:25397
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:25389
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:25390
+Defined in: main.ts:25398

@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListResultInfo
 
-Defined in: main.ts:160798
+Defined in: main.ts:160922
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:160798
 
 ### Constructor
 
-> **new BacklinksIdListResultInfo**(`data`?): `BacklinksIdListResultInfo`
+> **new BacklinksIdListResultInfo**(`data?`): `BacklinksIdListResultInfo`
 
-Defined in: main.ts:160824
+Defined in: main.ts:160948
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160824
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:160818
+Defined in: main.ts:160942
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:160813
+Defined in: main.ts:160937
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:160808
+Defined in: main.ts:160932
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:160800
+Defined in: main.ts:160924
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:160820
+Defined in: main.ts:160944
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:160816
+Defined in: main.ts:160940
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:160803
+Defined in: main.ts:160927
 
 URL of the task
 URL you used for making an API call
@@ -148,9 +148,9 @@ URL you used for making an API call
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:160833
+Defined in: main.ts:160957
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:160833
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:160862
+Defined in: main.ts:160986
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:160862
 
 > `static` **fromJS**(`data`): `BacklinksIdListResultInfo`
 
-Defined in: main.ts:160855
+Defined in: main.ts:160979
 
 #### Parameters
 

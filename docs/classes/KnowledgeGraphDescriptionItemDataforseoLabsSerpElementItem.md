@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116406
+Defined in: main.ts:116528
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:116406
 
 ### Constructor
 
-> **new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
+> **new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem**(`data?`): `KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116416
+Defined in: main.ts:116538
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116416
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **links**: [`KnowledgeGraphLinkElementInfo`](KnowledgeGraphLinkElementInfo.md)[]
 
-Defined in: main.ts:116412
+Defined in: main.ts:116534
 
 sitelinks
 the links shown below some of Google’s search results
@@ -76,7 +76,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -96,7 +96,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -115,7 +115,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:116408
+Defined in: main.ts:116530
 
 description content
 
@@ -148,7 +148,7 @@ description content
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -166,7 +166,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -182,9 +182,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:116421
+Defined in: main.ts:116543
 
 #### Parameters
 
@@ -204,9 +204,9 @@ Defined in: main.ts:116421
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:116444
+Defined in: main.ts:116566
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:116444
 
 > `static` **fromJS**(`data`): `KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116437
+Defined in: main.ts:116559
 
 #### Parameters
 

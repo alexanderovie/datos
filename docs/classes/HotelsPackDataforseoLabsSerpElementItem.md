@@ -6,7 +6,7 @@
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118109
+Defined in: main.ts:118231
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:118109
 
 ### Constructor
 
-> **new HotelsPackDataforseoLabsSerpElementItem**(`data`?): `HotelsPackDataforseoLabsSerpElementItem`
+> **new HotelsPackDataforseoLabsSerpElementItem**(`data?`): `HotelsPackDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118128
+Defined in: main.ts:118250
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118128
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:118116
+Defined in: main.ts:118238
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:118121
+Defined in: main.ts:118243
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:118124
+Defined in: main.ts:118246
 
 additional items present in the element
 if there are none, equals null
@@ -109,7 +109,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -129,7 +129,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -148,7 +148,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118111
+Defined in: main.ts:118233
 
 title of the result in SERP
 
@@ -181,7 +181,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -199,7 +199,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -215,9 +215,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:118133
+Defined in: main.ts:118255
 
 #### Parameters
 
@@ -237,9 +237,9 @@ Defined in: main.ts:118133
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:118158
+Defined in: main.ts:118280
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:118158
 
 > `static` **fromJS**(`data`): `HotelsPackDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118151
+Defined in: main.ts:118273
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTasksReadyResultInfo
 
-Defined in: main.ts:211451
+Defined in: main.ts:211981
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:211451
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:211460
+Defined in: main.ts:211990
 
 date when the task was posted (in the UTC format)
 
@@ -28,9 +28,9 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:211464
+Defined in: main.ts:211994
 
-URL for collecting the results of the Google App Searches task
+URL for collecting the results of the Google app_searches task
 
 ***
 
@@ -38,9 +38,9 @@ URL for collecting the results of the Google App Searches task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:211467
+Defined in: main.ts:211997
 
-URL for collecting the results of the Google App Searches HTML task
+URL for collecting the results of the Google app_searches HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
 
 ***
@@ -49,7 +49,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:211454
+Defined in: main.ts:211984
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -60,7 +60,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:211456
+Defined in: main.ts:211986
 
 search engine specified when setting the task
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:211458
+Defined in: main.ts:211988
 
 search engine type
 
@@ -80,6 +80,6 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:211462
+Defined in: main.ts:211992
 
 user-defined task identifier

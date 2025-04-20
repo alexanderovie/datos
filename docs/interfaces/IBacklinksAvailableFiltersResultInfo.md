@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
-Defined in: main.ts:161551
+Defined in: main.ts:161675
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161551
 
 > `optional` **anchors**: `object`
 
-Defined in: main.ts:161555
+Defined in: main.ts:161679
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:161555
 
 > `optional` **backlinks**: `object`
 
-Defined in: main.ts:161553
+Defined in: main.ts:161677
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:161553
 
 > `optional` **competitors**: `object`
 
-Defined in: main.ts:161561
+Defined in: main.ts:161685
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:161561
 
 > `optional` **content\_duplicates**: `object`
 
-Defined in: main.ts:161552
+Defined in: main.ts:161676
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:161552
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:161557
+Defined in: main.ts:161681
 
 #### Index Signature
 
@@ -78,7 +78,7 @@ Defined in: main.ts:161557
 
 > `optional` **domain\_pages**: `object`
 
-Defined in: main.ts:161554
+Defined in: main.ts:161678
 
 #### Index Signature
 
@@ -90,7 +90,7 @@ Defined in: main.ts:161554
 
 > `optional` **domain\_pages\_summary**: `object`
 
-Defined in: main.ts:161560
+Defined in: main.ts:161684
 
 #### Index Signature
 
@@ -102,7 +102,7 @@ Defined in: main.ts:161560
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:161558
+Defined in: main.ts:161682
 
 #### Index Signature
 
@@ -114,7 +114,7 @@ Defined in: main.ts:161558
 
 > `optional` **referring\_domains**: `object`
 
-Defined in: main.ts:161556
+Defined in: main.ts:161680
 
 #### Index Signature
 
@@ -126,7 +126,7 @@ Defined in: main.ts:161556
 
 > `optional` **referring\_networks**: `object`
 
-Defined in: main.ts:161559
+Defined in: main.ts:161683
 
 #### Index Signature
 

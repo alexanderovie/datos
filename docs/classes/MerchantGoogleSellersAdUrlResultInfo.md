@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
-Defined in: main.ts:202658
+Defined in: main.ts:203188
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:202658
 
 ### Constructor
 
-> **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): `MerchantGoogleSellersAdUrlResultInfo`
+> **new MerchantGoogleSellersAdUrlResultInfo**(`data?`): `MerchantGoogleSellersAdUrlResultInfo`
 
-Defined in: main.ts:202669
+Defined in: main.ts:203199
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202669
 
 > `optional` **ad\_aclk**: `string`
 
-Defined in: main.ts:202660
+Defined in: main.ts:203190
 
 unique ad click referral parameter
 
@@ -54,7 +54,7 @@ unique ad click referral parameter
 
 > `optional` **ad\_url**: `string`
 
-Defined in: main.ts:202662
+Defined in: main.ts:203192
 
 full URL of the advertisement
 
@@ -68,7 +68,7 @@ full URL of the advertisement
 
 > `optional` **ad\_url\_redirects**: `string`[]
 
-Defined in: main.ts:202665
+Defined in: main.ts:203195
 
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
@@ -81,9 +81,9 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:202678
+Defined in: main.ts:203208
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:202678
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:202701
+Defined in: main.ts:203231
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:202701
 
 > `static` **fromJS**(`data`): `MerchantGoogleSellersAdUrlResultInfo`
 
-Defined in: main.ts:202694
+Defined in: main.ts:203224
 
 #### Parameters
 

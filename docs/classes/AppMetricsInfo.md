@@ -6,7 +6,7 @@
 
 # Class: AppMetricsInfo
 
-Defined in: main.ts:125582
+Defined in: main.ts:125704
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:125582
 
 ### Constructor
 
-> **new AppMetricsInfo**(`data`?): `AppMetricsInfo`
+> **new AppMetricsInfo**(`data?`): `AppMetricsInfo`
 
-Defined in: main.ts:125598
+Defined in: main.ts:125720
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125598
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:125592
+Defined in: main.ts:125714
 
 total count of Amazon organic SERPs that contain the product
 
@@ -54,7 +54,7 @@ total count of Amazon organic SERPs that contain the product
 
 > `optional` **pos\_1**: `number`
 
-Defined in: main.ts:125584
+Defined in: main.ts:125706
 
 number of organic SERPs where the product ranks #1
 
@@ -68,7 +68,7 @@ number of organic SERPs where the product ranks #1
 
 > `optional` **pos\_11\_100**: `number`
 
-Defined in: main.ts:125590
+Defined in: main.ts:125712
 
 number of organic SERPs where the product ranks #11-100
 
@@ -82,7 +82,7 @@ number of organic SERPs where the product ranks #11-100
 
 > `optional` **pos\_2\_3**: `number`
 
-Defined in: main.ts:125586
+Defined in: main.ts:125708
 
 number of organic SERPs where the product ranks #2-3
 
@@ -96,7 +96,7 @@ number of organic SERPs where the product ranks #2-3
 
 > `optional` **pos\_4\_10**: `number`
 
-Defined in: main.ts:125588
+Defined in: main.ts:125710
 
 number of organic SERPs where the product ranks #4-10
 
@@ -110,7 +110,7 @@ number of organic SERPs where the product ranks #4-10
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:125594
+Defined in: main.ts:125716
 
 total search volume of the product’s ranking keywords in organic SERP
 
@@ -122,9 +122,9 @@ total search volume of the product’s ranking keywords in organic SERP
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:125607
+Defined in: main.ts:125729
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:125607
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:125629
+Defined in: main.ts:125751
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:125629
 
 > `static` **fromJS**(`data`): `AppMetricsInfo`
 
-Defined in: main.ts:125622
+Defined in: main.ts:125744
 
 #### Parameters
 

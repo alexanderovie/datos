@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskElement
 
-Defined in: main.ts:33955
+Defined in: main.ts:33963
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:33955
 
 ### Constructor
 
-> **new PeopleAlsoAskElement**(`data`?): `PeopleAlsoAskElement`
+> **new PeopleAlsoAskElement**(`data?`): `PeopleAlsoAskElement`
 
-Defined in: main.ts:33969
+Defined in: main.ts:33977
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33969
 
 > `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)[]
 
-Defined in: main.ts:33965
+Defined in: main.ts:33973
 
 expanded element
 
@@ -54,7 +54,7 @@ expanded element
 
 > `optional` **seed\_question**: `string`
 
-Defined in: main.ts:33961
+Defined in: main.ts:33969
 
 question that triggered additional expanded elements
 
@@ -68,7 +68,7 @@ question that triggered additional expanded elements
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33959
+Defined in: main.ts:33967
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33957
+Defined in: main.ts:33965
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33963
+Defined in: main.ts:33971
 
 the XPath of the element
 
@@ -108,9 +108,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:33978
+Defined in: main.ts:33986
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:33978
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:34003
+Defined in: main.ts:34011
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:34003
 
 > `static` **fromJS**(`data`): `PeopleAlsoAskElement`
 
-Defined in: main.ts:33996
+Defined in: main.ts:34004
 
 #### Parameters
 

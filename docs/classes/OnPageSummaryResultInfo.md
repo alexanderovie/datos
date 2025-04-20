@@ -6,7 +6,7 @@
 
 # Class: OnPageSummaryResultInfo
 
-Defined in: main.ts:177568
+Defined in: main.ts:177978
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:177568
 
 ### Constructor
 
-> **new OnPageSummaryResultInfo**(`data`?): `OnPageSummaryResultInfo`
+> **new OnPageSummaryResultInfo**(`data?`): `OnPageSummaryResultInfo`
 
-Defined in: main.ts:177595
+Defined in: main.ts:178005
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177595
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:177577
+Defined in: main.ts:177987
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -56,7 +56,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:177571
+Defined in: main.ts:177981
 
 status of the crawling session
 possible values: in_progress, finished
@@ -71,7 +71,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:177573
+Defined in: main.ts:177983
 
 details of the crawling session
 
@@ -85,7 +85,7 @@ details of the crawling session
 
 > `optional` **crawl\_stop\_reason**: `string`
 
-Defined in: main.ts:177585
+Defined in: main.ts:177995
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -105,7 +105,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 > `optional` **domain\_info**: [`DomainInfo`](DomainInfo.md)
 
-Defined in: main.ts:177588
+Defined in: main.ts:177998
 
 domain-wide info
 on-page information about the target domain and crawling process
@@ -120,7 +120,7 @@ on-page information about the target domain and crawling process
 
 > `optional` **page\_metrics**: [`PageMetrics`](PageMetrics.md)
 
-Defined in: main.ts:177591
+Defined in: main.ts:178001
 
 page-specific info
 metrics information on the target website pages
@@ -133,9 +133,9 @@ metrics information on the target website pages
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:177604
+Defined in: main.ts:178014
 
 #### Parameters
 
@@ -151,9 +151,9 @@ Defined in: main.ts:177604
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:177626
+Defined in: main.ts:178036
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:177626
 
 > `static` **fromJS**(`data`): `OnPageSummaryResultInfo`
 
-Defined in: main.ts:177619
+Defined in: main.ts:178029
 
 #### Parameters
 

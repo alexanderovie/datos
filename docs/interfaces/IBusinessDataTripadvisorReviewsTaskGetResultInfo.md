@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
-Defined in: main.ts:241263
+Defined in: main.ts:241793
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:241263
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:241272
+Defined in: main.ts:241802
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:241277
+Defined in: main.ts:241807
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:241297
+Defined in: main.ts:241827
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -53,7 +53,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:241294
+Defined in: main.ts:241824
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -64,7 +64,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:241299
+Defined in: main.ts:241829
 
 language code in a POST array
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:241283
+Defined in: main.ts:241813
 
 location of the local establishment
 address of the local establishment for which the reviews are collected
@@ -85,7 +85,7 @@ address of the local establishment for which the reviews are collected
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:241288
+Defined in: main.ts:241818
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
@@ -96,7 +96,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:241291
+Defined in: main.ts:241821
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
@@ -111,7 +111,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:241285
+Defined in: main.ts:241815
 
 the total number of reviews
 
@@ -121,7 +121,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:241269
+Defined in: main.ts:241799
 
 search engine domain in a POST array
 
@@ -131,7 +131,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:241280
+Defined in: main.ts:241810
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
@@ -142,7 +142,7 @@ the name of the local establishment for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:241267
+Defined in: main.ts:241797
 
 type of element
 
@@ -152,6 +152,6 @@ type of element
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:241265
+Defined in: main.ts:241795
 
 URL path received in a POST array

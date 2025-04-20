@@ -6,7 +6,7 @@
 
 # Class: ShoppingDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119069
+Defined in: main.ts:119191
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:119069
 
 ### Constructor
 
-> **new ShoppingDataforseoLabsSerpElementItem**(`data`?): `ShoppingDataforseoLabsSerpElementItem`
+> **new ShoppingDataforseoLabsSerpElementItem**(`data?`): `ShoppingDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119078
+Defined in: main.ts:119200
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119078
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-Defined in: main.ts:119074
+Defined in: main.ts:119196
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119071
+Defined in: main.ts:119193
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -181,9 +181,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119083
+Defined in: main.ts:119205
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:119083
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:119106
+Defined in: main.ts:119228
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:119106
 
 > `static` **fromJS**(`data`): `ShoppingDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119099
+Defined in: main.ts:119221
 
 #### Parameters
 

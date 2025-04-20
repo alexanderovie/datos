@@ -6,7 +6,7 @@
 
 # Class: AppendixWebhookResendRequestInfo
 
-Defined in: main.ts:250522
+Defined in: main.ts:251348
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250522
 
 ### Constructor
 
-> **new AppendixWebhookResendRequestInfo**(`data`?): `AppendixWebhookResendRequestInfo`
+> **new AppendixWebhookResendRequestInfo**(`data?`): `AppendixWebhookResendRequestInfo`
 
-Defined in: main.ts:250531
+Defined in: main.ts:251357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:250531
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:250527
+Defined in: main.ts:251353
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -55,9 +55,9 @@ each identifier in the task array must be specified as a separate object
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:250540
+Defined in: main.ts:251366
 
 #### Parameters
 
@@ -73,9 +73,9 @@ Defined in: main.ts:250540
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:250557
+Defined in: main.ts:251383
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: main.ts:250557
 
 > `static` **fromJS**(`data`): `AppendixWebhookResendRequestInfo`
 
-Defined in: main.ts:250550
+Defined in: main.ts:251376
 
 #### Parameters
 

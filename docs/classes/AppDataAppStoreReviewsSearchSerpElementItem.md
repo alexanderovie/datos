@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 
-Defined in: main.ts:220136
+Defined in: main.ts:220666
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:220136
 
 ### Constructor
 
-> **new AppDataAppStoreReviewsSearchSerpElementItem**(`data`?): `AppDataAppStoreReviewsSearchSerpElementItem`
+> **new AppDataAppStoreReviewsSearchSerpElementItem**(`data?`): `AppDataAppStoreReviewsSearchSerpElementItem`
 
-Defined in: main.ts:220154
+Defined in: main.ts:220684
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:220154
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24030
+Defined in: main.ts:24038
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24030
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:220146
+Defined in: main.ts:220676
 
 id of the review
 
@@ -74,7 +74,7 @@ id of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:24024
+Defined in: main.ts:24032
 
 the alignment of the element in SERP
 can take the following values:
@@ -94,7 +94,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24020
+Defined in: main.ts:24028
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -113,7 +113,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24017
+Defined in: main.ts:24025
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:24028
+Defined in: main.ts:24036
 
 average rating of the app
 
@@ -150,7 +150,7 @@ average rating of the app
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:220148
+Defined in: main.ts:220678
 
 content of the review
 
@@ -164,7 +164,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:220144
+Defined in: main.ts:220674
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -181,7 +181,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24026
+Defined in: main.ts:24034
 
 title of the app
 
@@ -199,7 +199,7 @@ title of the app
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24014
+Defined in: main.ts:24022
 
 type of element
 
@@ -217,7 +217,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:220150
+Defined in: main.ts:220680
 
 user profile of the reviewer
 
@@ -231,7 +231,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:220139
+Defined in: main.ts:220669
 
 version of the app
 version of the app for which the review is submitted
@@ -244,9 +244,9 @@ version of the app for which the review is submitted
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:220159
+Defined in: main.ts:220689
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:220159
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:220181
+Defined in: main.ts:220711
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:220181
 
 > `static` **fromJS**(`data`): `AppDataAppStoreReviewsSearchSerpElementItem`
 
-Defined in: main.ts:220174
+Defined in: main.ts:220704
 
 #### Parameters
 

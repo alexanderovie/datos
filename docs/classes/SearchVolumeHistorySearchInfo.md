@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeHistorySearchInfo
 
-Defined in: main.ts:158562
+Defined in: main.ts:158686
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:158562
 
 ### Constructor
 
-> **new SearchVolumeHistorySearchInfo**(`data`?): `SearchVolumeHistorySearchInfo`
+> **new SearchVolumeHistorySearchInfo**(`data?`): `SearchVolumeHistorySearchInfo`
 
-Defined in: main.ts:158578
+Defined in: main.ts:158702
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158578
 
 > `optional` **desktop**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:158565
+Defined in: main.ts:158689
 
 device type = desktop
 contains historical search volume data for searches made from desktop devices
@@ -55,7 +55,7 @@ contains historical search volume data for searches made from desktop devices
 
 > `optional` **mobile**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:158571
+Defined in: main.ts:158695
 
 device type = mobile
 contains historical search volume data for searches made from mobile devices
@@ -70,7 +70,7 @@ contains historical search volume data for searches made from mobile devices
 
 > `optional` **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:158568
+Defined in: main.ts:158692
 
 device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices)
@@ -85,7 +85,7 @@ contains historical search volume data for searches made from feature phones (no
 
 > `optional` **tablet**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
 
-Defined in: main.ts:158574
+Defined in: main.ts:158698
 
 device type = tablet
 contains historical search volume data for searches made from tablets
@@ -98,9 +98,9 @@ contains historical search volume data for searches made from tablets
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:158587
+Defined in: main.ts:158711
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:158587
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:158623
+Defined in: main.ts:158747
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:158623
 
 > `static` **fromJS**(`data`): `SearchVolumeHistorySearchInfo`
 
-Defined in: main.ts:158616
+Defined in: main.ts:158740
 
 #### Parameters
 

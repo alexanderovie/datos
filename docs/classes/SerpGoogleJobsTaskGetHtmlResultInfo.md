@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetHtmlResultInfo
 
-Defined in: main.ts:57778
+Defined in: main.ts:57892
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:57778
 
 ### Constructor
 
-> **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data`?): `SerpGoogleJobsTaskGetHtmlResultInfo`
+> **new SerpGoogleJobsTaskGetHtmlResultInfo**(`data?`): `SerpGoogleJobsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:57802
+Defined in: main.ts:57916
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:57802
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:57794
+Defined in: main.ts:57908
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:57798
+Defined in: main.ts:57912
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:57796
+Defined in: main.ts:57910
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:57781
+Defined in: main.ts:57895
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:57789
+Defined in: main.ts:57903
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:57787
+Defined in: main.ts:57901
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:57785
+Defined in: main.ts:57899
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:57783
+Defined in: main.ts:57897
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:57811
+Defined in: main.ts:57925
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:57811
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:57839
+Defined in: main.ts:57953
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:57839
 
 > `static` **fromJS**(`data`): `SerpGoogleJobsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:57832
+Defined in: main.ts:57946
 
 #### Parameters
 

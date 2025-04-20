@@ -6,7 +6,7 @@
 
 # Class: PodcastsSerpElementItem
 
-Defined in: main.ts:37335
+Defined in: main.ts:37343
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:37335
 
 ### Constructor
 
-> **new PodcastsSerpElementItem**(`data`?): `PodcastsSerpElementItem`
+> **new PodcastsSerpElementItem**(`data?`): `PodcastsSerpElementItem`
 
-Defined in: main.ts:37351
+Defined in: main.ts:37359
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:37351
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-Defined in: main.ts:37343
+Defined in: main.ts:37351
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:37339
+Defined in: main.ts:37347
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37347
+Defined in: main.ts:37355
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37341
+Defined in: main.ts:37349
 
 the XPath of the element
 
@@ -175,9 +175,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37356
+Defined in: main.ts:37364
 
 #### Parameters
 
@@ -197,9 +197,9 @@ Defined in: main.ts:37356
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37381
+Defined in: main.ts:37389
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:37381
 
 > `static` **fromJS**(`data`): `PodcastsSerpElementItem`
 
-Defined in: main.ts:37374
+Defined in: main.ts:37382
 
 #### Parameters
 

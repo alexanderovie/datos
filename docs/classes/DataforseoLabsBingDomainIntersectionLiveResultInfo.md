@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:128746
+Defined in: main.ts:128868
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:128746
 
 ### Constructor
 
-> **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): `DataforseoLabsBingDomainIntersectionLiveResultInfo`
+> **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data?`): `DataforseoLabsBingDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:128768
+Defined in: main.ts:128890
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128768
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:128764
+Defined in: main.ts:128886
 
 contains keywords, relevant SERP elements and related data
 
@@ -54,7 +54,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:128762
+Defined in: main.ts:128884
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128758
+Defined in: main.ts:128880
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128756
+Defined in: main.ts:128878
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:128750
+Defined in: main.ts:128872
 
 search engine type
 search engine type specified in a POST request;
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:128752
+Defined in: main.ts:128874
 
 target specified in a POST array
 
@@ -126,7 +126,7 @@ target specified in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:128754
+Defined in: main.ts:128876
 
 target specified in a POST array
 
@@ -140,7 +140,7 @@ target specified in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:128760
+Defined in: main.ts:128882
 
 total amount of results in our database relevant to your request
 
@@ -152,9 +152,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:128777
+Defined in: main.ts:128899
 
 #### Parameters
 
@@ -170,9 +170,9 @@ Defined in: main.ts:128777
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:128805
+Defined in: main.ts:128927
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:128805
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:128798
+Defined in: main.ts:128920
 
 #### Parameters
 

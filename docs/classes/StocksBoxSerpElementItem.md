@@ -6,7 +6,7 @@
 
 # Class: StocksBoxSerpElementItem
 
-Defined in: main.ts:37553
+Defined in: main.ts:37561
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:37553
 
 ### Constructor
 
-> **new StocksBoxSerpElementItem**(`data`?): `StocksBoxSerpElementItem`
+> **new StocksBoxSerpElementItem**(`data?`): `StocksBoxSerpElementItem`
 
-Defined in: main.ts:37585
+Defined in: main.ts:37593
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:37585
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37572
+Defined in: main.ts:37580
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:37581
+Defined in: main.ts:37589
 
 contains data provided in the graph of the element
 
@@ -88,7 +88,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:37557
+Defined in: main.ts:37565
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,7 +104,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:37568
+Defined in: main.ts:37576
 
 price indicated in the element
 
@@ -118,7 +118,7 @@ price indicated in the element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -137,7 +137,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -157,7 +157,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37576
+Defined in: main.ts:37584
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -173,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:37566
+Defined in: main.ts:37574
 
 text alongside the link title
 
@@ -187,7 +187,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37564
+Defined in: main.ts:37572
 
 source of the element
 indicates the source of the video
@@ -202,7 +202,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:37579
+Defined in: main.ts:37587
 
 results table
 if there are none, equals null
@@ -217,7 +217,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37561
+Defined in: main.ts:37569
 
 title of the row
 
@@ -231,7 +231,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37570
+Defined in: main.ts:37578
 
 source URL
 
@@ -263,7 +263,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37559
+Defined in: main.ts:37567
 
 the XPath of the element
 
@@ -275,9 +275,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37590
+Defined in: main.ts:37598
 
 #### Parameters
 
@@ -297,9 +297,9 @@ Defined in: main.ts:37590
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37618
+Defined in: main.ts:37626
 
 #### Parameters
 
@@ -321,7 +321,7 @@ Defined in: main.ts:37618
 
 > `static` **fromJS**(`data`): `StocksBoxSerpElementItem`
 
-Defined in: main.ts:37611
+Defined in: main.ts:37619
 
 #### Parameters
 

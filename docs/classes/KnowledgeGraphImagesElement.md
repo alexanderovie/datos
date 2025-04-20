@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesElement
 
-Defined in: main.ts:31597
+Defined in: main.ts:31605
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:31597
 
 ### Constructor
 
-> **new KnowledgeGraphImagesElement**(`data`?): `KnowledgeGraphImagesElement`
+> **new KnowledgeGraphImagesElement**(`data?`): `KnowledgeGraphImagesElement`
 
-Defined in: main.ts:31614
+Defined in: main.ts:31622
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31614
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:31605
+Defined in: main.ts:31613
 
 alt tag of the image
 
@@ -54,7 +54,7 @@ alt tag of the image
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31603
+Defined in: main.ts:31611
 
 domain in SERP of the ad element
 
@@ -68,7 +68,7 @@ domain in SERP of the ad element
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31608
+Defined in: main.ts:31616
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31599
+Defined in: main.ts:31607
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31601
+Defined in: main.ts:31609
 
 relevant URL in SERP
 
@@ -111,7 +111,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31610
+Defined in: main.ts:31618
 
 the XPath of the element
 
@@ -123,9 +123,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:31623
+Defined in: main.ts:31631
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:31623
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:31645
+Defined in: main.ts:31653
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:31645
 
 > `static` **fromJS**(`data`): `KnowledgeGraphImagesElement`
 
-Defined in: main.ts:31638
+Defined in: main.ts:31646
 
 #### Parameters
 

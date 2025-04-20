@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:128422
+Defined in: main.ts:128544
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:128422
 
 ### Constructor
 
-> **new DataforseoLabsBingDomainIntersectionLiveRequestInfo**(`data`?): `DataforseoLabsBingDomainIntersectionLiveRequestInfo`
+> **new DataforseoLabsBingDomainIntersectionLiveRequestInfo**(`data?`): `DataforseoLabsBingDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:128540
+Defined in: main.ts:128662
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128540
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:128514
+Defined in: main.ts:128636
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:128487
+Defined in: main.ts:128609
 
 include data from SERP for each keyword
 optional field
@@ -86,7 +86,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:128474
+Defined in: main.ts:128596
 
 domain intersections in SERP
 optional field
@@ -106,7 +106,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:128482
+Defined in: main.ts:128604
 
 search results type
 indicates type of search results included in the response
@@ -126,7 +126,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:128466
+Defined in: main.ts:128588
 
 language code
 required field if you don’t specify language_name
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:128458
+Defined in: main.ts:128580
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,7 +166,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:128492
+Defined in: main.ts:128614
 
 the maximum number of returned keywords
 optional field
@@ -183,7 +183,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128450
+Defined in: main.ts:128572
 
 location code
 required field if you don’t specify location_name
@@ -204,7 +204,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:128441
+Defined in: main.ts:128563
 
 full name of the location
 required field if you don’t specify location_code
@@ -225,7 +225,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:128497
+Defined in: main.ts:128619
 
 offset in the items array of returned keywords
 optional field
@@ -242,7 +242,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:128530
+Defined in: main.ts:128652
 
 results sorting rules
 optional field
@@ -270,7 +270,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:128536
+Defined in: main.ts:128658
 
 user-defined task identifier
 optional field
@@ -288,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:128427
+Defined in: main.ts:128549
 
 domain
 required field
@@ -305,7 +305,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:128432
+Defined in: main.ts:128554
 
 domain
 required field
@@ -320,9 +320,9 @@ the domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:128549
+Defined in: main.ts:128671
 
 #### Parameters
 
@@ -338,9 +338,9 @@ Defined in: main.ts:128549
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:128591
+Defined in: main.ts:128713
 
 #### Parameters
 
@@ -358,7 +358,7 @@ Defined in: main.ts:128591
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingDomainIntersectionLiveRequestInfo`
 
-Defined in: main.ts:128584
+Defined in: main.ts:128706
 
 #### Parameters
 

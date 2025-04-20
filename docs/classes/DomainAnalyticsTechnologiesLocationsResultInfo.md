@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
 
-Defined in: main.ts:96478
+Defined in: main.ts:96590
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:96478
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): `DomainAnalyticsTechnologiesLocationsResultInfo`
+> **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data?`): `DomainAnalyticsTechnologiesLocationsResultInfo`
 
-Defined in: main.ts:96486
+Defined in: main.ts:96598
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96486
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:96482
+Defined in: main.ts:96594
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:96480
+Defined in: main.ts:96592
 
 full name of the location
 
@@ -66,9 +66,9 @@ full name of the location
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:96495
+Defined in: main.ts:96607
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:96495
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:96513
+Defined in: main.ts:96625
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:96513
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesLocationsResultInfo`
 
-Defined in: main.ts:96506
+Defined in: main.ts:96618
 
 #### Parameters
 

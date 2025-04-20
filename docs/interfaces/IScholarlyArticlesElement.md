@@ -6,7 +6,7 @@
 
 # Interface: IScholarlyArticlesElement
 
-Defined in: main.ts:36962
+Defined in: main.ts:36970
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:36962
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:36970
+Defined in: main.ts:36978
 
 author
 
@@ -28,7 +28,7 @@ author
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36972
+Defined in: main.ts:36980
 
 description
 
@@ -38,7 +38,7 @@ description
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36966
+Defined in: main.ts:36974
 
 title of a given link element
 
@@ -48,7 +48,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36964
+Defined in: main.ts:36972
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36968
+Defined in: main.ts:36976
 
 URL

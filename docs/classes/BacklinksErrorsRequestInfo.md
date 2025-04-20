@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsRequestInfo
 
-Defined in: main.ts:161022
+Defined in: main.ts:161146
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:161022
 
 ### Constructor
 
-> **new BacklinksErrorsRequestInfo**(`data`?): `BacklinksErrorsRequestInfo`
+> **new BacklinksErrorsRequestInfo**(`data?`): `BacklinksErrorsRequestInfo`
 
-Defined in: main.ts:161056
+Defined in: main.ts:161180
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161056
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:161045
+Defined in: main.ts:161169
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:161052
+Defined in: main.ts:161176
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:161038
+Defined in: main.ts:161162
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: backlinks/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:161027
+Defined in: main.ts:161151
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:161032
+Defined in: main.ts:161156
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:161065
+Defined in: main.ts:161189
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:161065
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:161086
+Defined in: main.ts:161210
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:161086
 
 > `static` **fromJS**(`data`): `BacklinksErrorsRequestInfo`
 
-Defined in: main.ts:161079
+Defined in: main.ts:161203
 
 #### Parameters
 

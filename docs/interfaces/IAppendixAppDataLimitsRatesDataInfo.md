@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
 
-Defined in: main.ts:244217
+Defined in: main.ts:244747
 
 ## Indexable
 
@@ -16,17 +16,17 @@ Defined in: main.ts:244217
 
 ### app\_info?
 
-> `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_info**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244218
+Defined in: main.ts:244748
 
 ***
 
 ### app\_list?
 
-> `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_list**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244219
+Defined in: main.ts:244749
 
 ***
 
@@ -34,23 +34,23 @@ Defined in: main.ts:244219
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244226
+Defined in: main.ts:244756
 
 ***
 
 ### app\_reviews?
 
-> `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_reviews**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244220
+Defined in: main.ts:244750
 
 ***
 
 ### app\_searches?
 
-> `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_searches**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244221
+Defined in: main.ts:244751
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:244221
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:244225
+Defined in: main.ts:244755
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:244225
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:244222
+Defined in: main.ts:244752
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:244222
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:244223
+Defined in: main.ts:244753
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:244223
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:244224
+Defined in: main.ts:244754
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: main.ts:244224
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:244227
+Defined in: main.ts:244757

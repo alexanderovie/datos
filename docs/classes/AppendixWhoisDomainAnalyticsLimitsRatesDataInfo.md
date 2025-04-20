@@ -6,7 +6,7 @@
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:243132
+Defined in: main.ts:243662
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243132
 
 ### Constructor
 
-> **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data`?): `AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`
+> **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data?`): `AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`
 
-Defined in: main.ts:243137
+Defined in: main.ts:243667
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243137
 
 > `optional` **overview**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243133
+Defined in: main.ts:243663
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:243133
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243146
+Defined in: main.ts:243676
 
 #### Parameters
 
@@ -68,9 +68,9 @@ Defined in: main.ts:243146
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243163
+Defined in: main.ts:243693
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243163
 
 > `static` **fromJS**(`data`): `AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`
 
-Defined in: main.ts:243156
+Defined in: main.ts:243686
 
 #### Parameters
 

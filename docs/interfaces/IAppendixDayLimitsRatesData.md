@@ -6,7 +6,7 @@
 
 # Interface: IAppendixDayLimitsRatesData
 
-Defined in: main.ts:244564
+Defined in: main.ts:245094
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:244564
 
 > `optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](../classes/AppendixAppDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244585
+Defined in: main.ts:245115
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:244585
 
 > `optional` **appendix**: [`AppendixAppendixDaysRatesDataInfo`](../classes/AppendixAppendixDaysRatesDataInfo.md)
 
-Defined in: main.ts:244571
+Defined in: main.ts:245101
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:244571
 
 > `optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](../classes/AppendixBacklinksLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244583
+Defined in: main.ts:245113
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:244583
 
 > `optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244581
+Defined in: main.ts:245111
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:244581
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](../classes/AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244587
+Defined in: main.ts:245117
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:244587
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](../classes/AppendixContentGenerationLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244589
+Defined in: main.ts:245119
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:244589
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](../classes/AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244573
+Defined in: main.ts:245103
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:244573
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244575
+Defined in: main.ts:245105
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:244575
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDatasRatesDataInfo`](../classes/AppendixKeywordsDatasRatesDataInfo.md)
 
-Defined in: main.ts:244569
+Defined in: main.ts:245099
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:244569
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](../classes/AppendixMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244577
+Defined in: main.ts:245107
 
 ***
 
@@ -98,15 +98,15 @@ Defined in: main.ts:244577
 
 > `optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](../classes/AppendixOnPageLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244579
+Defined in: main.ts:245109
 
 ***
 
 ### serp?
 
-> `optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **serp**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244565
+Defined in: main.ts:245095
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: main.ts:244565
 
 > `optional` **total**: `number`
 
-Defined in: main.ts:244567
+Defined in: main.ts:245097
 
 total amount of money deposited to your account
 
@@ -124,7 +124,7 @@ total amount of money deposited to your account
 
 > `optional` **total\_app\_data**: `number`
 
-Defined in: main.ts:244586
+Defined in: main.ts:245116
 
 ***
 
@@ -132,7 +132,7 @@ Defined in: main.ts:244586
 
 > `optional` **total\_appendix**: `number`
 
-Defined in: main.ts:244572
+Defined in: main.ts:245102
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: main.ts:244572
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:244584
+Defined in: main.ts:245114
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: main.ts:244584
 
 > `optional` **total\_business\_data**: `number`
 
-Defined in: main.ts:244582
+Defined in: main.ts:245112
 
 ***
 
@@ -156,7 +156,7 @@ Defined in: main.ts:244582
 
 > `optional` **total\_content\_analysis**: `number`
 
-Defined in: main.ts:244588
+Defined in: main.ts:245118
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: main.ts:244588
 
 > `optional` **total\_content\_generation**: `number`
 
-Defined in: main.ts:244590
+Defined in: main.ts:245120
 
 ***
 
@@ -172,7 +172,7 @@ Defined in: main.ts:244590
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
-Defined in: main.ts:244574
+Defined in: main.ts:245104
 
 ***
 
@@ -180,7 +180,7 @@ Defined in: main.ts:244574
 
 > `optional` **total\_domain\_analytics**: `number`
 
-Defined in: main.ts:244576
+Defined in: main.ts:245106
 
 ***
 
@@ -188,7 +188,7 @@ Defined in: main.ts:244576
 
 > `optional` **total\_keywords\_data**: `number`
 
-Defined in: main.ts:244570
+Defined in: main.ts:245100
 
 ***
 
@@ -196,7 +196,7 @@ Defined in: main.ts:244570
 
 > `optional` **total\_merchant**: `number`
 
-Defined in: main.ts:244578
+Defined in: main.ts:245108
 
 ***
 
@@ -204,7 +204,7 @@ Defined in: main.ts:244578
 
 > `optional` **total\_on\_page**: `number`
 
-Defined in: main.ts:244580
+Defined in: main.ts:245110
 
 ***
 
@@ -212,7 +212,7 @@ Defined in: main.ts:244580
 
 > `optional` **total\_reviews**: `number`
 
-Defined in: main.ts:244591
+Defined in: main.ts:245121
 
 ***
 
@@ -220,7 +220,7 @@ Defined in: main.ts:244591
 
 > `optional` **total\_serp**: `number`
 
-Defined in: main.ts:244568
+Defined in: main.ts:245098
 
 ***
 
@@ -228,7 +228,7 @@ Defined in: main.ts:244568
 
 > `optional` **total\_social**: `number`
 
-Defined in: main.ts:244592
+Defined in: main.ts:245122
 
 ***
 
@@ -236,4 +236,4 @@ Defined in: main.ts:244592
 
 > `optional` **total\_traffic\_analytics**: `number`
 
-Defined in: main.ts:244593
+Defined in: main.ts:245123

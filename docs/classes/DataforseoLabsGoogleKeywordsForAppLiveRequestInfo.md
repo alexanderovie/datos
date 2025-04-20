@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
-Defined in: main.ts:133140
+Defined in: main.ts:133262
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:133140
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForAppLiveRequestInfo**(`data`?): `DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`
+> **new DataforseoLabsGoogleKeywordsForAppLiveRequestInfo**(`data?`): `DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`
 
-Defined in: main.ts:133232
+Defined in: main.ts:133354
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133232
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:133148
+Defined in: main.ts:133270
 
 id of the apps
 required field
@@ -60,7 +60,7 @@ the id is org.telegram.messenger
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:133195
+Defined in: main.ts:133317
 
 array of results filtering parameters
 optional field
@@ -83,7 +83,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:133184
+Defined in: main.ts:133306
 
 language code
 required field if you don’t specify language_name
@@ -104,7 +104,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:133175
+Defined in: main.ts:133297
 
 full name of the language
 required field if you don’t specify language_code
@@ -125,7 +125,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:133217
+Defined in: main.ts:133339
 
 the maximum number of returned keywords
 optional field
@@ -142,7 +142,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:133166
+Defined in: main.ts:133288
 
 location code
 required field if you don’t specify location_name
@@ -163,7 +163,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:133157
+Defined in: main.ts:133279
 
 full name of the location
 required field if you don’t specify location_code
@@ -184,7 +184,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:133222
+Defined in: main.ts:133344
 
 offset in the results array of returned keywords
 optional field
@@ -201,7 +201,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:133212
+Defined in: main.ts:133334
 
 results sorting rules
 optional field
@@ -230,7 +230,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:133228
+Defined in: main.ts:133350
 
 user-defined task identifier
 optional field
@@ -246,9 +246,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:133241
+Defined in: main.ts:133363
 
 #### Parameters
 
@@ -264,9 +264,9 @@ Defined in: main.ts:133241
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:133275
+Defined in: main.ts:133397
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:133275
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`
 
-Defined in: main.ts:133268
+Defined in: main.ts:133390
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
-Defined in: main.ts:149872
+Defined in: main.ts:149996
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:149872
 
 ### Constructor
 
-> **new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo**(`data`?): `KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`
+> **new KeywordsDataDataforseoTrendsMergedDataLiveResultInfo**(`data?`): `KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`
 
-Defined in: main.ts:149895
+Defined in: main.ts:150019
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149895
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:149887
+Defined in: main.ts:150011
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:149891
+Defined in: main.ts:150015
 
 contains keyword popularity and related data
 
@@ -71,7 +71,7 @@ contains keyword popularity and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:149889
+Defined in: main.ts:150013
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:149874
+Defined in: main.ts:149998
 
 keywords in a POST array
 
@@ -99,7 +99,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:149882
+Defined in: main.ts:150006
 
 language code in a POST array
 if there is no data, then the value is null
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:149879
+Defined in: main.ts:150003
 
 location code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:149876
+Defined in: main.ts:150000
 
 type of element
 
@@ -141,9 +141,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:149904
+Defined in: main.ts:150028
 
 #### Parameters
 
@@ -159,9 +159,9 @@ Defined in: main.ts:149904
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:149935
+Defined in: main.ts:150059
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:149935
 
 > `static` **fromJS**(`data`): `KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`
 
-Defined in: main.ts:149928
+Defined in: main.ts:150052
 
 #### Parameters
 

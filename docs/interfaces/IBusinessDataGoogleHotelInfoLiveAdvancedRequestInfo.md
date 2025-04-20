@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:232187
+Defined in: main.ts:232717
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:232187
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:232259
+Defined in: main.ts:232789
 
 number of adults
 optional field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:232239
+Defined in: main.ts:232769
 
 check-in date
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:232248
+Defined in: main.ts:232778
 
 check-out date
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:232267
+Defined in: main.ts:232797
 
 number and age of children
 optional field
@@ -81,7 +81,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:232253
+Defined in: main.ts:232783
 
 currency
 optional field
@@ -94,7 +94,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:232194
+Defined in: main.ts:232724
 
 unique hotel identifier
 required field
@@ -109,7 +109,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:232231
+Defined in: main.ts:232761
 
 search engine language code
 required field if you don’t specify language_name
@@ -124,7 +124,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:232224
+Defined in: main.ts:232754
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:232208
+Defined in: main.ts:232738
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -154,7 +154,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:232217
+Defined in: main.ts:232747
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -171,7 +171,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:232201
+Defined in: main.ts:232731
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -186,7 +186,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:232273
+Defined in: main.ts:232803
 
 user-defined task identifier
 optional field

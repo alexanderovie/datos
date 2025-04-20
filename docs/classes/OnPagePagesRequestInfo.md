@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesRequestInfo
 
-Defined in: main.ts:177780
+Defined in: main.ts:178190
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:177780
 
 ### Constructor
 
-> **new OnPagePagesRequestInfo**(`data`?): `OnPagePagesRequestInfo`
+> **new OnPagePagesRequestInfo**(`data?`): `OnPagePagesRequestInfo`
 
-Defined in: main.ts:177831
+Defined in: main.ts:178241
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177831
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177807
+Defined in: main.ts:178217
 
 array of results filtering parameters
 optional field
@@ -63,7 +63,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:177786
+Defined in: main.ts:178196
 
 ID of the task
 required field
@@ -81,7 +81,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177791
+Defined in: main.ts:178201
 
 the maximum number of returned pages
 optional field
@@ -98,7 +98,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177796
+Defined in: main.ts:178206
 
 offset in the results array of returned pages
 optional field
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177821
+Defined in: main.ts:178231
 
 results sorting rules
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177827
+Defined in: main.ts:178237
 
 user-defined task identifier
 optional field
@@ -157,9 +157,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:177840
+Defined in: main.ts:178250
 
 #### Parameters
 
@@ -175,9 +175,9 @@ Defined in: main.ts:177840
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:177870
+Defined in: main.ts:178280
 
 #### Parameters
 
@@ -195,7 +195,7 @@ Defined in: main.ts:177870
 
 > `static` **fromJS**(`data`): `OnPagePagesRequestInfo`
 
-Defined in: main.ts:177863
+Defined in: main.ts:178273
 
 #### Parameters
 

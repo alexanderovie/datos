@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
-Defined in: main.ts:107380
+Defined in: main.ts:107502
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:107380
 
 > `optional` **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](../classes/DataforseoLabsGoogleSearchIntentLiveItem.md)[]
 
-Defined in: main.ts:107387
+Defined in: main.ts:107509
 
 array of items with relevant traffic estimation data
 
@@ -28,7 +28,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:107385
+Defined in: main.ts:107507
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107383
+Defined in: main.ts:107505
 
 language code in a POST array
 if there is no data, then the value is null

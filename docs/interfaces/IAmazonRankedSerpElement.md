@@ -6,7 +6,7 @@
 
 # Interface: IAmazonRankedSerpElement
 
-Defined in: main.ts:125128
+Defined in: main.ts:125250
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125128
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:125136
+Defined in: main.ts:125258
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:125148
+Defined in: main.ts:125270
 
 date and time when SERP data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:125153
+Defined in: main.ts:125275
 
 previous to the most recent update of SERP data
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -55,7 +55,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:125143
+Defined in: main.ts:125265
 
 total number of results in Amazon SERP
 
@@ -65,7 +65,7 @@ total number of results in Amazon SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125130
+Defined in: main.ts:125252
 
 search engine type
 
@@ -75,7 +75,7 @@ search engine type
 
 > `optional` **serp\_item**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)
 
-Defined in: main.ts:125133
+Defined in: main.ts:125255
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -86,7 +86,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:125141
+Defined in: main.ts:125263
 
 direct URL to Amazon results
 contains types of all search results (items) found in the returned SERP;

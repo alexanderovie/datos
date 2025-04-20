@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
 
-Defined in: main.ts:102443
+Defined in: main.ts:102555
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:102443
 
 > `optional` **app\_competitors**: `object`
 
-Defined in: main.ts:102463
+Defined in: main.ts:102575
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:102463
 
 > `optional` **app\_intersection**: `object`
 
-Defined in: main.ts:102462
+Defined in: main.ts:102574
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:102462
 
 > `optional` **categories\_for\_domain**: `object`
 
-Defined in: main.ts:102452
+Defined in: main.ts:102564
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:102452
 
 > `optional` **competitors\_domain**: `object`
 
-Defined in: main.ts:102451
+Defined in: main.ts:102563
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:102451
 
 > `optional` **database\_rows\_count**: `object`
 
-Defined in: main.ts:102465
+Defined in: main.ts:102577
 
 #### Index Signature
 
@@ -78,7 +78,7 @@ Defined in: main.ts:102465
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:102454
+Defined in: main.ts:102566
 
 #### Index Signature
 
@@ -90,7 +90,7 @@ Defined in: main.ts:102454
 
 > `optional` **domain\_metrics\_by\_categories**: `object`
 
-Defined in: main.ts:102458
+Defined in: main.ts:102570
 
 #### Index Signature
 
@@ -102,7 +102,7 @@ Defined in: main.ts:102458
 
 > `optional` **domain\_whois\_overview**: `object`
 
-Defined in: main.ts:102456
+Defined in: main.ts:102568
 
 #### Index Signature
 
@@ -114,7 +114,7 @@ Defined in: main.ts:102456
 
 > `optional` **keyword\_ideas**: `object`
 
-Defined in: main.ts:102447
+Defined in: main.ts:102559
 
 #### Index Signature
 
@@ -126,7 +126,7 @@ Defined in: main.ts:102447
 
 > `optional` **keyword\_suggestions**: `object`
 
-Defined in: main.ts:102445
+Defined in: main.ts:102557
 
 #### Index Signature
 
@@ -138,7 +138,7 @@ Defined in: main.ts:102445
 
 > `optional` **keywords\_for\_app**: `object`
 
-Defined in: main.ts:102464
+Defined in: main.ts:102576
 
 #### Index Signature
 
@@ -150,7 +150,7 @@ Defined in: main.ts:102464
 
 > `optional` **keywords\_for\_categories**: `object`
 
-Defined in: main.ts:102453
+Defined in: main.ts:102565
 
 #### Index Signature
 
@@ -162,7 +162,7 @@ Defined in: main.ts:102453
 
 > `optional` **keywords\_for\_site**: `object`
 
-Defined in: main.ts:102459
+Defined in: main.ts:102571
 
 #### Index Signature
 
@@ -174,7 +174,7 @@ Defined in: main.ts:102459
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:102455
+Defined in: main.ts:102567
 
 #### Index Signature
 
@@ -186,7 +186,7 @@ Defined in: main.ts:102455
 
 > `optional` **product\_competitors**: `object`
 
-Defined in: main.ts:102460
+Defined in: main.ts:102572
 
 #### Index Signature
 
@@ -198,7 +198,7 @@ Defined in: main.ts:102460
 
 > `optional` **product\_keyword\_intersections**: `object`
 
-Defined in: main.ts:102461
+Defined in: main.ts:102573
 
 #### Index Signature
 
@@ -210,7 +210,7 @@ Defined in: main.ts:102461
 
 > `optional` **ranked\_keywords**: `object`
 
-Defined in: main.ts:102446
+Defined in: main.ts:102558
 
 #### Index Signature
 
@@ -222,7 +222,7 @@ Defined in: main.ts:102446
 
 > `optional` **related\_keywords**: `object`
 
-Defined in: main.ts:102444
+Defined in: main.ts:102556
 
 #### Index Signature
 
@@ -234,7 +234,7 @@ Defined in: main.ts:102444
 
 > `optional` **relevant\_pages**: `object`
 
-Defined in: main.ts:102449
+Defined in: main.ts:102561
 
 #### Index Signature
 
@@ -246,7 +246,7 @@ Defined in: main.ts:102449
 
 > `optional` **serp\_competitors**: `object`
 
-Defined in: main.ts:102448
+Defined in: main.ts:102560
 
 #### Index Signature
 
@@ -258,7 +258,7 @@ Defined in: main.ts:102448
 
 > `optional` **subdomains**: `object`
 
-Defined in: main.ts:102450
+Defined in: main.ts:102562
 
 #### Index Signature
 
@@ -270,7 +270,7 @@ Defined in: main.ts:102450
 
 > `optional` **top\_searches**: `object`
 
-Defined in: main.ts:102457
+Defined in: main.ts:102569
 
 #### Index Signature
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
-Defined in: main.ts:143856
+Defined in: main.ts:143978
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:143856
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo**(`data`?): `KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`
+> **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo**(`data?`): `KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`
 
-Defined in: main.ts:143960
+Defined in: main.ts:144082
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:143960
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:143874
+Defined in: main.ts:143996
 
 the maximum custom bid
 required field
@@ -58,7 +58,7 @@ learn more in this help center article
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:143930
+Defined in: main.ts:144052
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -80,7 +80,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:143945
+Defined in: main.ts:144067
 
 forecasting date interval
 optional field
@@ -98,7 +98,7 @@ default value: next_month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:143939
+Defined in: main.ts:144061
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -119,7 +119,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:143868
+Defined in: main.ts:143990
 
 keywords
 required field
@@ -143,7 +143,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:143920
+Defined in: main.ts:144042
 
 search engine language code
 optional field
@@ -161,7 +161,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:143914
+Defined in: main.ts:144036
 
 full name of search engine language
 optional field
@@ -179,7 +179,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:143899
+Defined in: main.ts:144021
 
 search engine location code
 optional field
@@ -199,7 +199,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:143908
+Defined in: main.ts:144030
 
 GPS coordinates of a location
 optional field
@@ -220,7 +220,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:143891
+Defined in: main.ts:144013
 
 full name of search engine location
 optional field
@@ -240,7 +240,7 @@ London,England,United Kingdom
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:143878
+Defined in: main.ts:144000
 
 keywords match-type
 required field
@@ -256,7 +256,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:143883
+Defined in: main.ts:144005
 
 include Google search partners
 optional field
@@ -273,7 +273,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:143950
+Defined in: main.ts:144072
 
 results sorting parameters
 optional field
@@ -290,7 +290,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:143956
+Defined in: main.ts:144078
 
 user-defined task identifier
 optional field
@@ -306,9 +306,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:143969
+Defined in: main.ts:144091
 
 #### Parameters
 
@@ -324,9 +324,9 @@ Defined in: main.ts:143969
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:144003
+Defined in: main.ts:144125
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:144003
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`
 
-Defined in: main.ts:143996
+Defined in: main.ts:144118
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingItem
 
-Defined in: main.ts:185307
+Defined in: main.ts:185717
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:185307
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:185313
+Defined in: main.ts:185723
 
 date and time when the content was fethced
 example:
@@ -30,7 +30,7 @@ example:
 
 > `optional` **page\_content**: [`PageContentInfo`](../classes/PageContentInfo.md)
 
-Defined in: main.ts:185317
+Defined in: main.ts:185727
 
 parsed content of the page
 
@@ -40,7 +40,7 @@ parsed content of the page
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:185315
+Defined in: main.ts:185725
 
 status code of the page
 
@@ -50,6 +50,6 @@ status code of the page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:185309
+Defined in: main.ts:185719
 
 type of element

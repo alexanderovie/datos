@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordOverviewLiveResultInfo
 
-Defined in: main.ts:123452
+Defined in: main.ts:123574
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:123452
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordOverviewLiveResultInfo**(`data`?): `DataforseoLabsGoogleKeywordOverviewLiveResultInfo`
+> **new DataforseoLabsGoogleKeywordOverviewLiveResultInfo**(`data?`): `DataforseoLabsGoogleKeywordOverviewLiveResultInfo`
 
-Defined in: main.ts:123466
+Defined in: main.ts:123588
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123466
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordOverviewLiveItem`](DataforseoLabsGoogleKeywordOverviewLiveItem.md)[]
 
-Defined in: main.ts:123462
+Defined in: main.ts:123584
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123460
+Defined in: main.ts:123582
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123458
+Defined in: main.ts:123580
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123456
+Defined in: main.ts:123578
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123454
+Defined in: main.ts:123576
 
 search engine type
 
@@ -108,9 +108,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:123475
+Defined in: main.ts:123597
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:123475
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:123500
+Defined in: main.ts:123622
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:123500
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordOverviewLiveResultInfo`
 
-Defined in: main.ts:123493
+Defined in: main.ts:123615
 
 #### Parameters
 

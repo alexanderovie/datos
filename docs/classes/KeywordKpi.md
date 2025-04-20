@@ -6,7 +6,7 @@
 
 # Class: KeywordKpi
 
-Defined in: main.ts:157028
+Defined in: main.ts:157152
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:157028
 
 ### Constructor
 
-> **new KeywordKpi**(`data`?): `KeywordKpi`
+> **new KeywordKpi**(`data?`): `KeywordKpi`
 
-Defined in: main.ts:157041
+Defined in: main.ts:157165
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157041
 
 > `optional` **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:157031
+Defined in: main.ts:157155
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
@@ -55,7 +55,7 @@ if there is no data, then the value is null
 
 > `optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:157034
+Defined in: main.ts:157158
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 > `optional` **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
-Defined in: main.ts:157037
+Defined in: main.ts:157161
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
@@ -83,9 +83,9 @@ if there is no data, then the value is null
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:157050
+Defined in: main.ts:157174
 
 #### Parameters
 
@@ -101,9 +101,9 @@ Defined in: main.ts:157050
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:157081
+Defined in: main.ts:157205
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:157081
 
 > `static` **fromJS**(`data`): `KeywordKpi`
 
-Defined in: main.ts:157074
+Defined in: main.ts:157198
 
 #### Parameters
 

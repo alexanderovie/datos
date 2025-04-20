@@ -6,7 +6,7 @@
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119977
+Defined in: main.ts:120099
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:119977
 
 ### Constructor
 
-> **new LocalServicesDataforseoLabsSerpElementItem**(`data`?): `LocalServicesDataforseoLabsSerpElementItem`
+> **new LocalServicesDataforseoLabsSerpElementItem**(`data?`): `LocalServicesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119990
+Defined in: main.ts:120112
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119990
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:119983
+Defined in: main.ts:120105
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:119986
+Defined in: main.ts:120108
 
 additional items present in the element
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -109,7 +109,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119979
+Defined in: main.ts:120101
 
 title of the result in SERP
 
@@ -161,7 +161,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:119981
+Defined in: main.ts:120103
 
 relevant URL
 
@@ -193,7 +193,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -209,9 +209,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119995
+Defined in: main.ts:120117
 
 #### Parameters
 
@@ -231,9 +231,9 @@ Defined in: main.ts:119995
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:120020
+Defined in: main.ts:120142
 
 #### Parameters
 
@@ -255,7 +255,7 @@ Defined in: main.ts:120020
 
 > `static` **fromJS**(`data`): `LocalServicesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:120013
+Defined in: main.ts:120135
 
 #### Parameters
 

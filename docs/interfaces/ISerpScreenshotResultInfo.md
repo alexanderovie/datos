@@ -6,7 +6,7 @@
 
 # Interface: ISerpScreenshotResultInfo
 
-Defined in: main.ts:28126
+Defined in: main.ts:28134
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:28126
 
 > `optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
 
-Defined in: main.ts:28130
+Defined in: main.ts:28138
 
 items array
 
@@ -28,6 +28,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:28128
+Defined in: main.ts:28136
 
 number of items in the results array

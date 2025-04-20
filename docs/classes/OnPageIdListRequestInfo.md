@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListRequestInfo
 
-Defined in: main.ts:174912
+Defined in: main.ts:175322
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:174912
 
 ### Constructor
 
-> **new OnPageIdListRequestInfo**(`data`?): `OnPageIdListRequestInfo`
+> **new OnPageIdListRequestInfo**(`data?`): `OnPageIdListRequestInfo`
 
-Defined in: main.ts:174950
+Defined in: main.ts:175360
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174950
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:174920
+Defined in: main.ts:175330
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:174927
+Defined in: main.ts:175337
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:174946
+Defined in: main.ts:175356
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:174932
+Defined in: main.ts:175342
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:174937
+Defined in: main.ts:175347
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:174942
+Defined in: main.ts:175352
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:174959
+Defined in: main.ts:175369
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:174959
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:174981
+Defined in: main.ts:175391
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:174981
 
 > `static` **fromJS**(`data`): `OnPageIdListRequestInfo`
 
-Defined in: main.ts:174974
+Defined in: main.ts:175384
 
 #### Parameters
 

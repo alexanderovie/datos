@@ -6,7 +6,7 @@
 
 # Class: LocalServicesElement
 
-Defined in: main.ts:38477
+Defined in: main.ts:38485
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:38477
 
 ### Constructor
 
-> **new LocalServicesElement**(`data`?): `LocalServicesElement`
+> **new LocalServicesElement**(`data?`): `LocalServicesElement`
 
-Defined in: main.ts:38496
+Defined in: main.ts:38504
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38496
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:38487
+Defined in: main.ts:38495
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38485
+Defined in: main.ts:38493
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:38492
+Defined in: main.ts:38500
 
 URL of the image featured in the element
 
@@ -82,7 +82,7 @@ URL of the image featured in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:38490
+Defined in: main.ts:38498
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38481
+Defined in: main.ts:38489
 
 title of a given link element
 
@@ -111,7 +111,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38479
+Defined in: main.ts:38487
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38483
+Defined in: main.ts:38491
 
 URL
 
@@ -137,9 +137,9 @@ URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38505
+Defined in: main.ts:38513
 
 #### Parameters
 
@@ -155,9 +155,9 @@ Defined in: main.ts:38505
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38528
+Defined in: main.ts:38536
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:38528
 
 > `static` **fromJS**(`data`): `LocalServicesElement`
 
-Defined in: main.ts:38521
+Defined in: main.ts:38529
 
 #### Parameters
 

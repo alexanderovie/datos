@@ -6,7 +6,7 @@
 
 # Interface: IHistory
 
-Defined in: main.ts:122837
+Defined in: main.ts:122959
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122837
 
 > `optional` **keyword\_info**: [`KeywordInfo`](../classes/KeywordInfo.md)
 
-Defined in: main.ts:122843
+Defined in: main.ts:122965
 
 historical data for the keyword
 
@@ -28,7 +28,7 @@ historical data for the keyword
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:122841
+Defined in: main.ts:122963
 
 month
 
@@ -38,6 +38,6 @@ month
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:122839
+Defined in: main.ts:122961
 
 year

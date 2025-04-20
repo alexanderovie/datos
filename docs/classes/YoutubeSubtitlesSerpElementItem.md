@@ -6,7 +6,7 @@
 
 # Class: YoutubeSubtitlesSerpElementItem
 
-Defined in: main.ts:75060
+Defined in: main.ts:75172
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:75060
 
 ### Constructor
 
-> **new YoutubeSubtitlesSerpElementItem**(`data`?): `YoutubeSubtitlesSerpElementItem`
+> **new YoutubeSubtitlesSerpElementItem**(`data?`): `YoutubeSubtitlesSerpElementItem`
 
-Defined in: main.ts:75072
+Defined in: main.ts:75184
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:75072
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:73336
+Defined in: main.ts:73448
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:73336
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:75068
+Defined in: main.ts:75180
 
 duration of subtitles in seconds
 
@@ -74,7 +74,7 @@ duration of subtitles in seconds
 
 > `optional` **end\_time**: `number`
 
-Defined in: main.ts:75066
+Defined in: main.ts:75178
 
 the second subtitled text ends
 
@@ -88,7 +88,7 @@ the second subtitled text ends
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:73334
+Defined in: main.ts:73446
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:73331
+Defined in: main.ts:73443
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **start\_time**: `number`
 
-Defined in: main.ts:75064
+Defined in: main.ts:75176
 
 the second subtitled text starts
 
@@ -141,7 +141,7 @@ the second subtitled text starts
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:75062
+Defined in: main.ts:75174
 
 text translated in subtitles
 
@@ -155,7 +155,7 @@ text translated in subtitles
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:73327
+Defined in: main.ts:73439
 
 type of element
 
@@ -171,9 +171,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:75077
+Defined in: main.ts:75189
 
 #### Parameters
 
@@ -193,9 +193,9 @@ Defined in: main.ts:75077
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:75098
+Defined in: main.ts:75210
 
 #### Parameters
 
@@ -217,7 +217,7 @@ Defined in: main.ts:75098
 
 > `static` **fromJS**(`data`): `YoutubeSubtitlesSerpElementItem`
 
-Defined in: main.ts:75091
+Defined in: main.ts:75203
 
 #### Parameters
 

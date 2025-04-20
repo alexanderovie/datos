@@ -6,7 +6,7 @@
 
 # Class: PositiveConnotationDistribution
 
-Defined in: main.ts:190814
+Defined in: main.ts:191284
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:190814
 
 ### Constructor
 
-> **new PositiveConnotationDistribution**(`data`?): `PositiveConnotationDistribution`
+> **new PositiveConnotationDistribution**(`data?`): `PositiveConnotationDistribution`
 
-Defined in: main.ts:190821
+Defined in: main.ts:191291
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190821
 
 > `optional` **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190816
+Defined in: main.ts:191286
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:190816
 
 > `optional` **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190817
+Defined in: main.ts:191287
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:190817
 
 > `optional` **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:190815
+Defined in: main.ts:191285
 
 #### Implementation of
 
@@ -74,9 +74,9 @@ Defined in: main.ts:190815
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:190830
+Defined in: main.ts:191300
 
 #### Parameters
 
@@ -92,9 +92,9 @@ Defined in: main.ts:190830
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:190849
+Defined in: main.ts:191319
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:190849
 
 > `static` **fromJS**(`data`): `PositiveConnotationDistribution`
 
-Defined in: main.ts:190842
+Defined in: main.ts:191312
 
 #### Parameters
 

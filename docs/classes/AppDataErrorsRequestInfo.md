@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsRequestInfo
 
-Defined in: main.ts:209972
+Defined in: main.ts:210502
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:209972
 
 ### Constructor
 
-> **new AppDataErrorsRequestInfo**(`data`?): `AppDataErrorsRequestInfo`
+> **new AppDataErrorsRequestInfo**(`data?`): `AppDataErrorsRequestInfo`
 
-Defined in: main.ts:210006
+Defined in: main.ts:210536
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210006
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:209995
+Defined in: main.ts:210525
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:210002
+Defined in: main.ts:210532
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:209988
+Defined in: main.ts:210518
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:209977
+Defined in: main.ts:210507
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:209982
+Defined in: main.ts:210512
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:210015
+Defined in: main.ts:210545
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:210015
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:210036
+Defined in: main.ts:210566
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:210036
 
 > `static` **fromJS**(`data`): `AppDataErrorsRequestInfo`
 
-Defined in: main.ts:210029
+Defined in: main.ts:210559
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppSerpElementItem
 
-Defined in: main.ts:35019
+Defined in: main.ts:35027
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:35019
 
 ### Constructor
 
-> **new AppSerpElementItem**(`data`?): `AppSerpElementItem`
+> **new AppSerpElementItem**(`data?`): `AppSerpElementItem`
 
-Defined in: main.ts:35035
+Defined in: main.ts:35043
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35035
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`AppElement`](AppElement.md)[]
 
-Defined in: main.ts:35027
+Defined in: main.ts:35035
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35023
+Defined in: main.ts:35031
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35031
+Defined in: main.ts:35039
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35025
+Defined in: main.ts:35033
 
 the XPath of the element
 
@@ -175,9 +175,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:35040
+Defined in: main.ts:35048
 
 #### Parameters
 
@@ -197,9 +197,9 @@ Defined in: main.ts:35040
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:35065
+Defined in: main.ts:35073
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:35065
 
 > `static` **fromJS**(`data`): `AppSerpElementItem`
 
-Defined in: main.ts:35058
+Defined in: main.ts:35066
 
 #### Parameters
 

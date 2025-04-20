@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
-Defined in: main.ts:133646
+Defined in: main.ts:133768
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:133646
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordsForAppLiveResultInfo**(`data`?): `DataforseoLabsGoogleKeywordsForAppLiveResultInfo`
+> **new DataforseoLabsGoogleKeywordsForAppLiveResultInfo**(`data?`): `DataforseoLabsGoogleKeywordsForAppLiveResultInfo`
 
-Defined in: main.ts:133664
+Defined in: main.ts:133786
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133664
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:133650
+Defined in: main.ts:133772
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)[]
 
-Defined in: main.ts:133660
+Defined in: main.ts:133782
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -68,7 +68,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:133658
+Defined in: main.ts:133780
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:133654
+Defined in: main.ts:133776
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:133652
+Defined in: main.ts:133774
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:133648
+Defined in: main.ts:133770
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:133656
+Defined in: main.ts:133778
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:133673
+Defined in: main.ts:133795
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:133673
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:133700
+Defined in: main.ts:133822
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:133700
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordsForAppLiveResultInfo`
 
-Defined in: main.ts:133693
+Defined in: main.ts:133815
 
 #### Parameters
 

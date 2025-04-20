@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:242588
+Defined in: main.ts:243118
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242588
 
 ### Constructor
 
-> **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data`?): `AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
+> **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data?`): `AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242597
+Defined in: main.ts:243127
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242597
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242593
+Defined in: main.ts:243123
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242593
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242591
+Defined in: main.ts:243121
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:242591
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242592
+Defined in: main.ts:243122
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:242592
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242590
+Defined in: main.ts:243120
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:242590
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:242589
+Defined in: main.ts:243119
 
 #### Implementation of
 
@@ -98,9 +98,9 @@ Defined in: main.ts:242589
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242606
+Defined in: main.ts:243136
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:242606
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242627
+Defined in: main.ts:243157
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:242627
 
 > `static` **fromJS**(`data`): `AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242620
+Defined in: main.ts:243150
 
 #### Parameters
 

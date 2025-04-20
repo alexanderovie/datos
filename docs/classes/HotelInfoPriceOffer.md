@@ -6,7 +6,7 @@
 
 # Class: HotelInfoPriceOffer
 
-Defined in: main.ts:228751
+Defined in: main.ts:229281
 
 featured price offers
 
@@ -22,9 +22,9 @@ featured price offers
 
 ### Constructor
 
-> **new HotelInfoPriceOffer**(`data`?): `HotelInfoPriceOffer`
+> **new HotelInfoPriceOffer**(`data?`): `HotelInfoPriceOffer`
 
-Defined in: main.ts:228777
+Defined in: main.ts:229307
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:228777
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:228760
+Defined in: main.ts:229290
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -57,7 +57,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **free\_cancellation\_until**: `string`
 
-Defined in: main.ts:228773
+Defined in: main.ts:229303
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -73,7 +73,7 @@ equals null if free cancellation is not available for the selected dates
 
 > `optional` **max\_visitors**: `number`
 
-Defined in: main.ts:228766
+Defined in: main.ts:229296
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
@@ -88,7 +88,7 @@ the maximum number of visitors for which the price offer is valid
 
 > `optional` **offer\_images**: `string`[]
 
-Defined in: main.ts:228769
+Defined in: main.ts:229299
 
 price offer images
 URLs of the images featured in the price offer
@@ -103,7 +103,7 @@ URLs of the images featured in the price offer
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:228757
+Defined in: main.ts:229287
 
 price per night
 
@@ -117,7 +117,7 @@ price per night
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:228755
+Defined in: main.ts:229285
 
 title of the hotel
 
@@ -131,7 +131,7 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:228753
+Defined in: main.ts:229283
 
 type of element
 
@@ -145,7 +145,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:228763
+Defined in: main.ts:229293
 
 url of the price offer
 URL to the page of the website where price offer appears
@@ -158,9 +158,9 @@ URL to the page of the website where price offer appears
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:228786
+Defined in: main.ts:229316
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:228786
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:228814
+Defined in: main.ts:229344
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:228814
 
 > `static` **fromJS**(`data`): `HotelInfoPriceOffer`
 
-Defined in: main.ts:228807
+Defined in: main.ts:229337
 
 #### Parameters
 

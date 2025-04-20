@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalKeywordDataLiveItem
 
-Defined in: main.ts:122848
+Defined in: main.ts:122970
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122848
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalKeywordDataLiveItem**(`data`?): `DataforseoLabsGoogleHistoricalKeywordDataLiveItem`
+> **new DataforseoLabsGoogleHistoricalKeywordDataLiveItem**(`data?`): `DataforseoLabsGoogleHistoricalKeywordDataLiveItem`
 
-Defined in: main.ts:122864
+Defined in: main.ts:122986
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122864
 
 > `optional` **history**: [`History`](History.md)[]
 
-Defined in: main.ts:122860
+Defined in: main.ts:122982
 
 array of objects with historical data for the keyword
 
@@ -54,7 +54,7 @@ array of objects with historical data for the keyword
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:122853
+Defined in: main.ts:122975
 
 keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -69,7 +69,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122858
+Defined in: main.ts:122980
 
 language code in a POST array
 
@@ -83,7 +83,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122856
+Defined in: main.ts:122978
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122850
+Defined in: main.ts:122972
 
 search engine type
 
@@ -110,9 +110,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122873
+Defined in: main.ts:122995
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:122873
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122898
+Defined in: main.ts:123020
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:122898
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalKeywordDataLiveItem`
 
-Defined in: main.ts:122891
+Defined in: main.ts:123013
 
 #### Parameters
 

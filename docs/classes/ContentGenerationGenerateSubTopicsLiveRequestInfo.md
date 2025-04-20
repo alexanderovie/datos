@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
 
-Defined in: main.ts:193808
+Defined in: main.ts:194338
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:193808
 
 ### Constructor
 
-> **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data`?): `ContentGenerationGenerateSubTopicsLiveRequestInfo`
+> **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data?`): `ContentGenerationGenerateSubTopicsLiveRequestInfo`
 
-Defined in: main.ts:193830
+Defined in: main.ts:194360
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:193830
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:193820
+Defined in: main.ts:194350
 
 creativity of content generation
 optional field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:193826
+Defined in: main.ts:194356
 
 user-defined task identifier
 optional field
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topic**: `string`
 
-Defined in: main.ts:193813
+Defined in: main.ts:194343
 
 main topic of the content to generate
 required field
@@ -92,9 +92,9 @@ can contain from 1 to 50 tokens
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:193839
+Defined in: main.ts:194369
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:193839
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:193858
+Defined in: main.ts:194388
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:193858
 
 > `static` **fromJS**(`data`): `ContentGenerationGenerateSubTopicsLiveRequestInfo`
 
-Defined in: main.ts:193851
+Defined in: main.ts:194381
 
 #### Parameters
 

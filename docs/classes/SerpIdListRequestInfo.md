@@ -6,7 +6,7 @@
 
 # Class: SerpIdListRequestInfo
 
-Defined in: main.ts:27227
+Defined in: main.ts:27235
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27227
 
 ### Constructor
 
-> **new SerpIdListRequestInfo**(`data`?): `SerpIdListRequestInfo`
+> **new SerpIdListRequestInfo**(`data?`): `SerpIdListRequestInfo`
 
-Defined in: main.ts:27265
+Defined in: main.ts:27273
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27265
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:27235
+Defined in: main.ts:27243
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:27242
+Defined in: main.ts:27250
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:27261
+Defined in: main.ts:27269
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:27247
+Defined in: main.ts:27255
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:27252
+Defined in: main.ts:27260
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:27257
+Defined in: main.ts:27265
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27274
+Defined in: main.ts:27282
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:27274
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27296
+Defined in: main.ts:27304
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:27296
 
 > `static` **fromJS**(`data`): `SerpIdListRequestInfo`
 
-Defined in: main.ts:27289
+Defined in: main.ts:27297
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTaskPostRequestInfo
 
-Defined in: main.ts:57996
+Defined in: main.ts:58110
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:57996
 
 ### Constructor
 
-> **new SerpGoogleAutocompleteTaskPostRequestInfo**(`data`?): `SerpGoogleAutocompleteTaskPostRequestInfo`
+> **new SerpGoogleAutocompleteTaskPostRequestInfo**(`data?`): `SerpGoogleAutocompleteTaskPostRequestInfo`
 
-Defined in: main.ts:58105
+Defined in: main.ts:58219
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58105
 
 > `optional` **client**: `string`
 
-Defined in: main.ts:58067
+Defined in: main.ts:58181
 
 search client for autocomplete
 optional field
@@ -69,7 +69,7 @@ products-cc — used in google shopping search
 
 > `optional` **cursor\_pointer**: `number`
 
-Defined in: main.ts:58050
+Defined in: main.ts:58164
 
 search bar cursor pointer
 optional field
@@ -92,7 +92,7 @@ which que|ry is s – "cursor_pointer": 9
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:58004
+Defined in: main.ts:58118
 
 keyword
 required field
@@ -112,7 +112,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:58039
+Defined in: main.ts:58153
 
 search engine language code
 required field if you don’t specify language_name
@@ -131,7 +131,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:58032
+Defined in: main.ts:58146
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -150,7 +150,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:58025
+Defined in: main.ts:58139
 
 search engine location code
 required field if you don’t specify location_name;
@@ -168,7 +168,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:58019
+Defined in: main.ts:58133
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -187,7 +187,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:58101
+Defined in: main.ts:58215
 
 notification URL of a completed task
 optional field
@@ -210,7 +210,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:58090
+Defined in: main.ts:58204
 
 postback_url datatype
 required field if you specify postback_url
@@ -228,7 +228,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:58084
+Defined in: main.ts:58198
 
 return URL for sending task results
 optional field
@@ -251,7 +251,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:58012
+Defined in: main.ts:58126
 
 task priority
 optional field
@@ -271,7 +271,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:58073
+Defined in: main.ts:58187
 
 user-defined task identifier
 optional field
@@ -287,9 +287,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:58114
+Defined in: main.ts:58228
 
 #### Parameters
 
@@ -305,9 +305,9 @@ Defined in: main.ts:58114
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:58142
+Defined in: main.ts:58256
 
 #### Parameters
 
@@ -325,7 +325,7 @@ Defined in: main.ts:58142
 
 > `static` **fromJS**(`data`): `SerpGoogleAutocompleteTaskPostRequestInfo`
 
-Defined in: main.ts:58135
+Defined in: main.ts:58249
 
 #### Parameters
 

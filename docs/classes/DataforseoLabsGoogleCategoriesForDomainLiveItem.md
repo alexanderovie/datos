@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
 
-Defined in: main.ts:108224
+Defined in: main.ts:108346
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:108224
 
 ### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForDomainLiveItem**(`data`?): `DataforseoLabsGoogleCategoriesForDomainLiveItem`
+> **new DataforseoLabsGoogleCategoriesForDomainLiveItem**(`data?`): `DataforseoLabsGoogleCategoriesForDomainLiveItem`
 
-Defined in: main.ts:108235
+Defined in: main.ts:108357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108235
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:108229
+Defined in: main.ts:108351
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:108231
+Defined in: main.ts:108353
 
 ranking data relevant to the specified domain or subdomain
 
@@ -73,7 +73,7 @@ ranking data relevant to the specified domain or subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:108226
+Defined in: main.ts:108348
 
 search engine type
 
@@ -85,9 +85,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:108244
+Defined in: main.ts:108366
 
 #### Parameters
 
@@ -103,9 +103,9 @@ Defined in: main.ts:108244
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:108273
+Defined in: main.ts:108395
 
 #### Parameters
 
@@ -123,7 +123,7 @@ Defined in: main.ts:108273
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForDomainLiveItem`
 
-Defined in: main.ts:108266
+Defined in: main.ts:108388
 
 #### Parameters
 

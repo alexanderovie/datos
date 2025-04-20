@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleNewsSerpElementItem
 
-Defined in: main.ts:48953
+Defined in: main.ts:49055
 
 ## Extended by
 
@@ -21,9 +21,9 @@ Defined in: main.ts:48953
 
 ### Constructor
 
-> **new BaseGoogleNewsSerpElementItem**(`data`?): `BaseGoogleNewsSerpElementItem`
+> **new BaseGoogleNewsSerpElementItem**(`data?`): `BaseGoogleNewsSerpElementItem`
 
-Defined in: main.ts:48974
+Defined in: main.ts:49076
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Defined in: main.ts:48974
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:48972
+Defined in: main.ts:49074
 
 ***
 
@@ -49,7 +49,7 @@ Defined in: main.ts:48972
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:48962
+Defined in: main.ts:49064
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:48959
+Defined in: main.ts:49061
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:48970
+Defined in: main.ts:49072
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -96,7 +96,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:48966
+Defined in: main.ts:49068
 
 title of the element
 
@@ -110,7 +110,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:48955
+Defined in: main.ts:49057
 
 type of element
 
@@ -124,7 +124,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:48964
+Defined in: main.ts:49066
 
 the XPath of the element
 
@@ -136,9 +136,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:48984
+Defined in: main.ts:49086
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:48984
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:49012
+Defined in: main.ts:49114
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:49012
 
 > `static` **fromJS**(`data`): `BaseGoogleNewsSerpElementItem`
 
-Defined in: main.ts:48995
+Defined in: main.ts:49097
 
 #### Parameters
 

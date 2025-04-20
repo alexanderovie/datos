@@ -6,7 +6,7 @@
 
 # Interface: IReviewResponseItemInfo
 
-Defined in: main.ts:23674
+Defined in: main.ts:23682
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:23674
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:23678
+Defined in: main.ts:23686
 
 the content of response
 
@@ -28,7 +28,7 @@ the content of response
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:23680
+Defined in: main.ts:23688
 
 the time of publication
 
@@ -38,6 +38,6 @@ the time of publication
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23676
+Defined in: main.ts:23684
 
 the title of response

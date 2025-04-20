@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppDataDayStatisticsRatesData
 
-Defined in: main.ts:246256
+Defined in: main.ts:246874
 
 ## Indexable
 
@@ -16,17 +16,17 @@ Defined in: main.ts:246256
 
 ### app\_info?
 
-> `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_info**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:246257
+Defined in: main.ts:246875
 
 ***
 
 ### app\_list?
 
-> `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_list**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:246258
+Defined in: main.ts:246876
 
 ***
 
@@ -34,23 +34,23 @@ Defined in: main.ts:246258
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:246265
+Defined in: main.ts:246883
 
 ***
 
 ### app\_reviews?
 
-> `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_reviews**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:246259
+Defined in: main.ts:246877
 
 ***
 
 ### app\_searches?
 
-> `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_searches**: [`AppendixSerpsRatesDataInfo`](../classes/AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:246260
+Defined in: main.ts:246878
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:246260
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:246264
+Defined in: main.ts:246882
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:246264
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:246261
+Defined in: main.ts:246879
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:246261
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:246267
+Defined in: main.ts:246885
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:246267
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:246262
+Defined in: main.ts:246880
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:246262
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:246263
+Defined in: main.ts:246881
 
 ***
 
@@ -98,4 +98,4 @@ Defined in: main.ts:246263
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:246266
+Defined in: main.ts:246884

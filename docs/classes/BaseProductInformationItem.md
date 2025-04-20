@@ -6,7 +6,7 @@
 
 # Class: BaseProductInformationItem
 
-Defined in: main.ts:25395
+Defined in: main.ts:25403
 
 ## Extended by
 
@@ -22,9 +22,9 @@ Defined in: main.ts:25395
 
 ### Constructor
 
-> **new BaseProductInformationItem**(`data`?): `BaseProductInformationItem`
+> **new BaseProductInformationItem**(`data?`): `BaseProductInformationItem`
 
-Defined in: main.ts:25403
+Defined in: main.ts:25411
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:25403
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25401
+Defined in: main.ts:25409
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:25401
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25399
+Defined in: main.ts:25407
 
 name of the section related to product information specified in the contents
 
@@ -64,7 +64,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25397
+Defined in: main.ts:25405
 
 type of element
 
@@ -76,9 +76,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25413
+Defined in: main.ts:25421
 
 #### Parameters
 
@@ -94,9 +94,9 @@ Defined in: main.ts:25413
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25442
+Defined in: main.ts:25450
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:25442
 
 > `static` **fromJS**(`data`): `BaseProductInformationItem`
 
-Defined in: main.ts:25420
+Defined in: main.ts:25428
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksInfo
 
-Defined in: main.ts:100787
+Defined in: main.ts:100899
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:100787
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:100798
+Defined in: main.ts:100910
 
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
@@ -29,7 +29,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 > `optional` **dofollow**: `number`
 
-Defined in: main.ts:100795
+Defined in: main.ts:100907
 
 number of dofollow links
 
@@ -39,7 +39,7 @@ number of dofollow links
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:100789
+Defined in: main.ts:100901
 
 number of referring domains
 
@@ -49,7 +49,7 @@ number of referring domains
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:100791
+Defined in: main.ts:100903
 
 number of referring main domains
 
@@ -59,7 +59,7 @@ number of referring main domains
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:100793
+Defined in: main.ts:100905
 
 number of referring pages
 
@@ -69,7 +69,7 @@ number of referring pages
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:100803
+Defined in: main.ts:100915
 
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"

@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
-Defined in: main.ts:173698
+Defined in: main.ts:174086
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173698
 
 ### Constructor
 
-> **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): `BacklinksBulkNewLostBacklinksLiveItem`
+> **new BacklinksBulkNewLostBacklinksLiveItem**(`data?`): `BacklinksBulkNewLostBacklinksLiveItem`
 
-Defined in: main.ts:173710
+Defined in: main.ts:174098
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173710
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:173706
+Defined in: main.ts:174094
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -55,7 +55,7 @@ number of lost backlinks of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:173703
+Defined in: main.ts:174091
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -70,7 +70,7 @@ number of new backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:173700
+Defined in: main.ts:174088
 
 domain, subdomain or webpage from a POST array
 
@@ -82,9 +82,9 @@ domain, subdomain or webpage from a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173719
+Defined in: main.ts:174107
 
 #### Parameters
 
@@ -100,9 +100,9 @@ Defined in: main.ts:173719
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173738
+Defined in: main.ts:174126
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:173738
 
 > `static` **fromJS**(`data`): `BacklinksBulkNewLostBacklinksLiveItem`
 
-Defined in: main.ts:173731
+Defined in: main.ts:174119
 
 #### Parameters
 

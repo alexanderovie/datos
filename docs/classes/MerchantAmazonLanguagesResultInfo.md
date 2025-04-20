@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLanguagesResultInfo
 
-Defined in: main.ts:203224
+Defined in: main.ts:203754
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:203224
 
 ### Constructor
 
-> **new MerchantAmazonLanguagesResultInfo**(`data`?): `MerchantAmazonLanguagesResultInfo`
+> **new MerchantAmazonLanguagesResultInfo**(`data?`): `MerchantAmazonLanguagesResultInfo`
 
-Defined in: main.ts:203232
+Defined in: main.ts:203762
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203232
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:203228
+Defined in: main.ts:203758
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:203226
+Defined in: main.ts:203756
 
 language name
 
@@ -66,9 +66,9 @@ language name
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:203241
+Defined in: main.ts:203771
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:203241
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:203259
+Defined in: main.ts:203789
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:203259
 
 > `static` **fromJS**(`data`): `MerchantAmazonLanguagesResultInfo`
 
-Defined in: main.ts:203252
+Defined in: main.ts:203782
 
 #### Parameters
 

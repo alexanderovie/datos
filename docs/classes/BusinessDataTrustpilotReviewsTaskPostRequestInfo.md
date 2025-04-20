@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
-Defined in: main.ts:238002
+Defined in: main.ts:238532
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:238002
 
 ### Constructor
 
-> **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data`?): `BusinessDataTrustpilotReviewsTaskPostRequestInfo`
+> **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data?`): `BusinessDataTrustpilotReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:238065
+Defined in: main.ts:238595
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238065
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:238033
+Defined in: main.ts:238563
 
 parsing depth
 optional field
@@ -59,7 +59,7 @@ maximum value: 25000
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:238010
+Defined in: main.ts:238540
 
 domain of the local establishment
 required field
@@ -79,7 +79,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:238061
+Defined in: main.ts:238591
 
 notification URL of a completed task
 optional field
@@ -102,7 +102,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:238050
+Defined in: main.ts:238580
 
 return URL for sending task results
 optional field
@@ -125,7 +125,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:238026
+Defined in: main.ts:238556
 
 task priority
 optional field
@@ -145,7 +145,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:238018
+Defined in: main.ts:238548
 
 results sorting parameter
 optional field
@@ -165,7 +165,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:238039
+Defined in: main.ts:238569
 
 user-defined task identifier
 optional field
@@ -181,9 +181,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:238074
+Defined in: main.ts:238604
 
 #### Parameters
 
@@ -199,9 +199,9 @@ Defined in: main.ts:238074
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:238097
+Defined in: main.ts:238627
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:238097
 
 > `static` **fromJS**(`data`): `BusinessDataTrustpilotReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:238090
+Defined in: main.ts:238620
 
 #### Parameters
 

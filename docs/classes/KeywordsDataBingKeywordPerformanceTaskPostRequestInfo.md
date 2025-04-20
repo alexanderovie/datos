@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
-Defined in: main.ts:156364
+Defined in: main.ts:156488
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:156364
 
 ### Constructor
 
-> **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data`?): `KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
+> **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data?`): `KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
 
-Defined in: main.ts:156452
+Defined in: main.ts:156576
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:156452
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:156377
+Defined in: main.ts:156501
 
 device type
 optional field
@@ -57,7 +57,7 @@ default value: all
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:156372
+Defined in: main.ts:156496
 
 keywords
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:156420
+Defined in: main.ts:156544
 
 search engine language code
 required field if you don’t specify language_name
@@ -95,7 +95,7 @@ example:
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:156414
+Defined in: main.ts:156538
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -114,7 +114,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:156399
+Defined in: main.ts:156523
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -133,7 +133,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:156407
+Defined in: main.ts:156531
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -153,7 +153,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:156392
+Defined in: main.ts:156516
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -172,7 +172,7 @@ example:
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:156385
+Defined in: main.ts:156509
 
 keywords match type
 optional field
@@ -192,7 +192,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:156442
+Defined in: main.ts:156566
 
 notification URL of a completed task
 optional field
@@ -215,7 +215,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:156431
+Defined in: main.ts:156555
 
 return URL for sending task results
 optional field
@@ -238,7 +238,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:156448
+Defined in: main.ts:156572
 
 user-defined task identifier
 optional field
@@ -254,9 +254,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:156461
+Defined in: main.ts:156585
 
 #### Parameters
 
@@ -272,9 +272,9 @@ Defined in: main.ts:156461
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:156492
+Defined in: main.ts:156616
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: main.ts:156492
 
 > `static` **fromJS**(`data`): `KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`
 
-Defined in: main.ts:156485
+Defined in: main.ts:156609
 
 #### Parameters
 

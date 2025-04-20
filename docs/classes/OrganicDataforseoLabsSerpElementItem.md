@@ -6,7 +6,7 @@
 
 # Class: OrganicDataforseoLabsSerpElementItem
 
-Defined in: main.ts:111732
+Defined in: main.ts:111854
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:111732
 
 ### Constructor
 
-> **new OrganicDataforseoLabsSerpElementItem**(`data`?): `OrganicDataforseoLabsSerpElementItem`
+> **new OrganicDataforseoLabsSerpElementItem**(`data?`): `OrganicDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:111808
+Defined in: main.ts:111930
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:111808
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **about\_this\_result**: `object`
 
-Defined in: main.ts:111774
+Defined in: main.ts:111896
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -80,7 +80,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:111761
+Defined in: main.ts:111883
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -95,7 +95,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:111802
+Defined in: main.ts:111924
 
 backlinks information for the target website
 
@@ -109,7 +109,7 @@ backlinks information for the target website
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:111742
+Defined in: main.ts:111864
 
 breadcrumb in SERP
 
@@ -123,7 +123,7 @@ breadcrumb in SERP
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:111797
+Defined in: main.ts:111919
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -140,7 +140,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:111754
+Defined in: main.ts:111876
 
 description of the results element in SERP
 
@@ -154,7 +154,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:111736
+Defined in: main.ts:111858
 
 subdomain in SERP
 
@@ -168,7 +168,7 @@ subdomain in SERP
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:111792
+Defined in: main.ts:111914
 
 estimated cost of monthly search traffic
 represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
@@ -184,7 +184,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:111783
+Defined in: main.ts:111905
 
 estimated traffic volume
 estimated paid monthly traffic to the domain
@@ -201,7 +201,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **extended\_snippet**: `string`
 
-Defined in: main.ts:111758
+Defined in: main.ts:111880
 
 includes additional information appended after the result description in SERP
 
@@ -215,7 +215,7 @@ includes additional information appended after the result description in SERP
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:111766
+Defined in: main.ts:111888
 
 words highlighted in bold within the results description
 
@@ -229,7 +229,7 @@ words highlighted in bold within the results description
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:111788
+Defined in: main.ts:111910
 
 estimated traffic volume based on impressions
 estimated paid monthly traffic to the domain
@@ -246,7 +246,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **is\_featured\_snippet**: `boolean`
 
-Defined in: main.ts:111750
+Defined in: main.ts:111872
 
 indicates whether the element is a featured_snippet
 
@@ -260,7 +260,7 @@ indicates whether the element is a featured_snippet
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:111746
+Defined in: main.ts:111868
 
 indicates whether the element contains an image
 
@@ -274,7 +274,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_malicious**: `boolean`
 
-Defined in: main.ts:111752
+Defined in: main.ts:111874
 
 indicates whether the element is marked as malicious
 
@@ -288,7 +288,7 @@ indicates whether the element is marked as malicious
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:111748
+Defined in: main.ts:111870
 
 indicates whether the element contains a video
 
@@ -302,7 +302,7 @@ indicates whether the element contains a video
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:111770
+Defined in: main.ts:111892
 
 sitelinks
 the links shown below some of Google’s search results
@@ -318,7 +318,7 @@ if there are none, equals null
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:111776
+Defined in: main.ts:111898
 
 primary domain name in SERP
 
@@ -332,7 +332,7 @@ primary domain name in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -352,7 +352,7 @@ left, right
 
 > `optional` **pre\_snippet**: `string`
 
-Defined in: main.ts:111756
+Defined in: main.ts:111878
 
 includes additional information appended before the result description in SERP
 
@@ -366,7 +366,7 @@ includes additional information appended before the result description in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -385,7 +385,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:111800
+Defined in: main.ts:111922
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
@@ -400,7 +400,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -419,7 +419,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
 
-Defined in: main.ts:111804
+Defined in: main.ts:111926
 
 page and domain rank information
 
@@ -433,7 +433,7 @@ page and domain rank information
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:111764
+Defined in: main.ts:111886
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -448,7 +448,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:111778
+Defined in: main.ts:111900
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -462,7 +462,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:111734
+Defined in: main.ts:111856
 
 search engine type
 
@@ -476,7 +476,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:111738
+Defined in: main.ts:111860
 
 title of the result in SERP
 
@@ -490,7 +490,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -508,7 +508,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:111740
+Defined in: main.ts:111862
 
 relevant URL in SERP
 
@@ -522,7 +522,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:111744
+Defined in: main.ts:111866
 
 relevant website name in SERP
 
@@ -536,7 +536,7 @@ relevant website name in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -552,9 +552,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:111813
+Defined in: main.ts:111935
 
 #### Parameters
 
@@ -574,9 +574,9 @@ Defined in: main.ts:111813
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:111871
+Defined in: main.ts:111993
 
 #### Parameters
 
@@ -598,7 +598,7 @@ Defined in: main.ts:111871
 
 > `static` **fromJS**(`data`): `OrganicDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:111864
+Defined in: main.ts:111986
 
 #### Parameters
 

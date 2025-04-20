@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
-Defined in: main.ts:128960
+Defined in: main.ts:129082
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:128960
 
 ### Constructor
 
-> **new DataforseoLabsBingDomainRankOverviewLiveRequestInfo**(`data`?): `DataforseoLabsBingDomainRankOverviewLiveRequestInfo`
+> **new DataforseoLabsBingDomainRankOverviewLiveRequestInfo**(`data?`): `DataforseoLabsBingDomainRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:129023
+Defined in: main.ts:129145
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129023
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129003
+Defined in: main.ts:129125
 
 language code
 optional field
@@ -61,7 +61,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:128994
+Defined in: main.ts:129116
 
 full name of the language
 optional field
@@ -82,7 +82,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:129008
+Defined in: main.ts:129130
 
 the maximum number of returned results for domain
 optional field
@@ -99,7 +99,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:128985
+Defined in: main.ts:129107
 
 location code
 optional field
@@ -121,7 +121,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:128975
+Defined in: main.ts:129097
 
 full name of the location
 optional field
@@ -143,7 +143,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:129013
+Defined in: main.ts:129135
 
 offset in the results array of returned items
 optional field
@@ -160,7 +160,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:129019
+Defined in: main.ts:129141
 
 user-defined task identifier
 optional field
@@ -178,7 +178,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:128965
+Defined in: main.ts:129087
 
 domain
 required field
@@ -193,9 +193,9 @@ the domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:129032
+Defined in: main.ts:129154
 
 #### Parameters
 
@@ -211,9 +211,9 @@ Defined in: main.ts:129032
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:129056
+Defined in: main.ts:129178
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:129056
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingDomainRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:129049
+Defined in: main.ts:129171
 
 #### Parameters
 

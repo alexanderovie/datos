@@ -6,7 +6,7 @@
 
 # Class: AmazonTopRatedFromOurBrandsSerpElementItem
 
-Defined in: main.ts:204560
+Defined in: main.ts:205090
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:204560
 
 ### Constructor
 
-> **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data`?): `AmazonTopRatedFromOurBrandsSerpElementItem`
+> **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data?`): `AmazonTopRatedFromOurBrandsSerpElementItem`
 
-Defined in: main.ts:204570
+Defined in: main.ts:205100
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:204570
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:24362
+Defined in: main.ts:24370
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24362
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:204566
+Defined in: main.ts:205096
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:204564
+Defined in: main.ts:205094
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:24358
+Defined in: main.ts:24366
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:24355
+Defined in: main.ts:24363
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24352
+Defined in: main.ts:24360
 
 type of element
 
@@ -146,7 +146,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24360
+Defined in: main.ts:24368
 
 the XPath of the element
 
@@ -162,9 +162,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:204575
+Defined in: main.ts:205105
 
 #### Parameters
 
@@ -184,9 +184,9 @@ Defined in: main.ts:204575
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:204598
+Defined in: main.ts:205128
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:204598
 
 > `static` **fromJS**(`data`): `AmazonTopRatedFromOurBrandsSerpElementItem`
 
-Defined in: main.ts:204591
+Defined in: main.ts:205121
 
 #### Parameters
 

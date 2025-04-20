@@ -6,7 +6,7 @@
 
 # Class: PopularProductsElement
 
-Defined in: main.ts:37071
+Defined in: main.ts:37079
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:37071
 
 ### Constructor
 
-> **new PopularProductsElement**(`data`?): `PopularProductsElement`
+> **new PopularProductsElement**(`data?`): `PopularProductsElement`
 
-Defined in: main.ts:37091
+Defined in: main.ts:37099
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37091
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37077
+Defined in: main.ts:37085
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37082
+Defined in: main.ts:37090
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:37084
+Defined in: main.ts:37092
 
 price indicated in the element
 
@@ -83,7 +83,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:37087
+Defined in: main.ts:37095
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -98,7 +98,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:37079
+Defined in: main.ts:37087
 
 seller of the product
 
@@ -112,7 +112,7 @@ seller of the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37075
+Defined in: main.ts:37083
 
 title of a given link element
 
@@ -126,7 +126,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37073
+Defined in: main.ts:37081
 
 type of element
 
@@ -138,9 +138,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37100
+Defined in: main.ts:37108
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:37100
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37123
+Defined in: main.ts:37131
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:37123
 
 > `static` **fromJS**(`data`): `PopularProductsElement`
 
-Defined in: main.ts:37116
+Defined in: main.ts:37124
 
 #### Parameters
 

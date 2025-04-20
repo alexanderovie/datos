@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
-Defined in: main.ts:212088
+Defined in: main.ts:212618
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212088
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:212103
+Defined in: main.ts:212633
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:212107
+Defined in: main.ts:212637
 
 HTML pages and related data
 
@@ -41,7 +41,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:212105
+Defined in: main.ts:212635
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:212090
+Defined in: main.ts:212620
 
 keyword received in a POST request
 
@@ -61,7 +61,7 @@ keyword received in a POST request
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:212098
+Defined in: main.ts:212628
 
 language code in a POST array
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:212096
+Defined in: main.ts:212626
 
 location code in a POST array
 
@@ -81,7 +81,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:212094
+Defined in: main.ts:212624
 
 search engine domain in a POST array
 
@@ -91,6 +91,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:212092
+Defined in: main.ts:212622
 
 type of element

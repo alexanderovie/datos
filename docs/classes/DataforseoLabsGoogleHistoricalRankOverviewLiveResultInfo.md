@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
-Defined in: main.ts:120464
+Defined in: main.ts:120586
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:120464
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo**(`data`?): `DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`
+> **new DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo**(`data?`): `DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`
 
-Defined in: main.ts:120482
+Defined in: main.ts:120604
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120482
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:120478
+Defined in: main.ts:120600
 
 contains historical ranking and traffic data
 
@@ -54,7 +54,7 @@ contains historical ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:120476
+Defined in: main.ts:120598
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120472
+Defined in: main.ts:120594
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120470
+Defined in: main.ts:120592
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120466
+Defined in: main.ts:120588
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:120468
+Defined in: main.ts:120590
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:120474
+Defined in: main.ts:120596
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:120491
+Defined in: main.ts:120613
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:120491
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:120518
+Defined in: main.ts:120640
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:120518
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`
 
-Defined in: main.ts:120511
+Defined in: main.ts:120633
 
 #### Parameters
 

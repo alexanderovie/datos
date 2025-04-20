@@ -6,7 +6,7 @@
 
 # Interface: IRelatedResult
 
-Defined in: main.ts:33574
+Defined in: main.ts:33582
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33574
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
-Defined in: main.ts:33619
+Defined in: main.ts:33627
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:33608
+Defined in: main.ts:33616
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -41,7 +41,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:33591
+Defined in: main.ts:33599
 
 breadcrumb in SERP
 
@@ -51,7 +51,7 @@ breadcrumb in SERP
 
 > `optional` **cache\_url**: `string`
 
-Defined in: main.ts:33586
+Defined in: main.ts:33594
 
 cached version of the page
 
@@ -61,7 +61,7 @@ cached version of the page
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33599
+Defined in: main.ts:33607
 
 description of the hotel booking element
 
@@ -71,7 +71,7 @@ description of the hotel booking element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:33580
+Defined in: main.ts:33588
 
 domain where a link points
 
@@ -81,7 +81,7 @@ domain where a link points
 
 > `optional` **extended\_snippet**: `string`
 
-Defined in: main.ts:33603
+Defined in: main.ts:33611
 
 includes additional information appended after the result description in SERP
 
@@ -91,7 +91,7 @@ includes additional information appended after the result description in SERP
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:33615
+Defined in: main.ts:33623
 
 words highlighted in bold within the results description
 
@@ -101,7 +101,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:33605
+Defined in: main.ts:33613
 
 images of the element
 
@@ -111,7 +111,7 @@ images of the element
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:33595
+Defined in: main.ts:33603
 
 indicates whether the element contains an image
 
@@ -121,7 +121,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:33597
+Defined in: main.ts:33605
 
 indicates whether the element contains a video
 
@@ -131,7 +131,7 @@ indicates whether the element contains a video
 
 > `optional` **pre\_snippet**: `string`
 
-Defined in: main.ts:33601
+Defined in: main.ts:33609
 
 includes additional information appended before the result description in SERP
 
@@ -141,7 +141,7 @@ includes additional information appended before the result description in SERP
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:33613
+Defined in: main.ts:33621
 
 price of booking a place for the specified dates of stay
 
@@ -151,7 +151,7 @@ price of booking a place for the specified dates of stay
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:33611
+Defined in: main.ts:33619
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -162,7 +162,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **related\_search\_url**: `string`
 
-Defined in: main.ts:33589
+Defined in: main.ts:33597
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -173,7 +173,7 @@ URL to a new search for the same keyword(s) on related sites
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33624
+Defined in: main.ts:33632
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -186,7 +186,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33582
+Defined in: main.ts:33590
 
 title of a given link element
 
@@ -196,7 +196,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33576
+Defined in: main.ts:33584
 
 type of element
 
@@ -206,7 +206,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33584
+Defined in: main.ts:33592
 
 reference page URL
 
@@ -216,7 +216,7 @@ reference page URL
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:33593
+Defined in: main.ts:33601
 
 name of the website in the ad element
 
@@ -226,6 +226,6 @@ name of the website in the ad element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:33578
+Defined in: main.ts:33586
 
 the XPath of the element

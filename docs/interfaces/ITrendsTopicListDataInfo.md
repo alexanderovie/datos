@@ -6,7 +6,7 @@
 
 # Interface: ITrendsTopicListDataInfo
 
-Defined in: main.ts:147140
+Defined in: main.ts:147264
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147140
 
 > `optional` **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:147146
+Defined in: main.ts:147270
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -29,7 +29,7 @@ represents the list of related topics with the biggest increase in search freque
 
 > `optional` **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:147143
+Defined in: main.ts:147267
 
 the most popular related topics
 represents the list of the most popular related topics

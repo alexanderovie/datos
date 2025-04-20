@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
-Defined in: main.ts:98454
+Defined in: main.ts:98566
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:98454
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
+> **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data?`): `DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
 
-Defined in: main.ts:98468
+Defined in: main.ts:98580
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98468
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:98458
+Defined in: main.ts:98570
 
 starting date of the time range
 
@@ -54,7 +54,7 @@ starting date of the time range
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:98460
+Defined in: main.ts:98572
 
 ending date of the time range
 
@@ -68,7 +68,7 @@ ending date of the time range
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
-Defined in: main.ts:98464
+Defined in: main.ts:98576
 
 items array
 
@@ -82,7 +82,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:98462
+Defined in: main.ts:98574
 
 number of items in the results array
 
@@ -96,7 +96,7 @@ number of items in the results array
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:98456
+Defined in: main.ts:98568
 
 target technology
 
@@ -108,9 +108,9 @@ target technology
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:98477
+Defined in: main.ts:98589
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:98477
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:98502
+Defined in: main.ts:98614
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:98502
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`
 
-Defined in: main.ts:98495
+Defined in: main.ts:98607
 
 #### Parameters
 

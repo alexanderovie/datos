@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveResultInfo
 
-Defined in: main.ts:131446
+Defined in: main.ts:131568
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:131446
 
 ### Constructor
 
-> **new DataforseoLabsBingRelevantPagesLiveResultInfo**(`data`?): `DataforseoLabsBingRelevantPagesLiveResultInfo`
+> **new DataforseoLabsBingRelevantPagesLiveResultInfo**(`data?`): `DataforseoLabsBingRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:131466
+Defined in: main.ts:131588
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:131466
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:131462
+Defined in: main.ts:131584
 
 relevant pages and related data
 
@@ -54,7 +54,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:131460
+Defined in: main.ts:131582
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131456
+Defined in: main.ts:131578
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131453
+Defined in: main.ts:131575
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:131448
+Defined in: main.ts:131570
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:131450
+Defined in: main.ts:131572
 
 target domain in a POST array
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:131458
+Defined in: main.ts:131580
 
 total amount of results in our database relevant to your request
 
@@ -138,9 +138,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:131475
+Defined in: main.ts:131597
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:131475
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:131502
+Defined in: main.ts:131624
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:131502
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:131495
+Defined in: main.ts:131617
 
 #### Parameters
 

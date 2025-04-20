@@ -6,7 +6,7 @@
 
 # Class: ContentOfferInfo
 
-Defined in: main.ts:27065
+Defined in: main.ts:27073
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27065
 
 ### Constructor
 
-> **new ContentOfferInfo**(`data`?): `ContentOfferInfo`
+> **new ContentOfferInfo**(`data?`): `ContentOfferInfo`
 
-Defined in: main.ts:27079
+Defined in: main.ts:27087
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27079
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:27067
+Defined in: main.ts:27075
 
 name of the product
 
@@ -54,7 +54,7 @@ name of the product
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:27069
+Defined in: main.ts:27077
 
 price of the product
 
@@ -68,7 +68,7 @@ price of the product
 
 > `optional` **price\_currency**: `string`
 
-Defined in: main.ts:27071
+Defined in: main.ts:27079
 
 price currency
 
@@ -82,7 +82,7 @@ price currency
 
 > `optional` **price\_valid\_until**: `string`
 
-Defined in: main.ts:27075
+Defined in: main.ts:27083
 
 displays the date and time until which the price is valid
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -96,9 +96,9 @@ example: "2022-11-01 10:02:52 +00:00"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27088
+Defined in: main.ts:27096
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:27088
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27108
+Defined in: main.ts:27116
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:27108
 
 > `static` **fromJS**(`data`): `ContentOfferInfo`
 
-Defined in: main.ts:27101
+Defined in: main.ts:27109
 
 #### Parameters
 

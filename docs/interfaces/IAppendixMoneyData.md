@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMoneyData
 
-Defined in: main.ts:247323
+Defined in: main.ts:248149
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247323
 
 > `optional` **balance**: `number`
 
-Defined in: main.ts:247327
+Defined in: main.ts:248153
 
 amount of money left in your account
 
@@ -28,7 +28,7 @@ amount of money left in your account
 
 > `optional` **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
 
-Defined in: main.ts:247329
+Defined in: main.ts:248155
 
 cost limits
 
@@ -38,7 +38,7 @@ cost limits
 
 > `optional` **statistics**: [`AppendixStatisticsMoneyData`](../classes/AppendixStatisticsMoneyData.md)
 
-Defined in: main.ts:247331
+Defined in: main.ts:248157
 
 statistics of your spending
 
@@ -48,6 +48,6 @@ statistics of your spending
 
 > `optional` **total**: `number`
 
-Defined in: main.ts:247325
+Defined in: main.ts:248151
 
 total amount of money deposited to your account

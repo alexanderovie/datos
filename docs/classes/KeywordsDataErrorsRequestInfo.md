@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataErrorsRequestInfo
 
-Defined in: main.ts:137484
+Defined in: main.ts:137606
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:137484
 
 ### Constructor
 
-> **new KeywordsDataErrorsRequestInfo**(`data`?): `KeywordsDataErrorsRequestInfo`
+> **new KeywordsDataErrorsRequestInfo**(`data?`): `KeywordsDataErrorsRequestInfo`
 
-Defined in: main.ts:137518
+Defined in: main.ts:137640
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137518
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:137507
+Defined in: main.ts:137629
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:137514
+Defined in: main.ts:137636
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:137500
+Defined in: main.ts:137622
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:137489
+Defined in: main.ts:137611
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:137494
+Defined in: main.ts:137616
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:137527
+Defined in: main.ts:137649
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:137527
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:137548
+Defined in: main.ts:137670
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:137548
 
 > `static` **fromJS**(`data`): `KeywordsDataErrorsRequestInfo`
 
-Defined in: main.ts:137541
+Defined in: main.ts:137663
 
 #### Parameters
 

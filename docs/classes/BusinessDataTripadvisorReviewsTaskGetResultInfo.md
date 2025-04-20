@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorReviewsTaskGetResultInfo
 
-Defined in: main.ts:241142
+Defined in: main.ts:241672
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:241142
 
 ### Constructor
 
-> **new BusinessDataTripadvisorReviewsTaskGetResultInfo**(`data`?): `BusinessDataTripadvisorReviewsTaskGetResultInfo`
+> **new BusinessDataTripadvisorReviewsTaskGetResultInfo**(`data?`): `BusinessDataTripadvisorReviewsTaskGetResultInfo`
 
-Defined in: main.ts:241182
+Defined in: main.ts:241712
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241182
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:241151
+Defined in: main.ts:241681
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:241156
+Defined in: main.ts:241686
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:241176
+Defined in: main.ts:241706
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:241173
+Defined in: main.ts:241703
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:241178
+Defined in: main.ts:241708
 
 language code in a POST array
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:241162
+Defined in: main.ts:241692
 
 location of the local establishment
 address of the local establishment for which the reviews are collected
@@ -131,7 +131,7 @@ address of the local establishment for which the reviews are collected
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:241167
+Defined in: main.ts:241697
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
@@ -146,7 +146,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:241170
+Defined in: main.ts:241700
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
@@ -165,7 +165,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:241164
+Defined in: main.ts:241694
 
 the total number of reviews
 
@@ -179,7 +179,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:241148
+Defined in: main.ts:241678
 
 search engine domain in a POST array
 
@@ -193,7 +193,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:241159
+Defined in: main.ts:241689
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
@@ -208,7 +208,7 @@ the name of the local establishment for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:241146
+Defined in: main.ts:241676
 
 type of element
 
@@ -222,7 +222,7 @@ type of element
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:241144
+Defined in: main.ts:241674
 
 URL path received in a POST array
 
@@ -234,9 +234,9 @@ URL path received in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:241191
+Defined in: main.ts:241721
 
 #### Parameters
 
@@ -252,9 +252,9 @@ Defined in: main.ts:241191
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:241230
+Defined in: main.ts:241760
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: main.ts:241230
 
 > `static` **fromJS**(`data`): `BusinessDataTripadvisorReviewsTaskGetResultInfo`
 
-Defined in: main.ts:241223
+Defined in: main.ts:241753
 
 #### Parameters
 

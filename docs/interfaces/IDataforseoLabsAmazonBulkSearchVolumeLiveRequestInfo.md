@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:123763
+Defined in: main.ts:123885
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123763
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:123770
+Defined in: main.ts:123892
 
 target keywords
 required field
@@ -33,7 +33,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123817
+Defined in: main.ts:123939
 
 language code
 required field if don’t specify language_name
@@ -48,7 +48,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123810
+Defined in: main.ts:123932
 
 full name of the language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123803
+Defined in: main.ts:123925
 
 location code
 required field if don’t specify location_name
@@ -79,7 +79,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123795
+Defined in: main.ts:123917
 
 full name of the location
 required field if don’t specify location_code
@@ -112,7 +112,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123823
+Defined in: main.ts:123945
 
 user-defined task identifier
 optional field

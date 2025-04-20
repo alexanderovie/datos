@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
-Defined in: main.ts:134262
+Defined in: main.ts:134384
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:134262
 
 ### Constructor
 
-> **new DataforseoLabsGoogleAppCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsGoogleAppCompetitorsLiveResultInfo`
+> **new DataforseoLabsGoogleAppCompetitorsLiveResultInfo**(`data?`): `DataforseoLabsGoogleAppCompetitorsLiveResultInfo`
 
-Defined in: main.ts:134280
+Defined in: main.ts:134402
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134280
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:134266
+Defined in: main.ts:134388
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:134276
+Defined in: main.ts:134398
 
 contains data related to the app_id and competitor applications
 
@@ -68,7 +68,7 @@ contains data related to the app_id and competitor applications
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:134274
+Defined in: main.ts:134396
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134270
+Defined in: main.ts:134392
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:134268
+Defined in: main.ts:134390
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:134264
+Defined in: main.ts:134386
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:134272
+Defined in: main.ts:134394
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:134289
+Defined in: main.ts:134411
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:134289
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:134316
+Defined in: main.ts:134438
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:134316
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleAppCompetitorsLiveResultInfo`
 
-Defined in: main.ts:134309
+Defined in: main.ts:134431
 
 #### Parameters
 

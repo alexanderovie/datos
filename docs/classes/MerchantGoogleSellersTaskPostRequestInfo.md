@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskPostRequestInfo
 
-Defined in: main.ts:198960
+Defined in: main.ts:199490
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:198960
 
 ### Constructor
 
-> **new MerchantGoogleSellersTaskPostRequestInfo**(`data`?): `MerchantGoogleSellersTaskPostRequestInfo`
+> **new MerchantGoogleSellersTaskPostRequestInfo**(`data?`): `MerchantGoogleSellersTaskPostRequestInfo`
 
-Defined in: main.ts:199075
+Defined in: main.ts:199605
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:199075
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:199037
+Defined in: main.ts:199567
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -63,7 +63,7 @@ example:
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:198973
+Defined in: main.ts:199503
 
 unique identifier of the SERP data element
 required field if product_id is not specified
@@ -81,7 +81,7 @@ example:
 
 > `optional` **get\_shops\_on\_google**: `boolean`
 
-Defined in: main.ts:199030
+Defined in: main.ts:199560
 
 include “buy on Google” shops
 optional field
@@ -98,7 +98,7 @@ Note: if set to true, the cost of a task will be doubled
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:199018
+Defined in: main.ts:199548
 
 language code
 required field if you don’t specify language_name
@@ -117,7 +117,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:199011
+Defined in: main.ts:199541
 
 full name of the language
 required field if you don’t specify language_code
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:198995
+Defined in: main.ts:199525
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:199004
+Defined in: main.ts:199534
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -176,7 +176,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:198988
+Defined in: main.ts:199518
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:199071
+Defined in: main.ts:199601
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:199060
+Defined in: main.ts:199590
 
 postback_url datatype
 required field if you specify postback_url
@@ -236,7 +236,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:199054
+Defined in: main.ts:199584
 
 return URL for sending task results
 optional field
@@ -259,7 +259,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:198981
+Defined in: main.ts:199511
 
 task priority
 optional field
@@ -279,7 +279,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:198967
+Defined in: main.ts:199497
 
 unique product identifier on Google Shopping
 required field if data_docid is not specified
@@ -298,7 +298,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:199025
+Defined in: main.ts:199555
 
 search engine domain
 optional field
@@ -317,7 +317,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:199043
+Defined in: main.ts:199573
 
 user-defined task identifier
 optional field
@@ -333,9 +333,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:199084
+Defined in: main.ts:199614
 
 #### Parameters
 
@@ -351,9 +351,9 @@ Defined in: main.ts:199084
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:199121
+Defined in: main.ts:199651
 
 #### Parameters
 
@@ -371,7 +371,7 @@ Defined in: main.ts:199121
 
 > `static` **fromJS**(`data`): `MerchantGoogleSellersTaskPostRequestInfo`
 
-Defined in: main.ts:199114
+Defined in: main.ts:199644
 
 #### Parameters
 

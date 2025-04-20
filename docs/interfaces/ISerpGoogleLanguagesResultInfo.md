@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLanguagesResultInfo
 
-Defined in: main.ts:29022
+Defined in: main.ts:29030
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:29022
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:29026
+Defined in: main.ts:29034
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:29024
+Defined in: main.ts:29032
 
 language name

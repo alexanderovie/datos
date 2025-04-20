@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataResultInfo
 
-Defined in: main.ts:183856
+Defined in: main.ts:184266
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:183856
 
 ### Constructor
 
-> **new OnPageMicrodataResultInfo**(`data`?): `OnPageMicrodataResultInfo`
+> **new OnPageMicrodataResultInfo**(`data?`): `OnPageMicrodataResultInfo`
 
-Defined in: main.ts:183871
+Defined in: main.ts:184281
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183871
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:183859
+Defined in: main.ts:184269
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:183861
+Defined in: main.ts:184271
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageMicrodataItem`](OnPageMicrodataItem.md)[]
 
-Defined in: main.ts:183867
+Defined in: main.ts:184277
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:183865
+Defined in: main.ts:184275
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **test\_summary**: [`TestSummary`](TestSummary.md)
 
-Defined in: main.ts:183863
+Defined in: main.ts:184273
 
 microdata validation test results
 
@@ -109,9 +109,9 @@ microdata validation test results
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:183880
+Defined in: main.ts:184290
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:183880
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:183905
+Defined in: main.ts:184315
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:183905
 
 > `static` **fromJS**(`data`): `OnPageMicrodataResultInfo`
 
-Defined in: main.ts:183898
+Defined in: main.ts:184308
 
 #### Parameters
 

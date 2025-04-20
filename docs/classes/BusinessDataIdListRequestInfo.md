@@ -6,7 +6,7 @@
 
 # Class: BusinessDataIdListRequestInfo
 
-Defined in: main.ts:221136
+Defined in: main.ts:221666
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:221136
 
 ### Constructor
 
-> **new BusinessDataIdListRequestInfo**(`data`?): `BusinessDataIdListRequestInfo`
+> **new BusinessDataIdListRequestInfo**(`data?`): `BusinessDataIdListRequestInfo`
 
-Defined in: main.ts:221174
+Defined in: main.ts:221704
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221174
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:221144
+Defined in: main.ts:221674
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:221151
+Defined in: main.ts:221681
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:221170
+Defined in: main.ts:221700
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:221156
+Defined in: main.ts:221686
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:221161
+Defined in: main.ts:221691
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:221166
+Defined in: main.ts:221696
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:221183
+Defined in: main.ts:221713
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:221183
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:221205
+Defined in: main.ts:221735
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:221205
 
 > `static` **fromJS**(`data`): `BusinessDataIdListRequestInfo`
 
-Defined in: main.ts:221198
+Defined in: main.ts:221728
 
 #### Parameters
 

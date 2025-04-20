@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
-Defined in: main.ts:100144
+Defined in: main.ts:100256
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:100144
 
 ### Constructor
 
-> **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data`?): `DomainAnalyticsWhoisAvailableFiltersResultInfo`
+> **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data?`): `DomainAnalyticsWhoisAvailableFiltersResultInfo`
 
-Defined in: main.ts:100149
+Defined in: main.ts:100261
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100149
 
 > `optional` **overview**: `object`
 
-Defined in: main.ts:100145
+Defined in: main.ts:100257
 
 #### Index Signature
 
@@ -54,9 +54,9 @@ Defined in: main.ts:100145
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:100158
+Defined in: main.ts:100270
 
 #### Parameters
 
@@ -72,9 +72,9 @@ Defined in: main.ts:100158
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:100181
+Defined in: main.ts:100293
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:100181
 
 > `static` **fromJS**(`data`): `DomainAnalyticsWhoisAvailableFiltersResultInfo`
 
-Defined in: main.ts:100174
+Defined in: main.ts:100286
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixContentAnalysisPriceData
 
-Defined in: main.ts:249366
+Defined in: main.ts:250192
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:249366
 
 ### Constructor
 
-> **new AppendixContentAnalysisPriceData**(`data`?): `AppendixContentAnalysisPriceData`
+> **new AppendixContentAnalysisPriceData**(`data?`): `AppendixContentAnalysisPriceData`
 
-Defined in: main.ts:249380
+Defined in: main.ts:250206
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:249380
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249367
+Defined in: main.ts:250193
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:249367
 
 > `optional` **category\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249368
+Defined in: main.ts:250194
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:249368
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249369
+Defined in: main.ts:250195
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:249369
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249370
+Defined in: main.ts:250196
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:249370
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249371
+Defined in: main.ts:250197
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:249371
 
 > `optional` **phrase\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249372
+Defined in: main.ts:250198
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:249372
 
 > `optional` **rating\_distribution**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249373
+Defined in: main.ts:250199
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:249373
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249374
+Defined in: main.ts:250200
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:249374
 
 > `optional` **sentiment\_analysis**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249375
+Defined in: main.ts:250201
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:249375
 
 > `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249376
+Defined in: main.ts:250202
 
 #### Implementation of
 
@@ -158,9 +158,9 @@ Defined in: main.ts:249376
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:249389
+Defined in: main.ts:250215
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:249389
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:249415
+Defined in: main.ts:250241
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:249415
 
 > `static` **fromJS**(`data`): `AppendixContentAnalysisPriceData`
 
-Defined in: main.ts:249408
+Defined in: main.ts:250234
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:100310
+Defined in: main.ts:100422
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:100310
 
 ### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): `DomainAnalyticsWhoisOverviewLiveRequestInfo`
+> **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data?`): `DomainAnalyticsWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:100361
+Defined in: main.ts:100473
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100361
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:100335
+Defined in: main.ts:100447
 
 array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:100315
+Defined in: main.ts:100427
 
 the maximum number of returned domains
 optional field
@@ -84,7 +84,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:100320
+Defined in: main.ts:100432
 
 offset in the results array of returned items
 optional field
@@ -101,7 +101,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:100351
+Defined in: main.ts:100463
 
 results sorting rules
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:100357
+Defined in: main.ts:100469
 
 user-defined task identifier
 optional field
@@ -145,9 +145,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:100370
+Defined in: main.ts:100482
 
 #### Parameters
 
@@ -163,9 +163,9 @@ Defined in: main.ts:100370
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:100399
+Defined in: main.ts:100511
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Defined in: main.ts:100399
 
 > `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveRequestInfo`
 
-Defined in: main.ts:100392
+Defined in: main.ts:100504
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
-Defined in: main.ts:160251
+Defined in: main.ts:160375
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160251
 
 > `optional` **items**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:160255
+Defined in: main.ts:160379
 
 contains keywords and related data
 
@@ -28,6 +28,6 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:160253
+Defined in: main.ts:160377
 
 the number of results returned in the items array

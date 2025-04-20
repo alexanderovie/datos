@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTasksReadyResultInfo
 
-Defined in: main.ts:53227
+Defined in: main.ts:53341
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:53227
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:53237
+Defined in: main.ts:53351
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:53245
+Defined in: main.ts:53359
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:53248
+Defined in: main.ts:53362
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:53242
+Defined in: main.ts:53356
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:53230
+Defined in: main.ts:53344
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:53232
+Defined in: main.ts:53346
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:53235
+Defined in: main.ts:53349
 
 type of search engine
 example: images
@@ -93,6 +93,6 @@ example: images
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:53239
+Defined in: main.ts:53353
 
 user-defined task identifier

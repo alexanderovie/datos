@@ -6,7 +6,7 @@
 
 # Class: RedirectLinkElementItem
 
-Defined in: main.ts:181928
+Defined in: main.ts:182338
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:181928
 
 ### Constructor
 
-> **new RedirectLinkElementItem**(`data`?): `RedirectLinkElementItem`
+> **new RedirectLinkElementItem**(`data?`): `RedirectLinkElementItem`
 
-Defined in: main.ts:181932
+Defined in: main.ts:182342
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:181932
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23723
+Defined in: main.ts:23731
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23723
 
 > `optional` **direction**: `string`
 
-Defined in: main.ts:23715
+Defined in: main.ts:23723
 
 direction of the link
 possible values: internal, external
@@ -79,7 +79,7 @@ possible values: internal, external
 
 > `optional` **dofollow**: `boolean`
 
-Defined in: main.ts:23708
+Defined in: main.ts:23716
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -98,7 +98,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 > `optional` **domain\_from**: `string`
 
-Defined in: main.ts:23690
+Defined in: main.ts:23698
 
 referring domain
 the link was found on this domain
@@ -117,7 +117,7 @@ the link was found on this domain
 
 > `optional` **domain\_to**: `string`
 
-Defined in: main.ts:23693
+Defined in: main.ts:23701
 
 referenced domain
 the link is pointing to this domain
@@ -136,7 +136,7 @@ the link is pointing to this domain
 
 > `optional` **is\_broken**: `boolean`
 
-Defined in: main.ts:23718
+Defined in: main.ts:23726
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -155,7 +155,7 @@ indicates whether a link is directing to a broken page or resource
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
-Defined in: main.ts:23721
+Defined in: main.ts:23729
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -174,7 +174,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_from**: `string`
 
-Defined in: main.ts:23702
+Defined in: main.ts:23710
 
 referring page
 absolute URL of the page on which the link was found
@@ -193,7 +193,7 @@ absolute URL of the page on which the link was found
 
 > `optional` **link\_to**: `string`
 
-Defined in: main.ts:23705
+Defined in: main.ts:23713
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -212,7 +212,7 @@ absolute URL of the page to which the link is pointing
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:23696
+Defined in: main.ts:23704
 
 referring page
 relative URL of the page on which the link was found
@@ -231,7 +231,7 @@ relative URL of the page on which the link was found
 
 > `optional` **page\_from\_scheme**: `string`
 
-Defined in: main.ts:23710
+Defined in: main.ts:23718
 
 url scheme of the referring page
 
@@ -249,7 +249,7 @@ url scheme of the referring page
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:23699
+Defined in: main.ts:23707
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -268,7 +268,7 @@ relative URL of the page to which the link is pointing
 
 > `optional` **page\_to\_scheme**: `string`
 
-Defined in: main.ts:23712
+Defined in: main.ts:23720
 
 url scheme of the referenced page
 
@@ -286,7 +286,7 @@ url scheme of the referenced page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23687
+Defined in: main.ts:23695
 
 type of element
 
@@ -302,9 +302,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:181937
+Defined in: main.ts:182347
 
 #### Parameters
 
@@ -324,9 +324,9 @@ Defined in: main.ts:181937
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:181954
+Defined in: main.ts:182364
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: main.ts:181954
 
 > `static` **fromJS**(`data`): `RedirectLinkElementItem`
 
-Defined in: main.ts:181947
+Defined in: main.ts:182357
 
 #### Parameters
 

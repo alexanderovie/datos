@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLocationsResultInfo
 
-Defined in: main.ts:71857
+Defined in: main.ts:71969
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:71857
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:71872
+Defined in: main.ts:71984
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71859
+Defined in: main.ts:71971
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:71870
+Defined in: main.ts:71982
 
 the code of the superordinate location
 example:
@@ -55,7 +55,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71861
+Defined in: main.ts:71973
 
 full name of the location
 
@@ -65,6 +65,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:71874
+Defined in: main.ts:71986
 
 location type

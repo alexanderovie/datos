@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTasksFixedResultInfo
 
-Defined in: main.ts:72907
+Defined in: main.ts:73019
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:72907
 
 ### Constructor
 
-> **new SerpYoutubeVideoInfoTasksFixedResultInfo**(`data`?): `SerpYoutubeVideoInfoTasksFixedResultInfo`
+> **new SerpYoutubeVideoInfoTasksFixedResultInfo**(`data?`): `SerpYoutubeVideoInfoTasksFixedResultInfo`
 
-Defined in: main.ts:72932
+Defined in: main.ts:73044
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:72932
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:72917
+Defined in: main.ts:73029
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:72925
+Defined in: main.ts:73037
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:72928
+Defined in: main.ts:73040
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:72922
+Defined in: main.ts:73034
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:72910
+Defined in: main.ts:73022
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:72912
+Defined in: main.ts:73024
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:72915
+Defined in: main.ts:73027
 
 type of search engine
 can take the following values: video_info
@@ -143,7 +143,7 @@ can take the following values: video_info
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:72919
+Defined in: main.ts:73031
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:72941
+Defined in: main.ts:73053
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:72941
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:72965
+Defined in: main.ts:73077
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:72965
 
 > `static` **fromJS**(`data`): `SerpYoutubeVideoInfoTasksFixedResultInfo`
 
-Defined in: main.ts:72958
+Defined in: main.ts:73070
 
 #### Parameters
 

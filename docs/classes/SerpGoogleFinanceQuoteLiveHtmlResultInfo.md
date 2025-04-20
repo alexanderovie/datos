@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteLiveHtmlResultInfo
 
-Defined in: main.ts:93880
+Defined in: main.ts:93992
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:93880
 
 ### Constructor
 
-> **new SerpGoogleFinanceQuoteLiveHtmlResultInfo**(`data`?): `SerpGoogleFinanceQuoteLiveHtmlResultInfo`
+> **new SerpGoogleFinanceQuoteLiveHtmlResultInfo**(`data?`): `SerpGoogleFinanceQuoteLiveHtmlResultInfo`
 
-Defined in: main.ts:93904
+Defined in: main.ts:94016
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93904
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:93896
+Defined in: main.ts:94008
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:93900
+Defined in: main.ts:94012
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:93898
+Defined in: main.ts:94010
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93883
+Defined in: main.ts:93995
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93891
+Defined in: main.ts:94003
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93889
+Defined in: main.ts:94001
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:93887
+Defined in: main.ts:93999
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:93885
+Defined in: main.ts:93997
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:93913
+Defined in: main.ts:94025
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:93913
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:93941
+Defined in: main.ts:94053
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:93941
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteLiveHtmlResultInfo`
 
-Defined in: main.ts:93934
+Defined in: main.ts:94046
 
 #### Parameters
 

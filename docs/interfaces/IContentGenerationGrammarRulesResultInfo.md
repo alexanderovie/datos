@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGrammarRulesResultInfo
 
-Defined in: main.ts:194975
+Defined in: main.ts:195505
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:194975
 
 > `optional` **rules**: `string`[]
 
-Defined in: main.ts:194977
+Defined in: main.ts:195507
 
 array of rules

@@ -6,7 +6,7 @@
 
 # Class: ScreenshotItem
 
-Defined in: main.ts:28017
+Defined in: main.ts:28025
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:28017
 
 ### Constructor
 
-> **new ScreenshotItem**(`data`?): `ScreenshotItem`
+> **new ScreenshotItem**(`data?`): `ScreenshotItem`
 
-Defined in: main.ts:28025
+Defined in: main.ts:28033
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28025
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:28021
+Defined in: main.ts:28029
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage
@@ -54,9 +54,9 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:28034
+Defined in: main.ts:28042
 
 #### Parameters
 
@@ -72,9 +72,9 @@ Defined in: main.ts:28034
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:28051
+Defined in: main.ts:28059
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:28051
 
 > `static` **fromJS**(`data`): `ScreenshotItem`
 
-Defined in: main.ts:28044
+Defined in: main.ts:28052
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:114250
+Defined in: main.ts:114372
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:114250
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainIntersectionLiveResultInfo**(`data`?): `DataforseoLabsGoogleDomainIntersectionLiveResultInfo`
+> **new DataforseoLabsGoogleDomainIntersectionLiveResultInfo**(`data?`): `DataforseoLabsGoogleDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:114270
+Defined in: main.ts:114392
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114270
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:114266
+Defined in: main.ts:114388
 
 contains keywords, relevant SERP elements and related data
 
@@ -54,7 +54,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:114264
+Defined in: main.ts:114386
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114260
+Defined in: main.ts:114382
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114258
+Defined in: main.ts:114380
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:114252
+Defined in: main.ts:114374
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:114254
+Defined in: main.ts:114376
 
 the first target domain in a POST array
 
@@ -124,7 +124,7 @@ the first target domain in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:114256
+Defined in: main.ts:114378
 
 the second target domain in a POST array
 
@@ -138,7 +138,7 @@ the second target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:114262
+Defined in: main.ts:114384
 
 total amount of results in our database relevant to your request
 
@@ -150,9 +150,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:114279
+Defined in: main.ts:114401
 
 #### Parameters
 
@@ -168,9 +168,9 @@ Defined in: main.ts:114279
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:114307
+Defined in: main.ts:114429
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:114307
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:114300
+Defined in: main.ts:114422
 
 #### Parameters
 

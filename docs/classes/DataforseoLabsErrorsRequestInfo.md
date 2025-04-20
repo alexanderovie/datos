@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsErrorsRequestInfo
 
-Defined in: main.ts:101734
+Defined in: main.ts:101846
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:101734
 
 ### Constructor
 
-> **new DataforseoLabsErrorsRequestInfo**(`data`?): `DataforseoLabsErrorsRequestInfo`
+> **new DataforseoLabsErrorsRequestInfo**(`data?`): `DataforseoLabsErrorsRequestInfo`
 
-Defined in: main.ts:101768
+Defined in: main.ts:101880
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101768
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:101757
+Defined in: main.ts:101869
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:101764
+Defined in: main.ts:101876
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:101750
+Defined in: main.ts:101862
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: dataforseo_labs/related_keywords/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:101739
+Defined in: main.ts:101851
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:101744
+Defined in: main.ts:101856
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:101777
+Defined in: main.ts:101889
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:101777
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:101798
+Defined in: main.ts:101910
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:101798
 
 > `static` **fromJS**(`data`): `DataforseoLabsErrorsRequestInfo`
 
-Defined in: main.ts:101791
+Defined in: main.ts:101903
 
 #### Parameters
 

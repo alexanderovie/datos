@@ -6,7 +6,7 @@
 
 # Interface: IGraphItems
 
-Defined in: main.ts:92766
+Defined in: main.ts:92878
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:92766
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:92771
+Defined in: main.ts:92883
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:92773
+Defined in: main.ts:92885
 
 point value on graph
 
@@ -41,6 +41,6 @@ point value on graph
 
 > `optional` **volume**: `number`
 
-Defined in: main.ts:92775
+Defined in: main.ts:92887
 
 volume value on graph

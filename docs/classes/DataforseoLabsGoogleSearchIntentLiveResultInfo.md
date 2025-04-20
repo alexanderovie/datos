@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
-Defined in: main.ts:107320
+Defined in: main.ts:107442
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:107320
 
 ### Constructor
 
-> **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data`?): `DataforseoLabsGoogleSearchIntentLiveResultInfo`
+> **new DataforseoLabsGoogleSearchIntentLiveResultInfo**(`data?`): `DataforseoLabsGoogleSearchIntentLiveResultInfo`
 
-Defined in: main.ts:107331
+Defined in: main.ts:107453
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:107331
 
 > `optional` **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)[]
 
-Defined in: main.ts:107327
+Defined in: main.ts:107449
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:107325
+Defined in: main.ts:107447
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107323
+Defined in: main.ts:107445
 
 language code in a POST array
 if there is no data, then the value is null
@@ -81,9 +81,9 @@ if there is no data, then the value is null
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:107340
+Defined in: main.ts:107462
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:107340
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:107363
+Defined in: main.ts:107485
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:107363
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleSearchIntentLiveResultInfo`
 
-Defined in: main.ts:107356
+Defined in: main.ts:107478
 
 #### Parameters
 

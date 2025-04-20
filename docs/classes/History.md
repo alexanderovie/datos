@@ -6,7 +6,7 @@
 
 # Class: History
 
-Defined in: main.ts:122786
+Defined in: main.ts:122908
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122786
 
 ### Constructor
 
-> **new History**(`data`?): `History`
+> **new History**(`data?`): `History`
 
-Defined in: main.ts:122796
+Defined in: main.ts:122918
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122796
 
 > `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
-Defined in: main.ts:122792
+Defined in: main.ts:122914
 
 historical data for the keyword
 
@@ -54,7 +54,7 @@ historical data for the keyword
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:122790
+Defined in: main.ts:122912
 
 month
 
@@ -68,7 +68,7 @@ month
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:122788
+Defined in: main.ts:122910
 
 year
 
@@ -80,9 +80,9 @@ year
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122805
+Defined in: main.ts:122927
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:122805
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122824
+Defined in: main.ts:122946
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:122824
 
 > `static` **fromJS**(`data`): `History`
 
-Defined in: main.ts:122817
+Defined in: main.ts:122939
 
 #### Parameters
 

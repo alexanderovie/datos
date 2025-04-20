@@ -6,7 +6,7 @@
 
 # Interface: ITrendsGraphDataInfo
 
-Defined in: main.ts:145887
+Defined in: main.ts:146011
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145887
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:145890
+Defined in: main.ts:146014
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -29,7 +29,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:145893
+Defined in: main.ts:146017
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -40,7 +40,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **missing\_data**: `boolean`
 
-Defined in: main.ts:145898
+Defined in: main.ts:146022
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
@@ -51,7 +51,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 > `optional` **timestamp**: `number`
 
-Defined in: main.ts:145895
+Defined in: main.ts:146019
 
 a point in time in the Unix time format
 
@@ -61,7 +61,7 @@ a point in time in the Unix time format
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:145903
+Defined in: main.ts:146027
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range

@@ -6,7 +6,7 @@
 
 # Class: BacklinksAnchorsLiveResultInfo
 
-Defined in: main.ts:165048
+Defined in: main.ts:165250
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:165048
 
 ### Constructor
 
-> **new BacklinksAnchorsLiveResultInfo**(`data`?): `BacklinksAnchorsLiveResultInfo`
+> **new BacklinksAnchorsLiveResultInfo**(`data?`): `BacklinksAnchorsLiveResultInfo`
 
-Defined in: main.ts:165060
+Defined in: main.ts:165262
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165060
 
 > `optional` **items**: [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)[]
 
-Defined in: main.ts:165056
+Defined in: main.ts:165258
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:165054
+Defined in: main.ts:165256
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165050
+Defined in: main.ts:165252
 
 target in the post array
 
@@ -82,7 +82,7 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:165052
+Defined in: main.ts:165254
 
 total number of relevant items in the database
 
@@ -94,9 +94,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:165069
+Defined in: main.ts:165271
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:165069
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:165093
+Defined in: main.ts:165295
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:165093
 
 > `static` **fromJS**(`data`): `BacklinksAnchorsLiveResultInfo`
 
-Defined in: main.ts:165086
+Defined in: main.ts:165288
 
 #### Parameters
 

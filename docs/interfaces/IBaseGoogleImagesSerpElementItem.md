@@ -6,7 +6,7 @@
 
 # Interface: IBaseGoogleImagesSerpElementItem
 
-Defined in: main.ts:53642
+Defined in: main.ts:53756
 
 ## Extended by
 
@@ -20,7 +20,7 @@ Defined in: main.ts:53642
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53651
+Defined in: main.ts:53765
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -31,7 +31,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53648
+Defined in: main.ts:53762
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -43,7 +43,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53644
+Defined in: main.ts:53758
 
 type of element
 
@@ -53,6 +53,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53653
+Defined in: main.ts:53767
 
 the XPath of the element

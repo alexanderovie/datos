@@ -6,7 +6,7 @@
 
 # Class: LocalServicesSerpElementItem
 
-Defined in: main.ts:38565
+Defined in: main.ts:38573
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:38565
 
 ### Constructor
 
-> **new LocalServicesSerpElementItem**(`data`?): `LocalServicesSerpElementItem`
+> **new LocalServicesSerpElementItem**(`data?`): `LocalServicesSerpElementItem`
 
-Defined in: main.ts:38587
+Defined in: main.ts:38595
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38587
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:38577
+Defined in: main.ts:38585
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:38579
+Defined in: main.ts:38587
 
 contains arrays of specific images
 
@@ -88,7 +88,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38569
+Defined in: main.ts:38577
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,7 +104,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -143,7 +143,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38583
+Defined in: main.ts:38591
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -159,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38573
+Defined in: main.ts:38581
 
 title of the row
 
@@ -173,7 +173,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38575
+Defined in: main.ts:38583
 
 source URL
 
@@ -205,7 +205,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38571
+Defined in: main.ts:38579
 
 the XPath of the element
 
@@ -217,9 +217,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38592
+Defined in: main.ts:38600
 
 #### Parameters
 
@@ -239,9 +239,9 @@ Defined in: main.ts:38592
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38620
+Defined in: main.ts:38628
 
 #### Parameters
 
@@ -263,7 +263,7 @@ Defined in: main.ts:38620
 
 > `static` **fromJS**(`data`): `LocalServicesSerpElementItem`
 
-Defined in: main.ts:38613
+Defined in: main.ts:38621
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: TopSightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119395
+Defined in: main.ts:119517
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:119395
 
 ### Constructor
 
-> **new TopSightsDataforseoLabsSerpElementItem**(`data`?): `TopSightsDataforseoLabsSerpElementItem`
+> **new TopSightsDataforseoLabsSerpElementItem**(`data?`): `TopSightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119404
+Defined in: main.ts:119526
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119404
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-Defined in: main.ts:119400
+Defined in: main.ts:119522
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119397
+Defined in: main.ts:119519
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -181,9 +181,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119409
+Defined in: main.ts:119531
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:119409
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:119432
+Defined in: main.ts:119554
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:119432
 
 > `static` **fromJS**(`data`): `TopSightsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119425
+Defined in: main.ts:119547
 
 #### Parameters
 

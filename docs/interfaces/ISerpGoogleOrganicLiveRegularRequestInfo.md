@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveRegularRequestInfo
 
-Defined in: main.ts:41705
+Defined in: main.ts:41807
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:41705
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:41786
+Defined in: main.ts:41888
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:41763
+Defined in: main.ts:41865
 
 device type
 optional field
@@ -48,7 +48,7 @@ default value: desktop
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:41805
+Defined in: main.ts:41907
 
 display related results
 optional field
@@ -62,7 +62,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:41720
+Defined in: main.ts:41822
 
 keyword
 required field
@@ -79,7 +79,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:41758
+Defined in: main.ts:41860
 
 search engine language code
 required field if you don’t specify language_name
@@ -94,7 +94,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:41751
+Defined in: main.ts:41853
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,7 +109,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:41734
+Defined in: main.ts:41836
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:41744
+Defined in: main.ts:41846
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -142,7 +142,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:41727
+Defined in: main.ts:41829
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -157,7 +157,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:41812
+Defined in: main.ts:41914
 
 page crawl limit
 optional field
@@ -172,7 +172,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:41770
+Defined in: main.ts:41872
 
 device operating system
 optional field
@@ -187,7 +187,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:41777
+Defined in: main.ts:41879
 
 search engine domain
 optional field
@@ -202,7 +202,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:41816
+Defined in: main.ts:41918
 
 additional parameters of the search query
 optional field
@@ -214,7 +214,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:41822
+Defined in: main.ts:41924
 
 user-defined task identifier
 optional field
@@ -228,7 +228,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:41799
+Defined in: main.ts:41901
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -249,7 +249,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:41711
+Defined in: main.ts:41813
 
 direct URL of the search query
 optional field

@@ -6,7 +6,7 @@
 
 # Class: PageMetaInfo
 
-Defined in: main.ts:178064
+Defined in: main.ts:178474
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:178064
 
 ### Constructor
 
-> **new PageMetaInfo**(`data`?): `PageMetaInfo`
+> **new PageMetaInfo**(`data?`): `PageMetaInfo`
 
-Defined in: main.ts:178135
+Defined in: main.ts:178545
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178135
 
 > `optional` **broken\_html**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:178131
+Defined in: main.ts:178541
 
 resource errors and warnings
 
@@ -54,7 +54,7 @@ resource errors and warnings
 
 > `optional` **canonical**: `string`
 
-Defined in: main.ts:178084
+Defined in: main.ts:178494
 
 canonical page
 
@@ -68,7 +68,7 @@ canonical page
 
 > `optional` **charset**: `number`
 
-Defined in: main.ts:178069
+Defined in: main.ts:178479
 
 code page
 example: 65001
@@ -83,7 +83,7 @@ example: 65001
 
 > `optional` **content**: [`HtmlContentInfo`](HtmlContentInfo.md)
 
-Defined in: main.ts:178118
+Defined in: main.ts:178528
 
 overall information about content of the page
 
@@ -97,7 +97,7 @@ overall information about content of the page
 
 > `optional` **cumulative\_layout\_shift**: `number`
 
-Defined in: main.ts:178113
+Defined in: main.ts:178523
 
 Core Web Vitals metric measuring the layout stability of the page
 measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more.
@@ -112,7 +112,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 > `optional` **deprecated\_tags**: `string`[]
 
-Defined in: main.ts:178120
+Defined in: main.ts:178530
 
 deprecated tags on the page
 
@@ -126,7 +126,7 @@ deprecated tags on the page
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:178078
+Defined in: main.ts:178488
 
 content of the meta description tag
 
@@ -140,7 +140,7 @@ content of the meta description tag
 
 > `optional` **description\_length**: `number`
 
-Defined in: main.ts:178106
+Defined in: main.ts:178516
 
 length of the description tag in characters
 
@@ -154,7 +154,7 @@ length of the description tag in characters
 
 > `optional` **duplicate\_meta\_tags**: `string`[]
 
-Defined in: main.ts:178122
+Defined in: main.ts:178532
 
 duplicate meta tags on the page
 
@@ -168,7 +168,7 @@ duplicate meta tags on the page
 
 > `optional` **external\_links\_count**: `number`
 
-Defined in: main.ts:178088
+Defined in: main.ts:178498
 
 number of external links on the page
 
@@ -182,7 +182,7 @@ number of external links on the page
 
 > `optional` **favicon**: `string`
 
-Defined in: main.ts:178080
+Defined in: main.ts:178490
 
 favicon of the page
 
@@ -196,7 +196,7 @@ favicon of the page
 
 > `optional` **follow**: `boolean`
 
-Defined in: main.ts:178072
+Defined in: main.ts:178482
 
 indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page
 if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page
@@ -211,7 +211,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 > `optional` **generator**: `string`
 
-Defined in: main.ts:178074
+Defined in: main.ts:178484
 
 meta tag generator
 
@@ -225,7 +225,7 @@ meta tag generator
 
 > `optional` **htags**: `object`
 
-Defined in: main.ts:178076
+Defined in: main.ts:178486
 
 HTML header tags
 
@@ -243,7 +243,7 @@ HTML header tags
 
 > `optional` **images\_count**: `number`
 
-Defined in: main.ts:178092
+Defined in: main.ts:178502
 
 number of images on the page
 
@@ -257,7 +257,7 @@ number of images on the page
 
 > `optional` **images\_size**: `number`
 
-Defined in: main.ts:178094
+Defined in: main.ts:178504
 
 total size of images on the page measured in bytes
 
@@ -271,7 +271,7 @@ total size of images on the page measured in bytes
 
 > `optional` **inbound\_links\_count**: `number`
 
-Defined in: main.ts:178090
+Defined in: main.ts:178500
 
 number of internal links pointing at the page
 
@@ -285,7 +285,7 @@ number of internal links pointing at the page
 
 > `optional` **internal\_links\_count**: `number`
 
-Defined in: main.ts:178086
+Defined in: main.ts:178496
 
 number of internal links on the page
 
@@ -299,7 +299,7 @@ number of internal links on the page
 
 > `optional` **meta\_keywords**: `string`
 
-Defined in: main.ts:178082
+Defined in: main.ts:178492
 
 content of the keywords meta tag
 
@@ -313,7 +313,7 @@ content of the keywords meta tag
 
 > `optional` **meta\_title**: `string`
 
-Defined in: main.ts:178116
+Defined in: main.ts:178526
 
 meta title of the page
 meta tag in the head section of an HTML document that defines the title of a page
@@ -328,7 +328,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 > `optional` **render\_blocking\_scripts\_count**: `number`
 
-Defined in: main.ts:178108
+Defined in: main.ts:178518
 
 number of scripts on the page that block page rendering
 
@@ -342,7 +342,7 @@ number of scripts on the page that block page rendering
 
 > `optional` **render\_blocking\_stylesheets\_count**: `number`
 
-Defined in: main.ts:178110
+Defined in: main.ts:178520
 
 number of CSS styles on the page that block page rendering
 
@@ -356,7 +356,7 @@ number of CSS styles on the page that block page rendering
 
 > `optional` **scripts\_count**: `number`
 
-Defined in: main.ts:178096
+Defined in: main.ts:178506
 
 number of scripts on the page
 
@@ -370,7 +370,7 @@ number of scripts on the page
 
 > `optional` **scripts\_size**: `number`
 
-Defined in: main.ts:178098
+Defined in: main.ts:178508
 
 total size of scripts on the page measured in bytes
 
@@ -384,7 +384,7 @@ total size of scripts on the page measured in bytes
 
 > `optional` **social\_media\_tags**: `object`
 
-Defined in: main.ts:178129
+Defined in: main.ts:178539
 
 object of social media tags found on the page
 contains social media tags and their content
@@ -404,7 +404,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:178125
+Defined in: main.ts:178535
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -419,7 +419,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **stylesheets\_count**: `number`
 
-Defined in: main.ts:178100
+Defined in: main.ts:178510
 
 number of stylesheets on the page
 
@@ -433,7 +433,7 @@ number of stylesheets on the page
 
 > `optional` **stylesheets\_size**: `number`
 
-Defined in: main.ts:178102
+Defined in: main.ts:178512
 
 total size of stylesheets on the page measured in bytes
 
@@ -447,7 +447,7 @@ total size of stylesheets on the page measured in bytes
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:178066
+Defined in: main.ts:178476
 
 page title
 
@@ -461,7 +461,7 @@ page title
 
 > `optional` **title\_length**: `number`
 
-Defined in: main.ts:178104
+Defined in: main.ts:178514
 
 length of the title tag in characters
 
@@ -473,9 +473,9 @@ length of the title tag in characters
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:178144
+Defined in: main.ts:178554
 
 #### Parameters
 
@@ -491,9 +491,9 @@ Defined in: main.ts:178144
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:178210
+Defined in: main.ts:178620
 
 #### Parameters
 
@@ -511,7 +511,7 @@ Defined in: main.ts:178210
 
 > `static` **fromJS**(`data`): `PageMetaInfo`
 
-Defined in: main.ts:178203
+Defined in: main.ts:178613
 
 #### Parameters
 

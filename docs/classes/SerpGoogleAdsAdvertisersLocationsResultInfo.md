@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersLocationsResultInfo
 
-Defined in: main.ts:63022
+Defined in: main.ts:63136
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:63022
 
 ### Constructor
 
-> **new SerpGoogleAdsAdvertisersLocationsResultInfo**(`data`?): `SerpGoogleAdsAdvertisersLocationsResultInfo`
+> **new SerpGoogleAdsAdvertisersLocationsResultInfo**(`data?`): `SerpGoogleAdsAdvertisersLocationsResultInfo`
 
-Defined in: main.ts:63043
+Defined in: main.ts:63157
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:63043
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:63037
+Defined in: main.ts:63151
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:63024
+Defined in: main.ts:63138
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:63035
+Defined in: main.ts:63149
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:63026
+Defined in: main.ts:63140
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:63039
+Defined in: main.ts:63153
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:63052
+Defined in: main.ts:63166
 
 #### Parameters
 
@@ -133,9 +133,9 @@ Defined in: main.ts:63052
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:63073
+Defined in: main.ts:63187
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:63073
 
 > `static` **fromJS**(`data`): `SerpGoogleAdsAdvertisersLocationsResultInfo`
 
-Defined in: main.ts:63066
+Defined in: main.ts:63180
 
 #### Parameters
 

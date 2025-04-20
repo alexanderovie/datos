@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
-Defined in: main.ts:122413
+Defined in: main.ts:122535
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122413
 
 > `optional` **metrics**: [`HistoricalMetricsBundleInfo`](../classes/HistoricalMetricsBundleInfo.md)
 
-Defined in: main.ts:122419
+Defined in: main.ts:122541
 
 traffic data relevant to the specified domain
 
@@ -28,7 +28,7 @@ traffic data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122415
+Defined in: main.ts:122537
 
 search engine type
 
@@ -38,6 +38,6 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:122417
+Defined in: main.ts:122539
 
 target domain in a POST array

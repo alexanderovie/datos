@@ -6,7 +6,7 @@
 
 # Interface: IProductConsiderationsExpandedElement
 
-Defined in: main.ts:39309
+Defined in: main.ts:39317
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:39309
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
-Defined in: main.ts:39334
+Defined in: main.ts:39342
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:39317
+Defined in: main.ts:39325
 
 breadcrumb of the Ad element in SERP
 
@@ -40,7 +40,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39321
+Defined in: main.ts:39329
 
 domain where a link points
 
@@ -50,7 +50,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:39315
+Defined in: main.ts:39323
 
 the title of the featured snippets source page
 
@@ -60,7 +60,7 @@ the title of the featured snippets source page
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:39330
+Defined in: main.ts:39338
 
 search queries related to the elment
 
@@ -70,7 +70,7 @@ search queries related to the elment
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:39319
+Defined in: main.ts:39327
 
 text alongside the link title
 
@@ -80,7 +80,7 @@ text alongside the link title
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:39328
+Defined in: main.ts:39336
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -93,7 +93,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39313
+Defined in: main.ts:39321
 
 title of the carousel item
 
@@ -103,7 +103,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39311
+Defined in: main.ts:39319
 
 type of element
 
@@ -113,6 +113,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39323
+Defined in: main.ts:39331
 
 URL of element

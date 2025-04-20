@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116744
+Defined in: main.ts:116866
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:116744
 
 ### Constructor
 
-> **new PeopleAlsoAskDataforseoLabsSerpElementItem**(`data`?): `PeopleAlsoAskDataforseoLabsSerpElementItem`
+> **new PeopleAlsoAskDataforseoLabsSerpElementItem**(`data?`): `PeopleAlsoAskDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116753
+Defined in: main.ts:116875
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116753
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
-Defined in: main.ts:116749
+Defined in: main.ts:116871
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:116746
+Defined in: main.ts:116868
 
 search engine type
 
@@ -147,7 +147,7 @@ search engine type
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -181,9 +181,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:116758
+Defined in: main.ts:116880
 
 #### Parameters
 
@@ -203,9 +203,9 @@ Defined in: main.ts:116758
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:116781
+Defined in: main.ts:116903
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:116781
 
 > `static` **fromJS**(`data`): `PeopleAlsoAskDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116774
+Defined in: main.ts:116896
 
 #### Parameters
 

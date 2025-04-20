@@ -6,7 +6,7 @@
 
 # Class: PriceInfo
 
-Defined in: main.ts:25065
+Defined in: main.ts:25073
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25065
 
 ### Constructor
 
-> **new PriceInfo**(`data`?): `PriceInfo`
+> **new PriceInfo**(`data?`): `PriceInfo`
 
-Defined in: main.ts:25087
+Defined in: main.ts:25095
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25087
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:25077
+Defined in: main.ts:25085
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -55,7 +55,7 @@ ISO code of the currency applied to the price
 
 > `optional` **current**: `number`
 
-Defined in: main.ts:25068
+Defined in: main.ts:25076
 
 current price
 indicates the current price of the product or service featured in the result
@@ -70,7 +70,7 @@ indicates the current price of the product or service featured in the result
 
 > `optional` **displayed\_price**: `string`
 
-Defined in: main.ts:25083
+Defined in: main.ts:25091
 
 price string in the result
 raw price string as provided in the result
@@ -85,7 +85,7 @@ raw price string as provided in the result
 
 > `optional` **is\_price\_range**: `boolean`
 
-Defined in: main.ts:25080
+Defined in: main.ts:25088
 
 price is provided as a range
 indicates whether a price is provided in a range
@@ -100,7 +100,7 @@ indicates whether a price is provided in a range
 
 > `optional` **max\_value**: `number`
 
-Defined in: main.ts:25074
+Defined in: main.ts:25082
 
 the maximum price
 the maximum price of the product or service as indicated in the result
@@ -115,7 +115,7 @@ the maximum price of the product or service as indicated in the result
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:25071
+Defined in: main.ts:25079
 
 regular price
 indicates the regular price of the product or service with no discounts applied
@@ -128,9 +128,9 @@ indicates the regular price of the product or service with no discounts applied
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25096
+Defined in: main.ts:25104
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:25096
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25118
+Defined in: main.ts:25126
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:25118
 
 > `static` **fromJS**(`data`): `PriceInfo`
 
-Defined in: main.ts:25111
+Defined in: main.ts:25119
 
 #### Parameters
 

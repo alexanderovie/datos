@@ -6,7 +6,7 @@
 
 # Class: AmazonRankedSerpElement
 
-Defined in: main.ts:125042
+Defined in: main.ts:125164
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:125042
 
 ### Constructor
 
-> **new AmazonRankedSerpElement**(`data`?): `AmazonRankedSerpElement`
+> **new AmazonRankedSerpElement**(`data?`): `AmazonRankedSerpElement`
 
-Defined in: main.ts:125071
+Defined in: main.ts:125193
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125071
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:125050
+Defined in: main.ts:125172
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:125062
+Defined in: main.ts:125184
 
 date and time when SERP data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:125067
+Defined in: main.ts:125189
 
 previous to the most recent update of SERP data
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -89,7 +89,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:125057
+Defined in: main.ts:125179
 
 total number of results in Amazon SERP
 
@@ -103,7 +103,7 @@ total number of results in Amazon SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125044
+Defined in: main.ts:125166
 
 search engine type
 
@@ -117,7 +117,7 @@ search engine type
 
 > `optional` **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-Defined in: main.ts:125047
+Defined in: main.ts:125169
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -132,7 +132,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:125055
+Defined in: main.ts:125177
 
 direct URL to Amazon results
 contains types of all search results (items) found in the returned SERP;
@@ -147,9 +147,9 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:125080
+Defined in: main.ts:125202
 
 #### Parameters
 
@@ -165,9 +165,9 @@ Defined in: main.ts:125080
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:125107
+Defined in: main.ts:125229
 
 #### Parameters
 
@@ -185,7 +185,7 @@ Defined in: main.ts:125107
 
 > `static` **fromJS**(`data`): `AmazonRankedSerpElement`
 
-Defined in: main.ts:125100
+Defined in: main.ts:125222
 
 #### Parameters
 

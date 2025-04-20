@@ -6,7 +6,7 @@
 
 # Interface: ITwitterSerpElementItem
 
-Defined in: main.ts:34546
+Defined in: main.ts:34554
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34546
 
 > `optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-Defined in: main.ts:34558
+Defined in: main.ts:34566
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34550
+Defined in: main.ts:34558
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34562
+Defined in: main.ts:34570
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34554
+Defined in: main.ts:34562
 
 title of the row
 
@@ -97,7 +97,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34556
+Defined in: main.ts:34564
 
 source URL
 
@@ -121,6 +121,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34552
+Defined in: main.ts:34560
 
 the XPath of the element

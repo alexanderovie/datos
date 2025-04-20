@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
-Defined in: main.ts:157902
+Defined in: main.ts:158026
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:157902
 
 ### Constructor
 
-> **new KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo**(`data`?): `KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`
+> **new KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo**(`data?`): `KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`
 
-Defined in: main.ts:158014
+Defined in: main.ts:158138
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:158014
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:157969
+Defined in: main.ts:158093
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:157982
+Defined in: main.ts:158106
 
 ending date of the time range
 optional field
@@ -90,7 +90,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:157947
+Defined in: main.ts:158071
 
 device type
 optional field
@@ -108,7 +108,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:157909
+Defined in: main.ts:158033
 
 keywords
 required field
@@ -127,7 +127,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:157941
+Defined in: main.ts:158065
 
 search engine language code
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:157936
+Defined in: main.ts:158060
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:157923
+Defined in: main.ts:158047
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:157931
+Defined in: main.ts:158055
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:157916
+Defined in: main.ts:158040
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:157956
+Defined in: main.ts:158080
 
 aggregates the returned data to a certain time period
 optional field
@@ -240,7 +240,7 @@ default value:  monthly
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:158004
+Defined in: main.ts:158128
 
 notification URL of a completed task
 optional field
@@ -263,7 +263,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:157993
+Defined in: main.ts:158117
 
 return URL for sending task results
 optional field
@@ -286,7 +286,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:158010
+Defined in: main.ts:158134
 
 user-defined task identifier
 optional field
@@ -302,9 +302,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:158023
+Defined in: main.ts:158147
 
 #### Parameters
 
@@ -320,9 +320,9 @@ Defined in: main.ts:158023
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:158056
+Defined in: main.ts:158180
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:158056
 
 > `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`
 
-Defined in: main.ts:158049
+Defined in: main.ts:158173
 
 #### Parameters
 

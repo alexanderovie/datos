@@ -6,7 +6,7 @@
 
 # Class: GoogleHotelsSerpElementItem
 
-Defined in: main.ts:38665
+Defined in: main.ts:38673
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:38665
 
 ### Constructor
 
-> **new GoogleHotelsSerpElementItem**(`data`?): `GoogleHotelsSerpElementItem`
+> **new GoogleHotelsSerpElementItem**(`data?`): `GoogleHotelsSerpElementItem`
 
-Defined in: main.ts:38687
+Defined in: main.ts:38695
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:38687
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:38679
+Defined in: main.ts:38687
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:38675
+Defined in: main.ts:38683
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -90,7 +90,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:38669
+Defined in: main.ts:38677
 
 the alignment of the element in SERP
 can take the following values:
@@ -106,7 +106,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -125,7 +125,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -145,7 +145,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38683
+Defined in: main.ts:38691
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,7 +161,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38677
+Defined in: main.ts:38685
 
 source URL
 
@@ -193,7 +193,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:38671
+Defined in: main.ts:38679
 
 the XPath of the element
 
@@ -205,9 +205,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38692
+Defined in: main.ts:38700
 
 #### Parameters
 
@@ -227,9 +227,9 @@ Defined in: main.ts:38692
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38715
+Defined in: main.ts:38723
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:38715
 
 > `static` **fromJS**(`data`): `GoogleHotelsSerpElementItem`
 
-Defined in: main.ts:38708
+Defined in: main.ts:38716
 
 #### Parameters
 

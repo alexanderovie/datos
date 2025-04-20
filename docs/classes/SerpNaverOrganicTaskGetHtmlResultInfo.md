@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:84832
+Defined in: main.ts:84944
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:84832
 
 ### Constructor
 
-> **new SerpNaverOrganicTaskGetHtmlResultInfo**(`data`?): `SerpNaverOrganicTaskGetHtmlResultInfo`
+> **new SerpNaverOrganicTaskGetHtmlResultInfo**(`data?`): `SerpNaverOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:84856
+Defined in: main.ts:84968
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84856
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:84848
+Defined in: main.ts:84960
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:84852
+Defined in: main.ts:84964
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:84850
+Defined in: main.ts:84962
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:84835
+Defined in: main.ts:84947
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:84843
+Defined in: main.ts:84955
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84841
+Defined in: main.ts:84953
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:84839
+Defined in: main.ts:84951
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:84837
+Defined in: main.ts:84949
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:84865
+Defined in: main.ts:84977
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:84865
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:84893
+Defined in: main.ts:85005
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:84893
 
 > `static` **fromJS**(`data`): `SerpNaverOrganicTaskGetHtmlResultInfo`
 
-Defined in: main.ts:84886
+Defined in: main.ts:84998
 
 #### Parameters
 

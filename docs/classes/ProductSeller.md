@@ -6,7 +6,7 @@
 
 # Class: ProductSeller
 
-Defined in: main.ts:202096
+Defined in: main.ts:202626
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:202096
 
 ### Constructor
 
-> **new ProductSeller**(`data`?): `ProductSeller`
+> **new ProductSeller**(`data?`): `ProductSeller`
 
-Defined in: main.ts:202118
+Defined in: main.ts:202648
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:202118
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
-Defined in: main.ts:202114
+Defined in: main.ts:202644
 
 delivery information
 product delivery information
@@ -55,7 +55,7 @@ product delivery information
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:202111
+Defined in: main.ts:202641
 
 product price
 product price details on the seller’s website
@@ -70,7 +70,7 @@ product price details on the seller’s website
 
 > `optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:202105
+Defined in: main.ts:202635
 
 rating of the seller
 
@@ -84,7 +84,7 @@ rating of the seller
 
 > `optional` **seller\_review\_count**: `number`
 
-Defined in: main.ts:202108
+Defined in: main.ts:202638
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -99,7 +99,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:202100
+Defined in: main.ts:202630
 
 product title
 
@@ -113,7 +113,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:202098
+Defined in: main.ts:202628
 
 type of element
 
@@ -127,7 +127,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:202103
+Defined in: main.ts:202633
 
 seller url
 url of the page where the product is sold
@@ -140,9 +140,9 @@ url of the page where the product is sold
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:202127
+Defined in: main.ts:202657
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:202127
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:202150
+Defined in: main.ts:202680
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:202150
 
 > `static` **fromJS**(`data`): `ProductSeller`
 
-Defined in: main.ts:202143
+Defined in: main.ts:202673
 
 #### Parameters
 

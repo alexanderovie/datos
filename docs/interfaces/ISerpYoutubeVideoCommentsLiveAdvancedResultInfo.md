@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedResultInfo
 
-Defined in: main.ts:77324
+Defined in: main.ts:77436
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:77324
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:77335
+Defined in: main.ts:77447
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **comments\_count**: `number`
 
-Defined in: main.ts:77355
+Defined in: main.ts:77467
 
 number of comments on the video
 
@@ -39,7 +39,7 @@ number of comments on the video
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:77340
+Defined in: main.ts:77452
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:77351
+Defined in: main.ts:77463
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -65,7 +65,7 @@ youtube_comment
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
-Defined in: main.ts:77359
+Defined in: main.ts:77471
 
 elements of search results found in SERP
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:77357
+Defined in: main.ts:77469
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77332
+Defined in: main.ts:77444
 
 language code in a POST array
 
@@ -95,7 +95,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77330
+Defined in: main.ts:77442
 
 location code in a POST array
 
@@ -105,7 +105,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
 
-Defined in: main.ts:77346
+Defined in: main.ts:77458
 
 search refinement chips
 equals null
@@ -116,7 +116,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:77328
+Defined in: main.ts:77440
 
 search engine domain in a POST array
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:77343
+Defined in: main.ts:77455
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -137,7 +137,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:77353
+Defined in: main.ts:77465
 
 title of the video
 
@@ -147,6 +147,6 @@ title of the video
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:77326
+Defined in: main.ts:77438
 
 ID of the video received in a POST array

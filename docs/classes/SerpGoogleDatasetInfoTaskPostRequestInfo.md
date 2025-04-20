@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoTaskPostRequestInfo
 
-Defined in: main.ts:61668
+Defined in: main.ts:61782
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:61668
 
 ### Constructor
 
-> **new SerpGoogleDatasetInfoTaskPostRequestInfo**(`data`?): `SerpGoogleDatasetInfoTaskPostRequestInfo`
+> **new SerpGoogleDatasetInfoTaskPostRequestInfo**(`data?`): `SerpGoogleDatasetInfoTaskPostRequestInfo`
 
-Defined in: main.ts:61740
+Defined in: main.ts:61854
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:61740
 
 > `optional` **dataset\_id**: `string`
 
-Defined in: main.ts:61674
+Defined in: main.ts:61788
 
 ID of the dataset
 required field
@@ -58,7 +58,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:61698
+Defined in: main.ts:61812
 
 device type
 optional field
@@ -74,7 +74,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:61694
+Defined in: main.ts:61808
 
 search engine language code
 optional field
@@ -92,7 +92,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:61688
+Defined in: main.ts:61802
 
 full name of search engine language
 optional field
@@ -110,7 +110,7 @@ English
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:61703
+Defined in: main.ts:61817
 
 device operating system
 optional field
@@ -127,7 +127,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:61736
+Defined in: main.ts:61850
 
 notification URL of a completed task
 optional field
@@ -150,7 +150,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:61725
+Defined in: main.ts:61839
 
 postback_url datatype
 required field if you specify postback_url
@@ -167,7 +167,7 @@ possible value: advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:61720
+Defined in: main.ts:61834
 
 return URL for sending task results
 optional field
@@ -190,7 +190,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:61682
+Defined in: main.ts:61796
 
 task priority
 optional field
@@ -210,7 +210,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61709
+Defined in: main.ts:61823
 
 user-defined task identifier
 optional field
@@ -226,9 +226,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:61749
+Defined in: main.ts:61863
 
 #### Parameters
 
@@ -244,9 +244,9 @@ Defined in: main.ts:61749
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:61775
+Defined in: main.ts:61889
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Defined in: main.ts:61775
 
 > `static` **fromJS**(`data`): `SerpGoogleDatasetInfoTaskPostRequestInfo`
 
-Defined in: main.ts:61768
+Defined in: main.ts:61882
 
 #### Parameters
 

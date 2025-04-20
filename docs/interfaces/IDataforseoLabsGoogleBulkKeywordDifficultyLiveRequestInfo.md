@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:106708
+Defined in: main.ts:106820
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:106708
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:106715
+Defined in: main.ts:106827
 
 target keywords
 required field
@@ -33,7 +33,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106743
+Defined in: main.ts:106855
 
 language code
 required field if don’t specify language_name
@@ -48,7 +48,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:106736
+Defined in: main.ts:106848
 
 full name of the language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106729
+Defined in: main.ts:106841
 
 location code
 required field if don’t specify location_name
@@ -78,7 +78,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:106722
+Defined in: main.ts:106834
 
 full name of the location
 required field if don’t specify location_code
@@ -93,7 +93,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:106749
+Defined in: main.ts:106861
 
 user-defined task identifier
 optional field

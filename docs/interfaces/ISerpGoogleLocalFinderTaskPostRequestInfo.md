@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTaskPostRequestInfo
 
-Defined in: main.ts:45878
+Defined in: main.ts:45980
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:45878
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:45954
+Defined in: main.ts:46056
 
 parsing depth
 optional field
@@ -36,7 +36,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:45937
+Defined in: main.ts:46039
 
 device type
 optional field
@@ -49,7 +49,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:45886
+Defined in: main.ts:45988
 
 keyword
 required field
@@ -65,7 +65,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:45932
+Defined in: main.ts:46034
 
 search engine language code
 required field if you don’t specify language_name
@@ -79,7 +79,7 @@ example:en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:45926
+Defined in: main.ts:46028
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:45908
+Defined in: main.ts:46010
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:45919
+Defined in: main.ts:46021
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -128,7 +128,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:45901
+Defined in: main.ts:46003
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -143,7 +143,7 @@ London,England,United Kingdom
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:45959
+Defined in: main.ts:46061
 
 filter results by minimum rating
 optional field
@@ -156,7 +156,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:45944
+Defined in: main.ts:46046
 
 device operating system
 optional field
@@ -171,7 +171,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:46002
+Defined in: main.ts:46104
 
 notification URL of a completed task
 optional field
@@ -190,7 +190,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:45991
+Defined in: main.ts:46093
 
 postback_url datatype
 required field if you specify postback_url
@@ -204,7 +204,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:45985
+Defined in: main.ts:46087
 
 return URL for sending task results
 optional field
@@ -223,7 +223,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:45894
+Defined in: main.ts:45996
 
 task priority
 optional field
@@ -239,7 +239,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:45974
+Defined in: main.ts:46076
 
 user-defined task identifier
 optional field
@@ -253,7 +253,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_filter**: `string`
 
-Defined in: main.ts:45968
+Defined in: main.ts:46070
 
 filter results by open hours
 optional field

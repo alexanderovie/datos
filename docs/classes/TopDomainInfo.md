@@ -6,7 +6,7 @@
 
 # Class: TopDomainInfo
 
-Defined in: main.ts:25283
+Defined in: main.ts:25291
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25283
 
 ### Constructor
 
-> **new TopDomainInfo**(`data`?): `TopDomainInfo`
+> **new TopDomainInfo**(`data?`): `TopDomainInfo`
 
-Defined in: main.ts:25289
+Defined in: main.ts:25297
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25289
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:25285
+Defined in: main.ts:25293
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:25285
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:25284
+Defined in: main.ts:25292
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:25284
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25298
+Defined in: main.ts:25306
 
 #### Parameters
 
@@ -80,9 +80,9 @@ Defined in: main.ts:25298
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25316
+Defined in: main.ts:25324
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:25316
 
 > `static` **fromJS**(`data`): `TopDomainInfo`
 
-Defined in: main.ts:25309
+Defined in: main.ts:25317
 
 #### Parameters
 

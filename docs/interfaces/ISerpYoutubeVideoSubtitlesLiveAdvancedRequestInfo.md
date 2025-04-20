@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
-Defined in: main.ts:75531
+Defined in: main.ts:75643
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:75531
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:75576
+Defined in: main.ts:75688
 
 device type
 optional field
@@ -30,7 +30,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:75572
+Defined in: main.ts:75684
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:75565
+Defined in: main.ts:75677
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:75558
+Defined in: main.ts:75670
 
 search engine location code
 required field if you don’t specify location_name 
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:75551
+Defined in: main.ts:75663
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:75581
+Defined in: main.ts:75693
 
 device operating system
 optional field
@@ -103,7 +103,7 @@ default value: windows
 
 > `optional` **subtitles\_language**: `string`
 
-Defined in: main.ts:75540
+Defined in: main.ts:75652
 
 language code of original text
 you can get the language code from YouTube Video Info result
@@ -114,7 +114,7 @@ you can get the language code from YouTube Video Info result
 
 > `optional` **subtitles\_translate\_language**: `string`
 
-Defined in: main.ts:75544
+Defined in: main.ts:75656
 
 language code of translated text
 possible values:
@@ -126,7 +126,7 @@ possible values:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:75587
+Defined in: main.ts:75699
 
 user-defined task identifier
 optional field
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:75537
+Defined in: main.ts:75649
 
 ID of the video
 required field

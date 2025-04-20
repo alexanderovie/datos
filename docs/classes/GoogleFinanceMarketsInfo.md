@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketsInfo
 
-Defined in: main.ts:88202
+Defined in: main.ts:88314
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:88202
 
 ### Constructor
 
-> **new GoogleFinanceMarketsInfo**(`data`?): `GoogleFinanceMarketsInfo`
+> **new GoogleFinanceMarketsInfo**(`data?`): `GoogleFinanceMarketsInfo`
 
-Defined in: main.ts:88211
+Defined in: main.ts:88323
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88211
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88207
+Defined in: main.ts:88319
 
 elements of search results found in SERP
 
@@ -54,7 +54,7 @@ elements of search results found in SERP
 
 > `optional` **market**: `string`
 
-Defined in: main.ts:88205
+Defined in: main.ts:88317
 
 financial market identifier
 possible values: US, Europe, Asia, Currencies, Crypto, Futures
@@ -67,9 +67,9 @@ possible values: US, Europe, Asia, Currencies, Crypto, Futures
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88220
+Defined in: main.ts:88332
 
 #### Parameters
 
@@ -85,9 +85,9 @@ Defined in: main.ts:88220
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88242
+Defined in: main.ts:88354
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:88242
 
 > `static` **fromJS**(`data`): `GoogleFinanceMarketsInfo`
 
-Defined in: main.ts:88235
+Defined in: main.ts:88347
 
 #### Parameters
 

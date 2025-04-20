@@ -6,7 +6,7 @@
 
 # Class: TargetInfo
 
-Defined in: main.ts:162112
+Defined in: main.ts:162256
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:162112
 
 ### Constructor
 
-> **new TargetInfo**(`data`?): `TargetInfo`
+> **new TargetInfo**(`data?`): `TargetInfo`
 
-Defined in: main.ts:162133
+Defined in: main.ts:162277
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162133
 
 > `optional` **cms**: `string`
 
-Defined in: main.ts:162116
+Defined in: main.ts:162260
 
 content management system
 
@@ -54,7 +54,7 @@ content management system
 
 > `optional` **country**: `string`
 
-Defined in: main.ts:162122
+Defined in: main.ts:162266
 
 country code that the target domain is determined to belong to
 
@@ -68,7 +68,7 @@ country code that the target domain is determined to belong to
 
 > `optional` **ip\_address**: `string`
 
-Defined in: main.ts:162120
+Defined in: main.ts:162264
 
 IP address of the target
 
@@ -82,7 +82,7 @@ IP address of the target
 
 > `optional` **is\_ip**: `boolean`
 
-Defined in: main.ts:162125
+Defined in: main.ts:162269
 
 indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name
@@ -97,7 +97,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 > `optional` **platform\_type**: `string`[]
 
-Defined in: main.ts:162118
+Defined in: main.ts:162262
 
 platform type
 
@@ -111,7 +111,7 @@ platform type
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:162114
+Defined in: main.ts:162258
 
 server
 
@@ -125,7 +125,7 @@ server
 
 > `optional` **target\_spam\_score**: `number`
 
-Defined in: main.ts:162129
+Defined in: main.ts:162273
 
 spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
@@ -139,9 +139,9 @@ learn more about how the metric is calculated on this help center page
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:162142
+Defined in: main.ts:162286
 
 #### Parameters
 
@@ -157,9 +157,9 @@ Defined in: main.ts:162142
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:162169
+Defined in: main.ts:162313
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:162169
 
 > `static` **fromJS**(`data`): `TargetInfo`
 
-Defined in: main.ts:162162
+Defined in: main.ts:162306
 
 #### Parameters
 

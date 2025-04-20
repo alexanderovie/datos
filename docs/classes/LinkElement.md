@@ -6,7 +6,7 @@
 
 # Class: LinkElement
 
-Defined in: main.ts:24669
+Defined in: main.ts:24677
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24669
 
 ### Constructor
 
-> **new LinkElement**(`data`?): `LinkElement`
+> **new LinkElement**(`data?`): `LinkElement`
 
-Defined in: main.ts:24687
+Defined in: main.ts:24695
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24687
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:24677
+Defined in: main.ts:24685
 
 description of the results element
 
@@ -54,7 +54,7 @@ description of the results element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:24681
+Defined in: main.ts:24689
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:24675
+Defined in: main.ts:24683
 
 text alongside the link title
 
@@ -82,7 +82,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:24673
+Defined in: main.ts:24681
 
 title of a given link element
 
@@ -96,7 +96,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24671
+Defined in: main.ts:24679
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:24679
+Defined in: main.ts:24687
 
 URL
 
@@ -124,7 +124,7 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:24683
+Defined in: main.ts:24691
 
 the XPath of the element
 
@@ -136,9 +136,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24696
+Defined in: main.ts:24704
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:24696
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24719
+Defined in: main.ts:24727
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:24719
 
 > `static` **fromJS**(`data`): `LinkElement`
 
-Defined in: main.ts:24712
+Defined in: main.ts:24720
 
 #### Parameters
 

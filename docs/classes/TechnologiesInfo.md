@@ -6,7 +6,7 @@
 
 # Class: TechnologiesInfo
 
-Defined in: main.ts:25588
+Defined in: main.ts:25596
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25588
 
 ### Constructor
 
-> **new TechnologiesInfo**(`data`?): `TechnologiesInfo`
+> **new TechnologiesInfo**(`data?`): `TechnologiesInfo`
 
-Defined in: main.ts:25608
+Defined in: main.ts:25616
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25608
 
 > `optional` **add\_ons**: `object`
 
-Defined in: main.ts:25589
+Defined in: main.ts:25597
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:25589
 
 > `optional` **analytics**: `object`
 
-Defined in: main.ts:25590
+Defined in: main.ts:25598
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:25590
 
 > `optional` **business\_tools**: `object`
 
-Defined in: main.ts:25593
+Defined in: main.ts:25601
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:25593
 
 > `optional` **communication**: `object`
 
-Defined in: main.ts:25603
+Defined in: main.ts:25611
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:25603
 
 > `optional` **content**: `object`
 
-Defined in: main.ts:25600
+Defined in: main.ts:25608
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:25600
 
 > `optional` **location**: `object`
 
-Defined in: main.ts:25599
+Defined in: main.ts:25607
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:25599
 
 > `optional` **marketing**: `object`
 
-Defined in: main.ts:25602
+Defined in: main.ts:25610
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:25602
 
 > `optional` **media**: `object`
 
-Defined in: main.ts:25601
+Defined in: main.ts:25609
 
 #### Index Signature
 
@@ -168,7 +168,7 @@ Defined in: main.ts:25601
 
 > `optional` **other**: `object`
 
-Defined in: main.ts:25595
+Defined in: main.ts:25603
 
 #### Index Signature
 
@@ -184,7 +184,7 @@ Defined in: main.ts:25595
 
 > `optional` **privacy**: `object`
 
-Defined in: main.ts:25597
+Defined in: main.ts:25605
 
 #### Index Signature
 
@@ -200,7 +200,7 @@ Defined in: main.ts:25597
 
 > `optional` **sales**: `object`
 
-Defined in: main.ts:25594
+Defined in: main.ts:25602
 
 #### Index Signature
 
@@ -216,7 +216,7 @@ Defined in: main.ts:25594
 
 > `optional` **security**: `object`
 
-Defined in: main.ts:25592
+Defined in: main.ts:25600
 
 #### Index Signature
 
@@ -232,7 +232,7 @@ Defined in: main.ts:25592
 
 > `optional` **servers**: `object`
 
-Defined in: main.ts:25598
+Defined in: main.ts:25606
 
 #### Index Signature
 
@@ -248,7 +248,7 @@ Defined in: main.ts:25598
 
 > `optional` **user\_generated\_content**: `object`
 
-Defined in: main.ts:25596
+Defined in: main.ts:25604
 
 #### Index Signature
 
@@ -264,7 +264,7 @@ Defined in: main.ts:25596
 
 > `optional` **utilities**: `object`
 
-Defined in: main.ts:25604
+Defined in: main.ts:25612
 
 #### Index Signature
 
@@ -280,7 +280,7 @@ Defined in: main.ts:25604
 
 > `optional` **web\_development**: `object`
 
-Defined in: main.ts:25591
+Defined in: main.ts:25599
 
 #### Index Signature
 
@@ -294,9 +294,9 @@ Defined in: main.ts:25591
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25617
+Defined in: main.ts:25625
 
 #### Parameters
 
@@ -312,9 +312,9 @@ Defined in: main.ts:25617
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25745
+Defined in: main.ts:25753
 
 #### Parameters
 
@@ -332,7 +332,7 @@ Defined in: main.ts:25745
 
 > `static` **fromJS**(`data`): `TechnologiesInfo`
 
-Defined in: main.ts:25738
+Defined in: main.ts:25746
 
 #### Parameters
 

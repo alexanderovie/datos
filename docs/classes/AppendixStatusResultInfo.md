@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusResultInfo
 
-Defined in: main.ts:250766
+Defined in: main.ts:251592
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:250766
 
 ### Constructor
 
-> **new AppendixStatusResultInfo**(`data`?): `AppendixStatusResultInfo`
+> **new AppendixStatusResultInfo**(`data?`): `AppendixStatusResultInfo`
 
-Defined in: main.ts:250797
+Defined in: main.ts:251623
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:250797
 
 > `optional` **api**: `string`
 
-Defined in: main.ts:250781
+Defined in: main.ts:251607
 
 name of the API
 the list of APIs:
@@ -67,7 +67,7 @@ content_generation
 
 > `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
 
-Defined in: main.ts:250793
+Defined in: main.ts:251619
 
 array of objects that contain status information for API endpoints
 
@@ -81,7 +81,7 @@ array of objects that contain status information for API endpoints
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:250791
+Defined in: main.ts:251617
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -101,9 +101,9 @@ send_delay
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:250806
+Defined in: main.ts:251632
 
 #### Parameters
 
@@ -119,9 +119,9 @@ Defined in: main.ts:250806
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:250829
+Defined in: main.ts:251655
 
 #### Parameters
 
@@ -139,7 +139,7 @@ Defined in: main.ts:250829
 
 > `static` **fromJS**(`data`): `AppendixStatusResultInfo`
 
-Defined in: main.ts:250822
+Defined in: main.ts:251648
 
 #### Parameters
 

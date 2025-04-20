@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:116472
+Defined in: main.ts:116594
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:116472
 
 ### Constructor
 
-> **new KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem**(`data`?): `KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`
+> **new KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem**(`data?`): `KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116486
+Defined in: main.ts:116608
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:116486
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:116478
+Defined in: main.ts:116600
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:116482
+Defined in: main.ts:116604
 
 elements of search results found in SERP
 
@@ -90,7 +90,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:116480
+Defined in: main.ts:116602
 
 link of the element
 
@@ -104,7 +104,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -162,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:116474
+Defined in: main.ts:116596
 
 title of the result in SERP
 
@@ -176,7 +176,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -194,7 +194,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -210,9 +210,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:116491
+Defined in: main.ts:116613
 
 #### Parameters
 
@@ -232,9 +232,9 @@ Defined in: main.ts:116491
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:116516
+Defined in: main.ts:116638
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:116516
 
 > `static` **fromJS**(`data`): `KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:116509
+Defined in: main.ts:116631
 
 #### Parameters
 

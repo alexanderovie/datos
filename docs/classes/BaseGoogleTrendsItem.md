@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleTrendsItem
 
-Defined in: main.ts:23839
+Defined in: main.ts:23847
 
 ## Extended by
 
@@ -23,9 +23,9 @@ Defined in: main.ts:23839
 
 ### Constructor
 
-> **new BaseGoogleTrendsItem**(`data`?): `BaseGoogleTrendsItem`
+> **new BaseGoogleTrendsItem**(`data?`): `BaseGoogleTrendsItem`
 
-Defined in: main.ts:23853
+Defined in: main.ts:23861
 
 #### Parameters
 
@@ -43,7 +43,7 @@ Defined in: main.ts:23853
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23851
+Defined in: main.ts:23859
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: main.ts:23851
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23849
+Defined in: main.ts:23857
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -66,7 +66,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23844
+Defined in: main.ts:23852
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -81,7 +81,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23846
+Defined in: main.ts:23854
 
 title of the element in Google Trends
 
@@ -95,7 +95,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23841
+Defined in: main.ts:23849
 
 type of element
 
@@ -107,9 +107,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:23863
+Defined in: main.ts:23871
 
 #### Parameters
 
@@ -125,9 +125,9 @@ Defined in: main.ts:23863
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:23903
+Defined in: main.ts:23911
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:23903
 
 > `static` **fromJS**(`data`): `BaseGoogleTrendsItem`
 
-Defined in: main.ts:23876
+Defined in: main.ts:23884
 
 #### Parameters
 

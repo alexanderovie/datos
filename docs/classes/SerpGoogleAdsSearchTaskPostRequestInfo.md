@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTaskPostRequestInfo
 
-Defined in: main.ts:64569
+Defined in: main.ts:64683
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:64569
 
 ### Constructor
 
-> **new SerpGoogleAdsSearchTaskPostRequestInfo**(`data`?): `SerpGoogleAdsSearchTaskPostRequestInfo`
+> **new SerpGoogleAdsSearchTaskPostRequestInfo**(`data?`): `SerpGoogleAdsSearchTaskPostRequestInfo`
 
-Defined in: main.ts:64683
+Defined in: main.ts:64797
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:64683
 
 > `optional` **advertiser\_ids**: `string`[]
 
-Defined in: main.ts:64578
+Defined in: main.ts:64692
 
 advertiser identifiers
 required field if target is not specified
@@ -57,7 +57,7 @@ advertiser_ids values for this parameter can be found in the Google Ads Advertis
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:64619
+Defined in: main.ts:64733
 
 starting date of the time range
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:64628
+Defined in: main.ts:64742
 
 ending date of the time range
 optional field
@@ -99,7 +99,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:64637
+Defined in: main.ts:64751
 
 parsing depth
 optional field
@@ -120,7 +120,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:64610
+Defined in: main.ts:64724
 
 ad format
 optional field
@@ -136,7 +136,7 @@ possible values: all, text, image, video
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:64594
+Defined in: main.ts:64708
 
 search engine location code
 optional field
@@ -156,7 +156,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:64601
+Defined in: main.ts:64715
 
 GPS coordinates of a location
 optional field
@@ -175,7 +175,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:64586
+Defined in: main.ts:64700
 
 full name of search engine location
 optional field
@@ -195,7 +195,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:64679
+Defined in: main.ts:64793
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ learn more on our Help Center
 
 > `optional` **platform**: `string`
 
-Defined in: main.ts:64606
+Defined in: main.ts:64720
 
 advertising platform
 optional field
@@ -235,7 +235,7 @@ default value: all
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:64668
+Defined in: main.ts:64782
 
 postback_url datatype
 required field if you specify postback_url
@@ -253,7 +253,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:64662
+Defined in: main.ts:64776
 
 return URL for sending task results
 optional field
@@ -276,7 +276,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:64645
+Defined in: main.ts:64759
 
 task priority
 optional field
@@ -296,7 +296,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:64651
+Defined in: main.ts:64765
 
 user-defined task identifier
 optional field
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:64573
+Defined in: main.ts:64687
 
 domain name
 required field if advertiser_ids is not specified
@@ -328,9 +328,9 @@ domain name associated with an advertiser account
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:64692
+Defined in: main.ts:64806
 
 #### Parameters
 
@@ -346,9 +346,9 @@ Defined in: main.ts:64692
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:64727
+Defined in: main.ts:64841
 
 #### Parameters
 
@@ -366,7 +366,7 @@ Defined in: main.ts:64727
 
 > `static` **fromJS**(`data`): `SerpGoogleAdsSearchTaskPostRequestInfo`
 
-Defined in: main.ts:64720
+Defined in: main.ts:64834
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListRequestInfo
 
-Defined in: main.ts:209624
+Defined in: main.ts:210154
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:209624
 
 ### Constructor
 
-> **new AppDataIdListRequestInfo**(`data`?): `AppDataIdListRequestInfo`
+> **new AppDataIdListRequestInfo**(`data?`): `AppDataIdListRequestInfo`
 
-Defined in: main.ts:209662
+Defined in: main.ts:210192
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:209662
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:209632
+Defined in: main.ts:210162
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:209639
+Defined in: main.ts:210169
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:209658
+Defined in: main.ts:210188
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:209644
+Defined in: main.ts:210174
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:209649
+Defined in: main.ts:210179
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:209654
+Defined in: main.ts:210184
 
 sorting by task execution time
 optional field
@@ -144,9 +144,9 @@ default value: "asc"
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:209671
+Defined in: main.ts:210201
 
 #### Parameters
 
@@ -162,9 +162,9 @@ Defined in: main.ts:209671
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:209693
+Defined in: main.ts:210223
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:209693
 
 > `static` **fromJS**(`data`): `AppDataIdListRequestInfo`
 
-Defined in: main.ts:209686
+Defined in: main.ts:210216
 
 #### Parameters
 

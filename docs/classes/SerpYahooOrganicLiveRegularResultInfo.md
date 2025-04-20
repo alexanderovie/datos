@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveRegularResultInfo
 
-Defined in: main.ts:79938
+Defined in: main.ts:80050
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:79938
 
 ### Constructor
 
-> **new SerpYahooOrganicLiveRegularResultInfo**(`data`?): `SerpYahooOrganicLiveRegularResultInfo`
+> **new SerpYahooOrganicLiveRegularResultInfo**(`data?`): `SerpYahooOrganicLiveRegularResultInfo`
 
-Defined in: main.ts:79981
+Defined in: main.ts:80093
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:79981
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:79952
+Defined in: main.ts:80064
 
 direct URL to search engine results
 You can use it to make sure that we provided exact results
@@ -55,7 +55,7 @@ You can use it to make sure that we provided exact results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:79957
+Defined in: main.ts:80069
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:79971
+Defined in: main.ts:80083
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -92,7 +92,7 @@ to get all items (including SERP features and rich snippets) found in the return
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:79977
+Defined in: main.ts:80089
 
 items in SERP
 
@@ -106,7 +106,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:79975
+Defined in: main.ts:80087
 
 the number of results returned in the items array
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:79941
+Defined in: main.ts:80053
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -135,7 +135,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:79949
+Defined in: main.ts:80061
 
 language code in a POST array
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:79947
+Defined in: main.ts:80059
 
 location code in a POST array
 
@@ -163,7 +163,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:79963
+Defined in: main.ts:80075
 
 search refinement chips
 equals null
@@ -178,7 +178,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:79945
+Defined in: main.ts:80057
 
 search engine domain in a POST array
 
@@ -192,7 +192,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:79973
+Defined in: main.ts:80085
 
 total number of results in SERP
 
@@ -206,7 +206,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:79960
+Defined in: main.ts:80072
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -221,7 +221,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:79943
+Defined in: main.ts:80055
 
 type of element
 
@@ -233,9 +233,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:79990
+Defined in: main.ts:80102
 
 #### Parameters
 
@@ -251,9 +251,9 @@ Defined in: main.ts:79990
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:80027
+Defined in: main.ts:80139
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:80027
 
 > `static` **fromJS**(`data`): `SerpYahooOrganicLiveRegularResultInfo`
 
-Defined in: main.ts:80020
+Defined in: main.ts:80132
 
 #### Parameters
 

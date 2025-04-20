@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceEarningsCalendarElement
 
-Defined in: main.ts:88626
+Defined in: main.ts:88738
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:88626
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:88637
+Defined in: main.ts:88749
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:88630
+Defined in: main.ts:88742
 
 title of the news article
 
@@ -41,7 +41,7 @@ title of the news article
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:88628
+Defined in: main.ts:88740
 
 type of element
 
@@ -51,6 +51,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:88632
+Defined in: main.ts:88744
 
 URL to the page of the market index on Google Finance

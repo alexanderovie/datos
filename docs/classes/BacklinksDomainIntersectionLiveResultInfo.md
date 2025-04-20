@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:169976
+Defined in: main.ts:170308
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:169976
 
 ### Constructor
 
-> **new BacklinksDomainIntersectionLiveResultInfo**(`data`?): `BacklinksDomainIntersectionLiveResultInfo`
+> **new BacklinksDomainIntersectionLiveResultInfo**(`data?`): `BacklinksDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:169988
+Defined in: main.ts:170320
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169988
 
 > `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:169984
+Defined in: main.ts:170316
 
 contains domain that link to all targets from the POST array
 
@@ -54,7 +54,7 @@ contains domain that link to all targets from the POST array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:169982
+Defined in: main.ts:170314
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:169978
+Defined in: main.ts:170310
 
 target domains, subdomains or webpages in a POST array
 
@@ -86,7 +86,7 @@ target domains, subdomains or webpages in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:169980
+Defined in: main.ts:170312
 
 total amount of results relevant to your request
 
@@ -98,9 +98,9 @@ total amount of results relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:169997
+Defined in: main.ts:170329
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:169997
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:170027
+Defined in: main.ts:170359
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:170027
 
 > `static` **fromJS**(`data`): `BacklinksDomainIntersectionLiveResultInfo`
 
-Defined in: main.ts:170020
+Defined in: main.ts:170352
 
 #### Parameters
 

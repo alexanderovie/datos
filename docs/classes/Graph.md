@@ -6,7 +6,7 @@
 
 # Class: Graph
 
-Defined in: main.ts:37479
+Defined in: main.ts:37487
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:37479
 
 ### Constructor
 
-> **new Graph**(`data`?): `Graph`
+> **new Graph**(`data?`): `Graph`
 
-Defined in: main.ts:37488
+Defined in: main.ts:37496
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37488
 
 > `optional` **items**: [`GraphElement`](GraphElement.md)[]
 
-Defined in: main.ts:37481
+Defined in: main.ts:37489
 
 contains arrays of elements available in the list
 
@@ -54,7 +54,7 @@ contains arrays of elements available in the list
 
 > `optional` **previous\_items**: [`GraphElement`](GraphElement.md)[]
 
-Defined in: main.ts:37484
+Defined in: main.ts:37492
 
 previous close data
 contains stock price data based on the preceding time period
@@ -67,9 +67,9 @@ contains stock price data based on the preceding time period
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:37497
+Defined in: main.ts:37505
 
 #### Parameters
 
@@ -85,9 +85,9 @@ Defined in: main.ts:37497
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:37523
+Defined in: main.ts:37531
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:37523
 
 > `static` **fromJS**(`data`): `Graph`
 
-Defined in: main.ts:37516
+Defined in: main.ts:37524
 
 #### Parameters
 

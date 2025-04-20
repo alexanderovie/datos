@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchTaskPostRequestInfo
 
-Defined in: main.ts:59863
+Defined in: main.ts:59977
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:59863
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:59888
+Defined in: main.ts:60002
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:59903
+Defined in: main.ts:60017
 
 device type
 optional field
@@ -47,7 +47,7 @@ possible value: desktop
 
 > `optional` **file\_formats**: `string`[]
 
-Defined in: main.ts:59916
+Defined in: main.ts:60030
 
 file formats of the dataset
 optional field
@@ -59,7 +59,7 @@ possible values: other, archive, text, image, document, tabular
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:59924
+Defined in: main.ts:60038
 
 indicates whether displayed datasets are free
 optional field
@@ -71,7 +71,7 @@ possible values: true, false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:59871
+Defined in: main.ts:59985
 
 keyword
 required field
@@ -87,7 +87,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:59899
+Defined in: main.ts:60013
 
 search engine language code
 optional field
@@ -100,7 +100,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:59894
+Defined in: main.ts:60008
 
 full name of search engine language
 optional field
@@ -114,7 +114,7 @@ English
 
 > `optional` **last\_updated**: `string`
 
-Defined in: main.ts:59912
+Defined in: main.ts:60026
 
 last time the dataset was updated
 optional field
@@ -126,7 +126,7 @@ possible values: 1m, 1y, 3y
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:59908
+Defined in: main.ts:60022
 
 device operating system
 optional field
@@ -139,7 +139,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:59961
+Defined in: main.ts:60075
 
 notification URL of a completed task
 optional field
@@ -158,7 +158,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:59950
+Defined in: main.ts:60064
 
 postback_url datatype
 required field if you specify postback_url
@@ -171,7 +171,7 @@ only value: advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:59945
+Defined in: main.ts:60059
 
 return URL for sending task results
 optional field
@@ -190,7 +190,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:59879
+Defined in: main.ts:59993
 
 task priority
 optional field
@@ -206,7 +206,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59934
+Defined in: main.ts:60048
 
 user-defined task identifier
 optional field
@@ -220,7 +220,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topics**: `string`[]
 
-Defined in: main.ts:59928
+Defined in: main.ts:60042
 
 dataset topics
 optional field
@@ -232,7 +232,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 > `optional` **usage\_rights**: `string`
 
-Defined in: main.ts:59920
+Defined in: main.ts:60034
 
 usage rights of the dataset
 optional field

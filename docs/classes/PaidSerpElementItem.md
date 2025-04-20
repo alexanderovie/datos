@@ -6,7 +6,7 @@
 
 # Class: PaidSerpElementItem
 
-Defined in: main.ts:30393
+Defined in: main.ts:30401
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:30393
 
 ### Constructor
 
-> **new PaidSerpElementItem**(`data`?): `PaidSerpElementItem`
+> **new PaidSerpElementItem**(`data?`): `PaidSerpElementItem`
 
-Defined in: main.ts:30442
+Defined in: main.ts:30450
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:30442
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:30407
+Defined in: main.ts:30415
 
 breadcrumb in SERP
 
@@ -74,7 +74,7 @@ breadcrumb in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:30421
+Defined in: main.ts:30429
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:30424
+Defined in: main.ts:30432
 
 extended description
 if there is none, equals null
@@ -103,7 +103,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30403
+Defined in: main.ts:30411
 
 domain name of the reference
 
@@ -117,7 +117,7 @@ domain name of the reference
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:30419
+Defined in: main.ts:30427
 
 additional information about the result
 
@@ -135,7 +135,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:30417
+Defined in: main.ts:30425
 
 words highlighted in bold within the results description
 
@@ -149,7 +149,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:30413
+Defined in: main.ts:30421
 
 images of the element
 
@@ -163,7 +163,7 @@ images of the element
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:30409
+Defined in: main.ts:30417
 
 indicates whether the element contains an image
 
@@ -177,7 +177,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:30411
+Defined in: main.ts:30419
 
 indicates whether the element contains a video
 
@@ -191,7 +191,7 @@ indicates whether the element contains a video
 
 > `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-Defined in: main.ts:30428
+Defined in: main.ts:30436
 
 sitelinks
 the links shown below some of Google’s search results
@@ -207,7 +207,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:30397
+Defined in: main.ts:30405
 
 the alignment of the element in SERP
 can take the following values:
@@ -223,7 +223,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:30431
+Defined in: main.ts:30439
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -238,7 +238,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -257,7 +257,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -277,7 +277,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:30434
+Defined in: main.ts:30442
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -292,7 +292,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30438
+Defined in: main.ts:30446
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -308,7 +308,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30401
+Defined in: main.ts:30409
 
 title of the result in SERP
 
@@ -322,7 +322,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -340,7 +340,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30415
+Defined in: main.ts:30423
 
 relevant URL in SERP
 
@@ -354,7 +354,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:30405
+Defined in: main.ts:30413
 
 name of the website in SERP
 
@@ -368,7 +368,7 @@ name of the website in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:30399
+Defined in: main.ts:30407
 
 the XPath of the element
 
@@ -380,9 +380,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:30447
+Defined in: main.ts:30455
 
 #### Parameters
 
@@ -402,9 +402,9 @@ Defined in: main.ts:30447
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:30504
+Defined in: main.ts:30512
 
 #### Parameters
 
@@ -426,7 +426,7 @@ Defined in: main.ts:30504
 
 > `static` **fromJS**(`data`): `PaidSerpElementItem`
 
-Defined in: main.ts:30497
+Defined in: main.ts:30505
 
 #### Parameters
 

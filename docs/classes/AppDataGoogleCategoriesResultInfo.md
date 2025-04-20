@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleCategoriesResultInfo
 
-Defined in: main.ts:210314
+Defined in: main.ts:210844
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:210314
 
 ### Constructor
 
-> **new AppDataGoogleCategoriesResultInfo**(`data`?): `AppDataGoogleCategoriesResultInfo`
+> **new AppDataGoogleCategoriesResultInfo**(`data?`): `AppDataGoogleCategoriesResultInfo`
 
-Defined in: main.ts:210320
+Defined in: main.ts:210850
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210320
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:210316
+Defined in: main.ts:210846
 
 contains full list of supported app categories
 
@@ -52,9 +52,9 @@ contains full list of supported app categories
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:210329
+Defined in: main.ts:210859
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:210329
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:210350
+Defined in: main.ts:210880
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:210350
 
 > `static` **fromJS**(`data`): `AppDataGoogleCategoriesResultInfo`
 
-Defined in: main.ts:210343
+Defined in: main.ts:210873
 
 #### Parameters
 

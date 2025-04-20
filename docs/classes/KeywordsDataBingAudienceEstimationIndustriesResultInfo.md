@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationIndustriesResultInfo
 
-Defined in: main.ts:151970
+Defined in: main.ts:152094
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:151970
 
 ### Constructor
 
-> **new KeywordsDataBingAudienceEstimationIndustriesResultInfo**(`data`?): `KeywordsDataBingAudienceEstimationIndustriesResultInfo`
+> **new KeywordsDataBingAudienceEstimationIndustriesResultInfo**(`data?`): `KeywordsDataBingAudienceEstimationIndustriesResultInfo`
 
-Defined in: main.ts:151978
+Defined in: main.ts:152102
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151978
 
 > `optional` **industry\_id**: `number`
 
-Defined in: main.ts:151972
+Defined in: main.ts:152096
 
 ID of the industry
 
@@ -54,7 +54,7 @@ ID of the industry
 
 > `optional` **industry\_name**: `string`
 
-Defined in: main.ts:151974
+Defined in: main.ts:152098
 
 name of the industry
 
@@ -66,9 +66,9 @@ name of the industry
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:151987
+Defined in: main.ts:152111
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:151987
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:152005
+Defined in: main.ts:152129
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:152005
 
 > `static` **fromJS**(`data`): `KeywordsDataBingAudienceEstimationIndustriesResultInfo`
 
-Defined in: main.ts:151998
+Defined in: main.ts:152122
 
 #### Parameters
 

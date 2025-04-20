@@ -6,7 +6,7 @@
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
-Defined in: main.ts:200958
+Defined in: main.ts:201488
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:200958
 
 ### Constructor
 
-> **new ShoppingSpecificationMerchantSerpElementItem**(`data`?): `ShoppingSpecificationMerchantSerpElementItem`
+> **new ShoppingSpecificationMerchantSerpElementItem**(`data?`): `ShoppingSpecificationMerchantSerpElementItem`
 
-Defined in: main.ts:200972
+Defined in: main.ts:201502
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:200972
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22866
+Defined in: main.ts:22874
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22866
 
 > `optional` **block\_name**: `string`
 
-Defined in: main.ts:200963
+Defined in: main.ts:201493
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -75,7 +75,7 @@ indicates the name of the product specification section in which the related ele
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22864
+Defined in: main.ts:22872
 
 alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22860
+Defined in: main.ts:22868
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -114,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22857
+Defined in: main.ts:22865
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **specification\_name**: `string`
 
-Defined in: main.ts:200966
+Defined in: main.ts:201496
 
 product attribute
 attribute name of the product data specification
@@ -148,7 +148,7 @@ attribute name of the product data specification
 
 > `optional` **specification\_value**: `string`
 
-Defined in: main.ts:200968
+Defined in: main.ts:201498
 
 content of the specification
 
@@ -162,7 +162,7 @@ content of the specification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22854
+Defined in: main.ts:22862
 
 type of element
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:200960
+Defined in: main.ts:201490
 
 XPath of the element
 
@@ -192,9 +192,9 @@ XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:200977
+Defined in: main.ts:201507
 
 #### Parameters
 
@@ -214,9 +214,9 @@ Defined in: main.ts:200977
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:200998
+Defined in: main.ts:201528
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:200998
 
 > `static` **fromJS**(`data`): `ShoppingSpecificationMerchantSerpElementItem`
 
-Defined in: main.ts:200991
+Defined in: main.ts:201521
 
 #### Parameters
 

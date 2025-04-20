@@ -6,7 +6,7 @@
 
 # Class: RecipesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119337
+Defined in: main.ts:119459
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:119337
 
 ### Constructor
 
-> **new RecipesDataforseoLabsSerpElementItem**(`data`?): `RecipesDataforseoLabsSerpElementItem`
+> **new RecipesDataforseoLabsSerpElementItem**(`data?`): `RecipesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119344
+Defined in: main.ts:119466
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119344
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:119340
+Defined in: main.ts:119462
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -167,9 +167,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119349
+Defined in: main.ts:119471
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:119349
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:119371
+Defined in: main.ts:119493
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:119371
 
 > `static` **fromJS**(`data`): `RecipesDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119364
+Defined in: main.ts:119486
 
 #### Parameters
 

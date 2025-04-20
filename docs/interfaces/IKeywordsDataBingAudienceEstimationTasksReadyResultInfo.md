@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationTasksReadyResultInfo
 
-Defined in: main.ts:152482
+Defined in: main.ts:152606
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:152482
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:152491
+Defined in: main.ts:152615
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:152495
+Defined in: main.ts:152619
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:152489
+Defined in: main.ts:152613
 
 type of the task
 
@@ -48,7 +48,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:152485
+Defined in: main.ts:152609
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:152487
+Defined in: main.ts:152611
 
 search engine specified when setting the task
 
@@ -69,6 +69,6 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:152493
+Defined in: main.ts:152617
 
 user-defined task identifier

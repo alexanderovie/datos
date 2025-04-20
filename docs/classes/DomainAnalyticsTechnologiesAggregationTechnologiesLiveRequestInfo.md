@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
-Defined in: main.ts:97140
+Defined in: main.ts:97252
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:97140
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data?`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:97256
+Defined in: main.ts:97368
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:97256
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:97154
+Defined in: main.ts:97266
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -59,7 +59,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:97190
+Defined in: main.ts:97302
 
 array of results filtering parameters
 optional field
@@ -85,7 +85,7 @@ example:
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:97147
+Defined in: main.ts:97259
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -104,7 +104,7 @@ example:
 
 > `optional` **internal\_categories\_list\_limit**: `number`
 
-Defined in: main.ts:97220
+Defined in: main.ts:97332
 
 maximum number of returned technology categories within the same group
 optional field
@@ -123,7 +123,7 @@ maximum value: 10000
 
 > `optional` **internal\_groups\_list\_limit**: `number`
 
-Defined in: main.ts:97213
+Defined in: main.ts:97325
 
 maximum number of returned technology groups
 optional field
@@ -142,7 +142,7 @@ maximum value: 10000
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:97235
+Defined in: main.ts:97347
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -162,7 +162,7 @@ maximum value: 10000
 
 > `optional` **internal\_technologies\_list\_limit**: `number`
 
-Defined in: main.ts:97227
+Defined in: main.ts:97339
 
 maximum number of returned technologies within the same category
 optional field
@@ -181,7 +181,7 @@ maximum value: 10000
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:97169
+Defined in: main.ts:97281
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -201,7 +201,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:97240
+Defined in: main.ts:97352
 
 the maximum number of returned technologies
 optional field
@@ -218,7 +218,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:97176
+Defined in: main.ts:97288
 
 search mode
 optional field
@@ -237,7 +237,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97246
+Defined in: main.ts:97358
 
 offset in the results array of returned domains
 optional field
@@ -255,7 +255,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:97206
+Defined in: main.ts:97318
 
 results sorting rules
 optional field
@@ -283,7 +283,7 @@ default value:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:97252
+Defined in: main.ts:97364
 
 user-defined task identifier
 optional field
@@ -301,7 +301,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:97161
+Defined in: main.ts:97273
 
 target technology
 required field if you don’t specify group, keyword or category
@@ -318,9 +318,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:97265
+Defined in: main.ts:97377
 
 #### Parameters
 
@@ -336,9 +336,9 @@ Defined in: main.ts:97265
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:97303
+Defined in: main.ts:97415
 
 #### Parameters
 
@@ -356,7 +356,7 @@ Defined in: main.ts:97303
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`
 
-Defined in: main.ts:97296
+Defined in: main.ts:97408
 
 #### Parameters
 

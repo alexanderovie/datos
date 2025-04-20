@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataSearchVolumeLiveItem
 
-Defined in: main.ts:159692
+Defined in: main.ts:159816
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:159692
 
 ### Constructor
 
-> **new KeywordsDataClickstreamDataSearchVolumeLiveItem**(`data`?): `KeywordsDataClickstreamDataSearchVolumeLiveItem`
+> **new KeywordsDataClickstreamDataSearchVolumeLiveItem**(`data?`): `KeywordsDataClickstreamDataSearchVolumeLiveItem`
 
-Defined in: main.ts:159703
+Defined in: main.ts:159827
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159703
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:159694
+Defined in: main.ts:159818
 
 keyword provided in the POST array
 
@@ -54,7 +54,7 @@ keyword provided in the POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:159699
+Defined in: main.ts:159823
 
 monthly search volume rates
 array of objects with search volume rates in a certain month of a year
@@ -69,7 +69,7 @@ array of objects with search volume rates in a certain month of a year
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:159696
+Defined in: main.ts:159820
 
 current search volume rate of a keyword
 
@@ -81,9 +81,9 @@ current search volume rate of a keyword
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:159712
+Defined in: main.ts:159836
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:159712
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:159735
+Defined in: main.ts:159859
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:159735
 
 > `static` **fromJS**(`data`): `KeywordsDataClickstreamDataSearchVolumeLiveItem`
 
-Defined in: main.ts:159728
+Defined in: main.ts:159852
 
 #### Parameters
 

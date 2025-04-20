@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveResultInfo
 
-Defined in: main.ts:130994
+Defined in: main.ts:131116
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:130994
 
 > `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](../classes/DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:131011
+Defined in: main.ts:131133
 
 contains keywords and related data
 
@@ -28,7 +28,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:131009
+Defined in: main.ts:131131
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131005
+Defined in: main.ts:131127
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131003
+Defined in: main.ts:131125
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:130996
+Defined in: main.ts:131118
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:130998
+Defined in: main.ts:131120
 
 keyword in a POST array
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:131001
+Defined in: main.ts:131123
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -89,6 +89,6 @@ fields in the array are identical to that of keyword_data
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:131007
+Defined in: main.ts:131129
 
 total amount of results in our database relevant to your request

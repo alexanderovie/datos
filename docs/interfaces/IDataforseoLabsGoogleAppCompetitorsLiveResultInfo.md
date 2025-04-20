@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
-Defined in: main.ts:134337
+Defined in: main.ts:134459
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:134337
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:134341
+Defined in: main.ts:134463
 
 id of the app in a POST array
 
@@ -28,7 +28,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleAppCompetitorsLiveItem`](../classes/DataforseoLabsGoogleAppCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:134351
+Defined in: main.ts:134473
 
 contains data related to the app_id and competitor applications
 
@@ -38,7 +38,7 @@ contains data related to the app_id and competitor applications
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:134349
+Defined in: main.ts:134471
 
 the number of results returned in the items array
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134345
+Defined in: main.ts:134467
 
 language code in a POST array
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:134343
+Defined in: main.ts:134465
 
 location code in a POST array
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:134339
+Defined in: main.ts:134461
 
 search engine type
 
@@ -78,6 +78,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:134347
+Defined in: main.ts:134469
 
 total amount of results in our database relevant to your request

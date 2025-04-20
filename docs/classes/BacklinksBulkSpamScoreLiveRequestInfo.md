@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveRequestInfo
 
-Defined in: main.ts:172862
+Defined in: main.ts:173250
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:172862
 
 ### Constructor
 
-> **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): `BacklinksBulkSpamScoreLiveRequestInfo`
+> **new BacklinksBulkSpamScoreLiveRequestInfo**(`data?`): `BacklinksBulkSpamScoreLiveRequestInfo`
 
-Defined in: main.ts:172891
+Defined in: main.ts:173279
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172891
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:172887
+Defined in: main.ts:173275
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:172881
+Defined in: main.ts:173269
 
 domains, subdomains or webpages to get rank for
 required field
@@ -87,9 +87,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:172900
+Defined in: main.ts:173288
 
 #### Parameters
 
@@ -105,9 +105,9 @@ Defined in: main.ts:172900
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:172922
+Defined in: main.ts:173310
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:172922
 
 > `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveRequestInfo`
 
-Defined in: main.ts:172915
+Defined in: main.ts:173303
 
 #### Parameters
 

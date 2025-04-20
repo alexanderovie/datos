@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
-Defined in: main.ts:230639
+Defined in: main.ts:231169
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230639
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:230649
+Defined in: main.ts:231179
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:230653
+Defined in: main.ts:231183
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:230655
+Defined in: main.ts:231185
 
 URL for collecting the results of the task
 
@@ -48,7 +48,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:230642
+Defined in: main.ts:231172
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:230645
+Defined in: main.ts:231175
 
 search engine specified when setting the task
 can take the following values: google
@@ -70,7 +70,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:230647
+Defined in: main.ts:231177
 
 search engine specified when setting the task
 
@@ -80,6 +80,6 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230651
+Defined in: main.ts:231181
 
 user-defined task identifier

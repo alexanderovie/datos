@@ -6,7 +6,7 @@
 
 # Class: RatingInfo
 
-Defined in: main.ts:25157
+Defined in: main.ts:25165
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25157
 
 ### Constructor
 
-> **new RatingInfo**(`data`?): `RatingInfo`
+> **new RatingInfo**(`data?`): `RatingInfo`
 
-Defined in: main.ts:25170
+Defined in: main.ts:25178
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25170
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:25166
+Defined in: main.ts:25174
 
 the maximum value for a rating_type
 
@@ -54,7 +54,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:25160
+Defined in: main.ts:25168
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -69,7 +69,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:25162
+Defined in: main.ts:25170
 
 the value of the rating
 
@@ -83,7 +83,7 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:25164
+Defined in: main.ts:25172
 
 the amount of feedback
 
@@ -95,9 +95,9 @@ the amount of feedback
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25179
+Defined in: main.ts:25187
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:25179
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25199
+Defined in: main.ts:25207
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:25199
 
 > `static` **fromJS**(`data`): `RatingInfo`
 
-Defined in: main.ts:25192
+Defined in: main.ts:25200
 
 #### Parameters
 

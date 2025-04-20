@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTasksFixedResultInfo
 
-Defined in: main.ts:48741
+Defined in: main.ts:48843
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:48741
 
 ### Constructor
 
-> **new SerpGoogleNewsTasksFixedResultInfo**(`data`?): `SerpGoogleNewsTasksFixedResultInfo`
+> **new SerpGoogleNewsTasksFixedResultInfo**(`data?`): `SerpGoogleNewsTasksFixedResultInfo`
 
-Defined in: main.ts:48766
+Defined in: main.ts:48868
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:48766
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:48751
+Defined in: main.ts:48853
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:48759
+Defined in: main.ts:48861
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:48762
+Defined in: main.ts:48864
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:48756
+Defined in: main.ts:48858
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:48744
+Defined in: main.ts:48846
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:48746
+Defined in: main.ts:48848
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:48749
+Defined in: main.ts:48851
 
 type of search engine
 can take the following values: news
@@ -143,7 +143,7 @@ can take the following values: news
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:48753
+Defined in: main.ts:48855
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:48775
+Defined in: main.ts:48877
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:48775
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:48799
+Defined in: main.ts:48901
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:48799
 
 > `static` **fromJS**(`data`): `SerpGoogleNewsTasksFixedResultInfo`
 
-Defined in: main.ts:48792
+Defined in: main.ts:48894
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTaskPostRequestInfo
 
-Defined in: main.ts:56694
+Defined in: main.ts:56808
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:56694
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:56771
+Defined in: main.ts:56885
 
 job posting date
 optional field
@@ -35,7 +35,7 @@ month — return job vacancies posted no longer than a month ago
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:56756
+Defined in: main.ts:56870
 
 parsing depth
 optional field
@@ -52,7 +52,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **employment\_type**: `string`[]
 
-Defined in: main.ts:56762
+Defined in: main.ts:56876
 
 employment contract type
 optional field
@@ -66,7 +66,7 @@ fulltime, partime, contractor, intern
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:56704
+Defined in: main.ts:56818
 
 keyword
 required field
@@ -84,7 +84,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:56747
+Defined in: main.ts:56861
 
 search engine language code
 required field if you don’t specify language_name
@@ -99,7 +99,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:56740
+Defined in: main.ts:56854
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -114,7 +114,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:56725
+Defined in: main.ts:56839
 
 search engine location code
 required field if you don’t specify location_name;
@@ -128,7 +128,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:56719
+Defined in: main.ts:56833
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -143,7 +143,7 @@ London,England,United Kingdom
 
 > `optional` **location\_radius**: `number`
 
-Defined in: main.ts:56733
+Defined in: main.ts:56847
 
 location search radius
 optional field
@@ -159,7 +159,7 @@ minimal value: > 0
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:56805
+Defined in: main.ts:56919
 
 notification URL of a completed task
 optional field
@@ -178,7 +178,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:56794
+Defined in: main.ts:56908
 
 postback_url datatype
 required field if you specify postback_url
@@ -192,7 +192,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:56788
+Defined in: main.ts:56902
 
 return URL for sending task results
 optional field
@@ -211,7 +211,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:56712
+Defined in: main.ts:56826
 
 task priority
 optional field
@@ -227,7 +227,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:56777
+Defined in: main.ts:56891
 
 user-defined task identifier
 optional field

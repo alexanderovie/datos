@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicTasksReadyResultInfo
 
-Defined in: main.ts:78486
+Defined in: main.ts:78598
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:78486
 
 ### Constructor
 
-> **new SerpYahooOrganicTasksReadyResultInfo**(`data`?): `SerpYahooOrganicTasksReadyResultInfo`
+> **new SerpYahooOrganicTasksReadyResultInfo**(`data?`): `SerpYahooOrganicTasksReadyResultInfo`
 
-Defined in: main.ts:78511
+Defined in: main.ts:78623
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78511
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:78496
+Defined in: main.ts:78608
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:78504
+Defined in: main.ts:78616
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:78507
+Defined in: main.ts:78619
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:78501
+Defined in: main.ts:78613
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:78489
+Defined in: main.ts:78601
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:78491
+Defined in: main.ts:78603
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:78494
+Defined in: main.ts:78606
 
 type of search engine
 example: organic
@@ -143,7 +143,7 @@ example: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:78498
+Defined in: main.ts:78610
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:78520
+Defined in: main.ts:78632
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:78520
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:78544
+Defined in: main.ts:78656
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:78544
 
 > `static` **fromJS**(`data`): `SerpYahooOrganicTasksReadyResultInfo`
 
-Defined in: main.ts:78537
+Defined in: main.ts:78649
 
 #### Parameters
 

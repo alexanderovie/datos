@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTaskGetAdvancedItem
 
-Defined in: main.ts:65347
+Defined in: main.ts:65461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:65347
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:65358
+Defined in: main.ts:65472
 
 unique identifier of the advertiser account
 
@@ -28,7 +28,7 @@ unique identifier of the advertiser account
 
 > `optional` **creative\_id**: `string`
 
-Defined in: main.ts:65360
+Defined in: main.ts:65474
 
 unique identifier of the advertisement
 
@@ -38,7 +38,7 @@ unique identifier of the advertisement
 
 > `optional` **first\_shown**: `string`
 
-Defined in: main.ts:65377
+Defined in: main.ts:65491
 
 date and time when the ad was shown for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -49,7 +49,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:65370
+Defined in: main.ts:65484
 
 format of the advertisement
 possible values: text, image, video
@@ -60,7 +60,7 @@ possible values: text, image, video
 
 > `optional` **last\_shown**: `string`
 
-Defined in: main.ts:65380
+Defined in: main.ts:65494
 
 date and time when the ad was shown the last time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **preview\_image**: [`PreviewImage`](../classes/PreviewImage.md)
 
-Defined in: main.ts:65372
+Defined in: main.ts:65486
 
 preview image of the advertisement
 
@@ -81,7 +81,7 @@ preview image of the advertisement
 
 > `optional` **preview\_url**: `string`
 
-Defined in: main.ts:65374
+Defined in: main.ts:65488
 
 url pointing to the ad preview
 
@@ -91,7 +91,7 @@ url pointing to the ad preview
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:65356
+Defined in: main.ts:65470
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -102,7 +102,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:65353
+Defined in: main.ts:65467
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -114,7 +114,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:65362
+Defined in: main.ts:65476
 
 title of the element
 
@@ -124,7 +124,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:65349
+Defined in: main.ts:65463
 
 type of element
 
@@ -134,7 +134,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:65364
+Defined in: main.ts:65478
 
 search URL with refinement parameters
 
@@ -144,7 +144,7 @@ search URL with refinement parameters
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:65367
+Defined in: main.ts:65481
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads

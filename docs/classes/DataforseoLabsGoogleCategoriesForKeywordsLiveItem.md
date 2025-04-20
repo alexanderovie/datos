@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
-Defined in: main.ts:108626
+Defined in: main.ts:108748
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:108626
 
 ### Constructor
 
-> **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data`?): `DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
+> **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data?`): `DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
 
-Defined in: main.ts:108635
+Defined in: main.ts:108757
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:108635
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:108631
+Defined in: main.ts:108753
 
 product and service categories
 you can download the full list of possible categories
@@ -55,7 +55,7 @@ you can download the full list of possible categories
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:108628
+Defined in: main.ts:108750
 
 keyword in a POST array
 
@@ -67,9 +67,9 @@ keyword in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:108644
+Defined in: main.ts:108766
 
 #### Parameters
 
@@ -85,9 +85,9 @@ Defined in: main.ts:108644
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:108666
+Defined in: main.ts:108788
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:108666
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleCategoriesForKeywordsLiveItem`
 
-Defined in: main.ts:108659
+Defined in: main.ts:108781
 
 #### Parameters
 

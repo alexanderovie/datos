@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
 
-Defined in: main.ts:100809
+Defined in: main.ts:100921
 
 items array
 
@@ -22,9 +22,9 @@ items array
 
 ### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveItem**(`data`?): `DomainAnalyticsWhoisOverviewLiveItem`
+> **new DomainAnalyticsWhoisOverviewLiveItem**(`data?`): `DomainAnalyticsWhoisOverviewLiveItem`
 
-Defined in: main.ts:100859
+Defined in: main.ts:100971
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:100859
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:100855
+Defined in: main.ts:100967
 
 backlink data for the returned domain
 
@@ -56,7 +56,7 @@ backlink data for the returned domain
 
 > `optional` **changed\_datetime**: `string`
 
-Defined in: main.ts:100821
+Defined in: main.ts:100933
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -73,7 +73,7 @@ example:
 
 > `optional` **created\_datetime**: `string`
 
-Defined in: main.ts:100816
+Defined in: main.ts:100928
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -90,7 +90,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:100811
+Defined in: main.ts:100923
 
 domain name
 
@@ -104,7 +104,7 @@ domain name
 
 > `optional` **epp\_status\_codes**: `string`[]
 
-Defined in: main.ts:100839
+Defined in: main.ts:100951
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -119,7 +119,7 @@ the status of a domain name registration as defined by ICANN
 
 > `optional` **expiration\_datetime**: `string`
 
-Defined in: main.ts:100826
+Defined in: main.ts:100938
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -136,7 +136,7 @@ example:
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:100836
+Defined in: main.ts:100948
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -153,7 +153,7 @@ example:
 
 > `optional` **metrics**: [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-Defined in: main.ts:100853
+Defined in: main.ts:100965
 
 ranking data relevant to the specified domain
 
@@ -167,7 +167,7 @@ ranking data relevant to the specified domain
 
 > `optional` **registered**: `boolean`
 
-Defined in: main.ts:100846
+Defined in: main.ts:100958
 
 domain registration status
 if false, the domain name registration has expired
@@ -183,7 +183,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 > `optional` **registrar**: `string`
 
-Defined in: main.ts:100851
+Defined in: main.ts:100963
 
 domain registrar
 if null, the domain registrar is unknown
@@ -200,7 +200,7 @@ NameCheap, Inc.
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:100842
+Defined in: main.ts:100954
 
 top-level domain
 top-level domain in the DNS root zone
@@ -215,7 +215,7 @@ top-level domain in the DNS root zone
 
 > `optional` **updated\_datetime**: `string`
 
-Defined in: main.ts:100831
+Defined in: main.ts:100943
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -230,9 +230,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:100868
+Defined in: main.ts:100980
 
 #### Parameters
 
@@ -248,9 +248,9 @@ Defined in: main.ts:100868
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:100900
+Defined in: main.ts:101012
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:100900
 
 > `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveItem`
 
-Defined in: main.ts:100893
+Defined in: main.ts:101005
 
 #### Parameters
 

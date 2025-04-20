@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationTextItem
 
-Defined in: main.ts:205999
+Defined in: main.ts:206529
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:205999
 
 > `optional` **section\_name**: `string`
 
-Defined in: main.ts:25455
+Defined in: main.ts:25463
 
 name of the section related to product information specified in the contents
 
@@ -36,7 +36,7 @@ name of the section related to product information specified in the contents
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:206001
+Defined in: main.ts:206531
 
 text specified under the given title within the section_name
 
@@ -46,7 +46,7 @@ text specified under the given title within the section_name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25453
+Defined in: main.ts:25461
 
 type of element
 

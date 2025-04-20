@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
-Defined in: main.ts:107024
+Defined in: main.ts:107136
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:107024
 
 ### Constructor
 
-> **new DataforseoLabsGoogleSearchIntentLiveRequestInfo**(`data`?): `DataforseoLabsGoogleSearchIntentLiveRequestInfo`
+> **new DataforseoLabsGoogleSearchIntentLiveRequestInfo**(`data?`): `DataforseoLabsGoogleSearchIntentLiveRequestInfo`
 
-Defined in: main.ts:107081
+Defined in: main.ts:107198
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:107081
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:107031
+Defined in: main.ts:107143
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:107071
+Defined in: main.ts:107188
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:107064
+Defined in: main.ts:107181
 
 full name of the language
 required field if don’t specify language_code
@@ -109,7 +109,12 @@ Spanish, es,
 Swedish, sv,
 Thai, th,
 Ukrainian, uk,
-Vietnamese, vi
+Vietnamese, vi,
+Bulgarian, bg,
+Croatian, hr,
+Serbian, sr,
+Slovenian, sl,
+Bosnian, bs
 example:
 English
 
@@ -123,7 +128,7 @@ English
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:107077
+Defined in: main.ts:107194
 
 user-defined task identifier
 optional field
@@ -139,9 +144,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:107090
+Defined in: main.ts:107207
 
 #### Parameters
 
@@ -157,9 +162,9 @@ Defined in: main.ts:107090
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:107114
+Defined in: main.ts:107231
 
 #### Parameters
 
@@ -177,7 +182,7 @@ Defined in: main.ts:107114
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleSearchIntentLiveRequestInfo`
 
-Defined in: main.ts:107107
+Defined in: main.ts:107224
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IRatingInfo
 
-Defined in: main.ts:25213
+Defined in: main.ts:25221
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25213
 
 > `optional` **rating\_max**: `number`
 
-Defined in: main.ts:25222
+Defined in: main.ts:25230
 
 the maximum value for a rating_type
 
@@ -28,7 +28,7 @@ the maximum value for a rating_type
 
 > `optional` **rating\_type**: `string`
 
-Defined in: main.ts:25216
+Defined in: main.ts:25224
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -39,7 +39,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:25218
+Defined in: main.ts:25226
 
 the value of the rating
 
@@ -49,6 +49,6 @@ the value of the rating
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:25220
+Defined in: main.ts:25228
 
 the amount of feedback

@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
-Defined in: main.ts:171212
+Defined in: main.ts:171560
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:171212
 
 ### Constructor
 
-> **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): `BacklinksTimeseriesSummaryLiveRequestInfo`
+> **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data?`): `BacklinksTimeseriesSummaryLiveRequestInfo`
 
-Defined in: main.ts:171264
+Defined in: main.ts:171621
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171264
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:171227
+Defined in: main.ts:171575
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:171236
+Defined in: main.ts:171584
 
 ending date of the time range
 optional field
@@ -82,7 +82,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:171249
+Defined in: main.ts:171597
 
 time range which will be used to group the results
 optional field
@@ -107,7 +107,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:171254
+Defined in: main.ts:171602
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -120,11 +120,32 @@ default value: true
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:171611
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171260
+Defined in: main.ts:171617
 
 user-defined task identifier
 optional field
@@ -142,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:171218
+Defined in: main.ts:171566
 
 domain to get data for
 required field
@@ -158,9 +179,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:171273
+Defined in: main.ts:171630
 
 #### Parameters
 
@@ -176,9 +197,9 @@ Defined in: main.ts:171273
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:171295
+Defined in: main.ts:171653
 
 #### Parameters
 
@@ -196,7 +217,7 @@ Defined in: main.ts:171295
 
 > `static` **fromJS**(`data`): `BacklinksTimeseriesSummaryLiveRequestInfo`
 
-Defined in: main.ts:171288
+Defined in: main.ts:171646
 
 #### Parameters
 

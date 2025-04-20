@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTaskPostRequestInfo
 
-Defined in: main.ts:64756
+Defined in: main.ts:64870
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:64756
 
 > `optional` **advertiser\_ids**: `string`[]
 
-Defined in: main.ts:64765
+Defined in: main.ts:64879
 
 advertiser identifiers
 required field if target is not specified
@@ -31,7 +31,7 @@ advertiser_ids values for this parameter can be found in the Google Ads Advertis
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:64806
+Defined in: main.ts:64920
 
 starting date of the time range
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:64815
+Defined in: main.ts:64929
 
 ending date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:64824
+Defined in: main.ts:64938
 
 parsing depth
 optional field
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:64797
+Defined in: main.ts:64911
 
 ad format
 optional field
@@ -94,7 +94,7 @@ possible values: all, text, image, video
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:64781
+Defined in: main.ts:64895
 
 search engine location code
 optional field
@@ -110,7 +110,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:64788
+Defined in: main.ts:64902
 
 GPS coordinates of a location
 optional field
@@ -125,7 +125,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:64773
+Defined in: main.ts:64887
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ Note: if you don’t specify location_name, location_code, or location_coordinat
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:64866
+Defined in: main.ts:64980
 
 notification URL of a completed task
 optional field
@@ -160,7 +160,7 @@ learn more on our Help Center
 
 > `optional` **platform**: `string`
 
-Defined in: main.ts:64793
+Defined in: main.ts:64907
 
 advertising platform
 optional field
@@ -173,7 +173,7 @@ default value: all
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:64855
+Defined in: main.ts:64969
 
 postback_url datatype
 required field if you specify postback_url
@@ -187,7 +187,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:64849
+Defined in: main.ts:64963
 
 return URL for sending task results
 optional field
@@ -206,7 +206,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:64832
+Defined in: main.ts:64946
 
 task priority
 optional field
@@ -222,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:64838
+Defined in: main.ts:64952
 
 user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:64760
+Defined in: main.ts:64874
 
 domain name
 required field if advertiser_ids is not specified

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonProductsTaskPostRequestInfo
 
-Defined in: main.ts:203627
+Defined in: main.ts:204157
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:203627
 
 > `optional` **department**: `string`
 
-Defined in: main.ts:203715
+Defined in: main.ts:204245
 
 amazon product department
 optional field
@@ -31,7 +31,7 @@ specify one of the following amazon departments for extracting product listings:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:203703
+Defined in: main.ts:204233
 
 parsing depth
 optional field
@@ -48,7 +48,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:203634
+Defined in: main.ts:204164
 
 keyword
 required field
@@ -63,7 +63,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:203687
+Defined in: main.ts:204217
 
 search engine language code
 required field if you don’t specify language_name
@@ -78,7 +78,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:203680
+Defined in: main.ts:204210
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English (United Kingdom)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:203663
+Defined in: main.ts:204193
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -110,7 +110,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:203672
+Defined in: main.ts:204202
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -127,7 +127,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:203655
+Defined in: main.ts:204185
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -142,7 +142,7 @@ HA1,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:203710
+Defined in: main.ts:204240
 
 page crawl limit
 optional field
@@ -157,7 +157,7 @@ learn more at our help center
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:203785
+Defined in: main.ts:204315
 
 notification URL of a completed task
 optional field
@@ -176,7 +176,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:203774
+Defined in: main.ts:204304
 
 postback_url datatype
 required field if you specify postback_url
@@ -190,7 +190,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:203768
+Defined in: main.ts:204298
 
 return URL for sending task results
 optional field
@@ -209,7 +209,7 @@ learn more on our Help Center
 
 > `optional` **price\_max**: `number`
 
-Defined in: main.ts:203743
+Defined in: main.ts:204273
 
 maximum product price
 optional field
@@ -224,7 +224,7 @@ Note: if you specify price_max, the search_param parameter will be ignored
 
 > `optional` **price\_min**: `number`
 
-Defined in: main.ts:203736
+Defined in: main.ts:204266
 
 minimum product price
 optional field
@@ -239,7 +239,7 @@ Note: if you specify price_min, the search_param parameter will be ignored
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:203648
+Defined in: main.ts:204178
 
 task priority
 optional field
@@ -255,7 +255,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:203694
+Defined in: main.ts:204224
 
 search engine domain
 optional field
@@ -270,7 +270,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:203729
+Defined in: main.ts:204259
 
 additional parameters of the search query
 optional field
@@ -292,7 +292,7 @@ Note that search_param values will be ignored if any of the following parameters
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:203751
+Defined in: main.ts:204281
 
 results sorting rules
 optional field
@@ -308,7 +308,7 @@ Note: if you specify sort_by, the search_param parameter will be ignored
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:203757
+Defined in: main.ts:204287
 
 user-defined task identifier
 optional field
@@ -322,7 +322,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:203640
+Defined in: main.ts:204170
 
 direct URL of the search query
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
 
-Defined in: main.ts:115937
+Defined in: main.ts:116059
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:115937
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115943
+Defined in: main.ts:116065
 
 language code in a POST array
 
@@ -28,7 +28,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115941
+Defined in: main.ts:116063
 
 location code in a POST array
 
@@ -38,7 +38,7 @@ location code in a POST array
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:115945
+Defined in: main.ts:116067
 
 ranking data relevant to the specified domain
 
@@ -52,6 +52,6 @@ ranking data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115939
+Defined in: main.ts:116061
 
 search engine type

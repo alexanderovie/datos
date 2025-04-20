@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveResultInfo
 
-Defined in: main.ts:134826
+Defined in: main.ts:134948
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:134826
 
 ### Constructor
 
-> **new DataforseoLabsGoogleAppIntersectionLiveResultInfo**(`data`?): `DataforseoLabsGoogleAppIntersectionLiveResultInfo`
+> **new DataforseoLabsGoogleAppIntersectionLiveResultInfo**(`data?`): `DataforseoLabsGoogleAppIntersectionLiveResultInfo`
 
-Defined in: main.ts:134844
+Defined in: main.ts:134966
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134844
 
 > `optional` **app\_ids**: `object`
 
-Defined in: main.ts:134830
+Defined in: main.ts:134952
 
 ids of the apps in a POST array
 
@@ -58,7 +58,7 @@ ids of the apps in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
 
-Defined in: main.ts:134840
+Defined in: main.ts:134962
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -72,7 +72,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:134838
+Defined in: main.ts:134960
 
 the number of results returned in the items array
 
@@ -86,7 +86,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:134834
+Defined in: main.ts:134956
 
 language code in a POST array
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:134832
+Defined in: main.ts:134954
 
 location code in a POST array
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:134828
+Defined in: main.ts:134950
 
 search engine type
 
@@ -128,7 +128,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:134836
+Defined in: main.ts:134958
 
 total amount of results in our database relevant to your request
 
@@ -140,9 +140,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:134853
+Defined in: main.ts:134975
 
 #### Parameters
 
@@ -158,9 +158,9 @@ Defined in: main.ts:134853
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:134886
+Defined in: main.ts:135008
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:134886
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleAppIntersectionLiveResultInfo`
 
-Defined in: main.ts:134879
+Defined in: main.ts:135001
 
 #### Parameters
 

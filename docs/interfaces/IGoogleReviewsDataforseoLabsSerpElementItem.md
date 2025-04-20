@@ -6,7 +6,7 @@
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118917
+Defined in: main.ts:119039
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118917
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:118930
+Defined in: main.ts:119052
 
 google-defined client id
 unique id of a local establishment;
@@ -34,7 +34,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:118926
+Defined in: main.ts:119048
 
 the additional feature of the review
 
@@ -44,7 +44,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:118924
+Defined in: main.ts:119046
 
 the identifier of a place
 
@@ -54,7 +54,7 @@ the identifier of a place
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -70,7 +70,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:118922
+Defined in: main.ts:119044
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -111,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:118919
+Defined in: main.ts:119041
 
 the number of reviews
 
@@ -121,7 +121,7 @@ the number of reviews
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -135,7 +135,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

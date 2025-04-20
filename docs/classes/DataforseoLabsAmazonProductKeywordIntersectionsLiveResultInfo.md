@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
-Defined in: main.ts:126882
+Defined in: main.ts:127004
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:126882
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo**(`data`?): `DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`
+> **new DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo**(`data?`): `DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`
 
-Defined in: main.ts:126902
+Defined in: main.ts:127024
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126902
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:126886
+Defined in: main.ts:127008
 
 ASINs in a POST array
 
@@ -58,7 +58,7 @@ ASINs in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)[]
 
-Defined in: main.ts:126898
+Defined in: main.ts:127020
 
 contains detected Amazon product competitors and related data
 
@@ -72,7 +72,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:126896
+Defined in: main.ts:127018
 
 the number of results returned in the items array
 
@@ -86,7 +86,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126892
+Defined in: main.ts:127014
 
 language code in a POST array
 if there is no data, then the value is null
@@ -101,7 +101,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126889
+Defined in: main.ts:127011
 
 location code in a POST array
 if there is no data, then the value is null
@@ -116,7 +116,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126884
+Defined in: main.ts:127006
 
 search engine type
 
@@ -130,7 +130,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:126894
+Defined in: main.ts:127016
 
 total amount of results in our database relevant to your request
 
@@ -142,9 +142,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:126911
+Defined in: main.ts:127033
 
 #### Parameters
 
@@ -160,9 +160,9 @@ Defined in: main.ts:126911
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:126944
+Defined in: main.ts:127066
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:126944
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`
 
-Defined in: main.ts:126937
+Defined in: main.ts:127059
 
 #### Parameters
 

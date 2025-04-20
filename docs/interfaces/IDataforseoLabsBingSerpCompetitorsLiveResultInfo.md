@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
-Defined in: main.ts:132044
+Defined in: main.ts:132166
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:132044
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](../classes/DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:132061
+Defined in: main.ts:132183
 
 contains detected SERP competitors and related data
 
@@ -28,7 +28,7 @@ contains detected SERP competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:132059
+Defined in: main.ts:132181
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132055
+Defined in: main.ts:132177
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132052
+Defined in: main.ts:132174
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132046
+Defined in: main.ts:132168
 
 search engine type
 
@@ -70,7 +70,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:132049
+Defined in: main.ts:132171
 
 keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -81,6 +81,6 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:132057
+Defined in: main.ts:132179
 
 the total amount of results in our database relevant to your request

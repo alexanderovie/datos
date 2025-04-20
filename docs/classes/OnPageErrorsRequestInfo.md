@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsRequestInfo
 
-Defined in: main.ts:175260
+Defined in: main.ts:175670
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:175260
 
 ### Constructor
 
-> **new OnPageErrorsRequestInfo**(`data`?): `OnPageErrorsRequestInfo`
+> **new OnPageErrorsRequestInfo**(`data?`): `OnPageErrorsRequestInfo`
 
-Defined in: main.ts:175294
+Defined in: main.ts:175704
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:175294
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:175283
+Defined in: main.ts:175693
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:175290
+Defined in: main.ts:175700
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:175276
+Defined in: main.ts:175686
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:175265
+Defined in: main.ts:175675
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:175270
+Defined in: main.ts:175680
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:175303
+Defined in: main.ts:175713
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:175303
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:175324
+Defined in: main.ts:175734
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:175324
 
 > `static` **fromJS**(`data`): `OnPageErrorsRequestInfo`
 
-Defined in: main.ts:175317
+Defined in: main.ts:175727
 
 #### Parameters
 

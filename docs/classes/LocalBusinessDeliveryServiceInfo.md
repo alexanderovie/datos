@@ -6,7 +6,7 @@
 
 # Class: LocalBusinessDeliveryServiceInfo
 
-Defined in: main.ts:26229
+Defined in: main.ts:26237
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:26229
 
 ### Constructor
 
-> **new LocalBusinessDeliveryServiceInfo**(`data`?): `LocalBusinessDeliveryServiceInfo`
+> **new LocalBusinessDeliveryServiceInfo**(`data?`): `LocalBusinessDeliveryServiceInfo`
 
-Defined in: main.ts:26240
+Defined in: main.ts:26248
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:26240
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:26234
+Defined in: main.ts:26242
 
 title of the element
 domain of the online food ordering system
@@ -55,7 +55,7 @@ domain of the online food ordering system
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:26231
+Defined in: main.ts:26239
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:26236
+Defined in: main.ts:26244
 
 URL to place an order
 
@@ -81,9 +81,9 @@ URL to place an order
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:26249
+Defined in: main.ts:26257
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:26249
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:26268
+Defined in: main.ts:26276
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:26268
 
 > `static` **fromJS**(`data`): `LocalBusinessDeliveryServiceInfo`
 
-Defined in: main.ts:26261
+Defined in: main.ts:26269
 
 #### Parameters
 

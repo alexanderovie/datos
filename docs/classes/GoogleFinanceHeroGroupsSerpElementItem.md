@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceHeroGroupsSerpElementItem
 
-Defined in: main.ts:88268
+Defined in: main.ts:88380
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:88268
 
 ### Constructor
 
-> **new GoogleFinanceHeroGroupsSerpElementItem**(`data`?): `GoogleFinanceHeroGroupsSerpElementItem`
+> **new GoogleFinanceHeroGroupsSerpElementItem**(`data?`): `GoogleFinanceHeroGroupsSerpElementItem`
 
-Defined in: main.ts:88275
+Defined in: main.ts:88387
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88275
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22347
 
 > `optional` **markets**: [`GoogleFinanceMarketsInfo`](GoogleFinanceMarketsInfo.md)[]
 
-Defined in: main.ts:88271
+Defined in: main.ts:88383
 
 financial markets data
 array of items containing market indexes and other financial information related to these indexes
@@ -75,7 +75,7 @@ array of items containing market indexes and other financial information related
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -91,9 +91,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88280
+Defined in: main.ts:88392
 
 #### Parameters
 
@@ -113,9 +113,9 @@ Defined in: main.ts:88280
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88302
+Defined in: main.ts:88414
 
 #### Parameters
 
@@ -137,7 +137,7 @@ Defined in: main.ts:88302
 
 > `static` **fromJS**(`data`): `GoogleFinanceHeroGroupsSerpElementItem`
 
-Defined in: main.ts:88295
+Defined in: main.ts:88407
 
 #### Parameters
 

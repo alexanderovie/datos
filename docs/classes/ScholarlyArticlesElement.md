@@ -6,7 +6,7 @@
 
 # Class: ScholarlyArticlesElement
 
-Defined in: main.ts:36903
+Defined in: main.ts:36911
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:36903
 
 ### Constructor
 
-> **new ScholarlyArticlesElement**(`data`?): `ScholarlyArticlesElement`
+> **new ScholarlyArticlesElement**(`data?`): `ScholarlyArticlesElement`
 
-Defined in: main.ts:36917
+Defined in: main.ts:36925
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36917
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:36911
+Defined in: main.ts:36919
 
 author
 
@@ -54,7 +54,7 @@ author
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:36913
+Defined in: main.ts:36921
 
 description
 
@@ -68,7 +68,7 @@ description
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36907
+Defined in: main.ts:36915
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36905
+Defined in: main.ts:36913
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36909
+Defined in: main.ts:36917
 
 URL
 
@@ -108,9 +108,9 @@ URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:36926
+Defined in: main.ts:36934
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:36926
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:36947
+Defined in: main.ts:36955
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:36947
 
 > `static` **fromJS**(`data`): `ScholarlyArticlesElement`
 
-Defined in: main.ts:36940
+Defined in: main.ts:36948
 
 #### Parameters
 

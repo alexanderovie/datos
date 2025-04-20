@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
-Defined in: main.ts:236500
+Defined in: main.ts:237030
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:236500
 
 ### Constructor
 
-> **new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo**(`data`?): `BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`
+> **new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo**(`data?`): `BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`
 
-Defined in: main.ts:236544
+Defined in: main.ts:237074
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236544
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:236516
+Defined in: main.ts:237046
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:236525
+Defined in: main.ts:237055
 
 google-defined client id
 unique id of a local establishment;
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:236521
+Defined in: main.ts:237051
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:236527
+Defined in: main.ts:237057
 
 unique identifier of the SERP feature
 
@@ -102,7 +102,7 @@ unique identifier of the SERP feature
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:236531
+Defined in: main.ts:237061
 
 item types
 types of search engine results encountered in the items array;
@@ -118,7 +118,7 @@ possible item types: google_business_question_item
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
-Defined in: main.ts:236540
+Defined in: main.ts:237070
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -135,7 +135,7 @@ possible item types google_business_answer_element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:236535
+Defined in: main.ts:237065
 
 the number of items in the items array
 
@@ -149,7 +149,7 @@ the number of items in the items array
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
 
-Defined in: main.ts:236533
+Defined in: main.ts:237063
 
 array of google business question items without answers
 
@@ -163,7 +163,7 @@ array of google business question items without answers
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:236507
+Defined in: main.ts:237037
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -182,7 +182,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:236513
+Defined in: main.ts:237043
 
 language code in a POST array
 
@@ -196,7 +196,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:236511
+Defined in: main.ts:237041
 
 location code in a POST array
 
@@ -210,7 +210,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:236509
+Defined in: main.ts:237039
 
 search engine domain as specified in a POST array
 
@@ -222,9 +222,9 @@ search engine domain as specified in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:236553
+Defined in: main.ts:237083
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:236553
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:236593
+Defined in: main.ts:237123
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:236593
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`
 
-Defined in: main.ts:236586
+Defined in: main.ts:237116
 
 #### Parameters
 

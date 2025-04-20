@@ -6,7 +6,7 @@
 
 # Class: BacklinksIndexResultInfo
 
-Defined in: main.ts:161746
+Defined in: main.ts:161870
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:161746
 
 ### Constructor
 
-> **new BacklinksIndexResultInfo**(`data`?): `BacklinksIndexResultInfo`
+> **new BacklinksIndexResultInfo**(`data?`): `BacklinksIndexResultInfo`
 
-Defined in: main.ts:161758
+Defined in: main.ts:161882
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161758
 
 > `optional` **index\_history**: [`IndexHistory`](IndexHistory.md)[]
 
-Defined in: main.ts:161754
+Defined in: main.ts:161878
 
 index volume data for the past 12 months
 
@@ -54,7 +54,7 @@ index volume data for the past 12 months
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:161748
+Defined in: main.ts:161872
 
 total number of backlinks our database contains for the moment of checking
 
@@ -68,7 +68,7 @@ total number of backlinks our database contains for the moment of checking
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:161752
+Defined in: main.ts:161876
 
 total number of domains our database contains for the moment of checking
 
@@ -82,7 +82,7 @@ total number of domains our database contains for the moment of checking
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:161750
+Defined in: main.ts:161874
 
 total number of pages our database contains for the moment of checking
 
@@ -94,9 +94,9 @@ total number of pages our database contains for the moment of checking
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:161767
+Defined in: main.ts:161891
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:161767
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:161791
+Defined in: main.ts:161915
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:161791
 
 > `static` **fromJS**(`data`): `BacklinksIndexResultInfo`
 
-Defined in: main.ts:161784
+Defined in: main.ts:161908
 
 #### Parameters
 

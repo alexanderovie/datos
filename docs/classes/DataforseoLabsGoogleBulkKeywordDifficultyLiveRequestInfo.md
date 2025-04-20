@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:106608
+Defined in: main.ts:106720
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:106608
 
 ### Constructor
 
-> **new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo**(`data`?): `DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
+> **new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo**(`data?`): `DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:106653
+Defined in: main.ts:106765
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106653
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:106615
+Defined in: main.ts:106727
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106643
+Defined in: main.ts:106755
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:106636
+Defined in: main.ts:106748
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106629
+Defined in: main.ts:106741
 
 location code
 required field if don’t specify location_name
@@ -116,7 +116,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:106622
+Defined in: main.ts:106734
 
 full name of the location
 required field if don’t specify location_code
@@ -135,7 +135,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:106649
+Defined in: main.ts:106761
 
 user-defined task identifier
 optional field
@@ -151,9 +151,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:106662
+Defined in: main.ts:106774
 
 #### Parameters
 
@@ -169,9 +169,9 @@ Defined in: main.ts:106662
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:106688
+Defined in: main.ts:106800
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:106688
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`
 
-Defined in: main.ts:106681
+Defined in: main.ts:106793
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixHotelInfoGoogleBusinessDataPriceData
 
-Defined in: main.ts:249033
+Defined in: main.ts:249859
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:249033
 
 > `optional` **live**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:249034
+Defined in: main.ts:249860
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:249034
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:249035
+Defined in: main.ts:249861
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:249035
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249036
+Defined in: main.ts:249862
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:249036
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249037
+Defined in: main.ts:249863

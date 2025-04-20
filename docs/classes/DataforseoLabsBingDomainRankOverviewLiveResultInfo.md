@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveResultInfo
 
-Defined in: main.ts:129138
+Defined in: main.ts:129260
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:129138
 
 ### Constructor
 
-> **new DataforseoLabsBingDomainRankOverviewLiveResultInfo**(`data`?): `DataforseoLabsBingDomainRankOverviewLiveResultInfo`
+> **new DataforseoLabsBingDomainRankOverviewLiveResultInfo**(`data?`): `DataforseoLabsBingDomainRankOverviewLiveResultInfo`
 
-Defined in: main.ts:129156
+Defined in: main.ts:129278
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:129156
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:129152
+Defined in: main.ts:129274
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:129150
+Defined in: main.ts:129272
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:129146
+Defined in: main.ts:129268
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:129144
+Defined in: main.ts:129266
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:129140
+Defined in: main.ts:129262
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:129142
+Defined in: main.ts:129264
 
 target domain in a POST array
 
@@ -124,7 +124,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:129148
+Defined in: main.ts:129270
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:129165
+Defined in: main.ts:129287
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:129165
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:129192
+Defined in: main.ts:129314
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:129192
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingDomainRankOverviewLiveResultInfo`
 
-Defined in: main.ts:129185
+Defined in: main.ts:129307
 
 #### Parameters
 

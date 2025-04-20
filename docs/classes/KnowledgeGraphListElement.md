@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphListElement
 
-Defined in: main.ts:31313
+Defined in: main.ts:31321
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:31313
 
 ### Constructor
 
-> **new KnowledgeGraphListElement**(`data`?): `KnowledgeGraphListElement`
+> **new KnowledgeGraphListElement**(`data?`): `KnowledgeGraphListElement`
 
-Defined in: main.ts:31332
+Defined in: main.ts:31340
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31332
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31323
+Defined in: main.ts:31331
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31326
+Defined in: main.ts:31334
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:31319
+Defined in: main.ts:31327
 
 subtitle of the item
 
@@ -83,7 +83,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31317
+Defined in: main.ts:31325
 
 link anchor text
 
@@ -97,7 +97,7 @@ link anchor text
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31315
+Defined in: main.ts:31323
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31321
+Defined in: main.ts:31329
 
 sitelink URL
 
@@ -125,7 +125,7 @@ sitelink URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31328
+Defined in: main.ts:31336
 
 the XPath of the element
 
@@ -137,9 +137,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:31341
+Defined in: main.ts:31349
 
 #### Parameters
 
@@ -155,9 +155,9 @@ Defined in: main.ts:31341
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:31364
+Defined in: main.ts:31372
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:31364
 
 > `static` **fromJS**(`data`): `KnowledgeGraphListElement`
 
-Defined in: main.ts:31357
+Defined in: main.ts:31365
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IContentCommentInfo
 
-Defined in: main.ts:27209
+Defined in: main.ts:27217
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:27209
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:27218
+Defined in: main.ts:27226
 
 author of the comment
 
@@ -28,7 +28,7 @@ author of the comment
 
 > `optional` **have\_form**: `boolean`
 
-Defined in: main.ts:27219
+Defined in: main.ts:27227
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: main.ts:27219
 
 > `optional` **primary\_content**: [`SectionContentItemInfo`](../classes/SectionContentItemInfo.md)[]
 
-Defined in: main.ts:27222
+Defined in: main.ts:27230
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -47,7 +47,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **publish\_date**: `string`
 
-Defined in: main.ts:27216
+Defined in: main.ts:27224
 
 date when the comment was published
 
@@ -57,7 +57,7 @@ date when the comment was published
 
 > `optional` **rating**: [`ContentRatingInfo`](../classes/ContentRatingInfo.md)
 
-Defined in: main.ts:27212
+Defined in: main.ts:27220
 
 product’s rating
 contains information about the rating a customer has given to the product
@@ -68,6 +68,6 @@ contains information about the rating a customer has given to the product
 
 > `optional` **title**: `number`
 
-Defined in: main.ts:27214
+Defined in: main.ts:27222
 
 title of the customer’s comment

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoriesInfo
 
-Defined in: main.ts:25335
+Defined in: main.ts:25343
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25335
 
 ### Constructor
 
-> **new ContentAnalysisCategoriesInfo**(`data`?): `ContentAnalysisCategoriesInfo`
+> **new ContentAnalysisCategoriesInfo**(`data?`): `ContentAnalysisCategoriesInfo`
 
-Defined in: main.ts:25341
+Defined in: main.ts:25349
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25341
 
 > `optional` **category**: `number`[]
 
-Defined in: main.ts:25336
+Defined in: main.ts:25344
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:25336
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:25337
+Defined in: main.ts:25345
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:25337
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25350
+Defined in: main.ts:25358
 
 #### Parameters
 
@@ -80,9 +80,9 @@ Defined in: main.ts:25350
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25372
+Defined in: main.ts:25380
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:25372
 
 > `static` **fromJS**(`data`): `ContentAnalysisCategoriesInfo`
 
-Defined in: main.ts:25365
+Defined in: main.ts:25373
 
 #### Parameters
 

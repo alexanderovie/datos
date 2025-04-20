@@ -6,7 +6,7 @@
 
 # Class: AppendixOnPageLimitsRatesDataInfo
 
-Defined in: main.ts:243568
+Defined in: main.ts:244098
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243568
 
 ### Constructor
 
-> **new AppendixOnPageLimitsRatesDataInfo**(`data`?): `AppendixOnPageLimitsRatesDataInfo`
+> **new AppendixOnPageLimitsRatesDataInfo**(`data?`): `AppendixOnPageLimitsRatesDataInfo`
 
-Defined in: main.ts:243592
+Defined in: main.ts:244122
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243592
 
 > `optional` **content\_parsing**: `number`
 
-Defined in: main.ts:243587
+Defined in: main.ts:244117
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243587
 
 > `optional` **content\_parsing\_live**: `number`
 
-Defined in: main.ts:243588
+Defined in: main.ts:244118
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243588
 
 > `optional` **duplicate\_content**: `number`
 
-Defined in: main.ts:243580
+Defined in: main.ts:244110
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243580
 
 > `optional` **duplicate\_tags**: `number`
 
-Defined in: main.ts:243575
+Defined in: main.ts:244105
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243575
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243578
+Defined in: main.ts:244108
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243578
 
 > `optional` **instant\_pages**: `number`
 
-Defined in: main.ts:243582
+Defined in: main.ts:244112
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243582
 
 > `optional` **keyword\_density**: `number`
 
-Defined in: main.ts:243585
+Defined in: main.ts:244115
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243585
 
 > `optional` **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243584
+Defined in: main.ts:244114
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:243584
 
 > `optional` **links**: `number`
 
-Defined in: main.ts:243576
+Defined in: main.ts:244106
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:243576
 
 > `optional` **non\_indexable**: `number`
 
-Defined in: main.ts:243574
+Defined in: main.ts:244104
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:243574
 
 > `optional` **page\_screenshot**: `number`
 
-Defined in: main.ts:243586
+Defined in: main.ts:244116
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:243586
 
 > `optional` **pages**: `number`
 
-Defined in: main.ts:243573
+Defined in: main.ts:244103
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:243573
 
 > `optional` **pages\_by\_resource**: `number`
 
-Defined in: main.ts:243579
+Defined in: main.ts:244109
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:243579
 
 > `optional` **raw\_html**: `number`
 
-Defined in: main.ts:243581
+Defined in: main.ts:244111
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:243581
 
 > `optional` **redirect\_chains**: `number`
 
-Defined in: main.ts:243583
+Defined in: main.ts:244113
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:243583
 
 > `optional` **resources**: `number`
 
-Defined in: main.ts:243572
+Defined in: main.ts:244102
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:243572
 
 > `optional` **summary**: `number`
 
-Defined in: main.ts:243571
+Defined in: main.ts:244101
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:243571
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:243569
+Defined in: main.ts:244099
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:243569
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243570
+Defined in: main.ts:244100
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:243570
 
 > `optional` **waterfall**: `number`
 
-Defined in: main.ts:243577
+Defined in: main.ts:244107
 
 #### Implementation of
 
@@ -278,9 +278,9 @@ Defined in: main.ts:243577
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243601
+Defined in: main.ts:244131
 
 #### Parameters
 
@@ -296,9 +296,9 @@ Defined in: main.ts:243601
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243637
+Defined in: main.ts:244167
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:243637
 
 > `static` **fromJS**(`data`): `AppendixOnPageLimitsRatesDataInfo`
 
-Defined in: main.ts:243630
+Defined in: main.ts:244160
 
 #### Parameters
 

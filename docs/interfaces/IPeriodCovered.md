@@ -6,7 +6,7 @@
 
 # Interface: IPeriodCovered
 
-Defined in: main.ts:60617
+Defined in: main.ts:60731
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60617
 
 > `optional` **displayed\_date**: `string`
 
-Defined in: main.ts:60631
+Defined in: main.ts:60745
 
 period displayed in SERP
 example:
@@ -30,7 +30,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 > `optional` **end\_date**: `string`
 
-Defined in: main.ts:60627
+Defined in: main.ts:60741
 
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -43,7 +43,7 @@ example:
 
 > `optional` **start\_date**: `string`
 
-Defined in: main.ts:60622
+Defined in: main.ts:60736
 
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

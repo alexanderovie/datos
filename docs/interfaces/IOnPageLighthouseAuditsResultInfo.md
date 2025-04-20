@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseAuditsResultInfo
 
-Defined in: main.ts:186765
+Defined in: main.ts:187175
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186765
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:186769
+Defined in: main.ts:187179
 
 the list of available lighthouse audits
 an array containing the titles of available audits

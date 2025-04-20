@@ -6,15 +6,15 @@
 
 # Class: AppDataApi
 
-Defined in: main.ts:17823
+Defined in: main.ts:17826
 
 ## Constructors
 
 ### Constructor
 
-> **new AppDataApi**(`baseUrl`?, `http`?): `AppDataApi`
+> **new AppDataApi**(`baseUrl?`, `http?`): `AppDataApi`
 
-Defined in: main.ts:17828
+Defined in: main.ts:17831
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:17828
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:17826
+Defined in: main.ts:17829
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:17826
 
 > **appDataAppleLanguages**(): `Promise`\<[`AppDataAppleLanguagesResponseInfo`](AppDataAppleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18926
+Defined in: main.ts:18929
 
 #### Returns
 
@@ -72,7 +72,7 @@ Successful operation
 
 > **appDataAppleLocations**(): `Promise`\<[`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18889
+Defined in: main.ts:18892
 
 #### Returns
 
@@ -86,7 +86,7 @@ Successful operation
 
 > **appDataErrors**(`body`): `Promise`\<[`AppDataErrorsResponseInfo`](AppDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:17879
+Defined in: main.ts:17882
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Successful operation
 
 > **appDataGoogleLanguages**(): `Promise`\<[`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18039
+Defined in: main.ts:18042
 
 #### Returns
 
@@ -122,7 +122,7 @@ Successful operation
 
 > **appDataGoogleLocations**(): `Promise`\<[`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:17957
+Defined in: main.ts:17960
 
 #### Returns
 
@@ -136,7 +136,7 @@ Successful operation
 
 > **appDataGoogleLocationsCountry**(`country`): `Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:17999
+Defined in: main.ts:18002
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Successful operation
 
 > **appDataIdList**(`body`): `Promise`\<[`AppDataIdListResponseInfo`](AppDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:17837
+Defined in: main.ts:17840
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Successful operation
 
 > **appDataTasksReady**(): `Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18155
+Defined in: main.ts:18158
 
 #### Returns
 
@@ -198,7 +198,7 @@ Successful operation
 
 > **appleAppInfoTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppInfoTaskGetAdvancedResponseInfo`](AppDataAppleAppInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19167
+Defined in: main.ts:19170
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Successful operation
 
 > **appleAppInfoTaskPost**(`body`): `Promise`\<[`AppDataAppleAppInfoTaskPostResponseInfo`](AppDataAppleAppInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19086
+Defined in: main.ts:19089
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Successful operation
 
 > **appleAppInfoTasksReady**(): `Promise`\<[`AppDataAppleAppInfoTasksReadyResponseInfo`](AppDataAppleAppInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19127
+Defined in: main.ts:19130
 
 #### Returns
 
@@ -258,7 +258,7 @@ Successful operation
 
 > **appleAppListingsCategories**(): `Promise`\<[`AppDataAppleAppListingsCategoriesResponseInfo`](AppDataAppleAppListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:19451
+Defined in: main.ts:19454
 
 #### Returns
 
@@ -272,7 +272,7 @@ Successful operation
 
 > **appleAppListingsSearchLive**(`body`): `Promise`\<[`AppDataAppleAppListingsSearchLiveResponseInfo`](AppDataAppleAppListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:19489
+Defined in: main.ts:19492
 
 #### Parameters
 
@@ -294,7 +294,7 @@ Successful operation
 
 > **appleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19289
+Defined in: main.ts:19292
 
 #### Parameters
 
@@ -318,7 +318,7 @@ Successful operation
 
 > **appleAppListTaskPost**(`body`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19208
+Defined in: main.ts:19211
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Successful operation
 
 > **appleAppListTasksReady**(): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19249
+Defined in: main.ts:19252
 
 #### Returns
 
@@ -354,7 +354,7 @@ Successful operation
 
 > **appleAppReviewsTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppReviewsTaskGetAdvancedResponseInfo`](AppDataAppleAppReviewsTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19411
+Defined in: main.ts:19414
 
 #### Parameters
 
@@ -378,7 +378,7 @@ Successful operation
 
 > **appleAppReviewsTaskPost**(`body`): `Promise`\<[`AppDataAppleAppReviewsTaskPostResponseInfo`](AppDataAppleAppReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19330
+Defined in: main.ts:19333
 
 #### Parameters
 
@@ -400,7 +400,7 @@ Successful operation
 
 > **appleAppReviewsTasksReady**(): `Promise`\<[`AppDataAppleAppReviewsTasksReadyResponseInfo`](AppDataAppleAppReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19371
+Defined in: main.ts:19374
 
 #### Returns
 
@@ -414,7 +414,7 @@ Successful operation
 
 > **appleAppSearchesTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppSearchesTaskGetAdvancedResponseInfo`](AppDataAppleAppSearchesTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19045
+Defined in: main.ts:19048
 
 #### Parameters
 
@@ -438,7 +438,7 @@ Successful operation
 
 > **appleAppSearchesTaskPost**(`body`): `Promise`\<[`AppDataAppleAppSearchesTaskPostResponseInfo`](AppDataAppleAppSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18964
+Defined in: main.ts:18967
 
 #### Parameters
 
@@ -460,7 +460,7 @@ Successful operation
 
 > **appleAppSearchesTasksReady**(): `Promise`\<[`AppDataAppleAppSearchesTasksReadyResponseInfo`](AppDataAppleAppSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19005
+Defined in: main.ts:19008
 
 #### Returns
 
@@ -474,7 +474,7 @@ Successful operation
 
 > **appleCategories**(): `Promise`\<[`AppDataAppleCategoriesResponseInfo`](AppDataAppleCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18852
+Defined in: main.ts:18855
 
 #### Returns
 
@@ -488,7 +488,7 @@ Successful operation
 
 > **googleAppInfoTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppInfoTaskGetAdvancedResponseInfo`](AppDataGoogleAppInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18525
+Defined in: main.ts:18528
 
 #### Parameters
 
@@ -512,7 +512,7 @@ Successful operation
 
 > **googleAppInfoTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppInfoTaskGetHtmlResponseInfo`](AppDataGoogleAppInfoTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18568
+Defined in: main.ts:18571
 
 #### Parameters
 
@@ -536,7 +536,7 @@ Successful operation
 
 > **googleAppInfoTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppInfoTaskPostResponseInfo`](AppDataGoogleAppInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18444
+Defined in: main.ts:18447
 
 #### Parameters
 
@@ -558,7 +558,7 @@ Successful operation
 
 > **googleAppInfoTasksReady**(): `Promise`\<[`AppDataGoogleAppInfoTasksReadyResponseInfo`](AppDataGoogleAppInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18485
+Defined in: main.ts:18488
 
 #### Returns
 
@@ -572,7 +572,7 @@ Successful operation
 
 > **googleAppListingsCategories**(): `Promise`\<[`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18773
+Defined in: main.ts:18776
 
 #### Returns
 
@@ -586,7 +586,7 @@ Successful operation
 
 > **googleAppListingsSearchLive**(`body`): `Promise`\<[`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:18811
+Defined in: main.ts:18814
 
 #### Parameters
 
@@ -608,7 +608,7 @@ Successful operation
 
 > **googleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18360
+Defined in: main.ts:18363
 
 #### Parameters
 
@@ -632,7 +632,7 @@ Successful operation
 
 > **googleAppListTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18403
+Defined in: main.ts:18406
 
 #### Parameters
 
@@ -656,7 +656,7 @@ Successful operation
 
 > **googleAppListTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18279
+Defined in: main.ts:18282
 
 #### Parameters
 
@@ -678,7 +678,7 @@ Successful operation
 
 > **googleAppListTasksReady**(): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18320
+Defined in: main.ts:18323
 
 #### Returns
 
@@ -692,7 +692,7 @@ Successful operation
 
 > **googleAppReviewsTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18690
+Defined in: main.ts:18693
 
 #### Parameters
 
@@ -716,7 +716,7 @@ Successful operation
 
 > **googleAppReviewsTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18733
+Defined in: main.ts:18736
 
 #### Parameters
 
@@ -740,7 +740,7 @@ Successful operation
 
 > **googleAppReviewsTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18609
+Defined in: main.ts:18612
 
 #### Parameters
 
@@ -762,7 +762,7 @@ Successful operation
 
 > **googleAppReviewsTasksReady**(): `Promise`\<[`AppDataGoogleAppReviewsTasksReadyResponseInfo`](AppDataGoogleAppReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18650
+Defined in: main.ts:18653
 
 #### Returns
 
@@ -776,7 +776,7 @@ Successful operation
 
 > **googleAppSearchesTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo`](AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18195
+Defined in: main.ts:18198
 
 #### Parameters
 
@@ -800,7 +800,7 @@ Successful operation
 
 > **googleAppSearchesTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetHtmlResponseInfo`](AppDataGoogleAppSearchesTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18238
+Defined in: main.ts:18241
 
 #### Parameters
 
@@ -824,7 +824,7 @@ Successful operation
 
 > **googleAppSearchesTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18077
+Defined in: main.ts:18080
 
 #### Parameters
 
@@ -846,7 +846,7 @@ Successful operation
 
 > **googleAppSearchesTasksReady**(): `Promise`\<[`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18118
+Defined in: main.ts:18121
 
 #### Returns
 
@@ -860,7 +860,7 @@ Successful operation
 
 > **googleCategories**(): `Promise`\<[`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:17920
+Defined in: main.ts:17923
 
 #### Returns
 
@@ -874,7 +874,7 @@ Successful operation
 
 > `protected` **processAppDataAppleLanguages**(`response`): `Promise`\<[`AppDataAppleLanguagesResponseInfo`](AppDataAppleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18942
+Defined in: main.ts:18945
 
 #### Parameters
 
@@ -892,7 +892,7 @@ Defined in: main.ts:18942
 
 > `protected` **processAppDataAppleLocations**(`response`): `Promise`\<[`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:18905
+Defined in: main.ts:18908
 
 #### Parameters
 
@@ -910,7 +910,7 @@ Defined in: main.ts:18905
 
 > `protected` **processAppDataErrors**(`response`): `Promise`\<[`AppDataErrorsResponseInfo`](AppDataErrorsResponseInfo.md)\>
 
-Defined in: main.ts:17899
+Defined in: main.ts:17902
 
 #### Parameters
 
@@ -928,7 +928,7 @@ Defined in: main.ts:17899
 
 > `protected` **processAppDataGoogleLanguages**(`response`): `Promise`\<[`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:18055
+Defined in: main.ts:18058
 
 #### Parameters
 
@@ -946,7 +946,7 @@ Defined in: main.ts:18055
 
 > `protected` **processAppDataGoogleLocations**(`response`): `Promise`\<[`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)\>
 
-Defined in: main.ts:17973
+Defined in: main.ts:17976
 
 #### Parameters
 
@@ -964,7 +964,7 @@ Defined in: main.ts:17973
 
 > `protected` **processAppDataGoogleLocationsCountry**(`response`): `Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
 
-Defined in: main.ts:18018
+Defined in: main.ts:18021
 
 #### Parameters
 
@@ -982,7 +982,7 @@ Defined in: main.ts:18018
 
 > `protected` **processAppDataIdList**(`response`): `Promise`\<[`AppDataIdListResponseInfo`](AppDataIdListResponseInfo.md)\>
 
-Defined in: main.ts:17857
+Defined in: main.ts:17860
 
 #### Parameters
 
@@ -1000,7 +1000,7 @@ Defined in: main.ts:17857
 
 > `protected` **processAppDataTasksReady**(`response`): `Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18171
+Defined in: main.ts:18174
 
 #### Parameters
 
@@ -1018,7 +1018,7 @@ Defined in: main.ts:18171
 
 > `protected` **processAppleAppInfoTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppInfoTaskGetAdvancedResponseInfo`](AppDataAppleAppInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19186
+Defined in: main.ts:19189
 
 #### Parameters
 
@@ -1036,7 +1036,7 @@ Defined in: main.ts:19186
 
 > `protected` **processAppleAppInfoTaskPost**(`response`): `Promise`\<[`AppDataAppleAppInfoTaskPostResponseInfo`](AppDataAppleAppInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19106
+Defined in: main.ts:19109
 
 #### Parameters
 
@@ -1054,7 +1054,7 @@ Defined in: main.ts:19106
 
 > `protected` **processAppleAppInfoTasksReady**(`response`): `Promise`\<[`AppDataAppleAppInfoTasksReadyResponseInfo`](AppDataAppleAppInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19143
+Defined in: main.ts:19146
 
 #### Parameters
 
@@ -1072,7 +1072,7 @@ Defined in: main.ts:19143
 
 > `protected` **processAppleAppListingsCategories**(`response`): `Promise`\<[`AppDataAppleAppListingsCategoriesResponseInfo`](AppDataAppleAppListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:19467
+Defined in: main.ts:19470
 
 #### Parameters
 
@@ -1090,7 +1090,7 @@ Defined in: main.ts:19467
 
 > `protected` **processAppleAppListingsSearchLive**(`response`): `Promise`\<[`AppDataAppleAppListingsSearchLiveResponseInfo`](AppDataAppleAppListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:19509
+Defined in: main.ts:19512
 
 #### Parameters
 
@@ -1108,7 +1108,7 @@ Defined in: main.ts:19509
 
 > `protected` **processAppleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19308
+Defined in: main.ts:19311
 
 #### Parameters
 
@@ -1126,7 +1126,7 @@ Defined in: main.ts:19308
 
 > `protected` **processAppleAppListTaskPost**(`response`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19228
+Defined in: main.ts:19231
 
 #### Parameters
 
@@ -1144,7 +1144,7 @@ Defined in: main.ts:19228
 
 > `protected` **processAppleAppListTasksReady**(`response`): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19265
+Defined in: main.ts:19268
 
 #### Parameters
 
@@ -1162,7 +1162,7 @@ Defined in: main.ts:19265
 
 > `protected` **processAppleAppReviewsTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppReviewsTaskGetAdvancedResponseInfo`](AppDataAppleAppReviewsTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19430
+Defined in: main.ts:19433
 
 #### Parameters
 
@@ -1180,7 +1180,7 @@ Defined in: main.ts:19430
 
 > `protected` **processAppleAppReviewsTaskPost**(`response`): `Promise`\<[`AppDataAppleAppReviewsTaskPostResponseInfo`](AppDataAppleAppReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:19350
+Defined in: main.ts:19353
 
 #### Parameters
 
@@ -1198,7 +1198,7 @@ Defined in: main.ts:19350
 
 > `protected` **processAppleAppReviewsTasksReady**(`response`): `Promise`\<[`AppDataAppleAppReviewsTasksReadyResponseInfo`](AppDataAppleAppReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19387
+Defined in: main.ts:19390
 
 #### Parameters
 
@@ -1216,7 +1216,7 @@ Defined in: main.ts:19387
 
 > `protected` **processAppleAppSearchesTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppSearchesTaskGetAdvancedResponseInfo`](AppDataAppleAppSearchesTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:19064
+Defined in: main.ts:19067
 
 #### Parameters
 
@@ -1234,7 +1234,7 @@ Defined in: main.ts:19064
 
 > `protected` **processAppleAppSearchesTaskPost**(`response`): `Promise`\<[`AppDataAppleAppSearchesTaskPostResponseInfo`](AppDataAppleAppSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18984
+Defined in: main.ts:18987
 
 #### Parameters
 
@@ -1252,7 +1252,7 @@ Defined in: main.ts:18984
 
 > `protected` **processAppleAppSearchesTasksReady**(`response`): `Promise`\<[`AppDataAppleAppSearchesTasksReadyResponseInfo`](AppDataAppleAppSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:19021
+Defined in: main.ts:19024
 
 #### Parameters
 
@@ -1270,7 +1270,7 @@ Defined in: main.ts:19021
 
 > `protected` **processAppleCategories**(`response`): `Promise`\<[`AppDataAppleCategoriesResponseInfo`](AppDataAppleCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18868
+Defined in: main.ts:18871
 
 #### Parameters
 
@@ -1288,7 +1288,7 @@ Defined in: main.ts:18868
 
 > `protected` **processGoogleAppInfoTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppInfoTaskGetAdvancedResponseInfo`](AppDataGoogleAppInfoTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18544
+Defined in: main.ts:18547
 
 #### Parameters
 
@@ -1306,7 +1306,7 @@ Defined in: main.ts:18544
 
 > `protected` **processGoogleAppInfoTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppInfoTaskGetHtmlResponseInfo`](AppDataGoogleAppInfoTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18587
+Defined in: main.ts:18590
 
 #### Parameters
 
@@ -1324,7 +1324,7 @@ Defined in: main.ts:18587
 
 > `protected` **processGoogleAppInfoTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppInfoTaskPostResponseInfo`](AppDataGoogleAppInfoTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18464
+Defined in: main.ts:18467
 
 #### Parameters
 
@@ -1342,7 +1342,7 @@ Defined in: main.ts:18464
 
 > `protected` **processGoogleAppInfoTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppInfoTasksReadyResponseInfo`](AppDataGoogleAppInfoTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18501
+Defined in: main.ts:18504
 
 #### Parameters
 
@@ -1360,7 +1360,7 @@ Defined in: main.ts:18501
 
 > `protected` **processGoogleAppListingsCategories**(`response`): `Promise`\<[`AppDataGoogleAppListingsCategoriesResponseInfo`](AppDataGoogleAppListingsCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:18789
+Defined in: main.ts:18792
 
 #### Parameters
 
@@ -1378,7 +1378,7 @@ Defined in: main.ts:18789
 
 > `protected` **processGoogleAppListingsSearchLive**(`response`): `Promise`\<[`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)\>
 
-Defined in: main.ts:18831
+Defined in: main.ts:18834
 
 #### Parameters
 
@@ -1396,7 +1396,7 @@ Defined in: main.ts:18831
 
 > `protected` **processGoogleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18379
+Defined in: main.ts:18382
 
 #### Parameters
 
@@ -1414,7 +1414,7 @@ Defined in: main.ts:18379
 
 > `protected` **processGoogleAppListTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18422
+Defined in: main.ts:18425
 
 #### Parameters
 
@@ -1432,7 +1432,7 @@ Defined in: main.ts:18422
 
 > `protected` **processGoogleAppListTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18299
+Defined in: main.ts:18302
 
 #### Parameters
 
@@ -1450,7 +1450,7 @@ Defined in: main.ts:18299
 
 > `protected` **processGoogleAppListTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18336
+Defined in: main.ts:18339
 
 #### Parameters
 
@@ -1468,7 +1468,7 @@ Defined in: main.ts:18336
 
 > `protected` **processGoogleAppReviewsTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18709
+Defined in: main.ts:18712
 
 #### Parameters
 
@@ -1486,7 +1486,7 @@ Defined in: main.ts:18709
 
 > `protected` **processGoogleAppReviewsTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTaskGetHtmlResponseInfo`](AppDataGoogleAppReviewsTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18752
+Defined in: main.ts:18755
 
 #### Parameters
 
@@ -1504,7 +1504,7 @@ Defined in: main.ts:18752
 
 > `protected` **processGoogleAppReviewsTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18629
+Defined in: main.ts:18632
 
 #### Parameters
 
@@ -1522,7 +1522,7 @@ Defined in: main.ts:18629
 
 > `protected` **processGoogleAppReviewsTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppReviewsTasksReadyResponseInfo`](AppDataGoogleAppReviewsTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18666
+Defined in: main.ts:18669
 
 #### Parameters
 
@@ -1540,7 +1540,7 @@ Defined in: main.ts:18666
 
 > `protected` **processGoogleAppSearchesTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo`](AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo.md)\>
 
-Defined in: main.ts:18214
+Defined in: main.ts:18217
 
 #### Parameters
 
@@ -1558,7 +1558,7 @@ Defined in: main.ts:18214
 
 > `protected` **processGoogleAppSearchesTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTaskGetHtmlResponseInfo`](AppDataGoogleAppSearchesTaskGetHtmlResponseInfo.md)\>
 
-Defined in: main.ts:18257
+Defined in: main.ts:18260
 
 #### Parameters
 
@@ -1576,7 +1576,7 @@ Defined in: main.ts:18257
 
 > `protected` **processGoogleAppSearchesTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:18097
+Defined in: main.ts:18100
 
 #### Parameters
 
@@ -1594,7 +1594,7 @@ Defined in: main.ts:18097
 
 > `protected` **processGoogleAppSearchesTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:18134
+Defined in: main.ts:18137
 
 #### Parameters
 
@@ -1612,7 +1612,7 @@ Defined in: main.ts:18134
 
 > `protected` **processGoogleCategories**(`response`): `Promise`\<[`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)\>
 
-Defined in: main.ts:17936
+Defined in: main.ts:17939
 
 #### Parameters
 

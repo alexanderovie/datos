@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsLanguagesResultInfo
 
-Defined in: main.ts:144883
+Defined in: main.ts:145005
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:144883
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144887
+Defined in: main.ts:145009
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:144885
+Defined in: main.ts:145007
 
 language name

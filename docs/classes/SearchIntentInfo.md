@@ -6,7 +6,7 @@
 
 # Class: SearchIntentInfo
 
-Defined in: main.ts:104360
+Defined in: main.ts:104472
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:104360
 
 ### Constructor
 
-> **new SearchIntentInfo**(`data`?): `SearchIntentInfo`
+> **new SearchIntentInfo**(`data?`): `SearchIntentInfo`
 
-Defined in: main.ts:104378
+Defined in: main.ts:104490
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104378
 
 > `optional` **foreign\_intent**: `string`[]
 
-Defined in: main.ts:104369
+Defined in: main.ts:104481
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
@@ -55,7 +55,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:104374
+Defined in: main.ts:104486
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **main\_intent**: `string`
 
-Defined in: main.ts:104366
+Defined in: main.ts:104478
 
 main search intent
 possible values: informational, navigational, commercial, transactional
@@ -87,7 +87,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104363
+Defined in: main.ts:104475
 
 search engine type
 possible values: google
@@ -100,9 +100,9 @@ possible values: google
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:104387
+Defined in: main.ts:104499
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:104387
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:104411
+Defined in: main.ts:104523
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:104411
 
 > `static` **fromJS**(`data`): `SearchIntentInfo`
 
-Defined in: main.ts:104404
+Defined in: main.ts:104516
 
 #### Parameters
 

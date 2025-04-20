@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:173938
+Defined in: main.ts:174326
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:173938
 
 ### Constructor
 
-> **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data`?): `BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
+> **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data?`): `BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:173980
+Defined in: main.ts:174368
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173980
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:173970
+Defined in: main.ts:174358
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:173976
+Defined in: main.ts:174364
 
 user-defined task identifier
 optional field
@@ -83,7 +83,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:173957
+Defined in: main.ts:174345
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -112,9 +112,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:173989
+Defined in: main.ts:174377
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:173989
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:174012
+Defined in: main.ts:174400
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:174012
 
 > `static` **fromJS**(`data`): `BacklinksBulkNewLostReferringDomainsLiveRequestInfo`
 
-Defined in: main.ts:174005
+Defined in: main.ts:174393
 
 #### Parameters
 

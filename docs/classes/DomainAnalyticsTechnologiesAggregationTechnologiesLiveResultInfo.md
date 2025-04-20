@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
-Defined in: main.ts:97546
+Defined in: main.ts:97658
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:97546
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
+> **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data?`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
 
-Defined in: main.ts:97558
+Defined in: main.ts:97670
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:97558
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
-Defined in: main.ts:97554
+Defined in: main.ts:97666
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:97550
+Defined in: main.ts:97662
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97552
+Defined in: main.ts:97664
 
 offset in the results array of returned domains
 
@@ -82,7 +82,7 @@ offset in the results array of returned domains
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:97548
+Defined in: main.ts:97660
 
 total amount of results in our database relevant to your request
 
@@ -94,9 +94,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:97567
+Defined in: main.ts:97679
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:97567
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:97591
+Defined in: main.ts:97703
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:97591
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`
 
-Defined in: main.ts:97584
+Defined in: main.ts:97696
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksResultInfo
 
-Defined in: main.ts:181456
+Defined in: main.ts:181866
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:181456
 
 ### Constructor
 
-> **new OnPageLinksResultInfo**(`data`?): `OnPageLinksResultInfo`
+> **new OnPageLinksResultInfo**(`data?`): `OnPageLinksResultInfo`
 
-Defined in: main.ts:181471
+Defined in: main.ts:181881
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181471
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:181459
+Defined in: main.ts:181869
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:181461
+Defined in: main.ts:181871
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
-Defined in: main.ts:181467
+Defined in: main.ts:181877
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:181465
+Defined in: main.ts:181875
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:181463
+Defined in: main.ts:181873
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:181480
+Defined in: main.ts:181890
 
 #### Parameters
 
@@ -127,9 +127,9 @@ Defined in: main.ts:181480
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:181505
+Defined in: main.ts:181915
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:181505
 
 > `static` **fromJS**(`data`): `OnPageLinksResultInfo`
 
-Defined in: main.ts:181498
+Defined in: main.ts:181908
 
 #### Parameters
 

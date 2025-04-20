@@ -6,7 +6,7 @@
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataPriceData
 
-Defined in: main.ts:247821
+Defined in: main.ts:248647
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247821
 
 > `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247822
+Defined in: main.ts:248648
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247822
 
 > `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247823
+Defined in: main.ts:248649
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:247823
 
 > `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247824
+Defined in: main.ts:248650
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:247824
 
 > `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247825
+Defined in: main.ts:248651

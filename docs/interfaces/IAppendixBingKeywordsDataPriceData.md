@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBingKeywordsDataPriceData
 
-Defined in: main.ts:247635
+Defined in: main.ts:248461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247635
 
 > `optional` **audience\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247636
+Defined in: main.ts:248462
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247636
 
 > `optional` **keyword\_performance**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247637
+Defined in: main.ts:248463
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:247637
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247640
+Defined in: main.ts:248466
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:247640
 
 > `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247638
+Defined in: main.ts:248464
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:247638
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247639
+Defined in: main.ts:248465
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: main.ts:247639
 
 > `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247641
+Defined in: main.ts:248467

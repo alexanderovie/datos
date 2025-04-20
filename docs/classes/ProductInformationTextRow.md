@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextRow
 
-Defined in: main.ts:206060
+Defined in: main.ts:206590
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:206060
 
 ### Constructor
 
-> **new ProductInformationTextRow**(`data`?): `ProductInformationTextRow`
+> **new ProductInformationTextRow**(`data?`): `ProductInformationTextRow`
 
-Defined in: main.ts:206066
+Defined in: main.ts:206596
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:206066
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:25464
+Defined in: main.ts:25472
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:25464
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:206062
+Defined in: main.ts:206592
 
 text of the voucher
 
@@ -74,7 +74,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25460
+Defined in: main.ts:25468
 
 type of element
 
@@ -90,9 +90,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:206071
+Defined in: main.ts:206601
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:206071
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:206089
+Defined in: main.ts:206619
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:206089
 
 > `static` **fromJS**(`data`): `ProductInformationTextRow`
 
-Defined in: main.ts:206082
+Defined in: main.ts:206612
 
 #### Parameters
 

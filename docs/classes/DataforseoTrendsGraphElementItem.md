@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsGraphElementItem
 
-Defined in: main.ts:147860
+Defined in: main.ts:147984
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:147860
 
 ### Constructor
 
-> **new DataforseoTrendsGraphElementItem**(`data`?): `DataforseoTrendsGraphElementItem`
+> **new DataforseoTrendsGraphElementItem**(`data?`): `DataforseoTrendsGraphElementItem`
 
-Defined in: main.ts:147868
+Defined in: main.ts:147992
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:147868
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23941
+Defined in: main.ts:23949
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23941
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:147864
+Defined in: main.ts:147988
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:147862
+Defined in: main.ts:147986
 
 DataForSEO Trends data for the specified parameters
 
@@ -88,7 +88,7 @@ DataForSEO Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23939
+Defined in: main.ts:23947
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -107,7 +107,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23936
+Defined in: main.ts:23944
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23933
+Defined in: main.ts:23941
 
 type of element
 
@@ -142,9 +142,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:147873
+Defined in: main.ts:147997
 
 #### Parameters
 
@@ -164,9 +164,9 @@ Defined in: main.ts:147873
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:147900
+Defined in: main.ts:148024
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:147900
 
 > `static` **fromJS**(`data`): `DataforseoTrendsGraphElementItem`
 
-Defined in: main.ts:147893
+Defined in: main.ts:148017
 
 #### Parameters
 

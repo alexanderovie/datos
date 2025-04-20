@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingLanguagesResultInfo
 
-Defined in: main.ts:150337
+Defined in: main.ts:150461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:150337
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:150341
+Defined in: main.ts:150465
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:150339
+Defined in: main.ts:150463
 
 language name

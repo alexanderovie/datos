@@ -6,7 +6,7 @@
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
-Defined in: main.ts:198352
+Defined in: main.ts:198882
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:198352
 
 ### Constructor
 
-> **new GoogleShoppingSponsoredCarouselMerchantSerpElementItem**(`data`?): `GoogleShoppingSponsoredCarouselMerchantSerpElementItem`
+> **new GoogleShoppingSponsoredCarouselMerchantSerpElementItem**(`data?`): `GoogleShoppingSponsoredCarouselMerchantSerpElementItem`
 
-Defined in: main.ts:198362
+Defined in: main.ts:198892
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:198362
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22866
+Defined in: main.ts:22874
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22866
 
 > `optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)[]
 
-Defined in: main.ts:198358
+Defined in: main.ts:198888
 
 items in SERP
 
@@ -74,7 +74,7 @@ items in SERP
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22864
+Defined in: main.ts:22872
 
 alignment of the element in SERP
 can take the following values:
@@ -94,7 +94,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22860
+Defined in: main.ts:22868
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -113,7 +113,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22857
+Defined in: main.ts:22865
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:198356
+Defined in: main.ts:198886
 
 product title
 
@@ -146,7 +146,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22854
+Defined in: main.ts:22862
 
 type of element
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:198354
+Defined in: main.ts:198884
 
 XPath of the element
 
@@ -176,9 +176,9 @@ XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:198367
+Defined in: main.ts:198897
 
 #### Parameters
 
@@ -198,9 +198,9 @@ Defined in: main.ts:198367
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:198391
+Defined in: main.ts:198921
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:198391
 
 > `static` **fromJS**(`data`): `GoogleShoppingSponsoredCarouselMerchantSerpElementItem`
 
-Defined in: main.ts:198384
+Defined in: main.ts:198914
 
 #### Parameters
 

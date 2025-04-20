@@ -6,7 +6,7 @@
 
 # Class: AddressInfo
 
-Defined in: main.ts:44233
+Defined in: main.ts:44335
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:44233
 
 ### Constructor
 
-> **new AddressInfo**(`data`?): `AddressInfo`
+> **new AddressInfo**(`data?`): `AddressInfo`
 
-Defined in: main.ts:44249
+Defined in: main.ts:44351
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:44249
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:44237
+Defined in: main.ts:44339
 
 street address of the local establishment
 
@@ -54,7 +54,7 @@ street address of the local establishment
 
 > `optional` **borough**: `string`
 
-Defined in: main.ts:44235
+Defined in: main.ts:44337
 
 administrative unit or district the local establishment belongs to
 
@@ -68,7 +68,7 @@ administrative unit or district the local establishment belongs to
 
 > `optional` **city**: `string`
 
-Defined in: main.ts:44239
+Defined in: main.ts:44341
 
 name of the city where the local establishment is located
 
@@ -82,7 +82,7 @@ name of the city where the local establishment is located
 
 > `optional` **country\_code**: `string`
 
-Defined in: main.ts:44245
+Defined in: main.ts:44347
 
 ISO country code of the local establishment
 
@@ -96,7 +96,7 @@ ISO country code of the local establishment
 
 > `optional` **region**: `string`
 
-Defined in: main.ts:44243
+Defined in: main.ts:44345
 
 DMA region the local establishment belongs to
 
@@ -110,7 +110,7 @@ DMA region the local establishment belongs to
 
 > `optional` **zip**: `string`
 
-Defined in: main.ts:44241
+Defined in: main.ts:44343
 
 ZIP code of the local establishment
 
@@ -122,9 +122,9 @@ ZIP code of the local establishment
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:44258
+Defined in: main.ts:44360
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:44258
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:44280
+Defined in: main.ts:44382
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:44280
 
 > `static` **fromJS**(`data`): `AddressInfo`
 
-Defined in: main.ts:44273
+Defined in: main.ts:44375
 
 #### Parameters
 

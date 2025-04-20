@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:131126
+Defined in: main.ts:131248
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:131126
 
 ### Constructor
 
-> **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data`?): `DataforseoLabsBingRelevantPagesLiveRequestInfo`
+> **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data?`): `DataforseoLabsBingRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:131243
+Defined in: main.ts:131365
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:131243
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:131216
+Defined in: main.ts:131338
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:131197
+Defined in: main.ts:131319
 
 data collection mode
 optional field
@@ -87,7 +87,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:131202
+Defined in: main.ts:131324
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:131178
+Defined in: main.ts:131300
 
 display results by item type
 optional field
@@ -125,7 +125,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131169
+Defined in: main.ts:131291
 
 language code
 optional field
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:131160
+Defined in: main.ts:131282
 
 full name of the language
 optional field
@@ -167,7 +167,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:131183
+Defined in: main.ts:131305
 
 the maximum number of returned pages
 optional field
@@ -184,7 +184,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131151
+Defined in: main.ts:131273
 
 location code
 optional field
@@ -206,7 +206,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:131141
+Defined in: main.ts:131263
 
 full name of the location
 optional field
@@ -228,7 +228,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:131188
+Defined in: main.ts:131310
 
 offset in the results array of returned pages
 optional field
@@ -245,7 +245,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:131233
+Defined in: main.ts:131355
 
 results sorting rules
 optional field
@@ -274,7 +274,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:131239
+Defined in: main.ts:131361
 
 user-defined task identifier
 optional field
@@ -292,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:131131
+Defined in: main.ts:131253
 
 domain
 required field
@@ -307,9 +307,9 @@ the domain should be specified without https:// and www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:131252
+Defined in: main.ts:131374
 
 #### Parameters
 
@@ -325,9 +325,9 @@ Defined in: main.ts:131252
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:131293
+Defined in: main.ts:131415
 
 #### Parameters
 
@@ -345,7 +345,7 @@ Defined in: main.ts:131293
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingRelevantPagesLiveRequestInfo`
 
-Defined in: main.ts:131286
+Defined in: main.ts:131408
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixSellersGoogleMerchantPriceData
 
-Defined in: main.ts:248214
+Defined in: main.ts:249040
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:248214
 
 ### Constructor
 
-> **new AppendixSellersGoogleMerchantPriceData**(`data`?): `AppendixSellersGoogleMerchantPriceData`
+> **new AppendixSellersGoogleMerchantPriceData**(`data?`): `AppendixSellersGoogleMerchantPriceData`
 
-Defined in: main.ts:248222
+Defined in: main.ts:249048
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248222
 
 > `optional` **ad\_url**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248215
+Defined in: main.ts:249041
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248215
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:248216
+Defined in: main.ts:249042
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:248216
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248217
+Defined in: main.ts:249043
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:248217
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248218
+Defined in: main.ts:249044
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:248218
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:248231
+Defined in: main.ts:249057
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:248231
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:248251
+Defined in: main.ts:249077
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:248251
 
 > `static` **fromJS**(`data`): `AppendixSellersGoogleMerchantPriceData`
 
-Defined in: main.ts:248244
+Defined in: main.ts:249070
 
 #### Parameters
 

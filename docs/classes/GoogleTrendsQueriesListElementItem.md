@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsQueriesListElementItem
 
-Defined in: main.ts:146441
+Defined in: main.ts:146565
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:146441
 
 ### Constructor
 
-> **new GoogleTrendsQueriesListElementItem**(`data`?): `GoogleTrendsQueriesListElementItem`
+> **new GoogleTrendsQueriesListElementItem**(`data?`): `GoogleTrendsQueriesListElementItem`
 
-Defined in: main.ts:146447
+Defined in: main.ts:146571
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:146447
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23851
+Defined in: main.ts:23859
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23851
 
 > `optional` **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-Defined in: main.ts:146443
+Defined in: main.ts:146567
 
 Google Trends data from the corresponding item
 
@@ -74,7 +74,7 @@ Google Trends data from the corresponding item
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23849
+Defined in: main.ts:23857
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -93,7 +93,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23844
+Defined in: main.ts:23852
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -112,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23846
+Defined in: main.ts:23854
 
 title of the element in Google Trends
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23841
+Defined in: main.ts:23849
 
 type of element
 
@@ -146,9 +146,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:146452
+Defined in: main.ts:146576
 
 #### Parameters
 
@@ -168,9 +168,9 @@ Defined in: main.ts:146452
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:146470
+Defined in: main.ts:146594
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:146470
 
 > `static` **fromJS**(`data`): `GoogleTrendsQueriesListElementItem`
 
-Defined in: main.ts:146463
+Defined in: main.ts:146587
 
 #### Parameters
 

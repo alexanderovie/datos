@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicLiveHtmlRequestInfo
 
-Defined in: main.ts:69029
+Defined in: main.ts:69141
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:69029
 
 ### Constructor
 
-> **new SerpBingOrganicLiveHtmlRequestInfo**(`data`?): `SerpBingOrganicLiveHtmlRequestInfo`
+> **new SerpBingOrganicLiveHtmlRequestInfo**(`data?`): `SerpBingOrganicLiveHtmlRequestInfo`
 
-Defined in: main.ts:69122
+Defined in: main.ts:69234
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:69122
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:69101
+Defined in: main.ts:69213
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:69085
+Defined in: main.ts:69197
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:69044
+Defined in: main.ts:69156
 
 keyword
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:69080
+Defined in: main.ts:69192
 
 search engine language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:69073
+Defined in: main.ts:69185
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -137,7 +137,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:69058
+Defined in: main.ts:69170
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:69066
+Defined in: main.ts:69178
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -176,7 +176,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:69051
+Defined in: main.ts:69163
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:69108
+Defined in: main.ts:69220
 
 page crawl limit
 optional field
@@ -214,7 +214,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:69092
+Defined in: main.ts:69204
 
 device operating system
 optional field
@@ -233,7 +233,7 @@ default value: android
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:69112
+Defined in: main.ts:69224
 
 additional parameters of the search query
 optional field
@@ -249,7 +249,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:69118
+Defined in: main.ts:69230
 
 user-defined task identifier
 optional field
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:69035
+Defined in: main.ts:69147
 
 direct URL of the search query
 optional field
@@ -283,9 +283,9 @@ https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&s
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:69131
+Defined in: main.ts:69243
 
 #### Parameters
 
@@ -301,9 +301,9 @@ Defined in: main.ts:69131
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:69160
+Defined in: main.ts:69272
 
 #### Parameters
 
@@ -321,7 +321,7 @@ Defined in: main.ts:69160
 
 > `static` **fromJS**(`data`): `SerpBingOrganicLiveHtmlRequestInfo`
 
-Defined in: main.ts:69153
+Defined in: main.ts:69265
 
 #### Parameters
 

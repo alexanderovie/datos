@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListResultInfo
 
-Defined in: main.ts:101282
+Defined in: main.ts:101394
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:101282
 
 ### Constructor
 
-> **new DataforseoLabsIdListResultInfo**(`data`?): `DataforseoLabsIdListResultInfo`
+> **new DataforseoLabsIdListResultInfo**(`data?`): `DataforseoLabsIdListResultInfo`
 
-Defined in: main.ts:101308
+Defined in: main.ts:101420
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101308
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:101302
+Defined in: main.ts:101414
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:101297
+Defined in: main.ts:101409
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:101292
+Defined in: main.ts:101404
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:101284
+Defined in: main.ts:101396
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:101304
+Defined in: main.ts:101416
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:101300
+Defined in: main.ts:101412
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:101287
+Defined in: main.ts:101399
 
 URL of the task
 URL you used for making an API call
@@ -148,9 +148,9 @@ URL you used for making an API call
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:101317
+Defined in: main.ts:101429
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:101317
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:101346
+Defined in: main.ts:101458
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:101346
 
 > `static` **fromJS**(`data`): `DataforseoLabsIdListResultInfo`
 
-Defined in: main.ts:101339
+Defined in: main.ts:101451
 
 #### Parameters
 

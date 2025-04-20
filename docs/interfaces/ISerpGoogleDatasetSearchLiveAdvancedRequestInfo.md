@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
-Defined in: main.ts:61347
+Defined in: main.ts:61461
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:61347
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:61385
+Defined in: main.ts:61499
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:61371
+Defined in: main.ts:61485
 
 device type
 optional field
@@ -47,7 +47,7 @@ possible value: desktop
 
 > `optional` **file\_formats**: `string`[]
 
-Defined in: main.ts:61393
+Defined in: main.ts:61507
 
 file formats of the dataset
 optional field
@@ -59,7 +59,7 @@ possible values: other, archive, text, image, document, tabular
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:61401
+Defined in: main.ts:61515
 
 indicates whether displayed datasets are free
 optional field
@@ -71,7 +71,7 @@ possible values: true, false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:61355
+Defined in: main.ts:61469
 
 keyword
 required field
@@ -87,7 +87,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:61367
+Defined in: main.ts:61481
 
 search engine language code
 optional field if you don’t specify language_name
@@ -101,7 +101,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:61361
+Defined in: main.ts:61475
 
 full name of search engine language
 optional field
@@ -115,7 +115,7 @@ English
 
 > `optional` **last\_updated**: `string`
 
-Defined in: main.ts:61389
+Defined in: main.ts:61503
 
 last time the dataset was updated
 optional field
@@ -127,7 +127,7 @@ possible values: 1m, 1y, 3y
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:61376
+Defined in: main.ts:61490
 
 device operating system
 optional field
@@ -140,7 +140,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61411
+Defined in: main.ts:61525
 
 user-defined task identifier
 optional field
@@ -154,7 +154,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topics**: `string`[]
 
-Defined in: main.ts:61405
+Defined in: main.ts:61519
 
 dataset topics
 optional field
@@ -166,7 +166,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 > `optional` **usage\_rights**: `string`
 
-Defined in: main.ts:61397
+Defined in: main.ts:61511
 
 usage rights of the dataset
 optional field

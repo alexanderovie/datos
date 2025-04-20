@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:100978
+Defined in: main.ts:101090
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:100978
 
 ### Constructor
 
-> **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): `DomainAnalyticsWhoisOverviewLiveResultInfo`
+> **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data?`): `DomainAnalyticsWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:100988
+Defined in: main.ts:101100
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100988
 
 > `optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:100984
+Defined in: main.ts:101096
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:100982
+Defined in: main.ts:101094
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:100980
+Defined in: main.ts:101092
 
 total amount of results in our database relevant to your request
 
@@ -80,9 +80,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:100997
+Defined in: main.ts:101109
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:100997
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:101020
+Defined in: main.ts:101132
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:101020
 
 > `static` **fromJS**(`data`): `DomainAnalyticsWhoisOverviewLiveResultInfo`
 
-Defined in: main.ts:101013
+Defined in: main.ts:101125
 
 #### Parameters
 

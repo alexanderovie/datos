@@ -6,7 +6,7 @@
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 
-Defined in: main.ts:242328
+Defined in: main.ts:242858
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242328
 
 ### Constructor
 
-> **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): `AppendixJobsSerpLimitsRatesDataInfo`
+> **new AppendixJobsSerpLimitsRatesDataInfo**(`data?`): `AppendixJobsSerpLimitsRatesDataInfo`
 
-Defined in: main.ts:242333
+Defined in: main.ts:242863
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242333
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:242329
+Defined in: main.ts:242859
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:242329
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242342
+Defined in: main.ts:242872
 
 #### Parameters
 
@@ -68,9 +68,9 @@ Defined in: main.ts:242342
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242359
+Defined in: main.ts:242889
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:242359
 
 > `static` **fromJS**(`data`): `AppendixJobsSerpLimitsRatesDataInfo`
 
-Defined in: main.ts:242352
+Defined in: main.ts:242882
 
 #### Parameters
 

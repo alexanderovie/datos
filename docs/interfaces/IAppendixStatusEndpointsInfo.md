@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatusEndpointsInfo
 
-Defined in: main.ts:250744
+Defined in: main.ts:251570
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:250744
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:250751
+Defined in: main.ts:251577
 
 name of the endpoint
 the list of possible endpoints:
@@ -33,7 +33,7 @@ postback/pingback
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:250761
+Defined in: main.ts:251587
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here

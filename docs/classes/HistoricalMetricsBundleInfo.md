@@ -6,7 +6,7 @@
 
 # Class: HistoricalMetricsBundleInfo
 
-Defined in: main.ts:122262
+Defined in: main.ts:122384
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122262
 
 ### Constructor
 
-> **new HistoricalMetricsBundleInfo**(`data`?): `HistoricalMetricsBundleInfo`
+> **new HistoricalMetricsBundleInfo**(`data?`): `HistoricalMetricsBundleInfo`
 
-Defined in: main.ts:122274
+Defined in: main.ts:122396
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122274
 
 > `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:122270
+Defined in: main.ts:122392
 
 traffic data from the local pack results in SERP
 
@@ -54,7 +54,7 @@ traffic data from the local pack results in SERP
 
 > `optional` **local\_pack**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:122268
+Defined in: main.ts:122390
 
 traffic data from the featured snippet results in Google SERP
 
@@ -68,7 +68,7 @@ traffic data from the featured snippet results in Google SERP
 
 > `optional` **organic**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:122264
+Defined in: main.ts:122386
 
 traffic data from organic search
 
@@ -82,7 +82,7 @@ traffic data from organic search
 
 > `optional` **paid**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:122266
+Defined in: main.ts:122388
 
 traffic data from paid search
 
@@ -94,9 +94,9 @@ traffic data from paid search
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122283
+Defined in: main.ts:122405
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:122283
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122319
+Defined in: main.ts:122441
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:122319
 
 > `static` **fromJS**(`data`): `HistoricalMetricsBundleInfo`
 
-Defined in: main.ts:122312
+Defined in: main.ts:122434
 
 #### Parameters
 

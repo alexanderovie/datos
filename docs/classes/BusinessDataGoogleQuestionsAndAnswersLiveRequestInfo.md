@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
-Defined in: main.ts:236782
+Defined in: main.ts:237312
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:236782
 
 ### Constructor
 
-> **new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo**(`data`?): `BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`
+> **new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo**(`data?`): `BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`
 
-Defined in: main.ts:236856
+Defined in: main.ts:237386
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236856
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:236846
+Defined in: main.ts:237376
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:236799
+Defined in: main.ts:237329
 
 keyword
 required field
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:236837
+Defined in: main.ts:237367
 
 search engine language code
 required field if you don’t specify language_name
@@ -109,7 +109,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:236830
+Defined in: main.ts:237360
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -128,7 +128,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:236813
+Defined in: main.ts:237343
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -147,7 +147,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:236823
+Defined in: main.ts:237353
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -169,7 +169,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:236806
+Defined in: main.ts:237336
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:236852
+Defined in: main.ts:237382
 
 user-defined task identifier
 optional field
@@ -204,9 +204,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:236865
+Defined in: main.ts:237395
 
 #### Parameters
 
@@ -222,9 +222,9 @@ Defined in: main.ts:236865
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:236889
+Defined in: main.ts:237419
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:236889
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`
 
-Defined in: main.ts:236882
+Defined in: main.ts:237412
 
 #### Parameters
 

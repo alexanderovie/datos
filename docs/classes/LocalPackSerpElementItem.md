@@ -6,7 +6,7 @@
 
 # Class: LocalPackSerpElementItem
 
-Defined in: main.ts:35101
+Defined in: main.ts:35109
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:35101
 
 ### Constructor
 
-> **new LocalPackSerpElementItem**(`data`?): `LocalPackSerpElementItem`
+> **new LocalPackSerpElementItem**(`data?`): `LocalPackSerpElementItem`
 
-Defined in: main.ts:35132
+Defined in: main.ts:35140
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35132
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:35124
+Defined in: main.ts:35132
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35111
+Defined in: main.ts:35119
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35113
+Defined in: main.ts:35121
 
 source domain
 
@@ -102,7 +102,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:35119
+Defined in: main.ts:35127
 
 indicates whether the element is an ad
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:35115
+Defined in: main.ts:35123
 
 phone number
 
@@ -130,7 +130,7 @@ phone number
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35105
+Defined in: main.ts:35113
 
 the alignment of the element in SERP
 can take the following values:
@@ -146,7 +146,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -165,7 +165,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -185,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35122
+Defined in: main.ts:35130
 
 the element’s rating
 the popularity rate based on reviews and displayed in SERP
@@ -200,7 +200,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35128
+Defined in: main.ts:35136
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -216,7 +216,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35109
+Defined in: main.ts:35117
 
 title of the row
 
@@ -230,7 +230,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -248,7 +248,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35117
+Defined in: main.ts:35125
 
 source URL
 
@@ -262,7 +262,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35107
+Defined in: main.ts:35115
 
 the XPath of the element
 
@@ -274,9 +274,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:35137
+Defined in: main.ts:35145
 
 #### Parameters
 
@@ -296,9 +296,9 @@ Defined in: main.ts:35137
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:35165
+Defined in: main.ts:35173
 
 #### Parameters
 
@@ -320,7 +320,7 @@ Defined in: main.ts:35165
 
 > `static` **fromJS**(`data`): `LocalPackSerpElementItem`
 
-Defined in: main.ts:35158
+Defined in: main.ts:35166
 
 #### Parameters
 

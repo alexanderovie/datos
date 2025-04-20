@@ -6,7 +6,7 @@
 
 # Class: Contacts
 
-Defined in: main.ts:185050
+Defined in: main.ts:185460
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:185050
 
 ### Constructor
 
-> **new Contacts**(`data`?): `Contacts`
+> **new Contacts**(`data?`): `Contacts`
 
-Defined in: main.ts:185056
+Defined in: main.ts:185466
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185056
 
 > `optional` **telephones**: `string`[]
 
-Defined in: main.ts:185052
+Defined in: main.ts:185462
 
 array of telephone numbers
 
@@ -52,9 +52,9 @@ array of telephone numbers
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:185065
+Defined in: main.ts:185475
 
 #### Parameters
 
@@ -70,9 +70,9 @@ Defined in: main.ts:185065
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:185086
+Defined in: main.ts:185496
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:185086
 
 > `static` **fromJS**(`data`): `Contacts`
 
-Defined in: main.ts:185079
+Defined in: main.ts:185489
 
 #### Parameters
 

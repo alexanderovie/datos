@@ -6,7 +6,7 @@
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
 
-Defined in: main.ts:247646
+Defined in: main.ts:248472
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:247646
 
 ### Constructor
 
-> **new AppendixClickstreamDataKeywordsDataPriceData**(`data`?): `AppendixClickstreamDataKeywordsDataPriceData`
+> **new AppendixClickstreamDataKeywordsDataPriceData**(`data?`): `AppendixClickstreamDataKeywordsDataPriceData`
 
-Defined in: main.ts:247654
+Defined in: main.ts:248480
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247654
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247647
+Defined in: main.ts:248473
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247647
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247648
+Defined in: main.ts:248474
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247648
 
 > `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247649
+Defined in: main.ts:248475
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247649
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247650
+Defined in: main.ts:248476
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:247650
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:247663
+Defined in: main.ts:248489
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:247663
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:247683
+Defined in: main.ts:248509
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:247683
 
 > `static` **fromJS**(`data`): `AppendixClickstreamDataKeywordsDataPriceData`
 
-Defined in: main.ts:247676
+Defined in: main.ts:248502
 
 #### Parameters
 

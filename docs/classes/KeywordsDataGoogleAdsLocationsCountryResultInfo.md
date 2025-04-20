@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsCountryResultInfo
 
-Defined in: main.ts:138216
+Defined in: main.ts:138338
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:138216
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsLocationsCountryResultInfo**(`data`?): `KeywordsDataGoogleAdsLocationsCountryResultInfo`
+> **new KeywordsDataGoogleAdsLocationsCountryResultInfo**(`data?`): `KeywordsDataGoogleAdsLocationsCountryResultInfo`
 
-Defined in: main.ts:138238
+Defined in: main.ts:138360
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:138238
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:138231
+Defined in: main.ts:138353
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138218
+Defined in: main.ts:138340
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:138229
+Defined in: main.ts:138351
 
 the code of the superordinate location
 example:
@@ -89,7 +89,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:138220
+Defined in: main.ts:138342
 
 full name of the location
 
@@ -103,7 +103,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:138234
+Defined in: main.ts:138356
 
 location type
 possible values according to Google’s target types
@@ -116,9 +116,9 @@ possible values according to Google’s target types
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:138247
+Defined in: main.ts:138369
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:138247
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:138268
+Defined in: main.ts:138390
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:138268
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsLocationsCountryResultInfo`
 
-Defined in: main.ts:138261
+Defined in: main.ts:138383
 
 #### Parameters
 

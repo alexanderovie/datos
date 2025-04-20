@@ -6,7 +6,7 @@
 
 # Class: SerpIdListResultInfo
 
-Defined in: main.ts:27351
+Defined in: main.ts:27359
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27351
 
 ### Constructor
 
-> **new SerpIdListResultInfo**(`data`?): `SerpIdListResultInfo`
+> **new SerpIdListResultInfo**(`data?`): `SerpIdListResultInfo`
 
-Defined in: main.ts:27377
+Defined in: main.ts:27385
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27377
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:27371
+Defined in: main.ts:27379
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:27366
+Defined in: main.ts:27374
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:27361
+Defined in: main.ts:27369
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:27353
+Defined in: main.ts:27361
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:27373
+Defined in: main.ts:27381
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:27369
+Defined in: main.ts:27377
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:27356
+Defined in: main.ts:27364
 
 URL of the task
 URL you used for making an API call
@@ -148,9 +148,9 @@ URL you used for making an API call
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27386
+Defined in: main.ts:27394
 
 #### Parameters
 
@@ -166,9 +166,9 @@ Defined in: main.ts:27386
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27415
+Defined in: main.ts:27423
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:27415
 
 > `static` **fromJS**(`data`): `SerpIdListResultInfo`
 
-Defined in: main.ts:27408
+Defined in: main.ts:27416
 
 #### Parameters
 

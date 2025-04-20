@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceMarketsLiveHtmlRequestInfo
 
-Defined in: main.ts:91872
+Defined in: main.ts:91984
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:91872
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:91904
+Defined in: main.ts:92016
 
 device type
 optional field
@@ -30,7 +30,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91900
+Defined in: main.ts:92012
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91893
+Defined in: main.ts:92005
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91886
+Defined in: main.ts:91998
 
 search engine location code
 required field if you don’t specify location_name
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:91879
+Defined in: main.ts:91991
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ London,England,United Kingdom
 
 > `optional` **market\_type**: `string`
 
-Defined in: main.ts:91913
+Defined in: main.ts:92025
 
 type of google finance market
 optional field
@@ -103,7 +103,7 @@ default value: most-active
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:91908
+Defined in: main.ts:92020
 
 device operating system
 optional field
@@ -115,7 +115,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:91919
+Defined in: main.ts:92031
 
 user-defined task identifier
 optional field

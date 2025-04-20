@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskPostRequestInfo
 
-Defined in: main.ts:218792
+Defined in: main.ts:219322
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:218792
 
 ### Constructor
 
-> **new AppDataAppleAppListTaskPostRequestInfo**(`data`?): `AppDataAppleAppListTaskPostRequestInfo`
+> **new AppDataAppleAppListTaskPostRequestInfo**(`data?`): `AppDataAppleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:218889
+Defined in: main.ts:219419
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218889
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:218851
+Defined in: main.ts:219381
 
 application category on the App Store
 optional field
@@ -59,7 +59,7 @@ you can review the full list of available categories here or by making a separat
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:218798
+Defined in: main.ts:219328
 
 app collection
 required field
@@ -77,7 +77,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:218844
+Defined in: main.ts:219374
 
 parsing depth
 optional field
@@ -99,7 +99,7 @@ maximum value: 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218826
+Defined in: main.ts:219356
 
 search engine language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:218819
+Defined in: main.ts:219349
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -137,7 +137,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218812
+Defined in: main.ts:219342
 
 search engine location code
 required field if you don’t specify location_name
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:218805
+Defined in: main.ts:219335
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -175,7 +175,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:218885
+Defined in: main.ts:219415
 
 notification URL of a completed task
 optional field
@@ -198,7 +198,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:218874
+Defined in: main.ts:219404
 
 postback_url datatype
 required field if you specify postback_url
@@ -216,7 +216,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:218868
+Defined in: main.ts:219398
 
 return URL for sending task results
 optional field
@@ -239,7 +239,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:218834
+Defined in: main.ts:219364
 
 task priority
 optional field
@@ -259,7 +259,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:218857
+Defined in: main.ts:219387
 
 user-defined task identifier
 optional field
@@ -275,9 +275,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:218898
+Defined in: main.ts:219428
 
 #### Parameters
 
@@ -293,9 +293,9 @@ Defined in: main.ts:218898
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:218926
+Defined in: main.ts:219456
 
 #### Parameters
 
@@ -313,7 +313,7 @@ Defined in: main.ts:218926
 
 > `static` **fromJS**(`data`): `AppDataAppleAppListTaskPostRequestInfo`
 
-Defined in: main.ts:218919
+Defined in: main.ts:219449
 
 #### Parameters
 

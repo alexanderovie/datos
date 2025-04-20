@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118546
+Defined in: main.ts:118668
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118546
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:118552
+Defined in: main.ts:118674
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](../classes/KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:118554
+Defined in: main.ts:118676
 
 expanded element
 
@@ -44,7 +44,7 @@ expanded element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -60,7 +60,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -75,7 +75,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:118548
+Defined in: main.ts:118670
 
 title of a given link element
 
@@ -100,7 +100,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -114,7 +114,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

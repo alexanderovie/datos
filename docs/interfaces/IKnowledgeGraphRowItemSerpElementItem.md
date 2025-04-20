@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphRowItemSerpElementItem
 
-Defined in: main.ts:31953
+Defined in: main.ts:31961
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31953
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:31965
+Defined in: main.ts:31973
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/common/topic:social media presence
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:31970
+Defined in: main.ts:31978
 
 links featured in the faq_box_element
 
@@ -44,7 +44,7 @@ links featured in the faq_box_element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:31957
+Defined in: main.ts:31965
 
 the alignment of the element in SERP
 can take the following values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -87,7 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31974
+Defined in: main.ts:31982
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -99,7 +99,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:31968
+Defined in: main.ts:31976
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -110,7 +110,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31961
+Defined in: main.ts:31969
 
 title of the item
 
@@ -120,7 +120,7 @@ title of the item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -134,6 +134,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:31959
+Defined in: main.ts:31967
 
 the XPath of the element

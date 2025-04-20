@@ -6,7 +6,7 @@
 
 # Class: ImagesSerpElementItem
 
-Defined in: main.ts:34283
+Defined in: main.ts:34291
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:34283
 
 ### Constructor
 
-> **new ImagesSerpElementItem**(`data`?): `ImagesSerpElementItem`
+> **new ImagesSerpElementItem**(`data?`): `ImagesSerpElementItem`
 
-Defined in: main.ts:34306
+Defined in: main.ts:34314
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:34306
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **items**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:34295
+Defined in: main.ts:34303
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:34287
+Defined in: main.ts:34295
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34302
+Defined in: main.ts:34310
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)[]
 
-Defined in: main.ts:34298
+Defined in: main.ts:34306
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -160,7 +160,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34291
+Defined in: main.ts:34299
 
 title of the row
 
@@ -174,7 +174,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -192,7 +192,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34293
+Defined in: main.ts:34301
 
 source URL
 
@@ -206,7 +206,7 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:34289
+Defined in: main.ts:34297
 
 the XPath of the element
 
@@ -218,9 +218,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:34311
+Defined in: main.ts:34319
 
 #### Parameters
 
@@ -240,9 +240,9 @@ Defined in: main.ts:34311
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:34343
+Defined in: main.ts:34351
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Defined in: main.ts:34343
 
 > `static` **fromJS**(`data`): `ImagesSerpElementItem`
 
-Defined in: main.ts:34336
+Defined in: main.ts:34344
 
 #### Parameters
 

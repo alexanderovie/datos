@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
 
-Defined in: main.ts:233656
+Defined in: main.ts:234186
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:233656
 
 ### Constructor
 
-> **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data`?): `BusinessDataGoogleReviewsTasksReadyResultInfo`
+> **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data?`): `BusinessDataGoogleReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:233674
+Defined in: main.ts:234204
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233674
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:233666
+Defined in: main.ts:234196
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:233670
+Defined in: main.ts:234200
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:233659
+Defined in: main.ts:234189
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:233662
+Defined in: main.ts:234192
 
 search engine specified when setting the task
 can take the following values: google
@@ -98,7 +98,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:233664
+Defined in: main.ts:234194
 
 type of search engine
 
@@ -112,7 +112,7 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:233668
+Defined in: main.ts:234198
 
 user-defined task identifier
 
@@ -124,9 +124,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:233683
+Defined in: main.ts:234213
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:233683
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:233705
+Defined in: main.ts:234235
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:233705
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleReviewsTasksReadyResultInfo`
 
-Defined in: main.ts:233698
+Defined in: main.ts:234228
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
 
-Defined in: main.ts:126298
+Defined in: main.ts:126420
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:126298
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:126304
+Defined in: main.ts:126426
 
 ASIN of the product
 unique product identifier on Amazon;
@@ -30,7 +30,7 @@ for more information, refer to this help center guide
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:126308
+Defined in: main.ts:126430
 
 average position of the product in Amazon SERP
 Note: average position is calculated for intersected keywords only;
@@ -42,7 +42,7 @@ the value for a given product may differ when combined with different target pro
 
 > `optional` **competitor\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:126318
+Defined in: main.ts:126440
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided asin shares with the target asin;
@@ -54,7 +54,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 > `optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
-Defined in: main.ts:126321
+Defined in: main.ts:126443
 
 metrics for all keywords of the product
 full overview of ranking data relevant to all keywords that the provided asin is ranking for
@@ -65,7 +65,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:126314
+Defined in: main.ts:126436
 
 number of intersecting keywords
 
@@ -75,7 +75,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126300
+Defined in: main.ts:126422
 
 search engine type
 
@@ -85,7 +85,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:126312
+Defined in: main.ts:126434
 
 sum of all product positions in Amazon SERP
 Note: average position is calculated for intersected keywords only;

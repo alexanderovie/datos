@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsSubregionInterestsElementItem
 
-Defined in: main.ts:148714
+Defined in: main.ts:148838
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148714
 
 > `optional` **interests**: [`Interests`](../classes/Interests.md)[]
 
-Defined in: main.ts:148716
+Defined in: main.ts:148840
 
 subregional keyword popuarity data for each specified term
 
@@ -32,7 +32,7 @@ subregional keyword popuarity data for each specified term
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](../classes/InterestsComparison.md)
 
-Defined in: main.ts:148719
+Defined in: main.ts:148843
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
@@ -43,7 +43,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:24009
+Defined in: main.ts:24017
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -58,7 +58,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:24006
+Defined in: main.ts:24014
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -73,7 +73,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:24003
+Defined in: main.ts:24011
 
 type of element
 

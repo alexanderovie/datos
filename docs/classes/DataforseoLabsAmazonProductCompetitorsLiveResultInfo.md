@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
-Defined in: main.ts:126326
+Defined in: main.ts:126448
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:126326
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
+> **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data?`): `DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
 
-Defined in: main.ts:126346
+Defined in: main.ts:126468
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126346
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:126330
+Defined in: main.ts:126452
 
 ASIN in a POST array
 
@@ -54,7 +54,7 @@ ASIN in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:126342
+Defined in: main.ts:126464
 
 contains detected Amazon product competitors and related data
 
@@ -68,7 +68,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:126340
+Defined in: main.ts:126462
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126336
+Defined in: main.ts:126458
 
 language code in a POST array
 if there is no data, then the value is null
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126333
+Defined in: main.ts:126455
 
 location code in a POST array
 if there is no data, then the value is null
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:126328
+Defined in: main.ts:126450
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:126338
+Defined in: main.ts:126460
 
 total amount of results in our database relevant to your request
 
@@ -138,9 +138,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:126355
+Defined in: main.ts:126477
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:126355
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:126382
+Defined in: main.ts:126504
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:126382
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductCompetitorsLiveResultInfo`
 
-Defined in: main.ts:126375
+Defined in: main.ts:126497
 
 #### Parameters
 

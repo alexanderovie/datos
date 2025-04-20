@@ -6,7 +6,7 @@
 
 # Interface: IAnswerBoxSerpElementItem
 
-Defined in: main.ts:35619
+Defined in: main.ts:35627
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35619
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:35630
+Defined in: main.ts:35638
 
 link of the element
 
@@ -32,7 +32,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35623
+Defined in: main.ts:35631
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35634
+Defined in: main.ts:35642
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:35628
+Defined in: main.ts:35636
 
 text
 if there is none, equals null
@@ -98,7 +98,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -112,6 +112,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35625
+Defined in: main.ts:35633
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBulkKeywordDifficultyLiveItem
 
-Defined in: main.ts:106754
+Defined in: main.ts:106866
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:106754
 
 ### Constructor
 
-> **new DataforseoLabsBulkKeywordDifficultyLiveItem**(`data`?): `DataforseoLabsBulkKeywordDifficultyLiveItem`
+> **new DataforseoLabsBulkKeywordDifficultyLiveItem**(`data?`): `DataforseoLabsBulkKeywordDifficultyLiveItem`
 
-Defined in: main.ts:106767
+Defined in: main.ts:106879
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106767
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:106758
+Defined in: main.ts:106870
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:106763
+Defined in: main.ts:106875
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -71,7 +71,7 @@ learn more about the metric in this help center guide
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106756
+Defined in: main.ts:106868
 
 search engine type
 
@@ -83,9 +83,9 @@ search engine type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:106776
+Defined in: main.ts:106888
 
 #### Parameters
 
@@ -101,9 +101,9 @@ Defined in: main.ts:106776
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:106795
+Defined in: main.ts:106907
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:106795
 
 > `static` **fromJS**(`data`): `DataforseoLabsBulkKeywordDifficultyLiveItem`
 
-Defined in: main.ts:106788
+Defined in: main.ts:106900
 
 #### Parameters
 

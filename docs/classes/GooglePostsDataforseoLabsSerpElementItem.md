@@ -6,7 +6,7 @@
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118935
+Defined in: main.ts:119057
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:118935
 
 ### Constructor
 
-> **new GooglePostsDataforseoLabsSerpElementItem**(`data`?): `GooglePostsDataforseoLabsSerpElementItem`
+> **new GooglePostsDataforseoLabsSerpElementItem**(`data?`): `GooglePostsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118947
+Defined in: main.ts:119069
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:118947
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:118943
+Defined in: main.ts:119065
 
 google-defined client id
 unique id of a local establishment;
@@ -76,7 +76,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:118939
+Defined in: main.ts:119061
 
 the additional feature of the review
 
@@ -90,7 +90,7 @@ the additional feature of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -110,7 +110,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:118937
+Defined in: main.ts:119059
 
 the identifier of the google_posts feature
 
@@ -124,7 +124,7 @@ the identifier of the google_posts feature
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -143,7 +143,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -162,7 +162,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -196,9 +196,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:118952
+Defined in: main.ts:119074
 
 #### Parameters
 
@@ -218,9 +218,9 @@ Defined in: main.ts:118952
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:118972
+Defined in: main.ts:119094
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:118972
 
 > `static` **fromJS**(`data`): `GooglePostsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:118965
+Defined in: main.ts:119087
 
 #### Parameters
 

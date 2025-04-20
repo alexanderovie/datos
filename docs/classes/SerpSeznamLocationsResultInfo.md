@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsResultInfo
 
-Defined in: main.ts:85050
+Defined in: main.ts:85162
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:85050
 
 ### Constructor
 
-> **new SerpSeznamLocationsResultInfo**(`data`?): `SerpSeznamLocationsResultInfo`
+> **new SerpSeznamLocationsResultInfo**(`data?`): `SerpSeznamLocationsResultInfo`
 
-Defined in: main.ts:85066
+Defined in: main.ts:85178
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85066
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:85060
+Defined in: main.ts:85172
 
 ISO country code of the location
 
@@ -54,7 +54,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:85052
+Defined in: main.ts:85164
 
 location code
 
@@ -68,7 +68,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:85058
+Defined in: main.ts:85170
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -84,7 +84,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:85054
+Defined in: main.ts:85166
 
 full name of the location
 
@@ -98,7 +98,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:85062
+Defined in: main.ts:85174
 
 location type
 
@@ -110,9 +110,9 @@ location type
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:85075
+Defined in: main.ts:85187
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:85075
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:85096
+Defined in: main.ts:85208
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:85096
 
 > `static` **fromJS**(`data`): `SerpSeznamLocationsResultInfo`
 
-Defined in: main.ts:85089
+Defined in: main.ts:85201
 
 #### Parameters
 

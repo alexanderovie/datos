@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxSerpElementItem
 
-Defined in: main.ts:35541
+Defined in: main.ts:35549
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:35541
 
 ### Constructor
 
-> **new AnswerBoxSerpElementItem**(`data`?): `AnswerBoxSerpElementItem`
+> **new AnswerBoxSerpElementItem**(`data?`): `AnswerBoxSerpElementItem`
 
-Defined in: main.ts:35560
+Defined in: main.ts:35568
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:35560
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:35552
+Defined in: main.ts:35560
 
 link of the element
 
@@ -74,7 +74,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:35545
+Defined in: main.ts:35553
 
 the alignment of the element in SERP
 can take the following values:
@@ -90,7 +90,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,7 +109,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35556
+Defined in: main.ts:35564
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,7 +145,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:35550
+Defined in: main.ts:35558
 
 text
 if there is none, equals null
@@ -160,7 +160,7 @@ if there is none, equals null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -178,7 +178,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:35547
+Defined in: main.ts:35555
 
 the XPath of the element
 
@@ -190,9 +190,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:35565
+Defined in: main.ts:35573
 
 #### Parameters
 
@@ -212,9 +212,9 @@ Defined in: main.ts:35565
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:35595
+Defined in: main.ts:35603
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:35595
 
 > `static` **fromJS**(`data`): `AnswerBoxSerpElementItem`
 
-Defined in: main.ts:35588
+Defined in: main.ts:35596
 
 #### Parameters
 

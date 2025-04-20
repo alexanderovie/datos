@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
 
-Defined in: main.ts:249042
+Defined in: main.ts:249868
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:249042
 
 ### Constructor
 
-> **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): `AppendixGoogleBusinessDataPriceDataInfo`
+> **new AppendixGoogleBusinessDataPriceDataInfo**(`data?`): `AppendixGoogleBusinessDataPriceDataInfo`
 
-Defined in: main.ts:249050
+Defined in: main.ts:249876
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:249050
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249043
+Defined in: main.ts:249869
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:249043
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249044
+Defined in: main.ts:249870
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:249044
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249045
+Defined in: main.ts:249871
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:249045
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249046
+Defined in: main.ts:249872
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:249046
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:249059
+Defined in: main.ts:249885
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:249059
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:249079
+Defined in: main.ts:249905
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:249079
 
 > `static` **fromJS**(`data`): `AppendixGoogleBusinessDataPriceDataInfo`
 
-Defined in: main.ts:249072
+Defined in: main.ts:249898
 
 #### Parameters
 

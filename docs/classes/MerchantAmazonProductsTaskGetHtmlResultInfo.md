@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTaskGetHtmlResultInfo
 
-Defined in: main.ts:204900
+Defined in: main.ts:205430
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:204900
 
 ### Constructor
 
-> **new MerchantAmazonProductsTaskGetHtmlResultInfo**(`data`?): `MerchantAmazonProductsTaskGetHtmlResultInfo`
+> **new MerchantAmazonProductsTaskGetHtmlResultInfo**(`data?`): `MerchantAmazonProductsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:204924
+Defined in: main.ts:205454
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:204924
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:204916
+Defined in: main.ts:205446
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:204920
+Defined in: main.ts:205450
 
 HTML pages and related data
 
@@ -71,7 +71,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:204918
+Defined in: main.ts:205448
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:204903
+Defined in: main.ts:205433
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204911
+Defined in: main.ts:205441
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204909
+Defined in: main.ts:205439
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204907
+Defined in: main.ts:205437
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:204905
+Defined in: main.ts:205435
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:204933
+Defined in: main.ts:205463
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:204933
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:204961
+Defined in: main.ts:205491
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:204961
 
 > `static` **fromJS**(`data`): `MerchantAmazonProductsTaskGetHtmlResultInfo`
 
-Defined in: main.ts:204954
+Defined in: main.ts:205484
 
 #### Parameters
 

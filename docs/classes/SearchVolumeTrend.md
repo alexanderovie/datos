@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeTrend
 
-Defined in: main.ts:103612
+Defined in: main.ts:103724
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:103612
 
 ### Constructor
 
-> **new SearchVolumeTrend**(`data`?): `SearchVolumeTrend`
+> **new SearchVolumeTrend**(`data?`): `SearchVolumeTrend`
 
-Defined in: main.ts:103622
+Defined in: main.ts:103734
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103622
 
 > `optional` **monthly**: `number`
 
-Defined in: main.ts:103614
+Defined in: main.ts:103726
 
 search volume change in percent compared to the previous month
 
@@ -54,7 +54,7 @@ search volume change in percent compared to the previous month
 
 > `optional` **quarterly**: `number`
 
-Defined in: main.ts:103616
+Defined in: main.ts:103728
 
 search volume change in percent compared to the previous quarter
 
@@ -68,7 +68,7 @@ search volume change in percent compared to the previous quarter
 
 > `optional` **yearly**: `number`
 
-Defined in: main.ts:103618
+Defined in: main.ts:103730
 
 search volume change in percent compared to the previous year
 
@@ -80,9 +80,9 @@ search volume change in percent compared to the previous year
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:103631
+Defined in: main.ts:103743
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:103631
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:103650
+Defined in: main.ts:103762
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:103650
 
 > `static` **fromJS**(`data`): `SearchVolumeTrend`
 
-Defined in: main.ts:103643
+Defined in: main.ts:103755
 
 #### Parameters
 

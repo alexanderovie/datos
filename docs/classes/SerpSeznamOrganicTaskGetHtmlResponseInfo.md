@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetHtmlResponseInfo
 
-Defined in: main.ts:87165
+Defined in: main.ts:87277
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:87165
 
 ### Constructor
 
-> **new SerpSeznamOrganicTaskGetHtmlResponseInfo**(`data`?): `SerpSeznamOrganicTaskGetHtmlResponseInfo`
+> **new SerpSeznamOrganicTaskGetHtmlResponseInfo**(`data?`): `SerpSeznamOrganicTaskGetHtmlResponseInfo`
 
-Defined in: main.ts:87171
+Defined in: main.ts:87283
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:87171
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26361
+Defined in: main.ts:26369
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26354
+Defined in: main.ts:26362
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26357
+Defined in: main.ts:26365
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTaskGetHtmlTaskInfo`](SerpSeznamOrganicTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:87167
+Defined in: main.ts:87279
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26363
+Defined in: main.ts:26371
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26365
+Defined in: main.ts:26373
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26359
+Defined in: main.ts:26367
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26351
+Defined in: main.ts:26359
 
 the current version of the API
 
@@ -188,9 +188,9 @@ the current version of the API
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:87175
+Defined in: main.ts:87287
 
 #### Parameters
 
@@ -210,9 +210,9 @@ Defined in: main.ts:87175
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:87197
+Defined in: main.ts:87309
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:87197
 
 > `static` **fromJS**(`data`): `SerpSeznamOrganicTaskGetHtmlResponseInfo`
 
-Defined in: main.ts:87190
+Defined in: main.ts:87302
 
 #### Parameters
 

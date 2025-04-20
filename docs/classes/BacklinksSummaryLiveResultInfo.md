@@ -6,7 +6,7 @@
 
 # Class: BacklinksSummaryLiveResultInfo
 
-Defined in: main.ts:162212
+Defined in: main.ts:162356
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:162212
 
 ### Constructor
 
-> **new BacklinksSummaryLiveResultInfo**(`data`?): `BacklinksSummaryLiveResultInfo`
+> **new BacklinksSummaryLiveResultInfo**(`data?`): `BacklinksSummaryLiveResultInfo`
 
-Defined in: main.ts:162300
+Defined in: main.ts:162443
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162300
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:162230
+Defined in: main.ts:162374
 
 indicates the number of backlinks
 
@@ -54,7 +54,7 @@ indicates the number of backlinks
 
 > `optional` **backlinks\_spam\_score**: `number`
 
-Defined in: main.ts:162234
+Defined in: main.ts:162378
 
 spam score of the backlinks
 displays the total spam score of all backlinks pointing to the target domain, subdomain, or webpage;
@@ -70,7 +70,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 > `optional` **broken\_backlinks**: `number`
 
-Defined in: main.ts:162247
+Defined in: main.ts:162391
 
 number of broken backlinks
 number of broken backlinks pointing to the target
@@ -85,7 +85,7 @@ number of broken backlinks pointing to the target
 
 > `optional` **broken\_pages**: `number`
 
-Defined in: main.ts:162251
+Defined in: main.ts:162395
 
 number of broken pages
 number of pages on the target that respond with 4xx or 5xx status codes
@@ -101,7 +101,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 > `optional` **crawled\_pages**: `number`
 
-Defined in: main.ts:162236
+Defined in: main.ts:162380
 
 number of crawled pages for the target
 
@@ -115,7 +115,7 @@ number of crawled pages for the target
 
 > `optional` **external\_links\_count**: `number`
 
-Defined in: main.ts:162244
+Defined in: main.ts:162388
 
 number of external links on the page
 calculated as the sum of external links on the pages of the specified target
@@ -130,7 +130,7 @@ calculated as the sum of external links on the pages of the specified target
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:162219
+Defined in: main.ts:162363
 
 date and time when our crawler found the backlink for the target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -147,7 +147,7 @@ example:
 
 > `optional` **info**: [`TargetInfo`](TargetInfo.md)
 
-Defined in: main.ts:162238
+Defined in: main.ts:162382
 
 information about the target
 
@@ -161,7 +161,7 @@ information about the target
 
 > `optional` **internal\_links\_count**: `number`
 
-Defined in: main.ts:162241
+Defined in: main.ts:162385
 
 number of internal links
 calculated as the sum of internal links on the pages of the specified target
@@ -176,7 +176,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 > `optional` **lost\_date**: `string`
 
-Defined in: main.ts:162225
+Defined in: main.ts:162369
 
 date and time when the backlink was lost
 indicates the date and time when our crawler visited the target and it responded with a 4xx or 5xx status code or when its last backlink was removed
@@ -194,7 +194,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:162228
+Defined in: main.ts:162372
 
 target rank
 learn more about the metric and how it is calculated in this help center article
@@ -209,7 +209,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:162254
+Defined in: main.ts:162398
 
 indicates the number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
@@ -224,7 +224,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:162256
+Defined in: main.ts:162400
 
 number of domains pointing at least one nofollow link to the target
 
@@ -238,7 +238,7 @@ number of domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:162263
+Defined in: main.ts:162407
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -253,7 +253,7 @@ number of IP addresses pointing to this page
 
 > `optional` **referring\_links\_attributes**: `object`
 
-Defined in: main.ts:162280
+Defined in: main.ts:162424
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
@@ -274,7 +274,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 > `optional` **referring\_links\_countries**: `object`
 
-Defined in: main.ts:162294
+Defined in: main.ts:162437
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
@@ -293,12 +293,11 @@ indicates ISO country codes of the domains where the referring links are located
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
-Defined in: main.ts:162285
+Defined in: main.ts:162428
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
-example values:
-cms, blogs, unknown, ecommerce, message-boards
+possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization
 
 #### Index Signature
 
@@ -314,7 +313,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
-Defined in: main.ts:162291
+Defined in: main.ts:162434
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -336,7 +335,7 @@ article, section, summary, ""
 
 > `optional` **referring\_links\_tld**: `object`
 
-Defined in: main.ts:162270
+Defined in: main.ts:162414
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
@@ -355,7 +354,7 @@ contains top level domains and referring link count per each
 
 > `optional` **referring\_links\_types**: `object`
 
-Defined in: main.ts:162275
+Defined in: main.ts:162419
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -376,7 +375,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:162258
+Defined in: main.ts:162402
 
 indicates the number of referring main domains
 
@@ -390,7 +389,7 @@ indicates the number of referring main domains
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:162260
+Defined in: main.ts:162404
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -404,7 +403,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:162267
+Defined in: main.ts:162411
 
 indicates the number of pages pointing to the target
 
@@ -418,7 +417,7 @@ indicates the number of pages pointing to the target
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:162296
+Defined in: main.ts:162439
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -432,7 +431,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:162265
+Defined in: main.ts:162409
 
 number of referring subnetworks
 
@@ -446,7 +445,7 @@ number of referring subnetworks
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:162214
+Defined in: main.ts:162358
 
 target in a POST array
 
@@ -458,9 +457,9 @@ target in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:162309
+Defined in: main.ts:162452
 
 #### Parameters
 
@@ -476,9 +475,9 @@ Defined in: main.ts:162309
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:162387
+Defined in: main.ts:162530
 
 #### Parameters
 
@@ -496,7 +495,7 @@ Defined in: main.ts:162387
 
 > `static` **fromJS**(`data`): `BacklinksSummaryLiveResultInfo`
 
-Defined in: main.ts:162380
+Defined in: main.ts:162523
 
 #### Parameters
 

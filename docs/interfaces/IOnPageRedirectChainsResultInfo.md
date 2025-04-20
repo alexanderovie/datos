@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRedirectChainsResultInfo
 
-Defined in: main.ts:182104
+Defined in: main.ts:182514
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182104
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:182107
+Defined in: main.ts:182517
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:182109
+Defined in: main.ts:182519
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageRedirectChainsItem`](../classes/OnPageRedirectChainsItem.md)[]
 
-Defined in: main.ts:182115
+Defined in: main.ts:182525
 
 items array
 
@@ -49,7 +49,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:182113
+Defined in: main.ts:182523
 
 number of items in the results array
 
@@ -59,6 +59,6 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:182111
+Defined in: main.ts:182521
 
 total number of relevant items in the database

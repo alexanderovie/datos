@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
-Defined in: main.ts:130914
+Defined in: main.ts:131036
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:130914
 
 ### Constructor
 
-> **new DataforseoLabsBingRelatedKeywordsLiveResultInfo**(`data`?): `DataforseoLabsBingRelatedKeywordsLiveResultInfo`
+> **new DataforseoLabsBingRelatedKeywordsLiveResultInfo**(`data?`): `DataforseoLabsBingRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:130935
+Defined in: main.ts:131057
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:130935
 
 > `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:130931
+Defined in: main.ts:131053
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:130929
+Defined in: main.ts:131051
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:130925
+Defined in: main.ts:131047
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:130923
+Defined in: main.ts:131045
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:130916
+Defined in: main.ts:131038
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:130918
+Defined in: main.ts:131040
 
 keyword in a POST array
 
@@ -124,7 +124,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:130921
+Defined in: main.ts:131043
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -139,7 +139,7 @@ fields in the array are identical to that of keyword_data
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:130927
+Defined in: main.ts:131049
 
 total amount of results in our database relevant to your request
 
@@ -151,9 +151,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:130944
+Defined in: main.ts:131066
 
 #### Parameters
 
@@ -169,9 +169,9 @@ Defined in: main.ts:130944
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:130972
+Defined in: main.ts:131094
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:130972
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingRelatedKeywordsLiveResultInfo`
 
-Defined in: main.ts:130965
+Defined in: main.ts:131087
 
 #### Parameters
 

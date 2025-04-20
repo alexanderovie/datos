@@ -6,7 +6,7 @@
 
 # Class: SerpScreenshotRequestInfo
 
-Defined in: main.ts:27917
+Defined in: main.ts:27925
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27917
 
 ### Constructor
 
-> **new SerpScreenshotRequestInfo**(`data`?): `SerpScreenshotRequestInfo`
+> **new SerpScreenshotRequestInfo**(`data?`): `SerpScreenshotRequestInfo`
 
-Defined in: main.ts:27944
+Defined in: main.ts:27952
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27944
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:27928
+Defined in: main.ts:27936
 
 browser resolution preset
 optional field
@@ -58,7 +58,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:27936
+Defined in: main.ts:27944
 
 height of the browser resolution
 optional field
@@ -74,7 +74,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:27940
+Defined in: main.ts:27948
 
 browser scale factor
 optional field
@@ -90,7 +90,7 @@ can be specified in the following range: 0.5-3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:27932
+Defined in: main.ts:27940
 
 width of the browser resolution
 optional field
@@ -106,7 +106,7 @@ can be specified in the following range: 240-9999
 
 > `optional` **task\_id**: `string`
 
-Defined in: main.ts:27922
+Defined in: main.ts:27930
 
 task identifier
 required field
@@ -121,9 +121,9 @@ you will be able to use it within 7 days to request the results of the task at a
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27953
+Defined in: main.ts:27961
 
 #### Parameters
 
@@ -139,9 +139,9 @@ Defined in: main.ts:27953
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27974
+Defined in: main.ts:27982
 
 #### Parameters
 
@@ -159,7 +159,7 @@ Defined in: main.ts:27974
 
 > `static` **fromJS**(`data`): `SerpScreenshotRequestInfo`
 
-Defined in: main.ts:27967
+Defined in: main.ts:27975
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsResultInfo
 
-Defined in: main.ts:161136
+Defined in: main.ts:161260
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:161136
 
 ### Constructor
 
-> **new BacklinksErrorsResultInfo**(`data`?): `BacklinksErrorsResultInfo`
+> **new BacklinksErrorsResultInfo**(`data?`): `BacklinksErrorsResultInfo`
 
-Defined in: main.ts:161166
+Defined in: main.ts:161290
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161166
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:161143
+Defined in: main.ts:161267
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:161147
+Defined in: main.ts:161271
 
 error code
 
@@ -71,7 +71,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:161150
+Defined in: main.ts:161274
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -86,7 +86,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:161145
+Defined in: main.ts:161269
 
 corresponding API function
 
@@ -100,7 +100,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:161157
+Defined in: main.ts:161281
 
 HTTP status code
 
@@ -114,7 +114,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:161155
+Defined in: main.ts:161279
 
 HTTP method
 
@@ -128,7 +128,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:161162
+Defined in: main.ts:161286
 
 HTTP response
 server response
@@ -143,7 +143,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:161159
+Defined in: main.ts:161283
 
 time taken by HTTP request
 
@@ -157,7 +157,7 @@ time taken by HTTP request
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:161153
+Defined in: main.ts:161277
 
 URL that caused an error
 URL you used for making an API call
@@ -172,7 +172,7 @@ URL you used for making an API call
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:161138
+Defined in: main.ts:161262
 
 id of the task
 
@@ -184,9 +184,9 @@ id of the task
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:161175
+Defined in: main.ts:161299
 
 #### Parameters
 
@@ -202,9 +202,9 @@ Defined in: main.ts:161175
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:161201
+Defined in: main.ts:161325
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:161201
 
 > `static` **fromJS**(`data`): `BacklinksErrorsResultInfo`
 
-Defined in: main.ts:161194
+Defined in: main.ts:161318
 
 #### Parameters
 

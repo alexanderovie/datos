@@ -6,7 +6,7 @@
 
 # Class: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
-Defined in: main.ts:242712
+Defined in: main.ts:243242
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:242712
 
 ### Constructor
 
-> **new AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo**(`data`?): `AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`
+> **new AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo**(`data?`): `AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242720
+Defined in: main.ts:243250
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:242720
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242715
+Defined in: main.ts:243245
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:242715
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242713
+Defined in: main.ts:243243
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:242713
 
 > `optional` **global\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:242716
+Defined in: main.ts:243246
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:242716
 
 > `optional` **locations\_and\_languages**: `number`
 
-Defined in: main.ts:242714
+Defined in: main.ts:243244
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:242714
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:242729
+Defined in: main.ts:243259
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:242729
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:242749
+Defined in: main.ts:243279
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:242749
 
 > `static` **fromJS**(`data`): `AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`
 
-Defined in: main.ts:242742
+Defined in: main.ts:243272
 
 #### Parameters
 

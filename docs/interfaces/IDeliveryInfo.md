@@ -6,7 +6,7 @@
 
 # Interface: IDeliveryInfo
 
-Defined in: main.ts:197790
+Defined in: main.ts:198320
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:197790
 
 > `optional` **delivery\_message**: `string`
 
-Defined in: main.ts:197793
+Defined in: main.ts:198323
 
 delivery information
 message accompanying the delivery information as posted by the seller
@@ -29,7 +29,7 @@ message accompanying the delivery information as posted by the seller
 
 > `optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:197797
+Defined in: main.ts:198327
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;

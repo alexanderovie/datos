@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveResultInfo
 
-Defined in: main.ts:241496
+Defined in: main.ts:242026
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:241496
 
 ### Constructor
 
-> **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data`?): `BusinessDataSocialMediaPinterestLiveResultInfo`
+> **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data?`): `BusinessDataSocialMediaPinterestLiveResultInfo`
 
-Defined in: main.ts:241509
+Defined in: main.ts:242039
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:241509
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:241501
+Defined in: main.ts:242031
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -55,7 +55,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **pins\_count**: `number`
 
-Defined in: main.ts:241505
+Defined in: main.ts:242035
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
@@ -71,7 +71,7 @@ this field shows the number of content saves made from the related page_url usin
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:241498
+Defined in: main.ts:242028
 
 type of element
 
@@ -83,9 +83,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:241518
+Defined in: main.ts:242048
 
 #### Parameters
 
@@ -101,9 +101,9 @@ Defined in: main.ts:241518
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:241537
+Defined in: main.ts:242067
 
 #### Parameters
 
@@ -121,7 +121,7 @@ Defined in: main.ts:241537
 
 > `static` **fromJS**(`data`): `BusinessDataSocialMediaPinterestLiveResultInfo`
 
-Defined in: main.ts:241530
+Defined in: main.ts:242060
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpErrorsRequestInfo
 
-Defined in: main.ts:27575
+Defined in: main.ts:27583
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:27575
 
 ### Constructor
 
-> **new SerpErrorsRequestInfo**(`data`?): `SerpErrorsRequestInfo`
+> **new SerpErrorsRequestInfo**(`data?`): `SerpErrorsRequestInfo`
 
-Defined in: main.ts:27609
+Defined in: main.ts:27617
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:27609
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:27598
+Defined in: main.ts:27606
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:27605
+Defined in: main.ts:27613
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:27591
+Defined in: main.ts:27599
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:27580
+Defined in: main.ts:27588
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:27585
+Defined in: main.ts:27593
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:27618
+Defined in: main.ts:27626
 
 #### Parameters
 
@@ -146,9 +146,9 @@ Defined in: main.ts:27618
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:27639
+Defined in: main.ts:27647
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:27639
 
 > `static` **fromJS**(`data`): `SerpErrorsRequestInfo`
 
-Defined in: main.ts:27632
+Defined in: main.ts:27640
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SearchVolumeHistoryItemInfo
 
-Defined in: main.ts:158493
+Defined in: main.ts:158617
 
 device type = desktop contains historical search volume data for searches made from desktop devices
 
@@ -22,9 +22,9 @@ device type = desktop contains historical search volume data for searches made f
 
 ### Constructor
 
-> **new SearchVolumeHistoryItemInfo**(`data`?): `SearchVolumeHistoryItemInfo`
+> **new SearchVolumeHistoryItemInfo**(`data?`): `SearchVolumeHistoryItemInfo`
 
-Defined in: main.ts:158505
+Defined in: main.ts:158629
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:158505
 
 > `optional` **day**: `number`
 
-Defined in: main.ts:158499
+Defined in: main.ts:158623
 
 day of the month
 
@@ -56,7 +56,7 @@ day of the month
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:158497
+Defined in: main.ts:158621
 
 month
 
@@ -70,7 +70,7 @@ month
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:158501
+Defined in: main.ts:158625
 
 search volume rate
 
@@ -84,7 +84,7 @@ search volume rate
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:158495
+Defined in: main.ts:158619
 
 year
 
@@ -96,9 +96,9 @@ year
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:158514
+Defined in: main.ts:158638
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:158514
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:158534
+Defined in: main.ts:158658
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:158534
 
 > `static` **fromJS**(`data`): `SearchVolumeHistoryItemInfo`
 
-Defined in: main.ts:158527
+Defined in: main.ts:158651
 
 #### Parameters
 

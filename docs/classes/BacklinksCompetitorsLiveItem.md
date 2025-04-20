@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveItem
 
-Defined in: main.ts:168952
+Defined in: main.ts:169262
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:168952
 
 ### Constructor
 
-> **new BacklinksCompetitorsLiveItem**(`data`?): `BacklinksCompetitorsLiveItem`
+> **new BacklinksCompetitorsLiveItem**(`data?`): `BacklinksCompetitorsLiveItem`
 
-Defined in: main.ts:168967
+Defined in: main.ts:169277
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168967
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:168963
+Defined in: main.ts:169273
 
 indicates the number of backlink intersections with the target specified in the POST array
 
@@ -54,7 +54,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:168961
+Defined in: main.ts:169271
 
 domain rank
 domain rank across all domains in the database
@@ -71,7 +71,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:168956
+Defined in: main.ts:169266
 
 competitor domain
 
@@ -85,7 +85,7 @@ competitor domain
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:168954
+Defined in: main.ts:169264
 
 type of element
 
@@ -97,9 +97,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:168976
+Defined in: main.ts:169286
 
 #### Parameters
 
@@ -115,9 +115,9 @@ Defined in: main.ts:168976
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:168996
+Defined in: main.ts:169306
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:168996
 
 > `static` **fromJS**(`data`): `BacklinksCompetitorsLiveItem`
 
-Defined in: main.ts:168989
+Defined in: main.ts:169299
 
 #### Parameters
 

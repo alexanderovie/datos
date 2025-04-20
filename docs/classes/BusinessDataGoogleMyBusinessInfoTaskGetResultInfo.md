@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
-Defined in: main.ts:226238
+Defined in: main.ts:226768
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:226238
 
 ### Constructor
 
-> **new BusinessDataGoogleMyBusinessInfoTaskGetResultInfo**(`data`?): `BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`
+> **new BusinessDataGoogleMyBusinessInfoTaskGetResultInfo**(`data?`): `BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`
 
-Defined in: main.ts:226272
+Defined in: main.ts:226802
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:226272
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:226254
+Defined in: main.ts:226784
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:226259
+Defined in: main.ts:226789
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:226263
+Defined in: main.ts:226793
 
 item types
 types of search engine results encountered in the items array;
@@ -88,7 +88,7 @@ possible item types: google_business_info
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:226268
+Defined in: main.ts:226798
 
 array of directory items
 
@@ -102,7 +102,7 @@ array of directory items
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:226266
+Defined in: main.ts:226796
 
 item types
 the number of items in the items array
@@ -117,7 +117,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:226245
+Defined in: main.ts:226775
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -136,7 +136,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:226251
+Defined in: main.ts:226781
 
 language code in a POST array
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:226249
+Defined in: main.ts:226779
 
 location code in a POST array
 
@@ -164,7 +164,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:226247
+Defined in: main.ts:226777
 
 search engine domain as specified in a POST array
 
@@ -176,9 +176,9 @@ search engine domain as specified in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:226281
+Defined in: main.ts:226811
 
 #### Parameters
 
@@ -194,9 +194,9 @@ Defined in: main.ts:226281
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:226314
+Defined in: main.ts:226844
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: main.ts:226314
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessInfoTaskGetResultInfo`
 
-Defined in: main.ts:226307
+Defined in: main.ts:226837
 
 #### Parameters
 

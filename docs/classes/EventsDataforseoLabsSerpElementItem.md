@@ -6,7 +6,7 @@
 
 # Class: EventsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:119203
+Defined in: main.ts:119325
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:119203
 
 ### Constructor
 
-> **new EventsDataforseoLabsSerpElementItem**(`data`?): `EventsDataforseoLabsSerpElementItem`
+> **new EventsDataforseoLabsSerpElementItem**(`data?`): `EventsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119214
+Defined in: main.ts:119336
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:119214
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22569
+Defined in: main.ts:22577
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22569
 
 > `optional` **items**: [`EventsElement`](EventsElement.md)[]
 
-Defined in: main.ts:119210
+Defined in: main.ts:119332
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22565
+Defined in: main.ts:22573
 
 the alignment of the element in SERP
 can take the following values:
@@ -95,7 +95,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22561
+Defined in: main.ts:22569
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -114,7 +114,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22558
+Defined in: main.ts:22566
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:119205
+Defined in: main.ts:119327
 
 title of the result in SERP
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22555
+Defined in: main.ts:22563
 
 type of element
 
@@ -165,7 +165,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:119207
+Defined in: main.ts:119329
 
 relevant URL
 
@@ -179,7 +179,7 @@ relevant URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22567
+Defined in: main.ts:22575
 
 the XPath of the element
 
@@ -195,9 +195,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:119219
+Defined in: main.ts:119341
 
 #### Parameters
 
@@ -217,9 +217,9 @@ Defined in: main.ts:119219
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:119243
+Defined in: main.ts:119365
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: main.ts:119243
 
 > `static` **fromJS**(`data`): `EventsDataforseoLabsSerpElementItem`
 
-Defined in: main.ts:119236
+Defined in: main.ts:119358
 
 #### Parameters
 

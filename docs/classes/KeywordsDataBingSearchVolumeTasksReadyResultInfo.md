@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeTasksReadyResultInfo
 
-Defined in: main.ts:150848
+Defined in: main.ts:150972
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:150848
 
 ### Constructor
 
-> **new KeywordsDataBingSearchVolumeTasksReadyResultInfo**(`data`?): `KeywordsDataBingSearchVolumeTasksReadyResultInfo`
+> **new KeywordsDataBingSearchVolumeTasksReadyResultInfo**(`data?`): `KeywordsDataBingSearchVolumeTasksReadyResultInfo`
 
-Defined in: main.ts:150865
+Defined in: main.ts:150989
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:150865
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:150857
+Defined in: main.ts:150981
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:150861
+Defined in: main.ts:150985
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:150855
+Defined in: main.ts:150979
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:150851
+Defined in: main.ts:150975
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:150853
+Defined in: main.ts:150977
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:150859
+Defined in: main.ts:150983
 
 user-defined task identifier
 
@@ -123,9 +123,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:150874
+Defined in: main.ts:150998
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:150874
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:150896
+Defined in: main.ts:151020
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:150896
 
 > `static` **fromJS**(`data`): `KeywordsDataBingSearchVolumeTasksReadyResultInfo`
 
-Defined in: main.ts:150889
+Defined in: main.ts:151013
 
 #### Parameters
 

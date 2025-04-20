@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
-Defined in: main.ts:109968
+Defined in: main.ts:110090
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:109968
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo**(`data`?): `DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
+> **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo**(`data?`): `DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
 
-Defined in: main.ts:109986
+Defined in: main.ts:110108
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:109986
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:109972
+Defined in: main.ts:110094
 
 categories in a POST array
 
@@ -54,7 +54,7 @@ categories in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)[]
 
-Defined in: main.ts:109982
+Defined in: main.ts:110104
 
 contains historical ranking and traffic data
 
@@ -68,7 +68,7 @@ contains historical ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:109980
+Defined in: main.ts:110102
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:109976
+Defined in: main.ts:110098
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:109974
+Defined in: main.ts:110096
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:109970
+Defined in: main.ts:110092
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:109978
+Defined in: main.ts:110100
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:109995
+Defined in: main.ts:110117
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:109995
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:110026
+Defined in: main.ts:110148
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:110026
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`
 
-Defined in: main.ts:110019
+Defined in: main.ts:110141
 
 #### Parameters
 

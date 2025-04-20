@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantGoogleInfo
 
-Defined in: main.ts:243380
+Defined in: main.ts:243910
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243380
 
 ### Constructor
 
-> **new AppendixMerchantGoogleInfo**(`data`?): `AppendixMerchantGoogleInfo`
+> **new AppendixMerchantGoogleInfo**(`data?`): `AppendixMerchantGoogleInfo`
 
-Defined in: main.ts:243388
+Defined in: main.ts:243918
 
 #### Parameters
 
@@ -38,9 +38,9 @@ Defined in: main.ts:243388
 
 ### product\_info?
 
-> `optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **product\_info**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:243384
+Defined in: main.ts:243914
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:243384
 
 ### product\_spec?
 
-> `optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **product\_spec**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:243383
+Defined in: main.ts:243913
 
 #### Implementation of
 
@@ -62,9 +62,9 @@ Defined in: main.ts:243383
 
 ### products?
 
-> `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **products**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:243381
+Defined in: main.ts:243911
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243381
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243382
+Defined in: main.ts:243912
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:243382
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243397
+Defined in: main.ts:243927
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:243397
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243417
+Defined in: main.ts:243947
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243417
 
 > `static` **fromJS**(`data`): `AppendixMerchantGoogleInfo`
 
-Defined in: main.ts:243410
+Defined in: main.ts:243940
 
 #### Parameters
 

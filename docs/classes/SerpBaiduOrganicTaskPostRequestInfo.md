@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
 
-Defined in: main.ts:81762
+Defined in: main.ts:81874
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:81762
 
 ### Constructor
 
-> **new SerpBaiduOrganicTaskPostRequestInfo**(`data`?): `SerpBaiduOrganicTaskPostRequestInfo`
+> **new SerpBaiduOrganicTaskPostRequestInfo**(`data?`): `SerpBaiduOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:81890
+Defined in: main.ts:82002
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:81890
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:81787
+Defined in: main.ts:81899
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:81835
+Defined in: main.ts:81947
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **get\_website\_url**: `boolean`
 
-Defined in: main.ts:81852
+Defined in: main.ts:81964
 
 include direct URL for each ranked result
 optional field
@@ -98,7 +98,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:81770
+Defined in: main.ts:81882
 
 keyword
 required field
@@ -118,7 +118,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:81806
+Defined in: main.ts:81918
 
 search engine language code
 required field if you don’t specify language_name
@@ -136,7 +136,7 @@ zh_CN
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:81800
+Defined in: main.ts:81912
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -154,7 +154,7 @@ Chinese (Simplified)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:81820
+Defined in: main.ts:81932
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -173,7 +173,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:81830
+Defined in: main.ts:81942
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -195,7 +195,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:81813
+Defined in: main.ts:81925
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -214,7 +214,7 @@ New York,New York,United States
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:81794
+Defined in: main.ts:81906
 
 page crawl limit
 optional field
@@ -233,7 +233,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:81844
+Defined in: main.ts:81956
 
 device operating system
 optional field
@@ -254,7 +254,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:81886
+Defined in: main.ts:81998
 
 notification URL of a completed task
 optional field
@@ -277,7 +277,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:81875
+Defined in: main.ts:81987
 
 postback_url datatype
 required field if you specify postback_url
@@ -295,7 +295,7 @@ regular, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:81869
+Defined in: main.ts:81981
 
 return URL for sending task results
 optional field
@@ -318,7 +318,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:81778
+Defined in: main.ts:81890
 
 task priority
 optional field
@@ -338,7 +338,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:81858
+Defined in: main.ts:81970
 
 user-defined task identifier
 optional field
@@ -354,9 +354,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:81899
+Defined in: main.ts:82011
 
 #### Parameters
 
@@ -372,9 +372,9 @@ Defined in: main.ts:81899
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:81931
+Defined in: main.ts:82043
 
 #### Parameters
 
@@ -392,7 +392,7 @@ Defined in: main.ts:81931
 
 > `static` **fromJS**(`data`): `SerpBaiduOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:81924
+Defined in: main.ts:82036
 
 #### Parameters
 

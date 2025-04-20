@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskPostRequestInfo
 
-Defined in: main.ts:85592
+Defined in: main.ts:85704
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:85592
 
 ### Constructor
 
-> **new SerpSeznamOrganicTaskPostRequestInfo**(`data`?): `SerpSeznamOrganicTaskPostRequestInfo`
+> **new SerpSeznamOrganicTaskPostRequestInfo**(`data?`): `SerpSeznamOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:85725
+Defined in: main.ts:85837
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85725
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:85687
+Defined in: main.ts:85799
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -59,7 +59,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:85651
+Defined in: main.ts:85763
 
 parsing depth
 optional field
@@ -80,7 +80,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:85663
+Defined in: main.ts:85775
 
 device type
 optional field
@@ -97,7 +97,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:85600
+Defined in: main.ts:85712
 
 keyword
 required field
@@ -117,7 +117,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:85628
+Defined in: main.ts:85740
 
 search engine language code
 required field if you don’t specify language_name
@@ -136,7 +136,7 @@ cs
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:85621
+Defined in: main.ts:85733
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -155,7 +155,7 @@ Czech
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:85614
+Defined in: main.ts:85726
 
 search engine location code
 required field if you don’t specify location_name
@@ -174,7 +174,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:85607
+Defined in: main.ts:85719
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -193,7 +193,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:85658
+Defined in: main.ts:85770
 
 page crawl limit
 optional field
@@ -212,7 +212,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:85670
+Defined in: main.ts:85782
 
 device operating system
 optional field
@@ -231,7 +231,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:85721
+Defined in: main.ts:85833
 
 notification URL of a completed task
 optional field
@@ -254,7 +254,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:85710
+Defined in: main.ts:85822
 
 postback_url datatype
 required field if you specify postback_url
@@ -272,7 +272,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:85704
+Defined in: main.ts:85816
 
 return URL for sending task results
 optional field
@@ -295,7 +295,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:85642
+Defined in: main.ts:85754
 
 task priority
 optional field
@@ -315,7 +315,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:85677
+Defined in: main.ts:85789
 
 search engine domain
 optional field
@@ -334,7 +334,7 @@ search.seznam.cz
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:85680
+Defined in: main.ts:85792
 
 additional parameters of the search query
 optional field
@@ -349,7 +349,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:85693
+Defined in: main.ts:85805
 
 user-defined task identifier
 optional field
@@ -367,7 +367,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:85634
+Defined in: main.ts:85746
 
 direct URL of the search query
 optional field
@@ -383,9 +383,9 @@ in most cases, we wouldn’t recommend using this method.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:85734
+Defined in: main.ts:85846
 
 #### Parameters
 
@@ -401,9 +401,9 @@ Defined in: main.ts:85734
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:85768
+Defined in: main.ts:85880
 
 #### Parameters
 
@@ -421,7 +421,7 @@ Defined in: main.ts:85768
 
 > `static` **fromJS**(`data`): `SerpSeznamOrganicTaskPostRequestInfo`
 
-Defined in: main.ts:85761
+Defined in: main.ts:85873
 
 #### Parameters
 

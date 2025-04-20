@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsMetricsInfo
 
-Defined in: main.ts:108153
+Defined in: main.ts:108275
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:108153
 
 > `optional` **clickstream\_age\_distribution**: `object`
 
-Defined in: main.ts:108219
+Defined in: main.ts:108341
 
 distribution of clickstream-based metrics by age
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -34,7 +34,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:108211
+Defined in: main.ts:108333
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -47,7 +47,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **clickstream\_gender\_distribution**: `object`
 
-Defined in: main.ts:108215
+Defined in: main.ts:108337
 
 distribution of estimated clickstream-based metrics by gender
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -63,7 +63,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:108189
+Defined in: main.ts:108311
 
 total count of organic SERPs that contain the domain or subdomain
 
@@ -73,7 +73,7 @@ total count of organic SERPs that contain the domain or subdomain
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:108194
+Defined in: main.ts:108316
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost (USD) of running ads for all keywords in the category that the domain or subdomain ranks for
@@ -86,7 +86,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:108182
+Defined in: main.ts:108304
 
 estimated traffic volume
 estimated organic monthly traffic to the domain or subdomain
@@ -99,7 +99,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:108187
+Defined in: main.ts:108309
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain or subdomain
@@ -112,7 +112,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **is\_down**: `number`
 
-Defined in: main.ts:108203
+Defined in: main.ts:108325
 
 rank went down
 indicates how many ranked elements of the indicated target went down
@@ -123,7 +123,7 @@ indicates how many ranked elements of the indicated target went down
 
 > `optional` **is\_lost**: `number`
 
-Defined in: main.ts:108206
+Defined in: main.ts:108328
 
 lost ranked elements
 indicates how many ranked elements of the indicated target were previously presented in SERPs, but weren’t found during the last check
@@ -134,7 +134,7 @@ indicates how many ranked elements of the indicated target were previously prese
 
 > `optional` **is\_new**: `number`
 
-Defined in: main.ts:108197
+Defined in: main.ts:108319
 
 number of new ranked elements
 indicates how many new ranked elements were found for the indicated target
@@ -145,7 +145,7 @@ indicates how many new ranked elements were found for the indicated target
 
 > `optional` **is\_up**: `number`
 
-Defined in: main.ts:108200
+Defined in: main.ts:108322
 
 rank went up
 indicates how many ranked elements of the indicated target went up
@@ -156,7 +156,7 @@ indicates how many ranked elements of the indicated target went up
 
 > `optional` **pos\_1**: `number`
 
-Defined in: main.ts:108155
+Defined in: main.ts:108277
 
 number of organic SERPs where the domain or subdomain ranks #1
 
@@ -166,7 +166,7 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 > `optional` **pos\_11\_20**: `number`
 
-Defined in: main.ts:108161
+Defined in: main.ts:108283
 
 number of organic SERPs where the domain or subdomain ranks #11-20
 
@@ -176,7 +176,7 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 > `optional` **pos\_2\_3**: `number`
 
-Defined in: main.ts:108157
+Defined in: main.ts:108279
 
 number of organic SERPs where the domain or subdomain ranks #2-3
 
@@ -186,7 +186,7 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 > `optional` **pos\_21\_30**: `number`
 
-Defined in: main.ts:108163
+Defined in: main.ts:108285
 
 number of organic SERPs where the domain or subdomain ranks #21-30
 
@@ -196,7 +196,7 @@ number of organic SERPs where the domain or subdomain ranks #21-30
 
 > `optional` **pos\_31\_40**: `number`
 
-Defined in: main.ts:108165
+Defined in: main.ts:108287
 
 number of organic SERPs where the domain or subdomain ranks #31-40
 
@@ -206,7 +206,7 @@ number of organic SERPs where the domain or subdomain ranks #31-40
 
 > `optional` **pos\_4\_10**: `number`
 
-Defined in: main.ts:108159
+Defined in: main.ts:108281
 
 number of organic SERPs where the domain or subdomain ranks #4-10
 
@@ -216,7 +216,7 @@ number of organic SERPs where the domain or subdomain ranks #4-10
 
 > `optional` **pos\_41\_50**: `number`
 
-Defined in: main.ts:108167
+Defined in: main.ts:108289
 
 number of organic SERPs where the domain or subdomain ranks #41-50
 
@@ -226,7 +226,7 @@ number of organic SERPs where the domain or subdomain ranks #41-50
 
 > `optional` **pos\_51\_60**: `number`
 
-Defined in: main.ts:108169
+Defined in: main.ts:108291
 
 number of organic SERPs where the domain or subdomain ranks #51-60
 
@@ -236,7 +236,7 @@ number of organic SERPs where the domain or subdomain ranks #51-60
 
 > `optional` **pos\_61\_70**: `number`
 
-Defined in: main.ts:108171
+Defined in: main.ts:108293
 
 number of organic SERPs where the domain or subdomain ranks #61-70
 
@@ -246,7 +246,7 @@ number of organic SERPs where the domain or subdomain ranks #61-70
 
 > `optional` **pos\_71\_80**: `number`
 
-Defined in: main.ts:108173
+Defined in: main.ts:108295
 
 number of organic SERPs where the domain or subdomain ranks #71-80
 
@@ -256,7 +256,7 @@ number of organic SERPs where the domain or subdomain ranks #71-80
 
 > `optional` **pos\_81\_90**: `number`
 
-Defined in: main.ts:108175
+Defined in: main.ts:108297
 
 number of organic SERPs where the domain or subdomain ranks #81-90
 
@@ -266,6 +266,6 @@ number of organic SERPs where the domain or subdomain ranks #81-90
 
 > `optional` **pos\_91\_100**: `number`
 
-Defined in: main.ts:108177
+Defined in: main.ts:108299
 
 number of organic SERPs where the domain or subdomain ranks #91-100

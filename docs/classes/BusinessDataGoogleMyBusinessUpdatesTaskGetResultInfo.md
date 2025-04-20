@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
-Defined in: main.ts:227586
+Defined in: main.ts:228116
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:227586
 
 ### Constructor
 
-> **new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo**(`data`?): `BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
+> **new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo**(`data?`): `BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
 
-Defined in: main.ts:227631
+Defined in: main.ts:228161
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:227631
 
 > `optional` **business\_updates\_id**: `string`
 
-Defined in: main.ts:227609
+Defined in: main.ts:228139
 
 identifier of the business updates element in SERP
 
@@ -54,7 +54,7 @@ identifier of the business updates element in SERP
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:227602
+Defined in: main.ts:228132
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:227613
+Defined in: main.ts:228143
 
 google-defined client id
 unique id of a local establishment
@@ -85,7 +85,7 @@ learn more about the cid identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:227607
+Defined in: main.ts:228137
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -102,7 +102,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:227616
+Defined in: main.ts:228146
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -117,7 +117,7 @@ learn more about the identifier in this help center article
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:227620
+Defined in: main.ts:228150
 
 item types
 types of search engine results encountered in the items array;
@@ -133,7 +133,7 @@ possible item types: google_business_post
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:227627
+Defined in: main.ts:228157
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -149,7 +149,7 @@ possible item types: google_business_post
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:227623
+Defined in: main.ts:228153
 
 item types
 the number of items in the items array
@@ -164,7 +164,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:227593
+Defined in: main.ts:228123
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -183,7 +183,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:227599
+Defined in: main.ts:228129
 
 language code in a POST array
 
@@ -197,7 +197,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227597
+Defined in: main.ts:228127
 
 location code in a POST array
 
@@ -211,7 +211,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:227595
+Defined in: main.ts:228125
 
 search engine domain as specified in a POST array
 
@@ -223,9 +223,9 @@ search engine domain as specified in a POST array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:227640
+Defined in: main.ts:228170
 
 #### Parameters
 
@@ -241,9 +241,9 @@ Defined in: main.ts:227640
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:227676
+Defined in: main.ts:228206
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:227676
 
 > `static` **fromJS**(`data`): `BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`
 
-Defined in: main.ts:227669
+Defined in: main.ts:228199
 
 #### Parameters
 

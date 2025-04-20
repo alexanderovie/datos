@@ -6,7 +6,7 @@
 
 # Interface: IAppendixGoogleBusinessDataPriceData
 
-Defined in: main.ts:249162
+Defined in: main.ts:249988
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:249162
 
 > `optional` **extended\_reviews**: [`AppendixAKeywordsDataPriceDataInfo`](../classes/AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:249163
+Defined in: main.ts:249989
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:249163
 
 > `optional` **hotel\_info**: [`AppendixHotelInfoGoogleBusinessDataPriceData`](../classes/AppendixHotelInfoGoogleBusinessDataPriceData.md)
 
-Defined in: main.ts:249164
+Defined in: main.ts:249990
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:249164
 
 > `optional` **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249165
+Defined in: main.ts:249991
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:249165
 
 > `optional` **my\_business\_info**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249166
+Defined in: main.ts:249992
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:249166
 
 > `optional` **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249167
+Defined in: main.ts:249993
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:249167
 
 > `optional` **questions\_and\_answers**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249168
+Defined in: main.ts:249994
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:249168
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-Defined in: main.ts:249169
+Defined in: main.ts:249995

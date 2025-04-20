@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTaskGetPriceDataInfo
 
-Defined in: main.ts:248044
+Defined in: main.ts:248870
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:248044
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248045
+Defined in: main.ts:248871

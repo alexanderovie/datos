@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
-Defined in: main.ts:172968
+Defined in: main.ts:173356
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:172968
 
 ### Constructor
 
-> **new BacklinksBulkSpamScoreLiveItem**(`data`?): `BacklinksBulkSpamScoreLiveItem`
+> **new BacklinksBulkSpamScoreLiveItem**(`data?`): `BacklinksBulkSpamScoreLiveItem`
 
-Defined in: main.ts:172979
+Defined in: main.ts:173367
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172979
 
 > `optional` **spam\_score**: `number`
 
-Defined in: main.ts:172975
+Defined in: main.ts:173363
 
 average spam score the target
 learn more about how the metric is calculated
@@ -55,7 +55,7 @@ learn more about how the metric is calculated
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:172972
+Defined in: main.ts:173360
 
 domain, subdomain or webpage from a POST array
 
@@ -69,7 +69,7 @@ domain, subdomain or webpage from a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:172970
+Defined in: main.ts:173358
 
 type of element
 
@@ -81,9 +81,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:172988
+Defined in: main.ts:173376
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:172988
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:173007
+Defined in: main.ts:173395
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:173007
 
 > `static` **fromJS**(`data`): `BacklinksBulkSpamScoreLiveItem`
 
-Defined in: main.ts:173000
+Defined in: main.ts:173388
 
 #### Parameters
 

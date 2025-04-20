@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
-Defined in: main.ts:194554
+Defined in: main.ts:195084
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:194554
 
 ### Constructor
 
-> **new ContentGenerationCheckGrammarLiveResultInfo**(`data`?): `ContentGenerationCheckGrammarLiveResultInfo`
+> **new ContentGenerationCheckGrammarLiveResultInfo**(`data?`): `ContentGenerationCheckGrammarLiveResultInfo`
 
-Defined in: main.ts:194572
+Defined in: main.ts:195102
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194572
 
 > `optional` **initial\_text**: `string`
 
-Defined in: main.ts:194562
+Defined in: main.ts:195092
 
 initial text in the POST request
 
@@ -54,7 +54,7 @@ initial text in the POST request
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:194556
+Defined in: main.ts:195086
 
 number of input tokens in the POST request
 
@@ -68,7 +68,7 @@ number of input tokens in the POST request
 
 > `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)[]
 
-Defined in: main.ts:194568
+Defined in: main.ts:195098
 
 contains grammar or spelling errors and related data
 
@@ -82,7 +82,7 @@ contains grammar or spelling errors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:194566
+Defined in: main.ts:195096
 
 the number of results returned in the items array
 
@@ -96,7 +96,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:194564
+Defined in: main.ts:195094
 
 language code in the POST request
 
@@ -110,7 +110,7 @@ language code in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:194560
+Defined in: main.ts:195090
 
 number of new tokens in the response
 
@@ -124,7 +124,7 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:194558
+Defined in: main.ts:195088
 
 number of output tokens in the response
 
@@ -136,9 +136,9 @@ number of output tokens in the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:194581
+Defined in: main.ts:195111
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:194581
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:194608
+Defined in: main.ts:195138
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:194608
 
 > `static` **fromJS**(`data`): `ContentGenerationCheckGrammarLiveResultInfo`
 
-Defined in: main.ts:194601
+Defined in: main.ts:195131
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsSearchLiveResultInfo
 
-Defined in: main.ts:216368
+Defined in: main.ts:216898
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:216368
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:216372
+Defined in: main.ts:216902
 
 the number of items in the results array
 
@@ -28,7 +28,7 @@ the number of items in the results array
 
 > `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](../classes/AppDataGoogleAppListingsSearchLiveItem.md)[]
 
-Defined in: main.ts:216379
+Defined in: main.ts:216909
 
 array of apps and related data
 
@@ -38,7 +38,7 @@ array of apps and related data
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:216374
+Defined in: main.ts:216904
 
 offset in the results array of returned apps
 
@@ -48,7 +48,7 @@ offset in the results array of returned apps
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:216377
+Defined in: main.ts:216907
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -59,6 +59,6 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:216370
+Defined in: main.ts:216900
 
 the total number of relevant results in the database

@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
-Defined in: main.ts:97609
+Defined in: main.ts:97721
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:97609
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
-Defined in: main.ts:97617
+Defined in: main.ts:97729
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:97613
+Defined in: main.ts:97725
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97615
+Defined in: main.ts:97727
 
 offset in the results array of returned domains
 
@@ -48,6 +48,6 @@ offset in the results array of returned domains
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:97611
+Defined in: main.ts:97723
 
 total amount of results in our database relevant to your request

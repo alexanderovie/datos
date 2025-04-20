@@ -6,7 +6,7 @@
 
 # Interface: IAppDataIdListRequestInfo
 
-Defined in: main.ts:209709
+Defined in: main.ts:210239
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:209709
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:209717
+Defined in: main.ts:210247
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:209724
+Defined in: main.ts:210254
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:209743
+Defined in: main.ts:210273
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:209729
+Defined in: main.ts:210259
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:209734
+Defined in: main.ts:210264
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:209739
+Defined in: main.ts:210269
 
 sorting by task execution time
 optional field

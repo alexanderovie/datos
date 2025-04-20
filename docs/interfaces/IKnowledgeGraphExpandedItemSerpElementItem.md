@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedItemSerpElementItem
 
-Defined in: main.ts:32236
+Defined in: main.ts:32244
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32236
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:32248
+Defined in: main.ts:32256
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](../classes/KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:32250
+Defined in: main.ts:32258
 
 link of the element
 
@@ -44,7 +44,7 @@ link of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32240
+Defined in: main.ts:32248
 
 the alignment of the element in SERP
 can take the following values:
@@ -56,7 +56,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -87,7 +87,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32254
+Defined in: main.ts:32262
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -99,7 +99,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32244
+Defined in: main.ts:32252
 
 title of the link
 
@@ -109,7 +109,7 @@ title of the link
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -123,6 +123,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32242
+Defined in: main.ts:32250
 
 the XPath of the element

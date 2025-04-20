@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksRequestInfo
 
-Defined in: main.ts:181216
+Defined in: main.ts:181626
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:181216
 
 ### Constructor
 
-> **new OnPageLinksRequestInfo**(`data`?): `OnPageLinksRequestInfo`
+> **new OnPageLinksRequestInfo**(`data?`): `OnPageLinksRequestInfo`
 
-Defined in: main.ts:181269
+Defined in: main.ts:181679
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181269
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:181259
+Defined in: main.ts:181669
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:181222
+Defined in: main.ts:181632
 
 ID of the task
 required field
@@ -87,7 +87,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:181237
+Defined in: main.ts:181647
 
 the maximum number of returned links
 optional field
@@ -104,7 +104,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:181242
+Defined in: main.ts:181652
 
 offset in the results array of returned links
 optional field
@@ -121,7 +121,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 > `optional` **page\_from**: `string`
 
-Defined in: main.ts:181227
+Defined in: main.ts:181637
 
 relative page URL
 optional field
@@ -138,7 +138,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **page\_to**: `string`
 
-Defined in: main.ts:181232
+Defined in: main.ts:181642
 
 relative page URL
 optional field
@@ -155,7 +155,7 @@ note that in this field you can specify relative URLs only
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181265
+Defined in: main.ts:181675
 
 user-defined task identifier
 optional field
@@ -171,9 +171,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:181278
+Defined in: main.ts:181688
 
 #### Parameters
 
@@ -189,9 +189,9 @@ Defined in: main.ts:181278
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:181305
+Defined in: main.ts:181715
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:181305
 
 > `static` **fromJS**(`data`): `OnPageLinksRequestInfo`
 
-Defined in: main.ts:181298
+Defined in: main.ts:181708
 
 #### Parameters
 

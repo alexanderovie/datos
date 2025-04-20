@@ -6,7 +6,7 @@
 
 # Interface: IStocksBoxSerpElementItem
 
-Defined in: main.ts:37640
+Defined in: main.ts:37648
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37640
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37659
+Defined in: main.ts:37667
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
-Defined in: main.ts:37668
+Defined in: main.ts:37676
 
 contains data provided in the graph of the element
 
@@ -42,7 +42,7 @@ contains data provided in the graph of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:37644
+Defined in: main.ts:37652
 
 the alignment of the element in SERP
 can take the following values:
@@ -54,7 +54,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:37655
+Defined in: main.ts:37663
 
 price indicated in the element
 
@@ -64,7 +64,7 @@ price indicated in the element
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -95,7 +95,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37663
+Defined in: main.ts:37671
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -107,7 +107,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:37653
+Defined in: main.ts:37661
 
 text alongside the link title
 
@@ -117,7 +117,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37651
+Defined in: main.ts:37659
 
 source of the element
 indicates the source of the video
@@ -128,7 +128,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:37666
+Defined in: main.ts:37674
 
 results table
 if there are none, equals null
@@ -139,7 +139,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37648
+Defined in: main.ts:37656
 
 title of the row
 
@@ -149,7 +149,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -163,7 +163,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37657
+Defined in: main.ts:37665
 
 source URL
 
@@ -173,6 +173,6 @@ source URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37646
+Defined in: main.ts:37654
 
 the XPath of the element

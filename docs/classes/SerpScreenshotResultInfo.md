@@ -6,7 +6,7 @@
 
 # Class: SerpScreenshotResultInfo
 
-Defined in: main.ts:28071
+Defined in: main.ts:28079
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:28071
 
 ### Constructor
 
-> **new SerpScreenshotResultInfo**(`data`?): `SerpScreenshotResultInfo`
+> **new SerpScreenshotResultInfo**(`data?`): `SerpScreenshotResultInfo`
 
-Defined in: main.ts:28079
+Defined in: main.ts:28087
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:28079
 
 > `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
-Defined in: main.ts:28075
+Defined in: main.ts:28083
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:28073
+Defined in: main.ts:28081
 
 number of items in the results array
 
@@ -66,9 +66,9 @@ number of items in the results array
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:28088
+Defined in: main.ts:28096
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:28088
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:28110
+Defined in: main.ts:28118
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:28110
 
 > `static` **fromJS**(`data`): `SerpScreenshotResultInfo`
 
-Defined in: main.ts:28103
+Defined in: main.ts:28111
 
 #### Parameters
 

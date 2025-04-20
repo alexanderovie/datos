@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
-Defined in: main.ts:145978
+Defined in: main.ts:146102
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:145978
 
 ### Constructor
 
-> **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data`?): `KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
+> **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data?`): `KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
 
-Defined in: main.ts:146004
+Defined in: main.ts:146128
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146004
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:145991
+Defined in: main.ts:146115
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:145996
+Defined in: main.ts:146120
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
 
-Defined in: main.ts:146000
+Defined in: main.ts:146124
 
 items on the Google Trends page
 
@@ -86,7 +86,7 @@ items on the Google Trends page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:145998
+Defined in: main.ts:146122
 
 the number of results returned in the items array
 
@@ -100,7 +100,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:145980
+Defined in: main.ts:146104
 
 keywords in a POST array
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145988
+Defined in: main.ts:146112
 
 language code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:145985
+Defined in: main.ts:146109
 
 location code in a POST array
 if there is no data, then the value is null
@@ -144,7 +144,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:145982
+Defined in: main.ts:146106
 
 type of element
 
@@ -156,9 +156,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:146013
+Defined in: main.ts:146137
 
 #### Parameters
 
@@ -174,9 +174,9 @@ Defined in: main.ts:146013
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:146045
+Defined in: main.ts:146169
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: main.ts:146045
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleTrendsExploreTaskGetResultInfo`
 
-Defined in: main.ts:146038
+Defined in: main.ts:146162
 
 #### Parameters
 

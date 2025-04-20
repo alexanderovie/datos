@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 
-Defined in: main.ts:190993
+Defined in: main.ts:191463
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190993
 
 > `optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](../classes/PositiveConnotationDistribution.md)
 
-Defined in: main.ts:190999
+Defined in: main.ts:191469
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -30,7 +30,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](../classes/SentimentConnotationDistribution.md)
 
-Defined in: main.ts:191003
+Defined in: main.ts:191473
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -42,6 +42,6 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190995
+Defined in: main.ts:191465
 
 type of element

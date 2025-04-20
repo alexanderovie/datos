@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
-Defined in: main.ts:181885
+Defined in: main.ts:182295
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181885
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:181917
+Defined in: main.ts:182327
 
 array of results filtering parameters
 optional field
@@ -37,7 +37,7 @@ examples:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:181891
+Defined in: main.ts:182301
 
 ID of the task
 required field
@@ -51,7 +51,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:181901
+Defined in: main.ts:182311
 
 the maximum number of returned redirect chains
 optional field
@@ -64,7 +64,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:181906
+Defined in: main.ts:182316
 
 offset in the results array of returned redirect chains
 optional field
@@ -77,7 +77,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181923
+Defined in: main.ts:182333
 
 user-defined task identifier
 optional field
@@ -91,7 +91,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:181896
+Defined in: main.ts:182306
 
 page URL
 optional field

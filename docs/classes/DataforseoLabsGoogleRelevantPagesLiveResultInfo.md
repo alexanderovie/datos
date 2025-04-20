@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
-Defined in: main.ts:115476
+Defined in: main.ts:115598
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:115476
 
 ### Constructor
 
-> **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): `DataforseoLabsGoogleRelevantPagesLiveResultInfo`
+> **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data?`): `DataforseoLabsGoogleRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:115496
+Defined in: main.ts:115618
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:115496
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:115492
+Defined in: main.ts:115614
 
 relevant pages and related data
 
@@ -54,7 +54,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:115490
+Defined in: main.ts:115612
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115486
+Defined in: main.ts:115608
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115483
+Defined in: main.ts:115605
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115478
+Defined in: main.ts:115600
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:115480
+Defined in: main.ts:115602
 
 target domain in a POST array
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:115488
+Defined in: main.ts:115610
 
 total amount of results in our database relevant to your request
 
@@ -138,9 +138,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:115505
+Defined in: main.ts:115627
 
 #### Parameters
 
@@ -156,9 +156,9 @@ Defined in: main.ts:115505
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:115532
+Defined in: main.ts:115654
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:115532
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleRelevantPagesLiveResultInfo`
 
-Defined in: main.ts:115525
+Defined in: main.ts:115647
 
 #### Parameters
 

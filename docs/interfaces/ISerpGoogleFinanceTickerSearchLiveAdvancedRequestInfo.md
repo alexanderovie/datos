@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo
 
-Defined in: main.ts:95251
+Defined in: main.ts:95363
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:95251
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:95293
+Defined in: main.ts:95405
 
 category of financial instruments to search for
 optional field
@@ -31,7 +31,7 @@ default value: all
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:95260
+Defined in: main.ts:95372
 
 company or financial instrument name
 required field
@@ -48,7 +48,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95288
+Defined in: main.ts:95400
 
 search engine language code
 required field if you don’t specify language_name
@@ -63,7 +63,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:95281
+Defined in: main.ts:95393
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -78,7 +78,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95274
+Defined in: main.ts:95386
 
 search engine location code
 required field if you don’t specify location_name
@@ -93,7 +93,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:95267
+Defined in: main.ts:95379
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -108,7 +108,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95299
+Defined in: main.ts:95411
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetHtmlResultInfo
 
-Defined in: main.ts:208224
+Defined in: main.ts:208754
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:208224
 
 ### Constructor
 
-> **new MerchantAmazonSellersTaskGetHtmlResultInfo**(`data`?): `MerchantAmazonSellersTaskGetHtmlResultInfo`
+> **new MerchantAmazonSellersTaskGetHtmlResultInfo**(`data?`): `MerchantAmazonSellersTaskGetHtmlResultInfo`
 
-Defined in: main.ts:208247
+Defined in: main.ts:208777
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208247
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:208226
+Defined in: main.ts:208756
 
 ASIN received in a POST array
 
@@ -54,7 +54,7 @@ ASIN received in a POST array
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:208239
+Defined in: main.ts:208769
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:208243
+Defined in: main.ts:208773
 
 elements of search results found on Amazon
 
@@ -85,7 +85,7 @@ elements of search results found on Amazon
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:208241
+Defined in: main.ts:208771
 
 the number of results returned in the items array
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:208234
+Defined in: main.ts:208764
 
 language code in a POST array
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:208232
+Defined in: main.ts:208762
 
 location code in a POST array
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:208230
+Defined in: main.ts:208760
 
 search engine domain in a POST array
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:208228
+Defined in: main.ts:208758
 
 type of element
 
@@ -153,9 +153,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:208256
+Defined in: main.ts:208786
 
 #### Parameters
 
@@ -171,9 +171,9 @@ Defined in: main.ts:208256
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:208284
+Defined in: main.ts:208814
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:208284
 
 > `static` **fromJS**(`data`): `MerchantAmazonSellersTaskGetHtmlResultInfo`
 
-Defined in: main.ts:208277
+Defined in: main.ts:208807
 
 #### Parameters
 

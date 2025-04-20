@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationParaphraseLiveResultInfo
 
-Defined in: main.ts:194166
+Defined in: main.ts:194696
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:194166
 
 ### Constructor
 
-> **new ContentGenerationParaphraseLiveResultInfo**(`data`?): `ContentGenerationParaphraseLiveResultInfo`
+> **new ContentGenerationParaphraseLiveResultInfo**(`data?`): `ContentGenerationParaphraseLiveResultInfo`
 
-Defined in: main.ts:194178
+Defined in: main.ts:194708
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194178
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:194174
+Defined in: main.ts:194704
 
 paraphrased version of the given text
 
@@ -54,7 +54,7 @@ paraphrased version of the given text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:194168
+Defined in: main.ts:194698
 
 number of input tokens in the POST request
 
@@ -68,7 +68,7 @@ number of input tokens in the POST request
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:194172
+Defined in: main.ts:194702
 
 number of new tokens in the response
 
@@ -82,7 +82,7 @@ number of new tokens in the response
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:194170
+Defined in: main.ts:194700
 
 number of output tokens in the response
 
@@ -94,9 +94,9 @@ number of output tokens in the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:194187
+Defined in: main.ts:194717
 
 #### Parameters
 
@@ -112,9 +112,9 @@ Defined in: main.ts:194187
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:194207
+Defined in: main.ts:194737
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:194207
 
 > `static` **fromJS**(`data`): `ContentGenerationParaphraseLiveResultInfo`
 
-Defined in: main.ts:194200
+Defined in: main.ts:194730
 
 #### Parameters
 

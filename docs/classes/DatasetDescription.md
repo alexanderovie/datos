@@ -6,7 +6,7 @@
 
 # Class: DatasetDescription
 
-Defined in: main.ts:60636
+Defined in: main.ts:60750
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:60636
 
 ### Constructor
 
-> **new DatasetDescription**(`data`?): `DatasetDescription`
+> **new DatasetDescription**(`data?`): `DatasetDescription`
 
-Defined in: main.ts:60644
+Defined in: main.ts:60758
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60644
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:60640
+Defined in: main.ts:60754
 
 links featured in the ‘dataset_description’
 
@@ -54,7 +54,7 @@ links featured in the ‘dataset_description’
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:60638
+Defined in: main.ts:60752
 
 text of the description
 
@@ -66,9 +66,9 @@ text of the description
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:60653
+Defined in: main.ts:60767
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:60653
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:60675
+Defined in: main.ts:60789
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:60675
 
 > `static` **fromJS**(`data`): `DatasetDescription`
 
-Defined in: main.ts:60668
+Defined in: main.ts:60782
 
 #### Parameters
 

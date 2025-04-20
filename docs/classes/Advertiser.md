@@ -6,7 +6,7 @@
 
 # Class: Advertiser
 
-Defined in: main.ts:63744
+Defined in: main.ts:63858
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:63744
 
 ### Constructor
 
-> **new Advertiser**(`data`?): `Advertiser`
+> **new Advertiser**(`data?`): `Advertiser`
 
-Defined in: main.ts:63762
+Defined in: main.ts:63876
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:63762
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:63749
+Defined in: main.ts:63863
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -55,7 +55,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:63758
+Defined in: main.ts:63872
 
 ads count
 the approximate number of ads that are run by the advertiser account across all available Google Ads platforms
@@ -70,7 +70,7 @@ the approximate number of ads that are run by the advertiser account across all 
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:63752
+Defined in: main.ts:63866
 
 location of the advertiser account
 country code associated with the advertiser account
@@ -85,7 +85,7 @@ country code associated with the advertiser account
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:63746
+Defined in: main.ts:63860
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:63755
+Defined in: main.ts:63869
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -112,9 +112,9 @@ equals true if advertiser account is verified by Google Ads
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:63771
+Defined in: main.ts:63885
 
 #### Parameters
 
@@ -130,9 +130,9 @@ Defined in: main.ts:63771
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:63792
+Defined in: main.ts:63906
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:63792
 
 > `static` **fromJS**(`data`): `Advertiser`
 
-Defined in: main.ts:63785
+Defined in: main.ts:63899
 
 #### Parameters
 

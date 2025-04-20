@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
-Defined in: main.ts:131958
+Defined in: main.ts:132080
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:131958
 
 ### Constructor
 
-> **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): `DataforseoLabsBingSerpCompetitorsLiveResultInfo`
+> **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data?`): `DataforseoLabsBingSerpCompetitorsLiveResultInfo`
 
-Defined in: main.ts:131979
+Defined in: main.ts:132101
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:131979
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:131975
+Defined in: main.ts:132097
 
 contains detected SERP competitors and related data
 
@@ -54,7 +54,7 @@ contains detected SERP competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:131973
+Defined in: main.ts:132095
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:131969
+Defined in: main.ts:132091
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:131966
+Defined in: main.ts:132088
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:131960
+Defined in: main.ts:132082
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **seed\_keywords**: `string`[]
 
-Defined in: main.ts:131963
+Defined in: main.ts:132085
 
 keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -127,7 +127,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:131971
+Defined in: main.ts:132093
 
 the total amount of results in our database relevant to your request
 
@@ -139,9 +139,9 @@ the total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:131988
+Defined in: main.ts:132110
 
 #### Parameters
 
@@ -157,9 +157,9 @@ Defined in: main.ts:131988
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:132019
+Defined in: main.ts:132141
 
 #### Parameters
 
@@ -177,7 +177,7 @@ Defined in: main.ts:132019
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingSerpCompetitorsLiveResultInfo`
 
-Defined in: main.ts:132012
+Defined in: main.ts:132134
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTasksReadyResultInfo
 
-Defined in: main.ts:225298
+Defined in: main.ts:225828
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:225298
 
 ### Constructor
 
-> **new BusinessDataTasksReadyResultInfo**(`data`?): `BusinessDataTasksReadyResultInfo`
+> **new BusinessDataTasksReadyResultInfo**(`data?`): `BusinessDataTasksReadyResultInfo`
 
-Defined in: main.ts:225316
+Defined in: main.ts:225846
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:225316
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:225308
+Defined in: main.ts:225838
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:225312
+Defined in: main.ts:225842
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:225301
+Defined in: main.ts:225831
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -83,7 +83,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:225304
+Defined in: main.ts:225834
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -98,7 +98,7 @@ can take the following values: tripadvisor
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:225306
+Defined in: main.ts:225836
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:225310
+Defined in: main.ts:225840
 
 user-defined task identifier
 
@@ -124,9 +124,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:225325
+Defined in: main.ts:225855
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:225325
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:225347
+Defined in: main.ts:225877
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:225347
 
 > `static` **fromJS**(`data`): `BusinessDataTasksReadyResultInfo`
 
-Defined in: main.ts:225340
+Defined in: main.ts:225870
 
 #### Parameters
 

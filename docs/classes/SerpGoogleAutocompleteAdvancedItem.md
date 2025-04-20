@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteAdvancedItem
 
-Defined in: main.ts:58802
+Defined in: main.ts:58916
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:58802
 
 ### Constructor
 
-> **new SerpGoogleAutocompleteAdvancedItem**(`data`?): `SerpGoogleAutocompleteAdvancedItem`
+> **new SerpGoogleAutocompleteAdvancedItem**(`data?`): `SerpGoogleAutocompleteAdvancedItem`
 
-Defined in: main.ts:58844
+Defined in: main.ts:58958
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58844
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:58840
+Defined in: main.ts:58954
 
 keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -59,7 +59,7 @@ gws-wiz-local
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:58811
+Defined in: main.ts:58925
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -74,7 +74,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:58808
+Defined in: main.ts:58922
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **relevance**: `number`
 
-Defined in: main.ts:58818
+Defined in: main.ts:58932
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -109,7 +109,7 @@ chrome/chrome-omni
 
 > `optional` **search\_query\_url**: `string`
 
-Defined in: main.ts:58827
+Defined in: main.ts:58941
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
@@ -124,7 +124,7 @@ url to search results relevant to the google autocomplete suggestion
 
 > `optional` **suggestion**: `string`
 
-Defined in: main.ts:58820
+Defined in: main.ts:58934
 
 google autocomplete keyword suggestion
 
@@ -138,7 +138,7 @@ google autocomplete keyword suggestion
 
 > `optional` **suggestion\_type**: `string`
 
-Defined in: main.ts:58824
+Defined in: main.ts:58938
 
 google autocomplete suggestion type
 Note: only available for the following client:
@@ -154,7 +154,7 @@ chrome/chrome-omni
 
 > `optional` **thumbnail\_url**: `string`
 
-Defined in: main.ts:58833
+Defined in: main.ts:58947
 
 url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -172,7 +172,7 @@ gws-wiz-serp
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:58804
+Defined in: main.ts:58918
 
 type of element
 
@@ -184,9 +184,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:58853
+Defined in: main.ts:58967
 
 #### Parameters
 
@@ -202,9 +202,9 @@ Defined in: main.ts:58853
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:58882
+Defined in: main.ts:58996
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:58882
 
 > `static` **fromJS**(`data`): `SerpGoogleAutocompleteAdvancedItem`
 
-Defined in: main.ts:58875
+Defined in: main.ts:58989
 
 #### Parameters
 

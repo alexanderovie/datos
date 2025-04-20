@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
-Defined in: main.ts:125986
+Defined in: main.ts:126108
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:125986
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo**(`data`?): `DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`
+> **new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo**(`data?`): `DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:126068
+Defined in: main.ts:126190
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126068
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:125991
+Defined in: main.ts:126113
 
 product ID
 required field
@@ -57,7 +57,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:126037
+Defined in: main.ts:126159
 
 array of results filtering parameters
 optional field
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126021
+Defined in: main.ts:126143
 
 language code
 required field if don’t specify language_name
@@ -99,7 +99,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:126014
+Defined in: main.ts:126136
 
 full name of the language
 required field if don’t specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:126026
+Defined in: main.ts:126148
 
 the maximum number of products in the results array
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:126007
+Defined in: main.ts:126129
 
 location code
 required field if don’t specify location_name
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:125999
+Defined in: main.ts:126121
 
 full name of the location
 required field if don’t specify location_code
@@ -175,7 +175,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:126058
+Defined in: main.ts:126180
 
 offset in the results array of returned product competitors
 optional field
@@ -192,7 +192,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:126053
+Defined in: main.ts:126175
 
 results sorting rules
 optional field
@@ -220,7 +220,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:126064
+Defined in: main.ts:126186
 
 user-defined task identifier
 optional field
@@ -236,9 +236,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:126077
+Defined in: main.ts:126199
 
 #### Parameters
 
@@ -254,9 +254,9 @@ Defined in: main.ts:126077
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:126111
+Defined in: main.ts:126233
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:126111
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`
 
-Defined in: main.ts:126104
+Defined in: main.ts:126226
 
 #### Parameters
 

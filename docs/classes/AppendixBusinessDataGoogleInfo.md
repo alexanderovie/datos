@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataGoogleInfo
 
-Defined in: main.ts:243692
+Defined in: main.ts:244222
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243692
 
 ### Constructor
 
-> **new AppendixBusinessDataGoogleInfo**(`data`?): `AppendixBusinessDataGoogleInfo`
+> **new AppendixBusinessDataGoogleInfo**(`data?`): `AppendixBusinessDataGoogleInfo`
 
-Defined in: main.ts:243703
+Defined in: main.ts:244233
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243703
 
 > `optional` **extended\_reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243699
+Defined in: main.ts:244229
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:243699
 
 ### hotel\_info?
 
-> `optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **hotel\_info**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:243695
+Defined in: main.ts:244225
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243695
 
 > `optional` **hotel\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243696
+Defined in: main.ts:244226
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243696
 
 > `optional` **my\_business\_info**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243693
+Defined in: main.ts:244223
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243693
 
 > `optional` **my\_business\_updates**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243694
+Defined in: main.ts:244224
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243694
 
 > `optional` **questions\_and\_answers**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243698
+Defined in: main.ts:244228
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243698
 
 > `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:243697
+Defined in: main.ts:244227
 
 #### Implementation of
 
@@ -122,9 +122,9 @@ Defined in: main.ts:243697
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243712
+Defined in: main.ts:244242
 
 #### Parameters
 
@@ -140,9 +140,9 @@ Defined in: main.ts:243712
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243735
+Defined in: main.ts:244265
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:243735
 
 > `static` **fromJS**(`data`): `AppendixBusinessDataGoogleInfo`
 
-Defined in: main.ts:243728
+Defined in: main.ts:244258
 
 #### Parameters
 

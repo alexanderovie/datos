@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsDataInfo
 
-Defined in: main.ts:149190
+Defined in: main.ts:149314
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:149190
 
 ### Constructor
 
-> **new DataforseoTrendsDataInfo**(`data`?): `DataforseoTrendsDataInfo`
+> **new DataforseoTrendsDataInfo**(`data?`): `DataforseoTrendsDataInfo`
 
-Defined in: main.ts:149198
+Defined in: main.ts:149322
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149198
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:149192
+Defined in: main.ts:149316
 
 relevant keyword for which demographic data is provided
 
@@ -54,7 +54,7 @@ relevant keyword for which demographic data is provided
 
 > `optional` **values**: [`DemographyItemValueInfo`](DemographyItemValueInfo.md)[]
 
-Defined in: main.ts:149194
+Defined in: main.ts:149318
 
 contains age range and corresponding keyword popularity values
 
@@ -66,9 +66,9 @@ contains age range and corresponding keyword popularity values
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:149207
+Defined in: main.ts:149331
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:149207
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:149229
+Defined in: main.ts:149353
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:149229
 
 > `static` **fromJS**(`data`): `DataforseoTrendsDataInfo`
 
-Defined in: main.ts:149222
+Defined in: main.ts:149346
 
 #### Parameters
 

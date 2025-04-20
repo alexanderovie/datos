@@ -6,7 +6,7 @@
 
 # Class: HotelReviewInfo
 
-Defined in: main.ts:231418
+Defined in: main.ts:231948
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:231418
 
 ### Constructor
 
-> **new HotelReviewInfo**(`data`?): `HotelReviewInfo`
+> **new HotelReviewInfo**(`data?`): `HotelReviewInfo`
 
-Defined in: main.ts:231436
+Defined in: main.ts:231966
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231436
 
 > `optional` **mentions**: [`ReviewMentionInfo`](ReviewMentionInfo.md)[]
 
-Defined in: main.ts:231426
+Defined in: main.ts:231956
 
 hotel mentions
 information about hotel reviews by criteria
@@ -55,7 +55,7 @@ information about hotel reviews by criteria
 
 > `optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)[]
 
-Defined in: main.ts:231432
+Defined in: main.ts:231962
 
 reviews on third-party sites
 reviews from third-paty sites
@@ -70,7 +70,7 @@ reviews from third-paty sites
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:231429
+Defined in: main.ts:231959
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
@@ -89,7 +89,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:231420
+Defined in: main.ts:231950
 
 overall hotel rating based on customer votes
 
@@ -103,7 +103,7 @@ overall hotel rating based on customer votes
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:231423
+Defined in: main.ts:231953
 
 number of customer votes
 the number of customer votes included in the calculation of the hotel rating
@@ -116,9 +116,9 @@ the number of customer votes included in the calculation of the hotel rating
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:231445
+Defined in: main.ts:231975
 
 #### Parameters
 
@@ -134,9 +134,9 @@ Defined in: main.ts:231445
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:231480
+Defined in: main.ts:232010
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:231480
 
 > `static` **fromJS**(`data`): `HotelReviewInfo`
 
-Defined in: main.ts:231473
+Defined in: main.ts:232003
 
 #### Parameters
 

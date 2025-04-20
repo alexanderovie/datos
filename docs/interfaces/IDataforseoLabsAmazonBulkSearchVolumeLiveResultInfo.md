@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:123965
+Defined in: main.ts:124087
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123965
 
 > `optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:123979
+Defined in: main.ts:124101
 
 contains keyword search volume data data
 
@@ -28,7 +28,7 @@ contains keyword search volume data data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123977
+Defined in: main.ts:124099
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123973
+Defined in: main.ts:124095
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123970
+Defined in: main.ts:124092
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123967
+Defined in: main.ts:124089
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123975
+Defined in: main.ts:124097
 
 total amount of results in our database relevant to your request

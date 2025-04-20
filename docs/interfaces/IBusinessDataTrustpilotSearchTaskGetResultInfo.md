@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetResultInfo
 
-Defined in: main.ts:237869
+Defined in: main.ts:238399
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:237869
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:237876
+Defined in: main.ts:238406
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:237881
+Defined in: main.ts:238411
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:237887
+Defined in: main.ts:238417
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -53,7 +53,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:237884
+Defined in: main.ts:238414
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -64,7 +64,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:237871
+Defined in: main.ts:238401
 
 keyword in a POST array
 
@@ -74,6 +74,6 @@ keyword in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:237873
+Defined in: main.ts:238403
 
 search engine domain in a POST array

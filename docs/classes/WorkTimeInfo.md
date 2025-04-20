@@ -6,7 +6,7 @@
 
 # Class: WorkTimeInfo
 
-Defined in: main.ts:24178
+Defined in: main.ts:24186
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:24178
 
 ### Constructor
 
-> **new WorkTimeInfo**(`data`?): `WorkTimeInfo`
+> **new WorkTimeInfo**(`data?`): `WorkTimeInfo`
 
-Defined in: main.ts:24186
+Defined in: main.ts:24194
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:24186
 
 > `optional` **hour**: `number`
 
-Defined in: main.ts:24180
+Defined in: main.ts:24188
 
 hours in the 24-hour format
 
@@ -54,7 +54,7 @@ hours in the 24-hour format
 
 > `optional` **minute**: `number`
 
-Defined in: main.ts:24182
+Defined in: main.ts:24190
 
 minutes
 
@@ -66,9 +66,9 @@ minutes
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:24195
+Defined in: main.ts:24203
 
 #### Parameters
 
@@ -84,9 +84,9 @@ Defined in: main.ts:24195
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:24213
+Defined in: main.ts:24221
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:24213
 
 > `static` **fromJS**(`data`): `WorkTimeInfo`
 
-Defined in: main.ts:24206
+Defined in: main.ts:24214
 
 #### Parameters
 

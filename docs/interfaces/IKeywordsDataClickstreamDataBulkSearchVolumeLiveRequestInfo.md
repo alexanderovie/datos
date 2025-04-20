@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:160457
+Defined in: main.ts:160581
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160457
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:160467
+Defined in: main.ts:160591
 
 target keywords
 required field
@@ -36,7 +36,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:160483
+Defined in: main.ts:160607
 
 location code
 required field if you don’t specify location_name
@@ -52,7 +52,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:160475
+Defined in: main.ts:160599
 
 full name of the location
 required field if you don’t specify location_code
@@ -68,7 +68,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160489
+Defined in: main.ts:160613
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
-Defined in: main.ts:137826
+Defined in: main.ts:137948
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:137826
 
 ### Constructor
 
-> **new KeywordsDataGoogleAdsStatusResultInfo**(`data`?): `KeywordsDataGoogleAdsStatusResultInfo`
+> **new KeywordsDataGoogleAdsStatusResultInfo**(`data?`): `KeywordsDataGoogleAdsStatusResultInfo`
 
-Defined in: main.ts:137844
+Defined in: main.ts:137966
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137844
 
 > `optional` **actual\_data**: `boolean`
 
-Defined in: main.ts:137831
+Defined in: main.ts:137953
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
@@ -57,7 +57,7 @@ if the value is false, we are not able to provide data for the previous month
 
 > `optional` **date\_update**: `string`
 
-Defined in: main.ts:137836
+Defined in: main.ts:137958
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
@@ -74,7 +74,7 @@ example:
 
 > `optional` **last\_month\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:137840
+Defined in: main.ts:137962
 
 the latest month for which search volume data is available
 
@@ -88,7 +88,7 @@ the latest month for which search volume data is available
 
 > `optional` **last\_year\_in\_monthly\_searches**: `number`
 
-Defined in: main.ts:137838
+Defined in: main.ts:137960
 
 the latest year for which search volume data is available
 
@@ -100,9 +100,9 @@ the latest year for which search volume data is available
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:137853
+Defined in: main.ts:137975
 
 #### Parameters
 
@@ -118,9 +118,9 @@ Defined in: main.ts:137853
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:137873
+Defined in: main.ts:137995
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:137873
 
 > `static` **fromJS**(`data`): `KeywordsDataGoogleAdsStatusResultInfo`
 
-Defined in: main.ts:137866
+Defined in: main.ts:137988
 
 #### Parameters
 

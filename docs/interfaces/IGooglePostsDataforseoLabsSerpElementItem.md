@@ -6,7 +6,7 @@
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:118986
+Defined in: main.ts:119108
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118986
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:118994
+Defined in: main.ts:119116
 
 google-defined client id
 unique id of a local establishment;
@@ -34,7 +34,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:118990
+Defined in: main.ts:119112
 
 the additional feature of the review
 
@@ -44,7 +44,7 @@ the additional feature of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:22847
+Defined in: main.ts:22855
 
 the alignment of the element in SERP
 can take the following values:
@@ -60,7 +60,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:118988
+Defined in: main.ts:119110
 
 the identifier of the google_posts feature
 
@@ -70,7 +70,7 @@ the identifier of the google_posts feature
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22843
+Defined in: main.ts:22851
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22840
+Defined in: main.ts:22848
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22837
+Defined in: main.ts:22845
 
 type of element
 
@@ -114,7 +114,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:22849
+Defined in: main.ts:22857
 
 the XPath of the element
 

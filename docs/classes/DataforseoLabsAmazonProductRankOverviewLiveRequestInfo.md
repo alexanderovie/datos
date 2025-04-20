@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
-Defined in: main.ts:125428
+Defined in: main.ts:125550
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:125428
 
 ### Constructor
 
-> **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): `DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
+> **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data?`): `DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:125477
+Defined in: main.ts:125599
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125477
 
 > `optional` **asins**: `string`[]
 
-Defined in: main.ts:125437
+Defined in: main.ts:125559
 
 product IDs to compare
 required field
@@ -61,7 +61,7 @@ B01LW2SL7R
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:125467
+Defined in: main.ts:125589
 
 language code
 required field if don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:125460
+Defined in: main.ts:125582
 
 full name of the language
 required field if don’t specify language_code
@@ -99,7 +99,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:125453
+Defined in: main.ts:125575
 
 location code
 required field if don’t specify location_name
@@ -119,7 +119,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:125445
+Defined in: main.ts:125567
 
 full name of the location
 required field if don’t specify location_code
@@ -139,7 +139,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:125473
+Defined in: main.ts:125595
 
 user-defined task identifier
 optional field
@@ -155,9 +155,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:125486
+Defined in: main.ts:125608
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:125486
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:125512
+Defined in: main.ts:125634
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:125512
 
 > `static` **fromJS**(`data`): `DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`
 
-Defined in: main.ts:125505
+Defined in: main.ts:125627
 
 #### Parameters
 

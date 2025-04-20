@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
-Defined in: main.ts:97335
+Defined in: main.ts:97447
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:97335
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:97349
+Defined in: main.ts:97461
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -33,7 +33,7 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:97385
+Defined in: main.ts:97497
 
 array of results filtering parameters
 optional field
@@ -55,7 +55,7 @@ example:
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:97342
+Defined in: main.ts:97454
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -70,7 +70,7 @@ example:
 
 > `optional` **internal\_categories\_list\_limit**: `number`
 
-Defined in: main.ts:97415
+Defined in: main.ts:97527
 
 maximum number of returned technology categories within the same group
 optional field
@@ -85,7 +85,7 @@ maximum value: 10000
 
 > `optional` **internal\_groups\_list\_limit**: `number`
 
-Defined in: main.ts:97408
+Defined in: main.ts:97520
 
 maximum number of returned technology groups
 optional field
@@ -100,7 +100,7 @@ maximum value: 10000
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:97430
+Defined in: main.ts:97542
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -116,7 +116,7 @@ maximum value: 10000
 
 > `optional` **internal\_technologies\_list\_limit**: `number`
 
-Defined in: main.ts:97422
+Defined in: main.ts:97534
 
 maximum number of returned technologies within the same category
 optional field
@@ -131,7 +131,7 @@ maximum value: 10000
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:97364
+Defined in: main.ts:97476
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -147,7 +147,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:97435
+Defined in: main.ts:97547
 
 the maximum number of returned technologies
 optional field
@@ -160,7 +160,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:97371
+Defined in: main.ts:97483
 
 search mode
 optional field
@@ -175,7 +175,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:97441
+Defined in: main.ts:97553
 
 offset in the results array of returned domains
 optional field
@@ -189,7 +189,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:97401
+Defined in: main.ts:97513
 
 results sorting rules
 optional field
@@ -213,7 +213,7 @@ default value:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:97447
+Defined in: main.ts:97559
 
 user-defined task identifier
 optional field
@@ -227,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:97356
+Defined in: main.ts:97468
 
 target technology
 required field if you don’t specify group, keyword or category

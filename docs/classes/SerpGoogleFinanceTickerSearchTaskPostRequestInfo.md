@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceTickerSearchTaskPostRequestInfo
 
-Defined in: main.ts:94098
+Defined in: main.ts:94210
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:94098
 
 ### Constructor
 
-> **new SerpGoogleFinanceTickerSearchTaskPostRequestInfo**(`data`?): `SerpGoogleFinanceTickerSearchTaskPostRequestInfo`
+> **new SerpGoogleFinanceTickerSearchTaskPostRequestInfo**(`data?`): `SerpGoogleFinanceTickerSearchTaskPostRequestInfo`
 
-Defined in: main.ts:94185
+Defined in: main.ts:94297
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94185
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:94148
+Defined in: main.ts:94260
 
 category of financial instruments to search for
 optional field
@@ -57,7 +57,7 @@ default value: all
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:94107
+Defined in: main.ts:94219
 
 company or financial instrument name
 required field
@@ -78,7 +78,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:94135
+Defined in: main.ts:94247
 
 search engine language code
 required field if you don’t specify language_name
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:94128
+Defined in: main.ts:94240
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -116,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:94121
+Defined in: main.ts:94233
 
 search engine location code
 required field if you don’t specify location_name
@@ -135,7 +135,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:94114
+Defined in: main.ts:94226
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,7 +154,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:94181
+Defined in: main.ts:94293
 
 notification URL of a completed task
 optional field
@@ -177,7 +177,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:94170
+Defined in: main.ts:94282
 
 postback_url datatype
 required field if you specify postback_url
@@ -194,7 +194,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:94165
+Defined in: main.ts:94277
 
 return URL for sending task results
 optional field
@@ -217,7 +217,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:94143
+Defined in: main.ts:94255
 
 task priority
 optional field
@@ -237,7 +237,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:94154
+Defined in: main.ts:94266
 
 user-defined task identifier
 optional field
@@ -253,9 +253,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:94194
+Defined in: main.ts:94306
 
 #### Parameters
 
@@ -271,9 +271,9 @@ Defined in: main.ts:94194
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:94221
+Defined in: main.ts:94333
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:94221
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceTickerSearchTaskPostRequestInfo`
 
-Defined in: main.ts:94214
+Defined in: main.ts:94326
 
 #### Parameters
 

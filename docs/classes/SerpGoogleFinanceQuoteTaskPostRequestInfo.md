@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceQuoteTaskPostRequestInfo
 
-Defined in: main.ts:92142
+Defined in: main.ts:92254
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:92142
 
 ### Constructor
 
-> **new SerpGoogleFinanceQuoteTaskPostRequestInfo**(`data`?): `SerpGoogleFinanceQuoteTaskPostRequestInfo`
+> **new SerpGoogleFinanceQuoteTaskPostRequestInfo**(`data?`): `SerpGoogleFinanceQuoteTaskPostRequestInfo`
 
-Defined in: main.ts:92238
+Defined in: main.ts:92350
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:92238
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:92191
+Defined in: main.ts:92303
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:92151
+Defined in: main.ts:92263
 
 ticker or stock symbol
 required field
@@ -77,7 +77,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:92179
+Defined in: main.ts:92291
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:92172
+Defined in: main.ts:92284
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:92165
+Defined in: main.ts:92277
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:92158
+Defined in: main.ts:92270
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ London,England,United Kingdom
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:92195
+Defined in: main.ts:92307
 
 device operating system
 optional field
@@ -169,7 +169,7 @@ possible values: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:92234
+Defined in: main.ts:92346
 
 notification URL of a completed task
 optional field
@@ -192,7 +192,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:92223
+Defined in: main.ts:92335
 
 postback_url datatype
 required field if you specify postback_url
@@ -209,7 +209,7 @@ possible values:: advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:92218
+Defined in: main.ts:92330
 
 return URL for sending task results
 optional field
@@ -232,7 +232,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:92187
+Defined in: main.ts:92299
 
 task priority
 optional field
@@ -252,7 +252,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:92207
+Defined in: main.ts:92319
 
 user-defined task identifier
 optional field
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **window**: `string`
 
-Defined in: main.ts:92201
+Defined in: main.ts:92313
 
 time window for google_finance_quote graph
 optional field
@@ -286,9 +286,9 @@ Note: if you specify a value that is different from 1D, the charge per task will
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:92247
+Defined in: main.ts:92359
 
 #### Parameters
 
@@ -304,9 +304,9 @@ Defined in: main.ts:92247
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:92276
+Defined in: main.ts:92388
 
 #### Parameters
 
@@ -324,7 +324,7 @@ Defined in: main.ts:92276
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceQuoteTaskPostRequestInfo`
 
-Defined in: main.ts:92269
+Defined in: main.ts:92381
 
 #### Parameters
 

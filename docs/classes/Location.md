@@ -6,7 +6,7 @@
 
 # Class: Location
 
-Defined in: main.ts:232374
+Defined in: main.ts:232904
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:232374
 
 ### Constructor
 
-> **new Location**(`data`?): `Location`
+> **new Location**(`data?`): `Location`
 
-Defined in: main.ts:232405
+Defined in: main.ts:232935
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232405
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:232393
+Defined in: main.ts:232923
 
 hotel latitude
 latitude coordinates of the hotel’s location
@@ -57,7 +57,7 @@ example:
 
 > `optional` **location\_chain**: [`LocationChain`](LocationChain.md)[]
 
-Defined in: main.ts:232401
+Defined in: main.ts:232931
 
 elements of the location chain
 additional parameters of each element of the location chain
@@ -72,7 +72,7 @@ additional parameters of each element of the location chain
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:232398
+Defined in: main.ts:232928
 
 hotel longitude
 latitude coordinates of the hotel’s location
@@ -89,7 +89,7 @@ example:
 
 > `optional` **maps\_url**: `string`
 
-Defined in: main.ts:232380
+Defined in: main.ts:232910
 
 url to the location of the hotel in google maps
 
@@ -103,7 +103,7 @@ url to the location of the hotel in google maps
 
 > `optional` **neighborhood**: `string`
 
-Defined in: main.ts:232376
+Defined in: main.ts:232906
 
 name of the neighborhood where the hotel is located
 
@@ -117,7 +117,7 @@ name of the neighborhood where the hotel is located
 
 > `optional` **neighborhood\_description**: `string`
 
-Defined in: main.ts:232378
+Defined in: main.ts:232908
 
 description of the neighborhood where the hotel is located
 
@@ -131,7 +131,7 @@ description of the neighborhood where the hotel is located
 
 > `optional` **overall\_score**: `number`
 
-Defined in: main.ts:232385
+Defined in: main.ts:232915
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -148,7 +148,7 @@ note that the criteria are not weighted equally in the overall score
 
 > `optional` **score\_by\_categories**: [`ScoreByCategories`](ScoreByCategories.md)
 
-Defined in: main.ts:232388
+Defined in: main.ts:232918
 
 category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports;
@@ -161,9 +161,9 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:232414
+Defined in: main.ts:232944
 
 #### Parameters
 
@@ -179,9 +179,9 @@ Defined in: main.ts:232414
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:232442
+Defined in: main.ts:232972
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:232442
 
 > `static` **fromJS**(`data`): `Location`
 
-Defined in: main.ts:232435
+Defined in: main.ts:232965
 
 #### Parameters
 

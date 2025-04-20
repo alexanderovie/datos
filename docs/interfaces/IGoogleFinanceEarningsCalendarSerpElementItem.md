@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFinanceEarningsCalendarSerpElementItem
 
-Defined in: main.ts:88693
+Defined in: main.ts:88805
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88693
 
 > `optional` **items**: [`GoogleFinanceEarningsCalendarElement`](../classes/GoogleFinanceEarningsCalendarElement.md)[]
 
-Defined in: main.ts:88697
+Defined in: main.ts:88809
 
 market indexes data
 array of items containing market indexes data;
@@ -34,7 +34,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22417
+Defined in: main.ts:22425
 
 type of element
 

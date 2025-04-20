@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
-Defined in: main.ts:96363
+Defined in: main.ts:96475
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96363
 
 > `optional` **aggregation\_technologies**: `object`
 
-Defined in: main.ts:96365
+Defined in: main.ts:96477
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:96365
 
 > `optional` **domains\_by\_html\_terms**: `object`
 
-Defined in: main.ts:96367
+Defined in: main.ts:96479
 
 #### Index Signature
 
@@ -42,7 +42,7 @@ Defined in: main.ts:96367
 
 > `optional` **domains\_by\_technology**: `object`
 
-Defined in: main.ts:96364
+Defined in: main.ts:96476
 
 #### Index Signature
 
@@ -54,7 +54,7 @@ Defined in: main.ts:96364
 
 > `optional` **technologies\_summary**: `object`
 
-Defined in: main.ts:96366
+Defined in: main.ts:96478
 
 #### Index Signature
 

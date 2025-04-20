@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:32665
+Defined in: main.ts:32673
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:32665
 
 ### Constructor
 
-> **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data`?): `KnowledgeGraphHotelsBookingItemSerpElementItem`
+> **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data?`): `KnowledgeGraphHotelsBookingItemSerpElementItem`
 
-Defined in: main.ts:32698
+Defined in: main.ts:32706
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32698
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:32687
+Defined in: main.ts:32695
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:32678
+Defined in: main.ts:32686
 
 starting date of stay
 in the format “year-month-date”
@@ -93,7 +93,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:32683
+Defined in: main.ts:32691
 
 ending date of stay
 in the format “year-month-date”
@@ -110,7 +110,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:32690
+Defined in: main.ts:32698
 
 additional items present in the element
 if there are none, equals null
@@ -125,7 +125,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32669
+Defined in: main.ts:32677
 
 the alignment of the element in SERP
 can take the following values:
@@ -141,7 +141,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -160,7 +160,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -180,7 +180,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32694
+Defined in: main.ts:32702
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -196,7 +196,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32673
+Defined in: main.ts:32681
 
 title of a given link element
 
@@ -210,7 +210,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -228,7 +228,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32671
+Defined in: main.ts:32679
 
 the XPath of the element
 
@@ -240,9 +240,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:32703
+Defined in: main.ts:32711
 
 #### Parameters
 
@@ -262,9 +262,9 @@ Defined in: main.ts:32703
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:32732
+Defined in: main.ts:32740
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: main.ts:32732
 
 > `static` **fromJS**(`data`): `KnowledgeGraphHotelsBookingItemSerpElementItem`
 
-Defined in: main.ts:32725
+Defined in: main.ts:32733
 
 #### Parameters
 

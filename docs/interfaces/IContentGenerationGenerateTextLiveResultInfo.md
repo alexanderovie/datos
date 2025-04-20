@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateTextLiveResultInfo
 
-Defined in: main.ts:193409
+Defined in: main.ts:193939
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:193409
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:193417
+Defined in: main.ts:193947
 
 resulting text
 
@@ -28,7 +28,7 @@ resulting text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:193411
+Defined in: main.ts:193941
 
 number of input tokens
 
@@ -38,7 +38,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:193415
+Defined in: main.ts:193945
 
 number of new tokens
 
@@ -48,7 +48,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:193413
+Defined in: main.ts:193943
 
 number of output tokens
 
@@ -58,7 +58,7 @@ number of output tokens
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:193421
+Defined in: main.ts:193951
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;

@@ -6,7 +6,7 @@
 
 # Class: ScriptResourceElementItem
 
-Defined in: main.ts:179978
+Defined in: main.ts:180527
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:179978
 
 ### Constructor
 
-> **new ScriptResourceElementItem**(`data`?): `ScriptResourceElementItem`
+> **new ScriptResourceElementItem**(`data?`): `ScriptResourceElementItem`
 
-Defined in: main.ts:179994
+Defined in: main.ts:180543
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:179994
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23483
+Defined in: main.ts:23491
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23483
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:179990
+Defined in: main.ts:180539
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -77,7 +77,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 > `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
-Defined in: main.ts:23469
+Defined in: main.ts:23477
 
 instructions for caching
 
@@ -95,7 +95,7 @@ instructions for caching
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:23472
+Defined in: main.ts:23480
 
 website checks
 on-page check-ups related to the page
@@ -118,7 +118,7 @@ on-page check-ups related to the page
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:23474
+Defined in: main.ts:23482
 
 type of encoding
 
@@ -136,7 +136,7 @@ type of encoding
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:23459
+Defined in: main.ts:23467
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -155,7 +155,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:23467
+Defined in: main.ts:23475
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -176,7 +176,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:179985
+Defined in: main.ts:180534
 
 resource fething time range
 
@@ -190,7 +190,7 @@ resource fething time range
 
 > `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
-Defined in: main.ts:23481
+Defined in: main.ts:23489
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -209,7 +209,7 @@ if there is no data, the value will be null
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:23449
+Defined in: main.ts:23457
 
 location header
 indicates the URL to redirect a page to
@@ -228,7 +228,7 @@ indicates the URL to redirect a page to
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:23476
+Defined in: main.ts:23484
 
 types of media used to display a page
 
@@ -246,7 +246,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:179983
+Defined in: main.ts:180532
 
 resource properties
 the value depends on the resource_type
@@ -263,7 +263,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-Defined in: main.ts:23453
+Defined in: main.ts:23461
 
 resource errors and warnings
 
@@ -281,7 +281,7 @@ resource errors and warnings
 
 > `optional` **resource\_type**: `string`
 
-Defined in: main.ts:23444
+Defined in: main.ts:23452
 
 type of the returned resource
 
@@ -299,7 +299,7 @@ type of the returned resource
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:23478
+Defined in: main.ts:23486
 
 server version
 
@@ -317,7 +317,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:23456
+Defined in: main.ts:23464
 
 resource size
 indicates the size of a given page measured in bytes
@@ -336,7 +336,7 @@ indicates the size of a given page measured in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:23446
+Defined in: main.ts:23454
 
 status code of the page
 
@@ -354,7 +354,7 @@ status code of the page
 
 > `optional` **total\_transfer\_size**: `number`
 
-Defined in: main.ts:23462
+Defined in: main.ts:23470
 
 compressed page size
 indicates the compressed size of a given page
@@ -373,7 +373,7 @@ indicates the compressed size of a given page
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23451
+Defined in: main.ts:23459
 
 page URL
 
@@ -389,9 +389,9 @@ page URL
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:179999
+Defined in: main.ts:180548
 
 #### Parameters
 
@@ -411,9 +411,9 @@ Defined in: main.ts:179999
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180019
+Defined in: main.ts:180568
 
 #### Parameters
 
@@ -435,7 +435,7 @@ Defined in: main.ts:180019
 
 > `static` **fromJS**(`data`): `ScriptResourceElementItem`
 
-Defined in: main.ts:180012
+Defined in: main.ts:180561
 
 #### Parameters
 

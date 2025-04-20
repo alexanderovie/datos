@@ -6,7 +6,7 @@
 
 # Class: RefinementChipsElement
 
-Defined in: main.ts:23196
+Defined in: main.ts:23204
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:23196
 
 ### Constructor
 
-> **new RefinementChipsElement**(`data`?): `RefinementChipsElement`
+> **new RefinementChipsElement**(`data?`): `RefinementChipsElement`
 
-Defined in: main.ts:23210
+Defined in: main.ts:23218
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:23210
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:23204
+Defined in: main.ts:23212
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **options**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:23206
+Defined in: main.ts:23214
 
 further search refinement options
 
@@ -68,7 +68,7 @@ further search refinement options
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23200
+Defined in: main.ts:23208
 
 title of the element
 
@@ -82,7 +82,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23198
+Defined in: main.ts:23206
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:23202
+Defined in: main.ts:23210
 
 search URL with refinement parameters
 
@@ -108,9 +108,9 @@ search URL with refinement parameters
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:23219
+Defined in: main.ts:23227
 
 #### Parameters
 
@@ -126,9 +126,9 @@ Defined in: main.ts:23219
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:23244
+Defined in: main.ts:23252
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:23244
 
 > `static` **fromJS**(`data`): `RefinementChipsElement`
 
-Defined in: main.ts:23237
+Defined in: main.ts:23245
 
 #### Parameters
 

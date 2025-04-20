@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesResultInfo
 
-Defined in: main.ts:96691
+Defined in: main.ts:96803
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96691
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:96695
+Defined in: main.ts:96807
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:96693
+Defined in: main.ts:96805
 
 language name

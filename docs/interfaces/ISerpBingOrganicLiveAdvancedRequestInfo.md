@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:68623
+Defined in: main.ts:68735
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:68623
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:68735
+Defined in: main.ts:68847
 
 browser screen height
 optional field
@@ -35,7 +35,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:68744
+Defined in: main.ts:68856
 
 browser screen resolution ratio
 optional field
@@ -52,7 +52,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:68726
+Defined in: main.ts:68838
 
 browser screen width
 optional field
@@ -69,7 +69,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:68717
+Defined in: main.ts:68829
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -84,7 +84,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:68703
+Defined in: main.ts:68815
 
 parsing depth
 optional field
@@ -101,7 +101,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:68687
+Defined in: main.ts:68799
 
 device type
 optional field
@@ -114,7 +114,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:68638
+Defined in: main.ts:68750
 
 keyword
 required field
@@ -131,7 +131,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:68682
+Defined in: main.ts:68794
 
 search engine language code
 required field if you don’t specify language_name
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:68675
+Defined in: main.ts:68787
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:68660
+Defined in: main.ts:68772
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -176,7 +176,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:68668
+Defined in: main.ts:68780
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -192,7 +192,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:68653
+Defined in: main.ts:68765
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -207,7 +207,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:68710
+Defined in: main.ts:68822
 
 page crawl limit
 optional field
@@ -222,7 +222,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:68694
+Defined in: main.ts:68806
 
 device operating system
 optional field
@@ -237,7 +237,7 @@ default value: android
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:68646
+Defined in: main.ts:68758
 
 task priority
 optional field
@@ -253,7 +253,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:68748
+Defined in: main.ts:68860
 
 additional parameters of the search query
 optional field
@@ -265,7 +265,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:68754
+Defined in: main.ts:68866
 
 user-defined task identifier
 optional field
@@ -279,7 +279,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:68629
+Defined in: main.ts:68741
 
 direct URL of the search query
 optional field

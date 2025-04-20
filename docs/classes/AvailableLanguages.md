@@ -6,7 +6,7 @@
 
 # Class: AvailableLanguages
 
-Defined in: main.ts:102576
+Defined in: main.ts:102688
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:102576
 
 ### Constructor
 
-> **new AvailableLanguages**(`data`?): `AvailableLanguages`
+> **new AvailableLanguages**(`data?`): `AvailableLanguages`
 
-Defined in: main.ts:102592
+Defined in: main.ts:102704
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102592
 
 > `optional` **available\_sources**: `string`[]
 
-Defined in: main.ts:102580
+Defined in: main.ts:102692
 
 supported sources
 contains the sources of data supported for a specific location and language combination
@@ -56,7 +56,7 @@ only google and bing are currently available
 
 > `optional` **keywords**: `number`
 
-Defined in: main.ts:102586
+Defined in: main.ts:102698
 
 the number of keywords available for the given location and language
 
@@ -70,7 +70,7 @@ the number of keywords available for the given location and language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:102584
+Defined in: main.ts:102696
 
 language code according to ISO 639-1
 
@@ -84,7 +84,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:102582
+Defined in: main.ts:102694
 
 language name
 
@@ -98,7 +98,7 @@ language name
 
 > `optional` **serps**: `number`
 
-Defined in: main.ts:102588
+Defined in: main.ts:102700
 
 the number of SERP pages available for the given location and language
 
@@ -110,9 +110,9 @@ the number of SERP pages available for the given location and language
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:102601
+Defined in: main.ts:102713
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:102601
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:102626
+Defined in: main.ts:102738
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:102626
 
 > `static` **fromJS**(`data`): `AvailableLanguages`
 
-Defined in: main.ts:102619
+Defined in: main.ts:102731
 
 #### Parameters
 

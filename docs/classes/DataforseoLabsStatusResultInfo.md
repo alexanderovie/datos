@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusResultInfo
 
-Defined in: main.ts:101562
+Defined in: main.ts:101674
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:101562
 
 ### Constructor
 
-> **new DataforseoLabsStatusResultInfo**(`data`?): `DataforseoLabsStatusResultInfo`
+> **new DataforseoLabsStatusResultInfo**(`data?`): `DataforseoLabsStatusResultInfo`
 
-Defined in: main.ts:101572
+Defined in: main.ts:101684
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101572
 
 > `optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:101568
+Defined in: main.ts:101680
 
 update information for the Amazon endpoints
 
@@ -54,7 +54,7 @@ update information for the Amazon endpoints
 
 > `optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:101566
+Defined in: main.ts:101678
 
 update information for the Bing endpoints
 
@@ -68,7 +68,7 @@ update information for the Bing endpoints
 
 > `optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:101564
+Defined in: main.ts:101676
 
 update information for the Google endpoints
 
@@ -80,9 +80,9 @@ update information for the Google endpoints
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:101581
+Defined in: main.ts:101693
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:101581
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:101600
+Defined in: main.ts:101712
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:101600
 
 > `static` **fromJS**(`data`): `DataforseoLabsStatusResultInfo`
 
-Defined in: main.ts:101593
+Defined in: main.ts:101705
 
 #### Parameters
 

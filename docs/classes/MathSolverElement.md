@@ -6,7 +6,7 @@
 
 # Class: MathSolverElement
 
-Defined in: main.ts:38827
+Defined in: main.ts:38835
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:38827
 
 ### Constructor
 
-> **new MathSolverElement**(`data`?): `MathSolverElement`
+> **new MathSolverElement**(`data?`): `MathSolverElement`
 
-Defined in: main.ts:38837
+Defined in: main.ts:38845
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38837
 
 > `optional` **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
 
-Defined in: main.ts:38833
+Defined in: main.ts:38841
 
 expanded element
 
@@ -54,7 +54,7 @@ expanded element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38831
+Defined in: main.ts:38839
 
 title of a given link element
 
@@ -68,7 +68,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38829
+Defined in: main.ts:38837
 
 type of element
 
@@ -80,9 +80,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38846
+Defined in: main.ts:38854
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:38846
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38869
+Defined in: main.ts:38877
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:38869
 
 > `static` **fromJS**(`data`): `MathSolverElement`
 
-Defined in: main.ts:38862
+Defined in: main.ts:38870
 
 #### Parameters
 

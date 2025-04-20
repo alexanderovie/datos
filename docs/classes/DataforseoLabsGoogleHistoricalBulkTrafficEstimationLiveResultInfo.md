@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
-Defined in: main.ts:122424
+Defined in: main.ts:122546
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:122424
 
 ### Constructor
 
-> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo**(`data`?): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
+> **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo**(`data?`): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:122442
+Defined in: main.ts:122564
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:122442
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)[]
 
-Defined in: main.ts:122438
+Defined in: main.ts:122560
 
 array of items with relevant traffic estimation data
 
@@ -54,7 +54,7 @@ array of items with relevant traffic estimation data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:122436
+Defined in: main.ts:122558
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122432
+Defined in: main.ts:122554
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122429
+Defined in: main.ts:122551
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122426
+Defined in: main.ts:122548
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:122434
+Defined in: main.ts:122556
 
 total amount of results in our database relevant to your request
 
@@ -124,9 +124,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:122451
+Defined in: main.ts:122573
 
 #### Parameters
 
@@ -142,9 +142,9 @@ Defined in: main.ts:122451
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:122477
+Defined in: main.ts:122599
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:122477
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`
 
-Defined in: main.ts:122470
+Defined in: main.ts:122592
 
 #### Parameters
 

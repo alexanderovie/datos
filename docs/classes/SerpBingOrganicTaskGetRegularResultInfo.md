@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskGetRegularResultInfo
 
-Defined in: main.ts:67145
+Defined in: main.ts:67259
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:67145
 
 ### Constructor
 
-> **new SerpBingOrganicTaskGetRegularResultInfo**(`data`?): `SerpBingOrganicTaskGetRegularResultInfo`
+> **new SerpBingOrganicTaskGetRegularResultInfo**(`data?`): `SerpBingOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:67185
+Defined in: main.ts:67299
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:67185
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:67159
+Defined in: main.ts:67273
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:67164
+Defined in: main.ts:67278
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:67174
+Defined in: main.ts:67288
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -88,7 +88,7 @@ possible item types: organic, paid
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:67181
+Defined in: main.ts:67295
 
 items inside the element
 array of 8 search queries related to the keyword
@@ -103,7 +103,7 @@ array of 8 search queries related to the keyword
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:67178
+Defined in: main.ts:67292
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:67148
+Defined in: main.ts:67262
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:67156
+Defined in: main.ts:67270
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:67154
+Defined in: main.ts:67268
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:67170
+Defined in: main.ts:67284
 
 search refinement chips
 equals null
@@ -175,7 +175,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:67152
+Defined in: main.ts:67266
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:67176
+Defined in: main.ts:67290
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:67167
+Defined in: main.ts:67281
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:67150
+Defined in: main.ts:67264
 
 type of element
 
@@ -230,9 +230,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:67194
+Defined in: main.ts:67308
 
 #### Parameters
 
@@ -248,9 +248,9 @@ Defined in: main.ts:67194
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:67231
+Defined in: main.ts:67345
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:67231
 
 > `static` **fromJS**(`data`): `SerpBingOrganicTaskGetRegularResultInfo`
 
-Defined in: main.ts:67224
+Defined in: main.ts:67338
 
 #### Parameters
 

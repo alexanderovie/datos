@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetAdvancedResultInfo
 
-Defined in: main.ts:84562
+Defined in: main.ts:84674
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:84562
 
 ### Constructor
 
-> **new SerpNaverOrganicTaskGetAdvancedResultInfo**(`data`?): `SerpNaverOrganicTaskGetAdvancedResultInfo`
+> **new SerpNaverOrganicTaskGetAdvancedResultInfo**(`data?`): `SerpNaverOrganicTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:84603
+Defined in: main.ts:84715
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84603
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:84576
+Defined in: main.ts:84688
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:84581
+Defined in: main.ts:84693
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:84592
+Defined in: main.ts:84704
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ images, local_pack, map, organic, paid, related_searches, video
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:84599
+Defined in: main.ts:84711
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:84596
+Defined in: main.ts:84708
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:84565
+Defined in: main.ts:84677
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:84573
+Defined in: main.ts:84685
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84571
+Defined in: main.ts:84683
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:84587
+Defined in: main.ts:84699
 
 search refinement chips
 equals null
@@ -176,7 +176,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:84569
+Defined in: main.ts:84681
 
 search engine domain in a POST array
 
@@ -190,7 +190,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:84594
+Defined in: main.ts:84706
 
 total number of results in SERP
 
@@ -204,7 +204,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:84584
+Defined in: main.ts:84696
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -219,7 +219,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:84567
+Defined in: main.ts:84679
 
 type of element
 
@@ -231,9 +231,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:84612
+Defined in: main.ts:84724
 
 #### Parameters
 
@@ -249,9 +249,9 @@ Defined in: main.ts:84612
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:84649
+Defined in: main.ts:84761
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:84649
 
 > `static` **fromJS**(`data`): `SerpNaverOrganicTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:84642
+Defined in: main.ts:84754
 
 #### Parameters
 

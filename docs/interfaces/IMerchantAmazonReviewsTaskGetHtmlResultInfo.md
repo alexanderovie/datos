@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTaskGetHtmlResultInfo
 
-Defined in: main.ts:209490
+Defined in: main.ts:210020
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:209490
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:209505
+Defined in: main.ts:210035
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:209509
+Defined in: main.ts:210039
 
 HTML pages and related data
 
@@ -41,7 +41,7 @@ HTML pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:209507
+Defined in: main.ts:210037
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:209500
+Defined in: main.ts:210030
 
 language code in a POST array
 
@@ -61,7 +61,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:209498
+Defined in: main.ts:210028
 
 location code in a POST array
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:209492
+Defined in: main.ts:210022
 
 ASIN received in a POST array
 
@@ -81,7 +81,7 @@ ASIN received in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:209496
+Defined in: main.ts:210026
 
 search engine domain in a POST array
 
@@ -91,6 +91,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:209494
+Defined in: main.ts:210024
 
 type of element

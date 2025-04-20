@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
-Defined in: main.ts:99598
+Defined in: main.ts:99710
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:99598
 
 ### Constructor
 
-> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data`?): `DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
+> **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data?`): `DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
 
-Defined in: main.ts:99614
+Defined in: main.ts:99726
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99614
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
-Defined in: main.ts:99610
+Defined in: main.ts:99722
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:99602
+Defined in: main.ts:99714
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:99604
+Defined in: main.ts:99716
 
 specified offset value
 
@@ -82,7 +82,7 @@ specified offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:99608
+Defined in: main.ts:99720
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -98,7 +98,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:99600
+Defined in: main.ts:99712
 
 total number of relevant items in the database
 
@@ -110,9 +110,9 @@ total number of relevant items in the database
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:99623
+Defined in: main.ts:99735
 
 #### Parameters
 
@@ -128,9 +128,9 @@ Defined in: main.ts:99623
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:99648
+Defined in: main.ts:99760
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:99648
 
 > `static` **fromJS**(`data`): `DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`
 
-Defined in: main.ts:99641
+Defined in: main.ts:99753
 
 #### Parameters
 

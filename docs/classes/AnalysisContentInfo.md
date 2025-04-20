@@ -6,7 +6,7 @@
 
 # Class: AnalysisContentInfo
 
-Defined in: main.ts:189358
+Defined in: main.ts:189788
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:189358
 
 ### Constructor
 
-> **new AnalysisContentInfo**(`data`?): `AnalysisContentInfo`
+> **new AnalysisContentInfo**(`data?`): `AnalysisContentInfo`
 
-Defined in: main.ts:189423
+Defined in: main.ts:189853
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:189423
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:189373
+Defined in: main.ts:189803
 
 author of the content
 
@@ -54,7 +54,7 @@ author of the content
 
 > `optional` **connotation\_types**: `object`
 
-Defined in: main.ts:189393
+Defined in: main.ts:189823
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
@@ -74,7 +74,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **content\_quality\_score**: `number`
 
-Defined in: main.ts:189404
+Defined in: main.ts:189834
 
 content quality score
 this value is calculated based on the number of words, sentences and characters the content contains
@@ -89,7 +89,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 > `optional` **content\_type**: `string`
 
-Defined in: main.ts:189362
+Defined in: main.ts:189792
 
 type of content
 example:
@@ -105,7 +105,7 @@ page_content, comment
 
 > `optional` **date\_published**: `string`
 
-Defined in: main.ts:189401
+Defined in: main.ts:189831
 
 date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -122,7 +122,7 @@ example:
 
 > `optional` **group\_date**: `string`
 
-Defined in: main.ts:189419
+Defined in: main.ts:189849
 
 citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -141,7 +141,7 @@ example:
 
 > `optional` **highlighted\_text**: `string`
 
-Defined in: main.ts:189382
+Defined in: main.ts:189812
 
 highlighted text from the snippet
 
@@ -155,7 +155,7 @@ highlighted text from the snippet
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:189385
+Defined in: main.ts:189815
 
 content language
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -170,7 +170,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **level**: `number`
 
-Defined in: main.ts:189371
+Defined in: main.ts:189801
 
 title heading level
 indicates h-tag level from 1 (top) to 6 (bottom)
@@ -185,7 +185,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 > `optional` **main\_title**: `string`
 
-Defined in: main.ts:189366
+Defined in: main.ts:189796
 
 page title
 
@@ -199,7 +199,7 @@ page title
 
 > `optional` **previous\_title**: `string`
 
-Defined in: main.ts:189368
+Defined in: main.ts:189798
 
 title of the previous content block
 
@@ -213,7 +213,7 @@ title of the previous content block
 
 > `optional` **rating**: [`ContentRatingInfo`](ContentRatingInfo.md)
 
-Defined in: main.ts:189412
+Defined in: main.ts:189842
 
 content rating
 rating related to content_info
@@ -228,7 +228,7 @@ rating related to content_info
 
 > `optional` **semantic\_location**: `string`
 
-Defined in: main.ts:189409
+Defined in: main.ts:189839
 
 semantic location
 indicates semantic element in HTML where the target keyword citation is located
@@ -245,7 +245,7 @@ article, header
 
 > `optional` **sentiment\_connotations**: `object`
 
-Defined in: main.ts:189389
+Defined in: main.ts:189819
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
@@ -265,7 +265,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:189375
+Defined in: main.ts:189805
 
 content snippet
 
@@ -279,7 +279,7 @@ content snippet
 
 > `optional` **snippet\_length**: `number`
 
-Defined in: main.ts:189377
+Defined in: main.ts:189807
 
 character length of the snippet
 
@@ -293,7 +293,7 @@ character length of the snippet
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
 
-Defined in: main.ts:189380
+Defined in: main.ts:189810
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -308,7 +308,7 @@ data on social media interactions associated with the content based on website e
 
 > `optional` **text\_category**: `number`[]
 
-Defined in: main.ts:189396
+Defined in: main.ts:189826
 
 text category
 to obtain a full list of available categories, refer to the Categories endpoint
@@ -323,7 +323,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:189364
+Defined in: main.ts:189794
 
 title of the result
 
@@ -335,9 +335,9 @@ title of the result
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:189432
+Defined in: main.ts:189862
 
 #### Parameters
 
@@ -353,9 +353,9 @@ Defined in: main.ts:189432
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:189487
+Defined in: main.ts:189917
 
 #### Parameters
 
@@ -373,7 +373,7 @@ Defined in: main.ts:189487
 
 > `static` **fromJS**(`data`): `AnalysisContentInfo`
 
-Defined in: main.ts:189480
+Defined in: main.ts:189910
 
 #### Parameters
 

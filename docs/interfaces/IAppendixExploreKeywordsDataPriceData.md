@@ -6,7 +6,7 @@
 
 # Interface: IAppendixExploreKeywordsDataPriceData
 
-Defined in: main.ts:247878
+Defined in: main.ts:248704
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:247878
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247879
+Defined in: main.ts:248705
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:247879
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247880
+Defined in: main.ts:248706
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:247880
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247881
+Defined in: main.ts:248707

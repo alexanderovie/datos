@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceMarketIndexElement
 
-Defined in: main.ts:87924
+Defined in: main.ts:88036
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:87924
 
 ### Constructor
 
-> **new GoogleFinanceMarketIndexElement**(`data`?): `GoogleFinanceMarketIndexElement`
+> **new GoogleFinanceMarketIndexElement**(`data?`): `GoogleFinanceMarketIndexElement`
 
-Defined in: main.ts:87964
+Defined in: main.ts:88076
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87964
 
 > `optional` **displayed\_name**: `string`
 
-Defined in: main.ts:87945
+Defined in: main.ts:88057
 
 name of the market index as displayed on Google Finance
 example: CAC 40
@@ -55,7 +55,7 @@ example: CAC 40
 
 > `optional` **identifier**: `string`
 
-Defined in: main.ts:87942
+Defined in: main.ts:88054
 
 identifier of the element
 full identifier of the element that consists from ticker and market_identifier
@@ -71,7 +71,7 @@ example: PX1:INDEXDB
 
 > `optional` **index\_value**: `number`
 
-Defined in: main.ts:87935
+Defined in: main.ts:88047
 
 value of the market index
 numerical value of the index at a given timestamp
@@ -86,7 +86,7 @@ numerical value of the index at a given timestamp
 
 > `optional` **index\_value\_delta**: `number`
 
-Defined in: main.ts:87938
+Defined in: main.ts:88050
 
 change in value of the market index
 change in the index_value at a given timestamp
@@ -101,7 +101,7 @@ change in the index_value at a given timestamp
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:87950
+Defined in: main.ts:88062
 
 location of the market index
 example: Europe/Paris
@@ -116,7 +116,7 @@ example: Europe/Paris
 
 > `optional` **market\_identifier**: `string`
 
-Defined in: main.ts:87932
+Defined in: main.ts:88044
 
 market identifier
 example: INDEXDB
@@ -131,7 +131,7 @@ example: INDEXDB
 
 > `optional` **percentage\_delta**: `number`
 
-Defined in: main.ts:87960
+Defined in: main.ts:88072
 
 percentage of change in value of the market index
 
@@ -145,7 +145,7 @@ percentage of change in value of the market index
 
 > `optional` **ticker**: `string`
 
-Defined in: main.ts:87929
+Defined in: main.ts:88041
 
 ticker of the market index
 example: DAX
@@ -160,7 +160,7 @@ example: DAX
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:87958
+Defined in: main.ts:88070
 
 date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -177,7 +177,7 @@ example:
 
 > `optional` **trend**: `string`
 
-Defined in: main.ts:87953
+Defined in: main.ts:88065
 
 growth trend of the market index
 possible values: up, down, stable
@@ -192,7 +192,7 @@ possible values: up, down, stable
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87926
+Defined in: main.ts:88038
 
 type of element
 
@@ -206,7 +206,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:87947
+Defined in: main.ts:88059
 
 URL to the page of the market index on Google Finance
 
@@ -218,9 +218,9 @@ URL to the page of the market index on Google Finance
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:87973
+Defined in: main.ts:88085
 
 #### Parameters
 
@@ -236,9 +236,9 @@ Defined in: main.ts:87973
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88001
+Defined in: main.ts:88113
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:88001
 
 > `static` **fromJS**(`data`): `GoogleFinanceMarketIndexElement`
 
-Defined in: main.ts:87994
+Defined in: main.ts:88106
 
 #### Parameters
 

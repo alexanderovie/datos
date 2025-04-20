@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordOverviewLiveResultInfo
 
-Defined in: main.ts:123519
+Defined in: main.ts:123641
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123519
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordOverviewLiveItem`](../classes/DataforseoLabsGoogleKeywordOverviewLiveItem.md)[]
 
-Defined in: main.ts:123529
+Defined in: main.ts:123651
 
 contains keywords and related data
 
@@ -28,7 +28,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123527
+Defined in: main.ts:123649
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123525
+Defined in: main.ts:123647
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123523
+Defined in: main.ts:123645
 
 location code in a POST array
 
@@ -58,6 +58,6 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123521
+Defined in: main.ts:123643
 
 search engine type

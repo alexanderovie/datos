@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
 
-Defined in: main.ts:132496
+Defined in: main.ts:132618
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:132496
 
 ### Constructor
 
-> **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): `DataforseoLabsBingSubdomainsLiveResultInfo`
+> **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data?`): `DataforseoLabsBingSubdomainsLiveResultInfo`
 
-Defined in: main.ts:132514
+Defined in: main.ts:132636
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:132514
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
-Defined in: main.ts:132510
+Defined in: main.ts:132632
 
 contains subdomains and related data
 
@@ -54,7 +54,7 @@ contains subdomains and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:132508
+Defined in: main.ts:132630
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132504
+Defined in: main.ts:132626
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132502
+Defined in: main.ts:132624
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:132498
+Defined in: main.ts:132620
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:132500
+Defined in: main.ts:132622
 
 domain in a POST array
 
@@ -124,7 +124,7 @@ domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:132506
+Defined in: main.ts:132628
 
 total amount of results in our database relevant to your request
 
@@ -136,9 +136,9 @@ total amount of results in our database relevant to your request
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:132523
+Defined in: main.ts:132645
 
 #### Parameters
 
@@ -154,9 +154,9 @@ Defined in: main.ts:132523
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:132550
+Defined in: main.ts:132672
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:132550
 
 > `static` **fromJS**(`data`): `DataforseoLabsBingSubdomainsLiveResultInfo`
 
-Defined in: main.ts:132543
+Defined in: main.ts:132665
 
 #### Parameters
 

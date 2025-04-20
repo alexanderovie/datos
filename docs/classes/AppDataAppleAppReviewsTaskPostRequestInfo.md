@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTaskPostRequestInfo
 
-Defined in: main.ts:219578
+Defined in: main.ts:220108
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:219578
 
 ### Constructor
 
-> **new AppDataAppleAppReviewsTaskPostRequestInfo**(`data`?): `AppDataAppleAppReviewsTaskPostRequestInfo`
+> **new AppDataAppleAppReviewsTaskPostRequestInfo**(`data?`): `AppDataAppleAppReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:219675
+Defined in: main.ts:220205
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219675
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:219586
+Defined in: main.ts:220116
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is 835599320
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:219629
+Defined in: main.ts:220159
 
 parsing depth
 optional field
@@ -79,7 +79,7 @@ maximum value: 500
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:219614
+Defined in: main.ts:220144
 
 search engine language code
 required field if you don’t specify language_name
@@ -98,7 +98,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:219607
+Defined in: main.ts:220137
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -117,7 +117,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:219600
+Defined in: main.ts:220130
 
 search engine location code
 required field if you don’t specify location_name
@@ -136,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:219593
+Defined in: main.ts:220123
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -155,7 +155,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:219671
+Defined in: main.ts:220201
 
 notification URL of a completed task
 optional field
@@ -178,7 +178,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:219660
+Defined in: main.ts:220190
 
 postback_url datatype
 required field if you specify postback_url
@@ -196,7 +196,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:219654
+Defined in: main.ts:220184
 
 return URL for sending task results
 optional field
@@ -219,7 +219,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:219622
+Defined in: main.ts:220152
 
 task priority
 optional field
@@ -239,7 +239,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:219637
+Defined in: main.ts:220167
 
 results sorting parameters
 optional field
@@ -259,7 +259,7 @@ default rule: most_helpful
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:219643
+Defined in: main.ts:220173
 
 user-defined task identifier
 optional field
@@ -275,9 +275,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:219684
+Defined in: main.ts:220214
 
 #### Parameters
 
@@ -293,9 +293,9 @@ Defined in: main.ts:219684
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:219712
+Defined in: main.ts:220242
 
 #### Parameters
 
@@ -313,7 +313,7 @@ Defined in: main.ts:219712
 
 > `static` **fromJS**(`data`): `AppDataAppleAppReviewsTaskPostRequestInfo`
 
-Defined in: main.ts:219705
+Defined in: main.ts:220235
 
 #### Parameters
 

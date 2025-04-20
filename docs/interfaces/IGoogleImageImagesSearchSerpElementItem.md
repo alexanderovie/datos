@@ -6,7 +6,7 @@
 
 # Interface: IGoogleImageImagesSearchSerpElementItem
 
-Defined in: main.ts:53799
+Defined in: main.ts:53913
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:53799
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:53805
+Defined in: main.ts:53919
 
 the alt tag of the image
 
@@ -32,7 +32,7 @@ the alt tag of the image
 
 > `optional` **encoded\_url**: `string`
 
-Defined in: main.ts:53811
+Defined in: main.ts:53925
 
 the URL of the cached version of the image stored on Google’s servers
 
@@ -42,7 +42,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53651
+Defined in: main.ts:53765
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -57,7 +57,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53648
+Defined in: main.ts:53762
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:53809
+Defined in: main.ts:53923
 
 the URL of the source image
 
@@ -83,7 +83,7 @@ the URL of the source image
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:53803
+Defined in: main.ts:53917
 
 subtitle of the result in SERP
 
@@ -93,7 +93,7 @@ subtitle of the result in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:53801
+Defined in: main.ts:53915
 
 title of the result in SERP
 
@@ -103,7 +103,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53644
+Defined in: main.ts:53758
 
 type of element
 
@@ -117,7 +117,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:53807
+Defined in: main.ts:53921
 
 search URL with refinement parameters
 
@@ -127,7 +127,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53653
+Defined in: main.ts:53767
 
 the XPath of the element
 

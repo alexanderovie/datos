@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreTasksReadyResultInfo
 
-Defined in: main.ts:87558
+Defined in: main.ts:87670
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:87558
 
 ### Constructor
 
-> **new SerpGoogleFinanceExploreTasksReadyResultInfo**(`data`?): `SerpGoogleFinanceExploreTasksReadyResultInfo`
+> **new SerpGoogleFinanceExploreTasksReadyResultInfo**(`data?`): `SerpGoogleFinanceExploreTasksReadyResultInfo`
 
-Defined in: main.ts:87583
+Defined in: main.ts:87695
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87583
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:87568
+Defined in: main.ts:87680
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:87576
+Defined in: main.ts:87688
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:87579
+Defined in: main.ts:87691
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:87573
+Defined in: main.ts:87685
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:87561
+Defined in: main.ts:87673
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:87563
+Defined in: main.ts:87675
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:87566
+Defined in: main.ts:87678
 
 type of search engine
 example: finance_explore
@@ -143,7 +143,7 @@ example: finance_explore
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:87570
+Defined in: main.ts:87682
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:87592
+Defined in: main.ts:87704
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:87592
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:87616
+Defined in: main.ts:87728
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:87616
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceExploreTasksReadyResultInfo`
 
-Defined in: main.ts:87609
+Defined in: main.ts:87721
 
 #### Parameters
 

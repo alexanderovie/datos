@@ -6,7 +6,7 @@
 
 # Interface: IEventItemSerpElementItem
 
-Defined in: main.ts:51903
+Defined in: main.ts:52017
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:51903
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:51913
+Defined in: main.ts:52027
 
 description of the results element in SERP
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
 
-Defined in: main.ts:51920
+Defined in: main.ts:52034
 
 dates when the event takes place
 if there are none, equals null
@@ -43,7 +43,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:51917
+Defined in: main.ts:52031
 
 URL of the image featured in the element
 
@@ -53,7 +53,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:51924
+Defined in: main.ts:52038
 
 additional information and ticket purchase options
 
@@ -63,7 +63,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
-Defined in: main.ts:51922
+Defined in: main.ts:52036
 
 information about the event’s venue
 
@@ -73,7 +73,7 @@ information about the event’s venue
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:51907
+Defined in: main.ts:52021
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,7 +85,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:22340
+Defined in: main.ts:22348
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -100,7 +100,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:22337
+Defined in: main.ts:22345
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -116,7 +116,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:51911
+Defined in: main.ts:52025
 
 title of the element
 
@@ -126,7 +126,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22333
+Defined in: main.ts:22341
 
 type of element
 
@@ -140,7 +140,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51915
+Defined in: main.ts:52029
 
 search URL with refinement parameters
 
@@ -150,6 +150,6 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:51909
+Defined in: main.ts:52023
 
 the XPath of the element

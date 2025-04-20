@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphAiOverviewItemSerpElementItem
 
-Defined in: main.ts:32959
+Defined in: main.ts:32967
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:32959
 
 ### Constructor
 
-> **new KnowledgeGraphAiOverviewItemSerpElementItem**(`data`?): `KnowledgeGraphAiOverviewItemSerpElementItem`
+> **new KnowledgeGraphAiOverviewItemSerpElementItem**(`data?`): `KnowledgeGraphAiOverviewItemSerpElementItem`
 
-Defined in: main.ts:32983
+Defined in: main.ts:32991
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:32983
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:32969
+Defined in: main.ts:32977
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:32972
+Defined in: main.ts:32980
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:32963
+Defined in: main.ts:32971
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,7 +107,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -126,7 +126,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32979
+Defined in: main.ts:32987
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -162,7 +162,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:32975
+Defined in: main.ts:32983
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -177,7 +177,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -195,7 +195,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:32965
+Defined in: main.ts:32973
 
 the XPath of the element
 
@@ -207,9 +207,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:32988
+Defined in: main.ts:32996
 
 #### Parameters
 
@@ -229,9 +229,9 @@ Defined in: main.ts:32988
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:33019
+Defined in: main.ts:33027
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:33019
 
 > `static` **fromJS**(`data`): `KnowledgeGraphAiOverviewItemSerpElementItem`
 
-Defined in: main.ts:33012
+Defined in: main.ts:33020
 
 #### Parameters
 

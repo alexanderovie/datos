@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:111234
+Defined in: main.ts:111356
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:111234
 
 ### Constructor
 
-> **new DataforseoLabsGoogleRankedKeywordsLiveRequestInfo**(`data`?): `DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`
+> **new DataforseoLabsGoogleRankedKeywordsLiveRequestInfo**(`data?`): `DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:111367
+Defined in: main.ts:111489
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111367
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:111341
+Defined in: main.ts:111463
 
 array of results filtering parameters
 optional field
@@ -72,7 +72,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:111321
+Defined in: main.ts:111443
 
 data collection mode
 optional field
@@ -93,7 +93,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:111281
+Defined in: main.ts:111403
 
 ignore highly similar keywords
 optional field
@@ -110,7 +110,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:111297
+Defined in: main.ts:111419
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -129,7 +129,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:111290
+Defined in: main.ts:111412
 
 display results by item type
 optional field
@@ -150,7 +150,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:111276
+Defined in: main.ts:111398
 
 language code
 optional field
@@ -171,7 +171,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:111267
+Defined in: main.ts:111389
 
 full name of the language
 optional field
@@ -192,7 +192,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:111302
+Defined in: main.ts:111424
 
 the maximum number of returned keywords
 optional field
@@ -209,7 +209,7 @@ maximum value: 1000
 
 > `optional` **load\_rank\_absolute**: `boolean`
 
-Defined in: main.ts:111312
+Defined in: main.ts:111434
 
 return rankings distribution by rank_absolute
 optional field
@@ -226,7 +226,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:111258
+Defined in: main.ts:111380
 
 location code
 optional field
@@ -247,7 +247,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:111249
+Defined in: main.ts:111371
 
 full name of the location
 optional field
@@ -268,7 +268,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:111307
+Defined in: main.ts:111429
 
 offset in the results array of returned keywords
 optional field
@@ -285,7 +285,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:111357
+Defined in: main.ts:111479
 
 results sorting rules
 optional field
@@ -313,7 +313,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:111363
+Defined in: main.ts:111485
 
 user-defined task identifier
 optional field
@@ -331,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:111240
+Defined in: main.ts:111362
 
 domain name or page url
 required field
@@ -347,9 +347,9 @@ the webpage URL must be specified with https:// or www.
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:111376
+Defined in: main.ts:111498
 
 #### Parameters
 
@@ -365,9 +365,9 @@ Defined in: main.ts:111376
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:111419
+Defined in: main.ts:111541
 
 #### Parameters
 
@@ -385,7 +385,7 @@ Defined in: main.ts:111419
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`
 
-Defined in: main.ts:111412
+Defined in: main.ts:111534
 
 #### Parameters
 

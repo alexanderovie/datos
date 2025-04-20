@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 
-Defined in: main.ts:247706
+Defined in: main.ts:248532
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:247706
 
 ### Constructor
 
-> **new AppendixGoogleAdsKeywordsDataPriceData**(`data`?): `AppendixGoogleAdsKeywordsDataPriceData`
+> **new AppendixGoogleAdsKeywordsDataPriceData**(`data?`): `AppendixGoogleAdsKeywordsDataPriceData`
 
-Defined in: main.ts:247715
+Defined in: main.ts:248541
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247715
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247707
+Defined in: main.ts:248533
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247707
 
 > `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247708
+Defined in: main.ts:248534
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247708
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247709
+Defined in: main.ts:248535
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247709
 
 > `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247710
+Defined in: main.ts:248536
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:247710
 
 > `optional` **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247711
+Defined in: main.ts:248537
 
 #### Implementation of
 
@@ -98,9 +98,9 @@ Defined in: main.ts:247711
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:247724
+Defined in: main.ts:248550
 
 #### Parameters
 
@@ -116,9 +116,9 @@ Defined in: main.ts:247724
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:247745
+Defined in: main.ts:248571
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:247745
 
 > `static` **fromJS**(`data`): `AppendixGoogleAdsKeywordsDataPriceData`
 
-Defined in: main.ts:247738
+Defined in: main.ts:248564
 
 #### Parameters
 

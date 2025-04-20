@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsItem
 
-Defined in: main.ts:180500
+Defined in: main.ts:180910
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:180500
 
 ### Constructor
 
-> **new OnPageDuplicateTagsItem**(`data`?): `OnPageDuplicateTagsItem`
+> **new OnPageDuplicateTagsItem**(`data?`): `OnPageDuplicateTagsItem`
 
-Defined in: main.ts:180510
+Defined in: main.ts:180920
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180510
 
 > `optional` **accumulator**: `string`
 
-Defined in: main.ts:180502
+Defined in: main.ts:180912
 
 contains the value of duplicated tag
 
@@ -54,7 +54,7 @@ contains the value of duplicated tag
 
 > `optional` **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:180506
+Defined in: main.ts:180916
 
 pages with duplicate tags
 
@@ -68,7 +68,7 @@ pages with duplicate tags
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:180504
+Defined in: main.ts:180914
 
 total count of duplicate pages
 
@@ -80,9 +80,9 @@ total count of duplicate pages
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:180519
+Defined in: main.ts:180929
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:180519
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:180542
+Defined in: main.ts:180952
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:180542
 
 > `static` **fromJS**(`data`): `OnPageDuplicateTagsItem`
 
-Defined in: main.ts:180535
+Defined in: main.ts:180945
 
 #### Parameters
 

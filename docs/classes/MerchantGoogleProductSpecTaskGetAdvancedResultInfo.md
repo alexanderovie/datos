@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
-Defined in: main.ts:201028
+Defined in: main.ts:201558
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:201028
 
 ### Constructor
 
-> **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data`?): `MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
+> **new MerchantGoogleProductSpecTaskGetAdvancedResultInfo**(`data?`): `MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:201068
+Defined in: main.ts:201598
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:201068
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:201050
+Defined in: main.ts:201580
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:201055
+Defined in: main.ts:201585
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:201043
+Defined in: main.ts:201573
 
 description of the product
 
@@ -86,7 +86,7 @@ description of the product
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:201045
+Defined in: main.ts:201575
 
 URL of the product image
 
@@ -100,7 +100,7 @@ URL of the product image
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:201059
+Defined in: main.ts:201589
 
 types of items found on the product specification page
 possible item types:
@@ -116,7 +116,7 @@ shopping_specification
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:201064
+Defined in: main.ts:201594
 
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
@@ -131,7 +131,7 @@ contains all product attributes and related data listed on the product specifica
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:201061
+Defined in: main.ts:201591
 
 the number of results returned in the items array
 
@@ -145,7 +145,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:201039
+Defined in: main.ts:201569
 
 language code in a POST array
 
@@ -159,7 +159,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:201037
+Defined in: main.ts:201567
 
 location code in a POST array
 
@@ -173,7 +173,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:201031
+Defined in: main.ts:201561
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -188,7 +188,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:201035
+Defined in: main.ts:201565
 
 search engine domain in a POST array
 
@@ -202,7 +202,7 @@ search engine domain in a POST array
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:201047
+Defined in: main.ts:201577
 
 tags of the product
 
@@ -216,7 +216,7 @@ tags of the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:201041
+Defined in: main.ts:201571
 
 title of the product
 
@@ -230,7 +230,7 @@ title of the product
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:201033
+Defined in: main.ts:201563
 
 type of element
 
@@ -242,9 +242,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:201077
+Defined in: main.ts:201607
 
 #### Parameters
 
@@ -260,9 +260,9 @@ Defined in: main.ts:201077
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:201119
+Defined in: main.ts:201649
 
 #### Parameters
 
@@ -280,7 +280,7 @@ Defined in: main.ts:201119
 
 > `static` **fromJS**(`data`): `MerchantGoogleProductSpecTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:201112
+Defined in: main.ts:201642
 
 #### Parameters
 

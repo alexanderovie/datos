@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
-Defined in: main.ts:190938
+Defined in: main.ts:191408
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:190938
 
 ### Constructor
 
-> **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): `ContentAnalysisSentimentAnalysisLiveResultInfo`
+> **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data?`): `ContentAnalysisSentimentAnalysisLiveResultInfo`
 
-Defined in: main.ts:190952
+Defined in: main.ts:191422
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190952
 
 > `optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-Defined in: main.ts:190944
+Defined in: main.ts:191414
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -56,7 +56,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-Defined in: main.ts:190948
+Defined in: main.ts:191418
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -72,7 +72,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190940
+Defined in: main.ts:191410
 
 type of element
 
@@ -84,9 +84,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:190961
+Defined in: main.ts:191431
 
 #### Parameters
 
@@ -102,9 +102,9 @@ Defined in: main.ts:190961
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:190980
+Defined in: main.ts:191450
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:190980
 
 > `static` **fromJS**(`data`): `ContentAnalysisSentimentAnalysisLiveResultInfo`
 
-Defined in: main.ts:190973
+Defined in: main.ts:191443
 
 #### Parameters
 

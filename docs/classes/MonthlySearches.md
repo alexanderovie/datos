@@ -6,7 +6,7 @@
 
 # Class: MonthlySearches
 
-Defined in: main.ts:103550
+Defined in: main.ts:103662
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:103550
 
 ### Constructor
 
-> **new MonthlySearches**(`data`?): `MonthlySearches`
+> **new MonthlySearches**(`data?`): `MonthlySearches`
 
-Defined in: main.ts:103560
+Defined in: main.ts:103672
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:103560
 
 > `optional` **month**: `number`
 
-Defined in: main.ts:103554
+Defined in: main.ts:103666
 
 month
 
@@ -54,7 +54,7 @@ month
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:103556
+Defined in: main.ts:103668
 
 monthly average search volume rate
 
@@ -68,7 +68,7 @@ monthly average search volume rate
 
 > `optional` **year**: `number`
 
-Defined in: main.ts:103552
+Defined in: main.ts:103664
 
 year
 
@@ -80,9 +80,9 @@ year
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:103569
+Defined in: main.ts:103681
 
 #### Parameters
 
@@ -98,9 +98,9 @@ Defined in: main.ts:103569
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:103588
+Defined in: main.ts:103700
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:103588
 
 > `static` **fromJS**(`data`): `MonthlySearches`
 
-Defined in: main.ts:103581
+Defined in: main.ts:103693
 
 #### Parameters
 

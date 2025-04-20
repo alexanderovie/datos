@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoInfoTasksFixedResultInfo
 
-Defined in: main.ts:72983
+Defined in: main.ts:73095
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:72983
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:72993
+Defined in: main.ts:73105
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:73001
+Defined in: main.ts:73113
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:73004
+Defined in: main.ts:73116
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:72998
+Defined in: main.ts:73110
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:72986
+Defined in: main.ts:73098
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:72988
+Defined in: main.ts:73100
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:72991
+Defined in: main.ts:73103
 
 type of search engine
 can take the following values: video_info
@@ -93,6 +93,6 @@ can take the following values: video_info
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:72995
+Defined in: main.ts:73107
 
 user-defined task identifier

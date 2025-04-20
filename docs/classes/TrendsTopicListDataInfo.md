@@ -6,7 +6,7 @@
 
 # Class: TrendsTopicListDataInfo
 
-Defined in: main.ts:147075
+Defined in: main.ts:147199
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:147075
 
 ### Constructor
 
-> **new TrendsTopicListDataInfo**(`data`?): `TrendsTopicListDataInfo`
+> **new TrendsTopicListDataInfo**(`data?`): `TrendsTopicListDataInfo`
 
-Defined in: main.ts:147085
+Defined in: main.ts:147209
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147085
 
 > `optional` **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:147081
+Defined in: main.ts:147205
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -55,7 +55,7 @@ represents the list of related topics with the biggest increase in search freque
 
 > `optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
-Defined in: main.ts:147078
+Defined in: main.ts:147202
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -68,9 +68,9 @@ represents the list of the most popular related topics
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:147094
+Defined in: main.ts:147218
 
 #### Parameters
 
@@ -86,9 +86,9 @@ Defined in: main.ts:147094
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:147120
+Defined in: main.ts:147244
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:147120
 
 > `static` **fromJS**(`data`): `TrendsTopicListDataInfo`
 
-Defined in: main.ts:147113
+Defined in: main.ts:147237
 
 #### Parameters
 

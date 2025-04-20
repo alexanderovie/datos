@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataRequestInfo
 
-Defined in: main.ts:183470
+Defined in: main.ts:183880
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:183470
 
 ### Constructor
 
-> **new OnPageMicrodataRequestInfo**(`data`?): `OnPageMicrodataRequestInfo`
+> **new OnPageMicrodataRequestInfo**(`data?`): `OnPageMicrodataRequestInfo`
 
-Defined in: main.ts:183492
+Defined in: main.ts:183902
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183492
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:183476
+Defined in: main.ts:183886
 
 ID of the task
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:183488
+Defined in: main.ts:183898
 
 user-defined task identifier
 optional field
@@ -76,7 +76,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:183482
+Defined in: main.ts:183892
 
 resource URL
 required field
@@ -92,9 +92,9 @@ https://dataforseo.com/apis
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:183501
+Defined in: main.ts:183911
 
 #### Parameters
 
@@ -110,9 +110,9 @@ Defined in: main.ts:183501
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:183520
+Defined in: main.ts:183930
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:183520
 
 > `static` **fromJS**(`data`): `OnPageMicrodataRequestInfo`
 
-Defined in: main.ts:183513
+Defined in: main.ts:183923
 
 #### Parameters
 

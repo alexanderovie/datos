@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTasksReadyResponseInfo
 
-Defined in: main.ts:72852
+Defined in: main.ts:72964
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:72852
 
 ### Constructor
 
-> **new SerpYoutubeVideoInfoTasksReadyResponseInfo**(`data`?): `SerpYoutubeVideoInfoTasksReadyResponseInfo`
+> **new SerpYoutubeVideoInfoTasksReadyResponseInfo**(`data?`): `SerpYoutubeVideoInfoTasksReadyResponseInfo`
 
-Defined in: main.ts:72858
+Defined in: main.ts:72970
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:72858
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:26361
+Defined in: main.ts:26369
 
 total tasks cost, USD
 
@@ -66,7 +66,7 @@ total tasks cost, USD
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:26354
+Defined in: main.ts:26362
 
 general status code
 you can find the full list of the response codes here
@@ -85,7 +85,7 @@ you can find the full list of the response codes here
 
 > `optional` **status\_message**: `string`
 
-Defined in: main.ts:26357
+Defined in: main.ts:26365
 
 general informational message
 you can find the full list of general informational messages here
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoInfoTasksReadyTaskInfo`](SerpYoutubeVideoInfoTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:72854
+Defined in: main.ts:72966
 
 array of tasks
 
@@ -118,7 +118,7 @@ array of tasks
 
 > `optional` **tasks\_count**: `number`
 
-Defined in: main.ts:26363
+Defined in: main.ts:26371
 
 the number of tasks in the tasks array
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 > `optional` **tasks\_error**: `number`
 
-Defined in: main.ts:26365
+Defined in: main.ts:26373
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:26359
+Defined in: main.ts:26367
 
 total execution time, seconds
 
@@ -172,7 +172,7 @@ total execution time, seconds
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:26351
+Defined in: main.ts:26359
 
 the current version of the API
 
@@ -188,9 +188,9 @@ the current version of the API
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:72862
+Defined in: main.ts:72974
 
 #### Parameters
 
@@ -210,9 +210,9 @@ Defined in: main.ts:72862
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:72884
+Defined in: main.ts:72996
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:72884
 
 > `static` **fromJS**(`data`): `SerpYoutubeVideoInfoTasksReadyResponseInfo`
 
-Defined in: main.ts:72877
+Defined in: main.ts:72989
 
 #### Parameters
 

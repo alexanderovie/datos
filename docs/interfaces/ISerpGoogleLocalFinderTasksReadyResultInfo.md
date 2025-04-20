@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTasksReadyResultInfo
 
-Defined in: main.ts:46187
+Defined in: main.ts:46289
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:46187
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:46197
+Defined in: main.ts:46299
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:46205
+Defined in: main.ts:46307
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:46208
+Defined in: main.ts:46310
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:46202
+Defined in: main.ts:46304
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:46190
+Defined in: main.ts:46292
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:46192
+Defined in: main.ts:46294
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:46195
+Defined in: main.ts:46297
 
 type of search engine
 example: local_finder
@@ -93,6 +93,6 @@ example: local_finder
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:46199
+Defined in: main.ts:46301
 
 user-defined task identifier

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
-Defined in: main.ts:103104
+Defined in: main.ts:103216
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:103104
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:103109
+Defined in: main.ts:103221
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint

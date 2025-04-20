@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalKeywordDataLiveItem
 
-Defined in: main.ts:122917
+Defined in: main.ts:123039
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122917
 
 > `optional` **history**: [`History`](../classes/History.md)[]
 
-Defined in: main.ts:122929
+Defined in: main.ts:123051
 
 array of objects with historical data for the keyword
 
@@ -28,7 +28,7 @@ array of objects with historical data for the keyword
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:122922
+Defined in: main.ts:123044
 
 keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -39,7 +39,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:122927
+Defined in: main.ts:123049
 
 language code in a POST array
 
@@ -49,7 +49,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:122925
+Defined in: main.ts:123047
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,6 +60,6 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122919
+Defined in: main.ts:123041
 
 search engine type

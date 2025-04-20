@@ -6,7 +6,7 @@
 
 # Class: EventItemSerpElementItem
 
-Defined in: main.ts:51819
+Defined in: main.ts:51933
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:51819
 
 ### Constructor
 
-> **new EventItemSerpElementItem**(`data`?): `EventItemSerpElementItem`
+> **new EventItemSerpElementItem**(`data?`): `EventItemSerpElementItem`
 
-Defined in: main.ts:51844
+Defined in: main.ts:51958
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:51844
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:51829
+Defined in: main.ts:51943
 
 description of the results element in SERP
 
@@ -74,7 +74,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](EventDates.md)
 
-Defined in: main.ts:51836
+Defined in: main.ts:51950
 
 dates when the event takes place
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:51833
+Defined in: main.ts:51947
 
 URL of the image featured in the element
 
@@ -103,7 +103,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:51840
+Defined in: main.ts:51954
 
 additional information and ticket purchase options
 
@@ -117,7 +117,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:51838
+Defined in: main.ts:51952
 
 information about the event’s venue
 
@@ -131,7 +131,7 @@ information about the event’s venue
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:51823
+Defined in: main.ts:51937
 
 the alignment of the element in SERP
 can take the following values:
@@ -147,7 +147,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -166,7 +166,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -186,7 +186,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:51827
+Defined in: main.ts:51941
 
 title of the element
 
@@ -200,7 +200,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -218,7 +218,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51831
+Defined in: main.ts:51945
 
 search URL with refinement parameters
 
@@ -232,7 +232,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:51825
+Defined in: main.ts:51939
 
 the XPath of the element
 
@@ -244,9 +244,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:51849
+Defined in: main.ts:51963
 
 #### Parameters
 
@@ -266,9 +266,9 @@ Defined in: main.ts:51849
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:51879
+Defined in: main.ts:51993
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:51879
 
 > `static` **fromJS**(`data`): `EventItemSerpElementItem`
 
-Defined in: main.ts:51872
+Defined in: main.ts:51986
 
 #### Parameters
 

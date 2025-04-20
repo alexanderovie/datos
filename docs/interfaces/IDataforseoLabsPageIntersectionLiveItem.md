@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsPageIntersectionLiveItem
 
-Defined in: main.ts:121167
+Defined in: main.ts:121289
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:121167
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:121175
+Defined in: main.ts:121297
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
@@ -34,7 +34,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:121171
+Defined in: main.ts:121293
 
 keyword data for the returned keyword
 
@@ -44,6 +44,6 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121169
+Defined in: main.ts:121291
 
 search engine type

@@ -6,7 +6,7 @@
 
 # Class: BacklinksSummaryLiveRequestInfo
 
-Defined in: main.ts:161932
+Defined in: main.ts:162056
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:161932
 
 ### Constructor
 
-> **new BacklinksSummaryLiveRequestInfo**(`data`?): `BacklinksSummaryLiveRequestInfo`
+> **new BacklinksSummaryLiveRequestInfo**(`data?`): `BacklinksSummaryLiveRequestInfo`
 
-Defined in: main.ts:161992
+Defined in: main.ts:162125
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161992
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:161982
+Defined in: main.ts:162106
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:161974
+Defined in: main.ts:162098
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:161954
+Defined in: main.ts:162078
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -99,7 +99,7 @@ default value: true
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:161948
+Defined in: main.ts:162072
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -117,7 +117,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:161942
+Defined in: main.ts:162066
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -134,7 +134,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:161965
+Defined in: main.ts:162089
 
 maximum number of elements within internal arrays
 optional field
@@ -153,11 +153,32 @@ maximum value: 1000
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:162115
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+#### Implementation of
+
+[`IBacklinksSummaryLiveRequestInfo`](../interfaces/IBacklinksSummaryLiveRequestInfo.md).[`rank_scale`](../interfaces/IBacklinksSummaryLiveRequestInfo.md#rank_scale)
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:161988
+Defined in: main.ts:162121
 
 user-defined task identifier
 optional field
@@ -175,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:161937
+Defined in: main.ts:162061
 
 domain, subdomain or webpage to get data for
 required field
@@ -190,9 +211,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:162001
+Defined in: main.ts:162134
 
 #### Parameters
 
@@ -208,9 +229,9 @@ Defined in: main.ts:162001
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:162029
+Defined in: main.ts:162163
 
 #### Parameters
 
@@ -228,7 +249,7 @@ Defined in: main.ts:162029
 
 > `static` **fromJS**(`data`): `BacklinksSummaryLiveRequestInfo`
 
-Defined in: main.ts:162022
+Defined in: main.ts:162156
 
 #### Parameters
 

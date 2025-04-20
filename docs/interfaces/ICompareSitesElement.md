@@ -6,7 +6,7 @@
 
 # Interface: ICompareSitesElement
 
-Defined in: main.ts:40542
+Defined in: main.ts:40550
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:40542
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:40550
+Defined in: main.ts:40558
 
 website domain
 
@@ -28,7 +28,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:40553
+Defined in: main.ts:40561
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -39,7 +39,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:40556
+Defined in: main.ts:40564
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -50,7 +50,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40546
+Defined in: main.ts:40554
 
 title of a given link element
 
@@ -60,7 +60,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:40544
+Defined in: main.ts:40552
 
 type of element
 
@@ -70,6 +70,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40548
+Defined in: main.ts:40556
 
 URL

@@ -6,7 +6,7 @@
 
 # Class: BaseSerpElementItem
 
-Defined in: main.ts:21978
+Defined in: main.ts:21981
 
 ## Extended by
 
@@ -69,6 +69,7 @@ Defined in: main.ts:21978
 - [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 - [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 - [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
+- [`ThirdPartyReviewsSerpElementItem`](ThirdPartyReviewsSerpElementItem.md)
 - [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
 - [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
@@ -80,9 +81,9 @@ Defined in: main.ts:21978
 
 ### Constructor
 
-> **new BaseSerpElementItem**(`data`?): `BaseSerpElementItem`
+> **new BaseSerpElementItem**(`data?`): `BaseSerpElementItem`
 
-Defined in: main.ts:21991
+Defined in: main.ts:21994
 
 #### Parameters
 
@@ -100,7 +101,7 @@ Defined in: main.ts:21991
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 ***
 
@@ -108,7 +109,7 @@ Defined in: main.ts:21989
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -123,7 +124,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -139,7 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -151,9 +152,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:22001
+Defined in: main.ts:22004
 
 #### Parameters
 
@@ -169,9 +170,9 @@ Defined in: main.ts:22001
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:22321
+Defined in: main.ts:22329
 
 #### Parameters
 
@@ -189,7 +190,7 @@ Defined in: main.ts:22321
 
 > `static` **fromJS**(`data`): `BaseSerpElementItem`
 
-Defined in: main.ts:22009
+Defined in: main.ts:22012
 
 #### Parameters
 

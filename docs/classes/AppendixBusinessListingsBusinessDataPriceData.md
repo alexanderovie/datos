@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessListingsBusinessDataPriceData
 
-Defined in: main.ts:248922
+Defined in: main.ts:249748
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:248922
 
 ### Constructor
 
-> **new AppendixBusinessListingsBusinessDataPriceData**(`data`?): `AppendixBusinessListingsBusinessDataPriceData`
+> **new AppendixBusinessListingsBusinessDataPriceData**(`data?`): `AppendixBusinessListingsBusinessDataPriceData`
 
-Defined in: main.ts:248930
+Defined in: main.ts:249756
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:248930
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248923
+Defined in: main.ts:249749
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:248923
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248924
+Defined in: main.ts:249750
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:248924
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248925
+Defined in: main.ts:249751
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:248925
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:248926
+Defined in: main.ts:249752
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:248926
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:248939
+Defined in: main.ts:249765
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:248939
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:248959
+Defined in: main.ts:249785
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:248959
 
 > `static` **fromJS**(`data`): `AppendixBusinessListingsBusinessDataPriceData`
 
-Defined in: main.ts:248952
+Defined in: main.ts:249778
 
 #### Parameters
 

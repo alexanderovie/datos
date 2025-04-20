@@ -6,7 +6,7 @@
 
 # Class: SpellInfo
 
-Defined in: main.ts:25522
+Defined in: main.ts:25530
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:25522
 
 ### Constructor
 
-> **new SpellInfo**(`data`?): `SpellInfo`
+> **new SpellInfo**(`data?`): `SpellInfo`
 
-Defined in: main.ts:25535
+Defined in: main.ts:25543
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:25535
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:25525
+Defined in: main.ts:25533
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -55,7 +55,7 @@ the results will be provided for the corrected keyword
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25531
+Defined in: main.ts:25539
 
 type of autocorrection
 possible values:
@@ -71,9 +71,9 @@ including_results_for
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:25544
+Defined in: main.ts:25552
 
 #### Parameters
 
@@ -89,9 +89,9 @@ Defined in: main.ts:25544
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:25562
+Defined in: main.ts:25570
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:25562
 
 > `static` **fromJS**(`data`): `SpellInfo`
 
-Defined in: main.ts:25555
+Defined in: main.ts:25563
 
 #### Parameters
 

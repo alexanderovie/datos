@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppInfoTaskPostRequestInfo
 
-Defined in: main.ts:217933
+Defined in: main.ts:218463
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:217933
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:217941
+Defined in: main.ts:218471
 
 id of the app
 required field
@@ -34,7 +34,7 @@ the id is 835599320
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:217969
+Defined in: main.ts:218499
 
 search engine language code
 required field if you don’t specify language_name
@@ -49,7 +49,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:217962
+Defined in: main.ts:218492
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -64,7 +64,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:217955
+Defined in: main.ts:218485
 
 search engine location code
 required field if you don’t specify location_name
@@ -79,7 +79,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:217948
+Defined in: main.ts:218478
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -94,7 +94,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:218011
+Defined in: main.ts:218541
 
 notification URL of a completed task
 optional field
@@ -113,7 +113,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:218000
+Defined in: main.ts:218530
 
 postback_url datatype
 required field if you specify postback_url
@@ -127,7 +127,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:217994
+Defined in: main.ts:218524
 
 return URL for sending task results
 optional field
@@ -146,7 +146,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:217977
+Defined in: main.ts:218507
 
 task priority
 optional field
@@ -162,7 +162,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:217983
+Defined in: main.ts:218513
 
 user-defined task identifier
 optional field

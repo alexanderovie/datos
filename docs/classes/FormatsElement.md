@@ -6,7 +6,7 @@
 
 # Class: FormatsElement
 
-Defined in: main.ts:60494
+Defined in: main.ts:60608
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:60494
 
 ### Constructor
 
-> **new FormatsElement**(`data`?): `FormatsElement`
+> **new FormatsElement**(`data?`): `FormatsElement`
 
-Defined in: main.ts:60505
+Defined in: main.ts:60619
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60505
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:60499
+Defined in: main.ts:60613
 
 type of file format of the dataset
 for example: zip, html, csv
@@ -55,7 +55,7 @@ for example: zip, html, csv
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:60501
+Defined in: main.ts:60615
 
 file size in bytes
 
@@ -69,7 +69,7 @@ file size in bytes
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60496
+Defined in: main.ts:60610
 
 type of element
 
@@ -81,9 +81,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:60514
+Defined in: main.ts:60628
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:60514
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:60533
+Defined in: main.ts:60647
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:60533
 
 > `static` **fromJS**(`data`): `FormatsElement`
 
-Defined in: main.ts:60526
+Defined in: main.ts:60640
 
 #### Parameters
 

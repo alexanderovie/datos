@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationLiveResultInfo
 
-Defined in: main.ts:153226
+Defined in: main.ts:153350
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:153226
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:153253
+Defined in: main.ts:153377
 
 currency name
 example: USDollar
@@ -29,7 +29,7 @@ example: USDollar
 
 > `optional` **est\_audience\_size**: [`EstInfo`](../classes/EstInfo.md)
 
-Defined in: main.ts:153230
+Defined in: main.ts:153354
 
 monthly estimated reach user count range
 
@@ -39,7 +39,7 @@ monthly estimated reach user count range
 
 > `optional` **est\_clicks**: [`EstInfo`](../classes/EstInfo.md)
 
-Defined in: main.ts:153232
+Defined in: main.ts:153356
 
 monthly estimated click count range
 
@@ -49,7 +49,7 @@ monthly estimated click count range
 
 > `optional` **est\_cost\_per\_event**: [`EstCInfo`](../classes/EstCInfo.md)
 
-Defined in: main.ts:153236
+Defined in: main.ts:153360
 
 indicates the estimated cost per event with range result
 
@@ -59,7 +59,7 @@ indicates the estimated cost per event with range result
 
 > `optional` **est\_ctr**: [`EstCInfo`](../classes/EstCInfo.md)
 
-Defined in: main.ts:153238
+Defined in: main.ts:153362
 
 estimated click-through rate range
 
@@ -69,7 +69,7 @@ estimated click-through rate range
 
 > `optional` **est\_impressions**: [`EstInfo`](../classes/EstInfo.md)
 
-Defined in: main.ts:153228
+Defined in: main.ts:153352
 
 monthly estimated impressions range
 
@@ -79,7 +79,7 @@ monthly estimated impressions range
 
 > `optional` **est\_reach\_audience\_size**: `number`
 
-Defined in: main.ts:153248
+Defined in: main.ts:153372
 
 monthly estimated user count
 
@@ -89,7 +89,7 @@ monthly estimated user count
 
 > `optional` **est\_reach\_impressions**: `number`
 
-Defined in: main.ts:153250
+Defined in: main.ts:153374
 
 monthly estimated impressions
 
@@ -99,7 +99,7 @@ monthly estimated impressions
 
 > `optional` **est\_spend**: [`EstInfo`](../classes/EstInfo.md)
 
-Defined in: main.ts:153234
+Defined in: main.ts:153358
 
 monthly estimated spending range
 
@@ -109,7 +109,7 @@ monthly estimated spending range
 
 > `optional` **events\_lost\_to\_bid**: `number`
 
-Defined in: main.ts:153244
+Defined in: main.ts:153368
 
 indicates event lost count due to insufficient input bid
 
@@ -119,7 +119,7 @@ indicates event lost count due to insufficient input bid
 
 > `optional` **events\_lost\_to\_budget**: `number`
 
-Defined in: main.ts:153246
+Defined in: main.ts:153370
 
 indicates the event lost count due to insufficient input budget
 
@@ -129,7 +129,7 @@ indicates the event lost count due to insufficient input budget
 
 > `optional` **suggested\_bid**: `number`
 
-Defined in: main.ts:153240
+Defined in: main.ts:153364
 
 suggested bid value under the current targeting
 
@@ -139,6 +139,6 @@ suggested bid value under the current targeting
 
 > `optional` **suggested\_budget**: `number`
 
-Defined in: main.ts:153242
+Defined in: main.ts:153366
 
 suggested daily budget value under the current targeting and bid

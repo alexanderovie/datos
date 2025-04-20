@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskPostRequestInfo
 
-Defined in: main.ts:211187
+Defined in: main.ts:211717
 
 ## Indexable
 
@@ -18,16 +18,16 @@ Defined in: main.ts:211187
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:211241
+Defined in: main.ts:211771
 
 parsing depth
 optional field
 number of results to be returned to be returned from the Google Play SERP;
-we strongly recommend setting the parsing depth in the multiples of 100, because our system processes 100 results in a row;
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
+we strongly recommend setting the parsing depth in the multiples of 30, because our system processes 30 results in a row;
+Note: your account will be billed per each SERP containing up to 30 results;
+thus, setting a depth above 30 may result in additional charges if the search engine returns more than 30 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
-default value: 100;
+default value: 30;
 maximum value: 200
 
 ***
@@ -36,7 +36,7 @@ maximum value: 200
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:211195
+Defined in: main.ts:211725
 
 keyword
 required field
@@ -52,7 +52,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:211223
+Defined in: main.ts:211753
 
 search engine language code
 optional field
@@ -67,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:211216
+Defined in: main.ts:211746
 
 full name of search engine language
 optional field
@@ -82,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:211209
+Defined in: main.ts:211739
 
 search engine location code
 required field if you don’t specify location_name
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:211202
+Defined in: main.ts:211732
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -112,7 +112,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:211273
+Defined in: main.ts:211803
 
 notification URL of a completed task
 optional field
@@ -130,7 +130,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:211263
+Defined in: main.ts:211793
 
 postback_url datatype
 required field if you specify postback_url
@@ -144,7 +144,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:211257
+Defined in: main.ts:211787
 
 return URL for sending task results
 optional field
@@ -162,7 +162,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:211231
+Defined in: main.ts:211761
 
 task priority
 optional field
@@ -178,7 +178,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:211247
+Defined in: main.ts:211777
 
 user-defined task identifier
 optional field

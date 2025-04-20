@@ -6,7 +6,7 @@
 
 # Interface: IAuthorsElement
 
-Defined in: main.ts:25943
+Defined in: main.ts:25951
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:25943
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:25951
+Defined in: main.ts:25959
 
 author’s link domain
 
@@ -28,7 +28,7 @@ author’s link domain
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:25947
+Defined in: main.ts:25955
 
 name of the dataset author
 
@@ -38,7 +38,7 @@ name of the dataset author
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:25945
+Defined in: main.ts:25953
 
 type of element
 
@@ -48,6 +48,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:25949
+Defined in: main.ts:25957
 
 author’s link URL

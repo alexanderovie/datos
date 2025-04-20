@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTasksFixedResultInfo
 
-Defined in: main.ts:58590
+Defined in: main.ts:58704
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:58590
 
 ### Constructor
 
-> **new SerpGoogleAutocompleteTasksFixedResultInfo**(`data`?): `SerpGoogleAutocompleteTasksFixedResultInfo`
+> **new SerpGoogleAutocompleteTasksFixedResultInfo**(`data?`): `SerpGoogleAutocompleteTasksFixedResultInfo`
 
-Defined in: main.ts:58615
+Defined in: main.ts:58729
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58615
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:58600
+Defined in: main.ts:58714
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:58608
+Defined in: main.ts:58722
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:58611
+Defined in: main.ts:58725
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:58605
+Defined in: main.ts:58719
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:58593
+Defined in: main.ts:58707
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:58595
+Defined in: main.ts:58709
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:58598
+Defined in: main.ts:58712
 
 type of search engine
 can take the following values: autocomplete
@@ -143,7 +143,7 @@ can take the following values: autocomplete
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:58602
+Defined in: main.ts:58716
 
 user-defined task identifier
 
@@ -155,9 +155,9 @@ user-defined task identifier
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:58624
+Defined in: main.ts:58738
 
 #### Parameters
 
@@ -173,9 +173,9 @@ Defined in: main.ts:58624
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:58648
+Defined in: main.ts:58762
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:58648
 
 > `static` **fromJS**(`data`): `SerpGoogleAutocompleteTasksFixedResultInfo`
 
-Defined in: main.ts:58641
+Defined in: main.ts:58755
 
 #### Parameters
 

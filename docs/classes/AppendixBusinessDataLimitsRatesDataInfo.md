@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:243932
+Defined in: main.ts:244462
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:243932
 
 ### Constructor
 
-> **new AppendixBusinessDataLimitsRatesDataInfo**(`data`?): `AppendixBusinessDataLimitsRatesDataInfo`
+> **new AppendixBusinessDataLimitsRatesDataInfo**(`data?`): `AppendixBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:243946
+Defined in: main.ts:244476
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:243946
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243941
+Defined in: main.ts:244471
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:243941
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:243936
+Defined in: main.ts:244466
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:243936
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
-Defined in: main.ts:243933
+Defined in: main.ts:244463
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:243933
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:243935
+Defined in: main.ts:244465
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:243935
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:243934
+Defined in: main.ts:244464
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:243934
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243938
+Defined in: main.ts:244468
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:243938
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:243942
+Defined in: main.ts:244472
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:243942
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243939
+Defined in: main.ts:244469
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:243939
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243940
+Defined in: main.ts:244470
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:243940
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:243937
+Defined in: main.ts:244467
 
 #### Implementation of
 
@@ -158,9 +158,9 @@ Defined in: main.ts:243937
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:243955
+Defined in: main.ts:244485
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:243955
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:243981
+Defined in: main.ts:244511
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:243981
 
 > `static` **fromJS**(`data`): `AppendixBusinessDataLimitsRatesDataInfo`
 
-Defined in: main.ts:243974
+Defined in: main.ts:244504
 
 #### Parameters
 

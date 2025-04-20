@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringNetworksLiveRequestInfo
 
-Defined in: main.ts:168154
+Defined in: main.ts:168433
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:168154
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:168233
+Defined in: main.ts:168512
 
 filter the backlinks of your target
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:168194
+Defined in: main.ts:168473
 
 set what backlinks to return and count
 optional field
@@ -51,7 +51,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:168249
+Defined in: main.ts:168528
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -64,7 +64,7 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:168211
+Defined in: main.ts:168490
 
 array of results filtering parameters
 optional field
@@ -89,7 +89,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:168244
+Defined in: main.ts:168523
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -103,7 +103,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:168238
+Defined in: main.ts:168517
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -116,7 +116,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:168185
+Defined in: main.ts:168464
 
 maximum number of elements within internal arrays
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:168169
+Defined in: main.ts:168448
 
 the maximum number of returned networks
 optional field
@@ -148,7 +148,7 @@ maximum value: 1000
 
 > `optional` **network\_address\_type**: `string`
 
-Defined in: main.ts:168164
+Defined in: main.ts:168443
 
 indicates the type of network to get data for
 optional field
@@ -161,7 +161,7 @@ default value: ip
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:168174
+Defined in: main.ts:168453
 
 offset in the results array of returned networks
 optional field
@@ -174,7 +174,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:168225
+Defined in: main.ts:168504
 
 results sorting rules
 optional field
@@ -192,11 +192,28 @@ example:
 
 ***
 
+### rank\_scale?
+
+> `optional` **rank\_scale**: `string`
+
+Defined in: main.ts:168537
+
+defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
+optional field
+you can use this parameter to choose whether rank values are presented on a 0–100 or 0–1000 scale
+possible values:
+one_hundred — rank values are displayed on a 0–100 scale
+one_thousand — rank values are displayed on a 0–1000 scale
+default value: one_thousand
+learn more about how this parameter works and how ranking metrics are calculated in this Help Center article
+
+***
+
 ### tag?
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:168255
+Defined in: main.ts:168543
 
 user-defined task identifier
 optional field
@@ -210,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:168159
+Defined in: main.ts:168438
 
 domain, subdomain or webpage to get referring networks for
 required field

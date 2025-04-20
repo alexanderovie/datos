@@ -6,7 +6,7 @@
 
 # Class: AmazonApplicableVouchersItem
 
-Defined in: main.ts:205702
+Defined in: main.ts:206232
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:205702
 
 ### Constructor
 
-> **new AmazonApplicableVouchersItem**(`data`?): `AmazonApplicableVouchersItem`
+> **new AmazonApplicableVouchersItem**(`data?`): `AmazonApplicableVouchersItem`
 
-Defined in: main.ts:205719
+Defined in: main.ts:206249
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:205719
 
 > `optional` **fixed\_discount**: `number`
 
-Defined in: main.ts:205708
+Defined in: main.ts:206238
 
 value of the fixed discount
 
@@ -54,7 +54,7 @@ value of the fixed discount
 
 > `optional` **fixed\_discount\_currency**: `string`
 
-Defined in: main.ts:205710
+Defined in: main.ts:206240
 
 currency code of the fixed discount
 
@@ -68,7 +68,7 @@ currency code of the fixed discount
 
 > `optional` **important\_details**: `string`
 
-Defined in: main.ts:205715
+Defined in: main.ts:206245
 
 important details about the terms of discount vouchers
 
@@ -82,7 +82,7 @@ important details about the terms of discount vouchers
 
 > `optional` **percentage\_discount**: `number`
 
-Defined in: main.ts:205713
+Defined in: main.ts:206243
 
 value of the percentage discount
 if the discount is fixed, the value will be null
@@ -97,7 +97,7 @@ if the discount is fixed, the value will be null
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:205706
+Defined in: main.ts:206236
 
 text of the voucher
 
@@ -111,7 +111,7 @@ text of the voucher
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:205704
+Defined in: main.ts:206234
 
 type of element
 
@@ -123,9 +123,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:205728
+Defined in: main.ts:206258
 
 #### Parameters
 
@@ -141,9 +141,9 @@ Defined in: main.ts:205728
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:205750
+Defined in: main.ts:206280
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:205750
 
 > `static` **fromJS**(`data`): `AmazonApplicableVouchersItem`
 
-Defined in: main.ts:205743
+Defined in: main.ts:206273
 
 #### Parameters
 

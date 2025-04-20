@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteTaskPostRequestInfo
 
-Defined in: main.ts:58164
+Defined in: main.ts:58278
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:58164
 
 > `optional` **client**: `string`
 
-Defined in: main.ts:58235
+Defined in: main.ts:58349
 
 search client for autocomplete
 optional field
@@ -43,7 +43,7 @@ products-cc — used in google shopping search
 
 > `optional` **cursor\_pointer**: `number`
 
-Defined in: main.ts:58218
+Defined in: main.ts:58332
 
 search bar cursor pointer
 optional field
@@ -62,7 +62,7 @@ which que|ry is s – "cursor_pointer": 9
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:58172
+Defined in: main.ts:58286
 
 keyword
 required field
@@ -78,7 +78,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:58207
+Defined in: main.ts:58321
 
 search engine language code
 required field if you don’t specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:58200
+Defined in: main.ts:58314
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -108,7 +108,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:58193
+Defined in: main.ts:58307
 
 search engine location code
 required field if you don’t specify location_name;
@@ -122,7 +122,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:58187
+Defined in: main.ts:58301
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -137,7 +137,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:58269
+Defined in: main.ts:58383
 
 notification URL of a completed task
 optional field
@@ -156,7 +156,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:58258
+Defined in: main.ts:58372
 
 postback_url datatype
 required field if you specify postback_url
@@ -170,7 +170,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:58252
+Defined in: main.ts:58366
 
 return URL for sending task results
 optional field
@@ -189,7 +189,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:58180
+Defined in: main.ts:58294
 
 task priority
 optional field
@@ -205,7 +205,7 @@ The cost can be calculated on the Pricing page
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:58241
+Defined in: main.ts:58355
 
 user-defined task identifier
 optional field

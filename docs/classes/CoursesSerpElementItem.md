@@ -6,7 +6,7 @@
 
 # Class: CoursesSerpElementItem
 
-Defined in: main.ts:40753
+Defined in: main.ts:40761
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:40753
 
 ### Constructor
 
-> **new CoursesSerpElementItem**(`data`?): `CoursesSerpElementItem`
+> **new CoursesSerpElementItem**(`data?`): `CoursesSerpElementItem`
 
-Defined in: main.ts:40774
+Defined in: main.ts:40782
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:40774
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:21989
+Defined in: main.ts:21992
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21989
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:40764
+Defined in: main.ts:40772
 
 array of course categories
 contains a list of categories relevant to courses
@@ -75,7 +75,7 @@ contains a list of categories relevant to courses
 
 > `optional` **items**: [`CoursesElement`](CoursesElement.md)[]
 
-Defined in: main.ts:40766
+Defined in: main.ts:40774
 
 contains arrays of specific images
 
@@ -89,7 +89,7 @@ contains arrays of specific images
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:40757
+Defined in: main.ts:40765
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,7 +105,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:21987
+Defined in: main.ts:21990
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -124,7 +124,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:21984
+Defined in: main.ts:21987
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -144,7 +144,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:40770
+Defined in: main.ts:40778
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -160,7 +160,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:40761
+Defined in: main.ts:40769
 
 title of the row
 
@@ -174,7 +174,7 @@ title of the row
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:21980
+Defined in: main.ts:21983
 
 type of element
 
@@ -192,7 +192,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:40759
+Defined in: main.ts:40767
 
 the XPath of the element
 
@@ -204,9 +204,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:40779
+Defined in: main.ts:40787
 
 #### Parameters
 
@@ -226,9 +226,9 @@ Defined in: main.ts:40779
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:40810
+Defined in: main.ts:40818
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:40810
 
 > `static` **fromJS**(`data`): `CoursesSerpElementItem`
 
-Defined in: main.ts:40803
+Defined in: main.ts:40811
 
 #### Parameters
 

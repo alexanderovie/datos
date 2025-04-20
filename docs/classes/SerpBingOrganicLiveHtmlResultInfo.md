@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicLiveHtmlResultInfo
 
-Defined in: main.ts:69277
+Defined in: main.ts:69389
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:69277
 
 ### Constructor
 
-> **new SerpBingOrganicLiveHtmlResultInfo**(`data`?): `SerpBingOrganicLiveHtmlResultInfo`
+> **new SerpBingOrganicLiveHtmlResultInfo**(`data?`): `SerpBingOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:69301
+Defined in: main.ts:69413
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:69301
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:69293
+Defined in: main.ts:69405
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:69297
+Defined in: main.ts:69409
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:69295
+Defined in: main.ts:69407
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:69280
+Defined in: main.ts:69392
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:69288
+Defined in: main.ts:69400
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:69286
+Defined in: main.ts:69398
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:69284
+Defined in: main.ts:69396
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:69282
+Defined in: main.ts:69394
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:69310
+Defined in: main.ts:69422
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:69310
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:69338
+Defined in: main.ts:69450
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:69338
 
 > `static` **fromJS**(`data`): `SerpBingOrganicLiveHtmlResultInfo`
 
-Defined in: main.ts:69331
+Defined in: main.ts:69443
 
 #### Parameters
 

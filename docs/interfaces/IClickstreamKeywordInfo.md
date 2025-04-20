@@ -6,7 +6,7 @@
 
 # Interface: IClickstreamKeywordInfo
 
-Defined in: main.ts:26055
+Defined in: main.ts:26063
 
 ## Indexable
 

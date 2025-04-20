@@ -6,15 +6,15 @@
 
 # Class: OnPageApi
 
-Defined in: main.ts:14018
+Defined in: main.ts:14021
 
 ## Constructors
 
 ### Constructor
 
-> **new OnPageApi**(`baseUrl`?, `http`?): `OnPageApi`
+> **new OnPageApi**(`baseUrl?`, `http?`): `OnPageApi`
 
-Defined in: main.ts:14023
+Defined in: main.ts:14026
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: main.ts:14023
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
-Defined in: main.ts:14021
+Defined in: main.ts:14024
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: main.ts:14021
 
 > **contentParsing**(`body`): `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
 
-Defined in: main.ts:14865
+Defined in: main.ts:14868
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Successful operation
 
 > **contentParsingLive**(`body`): `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
 
-Defined in: main.ts:14907
+Defined in: main.ts:14910
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Successful operation
 
 > **duplicateContent**(`body`): `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
 
-Defined in: main.ts:14487
+Defined in: main.ts:14490
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Successful operation
 
 > **duplicateTags**(`body`): `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
 
-Defined in: main.ts:14445
+Defined in: main.ts:14448
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Successful operation
 
 > **forceStop**(`body`): `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
 
-Defined in: main.ts:14116
+Defined in: main.ts:14119
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Successful operation
 
 > **instantPages**(`body`): `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
 
-Defined in: main.ts:14949
+Defined in: main.ts:14952
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Successful operation
 
 > **keywordDensity**(`body`): `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
 
-Defined in: main.ts:14697
+Defined in: main.ts:14700
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Successful operation
 
 > **lighthouseAudits**(): `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
 
-Defined in: main.ts:15027
+Defined in: main.ts:15030
 
 #### Returns
 
@@ -226,7 +226,7 @@ Successful operation
 
 > **lighthouseLiveJson**(`body`): `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
 
-Defined in: main.ts:15226
+Defined in: main.ts:15229
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Successful operation
 
 > **lighthouseTaskGetJson**(`id`): `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
 
-Defined in: main.ts:15185
+Defined in: main.ts:15188
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Successful operation
 
 > **lighthouseTaskPost**(`body`): `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:15102
+Defined in: main.ts:15105
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Successful operation
 
 > **lighthouseTasksReady**(): `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:15143
+Defined in: main.ts:15146
 
 #### Returns
 
@@ -310,7 +310,7 @@ Successful operation
 
 > **lighthouseVersions**(): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
 
-Defined in: main.ts:15064
+Defined in: main.ts:15067
 
 #### Returns
 
@@ -324,7 +324,7 @@ Successful operation
 
 > **links**(`body`): `Promise`\<[`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)\>
 
-Defined in: main.ts:14529
+Defined in: main.ts:14532
 
 #### Parameters
 
@@ -346,7 +346,7 @@ Successful operation
 
 > **microdata**(`body`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
 
-Defined in: main.ts:14739
+Defined in: main.ts:14742
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Successful operation
 
 > **nonIndexable**(`body`): `Promise`\<[`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)\>
 
-Defined in: main.ts:14613
+Defined in: main.ts:14616
 
 #### Parameters
 
@@ -390,7 +390,7 @@ Successful operation
 
 > **onPageAvailableFilters**(): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:14157
+Defined in: main.ts:14160
 
 #### Returns
 
@@ -404,7 +404,7 @@ Successful operation
 
 > **onPageErrors**(`body`): `Promise`\<[`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)\>
 
-Defined in: main.ts:14074
+Defined in: main.ts:14077
 
 #### Parameters
 
@@ -426,7 +426,7 @@ Successful operation
 
 > **onPageIdList**(`body`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
 
-Defined in: main.ts:14032
+Defined in: main.ts:14035
 
 #### Parameters
 
@@ -448,7 +448,7 @@ Successful operation
 
 > **onPageLighthouseLanguages**(): `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:14990
+Defined in: main.ts:14993
 
 #### Returns
 
@@ -462,7 +462,7 @@ Successful operation
 
 > **onPageTasksReady**(): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:14236
+Defined in: main.ts:14239
 
 #### Returns
 
@@ -476,7 +476,7 @@ Successful operation
 
 > **pages**(`body`): `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
 
-Defined in: main.ts:14319
+Defined in: main.ts:14322
 
 #### Parameters
 
@@ -498,7 +498,7 @@ Successful operation
 
 > **pagesByResource**(`body`): `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
 
-Defined in: main.ts:14361
+Defined in: main.ts:14364
 
 #### Parameters
 
@@ -520,7 +520,7 @@ Successful operation
 
 > **pageScreenshot**(`body`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
 
-Defined in: main.ts:14823
+Defined in: main.ts:14826
 
 #### Parameters
 
@@ -542,7 +542,7 @@ Successful operation
 
 > `protected` **processContentParsing**(`response`): `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
 
-Defined in: main.ts:14885
+Defined in: main.ts:14888
 
 #### Parameters
 
@@ -560,7 +560,7 @@ Defined in: main.ts:14885
 
 > `protected` **processContentParsingLive**(`response`): `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
 
-Defined in: main.ts:14927
+Defined in: main.ts:14930
 
 #### Parameters
 
@@ -578,7 +578,7 @@ Defined in: main.ts:14927
 
 > `protected` **processDuplicateContent**(`response`): `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
 
-Defined in: main.ts:14507
+Defined in: main.ts:14510
 
 #### Parameters
 
@@ -596,7 +596,7 @@ Defined in: main.ts:14507
 
 > `protected` **processDuplicateTags**(`response`): `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
 
-Defined in: main.ts:14465
+Defined in: main.ts:14468
 
 #### Parameters
 
@@ -614,7 +614,7 @@ Defined in: main.ts:14465
 
 > `protected` **processForceStop**(`response`): `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
 
-Defined in: main.ts:14136
+Defined in: main.ts:14139
 
 #### Parameters
 
@@ -632,7 +632,7 @@ Defined in: main.ts:14136
 
 > `protected` **processInstantPages**(`response`): `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
 
-Defined in: main.ts:14969
+Defined in: main.ts:14972
 
 #### Parameters
 
@@ -650,7 +650,7 @@ Defined in: main.ts:14969
 
 > `protected` **processKeywordDensity**(`response`): `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
 
-Defined in: main.ts:14717
+Defined in: main.ts:14720
 
 #### Parameters
 
@@ -668,7 +668,7 @@ Defined in: main.ts:14717
 
 > `protected` **processLighthouseAudits**(`response`): `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
 
-Defined in: main.ts:15043
+Defined in: main.ts:15046
 
 #### Parameters
 
@@ -686,7 +686,7 @@ Defined in: main.ts:15043
 
 > `protected` **processLighthouseLiveJson**(`response`): `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
 
-Defined in: main.ts:15246
+Defined in: main.ts:15249
 
 #### Parameters
 
@@ -704,7 +704,7 @@ Defined in: main.ts:15246
 
 > `protected` **processLighthouseTaskGetJson**(`response`): `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
 
-Defined in: main.ts:15204
+Defined in: main.ts:15207
 
 #### Parameters
 
@@ -722,7 +722,7 @@ Defined in: main.ts:15204
 
 > `protected` **processLighthouseTaskPost**(`response`): `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:15122
+Defined in: main.ts:15125
 
 #### Parameters
 
@@ -740,7 +740,7 @@ Defined in: main.ts:15122
 
 > `protected` **processLighthouseTasksReady**(`response`): `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:15159
+Defined in: main.ts:15162
 
 #### Parameters
 
@@ -758,7 +758,7 @@ Defined in: main.ts:15159
 
 > `protected` **processLighthouseVersions**(`response`): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
 
-Defined in: main.ts:15080
+Defined in: main.ts:15083
 
 #### Parameters
 
@@ -776,7 +776,7 @@ Defined in: main.ts:15080
 
 > `protected` **processLinks**(`response`): `Promise`\<[`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)\>
 
-Defined in: main.ts:14549
+Defined in: main.ts:14552
 
 #### Parameters
 
@@ -794,7 +794,7 @@ Defined in: main.ts:14549
 
 > `protected` **processMicrodata**(`response`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
 
-Defined in: main.ts:14759
+Defined in: main.ts:14762
 
 #### Parameters
 
@@ -812,7 +812,7 @@ Defined in: main.ts:14759
 
 > `protected` **processNonIndexable**(`response`): `Promise`\<[`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)\>
 
-Defined in: main.ts:14633
+Defined in: main.ts:14636
 
 #### Parameters
 
@@ -830,7 +830,7 @@ Defined in: main.ts:14633
 
 > `protected` **processOnPageAvailableFilters**(`response`): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
 
-Defined in: main.ts:14173
+Defined in: main.ts:14176
 
 #### Parameters
 
@@ -848,7 +848,7 @@ Defined in: main.ts:14173
 
 > `protected` **processOnPageErrors**(`response`): `Promise`\<[`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)\>
 
-Defined in: main.ts:14094
+Defined in: main.ts:14097
 
 #### Parameters
 
@@ -866,7 +866,7 @@ Defined in: main.ts:14094
 
 > `protected` **processOnPageIdList**(`response`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
 
-Defined in: main.ts:14052
+Defined in: main.ts:14055
 
 #### Parameters
 
@@ -884,7 +884,7 @@ Defined in: main.ts:14052
 
 > `protected` **processOnPageLighthouseLanguages**(`response`): `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
 
-Defined in: main.ts:15006
+Defined in: main.ts:15009
 
 #### Parameters
 
@@ -902,7 +902,7 @@ Defined in: main.ts:15006
 
 > `protected` **processOnPageTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
 
-Defined in: main.ts:14252
+Defined in: main.ts:14255
 
 #### Parameters
 
@@ -920,7 +920,7 @@ Defined in: main.ts:14252
 
 > `protected` **processPages**(`response`): `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
 
-Defined in: main.ts:14339
+Defined in: main.ts:14342
 
 #### Parameters
 
@@ -938,7 +938,7 @@ Defined in: main.ts:14339
 
 > `protected` **processPagesByResource**(`response`): `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
 
-Defined in: main.ts:14381
+Defined in: main.ts:14384
 
 #### Parameters
 
@@ -956,7 +956,7 @@ Defined in: main.ts:14381
 
 > `protected` **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
 
-Defined in: main.ts:14843
+Defined in: main.ts:14846
 
 #### Parameters
 
@@ -974,7 +974,7 @@ Defined in: main.ts:14843
 
 > `protected` **processRawHtml**(`response`): `Promise`\<[`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)\>
 
-Defined in: main.ts:14801
+Defined in: main.ts:14804
 
 #### Parameters
 
@@ -992,7 +992,7 @@ Defined in: main.ts:14801
 
 > `protected` **processRedirectChains**(`response`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
 
-Defined in: main.ts:14591
+Defined in: main.ts:14594
 
 #### Parameters
 
@@ -1010,7 +1010,7 @@ Defined in: main.ts:14591
 
 > `protected` **processResources**(`response`): `Promise`\<[`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)\>
 
-Defined in: main.ts:14423
+Defined in: main.ts:14426
 
 #### Parameters
 
@@ -1028,7 +1028,7 @@ Defined in: main.ts:14423
 
 > `protected` **processSummary**(`response`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
 
-Defined in: main.ts:14297
+Defined in: main.ts:14300
 
 #### Parameters
 
@@ -1046,7 +1046,7 @@ Defined in: main.ts:14297
 
 > `protected` **processTaskPost**(`response`): `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:14215
+Defined in: main.ts:14218
 
 #### Parameters
 
@@ -1064,7 +1064,7 @@ Defined in: main.ts:14215
 
 > `protected` **processWaterfall**(`response`): `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
 
-Defined in: main.ts:14675
+Defined in: main.ts:14678
 
 #### Parameters
 
@@ -1082,7 +1082,7 @@ Defined in: main.ts:14675
 
 > **rawHtml**(`body`): `Promise`\<[`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)\>
 
-Defined in: main.ts:14781
+Defined in: main.ts:14784
 
 #### Parameters
 
@@ -1104,7 +1104,7 @@ Successful operation
 
 > **redirectChains**(`body`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
 
-Defined in: main.ts:14571
+Defined in: main.ts:14574
 
 #### Parameters
 
@@ -1126,7 +1126,7 @@ Successful operation
 
 > **resources**(`body`): `Promise`\<[`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)\>
 
-Defined in: main.ts:14403
+Defined in: main.ts:14406
 
 #### Parameters
 
@@ -1148,7 +1148,7 @@ Successful operation
 
 > **summary**(`id`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
 
-Defined in: main.ts:14278
+Defined in: main.ts:14281
 
 #### Parameters
 
@@ -1174,7 +1174,7 @@ Successful operation
 
 > **taskPost**(`body`): `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
 
-Defined in: main.ts:14195
+Defined in: main.ts:14198
 
 #### Parameters
 
@@ -1196,7 +1196,7 @@ Successful operation
 
 > **waterfall**(`body`): `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
 
-Defined in: main.ts:14655
+Defined in: main.ts:14658
 
 #### Parameters
 

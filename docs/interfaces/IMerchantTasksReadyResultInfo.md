@@ -6,7 +6,7 @@
 
 # Interface: IMerchantTasksReadyResultInfo
 
-Defined in: main.ts:197610
+Defined in: main.ts:198140
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:197610
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:197619
+Defined in: main.ts:198149
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:197623
+Defined in: main.ts:198153
 
 URL for collecting the results of the Amazon Reviews Advanced task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:197625
+Defined in: main.ts:198155
 
 URL for collecting the results of the Amazon Reviews HTML task
 
@@ -48,7 +48,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:197613
+Defined in: main.ts:198143
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:197615
+Defined in: main.ts:198145
 
 search engine specified when setting the task
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:197617
+Defined in: main.ts:198147
 
 type of search engine
 
@@ -79,6 +79,6 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:197621
+Defined in: main.ts:198151
 
 user-defined task identifier

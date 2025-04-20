@@ -6,7 +6,7 @@
 
 # Class: MathSolverExpandedElement
 
-Defined in: main.ts:38755
+Defined in: main.ts:38763
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:38755
 
 ### Constructor
 
-> **new MathSolverExpandedElement**(`data`?): `MathSolverExpandedElement`
+> **new MathSolverExpandedElement**(`data?`): `MathSolverExpandedElement`
 
-Defined in: main.ts:38766
+Defined in: main.ts:38774
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38766
 
 > `optional` **solution**: `string`[]
 
-Defined in: main.ts:38762
+Defined in: main.ts:38770
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
@@ -55,7 +55,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38759
+Defined in: main.ts:38767
 
 title of the carousel item
 
@@ -69,7 +69,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38757
+Defined in: main.ts:38765
 
 type of element
 
@@ -81,9 +81,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:38775
+Defined in: main.ts:38783
 
 #### Parameters
 
@@ -99,9 +99,9 @@ Defined in: main.ts:38775
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:38798
+Defined in: main.ts:38806
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:38798
 
 > `static` **fromJS**(`data`): `MathSolverExpandedElement`
 
-Defined in: main.ts:38791
+Defined in: main.ts:38799
 
 #### Parameters
 

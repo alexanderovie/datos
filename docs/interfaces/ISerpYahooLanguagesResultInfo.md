@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLanguagesResultInfo
 
-Defined in: main.ts:77917
+Defined in: main.ts:78029
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:77917
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77921
+Defined in: main.ts:78033
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:77919
+Defined in: main.ts:78031
 
 language name

@@ -6,7 +6,7 @@
 
 # Interface: ISubtitles
 
-Defined in: main.ts:73228
+Defined in: main.ts:73340
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:73228
 
 > `optional` **is\_auto\_generated**: `boolean`
 
-Defined in: main.ts:73234
+Defined in: main.ts:73346
 
 defines if subtitles are auto generated
 
@@ -28,7 +28,7 @@ defines if subtitles are auto generated
 
 > `optional` **is\_translatable**: `boolean`
 
-Defined in: main.ts:73232
+Defined in: main.ts:73344
 
 defines if subtitles are translatable
 
@@ -38,6 +38,6 @@ defines if subtitles are translatable
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:73230
+Defined in: main.ts:73342
 
 language of subtitles

@@ -6,7 +6,7 @@
 
 # Interface: IQuestionsAndAnswersElement
 
-Defined in: main.ts:37899
+Defined in: main.ts:37907
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37899
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:37907
+Defined in: main.ts:37915
 
 answer included in the item
 
@@ -28,7 +28,7 @@ answer included in the item
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37912
+Defined in: main.ts:37920
 
 website domain
 
@@ -38,7 +38,7 @@ website domain
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:37905
+Defined in: main.ts:37913
 
 question included in the item
 
@@ -48,7 +48,7 @@ question included in the item
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37910
+Defined in: main.ts:37918
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -59,7 +59,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37901
+Defined in: main.ts:37909
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37903
+Defined in: main.ts:37911
 
 URL
 
@@ -79,6 +79,6 @@ URL
 
 > `optional` **votes**: `number`
 
-Defined in: main.ts:37914
+Defined in: main.ts:37922
 
 answer upvotes from the source

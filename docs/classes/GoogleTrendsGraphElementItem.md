@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsGraphElementItem
 
-Defined in: main.ts:145908
+Defined in: main.ts:146032
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:145908
 
 ### Constructor
 
-> **new GoogleTrendsGraphElementItem**(`data`?): `GoogleTrendsGraphElementItem`
+> **new GoogleTrendsGraphElementItem**(`data?`): `GoogleTrendsGraphElementItem`
 
-Defined in: main.ts:145916
+Defined in: main.ts:146040
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:145916
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:23851
+Defined in: main.ts:23859
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23851
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:145912
+Defined in: main.ts:146036
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:145910
+Defined in: main.ts:146034
 
 Google Trends data for the specified parameters
 
@@ -88,7 +88,7 @@ Google Trends data for the specified parameters
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:23849
+Defined in: main.ts:23857
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -107,7 +107,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:23844
+Defined in: main.ts:23852
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:23846
+Defined in: main.ts:23854
 
 title of the element in Google Trends
 
@@ -144,7 +144,7 @@ title of the element in Google Trends
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:23841
+Defined in: main.ts:23849
 
 type of element
 
@@ -160,9 +160,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:145921
+Defined in: main.ts:146045
 
 #### Parameters
 
@@ -182,9 +182,9 @@ Defined in: main.ts:145921
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:145948
+Defined in: main.ts:146072
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:145948
 
 > `static` **fromJS**(`data`): `GoogleTrendsGraphElementItem`
 
-Defined in: main.ts:145941
+Defined in: main.ts:146065
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordOverviewLiveRequestInfo
 
-Defined in: main.ts:123126
+Defined in: main.ts:123248
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:123126
 
 ### Constructor
 
-> **new DataforseoLabsGoogleKeywordOverviewLiveRequestInfo**(`data`?): `DataforseoLabsGoogleKeywordOverviewLiveRequestInfo`
+> **new DataforseoLabsGoogleKeywordOverviewLiveRequestInfo**(`data?`): `DataforseoLabsGoogleKeywordOverviewLiveRequestInfo`
 
-Defined in: main.ts:123190
+Defined in: main.ts:123312
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123190
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:123180
+Defined in: main.ts:123302
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -59,7 +59,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:123173
+Defined in: main.ts:123295
 
 include data from SERP for each keyword
 optional field
@@ -76,7 +76,7 @@ default value: false
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:123136
+Defined in: main.ts:123258
 
 keywords
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123168
+Defined in: main.ts:123290
 
 language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123160
+Defined in: main.ts:123282
 
 full name of the language
 required field if you don’t specify language_code
@@ -138,7 +138,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123152
+Defined in: main.ts:123274
 
 location code
 required field if you don’t specify location_name
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123144
+Defined in: main.ts:123266
 
 full name of the location
 required field if you don’t specify location_code
@@ -178,7 +178,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123186
+Defined in: main.ts:123308
 
 user-defined task identifier
 optional field
@@ -194,9 +194,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:123199
+Defined in: main.ts:123321
 
 #### Parameters
 
@@ -212,9 +212,9 @@ Defined in: main.ts:123199
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:123227
+Defined in: main.ts:123349
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:123227
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleKeywordOverviewLiveRequestInfo`
 
-Defined in: main.ts:123220
+Defined in: main.ts:123342
 
 #### Parameters
 

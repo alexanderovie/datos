@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:218568
+Defined in: main.ts:219098
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:218568
 
 ### Constructor
 
-> **new AppDataAppleAppInfoTaskGetAdvancedResultInfo**(`data`?): `AppDataAppleAppInfoTaskGetAdvancedResultInfo`
+> **new AppDataAppleAppInfoTaskGetAdvancedResultInfo**(`data?`): `AppDataAppleAppInfoTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:218594
+Defined in: main.ts:219124
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218594
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:218570
+Defined in: main.ts:219100
 
 application id received in a POST request
 
@@ -54,7 +54,7 @@ application id received in a POST request
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:218579
+Defined in: main.ts:219109
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:218584
+Defined in: main.ts:219114
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:218590
+Defined in: main.ts:219120
 
 found app info
 
@@ -100,7 +100,7 @@ found app info
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:218588
+Defined in: main.ts:219118
 
 the number of items in the results array
 
@@ -114,7 +114,7 @@ the number of items in the results array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218576
+Defined in: main.ts:219106
 
 language code in a POST array
 
@@ -128,7 +128,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218574
+Defined in: main.ts:219104
 
 location code in a POST array
 
@@ -142,7 +142,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:218572
+Defined in: main.ts:219102
 
 search engine domain in a POST array
 
@@ -156,7 +156,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:218586
+Defined in: main.ts:219116
 
 the total number of results
 
@@ -168,9 +168,9 @@ the total number of results
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:218603
+Defined in: main.ts:219133
 
 #### Parameters
 
@@ -186,9 +186,9 @@ Defined in: main.ts:218603
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:218632
+Defined in: main.ts:219162
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:218632
 
 > `static` **fromJS**(`data`): `AppDataAppleAppInfoTaskGetAdvancedResultInfo`
 
-Defined in: main.ts:218625
+Defined in: main.ts:219155
 
 #### Parameters
 

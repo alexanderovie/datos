@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleImagesSerpElementItem
 
-Defined in: main.ts:53575
+Defined in: main.ts:53689
 
 ## Extended by
 
@@ -22,9 +22,9 @@ Defined in: main.ts:53575
 
 ### Constructor
 
-> **new BaseGoogleImagesSerpElementItem**(`data`?): `BaseGoogleImagesSerpElementItem`
+> **new BaseGoogleImagesSerpElementItem**(`data?`): `BaseGoogleImagesSerpElementItem`
 
-Defined in: main.ts:53590
+Defined in: main.ts:53704
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:53590
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:53588
+Defined in: main.ts:53702
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:53588
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:53584
+Defined in: main.ts:53698
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:53581
+Defined in: main.ts:53695
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:53577
+Defined in: main.ts:53691
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:53586
+Defined in: main.ts:53700
 
 the XPath of the element
 
@@ -107,9 +107,9 @@ the XPath of the element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:53600
+Defined in: main.ts:53714
 
 #### Parameters
 
@@ -125,9 +125,9 @@ Defined in: main.ts:53600
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:53631
+Defined in: main.ts:53745
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:53631
 
 > `static` **fromJS**(`data`): `BaseGoogleImagesSerpElementItem`
 
-Defined in: main.ts:53609
+Defined in: main.ts:53723
 
 #### Parameters
 

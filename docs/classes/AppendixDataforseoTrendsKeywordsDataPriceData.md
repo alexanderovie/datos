@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoTrendsKeywordsDataPriceData
 
-Defined in: main.ts:247770
+Defined in: main.ts:248596
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:247770
 
 ### Constructor
 
-> **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): `AppendixDataforseoTrendsKeywordsDataPriceData`
+> **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data?`): `AppendixDataforseoTrendsKeywordsDataPriceData`
 
-Defined in: main.ts:247778
+Defined in: main.ts:248604
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:247778
 
 > `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247771
+Defined in: main.ts:248597
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:247771
 
 > `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247772
+Defined in: main.ts:248598
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:247772
 
 > `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247773
+Defined in: main.ts:248599
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:247773
 
 > `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:247774
+Defined in: main.ts:248600
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:247774
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:247787
+Defined in: main.ts:248613
 
 #### Parameters
 
@@ -104,9 +104,9 @@ Defined in: main.ts:247787
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:247807
+Defined in: main.ts:248633
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:247807
 
 > `static` **fromJS**(`data`): `AppendixDataforseoTrendsKeywordsDataPriceData`
 
-Defined in: main.ts:247800
+Defined in: main.ts:248626
 
 #### Parameters
 

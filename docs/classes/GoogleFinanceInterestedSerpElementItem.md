@@ -6,7 +6,7 @@
 
 # Class: GoogleFinanceInterestedSerpElementItem
 
-Defined in: main.ts:88326
+Defined in: main.ts:88438
 
 ## Extends
 
@@ -24,9 +24,9 @@ Defined in: main.ts:88326
 
 ### Constructor
 
-> **new GoogleFinanceInterestedSerpElementItem**(`data`?): `GoogleFinanceInterestedSerpElementItem`
+> **new GoogleFinanceInterestedSerpElementItem**(`data?`): `GoogleFinanceInterestedSerpElementItem`
 
-Defined in: main.ts:88334
+Defined in: main.ts:88446
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:88334
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:22347
+Defined in: main.ts:22355
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22347
 
 > `optional` **items**: [`GoogleFinanceAssetPairElement`](GoogleFinanceAssetPairElement.md)[]
 
-Defined in: main.ts:88330
+Defined in: main.ts:88442
 
 market indexes data
 array of items containing market indexes data;
@@ -76,7 +76,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:22345
+Defined in: main.ts:22353
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:88339
+Defined in: main.ts:88451
 
 #### Parameters
 
@@ -114,9 +114,9 @@ Defined in: main.ts:88339
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:88361
+Defined in: main.ts:88473
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:88361
 
 > `static` **fromJS**(`data`): `GoogleFinanceInterestedSerpElementItem`
 
-Defined in: main.ts:88354
+Defined in: main.ts:88466
 
 #### Parameters
 

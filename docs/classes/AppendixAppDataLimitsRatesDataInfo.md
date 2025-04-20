@@ -6,7 +6,7 @@
 
 # Class: AppendixAppDataLimitsRatesDataInfo
 
-Defined in: main.ts:244148
+Defined in: main.ts:244678
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:244148
 
 ### Constructor
 
-> **new AppendixAppDataLimitsRatesDataInfo**(`data`?): `AppendixAppDataLimitsRatesDataInfo`
+> **new AppendixAppDataLimitsRatesDataInfo**(`data?`): `AppendixAppDataLimitsRatesDataInfo`
 
-Defined in: main.ts:244162
+Defined in: main.ts:244692
 
 #### Parameters
 
@@ -38,9 +38,9 @@ Defined in: main.ts:244162
 
 ### app\_info?
 
-> `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_info**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244149
+Defined in: main.ts:244679
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:244149
 
 ### app\_list?
 
-> `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_list**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244150
+Defined in: main.ts:244680
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:244150
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:244157
+Defined in: main.ts:244687
 
 #### Implementation of
 
@@ -74,9 +74,9 @@ Defined in: main.ts:244157
 
 ### app\_reviews?
 
-> `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_reviews**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244151
+Defined in: main.ts:244681
 
 #### Implementation of
 
@@ -86,9 +86,9 @@ Defined in: main.ts:244151
 
 ### app\_searches?
 
-> `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_searches**: [`AppendixSerpsRatesDataInfo`](AppendixSerpsRatesDataInfo.md)
 
-Defined in: main.ts:244152
+Defined in: main.ts:244682
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:244152
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:244156
+Defined in: main.ts:244686
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:244156
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:244153
+Defined in: main.ts:244683
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:244153
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:244154
+Defined in: main.ts:244684
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:244154
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:244155
+Defined in: main.ts:244685
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:244155
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:244158
+Defined in: main.ts:244688
 
 #### Implementation of
 
@@ -158,9 +158,9 @@ Defined in: main.ts:244158
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:244171
+Defined in: main.ts:244701
 
 #### Parameters
 
@@ -176,9 +176,9 @@ Defined in: main.ts:244171
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:244197
+Defined in: main.ts:244727
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: main.ts:244197
 
 > `static` **fromJS**(`data`): `AppendixAppDataLimitsRatesDataInfo`
 
-Defined in: main.ts:244190
+Defined in: main.ts:244720
 
 #### Parameters
 

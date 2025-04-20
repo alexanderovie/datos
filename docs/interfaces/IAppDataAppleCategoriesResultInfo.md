@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleCategoriesResultInfo
 
-Defined in: main.ts:216545
+Defined in: main.ts:217075
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:216545
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:216547
+Defined in: main.ts:217077
 
 contains full list of supported app categories

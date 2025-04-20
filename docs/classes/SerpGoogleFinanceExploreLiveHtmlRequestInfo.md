@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleFinanceExploreLiveHtmlRequestInfo
 
-Defined in: main.ts:89942
+Defined in: main.ts:90054
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:89942
 
 ### Constructor
 
-> **new SerpGoogleFinanceExploreLiveHtmlRequestInfo**(`data`?): `SerpGoogleFinanceExploreLiveHtmlRequestInfo`
+> **new SerpGoogleFinanceExploreLiveHtmlRequestInfo**(`data?`): `SerpGoogleFinanceExploreLiveHtmlRequestInfo`
 
-Defined in: main.ts:89993
+Defined in: main.ts:90105
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89993
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:89974
+Defined in: main.ts:90086
 
 device type
 optional field
@@ -56,7 +56,7 @@ possible value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:89970
+Defined in: main.ts:90082
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:89963
+Defined in: main.ts:90075
 
 full name of search engine language
 required field if you don’t specify language_code 
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:89956
+Defined in: main.ts:90068
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:89949
+Defined in: main.ts:90061
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 > `optional` **news\_type**: `string`
 
-Defined in: main.ts:89983
+Defined in: main.ts:90095
 
 financial news filters
 optional field
@@ -149,7 +149,7 @@ default value: top_stories
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:89978
+Defined in: main.ts:90090
 
 device operating system
 optional field
@@ -165,7 +165,7 @@ possible values: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:89989
+Defined in: main.ts:90101
 
 user-defined task identifier
 optional field
@@ -181,9 +181,9 @@ you will find the specified tag value in the data object of the response
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:90002
+Defined in: main.ts:90114
 
 #### Parameters
 
@@ -199,9 +199,9 @@ Defined in: main.ts:90002
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:90026
+Defined in: main.ts:90138
 
 #### Parameters
 
@@ -219,7 +219,7 @@ Defined in: main.ts:90026
 
 > `static` **fromJS**(`data`): `SerpGoogleFinanceExploreLiveHtmlRequestInfo`
 
-Defined in: main.ts:90019
+Defined in: main.ts:90131
 
 #### Parameters
 

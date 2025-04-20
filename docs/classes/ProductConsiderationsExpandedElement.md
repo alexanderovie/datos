@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsExpandedElement
 
-Defined in: main.ts:39217
+Defined in: main.ts:39225
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:39217
 
 ### Constructor
 
-> **new ProductConsiderationsExpandedElement**(`data`?): `ProductConsiderationsExpandedElement`
+> **new ProductConsiderationsExpandedElement**(`data?`): `ProductConsiderationsExpandedElement`
 
-Defined in: main.ts:39246
+Defined in: main.ts:39254
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:39246
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
-Defined in: main.ts:39242
+Defined in: main.ts:39250
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -56,7 +56,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:39225
+Defined in: main.ts:39233
 
 breadcrumb of the Ad element in SERP
 
@@ -70,7 +70,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:39229
+Defined in: main.ts:39237
 
 domain where a link points
 
@@ -84,7 +84,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:39223
+Defined in: main.ts:39231
 
 the title of the featured snippets source page
 
@@ -98,7 +98,7 @@ the title of the featured snippets source page
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:39238
+Defined in: main.ts:39246
 
 search queries related to the elment
 
@@ -112,7 +112,7 @@ search queries related to the elment
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:39227
+Defined in: main.ts:39235
 
 text alongside the link title
 
@@ -126,7 +126,7 @@ text alongside the link title
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:39236
+Defined in: main.ts:39244
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -143,7 +143,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:39221
+Defined in: main.ts:39229
 
 title of the carousel item
 
@@ -157,7 +157,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:39219
+Defined in: main.ts:39227
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39231
+Defined in: main.ts:39239
 
 URL of element
 
@@ -183,9 +183,9 @@ URL of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:39255
+Defined in: main.ts:39263
 
 #### Parameters
 
@@ -201,9 +201,9 @@ Defined in: main.ts:39255
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:39285
+Defined in: main.ts:39293
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:39285
 
 > `static` **fromJS**(`data`): `ProductConsiderationsExpandedElement`
 
-Defined in: main.ts:39278
+Defined in: main.ts:39286
 
 #### Parameters
 

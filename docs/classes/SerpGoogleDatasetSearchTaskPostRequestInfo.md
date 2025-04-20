@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
 
-Defined in: main.ts:59678
+Defined in: main.ts:59792
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:59678
 
 ### Constructor
 
-> **new SerpGoogleDatasetSearchTaskPostRequestInfo**(`data`?): `SerpGoogleDatasetSearchTaskPostRequestInfo`
+> **new SerpGoogleDatasetSearchTaskPostRequestInfo**(`data?`): `SerpGoogleDatasetSearchTaskPostRequestInfo`
 
-Defined in: main.ts:59780
+Defined in: main.ts:59894
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:59780
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:59703
+Defined in: main.ts:59817
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:59718
+Defined in: main.ts:59832
 
 device type
 optional field
@@ -77,7 +77,7 @@ possible value: desktop
 
 > `optional` **file\_formats**: `string`[]
 
-Defined in: main.ts:59731
+Defined in: main.ts:59845
 
 file formats of the dataset
 optional field
@@ -93,7 +93,7 @@ possible values: other, archive, text, image, document, tabular
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:59739
+Defined in: main.ts:59853
 
 indicates whether displayed datasets are free
 optional field
@@ -109,7 +109,7 @@ possible values: true, false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:59686
+Defined in: main.ts:59800
 
 keyword
 required field
@@ -129,7 +129,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:59714
+Defined in: main.ts:59828
 
 search engine language code
 optional field
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:59709
+Defined in: main.ts:59823
 
 full name of search engine language
 optional field
@@ -164,7 +164,7 @@ English
 
 > `optional` **last\_updated**: `string`
 
-Defined in: main.ts:59727
+Defined in: main.ts:59841
 
 last time the dataset was updated
 optional field
@@ -180,7 +180,7 @@ possible values: 1m, 1y, 3y
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:59723
+Defined in: main.ts:59837
 
 device operating system
 optional field
@@ -197,7 +197,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:59776
+Defined in: main.ts:59890
 
 notification URL of a completed task
 optional field
@@ -220,7 +220,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:59765
+Defined in: main.ts:59879
 
 postback_url datatype
 required field if you specify postback_url
@@ -237,7 +237,7 @@ only value: advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:59760
+Defined in: main.ts:59874
 
 return URL for sending task results
 optional field
@@ -260,7 +260,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:59694
+Defined in: main.ts:59808
 
 task priority
 optional field
@@ -280,7 +280,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:59749
+Defined in: main.ts:59863
 
 user-defined task identifier
 optional field
@@ -298,7 +298,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topics**: `string`[]
 
-Defined in: main.ts:59743
+Defined in: main.ts:59857
 
 dataset topics
 optional field
@@ -314,7 +314,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 > `optional` **usage\_rights**: `string`
 
-Defined in: main.ts:59735
+Defined in: main.ts:59849
 
 usage rights of the dataset
 optional field
@@ -328,9 +328,9 @@ possible values: commercial, noncommercial
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:59789
+Defined in: main.ts:59903
 
 #### Parameters
 
@@ -346,9 +346,9 @@ Defined in: main.ts:59789
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:59829
+Defined in: main.ts:59943
 
 #### Parameters
 
@@ -366,7 +366,7 @@ Defined in: main.ts:59829
 
 > `static` **fromJS**(`data`): `SerpGoogleDatasetSearchTaskPostRequestInfo`
 
-Defined in: main.ts:59822
+Defined in: main.ts:59936
 
 #### Parameters
 

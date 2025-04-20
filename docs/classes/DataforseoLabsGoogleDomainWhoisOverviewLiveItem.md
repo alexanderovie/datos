@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
-Defined in: main.ts:110862
+Defined in: main.ts:110984
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:110862
 
 ### Constructor
 
-> **new DataforseoLabsGoogleDomainWhoisOverviewLiveItem**(`data`?): `DataforseoLabsGoogleDomainWhoisOverviewLiveItem`
+> **new DataforseoLabsGoogleDomainWhoisOverviewLiveItem**(`data?`): `DataforseoLabsGoogleDomainWhoisOverviewLiveItem`
 
-Defined in: main.ts:110914
+Defined in: main.ts:111036
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:110914
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:110910
+Defined in: main.ts:111032
 
 backlink data for the returned domain
 
@@ -54,7 +54,7 @@ backlink data for the returned domain
 
 > `optional` **changed\_datetime**: `string`
 
-Defined in: main.ts:110876
+Defined in: main.ts:110998
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -71,7 +71,7 @@ example:
 
 > `optional` **created\_datetime**: `string`
 
-Defined in: main.ts:110871
+Defined in: main.ts:110993
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -88,7 +88,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:110866
+Defined in: main.ts:110988
 
 domain name
 
@@ -102,7 +102,7 @@ domain name
 
 > `optional` **epp\_status\_codes**: `string`[]
 
-Defined in: main.ts:110894
+Defined in: main.ts:111016
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -117,7 +117,7 @@ the status of a domain name registration as defined by ICANN
 
 > `optional` **expiration\_datetime**: `string`
 
-Defined in: main.ts:110881
+Defined in: main.ts:111003
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -134,7 +134,7 @@ example:
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:110891
+Defined in: main.ts:111013
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -151,7 +151,7 @@ example:
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:110908
+Defined in: main.ts:111030
 
 ranking data relevant to the specified domain
 
@@ -169,7 +169,7 @@ ranking data relevant to the specified domain
 
 > `optional` **registered**: `boolean`
 
-Defined in: main.ts:110901
+Defined in: main.ts:111023
 
 domain registration status
 if false, the domain name registration has expired
@@ -185,7 +185,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 > `optional` **registrar**: `string`
 
-Defined in: main.ts:110906
+Defined in: main.ts:111028
 
 domain registrar
 if null, the domain registrar is unknown
@@ -202,7 +202,7 @@ NameCheap, Inc.
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110864
+Defined in: main.ts:110986
 
 search engine type
 
@@ -216,7 +216,7 @@ search engine type
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:110897
+Defined in: main.ts:111019
 
 top-level domain
 top-level domain in the DNS root zone
@@ -231,7 +231,7 @@ top-level domain in the DNS root zone
 
 > `optional` **updated\_datetime**: `string`
 
-Defined in: main.ts:110886
+Defined in: main.ts:111008
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -246,9 +246,9 @@ example:
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:110923
+Defined in: main.ts:111045
 
 #### Parameters
 
@@ -264,9 +264,9 @@ Defined in: main.ts:110923
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:110962
+Defined in: main.ts:111084
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:110962
 
 > `static` **fromJS**(`data`): `DataforseoLabsGoogleDomainWhoisOverviewLiveItem`
 
-Defined in: main.ts:110955
+Defined in: main.ts:111077
 
 #### Parameters
 

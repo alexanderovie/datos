@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTaskGetHtmlResultInfo
 
-Defined in: main.ts:54158
+Defined in: main.ts:54272
 
 ## Implements
 
@@ -20,9 +20,9 @@ Defined in: main.ts:54158
 
 ### Constructor
 
-> **new SerpGoogleImagesTaskGetHtmlResultInfo**(`data`?): `SerpGoogleImagesTaskGetHtmlResultInfo`
+> **new SerpGoogleImagesTaskGetHtmlResultInfo**(`data?`): `SerpGoogleImagesTaskGetHtmlResultInfo`
 
-Defined in: main.ts:54182
+Defined in: main.ts:54296
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54182
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:54174
+Defined in: main.ts:54288
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:54178
+Defined in: main.ts:54292
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:54176
+Defined in: main.ts:54290
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:54161
+Defined in: main.ts:54275
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:54169
+Defined in: main.ts:54283
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:54167
+Defined in: main.ts:54281
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:54165
+Defined in: main.ts:54279
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:54163
+Defined in: main.ts:54277
 
 type of element
 
@@ -154,9 +154,9 @@ type of element
 
 ### init()
 
-> **init**(`_data`?): `void`
+> **init**(`_data?`): `void`
 
-Defined in: main.ts:54191
+Defined in: main.ts:54305
 
 #### Parameters
 
@@ -172,9 +172,9 @@ Defined in: main.ts:54191
 
 ### toJSON()
 
-> **toJSON**(`data`?): `any`
+> **toJSON**(`data?`): `any`
 
-Defined in: main.ts:54219
+Defined in: main.ts:54333
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:54219
 
 > `static` **fromJS**(`data`): `SerpGoogleImagesTaskGetHtmlResultInfo`
 
-Defined in: main.ts:54212
+Defined in: main.ts:54326
 
 #### Parameters
 
