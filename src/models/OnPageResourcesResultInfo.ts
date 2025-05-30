@@ -1,0 +1,124 @@
+import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
+import { BaseOnPageResourceItemInfo, IBaseOnPageResourceItemInfo } from "./BaseOnPageResourceItemInfo";
+import { ApiException, throwException } from "./ApiException"
+
+export interface IOnPageResourcesResultInfo   {
+        
+        /** status of the crawling session
+possible values: in_progress, finished */
+        crawl_progress?: string | undefined
+        
+        /** details of the crawling session */
+        crawl_status?: CrawlStatus | undefined
+        
+        search_after_token?: string | undefined
+        
+        current_offset?: number | undefined
+        
+        /** total number of relevant items crawled */
+        total_items_count?: number | undefined
+        
+        /** number of items in the results array */
+        items_count?: number | undefined
+        
+        /** items array */
+        items?: BaseOnPageResourceItemInfo[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class OnPageResourcesResultInfo  implements IOnPageResourcesResultInfo {
+    
+    /** status of the crawling session
+possible values: in_progress, finished */
+
+    crawl_progress?: string | undefined;
+    
+    /** details of the crawling session */
+
+    crawl_status?: CrawlStatus | undefined;
+
+    search_after_token?: string | undefined;
+
+    current_offset?: number | undefined;
+    
+    /** total number of relevant items crawled */
+
+    total_items_count?: number | undefined;
+    
+    /** number of items in the results array */
+
+    items_count?: number | undefined;
+    
+    /** items array */
+
+    items?: BaseOnPageResourceItemInfo[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IOnPageResourcesResultInfo) {
+
+    if (data) {
+        for (var property in data) {
+            if (data.hasOwnProperty(property))
+                (<any>this)[property] = (<any>data)[property];
+        }
+    }
+
+    }
+
+    init(data?: any) {
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.crawl_progress = data["crawl_progress"];
+            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.search_after_token = data["search_after_token"];
+            this.current_offset = data["current_offset"];
+            this.total_items_count = data["total_items_count"];
+            this.items_count = data["items_count"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(BaseOnPageResourceItemInfo.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): OnPageResourcesResultInfo {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new OnPageResourcesResultInfo();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+        
+        
+        data["crawl_progress"] = this.crawl_progress;
+        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["search_after_token"] = this.search_after_token;
+        data["current_offset"] = this.current_offset;
+        data["total_items_count"] = this.total_items_count;
+        data["items_count"] = this.items_count;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}

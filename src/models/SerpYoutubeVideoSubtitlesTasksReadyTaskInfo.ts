@@ -1,0 +1,71 @@
+import { SerpYoutubeVideoSubtitlesTasksReadyResultInfo, ISerpYoutubeVideoSubtitlesTasksReadyResultInfo } from "./SerpYoutubeVideoSubtitlesTasksReadyResultInfo";
+import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
+import { ApiException, throwException } from "./ApiException"
+
+export interface ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
+        
+        /** array of results */
+        result?: SerpYoutubeVideoSubtitlesTasksReadyResultInfo[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class SerpYoutubeVideoSubtitlesTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo {
+    
+    /** array of results */
+
+    result?: SerpYoutubeVideoSubtitlesTasksReadyResultInfo[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            if (Array.isArray(data["result"])) {
+                this.result = [];
+                for (let item of data["result"]) {
+                    this.result.push(SerpYoutubeVideoSubtitlesTasksReadyResultInfo.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): SerpYoutubeVideoSubtitlesTasksReadyTaskInfo {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new SerpYoutubeVideoSubtitlesTasksReadyTaskInfo();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["result"] = null;
+        if (Array.isArray(this.result)) {
+            data["result"] = [];
+            for (let item of this.result) {
+                if (item && typeof item.toJSON === "function") {
+                    data["result"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}

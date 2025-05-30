@@ -1,0 +1,97 @@
+import { ApiException, throwException } from "./ApiException"
+
+export interface IAppDataAppleAppListingsCategoriesResultInfo   {
+        
+        /** task identifier
+unique task identifier in our system in the UUID format */
+        id?: string | undefined
+        
+        se?: string | undefined
+        
+        se_type?: string | undefined
+        
+        date_posted?: string | undefined
+        
+        tag?: string | undefined
+        
+        endpoint_advanced?: string | undefined
+        
+        endpoint_html?: string | undefined
+
+    [key: string]: any;
+
+    }
+
+export class AppDataAppleAppListingsCategoriesResultInfo  implements IAppDataAppleAppListingsCategoriesResultInfo {
+    
+    /** task identifier
+unique task identifier in our system in the UUID format */
+
+    id?: string | undefined;
+
+    se?: string | undefined;
+
+    se_type?: string | undefined;
+
+    date_posted?: string | undefined;
+
+    tag?: string | undefined;
+
+    endpoint_advanced?: string | undefined;
+
+    endpoint_html?: string | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IAppDataAppleAppListingsCategoriesResultInfo) {
+
+    if (data) {
+        for (var property in data) {
+            if (data.hasOwnProperty(property))
+                (<any>this)[property] = (<any>data)[property];
+        }
+    }
+
+    }
+
+    init(data?: any) {
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.id = data["id"];
+            this.se = data["se"];
+            this.se_type = data["se_type"];
+            this.date_posted = data["date_posted"];
+            this.tag = data["tag"];
+            this.endpoint_advanced = data["endpoint_advanced"];
+            this.endpoint_html = data["endpoint_html"];
+        }
+    }
+
+    static fromJS(data: any): AppDataAppleAppListingsCategoriesResultInfo {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new AppDataAppleAppListingsCategoriesResultInfo();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+        
+        
+        data["id"] = this.id;
+        data["se"] = this.se;
+        data["se_type"] = this.se_type;
+        data["date_posted"] = this.date_posted;
+        data["tag"] = this.tag;
+        data["endpoint_advanced"] = this.endpoint_advanced;
+        data["endpoint_html"] = this.endpoint_html;
+        return data;
+    }
+}

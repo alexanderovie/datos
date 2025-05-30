@@ -1,0 +1,71 @@
+import { SerpGoogleDatasetSearchTasksFixedTaskInfo, ISerpGoogleDatasetSearchTasksFixedTaskInfo } from "./SerpGoogleDatasetSearchTasksFixedTaskInfo";
+import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
+import { ApiException, throwException } from "./ApiException"
+
+export interface ISerpGoogleDatasetSearchTasksFixedResponseInfo  extends IBaseResponseInfo    {
+        
+        /** array of tasks */
+        tasks?: SerpGoogleDatasetSearchTasksFixedTaskInfo[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class SerpGoogleDatasetSearchTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleDatasetSearchTasksFixedResponseInfo {
+    
+    /** array of tasks */
+
+    tasks?: SerpGoogleDatasetSearchTasksFixedTaskInfo[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: ISerpGoogleDatasetSearchTasksFixedResponseInfo) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            if (Array.isArray(data["tasks"])) {
+                this.tasks = [];
+                for (let item of data["tasks"]) {
+                    this.tasks.push(SerpGoogleDatasetSearchTasksFixedTaskInfo.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): SerpGoogleDatasetSearchTasksFixedResponseInfo {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new SerpGoogleDatasetSearchTasksFixedResponseInfo();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["tasks"] = null;
+        if (Array.isArray(this.tasks)) {
+            data["tasks"] = [];
+            for (let item of this.tasks) {
+                if (item && typeof item.toJSON === "function") {
+                    data["tasks"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}

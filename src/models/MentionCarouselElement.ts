@@ -1,0 +1,113 @@
+import { PriceInfo, IPriceInfo } from "./PriceInfo";
+import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
+import { LinkElement, ILinkElement } from "./LinkElement";
+import { ApiException, throwException } from "./ApiException"
+
+export interface IMentionCarouselElement   {
+        
+        /** type of element */
+        type?: string | undefined
+        
+        /** title of a given link element */
+        title?: string | undefined
+        
+        /** price indicated in the element */
+        price?: PriceInfo | undefined
+        
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP */
+        rating?: BusinessDataRatingInfo | undefined
+        
+        /** additional elements in the mention_carousel item */
+        mentioned_in?: LinkElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class MentionCarouselElement  implements IMentionCarouselElement {
+    
+    /** type of element */
+
+    type?: string | undefined;
+    
+    /** title of a given link element */
+
+    title?: string | undefined;
+    
+    /** price indicated in the element */
+
+    price?: PriceInfo | undefined;
+    
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP */
+
+    rating?: BusinessDataRatingInfo | undefined;
+    
+    /** additional elements in the mention_carousel item */
+
+    mentioned_in?: LinkElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IMentionCarouselElement) {
+
+    if (data) {
+        for (var property in data) {
+            if (data.hasOwnProperty(property))
+                (<any>this)[property] = (<any>data)[property];
+        }
+    }
+
+    }
+
+    init(data?: any) {
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.type = data["type"];
+            this.title = data["title"];
+            this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
+            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            if (Array.isArray(data["mentioned_in"])) {
+                this.mentioned_in = [];
+                for (let item of data["mentioned_in"]) {
+                    this.mentioned_in.push(LinkElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): MentionCarouselElement {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new MentionCarouselElement();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+        
+        
+        data["type"] = this.type;
+        data["title"] = this.title;
+        data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["mentioned_in"] = null;
+        if (Array.isArray(this.mentioned_in)) {
+            data["mentioned_in"] = [];
+            for (let item of this.mentioned_in) {
+                if (item && typeof item.toJSON === "function") {
+                    data["mentioned_in"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}

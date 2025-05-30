@@ -1,6 +1,22 @@
 {
-  "devDependencies": {
-    "typedoc": "^0.28.3",
-    "typedoc-plugin-markdown": "^4.6.2"
-  }
+  "name": "dataforseo-client",
+  "version": "2.0.0",
+  "description": "API client that provide services of DataForSeo API \n\n For more information about client code generation, please follow to github",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataforseo/TypeScriptClient.git"
+  },
+  "author": "dataforseo",
+  "license": "ISC",
+  "homepage": "https://github.com/dataforseo/TypeScriptClient#readme"
 }
