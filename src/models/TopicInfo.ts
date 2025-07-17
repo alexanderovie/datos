@@ -1,6 +1,6 @@
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
 import { TableContentInfo, ITableContentInfo } from "./TableContentInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ITopicInfo   {
         

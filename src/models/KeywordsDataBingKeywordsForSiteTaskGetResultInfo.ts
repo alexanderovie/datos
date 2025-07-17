@@ -1,5 +1,5 @@
-import { MonthlySearches, IMonthlySearches } from "./MonthlySearches";
-import { ApiException, throwException } from "./ApiException"
+import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
+
 
 export interface IKeywordsDataBingKeywordsForSiteTaskGetResultInfo   {
         
@@ -48,7 +48,7 @@ legacy field, the value will always be null */
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
 search volume is rounded to the closest decimal values
 if there is no data the value is null */
-        monthly_searches?: MonthlySearches[] | undefined
+        monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
 
@@ -111,7 +111,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 search volume is rounded to the closest decimal values
 if there is no data the value is null */
 
-    monthly_searches?: MonthlySearches[] | undefined;
+    monthly_searches?: MonthlySearchesInfo[] | undefined;
 
     [key: string]: any;
 
@@ -145,7 +145,7 @@ if there is no data the value is null */
             if (Array.isArray(data["monthly_searches"])) {
                 this.monthly_searches = [];
                 for (let item of data["monthly_searches"]) {
-                    this.monthly_searches.push(MonthlySearches.fromJS(item));
+                    this.monthly_searches.push(MonthlySearchesInfo.fromJS(item));
                 }
             }
         }

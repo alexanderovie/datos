@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpAiSummaryItem   {
         
         /** generated summary

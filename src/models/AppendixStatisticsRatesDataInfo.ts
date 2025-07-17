@@ -10,7 +10,7 @@ import { AppendixBacklinksLimitsRatesDataInfo, IAppendixBacklinksLimitsRatesData
 import { AppendixAppDataLimitsRatesDataInfo, IAppendixAppDataLimitsRatesDataInfo } from "./AppendixAppDataLimitsRatesDataInfo";
 import { AppendixContentAnalysisLimitsRatesDataInfo, IAppendixContentAnalysisLimitsRatesDataInfo } from "./AppendixContentAnalysisLimitsRatesDataInfo";
 import { AppendixContentGenerationLimitsRatesDataInfo, IAppendixContentGenerationLimitsRatesDataInfo } from "./AppendixContentGenerationLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixStatisticsRatesDataInfo   {
         

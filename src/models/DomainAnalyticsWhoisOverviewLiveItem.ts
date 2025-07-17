@@ -1,6 +1,6 @@
 import { MetricsBundleInfo, IMetricsBundleInfo } from "./MetricsBundleInfo";
 import { BacklinksInfo, IBacklinksInfo } from "./BacklinksInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsWhoisOverviewLiveItem   {
         

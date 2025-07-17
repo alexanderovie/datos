@@ -1,6 +1,6 @@
 import { DomainAnalyticsWhoisOverviewLiveTaskInfo, IDomainAnalyticsWhoisOverviewLiveTaskInfo } from "./DomainAnalyticsWhoisOverviewLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsWhoisOverviewLiveResponseInfo  extends IBaseResponseInfo    {
         

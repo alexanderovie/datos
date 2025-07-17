@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IImageUrlInfo   {
         
         /** URL of the image used in the review */

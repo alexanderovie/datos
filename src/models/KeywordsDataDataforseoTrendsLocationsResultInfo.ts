@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKeywordsDataDataforseoTrendsLocationsResultInfo   {
         
         /** location code */

@@ -1,55 +1,55 @@
-import { MerchantIdListRequestInfo } from "../models/MerchantIdListRequestInfo";
-import { MerchantIdListResponseInfo } from "../models/MerchantIdListResponseInfo";
-import { MerchantErrorsRequestInfo } from "../models/MerchantErrorsRequestInfo";
-import { MerchantErrorsResponseInfo } from "../models/MerchantErrorsResponseInfo";
-import { MerchantGoogleLanguagesResponseInfo } from "../models/MerchantGoogleLanguagesResponseInfo";
-import { MerchantGoogleLocationsResponseInfo } from "../models/MerchantGoogleLocationsResponseInfo";
-import { MerchantGoogleLocationsCountryResponseInfo } from "../models/MerchantGoogleLocationsCountryResponseInfo";
-import { MerchantGoogleProductsTaskPostRequestInfo } from "../models/MerchantGoogleProductsTaskPostRequestInfo";
-import { MerchantGoogleProductsTaskPostResponseInfo } from "../models/MerchantGoogleProductsTaskPostResponseInfo";
-import { MerchantGoogleProductsTasksReadyResponseInfo } from "../models/MerchantGoogleProductsTasksReadyResponseInfo";
-import { MerchantTasksReadyResponseInfo } from "../models/MerchantTasksReadyResponseInfo";
-import { MerchantGoogleProductsTaskGetAdvancedResponseInfo } from "../models/MerchantGoogleProductsTaskGetAdvancedResponseInfo";
-import { MerchantGoogleProductsTaskGetHtmlResponseInfo } from "../models/MerchantGoogleProductsTaskGetHtmlResponseInfo";
-import { MerchantGoogleSellersTaskPostRequestInfo } from "../models/MerchantGoogleSellersTaskPostRequestInfo";
-import { MerchantGoogleSellersTaskPostResponseInfo } from "../models/MerchantGoogleSellersTaskPostResponseInfo";
-import { MerchantGoogleSellersTasksReadyResponseInfo } from "../models/MerchantGoogleSellersTasksReadyResponseInfo";
-import { MerchantGoogleSellersTaskGetAdvancedResponseInfo } from "../models/MerchantGoogleSellersTaskGetAdvancedResponseInfo";
-import { MerchantGoogleSellersTaskGetHtmlResponseInfo } from "../models/MerchantGoogleSellersTaskGetHtmlResponseInfo";
-import { MerchantGoogleProductSpecTaskPostRequestInfo } from "../models/MerchantGoogleProductSpecTaskPostRequestInfo";
-import { MerchantGoogleProductSpecTaskPostResponseInfo } from "../models/MerchantGoogleProductSpecTaskPostResponseInfo";
-import { MerchantGoogleProductSpecTasksReadyResponseInfo } from "../models/MerchantGoogleProductSpecTasksReadyResponseInfo";
-import { MerchantGoogleProductSpecTaskGetAdvancedResponseInfo } from "../models/MerchantGoogleProductSpecTaskGetAdvancedResponseInfo";
-import { MerchantGoogleProductSpecTaskGetHtmlResponseInfo } from "../models/MerchantGoogleProductSpecTaskGetHtmlResponseInfo";
-import { MerchantGoogleProductInfoTaskPostRequestInfo } from "../models/MerchantGoogleProductInfoTaskPostRequestInfo";
-import { MerchantGoogleProductInfoTaskPostResponseInfo } from "../models/MerchantGoogleProductInfoTaskPostResponseInfo";
-import { MerchantGoogleProductInfoTasksReadyResponseInfo } from "../models/MerchantGoogleProductInfoTasksReadyResponseInfo";
-import { MerchantGoogleProductInfoTaskGetAdvancedResponseInfo } from "../models/MerchantGoogleProductInfoTaskGetAdvancedResponseInfo";
-import { MerchantGoogleSellersAdUrlResponseInfo } from "../models/MerchantGoogleSellersAdUrlResponseInfo";
-import { MerchantAmazonLocationsResponseInfo } from "../models/MerchantAmazonLocationsResponseInfo";
-import { MerchantAmazonLocationsCountryResponseInfo } from "../models/MerchantAmazonLocationsCountryResponseInfo";
-import { MerchantAmazonLanguagesResponseInfo } from "../models/MerchantAmazonLanguagesResponseInfo";
-import { MerchantAmazonProductsTaskPostRequestInfo } from "../models/MerchantAmazonProductsTaskPostRequestInfo";
-import { MerchantAmazonProductsTaskPostResponseInfo } from "../models/MerchantAmazonProductsTaskPostResponseInfo";
-import { MerchantAmazonProductsTasksReadyResponseInfo } from "../models/MerchantAmazonProductsTasksReadyResponseInfo";
-import { MerchantAmazonProductsTaskGetAdvancedResponseInfo } from "../models/MerchantAmazonProductsTaskGetAdvancedResponseInfo";
-import { MerchantAmazonProductsTaskGetHtmlResponseInfo } from "../models/MerchantAmazonProductsTaskGetHtmlResponseInfo";
-import { MerchantAmazonAsinTaskPostRequestInfo } from "../models/MerchantAmazonAsinTaskPostRequestInfo";
-import { MerchantAmazonAsinTaskPostResponseInfo } from "../models/MerchantAmazonAsinTaskPostResponseInfo";
-import { MerchantAmazonAsinTasksReadyResponseInfo } from "../models/MerchantAmazonAsinTasksReadyResponseInfo";
-import { MerchantAmazonAsinTaskGetAdvancedResponseInfo } from "../models/MerchantAmazonAsinTaskGetAdvancedResponseInfo";
-import { MerchantAmazonAsinTaskGetHtmlResponseInfo } from "../models/MerchantAmazonAsinTaskGetHtmlResponseInfo";
-import { MerchantAmazonSellersTaskPostRequestInfo } from "../models/MerchantAmazonSellersTaskPostRequestInfo";
-import { MerchantAmazonSellersTaskPostResponseInfo } from "../models/MerchantAmazonSellersTaskPostResponseInfo";
-import { MerchantAmazonSellersTasksReadyResponseInfo } from "../models/MerchantAmazonSellersTasksReadyResponseInfo";
-import { MerchantAmazonSellersTaskGetAdvancedResponseInfo } from "../models/MerchantAmazonSellersTaskGetAdvancedResponseInfo";
-import { MerchantAmazonSellersTaskGetHtmlResponseInfo } from "../models/MerchantAmazonSellersTaskGetHtmlResponseInfo";
-import { MerchantAmazonReviewsTaskPostRequestInfo } from "../models/MerchantAmazonReviewsTaskPostRequestInfo";
-import { MerchantAmazonReviewsTaskPostResponseInfo } from "../models/MerchantAmazonReviewsTaskPostResponseInfo";
-import { MerchantAmazonReviewsTasksReadyResponseInfo } from "../models/MerchantAmazonReviewsTasksReadyResponseInfo";
-import { MerchantAmazonReviewsTaskGetAdvancedResponseInfo } from "../models/MerchantAmazonReviewsTaskGetAdvancedResponseInfo";
-import { MerchantAmazonReviewsTaskGetHtmlResponseInfo } from "../models/MerchantAmazonReviewsTaskGetHtmlResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { MerchantIdListRequestInfo } from "./../models/MerchantIdListRequestInfo";
+import { MerchantIdListResponseInfo } from "./../models/MerchantIdListResponseInfo";
+import { MerchantErrorsRequestInfo } from "./../models/MerchantErrorsRequestInfo";
+import { MerchantErrorsResponseInfo } from "./../models/MerchantErrorsResponseInfo";
+import { MerchantGoogleLanguagesResponseInfo } from "./../models/MerchantGoogleLanguagesResponseInfo";
+import { MerchantGoogleLocationsResponseInfo } from "./../models/MerchantGoogleLocationsResponseInfo";
+import { MerchantGoogleLocationsCountryResponseInfo } from "./../models/MerchantGoogleLocationsCountryResponseInfo";
+import { MerchantGoogleProductsTaskPostRequestInfo } from "./../models/MerchantGoogleProductsTaskPostRequestInfo";
+import { MerchantGoogleProductsTaskPostResponseInfo } from "./../models/MerchantGoogleProductsTaskPostResponseInfo";
+import { MerchantGoogleProductsTasksReadyResponseInfo } from "./../models/MerchantGoogleProductsTasksReadyResponseInfo";
+import { MerchantTasksReadyResponseInfo } from "./../models/MerchantTasksReadyResponseInfo";
+import { MerchantGoogleProductsTaskGetAdvancedResponseInfo } from "./../models/MerchantGoogleProductsTaskGetAdvancedResponseInfo";
+import { MerchantGoogleProductsTaskGetHtmlResponseInfo } from "./../models/MerchantGoogleProductsTaskGetHtmlResponseInfo";
+import { MerchantGoogleSellersTaskPostRequestInfo } from "./../models/MerchantGoogleSellersTaskPostRequestInfo";
+import { MerchantGoogleSellersTaskPostResponseInfo } from "./../models/MerchantGoogleSellersTaskPostResponseInfo";
+import { MerchantGoogleSellersTasksReadyResponseInfo } from "./../models/MerchantGoogleSellersTasksReadyResponseInfo";
+import { MerchantGoogleSellersTaskGetAdvancedResponseInfo } from "./../models/MerchantGoogleSellersTaskGetAdvancedResponseInfo";
+import { MerchantGoogleSellersTaskGetHtmlResponseInfo } from "./../models/MerchantGoogleSellersTaskGetHtmlResponseInfo";
+import { MerchantGoogleProductSpecTaskPostRequestInfo } from "./../models/MerchantGoogleProductSpecTaskPostRequestInfo";
+import { MerchantGoogleProductSpecTaskPostResponseInfo } from "./../models/MerchantGoogleProductSpecTaskPostResponseInfo";
+import { MerchantGoogleProductSpecTasksReadyResponseInfo } from "./../models/MerchantGoogleProductSpecTasksReadyResponseInfo";
+import { MerchantGoogleProductSpecTaskGetAdvancedResponseInfo } from "./../models/MerchantGoogleProductSpecTaskGetAdvancedResponseInfo";
+import { MerchantGoogleProductSpecTaskGetHtmlResponseInfo } from "./../models/MerchantGoogleProductSpecTaskGetHtmlResponseInfo";
+import { MerchantGoogleProductInfoTaskPostRequestInfo } from "./../models/MerchantGoogleProductInfoTaskPostRequestInfo";
+import { MerchantGoogleProductInfoTaskPostResponseInfo } from "./../models/MerchantGoogleProductInfoTaskPostResponseInfo";
+import { MerchantGoogleProductInfoTasksReadyResponseInfo } from "./../models/MerchantGoogleProductInfoTasksReadyResponseInfo";
+import { MerchantGoogleProductInfoTaskGetAdvancedResponseInfo } from "./../models/MerchantGoogleProductInfoTaskGetAdvancedResponseInfo";
+import { MerchantGoogleSellersAdUrlResponseInfo } from "./../models/MerchantGoogleSellersAdUrlResponseInfo";
+import { MerchantAmazonLocationsResponseInfo } from "./../models/MerchantAmazonLocationsResponseInfo";
+import { MerchantAmazonLocationsCountryResponseInfo } from "./../models/MerchantAmazonLocationsCountryResponseInfo";
+import { MerchantAmazonLanguagesResponseInfo } from "./../models/MerchantAmazonLanguagesResponseInfo";
+import { MerchantAmazonProductsTaskPostRequestInfo } from "./../models/MerchantAmazonProductsTaskPostRequestInfo";
+import { MerchantAmazonProductsTaskPostResponseInfo } from "./../models/MerchantAmazonProductsTaskPostResponseInfo";
+import { MerchantAmazonProductsTasksReadyResponseInfo } from "./../models/MerchantAmazonProductsTasksReadyResponseInfo";
+import { MerchantAmazonProductsTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonProductsTaskGetAdvancedResponseInfo";
+import { MerchantAmazonProductsTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonProductsTaskGetHtmlResponseInfo";
+import { MerchantAmazonAsinTaskPostRequestInfo } from "./../models/MerchantAmazonAsinTaskPostRequestInfo";
+import { MerchantAmazonAsinTaskPostResponseInfo } from "./../models/MerchantAmazonAsinTaskPostResponseInfo";
+import { MerchantAmazonAsinTasksReadyResponseInfo } from "./../models/MerchantAmazonAsinTasksReadyResponseInfo";
+import { MerchantAmazonAsinTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonAsinTaskGetAdvancedResponseInfo";
+import { MerchantAmazonAsinTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonAsinTaskGetHtmlResponseInfo";
+import { MerchantAmazonSellersTaskPostRequestInfo } from "./../models/MerchantAmazonSellersTaskPostRequestInfo";
+import { MerchantAmazonSellersTaskPostResponseInfo } from "./../models/MerchantAmazonSellersTaskPostResponseInfo";
+import { MerchantAmazonSellersTasksReadyResponseInfo } from "./../models/MerchantAmazonSellersTasksReadyResponseInfo";
+import { MerchantAmazonSellersTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonSellersTaskGetAdvancedResponseInfo";
+import { MerchantAmazonSellersTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonSellersTaskGetHtmlResponseInfo";
+import { MerchantAmazonReviewsTaskPostRequestInfo } from "./../models/MerchantAmazonReviewsTaskPostRequestInfo";
+import { MerchantAmazonReviewsTaskPostResponseInfo } from "./../models/MerchantAmazonReviewsTaskPostResponseInfo";
+import { MerchantAmazonReviewsTasksReadyResponseInfo } from "./../models/MerchantAmazonReviewsTasksReadyResponseInfo";
+import { MerchantAmazonReviewsTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonReviewsTaskGetAdvancedResponseInfo";
+import { MerchantAmazonReviewsTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonReviewsTaskGetHtmlResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class MerchantApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -71,7 +71,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -84,14 +84,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantIdListResponseInfo | null>(null as any);
@@ -106,7 +106,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -119,14 +119,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantErrorsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantErrorsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantErrorsResponseInfo | null>(null as any);
@@ -134,13 +134,11 @@ export class MerchantApi {
     merchantGoogleLanguages(): Promise<MerchantGoogleLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -154,14 +152,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleLanguagesResponseInfo | null>(null as any);
@@ -169,13 +167,11 @@ export class MerchantApi {
     merchantGoogleLocations(): Promise<MerchantGoogleLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -189,14 +185,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleLocationsResponseInfo | null>(null as any);
@@ -204,15 +200,12 @@ export class MerchantApi {
     merchantGoogleLocationsCountry(country: string): Promise<MerchantGoogleLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -226,14 +219,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleLocationsCountryResponseInfo | null>(null as any);
@@ -248,7 +241,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -261,14 +254,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductsTaskPostResponseInfo | null>(null as any);
@@ -276,13 +269,11 @@ export class MerchantApi {
     googleProductsTasksReady(): Promise<MerchantGoogleProductsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/products/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -296,14 +287,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductsTasksReadyResponseInfo | null>(null as any);
@@ -311,13 +302,11 @@ export class MerchantApi {
     merchantTasksReady(): Promise<MerchantTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -331,14 +320,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantTasksReadyResponseInfo | null>(null as any);
@@ -346,15 +335,12 @@ export class MerchantApi {
     googleProductsTaskGetAdvanced(id: string): Promise<MerchantGoogleProductsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/products/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -368,14 +354,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -383,15 +369,12 @@ export class MerchantApi {
     googleProductsTaskGetHtml(id: string): Promise<MerchantGoogleProductsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/products/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -405,14 +388,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductsTaskGetHtmlResponseInfo | null>(null as any);
@@ -427,7 +410,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -440,14 +423,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleSellersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleSellersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleSellersTaskPostResponseInfo | null>(null as any);
@@ -455,13 +438,11 @@ export class MerchantApi {
     googleSellersTasksReady(): Promise<MerchantGoogleSellersTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/sellers/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -475,14 +456,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleSellersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleSellersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleSellersTasksReadyResponseInfo | null>(null as any);
@@ -490,15 +471,12 @@ export class MerchantApi {
     googleSellersTaskGetAdvanced(id: string): Promise<MerchantGoogleSellersTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/sellers/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -512,14 +490,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleSellersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleSellersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleSellersTaskGetAdvancedResponseInfo | null>(null as any);
@@ -527,15 +505,12 @@ export class MerchantApi {
     googleSellersTaskGetHtml(id: string): Promise<MerchantGoogleSellersTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/sellers/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -549,14 +524,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleSellersTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleSellersTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleSellersTaskGetHtmlResponseInfo | null>(null as any);
@@ -571,7 +546,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -584,14 +559,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductSpecTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductSpecTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductSpecTaskPostResponseInfo | null>(null as any);
@@ -599,13 +574,11 @@ export class MerchantApi {
     googleProductSpecTasksReady(): Promise<MerchantGoogleProductSpecTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/product_spec/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -619,14 +592,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductSpecTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductSpecTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductSpecTasksReadyResponseInfo | null>(null as any);
@@ -634,15 +607,12 @@ export class MerchantApi {
     googleProductSpecTaskGetAdvanced(id: string): Promise<MerchantGoogleProductSpecTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/product_spec/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -656,14 +626,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductSpecTaskGetAdvancedResponseInfo | null>(null as any);
@@ -671,15 +641,12 @@ export class MerchantApi {
     googleProductSpecTaskGetHtml(id: string): Promise<MerchantGoogleProductSpecTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/product_spec/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -693,14 +660,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductSpecTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductSpecTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductSpecTaskGetHtmlResponseInfo | null>(null as any);
@@ -715,7 +682,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -728,14 +695,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductInfoTaskPostResponseInfo | null>(null as any);
@@ -743,13 +710,11 @@ export class MerchantApi {
     googleProductInfoTasksReady(): Promise<MerchantGoogleProductInfoTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/product_info/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -763,14 +728,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductInfoTasksReadyResponseInfo | null>(null as any);
@@ -778,15 +743,12 @@ export class MerchantApi {
     googleProductInfoTaskGetAdvanced(id: string): Promise<MerchantGoogleProductInfoTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/product_info/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -800,14 +762,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleProductInfoTaskGetAdvancedResponseInfo | null>(null as any);
@@ -815,15 +777,12 @@ export class MerchantApi {
     googleSellersAdUrl(shop_ad_aclk: string): Promise<MerchantGoogleSellersAdUrlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/google/sellers/ad_url/{shop_ad_aclk}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ shop_ad_aclk }", encodeURIComponent("" + shop_ad_aclk));
-    
-
+        url_ = url_.replace("{shop_ad_aclk}", encodeURIComponent("" + shop_ad_aclk));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -837,14 +796,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantGoogleSellersAdUrlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantGoogleSellersAdUrlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantGoogleSellersAdUrlResponseInfo | null>(null as any);
@@ -852,13 +811,11 @@ export class MerchantApi {
     merchantAmazonLocations(): Promise<MerchantAmazonLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -872,14 +829,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonLocationsResponseInfo | null>(null as any);
@@ -887,15 +844,12 @@ export class MerchantApi {
     merchantAmazonLocationsCountry(country: string): Promise<MerchantAmazonLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -909,14 +863,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonLocationsCountryResponseInfo | null>(null as any);
@@ -924,13 +878,11 @@ export class MerchantApi {
     merchantAmazonLanguages(): Promise<MerchantAmazonLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -944,14 +896,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonLanguagesResponseInfo | null>(null as any);
@@ -966,7 +918,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -979,14 +931,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonProductsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonProductsTaskPostResponseInfo | null>(null as any);
@@ -994,13 +946,11 @@ export class MerchantApi {
     amazonProductsTasksReady(): Promise<MerchantAmazonProductsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/products/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1014,14 +964,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonProductsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonProductsTasksReadyResponseInfo | null>(null as any);
@@ -1029,15 +979,12 @@ export class MerchantApi {
     amazonProductsTaskGetAdvanced(id: string): Promise<MerchantAmazonProductsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/products/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1051,14 +998,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonProductsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonProductsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1066,15 +1013,12 @@ export class MerchantApi {
     amazonProductsTaskGetHtml(id: string): Promise<MerchantAmazonProductsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/products/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1088,14 +1032,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonProductsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonProductsTaskGetHtmlResponseInfo | null>(null as any);
@@ -1110,7 +1054,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1123,14 +1067,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonAsinTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonAsinTaskPostResponseInfo | null>(null as any);
@@ -1138,13 +1082,11 @@ export class MerchantApi {
     amazonAsinTasksReady(): Promise<MerchantAmazonAsinTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/asin/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1158,14 +1100,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonAsinTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonAsinTasksReadyResponseInfo | null>(null as any);
@@ -1173,15 +1115,12 @@ export class MerchantApi {
     amazonAsinTaskGetAdvanced(id: string): Promise<MerchantAmazonAsinTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/asin/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1195,14 +1134,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonAsinTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonAsinTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1210,15 +1149,12 @@ export class MerchantApi {
     amazonAsinTaskGetHtml(id: string): Promise<MerchantAmazonAsinTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/asin/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1232,14 +1168,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonAsinTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonAsinTaskGetHtmlResponseInfo | null>(null as any);
@@ -1254,7 +1190,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1267,14 +1203,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonSellersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonSellersTaskPostResponseInfo | null>(null as any);
@@ -1282,13 +1218,11 @@ export class MerchantApi {
     amazonSellersTasksReady(): Promise<MerchantAmazonSellersTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1302,14 +1236,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonSellersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonSellersTasksReadyResponseInfo | null>(null as any);
@@ -1317,15 +1251,12 @@ export class MerchantApi {
     amazonSellersTaskGetAdvanced(id: string): Promise<MerchantAmazonSellersTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1339,14 +1270,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonSellersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonSellersTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1354,15 +1285,12 @@ export class MerchantApi {
     amazonSellersTaskGetHtml(id: string): Promise<MerchantAmazonSellersTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1376,14 +1304,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonSellersTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonSellersTaskGetHtmlResponseInfo | null>(null as any);
@@ -1398,7 +1326,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1411,14 +1339,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonReviewsTaskPostResponseInfo | null>(null as any);
@@ -1426,13 +1354,11 @@ export class MerchantApi {
     amazonReviewsTasksReady(): Promise<MerchantAmazonReviewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/reviews/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1446,14 +1372,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonReviewsTasksReadyResponseInfo | null>(null as any);
@@ -1461,15 +1387,12 @@ export class MerchantApi {
     amazonReviewsTaskGetAdvanced(id: string): Promise<MerchantAmazonReviewsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/reviews/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1483,14 +1406,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonReviewsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonReviewsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonReviewsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1498,15 +1421,12 @@ export class MerchantApi {
     amazonReviewsTaskGetHtml(id: string): Promise<MerchantAmazonReviewsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/reviews/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1520,14 +1440,14 @@ export class MerchantApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? MerchantAmazonReviewsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonReviewsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<MerchantAmazonReviewsTaskGetHtmlResponseInfo | null>(null as any);

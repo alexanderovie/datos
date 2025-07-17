@@ -1,6 +1,6 @@
-import { TopDomainCountInfo, ITopDomainCountInfo } from "./TopDomainCountInfo";
+import { TopDomainInfo, ITopDomainInfo } from "./TopDomainInfo";
 import { ContentAnalysisCategoriesInfo, IContentAnalysisCategoriesInfo } from "./ContentAnalysisCategoriesInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisSummaryInfo   {
         
@@ -16,7 +16,7 @@ normalized sum of ranks of all URLs citing the target keyword */
         
         /** top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain */
-        top_domains?: TopDomainCountInfo[] | undefined
+        top_domains?: TopDomainInfo[] | undefined
         
         /** sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -74,7 +74,7 @@ normalized sum of ranks of all URLs citing the target keyword */
     /** top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain */
 
-    top_domains?: TopDomainCountInfo[] | undefined;
+    top_domains?: TopDomainInfo[] | undefined;
     
     /** sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -143,7 +143,7 @@ to obtain a full list of available languages, refer to the Languages endpoint */
             if (Array.isArray(data["top_domains"])) {
                 this.top_domains = [];
                 for (let item of data["top_domains"]) {
-                    this.top_domains.push(TopDomainCountInfo.fromJS(item));
+                    this.top_domains.push(TopDomainInfo.fromJS(item));
                 }
             }
             this.sentiment_connotations = data["sentiment_connotations"];

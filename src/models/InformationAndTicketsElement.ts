@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IInformationAndTicketsElement   {
         
         /** type of element */
@@ -8,10 +6,10 @@ export interface IInformationAndTicketsElement   {
         /** title of the element */
         title?: string | undefined
         
-        /** description of the element */
+        /** link description */
         description?: string | undefined
         
-        /** relevant URL */
+        /** search URL with refinement parameters */
         url?: string | undefined
         
         /** domain in SERP */
@@ -31,11 +29,11 @@ export class InformationAndTicketsElement  implements IInformationAndTicketsElem
 
     title?: string | undefined;
     
-    /** description of the element */
+    /** link description */
 
     description?: string | undefined;
     
-    /** relevant URL */
+    /** search URL with refinement parameters */
 
     url?: string | undefined;
     

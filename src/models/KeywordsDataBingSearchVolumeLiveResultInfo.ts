@@ -1,5 +1,5 @@
-import { MonthlySearches, IMonthlySearches } from "./MonthlySearches";
-import { ApiException, throwException } from "./ApiException"
+import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
+
 
 export interface IKeywordsDataBingSearchVolumeLiveResultInfo   {
         
@@ -45,7 +45,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
         /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
 if there is no data then the value is null */
-        monthly_searches?: MonthlySearches[] | undefined
+        monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
 
@@ -105,7 +105,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
 if there is no data then the value is null */
 
-    monthly_searches?: MonthlySearches[] | undefined;
+    monthly_searches?: MonthlySearchesInfo[] | undefined;
 
     [key: string]: any;
 
@@ -139,7 +139,7 @@ if there is no data then the value is null */
             if (Array.isArray(data["monthly_searches"])) {
                 this.monthly_searches = [];
                 for (let item of data["monthly_searches"]) {
-                    this.monthly_searches.push(MonthlySearches.fromJS(item));
+                    this.monthly_searches.push(MonthlySearchesInfo.fromJS(item));
                 }
             }
         }

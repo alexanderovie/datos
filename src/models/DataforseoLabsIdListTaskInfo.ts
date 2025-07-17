@@ -1,6 +1,6 @@
 import { DataforseoLabsIdListResultInfo, IDataforseoLabsIdListResultInfo } from "./DataforseoLabsIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsIdListTaskInfo  extends IBaseResponseTaskInfo    {
         

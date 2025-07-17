@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { AppleRankedSerpElementInfo, IAppleRankedSerpElementInfo } from "./AppleRankedSerpElementInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleKeywordsForAppLiveItem   {
         

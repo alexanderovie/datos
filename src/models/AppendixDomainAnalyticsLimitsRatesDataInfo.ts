@@ -1,6 +1,6 @@
 import { AppendixWhoisDomainAnalyticsLimitsRatesDataInfo, IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo } from "./AppendixWhoisDomainAnalyticsLimitsRatesDataInfo";
 import { AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo, IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo } from "./AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixDomainAnalyticsLimitsRatesDataInfo   {
         

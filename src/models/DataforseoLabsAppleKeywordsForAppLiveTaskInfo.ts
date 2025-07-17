@@ -1,6 +1,6 @@
 import { DataforseoLabsAppleKeywordsForAppLiveResultInfo, IDataforseoLabsAppleKeywordsForAppLiveResultInfo } from "./DataforseoLabsAppleKeywordsForAppLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

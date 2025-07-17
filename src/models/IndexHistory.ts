@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IIndexHistory   {
         
         /** date for which index volume data is provided

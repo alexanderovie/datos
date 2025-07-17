@@ -1,6 +1,6 @@
 import { AppDataGoogleAppInfoTaskGetAdvancedResultInfo, IAppDataGoogleAppInfoTaskGetAdvancedResultInfo } from "./AppDataGoogleAppInfoTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataGoogleAppInfoTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

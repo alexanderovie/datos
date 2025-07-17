@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAddressInfo   {
         
         /** administrative unit or district the local establishment belongs to */

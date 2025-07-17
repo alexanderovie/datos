@@ -1,5 +1,5 @@
 import { AvailableLocations, IAvailableLocations } from "./AvailableLocations";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo   {
         

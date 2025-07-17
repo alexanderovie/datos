@@ -1,5 +1,5 @@
-import { BaseAppDataSerpElementItem, IBaseAppDataSerpElementItem } from "./BaseAppDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { GooglePlaySearchOrganic, IGooglePlaySearchOrganic } from "./GooglePlaySearchOrganic";
+
 
 export interface IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo   {
         
@@ -32,7 +32,7 @@ example:
         items_count?: number | undefined
         
         /** found apps */
-        items?: BaseAppDataSerpElementItem[] | undefined
+        items?: GooglePlaySearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -78,7 +78,7 @@ example:
     
     /** found apps */
 
-    items?: BaseAppDataSerpElementItem[] | undefined;
+    items?: GooglePlaySearchOrganic[] | undefined;
 
     [key: string]: any;
 
@@ -111,7 +111,7 @@ example:
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAppDataSerpElementItem.fromJS(item));
+                    this.items.push(GooglePlaySearchOrganic.fromJS(item));
                 }
             }
         }

@@ -1,6 +1,6 @@
 import { AppendixStatusResultInfo, IAppendixStatusResultInfo } from "./AppendixStatusResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixStatusTaskInfo  extends IBaseResponseTaskInfo    {
         

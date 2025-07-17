@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ILastModified   {
         
         /** date and time when the header was last modified

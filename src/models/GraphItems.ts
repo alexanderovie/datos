@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IGraphItems   {
         
         /** date and time of the value readout

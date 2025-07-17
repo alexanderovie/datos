@@ -1,7 +1,7 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixAKeywordsDataPriceDataInfo, IAppendixAKeywordsDataPriceDataInfo } from "./AppendixAKeywordsDataPriceDataInfo";
 import { AppendixSerpPriceDataInfo, IAppendixSerpPriceDataInfo } from "./AppendixSerpPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixSerpPriceData   {
         

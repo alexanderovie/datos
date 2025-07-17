@@ -1,6 +1,5 @@
-import { ItemsWithoutAnswers, IItemsWithoutAnswers } from "./ItemsWithoutAnswers";
-import { BusinessDataGoogleQuestionsAndAnswersItem, IBusinessDataGoogleQuestionsAndAnswersItem } from "./BusinessDataGoogleQuestionsAndAnswersItem";
-import { ApiException, throwException } from "./ApiException"
+import { GoogleBusinessQuestionItem, IGoogleBusinessQuestionItem } from "./GoogleBusinessQuestionItem";
+
 
 export interface IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo   {
         
@@ -45,7 +44,7 @@ possible item types: google_business_question_item */
         item_types?: string[] | undefined
         
         /** array of google business question items without answers */
-        items_without_answers?: ItemsWithoutAnswers[] | undefined
+        items_without_answers?: GoogleBusinessQuestionItem[] | undefined
         
         /** the number of items in the items array */
         items_count?: number | undefined
@@ -53,7 +52,7 @@ possible item types: google_business_question_item */
         /** array of items within google_business_question_item
 contains answers to the google business questions;
 possible item types google_business_answer_element */
-        items?: BusinessDataGoogleQuestionsAndAnswersItem[] | undefined
+        items?: GoogleBusinessQuestionItem[] | undefined
 
     [key: string]: any;
 
@@ -112,7 +111,7 @@ possible item types: google_business_question_item */
     
     /** array of google business question items without answers */
 
-    items_without_answers?: ItemsWithoutAnswers[] | undefined;
+    items_without_answers?: GoogleBusinessQuestionItem[] | undefined;
     
     /** the number of items in the items array */
 
@@ -122,7 +121,7 @@ possible item types: google_business_question_item */
 contains answers to the google business questions;
 possible item types google_business_answer_element */
 
-    items?: BusinessDataGoogleQuestionsAndAnswersItem[] | undefined;
+    items?: GoogleBusinessQuestionItem[] | undefined;
 
     [key: string]: any;
 
@@ -156,14 +155,14 @@ possible item types google_business_answer_element */
             if (Array.isArray(data["items_without_answers"])) {
                 this.items_without_answers = [];
                 for (let item of data["items_without_answers"]) {
-                    this.items_without_answers.push(ItemsWithoutAnswers.fromJS(item));
+                    this.items_without_answers.push(GoogleBusinessQuestionItem.fromJS(item));
                 }
             }
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BusinessDataGoogleQuestionsAndAnswersItem.fromJS(item));
+                    this.items.push(GoogleBusinessQuestionItem.fromJS(item));
                 }
             }
         }

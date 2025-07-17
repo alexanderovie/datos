@@ -1,6 +1,6 @@
 import { SerpGoogleOrganicLiveRegularTaskInfo, ISerpGoogleOrganicLiveRegularTaskInfo } from "./SerpGoogleOrganicLiveRegularTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleOrganicLiveRegularResponseInfo  extends IBaseResponseInfo    {
         

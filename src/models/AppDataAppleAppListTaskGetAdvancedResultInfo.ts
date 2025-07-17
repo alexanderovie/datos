@@ -1,5 +1,5 @@
-import { BaseAppDataSerpElementItem, IBaseAppDataSerpElementItem } from "./BaseAppDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchOrganic";
+
 
 export interface IAppDataAppleAppListTaskGetAdvancedResultInfo   {
         
@@ -34,7 +34,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** found apps
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseAppDataSerpElementItem[] | undefined
+        items?: AppStoreSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -82,7 +82,7 @@ you can get more results by using the depth parameter when setting a task */
     /** found apps
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseAppDataSerpElementItem[] | undefined;
+    items?: AppStoreSearchOrganic[] | undefined;
 
     [key: string]: any;
 
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAppDataSerpElementItem.fromJS(item));
+                    this.items.push(AppStoreSearchOrganic.fromJS(item));
                 }
             }
         }

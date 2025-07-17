@@ -1,5 +1,5 @@
 import { HotelAmenityItemInfo, IHotelAmenityItemInfo } from "./HotelAmenityItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelAmenityInfo   {
         

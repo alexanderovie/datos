@@ -1,6 +1,6 @@
 import { SerpYoutubeLocationsCountryResultInfo, ISerpYoutubeLocationsCountryResultInfo } from "./SerpYoutubeLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYoutubeLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,7 +1,7 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IProductSeller   {
         

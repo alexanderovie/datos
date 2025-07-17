@@ -1,5 +1,5 @@
-import { BaseOnPageResourceItemInfo, IBaseOnPageResourceItemInfo } from "./BaseOnPageResourceItemInfo";
-import { ApiException, throwException } from "./ApiException"
+import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IDuplicatePageInfo   {
         
@@ -9,7 +9,7 @@ can take values from 0 to 10 */
         similarity?: number | undefined
         
         /** information about the page with duplicate content */
-        page?: BaseOnPageResourceItemInfo[] | undefined
+        page?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -25,7 +25,7 @@ can take values from 0 to 10 */
     
     /** information about the page with duplicate content */
 
-    page?: BaseOnPageResourceItemInfo[] | undefined;
+    page?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -51,7 +51,7 @@ can take values from 0 to 10 */
             if (Array.isArray(data["page"])) {
                 this.page = [];
                 for (let item of data["page"]) {
-                    this.page.push(BaseOnPageResourceItemInfo.fromJS(item));
+                    this.page.push(BaseOnPageResourceItem.fromJS(item));
                 }
             }
         }

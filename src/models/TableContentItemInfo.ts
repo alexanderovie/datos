@@ -1,5 +1,5 @@
 import { RowCellInfo, IRowCellInfo } from "./RowCellInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ITableContentItemInfo   {
         

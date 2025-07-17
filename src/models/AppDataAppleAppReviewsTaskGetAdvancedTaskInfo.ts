@@ -1,6 +1,6 @@
 import { AppDataAppleAppReviewsTaskGetAdvancedResultInfo, IAppDataAppleAppReviewsTaskGetAdvancedResultInfo } from "./AppDataAppleAppReviewsTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

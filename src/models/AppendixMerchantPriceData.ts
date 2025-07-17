@@ -2,7 +2,7 @@ import { AppendixGoogleMerchantPriceData, IAppendixGoogleMerchantPriceData } fro
 import { AppendixAmazonMerchantPriceData, IAppendixAmazonMerchantPriceData } from "./AppendixAmazonMerchantPriceData";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixProductGoogleMerchantPriceDataInfo, IAppendixProductGoogleMerchantPriceDataInfo } from "./AppendixProductGoogleMerchantPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixMerchantPriceData   {
         

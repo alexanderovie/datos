@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveItem   {
         
         /** keyword in a POST array */

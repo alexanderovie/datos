@@ -1,5 +1,5 @@
 import { QueriesListDataItemInfo, IQueriesListDataItemInfo } from "./QueriesListDataItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IQueriesListDataInfo   {
         

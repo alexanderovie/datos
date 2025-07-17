@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsStatusInfo   {
         
         /** update date of the Google endpoints

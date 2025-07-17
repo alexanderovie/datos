@@ -1,5 +1,5 @@
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseMerchantAmazonSellersElementItem, IBaseMerchantAmazonSellersElementItem } from "./BaseMerchantAmazonSellersElementItem";
+
 
 export interface IMerchantAmazonSellersTaskGetAdvancedResultInfo   {
         
@@ -47,7 +47,7 @@ amazon_seller_main_item, amazon_seller_item */
         items_count?: number | undefined
         
         /** items in SERP */
-        items?: BaseAmazonSerpElementItem[] | undefined
+        items?: BaseMerchantAmazonSellersElementItem[] | undefined
 
     [key: string]: any;
 
@@ -111,7 +111,7 @@ amazon_seller_main_item, amazon_seller_item */
     
     /** items in SERP */
 
-    items?: BaseAmazonSerpElementItem[] | undefined;
+    items?: BaseMerchantAmazonSellersElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -147,7 +147,7 @@ amazon_seller_main_item, amazon_seller_item */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAmazonSerpElementItem.fromJS(item));
+                    this.items.push(BaseMerchantAmazonSellersElementItem.fromJS(item));
                 }
             }
         }

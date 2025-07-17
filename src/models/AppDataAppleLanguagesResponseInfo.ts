@@ -1,6 +1,6 @@
 import { AppDataAppleLanguagesTaskInfo, IAppDataAppleLanguagesTaskInfo } from "./AppDataAppleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataAppleLanguagesResponseInfo  extends IBaseResponseInfo    {
         

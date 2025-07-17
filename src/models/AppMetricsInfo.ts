@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppMetricsInfo   {
         
         /** number of organic SERPs where the product ranks #1 */

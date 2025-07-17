@@ -1,6 +1,6 @@
 import { SerpGoogleDatasetSearchTasksReadyResultInfo, ISerpGoogleDatasetSearchTasksReadyResultInfo } from "./SerpGoogleDatasetSearchTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleDatasetSearchTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

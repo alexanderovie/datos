@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentGenerationParaphraseLiveResultInfo   {
         
         /** number of input tokens in the POST request */

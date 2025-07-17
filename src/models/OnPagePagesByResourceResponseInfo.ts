@@ -1,6 +1,6 @@
 import { OnPagePagesByResourceTaskInfo, IOnPagePagesByResourceTaskInfo } from "./OnPagePagesByResourceTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPagePagesByResourceResponseInfo  extends IBaseResponseInfo    {
         

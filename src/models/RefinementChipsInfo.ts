@@ -1,5 +1,5 @@
 import { RefinementChipsElement, IRefinementChipsElement } from "./RefinementChipsElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IRefinementChipsInfo   {
         

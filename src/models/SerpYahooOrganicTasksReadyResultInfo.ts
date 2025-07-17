@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpYahooOrganicTasksReadyResultInfo   {
         
         /** task identifier of the completed task

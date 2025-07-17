@@ -1,6 +1,6 @@
 import { ContentGenerationGrammarRulesTaskInfo, IContentGenerationGrammarRulesTaskInfo } from "./ContentGenerationGrammarRulesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentGenerationGrammarRulesResponseInfo  extends IBaseResponseInfo    {
         

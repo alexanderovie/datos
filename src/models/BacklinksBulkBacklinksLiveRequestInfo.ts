@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksBulkBacklinksLiveRequestInfo   {
         
         /** domains, subdomains or webpages to get the number of backlinks for

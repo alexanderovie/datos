@@ -1,5 +1,5 @@
 import { TechnologyCategoryInfo, ITechnologyCategoryInfo } from "./TechnologyCategoryInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IGroups   {
         

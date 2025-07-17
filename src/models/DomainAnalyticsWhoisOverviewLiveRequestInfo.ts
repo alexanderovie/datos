@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDomainAnalyticsWhoisOverviewLiveRequestInfo   {
         
         /** the maximum number of returned domains

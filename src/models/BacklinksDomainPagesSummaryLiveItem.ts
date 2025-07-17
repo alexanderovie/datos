@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksDomainPagesSummaryLiveItem   {
         
         /** type of element */

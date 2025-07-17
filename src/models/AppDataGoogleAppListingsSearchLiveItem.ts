@@ -1,5 +1,5 @@
-import { AppDataGooglePlayInfoOrganicSerpElementItem, IAppDataGooglePlayInfoOrganicSerpElementItem } from "./AppDataGooglePlayInfoOrganicSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { GooglePlayInfoOrganic, IGooglePlayInfoOrganic } from "./GooglePlayInfoOrganic";
+
 
 export interface IAppDataGoogleAppListingsSearchLiveItem   {
         
@@ -26,7 +26,7 @@ example:
         time_update?: string | undefined
         
         /** detailed information about the app */
-        item?: AppDataGooglePlayInfoOrganicSerpElementItem | undefined
+        item?: GooglePlayInfoOrganic | undefined
 
     [key: string]: any;
 
@@ -64,7 +64,7 @@ example:
     
     /** detailed information about the app */
 
-    item?: AppDataGooglePlayInfoOrganicSerpElementItem | undefined;
+    item?: GooglePlayInfoOrganic | undefined;
 
     [key: string]: any;
 
@@ -92,7 +92,7 @@ example:
             this.language_code = data["language_code"];
             this.check_url = data["check_url"];
             this.time_update = data["time_update"];
-            this.item = data["item"] ? AppDataGooglePlayInfoOrganicSerpElementItem.fromJS(data["item"]) : <any>undefined;
+            this.item = data["item"] ? GooglePlayInfoOrganic.fromJS(data["item"]) : <any>undefined;
         }
     }
 
@@ -116,7 +116,7 @@ example:
         data["language_code"] = this.language_code;
         data["check_url"] = this.check_url;
         data["time_update"] = this.time_update;
-        data["item"] = this.item ? AppDataGooglePlayInfoOrganicSerpElementItem.fromJS(this.item)?.toJSON() : <any>undefined;
+        data["item"] = this.item ? GooglePlayInfoOrganic.fromJS(this.item)?.toJSON() : <any>undefined;
         return data;
     }
 }

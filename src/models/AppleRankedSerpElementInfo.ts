@@ -1,5 +1,5 @@
-import { AppDataAppStoreSearchOrganicSerpElementItem, IAppDataAppStoreSearchOrganicSerpElementItem } from "./AppDataAppStoreSearchOrganicSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchOrganic";
+
 
 export interface IAppleRankedSerpElementInfo   {
         
@@ -8,7 +8,7 @@ export interface IAppleRankedSerpElementInfo   {
         
         /** contains data on the SERP element
 the list of supported SERP elements can be found below */
-        serp_item?: AppDataAppStoreSearchOrganicSerpElementItem | undefined
+        serp_item?: AppStoreSearchOrganic | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
@@ -43,7 +43,7 @@ export class AppleRankedSerpElementInfo  implements IAppleRankedSerpElementInfo 
     /** contains data on the SERP element
 the list of supported SERP elements can be found below */
 
-    serp_item?: AppDataAppStoreSearchOrganicSerpElementItem | undefined;
+    serp_item?: AppStoreSearchOrganic | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
@@ -90,7 +90,7 @@ in this case, will equal null */
                     this[property] = data[property];
             }
             this.se_type = data["se_type"];
-            this.serp_item = data["serp_item"] ? AppDataAppStoreSearchOrganicSerpElementItem.fromJS(data["serp_item"]) : <any>undefined;
+            this.serp_item = data["serp_item"] ? AppStoreSearchOrganic.fromJS(data["serp_item"]) : <any>undefined;
             this.check_url = data["check_url"];
             this.se_results_count = data["se_results_count"];
             this.last_updated_time = data["last_updated_time"];
@@ -113,7 +113,7 @@ in this case, will equal null */
         
         
         data["se_type"] = this.se_type;
-        data["serp_item"] = this.serp_item ? AppDataAppStoreSearchOrganicSerpElementItem.fromJS(this.serp_item)?.toJSON() : <any>undefined;
+        data["serp_item"] = this.serp_item ? AppStoreSearchOrganic.fromJS(this.serp_item)?.toJSON() : <any>undefined;
         data["check_url"] = this.check_url;
         data["se_results_count"] = this.se_results_count;
         data["last_updated_time"] = this.last_updated_time;

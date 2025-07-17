@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksSummaryLiveRequestInfo   {
         
         /** domain, subdomain or webpage to get data for

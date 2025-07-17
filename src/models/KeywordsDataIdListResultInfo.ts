@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKeywordsDataIdListResultInfo   {
         
         /** id of the task */

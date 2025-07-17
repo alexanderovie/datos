@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo, IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo } from "./DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

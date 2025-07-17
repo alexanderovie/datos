@@ -1,6 +1,6 @@
 import { SerpBingLocationsCountryTaskInfo, ISerpBingLocationsCountryTaskInfo } from "./SerpBingLocationsCountryTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBingLocationsCountryResponseInfo  extends IBaseResponseInfo    {
         

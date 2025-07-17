@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleSerpCompetitorsLiveTaskInfo, IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo } from "./DataforseoLabsGoogleSerpCompetitorsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleSerpCompetitorsLiveResponseInfo  extends IBaseResponseInfo    {
         

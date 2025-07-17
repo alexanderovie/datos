@@ -5,7 +5,7 @@ import { KeywordProperties, IKeywordProperties } from "./KeywordProperties";
 import { SerpInfo, ISerpInfo } from "./SerpInfo";
 import { AvgBacklinksInfo, IAvgBacklinksInfo } from "./AvgBacklinksInfo";
 import { SearchIntentInfo, ISearchIntentInfo } from "./SearchIntentInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleKeywordOverviewLiveItem   {
         

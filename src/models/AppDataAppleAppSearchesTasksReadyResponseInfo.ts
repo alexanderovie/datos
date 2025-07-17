@@ -1,6 +1,6 @@
 import { AppDataAppleAppSearchesTasksReadyTaskInfo, IAppDataAppleAppSearchesTasksReadyTaskInfo } from "./AppDataAppleAppSearchesTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataAppleAppSearchesTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

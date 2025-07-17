@@ -1,6 +1,6 @@
 import { OnPageKeywordDensityResultInfo, IOnPageKeywordDensityResultInfo } from "./OnPageKeywordDensityResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageKeywordDensityTaskInfo  extends IBaseResponseTaskInfo    {
         

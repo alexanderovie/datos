@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMerchantGoogleProductInfoTaskPostRequestInfo   {
         
         /** unique product identifier on Google Shopping

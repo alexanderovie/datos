@@ -1,5 +1,5 @@
-import { BaseOnPageLinkItemInfo, IBaseOnPageLinkItemInfo } from "./BaseOnPageLinkItemInfo";
-import { ApiException, throwException } from "./ApiException"
+import { BaseOnPageLinkItem, IBaseOnPageLinkItem } from "./BaseOnPageLinkItem";
+
 
 export interface IOnPageRedirectChainsItem   {
         
@@ -8,7 +8,7 @@ if true, the last URL from the chain redirects back to the original URL */
         is_redirect_loop?: boolean | undefined
         
         /** contains links that form a chain */
-        chain?: BaseOnPageLinkItemInfo[] | undefined
+        chain?: BaseOnPageLinkItem[] | undefined
 
     [key: string]: any;
 
@@ -23,7 +23,7 @@ if true, the last URL from the chain redirects back to the original URL */
     
     /** contains links that form a chain */
 
-    chain?: BaseOnPageLinkItemInfo[] | undefined;
+    chain?: BaseOnPageLinkItem[] | undefined;
 
     [key: string]: any;
 
@@ -49,7 +49,7 @@ if true, the last URL from the chain redirects back to the original URL */
             if (Array.isArray(data["chain"])) {
                 this.chain = [];
                 for (let item of data["chain"]) {
-                    this.chain.push(BaseOnPageLinkItemInfo.fromJS(item));
+                    this.chain.push(BaseOnPageLinkItem.fromJS(item));
                 }
             }
         }

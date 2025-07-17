@@ -1,5 +1,5 @@
 import { AppendixFunctionTypeInfo, IAppendixFunctionTypeInfo } from "./AppendixFunctionTypeInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixSellersGoogleMerchantLimitsRatesDataInfo   {
         

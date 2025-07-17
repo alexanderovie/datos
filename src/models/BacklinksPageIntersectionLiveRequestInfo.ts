@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksPageIntersectionLiveRequestInfo   {
         
         /** domains, subdomains or webpages to get links for

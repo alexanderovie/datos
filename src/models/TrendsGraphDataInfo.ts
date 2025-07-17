@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ITrendsGraphDataInfo   {
         
         /** start date of the corresponding time range

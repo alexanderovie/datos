@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { AmazonRankedSerpElement, IAmazonRankedSerpElement } from "./AmazonRankedSerpElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonRankedKeywordsLiveItem   {
         

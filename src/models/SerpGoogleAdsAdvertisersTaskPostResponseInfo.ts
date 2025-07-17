@@ -1,6 +1,6 @@
 import { SerpGoogleAdsAdvertisersTaskPostTaskInfo, ISerpGoogleAdsAdvertisersTaskPostTaskInfo } from "./SerpGoogleAdsAdvertisersTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleAdsAdvertisersTaskPostResponseInfo  extends IBaseResponseInfo    {
         

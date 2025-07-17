@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleSearchByImageTasksReadyResultInfo   {
         
         /** task identifier of the completed task

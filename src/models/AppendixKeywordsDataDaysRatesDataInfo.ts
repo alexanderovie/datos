@@ -3,7 +3,7 @@ import { AppendixBingKeywordsDataLimitsRatesDataInfo, IAppendixBingKeywordsDataL
 import { AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo, IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo } from "./AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo";
 import { AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo, IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo } from "./AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo";
 import { AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo, IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo } from "./AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixKeywordsDataDaysRatesDataInfo   {
         

@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleAppIntersectionLiveItem, IDataforseoLabsGoogleAppIntersectionLiveItem } from "./DataforseoLabsGoogleAppIntersectionLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleAppIntersectionLiveResultInfo   {
         

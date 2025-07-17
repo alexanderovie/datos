@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ICacheControl   {
         
         /** indicates whether the page is cacheable */

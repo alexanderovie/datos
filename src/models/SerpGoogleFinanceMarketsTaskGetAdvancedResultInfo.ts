@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleFinanceSerpElementItem, IBaseGoogleFinanceSerpElementItem } from "./BaseGoogleFinanceSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementItem } from "./BaseSerpApiGoogleFinanceElementItem";
+
 
 export interface ISerpGoogleFinanceMarketsTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ possible item types: google_finance_hero_groups, google_finance_explore_market_t
         
         /** market indexes related to the market trends element
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseGoogleFinanceSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ possible item types: google_finance_hero_groups, google_finance_explore_market_t
     /** market indexes related to the market trends element
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseGoogleFinanceSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ possible type of items: google_finance_asset_pair_element, google_finance_market
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleFinanceSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleFinanceElementItem.fromJS(item));
                 }
             }
         }

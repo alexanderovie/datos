@@ -1,6 +1,6 @@
 import { SerpGoogleLanguagesResultInfo, ISerpGoogleLanguagesResultInfo } from "./SerpGoogleLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         

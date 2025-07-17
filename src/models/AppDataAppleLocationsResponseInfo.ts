@@ -1,6 +1,6 @@
 import { AppDataAppleLocationsTaskInfo, IAppDataAppleLocationsTaskInfo } from "./AppDataAppleLocationsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataAppleLocationsResponseInfo  extends IBaseResponseInfo    {
         

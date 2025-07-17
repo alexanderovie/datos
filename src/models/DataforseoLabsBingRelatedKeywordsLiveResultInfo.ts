@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { DataforseoLabsRelatedKeywordsLiveItem, IDataforseoLabsRelatedKeywordsLiveItem } from "./DataforseoLabsRelatedKeywordsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingRelatedKeywordsLiveResultInfo   {
         

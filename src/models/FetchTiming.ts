@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IFetchTiming   {
         
         /** indicates how many seconds it took to download a page */

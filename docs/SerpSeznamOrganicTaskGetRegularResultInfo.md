@@ -16,4 +16,4 @@
 **item_types** | **string[]** | types of search results found in SERP<br>contains types of all search results (items) found in the returned SERP<br>possible item types:<br>images, local_pack, organic, related_searches, top_stories, featured_snippet, video<br>note that this array contains all types of search results found in the returned SERP;<br>however, this endpoint provides data for the organic type only<br>to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseSerpElementItem[]** | items in SERP |[optional]|
+**items** | **BaseSerpApiElementItem[]** | items in SERP |[optional]|

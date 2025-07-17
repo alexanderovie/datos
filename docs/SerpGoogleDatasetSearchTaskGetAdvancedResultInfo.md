@@ -13,4 +13,4 @@
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP.<br>possible item type: dataset |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **SerpGoogleDatasetAdvancedItem[]** | items of the element |[optional]|
+**items** | **Dataset[]** | items of the element |[optional]|

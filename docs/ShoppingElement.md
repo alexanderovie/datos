@@ -12,4 +12,4 @@
 **marketplace** | **string** | merchant account provider<br>commerce site that hosts products or websites of individual sellers under the same merchant account<br>example:<br>by Google |[optional]|
 **marketplace_url** | **string** | relevant marketplace URL<br>URL of the page on the marketplace website where the product is hosted |[optional]|
 **url** | **string** | URL |[optional]|
-**rating** | **BusinessDataRatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|
+**rating** | **RatingElement** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|

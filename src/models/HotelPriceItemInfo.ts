@@ -1,5 +1,5 @@
 import { HotelInfoPriceOffer, IHotelInfoPriceOffer } from "./HotelInfoPriceOffer";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelPriceItemInfo   {
         

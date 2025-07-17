@@ -1,6 +1,6 @@
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { BaseAppDataSerpElementItem, IBaseAppDataSerpElementItem } from "./BaseAppDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+import { AppStoreReviewsSearch, IAppStoreReviewsSearch } from "./AppStoreReviewsSearch";
+
 
 export interface IAppDataAppleAppReviewsTaskGetAdvancedResultInfo   {
         
@@ -35,7 +35,7 @@ title of the application for which the reviews are collected */
         
         /** rating of the app
 rating of the application for which the reviews are collected */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews */
@@ -46,7 +46,7 @@ you can get more results by using the depth parameter when setting a task */
         items_count?: number | undefined
         
         /** found reviews */
-        items?: BaseAppDataSerpElementItem[] | undefined
+        items?: AppStoreReviewsSearch[] | undefined
 
     [key: string]: any;
 
@@ -94,7 +94,7 @@ title of the application for which the reviews are collected */
     /** rating of the app
 rating of the application for which the reviews are collected */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews */
@@ -108,7 +108,7 @@ you can get more results by using the depth parameter when setting a task */
     
     /** found reviews */
 
-    items?: BaseAppDataSerpElementItem[] | undefined;
+    items?: AppStoreReviewsSearch[] | undefined;
 
     [key: string]: any;
 
@@ -138,13 +138,13 @@ you can get more results by using the depth parameter when setting a task */
             this.check_url = data["check_url"];
             this.datetime = data["datetime"];
             this.title = data["title"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.reviews_count = data["reviews_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAppDataSerpElementItem.fromJS(item));
+                    this.items.push(AppStoreReviewsSearch.fromJS(item));
                 }
             }
         }
@@ -172,7 +172,7 @@ you can get more results by using the depth parameter when setting a task */
         data["check_url"] = this.check_url;
         data["datetime"] = this.datetime;
         data["title"] = this.title;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["reviews_count"] = this.reviews_count;
         data["items_count"] = this.items_count;
         data["items"] = null;

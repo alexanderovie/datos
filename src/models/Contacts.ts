@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContacts   {
         
         /** array of telephone numbers */

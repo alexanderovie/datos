@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppsInfo   {
         
         /** ID of the app */

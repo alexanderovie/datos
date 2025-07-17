@@ -1,6 +1,6 @@
 import { ContentAnalysisCategoryTrendsLiveTaskInfo, IContentAnalysisCategoryTrendsLiveTaskInfo } from "./ContentAnalysisCategoryTrendsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisCategoryTrendsLiveResponseInfo  extends IBaseResponseInfo    {
         

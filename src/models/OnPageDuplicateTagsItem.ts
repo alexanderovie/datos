@@ -1,5 +1,5 @@
-import { BaseOnPageResourceItemInfo, IBaseOnPageResourceItemInfo } from "./BaseOnPageResourceItemInfo";
-import { ApiException, throwException } from "./ApiException"
+import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IOnPageDuplicateTagsItem   {
         
@@ -10,7 +10,7 @@ export interface IOnPageDuplicateTagsItem   {
         total_count?: number | undefined
         
         /** pages with duplicate tags */
-        pages?: BaseOnPageResourceItemInfo[] | undefined
+        pages?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -28,7 +28,7 @@ export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
     
     /** pages with duplicate tags */
 
-    pages?: BaseOnPageResourceItemInfo[] | undefined;
+    pages?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -55,7 +55,7 @@ export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
             if (Array.isArray(data["pages"])) {
                 this.pages = [];
                 for (let item of data["pages"]) {
-                    this.pages.push(BaseOnPageResourceItemInfo.fromJS(item));
+                    this.pages.push(BaseOnPageResourceItem.fromJS(item));
                 }
             }
         }

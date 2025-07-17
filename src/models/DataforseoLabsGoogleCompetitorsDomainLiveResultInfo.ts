@@ -1,5 +1,5 @@
 import { DataforseoLabsCompetitorsDomainLiveItem, IDataforseoLabsCompetitorsDomainLiveItem } from "./DataforseoLabsCompetitorsDomainLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo   {
         

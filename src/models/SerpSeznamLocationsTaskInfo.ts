@@ -1,6 +1,6 @@
 import { SerpSeznamLocationsResultInfo, ISerpSeznamLocationsResultInfo } from "./SerpSeznamLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpSeznamLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         

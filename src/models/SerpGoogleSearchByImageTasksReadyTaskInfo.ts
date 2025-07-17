@@ -1,6 +1,6 @@
 import { SerpGoogleSearchByImageTasksReadyResultInfo, ISerpGoogleSearchByImageTasksReadyResultInfo } from "./SerpGoogleSearchByImageTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleSearchByImageTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleSearchByImagesElementItem, IBaseSerpApiGoogleSearchByImagesElementItem } from "./BaseSerpApiGoogleSearchByImagesElementItem";
+
 
 export interface ISerpGoogleSearchByImageTaskGetAdvancedResultInfo   {
         
@@ -54,7 +54,7 @@ images */
         items_count?: number | undefined
         
         /** items featured in the faq_box */
-        items?: BaseSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleSearchByImagesElementItem[] | undefined
 
     [key: string]: any;
 
@@ -125,7 +125,7 @@ images */
     
     /** items featured in the faq_box */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleSearchByImagesElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -163,7 +163,7 @@ images */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleSearchByImagesElementItem.fromJS(item));
                 }
             }
         }

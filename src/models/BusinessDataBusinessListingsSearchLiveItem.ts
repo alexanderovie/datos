@@ -1,12 +1,12 @@
 import { AddressInfo, IAddressInfo } from "./AddressInfo";
 import { BusinessDataAttributesInfo, IBusinessDataAttributesInfo } from "./BusinessDataAttributesInfo";
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PeopleAlsoSearch, IPeopleAlsoSearch } from "./PeopleAlsoSearch";
 import { BusinessWorkHoursInfo, IBusinessWorkHoursInfo } from "./BusinessWorkHoursInfo";
 import { PopularTimes, IPopularTimes } from "./PopularTimes";
 import { BaseLocalBusinessLink, IBaseLocalBusinessLink } from "./BaseLocalBusinessLink";
 import { BusinessDataContactInfo, IBusinessDataContactInfo } from "./BusinessDataContactInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataBusinessListingsSearchLiveItem   {
         
@@ -106,7 +106,7 @@ example:
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingInfo | undefined
         
         /** hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -284,7 +284,7 @@ example:
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingInfo | undefined;
     
     /** hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -390,7 +390,7 @@ example:
             this.is_claimed = data["is_claimed"];
             this.attributes = data["attributes"] ? BusinessDataAttributesInfo.fromJS(data["attributes"]) : <any>undefined;
             this.place_topics = data["place_topics"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.hotel_rating = data["hotel_rating"];
             this.price_level = data["price_level"];
             this.rating_distribution = data["rating_distribution"];
@@ -458,7 +458,7 @@ example:
         data["is_claimed"] = this.is_claimed;
         data["attributes"] = this.attributes ? BusinessDataAttributesInfo.fromJS(this.attributes)?.toJSON() : <any>undefined;
         data["place_topics"] = this.place_topics;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["hotel_rating"] = this.hotel_rating;
         data["price_level"] = this.price_level;
         data["rating_distribution"] = this.rating_distribution;

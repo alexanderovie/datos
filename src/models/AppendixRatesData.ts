@@ -1,6 +1,6 @@
 import { AppendixLimitsRatesData, IAppendixLimitsRatesData } from "./AppendixLimitsRatesData";
 import { AppendixStatisticsDataInfo, IAppendixStatisticsDataInfo } from "./AppendixStatisticsDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixRatesData   {
         

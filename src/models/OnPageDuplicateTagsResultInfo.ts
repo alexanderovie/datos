@@ -1,6 +1,6 @@
-import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
+import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageDuplicateTagsItem, IOnPageDuplicateTagsItem } from "./OnPageDuplicateTagsItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageDuplicateTagsResultInfo   {
         
@@ -9,7 +9,7 @@ possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatus | undefined
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website */
@@ -38,7 +38,7 @@ possible values: in_progress, finished */
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatus | undefined;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website */
@@ -79,7 +79,7 @@ displays the number of pages with duplicate tags returned in the response */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
             this.total_pages_count = data["total_pages_count"];
             this.pages_count = data["pages_count"];
             this.items_count = data["items_count"];
@@ -107,7 +107,7 @@ displays the number of pages with duplicate tags returned in the response */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
         data["total_pages_count"] = this.total_pages_count;
         data["pages_count"] = this.pages_count;
         data["items_count"] = this.items_count;

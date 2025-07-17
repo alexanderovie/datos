@@ -1,6 +1,6 @@
 import { SerpBaiduLocationsCountryResultInfo, ISerpBaiduLocationsCountryResultInfo } from "./SerpBaiduLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBaiduLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         

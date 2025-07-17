@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo, IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo } from "./DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

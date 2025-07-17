@@ -13,6 +13,6 @@
 **cid** | **string** | google-defined client id<br>unique id of a local establishment;<br>learn more about the identifier in this help center article |[optional]|
 **feature_id** | **string** | unique identifier of the SERP feature |[optional]|
 **item_types** | **string[]** | item types<br>types of search engine results encountered in the items array;<br>possible item types: google_business_question_item |[optional]|
-**items_without_answers** | **ItemsWithoutAnswers[]** | array of google business question items without answers |[optional]|
+**items_without_answers** | **GoogleBusinessQuestionItem[]** | array of google business question items without answers |[optional]|
 **items_count** | **number** | the number of items in the items array |[optional]|
-**items** | **BusinessDataGoogleQuestionsAndAnswersItem[]** | array of items within google_business_question_item<br>contains answers to the google business questions;<br>the maximum number of answers returned for each question: 5<br>possible item types google_business_answer_element |[optional]|
+**items** | **GoogleBusinessQuestionItem[]** | array of items within google_business_question_item<br>contains answers to the google business questions;<br>the maximum number of answers returned for each question: 5<br>possible item types google_business_answer_element |[optional]|

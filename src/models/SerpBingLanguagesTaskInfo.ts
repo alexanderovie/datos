@@ -1,6 +1,6 @@
 import { SerpBingLanguagesResultInfo, ISerpBingLanguagesResultInfo } from "./SerpBingLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBingLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { LocalPack, ILocalPack } from "./LocalPack";
+
 
 export interface ISerpGoogleLocalFinderLiveAdvancedResultInfo   {
         
@@ -51,7 +51,7 @@ local_pack */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: BaseSerpElementItem[] | undefined
+        items?: LocalPack[] | undefined
 
     [key: string]: any;
 
@@ -118,7 +118,7 @@ local_pack */
     
     /** items of the element */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: LocalPack[] | undefined;
 
     [key: string]: any;
 
@@ -155,7 +155,7 @@ local_pack */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(LocalPack.fromJS(item));
                 }
             }
         }

@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleHistoricalRankOverviewLiveItem, IDataforseoLabsGoogleHistoricalRankOverviewLiveItem } from "./DataforseoLabsGoogleHistoricalRankOverviewLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo   {
         

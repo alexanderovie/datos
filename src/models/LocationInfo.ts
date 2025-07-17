@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ILocationInfo   {
         
         /** name of the event’s venue */

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDomainAnalyticsTechnologiesLocationsResultInfo   {
         
         /** full name of the location */

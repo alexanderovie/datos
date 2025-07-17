@@ -1,6 +1,6 @@
 import { SerpGoogleSearchByImageTasksFixedTaskInfo, ISerpGoogleSearchByImageTasksFixedTaskInfo } from "./SerpGoogleSearchByImageTasksFixedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleSearchByImageTasksFixedResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpIdListRequestInfo   {
         
         /** start time for filtering results

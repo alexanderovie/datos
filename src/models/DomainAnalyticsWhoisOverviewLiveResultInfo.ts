@@ -1,5 +1,5 @@
 import { DomainAnalyticsWhoisOverviewLiveItem, IDomainAnalyticsWhoisOverviewLiveItem } from "./DomainAnalyticsWhoisOverviewLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsWhoisOverviewLiveResultInfo   {
         

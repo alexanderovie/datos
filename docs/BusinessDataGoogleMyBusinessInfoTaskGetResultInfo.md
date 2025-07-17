@@ -12,4 +12,4 @@
 **datetime** | **string** | date and time when the result was received<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
 **item_types** | **string[]** | item types<br>types of search engine results encountered in the items array;<br>possible item types: google_business_info |[optional]|
 **items_count** | **number** | item types<br>the number of items in the items array |[optional]|
-**items** | **BaseBusinessDataSerpElementItem[]** | array of directory items |[optional]|
+**items** | **GoogleBusinessInfo[]** | array of directory items |[optional]|

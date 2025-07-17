@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IHtmlContentInfo   {
         
         /** total size of the text on the page measured in bytes */

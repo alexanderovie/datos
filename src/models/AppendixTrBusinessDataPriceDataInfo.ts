@@ -1,5 +1,5 @@
 import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixTrBusinessDataPriceDataInfo   {
         

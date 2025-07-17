@@ -1,10 +1,10 @@
-import { WorkTimeInfo, IWorkTimeInfo } from "./WorkTimeInfo";
-import { ApiException, throwException } from "./ApiException"
+import { TimeInfo, ITimeInfo } from "./TimeInfo";
+
 
 export interface IPopularWorkTimeInfo   {
         
         /** hours in the 24-hour format */
-        time?: WorkTimeInfo | undefined
+        time?: TimeInfo | undefined
         
         /** popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -19,7 +19,7 @@ export class PopularWorkTimeInfo  implements IPopularWorkTimeInfo {
     
     /** hours in the 24-hour format */
 
-    time?: WorkTimeInfo | undefined;
+    time?: TimeInfo | undefined;
     
     /** popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -47,7 +47,7 @@ higher value corresponds to a busier time of a day */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.time = data["time"] ? WorkTimeInfo.fromJS(data["time"]) : <any>undefined;
+            this.time = data["time"] ? TimeInfo.fromJS(data["time"]) : <any>undefined;
             this.popular_index = data["popular_index"];
         }
     }
@@ -66,7 +66,7 @@ higher value corresponds to a busier time of a day */
 
         
         
-        data["time"] = this.time ? WorkTimeInfo.fromJS(this.time)?.toJSON() : <any>undefined;
+        data["time"] = this.time ? TimeInfo.fromJS(this.time)?.toJSON() : <any>undefined;
         data["popular_index"] = this.popular_index;
         return data;
     }

@@ -1,5 +1,5 @@
 import { DataforseoLabsAmazonRankedKeywordsLiveItem, IDataforseoLabsAmazonRankedKeywordsLiveItem } from "./DataforseoLabsAmazonRankedKeywordsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonRankedKeywordsLiveResultInfo   {
         

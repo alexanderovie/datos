@@ -1,6 +1,6 @@
 import { SerpGoogleOrganicTasksFixedResultInfo, ISerpGoogleOrganicTasksFixedResultInfo } from "./SerpGoogleOrganicTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleOrganicTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         

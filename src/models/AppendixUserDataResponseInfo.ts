@@ -1,6 +1,6 @@
 import { AppendixUserDataTaskInfo, IAppendixUserDataTaskInfo } from "./AppendixUserDataTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixUserDataResponseInfo  extends IBaseResponseInfo    {
         

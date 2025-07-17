@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBusinessDataIdListRequestInfo   {
         
         /** start time for filtering results

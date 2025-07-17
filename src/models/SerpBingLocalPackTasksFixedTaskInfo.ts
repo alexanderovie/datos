@@ -1,6 +1,6 @@
 import { SerpBingLocalPackTasksFixedResultInfo, ISerpBingLocalPackTasksFixedResultInfo } from "./SerpBingLocalPackTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBingLocalPackTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         

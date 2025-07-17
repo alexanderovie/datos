@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsBingRankedKeywordsLiveRequestInfo   {
         
         /** domain name or page url

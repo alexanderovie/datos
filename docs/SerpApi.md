@@ -21,6 +21,14 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleOrganicLiveRegular**](SerpApi.md#googleOrganicLiveRegular) | **POST**  /v3/serp/google/organic/live/regular  |
 [**googleOrganicLiveAdvanced**](SerpApi.md#googleOrganicLiveAdvanced) | **POST**  /v3/serp/google/organic/live/advanced  |
 [**googleOrganicLiveHtml**](SerpApi.md#googleOrganicLiveHtml) | **POST**  /v3/serp/google/organic/live/html  |
+[**serpGoogleAiModeLanguages**](SerpApi.md#serpGoogleAiModeLanguages) | **GET**  /v3/serp/google/ai_mode/languages  |
+[**googleAiModeTaskPost**](SerpApi.md#googleAiModeTaskPost) | **POST**  /v3/serp/google/ai_mode/task_post  |
+[**googleAiModeTasksReady**](SerpApi.md#googleAiModeTasksReady) | **GET**  /v3/serp/google/ai_mode/tasks_ready  |
+[**googleAiModeTasksFixed**](SerpApi.md#googleAiModeTasksFixed) | **GET**  /v3/serp/google/ai_mode/tasks_fixed  |
+[**googleAiModeTaskGetAdvanced**](SerpApi.md#googleAiModeTaskGetAdvanced) | **GET**  /v3/serp/google/ai_mode/task_get/advanced/{id}  |
+[**googleAiModeTaskGetHtml**](SerpApi.md#googleAiModeTaskGetHtml) | **GET**  /v3/serp/google/ai_mode/task_get/html/{id}  |
+[**googleAiModeLiveAdvanced**](SerpApi.md#googleAiModeLiveAdvanced) | **POST**  /v3/serp/google/ai_mode/live/advanced  |
+[**googleAiModeLiveHtml**](SerpApi.md#googleAiModeLiveHtml) | **POST**  /v3/serp/google/ai_mode/live/html  |
 [**googleMapsTaskPost**](SerpApi.md#googleMapsTaskPost) | **POST**  /v3/serp/google/maps/task_post  |
 [**googleMapsTasksReady**](SerpApi.md#googleMapsTasksReady) | **GET**  /v3/serp/google/maps/tasks_ready  |
 [**googleMapsTasksFixed**](SerpApi.md#googleMapsTasksFixed) | **GET**  /v3/serp/google/maps/tasks_fixed  |
@@ -208,8 +216,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
-   task.datetime_from = "2025-02-28 10:55:23 +00:00";
-   task.datetime_to = "2025-04-30 10:55:23 +00:00";
+   task.datetime_from = "2025-04-17 06:05:20 +00:00";
+   task.datetime_to = "2025-06-17 06:05:20 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -960,7 +968,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "88982557-e157-45a2-a312-afc7fc3c09d7";
+ let id = "ea0a6ce2-0475-4df3-b2ec-55dfd875fd4a";
  let response = await api.googleOrganicTaskGetHtml(id);
 ```
 
@@ -1156,6 +1164,468 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**SerpGoogleOrganicLiveHtmlResponseInfo**](SerpGoogleOrganicLiveHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="serpGoogleAiModeLanguages"></a>
+# **serpGoogleAiModeLanguages**
+> SerpGoogleAiModeLanguagesResponseInfo serpGoogleAiModeLanguages()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.serpGoogleAiModeLanguages();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleAiModeLanguagesResponseInfo**](SerpGoogleAiModeLanguagesResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeTaskPost"></a>
+# **googleAiModeTaskPost**
+> SerpGoogleAiModeTaskPostResponseInfo googleAiModeTaskPost()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleAiModeTaskPostRequestInfo();
+   task.keyword = "what is google ai mode";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleAiModeTaskPost([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleAiModeTaskPostRequestInfo[]&gt;**](SerpGoogleAiModeTaskPostRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleAiModeTaskPostResponseInfo**](SerpGoogleAiModeTaskPostResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeTasksReady"></a>
+# **googleAiModeTasksReady**
+> SerpGoogleAiModeTasksReadyResponseInfo googleAiModeTasksReady()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.googleAiModeTasksReady();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleAiModeTasksReadyResponseInfo**](SerpGoogleAiModeTasksReadyResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeTasksFixed"></a>
+# **googleAiModeTasksFixed**
+> SerpGoogleAiModeTasksFixedResponseInfo googleAiModeTasksFixed()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.googleAiModeTasksFixed();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleAiModeTasksFixedResponseInfo**](SerpGoogleAiModeTasksFixedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeTaskGetAdvanced"></a>
+# **googleAiModeTaskGetAdvanced**
+> SerpGoogleAiModeTaskGetAdvancedResponseInfo googleAiModeTaskGetAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = "00000000-0000-0000-0000-000000000000";
+ let response = await api.googleAiModeTaskGetAdvanced(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleAiModeTaskGetAdvancedResponseInfo**](SerpGoogleAiModeTaskGetAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeTaskGetHtml"></a>
+# **googleAiModeTaskGetHtml**
+> SerpGoogleAiModeTaskGetHtmlResponseInfo googleAiModeTaskGetHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = "9525767b-1a1e-4c21-9d15-48c198690d78";
+ let response = await api.googleAiModeTaskGetHtml(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleAiModeTaskGetHtmlResponseInfo**](SerpGoogleAiModeTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeLiveAdvanced"></a>
+# **googleAiModeLiveAdvanced**
+> SerpGoogleAiModeLiveAdvancedResponseInfo googleAiModeLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleAiModeLiveAdvancedRequestInfo();
+   task.keyword = "what is google ai mode";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleAiModeLiveAdvanced([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleAiModeLiveAdvancedRequestInfo[]&gt;**](SerpGoogleAiModeLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleAiModeLiveAdvancedResponseInfo**](SerpGoogleAiModeLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleAiModeLiveHtml"></a>
+# **googleAiModeLiveHtml**
+> SerpGoogleAiModeLiveHtmlResponseInfo googleAiModeLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleAiModeLiveHtmlRequestInfo();
+   task.keyword = "albert einstein";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleAiModeLiveHtml([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleAiModeLiveHtmlRequestInfo[]&gt;**](SerpGoogleAiModeLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleAiModeLiveHtmlResponseInfo**](SerpGoogleAiModeLiveHtmlResponseInfo.md)
 
 ### Authorization
 
@@ -1718,7 +2188,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "d522ac50-e51e-49a3-868b-def0ef7748e2";
+ let id = "90902cec-1adb-4c12-8191-056ad4d0df99";
  let response = await api.googleLocalFinderTaskGetHtml(id);
 ```
 
@@ -2126,7 +2596,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "7119b902-7483-4523-a64c-f057635b9b80";
+ let id = "080e51fa-1a85-4276-b70e-c508dca0633d";
  let response = await api.googleNewsTaskGetHtml(id);
 ```
 
@@ -2821,7 +3291,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "fc90a8ec-249e-4fba-b7f8-1977a536caa2";
+ let id = "81819d03-d6b8-4c7e-ae9a-eaaff352bef0";
  let response = await api.googleImagesTaskGetHtml(id);
 ```
 
@@ -3456,7 +3926,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "897da52f-6b87-4565-adb5-e452e6a912ce";
+ let id = "d1bde53b-dfd2-4169-9778-6816e2c9b781";
  let response = await api.googleJobsTaskGetHtml(id);
 ```
 
@@ -5311,7 +5781,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "89ae2456-6535-4173-b5c9-e4516cd66890";
+ let id = "ed2fd7a3-7879-4ead-a688-8cc669dd9587";
  let response = await api.bingOrganicTaskGetHtml(id);
 ```
 
@@ -5777,7 +6247,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "fa099002-f408-46ed-aa6b-92a30c0e9680";
+ let id = "114c9509-213a-46f5-bc48-f87b71661104";
  let response = await api.bingLocalPackTaskGetHtml(id);
 ```
 
@@ -7445,7 +7915,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "0ae36f7e-4e30-4ce6-9dbb-0eaa80f57f11";
+ let id = "72217fe5-3b41-48bb-b6ba-94b297060d73";
  let response = await api.yahooOrganicTaskGetHtml(id);
 ```
 
@@ -8138,7 +8608,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "f52bcfda-8aac-476f-b901-ac197336c27b";
+ let id = "817d4c16-a201-43f7-a029-72e692cf2eb6";
  let response = await api.baiduOrganicTaskGetHtml(id);
 ```
 
@@ -8483,7 +8953,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "378792fe-140e-429c-ad88-48f46c8f1d6e";
+ let id = "880514c7-55ac-42f0-a7de-e608efff83a7";
  let response = await api.naverOrganicTaskGetHtml(id);
 ```
 
@@ -8995,7 +9465,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "518ce840-70c9-4725-bdb9-0e22cb6afd4f";
+ let id = "747b97b8-ee44-44d0-827b-82b7e854e8b8";
  let response = await api.seznamOrganicTaskGetHtml(id);
 ```
 
@@ -9224,7 +9694,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "55b8b354-be22-4a2a-8a16-245be4734b7d";
+ let id = "13319545-cffb-44c7-8e83-ca04a91aa755";
  let response = await api.googleFinanceExploreTaskGetHtml(id);
 ```
 
@@ -9571,7 +10041,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "5485175c-0b6a-4d61-855a-3039cbd7f935";
+ let id = "b9e2eebc-e319-447f-893f-792ee9892785";
  let response = await api.googleFinanceMarketsTaskGetHtml(id);
 ```
 
@@ -9919,7 +10389,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "ec37fb31-a868-4974-975d-9d3a0cca14d7";
+ let id = "f68de805-4b39-48d7-897c-64388a82a2c6";
  let response = await api.googleFinanceQuoteTaskGetHtml(id);
 ```
 

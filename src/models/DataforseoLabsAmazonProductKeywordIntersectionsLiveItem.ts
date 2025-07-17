@@ -1,6 +1,6 @@
 import { AmazonKeywordData, IAmazonKeywordData } from "./AmazonKeywordData";
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AmazonInfo, IAmazonInfo } from "./AmazonInfo";
+
 
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem   {
         
@@ -11,7 +11,7 @@ export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem   {
         keyword_data?: AmazonKeywordData | undefined
         
         /** data on the intersection */
-        intersection_result?: { [key: string]: BaseAmazonSerpElementItem; } | undefined
+        intersection_result?: { [key: string]: AmazonInfo; } | undefined
 
     [key: string]: any;
 
@@ -29,7 +29,7 @@ export class DataforseoLabsAmazonProductKeywordIntersectionsLiveItem  implements
     
     /** data on the intersection */
 
-    intersection_result?: { [key: string]: BaseAmazonSerpElementItem; } | undefined;
+    intersection_result?: { [key: string]: AmazonInfo; } | undefined;
 
     [key: string]: any;
 

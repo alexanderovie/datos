@@ -1,6 +1,6 @@
 import { SerpGoogleFinanceExploreTaskGetHtmlTaskInfo, ISerpGoogleFinanceExploreTaskGetHtmlTaskInfo } from "./SerpGoogleFinanceExploreTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleFinanceExploreTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         

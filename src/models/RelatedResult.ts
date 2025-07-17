@@ -1,8 +1,8 @@
-import { ImagesElement, IImagesElement } from "./ImagesElement";
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
+import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IRelatedResult   {
         
@@ -15,7 +15,7 @@ export interface IRelatedResult   {
         /** domain where a link points */
         domain?: string | undefined
         
-        /** title of a given link element */
+        /** title of the link */
         title?: string | undefined
         
         /** reference page URL */
@@ -49,8 +49,9 @@ URL to a new search for the same keyword(s) on related sites */
         /** includes additional information appended after the result description in SERP */
         extended_snippet?: string | undefined
         
-        /** images of the element */
-        images?: ImagesElement[] | undefined
+        /** images of the component
+if there are none, equals null */
+        images?: AiModeImagesElement[] | undefined
         
         /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
@@ -58,7 +59,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** price of booking a place for the specified dates of stay */
         price?: PriceInfo | undefined
@@ -71,7 +72,7 @@ the popularity rate based on reviews and displayed in SERP */
 this feature appears after clicking on the three dots next to most results */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** date and time when the result was published
+        /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
@@ -95,7 +96,7 @@ export class RelatedResult  implements IRelatedResult {
 
     domain?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the link */
 
     title?: string | undefined;
     
@@ -140,9 +141,10 @@ URL to a new search for the same keyword(s) on related sites */
 
     extended_snippet?: string | undefined;
     
-    /** images of the element */
+    /** images of the component
+if there are none, equals null */
 
-    images?: ImagesElement[] | undefined;
+    images?: AiModeImagesElement[] | undefined;
     
     /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
@@ -152,7 +154,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** price of booking a place for the specified dates of stay */
 
@@ -168,7 +170,7 @@ this feature appears after clicking on the three dots next to most results */
 
     about_this_result?: AboutThisResultElement | undefined;
     
-    /** date and time when the result was published
+    /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
@@ -212,11 +214,11 @@ example:
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(ImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElement.fromJS(item));
                 }
             }
             this.amp_version = data["amp_version"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.highlighted = data["highlighted"];
             this.about_this_result = data["about_this_result"] ? AboutThisResultElement.fromJS(data["about_this_result"]) : <any>undefined;
@@ -262,7 +264,7 @@ example:
             }
         }
         data["amp_version"] = this.amp_version;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["highlighted"] = this.highlighted;
         data["about_this_result"] = this.about_this_result ? AboutThisResultElement.fromJS(this.about_this_result)?.toJSON() : <any>undefined;

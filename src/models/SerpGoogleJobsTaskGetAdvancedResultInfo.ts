@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { SerpGoogleJobsTaskGetAdvancedItem, ISerpGoogleJobsTaskGetAdvancedItem } from "./SerpGoogleJobsTaskGetAdvancedItem";
-import { ApiException, throwException } from "./ApiException"
+import { GoogleJobsItem, IGoogleJobsItem } from "./GoogleJobsItem";
+
 
 export interface ISerpGoogleJobsTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ google_jobs_item */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: SerpGoogleJobsTaskGetAdvancedItem[] | undefined
+        items?: GoogleJobsItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ google_jobs_item */
     
     /** items of the element */
 
-    items?: SerpGoogleJobsTaskGetAdvancedItem[] | undefined;
+    items?: GoogleJobsItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ google_jobs_item */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(SerpGoogleJobsTaskGetAdvancedItem.fromJS(item));
+                    this.items.push(GoogleJobsItem.fromJS(item));
                 }
             }
         }

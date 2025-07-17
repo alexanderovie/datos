@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo   {
         
         /** keywords
@@ -47,12 +45,12 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
         language_code?: string | undefined
         
-        /** device type
+        /** device types
 optional field
-specify this field if you want to get the data for a particular device type
+specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
-default value:  mobile, desktop, tablet, non_smartphones */
-        device?: string | undefined
+default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
+        device?: string[] | undefined
         
         /** aggregates the returned data to a certain time period
 optional field
@@ -180,13 +178,13 @@ you can receive the list of available languages of the search engines with their
 
     language_code?: string | undefined;
     
-    /** device type
+    /** device types
 optional field
-specify this field if you want to get the data for a particular device type
+specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
-default value:  mobile, desktop, tablet, non_smartphones */
+default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
 
-    device?: string | undefined;
+    device?: string[] | undefined;
     
     /** aggregates the returned data to a certain time period
 optional field

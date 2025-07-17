@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleCategoriesForDomainLiveItem, IDataforseoLabsGoogleCategoriesForDomainLiveItem } from "./DataforseoLabsGoogleCategoriesForDomainLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo   {
         

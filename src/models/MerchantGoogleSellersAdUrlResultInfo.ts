@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMerchantGoogleSellersAdUrlResultInfo   {
         
         /** unique ad click referral parameter */

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBusinessDataSocialMediaPinterestLiveResultInfo   {
         
         /** type of element */

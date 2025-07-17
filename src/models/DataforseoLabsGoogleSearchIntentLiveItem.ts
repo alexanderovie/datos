@@ -1,5 +1,5 @@
 import { KeywordIntentInfo, IKeywordIntentInfo } from "./KeywordIntentInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleSearchIntentLiveItem   {
         

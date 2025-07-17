@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleAvailableHistoryTaskInfo, IDataforseoLabsGoogleAvailableHistoryTaskInfo } from "./DataforseoLabsGoogleAvailableHistoryTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleAvailableHistoryResponseInfo  extends IBaseResponseInfo    {
         

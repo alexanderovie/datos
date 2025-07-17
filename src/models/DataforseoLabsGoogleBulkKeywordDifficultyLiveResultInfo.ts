@@ -1,5 +1,5 @@
 import { DataforseoLabsBulkKeywordDifficultyLiveItem, IDataforseoLabsBulkKeywordDifficultyLiveItem } from "./DataforseoLabsBulkKeywordDifficultyLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo   {
         

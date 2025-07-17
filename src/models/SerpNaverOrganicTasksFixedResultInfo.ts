@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpNaverOrganicTasksFixedResultInfo   {
         
         /** task identifier of the completed task

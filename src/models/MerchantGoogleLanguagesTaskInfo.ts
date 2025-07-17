@@ -1,6 +1,6 @@
 import { MerchantGoogleLanguagesResultInfo, IMerchantGoogleLanguagesResultInfo } from "./MerchantGoogleLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantGoogleLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         

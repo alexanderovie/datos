@@ -1,5 +1,5 @@
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { ItemsGoogleBusinessInfo, IItemsGoogleBusinessInfo } from "./ItemsGoogleBusinessInfo";
+
 
 export interface IBusinessDataGoogleMyBusinessInfoLiveResultInfo   {
         
@@ -42,7 +42,7 @@ the number of items in the items array */
         /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: ItemsGoogleBusinessInfo[] | undefined
 
     [key: string]: any;
 
@@ -98,7 +98,7 @@ the number of items in the items array */
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: ItemsGoogleBusinessInfo[] | undefined;
 
     [key: string]: any;
 
@@ -131,7 +131,7 @@ possible item types: google_business_info */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(ItemsGoogleBusinessInfo.fromJS(item));
                 }
             }
         }

@@ -1,6 +1,6 @@
 import { SerpSeznamOrganicTasksFixedTaskInfo, ISerpSeznamOrganicTasksFixedTaskInfo } from "./SerpSeznamOrganicTasksFixedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpSeznamOrganicTasksFixedResponseInfo  extends IBaseResponseInfo    {
         

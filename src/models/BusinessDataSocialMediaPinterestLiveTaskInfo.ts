@@ -1,6 +1,6 @@
 import { BusinessDataSocialMediaPinterestLiveResultInfo, IBusinessDataSocialMediaPinterestLiveResultInfo } from "./BusinessDataSocialMediaPinterestLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataSocialMediaPinterestLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

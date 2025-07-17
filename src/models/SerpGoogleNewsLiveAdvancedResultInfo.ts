@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleNewsSerpElementItem, IBaseGoogleNewsSerpElementItem } from "./BaseGoogleNewsSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleNewsElementItem, IBaseSerpApiGoogleNewsElementItem } from "./BaseSerpApiGoogleNewsElementItem";
+
 
 export interface ISerpGoogleNewsLiveAdvancedResultInfo   {
         
@@ -54,7 +54,7 @@ top_stories, news_search */
         items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseGoogleNewsSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleNewsElementItem[] | undefined
 
     [key: string]: any;
 
@@ -125,7 +125,7 @@ top_stories, news_search */
     
     /** elements of search results found in SERP */
 
-    items?: BaseGoogleNewsSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleNewsElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -163,7 +163,7 @@ top_stories, news_search */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleNewsSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleNewsElementItem.fromJS(item));
                 }
             }
         }

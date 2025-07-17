@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo   {
         
         /** target domains, subdomains, and webpages

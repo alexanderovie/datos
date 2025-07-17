@@ -1,5 +1,5 @@
 import { DomainAnalyticsTechnologiesTechnologyStatsLiveItem, IDomainAnalyticsTechnologiesTechnologyStatsLiveItem } from "./DomainAnalyticsTechnologiesTechnologyStatsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo   {
         

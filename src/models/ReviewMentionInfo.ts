@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IReviewMentionInfo   {
         
         /** title of the evaluated criterion */

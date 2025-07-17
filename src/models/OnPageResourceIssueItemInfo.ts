@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageResourceIssueItemInfo   {
         
         /** line where the error was found */

@@ -1,6 +1,6 @@
 import { SerpGoogleImagesTaskGetAdvancedResultInfo, ISerpGoogleImagesTaskGetAdvancedResultInfo } from "./SerpGoogleImagesTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleImagesTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

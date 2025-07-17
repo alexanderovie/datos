@@ -1,5 +1,5 @@
 import { ContentAnalysisSummaryInfo, IContentAnalysisSummaryInfo } from "./ContentAnalysisSummaryInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisRatingDistributionLiveResultInfo   {
         

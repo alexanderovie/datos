@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksBulkReferringDomainsLiveItem   {
         
         /** domain, subdomain or webpage from a POST array */

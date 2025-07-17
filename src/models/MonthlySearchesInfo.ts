@@ -1,15 +1,13 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMonthlySearchesInfo   {
         
         /** year */
-        year?: string | undefined
+        year?: number | undefined
         
         /** month */
-        month?: string | undefined
+        month?: number | undefined
         
         /** monthly average search volume rate */
-        search_volume?: string | undefined
+        search_volume?: number | undefined
 
     [key: string]: any;
 
@@ -19,15 +17,15 @@ export class MonthlySearchesInfo  implements IMonthlySearchesInfo {
     
     /** year */
 
-    year?: string | undefined;
+    year?: number | undefined;
     
     /** month */
 
-    month?: string | undefined;
+    month?: number | undefined;
     
     /** monthly average search volume rate */
 
-    search_volume?: string | undefined;
+    search_volume?: number | undefined;
 
     [key: string]: any;
 

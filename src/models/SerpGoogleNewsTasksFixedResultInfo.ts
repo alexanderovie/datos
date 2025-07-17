@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleNewsTasksFixedResultInfo   {
         
         /** task identifier of the completed task

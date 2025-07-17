@@ -1,5 +1,5 @@
 import { DataforseoLabsAmazonProductKeywordIntersectionsLiveItem, IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem } from "./DataforseoLabsAmazonProductKeywordIntersectionsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo   {
         

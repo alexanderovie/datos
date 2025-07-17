@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageMicrodataRequestInfo   {
         
         /** ID of the task

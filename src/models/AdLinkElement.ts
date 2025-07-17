@@ -1,17 +1,15 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAdLinkElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the element */
+        /** reference page title */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
-        /** URL of element */
+        /** reference page URL */
         url?: string | undefined
         
         /** domain where a link points */
@@ -30,15 +28,15 @@ export class AdLinkElement  implements IAdLinkElement {
 
     type?: string | undefined;
     
-    /** title of the element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
     
-    /** URL of element */
+    /** reference page URL */
 
     url?: string | undefined;
     

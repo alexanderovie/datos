@@ -1,17 +1,15 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKnowledgeGraphLinkElementInfo   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** URL link */
+        /** relevant URL */
         url?: string | undefined
         
-        /** domain in SERP of the Ad element */
+        /** website domain */
         domain?: string | undefined
         
         /** text alongside the link title */
@@ -30,15 +28,15 @@ export class KnowledgeGraphLinkElementInfo  implements IKnowledgeGraphLinkElemen
 
     type?: string | undefined;
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** URL link */
+    /** relevant URL */
 
     url?: string | undefined;
     
-    /** domain in SERP of the Ad element */
+    /** website domain */
 
     domain?: string | undefined;
     

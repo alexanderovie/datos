@@ -1,6 +1,6 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixGoogleAdsKeywordsDataPriceData   {
         

@@ -1,11 +1,9 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IRelatedImageSearchesElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the element */
         title?: string | undefined
         
         /** alt tag of the image */
@@ -28,7 +26,7 @@ export class RelatedImageSearchesElement  implements IRelatedImageSearchesElemen
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the element */
 
     title?: string | undefined;
     

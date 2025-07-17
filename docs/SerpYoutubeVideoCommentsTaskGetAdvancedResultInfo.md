@@ -15,4 +15,4 @@
 **title** | **string** | title of the video |[optional]|
 **comments_count** | **number** | number of comments on the video |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseYoutubeSerpElementItem[]** | elements of search results found in SERP |[optional]|
+**items** | **YoutubeComment[]** | elements of search results found in SERP |[optional]|

@@ -1,6 +1,6 @@
 import { SerpYahooLocationsCountryTaskInfo, ISerpYahooLocationsCountryTaskInfo } from "./SerpYahooLocationsCountryTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYahooLocationsCountryResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,5 +1,5 @@
 import { History, IHistory } from "./History";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
         

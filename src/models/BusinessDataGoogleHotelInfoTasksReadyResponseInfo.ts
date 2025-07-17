@@ -1,6 +1,6 @@
 import { BusinessDataGoogleHotelInfoTasksReadyTaskInfo, IBusinessDataGoogleHotelInfoTasksReadyTaskInfo } from "./BusinessDataGoogleHotelInfoTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataGoogleHotelInfoTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

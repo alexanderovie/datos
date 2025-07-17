@@ -1,5 +1,5 @@
 import { HistoricalMetricsBundleInfo, IHistoricalMetricsBundleInfo } from "./HistoricalMetricsBundleInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem   {
         

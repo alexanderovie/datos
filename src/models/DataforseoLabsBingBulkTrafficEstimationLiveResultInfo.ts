@@ -1,5 +1,5 @@
 import { DataforseoLabsBingBulkTrafficEstimationLiveItem, IDataforseoLabsBingBulkTrafficEstimationLiveItem } from "./DataforseoLabsBingBulkTrafficEstimationLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo   {
         

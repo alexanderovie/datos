@@ -1,22 +1,22 @@
-import { ContentAnalysisIdListRequestInfo } from "../models/ContentAnalysisIdListRequestInfo";
-import { ContentAnalysisIdListResponseInfo } from "../models/ContentAnalysisIdListResponseInfo";
-import { ContentAnalysisAvailableFiltersResponseInfo } from "../models/ContentAnalysisAvailableFiltersResponseInfo";
-import { ContentAnalysisLocationsResponseInfo } from "../models/ContentAnalysisLocationsResponseInfo";
-import { ContentAnalysisLanguagesResponseInfo } from "../models/ContentAnalysisLanguagesResponseInfo";
-import { ContentAnalysisCategoriesResponseInfo } from "../models/ContentAnalysisCategoriesResponseInfo";
-import { ContentAnalysisSearchLiveRequestInfo } from "../models/ContentAnalysisSearchLiveRequestInfo";
-import { ContentAnalysisSearchLiveResponseInfo } from "../models/ContentAnalysisSearchLiveResponseInfo";
-import { ContentAnalysisSummaryLiveRequestInfo } from "../models/ContentAnalysisSummaryLiveRequestInfo";
-import { ContentAnalysisSummaryLiveResponseInfo } from "../models/ContentAnalysisSummaryLiveResponseInfo";
-import { ContentAnalysisSentimentAnalysisLiveRequestInfo } from "../models/ContentAnalysisSentimentAnalysisLiveRequestInfo";
-import { ContentAnalysisSentimentAnalysisLiveResponseInfo } from "../models/ContentAnalysisSentimentAnalysisLiveResponseInfo";
-import { ContentAnalysisRatingDistributionLiveRequestInfo } from "../models/ContentAnalysisRatingDistributionLiveRequestInfo";
-import { ContentAnalysisRatingDistributionLiveResponseInfo } from "../models/ContentAnalysisRatingDistributionLiveResponseInfo";
-import { ContentAnalysisPhraseTrendsLiveRequestInfo } from "../models/ContentAnalysisPhraseTrendsLiveRequestInfo";
-import { ContentAnalysisPhraseTrendsLiveResponseInfo } from "../models/ContentAnalysisPhraseTrendsLiveResponseInfo";
-import { ContentAnalysisCategoryTrendsLiveRequestInfo } from "../models/ContentAnalysisCategoryTrendsLiveRequestInfo";
-import { ContentAnalysisCategoryTrendsLiveResponseInfo } from "../models/ContentAnalysisCategoryTrendsLiveResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { ContentAnalysisIdListRequestInfo } from "./../models/ContentAnalysisIdListRequestInfo";
+import { ContentAnalysisIdListResponseInfo } from "./../models/ContentAnalysisIdListResponseInfo";
+import { ContentAnalysisAvailableFiltersResponseInfo } from "./../models/ContentAnalysisAvailableFiltersResponseInfo";
+import { ContentAnalysisLocationsResponseInfo } from "./../models/ContentAnalysisLocationsResponseInfo";
+import { ContentAnalysisLanguagesResponseInfo } from "./../models/ContentAnalysisLanguagesResponseInfo";
+import { ContentAnalysisCategoriesResponseInfo } from "./../models/ContentAnalysisCategoriesResponseInfo";
+import { ContentAnalysisSearchLiveRequestInfo } from "./../models/ContentAnalysisSearchLiveRequestInfo";
+import { ContentAnalysisSearchLiveResponseInfo } from "./../models/ContentAnalysisSearchLiveResponseInfo";
+import { ContentAnalysisSummaryLiveRequestInfo } from "./../models/ContentAnalysisSummaryLiveRequestInfo";
+import { ContentAnalysisSummaryLiveResponseInfo } from "./../models/ContentAnalysisSummaryLiveResponseInfo";
+import { ContentAnalysisSentimentAnalysisLiveRequestInfo } from "./../models/ContentAnalysisSentimentAnalysisLiveRequestInfo";
+import { ContentAnalysisSentimentAnalysisLiveResponseInfo } from "./../models/ContentAnalysisSentimentAnalysisLiveResponseInfo";
+import { ContentAnalysisRatingDistributionLiveRequestInfo } from "./../models/ContentAnalysisRatingDistributionLiveRequestInfo";
+import { ContentAnalysisRatingDistributionLiveResponseInfo } from "./../models/ContentAnalysisRatingDistributionLiveResponseInfo";
+import { ContentAnalysisPhraseTrendsLiveRequestInfo } from "./../models/ContentAnalysisPhraseTrendsLiveRequestInfo";
+import { ContentAnalysisPhraseTrendsLiveResponseInfo } from "./../models/ContentAnalysisPhraseTrendsLiveResponseInfo";
+import { ContentAnalysisCategoryTrendsLiveRequestInfo } from "./../models/ContentAnalysisCategoryTrendsLiveRequestInfo";
+import { ContentAnalysisCategoryTrendsLiveResponseInfo } from "./../models/ContentAnalysisCategoryTrendsLiveResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class ContentAnalysisApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -38,7 +38,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -51,14 +51,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisIdListResponseInfo | null>(null as any);
@@ -66,13 +66,11 @@ export class ContentAnalysisApi {
     contentAnalysisAvailableFilters(): Promise<ContentAnalysisAvailableFiltersResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/available_filters";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -86,14 +84,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisAvailableFiltersResponseInfo | null>(null as any);
@@ -101,13 +99,11 @@ export class ContentAnalysisApi {
     contentAnalysisLocations(): Promise<ContentAnalysisLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -121,14 +117,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisLocationsResponseInfo | null>(null as any);
@@ -136,13 +132,11 @@ export class ContentAnalysisApi {
     contentAnalysisLanguages(): Promise<ContentAnalysisLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -156,14 +150,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisLanguagesResponseInfo | null>(null as any);
@@ -171,13 +165,11 @@ export class ContentAnalysisApi {
     contentAnalysisCategories(): Promise<ContentAnalysisCategoriesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/categories";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -191,14 +183,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisCategoriesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisCategoriesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisCategoriesResponseInfo | null>(null as any);
@@ -213,7 +205,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -226,14 +218,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisSearchLiveResponseInfo | null>(null as any);
@@ -248,7 +240,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -261,14 +253,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisSummaryLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisSummaryLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisSummaryLiveResponseInfo | null>(null as any);
@@ -283,7 +275,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -296,14 +288,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisSentimentAnalysisLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisSentimentAnalysisLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisSentimentAnalysisLiveResponseInfo | null>(null as any);
@@ -318,7 +310,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -331,14 +323,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisRatingDistributionLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisRatingDistributionLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisRatingDistributionLiveResponseInfo | null>(null as any);
@@ -353,7 +345,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -366,14 +358,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisPhraseTrendsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisPhraseTrendsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisPhraseTrendsLiveResponseInfo | null>(null as any);
@@ -388,7 +380,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -401,14 +393,14 @@ export class ContentAnalysisApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentAnalysisCategoryTrendsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentAnalysisCategoryTrendsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentAnalysisCategoryTrendsLiveResponseInfo | null>(null as any);

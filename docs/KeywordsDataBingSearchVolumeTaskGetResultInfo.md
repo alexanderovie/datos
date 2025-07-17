@@ -13,4 +13,4 @@
 **cpc** | **number** | cost-per-click<br>represents the average cost per click (USD) historically paid for the keyword.<br>if there is no data then the value is null |[optional]|
 **search_volume** | **number** | monthly average search volume rate<br>search volume is rounded to the nearest tens |[optional]|
 **categories** | **string[]** | product and service categories<br>our API doesn’t return categories for this endpoint: the parameter will always equal null |[optional]|
-**monthly_searches** | **MonthlySearches[]** | monthly searches<br>represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations<br>if there is no data then the value is null |[optional]|
+**monthly_searches** | **MonthlySearchesInfo[]** | monthly searches<br>represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations<br>if there is no data then the value is null |[optional]|

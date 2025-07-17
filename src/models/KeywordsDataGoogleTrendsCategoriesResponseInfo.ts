@@ -1,6 +1,6 @@
 import { KeywordsDataGoogleTrendsCategoriesTaskInfo, IKeywordsDataGoogleTrendsCategoriesTaskInfo } from "./KeywordsDataGoogleTrendsCategoriesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataGoogleTrendsCategoriesResponseInfo  extends IBaseResponseInfo    {
         

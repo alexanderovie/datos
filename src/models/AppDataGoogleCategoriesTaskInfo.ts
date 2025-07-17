@@ -1,6 +1,6 @@
 import { AppDataGoogleCategoriesResultInfo, IAppDataGoogleCategoriesResultInfo } from "./AppDataGoogleCategoriesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataGoogleCategoriesTaskInfo  extends IBaseResponseTaskInfo    {
         

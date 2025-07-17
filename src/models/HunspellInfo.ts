@@ -1,5 +1,5 @@
 import { HunspellMisspelledInfo, IHunspellMisspelledInfo } from "./HunspellMisspelledInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHunspellInfo   {
         

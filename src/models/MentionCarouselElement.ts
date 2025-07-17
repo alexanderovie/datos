@@ -1,7 +1,7 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
+import { RatingElement, IRatingElement } from "./RatingElement";
 import { LinkElement, ILinkElement } from "./LinkElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMentionCarouselElement   {
         
@@ -16,7 +16,7 @@ export interface IMentionCarouselElement   {
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** additional elements in the mention_carousel item */
         mentioned_in?: LinkElement[] | undefined
@@ -42,7 +42,7 @@ export class MentionCarouselElement  implements IMentionCarouselElement {
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** additional elements in the mention_carousel item */
 
@@ -71,7 +71,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.type = data["type"];
             this.title = data["title"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             if (Array.isArray(data["mentioned_in"])) {
                 this.mentioned_in = [];
                 for (let item of data["mentioned_in"]) {
@@ -98,7 +98,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["type"] = this.type;
         data["title"] = this.title;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["mentioned_in"] = null;
         if (Array.isArray(this.mentioned_in)) {
             data["mentioned_in"] = [];

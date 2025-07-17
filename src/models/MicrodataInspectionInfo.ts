@@ -1,5 +1,5 @@
 import { MicrodataFieldsInfo, IMicrodataFieldsInfo } from "./MicrodataFieldsInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMicrodataInspectionInfo   {
         
@@ -9,7 +9,7 @@ for a full list of available types, please visit schema.org */
         
         /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
-        fields?: MicrodataFieldsInfo | undefined
+        fields?: MicrodataFieldsInfo[] | undefined
 
     [key: string]: any;
 
@@ -25,7 +25,7 @@ for a full list of available types, please visit schema.org */
     /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
 
-    fields?: MicrodataFieldsInfo | undefined;
+    fields?: MicrodataFieldsInfo[] | undefined;
 
     [key: string]: any;
 
@@ -48,7 +48,12 @@ an array of objects containing data fields related to the certain microdata type
                     this[property] = data[property];
             }
             this.types = data["types"];
-            this.fields = data["fields"] ? MicrodataFieldsInfo.fromJS(data["fields"]) : <any>undefined;
+            if (Array.isArray(data["fields"])) {
+                this.fields = [];
+                for (let item of data["fields"]) {
+                    this.fields.push(MicrodataFieldsInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -67,7 +72,15 @@ an array of objects containing data fields related to the certain microdata type
         
         
         data["types"] = this.types;
-        data["fields"] = this.fields ? MicrodataFieldsInfo.fromJS(this.fields)?.toJSON() : <any>undefined;
+        data["fields"] = null;
+        if (Array.isArray(this.fields)) {
+            data["fields"] = [];
+            for (let item of this.fields) {
+                if (item && typeof item.toJSON === "function") {
+                    data["fields"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

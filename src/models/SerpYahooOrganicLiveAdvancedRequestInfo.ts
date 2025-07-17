@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpYahooOrganicLiveAdvancedRequestInfo   {
         
         /** direct URL of the search query

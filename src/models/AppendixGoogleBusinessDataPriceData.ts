@@ -1,7 +1,7 @@
 import { AppendixAKeywordsDataPriceDataInfo, IAppendixAKeywordsDataPriceDataInfo } from "./AppendixAKeywordsDataPriceDataInfo";
 import { AppendixHotelInfoGoogleBusinessDataPriceData, IAppendixHotelInfoGoogleBusinessDataPriceData } from "./AppendixHotelInfoGoogleBusinessDataPriceData";
 import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixGoogleBusinessDataPriceData   {
         

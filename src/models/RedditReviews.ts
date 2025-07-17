@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IRedditReviews   {
         
         /** the name of the subreddit */

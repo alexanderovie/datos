@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleOrganicTasksFixedResultInfo   {
         
         /** task identifier of the completed task

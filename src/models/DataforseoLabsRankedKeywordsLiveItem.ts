@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { RankedSerpElement, IRankedSerpElement } from "./RankedSerpElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsRankedKeywordsLiveItem   {
         

@@ -1,6 +1,6 @@
 import { SerpTasksReadyTaskInfo, ISerpTasksReadyTaskInfo } from "./SerpTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

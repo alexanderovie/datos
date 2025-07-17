@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo, IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo } from "./DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,6 +1,6 @@
 import { DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo, IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo } from "./DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

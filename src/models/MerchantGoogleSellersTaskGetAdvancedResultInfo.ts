@@ -1,6 +1,6 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
-import { BaseMerchantSerpElementItem, IBaseMerchantSerpElementItem } from "./BaseMerchantSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseMerchantGoogleShoppingSellersElementItem, IBaseMerchantGoogleShoppingSellersElementItem } from "./BaseMerchantGoogleShoppingSellersElementItem";
+
 
 export interface IMerchantGoogleSellersTaskGetAdvancedResultInfo   {
         
@@ -53,7 +53,7 @@ shops_list, buy_on_google */
         items_count?: number | undefined
         
         /** items in SERP */
-        items?: BaseMerchantSerpElementItem[] | undefined
+        items?: BaseMerchantGoogleShoppingSellersElementItem[] | undefined
 
     [key: string]: any;
 
@@ -124,7 +124,7 @@ shops_list, buy_on_google */
     
     /** items in SERP */
 
-    items?: BaseMerchantSerpElementItem[] | undefined;
+    items?: BaseMerchantGoogleShoppingSellersElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -162,7 +162,7 @@ shops_list, buy_on_google */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseMerchantSerpElementItem.fromJS(item));
+                    this.items.push(BaseMerchantGoogleShoppingSellersElementItem.fromJS(item));
                 }
             }
         }

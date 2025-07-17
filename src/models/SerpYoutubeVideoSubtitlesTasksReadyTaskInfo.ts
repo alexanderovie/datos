@@ -1,6 +1,6 @@
 import { SerpYoutubeVideoSubtitlesTasksReadyResultInfo, ISerpYoutubeVideoSubtitlesTasksReadyResultInfo } from "./SerpYoutubeVideoSubtitlesTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

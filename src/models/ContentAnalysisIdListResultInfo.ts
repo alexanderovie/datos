@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentAnalysisIdListResultInfo   {
         
         /** id of the task */

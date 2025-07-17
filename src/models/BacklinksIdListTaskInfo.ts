@@ -1,6 +1,6 @@
 import { BacklinksIdListResultInfo, IBacklinksIdListResultInfo } from "./BacklinksIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksIdListTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,6 +1,6 @@
 import { OnPageMicrodataResultInfo, IOnPageMicrodataResultInfo } from "./OnPageMicrodataResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageMicrodataTaskInfo  extends IBaseResponseTaskInfo    {
         

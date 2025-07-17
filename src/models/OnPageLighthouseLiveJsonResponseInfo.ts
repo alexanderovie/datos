@@ -1,6 +1,6 @@
 import { OnPageLighthouseLiveJsonTaskInfo, IOnPageLighthouseLiveJsonTaskInfo } from "./OnPageLighthouseLiveJsonTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageLighthouseLiveJsonResponseInfo  extends IBaseResponseInfo    {
         

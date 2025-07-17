@@ -1,5 +1,5 @@
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AmazonProductInfo, IAmazonProductInfo } from "./AmazonProductInfo";
+
 
 export interface IMerchantAmazonAsinTaskGetAdvancedResultInfo   {
         
@@ -40,7 +40,7 @@ amazon_product_info */
         items_count?: number | undefined
         
         /** Amazon product info items */
-        items?: BaseAmazonSerpElementItem[] | undefined
+        items?: AmazonProductInfo[] | undefined
 
     [key: string]: any;
 
@@ -95,7 +95,7 @@ amazon_product_info */
     
     /** Amazon product info items */
 
-    items?: BaseAmazonSerpElementItem[] | undefined;
+    items?: AmazonProductInfo[] | undefined;
 
     [key: string]: any;
 
@@ -129,7 +129,7 @@ amazon_product_info */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAmazonSerpElementItem.fromJS(item));
+                    this.items.push(AmazonProductInfo.fromJS(item));
                 }
             }
         }

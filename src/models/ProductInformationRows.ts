@@ -1,5 +1,5 @@
-import { BaseProductInformationRowItem, IBaseProductInformationRowItem } from "./BaseProductInformationRowItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseMerchantAmazonProductInformationRowElementItem, IBaseMerchantAmazonProductInformationRowElementItem } from "./BaseMerchantAmazonProductInformationRowElementItem";
+
 
 export interface IProductInformationRows   {
         
@@ -10,7 +10,7 @@ export interface IProductInformationRows   {
         title?: string | undefined
         
         /** rows containing related product information */
-        rows?: BaseProductInformationRowItem[] | undefined
+        rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined
 
     [key: string]: any;
 
@@ -28,7 +28,7 @@ export class ProductInformationRows  implements IProductInformationRows {
     
     /** rows containing related product information */
 
-    rows?: BaseProductInformationRowItem[] | undefined;
+    rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -55,7 +55,7 @@ export class ProductInformationRows  implements IProductInformationRows {
             if (Array.isArray(data["rows"])) {
                 this.rows = [];
                 for (let item of data["rows"]) {
-                    this.rows.push(BaseProductInformationRowItem.fromJS(item));
+                    this.rows.push(BaseMerchantAmazonProductInformationRowElementItem.fromJS(item));
                 }
             }
         }

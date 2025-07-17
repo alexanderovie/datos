@@ -1,5 +1,5 @@
 import { BacklinksBulkSpamScoreLiveItem, IBacklinksBulkSpamScoreLiveItem } from "./BacklinksBulkSpamScoreLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksBulkSpamScoreLiveResultInfo   {
         

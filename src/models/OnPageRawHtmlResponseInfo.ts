@@ -1,6 +1,6 @@
 import { OnPageRawHtmlTaskInfo, IOnPageRawHtmlTaskInfo } from "./OnPageRawHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageRawHtmlResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,6 +1,6 @@
 import { HotelPriceItemInfo, IHotelPriceItemInfo } from "./HotelPriceItemInfo";
 import { PricesByDates, IPricesByDates } from "./PricesByDates";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelPriceInfo   {
         

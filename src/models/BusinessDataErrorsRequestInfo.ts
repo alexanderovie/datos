@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBusinessDataErrorsRequestInfo   {
         
         /** the maximum number of returned tasks that responded with an error

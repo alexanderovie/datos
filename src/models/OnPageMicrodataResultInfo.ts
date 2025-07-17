@@ -1,7 +1,7 @@
-import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
+import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { TestSummary, ITestSummary } from "./TestSummary";
-import { OnPageMicrodataItem, IOnPageMicrodataItem } from "./OnPageMicrodataItem";
-import { ApiException, throwException } from "./ApiException"
+import { OnPageMicrodataInfoItem, IOnPageMicrodataInfoItem } from "./OnPageMicrodataInfoItem";
+
 
 export interface IOnPageMicrodataResultInfo   {
         
@@ -10,7 +10,7 @@ possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatus | undefined
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** microdata validation test results */
         test_summary?: TestSummary | undefined
@@ -19,7 +19,7 @@ possible values: in_progress, finished */
         items_count?: number | undefined
         
         /** items array */
-        items?: OnPageMicrodataItem[] | undefined
+        items?: OnPageMicrodataInfoItem[] | undefined
 
     [key: string]: any;
 
@@ -34,7 +34,7 @@ possible values: in_progress, finished */
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatus | undefined;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** microdata validation test results */
 
@@ -46,7 +46,7 @@ possible values: in_progress, finished */
     
     /** items array */
 
-    items?: OnPageMicrodataItem[] | undefined;
+    items?: OnPageMicrodataInfoItem[] | undefined;
 
     [key: string]: any;
 
@@ -69,13 +69,13 @@ possible values: in_progress, finished */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
             this.test_summary = data["test_summary"] ? TestSummary.fromJS(data["test_summary"]) : <any>undefined;
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(OnPageMicrodataItem.fromJS(item));
+                    this.items.push(OnPageMicrodataInfoItem.fromJS(item));
                 }
             }
         }
@@ -96,7 +96,7 @@ possible values: in_progress, finished */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
         data["test_summary"] = this.test_summary ? TestSummary.fromJS(this.test_summary)?.toJSON() : <any>undefined;
         data["items_count"] = this.items_count;
         data["items"] = null;

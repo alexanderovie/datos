@@ -1,7 +1,7 @@
 import { AppendixRatesData, IAppendixRatesData } from "./AppendixRatesData";
 import { AppendixMoneyData, IAppendixMoneyData } from "./AppendixMoneyData";
 import { AppendixPriceData, IAppendixPriceData } from "./AppendixPriceData";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixUserDataResultInfo   {
         

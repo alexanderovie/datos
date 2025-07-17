@@ -5,7 +5,7 @@ import { AppendixClickstreamDataKeywordsDataPriceData, IAppendixClickstreamDataK
 import { AppendixGoogleAdsKeywordsDataPriceData, IAppendixGoogleAdsKeywordsDataPriceData } from "./AppendixGoogleAdsKeywordsDataPriceData";
 import { AppendixDataforseoTrendsKeywordsDataPriceData, IAppendixDataforseoTrendsKeywordsDataPriceData } from "./AppendixDataforseoTrendsKeywordsDataPriceData";
 import { AppendixExploreKeywordsDataPriceData, IAppendixExploreKeywordsDataPriceData } from "./AppendixExploreKeywordsDataPriceData";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixKeywordsDataPriceData   {
         

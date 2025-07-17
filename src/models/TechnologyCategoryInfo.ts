@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ITechnologyCategoryInfo   {
         
         /** id of the technology category

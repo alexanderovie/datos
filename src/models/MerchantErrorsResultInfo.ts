@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMerchantErrorsResultInfo   {
         
         /** id of the task */

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsMetricsInfo   {
         
         /** number of organic SERPs where the domain or subdomain ranks #1 */

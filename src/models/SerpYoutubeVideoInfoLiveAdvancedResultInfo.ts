@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseYoutubeSerpElementItem, IBaseYoutubeSerpElementItem } from "./BaseYoutubeSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { YoutubeVideoInfo, IYoutubeVideoInfo } from "./YoutubeVideoInfo";
+
 
 export interface ISerpYoutubeVideoInfoLiveAdvancedResultInfo   {
         
@@ -40,7 +40,7 @@ youtube_video_info */
         items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseYoutubeSerpElementItem[] | undefined
+        items?: YoutubeVideoInfo[] | undefined
 
     [key: string]: any;
 
@@ -94,7 +94,7 @@ youtube_video_info */
     
     /** elements of search results found in SERP */
 
-    items?: BaseYoutubeSerpElementItem[] | undefined;
+    items?: YoutubeVideoInfo[] | undefined;
 
     [key: string]: any;
 
@@ -128,7 +128,7 @@ youtube_video_info */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseYoutubeSerpElementItem.fromJS(item));
+                    this.items.push(YoutubeVideoInfo.fromJS(item));
                 }
             }
         }

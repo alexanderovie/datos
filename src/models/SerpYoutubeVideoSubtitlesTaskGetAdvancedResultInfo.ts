@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseYoutubeSerpElementItem, IBaseYoutubeSerpElementItem } from "./BaseYoutubeSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { YoutubeSubtitles, IYoutubeSubtitles } from "./YoutubeSubtitles";
+
 
 export interface ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo   {
         
@@ -58,7 +58,7 @@ youtube_subtitles */
         items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseYoutubeSerpElementItem[] | undefined
+        items?: YoutubeSubtitles[] | undefined
 
     [key: string]: any;
 
@@ -136,7 +136,7 @@ youtube_subtitles */
     
     /** elements of search results found in SERP */
 
-    items?: BaseYoutubeSerpElementItem[] | undefined;
+    items?: YoutubeSubtitles[] | undefined;
 
     [key: string]: any;
 
@@ -176,7 +176,7 @@ youtube_subtitles */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseYoutubeSerpElementItem.fromJS(item));
+                    this.items.push(YoutubeSubtitles.fromJS(item));
                 }
             }
         }

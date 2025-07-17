@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageTaskPostRequestInfo   {
         
         /** target domain
@@ -169,7 +167,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
         
         /** check if the domain implemented the www redirection
 optional field
-set to true if you want to check if the requested domain implemented the www to non-www redirect;
+set to true if you want to check if the requested domain implemented the www to non-www or non-www to www redirect;
 default value: false */
         enable_www_redirect_check?: boolean | undefined
         
@@ -540,7 +538,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
     
     /** check if the domain implemented the www redirection
 optional field
-set to true if you want to check if the requested domain implemented the www to non-www redirect;
+set to true if you want to check if the requested domain implemented the www to non-www or non-www to www redirect;
 default value: false */
 
     enable_www_redirect_check?: boolean | undefined;

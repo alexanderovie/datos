@@ -1,5 +1,5 @@
 import { AbsoluteItems, IAbsoluteItems } from "./AbsoluteItems";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IInterestsComparison   {
         

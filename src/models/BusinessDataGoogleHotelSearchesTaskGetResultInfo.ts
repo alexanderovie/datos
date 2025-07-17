@@ -1,5 +1,5 @@
 import { BusinessDataGoogleHotelSearchesItem, IBusinessDataGoogleHotelSearchesItem } from "./BusinessDataGoogleHotelSearchesItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataGoogleHotelSearchesTaskGetResultInfo   {
         

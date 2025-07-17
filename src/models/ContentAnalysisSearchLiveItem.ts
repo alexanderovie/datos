@@ -1,7 +1,7 @@
 import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 import { SocialMetricsInfo, ISocialMetricsInfo } from "./SocialMetricsInfo";
 import { AnalysisContentInfo, IAnalysisContentInfo } from "./AnalysisContentInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisSearchLiveItem   {
         

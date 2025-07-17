@@ -1,6 +1,6 @@
 import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentCommentInfo   {
         

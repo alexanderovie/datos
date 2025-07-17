@@ -1,6 +1,6 @@
 import { OnPageContentParsingTaskInfo, IOnPageContentParsingTaskInfo } from "./OnPageContentParsingTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageContentParsingResponseInfo  extends IBaseResponseInfo    {
         

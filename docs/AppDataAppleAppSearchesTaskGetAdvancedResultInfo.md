@@ -12,4 +12,4 @@
 **datetime** | **string** | date and time when the result was received<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
 **se_results_count** | **number** | the total number of results |[optional]|
 **items_count** | **number** | the number of items in the results array |[optional]|
-**items** | **BaseAppDataSerpElementItem[]** | found apps |[optional]|
+**items** | **AppStoreSearchOrganic[]** | found apps |[optional]|

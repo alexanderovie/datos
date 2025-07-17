@@ -1,5 +1,5 @@
 import { AmazonKeywordInfo, IAmazonKeywordInfo } from "./AmazonKeywordInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAmazonKeywordData   {
         

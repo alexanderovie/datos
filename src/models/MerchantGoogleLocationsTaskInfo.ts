@@ -1,6 +1,6 @@
 import { MerchantGoogleLocationsResultInfo, IMerchantGoogleLocationsResultInfo } from "./MerchantGoogleLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantGoogleLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         

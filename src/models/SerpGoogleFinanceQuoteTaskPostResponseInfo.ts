@@ -1,6 +1,6 @@
 import { SerpGoogleFinanceQuoteTaskPostTaskInfo, ISerpGoogleFinanceQuoteTaskPostTaskInfo } from "./SerpGoogleFinanceQuoteTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleFinanceQuoteTaskPostResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,5 +1,5 @@
 import { TopicListDataItemInfo, ITopicListDataItemInfo } from "./TopicListDataItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ITrendsTopicListDataInfo   {
         

@@ -1,6 +1,6 @@
 import { BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo, IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo } from "./BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

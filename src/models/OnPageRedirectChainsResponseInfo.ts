@@ -1,6 +1,6 @@
 import { OnPageRedirectChainsTaskInfo, IOnPageRedirectChainsTaskInfo } from "./OnPageRedirectChainsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageRedirectChainsResponseInfo  extends IBaseResponseInfo    {
         

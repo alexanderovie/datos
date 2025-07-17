@@ -2,7 +2,7 @@ import { HotelAboutInfo, IHotelAboutInfo } from "./HotelAboutInfo";
 import { HotelLocationInfo, IHotelLocationInfo } from "./HotelLocationInfo";
 import { HotelReviewInfo, IHotelReviewInfo } from "./HotelReviewInfo";
 import { HotelPriceInfo, IHotelPriceInfo } from "./HotelPriceInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo   {
         

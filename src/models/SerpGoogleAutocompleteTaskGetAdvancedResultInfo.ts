@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { SerpGoogleAutocompleteAdvancedItem, ISerpGoogleAutocompleteAdvancedItem } from "./SerpGoogleAutocompleteAdvancedItem";
-import { ApiException, throwException } from "./ApiException"
+import { Autocomplete, IAutocomplete } from "./Autocomplete";
+
 
 export interface ISerpGoogleAutocompleteTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ autocomplete */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: SerpGoogleAutocompleteAdvancedItem[] | undefined
+        items?: Autocomplete[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ autocomplete */
     
     /** items of the element */
 
-    items?: SerpGoogleAutocompleteAdvancedItem[] | undefined;
+    items?: Autocomplete[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ autocomplete */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(SerpGoogleAutocompleteAdvancedItem.fromJS(item));
+                    this.items.push(Autocomplete.fromJS(item));
                 }
             }
         }

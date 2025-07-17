@@ -1,6 +1,6 @@
-import { BacklinksPageIntersection, IBacklinksPageIntersection } from "./BacklinksPageIntersection";
 import { IntersectionSummaryInfo, IIntersectionSummaryInfo } from "./IntersectionSummaryInfo";
-import { ApiException, throwException } from "./ApiException"
+import { BacklinksPageIntersection, IBacklinksPageIntersection } from "./BacklinksPageIntersection";
+
 
 export interface IBacklinksPageIntersectionLiveItem   {
         

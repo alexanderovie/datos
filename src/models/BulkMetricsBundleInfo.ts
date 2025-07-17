@@ -1,5 +1,5 @@
 import { BulkMetricsInfo, IBulkMetricsInfo } from "./BulkMetricsInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBulkMetricsBundleInfo   {
         

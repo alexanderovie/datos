@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleDomainWhoisOverviewLiveItem, IDataforseoLabsGoogleDomainWhoisOverviewLiveItem } from "./DataforseoLabsGoogleDomainWhoisOverviewLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo   {
         

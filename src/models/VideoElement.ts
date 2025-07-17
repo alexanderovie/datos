@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IVideoElement   {
         
         /** type of element */
@@ -9,7 +7,7 @@ export interface IVideoElement   {
         source?: string | undefined
         
         /** URL to the video preview image */
-        preview?: number | undefined
+        preview?: string | undefined
         
         /** title of a given link element */
         title?: string | undefined
@@ -39,7 +37,7 @@ export class VideoElement  implements IVideoElement {
     
     /** URL to the video preview image */
 
-    preview?: number | undefined;
+    preview?: string | undefined;
     
     /** title of a given link element */
 

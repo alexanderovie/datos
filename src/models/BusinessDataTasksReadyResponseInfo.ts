@@ -1,6 +1,6 @@
 import { BusinessDataTasksReadyTaskInfo, IBusinessDataTasksReadyTaskInfo } from "./BusinessDataTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

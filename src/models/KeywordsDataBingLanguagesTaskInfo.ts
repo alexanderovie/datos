@@ -1,6 +1,6 @@
 import { KeywordsDataBingLanguagesResultInfo, IKeywordsDataBingLanguagesResultInfo } from "./KeywordsDataBingLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         

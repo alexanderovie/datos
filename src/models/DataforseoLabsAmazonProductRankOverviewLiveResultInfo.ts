@@ -1,5 +1,5 @@
 import { DataforseoLabsAmazonProductRankOverviewLiveItem, IDataforseoLabsAmazonProductRankOverviewLiveItem } from "./DataforseoLabsAmazonProductRankOverviewLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonProductRankOverviewLiveResultInfo   {
         

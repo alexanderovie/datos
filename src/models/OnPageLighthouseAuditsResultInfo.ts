@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageLighthouseAuditsResultInfo   {
         
         /** the list of available lighthouse audits

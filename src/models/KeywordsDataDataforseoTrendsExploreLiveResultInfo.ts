@@ -1,5 +1,5 @@
-import { BaseDataforseoTrendsItem, IBaseDataforseoTrendsItem } from "./BaseDataforseoTrendsItem";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoTrendsDataforseoTrendsGraphElementItem, IDataforseoTrendsDataforseoTrendsGraphElementItem } from "./BaseKeywordDataDataforseoTrendsItem";
+
 
 export interface IKeywordsDataDataforseoTrendsExploreLiveResultInfo   {
         
@@ -27,7 +27,7 @@ example:
         items_count?: number | undefined
         
         /** contains keyword popularity and related data */
-        items?: BaseDataforseoTrendsItem[] | undefined
+        items?: DataforseoTrendsDataforseoTrendsGraphElementItem[] | undefined
 
     [key: string]: any;
 
@@ -66,7 +66,7 @@ example:
     
     /** contains keyword popularity and related data */
 
-    items?: BaseDataforseoTrendsItem[] | undefined;
+    items?: DataforseoTrendsDataforseoTrendsGraphElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -97,7 +97,7 @@ example:
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseDataforseoTrendsItem.fromJS(item));
+                    this.items.push(DataforseoTrendsDataforseoTrendsGraphElementItem.fromJS(item));
                 }
             }
         }

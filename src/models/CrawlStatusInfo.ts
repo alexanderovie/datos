@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ICrawlStatusInfo   {
         
         /** maximum number of pages to crawl

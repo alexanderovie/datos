@@ -1,5 +1,5 @@
-import { AppDataGooglePlaySearchOrganicSerpElementItem, IAppDataGooglePlaySearchOrganicSerpElementItem } from "./AppDataGooglePlaySearchOrganicSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { GooglePlaySearchOrganic, IGooglePlaySearchOrganic } from "./GooglePlaySearchOrganic";
+
 
 export interface IGooglePlayRankedSerpElementInfo   {
         
@@ -8,7 +8,7 @@ export interface IGooglePlayRankedSerpElementInfo   {
         
         /** contains data on the SERP element
 the list of supported SERP elements can be found below */
-        serp_item?: AppDataGooglePlaySearchOrganicSerpElementItem | undefined
+        serp_item?: GooglePlaySearchOrganic | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
@@ -43,7 +43,7 @@ export class GooglePlayRankedSerpElementInfo  implements IGooglePlayRankedSerpEl
     /** contains data on the SERP element
 the list of supported SERP elements can be found below */
 
-    serp_item?: AppDataGooglePlaySearchOrganicSerpElementItem | undefined;
+    serp_item?: GooglePlaySearchOrganic | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
@@ -90,7 +90,7 @@ in this case, will equal null */
                     this[property] = data[property];
             }
             this.se_type = data["se_type"];
-            this.serp_item = data["serp_item"] ? AppDataGooglePlaySearchOrganicSerpElementItem.fromJS(data["serp_item"]) : <any>undefined;
+            this.serp_item = data["serp_item"] ? GooglePlaySearchOrganic.fromJS(data["serp_item"]) : <any>undefined;
             this.check_url = data["check_url"];
             this.se_results_count = data["se_results_count"];
             this.last_updated_time = data["last_updated_time"];
@@ -113,7 +113,7 @@ in this case, will equal null */
         
         
         data["se_type"] = this.se_type;
-        data["serp_item"] = this.serp_item ? AppDataGooglePlaySearchOrganicSerpElementItem.fromJS(this.serp_item)?.toJSON() : <any>undefined;
+        data["serp_item"] = this.serp_item ? GooglePlaySearchOrganic.fromJS(this.serp_item)?.toJSON() : <any>undefined;
         data["check_url"] = this.check_url;
         data["se_results_count"] = this.se_results_count;
         data["last_updated_time"] = this.last_updated_time;

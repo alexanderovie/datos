@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMerchantAmazonSellersTaskPostRequestInfo   {
         
         /** unique product identifier on Amazon
@@ -51,7 +49,7 @@ required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available Amazon languages with their language_name by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-English */
+English (United States) */
         language_name?: string | undefined
         
         /** language code
@@ -59,7 +57,7 @@ required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available Amazon languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-en */
+en_US */
         language_code?: string | undefined
         
         /** search engine domain
@@ -168,7 +166,7 @@ required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available Amazon languages with their language_name by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-English */
+English (United States) */
 
     language_name?: string | undefined;
     
@@ -177,7 +175,7 @@ required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available Amazon languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-en */
+en_US */
 
     language_code?: string | undefined;
     

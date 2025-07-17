@@ -1,6 +1,6 @@
 import { MerchantErrorsTaskInfo, IMerchantErrorsTaskInfo } from "./MerchantErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantErrorsResponseInfo  extends IBaseResponseInfo    {
         

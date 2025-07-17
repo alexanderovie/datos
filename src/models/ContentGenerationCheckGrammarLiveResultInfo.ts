@@ -1,5 +1,5 @@
 import { ContentGenerationCheckGrammarLiveItem, IContentGenerationCheckGrammarLiveItem } from "./ContentGenerationCheckGrammarLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentGenerationCheckGrammarLiveResultInfo   {
         

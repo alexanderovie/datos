@@ -1,83 +1,83 @@
-import { BusinessDataIdListRequestInfo } from "../models/BusinessDataIdListRequestInfo";
-import { BusinessDataIdListResponseInfo } from "../models/BusinessDataIdListResponseInfo";
-import { BusinessDataErrorsRequestInfo } from "../models/BusinessDataErrorsRequestInfo";
-import { BusinessDataErrorsResponseInfo } from "../models/BusinessDataErrorsResponseInfo";
-import { BusinessDataBusinessListingsLocationsResponseInfo } from "../models/BusinessDataBusinessListingsLocationsResponseInfo";
-import { BusinessDataBusinessListingsCategoriesResponseInfo } from "../models/BusinessDataBusinessListingsCategoriesResponseInfo";
-import { BusinessDataBusinessListingsAvailableFiltersResponseInfo } from "../models/BusinessDataBusinessListingsAvailableFiltersResponseInfo";
-import { BusinessDataBusinessListingsSearchLiveRequestInfo } from "../models/BusinessDataBusinessListingsSearchLiveRequestInfo";
-import { BusinessDataBusinessListingsSearchLiveResponseInfo } from "../models/BusinessDataBusinessListingsSearchLiveResponseInfo";
-import { BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo } from "../models/BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo";
-import { BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo } from "../models/BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo";
-import { BusinessDataGoogleLocationsResponseInfo } from "../models/BusinessDataGoogleLocationsResponseInfo";
-import { BusinessDataGoogleLocationsCountryResponseInfo } from "../models/BusinessDataGoogleLocationsCountryResponseInfo";
-import { BusinessDataGoogleLanguagesResponseInfo } from "../models/BusinessDataGoogleLanguagesResponseInfo";
-import { BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo } from "../models/BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo";
-import { BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo } from "../models/BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo";
-import { BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo } from "../models/BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo";
-import { BusinessDataTasksReadyResponseInfo } from "../models/BusinessDataTasksReadyResponseInfo";
-import { BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo } from "../models/BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo";
-import { BusinessDataGoogleMyBusinessInfoLiveRequestInfo } from "../models/BusinessDataGoogleMyBusinessInfoLiveRequestInfo";
-import { BusinessDataGoogleMyBusinessInfoLiveResponseInfo } from "../models/BusinessDataGoogleMyBusinessInfoLiveResponseInfo";
-import { BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo } from "../models/BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo";
-import { BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo } from "../models/BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo";
-import { BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo } from "../models/BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo";
-import { BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo } from "../models/BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo";
-import { BusinessDataGoogleHotelSearchesTaskPostRequestInfo } from "../models/BusinessDataGoogleHotelSearchesTaskPostRequestInfo";
-import { BusinessDataGoogleHotelSearchesTaskPostResponseInfo } from "../models/BusinessDataGoogleHotelSearchesTaskPostResponseInfo";
-import { BusinessDataGoogleHotelSearchesTasksReadyResponseInfo } from "../models/BusinessDataGoogleHotelSearchesTasksReadyResponseInfo";
-import { BusinessDataGoogleHotelSearchesTaskGetResponseInfo } from "../models/BusinessDataGoogleHotelSearchesTaskGetResponseInfo";
-import { BusinessDataGoogleHotelSearchesLiveRequestInfo } from "../models/BusinessDataGoogleHotelSearchesLiveRequestInfo";
-import { BusinessDataGoogleHotelSearchesLiveResponseInfo } from "../models/BusinessDataGoogleHotelSearchesLiveResponseInfo";
-import { BusinessDataGoogleHotelInfoTaskPostRequestInfo } from "../models/BusinessDataGoogleHotelInfoTaskPostRequestInfo";
-import { BusinessDataGoogleHotelInfoTaskPostResponseInfo } from "../models/BusinessDataGoogleHotelInfoTaskPostResponseInfo";
-import { BusinessDataGoogleHotelInfoTasksReadyResponseInfo } from "../models/BusinessDataGoogleHotelInfoTasksReadyResponseInfo";
-import { BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo } from "../models/BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo";
-import { BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo } from "../models/BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo";
-import { BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo } from "../models/BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo";
-import { BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo } from "../models/BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo";
-import { BusinessDataGoogleHotelInfoLiveHtmlRequestInfo } from "../models/BusinessDataGoogleHotelInfoLiveHtmlRequestInfo";
-import { BusinessDataGoogleHotelInfoLiveHtmlResponseInfo } from "../models/BusinessDataGoogleHotelInfoLiveHtmlResponseInfo";
-import { BusinessDataGoogleReviewsTaskPostRequestInfo } from "../models/BusinessDataGoogleReviewsTaskPostRequestInfo";
-import { BusinessDataGoogleReviewsTaskPostResponseInfo } from "../models/BusinessDataGoogleReviewsTaskPostResponseInfo";
-import { BusinessDataGoogleReviewsTasksReadyResponseInfo } from "../models/BusinessDataGoogleReviewsTasksReadyResponseInfo";
-import { BusinessDataGoogleReviewsTaskGetResponseInfo } from "../models/BusinessDataGoogleReviewsTaskGetResponseInfo";
-import { BusinessDataGoogleExtendedReviewsTaskPostRequestInfo } from "../models/BusinessDataGoogleExtendedReviewsTaskPostRequestInfo";
-import { BusinessDataGoogleExtendedReviewsTaskPostResponseInfo } from "../models/BusinessDataGoogleExtendedReviewsTaskPostResponseInfo";
-import { BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo } from "../models/BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo";
-import { BusinessDataGoogleExtendedReviewsTaskGetResponseInfo } from "../models/BusinessDataGoogleExtendedReviewsTaskGetResponseInfo";
-import { BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo";
-import { BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo";
-import { BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo";
-import { BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo";
-import { BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo";
-import { BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo } from "../models/BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo";
-import { BusinessDataTrustpilotSearchTaskPostRequestInfo } from "../models/BusinessDataTrustpilotSearchTaskPostRequestInfo";
-import { BusinessDataTrustpilotSearchTaskPostResponseInfo } from "../models/BusinessDataTrustpilotSearchTaskPostResponseInfo";
-import { BusinessDataTrustpilotSearchTasksReadyResponseInfo } from "../models/BusinessDataTrustpilotSearchTasksReadyResponseInfo";
-import { BusinessDataTrustpilotSearchTaskGetResponseInfo } from "../models/BusinessDataTrustpilotSearchTaskGetResponseInfo";
-import { BusinessDataTrustpilotReviewsTaskPostRequestInfo } from "../models/BusinessDataTrustpilotReviewsTaskPostRequestInfo";
-import { BusinessDataTrustpilotReviewsTaskPostResponseInfo } from "../models/BusinessDataTrustpilotReviewsTaskPostResponseInfo";
-import { BusinessDataTrustpilotReviewsTasksReadyResponseInfo } from "../models/BusinessDataTrustpilotReviewsTasksReadyResponseInfo";
-import { BusinessDataTrustpilotReviewsTaskGetResponseInfo } from "../models/BusinessDataTrustpilotReviewsTaskGetResponseInfo";
-import { BusinessDataTripadvisorLocationsResponseInfo } from "../models/BusinessDataTripadvisorLocationsResponseInfo";
-import { BusinessDataTripadvisorLocationsCountryResponseInfo } from "../models/BusinessDataTripadvisorLocationsCountryResponseInfo";
-import { BusinessDataTripadvisorLanguagesResponseInfo } from "../models/BusinessDataTripadvisorLanguagesResponseInfo";
-import { BusinessDataTripadvisorSearchTaskPostRequestInfo } from "../models/BusinessDataTripadvisorSearchTaskPostRequestInfo";
-import { BusinessDataTripadvisorSearchTaskPostResponseInfo } from "../models/BusinessDataTripadvisorSearchTaskPostResponseInfo";
-import { BusinessDataTripadvisorSearchTasksReadyResponseInfo } from "../models/BusinessDataTripadvisorSearchTasksReadyResponseInfo";
-import { BusinessDataTripadvisorSearchTaskGetResponseInfo } from "../models/BusinessDataTripadvisorSearchTaskGetResponseInfo";
-import { BusinessDataTripadvisorReviewsTaskPostRequestInfo } from "../models/BusinessDataTripadvisorReviewsTaskPostRequestInfo";
-import { BusinessDataTripadvisorReviewsTaskPostResponseInfo } from "../models/BusinessDataTripadvisorReviewsTaskPostResponseInfo";
-import { BusinessDataTripadvisorReviewsTasksReadyResponseInfo } from "../models/BusinessDataTripadvisorReviewsTasksReadyResponseInfo";
-import { BusinessDataTripadvisorReviewsTaskGetResponseInfo } from "../models/BusinessDataTripadvisorReviewsTaskGetResponseInfo";
-import { BusinessDataSocialMediaPinterestLiveRequestInfo } from "../models/BusinessDataSocialMediaPinterestLiveRequestInfo";
-import { BusinessDataSocialMediaPinterestLiveResponseInfo } from "../models/BusinessDataSocialMediaPinterestLiveResponseInfo";
-import { BusinessDataSocialMediaFacebookLiveRequestInfo } from "../models/BusinessDataSocialMediaFacebookLiveRequestInfo";
-import { BusinessDataSocialMediaFacebookLiveResponseInfo } from "../models/BusinessDataSocialMediaFacebookLiveResponseInfo";
-import { BusinessDataSocialMediaRedditLiveRequestInfo } from "../models/BusinessDataSocialMediaRedditLiveRequestInfo";
-import { BusinessDataSocialMediaRedditLiveResponseInfo } from "../models/BusinessDataSocialMediaRedditLiveResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { BusinessDataIdListRequestInfo } from "./../models/BusinessDataIdListRequestInfo";
+import { BusinessDataIdListResponseInfo } from "./../models/BusinessDataIdListResponseInfo";
+import { BusinessDataErrorsRequestInfo } from "./../models/BusinessDataErrorsRequestInfo";
+import { BusinessDataErrorsResponseInfo } from "./../models/BusinessDataErrorsResponseInfo";
+import { BusinessDataBusinessListingsLocationsResponseInfo } from "./../models/BusinessDataBusinessListingsLocationsResponseInfo";
+import { BusinessDataBusinessListingsCategoriesResponseInfo } from "./../models/BusinessDataBusinessListingsCategoriesResponseInfo";
+import { BusinessDataBusinessListingsAvailableFiltersResponseInfo } from "./../models/BusinessDataBusinessListingsAvailableFiltersResponseInfo";
+import { BusinessDataBusinessListingsSearchLiveRequestInfo } from "./../models/BusinessDataBusinessListingsSearchLiveRequestInfo";
+import { BusinessDataBusinessListingsSearchLiveResponseInfo } from "./../models/BusinessDataBusinessListingsSearchLiveResponseInfo";
+import { BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo } from "./../models/BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo";
+import { BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo } from "./../models/BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo";
+import { BusinessDataGoogleLocationsResponseInfo } from "./../models/BusinessDataGoogleLocationsResponseInfo";
+import { BusinessDataGoogleLocationsCountryResponseInfo } from "./../models/BusinessDataGoogleLocationsCountryResponseInfo";
+import { BusinessDataGoogleLanguagesResponseInfo } from "./../models/BusinessDataGoogleLanguagesResponseInfo";
+import { BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo } from "./../models/BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo";
+import { BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo } from "./../models/BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo";
+import { BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo } from "./../models/BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo";
+import { BusinessDataTasksReadyResponseInfo } from "./../models/BusinessDataTasksReadyResponseInfo";
+import { BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo } from "./../models/BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo";
+import { BusinessDataGoogleMyBusinessInfoLiveRequestInfo } from "./../models/BusinessDataGoogleMyBusinessInfoLiveRequestInfo";
+import { BusinessDataGoogleMyBusinessInfoLiveResponseInfo } from "./../models/BusinessDataGoogleMyBusinessInfoLiveResponseInfo";
+import { BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo } from "./../models/BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo";
+import { BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo } from "./../models/BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo";
+import { BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo } from "./../models/BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo";
+import { BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo } from "./../models/BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo";
+import { BusinessDataGoogleHotelSearchesTaskPostRequestInfo } from "./../models/BusinessDataGoogleHotelSearchesTaskPostRequestInfo";
+import { BusinessDataGoogleHotelSearchesTaskPostResponseInfo } from "./../models/BusinessDataGoogleHotelSearchesTaskPostResponseInfo";
+import { BusinessDataGoogleHotelSearchesTasksReadyResponseInfo } from "./../models/BusinessDataGoogleHotelSearchesTasksReadyResponseInfo";
+import { BusinessDataGoogleHotelSearchesTaskGetResponseInfo } from "./../models/BusinessDataGoogleHotelSearchesTaskGetResponseInfo";
+import { BusinessDataGoogleHotelSearchesLiveRequestInfo } from "./../models/BusinessDataGoogleHotelSearchesLiveRequestInfo";
+import { BusinessDataGoogleHotelSearchesLiveResponseInfo } from "./../models/BusinessDataGoogleHotelSearchesLiveResponseInfo";
+import { BusinessDataGoogleHotelInfoTaskPostRequestInfo } from "./../models/BusinessDataGoogleHotelInfoTaskPostRequestInfo";
+import { BusinessDataGoogleHotelInfoTaskPostResponseInfo } from "./../models/BusinessDataGoogleHotelInfoTaskPostResponseInfo";
+import { BusinessDataGoogleHotelInfoTasksReadyResponseInfo } from "./../models/BusinessDataGoogleHotelInfoTasksReadyResponseInfo";
+import { BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo } from "./../models/BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo";
+import { BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo } from "./../models/BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo";
+import { BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo } from "./../models/BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo";
+import { BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo } from "./../models/BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo";
+import { BusinessDataGoogleHotelInfoLiveHtmlRequestInfo } from "./../models/BusinessDataGoogleHotelInfoLiveHtmlRequestInfo";
+import { BusinessDataGoogleHotelInfoLiveHtmlResponseInfo } from "./../models/BusinessDataGoogleHotelInfoLiveHtmlResponseInfo";
+import { BusinessDataGoogleReviewsTaskPostRequestInfo } from "./../models/BusinessDataGoogleReviewsTaskPostRequestInfo";
+import { BusinessDataGoogleReviewsTaskPostResponseInfo } from "./../models/BusinessDataGoogleReviewsTaskPostResponseInfo";
+import { BusinessDataGoogleReviewsTasksReadyResponseInfo } from "./../models/BusinessDataGoogleReviewsTasksReadyResponseInfo";
+import { BusinessDataGoogleReviewsTaskGetResponseInfo } from "./../models/BusinessDataGoogleReviewsTaskGetResponseInfo";
+import { BusinessDataGoogleExtendedReviewsTaskPostRequestInfo } from "./../models/BusinessDataGoogleExtendedReviewsTaskPostRequestInfo";
+import { BusinessDataGoogleExtendedReviewsTaskPostResponseInfo } from "./../models/BusinessDataGoogleExtendedReviewsTaskPostResponseInfo";
+import { BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo } from "./../models/BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo";
+import { BusinessDataGoogleExtendedReviewsTaskGetResponseInfo } from "./../models/BusinessDataGoogleExtendedReviewsTaskGetResponseInfo";
+import { BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo";
+import { BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo";
+import { BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo";
+import { BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo";
+import { BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo";
+import { BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo } from "./../models/BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo";
+import { BusinessDataTrustpilotSearchTaskPostRequestInfo } from "./../models/BusinessDataTrustpilotSearchTaskPostRequestInfo";
+import { BusinessDataTrustpilotSearchTaskPostResponseInfo } from "./../models/BusinessDataTrustpilotSearchTaskPostResponseInfo";
+import { BusinessDataTrustpilotSearchTasksReadyResponseInfo } from "./../models/BusinessDataTrustpilotSearchTasksReadyResponseInfo";
+import { BusinessDataTrustpilotSearchTaskGetResponseInfo } from "./../models/BusinessDataTrustpilotSearchTaskGetResponseInfo";
+import { BusinessDataTrustpilotReviewsTaskPostRequestInfo } from "./../models/BusinessDataTrustpilotReviewsTaskPostRequestInfo";
+import { BusinessDataTrustpilotReviewsTaskPostResponseInfo } from "./../models/BusinessDataTrustpilotReviewsTaskPostResponseInfo";
+import { BusinessDataTrustpilotReviewsTasksReadyResponseInfo } from "./../models/BusinessDataTrustpilotReviewsTasksReadyResponseInfo";
+import { BusinessDataTrustpilotReviewsTaskGetResponseInfo } from "./../models/BusinessDataTrustpilotReviewsTaskGetResponseInfo";
+import { BusinessDataTripadvisorLocationsResponseInfo } from "./../models/BusinessDataTripadvisorLocationsResponseInfo";
+import { BusinessDataTripadvisorLocationsCountryResponseInfo } from "./../models/BusinessDataTripadvisorLocationsCountryResponseInfo";
+import { BusinessDataTripadvisorLanguagesResponseInfo } from "./../models/BusinessDataTripadvisorLanguagesResponseInfo";
+import { BusinessDataTripadvisorSearchTaskPostRequestInfo } from "./../models/BusinessDataTripadvisorSearchTaskPostRequestInfo";
+import { BusinessDataTripadvisorSearchTaskPostResponseInfo } from "./../models/BusinessDataTripadvisorSearchTaskPostResponseInfo";
+import { BusinessDataTripadvisorSearchTasksReadyResponseInfo } from "./../models/BusinessDataTripadvisorSearchTasksReadyResponseInfo";
+import { BusinessDataTripadvisorSearchTaskGetResponseInfo } from "./../models/BusinessDataTripadvisorSearchTaskGetResponseInfo";
+import { BusinessDataTripadvisorReviewsTaskPostRequestInfo } from "./../models/BusinessDataTripadvisorReviewsTaskPostRequestInfo";
+import { BusinessDataTripadvisorReviewsTaskPostResponseInfo } from "./../models/BusinessDataTripadvisorReviewsTaskPostResponseInfo";
+import { BusinessDataTripadvisorReviewsTasksReadyResponseInfo } from "./../models/BusinessDataTripadvisorReviewsTasksReadyResponseInfo";
+import { BusinessDataTripadvisorReviewsTaskGetResponseInfo } from "./../models/BusinessDataTripadvisorReviewsTaskGetResponseInfo";
+import { BusinessDataSocialMediaPinterestLiveRequestInfo } from "./../models/BusinessDataSocialMediaPinterestLiveRequestInfo";
+import { BusinessDataSocialMediaPinterestLiveResponseInfo } from "./../models/BusinessDataSocialMediaPinterestLiveResponseInfo";
+import { BusinessDataSocialMediaFacebookLiveRequestInfo } from "./../models/BusinessDataSocialMediaFacebookLiveRequestInfo";
+import { BusinessDataSocialMediaFacebookLiveResponseInfo } from "./../models/BusinessDataSocialMediaFacebookLiveResponseInfo";
+import { BusinessDataSocialMediaRedditLiveRequestInfo } from "./../models/BusinessDataSocialMediaRedditLiveRequestInfo";
+import { BusinessDataSocialMediaRedditLiveResponseInfo } from "./../models/BusinessDataSocialMediaRedditLiveResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class BusinessDataApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -99,7 +99,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -112,14 +112,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataIdListResponseInfo | null>(null as any);
@@ -134,7 +134,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -147,14 +147,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataErrorsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataErrorsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataErrorsResponseInfo | null>(null as any);
@@ -162,13 +162,11 @@ export class BusinessDataApi {
     businessDataBusinessListingsLocations(): Promise<BusinessDataBusinessListingsLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/business_listings/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -182,14 +180,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataBusinessListingsLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataBusinessListingsLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataBusinessListingsLocationsResponseInfo | null>(null as any);
@@ -197,13 +195,11 @@ export class BusinessDataApi {
     businessListingsCategories(): Promise<BusinessDataBusinessListingsCategoriesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/business_listings/categories";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -217,14 +213,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataBusinessListingsCategoriesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataBusinessListingsCategoriesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataBusinessListingsCategoriesResponseInfo | null>(null as any);
@@ -232,13 +228,11 @@ export class BusinessDataApi {
     businessListingsAvailableFilters(): Promise<BusinessDataBusinessListingsAvailableFiltersResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/business_listings/available_filters";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -252,14 +246,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataBusinessListingsAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataBusinessListingsAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataBusinessListingsAvailableFiltersResponseInfo | null>(null as any);
@@ -274,7 +268,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -287,14 +281,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataBusinessListingsSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataBusinessListingsSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataBusinessListingsSearchLiveResponseInfo | null>(null as any);
@@ -309,7 +303,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -322,14 +316,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo | null>(null as any);
@@ -337,13 +331,11 @@ export class BusinessDataApi {
     businessDataGoogleLocations(): Promise<BusinessDataGoogleLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -357,14 +349,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleLocationsResponseInfo | null>(null as any);
@@ -372,15 +364,12 @@ export class BusinessDataApi {
     businessDataGoogleLocationsCountry(country: string): Promise<BusinessDataGoogleLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -394,14 +383,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleLocationsCountryResponseInfo | null>(null as any);
@@ -409,13 +398,11 @@ export class BusinessDataApi {
     businessDataGoogleLanguages(): Promise<BusinessDataGoogleLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -429,14 +416,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleLanguagesResponseInfo | null>(null as any);
@@ -451,7 +438,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -464,14 +451,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo | null>(null as any);
@@ -479,13 +466,11 @@ export class BusinessDataApi {
     googleMyBusinessInfoTasksReady(): Promise<BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/my_business_info/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -499,14 +484,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo | null>(null as any);
@@ -514,13 +499,11 @@ export class BusinessDataApi {
     businessDataTasksReady(): Promise<BusinessDataTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -534,14 +517,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTasksReadyResponseInfo | null>(null as any);
@@ -549,15 +532,12 @@ export class BusinessDataApi {
     googleMyBusinessInfoTaskGet(id: string): Promise<BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/my_business_info/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -571,14 +551,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo | null>(null as any);
@@ -593,7 +573,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -606,14 +586,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessInfoLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessInfoLiveResponseInfo | null>(null as any);
@@ -628,7 +608,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -641,14 +621,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo | null>(null as any);
@@ -656,13 +636,11 @@ export class BusinessDataApi {
     googleMyBusinessUpdatesTasksReady(): Promise<BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/my_business_updates/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -676,14 +654,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo | null>(null as any);
@@ -691,15 +669,12 @@ export class BusinessDataApi {
     googleMyBusinessUpdatesTaskGet(id: string): Promise<BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/my_business_updates/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -713,14 +688,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo | null>(null as any);
@@ -735,7 +710,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -748,14 +723,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelSearchesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelSearchesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelSearchesTaskPostResponseInfo | null>(null as any);
@@ -763,13 +738,11 @@ export class BusinessDataApi {
     googleHotelSearchesTasksReady(): Promise<BusinessDataGoogleHotelSearchesTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/hotel_searches/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -783,14 +756,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelSearchesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelSearchesTasksReadyResponseInfo | null>(null as any);
@@ -798,15 +771,12 @@ export class BusinessDataApi {
     googleHotelSearchesTaskGet(id: string): Promise<BusinessDataGoogleHotelSearchesTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/hotel_searches/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -820,14 +790,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelSearchesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelSearchesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelSearchesTaskGetResponseInfo | null>(null as any);
@@ -842,7 +812,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -855,14 +825,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelSearchesLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelSearchesLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelSearchesLiveResponseInfo | null>(null as any);
@@ -877,7 +847,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -890,14 +860,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoTaskPostResponseInfo | null>(null as any);
@@ -905,13 +875,11 @@ export class BusinessDataApi {
     googleHotelInfoTasksReady(): Promise<BusinessDataGoogleHotelInfoTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/hotel_info/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -925,14 +893,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoTasksReadyResponseInfo | null>(null as any);
@@ -940,15 +908,12 @@ export class BusinessDataApi {
     googleHotelInfoTaskGetAdvanced(id: string): Promise<BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/hotel_info/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -962,14 +927,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo | null>(null as any);
@@ -977,15 +942,12 @@ export class BusinessDataApi {
     googleHotelInfoTaskGetHtml(id: string): Promise<BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/hotel_info/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -999,14 +961,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo | null>(null as any);
@@ -1021,7 +983,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1034,14 +996,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo | null>(null as any);
@@ -1056,7 +1018,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1069,14 +1031,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleHotelInfoLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleHotelInfoLiveHtmlResponseInfo | null>(null as any);
@@ -1091,7 +1053,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1104,14 +1066,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleReviewsTaskPostResponseInfo | null>(null as any);
@@ -1119,13 +1081,11 @@ export class BusinessDataApi {
     googleReviewsTasksReady(): Promise<BusinessDataGoogleReviewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/reviews/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1139,14 +1099,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleReviewsTasksReadyResponseInfo | null>(null as any);
@@ -1154,15 +1114,12 @@ export class BusinessDataApi {
     googleReviewsTaskGet(id: string): Promise<BusinessDataGoogleReviewsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/reviews/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1176,14 +1133,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleReviewsTaskGetResponseInfo | null>(null as any);
@@ -1198,7 +1155,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1211,14 +1168,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleExtendedReviewsTaskPostResponseInfo | null>(null as any);
@@ -1226,13 +1183,11 @@ export class BusinessDataApi {
     googleExtendedReviewsTasksReady(): Promise<BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/extended_reviews/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1246,14 +1201,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo | null>(null as any);
@@ -1261,15 +1216,12 @@ export class BusinessDataApi {
     googleExtendedReviewsTaskGet(id: string): Promise<BusinessDataGoogleExtendedReviewsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/extended_reviews/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1283,14 +1235,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleExtendedReviewsTaskGetResponseInfo | null>(null as any);
@@ -1305,7 +1257,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1318,14 +1270,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo | null>(null as any);
@@ -1333,13 +1285,11 @@ export class BusinessDataApi {
     googleQuestionsAndAnswersTasksReady(): Promise<BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/questions_and_answers/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1353,14 +1303,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo | null>(null as any);
@@ -1368,15 +1318,12 @@ export class BusinessDataApi {
     googleQuestionsAndAnswersTaskGet(id: string): Promise<BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/google/questions_and_answers/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1390,14 +1337,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo | null>(null as any);
@@ -1412,7 +1359,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1425,14 +1372,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo | null>(null as any);
@@ -1447,7 +1394,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1460,14 +1407,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotSearchTaskPostResponseInfo | null>(null as any);
@@ -1475,13 +1422,11 @@ export class BusinessDataApi {
     trustpilotSearchTasksReady(): Promise<BusinessDataTrustpilotSearchTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/trustpilot/search/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1495,14 +1440,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotSearchTasksReadyResponseInfo | null>(null as any);
@@ -1510,15 +1455,12 @@ export class BusinessDataApi {
     trustpilotSearchTaskGet(id: string): Promise<BusinessDataTrustpilotSearchTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/trustpilot/search/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1532,14 +1474,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotSearchTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotSearchTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotSearchTaskGetResponseInfo | null>(null as any);
@@ -1554,7 +1496,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1567,14 +1509,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotReviewsTaskPostResponseInfo | null>(null as any);
@@ -1582,13 +1524,11 @@ export class BusinessDataApi {
     trustpilotReviewsTasksReady(): Promise<BusinessDataTrustpilotReviewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/trustpilot/reviews/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1602,14 +1542,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotReviewsTasksReadyResponseInfo | null>(null as any);
@@ -1617,15 +1557,12 @@ export class BusinessDataApi {
     trustpilotReviewsTaskGet(id: string): Promise<BusinessDataTrustpilotReviewsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/trustpilot/reviews/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1639,14 +1576,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTrustpilotReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTrustpilotReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTrustpilotReviewsTaskGetResponseInfo | null>(null as any);
@@ -1654,13 +1591,11 @@ export class BusinessDataApi {
     businessDataTripadvisorLocations(): Promise<BusinessDataTripadvisorLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1674,14 +1609,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorLocationsResponseInfo | null>(null as any);
@@ -1689,15 +1624,12 @@ export class BusinessDataApi {
     businessDataTripadvisorLocationsCountry(country: string): Promise<BusinessDataTripadvisorLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1711,14 +1643,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorLocationsCountryResponseInfo | null>(null as any);
@@ -1726,13 +1658,11 @@ export class BusinessDataApi {
     businessDataTripadvisorLanguages(): Promise<BusinessDataTripadvisorLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1746,14 +1676,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorLanguagesResponseInfo | null>(null as any);
@@ -1768,7 +1698,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1781,14 +1711,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorSearchTaskPostResponseInfo | null>(null as any);
@@ -1796,13 +1726,11 @@ export class BusinessDataApi {
     tripadvisorSearchTasksReady(): Promise<BusinessDataTripadvisorSearchTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/search/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1816,14 +1744,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorSearchTasksReadyResponseInfo | null>(null as any);
@@ -1831,15 +1759,12 @@ export class BusinessDataApi {
     tripadvisorSearchTaskGet(id: string): Promise<BusinessDataTripadvisorSearchTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/search/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1853,14 +1778,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorSearchTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorSearchTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorSearchTaskGetResponseInfo | null>(null as any);
@@ -1875,7 +1800,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1888,14 +1813,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorReviewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorReviewsTaskPostResponseInfo | null>(null as any);
@@ -1903,13 +1828,11 @@ export class BusinessDataApi {
     tripadvisorReviewsTasksReady(): Promise<BusinessDataTripadvisorReviewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/reviews/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1923,14 +1846,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorReviewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorReviewsTasksReadyResponseInfo | null>(null as any);
@@ -1938,15 +1861,12 @@ export class BusinessDataApi {
     tripadvisorReviewsTaskGet(id: string): Promise<BusinessDataTripadvisorReviewsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/tripadvisor/reviews/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1960,14 +1880,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataTripadvisorReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataTripadvisorReviewsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataTripadvisorReviewsTaskGetResponseInfo | null>(null as any);
@@ -1982,7 +1902,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1995,14 +1915,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataSocialMediaPinterestLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataSocialMediaPinterestLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataSocialMediaPinterestLiveResponseInfo | null>(null as any);
@@ -2017,7 +1937,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2030,14 +1950,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataSocialMediaFacebookLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataSocialMediaFacebookLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataSocialMediaFacebookLiveResponseInfo | null>(null as any);
@@ -2052,7 +1972,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2065,14 +1985,14 @@ export class BusinessDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? BusinessDataSocialMediaRedditLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? BusinessDataSocialMediaRedditLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<BusinessDataSocialMediaRedditLiveResponseInfo | null>(null as any);

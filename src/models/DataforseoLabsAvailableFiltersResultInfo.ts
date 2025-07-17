@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsAvailableFiltersResultInfo   {
         
         related_keywords?: { [key: string]: { [key: string]: string; }; } | undefined

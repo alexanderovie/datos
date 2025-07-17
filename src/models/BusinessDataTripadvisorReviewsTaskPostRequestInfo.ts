@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBusinessDataTripadvisorReviewsTaskPostRequestInfo   {
         
         /** URL path of the business entity

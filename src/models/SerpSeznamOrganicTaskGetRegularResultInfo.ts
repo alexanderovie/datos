@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+
 
 export interface ISerpSeznamOrganicTaskGetRegularResultInfo   {
         
@@ -55,7 +55,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
         items_count?: number | undefined
         
         /** items in SERP */
-        items?: BaseSerpElementItem[] | undefined
+        items?: BaseSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -126,7 +126,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
     
     /** items in SERP */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: BaseSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -163,7 +163,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiElementItem.fromJS(item));
                 }
             }
         }

@@ -1,19 +1,4 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IRatingElement   {
-        
-        /** the type of rating
-here you can find the following elements: Max5, Percents, CustomMax */
-        rating_type?: string | undefined
-        
-        /** the value of the rating */
-        value?: number | undefined
-        
-        /** the amount of feedbac */
-        votes_count?: number | undefined
-        
-        /** the maximum value for a rating_type */
-        rating_max?: number | undefined
         
         /** type of element */
         type?: string | undefined
@@ -22,29 +7,25 @@ here you can find the following elements: Max5, Percents, CustomMax */
 possible values:
 left, right */
         position?: string | undefined
+        
+        /** the type of rating
+here you can find the following elements: Max5, Percents, CustomMax */
+        rating_type?: string | undefined
+        
+        /** value of the rating */
+        value?: number | undefined
+        
+        /** the amount of feedback */
+        votes_count?: number | undefined
+        
+        /** the maximum value for a rating_type */
+        rating_max?: number | undefined
 
     [key: string]: any;
 
     }
 
 export class RatingElement  implements IRatingElement {
-    
-    /** the type of rating
-here you can find the following elements: Max5, Percents, CustomMax */
-
-    rating_type?: string | undefined;
-    
-    /** the value of the rating */
-
-    value?: number | undefined;
-    
-    /** the amount of feedbac */
-
-    votes_count?: number | undefined;
-    
-    /** the maximum value for a rating_type */
-
-    rating_max?: number | undefined;
     
     /** type of element */
 
@@ -55,6 +36,23 @@ possible values:
 left, right */
 
     position?: string | undefined;
+    
+    /** the type of rating
+here you can find the following elements: Max5, Percents, CustomMax */
+
+    rating_type?: string | undefined;
+    
+    /** value of the rating */
+
+    value?: number | undefined;
+    
+    /** the amount of feedback */
+
+    votes_count?: number | undefined;
+    
+    /** the maximum value for a rating_type */
+
+    rating_max?: number | undefined;
 
     [key: string]: any;
 
@@ -76,12 +74,12 @@ left, right */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.type = data["type"];
+            this.position = data["position"];
             this.rating_type = data["rating_type"];
             this.value = data["value"];
             this.votes_count = data["votes_count"];
             this.rating_max = data["rating_max"];
-            this.type = data["type"];
-            this.position = data["position"];
         }
     }
 
@@ -99,12 +97,12 @@ left, right */
 
         
         
+        data["type"] = this.type;
+        data["position"] = this.position;
         data["rating_type"] = this.rating_type;
         data["value"] = this.value;
         data["votes_count"] = this.votes_count;
         data["rating_max"] = this.rating_max;
-        data["type"] = this.type;
-        data["position"] = this.position;
         return data;
     }
 }

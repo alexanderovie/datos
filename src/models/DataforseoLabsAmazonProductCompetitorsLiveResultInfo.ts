@@ -1,5 +1,5 @@
 import { DataforseoLabsAmazonProductCompetitorsLiveItem, IDataforseoLabsAmazonProductCompetitorsLiveItem } from "./DataforseoLabsAmazonProductCompetitorsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonProductCompetitorsLiveResultInfo   {
         

@@ -1,6 +1,6 @@
 import { ContentAnalysisSummaryLiveTaskInfo, IContentAnalysisSummaryLiveTaskInfo } from "./ContentAnalysisSummaryLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisSummaryLiveResponseInfo  extends IBaseResponseInfo    {
         

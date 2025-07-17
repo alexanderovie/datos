@@ -1,5 +1,5 @@
 import { AppendixStatusEndpointsInfo, IAppendixStatusEndpointsInfo } from "./AppendixStatusEndpointsInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixStatusResultInfo   {
         

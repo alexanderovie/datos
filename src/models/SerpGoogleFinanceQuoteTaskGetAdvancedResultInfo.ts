@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleFinanceSerpElementItem, IBaseGoogleFinanceSerpElementItem } from "./BaseGoogleFinanceSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementItem } from "./BaseSerpApiGoogleFinanceElementItem";
+
 
 export interface ISerpGoogleFinanceQuoteTaskGetAdvancedResultInfo   {
         
@@ -51,7 +51,7 @@ possible item types: google_finance_hero_groups, google_finance_quote, google_fi
         items_count?: number | undefined
         
         /** market indexes related to the market trends element */
-        items?: BaseGoogleFinanceSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -118,7 +118,7 @@ possible item types: google_finance_hero_groups, google_finance_quote, google_fi
     
     /** market indexes related to the market trends element */
 
-    items?: BaseGoogleFinanceSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -155,7 +155,7 @@ possible item types: google_finance_hero_groups, google_finance_quote, google_fi
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleFinanceSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleFinanceElementItem.fromJS(item));
                 }
             }
         }

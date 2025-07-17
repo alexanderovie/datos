@@ -1,241 +1,252 @@
-import { SerpIdListRequestInfo } from "../models/SerpIdListRequestInfo";
-import { SerpIdListResponseInfo } from "../models/SerpIdListResponseInfo";
-import { SerpErrorsRequestInfo } from "../models/SerpErrorsRequestInfo";
-import { SerpErrorsResponseInfo } from "../models/SerpErrorsResponseInfo";
-import { SerpScreenshotRequestInfo } from "../models/SerpScreenshotRequestInfo";
-import { SerpScreenshotResponseInfo } from "../models/SerpScreenshotResponseInfo";
-import { SerpAiSummaryRequestInfo } from "../models/SerpAiSummaryRequestInfo";
-import { SerpAiSummaryResponseInfo } from "../models/SerpAiSummaryResponseInfo";
-import { SerpGoogleLocationsResponseInfo } from "../models/SerpGoogleLocationsResponseInfo";
-import { SerpGoogleLocationsCountryResponseInfo } from "../models/SerpGoogleLocationsCountryResponseInfo";
-import { SerpGoogleLanguagesResponseInfo } from "../models/SerpGoogleLanguagesResponseInfo";
-import { SerpGoogleOrganicTaskPostRequestInfo } from "../models/SerpGoogleOrganicTaskPostRequestInfo";
-import { SerpGoogleOrganicTaskPostResponseInfo } from "../models/SerpGoogleOrganicTaskPostResponseInfo";
-import { SerpGoogleOrganicTasksReadyResponseInfo } from "../models/SerpGoogleOrganicTasksReadyResponseInfo";
-import { SerpTasksReadyResponseInfo } from "../models/SerpTasksReadyResponseInfo";
-import { SerpGoogleOrganicTasksFixedResponseInfo } from "../models/SerpGoogleOrganicTasksFixedResponseInfo";
-import { SerpGoogleOrganicTaskGetRegularResponseInfo } from "../models/SerpGoogleOrganicTaskGetRegularResponseInfo";
-import { SerpGoogleOrganicTaskGetAdvancedResponseInfo } from "../models/SerpGoogleOrganicTaskGetAdvancedResponseInfo";
-import { SerpGoogleOrganicTaskGetHtmlResponseInfo } from "../models/SerpGoogleOrganicTaskGetHtmlResponseInfo";
-import { SerpGoogleOrganicLiveRegularRequestInfo } from "../models/SerpGoogleOrganicLiveRegularRequestInfo";
-import { SerpGoogleOrganicLiveRegularResponseInfo } from "../models/SerpGoogleOrganicLiveRegularResponseInfo";
-import { SerpGoogleOrganicLiveAdvancedRequestInfo } from "../models/SerpGoogleOrganicLiveAdvancedRequestInfo";
-import { SerpGoogleOrganicLiveAdvancedResponseInfo } from "../models/SerpGoogleOrganicLiveAdvancedResponseInfo";
-import { SerpGoogleOrganicLiveHtmlRequestInfo } from "../models/SerpGoogleOrganicLiveHtmlRequestInfo";
-import { SerpGoogleOrganicLiveHtmlResponseInfo } from "../models/SerpGoogleOrganicLiveHtmlResponseInfo";
-import { SerpGoogleMapsTaskPostRequestInfo } from "../models/SerpGoogleMapsTaskPostRequestInfo";
-import { SerpGoogleMapsTaskPostResponseInfo } from "../models/SerpGoogleMapsTaskPostResponseInfo";
-import { SerpGoogleMapsTasksReadyResponseInfo } from "../models/SerpGoogleMapsTasksReadyResponseInfo";
-import { SerpGoogleMapsTasksFixedResponseInfo } from "../models/SerpGoogleMapsTasksFixedResponseInfo";
-import { SerpGoogleMapsTaskGetAdvancedResponseInfo } from "../models/SerpGoogleMapsTaskGetAdvancedResponseInfo";
-import { SerpGoogleMapsLiveAdvancedRequestInfo } from "../models/SerpGoogleMapsLiveAdvancedRequestInfo";
-import { SerpGoogleMapsLiveAdvancedResponseInfo } from "../models/SerpGoogleMapsLiveAdvancedResponseInfo";
-import { SerpGoogleLocalFinderTaskPostRequestInfo } from "../models/SerpGoogleLocalFinderTaskPostRequestInfo";
-import { SerpGoogleLocalFinderTaskPostResponseInfo } from "../models/SerpGoogleLocalFinderTaskPostResponseInfo";
-import { SerpGoogleLocalFinderTasksReadyResponseInfo } from "../models/SerpGoogleLocalFinderTasksReadyResponseInfo";
-import { SerpGoogleLocalFinderTasksFixedResponseInfo } from "../models/SerpGoogleLocalFinderTasksFixedResponseInfo";
-import { SerpGoogleLocalFinderTaskGetAdvancedResponseInfo } from "../models/SerpGoogleLocalFinderTaskGetAdvancedResponseInfo";
-import { SerpGoogleLocalFinderTaskGetHtmlResponseInfo } from "../models/SerpGoogleLocalFinderTaskGetHtmlResponseInfo";
-import { SerpGoogleLocalFinderLiveAdvancedRequestInfo } from "../models/SerpGoogleLocalFinderLiveAdvancedRequestInfo";
-import { SerpGoogleLocalFinderLiveAdvancedResponseInfo } from "../models/SerpGoogleLocalFinderLiveAdvancedResponseInfo";
-import { SerpGoogleLocalFinderLiveHtmlRequestInfo } from "../models/SerpGoogleLocalFinderLiveHtmlRequestInfo";
-import { SerpGoogleLocalFinderLiveHtmlResponseInfo } from "../models/SerpGoogleLocalFinderLiveHtmlResponseInfo";
-import { SerpGoogleNewsTaskPostRequestInfo } from "../models/SerpGoogleNewsTaskPostRequestInfo";
-import { SerpGoogleNewsTaskPostResponseInfo } from "../models/SerpGoogleNewsTaskPostResponseInfo";
-import { SerpGoogleNewsTasksReadyResponseInfo } from "../models/SerpGoogleNewsTasksReadyResponseInfo";
-import { SerpGoogleNewsTasksFixedResponseInfo } from "../models/SerpGoogleNewsTasksFixedResponseInfo";
-import { SerpGoogleNewsTaskGetAdvancedResponseInfo } from "../models/SerpGoogleNewsTaskGetAdvancedResponseInfo";
-import { SerpGoogleNewsTaskGetHtmlResponseInfo } from "../models/SerpGoogleNewsTaskGetHtmlResponseInfo";
-import { SerpGoogleNewsLiveAdvancedRequestInfo } from "../models/SerpGoogleNewsLiveAdvancedRequestInfo";
-import { SerpGoogleNewsLiveAdvancedResponseInfo } from "../models/SerpGoogleNewsLiveAdvancedResponseInfo";
-import { SerpGoogleNewsLiveHtmlRequestInfo } from "../models/SerpGoogleNewsLiveHtmlRequestInfo";
-import { SerpGoogleNewsLiveHtmlResponseInfo } from "../models/SerpGoogleNewsLiveHtmlResponseInfo";
-import { SerpGoogleEventsTaskPostRequestInfo } from "../models/SerpGoogleEventsTaskPostRequestInfo";
-import { SerpGoogleEventsTaskPostResponseInfo } from "../models/SerpGoogleEventsTaskPostResponseInfo";
-import { SerpGoogleEventsTasksReadyResponseInfo } from "../models/SerpGoogleEventsTasksReadyResponseInfo";
-import { SerpGoogleEventsTasksFixedResponseInfo } from "../models/SerpGoogleEventsTasksFixedResponseInfo";
-import { SerpGoogleEventsTaskGetAdvancedResponseInfo } from "../models/SerpGoogleEventsTaskGetAdvancedResponseInfo";
-import { SerpGoogleEventsLiveAdvancedRequestInfo } from "../models/SerpGoogleEventsLiveAdvancedRequestInfo";
-import { SerpGoogleEventsLiveAdvancedResponseInfo } from "../models/SerpGoogleEventsLiveAdvancedResponseInfo";
-import { SerpGoogleImagesTaskPostRequestInfo } from "../models/SerpGoogleImagesTaskPostRequestInfo";
-import { SerpGoogleImagesTaskPostResponseInfo } from "../models/SerpGoogleImagesTaskPostResponseInfo";
-import { SerpGoogleImagesTasksReadyResponseInfo } from "../models/SerpGoogleImagesTasksReadyResponseInfo";
-import { SerpGoogleImagesTasksFixedResponseInfo } from "../models/SerpGoogleImagesTasksFixedResponseInfo";
-import { SerpGoogleImagesTaskGetAdvancedResponseInfo } from "../models/SerpGoogleImagesTaskGetAdvancedResponseInfo";
-import { SerpGoogleImagesTaskGetHtmlResponseInfo } from "../models/SerpGoogleImagesTaskGetHtmlResponseInfo";
-import { SerpGoogleImagesLiveAdvancedRequestInfo } from "../models/SerpGoogleImagesLiveAdvancedRequestInfo";
-import { SerpGoogleImagesLiveAdvancedResponseInfo } from "../models/SerpGoogleImagesLiveAdvancedResponseInfo";
-import { SerpGoogleImagesLiveHtmlRequestInfo } from "../models/SerpGoogleImagesLiveHtmlRequestInfo";
-import { SerpGoogleImagesLiveHtmlResponseInfo } from "../models/SerpGoogleImagesLiveHtmlResponseInfo";
-import { SerpGoogleSearchByImageTaskPostRequestInfo } from "../models/SerpGoogleSearchByImageTaskPostRequestInfo";
-import { SerpGoogleSearchByImageTaskPostResponseInfo } from "../models/SerpGoogleSearchByImageTaskPostResponseInfo";
-import { SerpGoogleSearchByImageTasksReadyResponseInfo } from "../models/SerpGoogleSearchByImageTasksReadyResponseInfo";
-import { SerpGoogleSearchByImageTasksFixedResponseInfo } from "../models/SerpGoogleSearchByImageTasksFixedResponseInfo";
-import { SerpGoogleSearchByImageTaskGetAdvancedResponseInfo } from "../models/SerpGoogleSearchByImageTaskGetAdvancedResponseInfo";
-import { SerpGoogleJobsTaskPostRequestInfo } from "../models/SerpGoogleJobsTaskPostRequestInfo";
-import { SerpGoogleJobsTaskPostResponseInfo } from "../models/SerpGoogleJobsTaskPostResponseInfo";
-import { SerpGoogleJobsTasksReadyResponseInfo } from "../models/SerpGoogleJobsTasksReadyResponseInfo";
-import { SerpGoogleJobsTasksFixedResponseInfo } from "../models/SerpGoogleJobsTasksFixedResponseInfo";
-import { SerpGoogleJobsTaskGetAdvancedResponseInfo } from "../models/SerpGoogleJobsTaskGetAdvancedResponseInfo";
-import { SerpGoogleJobsTaskGetHtmlResponseInfo } from "../models/SerpGoogleJobsTaskGetHtmlResponseInfo";
-import { SerpGoogleAutocompleteTaskPostRequestInfo } from "../models/SerpGoogleAutocompleteTaskPostRequestInfo";
-import { SerpGoogleAutocompleteTaskPostResponseInfo } from "../models/SerpGoogleAutocompleteTaskPostResponseInfo";
-import { SerpGoogleAutocompleteTasksReadyResponseInfo } from "../models/SerpGoogleAutocompleteTasksReadyResponseInfo";
-import { SerpGoogleAutocompleteTasksFixedResponseInfo } from "../models/SerpGoogleAutocompleteTasksFixedResponseInfo";
-import { SerpGoogleAutocompleteTaskGetAdvancedResponseInfo } from "../models/SerpGoogleAutocompleteTaskGetAdvancedResponseInfo";
-import { SerpGoogleAutocompleteLiveAdvancedRequestInfo } from "../models/SerpGoogleAutocompleteLiveAdvancedRequestInfo";
-import { SerpGoogleAutocompleteLiveAdvancedResponseInfo } from "../models/SerpGoogleAutocompleteLiveAdvancedResponseInfo";
-import { SerpGoogleDatasetSearchTaskPostRequestInfo } from "../models/SerpGoogleDatasetSearchTaskPostRequestInfo";
-import { SerpGoogleDatasetSearchTaskPostResponseInfo } from "../models/SerpGoogleDatasetSearchTaskPostResponseInfo";
-import { SerpGoogleDatasetSearchTasksReadyResponseInfo } from "../models/SerpGoogleDatasetSearchTasksReadyResponseInfo";
-import { SerpGoogleDatasetSearchTasksFixedResponseInfo } from "../models/SerpGoogleDatasetSearchTasksFixedResponseInfo";
-import { SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo } from "../models/SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo";
-import { SerpGoogleDatasetSearchLiveAdvancedRequestInfo } from "../models/SerpGoogleDatasetSearchLiveAdvancedRequestInfo";
-import { SerpGoogleDatasetSearchLiveAdvancedResponseInfo } from "../models/SerpGoogleDatasetSearchLiveAdvancedResponseInfo";
-import { SerpGoogleDatasetInfoTaskPostRequestInfo } from "../models/SerpGoogleDatasetInfoTaskPostRequestInfo";
-import { SerpGoogleDatasetInfoTaskPostResponseInfo } from "../models/SerpGoogleDatasetInfoTaskPostResponseInfo";
-import { SerpGoogleDatasetInfoTasksReadyResponseInfo } from "../models/SerpGoogleDatasetInfoTasksReadyResponseInfo";
-import { SerpGoogleDatasetInfoTasksFixedResponseInfo } from "../models/SerpGoogleDatasetInfoTasksFixedResponseInfo";
-import { SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo } from "../models/SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo";
-import { SerpGoogleDatasetInfoLiveAdvancedRequestInfo } from "../models/SerpGoogleDatasetInfoLiveAdvancedRequestInfo";
-import { SerpGoogleDatasetInfoLiveAdvancedResponseInfo } from "../models/SerpGoogleDatasetInfoLiveAdvancedResponseInfo";
-import { SerpGoogleAdsAdvertisersLocationsResponseInfo } from "../models/SerpGoogleAdsAdvertisersLocationsResponseInfo";
-import { SerpGoogleAdsAdvertisersTaskPostRequestInfo } from "../models/SerpGoogleAdsAdvertisersTaskPostRequestInfo";
-import { SerpGoogleAdsAdvertisersTaskPostResponseInfo } from "../models/SerpGoogleAdsAdvertisersTaskPostResponseInfo";
-import { SerpGoogleAdsAdvertisersTasksReadyResponseInfo } from "../models/SerpGoogleAdsAdvertisersTasksReadyResponseInfo";
-import { SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo } from "../models/SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo";
-import { SerpGoogleAdsSearchLocationsResponseInfo } from "../models/SerpGoogleAdsSearchLocationsResponseInfo";
-import { SerpGoogleAdsSearchTaskPostRequestInfo } from "../models/SerpGoogleAdsSearchTaskPostRequestInfo";
-import { SerpGoogleAdsSearchTaskPostResponseInfo } from "../models/SerpGoogleAdsSearchTaskPostResponseInfo";
-import { SerpGoogleAdsSearchTasksReadyResponseInfo } from "../models/SerpGoogleAdsSearchTasksReadyResponseInfo";
-import { SerpGoogleAdsSearchTaskGetAdvancedResponseInfo } from "../models/SerpGoogleAdsSearchTaskGetAdvancedResponseInfo";
-import { SerpBingLocationsResponseInfo } from "../models/SerpBingLocationsResponseInfo";
-import { SerpBingLocationsCountryResponseInfo } from "../models/SerpBingLocationsCountryResponseInfo";
-import { SerpBingLanguagesResponseInfo } from "../models/SerpBingLanguagesResponseInfo";
-import { SerpBingOrganicTaskPostRequestInfo } from "../models/SerpBingOrganicTaskPostRequestInfo";
-import { SerpBingOrganicTaskPostResponseInfo } from "../models/SerpBingOrganicTaskPostResponseInfo";
-import { SerpBingOrganicTasksReadyResponseInfo } from "../models/SerpBingOrganicTasksReadyResponseInfo";
-import { SerpBingOrganicTasksFixedResponseInfo } from "../models/SerpBingOrganicTasksFixedResponseInfo";
-import { SerpBingOrganicTaskGetRegularResponseInfo } from "../models/SerpBingOrganicTaskGetRegularResponseInfo";
-import { SerpBingOrganicTaskGetAdvancedResponseInfo } from "../models/SerpBingOrganicTaskGetAdvancedResponseInfo";
-import { SerpBingOrganicTaskGetHtmlResponseInfo } from "../models/SerpBingOrganicTaskGetHtmlResponseInfo";
-import { SerpBingOrganicLiveRegularRequestInfo } from "../models/SerpBingOrganicLiveRegularRequestInfo";
-import { SerpBingOrganicLiveRegularResponseInfo } from "../models/SerpBingOrganicLiveRegularResponseInfo";
-import { SerpBingOrganicLiveAdvancedRequestInfo } from "../models/SerpBingOrganicLiveAdvancedRequestInfo";
-import { SerpBingOrganicLiveAdvancedResponseInfo } from "../models/SerpBingOrganicLiveAdvancedResponseInfo";
-import { SerpBingOrganicLiveHtmlRequestInfo } from "../models/SerpBingOrganicLiveHtmlRequestInfo";
-import { SerpBingOrganicLiveHtmlResponseInfo } from "../models/SerpBingOrganicLiveHtmlResponseInfo";
-import { SerpBingLocalPackTaskPostRequestInfo } from "../models/SerpBingLocalPackTaskPostRequestInfo";
-import { SerpBingLocalPackTaskPostResponseInfo } from "../models/SerpBingLocalPackTaskPostResponseInfo";
-import { SerpBingLocalPackTasksReadyResponseInfo } from "../models/SerpBingLocalPackTasksReadyResponseInfo";
-import { SerpBingLocalPackTasksFixedResponseInfo } from "../models/SerpBingLocalPackTasksFixedResponseInfo";
-import { SerpBingLocalPackTaskGetRegularResponseInfo } from "../models/SerpBingLocalPackTaskGetRegularResponseInfo";
-import { SerpBingLocalPackTaskGetHtmlResponseInfo } from "../models/SerpBingLocalPackTaskGetHtmlResponseInfo";
-import { SerpBingLocalPackLiveRegularRequestInfo } from "../models/SerpBingLocalPackLiveRegularRequestInfo";
-import { SerpBingLocalPackLiveRegularResponseInfo } from "../models/SerpBingLocalPackLiveRegularResponseInfo";
-import { SerpBingLocalPackLiveHtmlRequestInfo } from "../models/SerpBingLocalPackLiveHtmlRequestInfo";
-import { SerpBingLocalPackLiveHtmlResponseInfo } from "../models/SerpBingLocalPackLiveHtmlResponseInfo";
-import { SerpYoutubeLocationsResponseInfo } from "../models/SerpYoutubeLocationsResponseInfo";
-import { SerpYoutubeLocationsCountryResponseInfo } from "../models/SerpYoutubeLocationsCountryResponseInfo";
-import { SerpYoutubeLanguagesResponseInfo } from "../models/SerpYoutubeLanguagesResponseInfo";
-import { SerpYoutubeVideoInfoTaskPostRequestInfo } from "../models/SerpYoutubeVideoInfoTaskPostRequestInfo";
-import { SerpYoutubeVideoInfoTaskPostResponseInfo } from "../models/SerpYoutubeVideoInfoTaskPostResponseInfo";
-import { SerpYoutubeVideoInfoTasksReadyResponseInfo } from "../models/SerpYoutubeVideoInfoTasksReadyResponseInfo";
-import { SerpYoutubeVideoInfoTasksFixedResponseInfo } from "../models/SerpYoutubeVideoInfoTasksFixedResponseInfo";
-import { SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo } from "../models/SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo";
-import { SerpYoutubeVideoInfoLiveAdvancedRequestInfo } from "../models/SerpYoutubeVideoInfoLiveAdvancedRequestInfo";
-import { SerpYoutubeVideoInfoLiveAdvancedResponseInfo } from "../models/SerpYoutubeVideoInfoLiveAdvancedResponseInfo";
-import { SerpYoutubeVideoSubtitlesTaskPostRequestInfo } from "../models/SerpYoutubeVideoSubtitlesTaskPostRequestInfo";
-import { SerpYoutubeVideoSubtitlesTaskPostResponseInfo } from "../models/SerpYoutubeVideoSubtitlesTaskPostResponseInfo";
-import { SerpYoutubeVideoSubtitlesTasksReadyResponseInfo } from "../models/SerpYoutubeVideoSubtitlesTasksReadyResponseInfo";
-import { SerpYoutubeVideoSubtitlesTasksFixedResponseInfo } from "../models/SerpYoutubeVideoSubtitlesTasksFixedResponseInfo";
-import { SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo } from "../models/SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo";
-import { SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo } from "../models/SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo";
-import { SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo } from "../models/SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo";
-import { SerpYoutubeVideoCommentsTaskPostRequestInfo } from "../models/SerpYoutubeVideoCommentsTaskPostRequestInfo";
-import { SerpYoutubeVideoCommentsTaskPostResponseInfo } from "../models/SerpYoutubeVideoCommentsTaskPostResponseInfo";
-import { SerpYoutubeVideoCommentsTasksReadyResponseInfo } from "../models/SerpYoutubeVideoCommentsTasksReadyResponseInfo";
-import { SerpYoutubeVideoCommentsTasksFixedResponseInfo } from "../models/SerpYoutubeVideoCommentsTasksFixedResponseInfo";
-import { SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo } from "../models/SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo";
-import { SerpYoutubeVideoCommentsLiveAdvancedRequestInfo } from "../models/SerpYoutubeVideoCommentsLiveAdvancedRequestInfo";
-import { SerpYoutubeVideoCommentsLiveAdvancedResponseInfo } from "../models/SerpYoutubeVideoCommentsLiveAdvancedResponseInfo";
-import { SerpYahooLocationsResponseInfo } from "../models/SerpYahooLocationsResponseInfo";
-import { SerpYahooLocationsCountryResponseInfo } from "../models/SerpYahooLocationsCountryResponseInfo";
-import { SerpYahooLanguagesResponseInfo } from "../models/SerpYahooLanguagesResponseInfo";
-import { SerpYahooOrganicTaskPostRequestInfo } from "../models/SerpYahooOrganicTaskPostRequestInfo";
-import { SerpYahooOrganicTaskPostResponseInfo } from "../models/SerpYahooOrganicTaskPostResponseInfo";
-import { SerpYahooOrganicTasksReadyResponseInfo } from "../models/SerpYahooOrganicTasksReadyResponseInfo";
-import { SerpYahooOrganicTasksFixedResponseInfo } from "../models/SerpYahooOrganicTasksFixedResponseInfo";
-import { SerpYahooOrganicTaskGetRegularResponseInfo } from "../models/SerpYahooOrganicTaskGetRegularResponseInfo";
-import { SerpYahooOrganicTaskGetAdvancedResponseInfo } from "../models/SerpYahooOrganicTaskGetAdvancedResponseInfo";
-import { SerpYahooOrganicTaskGetHtmlResponseInfo } from "../models/SerpYahooOrganicTaskGetHtmlResponseInfo";
-import { SerpYahooOrganicLiveRegularRequestInfo } from "../models/SerpYahooOrganicLiveRegularRequestInfo";
-import { SerpYahooOrganicLiveRegularResponseInfo } from "../models/SerpYahooOrganicLiveRegularResponseInfo";
-import { SerpYahooOrganicLiveAdvancedRequestInfo } from "../models/SerpYahooOrganicLiveAdvancedRequestInfo";
-import { SerpYahooOrganicLiveAdvancedResponseInfo } from "../models/SerpYahooOrganicLiveAdvancedResponseInfo";
-import { SerpYahooOrganicLiveHtmlRequestInfo } from "../models/SerpYahooOrganicLiveHtmlRequestInfo";
-import { SerpYahooOrganicLiveHtmlResponseInfo } from "../models/SerpYahooOrganicLiveHtmlResponseInfo";
-import { SerpBaiduLocationsResponseInfo } from "../models/SerpBaiduLocationsResponseInfo";
-import { SerpBaiduLocationsCountryResponseInfo } from "../models/SerpBaiduLocationsCountryResponseInfo";
-import { SerpBaiduLanguagesResponseInfo } from "../models/SerpBaiduLanguagesResponseInfo";
-import { SerpBaiduOrganicTaskPostRequestInfo } from "../models/SerpBaiduOrganicTaskPostRequestInfo";
-import { SerpBaiduOrganicTaskPostResponseInfo } from "../models/SerpBaiduOrganicTaskPostResponseInfo";
-import { SerpBaiduOrganicTasksReadyResponseInfo } from "../models/SerpBaiduOrganicTasksReadyResponseInfo";
-import { SerpBaiduOrganicTasksFixedResponseInfo } from "../models/SerpBaiduOrganicTasksFixedResponseInfo";
-import { SerpBaiduOrganicTaskGetRegularResponseInfo } from "../models/SerpBaiduOrganicTaskGetRegularResponseInfo";
-import { SerpBaiduOrganicTaskGetAdvancedResponseInfo } from "../models/SerpBaiduOrganicTaskGetAdvancedResponseInfo";
-import { SerpBaiduOrganicTaskGetHtmlResponseInfo } from "../models/SerpBaiduOrganicTaskGetHtmlResponseInfo";
-import { SerpNaverOrganicTaskPostRequestInfo } from "../models/SerpNaverOrganicTaskPostRequestInfo";
-import { SerpNaverOrganicTaskPostResponseInfo } from "../models/SerpNaverOrganicTaskPostResponseInfo";
-import { SerpNaverOrganicTasksReadyResponseInfo } from "../models/SerpNaverOrganicTasksReadyResponseInfo";
-import { SerpNaverOrganicTasksFixedResponseInfo } from "../models/SerpNaverOrganicTasksFixedResponseInfo";
-import { SerpNaverOrganicTaskGetRegularResponseInfo } from "../models/SerpNaverOrganicTaskGetRegularResponseInfo";
-import { SerpNaverOrganicTaskGetAdvancedResponseInfo } from "../models/SerpNaverOrganicTaskGetAdvancedResponseInfo";
-import { SerpNaverOrganicTaskGetHtmlResponseInfo } from "../models/SerpNaverOrganicTaskGetHtmlResponseInfo";
-import { SerpSeznamLocationsResponseInfo } from "../models/SerpSeznamLocationsResponseInfo";
-import { SerpSeznamLocationsCountryResponseInfo } from "../models/SerpSeznamLocationsCountryResponseInfo";
-import { SerpSeznamLanguagesResponseInfo } from "../models/SerpSeznamLanguagesResponseInfo";
-import { SerpSeznamOrganicTaskPostRequestInfo } from "../models/SerpSeznamOrganicTaskPostRequestInfo";
-import { SerpSeznamOrganicTaskPostResponseInfo } from "../models/SerpSeznamOrganicTaskPostResponseInfo";
-import { SerpSeznamOrganicTasksReadyResponseInfo } from "../models/SerpSeznamOrganicTasksReadyResponseInfo";
-import { SerpSeznamOrganicTasksFixedResponseInfo } from "../models/SerpSeznamOrganicTasksFixedResponseInfo";
-import { SerpSeznamOrganicTaskGetRegularResponseInfo } from "../models/SerpSeznamOrganicTaskGetRegularResponseInfo";
-import { SerpSeznamOrganicTaskGetAdvancedResponseInfo } from "../models/SerpSeznamOrganicTaskGetAdvancedResponseInfo";
-import { SerpSeznamOrganicTaskGetHtmlResponseInfo } from "../models/SerpSeznamOrganicTaskGetHtmlResponseInfo";
-import { SerpGoogleFinanceExploreTaskPostRequestInfo } from "../models/SerpGoogleFinanceExploreTaskPostRequestInfo";
-import { SerpGoogleFinanceExploreTaskPostResponseInfo } from "../models/SerpGoogleFinanceExploreTaskPostResponseInfo";
-import { SerpGoogleFinanceExploreTasksReadyResponseInfo } from "../models/SerpGoogleFinanceExploreTasksReadyResponseInfo";
-import { SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo } from "../models/SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo";
-import { SerpGoogleFinanceExploreTaskGetHtmlResponseInfo } from "../models/SerpGoogleFinanceExploreTaskGetHtmlResponseInfo";
-import { SerpGoogleFinanceExploreLiveAdvancedRequestInfo } from "../models/SerpGoogleFinanceExploreLiveAdvancedRequestInfo";
-import { SerpGoogleFinanceExploreLiveAdvancedResponseInfo } from "../models/SerpGoogleFinanceExploreLiveAdvancedResponseInfo";
-import { SerpGoogleFinanceExploreLiveHtmlRequestInfo } from "../models/SerpGoogleFinanceExploreLiveHtmlRequestInfo";
-import { SerpGoogleFinanceExploreLiveHtmlResponseInfo } from "../models/SerpGoogleFinanceExploreLiveHtmlResponseInfo";
-import { SerpGoogleFinanceMarketsTaskPostRequestInfo } from "../models/SerpGoogleFinanceMarketsTaskPostRequestInfo";
-import { SerpGoogleFinanceMarketsTaskPostResponseInfo } from "../models/SerpGoogleFinanceMarketsTaskPostResponseInfo";
-import { SerpGoogleFinanceMarketsTasksReadyResponseInfo } from "../models/SerpGoogleFinanceMarketsTasksReadyResponseInfo";
-import { SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo } from "../models/SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo";
-import { SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo } from "../models/SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo";
-import { SerpGoogleFinanceMarketsLiveAdvancedRequestInfo } from "../models/SerpGoogleFinanceMarketsLiveAdvancedRequestInfo";
-import { SerpGoogleFinanceMarketsLiveAdvancedResponseInfo } from "../models/SerpGoogleFinanceMarketsLiveAdvancedResponseInfo";
-import { SerpGoogleFinanceMarketsLiveHtmlRequestInfo } from "../models/SerpGoogleFinanceMarketsLiveHtmlRequestInfo";
-import { SerpGoogleFinanceMarketsLiveHtmlResponseInfo } from "../models/SerpGoogleFinanceMarketsLiveHtmlResponseInfo";
-import { SerpGoogleFinanceQuoteTaskPostRequestInfo } from "../models/SerpGoogleFinanceQuoteTaskPostRequestInfo";
-import { SerpGoogleFinanceQuoteTaskPostResponseInfo } from "../models/SerpGoogleFinanceQuoteTaskPostResponseInfo";
-import { SerpGoogleFinanceQuoteTasksReadyResponseInfo } from "../models/SerpGoogleFinanceQuoteTasksReadyResponseInfo";
-import { SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo } from "../models/SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo";
-import { SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo } from "../models/SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo";
-import { SerpGoogleFinanceQuoteLiveAdvancedRequestInfo } from "../models/SerpGoogleFinanceQuoteLiveAdvancedRequestInfo";
-import { SerpGoogleFinanceQuoteLiveAdvancedResponseInfo } from "../models/SerpGoogleFinanceQuoteLiveAdvancedResponseInfo";
-import { SerpGoogleFinanceQuoteLiveHtmlRequestInfo } from "../models/SerpGoogleFinanceQuoteLiveHtmlRequestInfo";
-import { SerpGoogleFinanceQuoteLiveHtmlResponseInfo } from "../models/SerpGoogleFinanceQuoteLiveHtmlResponseInfo";
-import { SerpGoogleFinanceTickerSearchTaskPostRequestInfo } from "../models/SerpGoogleFinanceTickerSearchTaskPostRequestInfo";
-import { SerpGoogleFinanceTickerSearchTaskPostResponseInfo } from "../models/SerpGoogleFinanceTickerSearchTaskPostResponseInfo";
-import { SerpGoogleFinanceTickerSearchTasksReadyResponseInfo } from "../models/SerpGoogleFinanceTickerSearchTasksReadyResponseInfo";
-import { SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo } from "../models/SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo";
-import { SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo } from "../models/SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo";
-import { SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo } from "../models/SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { SerpIdListRequestInfo } from "./../models/SerpIdListRequestInfo";
+import { SerpIdListResponseInfo } from "./../models/SerpIdListResponseInfo";
+import { SerpErrorsRequestInfo } from "./../models/SerpErrorsRequestInfo";
+import { SerpErrorsResponseInfo } from "./../models/SerpErrorsResponseInfo";
+import { SerpScreenshotRequestInfo } from "./../models/SerpScreenshotRequestInfo";
+import { SerpScreenshotResponseInfo } from "./../models/SerpScreenshotResponseInfo";
+import { SerpAiSummaryRequestInfo } from "./../models/SerpAiSummaryRequestInfo";
+import { SerpAiSummaryResponseInfo } from "./../models/SerpAiSummaryResponseInfo";
+import { SerpGoogleLocationsResponseInfo } from "./../models/SerpGoogleLocationsResponseInfo";
+import { SerpGoogleLocationsCountryResponseInfo } from "./../models/SerpGoogleLocationsCountryResponseInfo";
+import { SerpGoogleLanguagesResponseInfo } from "./../models/SerpGoogleLanguagesResponseInfo";
+import { SerpGoogleOrganicTaskPostRequestInfo } from "./../models/SerpGoogleOrganicTaskPostRequestInfo";
+import { SerpGoogleOrganicTaskPostResponseInfo } from "./../models/SerpGoogleOrganicTaskPostResponseInfo";
+import { SerpGoogleOrganicTasksReadyResponseInfo } from "./../models/SerpGoogleOrganicTasksReadyResponseInfo";
+import { SerpTasksReadyResponseInfo } from "./../models/SerpTasksReadyResponseInfo";
+import { SerpGoogleOrganicTasksFixedResponseInfo } from "./../models/SerpGoogleOrganicTasksFixedResponseInfo";
+import { SerpGoogleOrganicTaskGetRegularResponseInfo } from "./../models/SerpGoogleOrganicTaskGetRegularResponseInfo";
+import { SerpGoogleOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleOrganicTaskGetAdvancedResponseInfo";
+import { SerpGoogleOrganicTaskGetHtmlResponseInfo } from "./../models/SerpGoogleOrganicTaskGetHtmlResponseInfo";
+import { SerpGoogleOrganicLiveRegularRequestInfo } from "./../models/SerpGoogleOrganicLiveRegularRequestInfo";
+import { SerpGoogleOrganicLiveRegularResponseInfo } from "./../models/SerpGoogleOrganicLiveRegularResponseInfo";
+import { SerpGoogleOrganicLiveAdvancedRequestInfo } from "./../models/SerpGoogleOrganicLiveAdvancedRequestInfo";
+import { SerpGoogleOrganicLiveAdvancedResponseInfo } from "./../models/SerpGoogleOrganicLiveAdvancedResponseInfo";
+import { SerpGoogleOrganicLiveHtmlRequestInfo } from "./../models/SerpGoogleOrganicLiveHtmlRequestInfo";
+import { SerpGoogleOrganicLiveHtmlResponseInfo } from "./../models/SerpGoogleOrganicLiveHtmlResponseInfo";
+import { SerpGoogleAiModeLanguagesResponseInfo } from "./../models/SerpGoogleAiModeLanguagesResponseInfo";
+import { SerpGoogleAiModeTaskPostRequestInfo } from "./../models/SerpGoogleAiModeTaskPostRequestInfo";
+import { SerpGoogleAiModeTaskPostResponseInfo } from "./../models/SerpGoogleAiModeTaskPostResponseInfo";
+import { SerpGoogleAiModeTasksReadyResponseInfo } from "./../models/SerpGoogleAiModeTasksReadyResponseInfo";
+import { SerpGoogleAiModeTasksFixedResponseInfo } from "./../models/SerpGoogleAiModeTasksFixedResponseInfo";
+import { SerpGoogleAiModeTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleAiModeTaskGetAdvancedResponseInfo";
+import { SerpGoogleAiModeTaskGetHtmlResponseInfo } from "./../models/SerpGoogleAiModeTaskGetHtmlResponseInfo";
+import { SerpGoogleAiModeLiveAdvancedRequestInfo } from "./../models/SerpGoogleAiModeLiveAdvancedRequestInfo";
+import { SerpGoogleAiModeLiveAdvancedResponseInfo } from "./../models/SerpGoogleAiModeLiveAdvancedResponseInfo";
+import { SerpGoogleAiModeLiveHtmlRequestInfo } from "./../models/SerpGoogleAiModeLiveHtmlRequestInfo";
+import { SerpGoogleAiModeLiveHtmlResponseInfo } from "./../models/SerpGoogleAiModeLiveHtmlResponseInfo";
+import { SerpGoogleMapsTaskPostRequestInfo } from "./../models/SerpGoogleMapsTaskPostRequestInfo";
+import { SerpGoogleMapsTaskPostResponseInfo } from "./../models/SerpGoogleMapsTaskPostResponseInfo";
+import { SerpGoogleMapsTasksReadyResponseInfo } from "./../models/SerpGoogleMapsTasksReadyResponseInfo";
+import { SerpGoogleMapsTasksFixedResponseInfo } from "./../models/SerpGoogleMapsTasksFixedResponseInfo";
+import { SerpGoogleMapsTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleMapsTaskGetAdvancedResponseInfo";
+import { SerpGoogleMapsLiveAdvancedRequestInfo } from "./../models/SerpGoogleMapsLiveAdvancedRequestInfo";
+import { SerpGoogleMapsLiveAdvancedResponseInfo } from "./../models/SerpGoogleMapsLiveAdvancedResponseInfo";
+import { SerpGoogleLocalFinderTaskPostRequestInfo } from "./../models/SerpGoogleLocalFinderTaskPostRequestInfo";
+import { SerpGoogleLocalFinderTaskPostResponseInfo } from "./../models/SerpGoogleLocalFinderTaskPostResponseInfo";
+import { SerpGoogleLocalFinderTasksReadyResponseInfo } from "./../models/SerpGoogleLocalFinderTasksReadyResponseInfo";
+import { SerpGoogleLocalFinderTasksFixedResponseInfo } from "./../models/SerpGoogleLocalFinderTasksFixedResponseInfo";
+import { SerpGoogleLocalFinderTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleLocalFinderTaskGetAdvancedResponseInfo";
+import { SerpGoogleLocalFinderTaskGetHtmlResponseInfo } from "./../models/SerpGoogleLocalFinderTaskGetHtmlResponseInfo";
+import { SerpGoogleLocalFinderLiveAdvancedRequestInfo } from "./../models/SerpGoogleLocalFinderLiveAdvancedRequestInfo";
+import { SerpGoogleLocalFinderLiveAdvancedResponseInfo } from "./../models/SerpGoogleLocalFinderLiveAdvancedResponseInfo";
+import { SerpGoogleLocalFinderLiveHtmlRequestInfo } from "./../models/SerpGoogleLocalFinderLiveHtmlRequestInfo";
+import { SerpGoogleLocalFinderLiveHtmlResponseInfo } from "./../models/SerpGoogleLocalFinderLiveHtmlResponseInfo";
+import { SerpGoogleNewsTaskPostRequestInfo } from "./../models/SerpGoogleNewsTaskPostRequestInfo";
+import { SerpGoogleNewsTaskPostResponseInfo } from "./../models/SerpGoogleNewsTaskPostResponseInfo";
+import { SerpGoogleNewsTasksReadyResponseInfo } from "./../models/SerpGoogleNewsTasksReadyResponseInfo";
+import { SerpGoogleNewsTasksFixedResponseInfo } from "./../models/SerpGoogleNewsTasksFixedResponseInfo";
+import { SerpGoogleNewsTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleNewsTaskGetAdvancedResponseInfo";
+import { SerpGoogleNewsTaskGetHtmlResponseInfo } from "./../models/SerpGoogleNewsTaskGetHtmlResponseInfo";
+import { SerpGoogleNewsLiveAdvancedRequestInfo } from "./../models/SerpGoogleNewsLiveAdvancedRequestInfo";
+import { SerpGoogleNewsLiveAdvancedResponseInfo } from "./../models/SerpGoogleNewsLiveAdvancedResponseInfo";
+import { SerpGoogleNewsLiveHtmlRequestInfo } from "./../models/SerpGoogleNewsLiveHtmlRequestInfo";
+import { SerpGoogleNewsLiveHtmlResponseInfo } from "./../models/SerpGoogleNewsLiveHtmlResponseInfo";
+import { SerpGoogleEventsTaskPostRequestInfo } from "./../models/SerpGoogleEventsTaskPostRequestInfo";
+import { SerpGoogleEventsTaskPostResponseInfo } from "./../models/SerpGoogleEventsTaskPostResponseInfo";
+import { SerpGoogleEventsTasksReadyResponseInfo } from "./../models/SerpGoogleEventsTasksReadyResponseInfo";
+import { SerpGoogleEventsTasksFixedResponseInfo } from "./../models/SerpGoogleEventsTasksFixedResponseInfo";
+import { SerpGoogleEventsTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleEventsTaskGetAdvancedResponseInfo";
+import { SerpGoogleEventsLiveAdvancedRequestInfo } from "./../models/SerpGoogleEventsLiveAdvancedRequestInfo";
+import { SerpGoogleEventsLiveAdvancedResponseInfo } from "./../models/SerpGoogleEventsLiveAdvancedResponseInfo";
+import { SerpGoogleImagesTaskPostRequestInfo } from "./../models/SerpGoogleImagesTaskPostRequestInfo";
+import { SerpGoogleImagesTaskPostResponseInfo } from "./../models/SerpGoogleImagesTaskPostResponseInfo";
+import { SerpGoogleImagesTasksReadyResponseInfo } from "./../models/SerpGoogleImagesTasksReadyResponseInfo";
+import { SerpGoogleImagesTasksFixedResponseInfo } from "./../models/SerpGoogleImagesTasksFixedResponseInfo";
+import { SerpGoogleImagesTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleImagesTaskGetAdvancedResponseInfo";
+import { SerpGoogleImagesTaskGetHtmlResponseInfo } from "./../models/SerpGoogleImagesTaskGetHtmlResponseInfo";
+import { SerpGoogleImagesLiveAdvancedRequestInfo } from "./../models/SerpGoogleImagesLiveAdvancedRequestInfo";
+import { SerpGoogleImagesLiveAdvancedResponseInfo } from "./../models/SerpGoogleImagesLiveAdvancedResponseInfo";
+import { SerpGoogleImagesLiveHtmlRequestInfo } from "./../models/SerpGoogleImagesLiveHtmlRequestInfo";
+import { SerpGoogleImagesLiveHtmlResponseInfo } from "./../models/SerpGoogleImagesLiveHtmlResponseInfo";
+import { SerpGoogleSearchByImageTaskPostRequestInfo } from "./../models/SerpGoogleSearchByImageTaskPostRequestInfo";
+import { SerpGoogleSearchByImageTaskPostResponseInfo } from "./../models/SerpGoogleSearchByImageTaskPostResponseInfo";
+import { SerpGoogleSearchByImageTasksReadyResponseInfo } from "./../models/SerpGoogleSearchByImageTasksReadyResponseInfo";
+import { SerpGoogleSearchByImageTasksFixedResponseInfo } from "./../models/SerpGoogleSearchByImageTasksFixedResponseInfo";
+import { SerpGoogleSearchByImageTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleSearchByImageTaskGetAdvancedResponseInfo";
+import { SerpGoogleJobsTaskPostRequestInfo } from "./../models/SerpGoogleJobsTaskPostRequestInfo";
+import { SerpGoogleJobsTaskPostResponseInfo } from "./../models/SerpGoogleJobsTaskPostResponseInfo";
+import { SerpGoogleJobsTasksReadyResponseInfo } from "./../models/SerpGoogleJobsTasksReadyResponseInfo";
+import { SerpGoogleJobsTasksFixedResponseInfo } from "./../models/SerpGoogleJobsTasksFixedResponseInfo";
+import { SerpGoogleJobsTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleJobsTaskGetAdvancedResponseInfo";
+import { SerpGoogleJobsTaskGetHtmlResponseInfo } from "./../models/SerpGoogleJobsTaskGetHtmlResponseInfo";
+import { SerpGoogleAutocompleteTaskPostRequestInfo } from "./../models/SerpGoogleAutocompleteTaskPostRequestInfo";
+import { SerpGoogleAutocompleteTaskPostResponseInfo } from "./../models/SerpGoogleAutocompleteTaskPostResponseInfo";
+import { SerpGoogleAutocompleteTasksReadyResponseInfo } from "./../models/SerpGoogleAutocompleteTasksReadyResponseInfo";
+import { SerpGoogleAutocompleteTasksFixedResponseInfo } from "./../models/SerpGoogleAutocompleteTasksFixedResponseInfo";
+import { SerpGoogleAutocompleteTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleAutocompleteTaskGetAdvancedResponseInfo";
+import { SerpGoogleAutocompleteLiveAdvancedRequestInfo } from "./../models/SerpGoogleAutocompleteLiveAdvancedRequestInfo";
+import { SerpGoogleAutocompleteLiveAdvancedResponseInfo } from "./../models/SerpGoogleAutocompleteLiveAdvancedResponseInfo";
+import { SerpGoogleDatasetSearchTaskPostRequestInfo } from "./../models/SerpGoogleDatasetSearchTaskPostRequestInfo";
+import { SerpGoogleDatasetSearchTaskPostResponseInfo } from "./../models/SerpGoogleDatasetSearchTaskPostResponseInfo";
+import { SerpGoogleDatasetSearchTasksReadyResponseInfo } from "./../models/SerpGoogleDatasetSearchTasksReadyResponseInfo";
+import { SerpGoogleDatasetSearchTasksFixedResponseInfo } from "./../models/SerpGoogleDatasetSearchTasksFixedResponseInfo";
+import { SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo";
+import { SerpGoogleDatasetSearchLiveAdvancedRequestInfo } from "./../models/SerpGoogleDatasetSearchLiveAdvancedRequestInfo";
+import { SerpGoogleDatasetSearchLiveAdvancedResponseInfo } from "./../models/SerpGoogleDatasetSearchLiveAdvancedResponseInfo";
+import { SerpGoogleDatasetInfoTaskPostRequestInfo } from "./../models/SerpGoogleDatasetInfoTaskPostRequestInfo";
+import { SerpGoogleDatasetInfoTaskPostResponseInfo } from "./../models/SerpGoogleDatasetInfoTaskPostResponseInfo";
+import { SerpGoogleDatasetInfoTasksReadyResponseInfo } from "./../models/SerpGoogleDatasetInfoTasksReadyResponseInfo";
+import { SerpGoogleDatasetInfoTasksFixedResponseInfo } from "./../models/SerpGoogleDatasetInfoTasksFixedResponseInfo";
+import { SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo";
+import { SerpGoogleDatasetInfoLiveAdvancedRequestInfo } from "./../models/SerpGoogleDatasetInfoLiveAdvancedRequestInfo";
+import { SerpGoogleDatasetInfoLiveAdvancedResponseInfo } from "./../models/SerpGoogleDatasetInfoLiveAdvancedResponseInfo";
+import { SerpGoogleAdsAdvertisersLocationsResponseInfo } from "./../models/SerpGoogleAdsAdvertisersLocationsResponseInfo";
+import { SerpGoogleAdsAdvertisersTaskPostRequestInfo } from "./../models/SerpGoogleAdsAdvertisersTaskPostRequestInfo";
+import { SerpGoogleAdsAdvertisersTaskPostResponseInfo } from "./../models/SerpGoogleAdsAdvertisersTaskPostResponseInfo";
+import { SerpGoogleAdsAdvertisersTasksReadyResponseInfo } from "./../models/SerpGoogleAdsAdvertisersTasksReadyResponseInfo";
+import { SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo";
+import { SerpGoogleAdsSearchLocationsResponseInfo } from "./../models/SerpGoogleAdsSearchLocationsResponseInfo";
+import { SerpGoogleAdsSearchTaskPostRequestInfo } from "./../models/SerpGoogleAdsSearchTaskPostRequestInfo";
+import { SerpGoogleAdsSearchTaskPostResponseInfo } from "./../models/SerpGoogleAdsSearchTaskPostResponseInfo";
+import { SerpGoogleAdsSearchTasksReadyResponseInfo } from "./../models/SerpGoogleAdsSearchTasksReadyResponseInfo";
+import { SerpGoogleAdsSearchTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleAdsSearchTaskGetAdvancedResponseInfo";
+import { SerpBingLocationsResponseInfo } from "./../models/SerpBingLocationsResponseInfo";
+import { SerpBingLocationsCountryResponseInfo } from "./../models/SerpBingLocationsCountryResponseInfo";
+import { SerpBingLanguagesResponseInfo } from "./../models/SerpBingLanguagesResponseInfo";
+import { SerpBingOrganicTaskPostRequestInfo } from "./../models/SerpBingOrganicTaskPostRequestInfo";
+import { SerpBingOrganicTaskPostResponseInfo } from "./../models/SerpBingOrganicTaskPostResponseInfo";
+import { SerpBingOrganicTasksReadyResponseInfo } from "./../models/SerpBingOrganicTasksReadyResponseInfo";
+import { SerpBingOrganicTasksFixedResponseInfo } from "./../models/SerpBingOrganicTasksFixedResponseInfo";
+import { SerpBingOrganicTaskGetRegularResponseInfo } from "./../models/SerpBingOrganicTaskGetRegularResponseInfo";
+import { SerpBingOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpBingOrganicTaskGetAdvancedResponseInfo";
+import { SerpBingOrganicTaskGetHtmlResponseInfo } from "./../models/SerpBingOrganicTaskGetHtmlResponseInfo";
+import { SerpBingOrganicLiveRegularRequestInfo } from "./../models/SerpBingOrganicLiveRegularRequestInfo";
+import { SerpBingOrganicLiveRegularResponseInfo } from "./../models/SerpBingOrganicLiveRegularResponseInfo";
+import { SerpBingOrganicLiveAdvancedRequestInfo } from "./../models/SerpBingOrganicLiveAdvancedRequestInfo";
+import { SerpBingOrganicLiveAdvancedResponseInfo } from "./../models/SerpBingOrganicLiveAdvancedResponseInfo";
+import { SerpBingOrganicLiveHtmlRequestInfo } from "./../models/SerpBingOrganicLiveHtmlRequestInfo";
+import { SerpBingOrganicLiveHtmlResponseInfo } from "./../models/SerpBingOrganicLiveHtmlResponseInfo";
+import { SerpBingLocalPackTaskPostRequestInfo } from "./../models/SerpBingLocalPackTaskPostRequestInfo";
+import { SerpBingLocalPackTaskPostResponseInfo } from "./../models/SerpBingLocalPackTaskPostResponseInfo";
+import { SerpBingLocalPackTasksReadyResponseInfo } from "./../models/SerpBingLocalPackTasksReadyResponseInfo";
+import { SerpBingLocalPackTasksFixedResponseInfo } from "./../models/SerpBingLocalPackTasksFixedResponseInfo";
+import { SerpBingLocalPackTaskGetRegularResponseInfo } from "./../models/SerpBingLocalPackTaskGetRegularResponseInfo";
+import { SerpBingLocalPackTaskGetHtmlResponseInfo } from "./../models/SerpBingLocalPackTaskGetHtmlResponseInfo";
+import { SerpBingLocalPackLiveRegularRequestInfo } from "./../models/SerpBingLocalPackLiveRegularRequestInfo";
+import { SerpBingLocalPackLiveRegularResponseInfo } from "./../models/SerpBingLocalPackLiveRegularResponseInfo";
+import { SerpBingLocalPackLiveHtmlRequestInfo } from "./../models/SerpBingLocalPackLiveHtmlRequestInfo";
+import { SerpBingLocalPackLiveHtmlResponseInfo } from "./../models/SerpBingLocalPackLiveHtmlResponseInfo";
+import { SerpYoutubeLocationsResponseInfo } from "./../models/SerpYoutubeLocationsResponseInfo";
+import { SerpYoutubeLocationsCountryResponseInfo } from "./../models/SerpYoutubeLocationsCountryResponseInfo";
+import { SerpYoutubeLanguagesResponseInfo } from "./../models/SerpYoutubeLanguagesResponseInfo";
+import { SerpYoutubeVideoInfoTaskPostRequestInfo } from "./../models/SerpYoutubeVideoInfoTaskPostRequestInfo";
+import { SerpYoutubeVideoInfoTaskPostResponseInfo } from "./../models/SerpYoutubeVideoInfoTaskPostResponseInfo";
+import { SerpYoutubeVideoInfoTasksReadyResponseInfo } from "./../models/SerpYoutubeVideoInfoTasksReadyResponseInfo";
+import { SerpYoutubeVideoInfoTasksFixedResponseInfo } from "./../models/SerpYoutubeVideoInfoTasksFixedResponseInfo";
+import { SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo } from "./../models/SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo";
+import { SerpYoutubeVideoInfoLiveAdvancedRequestInfo } from "./../models/SerpYoutubeVideoInfoLiveAdvancedRequestInfo";
+import { SerpYoutubeVideoInfoLiveAdvancedResponseInfo } from "./../models/SerpYoutubeVideoInfoLiveAdvancedResponseInfo";
+import { SerpYoutubeVideoSubtitlesTaskPostRequestInfo } from "./../models/SerpYoutubeVideoSubtitlesTaskPostRequestInfo";
+import { SerpYoutubeVideoSubtitlesTaskPostResponseInfo } from "./../models/SerpYoutubeVideoSubtitlesTaskPostResponseInfo";
+import { SerpYoutubeVideoSubtitlesTasksReadyResponseInfo } from "./../models/SerpYoutubeVideoSubtitlesTasksReadyResponseInfo";
+import { SerpYoutubeVideoSubtitlesTasksFixedResponseInfo } from "./../models/SerpYoutubeVideoSubtitlesTasksFixedResponseInfo";
+import { SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo } from "./../models/SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo";
+import { SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo } from "./../models/SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo";
+import { SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo } from "./../models/SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo";
+import { SerpYoutubeVideoCommentsTaskPostRequestInfo } from "./../models/SerpYoutubeVideoCommentsTaskPostRequestInfo";
+import { SerpYoutubeVideoCommentsTaskPostResponseInfo } from "./../models/SerpYoutubeVideoCommentsTaskPostResponseInfo";
+import { SerpYoutubeVideoCommentsTasksReadyResponseInfo } from "./../models/SerpYoutubeVideoCommentsTasksReadyResponseInfo";
+import { SerpYoutubeVideoCommentsTasksFixedResponseInfo } from "./../models/SerpYoutubeVideoCommentsTasksFixedResponseInfo";
+import { SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo } from "./../models/SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo";
+import { SerpYoutubeVideoCommentsLiveAdvancedRequestInfo } from "./../models/SerpYoutubeVideoCommentsLiveAdvancedRequestInfo";
+import { SerpYoutubeVideoCommentsLiveAdvancedResponseInfo } from "./../models/SerpYoutubeVideoCommentsLiveAdvancedResponseInfo";
+import { SerpYahooLocationsResponseInfo } from "./../models/SerpYahooLocationsResponseInfo";
+import { SerpYahooLocationsCountryResponseInfo } from "./../models/SerpYahooLocationsCountryResponseInfo";
+import { SerpYahooLanguagesResponseInfo } from "./../models/SerpYahooLanguagesResponseInfo";
+import { SerpYahooOrganicTaskPostRequestInfo } from "./../models/SerpYahooOrganicTaskPostRequestInfo";
+import { SerpYahooOrganicTaskPostResponseInfo } from "./../models/SerpYahooOrganicTaskPostResponseInfo";
+import { SerpYahooOrganicTasksReadyResponseInfo } from "./../models/SerpYahooOrganicTasksReadyResponseInfo";
+import { SerpYahooOrganicTasksFixedResponseInfo } from "./../models/SerpYahooOrganicTasksFixedResponseInfo";
+import { SerpYahooOrganicTaskGetRegularResponseInfo } from "./../models/SerpYahooOrganicTaskGetRegularResponseInfo";
+import { SerpYahooOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpYahooOrganicTaskGetAdvancedResponseInfo";
+import { SerpYahooOrganicTaskGetHtmlResponseInfo } from "./../models/SerpYahooOrganicTaskGetHtmlResponseInfo";
+import { SerpYahooOrganicLiveRegularRequestInfo } from "./../models/SerpYahooOrganicLiveRegularRequestInfo";
+import { SerpYahooOrganicLiveRegularResponseInfo } from "./../models/SerpYahooOrganicLiveRegularResponseInfo";
+import { SerpYahooOrganicLiveAdvancedRequestInfo } from "./../models/SerpYahooOrganicLiveAdvancedRequestInfo";
+import { SerpYahooOrganicLiveAdvancedResponseInfo } from "./../models/SerpYahooOrganicLiveAdvancedResponseInfo";
+import { SerpYahooOrganicLiveHtmlRequestInfo } from "./../models/SerpYahooOrganicLiveHtmlRequestInfo";
+import { SerpYahooOrganicLiveHtmlResponseInfo } from "./../models/SerpYahooOrganicLiveHtmlResponseInfo";
+import { SerpBaiduLocationsResponseInfo } from "./../models/SerpBaiduLocationsResponseInfo";
+import { SerpBaiduLocationsCountryResponseInfo } from "./../models/SerpBaiduLocationsCountryResponseInfo";
+import { SerpBaiduLanguagesResponseInfo } from "./../models/SerpBaiduLanguagesResponseInfo";
+import { SerpBaiduOrganicTaskPostRequestInfo } from "./../models/SerpBaiduOrganicTaskPostRequestInfo";
+import { SerpBaiduOrganicTaskPostResponseInfo } from "./../models/SerpBaiduOrganicTaskPostResponseInfo";
+import { SerpBaiduOrganicTasksReadyResponseInfo } from "./../models/SerpBaiduOrganicTasksReadyResponseInfo";
+import { SerpBaiduOrganicTasksFixedResponseInfo } from "./../models/SerpBaiduOrganicTasksFixedResponseInfo";
+import { SerpBaiduOrganicTaskGetRegularResponseInfo } from "./../models/SerpBaiduOrganicTaskGetRegularResponseInfo";
+import { SerpBaiduOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpBaiduOrganicTaskGetAdvancedResponseInfo";
+import { SerpBaiduOrganicTaskGetHtmlResponseInfo } from "./../models/SerpBaiduOrganicTaskGetHtmlResponseInfo";
+import { SerpNaverOrganicTaskPostRequestInfo } from "./../models/SerpNaverOrganicTaskPostRequestInfo";
+import { SerpNaverOrganicTaskPostResponseInfo } from "./../models/SerpNaverOrganicTaskPostResponseInfo";
+import { SerpNaverOrganicTasksReadyResponseInfo } from "./../models/SerpNaverOrganicTasksReadyResponseInfo";
+import { SerpNaverOrganicTasksFixedResponseInfo } from "./../models/SerpNaverOrganicTasksFixedResponseInfo";
+import { SerpNaverOrganicTaskGetRegularResponseInfo } from "./../models/SerpNaverOrganicTaskGetRegularResponseInfo";
+import { SerpNaverOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpNaverOrganicTaskGetAdvancedResponseInfo";
+import { SerpNaverOrganicTaskGetHtmlResponseInfo } from "./../models/SerpNaverOrganicTaskGetHtmlResponseInfo";
+import { SerpSeznamLocationsResponseInfo } from "./../models/SerpSeznamLocationsResponseInfo";
+import { SerpSeznamLocationsCountryResponseInfo } from "./../models/SerpSeznamLocationsCountryResponseInfo";
+import { SerpSeznamLanguagesResponseInfo } from "./../models/SerpSeznamLanguagesResponseInfo";
+import { SerpSeznamOrganicTaskPostRequestInfo } from "./../models/SerpSeznamOrganicTaskPostRequestInfo";
+import { SerpSeznamOrganicTaskPostResponseInfo } from "./../models/SerpSeznamOrganicTaskPostResponseInfo";
+import { SerpSeznamOrganicTasksReadyResponseInfo } from "./../models/SerpSeznamOrganicTasksReadyResponseInfo";
+import { SerpSeznamOrganicTasksFixedResponseInfo } from "./../models/SerpSeznamOrganicTasksFixedResponseInfo";
+import { SerpSeznamOrganicTaskGetRegularResponseInfo } from "./../models/SerpSeznamOrganicTaskGetRegularResponseInfo";
+import { SerpSeznamOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpSeznamOrganicTaskGetAdvancedResponseInfo";
+import { SerpSeznamOrganicTaskGetHtmlResponseInfo } from "./../models/SerpSeznamOrganicTaskGetHtmlResponseInfo";
+import { SerpGoogleFinanceExploreTaskPostRequestInfo } from "./../models/SerpGoogleFinanceExploreTaskPostRequestInfo";
+import { SerpGoogleFinanceExploreTaskPostResponseInfo } from "./../models/SerpGoogleFinanceExploreTaskPostResponseInfo";
+import { SerpGoogleFinanceExploreTasksReadyResponseInfo } from "./../models/SerpGoogleFinanceExploreTasksReadyResponseInfo";
+import { SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo";
+import { SerpGoogleFinanceExploreTaskGetHtmlResponseInfo } from "./../models/SerpGoogleFinanceExploreTaskGetHtmlResponseInfo";
+import { SerpGoogleFinanceExploreLiveAdvancedRequestInfo } from "./../models/SerpGoogleFinanceExploreLiveAdvancedRequestInfo";
+import { SerpGoogleFinanceExploreLiveAdvancedResponseInfo } from "./../models/SerpGoogleFinanceExploreLiveAdvancedResponseInfo";
+import { SerpGoogleFinanceExploreLiveHtmlRequestInfo } from "./../models/SerpGoogleFinanceExploreLiveHtmlRequestInfo";
+import { SerpGoogleFinanceExploreLiveHtmlResponseInfo } from "./../models/SerpGoogleFinanceExploreLiveHtmlResponseInfo";
+import { SerpGoogleFinanceMarketsTaskPostRequestInfo } from "./../models/SerpGoogleFinanceMarketsTaskPostRequestInfo";
+import { SerpGoogleFinanceMarketsTaskPostResponseInfo } from "./../models/SerpGoogleFinanceMarketsTaskPostResponseInfo";
+import { SerpGoogleFinanceMarketsTasksReadyResponseInfo } from "./../models/SerpGoogleFinanceMarketsTasksReadyResponseInfo";
+import { SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo";
+import { SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo } from "./../models/SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo";
+import { SerpGoogleFinanceMarketsLiveAdvancedRequestInfo } from "./../models/SerpGoogleFinanceMarketsLiveAdvancedRequestInfo";
+import { SerpGoogleFinanceMarketsLiveAdvancedResponseInfo } from "./../models/SerpGoogleFinanceMarketsLiveAdvancedResponseInfo";
+import { SerpGoogleFinanceMarketsLiveHtmlRequestInfo } from "./../models/SerpGoogleFinanceMarketsLiveHtmlRequestInfo";
+import { SerpGoogleFinanceMarketsLiveHtmlResponseInfo } from "./../models/SerpGoogleFinanceMarketsLiveHtmlResponseInfo";
+import { SerpGoogleFinanceQuoteTaskPostRequestInfo } from "./../models/SerpGoogleFinanceQuoteTaskPostRequestInfo";
+import { SerpGoogleFinanceQuoteTaskPostResponseInfo } from "./../models/SerpGoogleFinanceQuoteTaskPostResponseInfo";
+import { SerpGoogleFinanceQuoteTasksReadyResponseInfo } from "./../models/SerpGoogleFinanceQuoteTasksReadyResponseInfo";
+import { SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo";
+import { SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo } from "./../models/SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo";
+import { SerpGoogleFinanceQuoteLiveAdvancedRequestInfo } from "./../models/SerpGoogleFinanceQuoteLiveAdvancedRequestInfo";
+import { SerpGoogleFinanceQuoteLiveAdvancedResponseInfo } from "./../models/SerpGoogleFinanceQuoteLiveAdvancedResponseInfo";
+import { SerpGoogleFinanceQuoteLiveHtmlRequestInfo } from "./../models/SerpGoogleFinanceQuoteLiveHtmlRequestInfo";
+import { SerpGoogleFinanceQuoteLiveHtmlResponseInfo } from "./../models/SerpGoogleFinanceQuoteLiveHtmlResponseInfo";
+import { SerpGoogleFinanceTickerSearchTaskPostRequestInfo } from "./../models/SerpGoogleFinanceTickerSearchTaskPostRequestInfo";
+import { SerpGoogleFinanceTickerSearchTaskPostResponseInfo } from "./../models/SerpGoogleFinanceTickerSearchTaskPostResponseInfo";
+import { SerpGoogleFinanceTickerSearchTasksReadyResponseInfo } from "./../models/SerpGoogleFinanceTickerSearchTasksReadyResponseInfo";
+import { SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo } from "./../models/SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo";
+import { SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo } from "./../models/SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo";
+import { SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo } from "./../models/SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class SerpApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -257,7 +268,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -270,14 +281,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpIdListResponseInfo | null>(null as any);
@@ -292,7 +303,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -305,14 +316,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpErrorsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpErrorsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpErrorsResponseInfo | null>(null as any);
@@ -327,7 +338,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -340,14 +351,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpScreenshotResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpScreenshotResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpScreenshotResponseInfo | null>(null as any);
@@ -362,7 +373,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -375,14 +386,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpAiSummaryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpAiSummaryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpAiSummaryResponseInfo | null>(null as any);
@@ -390,13 +401,11 @@ export class SerpApi {
     serpGoogleLocations(): Promise<SerpGoogleLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -410,14 +419,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocationsResponseInfo | null>(null as any);
@@ -425,15 +434,12 @@ export class SerpApi {
     serpGoogleLocationsCountry(country: string): Promise<SerpGoogleLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -447,14 +453,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocationsCountryResponseInfo | null>(null as any);
@@ -462,13 +468,11 @@ export class SerpApi {
     serpGoogleLanguages(): Promise<SerpGoogleLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -482,14 +486,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLanguagesResponseInfo | null>(null as any);
@@ -504,7 +508,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -517,14 +521,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTaskPostResponseInfo | null>(null as any);
@@ -532,13 +536,11 @@ export class SerpApi {
     googleOrganicTasksReady(): Promise<SerpGoogleOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -552,14 +554,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTasksReadyResponseInfo | null>(null as any);
@@ -567,13 +569,11 @@ export class SerpApi {
     tasksReady(): Promise<SerpTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -587,14 +587,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpTasksReadyResponseInfo | null>(null as any);
@@ -602,13 +602,11 @@ export class SerpApi {
     googleOrganicTasksFixed(): Promise<SerpGoogleOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -622,14 +620,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTasksFixedResponseInfo | null>(null as any);
@@ -637,15 +635,12 @@ export class SerpApi {
     googleOrganicTaskGetRegular(id: string): Promise<SerpGoogleOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -659,14 +654,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -674,15 +669,12 @@ export class SerpApi {
     googleOrganicTaskGetAdvanced(id: string): Promise<SerpGoogleOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -696,14 +688,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -711,15 +703,12 @@ export class SerpApi {
     googleOrganicTaskGetHtml(id: string): Promise<SerpGoogleOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -733,14 +722,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -755,7 +744,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -768,14 +757,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicLiveRegularResponseInfo | null>(null as any);
@@ -790,7 +779,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -803,14 +792,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicLiveAdvancedResponseInfo | null>(null as any);
@@ -825,7 +814,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -838,17 +827,289 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleOrganicLiveHtmlResponseInfo | null>(null as any);
+    }
+    serpGoogleAiModeLanguages(): Promise<SerpGoogleAiModeLanguagesResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/languages";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processSerpGoogleAiModeLanguages(_response);
+        });
+    }
+
+    protected processSerpGoogleAiModeLanguages(response: Response): Promise<SerpGoogleAiModeLanguagesResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeLanguagesResponseInfo | null>(null as any);
+    }
+    googleAiModeTaskPost(body: SerpGoogleAiModeTaskPostRequestInfo[]): Promise<SerpGoogleAiModeTaskPostResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/task_post";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeTaskPost(_response);
+        });
+    }
+
+    protected processGoogleAiModeTaskPost(response: Response): Promise<SerpGoogleAiModeTaskPostResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeTaskPostResponseInfo | null>(null as any);
+    }
+    googleAiModeTasksReady(): Promise<SerpGoogleAiModeTasksReadyResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/tasks_ready";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeTasksReady(_response);
+        });
+    }
+
+    protected processGoogleAiModeTasksReady(response: Response): Promise<SerpGoogleAiModeTasksReadyResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeTasksReadyResponseInfo | null>(null as any);
+    }
+    googleAiModeTasksFixed(): Promise<SerpGoogleAiModeTasksFixedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/tasks_fixed";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeTasksFixed(_response);
+        });
+    }
+
+    protected processGoogleAiModeTasksFixed(response: Response): Promise<SerpGoogleAiModeTasksFixedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeTasksFixedResponseInfo | null>(null as any);
+    }
+    googleAiModeTaskGetAdvanced(id: string): Promise<SerpGoogleAiModeTaskGetAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/task_get/advanced/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeTaskGetAdvanced(_response);
+        });
+    }
+
+    protected processGoogleAiModeTaskGetAdvanced(response: Response): Promise<SerpGoogleAiModeTaskGetAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeTaskGetAdvancedResponseInfo | null>(null as any);
+    }
+    googleAiModeTaskGetHtml(id: string): Promise<SerpGoogleAiModeTaskGetHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/task_get/html/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeTaskGetHtml(_response);
+        });
+    }
+
+    protected processGoogleAiModeTaskGetHtml(response: Response): Promise<SerpGoogleAiModeTaskGetHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeTaskGetHtmlResponseInfo | null>(null as any);
+    }
+    googleAiModeLiveAdvanced(body: SerpGoogleAiModeLiveAdvancedRequestInfo[]): Promise<SerpGoogleAiModeLiveAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/live/advanced";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeLiveAdvanced(_response);
+        });
+    }
+
+    protected processGoogleAiModeLiveAdvanced(response: Response): Promise<SerpGoogleAiModeLiveAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeLiveAdvancedResponseInfo | null>(null as any);
+    }
+    googleAiModeLiveHtml(body: SerpGoogleAiModeLiveHtmlRequestInfo[]): Promise<SerpGoogleAiModeLiveHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/serp/google/ai_mode/live/html";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleAiModeLiveHtml(_response);
+        });
+    }
+
+    protected processGoogleAiModeLiveHtml(response: Response): Promise<SerpGoogleAiModeLiveHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAiModeLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<SerpGoogleAiModeLiveHtmlResponseInfo | null>(null as any);
     }
     googleMapsTaskPost(body: SerpGoogleMapsTaskPostRequestInfo[]): Promise<SerpGoogleMapsTaskPostResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/maps/task_post";
@@ -860,7 +1121,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -873,14 +1134,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleMapsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleMapsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleMapsTaskPostResponseInfo | null>(null as any);
@@ -888,13 +1149,11 @@ export class SerpApi {
     googleMapsTasksReady(): Promise<SerpGoogleMapsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/maps/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -908,14 +1167,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleMapsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleMapsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleMapsTasksReadyResponseInfo | null>(null as any);
@@ -923,13 +1182,11 @@ export class SerpApi {
     googleMapsTasksFixed(): Promise<SerpGoogleMapsTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/maps/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -943,14 +1200,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleMapsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleMapsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleMapsTasksFixedResponseInfo | null>(null as any);
@@ -958,15 +1215,12 @@ export class SerpApi {
     googleMapsTaskGetAdvanced(id: string): Promise<SerpGoogleMapsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/maps/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -980,14 +1234,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleMapsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleMapsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleMapsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1002,7 +1256,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1015,14 +1269,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleMapsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleMapsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleMapsLiveAdvancedResponseInfo | null>(null as any);
@@ -1037,7 +1291,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1050,14 +1304,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderTaskPostResponseInfo | null>(null as any);
@@ -1065,13 +1319,11 @@ export class SerpApi {
     googleLocalFinderTasksReady(): Promise<SerpGoogleLocalFinderTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/local_finder/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1085,14 +1337,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderTasksReadyResponseInfo | null>(null as any);
@@ -1100,13 +1352,11 @@ export class SerpApi {
     googleLocalFinderTasksFixed(): Promise<SerpGoogleLocalFinderTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/local_finder/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1120,14 +1370,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderTasksFixedResponseInfo | null>(null as any);
@@ -1135,15 +1385,12 @@ export class SerpApi {
     googleLocalFinderTaskGetAdvanced(id: string): Promise<SerpGoogleLocalFinderTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/local_finder/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1157,14 +1404,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1172,15 +1419,12 @@ export class SerpApi {
     googleLocalFinderTaskGetHtml(id: string): Promise<SerpGoogleLocalFinderTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/local_finder/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1194,14 +1438,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderTaskGetHtmlResponseInfo | null>(null as any);
@@ -1216,7 +1460,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1229,14 +1473,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderLiveAdvancedResponseInfo | null>(null as any);
@@ -1251,7 +1495,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1264,14 +1508,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleLocalFinderLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleLocalFinderLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleLocalFinderLiveHtmlResponseInfo | null>(null as any);
@@ -1286,7 +1530,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1299,14 +1543,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsTaskPostResponseInfo | null>(null as any);
@@ -1314,13 +1558,11 @@ export class SerpApi {
     googleNewsTasksReady(): Promise<SerpGoogleNewsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/news/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1334,14 +1576,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsTasksReadyResponseInfo | null>(null as any);
@@ -1349,13 +1591,11 @@ export class SerpApi {
     googleNewsTasksFixed(): Promise<SerpGoogleNewsTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/news/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1369,14 +1609,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsTasksFixedResponseInfo | null>(null as any);
@@ -1384,15 +1624,12 @@ export class SerpApi {
     googleNewsTaskGetAdvanced(id: string): Promise<SerpGoogleNewsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/news/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1406,14 +1643,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1421,15 +1658,12 @@ export class SerpApi {
     googleNewsTaskGetHtml(id: string): Promise<SerpGoogleNewsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/news/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1443,14 +1677,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsTaskGetHtmlResponseInfo | null>(null as any);
@@ -1465,7 +1699,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1478,14 +1712,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsLiveAdvancedResponseInfo | null>(null as any);
@@ -1500,7 +1734,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1513,14 +1747,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleNewsLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleNewsLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleNewsLiveHtmlResponseInfo | null>(null as any);
@@ -1535,7 +1769,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1548,14 +1782,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleEventsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleEventsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleEventsTaskPostResponseInfo | null>(null as any);
@@ -1563,13 +1797,11 @@ export class SerpApi {
     googleEventsTasksReady(): Promise<SerpGoogleEventsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/events/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1583,14 +1815,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleEventsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleEventsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleEventsTasksReadyResponseInfo | null>(null as any);
@@ -1598,13 +1830,11 @@ export class SerpApi {
     googleEventsTasksFixed(): Promise<SerpGoogleEventsTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/events/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1618,14 +1848,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleEventsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleEventsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleEventsTasksFixedResponseInfo | null>(null as any);
@@ -1633,15 +1863,12 @@ export class SerpApi {
     googleEventsTaskGetAdvanced(id: string): Promise<SerpGoogleEventsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/events/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1655,14 +1882,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleEventsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleEventsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleEventsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1677,7 +1904,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1690,14 +1917,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleEventsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleEventsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleEventsLiveAdvancedResponseInfo | null>(null as any);
@@ -1712,7 +1939,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1725,14 +1952,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesTaskPostResponseInfo | null>(null as any);
@@ -1740,13 +1967,11 @@ export class SerpApi {
     googleImagesTasksReady(): Promise<SerpGoogleImagesTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/images/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1760,14 +1985,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesTasksReadyResponseInfo | null>(null as any);
@@ -1775,13 +2000,11 @@ export class SerpApi {
     googleImagesTasksFixed(): Promise<SerpGoogleImagesTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/images/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1795,14 +2018,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesTasksFixedResponseInfo | null>(null as any);
@@ -1810,15 +2033,12 @@ export class SerpApi {
     googleImagesTaskGetAdvanced(id: string): Promise<SerpGoogleImagesTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/images/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1832,14 +2052,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesTaskGetAdvancedResponseInfo | null>(null as any);
@@ -1847,15 +2067,12 @@ export class SerpApi {
     googleImagesTaskGetHtml(id: string): Promise<SerpGoogleImagesTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/images/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1869,14 +2086,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesTaskGetHtmlResponseInfo | null>(null as any);
@@ -1891,7 +2108,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1904,14 +2121,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesLiveAdvancedResponseInfo | null>(null as any);
@@ -1926,7 +2143,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1939,14 +2156,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleImagesLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleImagesLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleImagesLiveHtmlResponseInfo | null>(null as any);
@@ -1961,7 +2178,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1974,14 +2191,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleSearchByImageTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleSearchByImageTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleSearchByImageTaskPostResponseInfo | null>(null as any);
@@ -1989,13 +2206,11 @@ export class SerpApi {
     googleSearchByImageTasksReady(): Promise<SerpGoogleSearchByImageTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/search_by_image/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2009,14 +2224,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleSearchByImageTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleSearchByImageTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleSearchByImageTasksReadyResponseInfo | null>(null as any);
@@ -2024,13 +2239,11 @@ export class SerpApi {
     googleSearchByImageTasksFixed(): Promise<SerpGoogleSearchByImageTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/search_by_image/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2044,14 +2257,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleSearchByImageTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleSearchByImageTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleSearchByImageTasksFixedResponseInfo | null>(null as any);
@@ -2059,15 +2272,12 @@ export class SerpApi {
     googleSearchByImageTaskGetAdvanced(id: string): Promise<SerpGoogleSearchByImageTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/search_by_image/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2081,14 +2291,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleSearchByImageTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2103,7 +2313,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2116,14 +2326,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleJobsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleJobsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleJobsTaskPostResponseInfo | null>(null as any);
@@ -2131,13 +2341,11 @@ export class SerpApi {
     googleJobsTasksReady(): Promise<SerpGoogleJobsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/jobs/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2151,14 +2359,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleJobsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleJobsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleJobsTasksReadyResponseInfo | null>(null as any);
@@ -2166,13 +2374,11 @@ export class SerpApi {
     googleJobsTasksFixed(): Promise<SerpGoogleJobsTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/jobs/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2186,14 +2392,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleJobsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleJobsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleJobsTasksFixedResponseInfo | null>(null as any);
@@ -2201,15 +2407,12 @@ export class SerpApi {
     googleJobsTaskGetAdvanced(id: string): Promise<SerpGoogleJobsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/jobs/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2223,14 +2426,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleJobsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleJobsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleJobsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2238,15 +2441,12 @@ export class SerpApi {
     googleJobsTaskGetHtml(id: string): Promise<SerpGoogleJobsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/jobs/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2260,14 +2460,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleJobsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleJobsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleJobsTaskGetHtmlResponseInfo | null>(null as any);
@@ -2282,7 +2482,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2295,14 +2495,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAutocompleteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAutocompleteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAutocompleteTaskPostResponseInfo | null>(null as any);
@@ -2310,13 +2510,11 @@ export class SerpApi {
     googleAutocompleteTasksReady(): Promise<SerpGoogleAutocompleteTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/autocomplete/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2330,14 +2528,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAutocompleteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAutocompleteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAutocompleteTasksReadyResponseInfo | null>(null as any);
@@ -2345,13 +2543,11 @@ export class SerpApi {
     googleAutocompleteTasksFixed(): Promise<SerpGoogleAutocompleteTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/autocomplete/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2365,14 +2561,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAutocompleteTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAutocompleteTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAutocompleteTasksFixedResponseInfo | null>(null as any);
@@ -2380,15 +2576,12 @@ export class SerpApi {
     googleAutocompleteTaskGetAdvanced(id: string): Promise<SerpGoogleAutocompleteTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/autocomplete/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2402,14 +2595,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAutocompleteTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAutocompleteTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2424,7 +2617,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2437,14 +2630,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAutocompleteLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAutocompleteLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAutocompleteLiveAdvancedResponseInfo | null>(null as any);
@@ -2459,7 +2652,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2472,14 +2665,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetSearchTaskPostResponseInfo | null>(null as any);
@@ -2487,13 +2680,11 @@ export class SerpApi {
     googleDatasetSearchTasksReady(): Promise<SerpGoogleDatasetSearchTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_search/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2507,14 +2698,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetSearchTasksReadyResponseInfo | null>(null as any);
@@ -2522,13 +2713,11 @@ export class SerpApi {
     googleDatasetSearchTasksFixed(): Promise<SerpGoogleDatasetSearchTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_search/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2542,14 +2731,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetSearchTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetSearchTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetSearchTasksFixedResponseInfo | null>(null as any);
@@ -2557,15 +2746,12 @@ export class SerpApi {
     googleDatasetSearchTaskGetAdvanced(id: string): Promise<SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_search/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2579,14 +2765,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2601,7 +2787,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2614,14 +2800,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetSearchLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetSearchLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetSearchLiveAdvancedResponseInfo | null>(null as any);
@@ -2636,7 +2822,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2649,14 +2835,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetInfoTaskPostResponseInfo | null>(null as any);
@@ -2664,13 +2850,11 @@ export class SerpApi {
     googleDatasetInfoTasksReady(): Promise<SerpGoogleDatasetInfoTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_info/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2684,14 +2868,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetInfoTasksReadyResponseInfo | null>(null as any);
@@ -2699,13 +2883,11 @@ export class SerpApi {
     googleDatasetInfoTasksFixed(): Promise<SerpGoogleDatasetInfoTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_info/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2719,14 +2901,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetInfoTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetInfoTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetInfoTasksFixedResponseInfo | null>(null as any);
@@ -2734,15 +2916,12 @@ export class SerpApi {
     googleDatasetInfoTaskGetAdvanced(id: string): Promise<SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/dataset_info/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2756,14 +2935,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2778,7 +2957,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2791,14 +2970,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleDatasetInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleDatasetInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleDatasetInfoLiveAdvancedResponseInfo | null>(null as any);
@@ -2806,13 +2985,11 @@ export class SerpApi {
     serpGoogleAdsAdvertisersLocations(): Promise<SerpGoogleAdsAdvertisersLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_advertisers/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2826,14 +3003,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsAdvertisersLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsAdvertisersLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsAdvertisersLocationsResponseInfo | null>(null as any);
@@ -2848,7 +3025,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2861,14 +3038,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsAdvertisersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsAdvertisersTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsAdvertisersTaskPostResponseInfo | null>(null as any);
@@ -2876,13 +3053,11 @@ export class SerpApi {
     googleAdsAdvertisersTasksReady(): Promise<SerpGoogleAdsAdvertisersTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_advertisers/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2896,14 +3071,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsAdvertisersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsAdvertisersTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsAdvertisersTasksReadyResponseInfo | null>(null as any);
@@ -2911,15 +3086,12 @@ export class SerpApi {
     googleAdsAdvertisersTaskGetAdvanced(id: string): Promise<SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_advertisers/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2933,14 +3105,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo | null>(null as any);
@@ -2948,13 +3120,11 @@ export class SerpApi {
     serpGoogleAdsSearchLocations(): Promise<SerpGoogleAdsSearchLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_search/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2968,14 +3138,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsSearchLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsSearchLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsSearchLocationsResponseInfo | null>(null as any);
@@ -2990,7 +3160,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3003,14 +3173,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsSearchTaskPostResponseInfo | null>(null as any);
@@ -3018,13 +3188,11 @@ export class SerpApi {
     googleAdsSearchTasksReady(): Promise<SerpGoogleAdsSearchTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_search/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3038,14 +3206,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsSearchTasksReadyResponseInfo | null>(null as any);
@@ -3053,15 +3221,12 @@ export class SerpApi {
     googleAdsSearchTaskGetAdvanced(id: string): Promise<SerpGoogleAdsSearchTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/ads_search/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3075,14 +3240,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleAdsSearchTaskGetAdvancedResponseInfo | null>(null as any);
@@ -3090,13 +3255,11 @@ export class SerpApi {
     serpBingLocations(): Promise<SerpBingLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3110,14 +3273,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocationsResponseInfo | null>(null as any);
@@ -3125,15 +3288,12 @@ export class SerpApi {
     serpBingLocationsCountry(country: string): Promise<SerpBingLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3147,14 +3307,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocationsCountryResponseInfo | null>(null as any);
@@ -3162,13 +3322,11 @@ export class SerpApi {
     serpBingLanguages(): Promise<SerpBingLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3182,14 +3340,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLanguagesResponseInfo | null>(null as any);
@@ -3204,7 +3362,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3217,14 +3375,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTaskPostResponseInfo | null>(null as any);
@@ -3232,13 +3390,11 @@ export class SerpApi {
     bingOrganicTasksReady(): Promise<SerpBingOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3252,14 +3408,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTasksReadyResponseInfo | null>(null as any);
@@ -3267,13 +3423,11 @@ export class SerpApi {
     bingOrganicTasksFixed(): Promise<SerpBingOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3287,14 +3441,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTasksFixedResponseInfo | null>(null as any);
@@ -3302,15 +3456,12 @@ export class SerpApi {
     bingOrganicTaskGetRegular(id: string): Promise<SerpBingOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3324,14 +3475,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -3339,15 +3490,12 @@ export class SerpApi {
     bingOrganicTaskGetAdvanced(id: string): Promise<SerpBingOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3361,14 +3509,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -3376,15 +3524,12 @@ export class SerpApi {
     bingOrganicTaskGetHtml(id: string): Promise<SerpBingOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3398,14 +3543,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -3420,7 +3565,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3433,14 +3578,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicLiveRegularResponseInfo | null>(null as any);
@@ -3455,7 +3600,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3468,14 +3613,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicLiveAdvancedResponseInfo | null>(null as any);
@@ -3490,7 +3635,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3503,14 +3648,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingOrganicLiveHtmlResponseInfo | null>(null as any);
@@ -3525,7 +3670,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3538,14 +3683,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackTaskPostResponseInfo | null>(null as any);
@@ -3553,13 +3698,11 @@ export class SerpApi {
     bingLocalPackTasksReady(): Promise<SerpBingLocalPackTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/local_pack/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3573,14 +3716,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackTasksReadyResponseInfo | null>(null as any);
@@ -3588,13 +3731,11 @@ export class SerpApi {
     bingLocalPackTasksFixed(): Promise<SerpBingLocalPackTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/local_pack/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3608,14 +3749,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackTasksFixedResponseInfo | null>(null as any);
@@ -3623,15 +3764,12 @@ export class SerpApi {
     bingLocalPackTaskGetRegular(id: string): Promise<SerpBingLocalPackTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/local_pack/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3645,14 +3783,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackTaskGetRegularResponseInfo | null>(null as any);
@@ -3660,15 +3798,12 @@ export class SerpApi {
     bingLocalPackTaskGetHtml(id: string): Promise<SerpBingLocalPackTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/bing/local_pack/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3682,14 +3817,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackTaskGetHtmlResponseInfo | null>(null as any);
@@ -3704,7 +3839,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3717,14 +3852,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackLiveRegularResponseInfo | null>(null as any);
@@ -3739,7 +3874,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3752,14 +3887,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBingLocalPackLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBingLocalPackLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBingLocalPackLiveHtmlResponseInfo | null>(null as any);
@@ -3767,13 +3902,11 @@ export class SerpApi {
     serpYoutubeLocations(): Promise<SerpYoutubeLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3787,14 +3920,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeLocationsResponseInfo | null>(null as any);
@@ -3802,15 +3935,12 @@ export class SerpApi {
     serpYoutubeLocationsCountry(country: string): Promise<SerpYoutubeLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3824,14 +3954,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeLocationsCountryResponseInfo | null>(null as any);
@@ -3839,13 +3969,11 @@ export class SerpApi {
     serpYoutubeLanguages(): Promise<SerpYoutubeLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3859,14 +3987,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeLanguagesResponseInfo | null>(null as any);
@@ -3881,7 +4009,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3894,14 +4022,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoInfoTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoInfoTaskPostResponseInfo | null>(null as any);
@@ -3909,13 +4037,11 @@ export class SerpApi {
     youtubeVideoInfoTasksReady(): Promise<SerpYoutubeVideoInfoTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_info/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3929,14 +4055,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoInfoTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoInfoTasksReadyResponseInfo | null>(null as any);
@@ -3944,13 +4070,11 @@ export class SerpApi {
     youtubeVideoInfoTasksFixed(): Promise<SerpYoutubeVideoInfoTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_info/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -3964,14 +4088,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoInfoTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoInfoTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoInfoTasksFixedResponseInfo | null>(null as any);
@@ -3979,15 +4103,12 @@ export class SerpApi {
     youtubeVideoInfoTaskGetAdvanced(id: string): Promise<SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_info/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4001,14 +4122,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoInfoTaskGetAdvancedResponseInfo | null>(null as any);
@@ -4023,7 +4144,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4036,14 +4157,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoInfoLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoInfoLiveAdvancedResponseInfo | null>(null as any);
@@ -4058,7 +4179,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4071,14 +4192,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoSubtitlesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoSubtitlesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoSubtitlesTaskPostResponseInfo | null>(null as any);
@@ -4086,13 +4207,11 @@ export class SerpApi {
     youtubeVideoSubtitlesTasksReady(): Promise<SerpYoutubeVideoSubtitlesTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_subtitles/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4106,14 +4225,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoSubtitlesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoSubtitlesTasksReadyResponseInfo | null>(null as any);
@@ -4121,13 +4240,11 @@ export class SerpApi {
     youtubeVideoSubtitlesTasksFixed(): Promise<SerpYoutubeVideoSubtitlesTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_subtitles/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4141,14 +4258,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoSubtitlesTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoSubtitlesTasksFixedResponseInfo | null>(null as any);
@@ -4156,15 +4273,12 @@ export class SerpApi {
     youtubeVideoSubtitlesTaskGetAdvanced(id: string): Promise<SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_subtitles/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4178,14 +4292,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo | null>(null as any);
@@ -4200,7 +4314,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4213,14 +4327,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo | null>(null as any);
@@ -4235,7 +4349,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4248,14 +4362,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoCommentsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoCommentsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoCommentsTaskPostResponseInfo | null>(null as any);
@@ -4263,13 +4377,11 @@ export class SerpApi {
     youtubeVideoCommentsTasksReady(): Promise<SerpYoutubeVideoCommentsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_comments/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4283,14 +4395,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoCommentsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoCommentsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoCommentsTasksReadyResponseInfo | null>(null as any);
@@ -4298,13 +4410,11 @@ export class SerpApi {
     youtubeVideoCommentsTasksFixed(): Promise<SerpYoutubeVideoCommentsTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_comments/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4318,14 +4428,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoCommentsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoCommentsTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoCommentsTasksFixedResponseInfo | null>(null as any);
@@ -4333,15 +4443,12 @@ export class SerpApi {
     youtubeVideoCommentsTaskGetAdvanced(id: string): Promise<SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/video_comments/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4355,14 +4462,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -4377,7 +4484,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4390,14 +4497,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYoutubeVideoCommentsLiveAdvancedResponseInfo | null>(null as any);
@@ -4405,13 +4512,11 @@ export class SerpApi {
     serpYahooLocations(): Promise<SerpYahooLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4425,14 +4530,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooLocationsResponseInfo | null>(null as any);
@@ -4440,15 +4545,12 @@ export class SerpApi {
     serpYahooLocationsCountry(country: string): Promise<SerpYahooLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4462,14 +4564,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooLocationsCountryResponseInfo | null>(null as any);
@@ -4477,13 +4579,11 @@ export class SerpApi {
     serpYahooLanguages(): Promise<SerpYahooLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4497,14 +4597,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooLanguagesResponseInfo | null>(null as any);
@@ -4519,7 +4619,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4532,14 +4632,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTaskPostResponseInfo | null>(null as any);
@@ -4547,13 +4647,11 @@ export class SerpApi {
     yahooOrganicTasksReady(): Promise<SerpYahooOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4567,14 +4665,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTasksReadyResponseInfo | null>(null as any);
@@ -4582,13 +4680,11 @@ export class SerpApi {
     yahooOrganicTasksFixed(): Promise<SerpYahooOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4602,14 +4698,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTasksFixedResponseInfo | null>(null as any);
@@ -4617,15 +4713,12 @@ export class SerpApi {
     yahooOrganicTaskGetRegular(id: string): Promise<SerpYahooOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4639,14 +4732,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -4654,15 +4747,12 @@ export class SerpApi {
     yahooOrganicTaskGetAdvanced(id: string): Promise<SerpYahooOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4676,14 +4766,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -4691,15 +4781,12 @@ export class SerpApi {
     yahooOrganicTaskGetHtml(id: string): Promise<SerpYahooOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/yahoo/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4713,14 +4800,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -4735,7 +4822,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4748,14 +4835,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicLiveRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicLiveRegularResponseInfo | null>(null as any);
@@ -4770,7 +4857,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4783,14 +4870,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicLiveAdvancedResponseInfo | null>(null as any);
@@ -4805,7 +4892,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4818,14 +4905,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpYahooOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpYahooOrganicLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpYahooOrganicLiveHtmlResponseInfo | null>(null as any);
@@ -4833,13 +4920,11 @@ export class SerpApi {
     serpBaiduLocations(): Promise<SerpBaiduLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4853,14 +4938,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduLocationsResponseInfo | null>(null as any);
@@ -4868,15 +4953,12 @@ export class SerpApi {
     serpBaiduLocationsCountry(country: string): Promise<SerpBaiduLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4890,14 +4972,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduLocationsCountryResponseInfo | null>(null as any);
@@ -4905,13 +4987,11 @@ export class SerpApi {
     serpBaiduLanguages(): Promise<SerpBaiduLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4925,14 +5005,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduLanguagesResponseInfo | null>(null as any);
@@ -4947,7 +5027,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4960,14 +5040,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTaskPostResponseInfo | null>(null as any);
@@ -4975,13 +5055,11 @@ export class SerpApi {
     baiduOrganicTasksReady(): Promise<SerpBaiduOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -4995,14 +5073,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTasksReadyResponseInfo | null>(null as any);
@@ -5010,13 +5088,11 @@ export class SerpApi {
     baiduOrganicTasksFixed(): Promise<SerpBaiduOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5030,14 +5106,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTasksFixedResponseInfo | null>(null as any);
@@ -5045,15 +5121,12 @@ export class SerpApi {
     baiduOrganicTaskGetRegular(id: string): Promise<SerpBaiduOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5067,14 +5140,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -5082,15 +5155,12 @@ export class SerpApi {
     baiduOrganicTaskGetAdvanced(id: string): Promise<SerpBaiduOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5104,14 +5174,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -5119,15 +5189,12 @@ export class SerpApi {
     baiduOrganicTaskGetHtml(id: string): Promise<SerpBaiduOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/baidu/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5141,14 +5208,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpBaiduOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpBaiduOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpBaiduOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -5163,7 +5230,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5176,14 +5243,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTaskPostResponseInfo | null>(null as any);
@@ -5191,13 +5258,11 @@ export class SerpApi {
     naverOrganicTasksReady(): Promise<SerpNaverOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/naver/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5211,14 +5276,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTasksReadyResponseInfo | null>(null as any);
@@ -5226,13 +5291,11 @@ export class SerpApi {
     naverOrganicTasksFixed(): Promise<SerpNaverOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/naver/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5246,14 +5309,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTasksFixedResponseInfo | null>(null as any);
@@ -5261,15 +5324,12 @@ export class SerpApi {
     naverOrganicTaskGetRegular(id: string): Promise<SerpNaverOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/naver/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5283,14 +5343,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -5298,15 +5358,12 @@ export class SerpApi {
     naverOrganicTaskGetAdvanced(id: string): Promise<SerpNaverOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/naver/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5320,14 +5377,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -5335,15 +5392,12 @@ export class SerpApi {
     naverOrganicTaskGetHtml(id: string): Promise<SerpNaverOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/naver/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5357,14 +5411,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpNaverOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpNaverOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpNaverOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -5372,13 +5426,11 @@ export class SerpApi {
     serpSeznamLocations(): Promise<SerpSeznamLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5392,14 +5444,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamLocationsResponseInfo | null>(null as any);
@@ -5407,15 +5459,12 @@ export class SerpApi {
     serpSeznamLocationsCountry(country: string): Promise<SerpSeznamLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5429,14 +5478,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamLocationsCountryResponseInfo | null>(null as any);
@@ -5444,13 +5493,11 @@ export class SerpApi {
     serpSeznamLanguages(): Promise<SerpSeznamLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5464,14 +5511,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamLanguagesResponseInfo | null>(null as any);
@@ -5486,7 +5533,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5499,14 +5546,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTaskPostResponseInfo | null>(null as any);
@@ -5514,13 +5561,11 @@ export class SerpApi {
     seznamOrganicTasksReady(): Promise<SerpSeznamOrganicTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/organic/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5534,14 +5579,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTasksReadyResponseInfo | null>(null as any);
@@ -5549,13 +5594,11 @@ export class SerpApi {
     seznamOrganicTasksFixed(): Promise<SerpSeznamOrganicTasksFixedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/organic/tasks_fixed";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5569,14 +5612,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTasksFixedResponseInfo | null>(null as any);
@@ -5584,15 +5627,12 @@ export class SerpApi {
     seznamOrganicTaskGetRegular(id: string): Promise<SerpSeznamOrganicTaskGetRegularResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/organic/task_get/regular/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5606,14 +5646,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTaskGetRegularResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTaskGetRegularResponseInfo | null>(null as any);
@@ -5621,15 +5661,12 @@ export class SerpApi {
     seznamOrganicTaskGetAdvanced(id: string): Promise<SerpSeznamOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/organic/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5643,14 +5680,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTaskGetAdvancedResponseInfo | null>(null as any);
@@ -5658,15 +5695,12 @@ export class SerpApi {
     seznamOrganicTaskGetHtml(id: string): Promise<SerpSeznamOrganicTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/seznam/organic/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5680,14 +5714,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpSeznamOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpSeznamOrganicTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpSeznamOrganicTaskGetHtmlResponseInfo | null>(null as any);
@@ -5702,7 +5736,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5715,14 +5749,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreTaskPostResponseInfo | null>(null as any);
@@ -5730,13 +5764,11 @@ export class SerpApi {
     googleFinanceExploreTasksReady(): Promise<SerpGoogleFinanceExploreTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_explore/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5750,14 +5782,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreTasksReadyResponseInfo | null>(null as any);
@@ -5765,15 +5797,12 @@ export class SerpApi {
     googleFinanceExploreTaskGetAdvanced(id: string): Promise<SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_explore/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5787,14 +5816,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreTaskGetAdvancedResponseInfo | null>(null as any);
@@ -5802,15 +5831,12 @@ export class SerpApi {
     googleFinanceExploreTaskGetHtml(id: string): Promise<SerpGoogleFinanceExploreTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_explore/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5824,14 +5850,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreTaskGetHtmlResponseInfo | null>(null as any);
@@ -5846,7 +5872,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5859,14 +5885,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreLiveAdvancedResponseInfo | null>(null as any);
@@ -5881,7 +5907,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5894,14 +5920,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceExploreLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceExploreLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceExploreLiveHtmlResponseInfo | null>(null as any);
@@ -5916,7 +5942,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5929,14 +5955,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsTaskPostResponseInfo | null>(null as any);
@@ -5944,13 +5970,11 @@ export class SerpApi {
     googleFinanceMarketsTasksReady(): Promise<SerpGoogleFinanceMarketsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_markets/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -5964,14 +5988,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsTasksReadyResponseInfo | null>(null as any);
@@ -5979,15 +6003,12 @@ export class SerpApi {
     googleFinanceMarketsTaskGetAdvanced(id: string): Promise<SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_markets/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6001,14 +6022,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsTaskGetAdvancedResponseInfo | null>(null as any);
@@ -6016,15 +6037,12 @@ export class SerpApi {
     googleFinanceMarketsTaskGetHtml(id: string): Promise<SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_markets/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6038,14 +6056,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo | null>(null as any);
@@ -6060,7 +6078,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6073,14 +6091,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsLiveAdvancedResponseInfo | null>(null as any);
@@ -6095,7 +6113,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6108,14 +6126,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceMarketsLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceMarketsLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceMarketsLiveHtmlResponseInfo | null>(null as any);
@@ -6130,7 +6148,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6143,14 +6161,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteTaskPostResponseInfo | null>(null as any);
@@ -6158,13 +6176,11 @@ export class SerpApi {
     googleFinanceQuoteTasksReady(): Promise<SerpGoogleFinanceQuoteTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_quote/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6178,14 +6194,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteTasksReadyResponseInfo | null>(null as any);
@@ -6193,15 +6209,12 @@ export class SerpApi {
     googleFinanceQuoteTaskGetAdvanced(id: string): Promise<SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_quote/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6215,14 +6228,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo | null>(null as any);
@@ -6230,15 +6243,12 @@ export class SerpApi {
     googleFinanceQuoteTaskGetHtml(id: string): Promise<SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_quote/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6252,14 +6262,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteTaskGetHtmlResponseInfo | null>(null as any);
@@ -6274,7 +6284,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6287,14 +6297,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteLiveAdvancedResponseInfo | null>(null as any);
@@ -6309,7 +6319,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6322,14 +6332,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceQuoteLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceQuoteLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceQuoteLiveHtmlResponseInfo | null>(null as any);
@@ -6344,7 +6354,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6357,14 +6367,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceTickerSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceTickerSearchTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceTickerSearchTaskPostResponseInfo | null>(null as any);
@@ -6372,13 +6382,11 @@ export class SerpApi {
     googleFinanceTickerSearchTasksReady(): Promise<SerpGoogleFinanceTickerSearchTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_ticker_search/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6392,14 +6400,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceTickerSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceTickerSearchTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceTickerSearchTasksReadyResponseInfo | null>(null as any);
@@ -6407,15 +6415,12 @@ export class SerpApi {
     googleFinanceTickerSearchTaskGetAdvanced(id: string): Promise<SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/google/finance_ticker_search/task_get/advanced/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -6429,14 +6434,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo | null>(null as any);
@@ -6451,7 +6456,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6464,14 +6469,14 @@ export class SerpApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<SerpGoogleFinanceTickerSearchLiveAdvancedResponseInfo | null>(null as any);

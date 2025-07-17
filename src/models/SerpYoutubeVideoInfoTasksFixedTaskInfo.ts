@@ -1,6 +1,6 @@
 import { SerpYoutubeVideoInfoTasksFixedResultInfo, ISerpYoutubeVideoInfoTasksFixedResultInfo } from "./SerpYoutubeVideoInfoTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYoutubeVideoInfoTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         

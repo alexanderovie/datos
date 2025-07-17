@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { EventItem, IEventItem } from "./EventItem";
+
 
 export interface ISerpGoogleEventsTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ this search engine does not indicate the total number of results */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: BaseSerpElementItem[] | undefined
+        items?: EventItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ this search engine does not indicate the total number of results */
     
     /** items of the element */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: EventItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ this search engine does not indicate the total number of results */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(EventItem.fromJS(item));
                 }
             }
         }

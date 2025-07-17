@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo   {
         
         /** ID of the video

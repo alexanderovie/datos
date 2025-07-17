@@ -1,6 +1,6 @@
 import { OnPageWaterfallTaskInfo, IOnPageWaterfallTaskInfo } from "./OnPageWaterfallTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageWaterfallResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,6 +1,6 @@
 import { SerpGoogleEventsTaskGetAdvancedTaskInfo, ISerpGoogleEventsTaskGetAdvancedTaskInfo } from "./SerpGoogleEventsTaskGetAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleEventsTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         

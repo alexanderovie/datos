@@ -1,5 +1,5 @@
 import { DataforseoLabsPageIntersectionLiveItem, IDataforseoLabsPageIntersectionLiveItem } from "./DataforseoLabsPageIntersectionLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingPageIntersectionLiveResultInfo   {
         

@@ -1,5 +1,5 @@
 import { WorkDayInfo, IWorkDayInfo } from "./WorkDayInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IWorkHours   {
         

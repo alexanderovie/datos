@@ -1,5 +1,5 @@
 import { DataforseoLabsStatusInfo, IDataforseoLabsStatusInfo } from "./DataforseoLabsStatusInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsStatusResultInfo   {
         

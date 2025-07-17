@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IGpsCoordinatesLocationInfo   {
         
         /** latitude coordinate of the hotel in google maps

@@ -1,6 +1,6 @@
 import { SerpGoogleFinanceMarketsLiveAdvancedTaskInfo, ISerpGoogleFinanceMarketsLiveAdvancedTaskInfo } from "./SerpGoogleFinanceMarketsLiveAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleFinanceMarketsLiveAdvancedResponseInfo  extends IBaseResponseInfo    {
         

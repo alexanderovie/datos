@@ -4,7 +4,7 @@ import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 import { ContentOfferInfo, IContentOfferInfo } from "./ContentOfferInfo";
 import { ContentCommentInfo, IContentCommentInfo } from "./ContentCommentInfo";
 import { Contacts, IContacts } from "./Contacts";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IPageContentInfo   {
         

@@ -8,7 +8,7 @@
 **date** | **string** | date for which the data is provided |[optional]|
 **total_count** | **number** | total number of results in our database relevant to your request |[optional]|
 **rank** | **number** | rank of all URLs citing the keyword<br>normalized sum of ranks of all URLs citing the target keyword for the given date |[optional]|
-**top_domains** | **TopDomainCountInfo[]** | top domains citing the target keyword<br>contains objects with top domains citing the target category and citation count per each domain |[optional]|
+**top_domains** | **TopDomainInfo[]** | top domains citing the target keyword<br>contains objects with top domains citing the target category and citation count per each domain |[optional]|
 **sentiment_connotations** | **{ [key: string]: number; }** | sentiment connotations<br>contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment<br>possible connotations: 'anger', 'fear', 'happiness', 'love', 'sadness', 'share', 'neutral', 'fun' |[optional]|
 **connotation_types** | **{ [key: string]: number; }** | connotation types<br>contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type<br>possible connotation types: 'positive', 'negative', 'neutral' |[optional]|
 **text_categories** | **ContentAnalysisCategoriesInfo[]** | text categories<br>contains objects with text categories and citation count in each text category<br>to obtain a full list of available categories, refer to the Categories endpoint |[optional]|

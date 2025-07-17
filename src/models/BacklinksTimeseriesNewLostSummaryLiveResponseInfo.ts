@@ -1,6 +1,6 @@
 import { BacklinksTimeseriesNewLostSummaryLiveTaskInfo, IBacklinksTimeseriesNewLostSummaryLiveTaskInfo } from "./BacklinksTimeseriesNewLostSummaryLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksTimeseriesNewLostSummaryLiveResponseInfo  extends IBaseResponseInfo    {
         

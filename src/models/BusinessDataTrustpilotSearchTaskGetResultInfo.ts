@@ -1,5 +1,5 @@
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { TrustpilotSearchOrganic, ITrustpilotSearchOrganic } from "./TrustpilotSearchOrganic";
+
 
 export interface IBusinessDataTrustpilotSearchTaskGetResultInfo   {
         
@@ -25,7 +25,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: TrustpilotSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task */
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: TrustpilotSearchOrganic[] | undefined;
 
     [key: string]: any;
 
@@ -91,7 +91,7 @@ you can get more results by using the depth parameter when setting a task */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(TrustpilotSearchOrganic.fromJS(item));
                 }
             }
         }

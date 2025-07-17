@@ -1,6 +1,6 @@
-import { ImagesElement, IImagesElement } from "./ImagesElement";
+import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
 import { Table, ITable } from "./Table";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKnowledgeGraphExpandedElement   {
         
@@ -23,7 +23,7 @@ export interface IKnowledgeGraphExpandedElement   {
         snippet?: string | undefined
         
         /** images of the element */
-        images?: ImagesElement[] | undefined
+        images?: AiModeImagesElement[] | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,8 @@ example:
 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** table element */
+        /** table present in the element
+the header and content of the table present in the element */
         table?: Table | undefined
 
     [key: string]: any;
@@ -66,7 +67,7 @@ export class KnowledgeGraphExpandedElement  implements IKnowledgeGraphExpandedEl
     
     /** images of the element */
 
-    images?: ImagesElement[] | undefined;
+    images?: AiModeImagesElement[] | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -75,7 +76,8 @@ example:
 
     timestamp?: string | undefined;
     
-    /** table element */
+    /** table present in the element
+the header and content of the table present in the element */
 
     table?: Table | undefined;
 
@@ -108,7 +110,7 @@ example:
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(ImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElement.fromJS(item));
                 }
             }
             this.timestamp = data["timestamp"];

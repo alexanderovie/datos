@@ -1,5 +1,5 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo   {
         

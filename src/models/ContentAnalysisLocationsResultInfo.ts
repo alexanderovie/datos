@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentAnalysisLocationsResultInfo   {
         
         /** full name of the location */

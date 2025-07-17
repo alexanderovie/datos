@@ -1,6 +1,6 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
-import { OnPageContentParsingItem, IOnPageContentParsingItem } from "./OnPageContentParsingItem";
-import { ApiException, throwException } from "./ApiException"
+import { ContentParsingElement, IContentParsingElement } from "./ContentParsingElement";
+
 
 export interface IOnPageContentParsingResultInfo   {
         
@@ -15,7 +15,7 @@ possible values: in_progress, finished */
         items_count?: number | undefined
         
         /** items array */
-        items?: OnPageContentParsingItem[] | undefined
+        items?: ContentParsingElement[] | undefined
 
     [key: string]: any;
 
@@ -38,7 +38,7 @@ possible values: in_progress, finished */
     
     /** items array */
 
-    items?: OnPageContentParsingItem[] | undefined;
+    items?: ContentParsingElement[] | undefined;
 
     [key: string]: any;
 
@@ -66,7 +66,7 @@ possible values: in_progress, finished */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(OnPageContentParsingItem.fromJS(item));
+                    this.items.push(ContentParsingElement.fromJS(item));
                 }
             }
         }

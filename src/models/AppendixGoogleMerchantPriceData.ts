@@ -1,7 +1,7 @@
 import { AppendixPriceDataInfo, IAppendixPriceDataInfo } from "./AppendixPriceDataInfo";
 import { AppendixProductGoogleMerchantPriceDataInfo, IAppendixProductGoogleMerchantPriceDataInfo } from "./AppendixProductGoogleMerchantPriceDataInfo";
 import { AppendixSellersGoogleMerchantPriceData, IAppendixSellersGoogleMerchantPriceData } from "./AppendixSellersGoogleMerchantPriceData";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixGoogleMerchantPriceData   {
         

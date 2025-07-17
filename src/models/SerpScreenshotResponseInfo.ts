@@ -1,6 +1,6 @@
 import { SerpScreenshotTaskInfo, ISerpScreenshotTaskInfo } from "./SerpScreenshotTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpScreenshotResponseInfo  extends IBaseResponseInfo    {
         

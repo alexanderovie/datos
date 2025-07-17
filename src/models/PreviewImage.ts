@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IPreviewImage   {
         
         /** search URL with refinement parameters */

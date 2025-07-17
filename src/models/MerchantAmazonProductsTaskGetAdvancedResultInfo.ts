@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseMerchantAmazonElementItem, IBaseMerchantAmazonElementItem } from "./BaseMerchantAmazonElementItem";
+
 
 export interface IMerchantAmazonProductsTaskGetAdvancedResultInfo   {
         
@@ -50,7 +50,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
         items_count?: number | undefined
         
         /** Amazon product items within the editorial_recommendations element */
-        items?: BaseAmazonSerpElementItem[] | undefined
+        items?: BaseMerchantAmazonElementItem[] | undefined
 
     [key: string]: any;
 
@@ -117,7 +117,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
     
     /** Amazon product items within the editorial_recommendations element */
 
-    items?: BaseAmazonSerpElementItem[] | undefined;
+    items?: BaseMerchantAmazonElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -154,7 +154,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAmazonSerpElementItem.fromJS(item));
+                    this.items.push(BaseMerchantAmazonElementItem.fromJS(item));
                 }
             }
         }

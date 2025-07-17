@@ -1,6 +1,6 @@
-import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
+import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageRedirectChainsItem, IOnPageRedirectChainsItem } from "./OnPageRedirectChainsItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageRedirectChainsResultInfo   {
         
@@ -9,7 +9,7 @@ possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatus | undefined
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** total number of relevant items in the database */
         total_items_count?: number | undefined
@@ -33,7 +33,7 @@ possible values: in_progress, finished */
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatus | undefined;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** total number of relevant items in the database */
 
@@ -68,7 +68,7 @@ possible values: in_progress, finished */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
             this.total_items_count = data["total_items_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
@@ -95,7 +95,7 @@ possible values: in_progress, finished */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
         data["total_items_count"] = this.total_items_count;
         data["items_count"] = this.items_count;
         data["items"] = null;

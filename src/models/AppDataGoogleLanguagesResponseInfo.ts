@@ -1,6 +1,6 @@
 import { AppDataGoogleLanguagesTaskInfo, IAppDataGoogleLanguagesTaskInfo } from "./AppDataGoogleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataGoogleLanguagesResponseInfo  extends IBaseResponseInfo    {
         

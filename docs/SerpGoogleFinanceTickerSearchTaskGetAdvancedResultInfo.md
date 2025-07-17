@@ -16,4 +16,4 @@
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP;<br>possible item types: google_finance_market_index, google_finance_asset_pair, google_finance_market_instrument |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseGoogleFinanceTickerSearchSerpElementItem[]** | items of search results found in SERP<br>array of items containing market indexes data;<br>possible type of items: google_finance_market_index, google_finance_asset_pair, google_finance_market_instrument |[optional]|
+**items** | **BaseSerpApiGoogleFinanceTickerSearchElementItem[]** | items of search results found in SERP<br>array of items containing market indexes data;<br>possible type of items: google_finance_market_index, google_finance_asset_pair, google_finance_market_instrument |[optional]|

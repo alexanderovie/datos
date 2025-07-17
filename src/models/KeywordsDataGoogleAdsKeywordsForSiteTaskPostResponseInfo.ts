@@ -1,6 +1,6 @@
 import { KeywordsDataGoogleAdsKeywordsForSiteTaskPostTaskInfo, IKeywordsDataGoogleAdsKeywordsForSiteTaskPostTaskInfo } from "./KeywordsDataGoogleAdsKeywordsForSiteTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo  extends IBaseResponseInfo    {
         

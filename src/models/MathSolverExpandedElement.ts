@@ -1,11 +1,9 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMathSolverExpandedElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the carousel item */
+        /** title of the row */
         title?: string | undefined
         
         /** solution of the element
@@ -22,7 +20,7 @@ export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
 
     type?: string | undefined;
     
-    /** title of the carousel item */
+    /** title of the row */
 
     title?: string | undefined;
     

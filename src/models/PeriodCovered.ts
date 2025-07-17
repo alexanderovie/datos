@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IPeriodCovered   {
         
         /** date and time when the period starts

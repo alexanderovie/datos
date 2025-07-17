@@ -1,13 +1,13 @@
-import { WorkTimeInfo, IWorkTimeInfo } from "./WorkTimeInfo";
-import { ApiException, throwException } from "./ApiException"
+import { TimeInfo, ITimeInfo } from "./TimeInfo";
+
 
 export interface IWorkDayInfo   {
         
         /** opening time */
-        open?: WorkTimeInfo | undefined
+        open?: TimeInfo | undefined
         
         /** closing time */
-        close?: WorkTimeInfo | undefined
+        close?: TimeInfo | undefined
 
     [key: string]: any;
 
@@ -17,11 +17,11 @@ export class WorkDayInfo  implements IWorkDayInfo {
     
     /** opening time */
 
-    open?: WorkTimeInfo | undefined;
+    open?: TimeInfo | undefined;
     
     /** closing time */
 
-    close?: WorkTimeInfo | undefined;
+    close?: TimeInfo | undefined;
 
     [key: string]: any;
 
@@ -43,8 +43,8 @@ export class WorkDayInfo  implements IWorkDayInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.open = data["open"] ? WorkTimeInfo.fromJS(data["open"]) : <any>undefined;
-            this.close = data["close"] ? WorkTimeInfo.fromJS(data["close"]) : <any>undefined;
+            this.open = data["open"] ? TimeInfo.fromJS(data["open"]) : <any>undefined;
+            this.close = data["close"] ? TimeInfo.fromJS(data["close"]) : <any>undefined;
         }
     }
 
@@ -62,8 +62,8 @@ export class WorkDayInfo  implements IWorkDayInfo {
 
         
         
-        data["open"] = this.open ? WorkTimeInfo.fromJS(this.open)?.toJSON() : <any>undefined;
-        data["close"] = this.close ? WorkTimeInfo.fromJS(this.close)?.toJSON() : <any>undefined;
+        data["open"] = this.open ? TimeInfo.fromJS(this.open)?.toJSON() : <any>undefined;
+        data["close"] = this.close ? TimeInfo.fromJS(this.close)?.toJSON() : <any>undefined;
         return data;
     }
 }

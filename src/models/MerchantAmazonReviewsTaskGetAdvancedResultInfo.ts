@@ -1,8 +1,8 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { ImagesElement, IImagesElement } from "./ImagesElement";
+import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
 import { RatingElement, IRatingElement } from "./RatingElement";
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AmazonReviewItem, IAmazonReviewItem } from "./AmazonReviewItem";
+
 
 export interface IMerchantAmazonReviewsTaskGetAdvancedResultInfo   {
         
@@ -40,7 +40,7 @@ the title of the product for which the reviews are collected */
         title?: string | undefined
         
         /** product image data */
-        image?: ImagesElement | undefined
+        image?: AiModeImagesElement | undefined
         
         /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseAmazonSerpElementItem[] | undefined
+        items?: AmazonReviewItem[] | undefined
 
     [key: string]: any;
 
@@ -113,7 +113,7 @@ the title of the product for which the reviews are collected */
     
     /** product image data */
 
-    image?: ImagesElement | undefined;
+    image?: AiModeImagesElement | undefined;
     
     /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
@@ -139,7 +139,7 @@ you can get more results by using the depth parameter when setting a task */
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseAmazonSerpElementItem[] | undefined;
+    items?: AmazonReviewItem[] | undefined;
 
     [key: string]: any;
 
@@ -170,7 +170,7 @@ you can get more results by using the depth parameter when setting a task */
             this.datetime = data["datetime"];
             this.spell = data["spell"] ? SpellInfo.fromJS(data["spell"]) : <any>undefined;
             this.title = data["title"];
-            this.image = data["image"] ? ImagesElement.fromJS(data["image"]) : <any>undefined;
+            this.image = data["image"] ? AiModeImagesElement.fromJS(data["image"]) : <any>undefined;
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.reviews_count = data["reviews_count"];
             this.item_types = data["item_types"];
@@ -178,7 +178,7 @@ you can get more results by using the depth parameter when setting a task */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseAmazonSerpElementItem.fromJS(item));
+                    this.items.push(AmazonReviewItem.fromJS(item));
                 }
             }
         }
@@ -207,7 +207,7 @@ you can get more results by using the depth parameter when setting a task */
         data["datetime"] = this.datetime;
         data["spell"] = this.spell ? SpellInfo.fromJS(this.spell)?.toJSON() : <any>undefined;
         data["title"] = this.title;
-        data["image"] = this.image ? ImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
+        data["image"] = this.image ? AiModeImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["reviews_count"] = this.reviews_count;
         data["item_types"] = this.item_types;

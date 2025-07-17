@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+
 
 export interface ISerpYahooOrganicTaskGetAdvancedResultInfo   {
         
@@ -53,7 +53,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: BaseSerpElementItem[] | undefined
+        items?: BaseSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -122,7 +122,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: BaseSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -159,7 +159,7 @@ if there are none, equals null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiElementItem.fromJS(item));
                 }
             }
         }

@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
-import { BaseDataforseoLabsSerpElementItem, IBaseDataforseoLabsSerpElementItem } from "./BaseDataforseoLabsSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } from "./BaseDataforseoLabsApiElementItem";
+
 
 export interface IDataforseoLabsDomainIntersectionLiveItem   {
         
@@ -12,11 +12,11 @@ export interface IDataforseoLabsDomainIntersectionLiveItem   {
         
         /** contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
-        first_domain_serp_element?: BaseDataforseoLabsSerpElementItem | undefined
+        first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
         
         /** contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
-        second_domain_serp_element?: BaseDataforseoLabsSerpElementItem | undefined
+        second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
 
     [key: string]: any;
 
@@ -35,12 +35,12 @@ export class DataforseoLabsDomainIntersectionLiveItem  implements IDataforseoLab
     /** contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
 
-    first_domain_serp_element?: BaseDataforseoLabsSerpElementItem | undefined;
+    first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
     
     /** contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
 
-    second_domain_serp_element?: BaseDataforseoLabsSerpElementItem | undefined;
+    second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
 
     [key: string]: any;
 
@@ -64,8 +64,8 @@ the list of supported SERP elements can be found below */
             }
             this.se_type = data["se_type"];
             this.keyword_data = data["keyword_data"] ? KeywordDataInfo.fromJS(data["keyword_data"]) : <any>undefined;
-            this.first_domain_serp_element = data["first_domain_serp_element"] ? BaseDataforseoLabsSerpElementItem.fromJS(data["first_domain_serp_element"]) : <any>undefined;
-            this.second_domain_serp_element = data["second_domain_serp_element"] ? BaseDataforseoLabsSerpElementItem.fromJS(data["second_domain_serp_element"]) : <any>undefined;
+            this.first_domain_serp_element = data["first_domain_serp_element"] ? BaseDataforseoLabsApiElementItem.fromJS(data["first_domain_serp_element"]) : <any>undefined;
+            this.second_domain_serp_element = data["second_domain_serp_element"] ? BaseDataforseoLabsApiElementItem.fromJS(data["second_domain_serp_element"]) : <any>undefined;
         }
     }
 
@@ -85,8 +85,8 @@ the list of supported SERP elements can be found below */
         
         data["se_type"] = this.se_type;
         data["keyword_data"] = this.keyword_data ? KeywordDataInfo.fromJS(this.keyword_data)?.toJSON() : <any>undefined;
-        data["first_domain_serp_element"] = this.first_domain_serp_element ? BaseDataforseoLabsSerpElementItem.fromJS(this.first_domain_serp_element)?.toJSON() : <any>undefined;
-        data["second_domain_serp_element"] = this.second_domain_serp_element ? BaseDataforseoLabsSerpElementItem.fromJS(this.second_domain_serp_element)?.toJSON() : <any>undefined;
+        data["first_domain_serp_element"] = this.first_domain_serp_element ? BaseDataforseoLabsApiElementItem.fromJS(this.first_domain_serp_element)?.toJSON() : <any>undefined;
+        data["second_domain_serp_element"] = this.second_domain_serp_element ? BaseDataforseoLabsApiElementItem.fromJS(this.second_domain_serp_element)?.toJSON() : <any>undefined;
         return data;
     }
 }

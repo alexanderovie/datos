@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleAdsAdvertisersSerpElementItem, IBaseGoogleAdsAdvertisersSerpElementItem } from "./BaseGoogleAdsAdvertisersSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiAdsAdvertiserElementItem, IBaseSerpApiAdsAdvertiserElementItem } from "./BaseSerpApiAdsAdvertiserElementItem";
+
 
 export interface ISerpGoogleAdsAdvertisersTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ ads_muti_account_advertiser, ads_advertiser, ads_domain */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: BaseGoogleAdsAdvertisersSerpElementItem[] | undefined
+        items?: BaseSerpApiAdsAdvertiserElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ ads_muti_account_advertiser, ads_advertiser, ads_domain */
     
     /** items of the element */
 
-    items?: BaseGoogleAdsAdvertisersSerpElementItem[] | undefined;
+    items?: BaseSerpApiAdsAdvertiserElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ ads_muti_account_advertiser, ads_advertiser, ads_domain */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleAdsAdvertisersSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiAdsAdvertiserElementItem.fromJS(item));
                 }
             }
         }

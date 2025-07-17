@@ -1,6 +1,6 @@
 import { BacklinksAnchorsLiveTaskInfo, IBacklinksAnchorsLiveTaskInfo } from "./BacklinksAnchorsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksAnchorsLiveResponseInfo  extends IBaseResponseInfo    {
         

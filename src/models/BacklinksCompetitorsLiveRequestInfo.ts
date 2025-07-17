@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksCompetitorsLiveRequestInfo   {
         
         /** domain, subdomain or webpage to get competitor domains for

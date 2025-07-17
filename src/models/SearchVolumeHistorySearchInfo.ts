@@ -1,5 +1,5 @@
 import { SearchVolumeHistoryItemInfo, ISearchVolumeHistoryItemInfo } from "./SearchVolumeHistoryItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISearchVolumeHistorySearchInfo   {
         

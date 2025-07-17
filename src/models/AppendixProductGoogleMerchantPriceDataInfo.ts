@@ -1,6 +1,6 @@
 import { AppendixTaskGetProductGoogleMerchantPriceDataInfo, IAppendixTaskGetProductGoogleMerchantPriceDataInfo } from "./AppendixTaskGetProductGoogleMerchantPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixProductGoogleMerchantPriceDataInfo   {
         

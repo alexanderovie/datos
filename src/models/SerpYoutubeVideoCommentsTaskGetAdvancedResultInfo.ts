@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseYoutubeSerpElementItem, IBaseYoutubeSerpElementItem } from "./BaseYoutubeSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { YoutubeComment, IYoutubeComment } from "./YoutubeComment";
+
 
 export interface ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo   {
         
@@ -46,7 +46,7 @@ youtube_comment */
         items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseYoutubeSerpElementItem[] | undefined
+        items?: YoutubeComment[] | undefined
 
     [key: string]: any;
 
@@ -108,7 +108,7 @@ youtube_comment */
     
     /** elements of search results found in SERP */
 
-    items?: BaseYoutubeSerpElementItem[] | undefined;
+    items?: YoutubeComment[] | undefined;
 
     [key: string]: any;
 
@@ -144,7 +144,7 @@ youtube_comment */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseYoutubeSerpElementItem.fromJS(item));
+                    this.items.push(YoutubeComment.fromJS(item));
                 }
             }
         }

@@ -1,6 +1,6 @@
 import { KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo, IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo } from "./KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

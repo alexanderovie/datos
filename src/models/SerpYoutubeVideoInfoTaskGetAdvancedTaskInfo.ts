@@ -1,6 +1,6 @@
 import { SerpYoutubeVideoInfoTaskGetAdvancedResultInfo, ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo } from "./SerpYoutubeVideoInfoTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYoutubeVideoInfoTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

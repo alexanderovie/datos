@@ -1,5 +1,5 @@
 import { MessageInfo, IMessageInfo } from "./MessageInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMicrodataFieldsInfo   {
         
@@ -14,12 +14,13 @@ name of the data field */
 microdata value specified on a target web page */
         value?: string | undefined
         
-        /** list of microdata types */
-        test_results?: MessageInfo[] | undefined
+        /** microdata validation test results
+sub-type microdata test results that contain detected errors and related messages */
+        test_results?: MessageInfo | undefined
         
         /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
-        fields?: MicrodataFieldsInfo | undefined
+        fields?: MicrodataFieldsInfo[] | undefined
 
     [key: string]: any;
 
@@ -41,14 +42,15 @@ microdata value specified on a target web page */
 
     value?: string | undefined;
     
-    /** list of microdata types */
+    /** microdata validation test results
+sub-type microdata test results that contain detected errors and related messages */
 
-    test_results?: MessageInfo[] | undefined;
+    test_results?: MessageInfo | undefined;
     
     /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
 
-    fields?: MicrodataFieldsInfo | undefined;
+    fields?: MicrodataFieldsInfo[] | undefined;
 
     [key: string]: any;
 
@@ -73,13 +75,13 @@ an array of objects containing data fields related to the certain microdata type
             this.name = data["name"];
             this.types = data["types"];
             this.value = data["value"];
-            if (Array.isArray(data["test_results"])) {
-                this.test_results = [];
-                for (let item of data["test_results"]) {
-                    this.test_results.push(MessageInfo.fromJS(item));
+            this.test_results = data["test_results"] ? MessageInfo.fromJS(data["test_results"]) : <any>undefined;
+            if (Array.isArray(data["fields"])) {
+                this.fields = [];
+                for (let item of data["fields"]) {
+                    this.fields.push(MicrodataFieldsInfo.fromJS(item));
                 }
             }
-            this.fields = data["fields"] ? MicrodataFieldsInfo.fromJS(data["fields"]) : <any>undefined;
         }
     }
 
@@ -100,16 +102,16 @@ an array of objects containing data fields related to the certain microdata type
         data["name"] = this.name;
         data["types"] = this.types;
         data["value"] = this.value;
-        data["test_results"] = null;
-        if (Array.isArray(this.test_results)) {
-            data["test_results"] = [];
-            for (let item of this.test_results) {
+        data["test_results"] = this.test_results ? MessageInfo.fromJS(this.test_results)?.toJSON() : <any>undefined;
+        data["fields"] = null;
+        if (Array.isArray(this.fields)) {
+            data["fields"] = [];
+            for (let item of this.fields) {
                 if (item && typeof item.toJSON === "function") {
-                    data["test_results"].push(item?.toJSON());
+                    data["fields"].push(item?.toJSON());
                 }
             }
         }
-        data["fields"] = this.fields ? MicrodataFieldsInfo.fromJS(this.fields)?.toJSON() : <any>undefined;
         return data;
     }
 }

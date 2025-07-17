@@ -1,5 +1,5 @@
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { TripadvisorSearchOrganic, ITripadvisorSearchOrganic } from "./TripadvisorSearchOrganic";
+
 
 export interface IBusinessDataTripadvisorSearchTaskGetResultInfo   {
         
@@ -39,7 +39,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: TripadvisorSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -93,7 +93,7 @@ you can get more results by using the depth parameter when setting a task */
     /** Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: TripadvisorSearchOrganic[] | undefined;
 
     [key: string]: any;
 
@@ -127,7 +127,7 @@ you can get more results by using the depth parameter when setting a task */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(TripadvisorSearchOrganic.fromJS(item));
                 }
             }
         }

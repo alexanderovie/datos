@@ -13,4 +13,4 @@
 **item_types** | **string[]** | item types encountered in the result<br>possible item types: tripadvisor_search_organic |[optional]|
 **se_results_count** | **number** | the total number of results |[optional]|
 **items_count** | **number** | the number of items in the results array<br>you can get more results by using the depth parameter when setting a task |[optional]|
-**items** | **BaseBusinessDataSerpElementItem[]** | Tripadvisor search listing results<br>you can get more results by using the depth parameter when setting a task |[optional]|
+**items** | **TripadvisorSearchOrganic[]** | Tripadvisor search listing results<br>you can get more results by using the depth parameter when setting a task |[optional]|

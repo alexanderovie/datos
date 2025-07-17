@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISearchVolumeTrend   {
         
         /** search volume change in percent compared to the previous month */

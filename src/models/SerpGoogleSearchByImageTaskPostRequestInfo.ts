@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleSearchByImageTaskPostRequestInfo   {
         
         /** URL of the image

@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { SerpGoogleAdsSearchTaskGetAdvancedItem, ISerpGoogleAdsSearchTaskGetAdvancedItem } from "./SerpGoogleAdsSearchTaskGetAdvancedItem";
-import { ApiException, throwException } from "./ApiException"
+import { AdsSearch, IAdsSearch } from "./AdsSearch";
+
 
 export interface ISerpGoogleAdsSearchTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ ads_search */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: SerpGoogleAdsSearchTaskGetAdvancedItem[] | undefined
+        items?: AdsSearch[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ ads_search */
     
     /** items of the element */
 
-    items?: SerpGoogleAdsSearchTaskGetAdvancedItem[] | undefined;
+    items?: AdsSearch[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ ads_search */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(SerpGoogleAdsSearchTaskGetAdvancedItem.fromJS(item));
+                    this.items.push(AdsSearch.fromJS(item));
                 }
             }
         }

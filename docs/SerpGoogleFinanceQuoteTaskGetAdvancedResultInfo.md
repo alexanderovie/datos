@@ -16,4 +16,4 @@
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP;<br>possible item types: google_finance_hero_groups, google_finance_quote, google_finance_compare_to, google_finance_news, google_finance_financial, google_finance_futures_chain, google_finance_details, google_finance_about, google_finance_interested, google_finance_people_also_search |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseGoogleFinanceSerpElementItem[]** | market indexes related to the market trends element |[optional]|
+**items** | **BaseSerpApiGoogleFinanceElementItem[]** | market indexes related to the market trends element |[optional]|

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentGenerationCheckGrammarLiveItem   {
         
         /** message of the grammar or spelling error */

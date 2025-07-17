@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IRankedKeywordsInfo   {
         
         /** number of keywords for which the page is ranked in top 3 search results */

@@ -1,6 +1,6 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
-import { BaseOnPageResourceItemInfo, IBaseOnPageResourceItemInfo } from "./BaseOnPageResourceItemInfo";
-import { ApiException, throwException } from "./ApiException"
+import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IOnPagePagesResultInfo   {
         
@@ -22,7 +22,7 @@ possible values: in_progress, finished */
         items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageResourceItemInfo[] | undefined
+        items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -53,7 +53,7 @@ possible values: in_progress, finished */
     
     /** items array */
 
-    items?: BaseOnPageResourceItemInfo[] | undefined;
+    items?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -84,7 +84,7 @@ possible values: in_progress, finished */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseOnPageResourceItemInfo.fromJS(item));
+                    this.items.push(BaseOnPageResourceItem.fromJS(item));
                 }
             }
         }

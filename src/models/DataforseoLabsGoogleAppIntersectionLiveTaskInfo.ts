@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleAppIntersectionLiveResultInfo, IDataforseoLabsGoogleAppIntersectionLiveResultInfo } from "./DataforseoLabsGoogleAppIntersectionLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleAppIntersectionLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

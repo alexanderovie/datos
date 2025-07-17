@@ -1,5 +1,5 @@
 import { DataforseoLabsAppleKeywordsForAppLiveItem, IDataforseoLabsAppleKeywordsForAppLiveItem } from "./DataforseoLabsAppleKeywordsForAppLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleKeywordsForAppLiveResultInfo   {
         

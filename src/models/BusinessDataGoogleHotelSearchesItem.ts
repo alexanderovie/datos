@@ -1,7 +1,7 @@
 import { GpsCoordinatesLocationInfo, IGpsCoordinatesLocationInfo } from "./GpsCoordinatesLocationInfo";
 import { HotelReviewInfo, IHotelReviewInfo } from "./HotelReviewInfo";
 import { HotelPriceInfo, IHotelPriceInfo } from "./HotelPriceInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataGoogleHotelSearchesItem   {
         

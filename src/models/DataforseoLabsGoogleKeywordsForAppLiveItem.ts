@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { GooglePlayRankedSerpElementInfo, IGooglePlayRankedSerpElementInfo } from "./GooglePlayRankedSerpElementInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleKeywordsForAppLiveItem   {
         

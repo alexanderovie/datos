@@ -1,5 +1,5 @@
 import { IndexHistory, IIndexHistory } from "./IndexHistory";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksIndexResultInfo   {
         

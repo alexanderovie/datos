@@ -1,5 +1,5 @@
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { GoogleBusinessInfo, IGoogleBusinessInfo } from "./GoogleBusinessInfo";
+
 
 export interface IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo   {
         
@@ -40,7 +40,7 @@ the number of items in the items array */
         items_count?: number | undefined
         
         /** array of directory items */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: GoogleBusinessInfo[] | undefined
 
     [key: string]: any;
 
@@ -94,7 +94,7 @@ the number of items in the items array */
     
     /** array of directory items */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: GoogleBusinessInfo[] | undefined;
 
     [key: string]: any;
 
@@ -127,7 +127,7 @@ the number of items in the items array */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(GoogleBusinessInfo.fromJS(item));
                 }
             }
         }

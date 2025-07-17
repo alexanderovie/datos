@@ -1,6 +1,6 @@
 import { MerchantAmazonAsinTasksReadyResultInfo, IMerchantAmazonAsinTasksReadyResultInfo } from "./MerchantAmazonAsinTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantAmazonAsinTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

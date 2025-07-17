@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ITechnologiesInfo   {
         
         add_ons?: { [key: string]: string[]; } | undefined

@@ -1,56 +1,56 @@
-import { OnPageIdListRequestInfo } from "../models/OnPageIdListRequestInfo";
-import { OnPageIdListResponseInfo } from "../models/OnPageIdListResponseInfo";
-import { OnPageErrorsRequestInfo } from "../models/OnPageErrorsRequestInfo";
-import { OnPageErrorsResponseInfo } from "../models/OnPageErrorsResponseInfo";
-import { OnPageForceStopRequestInfo } from "../models/OnPageForceStopRequestInfo";
-import { OnPageForceStopResponseInfo } from "../models/OnPageForceStopResponseInfo";
-import { OnPageAvailableFiltersResponseInfo } from "../models/OnPageAvailableFiltersResponseInfo";
-import { OnPageTaskPostRequestInfo } from "../models/OnPageTaskPostRequestInfo";
-import { OnPageTaskPostResponseInfo } from "../models/OnPageTaskPostResponseInfo";
-import { OnPageTasksReadyResponseInfo } from "../models/OnPageTasksReadyResponseInfo";
-import { OnPageSummaryResponseInfo } from "../models/OnPageSummaryResponseInfo";
-import { OnPagePagesRequestInfo } from "../models/OnPagePagesRequestInfo";
-import { OnPagePagesResponseInfo } from "../models/OnPagePagesResponseInfo";
-import { OnPagePagesByResourceRequestInfo } from "../models/OnPagePagesByResourceRequestInfo";
-import { OnPagePagesByResourceResponseInfo } from "../models/OnPagePagesByResourceResponseInfo";
-import { OnPageResourcesRequestInfo } from "../models/OnPageResourcesRequestInfo";
-import { OnPageResourcesResponseInfo } from "../models/OnPageResourcesResponseInfo";
-import { OnPageDuplicateTagsRequestInfo } from "../models/OnPageDuplicateTagsRequestInfo";
-import { OnPageDuplicateTagsResponseInfo } from "../models/OnPageDuplicateTagsResponseInfo";
-import { OnPageDuplicateContentRequestInfo } from "../models/OnPageDuplicateContentRequestInfo";
-import { OnPageDuplicateContentResponseInfo } from "../models/OnPageDuplicateContentResponseInfo";
-import { OnPageLinksRequestInfo } from "../models/OnPageLinksRequestInfo";
-import { OnPageLinksResponseInfo } from "../models/OnPageLinksResponseInfo";
-import { OnPageRedirectChainsRequestInfo } from "../models/OnPageRedirectChainsRequestInfo";
-import { OnPageRedirectChainsResponseInfo } from "../models/OnPageRedirectChainsResponseInfo";
-import { OnPageNonIndexableRequestInfo } from "../models/OnPageNonIndexableRequestInfo";
-import { OnPageNonIndexableResponseInfo } from "../models/OnPageNonIndexableResponseInfo";
-import { OnPageWaterfallRequestInfo } from "../models/OnPageWaterfallRequestInfo";
-import { OnPageWaterfallResponseInfo } from "../models/OnPageWaterfallResponseInfo";
-import { OnPageKeywordDensityRequestInfo } from "../models/OnPageKeywordDensityRequestInfo";
-import { OnPageKeywordDensityResponseInfo } from "../models/OnPageKeywordDensityResponseInfo";
-import { OnPageMicrodataRequestInfo } from "../models/OnPageMicrodataRequestInfo";
-import { OnPageMicrodataResponseInfo } from "../models/OnPageMicrodataResponseInfo";
-import { OnPageRawHtmlRequestInfo } from "../models/OnPageRawHtmlRequestInfo";
-import { OnPageRawHtmlResponseInfo } from "../models/OnPageRawHtmlResponseInfo";
-import { OnPagePageScreenshotRequestInfo } from "../models/OnPagePageScreenshotRequestInfo";
-import { OnPagePageScreenshotResponseInfo } from "../models/OnPagePageScreenshotResponseInfo";
-import { OnPageContentParsingRequestInfo } from "../models/OnPageContentParsingRequestInfo";
-import { OnPageContentParsingResponseInfo } from "../models/OnPageContentParsingResponseInfo";
-import { OnPageContentParsingLiveRequestInfo } from "../models/OnPageContentParsingLiveRequestInfo";
-import { OnPageContentParsingLiveResponseInfo } from "../models/OnPageContentParsingLiveResponseInfo";
-import { OnPageInstantPagesRequestInfo } from "../models/OnPageInstantPagesRequestInfo";
-import { OnPageInstantPagesResponseInfo } from "../models/OnPageInstantPagesResponseInfo";
-import { OnPageLighthouseLanguagesResponseInfo } from "../models/OnPageLighthouseLanguagesResponseInfo";
-import { OnPageLighthouseAuditsResponseInfo } from "../models/OnPageLighthouseAuditsResponseInfo";
-import { OnPageLighthouseVersionsResponseInfo } from "../models/OnPageLighthouseVersionsResponseInfo";
-import { OnPageLighthouseTaskPostRequestInfo } from "../models/OnPageLighthouseTaskPostRequestInfo";
-import { OnPageLighthouseTaskPostResponseInfo } from "../models/OnPageLighthouseTaskPostResponseInfo";
-import { OnPageLighthouseTasksReadyResponseInfo } from "../models/OnPageLighthouseTasksReadyResponseInfo";
-import { OnPageLighthouseTaskGetJsonResponseInfo } from "../models/OnPageLighthouseTaskGetJsonResponseInfo";
-import { OnPageLighthouseLiveJsonRequestInfo } from "../models/OnPageLighthouseLiveJsonRequestInfo";
-import { OnPageLighthouseLiveJsonResponseInfo } from "../models/OnPageLighthouseLiveJsonResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { OnPageIdListRequestInfo } from "./../models/OnPageIdListRequestInfo";
+import { OnPageIdListResponseInfo } from "./../models/OnPageIdListResponseInfo";
+import { OnPageErrorsRequestInfo } from "./../models/OnPageErrorsRequestInfo";
+import { OnPageErrorsResponseInfo } from "./../models/OnPageErrorsResponseInfo";
+import { OnPageForceStopRequestInfo } from "./../models/OnPageForceStopRequestInfo";
+import { OnPageForceStopResponseInfo } from "./../models/OnPageForceStopResponseInfo";
+import { OnPageAvailableFiltersResponseInfo } from "./../models/OnPageAvailableFiltersResponseInfo";
+import { OnPageTaskPostRequestInfo } from "./../models/OnPageTaskPostRequestInfo";
+import { OnPageTaskPostResponseInfo } from "./../models/OnPageTaskPostResponseInfo";
+import { OnPageTasksReadyResponseInfo } from "./../models/OnPageTasksReadyResponseInfo";
+import { OnPageSummaryResponseInfo } from "./../models/OnPageSummaryResponseInfo";
+import { OnPagePagesRequestInfo } from "./../models/OnPagePagesRequestInfo";
+import { OnPagePagesResponseInfo } from "./../models/OnPagePagesResponseInfo";
+import { OnPagePagesByResourceRequestInfo } from "./../models/OnPagePagesByResourceRequestInfo";
+import { OnPagePagesByResourceResponseInfo } from "./../models/OnPagePagesByResourceResponseInfo";
+import { OnPageResourcesRequestInfo } from "./../models/OnPageResourcesRequestInfo";
+import { OnPageResourcesResponseInfo } from "./../models/OnPageResourcesResponseInfo";
+import { OnPageDuplicateTagsRequestInfo } from "./../models/OnPageDuplicateTagsRequestInfo";
+import { OnPageDuplicateTagsResponseInfo } from "./../models/OnPageDuplicateTagsResponseInfo";
+import { OnPageDuplicateContentRequestInfo } from "./../models/OnPageDuplicateContentRequestInfo";
+import { OnPageDuplicateContentResponseInfo } from "./../models/OnPageDuplicateContentResponseInfo";
+import { OnPageLinksRequestInfo } from "./../models/OnPageLinksRequestInfo";
+import { OnPageLinksResponseInfo } from "./../models/OnPageLinksResponseInfo";
+import { OnPageRedirectChainsRequestInfo } from "./../models/OnPageRedirectChainsRequestInfo";
+import { OnPageRedirectChainsResponseInfo } from "./../models/OnPageRedirectChainsResponseInfo";
+import { OnPageNonIndexableRequestInfo } from "./../models/OnPageNonIndexableRequestInfo";
+import { OnPageNonIndexableResponseInfo } from "./../models/OnPageNonIndexableResponseInfo";
+import { OnPageWaterfallRequestInfo } from "./../models/OnPageWaterfallRequestInfo";
+import { OnPageWaterfallResponseInfo } from "./../models/OnPageWaterfallResponseInfo";
+import { OnPageKeywordDensityRequestInfo } from "./../models/OnPageKeywordDensityRequestInfo";
+import { OnPageKeywordDensityResponseInfo } from "./../models/OnPageKeywordDensityResponseInfo";
+import { OnPageMicrodataRequestInfo } from "./../models/OnPageMicrodataRequestInfo";
+import { OnPageMicrodataResponseInfo } from "./../models/OnPageMicrodataResponseInfo";
+import { OnPageRawHtmlRequestInfo } from "./../models/OnPageRawHtmlRequestInfo";
+import { OnPageRawHtmlResponseInfo } from "./../models/OnPageRawHtmlResponseInfo";
+import { OnPagePageScreenshotRequestInfo } from "./../models/OnPagePageScreenshotRequestInfo";
+import { OnPagePageScreenshotResponseInfo } from "./../models/OnPagePageScreenshotResponseInfo";
+import { OnPageContentParsingRequestInfo } from "./../models/OnPageContentParsingRequestInfo";
+import { OnPageContentParsingResponseInfo } from "./../models/OnPageContentParsingResponseInfo";
+import { OnPageContentParsingLiveRequestInfo } from "./../models/OnPageContentParsingLiveRequestInfo";
+import { OnPageContentParsingLiveResponseInfo } from "./../models/OnPageContentParsingLiveResponseInfo";
+import { OnPageInstantPagesRequestInfo } from "./../models/OnPageInstantPagesRequestInfo";
+import { OnPageInstantPagesResponseInfo } from "./../models/OnPageInstantPagesResponseInfo";
+import { OnPageLighthouseLanguagesResponseInfo } from "./../models/OnPageLighthouseLanguagesResponseInfo";
+import { OnPageLighthouseAuditsResponseInfo } from "./../models/OnPageLighthouseAuditsResponseInfo";
+import { OnPageLighthouseVersionsResponseInfo } from "./../models/OnPageLighthouseVersionsResponseInfo";
+import { OnPageLighthouseTaskPostRequestInfo } from "./../models/OnPageLighthouseTaskPostRequestInfo";
+import { OnPageLighthouseTaskPostResponseInfo } from "./../models/OnPageLighthouseTaskPostResponseInfo";
+import { OnPageLighthouseTasksReadyResponseInfo } from "./../models/OnPageLighthouseTasksReadyResponseInfo";
+import { OnPageLighthouseTaskGetJsonResponseInfo } from "./../models/OnPageLighthouseTaskGetJsonResponseInfo";
+import { OnPageLighthouseLiveJsonRequestInfo } from "./../models/OnPageLighthouseLiveJsonRequestInfo";
+import { OnPageLighthouseLiveJsonResponseInfo } from "./../models/OnPageLighthouseLiveJsonResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class OnPageApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -72,7 +72,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -85,14 +85,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageIdListResponseInfo | null>(null as any);
@@ -107,7 +107,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -120,14 +120,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageErrorsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageErrorsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageErrorsResponseInfo | null>(null as any);
@@ -142,7 +142,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -155,14 +155,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageForceStopResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageForceStopResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageForceStopResponseInfo | null>(null as any);
@@ -170,13 +170,11 @@ export class OnPageApi {
     onPageAvailableFilters(): Promise<OnPageAvailableFiltersResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/available_filters";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -190,14 +188,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageAvailableFiltersResponseInfo | null>(null as any);
@@ -212,7 +210,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -225,14 +223,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageTaskPostResponseInfo | null>(null as any);
@@ -240,13 +238,11 @@ export class OnPageApi {
     onPageTasksReady(): Promise<OnPageTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -260,14 +256,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageTasksReadyResponseInfo | null>(null as any);
@@ -275,15 +271,12 @@ export class OnPageApi {
     summary(id: string): Promise<OnPageSummaryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/summary/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -297,14 +290,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageSummaryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageSummaryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageSummaryResponseInfo | null>(null as any);
@@ -319,7 +312,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -332,14 +325,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPagePagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPagePagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPagePagesResponseInfo | null>(null as any);
@@ -354,7 +347,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -367,14 +360,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPagePagesByResourceResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPagePagesByResourceResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPagePagesByResourceResponseInfo | null>(null as any);
@@ -389,7 +382,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -402,14 +395,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageResourcesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageResourcesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageResourcesResponseInfo | null>(null as any);
@@ -424,7 +417,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -437,14 +430,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageDuplicateTagsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageDuplicateTagsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageDuplicateTagsResponseInfo | null>(null as any);
@@ -459,7 +452,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -472,14 +465,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageDuplicateContentResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageDuplicateContentResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageDuplicateContentResponseInfo | null>(null as any);
@@ -494,7 +487,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -507,14 +500,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLinksResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLinksResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLinksResponseInfo | null>(null as any);
@@ -529,7 +522,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -542,14 +535,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageRedirectChainsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageRedirectChainsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageRedirectChainsResponseInfo | null>(null as any);
@@ -564,7 +557,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -577,14 +570,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageNonIndexableResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageNonIndexableResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageNonIndexableResponseInfo | null>(null as any);
@@ -599,7 +592,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -612,14 +605,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageWaterfallResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageWaterfallResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageWaterfallResponseInfo | null>(null as any);
@@ -634,7 +627,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -647,14 +640,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageKeywordDensityResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageKeywordDensityResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageKeywordDensityResponseInfo | null>(null as any);
@@ -669,7 +662,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -682,14 +675,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageMicrodataResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageMicrodataResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageMicrodataResponseInfo | null>(null as any);
@@ -704,7 +697,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -717,14 +710,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageRawHtmlResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageRawHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageRawHtmlResponseInfo | null>(null as any);
@@ -739,7 +732,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -752,14 +745,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPagePageScreenshotResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPagePageScreenshotResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPagePageScreenshotResponseInfo | null>(null as any);
@@ -774,7 +767,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -787,14 +780,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageContentParsingResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageContentParsingResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageContentParsingResponseInfo | null>(null as any);
@@ -809,7 +802,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -822,14 +815,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageContentParsingLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageContentParsingLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageContentParsingLiveResponseInfo | null>(null as any);
@@ -844,7 +837,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -857,14 +850,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageInstantPagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageInstantPagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageInstantPagesResponseInfo | null>(null as any);
@@ -872,13 +865,11 @@ export class OnPageApi {
     onPageLighthouseLanguages(): Promise<OnPageLighthouseLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/lighthouse/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -892,14 +883,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseLanguagesResponseInfo | null>(null as any);
@@ -907,13 +898,11 @@ export class OnPageApi {
     lighthouseAudits(): Promise<OnPageLighthouseAuditsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/lighthouse/audits";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -927,14 +916,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseAuditsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseAuditsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseAuditsResponseInfo | null>(null as any);
@@ -942,13 +931,11 @@ export class OnPageApi {
     lighthouseVersions(): Promise<OnPageLighthouseVersionsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/lighthouse/versions";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -962,14 +949,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseVersionsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseVersionsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseVersionsResponseInfo | null>(null as any);
@@ -984,7 +971,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -997,14 +984,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseTaskPostResponseInfo | null>(null as any);
@@ -1012,13 +999,11 @@ export class OnPageApi {
     lighthouseTasksReady(): Promise<OnPageLighthouseTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/lighthouse/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1032,14 +1017,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseTasksReadyResponseInfo | null>(null as any);
@@ -1047,15 +1032,12 @@ export class OnPageApi {
     lighthouseTaskGetJson(id: string): Promise<OnPageLighthouseTaskGetJsonResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/lighthouse/task_get/json/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1069,14 +1051,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseTaskGetJsonResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseTaskGetJsonResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseTaskGetJsonResponseInfo | null>(null as any);
@@ -1091,7 +1073,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1104,14 +1086,14 @@ export class OnPageApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? OnPageLighthouseLiveJsonResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageLighthouseLiveJsonResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<OnPageLighthouseLiveJsonResponseInfo | null>(null as any);

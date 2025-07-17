@@ -1,6 +1,6 @@
 import { KeywordsDataErrorsTaskInfo, IKeywordsDataErrorsTaskInfo } from "./KeywordsDataErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataErrorsResponseInfo  extends IBaseResponseInfo    {
         

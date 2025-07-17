@@ -1,5 +1,5 @@
-import { BaseDataforseoTrendsItem, IBaseDataforseoTrendsItem } from "./BaseDataforseoTrendsItem";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoTrendsSubregionInterestsElementItem, IDataforseoTrendsSubregionInterestsElementItem } from "./BaseKeywordDataDataforseoTrendsItem";
+
 
 export interface IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo   {
         
@@ -28,7 +28,7 @@ example:
         
         /** keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region */
-        items?: BaseDataforseoTrendsItem[] | undefined
+        items?: DataforseoTrendsSubregionInterestsElementItem[] | undefined
 
     [key: string]: any;
 
@@ -68,7 +68,7 @@ example:
     /** keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region */
 
-    items?: BaseDataforseoTrendsItem[] | undefined;
+    items?: DataforseoTrendsSubregionInterestsElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -99,7 +99,7 @@ values in this array represent percentages relative to the maximum value within 
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseDataforseoTrendsItem.fromJS(item));
+                    this.items.push(DataforseoTrendsSubregionInterestsElementItem.fromJS(item));
                 }
             }
         }

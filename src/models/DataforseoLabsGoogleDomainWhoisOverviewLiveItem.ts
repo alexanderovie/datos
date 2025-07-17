@@ -1,6 +1,6 @@
-import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 import { BacklinksInfo, IBacklinksInfo } from "./BacklinksInfo";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
+
 
 export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveItem   {
         

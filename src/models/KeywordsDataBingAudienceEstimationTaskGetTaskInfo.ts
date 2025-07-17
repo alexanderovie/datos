@@ -1,6 +1,6 @@
 import { KeywordsDataBingAudienceEstimationTaskGetResultInfo, IKeywordsDataBingAudienceEstimationTaskGetResultInfo } from "./KeywordsDataBingAudienceEstimationTaskGetResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingAudienceEstimationTaskGetTaskInfo  extends IBaseResponseTaskInfo    {
         

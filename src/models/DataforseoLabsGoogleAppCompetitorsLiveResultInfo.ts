@@ -1,5 +1,5 @@
-import { DataforseoLabsGoogleAppCompetitorsLiveItem, IDataforseoLabsGoogleAppCompetitorsLiveItem } from "./DataforseoLabsGoogleAppCompetitorsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoLabsleAppCompetitorsLiveItem, IDataforseoLabsleAppCompetitorsLiveItem } from "./DataforseoLabsleAppCompetitorsLiveItem";
+
 
 export interface IDataforseoLabsGoogleAppCompetitorsLiveResultInfo   {
         
@@ -22,7 +22,7 @@ export interface IDataforseoLabsGoogleAppCompetitorsLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains data related to the app_id and competitor applications */
-        items?: DataforseoLabsGoogleAppCompetitorsLiveItem[] | undefined
+        items?: DataforseoLabsleAppCompetitorsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsGoogleAppCompetitorsLiveResultInfo  implements IDataf
     
     /** contains data related to the app_id and competitor applications */
 
-    items?: DataforseoLabsGoogleAppCompetitorsLiveItem[] | undefined;
+    items?: DataforseoLabsleAppCompetitorsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsGoogleAppCompetitorsLiveResultInfo  implements IDataf
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsGoogleAppCompetitorsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsleAppCompetitorsLiveItem.fromJS(item));
                 }
             }
         }

@@ -1,6 +1,6 @@
 import { SerpBingLocalPackLiveHtmlResultInfo, ISerpBingLocalPackLiveHtmlResultInfo } from "./SerpBingLocalPackLiveHtmlResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBingLocalPackLiveHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         

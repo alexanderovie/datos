@@ -1,5 +1,5 @@
 import { OnPageResourceIssueItemInfo, IOnPageResourceIssueItemInfo } from "./OnPageResourceIssueItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageResourceIssueInfo   {
         

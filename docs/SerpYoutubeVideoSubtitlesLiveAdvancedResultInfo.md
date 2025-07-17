@@ -19,4 +19,4 @@
 **subtitles_count** | **number** | number of subtitles in the video |[optional]|
 **title** | **string** | title of the video |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseYoutubeSerpElementItem[]** | elements of search results found in SERP |[optional]|
+**items** | **YoutubeSubtitles[]** | elements of search results found in SERP |[optional]|

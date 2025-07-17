@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo   {
         
         /** distribution of websites by country

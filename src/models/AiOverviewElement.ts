@@ -1,23 +1,24 @@
-import { ImagesElement, IImagesElement } from "./ImagesElement";
-import { AiOverviewReference, IAiOverviewReference } from "./AiOverviewReference";
-import { ApiException, throwException } from "./ApiException"
+import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
+
 
 export interface IAiOverviewElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the element */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** description content */
+        /** content within the item */
         text?: string | undefined
         
         /** images of the element */
-        images?: ImagesElement[] | undefined
+        images?: AiModeImagesElement[] | undefined
         
-        /** references relevant to the element */
-        references?: AiOverviewReference[] | undefined
+        /** references relevant to the element
+includes references to webpages that were used to generate the ai_overview_element */
+        references?: AiAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -29,21 +30,22 @@ export class AiOverviewElement  implements IAiOverviewElement {
 
     type?: string | undefined;
     
-    /** title of the element */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** description content */
+    /** content within the item */
 
     text?: string | undefined;
     
     /** images of the element */
 
-    images?: ImagesElement[] | undefined;
+    images?: AiModeImagesElement[] | undefined;
     
-    /** references relevant to the element */
+    /** references relevant to the element
+includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiOverviewReference[] | undefined;
+    references?: AiAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -71,13 +73,13 @@ export class AiOverviewElement  implements IAiOverviewElement {
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(ImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElement.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiOverviewReference.fromJS(item));
+                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }

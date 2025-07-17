@@ -1,5 +1,5 @@
 import { ScreenshotItem, IScreenshotItem } from "./ScreenshotItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpScreenshotResultInfo   {
         

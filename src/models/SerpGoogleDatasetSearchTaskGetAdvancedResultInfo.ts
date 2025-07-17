@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { SerpGoogleDatasetAdvancedItem, ISerpGoogleDatasetAdvancedItem } from "./SerpGoogleDatasetAdvancedItem";
-import { ApiException, throwException } from "./ApiException"
+import { Dataset, IDataset } from "./Dataset";
+
 
 export interface ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo   {
         
@@ -40,7 +40,7 @@ possible item type: dataset */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: SerpGoogleDatasetAdvancedItem[] | undefined
+        items?: Dataset[] | undefined
 
     [key: string]: any;
 
@@ -94,7 +94,7 @@ possible item type: dataset */
     
     /** items of the element */
 
-    items?: SerpGoogleDatasetAdvancedItem[] | undefined;
+    items?: Dataset[] | undefined;
 
     [key: string]: any;
 
@@ -128,7 +128,7 @@ possible item type: dataset */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(SerpGoogleDatasetAdvancedItem.fromJS(item));
+                    this.items.push(Dataset.fromJS(item));
                 }
             }
         }

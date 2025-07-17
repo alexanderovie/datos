@@ -1,6 +1,6 @@
 import { SerpYahooOrganicTaskGetRegularResultInfo, ISerpYahooOrganicTaskGetRegularResultInfo } from "./SerpYahooOrganicTaskGetRegularResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYahooOrganicTaskGetRegularTaskInfo  extends IBaseResponseTaskInfo    {
         

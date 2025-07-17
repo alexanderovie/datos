@@ -1,6 +1,6 @@
 import { SerpAiSummaryResultInfo, ISerpAiSummaryResultInfo } from "./SerpAiSummaryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpAiSummaryTaskInfo  extends IBaseResponseTaskInfo    {
         

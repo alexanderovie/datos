@@ -1,6 +1,6 @@
 import { SerpGoogleAutocompleteTasksReadyTaskInfo, ISerpGoogleAutocompleteTasksReadyTaskInfo } from "./SerpGoogleAutocompleteTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleAutocompleteTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

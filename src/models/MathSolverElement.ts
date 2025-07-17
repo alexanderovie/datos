@@ -1,5 +1,5 @@
 import { MathSolverExpandedElement, IMathSolverExpandedElement } from "./MathSolverExpandedElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMathSolverElement   {
         

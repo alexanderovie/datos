@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo   {
         
         /** the maximum number of returned domains

@@ -1,5 +1,5 @@
 import { DataforseoLabsAppleAppIntersectionLiveItem, IDataforseoLabsAppleAppIntersectionLiveItem } from "./DataforseoLabsAppleAppIntersectionLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleAppIntersectionLiveResultInfo   {
         

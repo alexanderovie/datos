@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseDataforseoLabsSerpElementItem, IBaseDataforseoLabsSerpElementItem } from "./BaseDataforseoLabsSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } from "./BaseDataforseoLabsApiElementItem";
+
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveItem   {
         
@@ -51,7 +51,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: BaseDataforseoLabsSerpElementItem[] | undefined
+        items?: BaseDataforseoLabsApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -119,7 +119,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: BaseDataforseoLabsSerpElementItem[] | undefined;
+    items?: BaseDataforseoLabsApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -156,7 +156,7 @@ if there are none, equals null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseDataforseoLabsSerpElementItem.fromJS(item));
+                    this.items.push(BaseDataforseoLabsApiElementItem.fromJS(item));
                 }
             }
         }

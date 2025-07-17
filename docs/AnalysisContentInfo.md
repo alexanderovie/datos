@@ -12,7 +12,7 @@
 **author** | **string** | author of the content |[optional]|
 **snippet** | **string** | content snippet |[optional]|
 **snippet_length** | **number** | character length of the snippet |[optional]|
-**social_metrics** | **Facebook[]** | social media engagement metrics<br>data on social media interactions associated with the content based on website embeds developed and supported by social media platforms |[optional]|
+**social_metrics** | **SocialMetricsInfo[]** | social media engagement metrics<br>data on social media interactions associated with the content based on website embeds developed and supported by social media platforms |[optional]|
 **highlighted_text** | **string** | highlighted text from the snippet |[optional]|
 **language** | **string** | content language<br>to obtain a full list of available languages, refer to the Languages endpoint |[optional]|
 **sentiment_connotations** | **{ [key: string]: number; }** | sentiment connotations<br>contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment<br>possible sentiment connotations: anger, happiness, love, sadness, share, fun |[optional]|

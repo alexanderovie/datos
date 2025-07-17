@@ -1,6 +1,6 @@
 import { DomainAnalyticsTechnologiesAvailableFiltersTaskInfo, IDomainAnalyticsTechnologiesAvailableFiltersTaskInfo } from "./DomainAnalyticsTechnologiesAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         

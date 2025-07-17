@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentGenerationTextSummaryLiveResultInfo   {
         
         /** number of sentences found in the target text */

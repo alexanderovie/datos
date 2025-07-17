@@ -1,5 +1,5 @@
 import { LocationChain, ILocationChain } from "./LocationChain";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelLocationInfo   {
         

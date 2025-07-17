@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentGenerationGenerateSubTopicsLiveRequestInfo   {
         
         /** main topic of the content to generate

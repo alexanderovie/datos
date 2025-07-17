@@ -1,6 +1,6 @@
 import { SerpGoogleJobsTaskGetAdvancedTaskInfo, ISerpGoogleJobsTaskGetAdvancedTaskInfo } from "./SerpGoogleJobsTaskGetAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleJobsTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         

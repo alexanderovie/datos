@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo   {
         
         /** company or financial instrument name

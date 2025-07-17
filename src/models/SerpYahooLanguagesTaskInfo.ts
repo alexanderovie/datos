@@ -1,6 +1,6 @@
 import { SerpYahooLanguagesResultInfo, ISerpYahooLanguagesResultInfo } from "./SerpYahooLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpYahooLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         

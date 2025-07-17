@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKeywordsDataGoogleAdsStatusResultInfo   {
         
         /** indicates whether Google updated keyword data for the previous month

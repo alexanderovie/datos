@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageIdListResultInfo   {
         
         /** id of the task */

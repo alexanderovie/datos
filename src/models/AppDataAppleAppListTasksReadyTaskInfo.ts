@@ -1,6 +1,6 @@
 import { AppDataAppleAppListTasksReadyResultInfo, IAppDataAppleAppListTasksReadyResultInfo } from "./AppDataAppleAppListTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataAppleAppListTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

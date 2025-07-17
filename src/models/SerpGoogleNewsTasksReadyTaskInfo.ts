@@ -1,6 +1,6 @@
 import { SerpGoogleNewsTasksReadyResultInfo, ISerpGoogleNewsTasksReadyResultInfo } from "./SerpGoogleNewsTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleNewsTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

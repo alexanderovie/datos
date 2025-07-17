@@ -1,6 +1,6 @@
 import { MerchantAmazonLanguagesTaskInfo, IMerchantAmazonLanguagesTaskInfo } from "./MerchantAmazonLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantAmazonLanguagesResponseInfo  extends IBaseResponseInfo    {
         

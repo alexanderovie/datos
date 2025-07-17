@@ -1,6 +1,6 @@
 import { ContentGenerationGenerateTextLiveTaskInfo, IContentGenerationGenerateTextLiveTaskInfo } from "./ContentGenerationGenerateTextLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentGenerationGenerateTextLiveResponseInfo  extends IBaseResponseInfo    {
         

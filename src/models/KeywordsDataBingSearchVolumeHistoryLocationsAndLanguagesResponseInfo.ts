@@ -1,6 +1,6 @@
 import { KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo, IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo } from "./KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo  extends IBaseResponseInfo    {
         

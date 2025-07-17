@@ -1,6 +1,6 @@
 import { MerchantGoogleProductInfoTaskGetAdvancedResultInfo, IMerchantGoogleProductInfoTaskGetAdvancedResultInfo } from "./MerchantGoogleProductInfoTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantGoogleProductInfoTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

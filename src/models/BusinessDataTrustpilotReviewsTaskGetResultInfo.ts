@@ -1,6 +1,6 @@
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+import { TrustpilotReviewSearch, ITrustpilotReviewSearch } from "./TrustpilotReviewSearch";
+
 
 export interface IBusinessDataTrustpilotReviewsTaskGetResultInfo   {
         
@@ -36,7 +36,7 @@ address of the business entity for which the reviews are collected */
         
         /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
@@ -44,7 +44,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: TrustpilotReviewSearch[] | undefined
 
     [key: string]: any;
 
@@ -93,7 +93,7 @@ address of the business entity for which the reviews are collected */
     /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
@@ -103,7 +103,7 @@ you can get more results by using the depth parameter when setting a task */
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: TrustpilotReviewSearch[] | undefined;
 
     [key: string]: any;
 
@@ -133,12 +133,12 @@ you can get more results by using the depth parameter when setting a task */
             this.title = data["title"];
             this.location = data["location"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(TrustpilotReviewSearch.fromJS(item));
                 }
             }
         }
@@ -166,7 +166,7 @@ you can get more results by using the depth parameter when setting a task */
         data["title"] = this.title;
         data["location"] = this.location;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

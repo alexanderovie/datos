@@ -1,5 +1,5 @@
-import { BaseGoogleTrendsItem, IBaseGoogleTrendsItem } from "./BaseGoogleTrendsItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseKeywordDataGoogleTrendsItem, IBaseKeywordDataGoogleTrendsItem } from "./BaseKeywordDataGoogleTrendsItem";
+
 
 export interface IKeywordsDataGoogleTrendsExploreTaskGetResultInfo   {
         
@@ -31,7 +31,7 @@ example:
         items_count?: number | undefined
         
         /** items on the Google Trends page */
-        items?: BaseGoogleTrendsItem[] | undefined
+        items?: BaseKeywordDataGoogleTrendsItem[] | undefined
 
     [key: string]: any;
 
@@ -75,7 +75,7 @@ example:
     
     /** items on the Google Trends page */
 
-    items?: BaseGoogleTrendsItem[] | undefined;
+    items?: BaseKeywordDataGoogleTrendsItem[] | undefined;
 
     [key: string]: any;
 
@@ -107,7 +107,7 @@ example:
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleTrendsItem.fromJS(item));
+                    this.items.push(BaseKeywordDataGoogleTrendsItem.fromJS(item));
                 }
             }
         }

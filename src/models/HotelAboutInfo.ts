@@ -1,7 +1,7 @@
-import { Info, IInfo } from "./Info";
+import { TimeInfo, ITimeInfo } from "./TimeInfo";
 import { HotelAmenityInfo, IHotelAmenityInfo } from "./HotelAmenityInfo";
 import { HotelAmenityItemInfo, IHotelAmenityItemInfo } from "./HotelAmenityItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelAboutInfo   {
         
@@ -15,11 +15,11 @@ details about the hotel provided in addition to the description */
         
         /** hotel check-in time
 check-in time indicated in the hotel listing */
-        check_in_time?: Info | undefined
+        check_in_time?: TimeInfo | undefined
         
         /** hotel check-out time
 check-out time indicated in the hotel listing */
-        check_out_time?: Info | undefined
+        check_out_time?: TimeInfo | undefined
         
         /** full address of the hotel
 address of the hotel indicated in the standardised format */
@@ -60,12 +60,12 @@ details about the hotel provided in addition to the description */
     /** hotel check-in time
 check-in time indicated in the hotel listing */
 
-    check_in_time?: Info | undefined;
+    check_in_time?: TimeInfo | undefined;
     
     /** hotel check-out time
 check-out time indicated in the hotel listing */
 
-    check_out_time?: Info | undefined;
+    check_out_time?: TimeInfo | undefined;
     
     /** full address of the hotel
 address of the hotel indicated in the standardised format */
@@ -114,8 +114,8 @@ information about hotel amenities labelled as “popular” */
             }
             this.description = data["description"];
             this.sub_descriptions = data["sub_descriptions"];
-            this.check_in_time = data["check_in_time"] ? Info.fromJS(data["check_in_time"]) : <any>undefined;
-            this.check_out_time = data["check_out_time"] ? Info.fromJS(data["check_out_time"]) : <any>undefined;
+            this.check_in_time = data["check_in_time"] ? TimeInfo.fromJS(data["check_in_time"]) : <any>undefined;
+            this.check_out_time = data["check_out_time"] ? TimeInfo.fromJS(data["check_out_time"]) : <any>undefined;
             this.full_address = data["full_address"];
             this.domain = data["domain"];
             this.url = data["url"];
@@ -150,8 +150,8 @@ information about hotel amenities labelled as “popular” */
         
         data["description"] = this.description;
         data["sub_descriptions"] = this.sub_descriptions;
-        data["check_in_time"] = this.check_in_time ? Info.fromJS(this.check_in_time)?.toJSON() : <any>undefined;
-        data["check_out_time"] = this.check_out_time ? Info.fromJS(this.check_out_time)?.toJSON() : <any>undefined;
+        data["check_in_time"] = this.check_in_time ? TimeInfo.fromJS(this.check_in_time)?.toJSON() : <any>undefined;
+        data["check_out_time"] = this.check_out_time ? TimeInfo.fromJS(this.check_out_time)?.toJSON() : <any>undefined;
         data["full_address"] = this.full_address;
         data["domain"] = this.domain;
         data["url"] = this.url;

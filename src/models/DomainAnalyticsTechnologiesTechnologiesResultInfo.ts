@@ -1,5 +1,5 @@
 import { Groups, IGroups } from "./Groups";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsTechnologiesTechnologiesResultInfo   {
         

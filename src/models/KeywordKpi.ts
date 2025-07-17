@@ -1,5 +1,5 @@
 import { KeywordKpiInfo, IKeywordKpiInfo } from "./KeywordKpiInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordKpi   {
         

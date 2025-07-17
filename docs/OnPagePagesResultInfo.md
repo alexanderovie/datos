@@ -10,4 +10,4 @@
 **current_offset** | **number** |  |[optional]|
 **total_items_count** | **number** | total number of relevant items in the database |[optional]|
 **items_count** | **number** | number of items in the results array |[optional]|
-**items** | **BaseOnPageResourceItemInfo[]** | items array |[optional]|
+**items** | **BaseOnPageResourceItem[]** | items array |[optional]|

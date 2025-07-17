@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleMapsTasksFixedResultInfo   {
         
         /** task identifier of the completed task

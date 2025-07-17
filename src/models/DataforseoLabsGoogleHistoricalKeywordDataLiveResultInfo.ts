@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleHistoricalKeywordDataLiveItem, IDataforseoLabsGoogleHistoricalKeywordDataLiveItem } from "./DataforseoLabsGoogleHistoricalKeywordDataLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveResultInfo   {
         

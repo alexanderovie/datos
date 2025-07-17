@@ -1,6 +1,6 @@
 import { DataforseoLabsBingPageIntersectionLiveTaskInfo, IDataforseoLabsBingPageIntersectionLiveTaskInfo } from "./DataforseoLabsBingPageIntersectionLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingPageIntersectionLiveResponseInfo  extends IBaseResponseInfo    {
         

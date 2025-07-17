@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleSearchIntentLiveItem, IDataforseoLabsGoogleSearchIntentLiveItem } from "./DataforseoLabsGoogleSearchIntentLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
         

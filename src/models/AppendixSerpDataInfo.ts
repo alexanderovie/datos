@@ -1,6 +1,6 @@
 import { AppendixFunctionTypeInfo, IAppendixFunctionTypeInfo } from "./AppendixFunctionTypeInfo";
 import { AppendixJobsSerpLimitsRatesDataInfo, IAppendixJobsSerpLimitsRatesDataInfo } from "./AppendixJobsSerpLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixSerpDataInfo   {
         

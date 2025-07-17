@@ -1,6 +1,6 @@
 import { SerpBingOrganicLiveAdvancedTaskInfo, ISerpBingOrganicLiveAdvancedTaskInfo } from "./SerpBingOrganicLiveAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBingOrganicLiveAdvancedResponseInfo  extends IBaseResponseInfo    {
         

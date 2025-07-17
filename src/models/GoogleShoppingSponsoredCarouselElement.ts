@@ -1,6 +1,7 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
-import { ApiException, throwException } from "./ApiException"
+import { SpecialOfferInfo, ISpecialOfferInfo } from "./SpecialOfferInfo";
+
 
 export interface IGoogleShoppingSponsoredCarouselElement   {
         
@@ -45,6 +46,10 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
         /** delivery information
 delivery information including free and fast delivery date ranges */
         delivery_info?: DeliveryInfo | undefined
+        
+        /** special offer from the seller
+information on the special offer from the seller, including discount and coupon info */
+        special_offer_info?: SpecialOfferInfo | undefined
 
     [key: string]: any;
 
@@ -104,6 +109,11 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 delivery information including free and fast delivery date ranges */
 
     delivery_info?: DeliveryInfo | undefined;
+    
+    /** special offer from the seller
+information on the special offer from the seller, including discount and coupon info */
+
+    special_offer_info?: SpecialOfferInfo | undefined;
 
     [key: string]: any;
 
@@ -136,6 +146,7 @@ delivery information including free and fast delivery date ranges */
             this.product_images = data["product_images"];
             this.shop_ad_aclk = data["shop_ad_aclk"];
             this.delivery_info = data["delivery_info"] ? DeliveryInfo.fromJS(data["delivery_info"]) : <any>undefined;
+            this.special_offer_info = data["special_offer_info"] ? SpecialOfferInfo.fromJS(data["special_offer_info"]) : <any>undefined;
         }
     }
 
@@ -164,6 +175,7 @@ delivery information including free and fast delivery date ranges */
         data["product_images"] = this.product_images;
         data["shop_ad_aclk"] = this.shop_ad_aclk;
         data["delivery_info"] = this.delivery_info ? DeliveryInfo.fromJS(this.delivery_info)?.toJSON() : <any>undefined;
+        data["special_offer_info"] = this.special_offer_info ? SpecialOfferInfo.fromJS(this.special_offer_info)?.toJSON() : <any>undefined;
         return data;
     }
 }

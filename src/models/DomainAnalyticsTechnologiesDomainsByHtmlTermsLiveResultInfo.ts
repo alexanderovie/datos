@@ -1,5 +1,5 @@
 import { DomainAnalyticsTechnologiesDomainsByLiveItem, IDomainAnalyticsTechnologiesDomainsByLiveItem } from "./DomainAnalyticsTechnologiesDomainsByLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo   {
         

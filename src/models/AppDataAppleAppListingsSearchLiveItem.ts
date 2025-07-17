@@ -1,5 +1,5 @@
-import { AppDataAppStoreInfoOrganicSerpElementItem, IAppDataAppStoreInfoOrganicSerpElementItem } from "./AppDataAppStoreInfoOrganicSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AppStoreInfoOrganic, IAppStoreInfoOrganic } from "./AppStoreInfoOrganic";
+
 
 export interface IAppDataAppleAppListingsSearchLiveItem   {
         
@@ -26,7 +26,7 @@ example:
         time_update?: string | undefined
         
         /** detailed information about the app */
-        item?: AppDataAppStoreInfoOrganicSerpElementItem | undefined
+        item?: AppStoreInfoOrganic | undefined
 
     [key: string]: any;
 
@@ -64,7 +64,7 @@ example:
     
     /** detailed information about the app */
 
-    item?: AppDataAppStoreInfoOrganicSerpElementItem | undefined;
+    item?: AppStoreInfoOrganic | undefined;
 
     [key: string]: any;
 
@@ -92,7 +92,7 @@ example:
             this.language_code = data["language_code"];
             this.check_url = data["check_url"];
             this.time_update = data["time_update"];
-            this.item = data["item"] ? AppDataAppStoreInfoOrganicSerpElementItem.fromJS(data["item"]) : <any>undefined;
+            this.item = data["item"] ? AppStoreInfoOrganic.fromJS(data["item"]) : <any>undefined;
         }
     }
 
@@ -116,7 +116,7 @@ example:
         data["language_code"] = this.language_code;
         data["check_url"] = this.check_url;
         data["time_update"] = this.time_update;
-        data["item"] = this.item ? AppDataAppStoreInfoOrganicSerpElementItem.fromJS(this.item)?.toJSON() : <any>undefined;
+        data["item"] = this.item ? AppStoreInfoOrganic.fromJS(this.item)?.toJSON() : <any>undefined;
         return data;
     }
 }

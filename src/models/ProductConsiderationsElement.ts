@@ -1,5 +1,5 @@
-import { ProductConsiderationsExpandedElement, IProductConsiderationsExpandedElement } from "./ProductConsiderationsExpandedElement";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiProductConsiderationExpandedElementItem, IBaseSerpApiProductConsiderationExpandedElementItem } from "./BaseSerpApiProductConsiderationExpandedElementItem";
+
 
 export interface IProductConsiderationsElement   {
         
@@ -14,7 +14,7 @@ the category is indicated just above the title fo the consideration element */
         consideration_category?: string | undefined
         
         /** expanded element */
-        expanded_element?: ProductConsiderationsExpandedElement | undefined
+        expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined
 
     [key: string]: any;
 
@@ -37,7 +37,7 @@ the category is indicated just above the title fo the consideration element */
     
     /** expanded element */
 
-    expanded_element?: ProductConsiderationsExpandedElement | undefined;
+    expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -62,7 +62,12 @@ the category is indicated just above the title fo the consideration element */
             this.type = data["type"];
             this.title = data["title"];
             this.consideration_category = data["consideration_category"];
-            this.expanded_element = data["expanded_element"] ? ProductConsiderationsExpandedElement.fromJS(data["expanded_element"]) : <any>undefined;
+            if (Array.isArray(data["expanded_element"])) {
+                this.expanded_element = [];
+                for (let item of data["expanded_element"]) {
+                    this.expanded_element.push(BaseSerpApiProductConsiderationExpandedElementItem.fromJS(item));
+                }
+            }
         }
     }
 
@@ -83,7 +88,15 @@ the category is indicated just above the title fo the consideration element */
         data["type"] = this.type;
         data["title"] = this.title;
         data["consideration_category"] = this.consideration_category;
-        data["expanded_element"] = this.expanded_element ? ProductConsiderationsExpandedElement.fromJS(this.expanded_element)?.toJSON() : <any>undefined;
+        data["expanded_element"] = null;
+        if (Array.isArray(this.expanded_element)) {
+            data["expanded_element"] = [];
+            for (let item of this.expanded_element) {
+                if (item && typeof item.toJSON === "function") {
+                    data["expanded_element"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+
 
 export interface ISerpBingOrganicTaskGetAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
         items_count?: number | undefined
         
         /** contains results featured in the ‘hotels_pack’ element of SERP */
-        items?: BaseSerpElementItem[] | undefined
+        items?: BaseSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
     
     /** contains results featured in the ‘hotels_pack’ element of SERP */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: BaseSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiElementItem.fromJS(item));
                 }
             }
         }

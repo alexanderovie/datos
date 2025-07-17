@@ -1,6 +1,6 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
-import { BaseDataforseoLabsSerpElementItem, IBaseDataforseoLabsSerpElementItem } from "./BaseDataforseoLabsSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } from "./BaseDataforseoLabsApiElementItem";
+
 
 export interface IDataforseoLabsPageIntersectionLiveItem   {
         
@@ -13,7 +13,7 @@ export interface IDataforseoLabsPageIntersectionLiveItem   {
         /** contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
 depending on the number of specified URLs, it can contain from 1 to 20 arrays named respectively */
-        intersection_result?: { [key: string]: BaseDataforseoLabsSerpElementItem; } | undefined
+        intersection_result?: { [key: string]: BaseDataforseoLabsApiElementItem; } | undefined
 
     [key: string]: any;
 
@@ -33,7 +33,7 @@ export class DataforseoLabsPageIntersectionLiveItem  implements IDataforseoLabsP
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
 depending on the number of specified URLs, it can contain from 1 to 20 arrays named respectively */
 
-    intersection_result?: { [key: string]: BaseDataforseoLabsSerpElementItem; } | undefined;
+    intersection_result?: { [key: string]: BaseDataforseoLabsApiElementItem; } | undefined;
 
     [key: string]: any;
 

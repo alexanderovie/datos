@@ -4,7 +4,6 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**asynchronous_ai_overview** | **boolean** | indicates whether the element is loaded asynchronically<br>if true, the ai_overview element is loaded asynchronically;<br>if false, the ai_overview element is loaded from cache; |[optional]|
-**items** | **AiOverviewElement[]** | additional items present in the element<br>if there are none, equals null |[optional]|
-**references** | **AiOverviewReference[]** | additional references relevant to the item<br>includes references to webpages that may have been used to generate the ai_overview |[optional]|
-**rectangle** | **Rectangle** | rectangle parameters<br>contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP<br>equals null if calculate_rectangles in the POST request is not set to true |[optional]|
+**asynchronous_ai_overview** | **boolean** | indicates whether the element is loaded asynchronically<br>if true, the ai_overview element is loaded asynchronically;<br>if false, the ai_overview element is loaded from cache |[optional]|
+**items** | **BaseSerpApiKnowledgeGraphAiOverviewElementItem[]** | contains arrays of specific images |[optional]|
+**references** | **AiAiOverviewReferenceInfo[]** | references relevant to the element<br>includes references to webpages that were used to generate the ai_overview_element |[optional]|

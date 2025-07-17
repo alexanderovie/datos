@@ -1,5 +1,5 @@
 import { FaqBoxElement, IFaqBoxElement } from "./FaqBoxElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IFaqBox   {
         

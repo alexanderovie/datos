@@ -1,6 +1,6 @@
 import { BusinessDataTripadvisorSearchTaskGetTaskInfo, IBusinessDataTripadvisorSearchTaskGetTaskInfo } from "./BusinessDataTripadvisorSearchTaskGetTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataTripadvisorSearchTaskGetResponseInfo  extends IBaseResponseInfo    {
         

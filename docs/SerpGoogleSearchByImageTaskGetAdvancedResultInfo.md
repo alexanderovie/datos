@@ -17,4 +17,4 @@
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP.<br>possible item types:<br>organic,<br>images |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseSerpElementItem[]** | items featured in the faq_box |[optional]|
+**items** | **BaseSerpApiGoogleSearchByImagesElementItem[]** | items featured in the faq_box |[optional]|

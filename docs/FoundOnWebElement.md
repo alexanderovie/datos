@@ -7,4 +7,4 @@
 **type** | **string** | type of element |[optional]|
 **title** | **string** | title of a given link element |[optional]|
 **subtitle** | **string** | subtitle of the element |[optional]|
-**image** | **ImagesElement** | image of the element |[optional]|
+**image** | **AiModeImagesElement** | image of the element |[optional]|

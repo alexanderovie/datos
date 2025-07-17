@@ -5,7 +5,7 @@ import { AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo, IAppendixDataf
 import { AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo, IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo } from "./AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo";
 import { AppendixNaverKeywordsDataDataInfo, IAppendixNaverKeywordsDataDataInfo } from "./AppendixNaverKeywordsDataDataInfo";
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixKeywordsDataDataInfo   {
         

@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleFinanceTickerSearchSerpElementItem, IBaseGoogleFinanceTickerSearchSerpElementItem } from "./BaseGoogleFinanceTickerSearchSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleFinanceTickerSearchElementItem, IBaseSerpApiGoogleFinanceTickerSearchElementItem } from "./BaseSerpApiGoogleFinanceTickerSearchElementItem";
+
 
 export interface ISerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo   {
         
@@ -53,7 +53,7 @@ possible item types: google_finance_market_index, google_finance_asset_pair, goo
         /** items of search results found in SERP
 array of items containing market indexes data;
 possible type of items: google_finance_market_index, google_finance_asset_pair, google_finance_market_instrument */
-        items?: BaseGoogleFinanceTickerSearchSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleFinanceTickerSearchElementItem[] | undefined
 
     [key: string]: any;
 
@@ -122,7 +122,7 @@ possible item types: google_finance_market_index, google_finance_asset_pair, goo
 array of items containing market indexes data;
 possible type of items: google_finance_market_index, google_finance_asset_pair, google_finance_market_instrument */
 
-    items?: BaseGoogleFinanceTickerSearchSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleFinanceTickerSearchElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -159,7 +159,7 @@ possible type of items: google_finance_market_index, google_finance_asset_pair, 
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleFinanceTickerSearchSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleFinanceTickerSearchElementItem.fromJS(item));
                 }
             }
         }

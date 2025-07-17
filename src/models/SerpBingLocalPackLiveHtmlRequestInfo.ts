@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpBingLocalPackLiveHtmlRequestInfo   {
         
         /** direct URL of the search query

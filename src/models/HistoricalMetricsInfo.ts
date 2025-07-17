@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IHistoricalMetricsInfo   {
         
         /** year for which the data is provided */

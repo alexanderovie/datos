@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleBulkTrafficEstimationLiveItem, IDataforseoLabsGoogleBulkTrafficEstimationLiveItem } from "./DataforseoLabsGoogleBulkTrafficEstimationLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo   {
         

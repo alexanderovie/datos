@@ -74,8 +74,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantIdListRequestInfo();
-   task.datetime_from = "2025-02-28 11:01:45 +00:00";
-   task.datetime_to = "2025-04-30 11:01:45 +00:00";
+   task.datetime_from = "2025-04-17 06:10:12 +00:00";
+   task.datetime_to = "2025-06-17 06:10:12 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -594,7 +594,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "bd06b326-8968-4d9f-9e21-da9a45d0ea64";
+ let id = "498cfea9-3737-4402-b7f9-f26ac8e0f0e9";
  let response = await api.googleProductsTaskGetHtml(id);
 ```
 
@@ -824,7 +824,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "3cfcc7d0-42b1-40c2-95bc-acf765dfaaf2";
+ let id = "789e336d-df4d-4248-aba1-1bd133da39d1";
  let response = await api.googleSellersTaskGetHtml(id);
 ```
 
@@ -1054,7 +1054,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "4c364fa9-7142-4b55-9ddc-a3697c0b3f58";
+ let id = "cdbe18ce-3796-4ece-8972-31810c6d2538";
  let response = await api.googleProductSpecTaskGetHtml(id);
 ```
 
@@ -1683,7 +1683,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "b25b2e54-c0d7-46bc-9756-4da16315c690";
+ let id = "1509a15a-bb8d-49fb-8942-142ce925c5c8";
  let response = await api.amazonProductsTaskGetHtml(id);
 ```
 
@@ -1913,7 +1913,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "3ea483df-14f6-4962-806a-ca0cb905fce8";
+ let id = "a46a0fbe-8d0c-4221-94e5-a318d43c891d";
  let response = await api.amazonAsinTaskGetHtml(id);
 ```
 
@@ -1973,7 +1973,7 @@ This endpoint does not need any parameter.
  let task = new MerchantAmazonSellersTaskPostRequestInfo();
    task.asin = "B085RFFC9Q";
    task.location_code = 2840;
-   task.language_code = "en";
+   task.language_code = "en_US";
  let response = await api.amazonSellersTaskPost([task]);
 ```
 
@@ -2143,7 +2143,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "ba31e277-244c-4584-bb69-38222eda5f86";
+ let id = "8f8c42b1-4fd3-4512-bf64-81b6bcb8df88";
  let response = await api.amazonSellersTaskGetHtml(id);
 ```
 
@@ -2373,7 +2373,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "d94388d4-1bd6-455a-97a3-e1336640234a";
+ let id = "8a79578b-24ca-47c4-a60c-795d4a8f1614";
  let response = await api.amazonReviewsTaskGetHtml(id);
 ```
 

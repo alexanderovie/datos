@@ -1,5 +1,5 @@
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+
 
 export interface ILocalServicesElement   {
         
@@ -20,7 +20,7 @@ export interface ILocalServicesElement   {
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** URL of the image featured in the element */
         profile_image_url?: string | undefined
@@ -54,7 +54,7 @@ export class LocalServicesElement  implements ILocalServicesElement {
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** URL of the image featured in the element */
 
@@ -85,7 +85,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.url = data["url"];
             this.domain = data["domain"];
             this.description = data["description"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.profile_image_url = data["profile_image_url"];
         }
     }
@@ -109,7 +109,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["url"] = this.url;
         data["domain"] = this.domain;
         data["description"] = this.description;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["profile_image_url"] = this.profile_image_url;
         return data;
     }

@@ -1,5 +1,5 @@
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+
 
 export interface IRecipesElement   {
         
@@ -27,7 +27,7 @@ indicates the source of information included in the top_stories_element */
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -67,7 +67,7 @@ indicates the source of information included in the top_stories_element */
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 
@@ -96,7 +96,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.source = data["source"];
             this.description = data["description"];
             this.time = data["time"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -121,7 +121,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["source"] = this.source;
         data["description"] = this.description;
         data["time"] = this.time;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

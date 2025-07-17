@@ -1,6 +1,6 @@
 import { BusinessDataSocialMediaRedditLiveTaskInfo, IBusinessDataSocialMediaRedditLiveTaskInfo } from "./BusinessDataSocialMediaRedditLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataSocialMediaRedditLiveResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,5 +1,5 @@
 import { SerpAiSummaryItem, ISerpAiSummaryItem } from "./SerpAiSummaryItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpAiSummaryResultInfo   {
         

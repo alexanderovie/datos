@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IMerchantGoogleProductSpecTasksReadyResultInfo   {
         
         /** task identifier of the completed task

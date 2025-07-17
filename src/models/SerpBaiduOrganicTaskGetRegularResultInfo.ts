@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpElementItem, IBaseSerpElementItem } from "./BaseSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+
 
 export interface ISerpBaiduOrganicTaskGetRegularResultInfo   {
         
@@ -52,7 +52,7 @@ organic, paid */
         items_count?: number | undefined
         
         /** items in SERP */
-        items?: BaseSerpElementItem[] | undefined
+        items?: BaseSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ organic, paid */
     
     /** items in SERP */
 
-    items?: BaseSerpElementItem[] | undefined;
+    items?: BaseSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ organic, paid */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiElementItem.fromJS(item));
                 }
             }
         }

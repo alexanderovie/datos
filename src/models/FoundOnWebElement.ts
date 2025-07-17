@@ -1,5 +1,5 @@
-import { ImagesElement, IImagesElement } from "./ImagesElement";
-import { ApiException, throwException } from "./ApiException"
+import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+
 
 export interface IFoundOnWebElement   {
         
@@ -13,7 +13,7 @@ export interface IFoundOnWebElement   {
         subtitle?: string | undefined
         
         /** image of the element */
-        image?: ImagesElement | undefined
+        image?: AiModeImagesElement | undefined
 
     [key: string]: any;
 
@@ -35,7 +35,7 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
     
     /** image of the element */
 
-    image?: ImagesElement | undefined;
+    image?: AiModeImagesElement | undefined;
 
     [key: string]: any;
 
@@ -60,7 +60,7 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
             this.type = data["type"];
             this.title = data["title"];
             this.subtitle = data["subtitle"];
-            this.image = data["image"] ? ImagesElement.fromJS(data["image"]) : <any>undefined;
+            this.image = data["image"] ? AiModeImagesElement.fromJS(data["image"]) : <any>undefined;
         }
     }
 
@@ -81,7 +81,7 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
         data["type"] = this.type;
         data["title"] = this.title;
         data["subtitle"] = this.subtitle;
-        data["image"] = this.image ? ImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
+        data["image"] = this.image ? AiModeImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
         return data;
     }
 }

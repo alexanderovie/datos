@@ -1,6 +1,6 @@
 import { SerpSeznamLanguagesTaskInfo, ISerpSeznamLanguagesTaskInfo } from "./SerpSeznamLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpSeznamLanguagesResponseInfo  extends IBaseResponseInfo    {
         

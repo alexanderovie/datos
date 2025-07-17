@@ -103,8 +103,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new KeywordsDataIdListRequestInfo();
-   task.datetime_from = "2025-02-28 10:59:09 +00:00";
-   task.datetime_to = "2025-04-30 10:59:09 +00:00";
+   task.datetime_from = "2025-04-17 06:08:20 +00:00";
+   task.datetime_to = "2025-06-17 06:08:20 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -568,7 +568,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "d834a40e-f40a-4ed1-a6a4-c2b2baf4a2a0";
+ let id = "cd8d055b-efc0-488d-a90a-7422f6f03521";
  let response = await api.googleAdsSearchVolumeTaskGet(id);
 ```
 
@@ -633,7 +633,7 @@ This endpoint does not need any parameter.
    ];
    task.location_code = 2840;
    task.search_partners = true;
-   task.date_from = "2025-02-28";
+   task.date_from = "2025-04-17";
  let response = await api.googleAdsSearchVolumeLive([task]);
 ```
 
@@ -805,7 +805,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "bad8ee00-da51-45c6-8036-a3f13b92e24d";
+ let id = "808ccc62-77f2-413d-985a-62c975562c92";
  let response = await api.googleAdsKeywordsForSiteTaskGet(id);
 ```
 
@@ -1039,7 +1039,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "d60381bc-f1df-403b-aaa0-75345b9f4aba";
+ let id = "fa3783b5-c9c6-4de3-9288-4898ae9490e4";
  let response = await api.googleAdsKeywordsForKeywordsTaskGet(id);
 ```
 
@@ -1278,7 +1278,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "18f982f3-f063-43d6-a864-2d7947178658";
+ let id = "2fefd35b-ddcd-425a-88d2-523fd333c10b";
  let response = await api.googleAdsAdTrafficByKeywordsTaskGet(id);
 ```
 
@@ -1631,8 +1631,8 @@ This endpoint does not need any parameter.
    ];
    task.type = "youtube";
    task.category_code = 3;
-   task.date_from = "2025-02-28";
-   task.date_to = "2025-04-30";
+   task.date_from = "2025-04-17";
+   task.date_to = "2025-06-17";
  let response = await api.googleTrendsExploreTaskPost([task]);
 ```
 
@@ -1745,7 +1745,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "8ce93c6b-28bb-4622-b734-0ba1b00a03b5";
+ let id = "41f93df3-f107-4caa-a683-d907feaa7db3";
  let response = await api.googleTrendsExploreTaskGet(id);
 ```
 
@@ -1810,8 +1810,8 @@ This endpoint does not need any parameter.
    task.location_name = "United States";
    task.type = "youtube";
    task.category_code = 3;
-   task.date_from = "2025-02-28";
-   task.date_to = "2025-04-30";
+   task.date_from = "2025-04-17";
+   task.date_to = "2025-06-17";
  let response = await api.googleTrendsExploreLive([task]);
 ```
 
@@ -2050,8 +2050,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-02-28";
-   task.date_to = "2025-04-30";
+   task.date_from = "2025-04-17";
+   task.date_to = "2025-06-17";
  let response = await api.dataforseoTrendsSubregionInterestsLive([task]);
 ```
 
@@ -2115,8 +2115,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-02-28";
-   task.date_to = "2025-04-30";
+   task.date_from = "2025-04-17";
+   task.date_to = "2025-06-17";
  let response = await api.dataforseoTrendsDemographyLive([task]);
 ```
 
@@ -2180,8 +2180,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-02-28";
-   task.date_to = "2025-04-30";
+   task.date_from = "2025-04-17";
+   task.date_to = "2025-06-17";
  let response = await api.dataforseoTrendsMergedDataLive([task]);
 ```
 
@@ -2470,7 +2470,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "b688bf32-eb78-4ab8-aa6b-5646c1117386";
+ let id = "90124676-c060-4ece-af1c-e4610493f5d2";
  let response = await api.bingSearchVolumeTaskGet(id);
 ```
 
@@ -2834,7 +2834,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "7ee481a1-3df7-4dfe-a2d8-675699038c90";
+ let id = "678a7766-a39c-4cb8-bdc6-3b87cbb82b3d";
  let response = await api.bingAudienceEstimationTaskGet(id);
 ```
 
@@ -3082,7 +3082,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "83eed903-7f9f-44fe-816f-d49211da0739";
+ let id = "c543528c-53d4-4694-ba0d-1a0b3234bac5";
  let response = await api.bingKeywordsForSiteTaskGet(id);
 ```
 
@@ -3319,7 +3319,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "a544caaa-b3e3-4c34-8f44-3a0bf6d82f8d";
+ let id = "590a0c65-6eb0-40cb-8db3-48c9ea64028b";
  let response = await api.bingKeywordsForKeywordsTaskGet(id);
 ```
 
@@ -3616,7 +3616,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "3a1ec5f1-5783-4436-8b20-045bf9e094d5";
+ let id = "a4da66d6-e62b-4bde-b11b-5c2b6775f89a";
  let response = await api.bingKeywordPerformanceTaskGet(id);
 ```
 
@@ -3911,7 +3911,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "2b125792-bac0-4e9c-9a4c-cf7a20e887a6";
+ let id = "b09a55a7-59b3-4355-a5fd-2800894e9480";
  let response = await api.bingSearchVolumeHistoryTaskGet(id);
 ```
 

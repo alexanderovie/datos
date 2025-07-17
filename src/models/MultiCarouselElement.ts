@@ -1,5 +1,5 @@
-import { CarouselElement, ICarouselElement } from "./CarouselElement";
-import { ApiException, throwException } from "./ApiException"
+import { SerpApiCarouselElement, ISerpApiCarouselElement } from "./SerpApiCarouselElement";
+
 
 export interface IMultiCarouselElement   {
         
@@ -10,7 +10,7 @@ export interface IMultiCarouselElement   {
         title?: string | undefined
         
         /** multi_carousel_snippet results */
-        multi_carousel_snippets?: CarouselElement[] | undefined
+        multi_carousel_snippets?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
 
@@ -28,7 +28,7 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
     
     /** multi_carousel_snippet results */
 
-    multi_carousel_snippets?: CarouselElement[] | undefined;
+    multi_carousel_snippets?: SerpApiCarouselElement[] | undefined;
 
     [key: string]: any;
 
@@ -55,7 +55,7 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
             if (Array.isArray(data["multi_carousel_snippets"])) {
                 this.multi_carousel_snippets = [];
                 for (let item of data["multi_carousel_snippets"]) {
-                    this.multi_carousel_snippets.push(CarouselElement.fromJS(item));
+                    this.multi_carousel_snippets.push(SerpApiCarouselElement.fromJS(item));
                 }
             }
         }

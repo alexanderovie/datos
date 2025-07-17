@@ -1,5 +1,5 @@
-import { MonthlySearches, IMonthlySearches } from "./MonthlySearches";
-import { ApiException, throwException } from "./ApiException"
+import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
+
 
 export interface IKeywordsDataClickstreamDataSearchVolumeLiveItem   {
         
@@ -11,7 +11,7 @@ export interface IKeywordsDataClickstreamDataSearchVolumeLiveItem   {
         
         /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */
-        monthly_searches?: MonthlySearches[] | undefined
+        monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
 
@@ -30,7 +30,7 @@ export class KeywordsDataClickstreamDataSearchVolumeLiveItem  implements IKeywor
     /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */
 
-    monthly_searches?: MonthlySearches[] | undefined;
+    monthly_searches?: MonthlySearchesInfo[] | undefined;
 
     [key: string]: any;
 
@@ -57,7 +57,7 @@ array of objects with search volume rates in a certain month of a year */
             if (Array.isArray(data["monthly_searches"])) {
                 this.monthly_searches = [];
                 for (let item of data["monthly_searches"]) {
-                    this.monthly_searches.push(MonthlySearches.fromJS(item));
+                    this.monthly_searches.push(MonthlySearchesInfo.fromJS(item));
                 }
             }
         }

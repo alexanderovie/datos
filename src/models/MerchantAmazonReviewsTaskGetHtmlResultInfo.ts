@@ -1,5 +1,5 @@
 import { SerpHtmlItemInfo, ISerpHtmlItemInfo } from "./SerpHtmlItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IMerchantAmazonReviewsTaskGetHtmlResultInfo   {
         

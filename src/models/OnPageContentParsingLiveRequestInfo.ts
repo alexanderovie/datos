@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageContentParsingLiveRequestInfo   {
         
         /** URL of the content to parse
@@ -120,6 +118,12 @@ you can choose a location of the proxy pool that will be used to obtain the requ
 the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
 possible values: us, de */
         ip_pool_for_scan?: string | undefined
+        
+        /** return page content as markdown
+optional field
+if set to true, the markdown-formatted content of the page will be returned in the page_as_markdown field of the response;
+default value: false */
+        markdown_view?: boolean | undefined
 
     [key: string]: any;
 
@@ -259,6 +263,13 @@ the parameter can be used if page content is inaccessible in one of the location
 possible values: us, de */
 
     ip_pool_for_scan?: string | undefined;
+    
+    /** return page content as markdown
+optional field
+if set to true, the markdown-formatted content of the page will be returned in the page_as_markdown field of the response;
+default value: false */
+
+    markdown_view?: boolean | undefined;
 
     [key: string]: any;
 
@@ -294,6 +305,7 @@ possible values: us, de */
             this.enable_xhr = data["enable_xhr"];
             this.switch_pool = data["switch_pool"];
             this.ip_pool_for_scan = data["ip_pool_for_scan"];
+            this.markdown_view = data["markdown_view"];
         }
     }
 
@@ -325,6 +337,7 @@ possible values: us, de */
         data["enable_xhr"] = this.enable_xhr;
         data["switch_pool"] = this.switch_pool;
         data["ip_pool_for_scan"] = this.ip_pool_for_scan;
+        data["markdown_view"] = this.markdown_view;
         return data;
     }
 }

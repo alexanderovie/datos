@@ -1,7 +1,7 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseGoogleMapsSerpElementItem, IBaseGoogleMapsSerpElementItem } from "./BaseGoogleMapsSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleMapsElementItem, IBaseSerpApiGoogleMapsElementItem } from "./BaseSerpApiGoogleMapsElementItem";
+
 
 export interface ISerpGoogleMapsLiveAdvancedResultInfo   {
         
@@ -52,7 +52,7 @@ maps_search, maps_paid_item */
         items_count?: number | undefined
         
         /** items of the element */
-        items?: BaseGoogleMapsSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleMapsElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ maps_search, maps_paid_item */
     
     /** items of the element */
 
-    items?: BaseGoogleMapsSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleMapsElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ maps_search, maps_paid_item */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleMapsSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleMapsElementItem.fromJS(item));
                 }
             }
         }

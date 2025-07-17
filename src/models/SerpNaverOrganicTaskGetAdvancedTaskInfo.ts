@@ -1,6 +1,6 @@
 import { SerpNaverOrganicTaskGetAdvancedResultInfo, ISerpNaverOrganicTaskGetAdvancedResultInfo } from "./SerpNaverOrganicTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpNaverOrganicTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

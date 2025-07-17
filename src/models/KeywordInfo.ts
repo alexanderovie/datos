@@ -1,6 +1,6 @@
-import { MonthlySearches, IMonthlySearches } from "./MonthlySearches";
+import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
 import { SearchVolumeTrend, ISearchVolumeTrend } from "./SearchVolumeTrend";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordInfo   {
         
@@ -48,7 +48,7 @@ you can download the full list of possible categories */
         
         /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
-        monthly_searches?: MonthlySearches[] | undefined
+        monthly_searches?: MonthlySearchesInfo[] | undefined
         
         /** search volume trend changes
 represents search volume change in percent compared to the previous period */
@@ -114,7 +114,7 @@ you can download the full list of possible categories */
     /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
 
-    monthly_searches?: MonthlySearches[] | undefined;
+    monthly_searches?: MonthlySearchesInfo[] | undefined;
     
     /** search volume trend changes
 represents search volume change in percent compared to the previous period */
@@ -153,7 +153,7 @@ represents search volume change in percent compared to the previous period */
             if (Array.isArray(data["monthly_searches"])) {
                 this.monthly_searches = [];
                 for (let item of data["monthly_searches"]) {
-                    this.monthly_searches.push(MonthlySearches.fromJS(item));
+                    this.monthly_searches.push(MonthlySearchesInfo.fromJS(item));
                 }
             }
             this.search_volume_trend = data["search_volume_trend"] ? SearchVolumeTrend.fromJS(data["search_volume_trend"]) : <any>undefined;

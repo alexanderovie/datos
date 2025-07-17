@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo   {
         
         /** id of the target technology group

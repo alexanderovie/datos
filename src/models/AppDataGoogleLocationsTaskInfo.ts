@@ -1,6 +1,6 @@
 import { AppDataGoogleLocationsResultInfo, IAppDataGoogleLocationsResultInfo } from "./AppDataGoogleLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataGoogleLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         

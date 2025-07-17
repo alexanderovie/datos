@@ -1,6 +1,6 @@
 import { DataforseoLabsBingCompetitorsDomainLiveResultInfo, IDataforseoLabsBingCompetitorsDomainLiveResultInfo } from "./DataforseoLabsBingCompetitorsDomainLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingCompetitorsDomainLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,6 +1,6 @@
 import { OnPageLighthouseTaskPostTaskInfo, IOnPageLighthouseTaskPostTaskInfo } from "./OnPageLighthouseTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageLighthouseTaskPostResponseInfo  extends IBaseResponseInfo    {
         

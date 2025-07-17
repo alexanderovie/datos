@@ -1,6 +1,6 @@
 import { DataforseoLabsAppleAppCompetitorsLiveTaskInfo, IDataforseoLabsAppleAppCompetitorsLiveTaskInfo } from "./DataforseoLabsAppleAppCompetitorsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends IBaseResponseInfo    {
         

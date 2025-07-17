@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IEventDates   {
         
         /** date and time when the event starts

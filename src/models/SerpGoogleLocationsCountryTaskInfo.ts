@@ -1,6 +1,6 @@
 import { SerpGoogleLocationsCountryResultInfo, ISerpGoogleLocationsCountryResultInfo } from "./SerpGoogleLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         

@@ -1,6 +1,6 @@
-import { Facebook, IFacebook } from "./Facebook";
+import { SocialMetricsInfo, ISocialMetricsInfo } from "./SocialMetricsInfo";
 import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAnalysisContentInfo   {
         
@@ -33,7 +33,7 @@ indicates h-tag level from 1 (top) to 6 (bottom) */
         
         /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
-        social_metrics?: Facebook[] | undefined
+        social_metrics?: SocialMetricsInfo[] | undefined
         
         /** highlighted text from the snippet */
         highlighted_text?: string | undefined
@@ -128,7 +128,7 @@ indicates h-tag level from 1 (top) to 6 (bottom) */
     /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
 
-    social_metrics?: Facebook[] | undefined;
+    social_metrics?: SocialMetricsInfo[] | undefined;
     
     /** highlighted text from the snippet */
 
@@ -220,7 +220,7 @@ example:
             if (Array.isArray(data["social_metrics"])) {
                 this.social_metrics = [];
                 for (let item of data["social_metrics"]) {
-                    this.social_metrics.push(Facebook.fromJS(item));
+                    this.social_metrics.push(SocialMetricsInfo.fromJS(item));
                 }
             }
             this.highlighted_text = data["highlighted_text"];

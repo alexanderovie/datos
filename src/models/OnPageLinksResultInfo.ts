@@ -1,6 +1,6 @@
-import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
-import { BaseOnPageLinkItemInfo, IBaseOnPageLinkItemInfo } from "./BaseOnPageLinkItemInfo";
-import { ApiException, throwException } from "./ApiException"
+import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
+import { BaseOnPageLinkItem, IBaseOnPageLinkItem } from "./BaseOnPageLinkItem";
+
 
 export interface IOnPageLinksResultInfo   {
         
@@ -9,7 +9,7 @@ possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatus | undefined
+        crawl_status?: CrawlStatusInfo | undefined
         
         search_after_token?: string | undefined
         
@@ -22,7 +22,7 @@ possible values: in_progress, finished */
         items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageLinkItemInfo[] | undefined
+        items?: BaseOnPageLinkItem[] | undefined
 
     [key: string]: any;
 
@@ -37,7 +37,7 @@ possible values: in_progress, finished */
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatus | undefined;
+    crawl_status?: CrawlStatusInfo | undefined;
 
     search_after_token?: string | undefined;
 
@@ -53,7 +53,7 @@ possible values: in_progress, finished */
     
     /** items array */
 
-    items?: BaseOnPageLinkItemInfo[] | undefined;
+    items?: BaseOnPageLinkItem[] | undefined;
 
     [key: string]: any;
 
@@ -76,7 +76,7 @@ possible values: in_progress, finished */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
             this.search_after_token = data["search_after_token"];
             this.current_offset = data["current_offset"];
             this.total_items_count = data["total_items_count"];
@@ -84,7 +84,7 @@ possible values: in_progress, finished */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseOnPageLinkItemInfo.fromJS(item));
+                    this.items.push(BaseOnPageLinkItem.fromJS(item));
                 }
             }
         }
@@ -105,7 +105,7 @@ possible values: in_progress, finished */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
         data["search_after_token"] = this.search_after_token;
         data["current_offset"] = this.current_offset;
         data["total_items_count"] = this.total_items_count;

@@ -2,7 +2,7 @@ import { AppendixBusinessDataGoogleInfo, IAppendixBusinessDataGoogleInfo } from 
 import { AppendixBusinessDataDayLimitsRatesDataInfo, IAppendixBusinessDataDayLimitsRatesDataInfo } from "./AppendixBusinessDataDayLimitsRatesDataInfo";
 import { AppendixSocialMediaBusinessDataLimitsRatesDataInfo, IAppendixSocialMediaBusinessDataLimitsRatesDataInfo } from "./AppendixSocialMediaBusinessDataLimitsRatesDataInfo";
 import { AppendixBusinessListingsBusinessDataLimitsRatesDataInfo, IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo } from "./AppendixBusinessListingsBusinessDataLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixBusinessDataLimitsRatesDataInfo   {
         

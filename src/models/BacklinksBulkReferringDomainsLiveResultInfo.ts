@@ -1,5 +1,5 @@
 import { BacklinksBulkReferringDomainsLiveItem, IBacklinksBulkReferringDomainsLiveItem } from "./BacklinksBulkReferringDomainsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksBulkReferringDomainsLiveResultInfo   {
         

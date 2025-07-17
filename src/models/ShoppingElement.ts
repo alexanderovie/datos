@@ -1,6 +1,6 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+
 
 export interface IShoppingElement   {
         
@@ -35,7 +35,7 @@ URL of the page on the marketplace website where the product is hosted */
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -83,7 +83,7 @@ URL of the page on the marketplace website where the product is hosted */
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 
@@ -113,7 +113,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.marketplace = data["marketplace"];
             this.marketplace_url = data["marketplace_url"];
             this.url = data["url"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -139,7 +139,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["marketplace"] = this.marketplace;
         data["marketplace_url"] = this.marketplace_url;
         data["url"] = this.url;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

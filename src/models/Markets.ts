@@ -1,5 +1,5 @@
-import { BaseGoogleFinanceSerpElementItem, IBaseGoogleFinanceSerpElementItem } from "./BaseGoogleFinanceSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementItem } from "./BaseSerpApiGoogleFinanceElementItem";
+
 
 export interface IMarkets   {
         
@@ -8,7 +8,7 @@ possible values: US, Europe, Asia, Currencies, Crypto, Futures */
         market?: string | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseGoogleFinanceSerpElementItem[] | undefined
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -23,7 +23,7 @@ possible values: US, Europe, Asia, Currencies, Crypto, Futures */
     
     /** elements of search results found in SERP */
 
-    items?: BaseGoogleFinanceSerpElementItem[] | undefined;
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -49,7 +49,7 @@ possible values: US, Europe, Asia, Currencies, Crypto, Futures */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseGoogleFinanceSerpElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiGoogleFinanceElementItem.fromJS(item));
                 }
             }
         }

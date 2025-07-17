@@ -1,5 +1,5 @@
-import { BaseAmazonSerpElementItem, IBaseAmazonSerpElementItem } from "./BaseAmazonSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { AmazonInfo, IAmazonInfo } from "./AmazonInfo";
+
 
 export interface IAmazonRankedSerpElement   {
         
@@ -8,7 +8,7 @@ export interface IAmazonRankedSerpElement   {
         
         /** contains data on the SERP element
 the list of supported SERP elements can be found below */
-        serp_item?: BaseAmazonSerpElementItem | undefined
+        serp_item?: AmazonInfo | undefined
         
         /** direct URL to Amazon results
 you can use it to make sure that we provided accurate results */
@@ -48,7 +48,7 @@ export class AmazonRankedSerpElement  implements IAmazonRankedSerpElement {
     /** contains data on the SERP element
 the list of supported SERP elements can be found below */
 
-    serp_item?: BaseAmazonSerpElementItem | undefined;
+    serp_item?: AmazonInfo | undefined;
     
     /** direct URL to Amazon results
 you can use it to make sure that we provided accurate results */
@@ -101,7 +101,7 @@ example:
                     this[property] = data[property];
             }
             this.se_type = data["se_type"];
-            this.serp_item = data["serp_item"] ? BaseAmazonSerpElementItem.fromJS(data["serp_item"]) : <any>undefined;
+            this.serp_item = data["serp_item"] ? AmazonInfo.fromJS(data["serp_item"]) : <any>undefined;
             this.check_url = data["check_url"];
             this.serp_item_types = data["serp_item_types"];
             this.se_results_count = data["se_results_count"];
@@ -125,7 +125,7 @@ example:
         
         
         data["se_type"] = this.se_type;
-        data["serp_item"] = this.serp_item ? BaseAmazonSerpElementItem.fromJS(this.serp_item)?.toJSON() : <any>undefined;
+        data["serp_item"] = this.serp_item ? AmazonInfo.fromJS(this.serp_item)?.toJSON() : <any>undefined;
         data["check_url"] = this.check_url;
         data["serp_item_types"] = this.serp_item_types;
         data["se_results_count"] = this.se_results_count;

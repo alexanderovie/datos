@@ -1,6 +1,6 @@
 import { SerpGoogleFinanceMarketsTasksReadyResultInfo, ISerpGoogleFinanceMarketsTasksReadyResultInfo } from "./SerpGoogleFinanceMarketsTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleFinanceMarketsTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

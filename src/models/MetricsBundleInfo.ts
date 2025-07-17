@@ -1,14 +1,13 @@
-import { OrganicMetricsInfo, IOrganicMetricsInfo } from "./OrganicMetricsInfo";
-import { PaidMetricsInfo, IPaidMetricsInfo } from "./PaidMetricsInfo";
-import { ApiException, throwException } from "./ApiException"
+import { MetricsInfo, IMetricsInfo } from "./MetricsInfo";
+
 
 export interface IMetricsBundleInfo   {
         
         /** ranking and traffic data from organic search */
-        organic?: OrganicMetricsInfo | undefined
+        organic?: MetricsInfo | undefined
         
         /** ranking and traffic data from paid search */
-        paid?: PaidMetricsInfo | undefined
+        paid?: MetricsInfo | undefined
 
     [key: string]: any;
 
@@ -18,11 +17,11 @@ export class MetricsBundleInfo  implements IMetricsBundleInfo {
     
     /** ranking and traffic data from organic search */
 
-    organic?: OrganicMetricsInfo | undefined;
+    organic?: MetricsInfo | undefined;
     
     /** ranking and traffic data from paid search */
 
-    paid?: PaidMetricsInfo | undefined;
+    paid?: MetricsInfo | undefined;
 
     [key: string]: any;
 
@@ -44,8 +43,8 @@ export class MetricsBundleInfo  implements IMetricsBundleInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.organic = data["organic"] ? OrganicMetricsInfo.fromJS(data["organic"]) : <any>undefined;
-            this.paid = data["paid"] ? PaidMetricsInfo.fromJS(data["paid"]) : <any>undefined;
+            this.organic = data["organic"] ? MetricsInfo.fromJS(data["organic"]) : <any>undefined;
+            this.paid = data["paid"] ? MetricsInfo.fromJS(data["paid"]) : <any>undefined;
         }
     }
 
@@ -63,8 +62,8 @@ export class MetricsBundleInfo  implements IMetricsBundleInfo {
 
         
         
-        data["organic"] = this.organic ? OrganicMetricsInfo.fromJS(this.organic)?.toJSON() : <any>undefined;
-        data["paid"] = this.paid ? PaidMetricsInfo.fromJS(this.paid)?.toJSON() : <any>undefined;
+        data["organic"] = this.organic ? MetricsInfo.fromJS(this.organic)?.toJSON() : <any>undefined;
+        data["paid"] = this.paid ? MetricsInfo.fromJS(this.paid)?.toJSON() : <any>undefined;
         return data;
     }
 }

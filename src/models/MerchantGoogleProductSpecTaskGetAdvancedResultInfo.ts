@@ -1,5 +1,5 @@
-import { BaseMerchantSerpElementItem, IBaseMerchantSerpElementItem } from "./BaseMerchantSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { ShoppingSpecification, IShoppingSpecification } from "./ShoppingSpecification";
+
 
 export interface IMerchantGoogleProductSpecTaskGetAdvancedResultInfo   {
         
@@ -51,7 +51,7 @@ shopping_specification */
         
         /** items on the product specification page
 contains all product attributes and related data listed on the product specification page */
-        items?: BaseMerchantSerpElementItem[] | undefined
+        items?: ShoppingSpecification[] | undefined
 
     [key: string]: any;
 
@@ -121,7 +121,7 @@ shopping_specification */
     /** items on the product specification page
 contains all product attributes and related data listed on the product specification page */
 
-    items?: BaseMerchantSerpElementItem[] | undefined;
+    items?: ShoppingSpecification[] | undefined;
 
     [key: string]: any;
 
@@ -159,7 +159,7 @@ contains all product attributes and related data listed on the product specifica
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseMerchantSerpElementItem.fromJS(item));
+                    this.items.push(ShoppingSpecification.fromJS(item));
                 }
             }
         }

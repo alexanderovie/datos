@@ -1,5 +1,5 @@
 import { DataforseoLabsGoogleHistoricalSerpsLiveItem, IDataforseoLabsGoogleHistoricalSerpsLiveItem } from "./DataforseoLabsGoogleHistoricalSerpsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
         
@@ -22,8 +22,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains arrays of specific images */
         items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined
 
     [key: string]: any;
@@ -57,8 +56,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
     items_count?: number | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains arrays of specific images */
 
     items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined;
 

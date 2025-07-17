@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksBulkNewLostReferringDomainsLiveRequestInfo   {
         
         /** domains, subdomains or webpages to get  new & lost referring domains for

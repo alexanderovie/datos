@@ -1,5 +1,5 @@
 import { BacklinksDomainIntersectionLiveItem, IBacklinksDomainIntersectionLiveItem } from "./BacklinksDomainIntersectionLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksDomainIntersectionLiveResultInfo   {
         

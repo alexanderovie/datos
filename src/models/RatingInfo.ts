@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IRatingInfo   {
         
         /** the type of rating

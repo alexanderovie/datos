@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IKeywordKpiInfo   {
         
         /** represents the position of the relevant ad in SERP

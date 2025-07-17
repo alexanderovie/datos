@@ -1,5 +1,5 @@
-import { DataforseoLabsAppleAppCompetitorsLiveItem, IDataforseoLabsAppleAppCompetitorsLiveItem } from "./DataforseoLabsAppleAppCompetitorsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoLabsleAppCompetitorsLiveItem, IDataforseoLabsleAppCompetitorsLiveItem } from "./DataforseoLabsleAppCompetitorsLiveItem";
+
 
 export interface IDataforseoLabsAppleAppCompetitorsLiveResultInfo   {
         
@@ -22,7 +22,7 @@ export interface IDataforseoLabsAppleAppCompetitorsLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains data related to the app_id and competitor applications */
-        items?: DataforseoLabsAppleAppCompetitorsLiveItem[] | undefined
+        items?: DataforseoLabsleAppCompetitorsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsAppleAppCompetitorsLiveResultInfo  implements IDatafo
     
     /** contains data related to the app_id and competitor applications */
 
-    items?: DataforseoLabsAppleAppCompetitorsLiveItem[] | undefined;
+    items?: DataforseoLabsleAppCompetitorsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsAppleAppCompetitorsLiveResultInfo  implements IDatafo
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsAppleAppCompetitorsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsleAppCompetitorsLiveItem.fromJS(item));
                 }
             }
         }

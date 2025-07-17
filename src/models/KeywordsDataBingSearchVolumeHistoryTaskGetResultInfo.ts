@@ -1,5 +1,5 @@
 import { SearchVolumeHistorySearchInfo, ISearchVolumeHistorySearchInfo } from "./SearchVolumeHistorySearchInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo   {
         

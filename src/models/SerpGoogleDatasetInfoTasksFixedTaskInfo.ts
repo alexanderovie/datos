@@ -1,6 +1,6 @@
 import { SerpGoogleDatasetInfoTasksFixedResultInfo, ISerpGoogleDatasetInfoTasksFixedResultInfo } from "./SerpGoogleDatasetInfoTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleDatasetInfoTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         

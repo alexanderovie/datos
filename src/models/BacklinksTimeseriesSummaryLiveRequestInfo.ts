@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksTimeseriesSummaryLiveRequestInfo   {
         
         /** domain to get data for

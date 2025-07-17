@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentUrlInfo   {
         
         /** contains other URLs and anchors found in the content element */

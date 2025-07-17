@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo, IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo } from "./DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo  extends IBaseResponseInfo    {
         

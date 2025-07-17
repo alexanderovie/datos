@@ -13,4 +13,4 @@
 **spell** | **SpellInfo** | autocorrection of the search engine<br>if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection |[optional]|
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP.<br>possible item:<br>youtube_video_info |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseYoutubeSerpElementItem[]** | elements of search results found in SERP |[optional]|
+**items** | **YoutubeVideoInfo[]** | elements of search results found in SERP |[optional]|

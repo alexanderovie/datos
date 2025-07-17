@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBaseResponseInfo   {
         
         /** the current version of the API */

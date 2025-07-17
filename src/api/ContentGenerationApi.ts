@@ -1,21 +1,21 @@
-import { ContentGenerationGenerateLiveRequestInfo } from "../models/ContentGenerationGenerateLiveRequestInfo";
-import { ContentGenerationGenerateLiveResponseInfo } from "../models/ContentGenerationGenerateLiveResponseInfo";
-import { ContentGenerationGenerateTextLiveRequestInfo } from "../models/ContentGenerationGenerateTextLiveRequestInfo";
-import { ContentGenerationGenerateTextLiveResponseInfo } from "../models/ContentGenerationGenerateTextLiveResponseInfo";
-import { ContentGenerationGenerateMetaTagsLiveRequestInfo } from "../models/ContentGenerationGenerateMetaTagsLiveRequestInfo";
-import { ContentGenerationGenerateMetaTagsLiveResponseInfo } from "../models/ContentGenerationGenerateMetaTagsLiveResponseInfo";
-import { ContentGenerationGenerateSubTopicsLiveRequestInfo } from "../models/ContentGenerationGenerateSubTopicsLiveRequestInfo";
-import { ContentGenerationGenerateSubTopicsLiveResponseInfo } from "../models/ContentGenerationGenerateSubTopicsLiveResponseInfo";
-import { ContentGenerationParaphraseLiveRequestInfo } from "../models/ContentGenerationParaphraseLiveRequestInfo";
-import { ContentGenerationParaphraseLiveResponseInfo } from "../models/ContentGenerationParaphraseLiveResponseInfo";
-import { ContentGenerationCheckGrammarLiveRequestInfo } from "../models/ContentGenerationCheckGrammarLiveRequestInfo";
-import { ContentGenerationCheckGrammarLiveResponseInfo } from "../models/ContentGenerationCheckGrammarLiveResponseInfo";
-import { ContentGenerationCheckGrammarLanguagesResponseInfo } from "../models/ContentGenerationCheckGrammarLanguagesResponseInfo";
-import { ContentGenerationGrammarRulesResponseInfo } from "../models/ContentGenerationGrammarRulesResponseInfo";
-import { ContentGenerationTextSummaryLiveRequestInfo } from "../models/ContentGenerationTextSummaryLiveRequestInfo";
-import { ContentGenerationTextSummaryLiveResponseInfo } from "../models/ContentGenerationTextSummaryLiveResponseInfo";
-import { ContentGenerationTextSummaryLanguagesResponseInfo } from "../models/ContentGenerationTextSummaryLanguagesResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { ContentGenerationGenerateLiveRequestInfo } from "./../models/ContentGenerationGenerateLiveRequestInfo";
+import { ContentGenerationGenerateLiveResponseInfo } from "./../models/ContentGenerationGenerateLiveResponseInfo";
+import { ContentGenerationGenerateTextLiveRequestInfo } from "./../models/ContentGenerationGenerateTextLiveRequestInfo";
+import { ContentGenerationGenerateTextLiveResponseInfo } from "./../models/ContentGenerationGenerateTextLiveResponseInfo";
+import { ContentGenerationGenerateMetaTagsLiveRequestInfo } from "./../models/ContentGenerationGenerateMetaTagsLiveRequestInfo";
+import { ContentGenerationGenerateMetaTagsLiveResponseInfo } from "./../models/ContentGenerationGenerateMetaTagsLiveResponseInfo";
+import { ContentGenerationGenerateSubTopicsLiveRequestInfo } from "./../models/ContentGenerationGenerateSubTopicsLiveRequestInfo";
+import { ContentGenerationGenerateSubTopicsLiveResponseInfo } from "./../models/ContentGenerationGenerateSubTopicsLiveResponseInfo";
+import { ContentGenerationParaphraseLiveRequestInfo } from "./../models/ContentGenerationParaphraseLiveRequestInfo";
+import { ContentGenerationParaphraseLiveResponseInfo } from "./../models/ContentGenerationParaphraseLiveResponseInfo";
+import { ContentGenerationCheckGrammarLiveRequestInfo } from "./../models/ContentGenerationCheckGrammarLiveRequestInfo";
+import { ContentGenerationCheckGrammarLiveResponseInfo } from "./../models/ContentGenerationCheckGrammarLiveResponseInfo";
+import { ContentGenerationCheckGrammarLanguagesResponseInfo } from "./../models/ContentGenerationCheckGrammarLanguagesResponseInfo";
+import { ContentGenerationGrammarRulesResponseInfo } from "./../models/ContentGenerationGrammarRulesResponseInfo";
+import { ContentGenerationTextSummaryLiveRequestInfo } from "./../models/ContentGenerationTextSummaryLiveRequestInfo";
+import { ContentGenerationTextSummaryLiveResponseInfo } from "./../models/ContentGenerationTextSummaryLiveResponseInfo";
+import { ContentGenerationTextSummaryLanguagesResponseInfo } from "./../models/ContentGenerationTextSummaryLanguagesResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class ContentGenerationApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -37,7 +37,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -50,14 +50,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationGenerateLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationGenerateLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationGenerateLiveResponseInfo | null>(null as any);
@@ -72,7 +72,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -85,14 +85,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationGenerateTextLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationGenerateTextLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationGenerateTextLiveResponseInfo | null>(null as any);
@@ -107,7 +107,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -120,14 +120,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationGenerateMetaTagsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationGenerateMetaTagsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationGenerateMetaTagsLiveResponseInfo | null>(null as any);
@@ -142,7 +142,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -155,14 +155,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationGenerateSubTopicsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationGenerateSubTopicsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationGenerateSubTopicsLiveResponseInfo | null>(null as any);
@@ -177,7 +177,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -190,14 +190,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationParaphraseLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationParaphraseLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationParaphraseLiveResponseInfo | null>(null as any);
@@ -212,7 +212,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -225,14 +225,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationCheckGrammarLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationCheckGrammarLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationCheckGrammarLiveResponseInfo | null>(null as any);
@@ -240,13 +240,11 @@ export class ContentGenerationApi {
     contentGenerationCheckGrammarLanguages(): Promise<ContentGenerationCheckGrammarLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_generation/check_grammar/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -260,14 +258,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationCheckGrammarLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationCheckGrammarLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationCheckGrammarLanguagesResponseInfo | null>(null as any);
@@ -275,13 +273,11 @@ export class ContentGenerationApi {
     grammarRules(): Promise<ContentGenerationGrammarRulesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_generation/grammar_rules";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -295,14 +291,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationGrammarRulesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationGrammarRulesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationGrammarRulesResponseInfo | null>(null as any);
@@ -317,7 +313,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -330,14 +326,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationTextSummaryLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationTextSummaryLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationTextSummaryLiveResponseInfo | null>(null as any);
@@ -345,13 +341,11 @@ export class ContentGenerationApi {
     contentGenerationTextSummaryLanguages(): Promise<ContentGenerationTextSummaryLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_generation/text_summary/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -365,14 +359,14 @@ export class ContentGenerationApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? ContentGenerationTextSummaryLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? ContentGenerationTextSummaryLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<ContentGenerationTextSummaryLanguagesResponseInfo | null>(null as any);

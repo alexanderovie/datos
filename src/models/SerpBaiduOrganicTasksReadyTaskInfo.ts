@@ -1,6 +1,6 @@
 import { SerpBaiduOrganicTasksReadyResultInfo, ISerpBaiduOrganicTasksReadyResultInfo } from "./SerpBaiduOrganicTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpBaiduOrganicTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         

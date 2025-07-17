@@ -1,5 +1,5 @@
 import { AppendixProductGoogleMerchantPriceDataInfo, IAppendixProductGoogleMerchantPriceDataInfo } from "./AppendixProductGoogleMerchantPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixAmazonMerchantPriceData   {
         

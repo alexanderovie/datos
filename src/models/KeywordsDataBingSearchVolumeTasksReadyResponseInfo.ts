@@ -1,6 +1,6 @@
 import { KeywordsDataBingSearchVolumeTasksReadyTaskInfo, IKeywordsDataBingSearchVolumeTasksReadyTaskInfo } from "./KeywordsDataBingSearchVolumeTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingSearchVolumeTasksReadyResponseInfo  extends IBaseResponseInfo    {
         

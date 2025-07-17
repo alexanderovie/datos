@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageContentParsingRequestInfo   {
         
         /** URL of the content to parse
@@ -16,6 +14,12 @@ note: the enable_content_parsing parameter in the POST request must be set to tr
 example:
 '07131248-1535-0216-1000-17384017ad04' */
         id?: string | undefined
+        
+        /** return page content as markdown
+optional field
+if set to true, the markdown-formatted content of the page will be returned in the page_as_markdown field of the response;
+default value: false */
+        markdown_view?: boolean | undefined
 
     [key: string]: any;
 
@@ -39,6 +43,13 @@ example:
 '07131248-1535-0216-1000-17384017ad04' */
 
     id?: string | undefined;
+    
+    /** return page content as markdown
+optional field
+if set to true, the markdown-formatted content of the page will be returned in the page_as_markdown field of the response;
+default value: false */
+
+    markdown_view?: boolean | undefined;
 
     [key: string]: any;
 
@@ -62,6 +73,7 @@ example:
             }
             this.url = data["url"];
             this.id = data["id"];
+            this.markdown_view = data["markdown_view"];
         }
     }
 
@@ -81,6 +93,7 @@ example:
         
         data["url"] = this.url;
         data["id"] = this.id;
+        data["markdown_view"] = this.markdown_view;
         return data;
     }
 }

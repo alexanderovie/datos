@@ -1,5 +1,5 @@
 import { AppendixStatisticsRatesDataInfo, IAppendixStatisticsRatesDataInfo } from "./AppendixStatisticsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixStatisticsDataInfo   {
         

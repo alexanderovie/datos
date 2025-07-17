@@ -1,6 +1,6 @@
 import { OnPageErrorsTaskInfo, IOnPageErrorsTaskInfo } from "./OnPageErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageErrorsResponseInfo  extends IBaseResponseInfo    {
         

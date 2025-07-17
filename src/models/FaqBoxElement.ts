@@ -1,15 +1,15 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IFaqBoxElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** reference page title */
+        /** title of the element in SERP */
         title?: string | undefined
         
-        /** description */
+        /** description of the link */
         description?: string | undefined
         
         /** link of the element */
@@ -25,11 +25,11 @@ export class FaqBoxElement  implements IFaqBoxElement {
 
     type?: string | undefined;
     
-    /** reference page title */
+    /** title of the element in SERP */
 
     title?: string | undefined;
     
-    /** description */
+    /** description of the link */
 
     description?: string | undefined;
     

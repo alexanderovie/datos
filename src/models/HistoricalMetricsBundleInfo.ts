@@ -1,5 +1,5 @@
 import { HistoricalMetricsInfo, IHistoricalMetricsInfo } from "./HistoricalMetricsInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHistoricalMetricsBundleInfo   {
         

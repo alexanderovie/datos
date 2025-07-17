@@ -1,6 +1,6 @@
 import { SerpGoogleMapsTaskPostTaskInfo, ISerpGoogleMapsTaskPostTaskInfo } from "./SerpGoogleMapsTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleMapsTaskPostResponseInfo  extends IBaseResponseInfo    {
         

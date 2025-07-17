@@ -1,5 +1,5 @@
 import { DataforseoLabsSubdomainsLiveItem, IDataforseoLabsSubdomainsLiveItem } from "./DataforseoLabsSubdomainsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleSubdomainsLiveResultInfo   {
         

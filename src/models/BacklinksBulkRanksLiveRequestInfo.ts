@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IBacklinksBulkRanksLiveRequestInfo   {
         
         /** domains, subdomains or webpages to get rank for

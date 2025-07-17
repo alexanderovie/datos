@@ -1,5 +1,5 @@
 import { TableContentItemInfo, ITableContentItemInfo } from "./TableContentItemInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ITableContentInfo   {
         

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo   {
         
         /** domain name or page url
@@ -61,7 +59,7 @@ optional field
 indicates the type of search results included in the response
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;
 possible values:
-['organic', 'paid', 'featured_snippet', 'local_pack']
+['organic', 'paid', 'featured_snippet', 'local_pack', 'ai_overview_reference']
 default value:
 ['organic', 'paid'] */
         item_types?: string[] | undefined
@@ -218,7 +216,7 @@ optional field
 indicates the type of search results included in the response
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;
 possible values:
-['organic', 'paid', 'featured_snippet', 'local_pack']
+['organic', 'paid', 'featured_snippet', 'local_pack', 'ai_overview_reference']
 default value:
 ['organic', 'paid'] */
 

@@ -1,6 +1,6 @@
 import { ContentAnalysisLocationsResultInfo, IContentAnalysisLocationsResultInfo } from "./ContentAnalysisLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         

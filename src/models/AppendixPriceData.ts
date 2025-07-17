@@ -10,7 +10,7 @@ import { AppendixContentGenerationPriceData, IAppendixContentGenerationPriceData
 import { AppendixDataforseoLabsPriceData, IAppendixDataforseoLabsPriceData } from "./AppendixDataforseoLabsPriceData";
 import { AppendixDomainAnalyticsPriceData, IAppendixDomainAnalyticsPriceData } from "./AppendixDomainAnalyticsPriceData";
 import { AppendixOnPagePriceData, IAppendixOnPagePriceData } from "./AppendixOnPagePriceData";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixPriceData   {
         

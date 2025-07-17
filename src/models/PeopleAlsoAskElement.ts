@@ -1,5 +1,5 @@
-import { BasePeopleAlsoAskExpandedElementItem, IBasePeopleAlsoAskExpandedElementItem } from "./BasePeopleAlsoAskExpandedElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseSerpApiPeopleAlsoAskExpandedElementItem, IBaseSerpApiPeopleAlsoAskExpandedElementItem } from "./BaseSerpApiPeopleAlsoAskExpandedElementItem";
+
 
 export interface IPeopleAlsoAskElement   {
         
@@ -16,7 +16,7 @@ export interface IPeopleAlsoAskElement   {
         xpath?: string | undefined
         
         /** expanded element */
-        expanded_element?: BasePeopleAlsoAskExpandedElementItem[] | undefined
+        expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined
 
     [key: string]: any;
 
@@ -42,7 +42,7 @@ export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
     
     /** expanded element */
 
-    expanded_element?: BasePeopleAlsoAskExpandedElementItem[] | undefined;
+    expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -71,7 +71,7 @@ export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
             if (Array.isArray(data["expanded_element"])) {
                 this.expanded_element = [];
                 for (let item of data["expanded_element"]) {
-                    this.expanded_element.push(BasePeopleAlsoAskExpandedElementItem.fromJS(item));
+                    this.expanded_element.push(BaseSerpApiPeopleAlsoAskExpandedElementItem.fromJS(item));
                 }
             }
         }

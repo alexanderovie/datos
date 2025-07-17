@@ -1,6 +1,6 @@
 import { DataforseoLabsAppleBulkAppMetricsLiveResultInfo, IDataforseoLabsAppleBulkAppMetricsLiveResultInfo } from "./DataforseoLabsAppleBulkAppMetricsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAppleBulkAppMetricsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

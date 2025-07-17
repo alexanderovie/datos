@@ -1,5 +1,5 @@
 import { KeywordKpi, IKeywordKpi } from "./KeywordKpi";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataBingKeywordPerformanceLiveResultInfo   {
         

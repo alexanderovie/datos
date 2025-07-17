@@ -1,6 +1,6 @@
 import { BacklinksBulkSpamScoreLiveResultInfo, IBacklinksBulkSpamScoreLiveResultInfo } from "./BacklinksBulkSpamScoreLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBacklinksBulkSpamScoreLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

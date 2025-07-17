@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IOnPageInstantPagesRequestInfo   {
         
         /** target page url

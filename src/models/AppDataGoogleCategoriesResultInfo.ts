@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppDataGoogleCategoriesResultInfo   {
         
         /** contains full list of supported app categories */

@@ -11,7 +11,7 @@ import { AppendixAppDataLimitsRatesDataInfo, IAppendixAppDataLimitsRatesDataInfo
 import { AppendixContentAnalysisLimitsRatesDataInfo, IAppendixContentAnalysisLimitsRatesDataInfo } from "./AppendixContentAnalysisLimitsRatesDataInfo";
 import { AppendixContentGenerationLimitsRatesDataInfo, IAppendixContentGenerationLimitsRatesDataInfo } from "./AppendixContentGenerationLimitsRatesDataInfo";
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixDataInfo   {
         

@@ -1,5 +1,5 @@
 import { DataforseoLabsSerpCompetitorsLiveItem, IDataforseoLabsSerpCompetitorsLiveItem } from "./DataforseoLabsSerpCompetitorsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingSerpCompetitorsLiveResultInfo   {
         

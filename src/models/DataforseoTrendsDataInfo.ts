@@ -1,5 +1,5 @@
 import { DemographyItemValueInfo, IDemographyItemValueInfo } from "./DemographyItemValueInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoTrendsDataInfo   {
         

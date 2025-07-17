@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IStoresCountInfo   {
         
         /** number of stores that offer the product */

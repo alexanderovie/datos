@@ -1,6 +1,6 @@
 import { SerpGoogleLocalFinderLiveAdvancedResultInfo, ISerpGoogleLocalFinderLiveAdvancedResultInfo } from "./SerpGoogleLocalFinderLiveAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleLocalFinderLiveAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

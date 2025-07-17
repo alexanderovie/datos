@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpBingOrganicTaskPostRequestInfo   {
         
         /** direct URL of the search query

@@ -1,5 +1,5 @@
 import { SslInfo, ISslInfo } from "./SslInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDomainInfo   {
         

@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IDataforseoLabsGoogleAppIntersectionLiveRequestInfo   {
         
         /** ids of the target apps

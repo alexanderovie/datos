@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppDataAppleCategoriesResultInfo   {
         
         /** contains full list of supported app categories */

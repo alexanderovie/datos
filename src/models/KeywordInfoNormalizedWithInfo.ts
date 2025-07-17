@@ -1,5 +1,5 @@
 import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordInfoNormalizedWithInfo   {
         
@@ -10,11 +10,11 @@ example:
         last_updated_time?: string | undefined
         
         /** current search volume rate of a keyword */
-        search_volume?: string | undefined
+        search_volume?: number | undefined
         
         /** keyword info is normalized
 if true, values are normalized with Bing data */
-        is_normalized?: string | undefined
+        is_normalized?: boolean | undefined
         
         /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */
@@ -35,12 +35,12 @@ example:
     
     /** current search volume rate of a keyword */
 
-    search_volume?: string | undefined;
+    search_volume?: number | undefined;
     
     /** keyword info is normalized
 if true, values are normalized with Bing data */
 
-    is_normalized?: string | undefined;
+    is_normalized?: boolean | undefined;
     
     /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */

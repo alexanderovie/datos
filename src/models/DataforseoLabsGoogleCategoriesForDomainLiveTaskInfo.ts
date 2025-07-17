@@ -1,6 +1,6 @@
 import { DataforseoLabsGoogleCategoriesForDomainLiveResultInfo, IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo } from "./DataforseoLabsGoogleCategoriesForDomainLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

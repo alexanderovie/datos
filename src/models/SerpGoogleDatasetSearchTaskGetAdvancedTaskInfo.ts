@@ -1,6 +1,6 @@
 import { SerpGoogleDatasetSearchTaskGetAdvancedResultInfo, ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo } from "./SerpGoogleDatasetSearchTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface ISerpGoogleDatasetSearchTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         

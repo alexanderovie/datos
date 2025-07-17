@@ -1,6 +1,6 @@
-import { CrawlStatus, ICrawlStatus } from "./CrawlStatus";
+import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageRawHtmlItem, IOnPageRawHtmlItem } from "./OnPageRawHtmlItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageRawHtmlResultInfo   {
         
@@ -9,7 +9,7 @@ possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatus | undefined
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** number of items in the results array */
         items_count?: number | undefined
@@ -30,7 +30,7 @@ possible values: in_progress, finished */
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatus | undefined;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** number of items in the results array */
 
@@ -61,7 +61,7 @@ possible values: in_progress, finished */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatus.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
             this.items_count = data["items_count"];
             this.items = data["items"] ? OnPageRawHtmlItem.fromJS(data["items"]) : <any>undefined;
         }
@@ -82,7 +82,7 @@ possible values: in_progress, finished */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatus.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
         data["items_count"] = this.items_count;
         data["items"] = this.items ? OnPageRawHtmlItem.fromJS(this.items)?.toJSON() : <any>undefined;
         return data;

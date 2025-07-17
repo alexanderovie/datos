@@ -1,6 +1,6 @@
 import { PositiveConnotationDistribution, IPositiveConnotationDistribution } from "./PositiveConnotationDistribution";
 import { SentimentConnotationDistribution, ISentimentConnotationDistribution } from "./SentimentConnotationDistribution";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IContentAnalysisSentimentAnalysisLiveResultInfo   {
         

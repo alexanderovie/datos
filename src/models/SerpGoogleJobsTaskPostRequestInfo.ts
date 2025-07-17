@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpGoogleJobsTaskPostRequestInfo   {
         
         /** keyword
@@ -78,16 +76,6 @@ type of employment contract for which the search results will be returned;
 possible values:
 fulltime, partime, contractor, intern */
         employment_type?: string[] | undefined
-        
-        /** job posting date
-optional field
-you can use this field to filter job vacancies by posting date;
-possible values:
-today — return job vacancies posted today;
-3days — return job vacancies posted no longer than 3 days ago;
-week — return job vacancies posted no longer than a week ago;
-month — return job vacancies posted no longer than a month ago */
-        date_posted?: string | undefined
         
         /** user-defined task identifier
 optional field
@@ -219,17 +207,6 @@ fulltime, partime, contractor, intern */
 
     employment_type?: string[] | undefined;
     
-    /** job posting date
-optional field
-you can use this field to filter job vacancies by posting date;
-possible values:
-today — return job vacancies posted today;
-3days — return job vacancies posted no longer than 3 days ago;
-week — return job vacancies posted no longer than a week ago;
-month — return job vacancies posted no longer than a month ago */
-
-    date_posted?: string | undefined;
-    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -301,7 +278,6 @@ learn more on our Help Center */
             this.language_code = data["language_code"];
             this.depth = data["depth"];
             this.employment_type = data["employment_type"];
-            this.date_posted = data["date_posted"];
             this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.postback_data = data["postback_data"];
@@ -332,7 +308,6 @@ learn more on our Help Center */
         data["language_code"] = this.language_code;
         data["depth"] = this.depth;
         data["employment_type"] = this.employment_type;
-        data["date_posted"] = this.date_posted;
         data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["postback_data"] = this.postback_data;

@@ -1,6 +1,6 @@
 import { BusinessDataTrustpilotSearchTaskGetTaskInfo, IBusinessDataTrustpilotSearchTaskGetTaskInfo } from "./BusinessDataTrustpilotSearchTaskGetTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IBusinessDataTrustpilotSearchTaskGetResponseInfo  extends IBaseResponseInfo    {
         

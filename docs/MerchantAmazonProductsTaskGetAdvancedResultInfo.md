@@ -16,4 +16,4 @@
 **se_results_count** | **number** | search engine results count |[optional]|
 **categories** | **string[]** | amazon product departments and subcategories |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseAmazonSerpElementItem[]** | Amazon product items within the editorial_recommendations element |[optional]|
+**items** | **BaseMerchantAmazonElementItem[]** | Amazon product items within the editorial_recommendations element |[optional]|

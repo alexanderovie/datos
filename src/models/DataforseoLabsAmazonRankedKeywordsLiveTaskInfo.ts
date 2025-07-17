@@ -1,6 +1,6 @@
 import { DataforseoLabsAmazonRankedKeywordsLiveResultInfo, IDataforseoLabsAmazonRankedKeywordsLiveResultInfo } from "./DataforseoLabsAmazonRankedKeywordsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         

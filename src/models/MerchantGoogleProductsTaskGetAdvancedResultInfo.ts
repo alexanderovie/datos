@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { BaseMerchantSerpElementItem, IBaseMerchantSerpElementItem } from "./BaseMerchantSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { BaseMerchantGoogleShoppingProductsElementItem, IBaseMerchantGoogleShoppingProductsElementItem } from "./BaseMerchantGoogleShoppingProductsElementItem";
+
 
 export interface IMerchantGoogleProductsTaskGetAdvancedResultInfo   {
         
@@ -46,7 +46,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp *
         /** additional items present in the element
 contains a list of related keywords;
 if there are none, equals null */
-        items?: BaseMerchantSerpElementItem[] | undefined
+        items?: BaseMerchantGoogleShoppingProductsElementItem[] | undefined
 
     [key: string]: any;
 
@@ -107,7 +107,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp *
 contains a list of related keywords;
 if there are none, equals null */
 
-    items?: BaseMerchantSerpElementItem[] | undefined;
+    items?: BaseMerchantGoogleShoppingProductsElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -142,7 +142,7 @@ if there are none, equals null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseMerchantSerpElementItem.fromJS(item));
+                    this.items.push(BaseMerchantGoogleShoppingProductsElementItem.fromJS(item));
                 }
             }
         }

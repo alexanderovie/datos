@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IContentGenerationGenerateSubTopicsLiveResultInfo   {
         
         /** number of input tokens */

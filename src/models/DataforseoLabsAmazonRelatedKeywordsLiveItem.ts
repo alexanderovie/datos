@@ -1,5 +1,5 @@
 import { AmazonKeywordData, IAmazonKeywordData } from "./AmazonKeywordData";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsAmazonRelatedKeywordsLiveItem   {
         

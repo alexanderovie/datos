@@ -1,6 +1,6 @@
 import { KeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo, IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo } from "./KeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo  extends IBaseResponseInfo    {
         

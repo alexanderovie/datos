@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppendixAppendixDataInfo   {
         
         user_data?: number | undefined

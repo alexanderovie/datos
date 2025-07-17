@@ -1,5 +1,5 @@
-import { DataforseoTrendsDemographyInfo, IDataforseoTrendsDemographyInfo } from "./DataforseoTrendsDemographyInfo";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoTrendsDemographyElementItem, IDataforseoTrendsDemographyElementItem } from "./BaseKeywordDataDataforseoTrendsItem";
+
 
 export interface IKeywordsDataDataforseoTrendsDemographyLiveResultInfo   {
         
@@ -27,7 +27,7 @@ example:
         items_count?: number | undefined
         
         /** contains keyword popularity and related data */
-        items?: DataforseoTrendsDemographyInfo[] | undefined
+        items?: DataforseoTrendsDemographyElementItem[] | undefined
 
     [key: string]: any;
 
@@ -66,7 +66,7 @@ example:
     
     /** contains keyword popularity and related data */
 
-    items?: DataforseoTrendsDemographyInfo[] | undefined;
+    items?: DataforseoTrendsDemographyElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -97,7 +97,7 @@ example:
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoTrendsDemographyInfo.fromJS(item));
+                    this.items.push(DataforseoTrendsDemographyElementItem.fromJS(item));
                 }
             }
         }

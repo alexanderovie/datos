@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface ISerpHtmlItemInfo   {
         
         /** serial number of the returned HTML page */

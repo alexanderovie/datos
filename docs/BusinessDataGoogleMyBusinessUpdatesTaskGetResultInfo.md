@@ -15,4 +15,4 @@
 **feature_id** | **string** | the unique identifier of the element in SERP<br>learn more about the identifier in this help center article |[optional]|
 **item_types** | **string[]** | item types<br>types of search engine results encountered in the items array;<br>possible item types: google_business_post |[optional]|
 **items_count** | **number** | item types<br>the number of items in the items array |[optional]|
-**items** | **BaseBusinessDataSerpElementItem[]** | encountered item types<br>types of search engine results encountered in the items array;<br>possible item types: google_business_post |[optional]|
+**items** | **GoogleBusinessPost[]** | encountered item types<br>types of search engine results encountered in the items array;<br>possible item types: google_business_post |[optional]|

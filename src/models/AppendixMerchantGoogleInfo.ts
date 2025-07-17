@@ -1,6 +1,6 @@
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 import { AppendixSellersGoogleMerchantLimitsRatesDataInfo, IAppendixSellersGoogleMerchantLimitsRatesDataInfo } from "./AppendixSellersGoogleMerchantLimitsRatesDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixMerchantGoogleInfo   {
         

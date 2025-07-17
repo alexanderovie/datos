@@ -1,6 +1,6 @@
 import { AppDataErrorsResultInfo, IAppDataErrorsResultInfo } from "./AppDataErrorsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppDataErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         

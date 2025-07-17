@@ -1,6 +1,6 @@
-import { BusinessDataRatingInfo, IBusinessDataRatingInfo } from "./BusinessDataRatingInfo";
-import { BaseBusinessDataSerpElementItem, IBaseBusinessDataSerpElementItem } from "./BaseBusinessDataSerpElementItem";
-import { ApiException, throwException } from "./ApiException"
+import { RatingElement, IRatingElement } from "./RatingElement";
+import { TripadvisorReviewSearch, ITripadvisorReviewSearch } from "./TripadvisorReviewSearch";
+
 
 export interface IBusinessDataTripadvisorReviewsTaskGetResultInfo   {
         
@@ -36,7 +36,7 @@ address of the local establishment for which the reviews are collected */
         
         /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
-        rating?: BusinessDataRatingInfo | undefined
+        rating?: RatingElement | undefined
         
         /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
@@ -48,7 +48,7 @@ you can get more results by using the depth parameter when setting a task */
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: BaseBusinessDataSerpElementItem[] | undefined
+        items?: TripadvisorReviewSearch[] | undefined
         
         /** language code in a POST array */
         language_code?: string | undefined
@@ -100,7 +100,7 @@ address of the local establishment for which the reviews are collected */
     /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: BusinessDataRatingInfo | undefined;
+    rating?: RatingElement | undefined;
     
     /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task */
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: BaseBusinessDataSerpElementItem[] | undefined;
+    items?: TripadvisorReviewSearch[] | undefined;
     
     /** language code in a POST array */
 
@@ -149,13 +149,13 @@ you can get more results by using the depth parameter when setting a task */
             this.title = data["title"];
             this.location = data["location"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? BusinessDataRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.rating_distribution = data["rating_distribution"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseBusinessDataSerpElementItem.fromJS(item));
+                    this.items.push(TripadvisorReviewSearch.fromJS(item));
                 }
             }
             this.language_code = data["language_code"];
@@ -184,7 +184,7 @@ you can get more results by using the depth parameter when setting a task */
         data["title"] = this.title;
         data["location"] = this.location;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? BusinessDataRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["rating_distribution"] = this.rating_distribution;
         data["items_count"] = this.items_count;
         data["items"] = null;

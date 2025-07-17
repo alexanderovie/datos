@@ -1,6 +1,6 @@
 import { ReviewMentionInfo, IReviewMentionInfo } from "./ReviewMentionInfo";
 import { OtherSitesReviewsInfo, IOtherSitesReviewsInfo } from "./OtherSitesReviewsInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IHotelReviewInfo   {
         

@@ -75,8 +75,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new AppDataIdListRequestInfo();
-   task.datetime_from = "2025-02-28 11:02:06 +00:00";
-   task.datetime_to = "2025-04-30 11:02:06 +00:00";
+   task.datetime_from = "2025-04-17 06:10:25 +00:00";
+   task.datetime_to = "2025-06-17 06:10:25 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -594,7 +594,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "56ab389d-7d71-4bbf-9673-57d3637c5289";
+ let id = "10da8d1e-a104-4c65-94a4-d8aa26564f35";
  let response = await api.googleAppSearchesTaskGetAdvanced(id);
 ```
 
@@ -651,7 +651,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "9f34e94e-6325-4b20-8170-eda129fede55";
+ let id = "f2f87d44-c7f2-4e58-b24a-86625d0542c0";
  let response = await api.googleAppSearchesTaskGetHtml(id);
 ```
 
@@ -825,7 +825,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "f4da2498-af5d-4140-af6d-2f3810373d8d";
+ let id = "cf81cda9-c5cd-42ef-9cf8-aedb36006b64";
  let response = await api.googleAppListTaskGetAdvanced(id);
 ```
 
@@ -882,7 +882,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "785fe2b3-9a53-494a-add4-d498dbf5f8a5";
+ let id = "e6e2ec0e-9427-4723-939e-aba1c141b7be";
  let response = await api.googleAppListTaskGetHtml(id);
 ```
 
@@ -1055,7 +1055,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "accfd6da-b68e-4a40-bba0-de16f09bb0c0";
+ let id = "1cf05bb3-b2dd-4573-b591-2928ca59972f";
  let response = await api.googleAppInfoTaskGetAdvanced(id);
 ```
 
@@ -1112,7 +1112,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "3005591c-60b5-4333-a456-a314c25502ad";
+ let id = "4a7c82de-53eb-4afe-8cb6-e45b754852ab";
  let response = await api.googleAppInfoTaskGetHtml(id);
 ```
 
@@ -1286,7 +1286,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "2a851e3a-e5fc-47ca-8186-607250c43ae4";
+ let id = "2d177bfb-f749-46a5-bf7e-19687c0a140a";
  let response = await api.googleAppReviewsTaskGetAdvanced(id);
 ```
 
@@ -1343,7 +1343,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "e2f1fad6-04fb-45a2-b524-9f67a99fc014";
+ let id = "26f067c9-a3a2-4962-ac58-8dc8f2bb430b";
  let response = await api.googleAppReviewsTaskGetHtml(id);
 ```
 
@@ -1804,7 +1804,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "a950c217-8459-49fe-8834-fe5f83e5e84e";
+ let id = "62e22449-af01-40d2-9ee4-a1b152c692e7";
  let response = await api.appleAppSearchesTaskGetAdvanced(id);
 ```
 
@@ -1977,7 +1977,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "96a03976-e950-4ffe-91d5-644011d719e4";
+ let id = "504a7b0f-ef13-40a2-a644-f58ac1bcedde";
  let response = await api.appleAppInfoTaskGetAdvanced(id);
 ```
 
@@ -2152,7 +2152,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "9370611b-cb73-4dde-b838-d39aa5e31ae0";
+ let id = "12fab0c5-73c7-4160-8e68-8e9455dc9ee1";
  let response = await api.appleAppListTaskGetAdvanced(id);
 ```
 
@@ -2326,7 +2326,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "e769bee6-6874-4872-9721-cb34ac1bf953";
+ let id = "b167f40f-f8ac-45e3-8249-27001fbaed3b";
  let response = await api.appleAppReviewsTaskGetAdvanced(id);
 ```
 

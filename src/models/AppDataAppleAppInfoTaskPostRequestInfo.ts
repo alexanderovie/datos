@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAppDataAppleAppInfoTaskPostRequestInfo   {
         
         /** id of the app

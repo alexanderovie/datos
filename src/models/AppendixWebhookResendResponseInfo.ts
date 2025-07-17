@@ -1,6 +1,6 @@
 import { AppendixWebhookResendTaskInfo, IAppendixWebhookResendTaskInfo } from "./AppendixWebhookResendTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixWebhookResendResponseInfo  extends IBaseResponseInfo    {
         

@@ -1,5 +1,5 @@
 import { DataforseoLabsRelevantPagesLiveItem, IDataforseoLabsRelevantPagesLiveItem } from "./DataforseoLabsRelevantPagesLiveItem";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IDataforseoLabsBingRelevantPagesLiveResultInfo   {
         

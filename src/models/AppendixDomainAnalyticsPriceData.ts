@@ -1,7 +1,7 @@
 import { AppendixWhoisDomainAnalyticsPriceData, IAppendixWhoisDomainAnalyticsPriceData } from "./AppendixWhoisDomainAnalyticsPriceData";
 import { AppendixTechnologiesDomainAnalyticsPriceData, IAppendixTechnologiesDomainAnalyticsPriceData } from "./AppendixTechnologiesDomainAnalyticsPriceData";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IAppendixDomainAnalyticsPriceData   {
         

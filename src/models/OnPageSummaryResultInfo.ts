@@ -1,7 +1,7 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { DomainInfo, IDomainInfo } from "./DomainInfo";
 import { PageMetrics, IPageMetrics } from "./PageMetrics";
-import { ApiException, throwException } from "./ApiException"
+
 
 export interface IOnPageSummaryResultInfo   {
         

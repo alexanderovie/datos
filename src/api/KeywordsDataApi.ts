@@ -1,105 +1,105 @@
-import { KeywordsDataIdListRequestInfo } from "../models/KeywordsDataIdListRequestInfo";
-import { KeywordsDataIdListResponseInfo } from "../models/KeywordsDataIdListResponseInfo";
-import { KeywordsDataErrorsRequestInfo } from "../models/KeywordsDataErrorsRequestInfo";
-import { KeywordsDataErrorsResponseInfo } from "../models/KeywordsDataErrorsResponseInfo";
-import { KeywordsDataGoogleAdsStatusResponseInfo } from "../models/KeywordsDataGoogleAdsStatusResponseInfo";
-import { KeywordsDataGoogleAdsLocationsResponseInfo } from "../models/KeywordsDataGoogleAdsLocationsResponseInfo";
-import { KeywordsDataGoogleAdsLocationsCountryResponseInfo } from "../models/KeywordsDataGoogleAdsLocationsCountryResponseInfo";
-import { KeywordsDataGoogleAdsLanguagesResponseInfo } from "../models/KeywordsDataGoogleAdsLanguagesResponseInfo";
-import { KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo";
-import { KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo";
-import { KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo";
-import { KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo";
-import { KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo";
-import { KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo } from "../models/KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo";
-import { KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo";
-import { KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo } from "../models/KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo";
-import { KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo } from "../models/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo";
-import { KeywordsDataGoogleTrendsLocationsResponseInfo } from "../models/KeywordsDataGoogleTrendsLocationsResponseInfo";
-import { KeywordsDataGoogleTrendsLocationsCountryResponseInfo } from "../models/KeywordsDataGoogleTrendsLocationsCountryResponseInfo";
-import { KeywordsDataGoogleTrendsLanguagesResponseInfo } from "../models/KeywordsDataGoogleTrendsLanguagesResponseInfo";
-import { KeywordsDataGoogleTrendsCategoriesResponseInfo } from "../models/KeywordsDataGoogleTrendsCategoriesResponseInfo";
-import { KeywordsDataGoogleTrendsExploreTaskPostRequestInfo } from "../models/KeywordsDataGoogleTrendsExploreTaskPostRequestInfo";
-import { KeywordsDataGoogleTrendsExploreTaskPostResponseInfo } from "../models/KeywordsDataGoogleTrendsExploreTaskPostResponseInfo";
-import { KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo } from "../models/KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo";
-import { KeywordsDataGoogleTrendsExploreTaskGetResponseInfo } from "../models/KeywordsDataGoogleTrendsExploreTaskGetResponseInfo";
-import { KeywordsDataGoogleTrendsExploreLiveRequestInfo } from "../models/KeywordsDataGoogleTrendsExploreLiveRequestInfo";
-import { KeywordsDataGoogleTrendsExploreLiveResponseInfo } from "../models/KeywordsDataGoogleTrendsExploreLiveResponseInfo";
-import { KeywordsDataDataforseoTrendsLocationsResponseInfo } from "../models/KeywordsDataDataforseoTrendsLocationsResponseInfo";
-import { KeywordsDataDataforseoTrendsLocationsCountryResponseInfo } from "../models/KeywordsDataDataforseoTrendsLocationsCountryResponseInfo";
-import { KeywordsDataDataforseoTrendsExploreLiveRequestInfo } from "../models/KeywordsDataDataforseoTrendsExploreLiveRequestInfo";
-import { KeywordsDataDataforseoTrendsExploreLiveResponseInfo } from "../models/KeywordsDataDataforseoTrendsExploreLiveResponseInfo";
-import { KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo } from "../models/KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo";
-import { KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo } from "../models/KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo";
-import { KeywordsDataDataforseoTrendsDemographyLiveRequestInfo } from "../models/KeywordsDataDataforseoTrendsDemographyLiveRequestInfo";
-import { KeywordsDataDataforseoTrendsDemographyLiveResponseInfo } from "../models/KeywordsDataDataforseoTrendsDemographyLiveResponseInfo";
-import { KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo } from "../models/KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo";
-import { KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo } from "../models/KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo";
-import { KeywordsDataBingLocationsResponseInfo } from "../models/KeywordsDataBingLocationsResponseInfo";
-import { KeywordsDataBingLanguagesResponseInfo } from "../models/KeywordsDataBingLanguagesResponseInfo";
-import { KeywordsDataBingSearchVolumeTaskPostRequestInfo } from "../models/KeywordsDataBingSearchVolumeTaskPostRequestInfo";
-import { KeywordsDataBingSearchVolumeTaskPostResponseInfo } from "../models/KeywordsDataBingSearchVolumeTaskPostResponseInfo";
-import { KeywordsDataBingSearchVolumeTasksReadyResponseInfo } from "../models/KeywordsDataBingSearchVolumeTasksReadyResponseInfo";
-import { KeywordsDataBingSearchVolumeTaskGetResponseInfo } from "../models/KeywordsDataBingSearchVolumeTaskGetResponseInfo";
-import { KeywordsDataBingSearchVolumeLiveRequestInfo } from "../models/KeywordsDataBingSearchVolumeLiveRequestInfo";
-import { KeywordsDataBingSearchVolumeLiveResponseInfo } from "../models/KeywordsDataBingSearchVolumeLiveResponseInfo";
-import { KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo } from "../models/KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo";
-import { KeywordsDataBingAudienceEstimationIndustriesResponseInfo } from "../models/KeywordsDataBingAudienceEstimationIndustriesResponseInfo";
-import { KeywordsDataBingAudienceEstimationTaskPostRequestInfo } from "../models/KeywordsDataBingAudienceEstimationTaskPostRequestInfo";
-import { KeywordsDataBingAudienceEstimationTaskPostResponseInfo } from "../models/KeywordsDataBingAudienceEstimationTaskPostResponseInfo";
-import { KeywordsDataBingAudienceEstimationTasksReadyResponseInfo } from "../models/KeywordsDataBingAudienceEstimationTasksReadyResponseInfo";
-import { KeywordsDataBingAudienceEstimationTaskGetResponseInfo } from "../models/KeywordsDataBingAudienceEstimationTaskGetResponseInfo";
-import { KeywordsDataBingAudienceEstimationLiveRequestInfo } from "../models/KeywordsDataBingAudienceEstimationLiveRequestInfo";
-import { KeywordsDataBingAudienceEstimationLiveResponseInfo } from "../models/KeywordsDataBingAudienceEstimationLiveResponseInfo";
-import { KeywordsDataBingKeywordsForSiteTaskPostRequestInfo } from "../models/KeywordsDataBingKeywordsForSiteTaskPostRequestInfo";
-import { KeywordsDataBingKeywordsForSiteTaskPostResponseInfo } from "../models/KeywordsDataBingKeywordsForSiteTaskPostResponseInfo";
-import { KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo } from "../models/KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo";
-import { KeywordsDataBingKeywordsForSiteTaskGetResponseInfo } from "../models/KeywordsDataBingKeywordsForSiteTaskGetResponseInfo";
-import { KeywordsDataBingKeywordsForSiteLiveRequestInfo } from "../models/KeywordsDataBingKeywordsForSiteLiveRequestInfo";
-import { KeywordsDataBingKeywordsForSiteLiveResponseInfo } from "../models/KeywordsDataBingKeywordsForSiteLiveResponseInfo";
-import { KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo } from "../models/KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo";
-import { KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo } from "../models/KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo";
-import { KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo } from "../models/KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo";
-import { KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo } from "../models/KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo";
-import { KeywordsDataBingKeywordsForKeywordsLiveRequestInfo } from "../models/KeywordsDataBingKeywordsForKeywordsLiveRequestInfo";
-import { KeywordsDataBingKeywordsForKeywordsLiveResponseInfo } from "../models/KeywordsDataBingKeywordsForKeywordsLiveResponseInfo";
-import { KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo } from "../models/KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo";
-import { KeywordsDataBingKeywordPerformanceTaskPostRequestInfo } from "../models/KeywordsDataBingKeywordPerformanceTaskPostRequestInfo";
-import { KeywordsDataBingKeywordPerformanceTaskPostResponseInfo } from "../models/KeywordsDataBingKeywordPerformanceTaskPostResponseInfo";
-import { KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo } from "../models/KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo";
-import { KeywordsDataBingKeywordPerformanceTaskGetResponseInfo } from "../models/KeywordsDataBingKeywordPerformanceTaskGetResponseInfo";
-import { KeywordsDataBingKeywordPerformanceLiveRequestInfo } from "../models/KeywordsDataBingKeywordPerformanceLiveRequestInfo";
-import { KeywordsDataBingKeywordPerformanceLiveResponseInfo } from "../models/KeywordsDataBingKeywordPerformanceLiveResponseInfo";
-import { KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo } from "../models/KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo";
-import { KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo } from "../models/KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo";
-import { KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo } from "../models/KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo";
-import { KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo } from "../models/KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo";
-import { KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo } from "../models/KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo";
-import { KeywordsDataBingSearchVolumeHistoryLiveRequestInfo } from "../models/KeywordsDataBingSearchVolumeHistoryLiveRequestInfo";
-import { KeywordsDataBingSearchVolumeHistoryLiveResponseInfo } from "../models/KeywordsDataBingSearchVolumeHistoryLiveResponseInfo";
-import { KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo } from "../models/KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo";
-import { KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo } from "../models/KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo";
-import { KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo } from "../models/KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo";
-import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo } from "../models/KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo";
-import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo } from "../models/KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo";
-import { KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo } from "../models/KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo";
-import { KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo } from "../models/KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo";
-import { ApiException, throwException } from "../models/ApiException"
+import { KeywordsDataIdListRequestInfo } from "./../models/KeywordsDataIdListRequestInfo";
+import { KeywordsDataIdListResponseInfo } from "./../models/KeywordsDataIdListResponseInfo";
+import { KeywordsDataErrorsRequestInfo } from "./../models/KeywordsDataErrorsRequestInfo";
+import { KeywordsDataErrorsResponseInfo } from "./../models/KeywordsDataErrorsResponseInfo";
+import { KeywordsDataGoogleAdsStatusResponseInfo } from "./../models/KeywordsDataGoogleAdsStatusResponseInfo";
+import { KeywordsDataGoogleAdsLocationsResponseInfo } from "./../models/KeywordsDataGoogleAdsLocationsResponseInfo";
+import { KeywordsDataGoogleAdsLocationsCountryResponseInfo } from "./../models/KeywordsDataGoogleAdsLocationsCountryResponseInfo";
+import { KeywordsDataGoogleAdsLanguagesResponseInfo } from "./../models/KeywordsDataGoogleAdsLanguagesResponseInfo";
+import { KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo";
+import { KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo";
+import { KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo";
+import { KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo";
+import { KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo";
+import { KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo } from "./../models/KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo";
+import { KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo";
+import { KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo } from "./../models/KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo";
+import { KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo } from "./../models/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo";
+import { KeywordsDataGoogleTrendsLocationsResponseInfo } from "./../models/KeywordsDataGoogleTrendsLocationsResponseInfo";
+import { KeywordsDataGoogleTrendsLocationsCountryResponseInfo } from "./../models/KeywordsDataGoogleTrendsLocationsCountryResponseInfo";
+import { KeywordsDataGoogleTrendsLanguagesResponseInfo } from "./../models/KeywordsDataGoogleTrendsLanguagesResponseInfo";
+import { KeywordsDataGoogleTrendsCategoriesResponseInfo } from "./../models/KeywordsDataGoogleTrendsCategoriesResponseInfo";
+import { KeywordsDataGoogleTrendsExploreTaskPostRequestInfo } from "./../models/KeywordsDataGoogleTrendsExploreTaskPostRequestInfo";
+import { KeywordsDataGoogleTrendsExploreTaskPostResponseInfo } from "./../models/KeywordsDataGoogleTrendsExploreTaskPostResponseInfo";
+import { KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo } from "./../models/KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo";
+import { KeywordsDataGoogleTrendsExploreTaskGetResponseInfo } from "./../models/KeywordsDataGoogleTrendsExploreTaskGetResponseInfo";
+import { KeywordsDataGoogleTrendsExploreLiveRequestInfo } from "./../models/KeywordsDataGoogleTrendsExploreLiveRequestInfo";
+import { KeywordsDataGoogleTrendsExploreLiveResponseInfo } from "./../models/KeywordsDataGoogleTrendsExploreLiveResponseInfo";
+import { KeywordsDataDataforseoTrendsLocationsResponseInfo } from "./../models/KeywordsDataDataforseoTrendsLocationsResponseInfo";
+import { KeywordsDataDataforseoTrendsLocationsCountryResponseInfo } from "./../models/KeywordsDataDataforseoTrendsLocationsCountryResponseInfo";
+import { KeywordsDataDataforseoTrendsExploreLiveRequestInfo } from "./../models/KeywordsDataDataforseoTrendsExploreLiveRequestInfo";
+import { KeywordsDataDataforseoTrendsExploreLiveResponseInfo } from "./../models/KeywordsDataDataforseoTrendsExploreLiveResponseInfo";
+import { KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo } from "./../models/KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo";
+import { KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo } from "./../models/KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo";
+import { KeywordsDataDataforseoTrendsDemographyLiveRequestInfo } from "./../models/KeywordsDataDataforseoTrendsDemographyLiveRequestInfo";
+import { KeywordsDataDataforseoTrendsDemographyLiveResponseInfo } from "./../models/KeywordsDataDataforseoTrendsDemographyLiveResponseInfo";
+import { KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo } from "./../models/KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo";
+import { KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo } from "./../models/KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo";
+import { KeywordsDataBingLocationsResponseInfo } from "./../models/KeywordsDataBingLocationsResponseInfo";
+import { KeywordsDataBingLanguagesResponseInfo } from "./../models/KeywordsDataBingLanguagesResponseInfo";
+import { KeywordsDataBingSearchVolumeTaskPostRequestInfo } from "./../models/KeywordsDataBingSearchVolumeTaskPostRequestInfo";
+import { KeywordsDataBingSearchVolumeTaskPostResponseInfo } from "./../models/KeywordsDataBingSearchVolumeTaskPostResponseInfo";
+import { KeywordsDataBingSearchVolumeTasksReadyResponseInfo } from "./../models/KeywordsDataBingSearchVolumeTasksReadyResponseInfo";
+import { KeywordsDataBingSearchVolumeTaskGetResponseInfo } from "./../models/KeywordsDataBingSearchVolumeTaskGetResponseInfo";
+import { KeywordsDataBingSearchVolumeLiveRequestInfo } from "./../models/KeywordsDataBingSearchVolumeLiveRequestInfo";
+import { KeywordsDataBingSearchVolumeLiveResponseInfo } from "./../models/KeywordsDataBingSearchVolumeLiveResponseInfo";
+import { KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo";
+import { KeywordsDataBingAudienceEstimationIndustriesResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationIndustriesResponseInfo";
+import { KeywordsDataBingAudienceEstimationTaskPostRequestInfo } from "./../models/KeywordsDataBingAudienceEstimationTaskPostRequestInfo";
+import { KeywordsDataBingAudienceEstimationTaskPostResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationTaskPostResponseInfo";
+import { KeywordsDataBingAudienceEstimationTasksReadyResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationTasksReadyResponseInfo";
+import { KeywordsDataBingAudienceEstimationTaskGetResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationTaskGetResponseInfo";
+import { KeywordsDataBingAudienceEstimationLiveRequestInfo } from "./../models/KeywordsDataBingAudienceEstimationLiveRequestInfo";
+import { KeywordsDataBingAudienceEstimationLiveResponseInfo } from "./../models/KeywordsDataBingAudienceEstimationLiveResponseInfo";
+import { KeywordsDataBingKeywordsForSiteTaskPostRequestInfo } from "./../models/KeywordsDataBingKeywordsForSiteTaskPostRequestInfo";
+import { KeywordsDataBingKeywordsForSiteTaskPostResponseInfo } from "./../models/KeywordsDataBingKeywordsForSiteTaskPostResponseInfo";
+import { KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo } from "./../models/KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo";
+import { KeywordsDataBingKeywordsForSiteTaskGetResponseInfo } from "./../models/KeywordsDataBingKeywordsForSiteTaskGetResponseInfo";
+import { KeywordsDataBingKeywordsForSiteLiveRequestInfo } from "./../models/KeywordsDataBingKeywordsForSiteLiveRequestInfo";
+import { KeywordsDataBingKeywordsForSiteLiveResponseInfo } from "./../models/KeywordsDataBingKeywordsForSiteLiveResponseInfo";
+import { KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo";
+import { KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo";
+import { KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo";
+import { KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo";
+import { KeywordsDataBingKeywordsForKeywordsLiveRequestInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsLiveRequestInfo";
+import { KeywordsDataBingKeywordsForKeywordsLiveResponseInfo } from "./../models/KeywordsDataBingKeywordsForKeywordsLiveResponseInfo";
+import { KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo } from "./../models/KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo";
+import { KeywordsDataBingKeywordPerformanceTaskPostRequestInfo } from "./../models/KeywordsDataBingKeywordPerformanceTaskPostRequestInfo";
+import { KeywordsDataBingKeywordPerformanceTaskPostResponseInfo } from "./../models/KeywordsDataBingKeywordPerformanceTaskPostResponseInfo";
+import { KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo } from "./../models/KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo";
+import { KeywordsDataBingKeywordPerformanceTaskGetResponseInfo } from "./../models/KeywordsDataBingKeywordPerformanceTaskGetResponseInfo";
+import { KeywordsDataBingKeywordPerformanceLiveRequestInfo } from "./../models/KeywordsDataBingKeywordPerformanceLiveRequestInfo";
+import { KeywordsDataBingKeywordPerformanceLiveResponseInfo } from "./../models/KeywordsDataBingKeywordPerformanceLiveResponseInfo";
+import { KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo";
+import { KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo";
+import { KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo";
+import { KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo";
+import { KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo";
+import { KeywordsDataBingSearchVolumeHistoryLiveRequestInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryLiveRequestInfo";
+import { KeywordsDataBingSearchVolumeHistoryLiveResponseInfo } from "./../models/KeywordsDataBingSearchVolumeHistoryLiveResponseInfo";
+import { KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo } from "./../models/KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo";
+import { KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo } from "./../models/KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo";
+import { KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo } from "./../models/KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo";
+import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo } from "./../models/KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo";
+import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo } from "./../models/KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo";
+import { KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo } from "./../models/KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo";
+import { KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo } from "./../models/KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo";
+import { ApiException, throwException } from "./../models/ApiException"
 
 export class KeywordsDataApi {
     private http: { fetch(url: RequestInfo, init?: RequestInit): Promise<Response> };
@@ -121,7 +121,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -134,14 +134,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataIdListResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataIdListResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataIdListResponseInfo | null>(null as any);
@@ -156,7 +156,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -169,14 +169,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataErrorsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataErrorsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataErrorsResponseInfo | null>(null as any);
@@ -184,13 +184,11 @@ export class KeywordsDataApi {
     googleAdsStatus(): Promise<KeywordsDataGoogleAdsStatusResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/status";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -204,14 +202,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsStatusResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsStatusResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsStatusResponseInfo | null>(null as any);
@@ -219,13 +217,11 @@ export class KeywordsDataApi {
     keywordsDataGoogleAdsLocations(): Promise<KeywordsDataGoogleAdsLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -239,14 +235,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsLocationsResponseInfo | null>(null as any);
@@ -254,15 +250,12 @@ export class KeywordsDataApi {
     keywordsDataGoogleAdsLocationsCountry(country: string): Promise<KeywordsDataGoogleAdsLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -276,14 +269,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsLocationsCountryResponseInfo | null>(null as any);
@@ -291,13 +284,11 @@ export class KeywordsDataApi {
     keywordsDataGoogleAdsLanguages(): Promise<KeywordsDataGoogleAdsLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -311,14 +302,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsLanguagesResponseInfo | null>(null as any);
@@ -333,7 +324,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -346,14 +337,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo | null>(null as any);
@@ -361,13 +352,11 @@ export class KeywordsDataApi {
     googleAdsSearchVolumeTasksReady(): Promise<KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/search_volume/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -381,14 +370,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo | null>(null as any);
@@ -396,15 +385,12 @@ export class KeywordsDataApi {
     googleAdsSearchVolumeTaskGet(id: string): Promise<KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/search_volume/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -418,14 +404,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo | null>(null as any);
@@ -440,7 +426,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -453,14 +439,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo | null>(null as any);
@@ -475,7 +461,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -488,14 +474,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo | null>(null as any);
@@ -503,13 +489,11 @@ export class KeywordsDataApi {
     googleAdsKeywordsForSiteTasksReady(): Promise<KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/keywords_for_site/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -523,14 +507,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo | null>(null as any);
@@ -538,15 +522,12 @@ export class KeywordsDataApi {
     googleAdsKeywordsForSiteTaskGet(id: string): Promise<KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/keywords_for_site/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -560,14 +541,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo | null>(null as any);
@@ -582,7 +563,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -595,14 +576,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo | null>(null as any);
@@ -617,7 +598,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -630,14 +611,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo | null>(null as any);
@@ -645,13 +626,11 @@ export class KeywordsDataApi {
     googleAdsKeywordsForKeywordsTasksReady(): Promise<KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/keywords_for_keywords/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -665,14 +644,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo | null>(null as any);
@@ -680,15 +659,12 @@ export class KeywordsDataApi {
     googleAdsKeywordsForKeywordsTaskGet(id: string): Promise<KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/keywords_for_keywords/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -702,14 +678,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo | null>(null as any);
@@ -724,7 +700,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -737,14 +713,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo | null>(null as any);
@@ -759,7 +735,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -772,14 +748,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo | null>(null as any);
@@ -787,13 +763,11 @@ export class KeywordsDataApi {
     googleAdsAdTrafficByKeywordsTasksReady(): Promise<KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/ad_traffic_by_keywords/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -807,14 +781,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo | null>(null as any);
@@ -822,15 +796,12 @@ export class KeywordsDataApi {
     googleAdsAdTrafficByKeywordsTaskGet(id: string): Promise<KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_ads/ad_traffic_by_keywords/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -844,14 +815,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo | null>(null as any);
@@ -866,7 +837,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -879,14 +850,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo | null>(null as any);
@@ -894,13 +865,11 @@ export class KeywordsDataApi {
     keywordsDataGoogleTrendsLocations(): Promise<KeywordsDataGoogleTrendsLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -914,14 +883,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsLocationsResponseInfo | null>(null as any);
@@ -929,15 +898,12 @@ export class KeywordsDataApi {
     keywordsDataGoogleTrendsLocationsCountry(country: string): Promise<KeywordsDataGoogleTrendsLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -951,14 +917,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsLocationsCountryResponseInfo | null>(null as any);
@@ -966,13 +932,11 @@ export class KeywordsDataApi {
     keywordsDataGoogleTrendsLanguages(): Promise<KeywordsDataGoogleTrendsLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -986,14 +950,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsLanguagesResponseInfo | null>(null as any);
@@ -1001,13 +965,11 @@ export class KeywordsDataApi {
     googleTrendsCategories(): Promise<KeywordsDataGoogleTrendsCategoriesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/categories";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1021,14 +983,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsCategoriesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsCategoriesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsCategoriesResponseInfo | null>(null as any);
@@ -1043,7 +1005,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1056,14 +1018,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsExploreTaskPostResponseInfo | null>(null as any);
@@ -1071,13 +1033,11 @@ export class KeywordsDataApi {
     googleTrendsExploreTasksReady(): Promise<KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/explore/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1091,14 +1051,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo | null>(null as any);
@@ -1106,15 +1066,12 @@ export class KeywordsDataApi {
     googleTrendsExploreTaskGet(id: string): Promise<KeywordsDataGoogleTrendsExploreTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/google_trends/explore/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1128,14 +1085,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsExploreTaskGetResponseInfo | null>(null as any);
@@ -1150,7 +1107,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1163,14 +1120,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataGoogleTrendsExploreLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataGoogleTrendsExploreLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataGoogleTrendsExploreLiveResponseInfo | null>(null as any);
@@ -1178,13 +1135,11 @@ export class KeywordsDataApi {
     keywordsDataDataforseoTrendsLocations(): Promise<KeywordsDataDataforseoTrendsLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/dataforseo_trends/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1198,14 +1153,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsLocationsResponseInfo | null>(null as any);
@@ -1213,15 +1168,12 @@ export class KeywordsDataApi {
     keywordsDataDataforseoTrendsLocationsCountry(country: string): Promise<KeywordsDataDataforseoTrendsLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/dataforseo_trends/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ country }", encodeURIComponent("" + country));
-    
-
+        url_ = url_.replace("{country}", encodeURIComponent("" + country));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1235,14 +1187,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsLocationsCountryResponseInfo | null>(null as any);
@@ -1257,7 +1209,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1270,14 +1222,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsExploreLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsExploreLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsExploreLiveResponseInfo | null>(null as any);
@@ -1292,7 +1244,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1305,14 +1257,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo | null>(null as any);
@@ -1327,7 +1279,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1340,14 +1292,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsDemographyLiveResponseInfo | null>(null as any);
@@ -1362,7 +1314,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1375,14 +1327,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo | null>(null as any);
@@ -1390,13 +1342,11 @@ export class KeywordsDataApi {
     keywordsDataBingLocations(): Promise<KeywordsDataBingLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/locations";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1410,14 +1360,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingLocationsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingLocationsResponseInfo | null>(null as any);
@@ -1425,13 +1375,11 @@ export class KeywordsDataApi {
     keywordsDataBingLanguages(): Promise<KeywordsDataBingLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1445,14 +1393,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingLanguagesResponseInfo | null>(null as any);
@@ -1467,7 +1415,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1480,14 +1428,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeTaskPostResponseInfo | null>(null as any);
@@ -1495,13 +1443,11 @@ export class KeywordsDataApi {
     bingSearchVolumeTasksReady(): Promise<KeywordsDataBingSearchVolumeTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/search_volume/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1515,14 +1461,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeTasksReadyResponseInfo | null>(null as any);
@@ -1530,15 +1476,12 @@ export class KeywordsDataApi {
     bingSearchVolumeTaskGet(id: string): Promise<KeywordsDataBingSearchVolumeTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/search_volume/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1552,14 +1495,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeTaskGetResponseInfo | null>(null as any);
@@ -1574,7 +1517,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1587,14 +1530,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeLiveResponseInfo | null>(null as any);
@@ -1602,13 +1545,11 @@ export class KeywordsDataApi {
     bingAudienceEstimationJobFunctions(): Promise<KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/audience_estimation/job_functions";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1622,14 +1563,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo | null>(null as any);
@@ -1637,13 +1578,11 @@ export class KeywordsDataApi {
     bingAudienceEstimationIndustries(): Promise<KeywordsDataBingAudienceEstimationIndustriesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/audience_estimation/industries";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1657,14 +1596,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationIndustriesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationIndustriesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationIndustriesResponseInfo | null>(null as any);
@@ -1679,7 +1618,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1692,14 +1631,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationTaskPostResponseInfo | null>(null as any);
@@ -1707,13 +1646,11 @@ export class KeywordsDataApi {
     bingAudienceEstimationTasksReady(): Promise<KeywordsDataBingAudienceEstimationTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/audience_estimation/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1727,14 +1664,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationTasksReadyResponseInfo | null>(null as any);
@@ -1742,15 +1679,12 @@ export class KeywordsDataApi {
     bingAudienceEstimationTaskGet(id: string): Promise<KeywordsDataBingAudienceEstimationTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/audience_estimation/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1764,14 +1698,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationTaskGetResponseInfo | null>(null as any);
@@ -1786,7 +1720,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1799,14 +1733,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingAudienceEstimationLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingAudienceEstimationLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingAudienceEstimationLiveResponseInfo | null>(null as any);
@@ -1821,7 +1755,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1834,14 +1768,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForSiteTaskPostResponseInfo | null>(null as any);
@@ -1849,13 +1783,11 @@ export class KeywordsDataApi {
     bingKeywordsForSiteTasksReady(): Promise<KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keywords_for_site/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1869,14 +1801,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo | null>(null as any);
@@ -1884,15 +1816,12 @@ export class KeywordsDataApi {
     bingKeywordsForSiteTaskGet(id: string): Promise<KeywordsDataBingKeywordsForSiteTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keywords_for_site/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -1906,14 +1835,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForSiteTaskGetResponseInfo | null>(null as any);
@@ -1928,7 +1857,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1941,14 +1870,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForSiteLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForSiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForSiteLiveResponseInfo | null>(null as any);
@@ -1963,7 +1892,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1976,14 +1905,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo | null>(null as any);
@@ -1991,13 +1920,11 @@ export class KeywordsDataApi {
     bingKeywordsForKeywordsTasksReady(): Promise<KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keywords_for_keywords/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2011,14 +1938,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo | null>(null as any);
@@ -2026,15 +1953,12 @@ export class KeywordsDataApi {
     bingKeywordsForKeywordsTaskGet(id: string): Promise<KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keywords_for_keywords/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2048,14 +1972,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo | null>(null as any);
@@ -2070,7 +1994,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2083,14 +2007,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordsForKeywordsLiveResponseInfo | null>(null as any);
@@ -2098,13 +2022,11 @@ export class KeywordsDataApi {
     keywordsDataBingKeywordPerformanceLocationsAndLanguages(): Promise<KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keyword_performance/locations_and_languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2118,14 +2040,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo | null>(null as any);
@@ -2140,7 +2062,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2153,14 +2075,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordPerformanceTaskPostResponseInfo | null>(null as any);
@@ -2168,13 +2090,11 @@ export class KeywordsDataApi {
     bingKeywordPerformanceTasksReady(): Promise<KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keyword_performance/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2188,14 +2108,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo | null>(null as any);
@@ -2203,15 +2123,12 @@ export class KeywordsDataApi {
     bingKeywordPerformanceTaskGet(id: string): Promise<KeywordsDataBingKeywordPerformanceTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/keyword_performance/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2225,14 +2142,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordPerformanceTaskGetResponseInfo | null>(null as any);
@@ -2247,7 +2164,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2260,14 +2177,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingKeywordPerformanceLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingKeywordPerformanceLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingKeywordPerformanceLiveResponseInfo | null>(null as any);
@@ -2275,13 +2192,11 @@ export class KeywordsDataApi {
     keywordsDataBingSearchVolumeHistoryLocationsAndLanguages(): Promise<KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/search_volume_history/locations_and_languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2295,14 +2210,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo | null>(null as any);
@@ -2317,7 +2232,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2330,14 +2245,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo | null>(null as any);
@@ -2345,13 +2260,11 @@ export class KeywordsDataApi {
     bingSearchVolumeHistoryTasksReady(): Promise<KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/search_volume_history/tasks_ready";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2365,14 +2278,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo | null>(null as any);
@@ -2380,15 +2293,12 @@ export class KeywordsDataApi {
     bingSearchVolumeHistoryTaskGet(id: string): Promise<KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/bing/search_volume_history/task_get/{id}";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-        url_ = url_.replace("{ id }", encodeURIComponent("" + id));
-    
-
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2402,14 +2312,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo | null>(null as any);
@@ -2424,7 +2334,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2437,14 +2347,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataBingSearchVolumeHistoryLiveResponseInfo | null>(null as any);
@@ -2452,13 +2362,11 @@ export class KeywordsDataApi {
     keywordsDataClickstreamDataLocationsAndLanguages(): Promise<KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/keywords_data/clickstream_data/locations_and_languages";
         url_ = url_.replace(/[?&]$/, "");
-
-    
-
         let options_: RequestInit = {
             method: "GET",
             headers: {
-                "Accept": "application/json"
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
 
@@ -2472,14 +2380,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo | null>(null as any);
@@ -2494,7 +2402,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2507,14 +2415,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo | null>(null as any);
@@ -2529,7 +2437,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2542,14 +2450,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo | null>(null as any);
@@ -2564,7 +2472,7 @@ export class KeywordsDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/",
+                "User-Agent": "typescript-client/2.0.1",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2577,14 +2485,14 @@ export class KeywordsDataApi {
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
             return response.text().then((_responseText) => {
-            let result200: any = null;
-            let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-            result200 = resultData200 ? KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
-            return result200;
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
             });
         } else if (status !== 200 && status !== 204) {
             return response.text().then((_responseText) => {
-            return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
             });
         }
         return Promise.resolve<KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo | null>(null as any);

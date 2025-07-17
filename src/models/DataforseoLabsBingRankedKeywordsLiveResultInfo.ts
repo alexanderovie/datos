@@ -1,6 +1,6 @@
-import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 import { DataforseoLabsRankedKeywordsLiveItem, IDataforseoLabsRankedKeywordsLiveItem } from "./DataforseoLabsRankedKeywordsLiveItem";
-import { ApiException, throwException } from "./ApiException"
+import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
+
 
 export interface IDataforseoLabsBingRankedKeywordsLiveResultInfo   {
         
