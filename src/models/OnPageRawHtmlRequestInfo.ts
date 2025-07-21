@@ -5,13 +5,13 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string | undefined
+        id?: string
         
         /** page url
 required field
 the absolute URL of a page to request HTML
 Note: this field is optional if the task was set using the Instant Pages endpoint */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -25,14 +25,14 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string | undefined;
+    id?: string;
     
     /** page url
 required field
 the absolute URL of a page to request HTML
 Note: this field is optional if the task was set using the Instant Pages endpoint */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

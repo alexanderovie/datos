@@ -1,11 +1,10 @@
 import { BusinessDataIdListResultInfo, IBusinessDataIdListResultInfo } from "./BusinessDataIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IBusinessDataIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataIdListResultInfo[] | undefined
+        result?: BusinessDataIdListResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataIdListTaskInfo  extends BaseResponseTaskInfo   implemen
     
     /** array of results */
 
-    result?: BusinessDataIdListResultInfo[] | undefined;
+    result?: BusinessDataIdListResultInfo[];
 
     [key: string]: any;
 

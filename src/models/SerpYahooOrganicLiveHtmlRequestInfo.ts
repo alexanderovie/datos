@@ -5,7 +5,7 @@ optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
 https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8 */
-        url?: string | undefined
+        url?: string
         
         /** keyword
 required field
@@ -14,7 +14,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -22,7 +22,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -30,7 +30,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -41,7 +41,7 @@ the minimum value for “radius”: 199.9 (mm)
 the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -49,7 +49,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -57,13 +57,13 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/yahoo/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
-        device?: string | undefined
+        device?: string
         
         /** device operating system
 optional field
@@ -71,7 +71,7 @@ if you specify desktop in the device field, choose from the following values: wi
 default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
-        os?: string | undefined
+        os?: string
         
         /** search engine domain
 optional field
@@ -79,7 +79,7 @@ we choose the relevant search engine domain automatically according to the locat
 however, you can set a custom search engine domain in this field
 example:
 au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc. */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** parsing depth
 optional field
@@ -89,7 +89,7 @@ max value: 700
 Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number | undefined
+        depth?: number
         
         /** page crawl limit
 optional field
@@ -97,12 +97,12 @@ number of search results pages to crawl
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
-        max_crawl_pages?: number | undefined
+        max_crawl_pages?: number
         
         /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
-        search_param?: string | undefined
+        search_param?: string
 
     [key: string]: any;
 
@@ -116,7 +116,7 @@ you can specify a direct URL and we will sort it out to the necessary fields. No
 example:
 https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8 */
 
-    url?: string | undefined;
+    url?: string;
     
     /** keyword
 required field
@@ -126,7 +126,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -135,7 +135,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -144,7 +144,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -156,7 +156,7 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -165,7 +165,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -174,14 +174,14 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
 
-    device?: string | undefined;
+    device?: string;
     
     /** device operating system
 optional field
@@ -190,7 +190,7 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
 
-    os?: string | undefined;
+    os?: string;
     
     /** search engine domain
 optional field
@@ -199,7 +199,7 @@ however, you can set a custom search engine domain in this field
 example:
 au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc. */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** parsing depth
 optional field
@@ -210,7 +210,7 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** page crawl limit
 optional field
@@ -219,13 +219,13 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
-    max_crawl_pages?: number | undefined;
+    max_crawl_pages?: number;
     
     /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
 
-    search_param?: string | undefined;
+    search_param?: string;
 
     [key: string]: any;
 

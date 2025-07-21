@@ -2,58 +2,57 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { BusinessDataUserProfileInfo, IBusinessDataUserProfileInfo } from "./BusinessDataUserProfileInfo";
 import { ReviewResponseItemInfo, IReviewResponseItemInfo } from "./ReviewResponseItemInfo";
 
-
 export interface ITrustpilotReviewSearch   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the review in SERP
 can take the following values: right */
-        position?: string | undefined
+        position?: string
         
         /** the URL of the review */
-        url?: string | undefined
+        url?: string
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** indicates whether the review has the “Verified” mark */
-        verified?: boolean | undefined
+        verified?: boolean
         
         /** the language of the review */
-        language?: string | undefined
+        language?: string
         
         /** date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** the title of the review */
-        title?: string | undefined
+        title?: string
         
         /** the content of the review */
-        review_text?: string | undefined
+        review_text?: string
         
         /** images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
 please note that Trustpilot doesn’t allow adding images to reviews, so the review_images parameter will always equal null */
-        review_images?: string[] | undefined
+        review_images?: string[]
         
         /** user profile of the reviewer */
-        user_profile?: BusinessDataUserProfileInfo | undefined
+        user_profile?: BusinessDataUserProfileInfo
         
         /** owner’s response to the submitted review */
-        responses?: ReviewResponseItemInfo[] | undefined
+        responses?: ReviewResponseItemInfo[]
 
     [key: string]: any;
 
@@ -63,67 +62,67 @@ export class TrustpilotReviewSearch  implements ITrustpilotReviewSearch {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the review in SERP
 can take the following values: right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the URL of the review */
 
-    url?: string | undefined;
+    url?: string;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** indicates whether the review has the “Verified” mark */
 
-    verified?: boolean | undefined;
+    verified?: boolean;
     
     /** the language of the review */
 
-    language?: string | undefined;
+    language?: string;
     
     /** date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** the title of the review */
 
-    title?: string | undefined;
+    title?: string;
     
     /** the content of the review */
 
-    review_text?: string | undefined;
+    review_text?: string;
     
     /** images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
 please note that Trustpilot doesn’t allow adding images to reviews, so the review_images parameter will always equal null */
 
-    review_images?: string[] | undefined;
+    review_images?: string[];
     
     /** user profile of the reviewer */
 
-    user_profile?: BusinessDataUserProfileInfo | undefined;
+    user_profile?: BusinessDataUserProfileInfo;
     
     /** owner’s response to the submitted review */
 
-    responses?: ReviewResponseItemInfo[] | undefined;
+    responses?: ReviewResponseItemInfo[];
 
     [key: string]: any;
 

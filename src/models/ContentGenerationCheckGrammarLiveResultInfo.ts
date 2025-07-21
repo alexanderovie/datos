@@ -1,28 +1,27 @@
 import { ContentGenerationCheckGrammarLiveItem, IContentGenerationCheckGrammarLiveItem } from "./ContentGenerationCheckGrammarLiveItem";
 
-
 export interface IContentGenerationCheckGrammarLiveResultInfo   {
         
         /** number of input tokens in the POST request */
-        input_tokens?: number | undefined
+        input_tokens?: number
         
         /** number of output tokens in the response */
-        output_tokens?: number | undefined
+        output_tokens?: number
         
         /** number of new tokens in the response */
-        new_tokens?: number | undefined
+        new_tokens?: number
         
         /** initial text in the POST request */
-        initial_text?: string | undefined
+        initial_text?: string
         
         /** language code in the POST request */
-        language_code?: string | undefined
+        language_code?: string
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains grammar or spelling errors and related data */
-        items?: ContentGenerationCheckGrammarLiveItem[] | undefined
+        items?: ContentGenerationCheckGrammarLiveItem[]
 
     [key: string]: any;
 
@@ -32,31 +31,31 @@ export class ContentGenerationCheckGrammarLiveResultInfo  implements IContentGen
     
     /** number of input tokens in the POST request */
 
-    input_tokens?: number | undefined;
+    input_tokens?: number;
     
     /** number of output tokens in the response */
 
-    output_tokens?: number | undefined;
+    output_tokens?: number;
     
     /** number of new tokens in the response */
 
-    new_tokens?: number | undefined;
+    new_tokens?: number;
     
     /** initial text in the POST request */
 
-    initial_text?: string | undefined;
+    initial_text?: string;
     
     /** language code in the POST request */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains grammar or spelling errors and related data */
 
-    items?: ContentGenerationCheckGrammarLiveItem[] | undefined;
+    items?: ContentGenerationCheckGrammarLiveItem[];
 
     [key: string]: any;
 

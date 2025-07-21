@@ -1,25 +1,24 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageKeywordDensityItem, IOnPageKeywordDensityItem } from "./OnPageKeywordDensityItem";
 
-
 export interface IOnPageKeywordDensityResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string | undefined
+        crawl_progress?: string
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo | undefined
+        crawl_status?: CrawlStatusInfo
         
         /** total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters */
-        total_items_count?: number | undefined
+        total_items_count?: number
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: OnPageKeywordDensityItem[] | undefined
+        items?: OnPageKeywordDensityItem[]
 
     [key: string]: any;
 
@@ -30,24 +29,24 @@ export class OnPageKeywordDensityResultInfo  implements IOnPageKeywordDensityRes
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string | undefined;
+    crawl_progress?: string;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo | undefined;
+    crawl_status?: CrawlStatusInfo;
     
     /** total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters */
 
-    total_items_count?: number | undefined;
+    total_items_count?: number;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: OnPageKeywordDensityItem[] | undefined;
+    items?: OnPageKeywordDensityItem[];
 
     [key: string]: any;
 

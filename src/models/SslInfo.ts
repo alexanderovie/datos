@@ -2,30 +2,30 @@ export interface ISslInfo   {
         
         /** ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid */
-        valid_certificate?: boolean | undefined
+        valid_certificate?: boolean
         
         /** ssl certificate authority
 the entity that issued the detected ssl certificate */
-        certificate_issuer?: string | undefined
+        certificate_issuer?: string
         
         /** ssl certificate subject
 the entity associated with the public key */
-        certificate_subject?: string | undefined
+        certificate_subject?: string
         
         /** ssl certificate version
 indicates the version of X.509 used by an ssl certificate */
-        certificate_version?: number | undefined
+        certificate_version?: number
         
         /** ssl certificate hash
 the version of the ssl certificate’s hash function */
-        certificate_hash?: string | undefined
+        certificate_hash?: string
         
         /** ssl certificate expiration date
 the date and time when the ssl certificate expires
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        certificate_expiration_date?: string | undefined
+        certificate_expiration_date?: string
 
     [key: string]: any;
 
@@ -36,27 +36,27 @@ export class SslInfo  implements ISslInfo {
     /** ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid */
 
-    valid_certificate?: boolean | undefined;
+    valid_certificate?: boolean;
     
     /** ssl certificate authority
 the entity that issued the detected ssl certificate */
 
-    certificate_issuer?: string | undefined;
+    certificate_issuer?: string;
     
     /** ssl certificate subject
 the entity associated with the public key */
 
-    certificate_subject?: string | undefined;
+    certificate_subject?: string;
     
     /** ssl certificate version
 indicates the version of X.509 used by an ssl certificate */
 
-    certificate_version?: number | undefined;
+    certificate_version?: number;
     
     /** ssl certificate hash
 the version of the ssl certificate’s hash function */
 
-    certificate_hash?: string | undefined;
+    certificate_hash?: string;
     
     /** ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -64,7 +64,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    certificate_expiration_date?: string | undefined;
+    certificate_expiration_date?: string;
 
     [key: string]: any;
 

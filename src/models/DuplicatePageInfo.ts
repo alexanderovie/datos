@@ -1,15 +1,14 @@
 import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
 
-
 export interface IDuplicatePageInfo   {
         
         /** content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10 */
-        similarity?: number | undefined
+        similarity?: number
         
         /** information about the page with duplicate content */
-        page?: BaseOnPageResourceItem[] | undefined
+        page?: BaseOnPageResourceItem[]
 
     [key: string]: any;
 
@@ -21,11 +20,11 @@ export class DuplicatePageInfo  implements IDuplicatePageInfo {
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10 */
 
-    similarity?: number | undefined;
+    similarity?: number;
     
     /** information about the page with duplicate content */
 
-    page?: BaseOnPageResourceItem[] | undefined;
+    page?: BaseOnPageResourceItem[];
 
     [key: string]: any;
 

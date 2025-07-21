@@ -1,65 +1,65 @@
 export interface IBacklinksPageMeta   {
         
         /** page title */
-        title?: string | undefined
+        title?: string
         
         /** canonical page */
-        canonical?: string | undefined
+        canonical?: string
         
         /** number of internal links on the page */
-        internal_links_count?: number | undefined
+        internal_links_count?: number
         
         /** number of external links on the page */
-        external_links_count?: number | undefined
+        external_links_count?: number
         
         /** number of images on the page */
-        images_count?: number | undefined
+        images_count?: number
         
         /** number of words on the page */
-        words_count?: number | undefined
+        words_count?: number
         
         /** spam score of the page
 learn more about how the metric is calculated on this help center page */
-        page_spam_score?: number | undefined
+        page_spam_score?: number
         
         /** array of social media tags found on the page
 contains social media tags and their content
 supported tags include but are not limited to Open Graph and Twitter card */
-        social_media_tags?: { [key: string]: string; } | undefined
+        social_media_tags?: { [key: string]: string; }
         
         /** h1 tag
 content of h1 tags */
-        h_1?: string[] | undefined
+        h_1?: string[]
         
         /** h2 tag
 content of h2 tags */
-        h_2?: string[] | undefined
+        h_2?: string[]
         
         /** h3 tag
 content of h3 tags */
-        h_3?: string[] | undefined
+        h_3?: string[]
         
         /** content of alt tags */
-        images_alt?: string[] | undefined
+        images_alt?: string[]
         
         /** CMS details */
-        powered_by?: string[] | undefined
+        powered_by?: string[]
         
         /** page content language
 example:
 en */
-        language?: string | undefined
+        language?: string
         
         /** character encoding
 examples:
 utf-8 */
-        charset?: string | undefined
+        charset?: string
         
         /** type of a platform */
-        platform_type?: string[] | undefined
+        platform_type?: string[]
         
         /** website technologies */
-        technologies?: { [key: string]: string; } | undefined
+        technologies?: { [key: string]: string; }
 
     [key: string]: any;
 
@@ -69,81 +69,81 @@ export class BacklinksPageMeta  implements IBacklinksPageMeta {
     
     /** page title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** canonical page */
 
-    canonical?: string | undefined;
+    canonical?: string;
     
     /** number of internal links on the page */
 
-    internal_links_count?: number | undefined;
+    internal_links_count?: number;
     
     /** number of external links on the page */
 
-    external_links_count?: number | undefined;
+    external_links_count?: number;
     
     /** number of images on the page */
 
-    images_count?: number | undefined;
+    images_count?: number;
     
     /** number of words on the page */
 
-    words_count?: number | undefined;
+    words_count?: number;
     
     /** spam score of the page
 learn more about how the metric is calculated on this help center page */
 
-    page_spam_score?: number | undefined;
+    page_spam_score?: number;
     
     /** array of social media tags found on the page
 contains social media tags and their content
 supported tags include but are not limited to Open Graph and Twitter card */
 
-    social_media_tags?: { [key: string]: string; } | undefined;
+    social_media_tags?: { [key: string]: string; };
     
     /** h1 tag
 content of h1 tags */
 
-    h_1?: string[] | undefined;
+    h_1?: string[];
     
     /** h2 tag
 content of h2 tags */
 
-    h_2?: string[] | undefined;
+    h_2?: string[];
     
     /** h3 tag
 content of h3 tags */
 
-    h_3?: string[] | undefined;
+    h_3?: string[];
     
     /** content of alt tags */
 
-    images_alt?: string[] | undefined;
+    images_alt?: string[];
     
     /** CMS details */
 
-    powered_by?: string[] | undefined;
+    powered_by?: string[];
     
     /** page content language
 example:
 en */
 
-    language?: string | undefined;
+    language?: string;
     
     /** character encoding
 examples:
 utf-8 */
 
-    charset?: string | undefined;
+    charset?: string;
     
     /** type of a platform */
 
-    platform_type?: string[] | undefined;
+    platform_type?: string[];
     
     /** website technologies */
 
-    technologies?: { [key: string]: string; } | undefined;
+    technologies?: { [key: string]: string; };
 
     [key: string]: any;
 

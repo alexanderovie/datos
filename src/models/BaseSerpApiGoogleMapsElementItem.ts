@@ -3,37 +3,36 @@ import { AddressInfo, IAddressInfo } from "./AddressInfo";
 import { WorkHours, IWorkHours } from "./WorkHours";
 import { LocalJustificationInfo, ILocalJustificationInfo } from "./LocalJustificationInfo";
 
-
 export interface IBaseSerpApiGoogleMapsElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
-        rating_distribution?: { [key: string]: number; } | undefined
+        rating_distribution?: { [key: string]: number; }
 
     [key: string]: any;
 
@@ -43,40 +42,40 @@ export class BaseSerpApiGoogleMapsElementItem  implements IBaseSerpApiGoogleMaps
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
 
-    rating_distribution?: { [key: string]: number; } | undefined;
+    rating_distribution?: { [key: string]: number; };
 
     [key: string]: any;
 
@@ -156,96 +155,96 @@ export interface ISerpApiMapsSearchElementItem  extends IBaseSerpApiGoogleMapsEl
         
         /** original title of the element
 original title not translated by Google */
-        original_title?: string | undefined
+        original_title?: string
         
         /** URL of the preferred contact page */
-        contact_url?: string | undefined
+        contact_url?: string
         
         /** URL of the user’s or entity’s Local Guides profile, if available */
-        contributor_url?: string | undefined
+        contributor_url?: string
         
         /** URL in the ‘book online’ button of the element
 URL directing users to the online booking or order page of the business entity */
-        book_online_url?: string | undefined
+        book_online_url?: string
         
         /** hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null */
-        hotel_rating?: number | undefined
+        hotel_rating?: number
         
         /** property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null */
-        price_level?: string | undefined
+        price_level?: string
         
         /** element snippet
 contains the address and other information about the local establishment featured in the element */
-        snippet?: string | undefined
+        snippet?: string
         
         /** address line
 address of the local establishment featured in the element */
-        address?: string | undefined
+        address?: string
         
         /** object containing address components of the local establishment */
-        address_info?: AddressInfo | undefined
+        address_info?: AddressInfo
         
         /** unique place identifier
 place id of the local establishment featured in the element */
-        place_id?: string | undefined
+        place_id?: string
         
         /** phone number
 phone number of the local establishment featured in the element */
-        phone?: string | undefined
+        phone?: string
         
         /** URL of the main image featured in Google My Business profile */
-        main_image?: string | undefined
+        main_image?: string
         
         /** total count of images featured in Google My Business profile */
-        total_photos?: number | undefined
+        total_photos?: number
         
         /** business category
 Google My Business general category that best describes the services provided by the business entity */
-        category?: string | undefined
+        category?: string
         
         /** additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail */
-        additional_categories?: string[] | undefined
+        additional_categories?: string[]
         
         /** global category IDs
 universal category IDs that do not change based on the selected country */
-        category_ids?: string[] | undefined
+        category_ids?: string[]
         
         /** open hours
 information about work hours of the local establishment */
-        work_hours?: WorkHours | undefined
+        work_hours?: WorkHours
         
         /** the unique identifier of the element in SERP */
-        feature_id?: string | undefined
+        feature_id?: string
         
         /** google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
-        cid?: string | undefined
+        cid?: string
         
         /** latitude coordinate of the local establishments in google maps
 example:
 'latitude': 51.584091 */
-        latitude?: number | undefined
+        latitude?: number
         
         /** longitude coordinate of the local establishment in google maps
 example:
 'longitude': -0.31365919999999997 */
-        longitude?: number | undefined
+        longitude?: number
         
         /** indicates whether ownership of this local establishment is claimed */
-        is_claimed?: boolean | undefined
+        is_claimed?: boolean
         
         /** Google local justifications
 snippets of text that “justify” why the business is showing up for search query */
-        local_justifications?: LocalJustificationInfo[] | undefined
+        local_justifications?: LocalJustificationInfo[]
         
         /** indicates whether this local establishment is a directory */
-        is_directory_item?: boolean | undefined
+        is_directory_item?: boolean
 
     [key: string]: any;
 
@@ -256,119 +255,119 @@ export class SerpApiMapsSearchElementItem  extends BaseSerpApiGoogleMapsElementI
     /** original title of the element
 original title not translated by Google */
 
-    original_title?: string | undefined;
+    original_title?: string;
     
     /** URL of the preferred contact page */
 
-    contact_url?: string | undefined;
+    contact_url?: string;
     
     /** URL of the user’s or entity’s Local Guides profile, if available */
 
-    contributor_url?: string | undefined;
+    contributor_url?: string;
     
     /** URL in the ‘book online’ button of the element
 URL directing users to the online booking or order page of the business entity */
 
-    book_online_url?: string | undefined;
+    book_online_url?: string;
     
     /** hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null */
 
-    hotel_rating?: number | undefined;
+    hotel_rating?: number;
     
     /** property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null */
 
-    price_level?: string | undefined;
+    price_level?: string;
     
     /** element snippet
 contains the address and other information about the local establishment featured in the element */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** address line
 address of the local establishment featured in the element */
 
-    address?: string | undefined;
+    address?: string;
     
     /** object containing address components of the local establishment */
 
-    address_info?: AddressInfo | undefined;
+    address_info?: AddressInfo;
     
     /** unique place identifier
 place id of the local establishment featured in the element */
 
-    place_id?: string | undefined;
+    place_id?: string;
     
     /** phone number
 phone number of the local establishment featured in the element */
 
-    phone?: string | undefined;
+    phone?: string;
     
     /** URL of the main image featured in Google My Business profile */
 
-    main_image?: string | undefined;
+    main_image?: string;
     
     /** total count of images featured in Google My Business profile */
 
-    total_photos?: number | undefined;
+    total_photos?: number;
     
     /** business category
 Google My Business general category that best describes the services provided by the business entity */
 
-    category?: string | undefined;
+    category?: string;
     
     /** additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail */
 
-    additional_categories?: string[] | undefined;
+    additional_categories?: string[];
     
     /** global category IDs
 universal category IDs that do not change based on the selected country */
 
-    category_ids?: string[] | undefined;
+    category_ids?: string[];
     
     /** open hours
 information about work hours of the local establishment */
 
-    work_hours?: WorkHours | undefined;
+    work_hours?: WorkHours;
     
     /** the unique identifier of the element in SERP */
 
-    feature_id?: string | undefined;
+    feature_id?: string;
     
     /** google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** latitude coordinate of the local establishments in google maps
 example:
 'latitude': 51.584091 */
 
-    latitude?: number | undefined;
+    latitude?: number;
     
     /** longitude coordinate of the local establishment in google maps
 example:
 'longitude': -0.31365919999999997 */
 
-    longitude?: number | undefined;
+    longitude?: number;
     
     /** indicates whether ownership of this local establishment is claimed */
 
-    is_claimed?: boolean | undefined;
+    is_claimed?: boolean;
     
     /** Google local justifications
 snippets of text that “justify” why the business is showing up for search query */
 
-    local_justifications?: LocalJustificationInfo[] | undefined;
+    local_justifications?: LocalJustificationInfo[];
     
     /** indicates whether this local establishment is a directory */
 
-    is_directory_item?: boolean | undefined;
+    is_directory_item?: boolean;
 
     [key: string]: any;
 

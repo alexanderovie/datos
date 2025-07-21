@@ -1,11 +1,10 @@
 import { BacklinksPageIntersectionLiveTaskInfo, IBacklinksPageIntersectionLiveTaskInfo } from "./BacklinksPageIntersectionLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBacklinksPageIntersectionLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BacklinksPageIntersectionLiveTaskInfo[] | undefined
+        tasks?: BacklinksPageIntersectionLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BacklinksPageIntersectionLiveResponseInfo  extends BaseResponseInfo
     
     /** array of tasks */
 
-    tasks?: BacklinksPageIntersectionLiveTaskInfo[] | undefined;
+    tasks?: BacklinksPageIntersectionLiveTaskInfo[];
 
     [key: string]: any;
 

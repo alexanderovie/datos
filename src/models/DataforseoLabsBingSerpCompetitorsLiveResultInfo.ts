@@ -1,31 +1,30 @@
 import { DataforseoLabsSerpCompetitorsLiveItem, IDataforseoLabsSerpCompetitorsLiveItem } from "./DataforseoLabsSerpCompetitorsLiveItem";
 
-
 export interface IDataforseoLabsBingSerpCompetitorsLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        seed_keywords?: string[] | undefined
+        seed_keywords?: string[]
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array
 if there is no data, then the value is null */
-        language_code?: string | undefined
+        language_code?: string
         
         /** the total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains detected SERP competitors and related data */
-        items?: DataforseoLabsSerpCompetitorsLiveItem[] | undefined
+        items?: DataforseoLabsSerpCompetitorsLiveItem[]
 
     [key: string]: any;
 
@@ -35,34 +34,34 @@ export class DataforseoLabsBingSerpCompetitorsLiveResultInfo  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keywords specified in the request
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    seed_keywords?: string[] | undefined;
+    seed_keywords?: string[];
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** the total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains detected SERP competitors and related data */
 
-    items?: DataforseoLabsSerpCompetitorsLiveItem[] | undefined;
+    items?: DataforseoLabsSerpCompetitorsLiveItem[];
 
     [key: string]: any;
 

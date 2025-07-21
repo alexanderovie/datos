@@ -1,11 +1,10 @@
 import { ContentGenerationGrammarRulesTaskInfo, IContentGenerationGrammarRulesTaskInfo } from "./ContentGenerationGrammarRulesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IContentGenerationGrammarRulesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentGenerationGrammarRulesTaskInfo[] | undefined
+        tasks?: ContentGenerationGrammarRulesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentGenerationGrammarRulesResponseInfo  extends BaseResponseInfo
     
     /** array of tasks */
 
-    tasks?: ContentGenerationGrammarRulesTaskInfo[] | undefined;
+    tasks?: ContentGenerationGrammarRulesTaskInfo[];
 
     [key: string]: any;
 

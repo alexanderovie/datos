@@ -1,14 +1,13 @@
 import { BaseOnPageLinkItem, IBaseOnPageLinkItem } from "./BaseOnPageLinkItem";
 
-
 export interface IOnPageRedirectChainsItem   {
         
         /** indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL */
-        is_redirect_loop?: boolean | undefined
+        is_redirect_loop?: boolean
         
         /** contains links that form a chain */
-        chain?: BaseOnPageLinkItem[] | undefined
+        chain?: BaseOnPageLinkItem[]
 
     [key: string]: any;
 
@@ -19,11 +18,11 @@ export class OnPageRedirectChainsItem  implements IOnPageRedirectChainsItem {
     /** indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL */
 
-    is_redirect_loop?: boolean | undefined;
+    is_redirect_loop?: boolean;
     
     /** contains links that form a chain */
 
-    chain?: BaseOnPageLinkItem[] | undefined;
+    chain?: BaseOnPageLinkItem[];
 
     [key: string]: any;
 

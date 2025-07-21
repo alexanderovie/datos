@@ -1,11 +1,10 @@
 import { KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo, IKeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo } from "./KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IKeywordsDataBingSearchVolumeHistoryTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo[] | undefined
+        result?: KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataBingSearchVolumeHistoryTasksReadyTaskInfo  extends Base
     
     /** array of results */
 
-    result?: KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo[] | undefined;
+    result?: KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo[];
 
     [key: string]: any;
 

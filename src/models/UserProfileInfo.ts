@@ -1,19 +1,19 @@
 export interface IUserProfileInfo   {
         
         /** the name of the reviewer */
-        name?: string | undefined
+        name?: string
         
         /** URL to the profile picture of the reviewer */
-        avatar?: string | undefined
+        avatar?: string
         
         /** relevant url */
-        url?: string | undefined
+        url?: string
         
         /** total number of reviews submitted by the reviewer */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** country of the reviewer */
-        locations?: string | undefined
+        locations?: string
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class UserProfileInfo  implements IUserProfileInfo {
     
     /** the name of the reviewer */
 
-    name?: string | undefined;
+    name?: string;
     
     /** URL to the profile picture of the reviewer */
 
-    avatar?: string | undefined;
+    avatar?: string;
     
     /** relevant url */
 
-    url?: string | undefined;
+    url?: string;
     
     /** total number of reviews submitted by the reviewer */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** country of the reviewer */
 
-    locations?: string | undefined;
+    locations?: string;
 
     [key: string]: any;
 

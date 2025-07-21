@@ -1,10 +1,10 @@
 export interface IAppendixErrorsResultInfo   {
         
         /** code */
-        code?: number | undefined
+        code?: number
         
         /** message */
-        message?: string | undefined
+        message?: string
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class AppendixErrorsResultInfo  implements IAppendixErrorsResultInfo {
     
     /** code */
 
-    code?: number | undefined;
+    code?: number;
     
     /** message */
 
-    message?: string | undefined;
+    message?: string;
 
     [key: string]: any;
 

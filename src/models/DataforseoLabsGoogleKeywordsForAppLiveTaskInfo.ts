@@ -1,11 +1,10 @@
 import { DataforseoLabsGoogleKeywordsForAppLiveResultInfo, IDataforseoLabsGoogleKeywordsForAppLiveResultInfo } from "./DataforseoLabsGoogleKeywordsForAppLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsGoogleKeywordsForAppLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsGoogleKeywordsForAppLiveResultInfo[] | undefined
+        result?: DataforseoLabsGoogleKeywordsForAppLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsGoogleKeywordsForAppLiveTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: DataforseoLabsGoogleKeywordsForAppLiveResultInfo[] | undefined;
+    result?: DataforseoLabsGoogleKeywordsForAppLiveResultInfo[];
 
     [key: string]: any;
 

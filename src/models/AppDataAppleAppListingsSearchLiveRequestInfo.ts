@@ -5,19 +5,19 @@ optional field
 the categories you specify are used to search for app listings;
 you can get the full list of available app listing categories by this link
 you can specify up to 10 categories */
-        categories?: string[] | undefined
+        categories?: string[]
         
         /** keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
 can contain up to 200 characters */
-        description?: string | undefined
+        description?: string
         
         /** keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
 can contain up to 200 characters */
-        title?: string | undefined
+        title?: string
         
         /** array of results filtering parameters
 optional field
@@ -29,7 +29,7 @@ you can use the % operator with like and not_like to match any string of zero or
 example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -44,19 +44,19 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['item.rating.value,desc','item.rating.value,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 optional field
@@ -65,14 +65,14 @@ use this parameter to avoid timeouts while trying to obtain over 100,000 results
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -86,21 +86,21 @@ the categories you specify are used to search for app listings;
 you can get the full list of available app listing categories by this link
 you can specify up to 10 categories */
 
-    categories?: string[] | undefined;
+    categories?: string[];
     
     /** keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
 can contain up to 200 characters */
 
-    description?: string | undefined;
+    description?: string;
     
     /** keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
 can contain up to 200 characters */
 
-    title?: string | undefined;
+    title?: string;
     
     /** array of results filtering parameters
 optional field
@@ -113,7 +113,7 @@ example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -129,21 +129,21 @@ you should use a comma to separate several sorting rules
 example:
 ['item.rating.value,desc','item.rating.value,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 optional field
@@ -153,7 +153,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** user-defined task identifier
 optional field
@@ -161,7 +161,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

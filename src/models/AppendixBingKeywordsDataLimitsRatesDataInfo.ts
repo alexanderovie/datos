@@ -1,19 +1,18 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixBingKeywordsDataLimitsRatesDataInfo   {
         
-        keyword_performance?: AppendixInfo | undefined
+        keyword_performance?: AppendixInfo
         
-        search_volume?: AppendixInfo | undefined
+        search_volume?: AppendixInfo
         
-        keywords_for_site?: AppendixInfo | undefined
+        keywords_for_site?: AppendixInfo
         
-        keywords_for_keywords?: AppendixInfo | undefined
+        keywords_for_keywords?: AppendixInfo
         
-        audience_estimation?: AppendixInfo | undefined
+        audience_estimation?: AppendixInfo
         
-        keyword_suggestions_for_url?: AppendixInfo | undefined
+        keyword_suggestions_for_url?: AppendixInfo
 
     [key: string]: any;
 
@@ -21,17 +20,17 @@ export interface IAppendixBingKeywordsDataLimitsRatesDataInfo   {
 
 export class AppendixBingKeywordsDataLimitsRatesDataInfo  implements IAppendixBingKeywordsDataLimitsRatesDataInfo {
 
-    keyword_performance?: AppendixInfo | undefined;
+    keyword_performance?: AppendixInfo;
 
-    search_volume?: AppendixInfo | undefined;
+    search_volume?: AppendixInfo;
 
-    keywords_for_site?: AppendixInfo | undefined;
+    keywords_for_site?: AppendixInfo;
 
-    keywords_for_keywords?: AppendixInfo | undefined;
+    keywords_for_keywords?: AppendixInfo;
 
-    audience_estimation?: AppendixInfo | undefined;
+    audience_estimation?: AppendixInfo;
 
-    keyword_suggestions_for_url?: AppendixInfo | undefined;
+    keyword_suggestions_for_url?: AppendixInfo;
 
     [key: string]: any;
 

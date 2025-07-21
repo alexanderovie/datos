@@ -1,17 +1,16 @@
 import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
 
-
 export interface IKeywordsDataClickstreamDataSearchVolumeLiveItem   {
         
         /** keyword provided in the POST array */
-        keyword?: string | undefined
+        keyword?: string
         
         /** current search volume rate of a keyword */
-        search_volume?: number | undefined
+        search_volume?: number
         
         /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */
-        monthly_searches?: MonthlySearchesInfo[] | undefined
+        monthly_searches?: MonthlySearchesInfo[]
 
     [key: string]: any;
 
@@ -21,16 +20,16 @@ export class KeywordsDataClickstreamDataSearchVolumeLiveItem  implements IKeywor
     
     /** keyword provided in the POST array */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** current search volume rate of a keyword */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
     
     /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */
 
-    monthly_searches?: MonthlySearchesInfo[] | undefined;
+    monthly_searches?: MonthlySearchesInfo[];
 
     [key: string]: any;
 

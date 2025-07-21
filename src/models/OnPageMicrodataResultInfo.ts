@@ -2,24 +2,23 @@ import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { TestSummary, ITestSummary } from "./TestSummary";
 import { OnPageMicrodataInfoItem, IOnPageMicrodataInfoItem } from "./OnPageMicrodataInfoItem";
 
-
 export interface IOnPageMicrodataResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string | undefined
+        crawl_progress?: string
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo | undefined
+        crawl_status?: CrawlStatusInfo
         
         /** microdata validation test results */
-        test_summary?: TestSummary | undefined
+        test_summary?: TestSummary
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: OnPageMicrodataInfoItem[] | undefined
+        items?: OnPageMicrodataInfoItem[]
 
     [key: string]: any;
 
@@ -30,23 +29,23 @@ export class OnPageMicrodataResultInfo  implements IOnPageMicrodataResultInfo {
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string | undefined;
+    crawl_progress?: string;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo | undefined;
+    crawl_status?: CrawlStatusInfo;
     
     /** microdata validation test results */
 
-    test_summary?: TestSummary | undefined;
+    test_summary?: TestSummary;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: OnPageMicrodataInfoItem[] | undefined;
+    items?: OnPageMicrodataInfoItem[];
 
     [key: string]: any;
 

@@ -1,25 +1,25 @@
 export interface IVideoElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** URL to the video source */
-        source?: string | undefined
+        source?: string
         
         /** URL to the video preview image */
-        preview?: string | undefined
+        preview?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -29,30 +29,30 @@ export class VideoElement  implements IVideoElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** URL to the video source */
 
-    source?: string | undefined;
+    source?: string;
     
     /** URL to the video preview image */
 
-    preview?: string | undefined;
+    preview?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

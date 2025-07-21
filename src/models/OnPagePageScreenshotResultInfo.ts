@@ -1,22 +1,21 @@
 import { ScreenshotItem, IScreenshotItem } from "./ScreenshotItem";
 
-
 export interface IOnPagePageScreenshotResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string | undefined
+        crawl_progress?: string
         
         /** error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain 'error_message':'Screenshot is empty'
 if no error is encountered, the value will be null */
-        error_message?: string | undefined
+        error_message?: string
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: ScreenshotItem[] | undefined
+        items?: ScreenshotItem[]
 
     [key: string]: any;
 
@@ -27,21 +26,21 @@ export class OnPagePageScreenshotResultInfo  implements IOnPagePageScreenshotRes
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string | undefined;
+    crawl_progress?: string;
     
     /** error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain 'error_message':'Screenshot is empty'
 if no error is encountered, the value will be null */
 
-    error_message?: string | undefined;
+    error_message?: string;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: ScreenshotItem[] | undefined;
+    items?: ScreenshotItem[];
 
     [key: string]: any;
 

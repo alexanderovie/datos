@@ -1,8 +1,8 @@
 export interface IBusinessDataBusinessListingsAvailableFiltersResultInfo   {
         
-        search?: { [key: string]: string; } | undefined
+        search?: { [key: string]: string; }
         
-        categories_aggregation?: { [key: string]: string; } | undefined
+        categories_aggregation?: { [key: string]: string; }
 
     [key: string]: any;
 
@@ -10,9 +10,9 @@ export interface IBusinessDataBusinessListingsAvailableFiltersResultInfo   {
 
 export class BusinessDataBusinessListingsAvailableFiltersResultInfo  implements IBusinessDataBusinessListingsAvailableFiltersResultInfo {
 
-    search?: { [key: string]: string; } | undefined;
+    search?: { [key: string]: string; };
 
-    categories_aggregation?: { [key: string]: string; } | undefined;
+    categories_aggregation?: { [key: string]: string; };
 
     [key: string]: any;
 

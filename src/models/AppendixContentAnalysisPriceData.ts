@@ -1,28 +1,27 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixContentAnalysisPriceData   {
         
-        categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        categories?: AppendixTaskKeywordsDataPriceDataInfo
         
-        category_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        category_trends?: AppendixBingKeywordsDataPriceDataInfo
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        phrase_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        phrase_trends?: AppendixBingKeywordsDataPriceDataInfo
         
-        rating_distribution?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        rating_distribution?: AppendixBingKeywordsDataPriceDataInfo
         
-        search?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        search?: AppendixBingKeywordsDataPriceDataInfo
         
-        sentiment_analysis?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        sentiment_analysis?: AppendixBingKeywordsDataPriceDataInfo
         
-        summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        summary?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -30,25 +29,25 @@ export interface IAppendixContentAnalysisPriceData   {
 
 export class AppendixContentAnalysisPriceData  implements IAppendixContentAnalysisPriceData {
 
-    categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    categories?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    category_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    category_trends?: AppendixBingKeywordsDataPriceDataInfo;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    phrase_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    phrase_trends?: AppendixBingKeywordsDataPriceDataInfo;
 
-    rating_distribution?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    rating_distribution?: AppendixBingKeywordsDataPriceDataInfo;
 
-    search?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    search?: AppendixBingKeywordsDataPriceDataInfo;
 
-    sentiment_analysis?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    sentiment_analysis?: AppendixBingKeywordsDataPriceDataInfo;
 
-    summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    summary?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,32 +1,32 @@
 export interface IPerspectivesElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** website domain */
-        domain?: string | undefined
+        domain?: string
         
         /** the date when the page source of the element was published */
-        date?: string | undefined
+        date?: string
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string | undefined
+        source?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
 
     [key: string]: any;
 
@@ -36,39 +36,39 @@ export class PerspectivesElement  implements IPerspectivesElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** website domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** the date when the page source of the element was published */
 
-    date?: string | undefined;
+    date?: string;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string | undefined;
+    source?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
 
     [key: string]: any;
 

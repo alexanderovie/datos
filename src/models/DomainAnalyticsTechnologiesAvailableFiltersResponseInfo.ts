@@ -1,10 +1,9 @@
 import { DomainAnalyticsTechnologiesAvailableFiltersTaskInfo, IDomainAnalyticsTechnologiesAvailableFiltersTaskInfo } from "./DomainAnalyticsTechnologiesAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
-        tasks?: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo[] | undefined
+        tasks?: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo  exten
 
 export class DomainAnalyticsTechnologiesAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo {
 
-    tasks?: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo[] | undefined;
+    tasks?: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo[];
 
     [key: string]: any;
 

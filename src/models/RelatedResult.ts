@@ -3,80 +3,79 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
 
-
 export interface IRelatedResult   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** domain where a link points */
-        domain?: string | undefined
+        domain?: string
         
         /** title of the link */
-        title?: string | undefined
+        title?: string
         
         /** reference page URL */
-        url?: string | undefined
+        url?: string
         
         /** cached version of the page */
-        cache_url?: string | undefined
+        cache_url?: string
         
         /** URL to a similar search
 URL to a new search for the same keyword(s) on related sites */
-        related_search_url?: string | undefined
+        related_search_url?: string
         
         /** breadcrumb in SERP */
-        breadcrumb?: string | undefined
+        breadcrumb?: string
         
         /** name of the website in the ad element */
-        website_name?: string | undefined
+        website_name?: string
         
         /** indicates whether the element contains an image */
-        is_image?: boolean | undefined
+        is_image?: boolean
         
         /** indicates whether the element contains a video */
-        is_video?: boolean | undefined
+        is_video?: boolean
         
         /** description of the hotel booking element */
-        description?: string | undefined
+        description?: string
         
         /** includes additional information appended before the result description in SERP */
-        pre_snippet?: string | undefined
+        pre_snippet?: string
         
         /** includes additional information appended after the result description in SERP */
-        extended_snippet?: string | undefined
+        extended_snippet?: string
         
         /** images of the component
 if there are none, equals null */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
-        amp_version?: boolean | undefined
+        amp_version?: boolean
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** price of booking a place for the specified dates of stay */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** words highlighted in bold within the results description */
-        highlighted?: string[] | undefined
+        highlighted?: string[]
         
         /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
-        about_this_result?: AboutThisResultElement | undefined
+        about_this_result?: AboutThisResultElement
         
         /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
 
     [key: string]: any;
 
@@ -86,96 +85,96 @@ export class RelatedResult  implements IRelatedResult {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** domain where a link points */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** title of the link */
 
-    title?: string | undefined;
+    title?: string;
     
     /** reference page URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** cached version of the page */
 
-    cache_url?: string | undefined;
+    cache_url?: string;
     
     /** URL to a similar search
 URL to a new search for the same keyword(s) on related sites */
 
-    related_search_url?: string | undefined;
+    related_search_url?: string;
     
     /** breadcrumb in SERP */
 
-    breadcrumb?: string | undefined;
+    breadcrumb?: string;
     
     /** name of the website in the ad element */
 
-    website_name?: string | undefined;
+    website_name?: string;
     
     /** indicates whether the element contains an image */
 
-    is_image?: boolean | undefined;
+    is_image?: boolean;
     
     /** indicates whether the element contains a video */
 
-    is_video?: boolean | undefined;
+    is_video?: boolean;
     
     /** description of the hotel booking element */
 
-    description?: string | undefined;
+    description?: string;
     
     /** includes additional information appended before the result description in SERP */
 
-    pre_snippet?: string | undefined;
+    pre_snippet?: string;
     
     /** includes additional information appended after the result description in SERP */
 
-    extended_snippet?: string | undefined;
+    extended_snippet?: string;
     
     /** images of the component
 if there are none, equals null */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
-    amp_version?: boolean | undefined;
+    amp_version?: boolean;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** price of booking a place for the specified dates of stay */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** words highlighted in bold within the results description */
 
-    highlighted?: string[] | undefined;
+    highlighted?: string[];
     
     /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
 
-    about_this_result?: AboutThisResultElement | undefined;
+    about_this_result?: AboutThisResultElement;
     
     /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
 
     [key: string]: any;
 

@@ -5,7 +5,7 @@ required field
 the results will be based on the image you specified in this field
 example:
 https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg */
-        image_url?: string | undefined
+        image_url?: string
         
         /** task priority
 optional field
@@ -14,7 +14,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** page crawl limit
 optional field
@@ -22,7 +22,7 @@ number of search results pages to crawl
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
-        max_crawl_pages?: number | undefined
+        max_crawl_pages?: number
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -30,7 +30,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -38,7 +38,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -49,7 +49,7 @@ the minimum value for “radius”: 199.9 (mm)
 the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -57,7 +57,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -65,7 +65,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** search engine domain
 optional field
@@ -73,7 +73,7 @@ we choose the relevant search engine domain automatically according to the locat
 however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc. */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -81,40 +81,40 @@ pixel ranking refers to the distance between the result snippet and top left cor
 Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
-        calculate_rectangles?: boolean | undefined
+        calculate_rectangles?: boolean
         
         /** browser screen width
 optional field
 you can set a custom browser screen width to calculate pixel rankings for a particular device;
 by default, the parameter is set to 1920;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_width?: number | undefined
+        browser_screen_width?: number
         
         /** browser screen height
 optional field
 you can set a custom browser screen height to calculate pixel rankings for a particular device;
 by default, the parameter is set to 1080;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_height?: number | undefined
+        browser_screen_height?: number
         
         /** browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
 by default, the parameter is set to 1;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_resolution_ratio?: number | undefined
+        browser_screen_resolution_ratio?: number
         
         /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
-        search_param?: string | undefined
+        search_param?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -126,14 +126,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -145,7 +145,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -159,7 +159,7 @@ the results will be based on the image you specified in this field
 example:
 https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** task priority
 optional field
@@ -169,7 +169,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** page crawl limit
 optional field
@@ -178,7 +178,7 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
-    max_crawl_pages?: number | undefined;
+    max_crawl_pages?: number;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -187,7 +187,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -196,7 +196,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -208,7 +208,7 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -217,7 +217,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -226,7 +226,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** search engine domain
 optional field
@@ -235,7 +235,7 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc. */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -244,7 +244,7 @@ Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
 
-    calculate_rectangles?: boolean | undefined;
+    calculate_rectangles?: boolean;
     
     /** browser screen width
 optional field
@@ -252,7 +252,7 @@ you can set a custom browser screen width to calculate pixel rankings for a part
 by default, the parameter is set to 1920;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_width?: number | undefined;
+    browser_screen_width?: number;
     
     /** browser screen height
 optional field
@@ -260,7 +260,7 @@ you can set a custom browser screen height to calculate pixel rankings for a par
 by default, the parameter is set to 1080;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_height?: number | undefined;
+    browser_screen_height?: number;
     
     /** browser screen resolution ratio
 optional field
@@ -268,13 +268,13 @@ you can set a custom browser screen resolution ratio to calculate pixel rankings
 by default, the parameter is set to 1;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_resolution_ratio?: number | undefined;
+    browser_screen_resolution_ratio?: number;
     
     /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
 
-    search_param?: string | undefined;
+    search_param?: string;
     
     /** user-defined task identifier
 optional field
@@ -282,7 +282,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -295,7 +295,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -303,7 +303,7 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -316,7 +316,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

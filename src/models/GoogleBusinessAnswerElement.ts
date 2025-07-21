@@ -1,31 +1,31 @@
 export interface IGoogleBusinessAnswerElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** ID of the answer */
-        answer_id?: string | undefined
+        answer_id?: string
         
         /** URL of the user’s profile image */
-        profile_image_url?: string | undefined
+        profile_image_url?: string
         
         /** URL of the user’s profile */
-        profile_url?: string | undefined
+        profile_url?: string
         
         /** displayed name of the user */
-        profile_name?: string | undefined
+        profile_name?: string
         
         /** current text of the answer */
-        answer_text?: string | undefined
+        answer_text?: string
         
         /** original text of the answer */
-        original_answer_text?: string | undefined
+        original_answer_text?: string
         
         /** estimated time when the answer was posted */
-        time_ago?: string | undefined
+        time_ago?: string
         
         /** exact time when the answer was posted */
-        timestamp?: string | undefined
+        timestamp?: string
 
     [key: string]: any;
 
@@ -35,39 +35,39 @@ export class GoogleBusinessAnswerElement  implements IGoogleBusinessAnswerElemen
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** ID of the answer */
 
-    answer_id?: string | undefined;
+    answer_id?: string;
     
     /** URL of the user’s profile image */
 
-    profile_image_url?: string | undefined;
+    profile_image_url?: string;
     
     /** URL of the user’s profile */
 
-    profile_url?: string | undefined;
+    profile_url?: string;
     
     /** displayed name of the user */
 
-    profile_name?: string | undefined;
+    profile_name?: string;
     
     /** current text of the answer */
 
-    answer_text?: string | undefined;
+    answer_text?: string;
     
     /** original text of the answer */
 
-    original_answer_text?: string | undefined;
+    original_answer_text?: string;
     
     /** estimated time when the answer was posted */
 
-    time_ago?: string | undefined;
+    time_ago?: string;
     
     /** exact time when the answer was posted */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
 
     [key: string]: any;
 

@@ -1,19 +1,18 @@
 import { DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem, IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem } from "./DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem";
 
-
 export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo   {
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** offset in the results array of returned domains */
-        offset?: number | undefined
+        offset?: number
         
         /** items array */
-        items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[] | undefined
+        items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[]
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo  i
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** offset in the results array of returned domains */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** items array */
 
-    items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[] | undefined;
+    items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[];
 
     [key: string]: any;
 

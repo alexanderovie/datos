@@ -3,63 +3,62 @@ import { VideoElement, IVideoElement } from "./VideoElement";
 import { UserProfileInfo, IUserProfileInfo } from "./UserProfileInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IAmazonReviewItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the review in SERP
 can take the following values: right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** indicates whether the review has the “Verified Purchase” mark */
-        verified?: boolean | undefined
+        verified?: boolean
         
         /** subtitle of the review */
-        subtitle?: string | undefined
+        subtitle?: string
         
         /** helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text */
-        helpful_votes?: string | undefined
+        helpful_votes?: string
         
         /** images of the product submitted by the reviewer */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** videos of the product submitted by the reviewer */
-        videos?: VideoElement[] | undefined
+        videos?: VideoElement[]
         
         /** user profile of the reviewer */
-        user_profile?: UserProfileInfo | undefined
+        user_profile?: UserProfileInfo
         
         /** title of the review */
-        title?: string | undefined
+        title?: string
         
         /** URL to the reviewer’s profile */
-        url?: string | undefined
+        url?: string
         
         /** content of the review */
-        review_text?: string | undefined
+        review_text?: string
         
         /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
-        publication_date?: string | undefined
+        publication_date?: string
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -69,74 +68,74 @@ export class AmazonReviewItem  implements IAmazonReviewItem {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the review in SERP
 can take the following values: right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** indicates whether the review has the “Verified Purchase” mark */
 
-    verified?: boolean | undefined;
+    verified?: boolean;
     
     /** subtitle of the review */
 
-    subtitle?: string | undefined;
+    subtitle?: string;
     
     /** helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text */
 
-    helpful_votes?: string | undefined;
+    helpful_votes?: string;
     
     /** images of the product submitted by the reviewer */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** videos of the product submitted by the reviewer */
 
-    videos?: VideoElement[] | undefined;
+    videos?: VideoElement[];
     
     /** user profile of the reviewer */
 
-    user_profile?: UserProfileInfo | undefined;
+    user_profile?: UserProfileInfo;
     
     /** title of the review */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL to the reviewer’s profile */
 
-    url?: string | undefined;
+    url?: string;
     
     /** content of the review */
 
-    review_text?: string | undefined;
+    review_text?: string;
     
     /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    publication_date?: string | undefined;
+    publication_date?: string;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

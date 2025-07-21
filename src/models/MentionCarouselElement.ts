@@ -2,24 +2,23 @@ import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { LinkElement, ILinkElement } from "./LinkElement";
 
-
 export interface IMentionCarouselElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** price indicated in the element */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** additional elements in the mention_carousel item */
-        mentioned_in?: LinkElement[] | undefined
+        mentioned_in?: LinkElement[]
 
     [key: string]: any;
 
@@ -29,24 +28,24 @@ export class MentionCarouselElement  implements IMentionCarouselElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** price indicated in the element */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** additional elements in the mention_carousel item */
 
-    mentioned_in?: LinkElement[] | undefined;
+    mentioned_in?: LinkElement[];
 
     [key: string]: any;
 

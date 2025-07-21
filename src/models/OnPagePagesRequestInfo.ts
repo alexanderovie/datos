@@ -5,19 +5,19 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string | undefined
+        id?: string
         
         /** the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
-        offset?: number | undefined
+        offset?: number
         
         /** array of results filtering parameters
 optional field
@@ -29,7 +29,7 @@ you can use the % operator with like and not_like to match any string of zero or
 example:
 ['meta.external_links_count','<=',50]['url','like','https://dataforseo.com/apis/dataforseo-labs-api'][['checks.high_waiting_time','=',false],
 'and',['resource_type','=','html']][['page_timing.duration_time','<',100],'and',[['checks.large_page_size','=',false],'or',['checks.high_waiting_time','=',false]]]The full list of possible filters is available by this link. */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -44,7 +44,7 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['page_timing.dom_complete,asc','size,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** token for subsequent requests
 optional field
@@ -53,14 +53,14 @@ use this parameter to avoid timeouts while trying to obtain over 20,000 results 
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
-        search_after_token?: string | undefined
+        search_after_token?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -74,21 +74,21 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string | undefined;
+    id?: string;
     
     /** the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** array of results filtering parameters
 optional field
@@ -101,7 +101,7 @@ example:
 ['meta.external_links_count','<=',50]['url','like','https://dataforseo.com/apis/dataforseo-labs-api'][['checks.high_waiting_time','=',false],
 'and',['resource_type','=','html']][['page_timing.duration_time','<',100],'and',[['checks.large_page_size','=',false],'or',['checks.high_waiting_time','=',false]]]The full list of possible filters is available by this link. */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -117,7 +117,7 @@ you should use a comma to separate several sorting rules
 example:
 ['page_timing.dom_complete,asc','size,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** token for subsequent requests
 optional field
@@ -127,7 +127,7 @@ by specifying the unique search_after_token value from the response array, you w
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
 
-    search_after_token?: string | undefined;
+    search_after_token?: string;
     
     /** user-defined task identifier
 optional field
@@ -135,7 +135,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

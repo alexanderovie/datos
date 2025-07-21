@@ -1,17 +1,17 @@
 export interface IAiModeImagesElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** alt tag of the image */
-        alt?: string | undefined
+        alt?: string
         
         /** URL link */
-        url?: string | undefined
+        url?: string
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string | undefined
+        image_url?: string
 
     [key: string]: any;
 
@@ -21,20 +21,20 @@ export class AiModeImagesElement  implements IAiModeImagesElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** alt tag of the image */
 
-    alt?: string | undefined;
+    alt?: string;
     
     /** URL link */
 
-    url?: string | undefined;
+    url?: string;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string | undefined;
+    image_url?: string;
 
     [key: string]: any;
 

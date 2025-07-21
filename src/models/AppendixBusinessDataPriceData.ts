@@ -4,28 +4,27 @@ import { AppendixGoogleBusinessDataPriceData, IAppendixGoogleBusinessDataPriceDa
 import { AppendixSocialMediaBusinessDataPriceData, IAppendixSocialMediaBusinessDataPriceData } from "./AppendixSocialMediaBusinessDataPriceData";
 import { AppendixTrBusinessDataPriceDataInfo, IAppendixTrBusinessDataPriceDataInfo } from "./AppendixTrBusinessDataPriceDataInfo";
 
-
 export interface IAppendixBusinessDataPriceData   {
         
-        business_listings?: AppendixBusinessListingsBusinessDataPriceData | undefined
+        business_listings?: AppendixBusinessListingsBusinessDataPriceData
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        google?: AppendixGoogleBusinessDataPriceData | undefined
+        google?: AppendixGoogleBusinessDataPriceData
         
-        social_media?: AppendixSocialMediaBusinessDataPriceData | undefined
+        social_media?: AppendixSocialMediaBusinessDataPriceData
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        tripadvisor?: AppendixTrBusinessDataPriceDataInfo | undefined
+        tripadvisor?: AppendixTrBusinessDataPriceDataInfo
         
-        trustpilot?: AppendixTrBusinessDataPriceDataInfo | undefined
+        trustpilot?: AppendixTrBusinessDataPriceDataInfo
         
-        yelp?: AppendixTrBusinessDataPriceDataInfo | undefined
+        yelp?: AppendixTrBusinessDataPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -33,25 +32,25 @@ export interface IAppendixBusinessDataPriceData   {
 
 export class AppendixBusinessDataPriceData  implements IAppendixBusinessDataPriceData {
 
-    business_listings?: AppendixBusinessListingsBusinessDataPriceData | undefined;
+    business_listings?: AppendixBusinessListingsBusinessDataPriceData;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    google?: AppendixGoogleBusinessDataPriceData | undefined;
+    google?: AppendixGoogleBusinessDataPriceData;
 
-    social_media?: AppendixSocialMediaBusinessDataPriceData | undefined;
+    social_media?: AppendixSocialMediaBusinessDataPriceData;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    tripadvisor?: AppendixTrBusinessDataPriceDataInfo | undefined;
+    tripadvisor?: AppendixTrBusinessDataPriceDataInfo;
 
-    trustpilot?: AppendixTrBusinessDataPriceDataInfo | undefined;
+    trustpilot?: AppendixTrBusinessDataPriceDataInfo;
 
-    yelp?: AppendixTrBusinessDataPriceDataInfo | undefined;
+    yelp?: AppendixTrBusinessDataPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

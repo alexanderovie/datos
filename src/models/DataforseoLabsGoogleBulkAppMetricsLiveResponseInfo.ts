@@ -1,11 +1,10 @@
 import { DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo, IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo } from "./DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IDataforseoLabsGoogleBulkAppMetricsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo[] | undefined
+        tasks?: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo  extends BaseRes
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo[] | undefined;
+    tasks?: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo[];
 
     [key: string]: any;
 

@@ -3,14 +3,14 @@ export interface ITable   {
         /** name assigned to the table element
 possible values:
 table_element */
-        table_element?: string | undefined
+        table_element?: string
         
         /** column names */
-        table_header?: string[] | undefined
+        table_header?: string[]
         
         /** the content of the table
 one line of the table in this element of the array */
-        table_content?: string[][] | undefined
+        table_content?: string[][]
 
     [key: string]: any;
 
@@ -22,16 +22,16 @@ export class Table  implements ITable {
 possible values:
 table_element */
 
-    table_element?: string | undefined;
+    table_element?: string;
     
     /** column names */
 
-    table_header?: string[] | undefined;
+    table_header?: string[];
     
     /** the content of the table
 one line of the table in this element of the array */
 
-    table_content?: string[][] | undefined;
+    table_content?: string[][];
 
     [key: string]: any;
 

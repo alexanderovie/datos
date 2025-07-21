@@ -1,11 +1,11 @@
 export interface IAvailibleVersions   {
         
         /** lighthouse version */
-        version?: string | undefined
+        version?: string
         
         /** the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary */
-        _default?: boolean | undefined
+        default_?: boolean
 
     [key: string]: any;
 
@@ -15,12 +15,12 @@ export class AvailibleVersions  implements IAvailibleVersions {
     
     /** lighthouse version */
 
-    version?: string | undefined;
+    version?: string;
     
     /** the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary */
 
-    _default?: boolean | undefined;
+    default_?: boolean;
 
     [key: string]: any;
 
@@ -43,7 +43,7 @@ if false, the version is not used by default and should be specified in the corr
                     this[property] = data[property];
             }
             this.version = data["version"];
-            this._default = data["default"];
+            this.default_ = data["default"];
         }
     }
 
@@ -62,7 +62,7 @@ if false, the version is not used by default and should be specified in the corr
         
         
         data["version"] = this.version;
-        data["default"] = this._default;
+        data["default"] = this.default_;
         return data;
     }
 }

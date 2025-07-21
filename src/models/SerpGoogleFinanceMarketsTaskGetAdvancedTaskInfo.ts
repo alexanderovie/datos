@@ -1,11 +1,10 @@
 import { SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo, ISerpGoogleFinanceMarketsTaskGetAdvancedResultInfo } from "./SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleFinanceMarketsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[] | undefined
+        result?: SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleFinanceMarketsTaskGetAdvancedTaskInfo  extends BaseRespon
     
     /** array of results */
 
-    result?: SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[] | undefined;
+    result?: SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

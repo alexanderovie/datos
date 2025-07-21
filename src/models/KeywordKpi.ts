@@ -1,19 +1,18 @@
 import { KeywordKpiInfo, IKeywordKpiInfo } from "./KeywordKpiInfo";
 
-
 export interface IKeywordKpi   {
         
         /** keyword data aggregated for desktop devices
 if there is no data, then the value is null */
-        desktop?: KeywordKpiInfo[] | undefined
+        desktop?: KeywordKpiInfo[]
         
         /** keyword data aggregated for mobile devices
 if there is no data, then the value is null */
-        mobile?: KeywordKpiInfo[] | undefined
+        mobile?: KeywordKpiInfo[]
         
         /** keyword data aggregated for tablet devices
 if there is no data, then the value is null */
-        tablet?: KeywordKpiInfo[] | undefined
+        tablet?: KeywordKpiInfo[]
 
     [key: string]: any;
 
@@ -24,17 +23,17 @@ export class KeywordKpi  implements IKeywordKpi {
     /** keyword data aggregated for desktop devices
 if there is no data, then the value is null */
 
-    desktop?: KeywordKpiInfo[] | undefined;
+    desktop?: KeywordKpiInfo[];
     
     /** keyword data aggregated for mobile devices
 if there is no data, then the value is null */
 
-    mobile?: KeywordKpiInfo[] | undefined;
+    mobile?: KeywordKpiInfo[];
     
     /** keyword data aggregated for tablet devices
 if there is no data, then the value is null */
 
-    tablet?: KeywordKpiInfo[] | undefined;
+    tablet?: KeywordKpiInfo[];
 
     [key: string]: any;
 

@@ -1,70 +1,69 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { GoogleExtendedReviewsSearch, IGoogleExtendedReviewsSearch } from "./GoogleExtendedReviewsSearch";
 
-
 export interface IBusinessDataGoogleExtendedReviewsTaskGetResultInfo   {
         
         /** keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected */
-        sub_title?: string | undefined
+        sub_title?: string
         
         /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article */
-        feature_id?: string | undefined
+        feature_id?: string
         
         /** unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article */
-        place_id?: string | undefined
+        place_id?: string
         
         /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
-        cid?: string | undefined
+        cid?: string
         
         /** the total number of reviews */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number | undefined
+        items_count?: number
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: GoogleExtendedReviewsSearch[] | undefined
+        items?: GoogleExtendedReviewsSearch[]
 
     [key: string]: any;
 
@@ -75,80 +74,80 @@ export class BusinessDataGoogleExtendedReviewsTaskGetResultInfo  implements IBus
     /** keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected */
 
-    sub_title?: string | undefined;
+    sub_title?: string;
     
     /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article */
 
-    feature_id?: string | undefined;
+    feature_id?: string;
     
     /** unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article */
 
-    place_id?: string | undefined;
+    place_id?: string;
     
     /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** the total number of reviews */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: GoogleExtendedReviewsSearch[] | undefined;
+    items?: GoogleExtendedReviewsSearch[];
 
     [key: string]: any;
 

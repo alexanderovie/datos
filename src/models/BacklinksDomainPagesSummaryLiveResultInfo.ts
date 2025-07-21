@@ -1,19 +1,18 @@
 import { BacklinksDomainPagesSummaryLiveItem, IBacklinksDomainPagesSummaryLiveItem } from "./BacklinksDomainPagesSummaryLiveItem";
 
-
 export interface IBacklinksDomainPagesSummaryLiveResultInfo   {
         
         /** target in the post array */
-        target?: string | undefined
+        target?: string
         
         /** total number of relevant items in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: BacklinksDomainPagesSummaryLiveItem[] | undefined
+        items?: BacklinksDomainPagesSummaryLiveItem[]
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class BacklinksDomainPagesSummaryLiveResultInfo  implements IBacklinksDom
     
     /** target in the post array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** total number of relevant items in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: BacklinksDomainPagesSummaryLiveItem[] | undefined;
+    items?: BacklinksDomainPagesSummaryLiveItem[];
 
     [key: string]: any;
 

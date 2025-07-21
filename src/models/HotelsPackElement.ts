@@ -1,38 +1,37 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IHotelsPackElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** price indicated in the element */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
-        hotel_identifier?: string | undefined
+        hotel_identifier?: string
         
         /** website domain */
-        domain?: string | undefined
+        domain?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** indicates whether the element is an ad */
-        is_paid?: boolean | undefined
+        is_paid?: boolean
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -42,42 +41,42 @@ export class HotelsPackElement  implements IHotelsPackElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** price indicated in the element */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
 
-    hotel_identifier?: string | undefined;
+    hotel_identifier?: string;
     
     /** website domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** indicates whether the element is an ad */
 
-    is_paid?: boolean | undefined;
+    is_paid?: boolean;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

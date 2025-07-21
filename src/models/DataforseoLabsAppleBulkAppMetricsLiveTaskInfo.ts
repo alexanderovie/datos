@@ -1,11 +1,10 @@
 import { DataforseoLabsAppleBulkAppMetricsLiveResultInfo, IDataforseoLabsAppleBulkAppMetricsLiveResultInfo } from "./DataforseoLabsAppleBulkAppMetricsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsAppleBulkAppMetricsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsAppleBulkAppMetricsLiveResultInfo[] | undefined
+        result?: DataforseoLabsAppleBulkAppMetricsLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsAppleBulkAppMetricsLiveTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: DataforseoLabsAppleBulkAppMetricsLiveResultInfo[] | undefined;
+    result?: DataforseoLabsAppleBulkAppMetricsLiveResultInfo[];
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { AppDataGoogleAppListingsSearchLiveResultInfo, IAppDataGoogleAppListingsSearchLiveResultInfo } from "./AppDataGoogleAppListingsSearchLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IAppDataGoogleAppListingsSearchLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataGoogleAppListingsSearchLiveResultInfo[] | undefined
+        result?: AppDataGoogleAppListingsSearchLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataGoogleAppListingsSearchLiveTaskInfo  extends BaseResponseTas
     
     /** array of results */
 
-    result?: AppDataGoogleAppListingsSearchLiveResultInfo[] | undefined;
+    result?: AppDataGoogleAppListingsSearchLiveResultInfo[];
 
     [key: string]: any;
 

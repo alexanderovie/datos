@@ -2,17 +2,17 @@ export interface IRectangleInfo   {
         
         /** x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
-        x?: number | undefined
+        x?: number
         
         /** y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
-        y?: number | undefined
+        y?: number
         
         /** width of the element in pixels */
-        width?: number | undefined
+        width?: number
         
         /** height of the element in pixels */
-        height?: number | undefined
+        height?: number
 
     [key: string]: any;
 
@@ -23,20 +23,20 @@ export class RectangleInfo  implements IRectangleInfo {
     /** x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
 
-    x?: number | undefined;
+    x?: number;
     
     /** y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
 
-    y?: number | undefined;
+    y?: number;
     
     /** width of the element in pixels */
 
-    width?: number | undefined;
+    width?: number;
     
     /** height of the element in pixels */
 
-    height?: number | undefined;
+    height?: number;
 
     [key: string]: any;
 

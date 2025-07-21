@@ -1,11 +1,10 @@
 import { BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo, IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo } from "./BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IBusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo[] | undefined
+        result?: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo  extends BaseRes
     
     /** array of results */
 
-    result?: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo[] | undefined;
+    result?: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo[];
 
     [key: string]: any;
 

@@ -1,6 +1,6 @@
 export interface IAppendixJobsSerpLimitsRatesDataInfo   {
         
-        task_post?: number | undefined
+        task_post?: number
 
     [key: string]: any;
 
@@ -8,7 +8,7 @@ export interface IAppendixJobsSerpLimitsRatesDataInfo   {
 
 export class AppendixJobsSerpLimitsRatesDataInfo  implements IAppendixJobsSerpLimitsRatesDataInfo {
 
-    task_post?: number | undefined;
+    task_post?: number;
 
     [key: string]: any;
 

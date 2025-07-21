@@ -3,20 +3,20 @@ export interface ITechnologyCategoryInfo   {
         /** id of the technology category
 example:
 crm, cart_abandonment */
-        id?: string | undefined
+        id?: string
         
         /** path to the technology category
 example:
 user_generated_content.content_curation */
-        path?: string | undefined
+        path?: string
         
         /** title of the technology category */
-        title?: string | undefined
+        title?: string
         
         /** list of technologies in this category
 example:
 'Salesforce', 'CareCart' */
-        technologies?: string[] | undefined
+        technologies?: string[]
 
     [key: string]: any;
 
@@ -28,23 +28,23 @@ export class TechnologyCategoryInfo  implements ITechnologyCategoryInfo {
 example:
 crm, cart_abandonment */
 
-    id?: string | undefined;
+    id?: string;
     
     /** path to the technology category
 example:
 user_generated_content.content_curation */
 
-    path?: string | undefined;
+    path?: string;
     
     /** title of the technology category */
 
-    title?: string | undefined;
+    title?: string;
     
     /** list of technologies in this category
 example:
 'Salesforce', 'CareCart' */
 
-    technologies?: string[] | undefined;
+    technologies?: string[];
 
     [key: string]: any;
 

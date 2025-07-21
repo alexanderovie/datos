@@ -1,11 +1,10 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results
 in this case, the value will be null */
-        result?: any | undefined
+        result?: any
 
     [key: string]: any;
 
@@ -16,7 +15,7 @@ export class KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo  extends B
     /** array of results
 in this case, the value will be null */
 
-    result?: any | undefined;
+    result?: any;
 
     [key: string]: any;
 

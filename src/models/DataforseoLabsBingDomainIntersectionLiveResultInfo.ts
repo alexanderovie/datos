@@ -1,33 +1,32 @@
 import { DataforseoLabsDomainIntersectionLiveItem, IDataforseoLabsDomainIntersectionLiveItem } from "./DataforseoLabsDomainIntersectionLiveItem";
 
-
 export interface IDataforseoLabsBingDomainIntersectionLiveResultInfo   {
         
         /** search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target specified in a POST array */
-        target_1?: string | undefined
+        target_1?: string
         
         /** target specified in a POST array */
-        target_2?: string | undefined
+        target_2?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains keywords, relevant SERP elements and related data */
-        items?: DataforseoLabsDomainIntersectionLiveItem[] | undefined
+        items?: DataforseoLabsDomainIntersectionLiveItem[]
 
     [key: string]: any;
 
@@ -39,35 +38,35 @@ export class DataforseoLabsBingDomainIntersectionLiveResultInfo  implements IDat
 search engine type specified in a POST request;
 for this endpoint, the field equals bing */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target specified in a POST array */
 
-    target_1?: string | undefined;
+    target_1?: string;
     
     /** target specified in a POST array */
 
-    target_2?: string | undefined;
+    target_2?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains keywords, relevant SERP elements and related data */
 
-    items?: DataforseoLabsDomainIntersectionLiveItem[] | undefined;
+    items?: DataforseoLabsDomainIntersectionLiveItem[];
 
     [key: string]: any;
 

@@ -1,50 +1,50 @@
 export interface IContentGenerationTextSummaryLiveResultInfo   {
         
         /** number of sentences found in the target text */
-        sentences?: number | undefined
+        sentences?: number
         
         /** number of paragraphs found in the target text */
-        paragraphs?: number | undefined
+        paragraphs?: number
         
         /** number of words found in the target text */
-        words?: number | undefined
+        words?: number
         
         /** number of characters without spaces found in the target text */
-        characters_without_spaces?: number | undefined
+        characters_without_spaces?: number
         
         /** number of characters with spaces found in the target text */
-        characters_with_spaces?: number | undefined
+        characters_with_spaces?: number
         
         /** average number of words per sentence in the target text */
-        words_per_sentence?: number | undefined
+        words_per_sentence?: number
         
         /** average number of characters per word in the target text */
-        characters_per_word?: number | undefined
+        characters_per_word?: number
         
         /** vocabulary density of the target text */
-        vocabulary_density?: number | undefined
+        vocabulary_density?: number
         
         /** keyword density of the target text
 contains most common words and their count */
-        keyword_density?: { [key: string]: number; } | undefined
+        keyword_density?: { [key: string]: number; }
         
         /** Automated Readability Index */
-        automated_readability_index?: number | undefined
+        automated_readability_index?: number
         
         /** Coleman–Liau Index */
-        coleman_liau_index?: number | undefined
+        coleman_liau_index?: number
         
         /** Flesch–Kincaid Readability Index */
-        flesch_kincaid_grade_level?: number | undefined
+        flesch_kincaid_grade_level?: number
         
         /** SMOG Readability Index */
-        smog_readability_index?: number | undefined
+        smog_readability_index?: number
         
         /** number of spelling errors found in the target text */
-        spelling_errors?: number | undefined
+        spelling_errors?: number
         
         /** number of grammar errors found in the target text */
-        grammar_errors?: number | undefined
+        grammar_errors?: number
 
     [key: string]: any;
 
@@ -54,64 +54,64 @@ export class ContentGenerationTextSummaryLiveResultInfo  implements IContentGene
     
     /** number of sentences found in the target text */
 
-    sentences?: number | undefined;
+    sentences?: number;
     
     /** number of paragraphs found in the target text */
 
-    paragraphs?: number | undefined;
+    paragraphs?: number;
     
     /** number of words found in the target text */
 
-    words?: number | undefined;
+    words?: number;
     
     /** number of characters without spaces found in the target text */
 
-    characters_without_spaces?: number | undefined;
+    characters_without_spaces?: number;
     
     /** number of characters with spaces found in the target text */
 
-    characters_with_spaces?: number | undefined;
+    characters_with_spaces?: number;
     
     /** average number of words per sentence in the target text */
 
-    words_per_sentence?: number | undefined;
+    words_per_sentence?: number;
     
     /** average number of characters per word in the target text */
 
-    characters_per_word?: number | undefined;
+    characters_per_word?: number;
     
     /** vocabulary density of the target text */
 
-    vocabulary_density?: number | undefined;
+    vocabulary_density?: number;
     
     /** keyword density of the target text
 contains most common words and their count */
 
-    keyword_density?: { [key: string]: number; } | undefined;
+    keyword_density?: { [key: string]: number; };
     
     /** Automated Readability Index */
 
-    automated_readability_index?: number | undefined;
+    automated_readability_index?: number;
     
     /** Coleman–Liau Index */
 
-    coleman_liau_index?: number | undefined;
+    coleman_liau_index?: number;
     
     /** Flesch–Kincaid Readability Index */
 
-    flesch_kincaid_grade_level?: number | undefined;
+    flesch_kincaid_grade_level?: number;
     
     /** SMOG Readability Index */
 
-    smog_readability_index?: number | undefined;
+    smog_readability_index?: number;
     
     /** number of spelling errors found in the target text */
 
-    spelling_errors?: number | undefined;
+    spelling_errors?: number;
     
     /** number of grammar errors found in the target text */
 
-    grammar_errors?: number | undefined;
+    grammar_errors?: number;
 
     [key: string]: any;
 

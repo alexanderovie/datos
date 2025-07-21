@@ -1,11 +1,10 @@
 import { DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo, IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo } from "./DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo[] | undefined
+        result?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo  extends 
     
     /** array of results */
 
-    result?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo[] | undefined;
+    result?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo[];
 
     [key: string]: any;
 

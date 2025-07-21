@@ -1,23 +1,22 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface ITopSightsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -27,24 +26,24 @@ export class TopSightsElement  implements ITopSightsElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

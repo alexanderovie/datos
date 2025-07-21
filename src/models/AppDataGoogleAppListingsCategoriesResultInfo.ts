@@ -2,19 +2,19 @@ export interface IAppDataGoogleAppListingsCategoriesResultInfo   {
         
         /** task identifier
 unique task identifier in our system in the UUID format */
-        id?: string | undefined
+        id?: string
         
-        se?: string | undefined
+        se?: string
         
-        se_type?: string | undefined
+        se_type?: string
         
-        date_posted?: string | undefined
+        date_posted?: string
         
-        tag?: string | undefined
+        tag?: string
         
-        endpoint_advanced?: string | undefined
+        endpoint_advanced?: string
         
-        endpoint_html?: string | undefined
+        endpoint_html?: string
 
     [key: string]: any;
 
@@ -25,19 +25,19 @@ export class AppDataGoogleAppListingsCategoriesResultInfo  implements IAppDataGo
     /** task identifier
 unique task identifier in our system in the UUID format */
 
-    id?: string | undefined;
+    id?: string;
 
-    se?: string | undefined;
+    se?: string;
 
-    se_type?: string | undefined;
+    se_type?: string;
 
-    date_posted?: string | undefined;
+    date_posted?: string;
 
-    tag?: string | undefined;
+    tag?: string;
 
-    endpoint_advanced?: string | undefined;
+    endpoint_advanced?: string;
 
-    endpoint_html?: string | undefined;
+    endpoint_html?: string;
 
     [key: string]: any;
 

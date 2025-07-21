@@ -1,10 +1,10 @@
 export interface IContentAnalysisCategoriesResultInfo   {
         
         /** category code */
-        category_code?: number | undefined
+        category_code?: number
         
         /** full name of the category */
-        category_name?: string | undefined
+        category_name?: string
         
         /** the code of the superordinate category
 example:
@@ -15,7 +15,7 @@ where category_code_parent
 corresponds to:
 'category_code': 10178,
 'category_name': 'Apparel Accessories' */
-        category_code_parent?: number | undefined
+        category_code_parent?: number
 
     [key: string]: any;
 
@@ -25,11 +25,11 @@ export class ContentAnalysisCategoriesResultInfo  implements IContentAnalysisCat
     
     /** category code */
 
-    category_code?: number | undefined;
+    category_code?: number;
     
     /** full name of the category */
 
-    category_name?: string | undefined;
+    category_name?: string;
     
     /** the code of the superordinate category
 example:
@@ -41,7 +41,7 @@ corresponds to:
 'category_code': 10178,
 'category_name': 'Apparel Accessories' */
 
-    category_code_parent?: number | undefined;
+    category_code_parent?: number;
 
     [key: string]: any;
 

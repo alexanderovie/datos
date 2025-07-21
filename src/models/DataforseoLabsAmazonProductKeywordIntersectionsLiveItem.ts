@@ -1,17 +1,16 @@
 import { AmazonKeywordData, IAmazonKeywordData } from "./AmazonKeywordData";
 import { AmazonInfo, IAmazonInfo } from "./AmazonInfo";
 
-
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword data for the returned keyword */
-        keyword_data?: AmazonKeywordData | undefined
+        keyword_data?: AmazonKeywordData
         
         /** data on the intersection */
-        intersection_result?: { [key: string]: AmazonInfo; } | undefined
+        intersection_result?: { [key: string]: AmazonInfo; }
 
     [key: string]: any;
 
@@ -21,15 +20,15 @@ export class DataforseoLabsAmazonProductKeywordIntersectionsLiveItem  implements
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword data for the returned keyword */
 
-    keyword_data?: AmazonKeywordData | undefined;
+    keyword_data?: AmazonKeywordData;
     
     /** data on the intersection */
 
-    intersection_result?: { [key: string]: AmazonInfo; } | undefined;
+    intersection_result?: { [key: string]: AmazonInfo; };
 
     [key: string]: any;
 

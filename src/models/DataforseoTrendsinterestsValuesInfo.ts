@@ -5,14 +5,14 @@ you can use this field for matching obtained results with location parameters sp
 see the full list of available locations with their geo_id here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 US-NY */
-        geo_id?: string | undefined
+        geo_id?: string
         
         /** location name
 you can use this field for matching obtained results with location parameters specified in the request
 see the full list of available locations with their geo_name here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 Andorra */
-        geo_name?: string | undefined
+        geo_name?: string
         
         /** relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -21,7 +21,7 @@ calculation: we determine the highest popularity value for the relevant keyword 
 a value of 100 is the highest popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
-        value?: number | undefined
+        value?: number
 
     [key: string]: any;
 
@@ -35,7 +35,7 @@ see the full list of available locations with their geo_id here or by making a s
 example:
 US-NY */
 
-    geo_id?: string | undefined;
+    geo_id?: string;
     
     /** location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -43,7 +43,7 @@ see the full list of available locations with their geo_name here or by making a
 example:
 Andorra */
 
-    geo_name?: string | undefined;
+    geo_name?: string;
     
     /** relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -53,7 +53,7 @@ a value of 100 is the highest popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
 
-    value?: number | undefined;
+    value?: number;
 
     [key: string]: any;
 

@@ -1,15 +1,14 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixDataforseoTrendsKeywordsDataPriceData   {
         
-        demography?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        demography?: AppendixBingKeywordsDataPriceDataInfo
         
-        explore?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        explore?: AppendixBingKeywordsDataPriceDataInfo
         
-        merged_data?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        merged_data?: AppendixBingKeywordsDataPriceDataInfo
         
-        subregion_interests?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        subregion_interests?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -17,13 +16,13 @@ export interface IAppendixDataforseoTrendsKeywordsDataPriceData   {
 
 export class AppendixDataforseoTrendsKeywordsDataPriceData  implements IAppendixDataforseoTrendsKeywordsDataPriceData {
 
-    demography?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    demography?: AppendixBingKeywordsDataPriceDataInfo;
 
-    explore?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    explore?: AppendixBingKeywordsDataPriceDataInfo;
 
-    merged_data?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    merged_data?: AppendixBingKeywordsDataPriceDataInfo;
 
-    subregion_interests?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    subregion_interests?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

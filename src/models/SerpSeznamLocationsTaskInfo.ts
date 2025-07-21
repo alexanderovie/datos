@@ -1,11 +1,10 @@
 import { SerpSeznamLocationsResultInfo, ISerpSeznamLocationsResultInfo } from "./SerpSeznamLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpSeznamLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpSeznamLocationsResultInfo[] | undefined
+        result?: SerpSeznamLocationsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpSeznamLocationsTaskInfo  extends BaseResponseTaskInfo   impleme
     
     /** array of results */
 
-    result?: SerpSeznamLocationsResultInfo[] | undefined;
+    result?: SerpSeznamLocationsResultInfo[];
 
     [key: string]: any;
 

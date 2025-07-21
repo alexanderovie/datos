@@ -2,57 +2,56 @@ import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
 import { EventItem, IEventItem } from "./EventItem";
 
-
 export interface ISerpGoogleEventsTaskGetAdvancedResultInfo   {
         
         /** keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code
 in this case, the value will be null */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL to search engine results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
-        spell?: SpellInfo | undefined
+        spell?: SpellInfo
         
         /** search refinement chips */
-        refinement_chips?: RefinementChipsInfo | undefined
+        refinement_chips?: RefinementChipsInfo
         
         /** types of search results found in SERP
 possible item types:
 event_item */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** total number of results in SERP
 in this case, the value will be 0
 this search engine does not indicate the total number of results */
-        se_results_count?: number | undefined
+        se_results_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items of the element */
-        items?: EventItem[] | undefined
+        items?: EventItem[]
 
     [key: string]: any;
 
@@ -63,64 +62,64 @@ export class SerpGoogleEventsTaskGetAdvancedResultInfo  implements ISerpGoogleEv
     /** keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code
 in this case, the value will be null */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL to search engine results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
-    spell?: SpellInfo | undefined;
+    spell?: SpellInfo;
     
     /** search refinement chips */
 
-    refinement_chips?: RefinementChipsInfo | undefined;
+    refinement_chips?: RefinementChipsInfo;
     
     /** types of search results found in SERP
 possible item types:
 event_item */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** total number of results in SERP
 in this case, the value will be 0
 this search engine does not indicate the total number of results */
 
-    se_results_count?: number | undefined;
+    se_results_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items of the element */
 
-    items?: EventItem[] | undefined;
+    items?: EventItem[];
 
     [key: string]: any;
 

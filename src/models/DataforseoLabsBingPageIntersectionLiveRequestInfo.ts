@@ -20,7 +20,7 @@ note: a wilcard should be placed after the slash (‘/’) character in the end 
 https://dataforseo.com*
 use https://dataforseo.com/* instead
 Note: this endpoint will not provide results if the number of intersecting keywords exceeds 10 million */
-        pages?: { [key: string]: string; } | undefined
+        pages?: { [key: string]: string; }
         
         /** URLs of pages you want to exclude
 optional field
@@ -34,7 +34,7 @@ example:
 'https://dataforseo.com/apis/*',
 'https://www.microsoft.com/en-us/industry/services/'
 ] */
-        exclude_pages?: string[] | undefined
+        exclude_pages?: string[]
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -44,7 +44,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if you don’t specify location_name
@@ -54,7 +54,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -63,7 +63,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if you don’t specify language_name
@@ -72,7 +72,7 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** search results type
 indicates type of search results included in the response
@@ -81,31 +81,31 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid', 'featured_snippet', 'local_pack'] */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean | undefined
+        ignore_synonyms?: boolean
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify 10 here, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number | undefined
+        offset?: number
         
         /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean | undefined
+        include_subdomains?: boolean
         
         /** indicates whether to intersect keywords
 optional field
@@ -114,13 +114,13 @@ possible values: union, intersect
 union – results are based on all keywords any URL from pages rank for;
 intersect – results are based on the keywords all URLs from pages rank for in the same SERP:
 by default, results are based on the intersect mode if you specify only pages array. If you specify exclude_pages as well, results are based on the union mode */
-        intersection_mode?: string | undefined
+        intersection_mode?: string
         
         /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
-        include_serp_info?: boolean | undefined
+        include_serp_info?: boolean
         
         /** array of results filtering parameters
 optional field
@@ -141,7 +141,7 @@ if you want to filter results and receive only organic listings for the third sp
 'or',
 ['intersection_result.2.type','=','organic']]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -158,14 +158,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['intersection_result.1.rank_group,asc','intersection_result.2.rank_absolute,asc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -194,7 +194,7 @@ https://dataforseo.com*
 use https://dataforseo.com/* instead
 Note: this endpoint will not provide results if the number of intersecting keywords exceeds 10 million */
 
-    pages?: { [key: string]: string; } | undefined;
+    pages?: { [key: string]: string; };
     
     /** URLs of pages you want to exclude
 optional field
@@ -209,7 +209,7 @@ example:
 'https://www.microsoft.com/en-us/industry/services/'
 ] */
 
-    exclude_pages?: string[] | undefined;
+    exclude_pages?: string[];
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -220,7 +220,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if you don’t specify location_name
@@ -231,7 +231,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -241,7 +241,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if you don’t specify language_name
@@ -251,7 +251,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** search results type
 indicates type of search results included in the response
@@ -261,35 +261,35 @@ possible values:
 default value:
 ['organic', 'paid', 'featured_snippet', 'local_pack'] */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean | undefined;
+    ignore_synonyms?: boolean;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify 10 here, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean | undefined;
+    include_subdomains?: boolean;
     
     /** indicates whether to intersect keywords
 optional field
@@ -299,14 +299,14 @@ union – results are based on all keywords any URL from pages rank for;
 intersect – results are based on the keywords all URLs from pages rank for in the same SERP:
 by default, results are based on the intersect mode if you specify only pages array. If you specify exclude_pages as well, results are based on the union mode */
 
-    intersection_mode?: string | undefined;
+    intersection_mode?: string;
     
     /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
 
-    include_serp_info?: boolean | undefined;
+    include_serp_info?: boolean;
     
     /** array of results filtering parameters
 optional field
@@ -328,7 +328,7 @@ if you want to filter results and receive only organic listings for the third sp
 ['intersection_result.2.type','=','organic']]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -346,7 +346,7 @@ you should use a comma to separate several sorting rules
 example:
 ['intersection_result.1.rank_group,asc','intersection_result.2.rank_absolute,asc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** user-defined task identifier
 optional field
@@ -354,7 +354,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

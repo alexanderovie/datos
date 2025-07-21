@@ -1,11 +1,10 @@
 import { SerpGoogleFinanceMarketsLiveAdvancedTaskInfo, ISerpGoogleFinanceMarketsLiveAdvancedTaskInfo } from "./SerpGoogleFinanceMarketsLiveAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpGoogleFinanceMarketsLiveAdvancedResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleFinanceMarketsLiveAdvancedTaskInfo[] | undefined
+        tasks?: SerpGoogleFinanceMarketsLiveAdvancedTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleFinanceMarketsLiveAdvancedResponseInfo  extends BaseRespo
     
     /** array of tasks */
 
-    tasks?: SerpGoogleFinanceMarketsLiveAdvancedTaskInfo[] | undefined;
+    tasks?: SerpGoogleFinanceMarketsLiveAdvancedTaskInfo[];
 
     [key: string]: any;
 

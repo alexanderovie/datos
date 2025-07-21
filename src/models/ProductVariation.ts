@@ -1,18 +1,18 @@
 export interface IProductVariation   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** product ID in a POST array
 learn more about the parameter in this help center guide */
-        product_id?: string | undefined
+        product_id?: string
         
         /** name of the product seller */
-        title?: string | undefined
+        title?: string
         
         /** seller url
 url of the webpage on the seller’s website where the product is sold */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -22,21 +22,21 @@ export class ProductVariation  implements IProductVariation {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** product ID in a POST array
 learn more about the parameter in this help center guide */
 
-    product_id?: string | undefined;
+    product_id?: string;
     
     /** name of the product seller */
 
-    title?: string | undefined;
+    title?: string;
     
     /** seller url
 url of the webpage on the seller’s website where the product is sold */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

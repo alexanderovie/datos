@@ -1,11 +1,10 @@
 import { OnPageRawHtmlResultInfo, IOnPageRawHtmlResultInfo } from "./OnPageRawHtmlResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageRawHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageRawHtmlResultInfo[] | undefined
+        result?: OnPageRawHtmlResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageRawHtmlTaskInfo  extends BaseResponseTaskInfo   implements IO
     
     /** array of results */
 
-    result?: OnPageRawHtmlResultInfo[] | undefined;
+    result?: OnPageRawHtmlResultInfo[];
 
     [key: string]: any;
 

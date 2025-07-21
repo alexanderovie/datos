@@ -1,16 +1,15 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixBusinessListingsBusinessDataPriceData   {
         
-        categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        categories?: AppendixTaskKeywordsDataPriceDataInfo
         
-        categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        search?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        search?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -18,13 +17,13 @@ export interface IAppendixBusinessListingsBusinessDataPriceData   {
 
 export class AppendixBusinessListingsBusinessDataPriceData  implements IAppendixBusinessListingsBusinessDataPriceData {
 
-    categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    categories?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    search?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    search?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,6 +1,6 @@
 export interface IDomainAnalyticsWhoisAvailableFiltersResultInfo   {
         
-        overview?: { [key: string]: string; } | undefined
+        overview?: { [key: string]: string; }
 
     [key: string]: any;
 
@@ -8,7 +8,7 @@ export interface IDomainAnalyticsWhoisAvailableFiltersResultInfo   {
 
 export class DomainAnalyticsWhoisAvailableFiltersResultInfo  implements IDomainAnalyticsWhoisAvailableFiltersResultInfo {
 
-    overview?: { [key: string]: string; } | undefined;
+    overview?: { [key: string]: string; };
 
     [key: string]: any;
 

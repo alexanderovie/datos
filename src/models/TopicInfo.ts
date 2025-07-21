@@ -1,34 +1,33 @@
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
 import { TableContentInfo, ITableContentInfo } from "./TableContentInfo";
 
-
 export interface ITopicInfo   {
         
         /** meta title */
-        h_title?: string | undefined
+        h_title?: string
         
         /** main title of the block */
-        main_title?: string | undefined
+        main_title?: string
         
         /** content author name */
-        author?: string | undefined
+        author?: string
         
         /** content language */
-        language?: string | undefined
+        language?: string
         
         /** HTML level */
-        level?: number | undefined
+        level?: number
         
         /** primary content on the page
 you can find more information about content priority calculation in this help center article */
-        primary_content?: SectionContentItemInfo[] | undefined
+        primary_content?: SectionContentItemInfo[]
         
         /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
-        secondary_content?: SectionContentItemInfo[] | undefined
+        secondary_content?: SectionContentItemInfo[]
         
         /** content of the table on the page */
-        table_content?: TableContentInfo[] | undefined
+        table_content?: TableContentInfo[]
 
     [key: string]: any;
 
@@ -38,37 +37,37 @@ export class TopicInfo  implements ITopicInfo {
     
     /** meta title */
 
-    h_title?: string | undefined;
+    h_title?: string;
     
     /** main title of the block */
 
-    main_title?: string | undefined;
+    main_title?: string;
     
     /** content author name */
 
-    author?: string | undefined;
+    author?: string;
     
     /** content language */
 
-    language?: string | undefined;
+    language?: string;
     
     /** HTML level */
 
-    level?: number | undefined;
+    level?: number;
     
     /** primary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    primary_content?: SectionContentItemInfo[] | undefined;
+    primary_content?: SectionContentItemInfo[];
     
     /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    secondary_content?: SectionContentItemInfo[] | undefined;
+    secondary_content?: SectionContentItemInfo[];
     
     /** content of the table on the page */
 
-    table_content?: TableContentInfo[] | undefined;
+    table_content?: TableContentInfo[];
 
     [key: string]: any;
 

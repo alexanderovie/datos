@@ -1,84 +1,83 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixDataforseoLabsPriceData   {
         
-        app_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        app_competitors?: AppendixBingKeywordsDataPriceDataInfo
         
-        app_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        app_intersection?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_app_metrics?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_app_metrics?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_keyword_difficulty?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_keyword_difficulty?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo
         
-        categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        categories?: AppendixTaskKeywordsDataPriceDataInfo
         
-        categories_for_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        categories_for_domain?: AppendixBingKeywordsDataPriceDataInfo
         
-        categories_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        categories_for_keywords?: AppendixBingKeywordsDataPriceDataInfo
         
-        competitors_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        competitors_domain?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_intersection?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_rank_overview?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_whois_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_whois_overview?: AppendixBingKeywordsDataPriceDataInfo
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        historical_bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        historical_bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo
         
-        historical_keyword_data?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        historical_keyword_data?: AppendixBingKeywordsDataPriceDataInfo
         
-        historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo
         
-        historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        historical_serps?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        historical_serps?: AppendixBingKeywordsDataPriceDataInfo
         
-        keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo
         
-        keyword_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keyword_overview?: AppendixBingKeywordsDataPriceDataInfo
         
-        keywords_for_app?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keywords_for_app?: AppendixBingKeywordsDataPriceDataInfo
         
-        keywords_for_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keywords_for_categories?: AppendixBingKeywordsDataPriceDataInfo
         
-        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo
         
-        keyword_suggestions?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keyword_suggestions?: AppendixBingKeywordsDataPriceDataInfo
         
-        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        page_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        page_intersection?: AppendixBingKeywordsDataPriceDataInfo
         
-        product_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        product_competitors?: AppendixBingKeywordsDataPriceDataInfo
         
-        product_keyword_intersections?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        product_keyword_intersections?: AppendixBingKeywordsDataPriceDataInfo
         
-        product_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        product_rank_overview?: AppendixBingKeywordsDataPriceDataInfo
         
-        ranked_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        ranked_keywords?: AppendixBingKeywordsDataPriceDataInfo
         
-        related_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        related_keywords?: AppendixBingKeywordsDataPriceDataInfo
         
-        relevant_pages?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        relevant_pages?: AppendixBingKeywordsDataPriceDataInfo
         
-        search_intent?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        search_intent?: AppendixBingKeywordsDataPriceDataInfo
         
-        serp_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        serp_competitors?: AppendixBingKeywordsDataPriceDataInfo
         
-        subdomains?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        subdomains?: AppendixBingKeywordsDataPriceDataInfo
         
-        top_searches?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        top_searches?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -86,81 +85,81 @@ export interface IAppendixDataforseoLabsPriceData   {
 
 export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabsPriceData {
 
-    app_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    app_competitors?: AppendixBingKeywordsDataPriceDataInfo;
 
-    app_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    app_intersection?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_app_metrics?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_app_metrics?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_keyword_difficulty?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_keyword_difficulty?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo;
 
-    categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    categories?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    categories_for_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    categories_for_domain?: AppendixBingKeywordsDataPriceDataInfo;
 
-    categories_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    categories_for_keywords?: AppendixBingKeywordsDataPriceDataInfo;
 
-    competitors_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    competitors_domain?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_intersection?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_rank_overview?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_whois_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_whois_overview?: AppendixBingKeywordsDataPriceDataInfo;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    historical_bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    historical_bulk_traffic_estimation?: AppendixBingKeywordsDataPriceDataInfo;
 
-    historical_keyword_data?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    historical_keyword_data?: AppendixBingKeywordsDataPriceDataInfo;
 
-    historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo;
 
-    historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    historical_serps?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    historical_serps?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keyword_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keyword_overview?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keywords_for_app?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keywords_for_app?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keywords_for_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keywords_for_categories?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keyword_suggestions?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keyword_suggestions?: AppendixBingKeywordsDataPriceDataInfo;
 
-    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    page_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    page_intersection?: AppendixBingKeywordsDataPriceDataInfo;
 
-    product_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    product_competitors?: AppendixBingKeywordsDataPriceDataInfo;
 
-    product_keyword_intersections?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    product_keyword_intersections?: AppendixBingKeywordsDataPriceDataInfo;
 
-    product_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    product_rank_overview?: AppendixBingKeywordsDataPriceDataInfo;
 
-    ranked_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    ranked_keywords?: AppendixBingKeywordsDataPriceDataInfo;
 
-    related_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    related_keywords?: AppendixBingKeywordsDataPriceDataInfo;
 
-    relevant_pages?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    relevant_pages?: AppendixBingKeywordsDataPriceDataInfo;
 
-    search_intent?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    search_intent?: AppendixBingKeywordsDataPriceDataInfo;
 
-    serp_competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    serp_competitors?: AppendixBingKeywordsDataPriceDataInfo;
 
-    subdomains?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    subdomains?: AppendixBingKeywordsDataPriceDataInfo;
 
-    top_searches?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    top_searches?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

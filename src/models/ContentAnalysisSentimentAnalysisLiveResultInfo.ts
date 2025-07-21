@@ -1,21 +1,20 @@
 import { PositiveConnotationDistribution, IPositiveConnotationDistribution } from "./PositiveConnotationDistribution";
 import { SentimentConnotationDistribution, ISentimentConnotationDistribution } from "./SentimentConnotationDistribution";
 
-
 export interface IContentAnalysisSentimentAnalysisLiveResultInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
 possible sentiment connotation types: positive, negative, neutral */
-        positive_connotation_distribution?: PositiveConnotationDistribution | undefined
+        positive_connotation_distribution?: PositiveConnotationDistribution
         
         /** citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
 possible sentiment connotation types: anger, happiness, love, sadness, share, fun */
-        sentiment_connotation_distribution?: SentimentConnotationDistribution | undefined
+        sentiment_connotation_distribution?: SentimentConnotationDistribution
 
     [key: string]: any;
 
@@ -25,19 +24,19 @@ export class ContentAnalysisSentimentAnalysisLiveResultInfo  implements IContent
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
 possible sentiment connotation types: positive, negative, neutral */
 
-    positive_connotation_distribution?: PositiveConnotationDistribution | undefined;
+    positive_connotation_distribution?: PositiveConnotationDistribution;
     
     /** citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
 possible sentiment connotation types: anger, happiness, love, sadness, share, fun */
 
-    sentiment_connotation_distribution?: SentimentConnotationDistribution | undefined;
+    sentiment_connotation_distribution?: SentimentConnotationDistribution;
 
     [key: string]: any;
 

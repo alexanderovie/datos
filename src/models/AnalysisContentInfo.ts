@@ -1,80 +1,79 @@
 import { SocialMetricsInfo, ISocialMetricsInfo } from "./SocialMetricsInfo";
 import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 
-
 export interface IAnalysisContentInfo   {
         
         /** type of content
 example:
 page_content, comment */
-        content_type?: string | undefined
+        content_type?: string
         
         /** title of the result */
-        title?: string | undefined
+        title?: string
         
         /** page title */
-        main_title?: string | undefined
+        main_title?: string
         
         /** title of the previous content block */
-        previous_title?: string | undefined
+        previous_title?: string
         
         /** title heading level
 indicates h-tag level from 1 (top) to 6 (bottom) */
-        level?: number | undefined
+        level?: number
         
         /** author of the content */
-        author?: string | undefined
+        author?: string
         
         /** content snippet */
-        snippet?: string | undefined
+        snippet?: string
         
         /** character length of the snippet */
-        snippet_length?: number | undefined
+        snippet_length?: number
         
         /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
-        social_metrics?: SocialMetricsInfo[] | undefined
+        social_metrics?: SocialMetricsInfo[]
         
         /** highlighted text from the snippet */
-        highlighted_text?: string | undefined
+        highlighted_text?: string
         
         /** content language
 to obtain a full list of available languages, refer to the Languages endpoint */
-        language?: string | undefined
+        language?: string
         
         /** sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun */
-        sentiment_connotations?: { [key: string]: number; } | undefined
+        sentiment_connotations?: { [key: string]: number; }
         
         /** connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
 possible sentiment connotation types: positive, negative, neutral */
-        connotation_types?: { [key: string]: number; } | undefined
+        connotation_types?: { [key: string]: number; }
         
         /** text category
 to obtain a full list of available categories, refer to the Categories endpoint */
-        text_category?: number[] | undefined
+        text_category?: number[]
         
         /** date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        date_published?: string | undefined
+        date_published?: string
         
         /** content quality score
 this value is calculated based on the number of words, sentences and characters the content contains */
-        content_quality_score?: number | undefined
+        content_quality_score?: number
         
         /** semantic location
 indicates semantic element in HTML where the target keyword citation is located
 example:
 article, header */
-        semantic_location?: string | undefined
+        semantic_location?: string
         
         /** content rating
 rating related to content_info */
-        rating?: ContentRatingInfo | undefined
+        rating?: ContentRatingInfo
         
         /** citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -82,7 +81,7 @@ this field can be used to group citations by date and display citation trends;
 date and time are provided in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        group_date?: string | undefined
+        group_date?: string
 
     [key: string]: any;
 
@@ -94,91 +93,91 @@ export class AnalysisContentInfo  implements IAnalysisContentInfo {
 example:
 page_content, comment */
 
-    content_type?: string | undefined;
+    content_type?: string;
     
     /** title of the result */
 
-    title?: string | undefined;
+    title?: string;
     
     /** page title */
 
-    main_title?: string | undefined;
+    main_title?: string;
     
     /** title of the previous content block */
 
-    previous_title?: string | undefined;
+    previous_title?: string;
     
     /** title heading level
 indicates h-tag level from 1 (top) to 6 (bottom) */
 
-    level?: number | undefined;
+    level?: number;
     
     /** author of the content */
 
-    author?: string | undefined;
+    author?: string;
     
     /** content snippet */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** character length of the snippet */
 
-    snippet_length?: number | undefined;
+    snippet_length?: number;
     
     /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
 
-    social_metrics?: SocialMetricsInfo[] | undefined;
+    social_metrics?: SocialMetricsInfo[];
     
     /** highlighted text from the snippet */
 
-    highlighted_text?: string | undefined;
+    highlighted_text?: string;
     
     /** content language
 to obtain a full list of available languages, refer to the Languages endpoint */
 
-    language?: string | undefined;
+    language?: string;
     
     /** sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun */
 
-    sentiment_connotations?: { [key: string]: number; } | undefined;
+    sentiment_connotations?: { [key: string]: number; };
     
     /** connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
 possible sentiment connotation types: positive, negative, neutral */
 
-    connotation_types?: { [key: string]: number; } | undefined;
+    connotation_types?: { [key: string]: number; };
     
     /** text category
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    text_category?: number[] | undefined;
+    text_category?: number[];
     
     /** date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    date_published?: string | undefined;
+    date_published?: string;
     
     /** content quality score
 this value is calculated based on the number of words, sentences and characters the content contains */
 
-    content_quality_score?: number | undefined;
+    content_quality_score?: number;
     
     /** semantic location
 indicates semantic element in HTML where the target keyword citation is located
 example:
 article, header */
 
-    semantic_location?: string | undefined;
+    semantic_location?: string;
     
     /** content rating
 rating related to content_info */
 
-    rating?: ContentRatingInfo | undefined;
+    rating?: ContentRatingInfo;
     
     /** citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -187,7 +186,7 @@ date and time are provided in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    group_date?: string | undefined;
+    group_date?: string;
 
     [key: string]: any;
 

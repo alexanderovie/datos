@@ -1,16 +1,16 @@
 export interface IContentGenerationGenerateSubTopicsLiveResultInfo   {
         
         /** number of input tokens */
-        input_tokens?: number | undefined
+        input_tokens?: number
         
         /** number of output tokens */
-        output_tokens?: number | undefined
+        output_tokens?: number
         
         /** number of new tokens */
-        new_tokens?: number | undefined
+        new_tokens?: number
         
         /** resulting subtopics */
-        sub_topics?: string[] | undefined
+        sub_topics?: string[]
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class ContentGenerationGenerateSubTopicsLiveResultInfo  implements IConte
     
     /** number of input tokens */
 
-    input_tokens?: number | undefined;
+    input_tokens?: number;
     
     /** number of output tokens */
 
-    output_tokens?: number | undefined;
+    output_tokens?: number;
     
     /** number of new tokens */
 
-    new_tokens?: number | undefined;
+    new_tokens?: number;
     
     /** resulting subtopics */
 
-    sub_topics?: string[] | undefined;
+    sub_topics?: string[];
 
     [key: string]: any;
 

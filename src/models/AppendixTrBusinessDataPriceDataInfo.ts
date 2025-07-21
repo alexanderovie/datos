@@ -1,11 +1,10 @@
 import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
 
-
 export interface IAppendixTrBusinessDataPriceDataInfo   {
         
-        reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        reviews?: AppendixGoogleBusinessDataPriceDataInfo
         
-        search?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        search?: AppendixGoogleBusinessDataPriceDataInfo
 
     [key: string]: any;
 
@@ -13,9 +12,9 @@ export interface IAppendixTrBusinessDataPriceDataInfo   {
 
 export class AppendixTrBusinessDataPriceDataInfo  implements IAppendixTrBusinessDataPriceDataInfo {
 
-    reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    reviews?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    search?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    search?: AppendixGoogleBusinessDataPriceDataInfo;
 
     [key: string]: any;
 

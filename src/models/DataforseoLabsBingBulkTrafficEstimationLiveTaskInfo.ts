@@ -1,11 +1,10 @@
 import { DataforseoLabsBingBulkTrafficEstimationLiveResultInfo, IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo } from "./DataforseoLabsBingBulkTrafficEstimationLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsBingBulkTrafficEstimationLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo[] | undefined
+        result?: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo  extends BaseRe
     
     /** array of results */
 
-    result?: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo[] | undefined;
+    result?: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo[];
 
     [key: string]: any;
 

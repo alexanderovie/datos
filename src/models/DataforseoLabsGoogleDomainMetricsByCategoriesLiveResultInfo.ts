@@ -1,28 +1,27 @@
 import { DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem, IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem } from "./DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem";
 
-
 export interface IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** categories in a POST array */
-        categories?: number[] | undefined
+        categories?: number[]
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains historical ranking and traffic data */
-        items?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem[] | undefined
+        items?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem[]
 
     [key: string]: any;
 
@@ -32,31 +31,31 @@ export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo  implem
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** categories in a POST array */
 
-    categories?: number[] | undefined;
+    categories?: number[];
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains historical ranking and traffic data */
 
-    items?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem[];
 
     [key: string]: any;
 

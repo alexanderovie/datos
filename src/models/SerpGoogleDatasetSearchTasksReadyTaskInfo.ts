@@ -1,11 +1,10 @@
 import { SerpGoogleDatasetSearchTasksReadyResultInfo, ISerpGoogleDatasetSearchTasksReadyResultInfo } from "./SerpGoogleDatasetSearchTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleDatasetSearchTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleDatasetSearchTasksReadyResultInfo[] | undefined
+        result?: SerpGoogleDatasetSearchTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleDatasetSearchTasksReadyTaskInfo  extends BaseResponseTask
     
     /** array of results */
 
-    result?: SerpGoogleDatasetSearchTasksReadyResultInfo[] | undefined;
+    result?: SerpGoogleDatasetSearchTasksReadyResultInfo[];
 
     [key: string]: any;
 

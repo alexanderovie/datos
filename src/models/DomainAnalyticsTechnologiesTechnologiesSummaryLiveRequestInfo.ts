@@ -8,7 +8,7 @@ you can find the full list of technology group ids, category ids and technology 
 note: you can specify up to 10 technology paths in this array
 example:
 [{'path': 'content.cms','name': 'wordpress'}, {'path': 'marketing.crm','name': 'salesforce'}] */
-        technology_paths?: string[] | undefined
+        technology_paths?: string[]
         
         /** ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -16,7 +16,7 @@ you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
 ['sales', 'marketing'] */
-        groups?: string[] | undefined
+        groups?: string[]
         
         /** ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -24,7 +24,7 @@ you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
 ['payment_processors','crm'] */
-        categories?: string[] | undefined
+        categories?: string[]
         
         /** target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -32,7 +32,7 @@ you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
 ['Google Pay','Salesforce'] */
-        technologies?: string[] | undefined
+        technologies?: string[]
         
         /** target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -41,7 +41,7 @@ UTF-8 encoding;
 example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** search mode
 optional field
@@ -49,7 +49,7 @@ possible search mode types:
 as_is – search for results exactly matching the specified group ids, category ids, or technology names
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is */
-        mode?: string | undefined
+        mode?: string
         
         /** array of results filtering parameters
 optional field
@@ -64,7 +64,7 @@ example:
 'and',
 ['domain_rank','>',800]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** maximum number of elements within internal arrays
 optional field
@@ -73,14 +73,14 @@ countries, languages, content_languages, keywords
 default value: 10
 minimum value: 1
 maximum value: 10000 */
-        internal_list_limit?: number | undefined
+        internal_list_limit?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -97,7 +97,7 @@ note: you can specify up to 10 technology paths in this array
 example:
 [{'path': 'content.cms','name': 'wordpress'}, {'path': 'marketing.crm','name': 'salesforce'}] */
 
-    technology_paths?: string[] | undefined;
+    technology_paths?: string[];
     
     /** ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -106,7 +106,7 @@ note: you can specify up to 10 technology groups in this array
 example:
 ['sales', 'marketing'] */
 
-    groups?: string[] | undefined;
+    groups?: string[];
     
     /** ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -115,7 +115,7 @@ note: you can specify up to 10 technology categories in this array
 example:
 ['payment_processors','crm'] */
 
-    categories?: string[] | undefined;
+    categories?: string[];
     
     /** target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -124,7 +124,7 @@ note: you can specify up to 10 technologies in this array
 example:
 ['Google Pay','Salesforce'] */
 
-    technologies?: string[] | undefined;
+    technologies?: string[];
     
     /** target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -134,7 +134,7 @@ example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** search mode
 optional field
@@ -143,7 +143,7 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is */
 
-    mode?: string | undefined;
+    mode?: string;
     
     /** array of results filtering parameters
 optional field
@@ -159,7 +159,7 @@ example:
 ['domain_rank','>',800]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** maximum number of elements within internal arrays
 optional field
@@ -169,7 +169,7 @@ default value: 10
 minimum value: 1
 maximum value: 10000 */
 
-    internal_list_limit?: number | undefined;
+    internal_list_limit?: number;
     
     /** user-defined task identifier
 optional field
@@ -177,7 +177,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

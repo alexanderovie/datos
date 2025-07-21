@@ -1,28 +1,27 @@
 import { DataforseoLabsCompetitorsDomainLiveItem, IDataforseoLabsCompetitorsDomainLiveItem } from "./DataforseoLabsCompetitorsDomainLiveItem";
 
-
 export interface IDataforseoLabsBingCompetitorsDomainLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains data related to the target and competitor domains */
-        items?: DataforseoLabsCompetitorsDomainLiveItem[] | undefined
+        items?: DataforseoLabsCompetitorsDomainLiveItem[]
 
     [key: string]: any;
 
@@ -32,31 +31,31 @@ export class DataforseoLabsBingCompetitorsDomainLiveResultInfo  implements IData
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains data related to the target and competitor domains */
 
-    items?: DataforseoLabsCompetitorsDomainLiveItem[] | undefined;
+    items?: DataforseoLabsCompetitorsDomainLiveItem[];
 
     [key: string]: any;
 

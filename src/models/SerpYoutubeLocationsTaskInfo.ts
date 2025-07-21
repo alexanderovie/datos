@@ -1,11 +1,10 @@
 import { SerpYoutubeLocationsResultInfo, ISerpYoutubeLocationsResultInfo } from "./SerpYoutubeLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpYoutubeLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpYoutubeLocationsResultInfo[] | undefined
+        result?: SerpYoutubeLocationsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpYoutubeLocationsTaskInfo  extends BaseResponseTaskInfo   implem
     
     /** array of results */
 
-    result?: SerpYoutubeLocationsResultInfo[] | undefined;
+    result?: SerpYoutubeLocationsResultInfo[];
 
     [key: string]: any;
 

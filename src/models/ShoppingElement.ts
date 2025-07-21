@@ -1,41 +1,40 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IShoppingElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** price indicated in the element */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string | undefined
+        source?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
-        marketplace?: string | undefined
+        marketplace?: string
         
         /** relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted */
-        marketplace_url?: string | undefined
+        marketplace_url?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -45,45 +44,45 @@ export class ShoppingElement  implements IShoppingElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** price indicated in the element */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string | undefined;
+    source?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
 
-    marketplace?: string | undefined;
+    marketplace?: string;
     
     /** relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted */
 
-    marketplace_url?: string | undefined;
+    marketplace_url?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

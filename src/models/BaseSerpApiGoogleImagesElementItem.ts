@@ -1,23 +1,22 @@
 import { SerpApiCarouselElement, ISerpApiCarouselElement } from "./SerpApiCarouselElement";
 import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
 
-
 export interface IBaseSerpApiGoogleImagesElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
 
     [key: string]: any;
 
@@ -27,22 +26,22 @@ export class BaseSerpApiGoogleImagesElementItem  implements IBaseSerpApiGoogleIm
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
 
     [key: string]: any;
 
@@ -121,18 +120,18 @@ export interface ISerpApiGoogleImagesCarouselElementItem  extends IBaseSerpApiGo
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** items of the element */
-        items?: SerpApiCarouselElement[] | undefined
+        items?: SerpApiCarouselElement[]
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
-        rectangle?: RectangleInfo | undefined
+        rectangle?: RectangleInfo
 
     [key: string]: any;
 
@@ -144,21 +143,21 @@ export class SerpApiGoogleImagesCarouselElementItem  extends BaseSerpApiGoogleIm
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** items of the element */
 
-    items?: SerpApiCarouselElement[] | undefined;
+    items?: SerpApiCarouselElement[];
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
-    rectangle?: RectangleInfo | undefined;
+    rectangle?: RectangleInfo;
 
     [key: string]: any;
 
@@ -223,22 +222,22 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 export interface ISerpApiGoogleImagesImagesSearchElementItem  extends IBaseSerpApiGoogleImagesElementItem    {
         
         /** title of the result in SERP */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the result in SERP */
-        subtitle?: string | undefined
+        subtitle?: string
         
         /** the alt tag of the image */
-        alt?: string | undefined
+        alt?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** the URL of the source image */
-        source_url?: string | undefined
+        source_url?: string
         
         /** the URL of the cached version of the image stored on Google’s servers */
-        encoded_url?: string | undefined
+        encoded_url?: string
 
     [key: string]: any;
 
@@ -248,27 +247,27 @@ export class SerpApiGoogleImagesImagesSearchElementItem  extends BaseSerpApiGoog
     
     /** title of the result in SERP */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the result in SERP */
 
-    subtitle?: string | undefined;
+    subtitle?: string;
     
     /** the alt tag of the image */
 
-    alt?: string | undefined;
+    alt?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** the URL of the source image */
 
-    source_url?: string | undefined;
+    source_url?: string;
     
     /** the URL of the cached version of the image stored on Google’s servers */
 
-    encoded_url?: string | undefined;
+    encoded_url?: string;
 
     [key: string]: any;
 
@@ -326,15 +325,15 @@ export interface ISerpApiGoogleImagesRelatedSearchesElementItem  extends IBaseSe
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** items of the element */
-        items?: string[] | undefined
+        items?: string[]
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
-        rectangle?: RectangleInfo | undefined
+        rectangle?: RectangleInfo
 
     [key: string]: any;
 
@@ -346,17 +345,17 @@ export class SerpApiGoogleImagesRelatedSearchesElementItem  extends BaseSerpApiG
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** items of the element */
 
-    items?: string[] | undefined;
+    items?: string[];
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
-    rectangle?: RectangleInfo | undefined;
+    rectangle?: RectangleInfo;
 
     [key: string]: any;
 

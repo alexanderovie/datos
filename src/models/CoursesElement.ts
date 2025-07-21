@@ -1,37 +1,36 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface ICoursesElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** website domain */
-        domain?: string | undefined
+        domain?: string
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string | undefined
+        source?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** the date when the page source of the element was published */
-        date?: string | undefined
+        date?: string
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string | undefined
+        image_url?: string
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -41,42 +40,42 @@ export class CoursesElement  implements ICoursesElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** website domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string | undefined;
+    source?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** the date when the page source of the element was published */
 
-    date?: string | undefined;
+    date?: string;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

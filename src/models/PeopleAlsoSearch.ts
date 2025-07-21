@@ -1,24 +1,23 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IPeopleAlsoSearch   {
         
         /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
-        cid?: string | undefined
+        cid?: string
         
         /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
-        feature_id?: string | undefined
+        feature_id?: string
         
         /** title of the element in SERP
 the name of the business entity for which the results are collected */
-        title?: string | undefined
+        title?: string
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -30,22 +29,22 @@ export class PeopleAlsoSearch  implements IPeopleAlsoSearch {
 unique id of a local establishment
 learn more about the identifier in this help center article */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
 
-    feature_id?: string | undefined;
+    feature_id?: string;
     
     /** title of the element in SERP
 the name of the business entity for which the results are collected */
 
-    title?: string | undefined;
+    title?: string;
     
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

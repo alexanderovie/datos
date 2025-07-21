@@ -1,22 +1,21 @@
 import { AppendixContentGenerationPriceDataInfo, IAppendixContentGenerationPriceDataInfo } from "./AppendixContentGenerationPriceDataInfo";
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixContentGenerationPriceData   {
         
-        check_grammar?: AppendixContentGenerationPriceDataInfo | undefined
+        check_grammar?: AppendixContentGenerationPriceDataInfo
         
-        generate?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        generate?: AppendixBingKeywordsDataPriceDataInfo
         
-        generate_meta_tags?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        generate_meta_tags?: AppendixBingKeywordsDataPriceDataInfo
         
-        generate_sub_topics?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        generate_sub_topics?: AppendixBingKeywordsDataPriceDataInfo
         
-        generate_text?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        generate_text?: AppendixBingKeywordsDataPriceDataInfo
         
-        paraphrase?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        paraphrase?: AppendixBingKeywordsDataPriceDataInfo
         
-        text_summary?: AppendixContentGenerationPriceDataInfo | undefined
+        text_summary?: AppendixContentGenerationPriceDataInfo
 
     [key: string]: any;
 
@@ -24,19 +23,19 @@ export interface IAppendixContentGenerationPriceData   {
 
 export class AppendixContentGenerationPriceData  implements IAppendixContentGenerationPriceData {
 
-    check_grammar?: AppendixContentGenerationPriceDataInfo | undefined;
+    check_grammar?: AppendixContentGenerationPriceDataInfo;
 
-    generate?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    generate?: AppendixBingKeywordsDataPriceDataInfo;
 
-    generate_meta_tags?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    generate_meta_tags?: AppendixBingKeywordsDataPriceDataInfo;
 
-    generate_sub_topics?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    generate_sub_topics?: AppendixBingKeywordsDataPriceDataInfo;
 
-    generate_text?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    generate_text?: AppendixBingKeywordsDataPriceDataInfo;
 
-    paraphrase?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    paraphrase?: AppendixBingKeywordsDataPriceDataInfo;
 
-    text_summary?: AppendixContentGenerationPriceDataInfo | undefined;
+    text_summary?: AppendixContentGenerationPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { ContentAnalysisCategoriesTaskInfo, IContentAnalysisCategoriesTaskInfo } from "./ContentAnalysisCategoriesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IContentAnalysisCategoriesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentAnalysisCategoriesTaskInfo[] | undefined
+        tasks?: ContentAnalysisCategoriesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentAnalysisCategoriesResponseInfo  extends BaseResponseInfo   i
     
     /** array of tasks */
 
-    tasks?: ContentAnalysisCategoriesTaskInfo[] | undefined;
+    tasks?: ContentAnalysisCategoriesTaskInfo[];
 
     [key: string]: any;
 

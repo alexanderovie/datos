@@ -1,8 +1,8 @@
 export interface IAppendixContentGenerationDayLimitsRatesDataInfo   {
         
-        live?: number | undefined
+        live?: number
         
-        languages?: number | undefined
+        languages?: number
 
     [key: string]: any;
 
@@ -10,9 +10,9 @@ export interface IAppendixContentGenerationDayLimitsRatesDataInfo   {
 
 export class AppendixContentGenerationDayLimitsRatesDataInfo  implements IAppendixContentGenerationDayLimitsRatesDataInfo {
 
-    live?: number | undefined;
+    live?: number;
 
-    languages?: number | undefined;
+    languages?: number;
 
     [key: string]: any;
 

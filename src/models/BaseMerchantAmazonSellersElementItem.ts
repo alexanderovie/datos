@@ -2,56 +2,55 @@ import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 
-
 export interface IBaseMerchantAmazonSellersElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements found in Amazon Sellers SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** alignment of the element in SERP
 possible values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** business name of the seller */
-        seller_name?: string | undefined
+        seller_name?: string
         
         /** url forwarding to the seller’s page on Amazon */
-        seller_url?: string | undefined
+        seller_url?: string
         
         /** sender company name */
-        ships_from?: string | undefined
+        ships_from?: string
         
         /** product pricing details
 if there are no details, the value will be null */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** seller rating details
 seller popularity rate based on customer reviews */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** product condition
 condition of the product offered by the seller */
-        condition?: string | undefined
+        condition?: string
         
         /** product condition details
 expanded details on the condition of the product offered by the seller */
-        condition_description?: string | undefined
+        condition_description?: string
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: AmazonDeliveryInfo | undefined
+        delivery_info?: AmazonDeliveryInfo
 
     [key: string]: any;
 
@@ -61,64 +60,64 @@ export class BaseMerchantAmazonSellersElementItem  implements IBaseMerchantAmazo
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements found in Amazon Sellers SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** alignment of the element in SERP
 possible values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** business name of the seller */
 
-    seller_name?: string | undefined;
+    seller_name?: string;
     
     /** url forwarding to the seller’s page on Amazon */
 
-    seller_url?: string | undefined;
+    seller_url?: string;
     
     /** sender company name */
 
-    ships_from?: string | undefined;
+    ships_from?: string;
     
     /** product pricing details
 if there are no details, the value will be null */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** seller rating details
 seller popularity rate based on customer reviews */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** product condition
 condition of the product offered by the seller */
 
-    condition?: string | undefined;
+    condition?: string;
     
     /** product condition details
 expanded details on the condition of the product offered by the seller */
 
-    condition_description?: string | undefined;
+    condition_description?: string;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: AmazonDeliveryInfo | undefined;
+    delivery_info?: AmazonDeliveryInfo;
 
     [key: string]: any;
 

@@ -1,28 +1,27 @@
 import { AppendixFunctionTypeInfo, IAppendixFunctionTypeInfo } from "./AppendixFunctionTypeInfo";
 import { AppendixJobsSerpLimitsRatesDataInfo, IAppendixJobsSerpLimitsRatesDataInfo } from "./AppendixJobsSerpLimitsRatesDataInfo";
 
-
 export interface IAppendixSerpDaysRatesDataInfo   {
         
-        task_post?: number | undefined
+        task_post?: number
         
-        task_get?: AppendixFunctionTypeInfo | undefined
+        task_get?: AppendixFunctionTypeInfo
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
         
-        locations?: number | undefined
+        locations?: number
         
-        languages?: number | undefined
+        languages?: number
         
-        live?: AppendixFunctionTypeInfo | undefined
+        live?: AppendixFunctionTypeInfo
         
-        errors?: number | undefined
+        errors?: number
         
-        tasks_fixed?: number | undefined
+        tasks_fixed?: number
         
-        jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined
+        jobs?: AppendixJobsSerpLimitsRatesDataInfo
         
-        screenshot?: number | undefined
+        screenshot?: number
 
     [key: string]: any;
 
@@ -30,25 +29,25 @@ export interface IAppendixSerpDaysRatesDataInfo   {
 
 export class AppendixSerpDaysRatesDataInfo  implements IAppendixSerpDaysRatesDataInfo {
 
-    task_post?: number | undefined;
+    task_post?: number;
 
-    task_get?: AppendixFunctionTypeInfo | undefined;
+    task_get?: AppendixFunctionTypeInfo;
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    live?: AppendixFunctionTypeInfo | undefined;
+    live?: AppendixFunctionTypeInfo;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    tasks_fixed?: number | undefined;
+    tasks_fixed?: number;
 
-    jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined;
+    jobs?: AppendixJobsSerpLimitsRatesDataInfo;
 
-    screenshot?: number | undefined;
+    screenshot?: number;
 
     [key: string]: any;
 

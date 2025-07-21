@@ -1,10 +1,10 @@
 export interface ISocialMetricsInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** likes count */
-        like_count?: number | undefined
+        like_count?: number
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class SocialMetricsInfo  implements ISocialMetricsInfo {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** likes count */
 
-    like_count?: number | undefined;
+    like_count?: number;
 
     [key: string]: any;
 

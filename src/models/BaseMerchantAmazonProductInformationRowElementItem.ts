@@ -1,7 +1,7 @@
 export interface IBaseMerchantAmazonProductInformationRowElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class BaseMerchantAmazonProductInformationRowElementItem  implements IBas
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
 
     [key: string]: any;
 
@@ -76,10 +76,10 @@ export class BaseMerchantAmazonProductInformationRowElementItem  implements IBas
 export interface IProductInformationRowProductInformationImageRowElementItem  extends IBaseMerchantAmazonProductInformationRowElementItem    {
         
         /** alternative text of the related product image */
-        alt?: string | undefined
+        alt?: string
         
         /** URL of the image */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -89,11 +89,11 @@ export class ProductInformationRowProductInformationImageRowElementItem  extends
     
     /** alternative text of the related product image */
 
-    alt?: string | undefined;
+    alt?: string;
     
     /** URL of the image */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 
@@ -141,7 +141,7 @@ export class ProductInformationRowProductInformationImageRowElementItem  extends
 export interface IProductInformationRowProductInformationTextRowElementItem  extends IBaseMerchantAmazonProductInformationRowElementItem    {
         
         /** text of the voucher */
-        text?: string | undefined
+        text?: string
 
     [key: string]: any;
 
@@ -151,7 +151,7 @@ export class ProductInformationRowProductInformationTextRowElementItem  extends 
     
     /** text of the voucher */
 
-    text?: string | undefined;
+    text?: string;
 
     [key: string]: any;
 

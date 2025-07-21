@@ -1,17 +1,16 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo   {
         
-        status?: number | undefined
+        status?: number
         
-        search_volume?: AppendixInfo | undefined
+        search_volume?: AppendixInfo
         
-        keywords_for_keywords?: AppendixInfo | undefined
+        keywords_for_keywords?: AppendixInfo
         
-        keywords_for_site?: AppendixInfo | undefined
+        keywords_for_site?: AppendixInfo
         
-        ad_traffic_by_keywords?: AppendixInfo | undefined
+        ad_traffic_by_keywords?: AppendixInfo
 
     [key: string]: any;
 
@@ -19,15 +18,15 @@ export interface IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo   {
 
 export class AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo  implements IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo {
 
-    status?: number | undefined;
+    status?: number;
 
-    search_volume?: AppendixInfo | undefined;
+    search_volume?: AppendixInfo;
 
-    keywords_for_keywords?: AppendixInfo | undefined;
+    keywords_for_keywords?: AppendixInfo;
 
-    keywords_for_site?: AppendixInfo | undefined;
+    keywords_for_site?: AppendixInfo;
 
-    ad_traffic_by_keywords?: AppendixInfo | undefined;
+    ad_traffic_by_keywords?: AppendixInfo;
 
     [key: string]: any;
 

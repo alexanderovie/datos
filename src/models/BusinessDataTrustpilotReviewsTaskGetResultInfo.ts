@@ -1,50 +1,49 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { TrustpilotReviewSearch, ITrustpilotReviewSearch } from "./TrustpilotReviewSearch";
 
-
 export interface IBusinessDataTrustpilotReviewsTaskGetResultInfo   {
         
         /** domain of the business entity */
-        domain?: string | undefined
+        domain?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected */
-        title?: string | undefined
+        title?: string
         
         /** location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected */
-        location?: string | undefined
+        location?: string
         
         /** the total number of reviews */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number | undefined
+        items_count?: number
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: TrustpilotReviewSearch[] | undefined
+        items?: TrustpilotReviewSearch[]
 
     [key: string]: any;
 
@@ -54,56 +53,56 @@ export class BusinessDataTrustpilotReviewsTaskGetResultInfo  implements IBusines
     
     /** domain of the business entity */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected */
 
-    title?: string | undefined;
+    title?: string;
     
     /** location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected */
 
-    location?: string | undefined;
+    location?: string;
     
     /** the total number of reviews */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: TrustpilotReviewSearch[] | undefined;
+    items?: TrustpilotReviewSearch[];
 
     [key: string]: any;
 

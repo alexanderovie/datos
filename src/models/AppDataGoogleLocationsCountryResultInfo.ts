@@ -1,18 +1,18 @@
 export interface IAppDataGoogleLocationsCountryResultInfo   {
         
         /** location code */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the location */
-        location_name?: string | undefined
+        location_name?: string
         
-        location_code_parent?: number | undefined
+        location_code_parent?: number
         
         /** ISO country code of the location */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** location type */
-        location_type?: string | undefined
+        location_type?: string
 
     [key: string]: any;
 
@@ -22,21 +22,21 @@ export class AppDataGoogleLocationsCountryResultInfo  implements IAppDataGoogleL
     
     /** location code */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the location */
 
-    location_name?: string | undefined;
+    location_name?: string;
 
-    location_code_parent?: number | undefined;
+    location_code_parent?: number;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** location type */
 
-    location_type?: string | undefined;
+    location_type?: string;
 
     [key: string]: any;
 

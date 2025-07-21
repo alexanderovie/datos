@@ -1,11 +1,10 @@
 import { SerpIdListTaskInfo, ISerpIdListTaskInfo } from "./SerpIdListTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpIdListResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpIdListTaskInfo[] | undefined
+        tasks?: SerpIdListTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpIdListResponseInfo  extends BaseResponseInfo   implements ISerp
     
     /** array of tasks */
 
-    tasks?: SerpIdListTaskInfo[] | undefined;
+    tasks?: SerpIdListTaskInfo[];
 
     [key: string]: any;
 

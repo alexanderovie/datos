@@ -1,11 +1,10 @@
 import { AppDataGoogleAppInfoTaskGetAdvancedResultInfo, IAppDataGoogleAppInfoTaskGetAdvancedResultInfo } from "./AppDataGoogleAppInfoTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IAppDataGoogleAppInfoTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataGoogleAppInfoTaskGetAdvancedResultInfo[] | undefined
+        result?: AppDataGoogleAppInfoTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataGoogleAppInfoTaskGetAdvancedTaskInfo  extends BaseResponseTa
     
     /** array of results */
 
-    result?: AppDataGoogleAppInfoTaskGetAdvancedResultInfo[] | undefined;
+    result?: AppDataGoogleAppInfoTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

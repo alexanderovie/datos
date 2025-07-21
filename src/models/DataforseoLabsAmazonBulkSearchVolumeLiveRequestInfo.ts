@@ -6,7 +6,7 @@ UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** full name of the location
 required field if don’t specify location_code
@@ -32,7 +32,7 @@ United Kingdom – 2826, en
 United States – 2840, en
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if don’t specify location_name
@@ -41,7 +41,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports these locations and languages only;
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if don’t specify language_code
@@ -49,7 +49,7 @@ you can receive the list of available languages with their language_name by maki
 Note: this endpoint currently supports these locations and languages only;
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if don’t specify language_name
@@ -57,14 +57,14 @@ you can receive the list of available languages with their language_code by maki
 Note: this endpoint currently supports these locations and languages only;
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -79,7 +79,7 @@ maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** full name of the location
 required field if don’t specify location_code
@@ -106,7 +106,7 @@ United States – 2840, en
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if don’t specify location_name
@@ -116,7 +116,7 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if don’t specify language_code
@@ -125,7 +125,7 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if don’t specify language_name
@@ -134,7 +134,7 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

@@ -1,28 +1,28 @@
 export interface ITargetInfo   {
         
         /** server */
-        server?: string | undefined
+        server?: string
         
         /** content management system */
-        cms?: string | undefined
+        cms?: string
         
         /** platform type */
-        platform_type?: string[] | undefined
+        platform_type?: string[]
         
         /** IP address of the target */
-        ip_address?: string | undefined
+        ip_address?: string
         
         /** country code that the target domain is determined to belong to */
-        country?: string | undefined
+        country?: string
         
         /** indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
-        is_ip?: boolean | undefined
+        is_ip?: boolean
         
         /** spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
 learn more about how the metric is calculated on this help center page */
-        target_spam_score?: number | undefined
+        target_spam_score?: number
 
     [key: string]: any;
 
@@ -32,34 +32,34 @@ export class TargetInfo  implements ITargetInfo {
     
     /** server */
 
-    server?: string | undefined;
+    server?: string;
     
     /** content management system */
 
-    cms?: string | undefined;
+    cms?: string;
     
     /** platform type */
 
-    platform_type?: string[] | undefined;
+    platform_type?: string[];
     
     /** IP address of the target */
 
-    ip_address?: string | undefined;
+    ip_address?: string;
     
     /** country code that the target domain is determined to belong to */
 
-    country?: string | undefined;
+    country?: string;
     
     /** indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
 
-    is_ip?: boolean | undefined;
+    is_ip?: boolean;
     
     /** spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
 learn more about how the metric is calculated on this help center page */
 
-    target_spam_score?: number | undefined;
+    target_spam_score?: number;
 
     [key: string]: any;
 

@@ -1,12 +1,12 @@
 export interface IAppendixInfo   {
         
-        task_post?: number | undefined
+        task_post?: number
         
-        task_get?: number | undefined
+        task_get?: number
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
         
-        live?: number | undefined
+        live?: number
 
     [key: string]: any;
 
@@ -14,13 +14,13 @@ export interface IAppendixInfo   {
 
 export class AppendixInfo  implements IAppendixInfo {
 
-    task_post?: number | undefined;
+    task_post?: number;
 
-    task_get?: number | undefined;
+    task_get?: number;
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
-    live?: number | undefined;
+    live?: number;
 
     [key: string]: any;
 

@@ -1,13 +1,13 @@
 export interface ICountryDistribution   {
         
         /** country ISO code */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** search volume in a given country */
-        search_volume?: number | undefined
+        search_volume?: number
         
         /** percentage of global search volume */
-        percentage?: number | undefined
+        percentage?: number
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class CountryDistribution  implements ICountryDistribution {
     
     /** country ISO code */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** search volume in a given country */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
     
     /** percentage of global search volume */
 
-    percentage?: number | undefined;
+    percentage?: number;
 
     [key: string]: any;
 

@@ -1,36 +1,36 @@
 export interface ITechnologiesInfo   {
         
-        add_ons?: { [key: string]: string[]; } | undefined
+        add_ons?: { [key: string]: string[]; }
         
-        analytics?: { [key: string]: string[]; } | undefined
+        analytics?: { [key: string]: string[]; }
         
-        web_development?: { [key: string]: string[]; } | undefined
+        web_development?: { [key: string]: string[]; }
         
-        security?: { [key: string]: string[]; } | undefined
+        security?: { [key: string]: string[]; }
         
-        business_tools?: { [key: string]: string[]; } | undefined
+        business_tools?: { [key: string]: string[]; }
         
-        sales?: { [key: string]: string[]; } | undefined
+        sales?: { [key: string]: string[]; }
         
-        other?: { [key: string]: string[]; } | undefined
+        other?: { [key: string]: string[]; }
         
-        user_generated_content?: { [key: string]: string[]; } | undefined
+        user_generated_content?: { [key: string]: string[]; }
         
-        privacy?: { [key: string]: string[]; } | undefined
+        privacy?: { [key: string]: string[]; }
         
-        servers?: { [key: string]: string[]; } | undefined
+        servers?: { [key: string]: string[]; }
         
-        location?: { [key: string]: string[]; } | undefined
+        location?: { [key: string]: string[]; }
         
-        content?: { [key: string]: string[]; } | undefined
+        content?: { [key: string]: string[]; }
         
-        media?: { [key: string]: string[]; } | undefined
+        media?: { [key: string]: string[]; }
         
-        marketing?: { [key: string]: string[]; } | undefined
+        marketing?: { [key: string]: string[]; }
         
-        communication?: { [key: string]: string[]; } | undefined
+        communication?: { [key: string]: string[]; }
         
-        utilities?: { [key: string]: string[]; } | undefined
+        utilities?: { [key: string]: string[]; }
 
     [key: string]: any;
 
@@ -38,37 +38,37 @@ export interface ITechnologiesInfo   {
 
 export class TechnologiesInfo  implements ITechnologiesInfo {
 
-    add_ons?: { [key: string]: string[]; } | undefined;
+    add_ons?: { [key: string]: string[]; };
 
-    analytics?: { [key: string]: string[]; } | undefined;
+    analytics?: { [key: string]: string[]; };
 
-    web_development?: { [key: string]: string[]; } | undefined;
+    web_development?: { [key: string]: string[]; };
 
-    security?: { [key: string]: string[]; } | undefined;
+    security?: { [key: string]: string[]; };
 
-    business_tools?: { [key: string]: string[]; } | undefined;
+    business_tools?: { [key: string]: string[]; };
 
-    sales?: { [key: string]: string[]; } | undefined;
+    sales?: { [key: string]: string[]; };
 
-    other?: { [key: string]: string[]; } | undefined;
+    other?: { [key: string]: string[]; };
 
-    user_generated_content?: { [key: string]: string[]; } | undefined;
+    user_generated_content?: { [key: string]: string[]; };
 
-    privacy?: { [key: string]: string[]; } | undefined;
+    privacy?: { [key: string]: string[]; };
 
-    servers?: { [key: string]: string[]; } | undefined;
+    servers?: { [key: string]: string[]; };
 
-    location?: { [key: string]: string[]; } | undefined;
+    location?: { [key: string]: string[]; };
 
-    content?: { [key: string]: string[]; } | undefined;
+    content?: { [key: string]: string[]; };
 
-    media?: { [key: string]: string[]; } | undefined;
+    media?: { [key: string]: string[]; };
 
-    marketing?: { [key: string]: string[]; } | undefined;
+    marketing?: { [key: string]: string[]; };
 
-    communication?: { [key: string]: string[]; } | undefined;
+    communication?: { [key: string]: string[]; };
 
-    utilities?: { [key: string]: string[]; } | undefined;
+    utilities?: { [key: string]: string[]; };
 
     [key: string]: any;
 

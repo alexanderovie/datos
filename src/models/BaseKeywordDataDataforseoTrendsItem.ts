@@ -4,19 +4,18 @@ import { InterestsComparison, IInterestsComparison } from "./InterestsComparison
 import { Demography, IDemography } from "./Demography";
 import { DemographyComparisonInfo, IDemographyComparisonInfo } from "./DemographyComparisonInfo";
 
-
 export interface IBaseKeywordDataDataforseoTrendsItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** the alignment of the element
 can take the following values: 1, 2, 3, 4, etc. */
-        position?: number | undefined
+        position?: number
         
         /** relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array */
-        keywords?: string[] | undefined
+        keywords?: string[]
 
     [key: string]: any;
 
@@ -26,17 +25,17 @@ export class BaseKeywordDataDataforseoTrendsItem  implements IBaseKeywordDataDat
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** the alignment of the element
 can take the following values: 1, 2, 3, 4, etc. */
 
-    position?: number | undefined;
+    position?: number;
     
     /** relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
 
     [key: string]: any;
 
@@ -111,10 +110,10 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 export interface IDataforseoTrendsDataforseoTrendsGraphElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
         /** DataForSEO Trends data for the specified parameters */
-        data?: TrendsGraphDataInfo[] | undefined
+        data?: TrendsGraphDataInfo[]
         
         /** keyword popularity values averaged over the whole time range */
-        averages?: number[] | undefined
+        averages?: number[]
 
     [key: string]: any;
 
@@ -124,11 +123,11 @@ export class DataforseoTrendsDataforseoTrendsGraphElementItem  extends BaseKeywo
     
     /** DataForSEO Trends data for the specified parameters */
 
-    data?: TrendsGraphDataInfo[] | undefined;
+    data?: TrendsGraphDataInfo[];
     
     /** keyword popularity values averaged over the whole time range */
 
-    averages?: number[] | undefined;
+    averages?: number[];
 
     [key: string]: any;
 
@@ -189,11 +188,11 @@ export class DataforseoTrendsDataforseoTrendsGraphElementItem  extends BaseKeywo
 export interface IDataforseoTrendsSubregionInterestsElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
         /** subregional keyword popuarity data for each specified term */
-        interests?: DataforseoTrendsinterestsInfo[] | undefined
+        interests?: DataforseoTrendsinterestsInfo[]
         
         /** comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null */
-        interests_comparison?: InterestsComparison | undefined
+        interests_comparison?: InterestsComparison
 
     [key: string]: any;
 
@@ -203,12 +202,12 @@ export class DataforseoTrendsSubregionInterestsElementItem  extends BaseKeywordD
     
     /** subregional keyword popuarity data for each specified term */
 
-    interests?: DataforseoTrendsinterestsInfo[] | undefined;
+    interests?: DataforseoTrendsinterestsInfo[];
     
     /** comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null */
 
-    interests_comparison?: InterestsComparison | undefined;
+    interests_comparison?: InterestsComparison;
 
     [key: string]: any;
 
@@ -270,12 +269,12 @@ export interface IDataforseoTrendsDemographyElementItem  extends IBaseKeywordDat
         
         /** demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender */
-        demography?: Demography | undefined
+        demography?: Demography
         
         /** comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null */
-        demography_comparison?: DemographyComparisonInfo | undefined
+        demography_comparison?: DemographyComparisonInfo
 
     [key: string]: any;
 
@@ -286,13 +285,13 @@ export class DataforseoTrendsDemographyElementItem  extends BaseKeywordDataDataf
     /** demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender */
 
-    demography?: Demography | undefined;
+    demography?: Demography;
     
     /** comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null */
 
-    demography_comparison?: DemographyComparisonInfo | undefined;
+    demography_comparison?: DemographyComparisonInfo;
 
     [key: string]: any;
 

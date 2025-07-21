@@ -1,11 +1,10 @@
 import { AppDataAppleAppSearchesTaskGetAdvancedResultInfo, IAppDataAppleAppSearchesTaskGetAdvancedResultInfo } from "./AppDataAppleAppSearchesTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IAppDataAppleAppSearchesTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataAppleAppSearchesTaskGetAdvancedResultInfo[] | undefined
+        result?: AppDataAppleAppSearchesTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataAppleAppSearchesTaskGetAdvancedTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: AppDataAppleAppSearchesTaskGetAdvancedResultInfo[] | undefined;
+    result?: AppDataAppleAppSearchesTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

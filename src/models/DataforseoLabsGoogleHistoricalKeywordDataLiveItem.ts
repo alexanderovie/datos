@@ -1,24 +1,23 @@
 import { History, IHistory } from "./History";
 
-
 export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** array of objects with historical data for the keyword */
-        history?: History[] | undefined
+        history?: History[]
 
     [key: string]: any;
 
@@ -28,25 +27,25 @@ export class DataforseoLabsGoogleHistoricalKeywordDataLiveItem  implements IData
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** array of objects with historical data for the keyword */
 
-    history?: History[] | undefined;
+    history?: History[];
 
     [key: string]: any;
 

@@ -1,48 +1,48 @@
 export interface IDataforseoLabsAvailableFiltersResultInfo   {
         
-        related_keywords?: { [key: string]: { [key: string]: string; }; } | undefined
+        related_keywords?: { [key: string]: { [key: string]: string; }; }
         
-        keyword_suggestions?: { [key: string]: { [key: string]: string; }; } | undefined
+        keyword_suggestions?: { [key: string]: { [key: string]: string; }; }
         
-        ranked_keywords?: { [key: string]: { [key: string]: string; }; } | undefined
+        ranked_keywords?: { [key: string]: { [key: string]: string; }; }
         
-        keyword_ideas?: { [key: string]: { [key: string]: string; }; } | undefined
+        keyword_ideas?: { [key: string]: { [key: string]: string; }; }
         
-        serp_competitors?: { [key: string]: { [key: string]: string; }; } | undefined
+        serp_competitors?: { [key: string]: { [key: string]: string; }; }
         
-        relevant_pages?: { [key: string]: { [key: string]: string; }; } | undefined
+        relevant_pages?: { [key: string]: { [key: string]: string; }; }
         
-        subdomains?: { [key: string]: { [key: string]: string; }; } | undefined
+        subdomains?: { [key: string]: { [key: string]: string; }; }
         
-        competitors_domain?: { [key: string]: { [key: string]: string; }; } | undefined
+        competitors_domain?: { [key: string]: { [key: string]: string; }; }
         
-        categories_for_domain?: { [key: string]: { [key: string]: string; }; } | undefined
+        categories_for_domain?: { [key: string]: { [key: string]: string; }; }
         
-        keywords_for_categories?: { [key: string]: { [key: string]: string; }; } | undefined
+        keywords_for_categories?: { [key: string]: { [key: string]: string; }; }
         
-        domain_intersection?: { [key: string]: { [key: string]: string; }; } | undefined
+        domain_intersection?: { [key: string]: { [key: string]: string; }; }
         
-        page_intersection?: { [key: string]: { [key: string]: string; }; } | undefined
+        page_intersection?: { [key: string]: { [key: string]: string; }; }
         
-        domain_whois_overview?: { [key: string]: { [key: string]: string; }; } | undefined
+        domain_whois_overview?: { [key: string]: { [key: string]: string; }; }
         
-        top_searches?: { [key: string]: { [key: string]: string; }; } | undefined
+        top_searches?: { [key: string]: { [key: string]: string; }; }
         
-        domain_metrics_by_categories?: { [key: string]: { [key: string]: string; }; } | undefined
+        domain_metrics_by_categories?: { [key: string]: { [key: string]: string; }; }
         
-        keywords_for_site?: { [key: string]: { [key: string]: string; }; } | undefined
+        keywords_for_site?: { [key: string]: { [key: string]: string; }; }
         
-        product_competitors?: { [key: string]: { [key: string]: string; }; } | undefined
+        product_competitors?: { [key: string]: { [key: string]: string; }; }
         
-        product_keyword_intersections?: { [key: string]: { [key: string]: string; }; } | undefined
+        product_keyword_intersections?: { [key: string]: { [key: string]: string; }; }
         
-        app_intersection?: { [key: string]: { [key: string]: string; }; } | undefined
+        app_intersection?: { [key: string]: { [key: string]: string; }; }
         
-        app_competitors?: { [key: string]: { [key: string]: string; }; } | undefined
+        app_competitors?: { [key: string]: { [key: string]: string; }; }
         
-        keywords_for_app?: { [key: string]: { [key: string]: string; }; } | undefined
+        keywords_for_app?: { [key: string]: { [key: string]: string; }; }
         
-        database_rows_count?: { [key: string]: string; } | undefined
+        database_rows_count?: { [key: string]: string; }
 
     [key: string]: any;
 
@@ -50,49 +50,49 @@ export interface IDataforseoLabsAvailableFiltersResultInfo   {
 
 export class DataforseoLabsAvailableFiltersResultInfo  implements IDataforseoLabsAvailableFiltersResultInfo {
 
-    related_keywords?: { [key: string]: { [key: string]: string; }; } | undefined;
+    related_keywords?: { [key: string]: { [key: string]: string; }; };
 
-    keyword_suggestions?: { [key: string]: { [key: string]: string; }; } | undefined;
+    keyword_suggestions?: { [key: string]: { [key: string]: string; }; };
 
-    ranked_keywords?: { [key: string]: { [key: string]: string; }; } | undefined;
+    ranked_keywords?: { [key: string]: { [key: string]: string; }; };
 
-    keyword_ideas?: { [key: string]: { [key: string]: string; }; } | undefined;
+    keyword_ideas?: { [key: string]: { [key: string]: string; }; };
 
-    serp_competitors?: { [key: string]: { [key: string]: string; }; } | undefined;
+    serp_competitors?: { [key: string]: { [key: string]: string; }; };
 
-    relevant_pages?: { [key: string]: { [key: string]: string; }; } | undefined;
+    relevant_pages?: { [key: string]: { [key: string]: string; }; };
 
-    subdomains?: { [key: string]: { [key: string]: string; }; } | undefined;
+    subdomains?: { [key: string]: { [key: string]: string; }; };
 
-    competitors_domain?: { [key: string]: { [key: string]: string; }; } | undefined;
+    competitors_domain?: { [key: string]: { [key: string]: string; }; };
 
-    categories_for_domain?: { [key: string]: { [key: string]: string; }; } | undefined;
+    categories_for_domain?: { [key: string]: { [key: string]: string; }; };
 
-    keywords_for_categories?: { [key: string]: { [key: string]: string; }; } | undefined;
+    keywords_for_categories?: { [key: string]: { [key: string]: string; }; };
 
-    domain_intersection?: { [key: string]: { [key: string]: string; }; } | undefined;
+    domain_intersection?: { [key: string]: { [key: string]: string; }; };
 
-    page_intersection?: { [key: string]: { [key: string]: string; }; } | undefined;
+    page_intersection?: { [key: string]: { [key: string]: string; }; };
 
-    domain_whois_overview?: { [key: string]: { [key: string]: string; }; } | undefined;
+    domain_whois_overview?: { [key: string]: { [key: string]: string; }; };
 
-    top_searches?: { [key: string]: { [key: string]: string; }; } | undefined;
+    top_searches?: { [key: string]: { [key: string]: string; }; };
 
-    domain_metrics_by_categories?: { [key: string]: { [key: string]: string; }; } | undefined;
+    domain_metrics_by_categories?: { [key: string]: { [key: string]: string; }; };
 
-    keywords_for_site?: { [key: string]: { [key: string]: string; }; } | undefined;
+    keywords_for_site?: { [key: string]: { [key: string]: string; }; };
 
-    product_competitors?: { [key: string]: { [key: string]: string; }; } | undefined;
+    product_competitors?: { [key: string]: { [key: string]: string; }; };
 
-    product_keyword_intersections?: { [key: string]: { [key: string]: string; }; } | undefined;
+    product_keyword_intersections?: { [key: string]: { [key: string]: string; }; };
 
-    app_intersection?: { [key: string]: { [key: string]: string; }; } | undefined;
+    app_intersection?: { [key: string]: { [key: string]: string; }; };
 
-    app_competitors?: { [key: string]: { [key: string]: string; }; } | undefined;
+    app_competitors?: { [key: string]: { [key: string]: string; }; };
 
-    keywords_for_app?: { [key: string]: { [key: string]: string; }; } | undefined;
+    keywords_for_app?: { [key: string]: { [key: string]: string; }; };
 
-    database_rows_count?: { [key: string]: string; } | undefined;
+    database_rows_count?: { [key: string]: string; };
 
     [key: string]: any;
 

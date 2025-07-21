@@ -1,11 +1,11 @@
 export interface IAiModeTable   {
         
         /** content in the header of the table */
-        table_header?: string[] | undefined
+        table_header?: string[]
         
         /** array of contents of the table present in the element
 each array represents the table row */
-        table_content?: string[][] | undefined
+        table_content?: string[][]
 
     [key: string]: any;
 
@@ -15,12 +15,12 @@ export class AiModeTable  implements IAiModeTable {
     
     /** content in the header of the table */
 
-    table_header?: string[] | undefined;
+    table_header?: string[];
     
     /** array of contents of the table present in the element
 each array represents the table row */
 
-    table_content?: string[][] | undefined;
+    table_content?: string[][];
 
     [key: string]: any;
 

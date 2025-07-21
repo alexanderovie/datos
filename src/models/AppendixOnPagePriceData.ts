@@ -1,48 +1,47 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
 
-
 export interface IAppendixOnPagePriceData   {
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        lighthouse?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        lighthouse?: AppendixGoogleBusinessDataPriceDataInfo
         
-        content_parsing?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        content_parsing?: AppendixTaskKeywordsDataPriceDataInfo
         
-        content_parsing_live?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        content_parsing_live?: AppendixTaskKeywordsDataPriceDataInfo
         
-        duplicate_content?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        duplicate_content?: AppendixTaskKeywordsDataPriceDataInfo
         
-        duplicate_tags?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        duplicate_tags?: AppendixTaskKeywordsDataPriceDataInfo
         
-        instant_pages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        instant_pages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        keyword_density?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        keyword_density?: AppendixTaskKeywordsDataPriceDataInfo
         
-        links?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        links?: AppendixTaskKeywordsDataPriceDataInfo
         
-        non_indexable?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        non_indexable?: AppendixTaskKeywordsDataPriceDataInfo
         
-        pages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        pages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        pages_by_resource?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        pages_by_resource?: AppendixTaskKeywordsDataPriceDataInfo
         
-        page_screenshot?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        page_screenshot?: AppendixTaskKeywordsDataPriceDataInfo
         
-        raw_html?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        raw_html?: AppendixTaskKeywordsDataPriceDataInfo
         
-        redirect_chains?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        redirect_chains?: AppendixTaskKeywordsDataPriceDataInfo
         
-        resources?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        resources?: AppendixTaskKeywordsDataPriceDataInfo
         
-        summary?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        summary?: AppendixTaskKeywordsDataPriceDataInfo
         
-        task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        task_post?: AppendixTaskKeywordsDataPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
         
-        waterfall?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        waterfall?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -50,45 +49,45 @@ export interface IAppendixOnPagePriceData   {
 
 export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    lighthouse?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    lighthouse?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    content_parsing?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    content_parsing?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    content_parsing_live?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    content_parsing_live?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    duplicate_content?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    duplicate_content?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    duplicate_tags?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    duplicate_tags?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    instant_pages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    instant_pages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    keyword_density?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    keyword_density?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    links?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    links?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    non_indexable?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    non_indexable?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    pages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    pages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    pages_by_resource?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    pages_by_resource?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    page_screenshot?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    page_screenshot?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    raw_html?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    raw_html?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    redirect_chains?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    redirect_chains?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    resources?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    resources?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    summary?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    summary?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    task_post?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    waterfall?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    waterfall?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,52 +1,51 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixBacklinksPriceData   {
         
-        anchors?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        anchors?: AppendixBingKeywordsDataPriceDataInfo
         
-        backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        backlinks?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_backlinks?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_new_lost_backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_new_lost_backlinks?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_new_lost_referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_new_lost_referring_domains?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_pages_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_pages_summary?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_ranks?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_ranks?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_referring_domains?: AppendixBingKeywordsDataPriceDataInfo
         
-        bulk_spam_score?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_spam_score?: AppendixBingKeywordsDataPriceDataInfo
         
-        competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        competitors?: AppendixBingKeywordsDataPriceDataInfo
         
-        content_duplicates?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        content_duplicates?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_intersection?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_pages?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_pages?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_pages_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_pages_summary?: AppendixBingKeywordsDataPriceDataInfo
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        history?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        history?: AppendixBingKeywordsDataPriceDataInfo
         
-        page_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        page_intersection?: AppendixBingKeywordsDataPriceDataInfo
         
-        referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        referring_domains?: AppendixBingKeywordsDataPriceDataInfo
         
-        referring_networks?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        referring_networks?: AppendixBingKeywordsDataPriceDataInfo
         
-        summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        summary?: AppendixBingKeywordsDataPriceDataInfo
         
-        timeseries_new_lost_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        timeseries_new_lost_summary?: AppendixBingKeywordsDataPriceDataInfo
         
-        timeseries_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        timeseries_summary?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -54,49 +53,49 @@ export interface IAppendixBacklinksPriceData   {
 
 export class AppendixBacklinksPriceData  implements IAppendixBacklinksPriceData {
 
-    anchors?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    anchors?: AppendixBingKeywordsDataPriceDataInfo;
 
-    backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    backlinks?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_backlinks?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_new_lost_backlinks?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_new_lost_backlinks?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_new_lost_referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_new_lost_referring_domains?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_pages_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_pages_summary?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_ranks?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_ranks?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_referring_domains?: AppendixBingKeywordsDataPriceDataInfo;
 
-    bulk_spam_score?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_spam_score?: AppendixBingKeywordsDataPriceDataInfo;
 
-    competitors?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    competitors?: AppendixBingKeywordsDataPriceDataInfo;
 
-    content_duplicates?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    content_duplicates?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_intersection?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_pages?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_pages?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_pages_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_pages_summary?: AppendixBingKeywordsDataPriceDataInfo;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    history?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    history?: AppendixBingKeywordsDataPriceDataInfo;
 
-    page_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    page_intersection?: AppendixBingKeywordsDataPriceDataInfo;
 
-    referring_domains?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    referring_domains?: AppendixBingKeywordsDataPriceDataInfo;
 
-    referring_networks?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    referring_networks?: AppendixBingKeywordsDataPriceDataInfo;
 
-    summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    summary?: AppendixBingKeywordsDataPriceDataInfo;
 
-    timeseries_new_lost_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    timeseries_new_lost_summary?: AppendixBingKeywordsDataPriceDataInfo;
 
-    timeseries_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    timeseries_summary?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

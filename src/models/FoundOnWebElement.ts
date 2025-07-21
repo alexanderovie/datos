@@ -1,19 +1,18 @@
 import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
 
-
 export interface IFoundOnWebElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the element */
-        subtitle?: string | undefined
+        subtitle?: string
         
         /** image of the element */
-        image?: AiModeImagesElement | undefined
+        image?: AiModeImagesElement
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the element */
 
-    subtitle?: string | undefined;
+    subtitle?: string;
     
     /** image of the element */
 
-    image?: AiModeImagesElement | undefined;
+    image?: AiModeImagesElement;
 
     [key: string]: any;
 

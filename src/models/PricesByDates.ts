@@ -1,15 +1,15 @@
 export interface IPricesByDates   {
         
         /** price per night */
-        price?: number | undefined
+        price?: number
         
         /** price currency
 USD is applied by default, unless specified in the POST array */
-        currency?: string | undefined
+        currency?: string
         
-        check_in_date?: string | undefined
+        check_in_date?: string
         
-        check_out_date?: string | undefined
+        check_out_date?: string
 
     [key: string]: any;
 
@@ -19,16 +19,16 @@ export class PricesByDates  implements IPricesByDates {
     
     /** price per night */
 
-    price?: number | undefined;
+    price?: number;
     
     /** price currency
 USD is applied by default, unless specified in the POST array */
 
-    currency?: string | undefined;
+    currency?: string;
 
-    check_in_date?: string | undefined;
+    check_in_date?: string;
 
-    check_out_date?: string | undefined;
+    check_out_date?: string;
 
     [key: string]: any;
 

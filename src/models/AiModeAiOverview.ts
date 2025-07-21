@@ -2,44 +2,43 @@ import { BaseSerpApiAiModeAiOverviewElementItem, IBaseSerpApiAiModeAiOverviewEle
 import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
 import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
 
-
 export interface IAiModeAiOverview   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** content of the element in markdown format
 the text of the ai_overview formatted in the markdown markup language */
-        markdown?: string | undefined
+        markdown?: string
         
         /** items of the element */
-        items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined
+        items?: BaseSerpApiAiModeAiOverviewElementItem[]
         
         /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true */
-        rectangle?: RectangleInfo | undefined
+        rectangle?: RectangleInfo
 
     [key: string]: any;
 
@@ -49,48 +48,48 @@ export class AiModeAiOverview  implements IAiModeAiOverview {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** content of the element in markdown format
 the text of the ai_overview formatted in the markdown markup language */
 
-    markdown?: string | undefined;
+    markdown?: string;
     
     /** items of the element */
 
-    items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined;
+    items?: BaseSerpApiAiModeAiOverviewElementItem[];
     
     /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true */
 
-    rectangle?: RectangleInfo | undefined;
+    rectangle?: RectangleInfo;
 
     [key: string]: any;
 

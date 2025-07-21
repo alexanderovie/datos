@@ -1,11 +1,10 @@
 import { MerchantGoogleLocationsCountryResultInfo, IMerchantGoogleLocationsCountryResultInfo } from "./MerchantGoogleLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IMerchantGoogleLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: MerchantGoogleLocationsCountryResultInfo[] | undefined
+        result?: MerchantGoogleLocationsCountryResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class MerchantGoogleLocationsCountryTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: MerchantGoogleLocationsCountryResultInfo[] | undefined;
+    result?: MerchantGoogleLocationsCountryResultInfo[];
 
     [key: string]: any;
 

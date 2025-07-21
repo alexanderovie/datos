@@ -5,7 +5,7 @@ required field
 you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic result
 example:
 vQXvyV0zIP4 */
-        video_id?: string | undefined
+        video_id?: string
         
         /** task priority
 optional field
@@ -14,7 +14,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** full name of search engine location
 required field if you don’t specify location_code
@@ -22,7 +22,7 @@ if you use this field, you don’t need to specify location_code
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/youtube/locations
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name
@@ -30,7 +30,7 @@ if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/youtube/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -38,7 +38,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/youtube/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -46,25 +46,25 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/youtube/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** device type
 optional field
 only value: desktop */
-        device?: string | undefined
+        device?: string
         
         /** device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows */
-        os?: string | undefined
+        os?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -76,14 +76,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value:
 advanced */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -95,7 +95,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -109,7 +109,7 @@ you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic 
 example:
 vQXvyV0zIP4 */
 
-    video_id?: string | undefined;
+    video_id?: string;
     
     /** task priority
 optional field
@@ -119,7 +119,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -128,7 +128,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -137,7 +137,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -146,7 +146,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -155,20 +155,20 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** device type
 optional field
 only value: desktop */
 
-    device?: string | undefined;
+    device?: string;
     
     /** device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows */
 
-    os?: string | undefined;
+    os?: string;
     
     /** user-defined task identifier
 optional field
@@ -176,7 +176,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -189,7 +189,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -197,7 +197,7 @@ corresponds to the datatype that will be sent to your server
 possible value:
 advanced */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -210,7 +210,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

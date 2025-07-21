@@ -1,27 +1,27 @@
 export interface IAiAiOverviewReferenceInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** reference source name or title */
-        source?: string | undefined
+        source?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** image source URL */
-        url?: string | undefined
+        url?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** text of the component */
-        text?: string | undefined
+        text?: string
 
     [key: string]: any;
 
@@ -31,33 +31,33 @@ export class AiAiOverviewReferenceInfo  implements IAiAiOverviewReferenceInfo {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** reference source name or title */
 
-    source?: string | undefined;
+    source?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** image source URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** text of the component */
 
-    text?: string | undefined;
+    text?: string;
 
     [key: string]: any;
 

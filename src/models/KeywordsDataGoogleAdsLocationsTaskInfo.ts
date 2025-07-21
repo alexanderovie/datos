@@ -1,11 +1,10 @@
 import { KeywordsDataGoogleAdsLocationsResultInfo, IKeywordsDataGoogleAdsLocationsResultInfo } from "./KeywordsDataGoogleAdsLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IKeywordsDataGoogleAdsLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: KeywordsDataGoogleAdsLocationsResultInfo[] | undefined
+        result?: KeywordsDataGoogleAdsLocationsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataGoogleAdsLocationsTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: KeywordsDataGoogleAdsLocationsResultInfo[] | undefined;
+    result?: KeywordsDataGoogleAdsLocationsResultInfo[];
 
     [key: string]: any;
 

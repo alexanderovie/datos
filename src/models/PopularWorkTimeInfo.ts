@@ -1,15 +1,14 @@
 import { TimeInfo, ITimeInfo } from "./TimeInfo";
 
-
 export interface IPopularWorkTimeInfo   {
         
         /** hours in the 24-hour format */
-        time?: TimeInfo | undefined
+        time?: TimeInfo
         
         /** popularity index
 relative time-bound popularity index measured from 0 to 100;
 higher value corresponds to a busier time of a day */
-        popular_index?: number | undefined
+        popular_index?: number
 
     [key: string]: any;
 
@@ -19,13 +18,13 @@ export class PopularWorkTimeInfo  implements IPopularWorkTimeInfo {
     
     /** hours in the 24-hour format */
 
-    time?: TimeInfo | undefined;
+    time?: TimeInfo;
     
     /** popularity index
 relative time-bound popularity index measured from 0 to 100;
 higher value corresponds to a busier time of a day */
 
-    popular_index?: number | undefined;
+    popular_index?: number;
 
     [key: string]: any;
 

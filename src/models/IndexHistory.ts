@@ -4,13 +4,13 @@ export interface IIndexHistory   {
 in the UTC format: “yyyy-mm-dd”
 example:
 2021-10-01 */
-        date?: string | undefined
+        date?: string
         
         /** total number of backlinks our database contained on the given date */
-        total_backlinks?: number | undefined
+        total_backlinks?: number
         
         /** total number of pages our database contained on the given date */
-        total_pages?: number | undefined
+        total_pages?: number
 
     [key: string]: any;
 
@@ -23,15 +23,15 @@ in the UTC format: “yyyy-mm-dd”
 example:
 2021-10-01 */
 
-    date?: string | undefined;
+    date?: string;
     
     /** total number of backlinks our database contained on the given date */
 
-    total_backlinks?: number | undefined;
+    total_backlinks?: number;
     
     /** total number of pages our database contained on the given date */
 
-    total_pages?: number | undefined;
+    total_pages?: number;
 
     [key: string]: any;
 

@@ -1,16 +1,15 @@
 import { TableContentItemInfo, ITableContentItemInfo } from "./TableContentItemInfo";
 
-
 export interface ITableContentInfo   {
         
         /** parsed content of the header */
-        header?: TableContentItemInfo[] | undefined
+        header?: TableContentItemInfo[]
         
         /** content of the body of the table */
-        body?: TableContentItemInfo[] | undefined
+        body?: TableContentItemInfo[]
         
         /** content of the footer of the table */
-        footer?: TableContentItemInfo[] | undefined
+        footer?: TableContentItemInfo[]
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class TableContentInfo  implements ITableContentInfo {
     
     /** parsed content of the header */
 
-    header?: TableContentItemInfo[] | undefined;
+    header?: TableContentItemInfo[];
     
     /** content of the body of the table */
 
-    body?: TableContentItemInfo[] | undefined;
+    body?: TableContentItemInfo[];
     
     /** content of the footer of the table */
 
-    footer?: TableContentItemInfo[] | undefined;
+    footer?: TableContentItemInfo[];
 
     [key: string]: any;
 

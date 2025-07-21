@@ -1,11 +1,10 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IMerchantGoogleSellersTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results
 in this case, the value will be null */
-        result?: any | undefined
+        result?: any
 
     [key: string]: any;
 
@@ -16,7 +15,7 @@ export class MerchantGoogleSellersTaskPostTaskInfo  extends BaseResponseTaskInfo
     /** array of results
 in this case, the value will be null */
 
-    result?: any | undefined;
+    result?: any;
 
     [key: string]: any;
 

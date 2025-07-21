@@ -4,13 +4,13 @@ export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo   {
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items */
-        offset?: number | undefined
+        offset?: number
         
         /** array of results filtering parameters
 optional field
@@ -26,7 +26,7 @@ examples:
 ['domain', 'like', '%seo%']]
 
 for more information about filters, please refer to Dataforseo Labs - Filters or this help center guide */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -43,14 +43,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['expiration_datetime,asc','metrics.organic.etv,desc','metrics.organic.pos_1,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -63,14 +63,14 @@ optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** array of results filtering parameters
 optional field
@@ -87,7 +87,7 @@ examples:
 
 for more information about filters, please refer to Dataforseo Labs - Filters or this help center guide */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -105,7 +105,7 @@ you should use a comma to separate several sorting rules
 example:
 ['expiration_datetime,asc','metrics.organic.etv,desc','metrics.organic.pos_1,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** user-defined task identifier
 optional field
@@ -113,7 +113,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

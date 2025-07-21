@@ -1,72 +1,71 @@
 import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
 
-
 export interface IGoogleJobsItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** ID of the job on Google Jobs */
-        job_id?: string | undefined
+        job_id?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** name of the employer */
-        employer_name?: string | undefined
+        employer_name?: string
         
         /** URL to the employer’s website */
-        employer_url?: string | undefined
+        employer_url?: string
         
         /** URL to the image used in the job posting */
-        employer_image_url?: string | undefined
+        employer_image_url?: string
         
         /** location for which the job vacancy is posted */
-        location?: string | undefined
+        location?: string
         
         /** original source of the job vacancy */
-        source_name?: string | undefined
+        source_name?: string
         
         /** URL to the original source of the job vacancy */
-        source_url?: string | undefined
+        source_url?: string
         
         /** the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null */
-        salary?: string | undefined
+        salary?: string
         
         /** employment contract type */
-        contract_type?: string | undefined
+        contract_type?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** indicates how long ago the job vacancy was posted */
-        time_ago?: string | undefined
+        time_ago?: string
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null */
-        rectangle?: RectangleInfo | undefined
+        rectangle?: RectangleInfo
 
     [key: string]: any;
 
@@ -76,86 +75,86 @@ export class GoogleJobsItem  implements IGoogleJobsItem {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** ID of the job on Google Jobs */
 
-    job_id?: string | undefined;
+    job_id?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** name of the employer */
 
-    employer_name?: string | undefined;
+    employer_name?: string;
     
     /** URL to the employer’s website */
 
-    employer_url?: string | undefined;
+    employer_url?: string;
     
     /** URL to the image used in the job posting */
 
-    employer_image_url?: string | undefined;
+    employer_image_url?: string;
     
     /** location for which the job vacancy is posted */
 
-    location?: string | undefined;
+    location?: string;
     
     /** original source of the job vacancy */
 
-    source_name?: string | undefined;
+    source_name?: string;
     
     /** URL to the original source of the job vacancy */
 
-    source_url?: string | undefined;
+    source_url?: string;
     
     /** the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null */
 
-    salary?: string | undefined;
+    salary?: string;
     
     /** employment contract type */
 
-    contract_type?: string | undefined;
+    contract_type?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** indicates how long ago the job vacancy was posted */
 
-    time_ago?: string | undefined;
+    time_ago?: string;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null */
 
-    rectangle?: RectangleInfo | undefined;
+    rectangle?: RectangleInfo;
 
     [key: string]: any;
 

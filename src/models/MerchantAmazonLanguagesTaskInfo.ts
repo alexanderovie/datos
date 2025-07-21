@@ -1,11 +1,10 @@
 import { MerchantAmazonLanguagesResultInfo, IMerchantAmazonLanguagesResultInfo } from "./MerchantAmazonLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IMerchantAmazonLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: MerchantAmazonLanguagesResultInfo[] | undefined
+        result?: MerchantAmazonLanguagesResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class MerchantAmazonLanguagesTaskInfo  extends BaseResponseTaskInfo   imp
     
     /** array of results */
 
-    result?: MerchantAmazonLanguagesResultInfo[] | undefined;
+    result?: MerchantAmazonLanguagesResultInfo[];
 
     [key: string]: any;
 

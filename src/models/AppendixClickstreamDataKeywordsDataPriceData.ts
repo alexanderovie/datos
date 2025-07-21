@@ -1,16 +1,15 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixClickstreamDataKeywordsDataPriceData   {
         
-        bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        dataforseo_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        dataforseo_search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        global_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        global_search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -18,13 +17,13 @@ export interface IAppendixClickstreamDataKeywordsDataPriceData   {
 
 export class AppendixClickstreamDataKeywordsDataPriceData  implements IAppendixClickstreamDataKeywordsDataPriceData {
 
-    bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    bulk_search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    dataforseo_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    dataforseo_search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    global_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    global_search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

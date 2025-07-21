@@ -1,22 +1,22 @@
 export interface ISerpBaiduLocationsCountryResultInfo   {
         
         /** location code */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the location */
-        location_name?: string | undefined
+        location_name?: string
         
         /** the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API */
-        location_code_parent?: number | undefined
+        location_code_parent?: number
         
         /** ISO country code of the location */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** location type
 only City is supported for all countries except China (where Country is also supported) */
-        location_type?: string | undefined
+        location_type?: string
 
     [key: string]: any;
 
@@ -26,26 +26,26 @@ export class SerpBaiduLocationsCountryResultInfo  implements ISerpBaiduLocations
     
     /** location code */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the location */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API */
 
-    location_code_parent?: number | undefined;
+    location_code_parent?: number;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** location type
 only City is supported for all countries except China (where Country is also supported) */
 
-    location_type?: string | undefined;
+    location_type?: string;
 
     [key: string]: any;
 

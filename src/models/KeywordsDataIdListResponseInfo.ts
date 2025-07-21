@@ -1,11 +1,10 @@
 import { KeywordsDataIdListTaskInfo, IKeywordsDataIdListTaskInfo } from "./KeywordsDataIdListTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IKeywordsDataIdListResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataIdListTaskInfo[] | undefined
+        tasks?: KeywordsDataIdListTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataIdListResponseInfo  extends BaseResponseInfo   implemen
     
     /** array of tasks */
 
-    tasks?: KeywordsDataIdListTaskInfo[] | undefined;
+    tasks?: KeywordsDataIdListTaskInfo[];
 
     [key: string]: any;
 

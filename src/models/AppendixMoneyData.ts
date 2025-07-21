@@ -1,20 +1,19 @@
 import { AppendixLimitsMoneyData, IAppendixLimitsMoneyData } from "./AppendixLimitsMoneyData";
 import { AppendixStatisticsDataInfo, IAppendixStatisticsDataInfo } from "./AppendixStatisticsDataInfo";
 
-
 export interface IAppendixMoneyData   {
         
         /** total amount of money deposited to your account */
-        total?: number | undefined
+        total?: number
         
         /** amount of money left in your account */
-        balance?: number | undefined
+        balance?: number
         
         /** cost limits */
-        limits?: AppendixLimitsMoneyData | undefined
+        limits?: AppendixLimitsMoneyData
         
         /** statistics of your spending */
-        statistics?: AppendixStatisticsDataInfo | undefined
+        statistics?: AppendixStatisticsDataInfo
 
     [key: string]: any;
 
@@ -24,19 +23,19 @@ export class AppendixMoneyData  implements IAppendixMoneyData {
     
     /** total amount of money deposited to your account */
 
-    total?: number | undefined;
+    total?: number;
     
     /** amount of money left in your account */
 
-    balance?: number | undefined;
+    balance?: number;
     
     /** cost limits */
 
-    limits?: AppendixLimitsMoneyData | undefined;
+    limits?: AppendixLimitsMoneyData;
     
     /** statistics of your spending */
 
-    statistics?: AppendixStatisticsDataInfo | undefined;
+    statistics?: AppendixStatisticsDataInfo;
 
     [key: string]: any;
 

@@ -1,41 +1,41 @@
 export interface IHtmlContentInfo   {
         
         /** total size of the text on the page measured in bytes */
-        plain_text_size?: number | undefined
+        plain_text_size?: number
         
         /** plaintext rate value
 plain_text_size to size ratio */
-        plain_text_rate?: number | undefined
+        plain_text_rate?: number
         
         /** number of words on the page */
-        plain_text_word_count?: number | undefined
+        plain_text_word_count?: number
         
         /** Automated Readability Index */
-        automated_readability_index?: number | undefined
+        automated_readability_index?: number
         
         /** Coleman–Liau Index */
-        coleman_liau_readability_index?: number | undefined
+        coleman_liau_readability_index?: number
         
         /** Dale–Chall Readability Index */
-        dale_chall_readability_index?: number | undefined
+        dale_chall_readability_index?: number
         
         /** Flesch–Kincaid Readability Index */
-        flesch_kincaid_readability_index?: number | undefined
+        flesch_kincaid_readability_index?: number
         
         /** SMOG Readability Index */
-        smog_readability_index?: number | undefined
+        smog_readability_index?: number
         
         /** consistency of the meta description tag with the page content
 measured from 0 to 1 */
-        description_to_content_consistency?: number | undefined
+        description_to_content_consistency?: number
         
         /** consistency of the meta title tag with the page content
 measured from 0 to 1 */
-        title_to_content_consistency?: number | undefined
+        title_to_content_consistency?: number
         
         /** consistency of meta keywordstag with the page content
 measured from 0 to 1 */
-        meta_keywords_to_content_consistency?: number | undefined
+        meta_keywords_to_content_consistency?: number
 
     [key: string]: any;
 
@@ -45,51 +45,51 @@ export class HtmlContentInfo  implements IHtmlContentInfo {
     
     /** total size of the text on the page measured in bytes */
 
-    plain_text_size?: number | undefined;
+    plain_text_size?: number;
     
     /** plaintext rate value
 plain_text_size to size ratio */
 
-    plain_text_rate?: number | undefined;
+    plain_text_rate?: number;
     
     /** number of words on the page */
 
-    plain_text_word_count?: number | undefined;
+    plain_text_word_count?: number;
     
     /** Automated Readability Index */
 
-    automated_readability_index?: number | undefined;
+    automated_readability_index?: number;
     
     /** Coleman–Liau Index */
 
-    coleman_liau_readability_index?: number | undefined;
+    coleman_liau_readability_index?: number;
     
     /** Dale–Chall Readability Index */
 
-    dale_chall_readability_index?: number | undefined;
+    dale_chall_readability_index?: number;
     
     /** Flesch–Kincaid Readability Index */
 
-    flesch_kincaid_readability_index?: number | undefined;
+    flesch_kincaid_readability_index?: number;
     
     /** SMOG Readability Index */
 
-    smog_readability_index?: number | undefined;
+    smog_readability_index?: number;
     
     /** consistency of the meta description tag with the page content
 measured from 0 to 1 */
 
-    description_to_content_consistency?: number | undefined;
+    description_to_content_consistency?: number;
     
     /** consistency of the meta title tag with the page content
 measured from 0 to 1 */
 
-    title_to_content_consistency?: number | undefined;
+    title_to_content_consistency?: number;
     
     /** consistency of meta keywordstag with the page content
 measured from 0 to 1 */
 
-    meta_keywords_to_content_consistency?: number | undefined;
+    meta_keywords_to_content_consistency?: number;
 
     [key: string]: any;
 

@@ -4,13 +4,13 @@ export interface IGraphItems   {
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** point value on graph */
-        value?: number | undefined
+        value?: number
         
         /** volume value on graph */
-        volume?: number | undefined
+        volume?: number
 
     [key: string]: any;
 
@@ -23,15 +23,15 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** point value on graph */
 
-    value?: number | undefined;
+    value?: number;
     
     /** volume value on graph */
 
-    volume?: number | undefined;
+    volume?: number;
 
     [key: string]: any;
 

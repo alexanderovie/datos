@@ -3,65 +3,64 @@ import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonReviewItem, IAmazonReviewItem } from "./AmazonReviewItem";
 
-
 export interface IMerchantAmazonReviewsTaskGetAdvancedResultInfo   {
         
         /** asin received in a POST array */
-        asin?: string | undefined
+        asin?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
-        spell?: SpellInfo | undefined
+        spell?: SpellInfo
         
         /** title of the product on Amazon
 the title of the product for which the reviews are collected */
-        title?: string | undefined
+        title?: string
         
         /** product image data */
-        image?: AiModeImagesElement | undefined
+        image?: AiModeImagesElement
         
         /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** the total number of reviews */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
 possible item types:
 amazon_review_item */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number | undefined
+        items_count?: number
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: AmazonReviewItem[] | undefined
+        items?: AmazonReviewItem[]
 
     [key: string]: any;
 
@@ -71,75 +70,75 @@ export class MerchantAmazonReviewsTaskGetAdvancedResultInfo  implements IMerchan
     
     /** asin received in a POST array */
 
-    asin?: string | undefined;
+    asin?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
-    spell?: SpellInfo | undefined;
+    spell?: SpellInfo;
     
     /** title of the product on Amazon
 the title of the product for which the reviews are collected */
 
-    title?: string | undefined;
+    title?: string;
     
     /** product image data */
 
-    image?: AiModeImagesElement | undefined;
+    image?: AiModeImagesElement;
     
     /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** the total number of reviews */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
 possible item types:
 amazon_review_item */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: AmazonReviewItem[] | undefined;
+    items?: AmazonReviewItem[];
 
     [key: string]: any;
 

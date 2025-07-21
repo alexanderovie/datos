@@ -1,16 +1,16 @@
 export interface ISearchVolumeHistoryItemInfo   {
         
         /** year */
-        year?: number | undefined
+        year?: number
         
         /** month */
-        month?: number | undefined
+        month?: number
         
         /** day of the month */
-        day?: number | undefined
+        day?: number
         
         /** search volume rate */
-        search_volume?: number | undefined
+        search_volume?: number
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class SearchVolumeHistoryItemInfo  implements ISearchVolumeHistoryItemInf
     
     /** year */
 
-    year?: number | undefined;
+    year?: number;
     
     /** month */
 
-    month?: number | undefined;
+    month?: number;
     
     /** day of the month */
 
-    day?: number | undefined;
+    day?: number;
     
     /** search volume rate */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
 
     [key: string]: any;
 

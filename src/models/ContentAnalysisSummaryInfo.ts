@@ -1,56 +1,55 @@
 import { TopDomainInfo, ITopDomainInfo } from "./TopDomainInfo";
 import { ContentAnalysisCategoriesInfo, IContentAnalysisCategoriesInfo } from "./ContentAnalysisCategoriesInfo";
 
-
 export interface IContentAnalysisSummaryInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword */
-        rank?: number | undefined
+        rank?: number
         
         /** top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain */
-        top_domains?: TopDomainInfo[] | undefined
+        top_domains?: TopDomainInfo[]
         
         /** sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun */
-        sentiment_connotations?: { [key: string]: number; } | undefined
+        sentiment_connotations?: { [key: string]: number; }
         
         /** connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
 possible sentiment connotation types: positive, negative, neutral */
-        connotation_types?: { [key: string]: number; } | undefined
+        connotation_types?: { [key: string]: number; }
         
         /** text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint */
-        text_categories?: ContentAnalysisCategoriesInfo[] | undefined
+        text_categories?: ContentAnalysisCategoriesInfo[]
         
         /** page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint */
-        page_categories?: ContentAnalysisCategoriesInfo[] | undefined
+        page_categories?: ContentAnalysisCategoriesInfo[]
         
         /** page types
 contains page types and citation count per each page type */
-        page_types?: { [key: string]: number; } | undefined
+        page_types?: { [key: string]: number; }
         
         /** countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint */
-        countries?: { [key: string]: number; } | undefined
+        countries?: { [key: string]: number; }
         
         /** languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint */
-        languages?: { [key: string]: number; } | undefined
+        languages?: { [key: string]: number; }
 
     [key: string]: any;
 
@@ -60,62 +59,62 @@ export class ContentAnalysisSummaryInfo  implements IContentAnalysisSummaryInfo 
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword */
 
-    rank?: number | undefined;
+    rank?: number;
     
     /** top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain */
 
-    top_domains?: TopDomainInfo[] | undefined;
+    top_domains?: TopDomainInfo[];
     
     /** sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun */
 
-    sentiment_connotations?: { [key: string]: number; } | undefined;
+    sentiment_connotations?: { [key: string]: number; };
     
     /** connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
 possible sentiment connotation types: positive, negative, neutral */
 
-    connotation_types?: { [key: string]: number; } | undefined;
+    connotation_types?: { [key: string]: number; };
     
     /** text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    text_categories?: ContentAnalysisCategoriesInfo[] | undefined;
+    text_categories?: ContentAnalysisCategoriesInfo[];
     
     /** page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    page_categories?: ContentAnalysisCategoriesInfo[] | undefined;
+    page_categories?: ContentAnalysisCategoriesInfo[];
     
     /** page types
 contains page types and citation count per each page type */
 
-    page_types?: { [key: string]: number; } | undefined;
+    page_types?: { [key: string]: number; };
     
     /** countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint */
 
-    countries?: { [key: string]: number; } | undefined;
+    countries?: { [key: string]: number; };
     
     /** languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint */
 
-    languages?: { [key: string]: number; } | undefined;
+    languages?: { [key: string]: number; };
 
     [key: string]: any;
 

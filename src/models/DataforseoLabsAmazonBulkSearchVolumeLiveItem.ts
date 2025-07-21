@@ -1,14 +1,14 @@
 export interface IDataforseoLabsAmazonBulkSearchVolumeLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword in a POST array */
-        keyword?: string | undefined
+        keyword?: string
         
         /** average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon */
-        search_volume?: number | undefined
+        search_volume?: number
 
     [key: string]: any;
 
@@ -18,16 +18,16 @@ export class DataforseoLabsAmazonBulkSearchVolumeLiveItem  implements IDataforse
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword in a POST array */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
 
     [key: string]: any;
 

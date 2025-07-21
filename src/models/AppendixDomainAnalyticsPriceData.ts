@@ -2,16 +2,15 @@ import { AppendixWhoisDomainAnalyticsPriceData, IAppendixWhoisDomainAnalyticsPri
 import { AppendixTechnologiesDomainAnalyticsPriceData, IAppendixTechnologiesDomainAnalyticsPriceData } from "./AppendixTechnologiesDomainAnalyticsPriceData";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixDomainAnalyticsPriceData   {
         
-        whois?: AppendixWhoisDomainAnalyticsPriceData | undefined
+        whois?: AppendixWhoisDomainAnalyticsPriceData
         
-        technologies?: AppendixTechnologiesDomainAnalyticsPriceData | undefined
+        technologies?: AppendixTechnologiesDomainAnalyticsPriceData
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -19,13 +18,13 @@ export interface IAppendixDomainAnalyticsPriceData   {
 
 export class AppendixDomainAnalyticsPriceData  implements IAppendixDomainAnalyticsPriceData {
 
-    whois?: AppendixWhoisDomainAnalyticsPriceData | undefined;
+    whois?: AppendixWhoisDomainAnalyticsPriceData;
 
-    technologies?: AppendixTechnologiesDomainAnalyticsPriceData | undefined;
+    technologies?: AppendixTechnologiesDomainAnalyticsPriceData;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,22 +1,21 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } from "./BaseDataforseoLabsApiElementItem";
 
-
 export interface IDataforseoLabsDomainIntersectionLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword data for the returned keyword */
-        keyword_data?: KeywordDataInfo | undefined
+        keyword_data?: KeywordDataInfo
         
         /** contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
-        first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
+        first_domain_serp_element?: BaseDataforseoLabsApiElementItem
         
         /** contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
-        second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
+        second_domain_serp_element?: BaseDataforseoLabsApiElementItem
 
     [key: string]: any;
 
@@ -26,21 +25,21 @@ export class DataforseoLabsDomainIntersectionLiveItem  implements IDataforseoLab
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword data for the returned keyword */
 
-    keyword_data?: KeywordDataInfo | undefined;
+    keyword_data?: KeywordDataInfo;
     
     /** contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
 
-    first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
+    first_domain_serp_element?: BaseDataforseoLabsApiElementItem;
     
     /** contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below */
 
-    second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
+    second_domain_serp_element?: BaseDataforseoLabsApiElementItem;
 
     [key: string]: any;
 

@@ -2,108 +2,107 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { AppsInfo, IAppsInfo } from "./AppsInfo";
 
-
 export interface IAppStoreInfoOrganic   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed apps
 absolute position among all apps on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values: left */
-        position?: string | undefined
+        position?: string
         
         /** ID of the app */
-        app_id?: string | undefined
+        app_id?: string
         
         /** title of the app */
-        title?: string | undefined
+        title?: string
         
         /** URL to the app page on App Store */
-        url?: string | undefined
+        url?: string
         
         /** URL to the app icon */
-        icon?: string | undefined
+        icon?: string
         
         /** description of the app */
-        description?: string | undefined
+        description?: string
         
         /** the total number of reviews of the app */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** average rating of the app */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** price of the app */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** indicates whether the app is free */
-        is_free?: boolean | undefined
+        is_free?: boolean
         
         /** main category/genre of the app */
-        main_category?: string | undefined
+        main_category?: string
         
         /** all relevant categories/genres of the app */
-        categories?: string[] | undefined
+        categories?: string[]
         
         /** languages supported in the app */
-        languages?: string[] | undefined
+        languages?: string[]
         
         /** age rating and age-based content advisories */
-        advisories?: string[] | undefined
+        advisories?: string[]
         
         /** name of the app developer */
-        developer?: string | undefined
+        developer?: string
         
         /** ID of the app developer */
-        developer_id?: string | undefined
+        developer_id?: string
         
         /** URL to the developer page on App Store */
-        developer_url?: string | undefined
+        developer_url?: string
         
         /** current version of the app */
-        version?: string | undefined
+        version?: string
         
         /** minimum OS version required to install the app */
-        minimum_os_version?: string | undefined
+        minimum_os_version?: string
         
         /** size of the app */
-        size?: string | undefined
+        size?: string
         
         /** date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
-        released_date?: string | undefined
+        released_date?: string
         
         /** date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
-        last_update_date?: string | undefined
+        last_update_date?: string
         
         /** update notes
 contains the latest update notes from the developer */
-        update_notes?: string | undefined
+        update_notes?: string
         
         /** app images
 contains URLs to the images used on the app page on App Store */
-        images?: string[] | undefined
+        images?: string[]
         
         /** similar apps
 displays apps similar to the app in a POST request */
-        similar_apps?: AppsInfo[] | undefined
+        similar_apps?: AppsInfo[]
         
         /** similar apps
 information about apps built by the same developer */
-        more_apps_by_developer?: AppsInfo[] | undefined
+        more_apps_by_developer?: AppsInfo[]
 
     [key: string]: any;
 
@@ -113,132 +112,132 @@ export class AppStoreInfoOrganic  implements IAppStoreInfoOrganic {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed apps
 absolute position among all apps on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values: left */
 
-    position?: string | undefined;
+    position?: string;
     
     /** ID of the app */
 
-    app_id?: string | undefined;
+    app_id?: string;
     
     /** title of the app */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL to the app page on App Store */
 
-    url?: string | undefined;
+    url?: string;
     
     /** URL to the app icon */
 
-    icon?: string | undefined;
+    icon?: string;
     
     /** description of the app */
 
-    description?: string | undefined;
+    description?: string;
     
     /** the total number of reviews of the app */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** average rating of the app */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** price of the app */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** indicates whether the app is free */
 
-    is_free?: boolean | undefined;
+    is_free?: boolean;
     
     /** main category/genre of the app */
 
-    main_category?: string | undefined;
+    main_category?: string;
     
     /** all relevant categories/genres of the app */
 
-    categories?: string[] | undefined;
+    categories?: string[];
     
     /** languages supported in the app */
 
-    languages?: string[] | undefined;
+    languages?: string[];
     
     /** age rating and age-based content advisories */
 
-    advisories?: string[] | undefined;
+    advisories?: string[];
     
     /** name of the app developer */
 
-    developer?: string | undefined;
+    developer?: string;
     
     /** ID of the app developer */
 
-    developer_id?: string | undefined;
+    developer_id?: string;
     
     /** URL to the developer page on App Store */
 
-    developer_url?: string | undefined;
+    developer_url?: string;
     
     /** current version of the app */
 
-    version?: string | undefined;
+    version?: string;
     
     /** minimum OS version required to install the app */
 
-    minimum_os_version?: string | undefined;
+    minimum_os_version?: string;
     
     /** size of the app */
 
-    size?: string | undefined;
+    size?: string;
     
     /** date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    released_date?: string | undefined;
+    released_date?: string;
     
     /** date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    last_update_date?: string | undefined;
+    last_update_date?: string;
     
     /** update notes
 contains the latest update notes from the developer */
 
-    update_notes?: string | undefined;
+    update_notes?: string;
     
     /** app images
 contains URLs to the images used on the app page on App Store */
 
-    images?: string[] | undefined;
+    images?: string[];
     
     /** similar apps
 displays apps similar to the app in a POST request */
 
-    similar_apps?: AppsInfo[] | undefined;
+    similar_apps?: AppsInfo[];
     
     /** similar apps
 information about apps built by the same developer */
 
-    more_apps_by_developer?: AppsInfo[] | undefined;
+    more_apps_by_developer?: AppsInfo[];
 
     [key: string]: any;
 

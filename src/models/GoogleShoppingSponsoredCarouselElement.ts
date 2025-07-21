@@ -2,54 +2,53 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
 import { SpecialOfferInfo, ISpecialOfferInfo } from "./SpecialOfferInfo";
 
-
 export interface IGoogleShoppingSponsoredCarouselElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** product title */
-        title?: string | undefined
+        title?: string
         
         /** tags assigned to the product */
-        tags?: string[] | undefined
+        tags?: string[]
         
         /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
-        seller?: string | undefined
+        seller?: string
         
         /** product price
 example:
 384.99 */
-        price?: number | undefined
+        price?: number
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string | undefined
+        currency?: string
         
         /** product rating
 the product popularity rate based on product reviews */
-        product_rating?: RatingElement | undefined
+        product_rating?: RatingElement
         
         /** URLs to the images of the product
 the first URL in the array is the featured image of the product */
-        product_images?: string[] | undefined
+        product_images?: string[]
         
         /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
-        shop_ad_aclk?: string | undefined
+        shop_ad_aclk?: string
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: DeliveryInfo | undefined
+        delivery_info?: DeliveryInfo
         
         /** special offer from the seller
 information on the special offer from the seller, including discount and coupon info */
-        special_offer_info?: SpecialOfferInfo | undefined
+        special_offer_info?: SpecialOfferInfo
 
     [key: string]: any;
 
@@ -59,61 +58,61 @@ export class GoogleShoppingSponsoredCarouselElement  implements IGoogleShoppingS
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** product title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** tags assigned to the product */
 
-    tags?: string[] | undefined;
+    tags?: string[];
     
     /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
 
-    seller?: string | undefined;
+    seller?: string;
     
     /** product price
 example:
 384.99 */
 
-    price?: number | undefined;
+    price?: number;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string | undefined;
+    currency?: string;
     
     /** product rating
 the product popularity rate based on product reviews */
 
-    product_rating?: RatingElement | undefined;
+    product_rating?: RatingElement;
     
     /** URLs to the images of the product
 the first URL in the array is the featured image of the product */
 
-    product_images?: string[] | undefined;
+    product_images?: string[];
     
     /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
 
-    shop_ad_aclk?: string | undefined;
+    shop_ad_aclk?: string;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: DeliveryInfo | undefined;
+    delivery_info?: DeliveryInfo;
     
     /** special offer from the seller
 information on the special offer from the seller, including discount and coupon info */
 
-    special_offer_info?: SpecialOfferInfo | undefined;
+    special_offer_info?: SpecialOfferInfo;
 
     [key: string]: any;
 

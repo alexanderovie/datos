@@ -1,31 +1,30 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IPopularProductsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** seller of the product */
-        seller?: string | undefined
+        seller?: string
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string | undefined
+        image_url?: string
         
         /** price indicated in the element */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -35,33 +34,33 @@ export class PopularProductsElement  implements IPopularProductsElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** seller of the product */
 
-    seller?: string | undefined;
+    seller?: string;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** price indicated in the element */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

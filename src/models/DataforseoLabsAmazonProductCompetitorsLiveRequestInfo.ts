@@ -4,7 +4,7 @@ export interface IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo   {
 required field
 unique product identifier (ASIN) on Amazon;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
-        asin?: string | undefined
+        asin?: string
         
         /** full name of the location
 required field if don’t specify location_code
@@ -13,7 +13,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if don’t specify location_name
@@ -22,7 +22,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if don’t specify language_code
@@ -30,7 +30,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if don’t specify language_name
@@ -38,13 +38,13 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** array of results filtering parameters
 optional field
@@ -56,7 +56,7 @@ you can use the % operator with like and not_like, as well as ilike and not_ilik
 example:
 ['full_metrics.amazon_serp.pos_1','>', 20]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -73,20 +73,20 @@ example:
 ['full_metrics.amazon_serp.pos_1,desc','avg_position,desc']
 default rule:
 ['ranked_serp_element.serp_item.rank_group,asc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** offset in the results array of returned product competitors
 optional field
 default value: 0
 if you specify the 10 value, the first ten product competitors in the results array will be omitted and the data will be provided for the successive product competitors */
-        offset?: number | undefined
+        offset?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -99,7 +99,7 @@ required field
 unique product identifier (ASIN) on Amazon;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
 
-    asin?: string | undefined;
+    asin?: string;
     
     /** full name of the location
 required field if don’t specify location_code
@@ -109,7 +109,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if don’t specify location_name
@@ -119,7 +119,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if don’t specify language_code
@@ -128,7 +128,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if don’t specify language_name
@@ -137,14 +137,14 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** array of results filtering parameters
 optional field
@@ -157,7 +157,7 @@ example:
 ['full_metrics.amazon_serp.pos_1','>', 20]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -175,14 +175,14 @@ example:
 default rule:
 ['ranked_serp_element.serp_item.rank_group,asc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** offset in the results array of returned product competitors
 optional field
 default value: 0
 if you specify the 10 value, the first ten product competitors in the results array will be omitted and the data will be provided for the successive product competitors */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** user-defined task identifier
 optional field
@@ -190,7 +190,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

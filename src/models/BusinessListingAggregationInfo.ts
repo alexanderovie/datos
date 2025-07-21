@@ -2,25 +2,25 @@ export interface IBusinessListingAggregationInfo   {
         
         /** the most mentioned related categories
 top categories displayed with the number of businesses in each category */
-        top_categories?: { [key: string]: number; } | undefined
+        top_categories?: { [key: string]: number; }
         
         /** the most mentioned counties
 country codes with the biggest number of businesses in the category */
-        top_countries?: { [key: string]: number; } | undefined
+        top_countries?: { [key: string]: number; }
         
         /** number of unique websites */
-        websites_count?: number | undefined
+        websites_count?: number
         
         /** number of unique entities */
-        count?: number | undefined
+        count?: number
         
         /** the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute */
-        top_attributes?: { [key: string]: number; } | undefined
+        top_attributes?: { [key: string]: number; }
         
         /** top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword */
-        top_place_topics?: { [key: string]: number; } | undefined
+        top_place_topics?: { [key: string]: number; }
 
     [key: string]: any;
 
@@ -31,30 +31,30 @@ export class BusinessListingAggregationInfo  implements IBusinessListingAggregat
     /** the most mentioned related categories
 top categories displayed with the number of businesses in each category */
 
-    top_categories?: { [key: string]: number; } | undefined;
+    top_categories?: { [key: string]: number; };
     
     /** the most mentioned counties
 country codes with the biggest number of businesses in the category */
 
-    top_countries?: { [key: string]: number; } | undefined;
+    top_countries?: { [key: string]: number; };
     
     /** number of unique websites */
 
-    websites_count?: number | undefined;
+    websites_count?: number;
     
     /** number of unique entities */
 
-    count?: number | undefined;
+    count?: number;
     
     /** the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute */
 
-    top_attributes?: { [key: string]: number; } | undefined;
+    top_attributes?: { [key: string]: number; };
     
     /** top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword */
 
-    top_place_topics?: { [key: string]: number; } | undefined;
+    top_place_topics?: { [key: string]: number; };
 
     [key: string]: any;
 

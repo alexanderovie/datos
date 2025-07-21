@@ -1,11 +1,10 @@
 import { SerpBingOrganicTaskGetAdvancedResultInfo, ISerpBingOrganicTaskGetAdvancedResultInfo } from "./SerpBingOrganicTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpBingOrganicTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBingOrganicTaskGetAdvancedResultInfo[] | undefined
+        result?: SerpBingOrganicTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpBingOrganicTaskGetAdvancedTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: SerpBingOrganicTaskGetAdvancedResultInfo[] | undefined;
+    result?: SerpBingOrganicTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

@@ -1,31 +1,31 @@
 export interface ISpecialOfferInfo   {
         
         /** product title */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the special offer */
-        sub_title?: string | undefined
+        sub_title?: string
         
         /** amount of the fixed discount */
-        fixed_discount?: number | undefined
+        fixed_discount?: number
         
         /** currency of the fixed discount */
-        fixed_discount_currency?: string | undefined
+        fixed_discount_currency?: string
         
         /** percentage of the discount */
-        percentage_discount?: number | undefined
+        percentage_discount?: number
         
         /** code of coupon discount */
-        coupon_code?: string | undefined
+        coupon_code?: string
         
         /** information on coupon discount */
-        coupon_info?: string | undefined
+        coupon_info?: string
         
         /** URL to the product page on the seller’s website */
-        url?: string | undefined
+        url?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
 
     [key: string]: any;
 
@@ -35,39 +35,39 @@ export class SpecialOfferInfo  implements ISpecialOfferInfo {
     
     /** product title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the special offer */
 
-    sub_title?: string | undefined;
+    sub_title?: string;
     
     /** amount of the fixed discount */
 
-    fixed_discount?: number | undefined;
+    fixed_discount?: number;
     
     /** currency of the fixed discount */
 
-    fixed_discount_currency?: string | undefined;
+    fixed_discount_currency?: string;
     
     /** percentage of the discount */
 
-    percentage_discount?: number | undefined;
+    percentage_discount?: number;
     
     /** code of coupon discount */
 
-    coupon_code?: string | undefined;
+    coupon_code?: string;
     
     /** information on coupon discount */
 
-    coupon_info?: string | undefined;
+    coupon_info?: string;
     
     /** URL to the product page on the seller’s website */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
 
     [key: string]: any;
 

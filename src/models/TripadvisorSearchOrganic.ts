@@ -1,42 +1,41 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface ITripadvisorSearchOrganic   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed results
 absolute position among all reviews on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** name of the business entity */
-        title?: string | undefined
+        title?: string
         
         /** URL path of the business entity
 URL path to the Tripadvisor page of the business entity
 you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews */
-        url_path?: string | undefined
+        url_path?: string
         
         /** indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor */
-        is_sponsored?: boolean | undefined
+        is_sponsored?: boolean
         
         /** the total number of reviews */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** place category */
-        category?: string | undefined
+        category?: string
         
         /** average price rate */
-        price_rate?: string | undefined
+        price_rate?: string
         
         /** the rating score of the establishment submitted by the reviewers */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -46,48 +45,48 @@ export class TripadvisorSearchOrganic  implements ITripadvisorSearchOrganic {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed results
 absolute position among all reviews on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** name of the business entity */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL path of the business entity
 URL path to the Tripadvisor page of the business entity
 you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews */
 
-    url_path?: string | undefined;
+    url_path?: string;
     
     /** indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor */
 
-    is_sponsored?: boolean | undefined;
+    is_sponsored?: boolean;
     
     /** the total number of reviews */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** place category */
 
-    category?: string | undefined;
+    category?: string;
     
     /** average price rate */
 
-    price_rate?: string | undefined;
+    price_rate?: string;
     
     /** the rating score of the establishment submitted by the reviewers */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

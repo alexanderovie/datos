@@ -2,23 +2,23 @@ export interface IBusinessDataTrustpilotReviewsTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string | undefined
+        id?: string
         
         /** search engine specified when setting the task
 can take the following values: trustpilot */
-        se?: string | undefined
+        se?: string
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string | undefined
+        date_posted?: string
         
         /** user-defined task identifier */
-        tag?: string | undefined
+        tag?: string
         
         /** URL for collecting the results of the task */
-        endpoint?: string | undefined
+        endpoint?: string
 
     [key: string]: any;
 
@@ -29,28 +29,28 @@ export class BusinessDataTrustpilotReviewsTasksReadyResultInfo  implements IBusi
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string | undefined;
+    id?: string;
     
     /** search engine specified when setting the task
 can take the following values: trustpilot */
 
-    se?: string | undefined;
+    se?: string;
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string | undefined;
+    date_posted?: string;
     
     /** user-defined task identifier */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** URL for collecting the results of the task */
 
-    endpoint?: string | undefined;
+    endpoint?: string;
 
     [key: string]: any;
 

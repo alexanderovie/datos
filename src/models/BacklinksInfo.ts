@@ -1,26 +1,26 @@
 export interface IBacklinksInfo   {
         
         /** number of referring domains */
-        referring_domains?: number | undefined
+        referring_domains?: number
         
         /** number of referring main domains */
-        referring_main_domains?: number | undefined
+        referring_main_domains?: number
         
         /** number of referring pages */
-        referring_pages?: number | undefined
+        referring_pages?: number
         
         /** number of dofollow links */
-        dofollow?: number | undefined
+        dofollow?: number
         
         /** total number of backlinks
 the total number of backlinks, including dofollow and nofollow links */
-        backlinks?: number | undefined
+        backlinks?: number
         
         /** date and time when backlink data was updated
 in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'
 example:
 2019-11-15 12:57:46 +00:00 */
-        time_update?: string | undefined
+        time_update?: string
 
     [key: string]: any;
 
@@ -30,31 +30,31 @@ export class BacklinksInfo  implements IBacklinksInfo {
     
     /** number of referring domains */
 
-    referring_domains?: number | undefined;
+    referring_domains?: number;
     
     /** number of referring main domains */
 
-    referring_main_domains?: number | undefined;
+    referring_main_domains?: number;
     
     /** number of referring pages */
 
-    referring_pages?: number | undefined;
+    referring_pages?: number;
     
     /** number of dofollow links */
 
-    dofollow?: number | undefined;
+    dofollow?: number;
     
     /** total number of backlinks
 the total number of backlinks, including dofollow and nofollow links */
 
-    backlinks?: number | undefined;
+    backlinks?: number;
     
     /** date and time when backlink data was updated
 in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    time_update?: string | undefined;
+    time_update?: string;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { MerchantIdListResultInfo, IMerchantIdListResultInfo } from "./MerchantIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IMerchantIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: MerchantIdListResultInfo[] | undefined
+        result?: MerchantIdListResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class MerchantIdListTaskInfo  extends BaseResponseTaskInfo   implements I
     
     /** array of results */
 
-    result?: MerchantIdListResultInfo[] | undefined;
+    result?: MerchantIdListResultInfo[];
 
     [key: string]: any;
 

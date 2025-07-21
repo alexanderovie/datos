@@ -1,9 +1,8 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixBingKeywordsDataPriceDataInfo   {
         
-        live?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        live?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -11,7 +10,7 @@ export interface IAppendixBingKeywordsDataPriceDataInfo   {
 
 export class AppendixBingKeywordsDataPriceDataInfo  implements IAppendixBingKeywordsDataPriceDataInfo {
 
-    live?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    live?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -1,10 +1,9 @@
 import { BusinessDataBusinessListingsAvailableFiltersTaskInfo, IBusinessDataBusinessListingsAvailableFiltersTaskInfo } from "./BusinessDataBusinessListingsAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataBusinessListingsAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
-        tasks?: BusinessDataBusinessListingsAvailableFiltersTaskInfo[] | undefined
+        tasks?: BusinessDataBusinessListingsAvailableFiltersTaskInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IBusinessDataBusinessListingsAvailableFiltersResponseInfo  exte
 
 export class BusinessDataBusinessListingsAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IBusinessDataBusinessListingsAvailableFiltersResponseInfo {
 
-    tasks?: BusinessDataBusinessListingsAvailableFiltersTaskInfo[] | undefined;
+    tasks?: BusinessDataBusinessListingsAvailableFiltersTaskInfo[];
 
     [key: string]: any;
 

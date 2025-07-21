@@ -2,31 +2,30 @@ import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement
 import { LinkElement, ILinkElement } from "./LinkElement";
 import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
 
-
 export interface IAiOverviewExpandedComponent   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
-        text?: string | undefined
+        text?: string
         
         /** content of the element in markdown format */
-        markdown?: string | undefined
+        markdown?: string
         
         /** images of the element */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** website links featured in the element */
-        links?: LinkElement[] | undefined
+        links?: LinkElement[]
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
 
     [key: string]: any;
 
@@ -36,33 +35,33 @@ export class AiOverviewExpandedComponent  implements IAiOverviewExpandedComponen
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
-    text?: string | undefined;
+    text?: string;
     
     /** content of the element in markdown format */
 
-    markdown?: string | undefined;
+    markdown?: string;
     
     /** images of the element */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** website links featured in the element */
 
-    links?: LinkElement[] | undefined;
+    links?: LinkElement[];
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
 
     [key: string]: any;
 

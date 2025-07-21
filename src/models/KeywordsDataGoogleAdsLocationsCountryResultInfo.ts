@@ -1,10 +1,10 @@
 export interface IKeywordsDataGoogleAdsLocationsCountryResultInfo   {
         
         /** location code */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the location */
-        location_name?: string | undefined
+        location_name?: string
         
         /** the code of the superordinate location
 example:
@@ -14,14 +14,14 @@ example:
 where location_code_parent corresponds to:
 'location_code': 20044,
 'location_name': 'Lower Austria,Austria' */
-        location_code_parent?: number | undefined
+        location_code_parent?: number
         
         /** ISO country code of the location */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** location type
 possible values according to Google’s target types */
-        location_type?: string | undefined
+        location_type?: string
 
     [key: string]: any;
 
@@ -31,11 +31,11 @@ export class KeywordsDataGoogleAdsLocationsCountryResultInfo  implements IKeywor
     
     /** location code */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the location */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** the code of the superordinate location
 example:
@@ -46,16 +46,16 @@ where location_code_parent corresponds to:
 'location_code': 20044,
 'location_name': 'Lower Austria,Austria' */
 
-    location_code_parent?: number | undefined;
+    location_code_parent?: number;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** location type
 possible values according to Google’s target types */
 
-    location_type?: string | undefined;
+    location_type?: string;
 
     [key: string]: any;
 

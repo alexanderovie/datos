@@ -1,15 +1,14 @@
 import { TopicListDataItemInfo, ITopicListDataItemInfo } from "./TopicListDataItemInfo";
 
-
 export interface ITrendsTopicListDataInfo   {
         
         /** the most popular related topics
 represents the list of the most popular related topics */
-        top?: TopicListDataItemInfo[] | undefined
+        top?: TopicListDataItemInfo[]
         
         /** emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period */
-        rising?: TopicListDataItemInfo[] | undefined
+        rising?: TopicListDataItemInfo[]
 
     [key: string]: any;
 
@@ -20,12 +19,12 @@ export class TrendsTopicListDataInfo  implements ITrendsTopicListDataInfo {
     /** the most popular related topics
 represents the list of the most popular related topics */
 
-    top?: TopicListDataItemInfo[] | undefined;
+    top?: TopicListDataItemInfo[];
     
     /** emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period */
 
-    rising?: TopicListDataItemInfo[] | undefined;
+    rising?: TopicListDataItemInfo[];
 
     [key: string]: any;
 

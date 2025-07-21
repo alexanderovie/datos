@@ -1,11 +1,10 @@
 import { AppDataErrorsResultInfo, IAppDataErrorsResultInfo } from "./AppDataErrorsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IAppDataErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataErrorsResultInfo[] | undefined
+        result?: AppDataErrorsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataErrorsTaskInfo  extends BaseResponseTaskInfo   implements IA
     
     /** array of results */
 
-    result?: AppDataErrorsResultInfo[] | undefined;
+    result?: AppDataErrorsResultInfo[];
 
     [key: string]: any;
 

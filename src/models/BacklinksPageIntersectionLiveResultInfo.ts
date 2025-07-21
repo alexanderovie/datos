@@ -1,19 +1,18 @@
 import { BacklinksPageIntersectionLiveItem, IBacklinksPageIntersectionLiveItem } from "./BacklinksPageIntersectionLiveItem";
 
-
 export interface IBacklinksPageIntersectionLiveResultInfo   {
         
         /** targets from a POST array */
-        targets?: { [key: string]: string; } | undefined
+        targets?: { [key: string]: string; }
         
         /** total amount of results relevant the request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains relevant backlinks and referring domains data */
-        items?: BacklinksPageIntersectionLiveItem[] | undefined
+        items?: BacklinksPageIntersectionLiveItem[]
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class BacklinksPageIntersectionLiveResultInfo  implements IBacklinksPageI
     
     /** targets from a POST array */
 
-    targets?: { [key: string]: string; } | undefined;
+    targets?: { [key: string]: string; };
     
     /** total amount of results relevant the request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains relevant backlinks and referring domains data */
 
-    items?: BacklinksPageIntersectionLiveItem[] | undefined;
+    items?: BacklinksPageIntersectionLiveItem[];
 
     [key: string]: any;
 

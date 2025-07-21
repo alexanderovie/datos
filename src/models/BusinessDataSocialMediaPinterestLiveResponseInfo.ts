@@ -1,11 +1,10 @@
 import { BusinessDataSocialMediaPinterestLiveTaskInfo, IBusinessDataSocialMediaPinterestLiveTaskInfo } from "./BusinessDataSocialMediaPinterestLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataSocialMediaPinterestLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataSocialMediaPinterestLiveTaskInfo[] | undefined
+        tasks?: BusinessDataSocialMediaPinterestLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataSocialMediaPinterestLiveResponseInfo  extends BaseRespo
     
     /** array of tasks */
 
-    tasks?: BusinessDataSocialMediaPinterestLiveTaskInfo[] | undefined;
+    tasks?: BusinessDataSocialMediaPinterestLiveTaskInfo[];
 
     [key: string]: any;
 

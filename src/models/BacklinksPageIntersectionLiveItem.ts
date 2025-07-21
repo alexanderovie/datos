@@ -1,15 +1,14 @@
 import { IntersectionSummaryInfo, IIntersectionSummaryInfo } from "./IntersectionSummaryInfo";
 import { BacklinksPageIntersection, IBacklinksPageIntersection } from "./BacklinksPageIntersection";
 
-
 export interface IBacklinksPageIntersectionLiveItem   {
         
         /** contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object */
-        page_intersection?: { [key: string]: BacklinksPageIntersection[]; } | undefined
+        page_intersection?: { [key: string]: BacklinksPageIntersection[]; }
         
         /** contains the page intersections summary */
-        summary?: IntersectionSummaryInfo | undefined
+        summary?: IntersectionSummaryInfo
 
     [key: string]: any;
 
@@ -20,11 +19,11 @@ export class BacklinksPageIntersectionLiveItem  implements IBacklinksPageInterse
     /** contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object */
 
-    page_intersection?: { [key: string]: BacklinksPageIntersection[]; } | undefined;
+    page_intersection?: { [key: string]: BacklinksPageIntersection[]; };
     
     /** contains the page intersections summary */
 
-    summary?: IntersectionSummaryInfo | undefined;
+    summary?: IntersectionSummaryInfo;
 
     [key: string]: any;
 

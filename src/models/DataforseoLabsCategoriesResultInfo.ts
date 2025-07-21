@@ -1,10 +1,10 @@
 export interface IDataforseoLabsCategoriesResultInfo   {
         
         /** category code */
-        category_code?: number | undefined
+        category_code?: number
         
         /** full name of the category */
-        category_name?: string | undefined
+        category_name?: string
         
         /** the code of the superordinate category
 example:
@@ -16,7 +16,7 @@ corresponds to:
 'category_code': 10021,
 'category_name': 'Apparel'
 'category_code_parent': null */
-        category_code_parent?: number | undefined
+        category_code_parent?: number
 
     [key: string]: any;
 
@@ -26,11 +26,11 @@ export class DataforseoLabsCategoriesResultInfo  implements IDataforseoLabsCateg
     
     /** category code */
 
-    category_code?: number | undefined;
+    category_code?: number;
     
     /** full name of the category */
 
-    category_name?: string | undefined;
+    category_name?: string;
     
     /** the code of the superordinate category
 example:
@@ -43,7 +43,7 @@ corresponds to:
 'category_name': 'Apparel'
 'category_code_parent': null */
 
-    category_code_parent?: number | undefined;
+    category_code_parent?: number;
 
     [key: string]: any;
 

@@ -1,42 +1,41 @@
 import { LocationChain, ILocationChain } from "./LocationChain";
 
-
 export interface IHotelLocationInfo   {
         
         /** name of the neighborhood where the hotel is located */
-        neighborhood?: string | undefined
+        neighborhood?: string
         
         /** description of the neighborhood where the hotel is located */
-        neighborhood_description?: string | undefined
+        neighborhood_description?: string
         
         /** url to the location of the hotel in google maps */
-        maps_url?: string | undefined
+        maps_url?: string
         
         /** overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do and restaurants, transportation, and airports;
 note that the criteria are not weighted equally in the overall score */
-        overall_score?: number | undefined
+        overall_score?: number
         
         /** category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports; */
-        score_by_categories?: { [key: string]: number; } | undefined
+        score_by_categories?: { [key: string]: number; }
         
         /** hotel latitude
 latitude coordinates of the hotel’s location
 example:
 39.4806397 */
-        latitude?: number | undefined
+        latitude?: number
         
         /** hotel longitude
 latitude coordinates of the hotel’s location
 example:
 -106.0512973 */
-        longitude?: number | undefined
+        longitude?: number
         
         /** elements of the location chain
 additional parameters of each element of the location chain */
-        location_chain?: LocationChain[] | undefined
+        location_chain?: LocationChain[]
 
     [key: string]: any;
 
@@ -46,46 +45,46 @@ export class HotelLocationInfo  implements IHotelLocationInfo {
     
     /** name of the neighborhood where the hotel is located */
 
-    neighborhood?: string | undefined;
+    neighborhood?: string;
     
     /** description of the neighborhood where the hotel is located */
 
-    neighborhood_description?: string | undefined;
+    neighborhood_description?: string;
     
     /** url to the location of the hotel in google maps */
 
-    maps_url?: string | undefined;
+    maps_url?: string;
     
     /** overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do and restaurants, transportation, and airports;
 note that the criteria are not weighted equally in the overall score */
 
-    overall_score?: number | undefined;
+    overall_score?: number;
     
     /** category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports; */
 
-    score_by_categories?: { [key: string]: number; } | undefined;
+    score_by_categories?: { [key: string]: number; };
     
     /** hotel latitude
 latitude coordinates of the hotel’s location
 example:
 39.4806397 */
 
-    latitude?: number | undefined;
+    latitude?: number;
     
     /** hotel longitude
 latitude coordinates of the hotel’s location
 example:
 -106.0512973 */
 
-    longitude?: number | undefined;
+    longitude?: number;
     
     /** elements of the location chain
 additional parameters of each element of the location chain */
 
-    location_chain?: LocationChain[] | undefined;
+    location_chain?: LocationChain[];
 
     [key: string]: any;
 

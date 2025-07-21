@@ -5,7 +5,7 @@ required field
 UTF-8 encoding
 the keywords should be specified in the lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -15,7 +15,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if you don’t specify location_name
@@ -25,7 +25,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -33,7 +33,7 @@ Note: it is required to specify either language_name or language_code
 you can receive the list of available locations with their language_name by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if you don’t specify language_name
@@ -41,7 +41,7 @@ Note: it is required to specify either language_name or language_code
 you can receive the list of available locations with their language_code by making a separate request to https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** keyword search depth
 optional field
@@ -54,38 +54,38 @@ estimated number of keywords for each level (maximum):
 2 – 42 keywords
 3 – 258 keywords
 4 – 1554 keywords */
-        depth?: number | undefined
+        depth?: number
         
         /** include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false */
-        include_seed_keyword?: boolean | undefined
+        include_seed_keyword?: boolean
         
         /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean | undefined
+        ignore_synonyms?: boolean
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number | undefined
+        offset?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -99,7 +99,7 @@ UTF-8 encoding
 the keywords should be specified in the lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -110,7 +110,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if you don’t specify location_name
@@ -121,7 +121,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -130,7 +130,7 @@ you can receive the list of available locations with their language_name by maki
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if you don’t specify language_name
@@ -139,7 +139,7 @@ you can receive the list of available locations with their language_code by maki
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** keyword search depth
 optional field
@@ -153,35 +153,35 @@ estimated number of keywords for each level (maximum):
 3 – 258 keywords
 4 – 1554 keywords */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false */
 
-    include_seed_keyword?: boolean | undefined;
+    include_seed_keyword?: boolean;
     
     /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean | undefined;
+    ignore_synonyms?: boolean;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** user-defined task identifier
 optional field
@@ -189,7 +189,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

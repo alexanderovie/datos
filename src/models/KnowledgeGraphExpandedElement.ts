@@ -1,39 +1,38 @@
 import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
 import { Table, ITable } from "./Table";
 
-
 export interface IKnowledgeGraphExpandedElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given element */
-        featured_title?: string | undefined
+        featured_title?: string
         
         /** relevant URL */
-        url?: string | undefined
+        url?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** title of the result in SERP */
-        title?: string | undefined
+        title?: string
         
         /** text alongside the link title */
-        snippet?: string | undefined
+        snippet?: string
         
         /** images of the element */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** table present in the element
 the header and content of the table present in the element */
-        table?: Table | undefined
+        table?: Table
 
     [key: string]: any;
 
@@ -43,43 +42,43 @@ export class KnowledgeGraphExpandedElement  implements IKnowledgeGraphExpandedEl
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given element */
 
-    featured_title?: string | undefined;
+    featured_title?: string;
     
     /** relevant URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** title of the result in SERP */
 
-    title?: string | undefined;
+    title?: string;
     
     /** text alongside the link title */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** images of the element */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** table present in the element
 the header and content of the table present in the element */
 
-    table?: Table | undefined;
+    table?: Table;
 
     [key: string]: any;
 

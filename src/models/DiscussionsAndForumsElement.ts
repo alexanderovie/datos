@@ -1,32 +1,32 @@
 export interface IDiscussionsAndForumsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** website domain */
-        domain?: string | undefined
+        domain?: string
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string | undefined
+        source?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** number of posts from the discussion on the related source */
-        posts_count?: number | undefined
+        posts_count?: number
 
     [key: string]: any;
 
@@ -36,39 +36,39 @@ export class DiscussionsAndForumsElement  implements IDiscussionsAndForumsElemen
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** website domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string | undefined;
+    source?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** number of posts from the discussion on the related source */
 
-    posts_count?: number | undefined;
+    posts_count?: number;
 
     [key: string]: any;
 

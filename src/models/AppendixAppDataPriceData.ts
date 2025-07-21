@@ -3,28 +3,27 @@ import { AppendixAppListingsAppDataPriceData, IAppendixAppListingsAppDataPriceDa
 import { AppendixPriceDataInfo, IAppendixPriceDataInfo } from "./AppendixPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixAppDataPriceData   {
         
-        app_info?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        app_info?: AppendixProductGoogleMerchantPriceDataInfo
         
-        app_listings?: AppendixAppListingsAppDataPriceData | undefined
+        app_listings?: AppendixAppListingsAppDataPriceData
         
-        app_list?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        app_list?: AppendixProductGoogleMerchantPriceDataInfo
         
-        app_reviews?: AppendixPriceDataInfo | undefined
+        app_reviews?: AppendixPriceDataInfo
         
-        app_searches?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        app_searches?: AppendixProductGoogleMerchantPriceDataInfo
         
-        categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        categories?: AppendixTaskKeywordsDataPriceDataInfo
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -32,25 +31,25 @@ export interface IAppendixAppDataPriceData   {
 
 export class AppendixAppDataPriceData  implements IAppendixAppDataPriceData {
 
-    app_info?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    app_info?: AppendixProductGoogleMerchantPriceDataInfo;
 
-    app_listings?: AppendixAppListingsAppDataPriceData | undefined;
+    app_listings?: AppendixAppListingsAppDataPriceData;
 
-    app_list?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    app_list?: AppendixProductGoogleMerchantPriceDataInfo;
 
-    app_reviews?: AppendixPriceDataInfo | undefined;
+    app_reviews?: AppendixPriceDataInfo;
 
-    app_searches?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    app_searches?: AppendixProductGoogleMerchantPriceDataInfo;
 
-    categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    categories?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

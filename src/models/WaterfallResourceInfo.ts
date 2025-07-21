@@ -1,33 +1,32 @@
 import { OnPageResourceLocationInfo, IOnPageResourceLocationInfo } from "./OnPageResourceLocationInfo";
 
-
 export interface IWaterfallResourceInfo   {
         
-        resource_type?: string | undefined
+        resource_type?: string
         
         /** resource URL */
-        url?: string | undefined
+        url?: string
         
         /** resource initiator */
-        initiator?: string | undefined
+        initiator?: string
         
         /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
-        duration_time?: number | undefined
+        duration_time?: number
         
         /** time to start downloading the resource
 the amount of time the browser needs to start downloading a resource */
-        fetch_start?: number | undefined
+        fetch_start?: number
         
         /** time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource */
-        fetch_end?: number | undefined
+        fetch_end?: number
         
         /** location of the resource in the document
 parameters defining the location of the specific resource within the document’s HTML */
-        location?: OnPageResourceLocationInfo | undefined
+        location?: OnPageResourceLocationInfo
         
         /** indicates whether the resource blocks rendering */
-        is_render_blocking?: boolean | undefined
+        is_render_blocking?: boolean
 
     [key: string]: any;
 
@@ -35,38 +34,38 @@ parameters defining the location of the specific resource within the document’
 
 export class WaterfallResourceInfo  implements IWaterfallResourceInfo {
 
-    resource_type?: string | undefined;
+    resource_type?: string;
     
     /** resource URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** resource initiator */
 
-    initiator?: string | undefined;
+    initiator?: string;
     
     /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
 
-    duration_time?: number | undefined;
+    duration_time?: number;
     
     /** time to start downloading the resource
 the amount of time the browser needs to start downloading a resource */
 
-    fetch_start?: number | undefined;
+    fetch_start?: number;
     
     /** time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource */
 
-    fetch_end?: number | undefined;
+    fetch_end?: number;
     
     /** location of the resource in the document
 parameters defining the location of the specific resource within the document’s HTML */
 
-    location?: OnPageResourceLocationInfo | undefined;
+    location?: OnPageResourceLocationInfo;
     
     /** indicates whether the resource blocks rendering */
 
-    is_render_blocking?: boolean | undefined;
+    is_render_blocking?: boolean;
 
     [key: string]: any;
 

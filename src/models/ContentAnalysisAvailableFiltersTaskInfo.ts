@@ -1,10 +1,9 @@
 import { ContentAnalysisAvailableFiltersResultInfo, IContentAnalysisAvailableFiltersResultInfo } from "./ContentAnalysisAvailableFiltersResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IContentAnalysisAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: ContentAnalysisAvailableFiltersResultInfo[] | undefined
+        result?: ContentAnalysisAvailableFiltersResultInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IContentAnalysisAvailableFiltersTaskInfo  extends IBaseResponse
 
 export class ContentAnalysisAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IContentAnalysisAvailableFiltersTaskInfo {
 
-    result?: ContentAnalysisAvailableFiltersResultInfo[] | undefined;
+    result?: ContentAnalysisAvailableFiltersResultInfo[];
 
     [key: string]: any;
 

@@ -10,7 +10,7 @@ if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, 
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 Note: if you use this field, your account will be charged three times the standard rate for tasks involving the Google Reviews API */
-        keyword?: string | undefined
+        keyword?: string
         
         /** unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -18,7 +18,7 @@ example:
 194604053573767737
 learn more about the identifier in this help center article
 Note: if you use this field, your account will be charged two times the standard rate for tasks involving the Google Reviews API */
-        cid?: string | undefined
+        cid?: string
         
         /** identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -26,7 +26,7 @@ example:
 GhIJQWDl0CIeQUARxks3icF8U8A
 learn more about the identifier in this help center article
 Note: if you use this field, your account will be charged two times the standard rate for tasks involving the Google Reviews API */
-        place_id?: string | undefined
+        place_id?: string
         
         /** task priority
 optional field
@@ -35,7 +35,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -43,7 +43,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations with location_name by making a separate request to the https://api.dataforseo.com/v3/business_data/google/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -51,7 +51,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/google/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -61,7 +61,7 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -69,7 +69,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to the https://api.dataforseo.com/v3/business_data/google/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -77,7 +77,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/business_data/google/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** parsing depth
 optional field
@@ -85,14 +85,14 @@ number of reviews in SERP
 we strongly recommend setting the parsing depth in the multiples of twenty, because our systems processes twenty reviews in a row
 default value: 20
 maximum value: 1000 */
-        depth?: number | undefined
+        depth?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -104,7 +104,7 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** notification URL of a completed task
 optional field
@@ -116,7 +116,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -135,7 +135,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 Note: if you use this field, your account will be charged three times the standard rate for tasks involving the Google Reviews API */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -144,7 +144,7 @@ example:
 learn more about the identifier in this help center article
 Note: if you use this field, your account will be charged two times the standard rate for tasks involving the Google Reviews API */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -153,7 +153,7 @@ GhIJQWDl0CIeQUARxks3icF8U8A
 learn more about the identifier in this help center article
 Note: if you use this field, your account will be charged two times the standard rate for tasks involving the Google Reviews API */
 
-    place_id?: string | undefined;
+    place_id?: string;
     
     /** task priority
 optional field
@@ -163,7 +163,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -172,7 +172,7 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -181,7 +181,7 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -192,7 +192,7 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -201,7 +201,7 @@ you can receive the list of available languages with language_name by making a s
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -210,7 +210,7 @@ you can receive the list of available languages with their language_code by mak
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** parsing depth
 optional field
@@ -219,7 +219,7 @@ we strongly recommend setting the parsing depth in the multiples of twenty, beca
 default value: 20
 maximum value: 1000 */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** user-defined task identifier
 optional field
@@ -227,7 +227,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -240,7 +240,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** notification URL of a completed task
 optional field
@@ -253,7 +253,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

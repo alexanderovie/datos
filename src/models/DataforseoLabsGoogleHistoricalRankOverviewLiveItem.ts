@@ -1,19 +1,18 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
-
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** year for which the data is provided */
-        year?: number | undefined
+        year?: number
         
         /** month for which the data is provided */
-        month?: number | undefined
+        month?: number
         
         /** ranking data relevant to the specified domain */
-        metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
+        metrics?: { [key: string]: DataforseoLabsMetricsInfo; }
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class DataforseoLabsGoogleHistoricalRankOverviewLiveItem  implements IDat
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** year for which the data is provided */
 
-    year?: number | undefined;
+    year?: number;
     
     /** month for which the data is provided */
 
-    month?: number | undefined;
+    month?: number;
     
     /** ranking data relevant to the specified domain */
 
-    metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+    metrics?: { [key: string]: DataforseoLabsMetricsInfo; };
 
     [key: string]: any;
 

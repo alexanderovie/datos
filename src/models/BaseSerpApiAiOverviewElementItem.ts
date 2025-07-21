@@ -4,16 +4,15 @@ import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOve
 import { AiOverviewExpandedComponent, IAiOverviewExpandedComponent } from "./AiOverviewExpandedComponent";
 import { Table, ITable } from "./Table";
 
-
 export interface IBaseSerpApiAiOverviewElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
 
     [key: string]: any;
 
@@ -23,13 +22,13 @@ export class BaseSerpApiAiOverviewElementItem  implements IBaseSerpApiAiOverview
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
 
     [key: string]: any;
 
@@ -108,27 +107,27 @@ left, right */
 export interface ISerpApiAiOverviewElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
-        text?: string | undefined
+        text?: string
         
         /** text of the component in the markdwon format */
-        markdown?: string | undefined
+        markdown?: string
         
         /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
-        links?: LinkElement[] | undefined
+        links?: LinkElement[]
         
         /** images of the element
 if there are none, equals null */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** additional references relevant to the item
 includes references to webpages that may have been used to generate the product_considerations_ai_overview_expanded_element */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
 
     [key: string]: any;
 
@@ -138,32 +137,32 @@ export class SerpApiAiOverviewElementItem  extends BaseSerpApiAiOverviewElementI
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
-    text?: string | undefined;
+    text?: string;
     
     /** text of the component in the markdwon format */
 
-    markdown?: string | undefined;
+    markdown?: string;
     
     /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
 
-    links?: LinkElement[] | undefined;
+    links?: LinkElement[];
     
     /** images of the element
 if there are none, equals null */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** additional references relevant to the item
 includes references to webpages that may have been used to generate the product_considerations_ai_overview_expanded_element */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
 
     [key: string]: any;
 
@@ -258,17 +257,17 @@ includes references to webpages that may have been used to generate the product_
 export interface ISerpApiAiOverviewExpandedElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
         /** title of the result in SERP */
-        title?: string | undefined
+        title?: string
         
         /** text or description of the element in SERP */
-        text?: string | undefined
+        text?: string
         
         /** array of components of the element */
-        components?: AiOverviewExpandedComponent[] | undefined
+        components?: AiOverviewExpandedComponent[]
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
 
     [key: string]: any;
 
@@ -278,20 +277,20 @@ export class SerpApiAiOverviewExpandedElementItem  extends BaseSerpApiAiOverview
     
     /** title of the result in SERP */
 
-    title?: string | undefined;
+    title?: string;
     
     /** text or description of the element in SERP */
 
-    text?: string | undefined;
+    text?: string;
     
     /** array of components of the element */
 
-    components?: AiOverviewExpandedComponent[] | undefined;
+    components?: AiOverviewExpandedComponent[];
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
 
     [key: string]: any;
 
@@ -369,36 +368,36 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export interface ISerpApiAiOverviewVideoElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
         /** reference page title */
-        title?: string | undefined
+        title?: string
         
         /** additional information for the video */
-        snippet?: string | undefined
+        snippet?: string
         
         /** original URL of the featured image
 the URL leading to the image on the original resource */
-        url?: string | undefined
+        url?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string | undefined
+        image_url?: string
         
         /** source of the element */
-        source?: string | undefined
+        source?: string
         
         /** date and time
 in the yyyy-mm-ddThh:mm:ss ISO 8601 format
 indicates the date and time for which the value field provides previous close price
 for example, 'date': '2020-10-28T15:45:00' and 'value': 11080.2857 mean the stock was traded at 11080.2857 on Oct. 27, 2020 at 15:45:00 */
-        date?: string | undefined
+        date?: string
         
         /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
 
     [key: string]: any;
 
@@ -408,43 +407,43 @@ export class SerpApiAiOverviewVideoElementItem  extends BaseSerpApiAiOverviewEle
     
     /** reference page title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** additional information for the video */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** original URL of the featured image
 the URL leading to the image on the original resource */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** source of the element */
 
-    source?: string | undefined;
+    source?: string;
     
     /** date and time
 in the yyyy-mm-ddThh:mm:ss ISO 8601 format
 indicates the date and time for which the value field provides previous close price
 for example, 'date': '2020-10-28T15:45:00' and 'value': 11080.2857 mean the stock was traded at 11080.2857 on Oct. 27, 2020 at 15:45:00 */
 
-    date?: string | undefined;
+    date?: string;
     
     /** date and time when the video was published or indexed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
 
     [key: string]: any;
 
@@ -504,11 +503,11 @@ example:
 export interface ISerpApiAiOverviewTableElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
         /** content of the element in markdown format */
-        markdown?: string | undefined
+        markdown?: string
         
         /** results table
 if there are none, equals null */
-        table?: Table | undefined
+        table?: Table
 
     [key: string]: any;
 
@@ -518,12 +517,12 @@ export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewEle
     
     /** content of the element in markdown format */
 
-    markdown?: string | undefined;
+    markdown?: string;
     
     /** results table
 if there are none, equals null */
 
-    table?: Table | undefined;
+    table?: Table;
 
     [key: string]: any;
 

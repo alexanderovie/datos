@@ -1,13 +1,13 @@
 export interface IDataforseoLabsCarouselElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the result in SERP */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the item */
-        sub_title?: string | undefined
+        sub_title?: string
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class DataforseoLabsCarouselElement  implements IDataforseoLabsCarouselEl
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the result in SERP */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the item */
 
-    sub_title?: string | undefined;
+    sub_title?: string;
 
     [key: string]: any;
 

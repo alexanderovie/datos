@@ -6,7 +6,7 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -14,7 +14,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -22,7 +22,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -31,34 +31,34 @@ location_coordinate parameter should be specified in the “latitude,longitude�
 the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 supported languages:
 English, French, German */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 supported languages:
 en, fr, de */
-        language_code?: string | undefined
+        language_code?: string
         
         /** device type
 optional field
 specify this field if you want to get the data for a particular device type;
 possible values: all, mobile, desktop, tablet
 default value: all */
-        device?: string | undefined
+        device?: string
         
         /** results sorting parameters
 optional field
 Use these parameters to sort the results by search_volume, cpc, competition or relevance in the descending order
 default value: relevance */
-        sort_by?: string | undefined
+        sort_by?: string
         
         /** starting date of the time range
 optional field
@@ -68,7 +68,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2020-01-01'
 Note: we do not recommend using a custom time range for the past year’s dates */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 optional field
@@ -80,20 +80,20 @@ date format: 'yyyy-mm-dd'
 example:
 '2020-03-15'
 Note: we do not recommend using a custom time range for the past year’s dates */
-        date_to?: string | undefined
+        date_to?: string
         
         /** Bing search partners type
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Bing, Yahoo, AOL and partner sites that host Bing, AOL, and Yahoo search.
 default value: false – results are returned for Bing, AOL, and Yahoo search networks */
-        search_partners?: boolean | undefined
+        search_partners?: boolean
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -108,7 +108,7 @@ The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -117,7 +117,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,7 +126,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -136,7 +136,7 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -144,7 +144,7 @@ if you use this field, you don’t need to specify language_code
 supported languages:
 English, French, German */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -152,7 +152,7 @@ if you use this field, you don’t need to specify language_name
 supported languages:
 en, fr, de */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** device type
 optional field
@@ -160,14 +160,14 @@ specify this field if you want to get the data for a particular device type;
 possible values: all, mobile, desktop, tablet
 default value: all */
 
-    device?: string | undefined;
+    device?: string;
     
     /** results sorting parameters
 optional field
 Use these parameters to sort the results by search_volume, cpc, competition or relevance in the descending order
 default value: relevance */
 
-    sort_by?: string | undefined;
+    sort_by?: string;
     
     /** starting date of the time range
 optional field
@@ -178,7 +178,7 @@ example:
 '2020-01-01'
 Note: we do not recommend using a custom time range for the past year’s dates */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 optional field
@@ -191,14 +191,14 @@ example:
 '2020-03-15'
 Note: we do not recommend using a custom time range for the past year’s dates */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** Bing search partners type
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Bing, Yahoo, AOL and partner sites that host Bing, AOL, and Yahoo search.
 default value: false – results are returned for Bing, AOL, and Yahoo search networks */
 
-    search_partners?: boolean | undefined;
+    search_partners?: boolean;
     
     /** user-defined task identifier
 optional field
@@ -206,7 +206,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

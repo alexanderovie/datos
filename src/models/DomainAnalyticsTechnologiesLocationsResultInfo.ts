@@ -1,10 +1,10 @@
 export interface IDomainAnalyticsTechnologiesLocationsResultInfo   {
         
         /** full name of the location */
-        location_name?: string | undefined
+        location_name?: string
         
         /** ISO country code of the location */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class DomainAnalyticsTechnologiesLocationsResultInfo  implements IDomainA
     
     /** full name of the location */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
 
     [key: string]: any;
 

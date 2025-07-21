@@ -1,17 +1,16 @@
 import { AppMetricsInfo, IAppMetricsInfo } from "./AppMetricsInfo";
 
-
 export interface IDataforseoLabsleBulkAppMetricsLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** id of the app in a POST array */
-        app_id?: string | undefined
+        app_id?: string
         
         /** metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play */
-        metrics?: { [key: string]: AppMetricsInfo; } | undefined
+        metrics?: { [key: string]: AppMetricsInfo; }
 
     [key: string]: any;
 
@@ -21,16 +20,16 @@ export class DataforseoLabsleBulkAppMetricsLiveItem  implements IDataforseoLabsl
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** id of the app in a POST array */
 
-    app_id?: string | undefined;
+    app_id?: string;
     
     /** metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play */
 
-    metrics?: { [key: string]: AppMetricsInfo; } | undefined;
+    metrics?: { [key: string]: AppMetricsInfo; };
 
     [key: string]: any;
 

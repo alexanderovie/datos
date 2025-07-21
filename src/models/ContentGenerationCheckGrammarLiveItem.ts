@@ -1,38 +1,38 @@
 export interface IContentGenerationCheckGrammarLiveItem   {
         
         /** message of the grammar or spelling error */
-        message?: string | undefined
+        message?: string
         
         /** description of the grammar or spelling error */
-        description?: string | undefined
+        description?: string
         
         /** suggested corrections */
-        suggestions?: string[] | undefined
+        suggestions?: string[]
         
         /** offset token for subsequent requests */
-        offset?: number | undefined
+        offset?: number
         
         /** offset token for subsequent requests */
-        length?: number | undefined
+        length?: number
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API */
-        rule_id?: string | undefined
+        rule_id?: string
         
         /** description of the grammar or spelling rule */
-        rule_description?: string | undefined
+        rule_description?: string
         
         /** type of the issue found by the relevant rule */
-        rule_issue_type?: string | undefined
+        rule_issue_type?: string
         
         /** id of the rule category */
-        rule_category_id?: string | undefined
+        rule_category_id?: string
         
         /** name of the rule category */
-        rule_category_name?: string | undefined
+        rule_category_name?: string
 
     [key: string]: any;
 
@@ -42,48 +42,48 @@ export class ContentGenerationCheckGrammarLiveItem  implements IContentGeneratio
     
     /** message of the grammar or spelling error */
 
-    message?: string | undefined;
+    message?: string;
     
     /** description of the grammar or spelling error */
 
-    description?: string | undefined;
+    description?: string;
     
     /** suggested corrections */
 
-    suggestions?: string[] | undefined;
+    suggestions?: string[];
     
     /** offset token for subsequent requests */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** offset token for subsequent requests */
 
-    length?: number | undefined;
+    length?: number;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API */
 
-    rule_id?: string | undefined;
+    rule_id?: string;
     
     /** description of the grammar or spelling rule */
 
-    rule_description?: string | undefined;
+    rule_description?: string;
     
     /** type of the issue found by the relevant rule */
 
-    rule_issue_type?: string | undefined;
+    rule_issue_type?: string;
     
     /** id of the rule category */
 
-    rule_category_id?: string | undefined;
+    rule_category_id?: string;
     
     /** name of the rule category */
 
-    rule_category_name?: string | undefined;
+    rule_category_name?: string;
 
     [key: string]: any;
 

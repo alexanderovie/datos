@@ -1,11 +1,10 @@
 import { SerpSeznamLocationsCountryResultInfo, ISerpSeznamLocationsCountryResultInfo } from "./SerpSeznamLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpSeznamLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpSeznamLocationsCountryResultInfo[] | undefined
+        result?: SerpSeznamLocationsCountryResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpSeznamLocationsCountryTaskInfo  extends BaseResponseTaskInfo   
     
     /** array of results */
 
-    result?: SerpSeznamLocationsCountryResultInfo[] | undefined;
+    result?: SerpSeznamLocationsCountryResultInfo[];
 
     [key: string]: any;
 

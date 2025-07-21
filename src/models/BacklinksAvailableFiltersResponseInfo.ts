@@ -1,10 +1,9 @@
 import { BacklinksAvailableFiltersTaskInfo, IBacklinksAvailableFiltersTaskInfo } from "./BacklinksAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBacklinksAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
-        tasks?: BacklinksAvailableFiltersTaskInfo[] | undefined
+        tasks?: BacklinksAvailableFiltersTaskInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IBacklinksAvailableFiltersResponseInfo  extends IBaseResponseIn
 
 export class BacklinksAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IBacklinksAvailableFiltersResponseInfo {
 
-    tasks?: BacklinksAvailableFiltersTaskInfo[] | undefined;
+    tasks?: BacklinksAvailableFiltersTaskInfo[];
 
     [key: string]: any;
 

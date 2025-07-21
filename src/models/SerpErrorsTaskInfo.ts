@@ -1,11 +1,10 @@
 import { SerpErrorsResultInfo, ISerpErrorsResultInfo } from "./SerpErrorsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpErrorsResultInfo[] | undefined
+        result?: SerpErrorsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpErrorsTaskInfo  extends BaseResponseTaskInfo   implements ISerp
     
     /** array of results */
 
-    result?: SerpErrorsResultInfo[] | undefined;
+    result?: SerpErrorsResultInfo[];
 
     [key: string]: any;
 

@@ -1,25 +1,24 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo   {
         
-        domain_technologies?: AppendixInfo | undefined
+        domain_technologies?: AppendixInfo
         
-        domains_by_technology?: AppendixInfo | undefined
+        domains_by_technology?: AppendixInfo
         
-        languages?: number | undefined
+        languages?: number
         
-        locations?: number | undefined
+        locations?: number
         
-        technologies?: number | undefined
+        technologies?: number
         
-        aggregation_technologies?: AppendixInfo | undefined
+        aggregation_technologies?: AppendixInfo
         
-        technologies_summary?: AppendixInfo | undefined
+        technologies_summary?: AppendixInfo
         
-        domains_by_html_terms?: AppendixInfo | undefined
+        domains_by_html_terms?: AppendixInfo
         
-        technology_stats?: AppendixInfo | undefined
+        technology_stats?: AppendixInfo
 
     [key: string]: any;
 
@@ -27,23 +26,23 @@ export interface IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo   {
 
 export class AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo  implements IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo {
 
-    domain_technologies?: AppendixInfo | undefined;
+    domain_technologies?: AppendixInfo;
 
-    domains_by_technology?: AppendixInfo | undefined;
+    domains_by_technology?: AppendixInfo;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    technologies?: number | undefined;
+    technologies?: number;
 
-    aggregation_technologies?: AppendixInfo | undefined;
+    aggregation_technologies?: AppendixInfo;
 
-    technologies_summary?: AppendixInfo | undefined;
+    technologies_summary?: AppendixInfo;
 
-    domains_by_html_terms?: AppendixInfo | undefined;
+    domains_by_html_terms?: AppendixInfo;
 
-    technology_stats?: AppendixInfo | undefined;
+    technology_stats?: AppendixInfo;
 
     [key: string]: any;
 

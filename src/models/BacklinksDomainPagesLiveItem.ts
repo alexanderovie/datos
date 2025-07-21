@@ -1,78 +1,77 @@
 import { BacklinksPageMeta, IBacklinksPageMeta } from "./BacklinksPageMeta";
 import { PageSummary, IPageSummary } from "./PageSummary";
 
-
 export interface IBacklinksDomainPagesLiveItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** main website domain
 main website domain does not include subdomains */
-        main_domain?: string | undefined
+        main_domain?: string
         
         /** domain
 domain where the page was found */
-        domain?: string | undefined
+        domain?: string
         
         /** top-level domain
 top-level domain in the DNS root zone */
-        tld?: string | undefined
+        tld?: string
         
         /** page URL
 relevant page URL */
-        page?: string | undefined
+        page?: string
         
         /** Internet Protocol address */
-        ip?: string | undefined
+        ip?: string
         
         /** date and time of the first page visit
 date and time when our crawler visited this page for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        first_visited?: string | undefined
+        first_visited?: string
         
         /** previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        prev_visited?: string | undefined
+        prev_visited?: string
         
         /** most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        fetch_time?: string | undefined
+        fetch_time?: string
         
         /** HTTP status code of the page */
-        status_code?: number | undefined
+        status_code?: number
         
         /** location header
 indicates the URL to redirect a page to if exists */
-        location?: string | undefined
+        location?: string
         
         /** indicates the page size, in bytes */
-        size?: number | undefined
+        size?: number
         
         /** page size after encoding
 indicates the size of the encoded page, in bytes */
-        encoded_size?: number | undefined
+        encoded_size?: number
         
         /** type of encoding */
-        content_encoding?: string | undefined
+        content_encoding?: string
         
         /** types of media used to display a page */
-        media_type?: string | undefined
+        media_type?: string
         
         /** server version */
-        server?: string | undefined
+        server?: string
         
         /** page meta data */
-        meta?: BacklinksPageMeta | undefined
+        meta?: BacklinksPageMeta
         
         /** contains backlink data for this page */
-        page_summary?: PageSummary | undefined
+        page_summary?: PageSummary
 
     [key: string]: any;
 
@@ -82,31 +81,31 @@ export class BacklinksDomainPagesLiveItem  implements IBacklinksDomainPagesLiveI
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** main website domain
 main website domain does not include subdomains */
 
-    main_domain?: string | undefined;
+    main_domain?: string;
     
     /** domain
 domain where the page was found */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** top-level domain
 top-level domain in the DNS root zone */
 
-    tld?: string | undefined;
+    tld?: string;
     
     /** page URL
 relevant page URL */
 
-    page?: string | undefined;
+    page?: string;
     
     /** Internet Protocol address */
 
-    ip?: string | undefined;
+    ip?: string;
     
     /** date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -114,59 +113,59 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    first_visited?: string | undefined;
+    first_visited?: string;
     
     /** previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    prev_visited?: string | undefined;
+    prev_visited?: string;
     
     /** most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    fetch_time?: string | undefined;
+    fetch_time?: string;
     
     /** HTTP status code of the page */
 
-    status_code?: number | undefined;
+    status_code?: number;
     
     /** location header
 indicates the URL to redirect a page to if exists */
 
-    location?: string | undefined;
+    location?: string;
     
     /** indicates the page size, in bytes */
 
-    size?: number | undefined;
+    size?: number;
     
     /** page size after encoding
 indicates the size of the encoded page, in bytes */
 
-    encoded_size?: number | undefined;
+    encoded_size?: number;
     
     /** type of encoding */
 
-    content_encoding?: string | undefined;
+    content_encoding?: string;
     
     /** types of media used to display a page */
 
-    media_type?: string | undefined;
+    media_type?: string;
     
     /** server version */
 
-    server?: string | undefined;
+    server?: string;
     
     /** page meta data */
 
-    meta?: BacklinksPageMeta | undefined;
+    meta?: BacklinksPageMeta;
     
     /** contains backlink data for this page */
 
-    page_summary?: PageSummary | undefined;
+    page_summary?: PageSummary;
 
     [key: string]: any;
 

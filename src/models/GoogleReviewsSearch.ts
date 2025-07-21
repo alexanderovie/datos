@@ -2,97 +2,96 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
 import { ReviewHighlights, IReviewHighlights } from "./ReviewHighlights";
 
-
 export interface IGoogleReviewsSearch   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the review in SERP
 can take the following values: right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the review */
-        xpath?: string | undefined
+        xpath?: string
         
         /** the content of the review */
-        review_text?: string | undefined
+        review_text?: string
         
         /** original content of the review
 the original content of the review, no auto-translate applied */
-        original_review_text?: string | undefined
+        original_review_text?: string
         
         /** the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed */
-        time_ago?: string | undefined
+        time_ago?: string
         
         /** date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** total number of reviews submitted by the reviewer */
-        reviews_count?: number | undefined
+        reviews_count?: number
         
         /** total number of photos submitted by the reviewer */
-        photos_count?: number | undefined
+        photos_count?: number
         
         /** indicates whether the reviewer has a ‘local guide’ status */
-        local_guide?: boolean | undefined
+        local_guide?: boolean
         
         /** profile name of the reviewer */
-        profile_name?: string | undefined
+        profile_name?: string
         
         /** URL of the reviewer’s profile */
-        profile_url?: string | undefined
+        profile_url?: string
         
         /** the URL of the review */
-        review_url?: string | undefined
+        review_url?: string
         
         /** URL of the reviewer’s profile image */
-        profile_image_url?: string | undefined
+        profile_image_url?: string
         
         /** text of the owner’s response
 the owner’s response to the review */
-        owner_answer?: string | undefined
+        owner_answer?: string
         
         /** original text of the owner’s response
 the original response to the review, no auto-translate applied */
-        original_owner_answer?: string | undefined
+        original_owner_answer?: string
         
         /** publication time
 indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review */
-        owner_time_ago?: string | undefined
+        owner_time_ago?: string
         
         /** date and time of the owner’s reply to the review
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        owner_timestamp?: string | undefined
+        owner_timestamp?: string
         
         /** the unique identifier of a review on Google
 example:
 ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE */
-        review_id?: string | undefined
+        review_id?: string
         
         /** images submitted by the reviewer */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** review highlights
 contains highlighted review criteria and assessments */
-        review_highlights?: ReviewHighlights[] | undefined
+        review_highlights?: ReviewHighlights[]
 
     [key: string]: any;
 
@@ -102,116 +101,116 @@ export class GoogleReviewsSearch  implements IGoogleReviewsSearch {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the review in SERP
 can take the following values: right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the review */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** the content of the review */
 
-    review_text?: string | undefined;
+    review_text?: string;
     
     /** original content of the review
 the original content of the review, no auto-translate applied */
 
-    original_review_text?: string | undefined;
+    original_review_text?: string;
     
     /** the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed */
 
-    time_ago?: string | undefined;
+    time_ago?: string;
     
     /** date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** total number of reviews submitted by the reviewer */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
     
     /** total number of photos submitted by the reviewer */
 
-    photos_count?: number | undefined;
+    photos_count?: number;
     
     /** indicates whether the reviewer has a ‘local guide’ status */
 
-    local_guide?: boolean | undefined;
+    local_guide?: boolean;
     
     /** profile name of the reviewer */
 
-    profile_name?: string | undefined;
+    profile_name?: string;
     
     /** URL of the reviewer’s profile */
 
-    profile_url?: string | undefined;
+    profile_url?: string;
     
     /** the URL of the review */
 
-    review_url?: string | undefined;
+    review_url?: string;
     
     /** URL of the reviewer’s profile image */
 
-    profile_image_url?: string | undefined;
+    profile_image_url?: string;
     
     /** text of the owner’s response
 the owner’s response to the review */
 
-    owner_answer?: string | undefined;
+    owner_answer?: string;
     
     /** original text of the owner’s response
 the original response to the review, no auto-translate applied */
 
-    original_owner_answer?: string | undefined;
+    original_owner_answer?: string;
     
     /** publication time
 indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review */
 
-    owner_time_ago?: string | undefined;
+    owner_time_ago?: string;
     
     /** date and time of the owner’s reply to the review
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    owner_timestamp?: string | undefined;
+    owner_timestamp?: string;
     
     /** the unique identifier of a review on Google
 example:
 ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE */
 
-    review_id?: string | undefined;
+    review_id?: string;
     
     /** images submitted by the reviewer */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** review highlights
 contains highlighted review criteria and assessments */
 
-    review_highlights?: ReviewHighlights[] | undefined;
+    review_highlights?: ReviewHighlights[];
 
     [key: string]: any;
 

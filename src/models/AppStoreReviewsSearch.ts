@@ -1,48 +1,47 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AppUserProfileInfo, IAppUserProfileInfo } from "./AppUserProfileInfo";
 
-
 export interface IAppStoreReviewsSearch   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the review in SERP
 can take the following values: left */
-        position?: string | undefined
+        position?: string
         
         /** version of the app
 version of the app for which the review is submitted */
-        version?: string | undefined
+        version?: string
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** id of the review */
-        id?: string | undefined
+        id?: string
         
         /** title of the review */
-        title?: string | undefined
+        title?: string
         
         /** content of the review */
-        review_text?: string | undefined
+        review_text?: string
         
         /** user profile of the reviewer */
-        user_profile?: AppUserProfileInfo | undefined
+        user_profile?: AppUserProfileInfo
 
     [key: string]: any;
 
@@ -52,54 +51,54 @@ export class AppStoreReviewsSearch  implements IAppStoreReviewsSearch {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the review in SERP
 can take the following values: left */
 
-    position?: string | undefined;
+    position?: string;
     
     /** version of the app
 version of the app for which the review is submitted */
 
-    version?: string | undefined;
+    version?: string;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** id of the review */
 
-    id?: string | undefined;
+    id?: string;
     
     /** title of the review */
 
-    title?: string | undefined;
+    title?: string;
     
     /** content of the review */
 
-    review_text?: string | undefined;
+    review_text?: string;
     
     /** user profile of the reviewer */
 
-    user_profile?: AppUserProfileInfo | undefined;
+    user_profile?: AppUserProfileInfo;
 
     [key: string]: any;
 

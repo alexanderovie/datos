@@ -1,18 +1,17 @@
 import { AmazonMetricsBundleInfo, IAmazonMetricsBundleInfo } from "./AmazonMetricsBundleInfo";
 
-
 export interface IDataforseoLabsAmazonProductRankOverviewLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide */
-        asin?: string | undefined
+        asin?: string
         
         /** average keyword position of the product */
-        metrics?: AmazonMetricsBundleInfo | undefined
+        metrics?: AmazonMetricsBundleInfo
 
     [key: string]: any;
 
@@ -22,17 +21,17 @@ export class DataforseoLabsAmazonProductRankOverviewLiveItem  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide */
 
-    asin?: string | undefined;
+    asin?: string;
     
     /** average keyword position of the product */
 
-    metrics?: AmazonMetricsBundleInfo | undefined;
+    metrics?: AmazonMetricsBundleInfo;
 
     [key: string]: any;
 

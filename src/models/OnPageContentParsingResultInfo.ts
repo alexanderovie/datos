@@ -1,21 +1,20 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { ContentParsingElement, IContentParsingElement } from "./ContentParsingElement";
 
-
 export interface IOnPageContentParsingResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string | undefined
+        crawl_progress?: string
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo | undefined
+        crawl_status?: CrawlStatusInfo
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: ContentParsingElement[] | undefined
+        items?: ContentParsingElement[]
 
     [key: string]: any;
 
@@ -26,19 +25,19 @@ export class OnPageContentParsingResultInfo  implements IOnPageContentParsingRes
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string | undefined;
+    crawl_progress?: string;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo | undefined;
+    crawl_status?: CrawlStatusInfo;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: ContentParsingElement[] | undefined;
+    items?: ContentParsingElement[];
 
     [key: string]: any;
 

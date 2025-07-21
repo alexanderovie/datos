@@ -1,11 +1,10 @@
 import { SerpNaverOrganicTaskGetAdvancedResultInfo, ISerpNaverOrganicTaskGetAdvancedResultInfo } from "./SerpNaverOrganicTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpNaverOrganicTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpNaverOrganicTaskGetAdvancedResultInfo[] | undefined
+        result?: SerpNaverOrganicTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpNaverOrganicTaskGetAdvancedTaskInfo  extends BaseResponseTaskIn
     
     /** array of results */
 
-    result?: SerpNaverOrganicTaskGetAdvancedResultInfo[] | undefined;
+    result?: SerpNaverOrganicTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

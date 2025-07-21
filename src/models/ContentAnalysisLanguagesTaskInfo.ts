@@ -1,11 +1,10 @@
 import { ContentAnalysisLanguagesResultInfo, IContentAnalysisLanguagesResultInfo } from "./ContentAnalysisLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IContentAnalysisLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentAnalysisLanguagesResultInfo[] | undefined
+        result?: ContentAnalysisLanguagesResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentAnalysisLanguagesTaskInfo  extends BaseResponseTaskInfo   im
     
     /** array of results */
 
-    result?: ContentAnalysisLanguagesResultInfo[] | undefined;
+    result?: ContentAnalysisLanguagesResultInfo[];
 
     [key: string]: any;
 

@@ -1,16 +1,15 @@
 import { IndexHistory, IIndexHistory } from "./IndexHistory";
 
-
 export interface IBacklinksIndexResultInfo   {
         
         /** total number of backlinks our database contains for the moment of checking */
-        total_backlinks?: number | undefined
+        total_backlinks?: number
         
         /** total number of pages our database contains for the moment of checking */
-        total_pages?: number | undefined
+        total_pages?: number
         
         /** index volume data for the past 12 months */
-        index_history?: IndexHistory[] | undefined
+        index_history?: IndexHistory[]
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class BacklinksIndexResultInfo  implements IBacklinksIndexResultInfo {
     
     /** total number of backlinks our database contains for the moment of checking */
 
-    total_backlinks?: number | undefined;
+    total_backlinks?: number;
     
     /** total number of pages our database contains for the moment of checking */
 
-    total_pages?: number | undefined;
+    total_pages?: number;
     
     /** index volume data for the past 12 months */
 
-    index_history?: IndexHistory[] | undefined;
+    index_history?: IndexHistory[];
 
     [key: string]: any;
 

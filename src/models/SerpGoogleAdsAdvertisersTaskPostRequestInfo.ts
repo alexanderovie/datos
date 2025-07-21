@@ -7,7 +7,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 optional field
@@ -16,7 +16,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 optional field
@@ -25,7 +25,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 optional field
@@ -33,7 +33,7 @@ if you use this field, you don’t need to specify location_name or location_cod
 example:
 52.6178549,-155.352142
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** task priority
 optional field
@@ -42,14 +42,14 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -61,14 +61,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the function you used for setting a task
 possible values:
 advanced */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -80,7 +80,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -96,7 +96,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 optional field
@@ -106,7 +106,7 @@ example:
 London,England,United Kingdom
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 optional field
@@ -116,7 +116,7 @@ example:
 2840
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 optional field
@@ -125,7 +125,7 @@ example:
 52.6178549,-155.352142
 Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** task priority
 optional field
@@ -135,7 +135,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** user-defined task identifier
 optional field
@@ -143,7 +143,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -156,7 +156,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -164,7 +164,7 @@ corresponds to the function you used for setting a task
 possible values:
 advanced */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -177,7 +177,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

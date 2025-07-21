@@ -1,11 +1,10 @@
 import { SerpGoogleAdsSearchTaskGetAdvancedResultInfo, ISerpGoogleAdsSearchTaskGetAdvancedResultInfo } from "./SerpGoogleAdsSearchTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleAdsSearchTaskGetAdvancedResultInfo[] | undefined
+        result?: SerpGoogleAdsSearchTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleAdsSearchTaskGetAdvancedTaskInfo  extends BaseResponseTas
     
     /** array of results */
 
-    result?: SerpGoogleAdsSearchTaskGetAdvancedResultInfo[] | undefined;
+    result?: SerpGoogleAdsSearchTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { SerpGoogleLanguagesTaskInfo, ISerpGoogleLanguagesTaskInfo } from "./SerpGoogleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpGoogleLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleLanguagesTaskInfo[] | undefined
+        tasks?: SerpGoogleLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleLanguagesResponseInfo  extends BaseResponseInfo   impleme
     
     /** array of tasks */
 
-    tasks?: SerpGoogleLanguagesTaskInfo[] | undefined;
+    tasks?: SerpGoogleLanguagesTaskInfo[];
 
     [key: string]: any;
 

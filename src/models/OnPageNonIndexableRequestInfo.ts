@@ -5,19 +5,19 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string | undefined
+        id?: string
         
         /** the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
-        offset?: number | undefined
+        offset?: number
         
         /** array of results filtering parameters
 optional field
@@ -34,7 +34,7 @@ example:
 'and',
 [['reason','<>','meta_tag'],'or',['reason','<>','http_header']]]
 The full list of possible filters is available by this link. */
-        filters?: any[] | undefined
+        filters?: any[]
 
     [key: string]: any;
 
@@ -48,21 +48,21 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string | undefined;
+    id?: string;
     
     /** the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** array of results filtering parameters
 optional field
@@ -80,7 +80,7 @@ example:
 [['reason','<>','meta_tag'],'or',['reason','<>','http_header']]]
 The full list of possible filters is available by this link. */
 
-    filters?: any[] | undefined;
+    filters?: any[];
 
     [key: string]: any;
 

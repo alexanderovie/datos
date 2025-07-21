@@ -1,11 +1,10 @@
 import { BacklinksBulkSpamScoreLiveTaskInfo, IBacklinksBulkSpamScoreLiveTaskInfo } from "./BacklinksBulkSpamScoreLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBacklinksBulkSpamScoreLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BacklinksBulkSpamScoreLiveTaskInfo[] | undefined
+        tasks?: BacklinksBulkSpamScoreLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BacklinksBulkSpamScoreLiveResponseInfo  extends BaseResponseInfo   
     
     /** array of tasks */
 
-    tasks?: BacklinksBulkSpamScoreLiveTaskInfo[] | undefined;
+    tasks?: BacklinksBulkSpamScoreLiveTaskInfo[];
 
     [key: string]: any;
 

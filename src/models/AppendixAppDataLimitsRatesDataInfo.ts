@@ -1,28 +1,27 @@
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 import { AppendixBusinessListingsBusinessDataLimitsRatesDataInfo, IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo } from "./AppendixBusinessListingsBusinessDataLimitsRatesDataInfo";
 
-
 export interface IAppendixAppDataLimitsRatesDataInfo   {
         
-        app_info?: AppendixSerpDaysRatesDataInfo | undefined
+        app_info?: AppendixSerpDaysRatesDataInfo
         
-        app_list?: AppendixSerpDaysRatesDataInfo | undefined
+        app_list?: AppendixSerpDaysRatesDataInfo
         
-        app_reviews?: AppendixSerpDaysRatesDataInfo | undefined
+        app_reviews?: AppendixSerpDaysRatesDataInfo
         
-        app_searches?: AppendixSerpDaysRatesDataInfo | undefined
+        app_searches?: AppendixSerpDaysRatesDataInfo
         
-        errors?: number | undefined
+        errors?: number
         
-        languages?: number | undefined
+        languages?: number
         
-        locations?: number | undefined
+        locations?: number
         
-        categories?: number | undefined
+        categories?: number
         
-        app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined
+        app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
 
     [key: string]: any;
 
@@ -30,25 +29,25 @@ export interface IAppendixAppDataLimitsRatesDataInfo   {
 
 export class AppendixAppDataLimitsRatesDataInfo  implements IAppendixAppDataLimitsRatesDataInfo {
 
-    app_info?: AppendixSerpDaysRatesDataInfo | undefined;
+    app_info?: AppendixSerpDaysRatesDataInfo;
 
-    app_list?: AppendixSerpDaysRatesDataInfo | undefined;
+    app_list?: AppendixSerpDaysRatesDataInfo;
 
-    app_reviews?: AppendixSerpDaysRatesDataInfo | undefined;
+    app_reviews?: AppendixSerpDaysRatesDataInfo;
 
-    app_searches?: AppendixSerpDaysRatesDataInfo | undefined;
+    app_searches?: AppendixSerpDaysRatesDataInfo;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    categories?: number | undefined;
+    categories?: number;
 
-    app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined;
+    app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo;
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
     [key: string]: any;
 

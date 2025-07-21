@@ -1,11 +1,10 @@
 import { MerchantAmazonProductsTasksReadyTaskInfo, IMerchantAmazonProductsTasksReadyTaskInfo } from "./MerchantAmazonProductsTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IMerchantAmazonProductsTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: MerchantAmazonProductsTasksReadyTaskInfo[] | undefined
+        tasks?: MerchantAmazonProductsTasksReadyTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class MerchantAmazonProductsTasksReadyResponseInfo  extends BaseResponseI
     
     /** array of tasks */
 
-    tasks?: MerchantAmazonProductsTasksReadyTaskInfo[] | undefined;
+    tasks?: MerchantAmazonProductsTasksReadyTaskInfo[];
 
     [key: string]: any;
 

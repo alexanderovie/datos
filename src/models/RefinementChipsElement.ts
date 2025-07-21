@@ -1,22 +1,21 @@
 import { LicensesElement, ILicensesElement } from "./LicensesElement";
 
-
 export interface IRefinementChipsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** further search refinement options */
-        options?: LicensesElement[] | undefined
+        options?: LicensesElement[]
 
     [key: string]: any;
 
@@ -26,23 +25,23 @@ export class RefinementChipsElement  implements IRefinementChipsElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** further search refinement options */
 
-    options?: LicensesElement[] | undefined;
+    options?: LicensesElement[];
 
     [key: string]: any;
 

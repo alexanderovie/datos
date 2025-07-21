@@ -2,50 +2,49 @@ import { EventDates, IEventDates } from "./EventDates";
 import { LocationInfo, ILocationInfo } from "./LocationInfo";
 import { InformationAndTicketsElement, IInformationAndTicketsElement } from "./InformationAndTicketsElement";
 
-
 export interface IEventItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** description of the results element in SERP */
-        description?: string | undefined
+        description?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** URL of the image featured in the element */
-        image_url?: string | undefined
+        image_url?: string
         
         /** dates when the event takes place
 if there are none, equals null */
-        event_dates?: EventDates | undefined
+        event_dates?: EventDates
         
         /** information about the event’s venue */
-        location_info?: LocationInfo | undefined
+        location_info?: LocationInfo
         
         /** additional information and ticket purchase options */
-        information_and_tickets?: InformationAndTicketsElement[] | undefined
+        information_and_tickets?: InformationAndTicketsElement[]
 
     [key: string]: any;
 
@@ -55,57 +54,57 @@ export class EventItem  implements IEventItem {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description of the results element in SERP */
 
-    description?: string | undefined;
+    description?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** URL of the image featured in the element */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** dates when the event takes place
 if there are none, equals null */
 
-    event_dates?: EventDates | undefined;
+    event_dates?: EventDates;
     
     /** information about the event’s venue */
 
-    location_info?: LocationInfo | undefined;
+    location_info?: LocationInfo;
     
     /** additional information and ticket purchase options */
 
-    information_and_tickets?: InformationAndTicketsElement[] | undefined;
+    information_and_tickets?: InformationAndTicketsElement[];
 
     [key: string]: any;
 

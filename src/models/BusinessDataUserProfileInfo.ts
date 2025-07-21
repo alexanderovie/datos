@@ -1,19 +1,19 @@
 export interface IBusinessDataUserProfileInfo   {
         
         /** the name of the reviewer */
-        name?: string | undefined
+        name?: string
         
         /** URL to the reviewer’s profile */
-        url?: string | undefined
+        url?: string
         
         /** URL to the reviewer’s profile picture */
-        image_url?: string | undefined
+        image_url?: string
         
         /** country of the reviewer */
-        location?: string | undefined
+        location?: string
         
         /** total number of reviews submitted by the reviewer */
-        reviews_count?: number | undefined
+        reviews_count?: number
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class BusinessDataUserProfileInfo  implements IBusinessDataUserProfileInf
     
     /** the name of the reviewer */
 
-    name?: string | undefined;
+    name?: string;
     
     /** URL to the reviewer’s profile */
 
-    url?: string | undefined;
+    url?: string;
     
     /** URL to the reviewer’s profile picture */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** country of the reviewer */
 
-    location?: string | undefined;
+    location?: string;
     
     /** total number of reviews submitted by the reviewer */
 
-    reviews_count?: number | undefined;
+    reviews_count?: number;
 
     [key: string]: any;
 

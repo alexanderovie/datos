@@ -7,7 +7,7 @@ if you specify more than one search term, you will receive only the domains cont
 maximum number of search terms you can specify: 10
 example:
 ['data-attrid'] */
-        search_terms?: string[] | undefined
+        search_terms?: string[]
         
         /** target keywords in the domain’s title, description or meta keywords
 optional field
@@ -16,7 +16,7 @@ maximum number of keywords you can specify: 10
 example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** search mode
 optional field
@@ -24,7 +24,7 @@ possible search mode types:
 strict_entry – search for results exactly matching the order, intervals and separators in the specified search terms
 entry – search for results ignoring the order, intervals and separators in the specified search terms
 default value: entry */
-        mode?: string | undefined
+        mode?: string
         
         /** array of results filtering parameters
 optional field
@@ -42,7 +42,7 @@ example:
 'and',
 [['country_iso_code','=','US'],'or',['country_iso_code','=','CA']]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -60,13 +60,13 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['last_visited,desc','domain_rank,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned domains
 optional field
@@ -74,7 +74,7 @@ default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains;
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 optional field
@@ -83,7 +83,7 @@ use this parameter to avoid timeouts while trying to obtain over 100,000 results
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
-        offset_token?: string | undefined
+        offset_token?: string
 
     [key: string]: any;
 
@@ -99,7 +99,7 @@ maximum number of search terms you can specify: 10
 example:
 ['data-attrid'] */
 
-    search_terms?: string[] | undefined;
+    search_terms?: string[];
     
     /** target keywords in the domain’s title, description or meta keywords
 optional field
@@ -109,7 +109,7 @@ example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** search mode
 optional field
@@ -118,7 +118,7 @@ strict_entry – search for results exactly matching the order, intervals and se
 entry – search for results ignoring the order, intervals and separators in the specified search terms
 default value: entry */
 
-    mode?: string | undefined;
+    mode?: string;
     
     /** array of results filtering parameters
 optional field
@@ -137,7 +137,7 @@ example:
 [['country_iso_code','=','US'],'or',['country_iso_code','=','CA']]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -156,14 +156,14 @@ you should use a comma to separate several sorting rules
 example:
 ['last_visited,desc','domain_rank,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned domains
 optional field
@@ -172,7 +172,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 optional field
@@ -182,7 +182,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { OnPageLighthouseTaskPostTaskInfo, IOnPageLighthouseTaskPostTaskInfo } from "./OnPageLighthouseTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IOnPageLighthouseTaskPostResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: OnPageLighthouseTaskPostTaskInfo[] | undefined
+        tasks?: OnPageLighthouseTaskPostTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageLighthouseTaskPostResponseInfo  extends BaseResponseInfo   im
     
     /** array of tasks */
 
-    tasks?: OnPageLighthouseTaskPostTaskInfo[] | undefined;
+    tasks?: OnPageLighthouseTaskPostTaskInfo[];
 
     [key: string]: any;
 

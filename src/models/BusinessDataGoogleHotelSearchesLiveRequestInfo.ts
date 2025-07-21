@@ -9,7 +9,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -18,7 +18,7 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 Note: in order to obtain accurate search results, the location_name you specify will be automatically appended to the keyword */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -26,7 +26,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/google/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -36,7 +36,7 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 Note: if the coordinates are used to set a location, the search will occur in the nearest settlement
 example:
 53.476225,-2.243572 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -44,7 +44,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -52,7 +52,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** parsing depth
 optional field
@@ -62,7 +62,7 @@ max value: 140
 Note: your account will be billed per each 20 organic results regardless of paid listings in the response;
 thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number | undefined
+        depth?: number
         
         /** check-in date
 optional field
@@ -71,7 +71,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15'
 Note: the value cannot precede the today’s date */
-        check_in?: string | undefined
+        check_in?: string
         
         /** check-out date
 optional field
@@ -81,13 +81,13 @@ example:
 '2019-01-15'
 Note: the value cannot be less than or equal to check_in;
 the range between check_in and check_out values cannot exceed 30 days */
-        check_out?: string | undefined
+        check_out?: string
         
         /** currency
 optional field
 example:
 'USD' */
-        currency?: string | undefined
+        currency?: string
         
         /** number of adults
 optional field
@@ -95,7 +95,7 @@ if you don’t specify this field, the default value of 2 will be applied;
 note that you can specify up to 6 persons including both adults and children
 example:
 1 */
-        adults?: number | undefined
+        adults?: number
         
         /** number and age of children
 optional field
@@ -106,21 +106,21 @@ set the following value if you want to include one 14-year-old child:
 [14]
 set the following value if you want to include one 13-year-old child and one 8-year-old child:
 [13,8] */
-        children?: string[] | undefined
+        children?: string[]
         
         /** hotel stars
 optional field
 set this field to [5] if you want to get the list of 5-star hotels only
 example:
 [3,4,5] */
-        stars?: string[] | undefined
+        stars?: string[]
         
         /** minimum rating
 optional field
 you can use this field to specify guest rating higher than a certain value
 example:
 2.5 */
-        min_rating?: number | undefined
+        min_rating?: number
         
         /** results sorting parameters
 optional field
@@ -131,33 +131,33 @@ lowest_price – sort by the lowest price
 highest_rating – sort by highest rating
 most_reviewed – sort by most reviewed
 default value: relevance */
-        sort_by?: string | undefined
+        sort_by?: string
         
         /** minimum price per night
 optional field
 the currency of this value depends on the currency field
 example:
 100 */
-        min_price?: number | undefined
+        min_price?: number
         
         /** maximum price per night
 optional field
 the currency of this value depends on the currency field
 example:
 600 */
-        max_price?: number | undefined
+        max_price?: number
         
         /** hotels with a free cancellation
 optional field
 set this field to true if you want to get the list of hotels with free cancellation of reservations
 default value: false */
-        free_cancellation?: boolean | undefined
+        free_cancellation?: boolean
         
         /** search for vacation rentals
 optional field
 set this field to true if you want to get the list of vacation rentals instead of hotels
 default value: false */
-        is_vacation_rentals?: boolean | undefined
+        is_vacation_rentals?: boolean
         
         /** hotel amenities
 optional field
@@ -187,14 +187,14 @@ possible values:
 'outdoor_pool',
 'wheelchair_accessible',
 'beach_access' */
-        amenities?: string[] | undefined
+        amenities?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -212,7 +212,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -222,7 +222,7 @@ example:
 London,England,United Kingdom
 Note: in order to obtain accurate search results, the location_name you specify will be automatically appended to the keyword */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -231,7 +231,7 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -242,7 +242,7 @@ Note: if the coordinates are used to set a location, the search will occur in th
 example:
 53.476225,-2.243572 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -251,7 +251,7 @@ you can receive the list of available languages with language_name by making a s
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -260,7 +260,7 @@ you can receive the list of available languages with their language_code by mak
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** parsing depth
 optional field
@@ -271,7 +271,7 @@ Note: your account will be billed per each 20 organic results regardless of paid
 thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** check-in date
 optional field
@@ -281,7 +281,7 @@ example:
 '2019-01-15'
 Note: the value cannot precede the today’s date */
 
-    check_in?: string | undefined;
+    check_in?: string;
     
     /** check-out date
 optional field
@@ -292,14 +292,14 @@ example:
 Note: the value cannot be less than or equal to check_in;
 the range between check_in and check_out values cannot exceed 30 days */
 
-    check_out?: string | undefined;
+    check_out?: string;
     
     /** currency
 optional field
 example:
 'USD' */
 
-    currency?: string | undefined;
+    currency?: string;
     
     /** number of adults
 optional field
@@ -308,7 +308,7 @@ note that you can specify up to 6 persons including both adults and children
 example:
 1 */
 
-    adults?: number | undefined;
+    adults?: number;
     
     /** number and age of children
 optional field
@@ -320,7 +320,7 @@ set the following value if you want to include one 14-year-old child:
 set the following value if you want to include one 13-year-old child and one 8-year-old child:
 [13,8] */
 
-    children?: string[] | undefined;
+    children?: string[];
     
     /** hotel stars
 optional field
@@ -328,7 +328,7 @@ set this field to [5] if you want to get the list of 5-star hotels only
 example:
 [3,4,5] */
 
-    stars?: string[] | undefined;
+    stars?: string[];
     
     /** minimum rating
 optional field
@@ -336,7 +336,7 @@ you can use this field to specify guest rating higher than a certain value
 example:
 2.5 */
 
-    min_rating?: number | undefined;
+    min_rating?: number;
     
     /** results sorting parameters
 optional field
@@ -348,7 +348,7 @@ highest_rating – sort by highest rating
 most_reviewed – sort by most reviewed
 default value: relevance */
 
-    sort_by?: string | undefined;
+    sort_by?: string;
     
     /** minimum price per night
 optional field
@@ -356,7 +356,7 @@ the currency of this value depends on the currency field
 example:
 100 */
 
-    min_price?: number | undefined;
+    min_price?: number;
     
     /** maximum price per night
 optional field
@@ -364,21 +364,21 @@ the currency of this value depends on the currency field
 example:
 600 */
 
-    max_price?: number | undefined;
+    max_price?: number;
     
     /** hotels with a free cancellation
 optional field
 set this field to true if you want to get the list of hotels with free cancellation of reservations
 default value: false */
 
-    free_cancellation?: boolean | undefined;
+    free_cancellation?: boolean;
     
     /** search for vacation rentals
 optional field
 set this field to true if you want to get the list of vacation rentals instead of hotels
 default value: false */
 
-    is_vacation_rentals?: boolean | undefined;
+    is_vacation_rentals?: boolean;
     
     /** hotel amenities
 optional field
@@ -409,7 +409,7 @@ possible values:
 'wheelchair_accessible',
 'beach_access' */
 
-    amenities?: string[] | undefined;
+    amenities?: string[];
     
     /** user-defined task identifier
 optional field
@@ -417,7 +417,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

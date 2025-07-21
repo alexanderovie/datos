@@ -9,7 +9,7 @@ if time zone is not specified in the event, unspecified local time will be retur
 “yyyy-mm-ddThh-mm-ss”
 example:
 2019-11-15T12:57:46 */
-        start_datetime?: string | undefined
+        start_datetime?: string
         
         /** date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -20,10 +20,10 @@ if time zone is not specified in the event, unspecified local time will be retur
 “yyyy-mm-ddThh-mm-ss”
 example:
 2019-11-15T12:57:46 */
-        end_datetime?: string | undefined
+        end_datetime?: string
         
         /** date or date range as it is displayed in SERP */
-        displayed_dates?: string | undefined
+        displayed_dates?: string
 
     [key: string]: any;
 
@@ -41,7 +41,7 @@ if time zone is not specified in the event, unspecified local time will be retur
 example:
 2019-11-15T12:57:46 */
 
-    start_datetime?: string | undefined;
+    start_datetime?: string;
     
     /** date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -53,11 +53,11 @@ if time zone is not specified in the event, unspecified local time will be retur
 example:
 2019-11-15T12:57:46 */
 
-    end_datetime?: string | undefined;
+    end_datetime?: string;
     
     /** date or date range as it is displayed in SERP */
 
-    displayed_dates?: string | undefined;
+    displayed_dates?: string;
 
     [key: string]: any;
 

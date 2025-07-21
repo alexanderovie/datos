@@ -1,57 +1,56 @@
 import { ShoppingSpecification, IShoppingSpecification } from "./ShoppingSpecification";
 
-
 export interface IMerchantGoogleProductSpecTaskGetAdvancedResultInfo   {
         
         /** product ID in a POST array
 learn more about the parameter in this help center guide */
-        product_id?: string | undefined
+        product_id?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** title of the product */
-        title?: string | undefined
+        title?: string
         
         /** description of the product */
-        description?: string | undefined
+        description?: string
         
         /** URL of the product image */
-        image_url?: string | undefined
+        image_url?: string
         
         /** tags of the product */
-        tags?: string[] | undefined
+        tags?: string[]
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** types of items found on the product specification page
 possible item types:
 shopping_specification */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items on the product specification page
 contains all product attributes and related data listed on the product specification page */
-        items?: ShoppingSpecification[] | undefined
+        items?: ShoppingSpecification[]
 
     [key: string]: any;
 
@@ -62,66 +61,66 @@ export class MerchantGoogleProductSpecTaskGetAdvancedResultInfo  implements IMer
     /** product ID in a POST array
 learn more about the parameter in this help center guide */
 
-    product_id?: string | undefined;
+    product_id?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** title of the product */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description of the product */
 
-    description?: string | undefined;
+    description?: string;
     
     /** URL of the product image */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** tags of the product */
 
-    tags?: string[] | undefined;
+    tags?: string[];
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** types of items found on the product specification page
 possible item types:
 shopping_specification */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items on the product specification page
 contains all product attributes and related data listed on the product specification page */
 
-    items?: ShoppingSpecification[] | undefined;
+    items?: ShoppingSpecification[];
 
     [key: string]: any;
 

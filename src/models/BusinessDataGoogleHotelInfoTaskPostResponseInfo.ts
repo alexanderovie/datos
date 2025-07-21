@@ -1,11 +1,10 @@
 import { BusinessDataGoogleHotelInfoTaskPostTaskInfo, IBusinessDataGoogleHotelInfoTaskPostTaskInfo } from "./BusinessDataGoogleHotelInfoTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataGoogleHotelInfoTaskPostResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataGoogleHotelInfoTaskPostTaskInfo[] | undefined
+        tasks?: BusinessDataGoogleHotelInfoTaskPostTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleHotelInfoTaskPostResponseInfo  extends BaseRespon
     
     /** array of tasks */
 
-    tasks?: BusinessDataGoogleHotelInfoTaskPostTaskInfo[] | undefined;
+    tasks?: BusinessDataGoogleHotelInfoTaskPostTaskInfo[];
 
     [key: string]: any;
 

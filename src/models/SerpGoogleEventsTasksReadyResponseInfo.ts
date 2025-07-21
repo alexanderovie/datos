@@ -1,11 +1,10 @@
 import { SerpGoogleEventsTasksReadyTaskInfo, ISerpGoogleEventsTasksReadyTaskInfo } from "./SerpGoogleEventsTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpGoogleEventsTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleEventsTasksReadyTaskInfo[] | undefined
+        tasks?: SerpGoogleEventsTasksReadyTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleEventsTasksReadyResponseInfo  extends BaseResponseInfo   
     
     /** array of tasks */
 
-    tasks?: SerpGoogleEventsTasksReadyTaskInfo[] | undefined;
+    tasks?: SerpGoogleEventsTasksReadyTaskInfo[];
 
     [key: string]: any;
 

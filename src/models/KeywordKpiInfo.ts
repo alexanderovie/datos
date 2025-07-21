@@ -16,30 +16,30 @@ MainLine1: The first ad to appear at the top of the search results page
 MainLine2: The second ad to appear at the top of the search results page
 MainLine3: The third ad to appear at the top of the search results page
 MainLine4: The fourth ad to appear at the top of the search results page */
-        ad_position?: string | undefined
+        ad_position?: string
         
         /** ad clicks
 the number of clicks that the keyword and match type generated during the last month */
-        clicks?: number | undefined
+        clicks?: number
         
         /** ad impressions
 the number of impressions that the keyword and match type generated during the last month */
-        impressions?: number | undefined
+        impressions?: number
         
         /** average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks */
-        average_cpc?: number | undefined
+        average_cpc?: number
         
         /** click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100 */
-        ctr?: number | undefined
+        ctr?: number
         
         /** total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month */
-        total_cost?: number | undefined
+        total_cost?: number
         
         /** average bid of the keyword */
-        average_bid?: number | undefined
+        average_bid?: number
 
     [key: string]: any;
 
@@ -64,36 +64,36 @@ MainLine2: The second ad to appear at the top of the search results page
 MainLine3: The third ad to appear at the top of the search results page
 MainLine4: The fourth ad to appear at the top of the search results page */
 
-    ad_position?: string | undefined;
+    ad_position?: string;
     
     /** ad clicks
 the number of clicks that the keyword and match type generated during the last month */
 
-    clicks?: number | undefined;
+    clicks?: number;
     
     /** ad impressions
 the number of impressions that the keyword and match type generated during the last month */
 
-    impressions?: number | undefined;
+    impressions?: number;
     
     /** average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks */
 
-    average_cpc?: number | undefined;
+    average_cpc?: number;
     
     /** click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100 */
 
-    ctr?: number | undefined;
+    ctr?: number;
     
     /** total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month */
 
-    total_cost?: number | undefined;
+    total_cost?: number;
     
     /** average bid of the keyword */
 
-    average_bid?: number | undefined;
+    average_bid?: number;
 
     [key: string]: any;
 

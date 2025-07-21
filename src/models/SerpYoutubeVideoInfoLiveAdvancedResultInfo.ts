@@ -1,46 +1,45 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { YoutubeVideoInfo, IYoutubeVideoInfo } from "./YoutubeVideoInfo";
 
-
 export interface ISerpYoutubeVideoInfoLiveAdvancedResultInfo   {
         
         /** ID of the video received in a POST array */
-        video_id?: string | undefined
+        video_id?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
-        spell?: SpellInfo | undefined
+        spell?: SpellInfo
         
         /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_video_info */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** elements of search results found in SERP */
-        items?: YoutubeVideoInfo[] | undefined
+        items?: YoutubeVideoInfo[]
 
     [key: string]: any;
 
@@ -50,51 +49,51 @@ export class SerpYoutubeVideoInfoLiveAdvancedResultInfo  implements ISerpYoutube
     
     /** ID of the video received in a POST array */
 
-    video_id?: string | undefined;
+    video_id?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
-    spell?: SpellInfo | undefined;
+    spell?: SpellInfo;
     
     /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_video_info */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** elements of search results found in SERP */
 
-    items?: YoutubeVideoInfo[] | undefined;
+    items?: YoutubeVideoInfo[];
 
     [key: string]: any;
 

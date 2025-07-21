@@ -1,16 +1,15 @@
 import { BacklinksCompetitorsLiveItem, IBacklinksCompetitorsLiveItem } from "./BacklinksCompetitorsLiveItem";
 
-
 export interface IBacklinksCompetitorsLiveResultInfo   {
         
         /** total number of relevant items in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of items in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: BacklinksCompetitorsLiveItem[] | undefined
+        items?: BacklinksCompetitorsLiveItem[]
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class BacklinksCompetitorsLiveResultInfo  implements IBacklinksCompetitor
     
     /** total number of relevant items in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of items in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: BacklinksCompetitorsLiveItem[] | undefined;
+    items?: BacklinksCompetitorsLiveItem[];
 
     [key: string]: any;
 

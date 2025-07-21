@@ -1,11 +1,10 @@
 import { DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo, IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo } from "./DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo[] | undefined
+        tasks?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo  ext
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo[] | undefined;
+    tasks?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo[];
 
     [key: string]: any;
 

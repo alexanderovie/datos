@@ -4,7 +4,7 @@ export interface IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo  
 required field
 domain name of the website to analyze
 Note: results will be returned for the specified domain only */
-        target?: string | undefined
+        target?: string
 
     [key: string]: any;
 
@@ -17,7 +17,7 @@ required field
 domain name of the website to analyze
 Note: results will be returned for the specified domain only */
 
-    target?: string | undefined;
+    target?: string;
 
     [key: string]: any;
 

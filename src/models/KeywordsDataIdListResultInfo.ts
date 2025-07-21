@@ -1,33 +1,33 @@
 export interface IKeywordsDataIdListResultInfo   {
         
         /** id of the task */
-        id?: string | undefined
+        id?: string
         
         /** URL of the task
 URL you used for making an API call */
-        url?: string | undefined
+        url?: string
         
         /** date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00 */
-        datetime_posted?: string | undefined
+        datetime_posted?: string
         
         /** date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00 */
-        datetime_done?: string | undefined
+        datetime_done?: string
         
         /** informational message of the task
 you can find the full list of general informational messages here */
-        status?: string | undefined
+        status?: string
         
         /** cost of the task, USD */
-        cost?: number | undefined
+        cost?: number
         
         /** contains parameters you specified in the POST request */
-        metadata?: { [key: string]: any; } | undefined
+        metadata?: { [key: string]: any; }
 
     [key: string]: any;
 
@@ -37,39 +37,39 @@ export class KeywordsDataIdListResultInfo  implements IKeywordsDataIdListResultI
     
     /** id of the task */
 
-    id?: string | undefined;
+    id?: string;
     
     /** URL of the task
 URL you used for making an API call */
 
-    url?: string | undefined;
+    url?: string;
     
     /** date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00 */
 
-    datetime_posted?: string | undefined;
+    datetime_posted?: string;
     
     /** date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00 */
 
-    datetime_done?: string | undefined;
+    datetime_done?: string;
     
     /** informational message of the task
 you can find the full list of general informational messages here */
 
-    status?: string | undefined;
+    status?: string;
     
     /** cost of the task, USD */
 
-    cost?: number | undefined;
+    cost?: number;
     
     /** contains parameters you specified in the POST request */
 
-    metadata?: { [key: string]: any; } | undefined;
+    metadata?: { [key: string]: any; };
 
     [key: string]: any;
 

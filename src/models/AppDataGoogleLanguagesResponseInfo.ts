@@ -1,11 +1,10 @@
 import { AppDataGoogleLanguagesTaskInfo, IAppDataGoogleLanguagesTaskInfo } from "./AppDataGoogleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IAppDataGoogleLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: AppDataGoogleLanguagesTaskInfo[] | undefined
+        tasks?: AppDataGoogleLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataGoogleLanguagesResponseInfo  extends BaseResponseInfo   impl
     
     /** array of tasks */
 
-    tasks?: AppDataGoogleLanguagesTaskInfo[] | undefined;
+    tasks?: AppDataGoogleLanguagesTaskInfo[];
 
     [key: string]: any;
 

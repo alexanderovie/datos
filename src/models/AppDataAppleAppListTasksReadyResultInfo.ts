@@ -2,26 +2,26 @@ export interface IAppDataAppleAppListTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string | undefined
+        id?: string
         
         /** search engine specified when setting the task */
-        se?: string | undefined
+        se?: string
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string | undefined
+        date_posted?: string
         
         /** user-defined task identifier */
-        tag?: string | undefined
+        tag?: string
         
         /** URL for collecting the results of the Apple App List task */
-        endpoint_advanced?: string | undefined
+        endpoint_advanced?: string
         
         /** URL for collecting the results of the Apple App List HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null */
-        endpoint_html?: string | undefined
+        endpoint_html?: string
 
     [key: string]: any;
 
@@ -32,32 +32,32 @@ export class AppDataAppleAppListTasksReadyResultInfo  implements IAppDataAppleAp
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string | undefined;
+    id?: string;
     
     /** search engine specified when setting the task */
 
-    se?: string | undefined;
+    se?: string;
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string | undefined;
+    date_posted?: string;
     
     /** user-defined task identifier */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** URL for collecting the results of the Apple App List task */
 
-    endpoint_advanced?: string | undefined;
+    endpoint_advanced?: string;
     
     /** URL for collecting the results of the Apple App List HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null */
 
-    endpoint_html?: string | undefined;
+    endpoint_html?: string;
 
     [key: string]: any;
 

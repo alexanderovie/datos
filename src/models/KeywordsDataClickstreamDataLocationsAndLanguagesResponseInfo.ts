@@ -1,11 +1,10 @@
 import { KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo, IKeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo } from "./KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IKeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[] | undefined
+        tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo  exten
     
     /** array of tasks */
 
-    tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[] | undefined;
+    tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[];
 
     [key: string]: any;
 

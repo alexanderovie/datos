@@ -1,30 +1,29 @@
 import { DataforseoLabsRelevantPagesLiveItem, IDataforseoLabsRelevantPagesLiveItem } from "./DataforseoLabsRelevantPagesLiveItem";
 
-
 export interface IDataforseoLabsGoogleRelevantPagesLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array
 if there is no data, then the value is null */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** relevant pages and related data */
-        items?: DataforseoLabsRelevantPagesLiveItem[] | undefined
+        items?: DataforseoLabsRelevantPagesLiveItem[]
 
     [key: string]: any;
 
@@ -34,33 +33,33 @@ export class DataforseoLabsGoogleRelevantPagesLiveResultInfo  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** relevant pages and related data */
 
-    items?: DataforseoLabsRelevantPagesLiveItem[] | undefined;
+    items?: DataforseoLabsRelevantPagesLiveItem[];
 
     [key: string]: any;
 

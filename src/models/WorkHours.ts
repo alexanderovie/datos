@@ -1,14 +1,13 @@
 import { WorkDayInfo, IWorkDayInfo } from "./WorkDayInfo";
 
-
 export interface IWorkHours   {
         
         /** work hours timetable */
-        timetable?: { [key: string]: WorkDayInfo[]; } | undefined
+        timetable?: { [key: string]: WorkDayInfo[]; }
         
         /** current status of the establishment
 indicates whether the establishment is opened or closed */
-        current_status?: string | undefined
+        current_status?: string
 
     [key: string]: any;
 
@@ -18,12 +17,12 @@ export class WorkHours  implements IWorkHours {
     
     /** work hours timetable */
 
-    timetable?: { [key: string]: WorkDayInfo[]; } | undefined;
+    timetable?: { [key: string]: WorkDayInfo[]; };
     
     /** current status of the establishment
 indicates whether the establishment is opened or closed */
 
-    current_status?: string | undefined;
+    current_status?: string;
 
     [key: string]: any;
 

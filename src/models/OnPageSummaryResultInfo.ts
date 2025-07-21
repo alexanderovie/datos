@@ -2,20 +2,19 @@ import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { DomainInfo, IDomainInfo } from "./DomainInfo";
 import { PageMetrics, IPageMetrics } from "./PageMetrics";
 
-
 export interface IOnPageSummaryResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string | undefined
+        crawl_progress?: string
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo | undefined
+        crawl_status?: CrawlStatusInfo
         
         /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section */
-        crawl_gateway_address?: string | undefined
+        crawl_gateway_address?: string
         
         /** reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -24,15 +23,15 @@ limit_exceeded – the limit set in the max_crawl_pages was exceeded;
 empty_queue – all URLs in the queue were crawled;
 force_stopped – the crawling process was halted using the On Page API Force Stop function;
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info */
-        crawl_stop_reason?: string | undefined
+        crawl_stop_reason?: string
         
         /** domain-wide info
 on-page information about the target domain and crawling process */
-        domain_info?: DomainInfo | undefined
+        domain_info?: DomainInfo
         
         /** page-specific info
 metrics information on the target website pages */
-        page_metrics?: PageMetrics | undefined
+        page_metrics?: PageMetrics
 
     [key: string]: any;
 
@@ -43,17 +42,17 @@ export class OnPageSummaryResultInfo  implements IOnPageSummaryResultInfo {
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string | undefined;
+    crawl_progress?: string;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo | undefined;
+    crawl_status?: CrawlStatusInfo;
     
     /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section */
 
-    crawl_gateway_address?: string | undefined;
+    crawl_gateway_address?: string;
     
     /** reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -63,17 +62,17 @@ empty_queue – all URLs in the queue were crawled;
 force_stopped – the crawling process was halted using the On Page API Force Stop function;
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info */
 
-    crawl_stop_reason?: string | undefined;
+    crawl_stop_reason?: string;
     
     /** domain-wide info
 on-page information about the target domain and crawling process */
 
-    domain_info?: DomainInfo | undefined;
+    domain_info?: DomainInfo;
     
     /** page-specific info
 metrics information on the target website pages */
 
-    page_metrics?: PageMetrics | undefined;
+    page_metrics?: PageMetrics;
 
     [key: string]: any;
 

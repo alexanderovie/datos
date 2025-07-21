@@ -1,51 +1,50 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixBacklinksLimitsRatesDataInfo   {
         
-        summary?: AppendixInfo | undefined
+        summary?: AppendixInfo
         
-        history?: AppendixInfo | undefined
+        history?: AppendixInfo
         
-        content_duplicates?: AppendixInfo | undefined
+        content_duplicates?: AppendixInfo
         
-        domain_intersection?: AppendixInfo | undefined
+        domain_intersection?: AppendixInfo
         
-        backlinks?: AppendixInfo | undefined
+        backlinks?: AppendixInfo
         
-        domain_pages?: AppendixInfo | undefined
+        domain_pages?: AppendixInfo
         
-        anchors?: AppendixInfo | undefined
+        anchors?: AppendixInfo
         
-        referring_domains?: AppendixInfo | undefined
+        referring_domains?: AppendixInfo
         
-        page_intersection?: AppendixInfo | undefined
+        page_intersection?: AppendixInfo
         
-        referring_networks?: AppendixInfo | undefined
+        referring_networks?: AppendixInfo
         
-        bulk_ranks?: AppendixInfo | undefined
+        bulk_ranks?: AppendixInfo
         
-        bulk_backlinks?: AppendixInfo | undefined
+        bulk_backlinks?: AppendixInfo
         
-        bulk_new_lost_backlinks?: AppendixInfo | undefined
+        bulk_new_lost_backlinks?: AppendixInfo
         
-        bulk_new_lost_referring_domains?: AppendixInfo | undefined
+        bulk_new_lost_referring_domains?: AppendixInfo
         
-        bulk_referring_domains?: AppendixInfo | undefined
+        bulk_referring_domains?: AppendixInfo
         
-        errors?: number | undefined
+        errors?: number
         
-        domain_pages_summary?: AppendixInfo | undefined
+        domain_pages_summary?: AppendixInfo
         
-        timeseries_summary?: AppendixInfo | undefined
+        timeseries_summary?: AppendixInfo
         
-        timeseries_new_lost_summary?: AppendixInfo | undefined
+        timeseries_new_lost_summary?: AppendixInfo
         
-        competitors?: AppendixInfo | undefined
+        competitors?: AppendixInfo
         
-        bulk_spam_score?: AppendixInfo | undefined
+        bulk_spam_score?: AppendixInfo
         
-        bulk_pages_summary?: AppendixInfo | undefined
+        bulk_pages_summary?: AppendixInfo
 
     [key: string]: any;
 
@@ -53,49 +52,49 @@ export interface IAppendixBacklinksLimitsRatesDataInfo   {
 
 export class AppendixBacklinksLimitsRatesDataInfo  implements IAppendixBacklinksLimitsRatesDataInfo {
 
-    summary?: AppendixInfo | undefined;
+    summary?: AppendixInfo;
 
-    history?: AppendixInfo | undefined;
+    history?: AppendixInfo;
 
-    content_duplicates?: AppendixInfo | undefined;
+    content_duplicates?: AppendixInfo;
 
-    domain_intersection?: AppendixInfo | undefined;
+    domain_intersection?: AppendixInfo;
 
-    backlinks?: AppendixInfo | undefined;
+    backlinks?: AppendixInfo;
 
-    domain_pages?: AppendixInfo | undefined;
+    domain_pages?: AppendixInfo;
 
-    anchors?: AppendixInfo | undefined;
+    anchors?: AppendixInfo;
 
-    referring_domains?: AppendixInfo | undefined;
+    referring_domains?: AppendixInfo;
 
-    page_intersection?: AppendixInfo | undefined;
+    page_intersection?: AppendixInfo;
 
-    referring_networks?: AppendixInfo | undefined;
+    referring_networks?: AppendixInfo;
 
-    bulk_ranks?: AppendixInfo | undefined;
+    bulk_ranks?: AppendixInfo;
 
-    bulk_backlinks?: AppendixInfo | undefined;
+    bulk_backlinks?: AppendixInfo;
 
-    bulk_new_lost_backlinks?: AppendixInfo | undefined;
+    bulk_new_lost_backlinks?: AppendixInfo;
 
-    bulk_new_lost_referring_domains?: AppendixInfo | undefined;
+    bulk_new_lost_referring_domains?: AppendixInfo;
 
-    bulk_referring_domains?: AppendixInfo | undefined;
+    bulk_referring_domains?: AppendixInfo;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    domain_pages_summary?: AppendixInfo | undefined;
+    domain_pages_summary?: AppendixInfo;
 
-    timeseries_summary?: AppendixInfo | undefined;
+    timeseries_summary?: AppendixInfo;
 
-    timeseries_new_lost_summary?: AppendixInfo | undefined;
+    timeseries_new_lost_summary?: AppendixInfo;
 
-    competitors?: AppendixInfo | undefined;
+    competitors?: AppendixInfo;
 
-    bulk_spam_score?: AppendixInfo | undefined;
+    bulk_spam_score?: AppendixInfo;
 
-    bulk_pages_summary?: AppendixInfo | undefined;
+    bulk_pages_summary?: AppendixInfo;
 
     [key: string]: any;
 

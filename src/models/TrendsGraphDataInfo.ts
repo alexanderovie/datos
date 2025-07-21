@@ -2,24 +2,24 @@ export interface ITrendsGraphDataInfo   {
         
         /** start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
-        date_from?: string | undefined
+        date_from?: string
         
         /** end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
-        date_to?: string | undefined
+        date_to?: string
         
         /** a point in time in the Unix time format */
-        timestamp?: number | undefined
+        timestamp?: number
         
         /** indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line */
-        missing_data?: boolean | undefined
+        missing_data?: boolean
         
         /** relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
 if you specify more than one keyword, the values will be averaged to the highest value across all specified keywords
 a value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term */
-        values?: number[] | undefined
+        values?: number[]
 
     [key: string]: any;
 
@@ -30,28 +30,28 @@ export class TrendsGraphDataInfo  implements ITrendsGraphDataInfo {
     /** start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** a point in time in the Unix time format */
 
-    timestamp?: number | undefined;
+    timestamp?: number;
     
     /** indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line */
 
-    missing_data?: boolean | undefined;
+    missing_data?: boolean;
     
     /** relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
 if you specify more than one keyword, the values will be averaged to the highest value across all specified keywords
 a value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term */
 
-    values?: number[] | undefined;
+    values?: number[];
 
     [key: string]: any;
 

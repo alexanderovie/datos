@@ -1,13 +1,13 @@
 export interface ISource   {
         
         /** name of the source where the review was posted */
-        title?: string | undefined
+        title?: string
         
         /** featured image of the source */
-        image?: string | undefined
+        image?: string
         
         /** domain of the source where the review was posted */
-        domain?: string | undefined
+        domain?: string
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class Source  implements ISource {
     
     /** name of the source where the review was posted */
 
-    title?: string | undefined;
+    title?: string;
     
     /** featured image of the source */
 
-    image?: string | undefined;
+    image?: string;
     
     /** domain of the source where the review was posted */
 
-    domain?: string | undefined;
+    domain?: string;
 
     [key: string]: any;
 

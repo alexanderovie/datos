@@ -3,22 +3,21 @@ import { AppendixAmazonMerchantPriceData, IAppendixAmazonMerchantPriceData } fro
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixProductGoogleMerchantPriceDataInfo, IAppendixProductGoogleMerchantPriceDataInfo } from "./AppendixProductGoogleMerchantPriceDataInfo";
 
-
 export interface IAppendixMerchantPriceData   {
         
-        google?: AppendixGoogleMerchantPriceData | undefined
+        google?: AppendixGoogleMerchantPriceData
         
-        amazon?: AppendixAmazonMerchantPriceData | undefined
+        amazon?: AppendixAmazonMerchantPriceData
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        reviews?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        reviews?: AppendixProductGoogleMerchantPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -26,19 +25,19 @@ export interface IAppendixMerchantPriceData   {
 
 export class AppendixMerchantPriceData  implements IAppendixMerchantPriceData {
 
-    google?: AppendixGoogleMerchantPriceData | undefined;
+    google?: AppendixGoogleMerchantPriceData;
 
-    amazon?: AppendixAmazonMerchantPriceData | undefined;
+    amazon?: AppendixAmazonMerchantPriceData;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    reviews?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    reviews?: AppendixProductGoogleMerchantPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

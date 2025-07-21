@@ -1,16 +1,15 @@
 import { BulkMetricsBundleInfo, IBulkMetricsBundleInfo } from "./BulkMetricsBundleInfo";
 
-
 export interface IDataforseoLabsGoogleBulkTrafficEstimationLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** traffic data relevant to the specified domain */
-        metrics?: BulkMetricsBundleInfo | undefined
+        metrics?: BulkMetricsBundleInfo
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsGoogleBulkTrafficEstimationLiveItem  implements IData
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** traffic data relevant to the specified domain */
 
-    metrics?: BulkMetricsBundleInfo | undefined;
+    metrics?: BulkMetricsBundleInfo;
 
     [key: string]: any;
 

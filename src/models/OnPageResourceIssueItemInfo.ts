@@ -1,14 +1,14 @@
 export interface IOnPageResourceIssueItemInfo   {
         
         /** line where the error was found */
-        line?: number | undefined
+        line?: number
         
         /** column where the error was found */
-        column?: number | undefined
+        column?: number
         
         /** text message of the error
 the full list of possible HTML errors can be found here */
-        message?: string | undefined
+        message?: string
         
         /** status code of the error
 possible values:
@@ -20,7 +20,7 @@ possible values:
 3502 — Image Scale Is Zero;
 3503 — Image Size Is Zero;
 3504 — Image Format Invalid */
-        status_code?: number | undefined
+        status_code?: number
 
     [key: string]: any;
 
@@ -30,16 +30,16 @@ export class OnPageResourceIssueItemInfo  implements IOnPageResourceIssueItemInf
     
     /** line where the error was found */
 
-    line?: number | undefined;
+    line?: number;
     
     /** column where the error was found */
 
-    column?: number | undefined;
+    column?: number;
     
     /** text message of the error
 the full list of possible HTML errors can be found here */
 
-    message?: string | undefined;
+    message?: string;
     
     /** status code of the error
 possible values:
@@ -52,7 +52,7 @@ possible values:
 3503 — Image Size Is Zero;
 3504 — Image Format Invalid */
 
-    status_code?: number | undefined;
+    status_code?: number;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { AppDataIdListTaskInfo, IAppDataIdListTaskInfo } from "./AppDataIdListTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IAppDataIdListResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: AppDataIdListTaskInfo[] | undefined
+        tasks?: AppDataIdListTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataIdListResponseInfo  extends BaseResponseInfo   implements IA
     
     /** array of tasks */
 
-    tasks?: AppDataIdListTaskInfo[] | undefined;
+    tasks?: AppDataIdListTaskInfo[];
 
     [key: string]: any;
 

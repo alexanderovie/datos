@@ -1,19 +1,19 @@
 export interface IInformationAndTicketsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** link description */
-        description?: string | undefined
+        description?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class InformationAndTicketsElement  implements IInformationAndTicketsElem
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** link description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
 
     [key: string]: any;
 

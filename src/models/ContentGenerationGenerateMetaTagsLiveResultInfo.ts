@@ -1,19 +1,19 @@
 export interface IContentGenerationGenerateMetaTagsLiveResultInfo   {
         
         /** number of input tokens */
-        input_tokens?: number | undefined
+        input_tokens?: number
         
         /** number of output tokens */
-        output_tokens?: number | undefined
+        output_tokens?: number
         
         /** number of new tokens */
-        new_tokens?: number | undefined
+        new_tokens?: number
         
         /** generated title */
-        title?: string | undefined
+        title?: string
         
         /** generated description */
-        description?: string | undefined
+        description?: string
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class ContentGenerationGenerateMetaTagsLiveResultInfo  implements IConten
     
     /** number of input tokens */
 
-    input_tokens?: number | undefined;
+    input_tokens?: number;
     
     /** number of output tokens */
 
-    output_tokens?: number | undefined;
+    output_tokens?: number;
     
     /** number of new tokens */
 
-    new_tokens?: number | undefined;
+    new_tokens?: number;
     
     /** generated title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** generated description */
 
-    description?: string | undefined;
+    description?: string;
 
     [key: string]: any;
 

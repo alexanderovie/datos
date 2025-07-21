@@ -7,7 +7,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 required field if you don’t specify location_code
@@ -15,7 +15,7 @@ if you use this field, you don’t need to specify location_code
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/seznam/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name
@@ -23,7 +23,7 @@ if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/seznam/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -31,7 +31,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/seznam/languages
 example:
 Czech */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -39,14 +39,14 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/seznam/languages
 example:
 cs */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields;
 note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL;
 in most cases, we wouldn’t recommend using this method. */
-        url?: string | undefined
+        url?: string
         
         /** task priority
 optional field
@@ -55,7 +55,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** parsing depth
 optional field
@@ -65,7 +65,7 @@ maximum value: 500;
 Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number | undefined
+        depth?: number
         
         /** page crawl limit
 optional field
@@ -73,13 +73,13 @@ number of search results pages to crawl
 max value: 10
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
-        max_crawl_pages?: number | undefined
+        max_crawl_pages?: number
         
         /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
-        device?: string | undefined
+        device?: string
         
         /** device operating system
 optional field
@@ -87,7 +87,7 @@ if you specify desktop in the device field, choose from the following values: wi
 default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
-        os?: string | undefined
+        os?: string
         
         /** search engine domain
 optional field
@@ -95,11 +95,11 @@ we choose the relevant search engine domain automatically
 however, you can set a custom search engine domain in this field
 example:
 search.seznam.cz */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** additional parameters of the search query
 optional field */
-        search_param?: string | undefined
+        search_param?: string
         
         /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -107,14 +107,14 @@ pixel ranking refers to the distance between the result snippet and top left cor
 Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
-        calculate_rectangles?: boolean | undefined
+        calculate_rectangles?: boolean
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -126,14 +126,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the function you used for setting a task
 possible values:
 regular, advanced, html */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -145,7 +145,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -161,7 +161,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -170,7 +170,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -179,7 +179,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -188,7 +188,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 Czech */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -197,7 +197,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 cs */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL of the search query
 optional field
@@ -205,7 +205,7 @@ you can specify a direct URL and we will sort it out to the necessary fields;
 note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL;
 in most cases, we wouldn’t recommend using this method. */
 
-    url?: string | undefined;
+    url?: string;
     
     /** task priority
 optional field
@@ -215,7 +215,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** parsing depth
 optional field
@@ -226,7 +226,7 @@ Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** page crawl limit
 optional field
@@ -235,14 +235,14 @@ max value: 10
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
-    max_crawl_pages?: number | undefined;
+    max_crawl_pages?: number;
     
     /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
 
-    device?: string | undefined;
+    device?: string;
     
     /** device operating system
 optional field
@@ -251,7 +251,7 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
 
-    os?: string | undefined;
+    os?: string;
     
     /** search engine domain
 optional field
@@ -260,12 +260,12 @@ however, you can set a custom search engine domain in this field
 example:
 search.seznam.cz */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** additional parameters of the search query
 optional field */
 
-    search_param?: string | undefined;
+    search_param?: string;
     
     /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -274,7 +274,7 @@ Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
 
-    calculate_rectangles?: boolean | undefined;
+    calculate_rectangles?: boolean;
     
     /** user-defined task identifier
 optional field
@@ -282,7 +282,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -295,7 +295,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -303,7 +303,7 @@ corresponds to the function you used for setting a task
 possible values:
 regular, advanced, html */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -316,7 +316,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

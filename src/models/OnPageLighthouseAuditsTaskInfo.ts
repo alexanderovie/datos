@@ -1,11 +1,10 @@
 import { OnPageLighthouseAuditsResultInfo, IOnPageLighthouseAuditsResultInfo } from "./OnPageLighthouseAuditsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageLighthouseAuditsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageLighthouseAuditsResultInfo[] | undefined
+        result?: OnPageLighthouseAuditsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageLighthouseAuditsTaskInfo  extends BaseResponseTaskInfo   impl
     
     /** array of results */
 
-    result?: OnPageLighthouseAuditsResultInfo[] | undefined;
+    result?: OnPageLighthouseAuditsResultInfo[];
 
     [key: string]: any;
 

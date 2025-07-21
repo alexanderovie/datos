@@ -1,11 +1,10 @@
 import { BusinessDataGoogleReviewsTasksReadyTaskInfo, IBusinessDataGoogleReviewsTasksReadyTaskInfo } from "./BusinessDataGoogleReviewsTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataGoogleReviewsTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataGoogleReviewsTasksReadyTaskInfo[] | undefined
+        tasks?: BusinessDataGoogleReviewsTasksReadyTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleReviewsTasksReadyResponseInfo  extends BaseRespon
     
     /** array of tasks */
 
-    tasks?: BusinessDataGoogleReviewsTasksReadyTaskInfo[] | undefined;
+    tasks?: BusinessDataGoogleReviewsTasksReadyTaskInfo[];
 
     [key: string]: any;
 

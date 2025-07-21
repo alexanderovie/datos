@@ -1,15 +1,14 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo   {
         
-        dataforseo_search_volume?: AppendixInfo | undefined
+        dataforseo_search_volume?: AppendixInfo
         
-        locations_and_languages?: number | undefined
+        locations_and_languages?: number
         
-        bulk_search_volume?: AppendixInfo | undefined
+        bulk_search_volume?: AppendixInfo
         
-        global_search_volume?: AppendixInfo | undefined
+        global_search_volume?: AppendixInfo
 
     [key: string]: any;
 
@@ -17,13 +16,13 @@ export interface IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo   {
 
 export class AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo  implements IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo {
 
-    dataforseo_search_volume?: AppendixInfo | undefined;
+    dataforseo_search_volume?: AppendixInfo;
 
-    locations_and_languages?: number | undefined;
+    locations_and_languages?: number;
 
-    bulk_search_volume?: AppendixInfo | undefined;
+    bulk_search_volume?: AppendixInfo;
 
-    global_search_volume?: AppendixInfo | undefined;
+    global_search_volume?: AppendixInfo;
 
     [key: string]: any;
 

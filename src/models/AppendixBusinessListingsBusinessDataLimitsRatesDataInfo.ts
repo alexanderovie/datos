@@ -1,15 +1,14 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo   {
         
-        search?: AppendixInfo | undefined
+        search?: AppendixInfo
         
-        categories_aggregation?: AppendixInfo | undefined
+        categories_aggregation?: AppendixInfo
         
-        categories?: number | undefined
+        categories?: number
         
-        locations?: number | undefined
+        locations?: number
 
     [key: string]: any;
 
@@ -17,13 +16,13 @@ export interface IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo   {
 
 export class AppendixBusinessListingsBusinessDataLimitsRatesDataInfo  implements IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo {
 
-    search?: AppendixInfo | undefined;
+    search?: AppendixInfo;
 
-    categories_aggregation?: AppendixInfo | undefined;
+    categories_aggregation?: AppendixInfo;
 
-    categories?: number | undefined;
+    categories?: number;
 
-    locations?: number | undefined;
+    locations?: number;
 
     [key: string]: any;
 

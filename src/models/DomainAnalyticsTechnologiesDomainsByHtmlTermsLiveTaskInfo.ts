@@ -1,11 +1,10 @@
 import { DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo, IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo } from "./DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo[] | undefined
+        result?: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo  extends 
     
     /** array of results */
 
-    result?: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo[] | undefined;
+    result?: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo[];
 
     [key: string]: any;
 

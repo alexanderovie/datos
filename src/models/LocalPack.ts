@@ -1,59 +1,58 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface ILocalPack   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** description of the results element in SERP */
-        description?: string | undefined
+        description?: string
         
         /** domain in SERP */
-        domain?: string | undefined
+        domain?: string
         
         /** phone number */
-        phone?: string | undefined
+        phone?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** indicates whether the element is an ad */
-        is_paid?: boolean | undefined
+        is_paid?: boolean
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
-        cid?: string | undefined
+        cid?: string
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 in this case, will equal null */
-        rectangle?: any | undefined
+        rectangle?: any
 
     [key: string]: any;
 
@@ -63,69 +62,69 @@ export class LocalPack  implements ILocalPack {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description of the results element in SERP */
 
-    description?: string | undefined;
+    description?: string;
     
     /** domain in SERP */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** phone number */
 
-    phone?: string | undefined;
+    phone?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** indicates whether the element is an ad */
 
-    is_paid?: boolean | undefined;
+    is_paid?: boolean;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 in this case, will equal null */
 
-    rectangle?: any | undefined;
+    rectangle?: any;
 
     [key: string]: any;
 

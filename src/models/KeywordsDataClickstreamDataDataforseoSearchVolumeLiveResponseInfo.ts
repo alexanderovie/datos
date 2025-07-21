@@ -1,11 +1,10 @@
 import { KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo, IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo } from "./KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[] | undefined
+        tasks?: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo  
     
     /** array of tasks */
 
-    tasks?: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[] | undefined;
+    tasks?: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[];
 
     [key: string]: any;
 

@@ -2,22 +2,21 @@ import { AppendixMerchantGoogleInfo, IAppendixMerchantGoogleInfo } from "./Appen
 import { AppendixMerchantAmazonInfo, IAppendixMerchantAmazonInfo } from "./AppendixMerchantAmazonInfo";
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 
-
 export interface IAppendixMerchantLimitsRatesDataInfo   {
         
-        google?: AppendixMerchantGoogleInfo | undefined
+        google?: AppendixMerchantGoogleInfo
         
-        amazon?: AppendixMerchantAmazonInfo | undefined
+        amazon?: AppendixMerchantAmazonInfo
         
-        locations?: number | undefined
+        locations?: number
         
-        languages?: number | undefined
+        languages?: number
         
-        errors?: number | undefined
+        errors?: number
         
-        reviews?: AppendixSerpDaysRatesDataInfo | undefined
+        reviews?: AppendixSerpDaysRatesDataInfo
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
 
     [key: string]: any;
 
@@ -25,19 +24,19 @@ export interface IAppendixMerchantLimitsRatesDataInfo   {
 
 export class AppendixMerchantLimitsRatesDataInfo  implements IAppendixMerchantLimitsRatesDataInfo {
 
-    google?: AppendixMerchantGoogleInfo | undefined;
+    google?: AppendixMerchantGoogleInfo;
 
-    amazon?: AppendixMerchantAmazonInfo | undefined;
+    amazon?: AppendixMerchantAmazonInfo;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    reviews?: AppendixSerpDaysRatesDataInfo | undefined;
+    reviews?: AppendixSerpDaysRatesDataInfo;
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
     [key: string]: any;
 

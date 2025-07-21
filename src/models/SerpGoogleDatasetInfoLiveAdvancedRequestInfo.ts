@@ -5,39 +5,39 @@ required field
 you can find dataset ID in the dataset URL or dataset item of Google Dataset Search result
 example:
 L2cvMTFqbl85ZHN6MQ== */
-        dataset_id?: string | undefined
+        dataset_id?: string
         
         /** full name of search engine language
 optional field
 if you use this field, you don’t need to specify language_code
 possible value:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 optional field
 if you use this field, you don’t need to specify language_name
 possible value:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** device type
 optional field
 possible value: desktop */
-        device?: string | undefined
+        device?: string
         
         /** device operating system
 optional field
 possible values: windows, macos
 default value: windows */
-        os?: string | undefined
+        os?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -51,7 +51,7 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ== */
 
-    dataset_id?: string | undefined;
+    dataset_id?: string;
     
     /** full name of search engine language
 optional field
@@ -59,7 +59,7 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 optional field
@@ -67,20 +67,20 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** device type
 optional field
 possible value: desktop */
 
-    device?: string | undefined;
+    device?: string;
     
     /** device operating system
 optional field
 possible values: windows, macos
 default value: windows */
 
-    os?: string | undefined;
+    os?: string;
     
     /** user-defined task identifier
 optional field
@@ -88,7 +88,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

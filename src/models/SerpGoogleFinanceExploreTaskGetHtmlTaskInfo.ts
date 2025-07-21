@@ -1,11 +1,10 @@
 import { SerpGoogleFinanceExploreTaskGetHtmlResultInfo, ISerpGoogleFinanceExploreTaskGetHtmlResultInfo } from "./SerpGoogleFinanceExploreTaskGetHtmlResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleFinanceExploreTaskGetHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleFinanceExploreTaskGetHtmlResultInfo[] | undefined
+        result?: SerpGoogleFinanceExploreTaskGetHtmlResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleFinanceExploreTaskGetHtmlTaskInfo  extends BaseResponseTa
     
     /** array of results */
 
-    result?: SerpGoogleFinanceExploreTaskGetHtmlResultInfo[] | undefined;
+    result?: SerpGoogleFinanceExploreTaskGetHtmlResultInfo[];
 
     [key: string]: any;
 

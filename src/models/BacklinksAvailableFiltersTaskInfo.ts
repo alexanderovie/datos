@@ -1,10 +1,9 @@
 import { BacklinksAvailableFiltersResultInfo, IBacklinksAvailableFiltersResultInfo } from "./BacklinksAvailableFiltersResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IBacklinksAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: BacklinksAvailableFiltersResultInfo[] | undefined
+        result?: BacklinksAvailableFiltersResultInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IBacklinksAvailableFiltersTaskInfo  extends IBaseResponseTaskIn
 
 export class BacklinksAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksAvailableFiltersTaskInfo {
 
-    result?: BacklinksAvailableFiltersResultInfo[] | undefined;
+    result?: BacklinksAvailableFiltersResultInfo[];
 
     [key: string]: any;
 

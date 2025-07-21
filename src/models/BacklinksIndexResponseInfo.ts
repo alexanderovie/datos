@@ -1,11 +1,10 @@
 import { BacklinksIndexTaskInfo, IBacklinksIndexTaskInfo } from "./BacklinksIndexTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBacklinksIndexResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BacklinksIndexTaskInfo[] | undefined
+        tasks?: BacklinksIndexTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BacklinksIndexResponseInfo  extends BaseResponseInfo   implements I
     
     /** array of tasks */
 
-    tasks?: BacklinksIndexTaskInfo[] | undefined;
+    tasks?: BacklinksIndexTaskInfo[];
 
     [key: string]: any;
 

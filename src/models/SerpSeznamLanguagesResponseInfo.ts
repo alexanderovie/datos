@@ -1,11 +1,10 @@
 import { SerpSeznamLanguagesTaskInfo, ISerpSeznamLanguagesTaskInfo } from "./SerpSeznamLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpSeznamLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpSeznamLanguagesTaskInfo[] | undefined
+        tasks?: SerpSeznamLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpSeznamLanguagesResponseInfo  extends BaseResponseInfo   impleme
     
     /** array of tasks */
 
-    tasks?: SerpSeznamLanguagesTaskInfo[] | undefined;
+    tasks?: SerpSeznamLanguagesTaskInfo[];
 
     [key: string]: any;
 

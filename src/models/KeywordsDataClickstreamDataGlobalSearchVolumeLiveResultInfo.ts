@@ -1,13 +1,12 @@
 import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem, IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem } from "./KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem";
 
-
 export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo   {
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains keywords and related data */
-        items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[] | undefined
+        items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[]
 
     [key: string]: any;
 
@@ -17,11 +16,11 @@ export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo  implem
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains keywords and related data */
 
-    items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[] | undefined;
+    items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[];
 
     [key: string]: any;
 

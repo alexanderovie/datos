@@ -1,11 +1,10 @@
 import { SerpBaiduOrganicTaskGetAdvancedResultInfo, ISerpBaiduOrganicTaskGetAdvancedResultInfo } from "./SerpBaiduOrganicTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpBaiduOrganicTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBaiduOrganicTaskGetAdvancedResultInfo[] | undefined
+        result?: SerpBaiduOrganicTaskGetAdvancedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpBaiduOrganicTaskGetAdvancedTaskInfo  extends BaseResponseTaskIn
     
     /** array of results */
 
-    result?: SerpBaiduOrganicTaskGetAdvancedResultInfo[] | undefined;
+    result?: SerpBaiduOrganicTaskGetAdvancedResultInfo[];
 
     [key: string]: any;
 

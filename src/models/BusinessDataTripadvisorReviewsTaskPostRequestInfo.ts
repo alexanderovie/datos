@@ -6,7 +6,7 @@ URL path to the Tripadvisor page of the business entity;
 examples:
 Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html */
-        url_path?: string | undefined
+        url_path?: string
         
         /** keyword
 required field if you do not specify url_path
@@ -14,21 +14,21 @@ the keyword you specify should indicate a name of an existing business or promin
 you can specify up to 700 characters in the keyword filed;
 all %## will be decoded (plus character ‘+’ will be decoded to a space character);
 if you need to use the “%” character for your keyword, please specify it as “%25” */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 required field if you don’t specify location_code or url_path
 you can receive the list of available locations with location_name by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or url_path
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 1003854 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** task priority
 optional field
@@ -37,7 +37,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** full name of search engine language
 optional field
@@ -47,7 +47,7 @@ example:
 English
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page. */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 optional field
@@ -57,7 +57,7 @@ example:
 en
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page. */
-        language_code?: string | undefined
+        language_code?: string
         
         /** parsing depth
 optional field
@@ -65,31 +65,31 @@ number of reviews in SERP;
 we strongly recommend setting the parsing depth in the multiples of ten, because our systems processes ten reviews in a row;
 default value: 10;
 max value: 4490 */
-        depth?: number | undefined
+        depth?: number
         
         /** Tripadvisor traveler rating for a place of interest
 optional field
 rating based on the written reviews by a traveler after they visited a place.
 possible values: excellent, very_good, average, poor, terrible
 you can specify several values at once */
-        ratings?: string[] | undefined
+        ratings?: string[]
         
         /** filter by type of travelers who left a review
 optional field
 possible values: families, couples, solo, business, friends
 you can specify several values at once */
-        visit_type?: string[] | undefined
+        visit_type?: string[]
         
         /** filter by months when a traveler made a visit
 optional field
 possible values: january, february, march, april, may, april, june, july, august, september, october, november, december
 you can specify several values at once */
-        months?: string[] | undefined
+        months?: string[]
         
         /** search reviews containing a specified keyword
 example:
 dessert */
-        search_reviews_keyword?: string | undefined
+        search_reviews_keyword?: string
         
         /** results sorting parameters
 optional field
@@ -97,7 +97,7 @@ you can use this field to sort the results;
 possible types of sorting:
 most_recent
 detailed_reviews */
-        sort_by?: string | undefined
+        sort_by?: string
         
         /** translate reviews according to the URL path
 optional field
@@ -105,14 +105,14 @@ if set to true, returned reviews will be translated to the language matching the
 for example, if url_path contains tripadvisor.it and translate_reviews is true, reviews will be translated to the Italian language;
 default value: true
 you can learn more about how reviews are translated in this Help Center article */
-        translate_reviews?: boolean | undefined
+        translate_reviews?: boolean
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -124,7 +124,7 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** notification URL of a completed task
 optional field
@@ -136,7 +136,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -151,7 +151,7 @@ examples:
 Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html */
 
-    url_path?: string | undefined;
+    url_path?: string;
     
     /** keyword
 required field if you do not specify url_path
@@ -160,7 +160,7 @@ you can specify up to 700 characters in the keyword filed;
 all %## will be decoded (plus character ‘+’ will be decoded to a space character);
 if you need to use the “%” character for your keyword, please specify it as “%25” */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -168,7 +168,7 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or url_path
@@ -176,7 +176,7 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** task priority
 optional field
@@ -186,7 +186,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** full name of search engine language
 optional field
@@ -197,7 +197,7 @@ English
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page. */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 optional field
@@ -208,7 +208,7 @@ en
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page. */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** parsing depth
 optional field
@@ -217,7 +217,7 @@ we strongly recommend setting the parsing depth in the multiples of ten, because
 default value: 10;
 max value: 4490 */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** Tripadvisor traveler rating for a place of interest
 optional field
@@ -225,27 +225,27 @@ rating based on the written reviews by a traveler after they visited a place.
 possible values: excellent, very_good, average, poor, terrible
 you can specify several values at once */
 
-    ratings?: string[] | undefined;
+    ratings?: string[];
     
     /** filter by type of travelers who left a review
 optional field
 possible values: families, couples, solo, business, friends
 you can specify several values at once */
 
-    visit_type?: string[] | undefined;
+    visit_type?: string[];
     
     /** filter by months when a traveler made a visit
 optional field
 possible values: january, february, march, april, may, april, june, july, august, september, october, november, december
 you can specify several values at once */
 
-    months?: string[] | undefined;
+    months?: string[];
     
     /** search reviews containing a specified keyword
 example:
 dessert */
 
-    search_reviews_keyword?: string | undefined;
+    search_reviews_keyword?: string;
     
     /** results sorting parameters
 optional field
@@ -254,7 +254,7 @@ possible types of sorting:
 most_recent
 detailed_reviews */
 
-    sort_by?: string | undefined;
+    sort_by?: string;
     
     /** translate reviews according to the URL path
 optional field
@@ -263,7 +263,7 @@ for example, if url_path contains tripadvisor.it and translate_reviews is true, 
 default value: true
 you can learn more about how reviews are translated in this Help Center article */
 
-    translate_reviews?: boolean | undefined;
+    translate_reviews?: boolean;
     
     /** user-defined task identifier
 optional field
@@ -271,7 +271,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -284,7 +284,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** notification URL of a completed task
 optional field
@@ -297,7 +297,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

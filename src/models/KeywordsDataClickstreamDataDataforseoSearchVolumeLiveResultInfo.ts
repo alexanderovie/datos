@@ -1,28 +1,27 @@
 import { KeywordsDataClickstreamDataSearchVolumeLiveItem, IKeywordsDataClickstreamDataSearchVolumeLiveItem } from "./KeywordsDataClickstreamDataSearchVolumeLiveItem";
 
-
 export interface IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo   {
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array
 
 Note:if the keyword in the POST array appears to be misspelled, data will be returned for the correctly spelled keyword;
 we use the functionality of Google Ads API to check and validate the spelling of keywords, learn more by this link */
-        language_code?: string | undefined
+        language_code?: string
         
         /** indicates if the use_clickstream parameter is active
 possible values: true, false */
-        use_clickstream?: boolean | undefined
+        use_clickstream?: boolean
         
         /** ithe number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** array of keywords
 contains keywords and their search volume rates */
-        items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined
+        items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[]
 
     [key: string]: any;
 
@@ -33,28 +32,28 @@ export class KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo  im
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array
 
 Note:if the keyword in the POST array appears to be misspelled, data will be returned for the correctly spelled keyword;
 we use the functionality of Google Ads API to check and validate the spelling of keywords, learn more by this link */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** indicates if the use_clickstream parameter is active
 possible values: true, false */
 
-    use_clickstream?: boolean | undefined;
+    use_clickstream?: boolean;
     
     /** ithe number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** array of keywords
 contains keywords and their search volume rates */
 
-    items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined;
+    items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[];
 
     [key: string]: any;
 

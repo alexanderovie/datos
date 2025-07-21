@@ -1,43 +1,43 @@
 export interface IYoutubeComment   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** name of the author of the comment */
-        author_name?: string | undefined
+        author_name?: string
         
         /** the URL of the page where the author’s channel logo is hosted */
-        author_thumbnail?: string | undefined
+        author_thumbnail?: string
         
         /** URL of the author’s channel */
-        author_url?: string | undefined
+        author_url?: string
         
         /** text of the comment */
-        text?: string | undefined
+        text?: string
         
         /** displayed publication date */
-        publication_date?: string | undefined
+        publication_date?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** number of likes on the comment */
-        likes_count?: number | undefined
+        likes_count?: number
         
         /** number of replies on the comment */
-        reply_count?: number | undefined
+        reply_count?: number
 
     [key: string]: any;
 
@@ -47,53 +47,53 @@ export class YoutubeComment  implements IYoutubeComment {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** name of the author of the comment */
 
-    author_name?: string | undefined;
+    author_name?: string;
     
     /** the URL of the page where the author’s channel logo is hosted */
 
-    author_thumbnail?: string | undefined;
+    author_thumbnail?: string;
     
     /** URL of the author’s channel */
 
-    author_url?: string | undefined;
+    author_url?: string;
     
     /** text of the comment */
 
-    text?: string | undefined;
+    text?: string;
     
     /** displayed publication date */
 
-    publication_date?: string | undefined;
+    publication_date?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** number of likes on the comment */
 
-    likes_count?: number | undefined;
+    likes_count?: number;
     
     /** number of replies on the comment */
 
-    reply_count?: number | undefined;
+    reply_count?: number;
 
     [key: string]: any;
 

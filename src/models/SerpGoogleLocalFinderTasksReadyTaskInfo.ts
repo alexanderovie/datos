@@ -1,11 +1,10 @@
 import { SerpGoogleLocalFinderTasksReadyResultInfo, ISerpGoogleLocalFinderTasksReadyResultInfo } from "./SerpGoogleLocalFinderTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleLocalFinderTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleLocalFinderTasksReadyResultInfo[] | undefined
+        result?: SerpGoogleLocalFinderTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleLocalFinderTasksReadyTaskInfo  extends BaseResponseTaskIn
     
     /** array of results */
 
-    result?: SerpGoogleLocalFinderTasksReadyResultInfo[] | undefined;
+    result?: SerpGoogleLocalFinderTasksReadyResultInfo[];
 
     [key: string]: any;
 

@@ -2,22 +2,22 @@ export interface IKeywordsDataBingKeywordsForSiteTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string | undefined
+        id?: string
         
         /** search engine specified when setting the task */
-        se?: string | undefined
+        se?: string
         
         /** type of the task */
-        function?: string | undefined
+        function?: string
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string | undefined
+        date_posted?: string
         
         /** user-defined task identifier */
-        tag?: string | undefined
+        tag?: string
         
         /** URL for collecting the results of the task */
-        endpoint?: string | undefined
+        endpoint?: string
 
     [key: string]: any;
 
@@ -28,27 +28,27 @@ export class KeywordsDataBingKeywordsForSiteTasksReadyResultInfo  implements IKe
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string | undefined;
+    id?: string;
     
     /** search engine specified when setting the task */
 
-    se?: string | undefined;
+    se?: string;
     
     /** type of the task */
 
-    function?: string | undefined;
+    function?: string;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string | undefined;
+    date_posted?: string;
     
     /** user-defined task identifier */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** URL for collecting the results of the task */
 
-    endpoint?: string | undefined;
+    endpoint?: string;
 
     [key: string]: any;
 

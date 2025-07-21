@@ -1,11 +1,10 @@
 import { AppDataAppleLocationsTaskInfo, IAppDataAppleLocationsTaskInfo } from "./AppDataAppleLocationsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IAppDataAppleLocationsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: AppDataAppleLocationsTaskInfo[] | undefined
+        tasks?: AppDataAppleLocationsTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataAppleLocationsResponseInfo  extends BaseResponseInfo   imple
     
     /** array of tasks */
 
-    tasks?: AppDataAppleLocationsTaskInfo[] | undefined;
+    tasks?: AppDataAppleLocationsTaskInfo[];
 
     [key: string]: any;
 

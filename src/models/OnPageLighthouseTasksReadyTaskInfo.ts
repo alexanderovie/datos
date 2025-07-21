@@ -1,11 +1,10 @@
 import { OnPageLighthouseTasksReadyResultInfo, IOnPageLighthouseTasksReadyResultInfo } from "./OnPageLighthouseTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageLighthouseTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageLighthouseTasksReadyResultInfo[] | undefined
+        result?: OnPageLighthouseTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageLighthouseTasksReadyTaskInfo  extends BaseResponseTaskInfo   
     
     /** array of results */
 
-    result?: OnPageLighthouseTasksReadyResultInfo[] | undefined;
+    result?: OnPageLighthouseTasksReadyResultInfo[];
 
     [key: string]: any;
 

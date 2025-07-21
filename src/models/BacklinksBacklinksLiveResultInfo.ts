@@ -1,30 +1,29 @@
 import { BacklinksBacklinksLiveItem, IBacklinksBacklinksLiveItem } from "./BacklinksBacklinksLiveItem";
 
-
 export interface IBacklinksBacklinksLiveResultInfo   {
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** mode specified in a POST array */
-        mode?: string | undefined
+        mode?: string
         
         /** custom mode specified in a POST array */
-        custom_mode?: { [key: string]: any; } | undefined
+        custom_mode?: { [key: string]: any; }
         
         /** total amount of results relevant the request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains relevant backlinks and referring domains data */
-        items?: BacklinksBacklinksLiveItem[] | undefined
+        items?: BacklinksBacklinksLiveItem[]
         
         /** token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task */
-        search_after_token?: string | undefined
+        search_after_token?: string
 
     [key: string]: any;
 
@@ -34,33 +33,33 @@ export class BacklinksBacklinksLiveResultInfo  implements IBacklinksBacklinksLiv
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** mode specified in a POST array */
 
-    mode?: string | undefined;
+    mode?: string;
     
     /** custom mode specified in a POST array */
 
-    custom_mode?: { [key: string]: any; } | undefined;
+    custom_mode?: { [key: string]: any; };
     
     /** total amount of results relevant the request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains relevant backlinks and referring domains data */
 
-    items?: BacklinksBacklinksLiveItem[] | undefined;
+    items?: BacklinksBacklinksLiveItem[];
     
     /** token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task */
 
-    search_after_token?: string | undefined;
+    search_after_token?: string;
 
     [key: string]: any;
 

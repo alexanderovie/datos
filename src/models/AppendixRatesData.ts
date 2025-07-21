@@ -1,14 +1,13 @@
 import { AppendixLimitsRatesData, IAppendixLimitsRatesData } from "./AppendixLimitsRatesData";
 import { AppendixStatisticsDataInfo, IAppendixStatisticsDataInfo } from "./AppendixStatisticsDataInfo";
 
-
 export interface IAppendixRatesData   {
         
         /** rate limits for API calls per a certain period of time */
-        limits?: AppendixLimitsRatesData | undefined
+        limits?: AppendixLimitsRatesData
         
         /** statisctics for API calls */
-        statistics?: AppendixStatisticsDataInfo | undefined
+        statistics?: AppendixStatisticsDataInfo
 
     [key: string]: any;
 
@@ -18,11 +17,11 @@ export class AppendixRatesData  implements IAppendixRatesData {
     
     /** rate limits for API calls per a certain period of time */
 
-    limits?: AppendixLimitsRatesData | undefined;
+    limits?: AppendixLimitsRatesData;
     
     /** statisctics for API calls */
 
-    statistics?: AppendixStatisticsDataInfo | undefined;
+    statistics?: AppendixStatisticsDataInfo;
 
     [key: string]: any;
 

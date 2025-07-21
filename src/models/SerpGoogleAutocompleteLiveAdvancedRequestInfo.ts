@@ -7,7 +7,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** full name of search engine location
 required field if you don’t specify location_code
@@ -15,14 +15,14 @@ if you use this field, you don’t need to specify location_code;
 you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/autocomplete/locations
 example:
 London,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name;
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -30,7 +30,7 @@ if you use this field, you don’t need to specify language_code;
 you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -38,7 +38,7 @@ if you use this field, you don’t need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** search bar cursor pointer
 optional field
@@ -50,7 +50,7 @@ example:
 |which query are s – 'cursor_pointer': 0
 which query is s| – 'cursor_pointer': 16
 which que|ry is s – 'cursor_pointer': 9 */
-        cursor_pointer?: number | undefined
+        cursor_pointer?: number
         
         /** search client for autocomplete
 optional field
@@ -68,14 +68,14 @@ youtube — returns JSONP;
 gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search */
-        client?: string | undefined
+        client?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -91,7 +91,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -100,7 +100,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name;
@@ -108,7 +108,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -117,7 +117,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -126,7 +126,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** search bar cursor pointer
 optional field
@@ -139,7 +139,7 @@ example:
 which query is s| – 'cursor_pointer': 16
 which que|ry is s – 'cursor_pointer': 9 */
 
-    cursor_pointer?: number | undefined;
+    cursor_pointer?: number;
     
     /** search client for autocomplete
 optional field
@@ -158,7 +158,7 @@ gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search */
 
-    client?: string | undefined;
+    client?: string;
     
     /** user-defined task identifier
 optional field
@@ -166,7 +166,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

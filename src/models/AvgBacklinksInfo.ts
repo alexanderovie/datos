@@ -1,36 +1,36 @@
 export interface IAvgBacklinksInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** average number of backlinks */
-        backlinks?: number | undefined
+        backlinks?: number
         
         /** average number of dofollow links */
-        dofollow?: number | undefined
+        dofollow?: number
         
         /** average number of referring pages */
-        referring_pages?: number | undefined
+        referring_pages?: number
         
         /** average number of referring domains */
-        referring_domains?: number | undefined
+        referring_domains?: number
         
         /** average number of referring main domains */
-        referring_main_domains?: number | undefined
+        referring_main_domains?: number
         
         /** average rank
 learn more about the metric and its calculation formula in this help center article */
-        rank?: number | undefined
+        rank?: number
         
         /** average main domain rank
 learn more about the metric and its calculation formula in this help center article */
-        main_domain_rank?: number | undefined
+        main_domain_rank?: number
         
         /** date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        last_updated_time?: string | undefined
+        last_updated_time?: string
 
     [key: string]: any;
 
@@ -40,44 +40,44 @@ export class AvgBacklinksInfo  implements IAvgBacklinksInfo {
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** average number of backlinks */
 
-    backlinks?: number | undefined;
+    backlinks?: number;
     
     /** average number of dofollow links */
 
-    dofollow?: number | undefined;
+    dofollow?: number;
     
     /** average number of referring pages */
 
-    referring_pages?: number | undefined;
+    referring_pages?: number;
     
     /** average number of referring domains */
 
-    referring_domains?: number | undefined;
+    referring_domains?: number;
     
     /** average number of referring main domains */
 
-    referring_main_domains?: number | undefined;
+    referring_main_domains?: number;
     
     /** average rank
 learn more about the metric and its calculation formula in this help center article */
 
-    rank?: number | undefined;
+    rank?: number;
     
     /** average main domain rank
 learn more about the metric and its calculation formula in this help center article */
 
-    main_domain_rank?: number | undefined;
+    main_domain_rank?: number;
     
     /** date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    last_updated_time?: string | undefined;
+    last_updated_time?: string;
 
     [key: string]: any;
 

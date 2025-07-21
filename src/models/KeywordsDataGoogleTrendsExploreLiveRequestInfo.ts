@@ -9,7 +9,7 @@ comma characters (,) in the specified keywords will be unset and ignored
 Note: keywords cannot consist of a combination of the following characters: < > | \ ' - + = ~ ! : * ( ) [ ] { }
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** full name of search engine location
 optional field
@@ -19,7 +19,7 @@ you can use this field as an array to set several locations, each corresponding 
 you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_trends/locations
 example:
 United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 optional field
@@ -29,7 +29,7 @@ you can use this field as an array to set several locations, each corresponding 
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_trends/locations
 example:
 2840 */
-        location_code?: string | undefined
+        location_code?: string
         
         /** full name of search engine language
 optional field
@@ -38,7 +38,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_trends/languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 optional field
@@ -47,16 +47,16 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_trends/languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories */
-        category_code?: number | undefined
+        category_code?: number
         
         /** starting date of the time range
 optional field
@@ -66,7 +66,7 @@ minimal value for other types: 2008-01-01
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 optional field
@@ -74,7 +74,7 @@ if you don’t specify this field, the today’s date will be used by default
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_to?: string | undefined
+        date_to?: string
         
         /** preset time ranges
 optional field
@@ -85,7 +85,7 @@ possible values for web only:
 2004_present
 possible values for news, youtube, images, froogle:
 2008_present */
-        time_range?: string | undefined
+        time_range?: string
         
         /** types of items returned
 optional field
@@ -95,14 +95,14 @@ possible values:
 default value:
 'google_trends_graph'
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword in the keywords field */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ Note: keywords cannot consist of a combination of the following characters: < > 
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** full name of search engine location
 optional field
@@ -131,7 +131,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 optional field
@@ -142,7 +142,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: string | undefined;
+    location_code?: string;
     
     /** full name of search engine language
 optional field
@@ -152,7 +152,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 optional field
@@ -162,18 +162,18 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories */
 
-    category_code?: number | undefined;
+    category_code?: number;
     
     /** starting date of the time range
 optional field
@@ -184,7 +184,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 optional field
@@ -193,7 +193,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** preset time ranges
 optional field
@@ -205,7 +205,7 @@ possible values for web only:
 possible values for news, youtube, images, froogle:
 2008_present */
 
-    time_range?: string | undefined;
+    time_range?: string;
     
     /** types of items returned
 optional field
@@ -216,7 +216,7 @@ default value:
 'google_trends_graph'
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword in the keywords field */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** user-defined task identifier
 optional field
@@ -224,7 +224,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

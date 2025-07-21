@@ -1,47 +1,46 @@
 import { AudienceEstimationInfo, IAudienceEstimationInfo } from "./AudienceEstimationInfo";
 
-
 export interface IKeywordsDataBingAudienceEstimationTaskGetResultInfo   {
         
         /** monthly estimated impressions range */
-        est_impressions?: AudienceEstimationInfo | undefined
+        est_impressions?: AudienceEstimationInfo
         
         /** monthly estimated reach user count range */
-        est_audience_size?: AudienceEstimationInfo | undefined
+        est_audience_size?: AudienceEstimationInfo
         
         /** monthly estimated click count range */
-        est_clicks?: AudienceEstimationInfo | undefined
+        est_clicks?: AudienceEstimationInfo
         
         /** monthly estimated spending range */
-        est_spend?: AudienceEstimationInfo | undefined
+        est_spend?: AudienceEstimationInfo
         
         /** indicates the estimated cost per event with range result */
-        est_cost_per_event?: AudienceEstimationInfo | undefined
+        est_cost_per_event?: AudienceEstimationInfo
         
         /** estimated click-through rate range */
-        est_ctr?: AudienceEstimationInfo | undefined
+        est_ctr?: AudienceEstimationInfo
         
         /** suggested bid value under the current targeting */
-        suggested_bid?: number | undefined
+        suggested_bid?: number
         
         /** suggested daily budget value under the current targeting and bid */
-        suggested_budget?: number | undefined
+        suggested_budget?: number
         
         /** indicates event lost count due to insufficient input bid */
-        events_lost_to_bid?: number | undefined
+        events_lost_to_bid?: number
         
         /** indicates the event lost count due to insufficient input budget */
-        events_lost_to_budget?: number | undefined
+        events_lost_to_budget?: number
         
         /** monthly estimated user count */
-        est_reach_audience_size?: number | undefined
+        est_reach_audience_size?: number
         
         /** monthly estimated impressions */
-        est_reach_impressions?: number | undefined
+        est_reach_impressions?: number
         
         /** currency name
 example: USDollar */
-        currency?: string | undefined
+        currency?: string
 
     [key: string]: any;
 
@@ -51,56 +50,56 @@ export class KeywordsDataBingAudienceEstimationTaskGetResultInfo  implements IKe
     
     /** monthly estimated impressions range */
 
-    est_impressions?: AudienceEstimationInfo | undefined;
+    est_impressions?: AudienceEstimationInfo;
     
     /** monthly estimated reach user count range */
 
-    est_audience_size?: AudienceEstimationInfo | undefined;
+    est_audience_size?: AudienceEstimationInfo;
     
     /** monthly estimated click count range */
 
-    est_clicks?: AudienceEstimationInfo | undefined;
+    est_clicks?: AudienceEstimationInfo;
     
     /** monthly estimated spending range */
 
-    est_spend?: AudienceEstimationInfo | undefined;
+    est_spend?: AudienceEstimationInfo;
     
     /** indicates the estimated cost per event with range result */
 
-    est_cost_per_event?: AudienceEstimationInfo | undefined;
+    est_cost_per_event?: AudienceEstimationInfo;
     
     /** estimated click-through rate range */
 
-    est_ctr?: AudienceEstimationInfo | undefined;
+    est_ctr?: AudienceEstimationInfo;
     
     /** suggested bid value under the current targeting */
 
-    suggested_bid?: number | undefined;
+    suggested_bid?: number;
     
     /** suggested daily budget value under the current targeting and bid */
 
-    suggested_budget?: number | undefined;
+    suggested_budget?: number;
     
     /** indicates event lost count due to insufficient input bid */
 
-    events_lost_to_bid?: number | undefined;
+    events_lost_to_bid?: number;
     
     /** indicates the event lost count due to insufficient input budget */
 
-    events_lost_to_budget?: number | undefined;
+    events_lost_to_budget?: number;
     
     /** monthly estimated user count */
 
-    est_reach_audience_size?: number | undefined;
+    est_reach_audience_size?: number;
     
     /** monthly estimated impressions */
 
-    est_reach_impressions?: number | undefined;
+    est_reach_impressions?: number;
     
     /** currency name
 example: USDollar */
 
-    currency?: string | undefined;
+    currency?: string;
 
     [key: string]: any;
 

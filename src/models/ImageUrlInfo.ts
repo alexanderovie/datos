@@ -1,7 +1,7 @@
 export interface IImageUrlInfo   {
         
         /** URL of the image used in the review */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class ImageUrlInfo  implements IImageUrlInfo {
     
     /** URL of the image used in the review */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

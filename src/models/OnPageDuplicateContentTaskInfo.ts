@@ -1,11 +1,10 @@
 import { OnPageDuplicateContentResultInfo, IOnPageDuplicateContentResultInfo } from "./OnPageDuplicateContentResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageDuplicateContentTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageDuplicateContentResultInfo[] | undefined
+        result?: OnPageDuplicateContentResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageDuplicateContentTaskInfo  extends BaseResponseTaskInfo   impl
     
     /** array of results */
 
-    result?: OnPageDuplicateContentResultInfo[] | undefined;
+    result?: OnPageDuplicateContentResultInfo[];
 
     [key: string]: any;
 

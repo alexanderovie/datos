@@ -1,15 +1,15 @@
 export interface IBacklinksBulkNewLostBacklinksLiveItem   {
         
         /** domain, subdomain or webpage from a POST array */
-        target?: string | undefined
+        target?: string
         
         /** number of new backlinks
 number of new backlinks pointing to the target */
-        new_backlinks?: number | undefined
+        new_backlinks?: number
         
         /** number of lost backlinks
 number of lost backlinks of the target */
-        lost_backlinks?: number | undefined
+        lost_backlinks?: number
 
     [key: string]: any;
 
@@ -19,17 +19,17 @@ export class BacklinksBulkNewLostBacklinksLiveItem  implements IBacklinksBulkNew
     
     /** domain, subdomain or webpage from a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** number of new backlinks
 number of new backlinks pointing to the target */
 
-    new_backlinks?: number | undefined;
+    new_backlinks?: number;
     
     /** number of lost backlinks
 number of lost backlinks of the target */
 
-    lost_backlinks?: number | undefined;
+    lost_backlinks?: number;
 
     [key: string]: any;
 

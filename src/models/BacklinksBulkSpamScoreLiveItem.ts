@@ -1,14 +1,14 @@
 export interface IBacklinksBulkSpamScoreLiveItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** domain, subdomain or webpage from a POST array */
-        target?: string | undefined
+        target?: string
         
         /** average spam score the target
 learn more about how the metric is calculated */
-        spam_score?: number | undefined
+        spam_score?: number
 
     [key: string]: any;
 
@@ -18,16 +18,16 @@ export class BacklinksBulkSpamScoreLiveItem  implements IBacklinksBulkSpamScoreL
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** domain, subdomain or webpage from a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** average spam score the target
 learn more about how the metric is calculated */
 
-    spam_score?: number | undefined;
+    spam_score?: number;
 
     [key: string]: any;
 

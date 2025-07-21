@@ -1,11 +1,10 @@
 import { BusinessDataGoogleLanguagesTaskInfo, IBusinessDataGoogleLanguagesTaskInfo } from "./BusinessDataGoogleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataGoogleLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataGoogleLanguagesTaskInfo[] | undefined
+        tasks?: BusinessDataGoogleLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleLanguagesResponseInfo  extends BaseResponseInfo  
     
     /** array of tasks */
 
-    tasks?: BusinessDataGoogleLanguagesTaskInfo[] | undefined;
+    tasks?: BusinessDataGoogleLanguagesTaskInfo[];
 
     [key: string]: any;
 

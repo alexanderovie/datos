@@ -6,7 +6,7 @@ you can specify domains, subdomains, and webpages in this field;
 domains and subdomains should be specified without https:// and www.;
 pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages */
-        targets?: string[] | undefined
+        targets?: string[]
         
         /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -15,7 +15,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 if you use this field, you don’t have to specify location_name
@@ -24,7 +24,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -33,7 +33,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 if you use this field, you don’t need to specify language_name
@@ -42,7 +42,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** display results by item type
 optional field
@@ -52,20 +52,20 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean | undefined
+        ignore_synonyms?: boolean
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -80,7 +80,7 @@ domains and subdomains should be specified without https:// and www.;
 pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages */
 
-    targets?: string[] | undefined;
+    targets?: string[];
     
     /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -90,7 +90,7 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 if you use this field, you don’t have to specify location_name
@@ -100,7 +100,7 @@ ignore this field to get the results for all available locations
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -110,7 +110,7 @@ ignore this field to get the results for all available languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 if you use this field, you don’t need to specify language_name
@@ -120,7 +120,7 @@ ignore this field to get the results for all available languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** display results by item type
 optional field
@@ -131,14 +131,14 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean | undefined;
+    ignore_synonyms?: boolean;
     
     /** user-defined task identifier
 optional field
@@ -146,7 +146,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

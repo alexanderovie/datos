@@ -6,7 +6,7 @@ absolute URL of the target page;
 Note #1: results will be returned for the specified URL only;
 Note #2: to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;
 to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue */
-        url?: string | undefined
+        url?: string
         
         /** custom user agent
 optional field
@@ -14,7 +14,7 @@ custom user agent for crawling a website
 example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
 
 default value: Mozilla/5.0 (compatible; RSiteAuditor) */
-        custom_user_agent?: string | undefined
+        custom_user_agent?: string
         
         /** preset for browser screen parameters
 optional field
@@ -32,54 +32,54 @@ browser_screen_width: 1024
 browser_screen_height: 1366
 browser_screen_scale_factor: 2
 Note: to use this parameter, set enable_javascript or enable_browser_rendering to true */
-        browser_preset?: string | undefined
+        browser_preset?: string
         
         /** browser screen width
 optional field
 you can set a custom browser screen width to perform audit for a particular device;
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240
 maximum value, in pixels: 9999 */
-        browser_screen_width?: number | undefined
+        browser_screen_width?: number
         
         /** browser screen height
 optional field
 you can set a custom browser screen height to perform audit for a particular device;
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240
 maximum value, in pixels: 9999 */
-        browser_screen_height?: number | undefined
+        browser_screen_height?: number
         
         /** browser screen scale factor
 optional field
 you can set a custom browser screen resolution ratio to perform audit for a particular device;
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value: 0.5
 maximum value: 3 */
-        browser_screen_scale_factor?: number | undefined
+        browser_screen_scale_factor?: number
         
         /** store HTML of a crawled page
 optional field
 set to true if you want get the HTML of the page using the OnPage Raw HTML endpoint
 default value: false */
-        store_raw_html?: boolean | undefined
+        store_raw_html?: boolean
         
         /** language header for accessing the website
 optional field
 all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the 'type':'broken in the response array */
-        accept_language?: string | undefined
+        accept_language?: string
         
         /** load resources
 optional field
 set to true if you want to load image, stylesheets, scripts, and broken resources
 default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
-        load_resources?: boolean | undefined
+        load_resources?: boolean
         
         /** load javascript on a page
 optional field
 set to true if you want to load the scripts available on a page
 default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
-        enable_javascript?: boolean | undefined
+        enable_javascript?: boolean
         
         /** emulate browser rendering to measure Core Web Vitals
 optional field
@@ -89,27 +89,27 @@ default value: false
 set to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;
 if you use this field, parameters enable_javascript, and load_resources are enabled automatically;
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
-        enable_browser_rendering?: boolean | undefined
+        enable_browser_rendering?: boolean
         
         /** disable the cookie popup 
 optional field
 set to true if you want to disable the popup requesting cookie consent from the user;
 default value:
 false */
-        disable_cookie_popup?: boolean | undefined
+        disable_cookie_popup?: boolean
         
         /** return data on pages despite the timeout error
 optional field
 if true, the data will be provided on pages that failed to load within 120 seconds and responded with a timeout error;
 default value: false */
-        return_despite_timeout?: boolean | undefined
+        return_despite_timeout?: boolean
         
         /** enable XMLHttpRequest on a page
 optional field
 set to true if you want our crawler to request data from a web server using the XMLHttpRequest object
 default value:
 falseif you use this field, enable_javascript must be set to true; */
-        enable_xhr?: boolean | undefined
+        enable_xhr?: boolean
         
         /** custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
@@ -122,38 +122,38 @@ as a response you will receive the following data:
 'test': 'test'
 }
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
-        custom_js?: string | undefined
+        custom_js?: string
         
         /** enable microdata validation
 optional field
 if set to true, you can use the OnPage API Microdata endpoint with the id of the task;
 default value: false */
-        validate_micromarkup?: boolean | undefined
+        validate_micromarkup?: boolean
         
         /** check spelling
 optional field
 set to true to check spelling on a website using Hunspell library
 default value: false */
-        check_spell?: boolean | undefined
+        check_spell?: boolean
         
         /** custom threshold values for checks
 optional field
 you can specify custom threshold values for the parameters included in the checks array of OnPage API responses;
 Note: only integer threshold values can be modified; */
-        checks_threshold?: { [key: string]: number; } | undefined
+        checks_threshold?: { [key: string]: number; }
         
         /** switch proxy pool
 optional field
 if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors */
-        switch_pool?: boolean | undefined
+        switch_pool?: boolean
         
         /** proxy pool
 optional field
 you can choose a location of the proxy pool that will be used to obtain the requested data;
 the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
 possible values: us, de */
-        ip_pool_for_scan?: string | undefined
+        ip_pool_for_scan?: string
 
     [key: string]: any;
 
@@ -168,7 +168,7 @@ Note #1: results will be returned for the specified URL only;
 Note #2: to prevent denial-of-service events, tasks that contain a duplicate crawl host will be returned with a 40501 error;
 to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue */
 
-    url?: string | undefined;
+    url?: string;
     
     /** custom user agent
 optional field
@@ -177,7 +177,7 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 
 default value: Mozilla/5.0 (compatible; RSiteAuditor) */
 
-    custom_user_agent?: string | undefined;
+    custom_user_agent?: string;
     
     /** preset for browser screen parameters
 optional field
@@ -196,7 +196,7 @@ browser_screen_height: 1366
 browser_screen_scale_factor: 2
 Note: to use this parameter, set enable_javascript or enable_browser_rendering to true */
 
-    browser_preset?: string | undefined;
+    browser_preset?: string;
     
     /** browser screen width
 optional field
@@ -204,7 +204,7 @@ you can set a custom browser screen width to perform audit for a particular devi
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240
 maximum value, in pixels: 9999 */
 
-    browser_screen_width?: number | undefined;
+    browser_screen_width?: number;
     
     /** browser screen height
 optional field
@@ -212,7 +212,7 @@ you can set a custom browser screen height to perform audit for a particular dev
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value, in pixels: 240
 maximum value, in pixels: 9999 */
 
-    browser_screen_height?: number | undefined;
+    browser_screen_height?: number;
     
     /** browser screen scale factor
 optional field
@@ -220,21 +220,21 @@ you can set a custom browser screen resolution ratio to perform audit for a part
 if you use this field, you don’t need to indicate browser_preset as it will be ignored;Note: to use this parameter, set enable_javascript or enable_browser_rendering to trueminimum value: 0.5
 maximum value: 3 */
 
-    browser_screen_scale_factor?: number | undefined;
+    browser_screen_scale_factor?: number;
     
     /** store HTML of a crawled page
 optional field
 set to true if you want get the HTML of the page using the OnPage Raw HTML endpoint
 default value: false */
 
-    store_raw_html?: boolean | undefined;
+    store_raw_html?: boolean;
     
     /** language header for accessing the website
 optional field
 all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the 'type':'broken in the response array */
 
-    accept_language?: string | undefined;
+    accept_language?: string;
     
     /** load resources
 optional field
@@ -242,7 +242,7 @@ set to true if you want to load image, stylesheets, scripts, and broken resource
 default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
-    load_resources?: boolean | undefined;
+    load_resources?: boolean;
     
     /** load javascript on a page
 optional field
@@ -250,7 +250,7 @@ set to true if you want to load the scripts available on a page
 default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
-    enable_javascript?: boolean | undefined;
+    enable_javascript?: boolean;
     
     /** emulate browser rendering to measure Core Web Vitals
 optional field
@@ -261,7 +261,7 @@ set to true to obtain Core Web Vitals (FID, CLS, LCP) metrics in the response;
 if you use this field, parameters enable_javascript, and load_resources are enabled automatically;
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
-    enable_browser_rendering?: boolean | undefined;
+    enable_browser_rendering?: boolean;
     
     /** disable the cookie popup 
 optional field
@@ -269,14 +269,14 @@ set to true if you want to disable the popup requesting cookie consent from the 
 default value:
 false */
 
-    disable_cookie_popup?: boolean | undefined;
+    disable_cookie_popup?: boolean;
     
     /** return data on pages despite the timeout error
 optional field
 if true, the data will be provided on pages that failed to load within 120 seconds and responded with a timeout error;
 default value: false */
 
-    return_despite_timeout?: boolean | undefined;
+    return_despite_timeout?: boolean;
     
     /** enable XMLHttpRequest on a page
 optional field
@@ -284,7 +284,7 @@ set to true if you want our crawler to request data from a web server using the 
 default value:
 falseif you use this field, enable_javascript must be set to true; */
 
-    enable_xhr?: boolean | undefined;
+    enable_xhr?: boolean;
     
     /** custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
@@ -298,35 +298,35 @@ as a response you will receive the following data:
 }
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
-    custom_js?: string | undefined;
+    custom_js?: string;
     
     /** enable microdata validation
 optional field
 if set to true, you can use the OnPage API Microdata endpoint with the id of the task;
 default value: false */
 
-    validate_micromarkup?: boolean | undefined;
+    validate_micromarkup?: boolean;
     
     /** check spelling
 optional field
 set to true to check spelling on a website using Hunspell library
 default value: false */
 
-    check_spell?: boolean | undefined;
+    check_spell?: boolean;
     
     /** custom threshold values for checks
 optional field
 you can specify custom threshold values for the parameters included in the checks array of OnPage API responses;
 Note: only integer threshold values can be modified; */
 
-    checks_threshold?: { [key: string]: number; } | undefined;
+    checks_threshold?: { [key: string]: number; };
     
     /** switch proxy pool
 optional field
 if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors */
 
-    switch_pool?: boolean | undefined;
+    switch_pool?: boolean;
     
     /** proxy pool
 optional field
@@ -334,7 +334,7 @@ you can choose a location of the proxy pool that will be used to obtain the requ
 the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
 possible values: us, de */
 
-    ip_pool_for_scan?: string | undefined;
+    ip_pool_for_scan?: string;
 
     [key: string]: any;
 

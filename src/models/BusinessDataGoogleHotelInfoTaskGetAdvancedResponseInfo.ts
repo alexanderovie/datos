@@ -1,11 +1,10 @@
 import { BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo, IBusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo } from "./BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo[] | undefined
+        tasks?: BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleHotelInfoTaskGetAdvancedResponseInfo  extends Bas
     
     /** array of tasks */
 
-    tasks?: BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo[] | undefined;
+    tasks?: BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo[];
 
     [key: string]: any;
 

@@ -1,22 +1,21 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
-
 export interface IAppElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** price indicated in the element */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
 
     [key: string]: any;
 
@@ -26,23 +25,23 @@ export class AppElement  implements IAppElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** price indicated in the element */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
 
     [key: string]: any;
 

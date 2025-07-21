@@ -8,7 +8,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 Note: all letters in ASIN code must be specified in uppercase format;
 example:
 B01LW2SL7R */
-        asins?: string[] | undefined
+        asins?: string[]
         
         /** full name of the location
 required field if don’t specify location_code
@@ -17,7 +17,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 United States */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if don’t specify location_name
@@ -26,7 +26,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the United Arab Emirates locations only;
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if don’t specify language_code
@@ -34,7 +34,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if don’t specify language_name
@@ -42,14 +42,14 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -66,7 +66,7 @@ Note: all letters in ASIN code must be specified in uppercase format;
 example:
 B01LW2SL7R */
 
-    asins?: string[] | undefined;
+    asins?: string[];
     
     /** full name of the location
 required field if don’t specify location_code
@@ -76,7 +76,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if don’t specify location_name
@@ -86,7 +86,7 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if don’t specify language_code
@@ -95,7 +95,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if don’t specify language_name
@@ -104,7 +104,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** user-defined task identifier
 optional field
@@ -112,7 +112,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

@@ -1,37 +1,36 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 
-
 export interface IDataforseoLabsGoogleKeywordIdeasLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keywords in a POST array
 keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        seed_keywords?: string[] | undefined
+        seed_keywords?: string[]
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total number of results relevant to your request in our database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** current offset value */
-        offset?: number | undefined
+        offset?: number
         
         /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** contains keyword ideas and related data */
-        items?: KeywordDataInfo[] | undefined
+        items?: KeywordDataInfo[]
 
     [key: string]: any;
 
@@ -41,42 +40,42 @@ export class DataforseoLabsGoogleKeywordIdeasLiveResultInfo  implements IDatafor
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keywords in a POST array
 keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    seed_keywords?: string[] | undefined;
+    seed_keywords?: string[];
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total number of results relevant to your request in our database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** current offset value */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** contains keyword ideas and related data */
 
-    items?: KeywordDataInfo[] | undefined;
+    items?: KeywordDataInfo[];
 
     [key: string]: any;
 

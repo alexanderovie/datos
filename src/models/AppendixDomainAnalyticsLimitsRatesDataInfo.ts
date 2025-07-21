@@ -1,16 +1,15 @@
 import { AppendixWhoisDomainAnalyticsLimitsRatesDataInfo, IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo } from "./AppendixWhoisDomainAnalyticsLimitsRatesDataInfo";
 import { AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo, IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo } from "./AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo";
 
-
 export interface IAppendixDomainAnalyticsLimitsRatesDataInfo   {
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
         
-        errors?: number | undefined
+        errors?: number
         
-        whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo | undefined
+        whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
         
-        technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo | undefined
+        technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
     [key: string]: any;
 
@@ -18,13 +17,13 @@ export interface IAppendixDomainAnalyticsLimitsRatesDataInfo   {
 
 export class AppendixDomainAnalyticsLimitsRatesDataInfo  implements IAppendixDomainAnalyticsLimitsRatesDataInfo {
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo | undefined;
+    whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo;
 
-    technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo | undefined;
+    technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo;
 
     [key: string]: any;
 

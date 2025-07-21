@@ -2,92 +2,91 @@ import { ChannelSubscribersCount, IChannelSubscribersCount } from "./ChannelSubs
 import { Subtitles, ISubtitles } from "./Subtitles";
 import { StreamingQualityElement, IStreamingQualityElement } from "./StreamingQualityElement";
 
-
 export interface IYoutubeVideoInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** ID of the video received in a POST array */
-        video_id?: string | undefined
+        video_id?: string
         
         /** title of the video */
-        title?: string | undefined
+        title?: string
         
         /** URL of the video */
-        url?: string | undefined
+        url?: string
         
         /** the URL of the page where the thumbnail is hosted */
-        thumbnail_url?: string | undefined
+        thumbnail_url?: string
         
         /** the ID of the channel where the video is published */
-        channel_id?: string | undefined
+        channel_id?: string
         
         /** the name of the channel where the video is published */
-        channel_name?: string | undefined
+        channel_name?: string
         
         /** the URL of the channel where the video is published */
-        channel_url?: string | undefined
+        channel_url?: string
         
         /** the URL of the page where the logo image of the channel is hosted */
-        channel_logo?: string | undefined
+        channel_logo?: string
         
         /** description of the video */
-        description?: string | undefined
+        description?: string
         
         /** number of views of the video */
-        views_count?: number | undefined
+        views_count?: number
         
         /** number of likes on the video */
-        likes_count?: number | undefined
+        likes_count?: number
         
         /** number of comments on the video */
-        comments_count?: number | undefined
+        comments_count?: number
         
         /** number of subscribers of the channel */
-        channel_subscribers_count?: ChannelSubscribersCount | undefined
+        channel_subscribers_count?: ChannelSubscribersCount
         
         /** the date when the video is published */
-        publication_date?: string | undefined
+        publication_date?: string
         
         /** date and time when the result is published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** keywords relevant to the video */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** the category the video belongs to */
-        category?: string | undefined
+        category?: string
         
         /** indicates whether the video is on live */
-        is_live?: boolean | undefined
+        is_live?: boolean
         
         /** indicates whether the video is embeddable */
-        is_embeddable?: boolean | undefined
+        is_embeddable?: boolean
         
         /** duration of the video */
-        duration_time?: string | undefined
+        duration_time?: string
         
         /** duration of the video in seconds */
-        duration_time_seconds?: number | undefined
+        duration_time_seconds?: number
         
         /** array of elements describing properties of subtitles in the video */
-        subtitles?: Subtitles[] | undefined
+        subtitles?: Subtitles[]
         
         /** array of elements that contain information about all possible streaming qualities of the video */
-        streaming_quality?: StreamingQualityElement[] | undefined
+        streaming_quality?: StreamingQualityElement[]
 
     [key: string]: any;
 
@@ -97,113 +96,113 @@ export class YoutubeVideoInfo  implements IYoutubeVideoInfo {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** ID of the video received in a POST array */
 
-    video_id?: string | undefined;
+    video_id?: string;
     
     /** title of the video */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL of the video */
 
-    url?: string | undefined;
+    url?: string;
     
     /** the URL of the page where the thumbnail is hosted */
 
-    thumbnail_url?: string | undefined;
+    thumbnail_url?: string;
     
     /** the ID of the channel where the video is published */
 
-    channel_id?: string | undefined;
+    channel_id?: string;
     
     /** the name of the channel where the video is published */
 
-    channel_name?: string | undefined;
+    channel_name?: string;
     
     /** the URL of the channel where the video is published */
 
-    channel_url?: string | undefined;
+    channel_url?: string;
     
     /** the URL of the page where the logo image of the channel is hosted */
 
-    channel_logo?: string | undefined;
+    channel_logo?: string;
     
     /** description of the video */
 
-    description?: string | undefined;
+    description?: string;
     
     /** number of views of the video */
 
-    views_count?: number | undefined;
+    views_count?: number;
     
     /** number of likes on the video */
 
-    likes_count?: number | undefined;
+    likes_count?: number;
     
     /** number of comments on the video */
 
-    comments_count?: number | undefined;
+    comments_count?: number;
     
     /** number of subscribers of the channel */
 
-    channel_subscribers_count?: ChannelSubscribersCount | undefined;
+    channel_subscribers_count?: ChannelSubscribersCount;
     
     /** the date when the video is published */
 
-    publication_date?: string | undefined;
+    publication_date?: string;
     
     /** date and time when the result is published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** keywords relevant to the video */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** the category the video belongs to */
 
-    category?: string | undefined;
+    category?: string;
     
     /** indicates whether the video is on live */
 
-    is_live?: boolean | undefined;
+    is_live?: boolean;
     
     /** indicates whether the video is embeddable */
 
-    is_embeddable?: boolean | undefined;
+    is_embeddable?: boolean;
     
     /** duration of the video */
 
-    duration_time?: string | undefined;
+    duration_time?: string;
     
     /** duration of the video in seconds */
 
-    duration_time_seconds?: number | undefined;
+    duration_time_seconds?: number;
     
     /** array of elements describing properties of subtitles in the video */
 
-    subtitles?: Subtitles[] | undefined;
+    subtitles?: Subtitles[];
     
     /** array of elements that contain information about all possible streaming qualities of the video */
 
-    streaming_quality?: StreamingQualityElement[] | undefined;
+    streaming_quality?: StreamingQualityElement[];
 
     [key: string]: any;
 

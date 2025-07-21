@@ -1,11 +1,10 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixContentGenerationPriceDataInfo   {
         
-        live?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        live?: AppendixTaskKeywordsDataPriceDataInfo
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -13,9 +12,9 @@ export interface IAppendixContentGenerationPriceDataInfo   {
 
 export class AppendixContentGenerationPriceDataInfo  implements IAppendixContentGenerationPriceDataInfo {
 
-    live?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    live?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

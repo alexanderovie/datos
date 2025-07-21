@@ -1,24 +1,24 @@
 export interface IBacklinksAvailableFiltersResultInfo   {
         
-        content_duplicates?: { [key: string]: string; } | undefined
+        content_duplicates?: { [key: string]: string; }
         
-        backlinks?: { [key: string]: string; } | undefined
+        backlinks?: { [key: string]: string; }
         
-        domain_pages?: { [key: string]: string; } | undefined
+        domain_pages?: { [key: string]: string; }
         
-        anchors?: { [key: string]: string; } | undefined
+        anchors?: { [key: string]: string; }
         
-        referring_domains?: { [key: string]: string; } | undefined
+        referring_domains?: { [key: string]: string; }
         
-        domain_intersection?: { [key: string]: string; } | undefined
+        domain_intersection?: { [key: string]: string; }
         
-        page_intersection?: { [key: string]: string; } | undefined
+        page_intersection?: { [key: string]: string; }
         
-        referring_networks?: { [key: string]: string; } | undefined
+        referring_networks?: { [key: string]: string; }
         
-        domain_pages_summary?: { [key: string]: string; } | undefined
+        domain_pages_summary?: { [key: string]: string; }
         
-        competitors?: { [key: string]: string; } | undefined
+        competitors?: { [key: string]: string; }
 
     [key: string]: any;
 
@@ -26,25 +26,25 @@ export interface IBacklinksAvailableFiltersResultInfo   {
 
 export class BacklinksAvailableFiltersResultInfo  implements IBacklinksAvailableFiltersResultInfo {
 
-    content_duplicates?: { [key: string]: string; } | undefined;
+    content_duplicates?: { [key: string]: string; };
 
-    backlinks?: { [key: string]: string; } | undefined;
+    backlinks?: { [key: string]: string; };
 
-    domain_pages?: { [key: string]: string; } | undefined;
+    domain_pages?: { [key: string]: string; };
 
-    anchors?: { [key: string]: string; } | undefined;
+    anchors?: { [key: string]: string; };
 
-    referring_domains?: { [key: string]: string; } | undefined;
+    referring_domains?: { [key: string]: string; };
 
-    domain_intersection?: { [key: string]: string; } | undefined;
+    domain_intersection?: { [key: string]: string; };
 
-    page_intersection?: { [key: string]: string; } | undefined;
+    page_intersection?: { [key: string]: string; };
 
-    referring_networks?: { [key: string]: string; } | undefined;
+    referring_networks?: { [key: string]: string; };
 
-    domain_pages_summary?: { [key: string]: string; } | undefined;
+    domain_pages_summary?: { [key: string]: string; };
 
-    competitors?: { [key: string]: string; } | undefined;
+    competitors?: { [key: string]: string; };
 
     [key: string]: any;
 

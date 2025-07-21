@@ -1,11 +1,10 @@
 import { ContentGenerationGenerateSubTopicsLiveTaskInfo, IContentGenerationGenerateSubTopicsLiveTaskInfo } from "./ContentGenerationGenerateSubTopicsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IContentGenerationGenerateSubTopicsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentGenerationGenerateSubTopicsLiveTaskInfo[] | undefined
+        tasks?: ContentGenerationGenerateSubTopicsLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentGenerationGenerateSubTopicsLiveResponseInfo  extends BaseRes
     
     /** array of tasks */
 
-    tasks?: ContentGenerationGenerateSubTopicsLiveTaskInfo[] | undefined;
+    tasks?: ContentGenerationGenerateSubTopicsLiveTaskInfo[];
 
     [key: string]: any;
 

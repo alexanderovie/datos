@@ -1,16 +1,15 @@
 import { BulkMetricsInfo, IBulkMetricsInfo } from "./BulkMetricsInfo";
 
-
 export interface IDataforseoLabsBingBulkTrafficEstimationLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** traffic data relevant to the specified domain */
-        metrics?: { [key: string]: BulkMetricsInfo; } | undefined
+        metrics?: { [key: string]: BulkMetricsInfo; }
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsBingBulkTrafficEstimationLiveItem  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** traffic data relevant to the specified domain */
 
-    metrics?: { [key: string]: BulkMetricsInfo; } | undefined;
+    metrics?: { [key: string]: BulkMetricsInfo; };
 
     [key: string]: any;
 

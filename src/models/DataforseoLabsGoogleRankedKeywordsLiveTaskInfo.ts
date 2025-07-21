@@ -1,11 +1,10 @@
 import { DataforseoLabsGoogleRankedKeywordsLiveResultInfo, IDataforseoLabsGoogleRankedKeywordsLiveResultInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsGoogleRankedKeywordsLiveResultInfo[] | undefined
+        result?: DataforseoLabsGoogleRankedKeywordsLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsGoogleRankedKeywordsLiveTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: DataforseoLabsGoogleRankedKeywordsLiveResultInfo[] | undefined;
+    result?: DataforseoLabsGoogleRankedKeywordsLiveResultInfo[];
 
     [key: string]: any;
 

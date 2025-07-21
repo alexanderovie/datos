@@ -7,7 +7,7 @@ UTF-8 encoding;
 the keywords will be converted to lowercase format;
 you can specify the maximum of 200 keywords
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[] | undefined
+        keywords?: string[]
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -16,7 +16,7 @@ you can receive the list of available locations with location_name parameters by
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** unique location identifier
 required field if you don’t specify location_name
@@ -25,7 +25,7 @@ you can receive the list of available locations with their location_code paramet
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -34,7 +34,7 @@ you can receive the list of available languages with their language_name paramet
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** unique language identifier
 required field if you don’t specify language_name
@@ -43,13 +43,13 @@ you can receive the list of available languages with their language_code paramet
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean | undefined
+        include_subdomains?: boolean
         
         /** search results type
 indicates type of search results included in the response
@@ -58,19 +58,19 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains */
-        offset?: number | undefined
+        offset?: number
         
         /** array of results filtering parameters
 optional field
@@ -86,7 +86,7 @@ example:
 'and',
 [['relevant_serp_items','>',0],'or',['median_position','in',[1,10]]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -103,14 +103,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['avg_position,asc','etv,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -126,7 +126,7 @@ the keywords will be converted to lowercase format;
 you can specify the maximum of 200 keywords
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[] | undefined;
+    keywords?: string[];
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -136,7 +136,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -146,7 +146,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -156,7 +156,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** unique language identifier
 required field if you don’t specify language_name
@@ -166,14 +166,14 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean | undefined;
+    include_subdomains?: boolean;
     
     /** search results type
 indicates type of search results included in the response
@@ -183,21 +183,21 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** array of results filtering parameters
 optional field
@@ -214,7 +214,7 @@ example:
 [['relevant_serp_items','>',0],'or',['median_position','in',[1,10]]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -232,7 +232,7 @@ you should use a comma to separate several sorting rules
 example:
 ['avg_position,asc','etv,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** user-defined task identifier
 optional field
@@ -240,7 +240,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

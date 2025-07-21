@@ -1,9 +1,8 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixTaskGetPriceDataInfo   {
         
-        advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        advanced?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -11,7 +10,7 @@ export interface IAppendixTaskGetPriceDataInfo   {
 
 export class AppendixTaskGetPriceDataInfo  implements IAppendixTaskGetPriceDataInfo {
 
-    advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    advanced?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

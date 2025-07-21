@@ -2,28 +2,27 @@ import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDa
 import { AppendixAKeywordsDataPriceDataInfo, IAppendixAKeywordsDataPriceDataInfo } from "./AppendixAKeywordsDataPriceDataInfo";
 import { AppendixSerpPriceDataInfo, IAppendixSerpPriceDataInfo } from "./AppendixSerpPriceDataInfo";
 
-
 export interface IAppendixSerpPriceData   {
         
-        tasks_fixed?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_fixed?: AppendixTaskKeywordsDataPriceDataInfo
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        errors?: AppendixTaskKeywordsDataPriceDataInfo
         
-        jobs?: AppendixAKeywordsDataPriceDataInfo | undefined
+        jobs?: AppendixAKeywordsDataPriceDataInfo
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        live?: AppendixSerpPriceDataInfo | undefined
+        live?: AppendixSerpPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        screenshot?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        screenshot?: AppendixTaskKeywordsDataPriceDataInfo
         
-        task_get?: AppendixSerpPriceDataInfo | undefined
+        task_get?: AppendixSerpPriceDataInfo
         
-        task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        task_post?: AppendixTaskKeywordsDataPriceDataInfo
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -31,25 +30,25 @@ export interface IAppendixSerpPriceData   {
 
 export class AppendixSerpPriceData  implements IAppendixSerpPriceData {
 
-    tasks_fixed?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_fixed?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    jobs?: AppendixAKeywordsDataPriceDataInfo | undefined;
+    jobs?: AppendixAKeywordsDataPriceDataInfo;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    live?: AppendixSerpPriceDataInfo | undefined;
+    live?: AppendixSerpPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    screenshot?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    screenshot?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    task_get?: AppendixSerpPriceDataInfo | undefined;
+    task_get?: AppendixSerpPriceDataInfo;
 
-    task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    task_post?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

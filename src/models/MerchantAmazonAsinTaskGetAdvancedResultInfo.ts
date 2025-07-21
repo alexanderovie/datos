@@ -1,46 +1,45 @@
 import { AmazonProductInfo, IAmazonProductInfo } from "./AmazonProductInfo";
 
-
 export interface IMerchantAmazonAsinTaskGetAdvancedResultInfo   {
         
         /** ASIN received in a POST array
 the unique product identifier in Amazon (ASIN) received in a POST array
 learn more about the identified in this help center guide */
-        asin?: string | undefined
+        asin?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** Amazon domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** direct URL to Amazon results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** types of search results found on Amazon
 contains types of all search results (items) found in the returned SERP
 possible item types:
 amazon_product_info */
-        item_types?: string[] | undefined
+        item_types?: string[]
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** Amazon product info items */
-        items?: AmazonProductInfo[] | undefined
+        items?: AmazonProductInfo[]
 
     [key: string]: any;
 
@@ -52,50 +51,50 @@ export class MerchantAmazonAsinTaskGetAdvancedResultInfo  implements IMerchantAm
 the unique product identifier in Amazon (ASIN) received in a POST array
 learn more about the identified in this help center guide */
 
-    asin?: string | undefined;
+    asin?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** Amazon domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** direct URL to Amazon results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** types of search results found on Amazon
 contains types of all search results (items) found in the returned SERP
 possible item types:
 amazon_product_info */
 
-    item_types?: string[] | undefined;
+    item_types?: string[];
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** Amazon product info items */
 
-    items?: AmazonProductInfo[] | undefined;
+    items?: AmazonProductInfo[];
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { SerpYoutubeVideoInfoTasksFixedTaskInfo, ISerpYoutubeVideoInfoTasksFixedTaskInfo } from "./SerpYoutubeVideoInfoTasksFixedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpYoutubeVideoInfoTasksFixedResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[] | undefined
+        tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpYoutubeVideoInfoTasksFixedResponseInfo  extends BaseResponseInf
     
     /** array of tasks */
 
-    tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[] | undefined;
+    tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[];
 
     [key: string]: any;
 

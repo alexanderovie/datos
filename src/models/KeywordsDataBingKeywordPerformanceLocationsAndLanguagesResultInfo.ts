@@ -1,17 +1,16 @@
 import { AvailableLocations, IAvailableLocations } from "./AvailableLocations";
 
-
 export interface IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo   {
         
         /** language name */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code */
-        language_code?: string | undefined
+        language_code?: string
         
         /** supported locations
 contains locations supported in combination with a specific language */
-        available_locations?: AvailableLocations[] | undefined
+        available_locations?: AvailableLocations[]
 
     [key: string]: any;
 
@@ -21,16 +20,16 @@ export class KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo  
     
     /** language name */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** supported locations
 contains locations supported in combination with a specific language */
 
-    available_locations?: AvailableLocations[] | undefined;
+    available_locations?: AvailableLocations[];
 
     [key: string]: any;
 

@@ -1,15 +1,14 @@
 import { IntersectionSummaryInfo, IIntersectionSummaryInfo } from "./IntersectionSummaryInfo";
 import { BacklinksDomainIntersection, IBacklinksDomainIntersection } from "./BacklinksDomainIntersection";
 
-
 export interface IBacklinksDomainIntersectionLiveItem   {
         
         /** contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object */
-        domain_intersection?: { [key: string]: BacklinksDomainIntersection; } | undefined
+        domain_intersection?: { [key: string]: BacklinksDomainIntersection; }
         
         /** contains the domain intersections summary */
-        summary?: IntersectionSummaryInfo | undefined
+        summary?: IntersectionSummaryInfo
 
     [key: string]: any;
 
@@ -20,11 +19,11 @@ export class BacklinksDomainIntersectionLiveItem  implements IBacklinksDomainInt
     /** contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object */
 
-    domain_intersection?: { [key: string]: BacklinksDomainIntersection; } | undefined;
+    domain_intersection?: { [key: string]: BacklinksDomainIntersection; };
     
     /** contains the domain intersections summary */
 
-    summary?: IntersectionSummaryInfo | undefined;
+    summary?: IntersectionSummaryInfo;
 
     [key: string]: any;
 

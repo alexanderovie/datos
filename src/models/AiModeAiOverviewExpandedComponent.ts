@@ -2,33 +2,32 @@ import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement
 import { InformationAndTicketsElement, IInformationAndTicketsElement } from "./InformationAndTicketsElement";
 import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
 
-
 export interface IAiModeAiOverviewExpandedComponent   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** reference page title */
-        title?: string | undefined
+        title?: string
         
         /** additional text of the element in SERP */
-        text?: string | undefined
+        text?: string
         
         /** content of the element in markdown format */
-        markdown?: string | undefined
+        markdown?: string
         
         /** images of the component
 if there are none, equals null */
-        images?: AiModeImagesElement[] | undefined
+        images?: AiModeImagesElement[]
         
         /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
-        links?: InformationAndTicketsElement[] | undefined
+        links?: InformationAndTicketsElement[]
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
 
     [key: string]: any;
 
@@ -38,35 +37,35 @@ export class AiModeAiOverviewExpandedComponent  implements IAiModeAiOverviewExpa
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** reference page title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** additional text of the element in SERP */
 
-    text?: string | undefined;
+    text?: string;
     
     /** content of the element in markdown format */
 
-    markdown?: string | undefined;
+    markdown?: string;
     
     /** images of the component
 if there are none, equals null */
 
-    images?: AiModeImagesElement[] | undefined;
+    images?: AiModeImagesElement[];
     
     /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
 
-    links?: InformationAndTicketsElement[] | undefined;
+    links?: InformationAndTicketsElement[];
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
 
     [key: string]: any;
 

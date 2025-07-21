@@ -1,29 +1,28 @@
 import { AvailableLanguages, IAvailableLanguages } from "./AvailableLanguages";
 
-
 export interface IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo   {
         
         /** location code */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the location */
-        location_name?: string | undefined
+        location_name?: string
         
         /** the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API */
-        location_code_parent?: string | undefined
+        location_code_parent?: string
         
         /** ISO country code of the location */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** location type
 possible values:
 Country */
-        location_type?: string | undefined
+        location_type?: string
         
         /** supported languages
 contains the languages which are supported for a specific location */
-        available_languages?: AvailableLanguages[] | undefined
+        available_languages?: AvailableLanguages[]
 
     [key: string]: any;
 
@@ -33,31 +32,31 @@ export class KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo  impleme
     
     /** location code */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the location */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API */
 
-    location_code_parent?: string | undefined;
+    location_code_parent?: string;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** location type
 possible values:
 Country */
 
-    location_type?: string | undefined;
+    location_type?: string;
     
     /** supported languages
 contains the languages which are supported for a specific location */
 
-    available_languages?: AvailableLanguages[] | undefined;
+    available_languages?: AvailableLanguages[];
 
     [key: string]: any;
 

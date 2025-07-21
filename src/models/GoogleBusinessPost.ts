@@ -1,54 +1,53 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
 
-
 export interface IGoogleBusinessPost   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank among all the listed updates
 absolute position among all present elements */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** the alignment of the element in SERP
 can take the following values: right */
-        position?: string | undefined
+        position?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** author of the post */
-        author?: string | undefined
+        author?: string
         
         /** additional content of a post */
-        snippet?: string | undefined
+        snippet?: string
         
         /** main content of a post */
-        post_text?: string | undefined
+        post_text?: string
         
         /** url of a post */
-        url?: string | undefined
+        url?: string
         
         /** url of an image included in the post */
-        images_url?: string | undefined
+        images_url?: string
         
         /** date when a post was published
 in the following format:
 'mm/dd/yyyy hh:mm:ss' */
-        post_date?: string | undefined
+        post_date?: string
         
         /** time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** links included in the post */
-        links?: LinkElement[] | undefined
+        links?: LinkElement[]
 
     [key: string]: any;
 
@@ -58,63 +57,63 @@ export class GoogleBusinessPost  implements IGoogleBusinessPost {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank among all the listed updates
 absolute position among all present elements */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** the alignment of the element in SERP
 can take the following values: right */
 
-    position?: string | undefined;
+    position?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** author of the post */
 
-    author?: string | undefined;
+    author?: string;
     
     /** additional content of a post */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** main content of a post */
 
-    post_text?: string | undefined;
+    post_text?: string;
     
     /** url of a post */
 
-    url?: string | undefined;
+    url?: string;
     
     /** url of an image included in the post */
 
-    images_url?: string | undefined;
+    images_url?: string;
     
     /** date when a post was published
 in the following format:
 'mm/dd/yyyy hh:mm:ss' */
 
-    post_date?: string | undefined;
+    post_date?: string;
     
     /** time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** links included in the post */
 
-    links?: LinkElement[] | undefined;
+    links?: LinkElement[];
 
     [key: string]: any;
 

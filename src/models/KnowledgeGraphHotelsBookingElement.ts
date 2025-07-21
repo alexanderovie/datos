@@ -1,29 +1,28 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
-
 export interface IKnowledgeGraphHotelsBookingElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** source of additional information about the result */
-        source?: string | undefined
+        source?: string
         
         /** description of the results element in SERP */
-        description?: string | undefined
+        description?: string
         
         /** relevant URL */
-        url?: string | undefined
+        url?: string
         
         /** domain where a link points */
-        domain?: string | undefined
+        domain?: string
         
         /** pricing details
 contains the pricing details of the product or service featured in the result */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** indicates whether the element is an ad */
-        is_paid?: boolean | undefined
+        is_paid?: boolean
 
     [key: string]: any;
 
@@ -33,32 +32,32 @@ export class KnowledgeGraphHotelsBookingElement  implements IKnowledgeGraphHotel
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** source of additional information about the result */
 
-    source?: string | undefined;
+    source?: string;
     
     /** description of the results element in SERP */
 
-    description?: string | undefined;
+    description?: string;
     
     /** relevant URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain where a link points */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** pricing details
 contains the pricing details of the product or service featured in the result */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** indicates whether the element is an ad */
 
-    is_paid?: boolean | undefined;
+    is_paid?: boolean;
 
     [key: string]: any;
 

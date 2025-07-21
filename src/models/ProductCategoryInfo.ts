@@ -1,11 +1,11 @@
 export interface IProductCategoryInfo   {
         
         /** product category name */
-        category?: string | undefined
+        category?: string
         
         /** product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -15,12 +15,12 @@ export class ProductCategoryInfo  implements IProductCategoryInfo {
     
     /** product category name */
 
-    category?: string | undefined;
+    category?: string;
     
     /** product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { DataforseoLabsAmazonRankedKeywordsLiveTaskInfo, IDataforseoLabsAmazonRankedKeywordsLiveTaskInfo } from "./DataforseoLabsAmazonRankedKeywordsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IDataforseoLabsAmazonRankedKeywordsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsAmazonRankedKeywordsLiveTaskInfo[] | undefined
+        tasks?: DataforseoLabsAmazonRankedKeywordsLiveTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsAmazonRankedKeywordsLiveResponseInfo  extends BaseRes
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsAmazonRankedKeywordsLiveTaskInfo[] | undefined;
+    tasks?: DataforseoLabsAmazonRankedKeywordsLiveTaskInfo[];
 
     [key: string]: any;
 

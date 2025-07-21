@@ -1,11 +1,11 @@
 export interface IQueriesListDataItemInfo   {
         
         /** related query */
-        query?: string | undefined
+        query?: string
         
         /** search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on. */
-        value?: number | undefined
+        value?: number
 
     [key: string]: any;
 
@@ -15,12 +15,12 @@ export class QueriesListDataItemInfo  implements IQueriesListDataItemInfo {
     
     /** related query */
 
-    query?: string | undefined;
+    query?: string;
     
     /** search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on. */
 
-    value?: number | undefined;
+    value?: number;
 
     [key: string]: any;
 

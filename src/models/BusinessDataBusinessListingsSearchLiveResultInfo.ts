@@ -1,27 +1,26 @@
 import { BusinessDataBusinessListingsSearchLiveItem, IBusinessDataBusinessListingsSearchLiveItem } from "./BusinessDataBusinessListingsSearchLiveItem";
 
-
 export interface IBusinessDataBusinessListingsSearchLiveResultInfo   {
         
         /** total number of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** item types
 the number of items in the items array */
-        count?: number | undefined
+        count?: number
         
         /** offset in the results array of returned businesses */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_listing */
-        items?: BusinessDataBusinessListingsSearchLiveItem[] | undefined
+        items?: BusinessDataBusinessListingsSearchLiveItem[]
 
     [key: string]: any;
 
@@ -31,28 +30,28 @@ export class BusinessDataBusinessListingsSearchLiveResultInfo  implements IBusin
     
     /** total number of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** item types
 the number of items in the items array */
 
-    count?: number | undefined;
+    count?: number;
     
     /** offset in the results array of returned businesses */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_listing */
 
-    items?: BusinessDataBusinessListingsSearchLiveItem[] | undefined;
+    items?: BusinessDataBusinessListingsSearchLiveItem[];
 
     [key: string]: any;
 

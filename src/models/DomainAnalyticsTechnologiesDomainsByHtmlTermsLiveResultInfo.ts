@@ -1,24 +1,23 @@
 import { DomainAnalyticsTechnologiesDomainsByLiveItem, IDomainAnalyticsTechnologiesDomainsByLiveItem } from "./DomainAnalyticsTechnologiesDomainsByLiveItem";
 
-
 export interface IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo   {
         
         /** total number of relevant items in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** specified offset value */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** items array */
-        items?: DomainAnalyticsTechnologiesDomainsByLiveItem[] | undefined
+        items?: DomainAnalyticsTechnologiesDomainsByLiveItem[]
 
     [key: string]: any;
 
@@ -28,25 +27,25 @@ export class DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo  implem
     
     /** total number of relevant items in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** specified offset value */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** items array */
 
-    items?: DomainAnalyticsTechnologiesDomainsByLiveItem[] | undefined;
+    items?: DomainAnalyticsTechnologiesDomainsByLiveItem[];
 
     [key: string]: any;
 

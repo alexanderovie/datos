@@ -1,23 +1,22 @@
 import { AppDataGoogleAppListingsSearchLiveItem, IAppDataGoogleAppListingsSearchLiveItem } from "./AppDataGoogleAppListingsSearchLiveItem";
 
-
 export interface IAppDataGoogleAppListingsSearchLiveResultInfo   {
         
         /** the total number of relevant results in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of items in the results array */
-        count?: number | undefined
+        count?: number
         
         /** offset in the results array of returned apps */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** array of apps and related data */
-        items?: AppDataGoogleAppListingsSearchLiveItem[] | undefined
+        items?: AppDataGoogleAppListingsSearchLiveItem[]
 
     [key: string]: any;
 
@@ -27,24 +26,24 @@ export class AppDataGoogleAppListingsSearchLiveResultInfo  implements IAppDataGo
     
     /** the total number of relevant results in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of items in the results array */
 
-    count?: number | undefined;
+    count?: number;
     
     /** offset in the results array of returned apps */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** array of apps and related data */
 
-    items?: AppDataGoogleAppListingsSearchLiveItem[] | undefined;
+    items?: AppDataGoogleAppListingsSearchLiveItem[];
 
     [key: string]: any;
 

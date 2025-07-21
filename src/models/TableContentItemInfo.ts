@@ -1,10 +1,9 @@
 import { RowCellInfo, IRowCellInfo } from "./RowCellInfo";
 
-
 export interface ITableContentItemInfo   {
         
         /** content of the row cells of the header */
-        row_cells?: RowCellInfo[] | undefined
+        row_cells?: RowCellInfo[]
 
     [key: string]: any;
 
@@ -14,7 +13,7 @@ export class TableContentItemInfo  implements ITableContentItemInfo {
     
     /** content of the row cells of the header */
 
-    row_cells?: RowCellInfo[] | undefined;
+    row_cells?: RowCellInfo[];
 
     [key: string]: any;
 

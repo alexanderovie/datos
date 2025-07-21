@@ -1,11 +1,10 @@
 import { AppDataAppleAppReviewsTasksReadyTaskInfo, IAppDataAppleAppReviewsTasksReadyTaskInfo } from "./AppDataAppleAppReviewsTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IAppDataAppleAppReviewsTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: AppDataAppleAppReviewsTasksReadyTaskInfo[] | undefined
+        tasks?: AppDataAppleAppReviewsTasksReadyTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class AppDataAppleAppReviewsTasksReadyResponseInfo  extends BaseResponseI
     
     /** array of tasks */
 
-    tasks?: AppDataAppleAppReviewsTasksReadyTaskInfo[] | undefined;
+    tasks?: AppDataAppleAppReviewsTasksReadyTaskInfo[];
 
     [key: string]: any;
 

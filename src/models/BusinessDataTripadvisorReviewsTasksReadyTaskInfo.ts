@@ -1,11 +1,10 @@
 import { BusinessDataTripadvisorReviewsTasksReadyResultInfo, IBusinessDataTripadvisorReviewsTasksReadyResultInfo } from "./BusinessDataTripadvisorReviewsTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IBusinessDataTripadvisorReviewsTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataTripadvisorReviewsTasksReadyResultInfo[] | undefined
+        result?: BusinessDataTripadvisorReviewsTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataTripadvisorReviewsTasksReadyTaskInfo  extends BaseRespo
     
     /** array of results */
 
-    result?: BusinessDataTripadvisorReviewsTasksReadyResultInfo[] | undefined;
+    result?: BusinessDataTripadvisorReviewsTasksReadyResultInfo[];
 
     [key: string]: any;
 

@@ -1,19 +1,18 @@
 import { BacklinksAnchorsLiveItem, IBacklinksAnchorsLiveItem } from "./BacklinksAnchorsLiveItem";
 
-
 export interface IBacklinksAnchorsLiveResultInfo   {
         
         /** target in the post array */
-        target?: string | undefined
+        target?: string
         
         /** total number of relevant items in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of items in the results array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: BacklinksAnchorsLiveItem[] | undefined
+        items?: BacklinksAnchorsLiveItem[]
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class BacklinksAnchorsLiveResultInfo  implements IBacklinksAnchorsLiveRes
     
     /** target in the post array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** total number of relevant items in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of items in the results array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: BacklinksAnchorsLiveItem[] | undefined;
+    items?: BacklinksAnchorsLiveItem[];
 
     [key: string]: any;
 

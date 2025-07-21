@@ -1,34 +1,34 @@
 export interface IJobsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
         
         /** author */
-        author?: string | undefined
+        author?: string
         
         /** the time when the job was posted */
-        job_posted_time?: string | undefined
+        job_posted_time?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** contract type */
-        contract_type?: string | undefined
+        contract_type?: string
         
         /** salary */
-        salary?: string | undefined
+        salary?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
 
     [key: string]: any;
 
@@ -38,42 +38,42 @@ export class JobsElement  implements IJobsElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** author */
 
-    author?: string | undefined;
+    author?: string;
     
     /** the time when the job was posted */
 
-    job_posted_time?: string | undefined;
+    job_posted_time?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** contract type */
 
-    contract_type?: string | undefined;
+    contract_type?: string;
     
     /** salary */
 
-    salary?: string | undefined;
+    salary?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
 
     [key: string]: any;
 

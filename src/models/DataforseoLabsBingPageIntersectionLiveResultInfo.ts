@@ -1,33 +1,32 @@
 import { DataforseoLabsPageIntersectionLiveItem, IDataforseoLabsPageIntersectionLiveItem } from "./DataforseoLabsPageIntersectionLiveItem";
 
-
 export interface IDataforseoLabsBingPageIntersectionLiveResultInfo   {
         
         /** search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing */
-        se_type?: string | undefined
+        se_type?: string
         
         /** URLs you specified a POST array */
-        pages?: { [key: string]: string; } | undefined
+        pages?: { [key: string]: string; }
         
         /** URLs you specified in a POST array that will be excluded from the results */
-        exclude_pages?: string[] | undefined
+        exclude_pages?: string[]
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains keywords, relevant SERP elements and related data */
-        items?: DataforseoLabsPageIntersectionLiveItem[] | undefined
+        items?: DataforseoLabsPageIntersectionLiveItem[]
 
     [key: string]: any;
 
@@ -39,35 +38,35 @@ export class DataforseoLabsBingPageIntersectionLiveResultInfo  implements IDataf
 search engine type specified in a POST request;
 for this endpoint, the field equals bing */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** URLs you specified a POST array */
 
-    pages?: { [key: string]: string; } | undefined;
+    pages?: { [key: string]: string; };
     
     /** URLs you specified in a POST array that will be excluded from the results */
 
-    exclude_pages?: string[] | undefined;
+    exclude_pages?: string[];
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains keywords, relevant SERP elements and related data */
 
-    items?: DataforseoLabsPageIntersectionLiveItem[] | undefined;
+    items?: DataforseoLabsPageIntersectionLiveItem[];
 
     [key: string]: any;
 

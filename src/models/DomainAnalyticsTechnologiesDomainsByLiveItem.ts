@@ -1,61 +1,60 @@
 import { TechnologiesInfo, ITechnologiesInfo } from "./TechnologiesInfo";
 
-
 export interface IDomainAnalyticsTechnologiesDomainsByLiveItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** specified domain name */
-        domain?: string | undefined
+        domain?: string
         
         /** domain meta title */
-        title?: string | undefined
+        title?: string
         
         /** domain meta description */
-        description?: string | undefined
+        description?: string
         
         /** domain meta keywords */
-        meta_keywords?: string[] | undefined
+        meta_keywords?: string[]
         
         /** backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article */
-        domain_rank?: number | undefined
+        domain_rank?: number
         
         /** most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-10-10 12:57:46 +00:00 */
-        last_visited?: string | undefined
+        last_visited?: string
         
         /** domain ISO code
 ISO code of the country that target domain is determined to belong to */
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
         /** domain language
 code of the language that target domain is determined to be associated with */
-        language_code?: string | undefined
+        language_code?: string
         
         /** content language
 code of the language that content on the target domain is written with */
-        content_language_code?: string | undefined
+        content_language_code?: string
         
         /** phone numbers of the target
 contact phone numbers indicated on the target website */
-        phone_numbers?: string[] | undefined
+        phone_numbers?: string[]
         
         /** emails of the target
 emails indicated on the target website */
-        emails?: string[] | undefined
+        emails?: string[]
         
         /** social media links and handles
 social media URLs detected in the social graphs of the target website */
-        social_graph_urls?: string[] | undefined
+        social_graph_urls?: string[]
         
         /** technologies used by target domain
 contains objects with the names of technologies used on the website;
 to get a full list of technologies and their structure, refer to the technologies endpoint */
-        technologies?: TechnologiesInfo | undefined
+        technologies?: TechnologiesInfo
 
     [key: string]: any;
 
@@ -65,71 +64,71 @@ export class DomainAnalyticsTechnologiesDomainsByLiveItem  implements IDomainAna
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** specified domain name */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** domain meta title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** domain meta description */
 
-    description?: string | undefined;
+    description?: string;
     
     /** domain meta keywords */
 
-    meta_keywords?: string[] | undefined;
+    meta_keywords?: string[];
     
     /** backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article */
 
-    domain_rank?: number | undefined;
+    domain_rank?: number;
     
     /** most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-10-10 12:57:46 +00:00 */
 
-    last_visited?: string | undefined;
+    last_visited?: string;
     
     /** domain ISO code
 ISO code of the country that target domain is determined to belong to */
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
     
     /** domain language
 code of the language that target domain is determined to be associated with */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** content language
 code of the language that content on the target domain is written with */
 
-    content_language_code?: string | undefined;
+    content_language_code?: string;
     
     /** phone numbers of the target
 contact phone numbers indicated on the target website */
 
-    phone_numbers?: string[] | undefined;
+    phone_numbers?: string[];
     
     /** emails of the target
 emails indicated on the target website */
 
-    emails?: string[] | undefined;
+    emails?: string[];
     
     /** social media links and handles
 social media URLs detected in the social graphs of the target website */
 
-    social_graph_urls?: string[] | undefined;
+    social_graph_urls?: string[];
     
     /** technologies used by target domain
 contains objects with the names of technologies used on the website;
 to get a full list of technologies and their structure, refer to the technologies endpoint */
 
-    technologies?: TechnologiesInfo | undefined;
+    technologies?: TechnologiesInfo;
 
     [key: string]: any;
 

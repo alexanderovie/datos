@@ -1,27 +1,26 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixContentAnalysisLimitsRatesDataInfo   {
         
-        search?: AppendixInfo | undefined
+        search?: AppendixInfo
         
-        summary?: AppendixInfo | undefined
+        summary?: AppendixInfo
         
-        sentiment_analysis?: AppendixInfo | undefined
+        sentiment_analysis?: AppendixInfo
         
-        rating_distribution?: AppendixInfo | undefined
+        rating_distribution?: AppendixInfo
         
-        phrase_trends?: AppendixInfo | undefined
+        phrase_trends?: AppendixInfo
         
-        category_trends?: AppendixInfo | undefined
+        category_trends?: AppendixInfo
         
-        locations?: number | undefined
+        locations?: number
         
-        languages?: number | undefined
+        languages?: number
         
-        categories?: number | undefined
+        categories?: number
         
-        errors?: number | undefined
+        errors?: number
 
     [key: string]: any;
 
@@ -29,25 +28,25 @@ export interface IAppendixContentAnalysisLimitsRatesDataInfo   {
 
 export class AppendixContentAnalysisLimitsRatesDataInfo  implements IAppendixContentAnalysisLimitsRatesDataInfo {
 
-    search?: AppendixInfo | undefined;
+    search?: AppendixInfo;
 
-    summary?: AppendixInfo | undefined;
+    summary?: AppendixInfo;
 
-    sentiment_analysis?: AppendixInfo | undefined;
+    sentiment_analysis?: AppendixInfo;
 
-    rating_distribution?: AppendixInfo | undefined;
+    rating_distribution?: AppendixInfo;
 
-    phrase_trends?: AppendixInfo | undefined;
+    phrase_trends?: AppendixInfo;
 
-    category_trends?: AppendixInfo | undefined;
+    category_trends?: AppendixInfo;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    categories?: number | undefined;
+    categories?: number;
 
-    errors?: number | undefined;
+    errors?: number;
 
     [key: string]: any;
 

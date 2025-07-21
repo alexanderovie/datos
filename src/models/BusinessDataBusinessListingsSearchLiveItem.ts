@@ -7,93 +7,92 @@ import { PopularTimes, IPopularTimes } from "./PopularTimes";
 import { BaseLocalBusinessLink, IBaseLocalBusinessLink } from "./BaseLocalBusinessLink";
 import { BusinessDataContactInfo, IBusinessDataContactInfo } from "./BusinessDataContactInfo";
 
-
 export interface IBusinessDataBusinessListingsSearchLiveItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the element in SERP
 the name of the business entity for which the results are collected */
-        title?: string | undefined
+        title?: string
         
         /** original title of the element
 original title not translated by Google */
-        original_title?: string | undefined
+        original_title?: string
         
         /** description of the element in SERP
 the description of the business entity for which the results are collected */
-        description?: string | undefined
+        description?: string
         
         /** business category
 Google My Business general category that best describes the services provided by the business entity */
-        category?: string | undefined
+        category?: string
         
         /** global category IDs
 universal category IDs that do not change based on the selected country */
-        category_ids?: string[] | undefined
+        category_ids?: string[]
         
         /** additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail */
-        additional_categories?: string[] | undefined
+        additional_categories?: string[]
         
         /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
-        cid?: string | undefined
+        cid?: string
         
         /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
-        feature_id?: string | undefined
+        feature_id?: string
         
         /** address of the business entity */
-        address?: string | undefined
+        address?: string
         
         /** object containing address components of the business entity */
-        address_info?: AddressInfo | undefined
+        address_info?: AddressInfo
         
         /** unique place identifier
 place id of the local establishment featured in the element
 learn more about the identifier in this help center article */
-        place_id?: string | undefined
+        place_id?: string
         
         /** phone number of the business entity */
-        phone?: string | undefined
+        phone?: string
         
         /** absolute url of the business entity */
-        url?: string | undefined
+        url?: string
         
         /** domain of the business entity */
-        domain?: string | undefined
+        domain?: string
         
         /** URL of the logo featured in Google My Business profile */
-        logo?: string | undefined
+        logo?: string
         
         /** URL of the main image featured in Google My Business profile */
-        main_image?: string | undefined
+        main_image?: string
         
         /** total count of images featured in Google My Business profile */
-        total_photos?: number | undefined
+        total_photos?: number
         
         /** additional information on the business entity */
-        snippet?: string | undefined
+        snippet?: string
         
         /** latitude coordinate of the local establishments in google maps
 example:
 'latitude': 51.584091 */
-        latitude?: number | undefined
+        latitude?: number
         
         /** longitude coordinate of the local establishment in google maps
 example:
 'longitude': -0.31365919999999997 */
-        longitude?: number | undefined
+        longitude?: number
         
         /** shows whether the entity is verified by its owner on Google Maps */
-        is_claimed?: boolean | undefined
+        is_claimed?: boolean
         
         /** service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category */
-        attributes?: BusinessDataAttributesInfo | undefined
+        attributes?: BusinessDataAttributesInfo
         
         /** keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -102,60 +101,60 @@ example:
 'egg roll': 48,
 'birthday': 33
 } */
-        place_topics?: { [key: string]: number; } | undefined
+        place_topics?: { [key: string]: number; }
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingInfo | undefined
+        rating?: RatingInfo
         
         /** hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null */
-        hotel_rating?: number | undefined
+        hotel_rating?: number
         
         /** property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null */
-        price_level?: string | undefined
+        price_level?: string
         
         /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
-        rating_distribution?: { [key: string]: number; } | undefined
+        rating_distribution?: { [key: string]: number; }
         
         /** related business entities */
-        people_also_search?: PeopleAlsoSearch[] | undefined
+        people_also_search?: PeopleAlsoSearch[]
         
         /** work time details
 information related to operational hours of the business entity */
-        work_time?: BusinessWorkHoursInfo | undefined
+        work_time?: BusinessWorkHoursInfo
         
         /** popular times
 information related to busy hours of the business entity */
-        popular_times?: PopularTimes | undefined
+        popular_times?: PopularTimes
         
         /** available interactions with the business
 list of options to interact with the business directly from search results */
-        local_business_links?: BaseLocalBusinessLink[] | undefined
+        local_business_links?: BaseLocalBusinessLink[]
         
         /** available contacts of the business
 list of contacts to interact with the business */
-        contact_info?: BusinessDataContactInfo[] | undefined
+        contact_info?: BusinessDataContactInfo[]
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** date and time when the data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-26 09:03:15 +00:00 */
-        last_updated_time?: string | undefined
+        last_updated_time?: string
         
         /** date and time when our crawler found the business listing element for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-03-11 10:04:11 +00:00 */
-        first_seen?: string | undefined
+        first_seen?: string
 
     [key: string]: any;
 
@@ -165,111 +164,111 @@ export class BusinessDataBusinessListingsSearchLiveItem  implements IBusinessDat
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the element in SERP
 the name of the business entity for which the results are collected */
 
-    title?: string | undefined;
+    title?: string;
     
     /** original title of the element
 original title not translated by Google */
 
-    original_title?: string | undefined;
+    original_title?: string;
     
     /** description of the element in SERP
 the description of the business entity for which the results are collected */
 
-    description?: string | undefined;
+    description?: string;
     
     /** business category
 Google My Business general category that best describes the services provided by the business entity */
 
-    category?: string | undefined;
+    category?: string;
     
     /** global category IDs
 universal category IDs that do not change based on the selected country */
 
-    category_ids?: string[] | undefined;
+    category_ids?: string[];
     
     /** additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail */
 
-    additional_categories?: string[] | undefined;
+    additional_categories?: string[];
     
     /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
 
-    cid?: string | undefined;
+    cid?: string;
     
     /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
 
-    feature_id?: string | undefined;
+    feature_id?: string;
     
     /** address of the business entity */
 
-    address?: string | undefined;
+    address?: string;
     
     /** object containing address components of the business entity */
 
-    address_info?: AddressInfo | undefined;
+    address_info?: AddressInfo;
     
     /** unique place identifier
 place id of the local establishment featured in the element
 learn more about the identifier in this help center article */
 
-    place_id?: string | undefined;
+    place_id?: string;
     
     /** phone number of the business entity */
 
-    phone?: string | undefined;
+    phone?: string;
     
     /** absolute url of the business entity */
 
-    url?: string | undefined;
+    url?: string;
     
     /** domain of the business entity */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** URL of the logo featured in Google My Business profile */
 
-    logo?: string | undefined;
+    logo?: string;
     
     /** URL of the main image featured in Google My Business profile */
 
-    main_image?: string | undefined;
+    main_image?: string;
     
     /** total count of images featured in Google My Business profile */
 
-    total_photos?: number | undefined;
+    total_photos?: number;
     
     /** additional information on the business entity */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** latitude coordinate of the local establishments in google maps
 example:
 'latitude': 51.584091 */
 
-    latitude?: number | undefined;
+    latitude?: number;
     
     /** longitude coordinate of the local establishment in google maps
 example:
 'longitude': -0.31365919999999997 */
 
-    longitude?: number | undefined;
+    longitude?: number;
     
     /** shows whether the entity is verified by its owner on Google Maps */
 
-    is_claimed?: boolean | undefined;
+    is_claimed?: boolean;
     
     /** service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category */
 
-    attributes?: BusinessDataAttributesInfo | undefined;
+    attributes?: BusinessDataAttributesInfo;
     
     /** keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -279,72 +278,72 @@ example:
 'birthday': 33
 } */
 
-    place_topics?: { [key: string]: number; } | undefined;
+    place_topics?: { [key: string]: number; };
     
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingInfo | undefined;
+    rating?: RatingInfo;
     
     /** hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null */
 
-    hotel_rating?: number | undefined;
+    hotel_rating?: number;
     
     /** property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null */
 
-    price_level?: string | undefined;
+    price_level?: string;
     
     /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
 
-    rating_distribution?: { [key: string]: number; } | undefined;
+    rating_distribution?: { [key: string]: number; };
     
     /** related business entities */
 
-    people_also_search?: PeopleAlsoSearch[] | undefined;
+    people_also_search?: PeopleAlsoSearch[];
     
     /** work time details
 information related to operational hours of the business entity */
 
-    work_time?: BusinessWorkHoursInfo | undefined;
+    work_time?: BusinessWorkHoursInfo;
     
     /** popular times
 information related to busy hours of the business entity */
 
-    popular_times?: PopularTimes | undefined;
+    popular_times?: PopularTimes;
     
     /** available interactions with the business
 list of options to interact with the business directly from search results */
 
-    local_business_links?: BaseLocalBusinessLink[] | undefined;
+    local_business_links?: BaseLocalBusinessLink[];
     
     /** available contacts of the business
 list of contacts to interact with the business */
 
-    contact_info?: BusinessDataContactInfo[] | undefined;
+    contact_info?: BusinessDataContactInfo[];
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** date and time when the data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-26 09:03:15 +00:00 */
 
-    last_updated_time?: string | undefined;
+    last_updated_time?: string;
     
     /** date and time when our crawler found the business listing element for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-03-11 10:04:11 +00:00 */
 
-    first_seen?: string | undefined;
+    first_seen?: string;
 
     [key: string]: any;
 

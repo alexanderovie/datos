@@ -1,8 +1,8 @@
 export interface IContentAnalysisCategoriesInfo   {
         
-        category?: number[] | undefined
+        category?: number[]
         
-        count?: number | undefined
+        count?: number
 
     [key: string]: any;
 
@@ -10,9 +10,9 @@ export interface IContentAnalysisCategoriesInfo   {
 
 export class ContentAnalysisCategoriesInfo  implements IContentAnalysisCategoriesInfo {
 
-    category?: number[] | undefined;
+    category?: number[];
 
-    count?: number | undefined;
+    count?: number;
 
     [key: string]: any;
 

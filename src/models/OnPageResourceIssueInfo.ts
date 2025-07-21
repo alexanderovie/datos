@@ -1,13 +1,12 @@
 import { OnPageResourceIssueItemInfo, IOnPageResourceIssueItemInfo } from "./OnPageResourceIssueItemInfo";
 
-
 export interface IOnPageResourceIssueInfo   {
         
         /** resource errors */
-        errors?: OnPageResourceIssueItemInfo[] | undefined
+        errors?: OnPageResourceIssueItemInfo[]
         
         /** resource warnings */
-        warnings?: OnPageResourceIssueItemInfo[] | undefined
+        warnings?: OnPageResourceIssueItemInfo[]
 
     [key: string]: any;
 
@@ -17,11 +16,11 @@ export class OnPageResourceIssueInfo  implements IOnPageResourceIssueInfo {
     
     /** resource errors */
 
-    errors?: OnPageResourceIssueItemInfo[] | undefined;
+    errors?: OnPageResourceIssueItemInfo[];
     
     /** resource warnings */
 
-    warnings?: OnPageResourceIssueItemInfo[] | undefined;
+    warnings?: OnPageResourceIssueItemInfo[];
 
     [key: string]: any;
 

@@ -1,13 +1,12 @@
 import { AppendixPriorityTasksReadyKeywordsDataPriceDataInfo, IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo } from "./AppendixPriorityTasksReadyKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixTaskKeywordsDataPriceDataInfo   {
         
-        priority_low?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined
+        priority_low?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[]
         
-        priority_normal?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined
+        priority_normal?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[]
         
-        priority_high?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined
+        priority_high?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[]
 
     [key: string]: any;
 
@@ -15,11 +14,11 @@ export interface IAppendixTaskKeywordsDataPriceDataInfo   {
 
 export class AppendixTaskKeywordsDataPriceDataInfo  implements IAppendixTaskKeywordsDataPriceDataInfo {
 
-    priority_low?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined;
+    priority_low?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[];
 
-    priority_normal?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined;
+    priority_normal?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[];
 
-    priority_high?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[] | undefined;
+    priority_high?: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo[];
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { OnPageIdListResultInfo, IOnPageIdListResultInfo } from "./OnPageIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageIdListResultInfo[] | undefined
+        result?: OnPageIdListResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageIdListTaskInfo  extends BaseResponseTaskInfo   implements IOn
     
     /** array of results */
 
-    result?: OnPageIdListResultInfo[] | undefined;
+    result?: OnPageIdListResultInfo[];
 
     [key: string]: any;
 

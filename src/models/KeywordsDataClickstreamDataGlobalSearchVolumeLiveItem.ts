@@ -1,20 +1,19 @@
 import { CountryDistribution, ICountryDistribution } from "./CountryDistribution";
 
-
 export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem   {
         
         /** keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream
 you can learn more about clickstream search volume in this Help Center article */
-        search_volume?: number | undefined
+        search_volume?: number
         
         /** distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
-        country_distribution?: CountryDistribution[] | undefined
+        country_distribution?: CountryDistribution[]
 
     [key: string]: any;
 
@@ -25,18 +24,18 @@ export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem  implements I
     /** keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream
 you can learn more about clickstream search volume in this Help Center article */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
     
     /** distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
 
-    country_distribution?: CountryDistribution[] | undefined;
+    country_distribution?: CountryDistribution[];
 
     [key: string]: any;
 

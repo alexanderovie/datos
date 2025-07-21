@@ -1,11 +1,10 @@
 import { SerpGoogleAutocompleteTasksReadyResultInfo, ISerpGoogleAutocompleteTasksReadyResultInfo } from "./SerpGoogleAutocompleteTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleAutocompleteTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleAutocompleteTasksReadyResultInfo[] | undefined
+        result?: SerpGoogleAutocompleteTasksReadyResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleAutocompleteTasksReadyTaskInfo  extends BaseResponseTaskI
     
     /** array of results */
 
-    result?: SerpGoogleAutocompleteTasksReadyResultInfo[] | undefined;
+    result?: SerpGoogleAutocompleteTasksReadyResultInfo[];
 
     [key: string]: any;
 

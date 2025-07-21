@@ -1,11 +1,10 @@
 import { ContentGenerationTextSummaryLanguagesResultInfo, IContentGenerationTextSummaryLanguagesResultInfo } from "./ContentGenerationTextSummaryLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IContentGenerationTextSummaryLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentGenerationTextSummaryLanguagesResultInfo[] | undefined
+        result?: ContentGenerationTextSummaryLanguagesResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentGenerationTextSummaryLanguagesTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: ContentGenerationTextSummaryLanguagesResultInfo[] | undefined;
+    result?: ContentGenerationTextSummaryLanguagesResultInfo[];
 
     [key: string]: any;
 

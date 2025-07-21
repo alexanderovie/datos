@@ -5,37 +5,36 @@ import { ContentOfferInfo, IContentOfferInfo } from "./ContentOfferInfo";
 import { ContentCommentInfo, IContentCommentInfo } from "./ContentCommentInfo";
 import { Contacts, IContacts } from "./Contacts";
 
-
 export interface IPageContentInfo   {
         
         /** content of the header of the table */
-        header?: PageSectionContentInfo | undefined
+        header?: PageSectionContentInfo
         
         /** content of the footer of the table */
-        footer?: PageSectionContentInfo | undefined
+        footer?: PageSectionContentInfo
         
         /** main topic on the page
 you can find more information about topic priority calculation in this help center article */
-        main_topic?: TopicInfo[] | undefined
+        main_topic?: TopicInfo[]
         
         /** secondary topic on the page
 you can find more information about topic priority calculation in this help center article */
-        secondary_topic?: TopicInfo[] | undefined
+        secondary_topic?: TopicInfo[]
         
         /** contains objects with rating information for the products displayed on the page */
-        ratings?: ContentRatingInfo[] | undefined
+        ratings?: ContentRatingInfo[]
         
         /** array of products displayed on the page
 contains objects with information on products displayed on the page */
-        offers?: ContentOfferInfo[] | undefined
+        offers?: ContentOfferInfo[]
         
         /** array of comments displayed on the page
 contains objects with information on comments related to displayed products */
-        comments?: ContentCommentInfo[] | undefined
+        comments?: ContentCommentInfo[]
         
         /** contact information
 contains contact information displayed on the page */
-        contacts?: Contacts | undefined
+        contacts?: Contacts
 
     [key: string]: any;
 
@@ -45,40 +44,40 @@ export class PageContentInfo  implements IPageContentInfo {
     
     /** content of the header of the table */
 
-    header?: PageSectionContentInfo | undefined;
+    header?: PageSectionContentInfo;
     
     /** content of the footer of the table */
 
-    footer?: PageSectionContentInfo | undefined;
+    footer?: PageSectionContentInfo;
     
     /** main topic on the page
 you can find more information about topic priority calculation in this help center article */
 
-    main_topic?: TopicInfo[] | undefined;
+    main_topic?: TopicInfo[];
     
     /** secondary topic on the page
 you can find more information about topic priority calculation in this help center article */
 
-    secondary_topic?: TopicInfo[] | undefined;
+    secondary_topic?: TopicInfo[];
     
     /** contains objects with rating information for the products displayed on the page */
 
-    ratings?: ContentRatingInfo[] | undefined;
+    ratings?: ContentRatingInfo[];
     
     /** array of products displayed on the page
 contains objects with information on products displayed on the page */
 
-    offers?: ContentOfferInfo[] | undefined;
+    offers?: ContentOfferInfo[];
     
     /** array of comments displayed on the page
 contains objects with information on comments related to displayed products */
 
-    comments?: ContentCommentInfo[] | undefined;
+    comments?: ContentCommentInfo[];
     
     /** contact information
 contains contact information displayed on the page */
 
-    contacts?: Contacts | undefined;
+    contacts?: Contacts;
 
     [key: string]: any;
 

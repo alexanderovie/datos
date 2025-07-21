@@ -6,55 +6,54 @@ import { SerpInfo, ISerpInfo } from "./SerpInfo";
 import { AvgBacklinksInfo, IAvgBacklinksInfo } from "./AvgBacklinksInfo";
 import { SearchIntentInfo, ISearchIntentInfo } from "./SearchIntentInfo";
 
-
 export interface IDataforseoLabsGoogleKeywordOverviewLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only */
-        search_partners?: boolean | undefined
+        search_partners?: boolean
         
         /** keyword data for the returned keyword */
-        keyword_info?: KeywordInfo | undefined
+        keyword_info?: KeywordInfo
         
         /** contains keyword search volume normalized with Bing search volume */
-        keyword_info_normalized_with_bing?: KeywordInfoNormalizedWithInfo | undefined
+        keyword_info_normalized_with_bing?: KeywordInfoNormalizedWithInfo
         
         /** contains keyword search volume normalized with clickstream data */
-        keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo | undefined
+        keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo
         
         /** clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true */
-        clickstream_keyword_info?: ClickstreamKeywordInfo | undefined
+        clickstream_keyword_info?: ClickstreamKeywordInfo
         
         /** additional information about the keyword */
-        keyword_properties?: KeywordProperties | undefined
+        keyword_properties?: KeywordProperties
         
         /** SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
-        serp_info?: SerpInfo | undefined
+        serp_info?: SerpInfo
         
         /** backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword */
-        avg_backlinks_info?: AvgBacklinksInfo | undefined
+        avg_backlinks_info?: AvgBacklinksInfo
         
         /** search intent info for the returned keyword
 learn about search intent in this help center article */
-        search_intent_info?: SearchIntentInfo | undefined
+        search_intent_info?: SearchIntentInfo
 
     [key: string]: any;
 
@@ -64,63 +63,63 @@ export class DataforseoLabsGoogleKeywordOverviewLiveItem  implements IDataforseo
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only */
 
-    search_partners?: boolean | undefined;
+    search_partners?: boolean;
     
     /** keyword data for the returned keyword */
 
-    keyword_info?: KeywordInfo | undefined;
+    keyword_info?: KeywordInfo;
     
     /** contains keyword search volume normalized with Bing search volume */
 
-    keyword_info_normalized_with_bing?: KeywordInfoNormalizedWithInfo | undefined;
+    keyword_info_normalized_with_bing?: KeywordInfoNormalizedWithInfo;
     
     /** contains keyword search volume normalized with clickstream data */
 
-    keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo | undefined;
+    keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo;
     
     /** clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true */
 
-    clickstream_keyword_info?: ClickstreamKeywordInfo | undefined;
+    clickstream_keyword_info?: ClickstreamKeywordInfo;
     
     /** additional information about the keyword */
 
-    keyword_properties?: KeywordProperties | undefined;
+    keyword_properties?: KeywordProperties;
     
     /** SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
 
-    serp_info?: SerpInfo | undefined;
+    serp_info?: SerpInfo;
     
     /** backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword */
 
-    avg_backlinks_info?: AvgBacklinksInfo | undefined;
+    avg_backlinks_info?: AvgBacklinksInfo;
     
     /** search intent info for the returned keyword
 learn about search intent in this help center article */
 
-    search_intent_info?: SearchIntentInfo | undefined;
+    search_intent_info?: SearchIntentInfo;
 
     [key: string]: any;
 

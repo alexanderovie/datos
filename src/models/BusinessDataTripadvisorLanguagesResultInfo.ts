@@ -1,10 +1,10 @@
 export interface IBusinessDataTripadvisorLanguagesResultInfo   {
         
         /** language name */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code according to ISO 639-1 */
-        language_code?: string | undefined
+        language_code?: string
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class BusinessDataTripadvisorLanguagesResultInfo  implements IBusinessDat
     
     /** language name */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code according to ISO 639-1 */
 
-    language_code?: string | undefined;
+    language_code?: string;
 
     [key: string]: any;
 

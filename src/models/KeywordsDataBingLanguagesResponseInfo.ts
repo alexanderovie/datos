@@ -1,11 +1,10 @@
 import { KeywordsDataBingLanguagesTaskInfo, IKeywordsDataBingLanguagesTaskInfo } from "./KeywordsDataBingLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IKeywordsDataBingLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataBingLanguagesTaskInfo[] | undefined
+        tasks?: KeywordsDataBingLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataBingLanguagesResponseInfo  extends BaseResponseInfo   i
     
     /** array of tasks */
 
-    tasks?: KeywordsDataBingLanguagesTaskInfo[] | undefined;
+    tasks?: KeywordsDataBingLanguagesTaskInfo[];
 
     [key: string]: any;
 

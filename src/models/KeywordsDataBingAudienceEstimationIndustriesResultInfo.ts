@@ -1,10 +1,10 @@
 export interface IKeywordsDataBingAudienceEstimationIndustriesResultInfo   {
         
         /** ID of the industry */
-        industry_id?: number | undefined
+        industry_id?: number
         
         /** name of the industry */
-        industry_name?: string | undefined
+        industry_name?: string
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class KeywordsDataBingAudienceEstimationIndustriesResultInfo  implements 
     
     /** ID of the industry */
 
-    industry_id?: number | undefined;
+    industry_id?: number;
     
     /** name of the industry */
 
-    industry_name?: string | undefined;
+    industry_name?: string;
 
     [key: string]: any;
 

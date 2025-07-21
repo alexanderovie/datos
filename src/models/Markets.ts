@@ -1,14 +1,13 @@
 import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementItem } from "./BaseSerpApiGoogleFinanceElementItem";
 
-
 export interface IMarkets   {
         
         /** financial market identifier
 possible values: US, Europe, Asia, Currencies, Crypto, Futures */
-        market?: string | undefined
+        market?: string
         
         /** elements of search results found in SERP */
-        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
+        items?: BaseSerpApiGoogleFinanceElementItem[]
 
     [key: string]: any;
 
@@ -19,11 +18,11 @@ export class Markets  implements IMarkets {
     /** financial market identifier
 possible values: US, Europe, Asia, Currencies, Crypto, Futures */
 
-    market?: string | undefined;
+    market?: string;
     
     /** elements of search results found in SERP */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
+    items?: BaseSerpApiGoogleFinanceElementItem[];
 
     [key: string]: any;
 

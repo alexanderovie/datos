@@ -1,11 +1,10 @@
 import { DataforseoLabsAppleAppIntersectionLiveResultInfo, IDataforseoLabsAppleAppIntersectionLiveResultInfo } from "./DataforseoLabsAppleAppIntersectionLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsAppleAppIntersectionLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsAppleAppIntersectionLiveResultInfo[] | undefined
+        result?: DataforseoLabsAppleAppIntersectionLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsAppleAppIntersectionLiveTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: DataforseoLabsAppleAppIntersectionLiveResultInfo[] | undefined;
+    result?: DataforseoLabsAppleAppIntersectionLiveResultInfo[];
 
     [key: string]: any;
 

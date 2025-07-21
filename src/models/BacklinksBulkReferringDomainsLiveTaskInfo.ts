@@ -1,11 +1,10 @@
 import { BacklinksBulkReferringDomainsLiveResultInfo, IBacklinksBulkReferringDomainsLiveResultInfo } from "./BacklinksBulkReferringDomainsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IBacklinksBulkReferringDomainsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BacklinksBulkReferringDomainsLiveResultInfo[] | undefined
+        result?: BacklinksBulkReferringDomainsLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BacklinksBulkReferringDomainsLiveTaskInfo  extends BaseResponseTask
     
     /** array of results */
 
-    result?: BacklinksBulkReferringDomainsLiveResultInfo[] | undefined;
+    result?: BacklinksBulkReferringDomainsLiveResultInfo[];
 
     [key: string]: any;
 

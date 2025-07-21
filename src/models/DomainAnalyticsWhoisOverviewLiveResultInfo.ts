@@ -1,16 +1,15 @@
 import { DomainAnalyticsWhoisOverviewLiveItem, IDomainAnalyticsWhoisOverviewLiveItem } from "./DomainAnalyticsWhoisOverviewLiveItem";
 
-
 export interface IDomainAnalyticsWhoisOverviewLiveResultInfo   {
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains ranking and traffic data */
-        items?: DomainAnalyticsWhoisOverviewLiveItem[] | undefined
+        items?: DomainAnalyticsWhoisOverviewLiveItem[]
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DomainAnalyticsWhoisOverviewLiveResultInfo  implements IDomainAnaly
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains ranking and traffic data */
 
-    items?: DomainAnalyticsWhoisOverviewLiveItem[] | undefined;
+    items?: DomainAnalyticsWhoisOverviewLiveItem[];
 
     [key: string]: any;
 

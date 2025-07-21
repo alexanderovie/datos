@@ -1,22 +1,22 @@
 export interface IAppMetricsInfo   {
         
         /** number of organic SERPs where the product ranks #1 */
-        pos_1?: number | undefined
+        pos_1?: number
         
         /** number of organic SERPs where the product ranks #2-3 */
-        pos_2_3?: number | undefined
+        pos_2_3?: number
         
         /** number of organic SERPs where the product ranks #4-10 */
-        pos_4_10?: number | undefined
+        pos_4_10?: number
         
         /** number of organic SERPs where the product ranks #11-100 */
-        pos_11_100?: number | undefined
+        pos_11_100?: number
         
         /** total count of Amazon organic SERPs that contain the product */
-        count?: number | undefined
+        count?: number
         
         /** total search volume of the product’s ranking keywords in organic SERP */
-        search_volume?: number | undefined
+        search_volume?: number
 
     [key: string]: any;
 
@@ -26,27 +26,27 @@ export class AppMetricsInfo  implements IAppMetricsInfo {
     
     /** number of organic SERPs where the product ranks #1 */
 
-    pos_1?: number | undefined;
+    pos_1?: number;
     
     /** number of organic SERPs where the product ranks #2-3 */
 
-    pos_2_3?: number | undefined;
+    pos_2_3?: number;
     
     /** number of organic SERPs where the product ranks #4-10 */
 
-    pos_4_10?: number | undefined;
+    pos_4_10?: number;
     
     /** number of organic SERPs where the product ranks #11-100 */
 
-    pos_11_100?: number | undefined;
+    pos_11_100?: number;
     
     /** total count of Amazon organic SERPs that contain the product */
 
-    count?: number | undefined;
+    count?: number;
     
     /** total search volume of the product’s ranking keywords in organic SERP */
 
-    search_volume?: number | undefined;
+    search_volume?: number;
 
     [key: string]: any;
 

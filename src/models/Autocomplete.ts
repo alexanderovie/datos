@@ -1,16 +1,16 @@
 export interface IAutocomplete   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -18,26 +18,26 @@ can take values from 500 to 2000
 the higher the value, the more relevant is the suggestion
 Note: only available for the following client:
 chrome/chrome-omni */
-        relevance?: number | undefined
+        relevance?: number
         
         /** google autocomplete keyword suggestion */
-        suggestion?: string | undefined
+        suggestion?: string
         
         /** google autocomplete suggestion type
 Note: only available for the following client:
 chrome/chrome-omni */
-        suggestion_type?: string | undefined
+        suggestion_type?: string
         
         /** url to search results
 url to search results relevant to the google autocomplete suggestion */
-        search_query_url?: string | undefined
+        search_query_url?: string
         
         /** url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
 Note: only available for the following client:
 gws-wiz
 gws-wiz-serp */
-        thumbnail_url?: string | undefined
+        thumbnail_url?: string
         
         /** keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -45,7 +45,7 @@ Note: array is only available for the following client:
 gws-wiz
 psy-ab
 gws-wiz-local */
-        highlighted?: string[] | undefined
+        highlighted?: string[]
 
     [key: string]: any;
 
@@ -55,18 +55,18 @@ export class Autocomplete  implements IAutocomplete {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -75,22 +75,22 @@ the higher the value, the more relevant is the suggestion
 Note: only available for the following client:
 chrome/chrome-omni */
 
-    relevance?: number | undefined;
+    relevance?: number;
     
     /** google autocomplete keyword suggestion */
 
-    suggestion?: string | undefined;
+    suggestion?: string;
     
     /** google autocomplete suggestion type
 Note: only available for the following client:
 chrome/chrome-omni */
 
-    suggestion_type?: string | undefined;
+    suggestion_type?: string;
     
     /** url to search results
 url to search results relevant to the google autocomplete suggestion */
 
-    search_query_url?: string | undefined;
+    search_query_url?: string;
     
     /** url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -98,7 +98,7 @@ Note: only available for the following client:
 gws-wiz
 gws-wiz-serp */
 
-    thumbnail_url?: string | undefined;
+    thumbnail_url?: string;
     
     /** keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -107,7 +107,7 @@ gws-wiz
 psy-ab
 gws-wiz-local */
 
-    highlighted?: string[] | undefined;
+    highlighted?: string[];
 
     [key: string]: any;
 

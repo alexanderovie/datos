@@ -1,53 +1,52 @@
 import { PreviewImage, IPreviewImage } from "./PreviewImage";
 
-
 export interface IAdsSearch   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number | undefined
+        rank_group?: number
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number | undefined
+        rank_absolute?: number
         
         /** unique identifier of the advertiser account */
-        advertiser_id?: string | undefined
+        advertiser_id?: string
         
         /** unique identifier of the advertisement */
-        creative_id?: string | undefined
+        creative_id?: string
         
         /** title of the element */
-        title?: string | undefined
+        title?: string
         
         /** search URL with refinement parameters */
-        url?: string | undefined
+        url?: string
         
         /** verified advertiser account
 equals true if advertiser account is verified by Google Ads */
-        verified?: boolean | undefined
+        verified?: boolean
         
         /** format of the advertisement
 possible values: text, image, video */
-        format?: string | undefined
+        format?: string
         
         /** preview image of the advertisement */
-        preview_image?: PreviewImage | undefined
+        preview_image?: PreviewImage
         
         /** url pointing to the ad preview */
-        preview_url?: string | undefined
+        preview_url?: string
         
         /** date and time when the ad was shown for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
-        first_shown?: string | undefined
+        first_shown?: string
         
         /** date and time when the ad was shown the last time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
-        last_shown?: string | undefined
+        last_shown?: string
 
     [key: string]: any;
 
@@ -57,62 +56,62 @@ export class AdsSearch  implements IAdsSearch {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number | undefined;
+    rank_group?: number;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number | undefined;
+    rank_absolute?: number;
     
     /** unique identifier of the advertiser account */
 
-    advertiser_id?: string | undefined;
+    advertiser_id?: string;
     
     /** unique identifier of the advertisement */
 
-    creative_id?: string | undefined;
+    creative_id?: string;
     
     /** title of the element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** search URL with refinement parameters */
 
-    url?: string | undefined;
+    url?: string;
     
     /** verified advertiser account
 equals true if advertiser account is verified by Google Ads */
 
-    verified?: boolean | undefined;
+    verified?: boolean;
     
     /** format of the advertisement
 possible values: text, image, video */
 
-    format?: string | undefined;
+    format?: string;
     
     /** preview image of the advertisement */
 
-    preview_image?: PreviewImage | undefined;
+    preview_image?: PreviewImage;
     
     /** url pointing to the ad preview */
 
-    preview_url?: string | undefined;
+    preview_url?: string;
     
     /** date and time when the ad was shown for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
 
-    first_shown?: string | undefined;
+    first_shown?: string;
     
     /** date and time when the ad was shown the last time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
 
-    last_shown?: string | undefined;
+    last_shown?: string;
 
     [key: string]: any;
 

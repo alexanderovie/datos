@@ -1,35 +1,34 @@
 import { SerpHtmlItemInfo, ISerpHtmlItemInfo } from "./SerpHtmlItemInfo";
 
-
 export interface ISerpGoogleAiModeLiveHtmlResultInfo   {
         
         /** keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        keyword?: string | undefined
+        keyword?: string
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** search engine domain in a POST array */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** elements of search results found in SERP */
-        items?: SerpHtmlItemInfo[] | undefined
+        items?: SerpHtmlItemInfo[]
 
     [key: string]: any;
 
@@ -40,38 +39,38 @@ export class SerpGoogleAiModeLiveHtmlResultInfo  implements ISerpGoogleAiModeLiv
     /** keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** elements of search results found in SERP */
 
-    items?: SerpHtmlItemInfo[] | undefined;
+    items?: SerpHtmlItemInfo[];
 
     [key: string]: any;
 

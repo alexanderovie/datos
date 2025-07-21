@@ -1,11 +1,10 @@
 import { KeywordsDataBingKeywordPerformanceTaskGetTaskInfo, IKeywordsDataBingKeywordPerformanceTaskGetTaskInfo } from "./KeywordsDataBingKeywordPerformanceTaskGetTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[] | undefined
+        tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class KeywordsDataBingKeywordPerformanceTaskGetResponseInfo  extends Base
     
     /** array of tasks */
 
-    tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[] | undefined;
+    tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[];
 
     [key: string]: any;
 

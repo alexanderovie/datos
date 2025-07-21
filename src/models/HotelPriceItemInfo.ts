@@ -1,41 +1,40 @@
 import { HotelInfoPriceOffer, IHotelInfoPriceOffer } from "./HotelInfoPriceOffer";
 
-
 export interface IHotelPriceItemInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the hotel */
-        title?: string | undefined
+        title?: string
         
         /** price per night */
-        price?: number | undefined
+        price?: number
         
         /** price currency
 USD is applied by default, unless specified in the POST array */
-        currency?: string | undefined
+        currency?: string
         
         /** third-party page url
 URL to the third-party website page with pricing information */
-        url?: string | undefined
+        url?: string
         
         /** third-party domain
 domain of the third-party website page with pricing information */
-        domain?: string | undefined
+        domain?: string
         
         /** indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
-        is_paid?: boolean | undefined
+        is_paid?: boolean
         
         /** date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates */
-        free_cancellation_until?: string | undefined
+        free_cancellation_until?: string
         
         /** featured price offers */
-        offers?: HotelInfoPriceOffer[] | undefined
+        offers?: HotelInfoPriceOffer[]
 
     [key: string]: any;
 
@@ -45,46 +44,46 @@ export class HotelPriceItemInfo  implements IHotelPriceItemInfo {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the hotel */
 
-    title?: string | undefined;
+    title?: string;
     
     /** price per night */
 
-    price?: number | undefined;
+    price?: number;
     
     /** price currency
 USD is applied by default, unless specified in the POST array */
 
-    currency?: string | undefined;
+    currency?: string;
     
     /** third-party page url
 URL to the third-party website page with pricing information */
 
-    url?: string | undefined;
+    url?: string;
     
     /** third-party domain
 domain of the third-party website page with pricing information */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
 
-    is_paid?: boolean | undefined;
+    is_paid?: boolean;
     
     /** date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates */
 
-    free_cancellation_until?: string | undefined;
+    free_cancellation_until?: string;
     
     /** featured price offers */
 
-    offers?: HotelInfoPriceOffer[] | undefined;
+    offers?: HotelInfoPriceOffer[];
 
     [key: string]: any;
 

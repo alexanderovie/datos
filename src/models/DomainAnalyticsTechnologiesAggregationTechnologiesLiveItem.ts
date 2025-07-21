@@ -1,28 +1,28 @@
 export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** technology group id */
-        group?: string | undefined
+        group?: string
         
         /** technology category id */
-        category?: string | undefined
+        category?: string
         
         /** technology name */
-        technology?: string | undefined
+        technology?: string
         
         /** technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group */
-        groups_count?: number | undefined
+        groups_count?: number
         
         /** technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category */
-        categories_count?: number | undefined
+        categories_count?: number
         
         /** technologies count
 number of domains that match the parameters you specified and are using the indicated technology */
-        technologies_count?: number | undefined
+        technologies_count?: number
 
     [key: string]: any;
 
@@ -32,34 +32,34 @@ export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem  impleme
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** technology group id */
 
-    group?: string | undefined;
+    group?: string;
     
     /** technology category id */
 
-    category?: string | undefined;
+    category?: string;
     
     /** technology name */
 
-    technology?: string | undefined;
+    technology?: string;
     
     /** technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group */
 
-    groups_count?: number | undefined;
+    groups_count?: number;
     
     /** technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category */
 
-    categories_count?: number | undefined;
+    categories_count?: number;
     
     /** technologies count
 number of domains that match the parameters you specified and are using the indicated technology */
 
-    technologies_count?: number | undefined;
+    technologies_count?: number;
 
     [key: string]: any;
 

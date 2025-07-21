@@ -1,16 +1,16 @@
 export interface IContentGenerationParaphraseLiveResultInfo   {
         
         /** number of input tokens in the POST request */
-        input_tokens?: number | undefined
+        input_tokens?: number
         
         /** number of output tokens in the response */
-        output_tokens?: number | undefined
+        output_tokens?: number
         
         /** number of new tokens in the response */
-        new_tokens?: number | undefined
+        new_tokens?: number
         
         /** paraphrased version of the given text */
-        generated_text?: string | undefined
+        generated_text?: string
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class ContentGenerationParaphraseLiveResultInfo  implements IContentGener
     
     /** number of input tokens in the POST request */
 
-    input_tokens?: number | undefined;
+    input_tokens?: number;
     
     /** number of output tokens in the response */
 
-    output_tokens?: number | undefined;
+    output_tokens?: number;
     
     /** number of new tokens in the response */
 
-    new_tokens?: number | undefined;
+    new_tokens?: number;
     
     /** paraphrased version of the given text */
 
-    generated_text?: string | undefined;
+    generated_text?: string;
 
     [key: string]: any;
 

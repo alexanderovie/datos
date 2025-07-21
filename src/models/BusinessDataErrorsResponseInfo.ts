@@ -1,11 +1,10 @@
 import { BusinessDataErrorsTaskInfo, IBusinessDataErrorsTaskInfo } from "./BusinessDataErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IBusinessDataErrorsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataErrorsTaskInfo[] | undefined
+        tasks?: BusinessDataErrorsTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataErrorsResponseInfo  extends BaseResponseInfo   implemen
     
     /** array of tasks */
 
-    tasks?: BusinessDataErrorsTaskInfo[] | undefined;
+    tasks?: BusinessDataErrorsTaskInfo[];
 
     [key: string]: any;
 

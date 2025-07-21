@@ -1,19 +1,19 @@
 export interface IReviewResponseItemInfo   {
         
         /** the title of response */
-        title?: string | undefined
+        title?: string
         
         /** the content of response */
-        text?: string | undefined
+        text?: string
         
         /** language of content */
-        language?: string | undefined
+        language?: string
         
         /** response id */
-        response_id?: string | undefined
+        response_id?: string
         
         /** the time of publication */
-        timestamp?: string | undefined
+        timestamp?: string
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
     
     /** the title of response */
 
-    title?: string | undefined;
+    title?: string;
     
     /** the content of response */
 
-    text?: string | undefined;
+    text?: string;
     
     /** language of content */
 
-    language?: string | undefined;
+    language?: string;
     
     /** response id */
 
-    response_id?: string | undefined;
+    response_id?: string;
     
     /** the time of publication */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
 
     [key: string]: any;
 

@@ -1,17 +1,17 @@
 export interface IStoresCountInfo   {
         
         /** number of stores that offer the product */
-        count?: number | undefined
+        count?: number
         
         /** text displayed on the Google Shopping page */
-        displayed_text?: string | undefined
+        displayed_text?: string
         
         /** whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
 if the API finds the exact number of stores in the HTML code of the Google Shopping page, this parameter is false;
 if the API cannot find the number of stores in the HTML code of the page, it takes the number from the displayed_text;
 in this case, the parameter is true */
-        count_from_text?: boolean | undefined
+        count_from_text?: boolean
 
     [key: string]: any;
 
@@ -21,11 +21,11 @@ export class StoresCountInfo  implements IStoresCountInfo {
     
     /** number of stores that offer the product */
 
-    count?: number | undefined;
+    count?: number;
     
     /** text displayed on the Google Shopping page */
 
-    displayed_text?: string | undefined;
+    displayed_text?: string;
     
     /** whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -33,7 +33,7 @@ if the API finds the exact number of stores in the HTML code of the Google Shopp
 if the API cannot find the number of stores in the HTML code of the page, it takes the number from the displayed_text;
 in this case, the parameter is true */
 
-    count_from_text?: boolean | undefined;
+    count_from_text?: boolean;
 
     [key: string]: any;
 

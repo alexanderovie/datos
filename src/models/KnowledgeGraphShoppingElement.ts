@@ -1,39 +1,38 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
-
 export interface IKnowledgeGraphShoppingElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of the result in SERP */
-        title?: string | undefined
+        title?: string
         
         /** relevant URL */
-        url?: string | undefined
+        url?: string
         
         /** website domain */
-        domain?: string | undefined
+        domain?: string
         
         /** pricing details
 contains the pricing details of the product or service featured in the result */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** source of additional information about the result */
-        source?: string | undefined
+        source?: string
         
         /** text alongside the link title */
-        snippet?: string | undefined
+        snippet?: string
         
         /** merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
-        marketplace?: string | undefined
+        marketplace?: string
         
         /** URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account */
-        marketplace_url?: string | undefined
+        marketplace_url?: string
 
     [key: string]: any;
 
@@ -43,44 +42,44 @@ export class KnowledgeGraphShoppingElement  implements IKnowledgeGraphShoppingEl
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of the result in SERP */
 
-    title?: string | undefined;
+    title?: string;
     
     /** relevant URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** website domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** pricing details
 contains the pricing details of the product or service featured in the result */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** source of additional information about the result */
 
-    source?: string | undefined;
+    source?: string;
     
     /** text alongside the link title */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
 
-    marketplace?: string | undefined;
+    marketplace?: string;
     
     /** URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account */
 
-    marketplace_url?: string | undefined;
+    marketplace_url?: string;
 
     [key: string]: any;
 

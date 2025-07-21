@@ -3,7 +3,7 @@ export interface IBacklinksHistoryLiveRequestInfo   {
         /** domain
 required field
 a domain should be specified without https:// and www. */
-        target?: string | undefined
+        target?: string
         
         /** starting date of the time range
 optional field
@@ -12,7 +12,7 @@ if you don’t specify this field, the minimum value will be used by default
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 optional field
@@ -20,7 +20,7 @@ if you don’t specify this field, the today’s date will be used by default
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_to?: string | undefined
+        date_to?: string
         
         /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -30,14 +30,14 @@ one_hundred — rank values are displayed on a 0–100 scale
 one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
-        rank_scale?: string | undefined
+        rank_scale?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -49,7 +49,7 @@ export class BacklinksHistoryLiveRequestInfo  implements IBacklinksHistoryLiveRe
 required field
 a domain should be specified without https:// and www. */
 
-    target?: string | undefined;
+    target?: string;
     
     /** starting date of the time range
 optional field
@@ -59,7 +59,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 optional field
@@ -68,7 +68,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -79,7 +79,7 @@ one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
-    rank_scale?: string | undefined;
+    rank_scale?: string;
     
     /** user-defined task identifier
 optional field
@@ -87,7 +87,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

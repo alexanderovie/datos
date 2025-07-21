@@ -1,31 +1,30 @@
 import { BacklinksTimeseriesSummaryLiveItem, IBacklinksTimeseriesSummaryLiveItem } from "./BacklinksTimeseriesSummaryLiveItem";
 
-
 export interface IBacklinksTimeseriesSummaryLiveResultInfo   {
         
         /** target from a POST array */
-        target?: string | undefined
+        target?: string
         
         /** starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01 */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 in the UTC format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_to?: string | undefined
+        date_to?: string
         
         /** group_range from a POST array */
-        group_range?: string | undefined
+        group_range?: string
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains relevant summary data */
-        items?: BacklinksTimeseriesSummaryLiveItem[] | undefined
+        items?: BacklinksTimeseriesSummaryLiveItem[]
 
     [key: string]: any;
 
@@ -35,33 +34,33 @@ export class BacklinksTimeseriesSummaryLiveResultInfo  implements IBacklinksTime
     
     /** target from a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01 */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 in the UTC format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** group_range from a POST array */
 
-    group_range?: string | undefined;
+    group_range?: string;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains relevant summary data */
 
-    items?: BacklinksTimeseriesSummaryLiveItem[] | undefined;
+    items?: BacklinksTimeseriesSummaryLiveItem[];
 
     [key: string]: any;
 

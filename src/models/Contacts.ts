@@ -1,10 +1,10 @@
 export interface IContacts   {
         
         /** array of telephone numbers */
-        telephones?: string[] | undefined
+        telephones?: string[]
         
         /** array of emails */
-        emails?: string[] | undefined
+        emails?: string[]
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class Contacts  implements IContacts {
     
     /** array of telephone numbers */
 
-    telephones?: string[] | undefined;
+    telephones?: string[];
     
     /** array of emails */
 
-    emails?: string[] | undefined;
+    emails?: string[];
 
     [key: string]: any;
 

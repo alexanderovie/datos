@@ -1,11 +1,10 @@
 import { ContentGenerationCheckGrammarLanguagesResultInfo, IContentGenerationCheckGrammarLanguagesResultInfo } from "./ContentGenerationCheckGrammarLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IContentGenerationCheckGrammarLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentGenerationCheckGrammarLanguagesResultInfo[] | undefined
+        result?: ContentGenerationCheckGrammarLanguagesResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class ContentGenerationCheckGrammarLanguagesTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: ContentGenerationCheckGrammarLanguagesResultInfo[] | undefined;
+    result?: ContentGenerationCheckGrammarLanguagesResultInfo[];
 
     [key: string]: any;
 

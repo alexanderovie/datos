@@ -1,23 +1,23 @@
 export interface IReviewMentionInfo   {
         
         /** title of the evaluated criterion */
-        title?: string | undefined
+        title?: string
         
         /** positive score by criterion */
-        positive_score?: number | undefined
+        positive_score?: number
         
         /** count of positive reviews by criterion */
-        positive_count?: number | undefined
+        positive_count?: number
         
         /** count of negative reviews by criterion */
-        negative_count?: number | undefined
+        negative_count?: number
         
         /** count of all reviews by criterion */
-        total_count?: number | undefined
+        total_count?: number
         
         /** element is visible by default
 indicates whether the review element is visible by default */
-        visible_by_default?: boolean | undefined
+        visible_by_default?: boolean
 
     [key: string]: any;
 
@@ -27,28 +27,28 @@ export class ReviewMentionInfo  implements IReviewMentionInfo {
     
     /** title of the evaluated criterion */
 
-    title?: string | undefined;
+    title?: string;
     
     /** positive score by criterion */
 
-    positive_score?: number | undefined;
+    positive_score?: number;
     
     /** count of positive reviews by criterion */
 
-    positive_count?: number | undefined;
+    positive_count?: number;
     
     /** count of negative reviews by criterion */
 
-    negative_count?: number | undefined;
+    negative_count?: number;
     
     /** count of all reviews by criterion */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** element is visible by default
 indicates whether the review element is visible by default */
 
-    visible_by_default?: boolean | undefined;
+    visible_by_default?: boolean;
 
     [key: string]: any;
 

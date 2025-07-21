@@ -6,50 +6,49 @@ import { AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo, IAppendixClicks
 import { AppendixNaverKeywordsDataDataInfo, IAppendixNaverKeywordsDataDataInfo } from "./AppendixNaverKeywordsDataDataInfo";
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 
-
 export interface IAppendixKeywordsDataDataInfo   {
         
-        keywords_for_keywords?: AppendixInfo | undefined
+        keywords_for_keywords?: AppendixInfo
         
-        keywords_for_site?: AppendixInfo | undefined
+        keywords_for_site?: AppendixInfo
         
-        search_volume?: AppendixInfo | undefined
+        search_volume?: AppendixInfo
         
-        ad_traffic_by_keywords?: AppendixInfo | undefined
+        ad_traffic_by_keywords?: AppendixInfo
         
-        languages?: number | undefined
+        languages?: number
         
-        locations?: number | undefined
+        locations?: number
         
-        tasks_ready?: number | undefined
+        tasks_ready?: number
         
-        explore?: AppendixInfo | undefined
+        explore?: AppendixInfo
         
-        categories?: number | undefined
+        categories?: number
         
-        errors?: number | undefined
+        errors?: number
         
-        bing?: AppendixBingKeywordsDataLimitsRatesDataInfo | undefined
+        bing?: AppendixBingKeywordsDataLimitsRatesDataInfo
         
-        keyword_performance?: AppendixInfo | undefined
+        keyword_performance?: AppendixInfo
         
-        locations_and_languages?: number | undefined
+        locations_and_languages?: number
         
-        google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo | undefined
+        google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
         
-        dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo | undefined
+        dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
         
-        clickstream_data?: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo | undefined
+        clickstream_data?: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
         
-        audience_estimation?: AppendixInfo | undefined
+        audience_estimation?: AppendixInfo
         
-        keyword_suggestions_for_url?: AppendixInfo | undefined
+        keyword_suggestions_for_url?: AppendixInfo
         
-        naver?: AppendixNaverKeywordsDataDataInfo | undefined
+        naver?: AppendixNaverKeywordsDataDataInfo
         
-        google?: AppendixBingKeywordsDataLimitsRatesDataInfo | undefined
+        google?: AppendixBingKeywordsDataLimitsRatesDataInfo
         
-        keyword_ideas_ads_api?: AppendixSerpDaysRatesDataInfo | undefined
+        keyword_ideas_ads_api?: AppendixSerpDaysRatesDataInfo
 
     [key: string]: any;
 
@@ -57,47 +56,47 @@ export interface IAppendixKeywordsDataDataInfo   {
 
 export class AppendixKeywordsDataDataInfo  implements IAppendixKeywordsDataDataInfo {
 
-    keywords_for_keywords?: AppendixInfo | undefined;
+    keywords_for_keywords?: AppendixInfo;
 
-    keywords_for_site?: AppendixInfo | undefined;
+    keywords_for_site?: AppendixInfo;
 
-    search_volume?: AppendixInfo | undefined;
+    search_volume?: AppendixInfo;
 
-    ad_traffic_by_keywords?: AppendixInfo | undefined;
+    ad_traffic_by_keywords?: AppendixInfo;
 
-    languages?: number | undefined;
+    languages?: number;
 
-    locations?: number | undefined;
+    locations?: number;
 
-    tasks_ready?: number | undefined;
+    tasks_ready?: number;
 
-    explore?: AppendixInfo | undefined;
+    explore?: AppendixInfo;
 
-    categories?: number | undefined;
+    categories?: number;
 
-    errors?: number | undefined;
+    errors?: number;
 
-    bing?: AppendixBingKeywordsDataLimitsRatesDataInfo | undefined;
+    bing?: AppendixBingKeywordsDataLimitsRatesDataInfo;
 
-    keyword_performance?: AppendixInfo | undefined;
+    keyword_performance?: AppendixInfo;
 
-    locations_and_languages?: number | undefined;
+    locations_and_languages?: number;
 
-    google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo | undefined;
+    google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo;
 
-    dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo | undefined;
+    dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo;
 
-    clickstream_data?: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo | undefined;
+    clickstream_data?: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo;
 
-    audience_estimation?: AppendixInfo | undefined;
+    audience_estimation?: AppendixInfo;
 
-    keyword_suggestions_for_url?: AppendixInfo | undefined;
+    keyword_suggestions_for_url?: AppendixInfo;
 
-    naver?: AppendixNaverKeywordsDataDataInfo | undefined;
+    naver?: AppendixNaverKeywordsDataDataInfo;
 
-    google?: AppendixBingKeywordsDataLimitsRatesDataInfo | undefined;
+    google?: AppendixBingKeywordsDataLimitsRatesDataInfo;
 
-    keyword_ideas_ads_api?: AppendixSerpDaysRatesDataInfo | undefined;
+    keyword_ideas_ads_api?: AppendixSerpDaysRatesDataInfo;
 
     [key: string]: any;
 

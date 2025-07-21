@@ -1,16 +1,16 @@
 export interface ITestSummary   {
         
         /** number of fatal microdata errors */
-        fatal?: number | undefined
+        fatal?: number
         
         /** number of serious microdata errors */
-        error?: number | undefined
+        error?: number
         
         /** number of microdata warnings */
-        warning?: number | undefined
+        warning?: number
         
         /** number of microdata information flags */
-        info?: number | undefined
+        info?: number
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class TestSummary  implements ITestSummary {
     
     /** number of fatal microdata errors */
 
-    fatal?: number | undefined;
+    fatal?: number;
     
     /** number of serious microdata errors */
 
-    error?: number | undefined;
+    error?: number;
     
     /** number of microdata warnings */
 
-    warning?: number | undefined;
+    warning?: number;
     
     /** number of microdata information flags */
 
-    info?: number | undefined;
+    info?: number;
 
     [key: string]: any;
 

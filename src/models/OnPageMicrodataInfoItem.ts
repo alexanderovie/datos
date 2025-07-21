@@ -1,13 +1,12 @@
 import { MicrodataInspectionInfo, IMicrodataInspectionInfo } from "./MicrodataInspectionInfo";
 
-
 export interface IOnPageMicrodataInfoItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** information related to microdata validation */
-        inspection_info?: MicrodataInspectionInfo | undefined
+        inspection_info?: MicrodataInspectionInfo
 
     [key: string]: any;
 
@@ -17,11 +16,11 @@ export class OnPageMicrodataInfoItem  implements IOnPageMicrodataInfoItem {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** information related to microdata validation */
 
-    inspection_info?: MicrodataInspectionInfo | undefined;
+    inspection_info?: MicrodataInspectionInfo;
 
     [key: string]: any;
 

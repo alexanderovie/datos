@@ -1,15 +1,14 @@
 import { GoogleFinanceMarketTrendsElement, IGoogleFinanceMarketTrendsElement } from "./GoogleFinanceMarketTrendsElement";
 
-
 export interface ISerpGoogleFinanceExploreAdvancedItem   {
         
         /** array of items
 this array can take the following names: most_active, gainers, losers */
-        most_active?: GoogleFinanceMarketTrendsElement[] | undefined
+        most_active?: GoogleFinanceMarketTrendsElement[]
         
-        gainers?: GoogleFinanceMarketTrendsElement[] | undefined
+        gainers?: GoogleFinanceMarketTrendsElement[]
         
-        losers?: GoogleFinanceMarketTrendsElement[] | undefined
+        losers?: GoogleFinanceMarketTrendsElement[]
 
     [key: string]: any;
 
@@ -20,11 +19,11 @@ export class SerpGoogleFinanceExploreAdvancedItem  implements ISerpGoogleFinance
     /** array of items
 this array can take the following names: most_active, gainers, losers */
 
-    most_active?: GoogleFinanceMarketTrendsElement[] | undefined;
+    most_active?: GoogleFinanceMarketTrendsElement[];
 
-    gainers?: GoogleFinanceMarketTrendsElement[] | undefined;
+    gainers?: GoogleFinanceMarketTrendsElement[];
 
-    losers?: GoogleFinanceMarketTrendsElement[] | undefined;
+    losers?: GoogleFinanceMarketTrendsElement[];
 
     [key: string]: any;
 

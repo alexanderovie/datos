@@ -1,26 +1,25 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixTechnologiesDomainAnalyticsPriceData   {
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        languages?: AppendixTaskKeywordsDataPriceDataInfo
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        locations?: AppendixTaskKeywordsDataPriceDataInfo
         
-        technologies?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        technologies?: AppendixTaskKeywordsDataPriceDataInfo
         
-        aggregation_technologies?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        aggregation_technologies?: AppendixBingKeywordsDataPriceDataInfo
         
-        domains_by_html_terms?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domains_by_html_terms?: AppendixBingKeywordsDataPriceDataInfo
         
-        domains_by_technology?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domains_by_technology?: AppendixBingKeywordsDataPriceDataInfo
         
-        domain_technologies?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        domain_technologies?: AppendixBingKeywordsDataPriceDataInfo
         
-        technologies_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        technologies_summary?: AppendixBingKeywordsDataPriceDataInfo
         
-        technology_stats?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        technology_stats?: AppendixBingKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -28,23 +27,23 @@ export interface IAppendixTechnologiesDomainAnalyticsPriceData   {
 
 export class AppendixTechnologiesDomainAnalyticsPriceData  implements IAppendixTechnologiesDomainAnalyticsPriceData {
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    technologies?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    technologies?: AppendixTaskKeywordsDataPriceDataInfo;
 
-    aggregation_technologies?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    aggregation_technologies?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domains_by_html_terms?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domains_by_html_terms?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domains_by_technology?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domains_by_technology?: AppendixBingKeywordsDataPriceDataInfo;
 
-    domain_technologies?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    domain_technologies?: AppendixBingKeywordsDataPriceDataInfo;
 
-    technologies_summary?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    technologies_summary?: AppendixBingKeywordsDataPriceDataInfo;
 
-    technology_stats?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    technology_stats?: AppendixBingKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

@@ -4,7 +4,7 @@ export interface IBacklinksBacklinksLiveRequestInfo   {
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
-        target?: string | undefined
+        target?: string
         
         /** results grouping type
 optional field
@@ -13,7 +13,7 @@ as_is – returns all backlinks
 one_per_domain – returns one backlink per domain
 one_per_anchor – returns one backlink per anchor
 default value: as_is */
-        mode?: string | undefined
+        mode?: string
         
         /** detailed results grouping type
 optional field
@@ -21,7 +21,7 @@ use this object to get a specific number of backlinks per field
 if you use custom_mode, then mode will be ignored
 example:
 'custom_mode': {'field': 'domain', 'value': 100} */
-        custom_mode?: { [key: string]: any; } | undefined
+        custom_mode?: { [key: string]: any; }
         
         /** response field
 required field if you choose to specify custom_mode
@@ -35,12 +35,12 @@ page_from_language
 item_type
 page_from_status_code
 semantic_location */
-        field?: string | undefined
+        field?: string
         
         /** number of backlinks to return per field
 required field if you choose to specify custom_mode
 can be set from 1 to 1000 */
-        value?: number | undefined
+        value?: number
         
         /** array of results filtering parameters
 optional field
@@ -58,7 +58,7 @@ example:
 'and',
 [['anchor','like','%seo%'],'or',['text_pre','like','%seo%']]]
 The full list of possible filters is available here. */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -73,14 +73,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['domain_from_rank,desc','page_from_rank,asc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** offset in the results array of the returned backlinks
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks;
 Note: the maximum value is 20,000, use the search_after_token if you would like to offset more results */
-        offset?: number | undefined
+        offset?: number
         
         /** token for subsequent requests
 optional field
@@ -89,13 +89,13 @@ use this parameter to avoid timeouts while trying to obtain over 20,000 results 
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
-        search_after_token?: string | undefined
+        search_after_token?: string
         
         /** the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** set what backlinks to return and count
 optional field
@@ -105,27 +105,27 @@ all – all backlinks will be returned and counted;
 live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
-        backlinks_status_type?: string | undefined
+        backlinks_status_type?: string
         
         /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean | undefined
+        include_subdomains?: boolean
         
         /** indicates if indirect links to the target will be included in the results
 optional field
 if set to true, the results will include data on indirect links pointing to a page that either redirects to the target, or points to a canonical page
 if set to false, indirect links will be ignored
 default value: true */
-        include_indirect_links?: boolean | undefined
+        include_indirect_links?: boolean
         
         /** indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
 if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
 if set to false, internal links will be included in the results
 default value: true */
-        exclude_internal_backlinks?: boolean | undefined
+        exclude_internal_backlinks?: boolean
         
         /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -135,14 +135,14 @@ one_hundred — rank values are displayed on a 0–100 scale
 one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
-        rank_scale?: string | undefined
+        rank_scale?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -155,7 +155,7 @@ required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
 
-    target?: string | undefined;
+    target?: string;
     
     /** results grouping type
 optional field
@@ -165,7 +165,7 @@ one_per_domain – returns one backlink per domain
 one_per_anchor – returns one backlink per anchor
 default value: as_is */
 
-    mode?: string | undefined;
+    mode?: string;
     
     /** detailed results grouping type
 optional field
@@ -174,7 +174,7 @@ if you use custom_mode, then mode will be ignored
 example:
 'custom_mode': {'field': 'domain', 'value': 100} */
 
-    custom_mode?: { [key: string]: any; } | undefined;
+    custom_mode?: { [key: string]: any; };
     
     /** response field
 required field if you choose to specify custom_mode
@@ -189,13 +189,13 @@ item_type
 page_from_status_code
 semantic_location */
 
-    field?: string | undefined;
+    field?: string;
     
     /** number of backlinks to return per field
 required field if you choose to specify custom_mode
 can be set from 1 to 1000 */
 
-    value?: number | undefined;
+    value?: number;
     
     /** array of results filtering parameters
 optional field
@@ -214,7 +214,7 @@ example:
 [['anchor','like','%seo%'],'or',['text_pre','like','%seo%']]]
 The full list of possible filters is available here. */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -230,7 +230,7 @@ you should use a comma to separate several sorting rules
 example:
 ['domain_from_rank,desc','page_from_rank,asc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** offset in the results array of the returned backlinks
 optional field
@@ -238,7 +238,7 @@ default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks;
 Note: the maximum value is 20,000, use the search_after_token if you would like to offset more results */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** token for subsequent requests
 optional field
@@ -248,14 +248,14 @@ by specifying the unique search_after_token value from the response array, you w
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
 
-    search_after_token?: string | undefined;
+    search_after_token?: string;
     
     /** the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** set what backlinks to return and count
 optional field
@@ -266,14 +266,14 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
 
-    backlinks_status_type?: string | undefined;
+    backlinks_status_type?: string;
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean | undefined;
+    include_subdomains?: boolean;
     
     /** indicates if indirect links to the target will be included in the results
 optional field
@@ -281,7 +281,7 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true */
 
-    include_indirect_links?: boolean | undefined;
+    include_indirect_links?: boolean;
     
     /** indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -289,7 +289,7 @@ if set to true, the results will not include data on internal backlinks from sub
 if set to false, internal links will be included in the results
 default value: true */
 
-    exclude_internal_backlinks?: boolean | undefined;
+    exclude_internal_backlinks?: boolean;
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -300,7 +300,7 @@ one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
-    rank_scale?: string | undefined;
+    rank_scale?: string;
     
     /** user-defined task identifier
 optional field
@@ -308,7 +308,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

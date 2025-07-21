@@ -1,18 +1,17 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
-
 export interface IAppendixGoogleAdsKeywordsDataPriceData   {
         
-        ad_traffic_by_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        ad_traffic_by_keywords?: AppendixBingKeywordsDataPriceDataInfo
         
-        keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo
         
-        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo
         
-        search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        search_volume?: AppendixBingKeywordsDataPriceDataInfo
         
-        status?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        status?: AppendixTaskKeywordsDataPriceDataInfo
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export interface IAppendixGoogleAdsKeywordsDataPriceData   {
 
 export class AppendixGoogleAdsKeywordsDataPriceData  implements IAppendixGoogleAdsKeywordsDataPriceData {
 
-    ad_traffic_by_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    ad_traffic_by_keywords?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo;
 
-    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo;
 
-    search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+    search_volume?: AppendixBingKeywordsDataPriceDataInfo;
 
-    status?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+    status?: AppendixTaskKeywordsDataPriceDataInfo;
 
     [key: string]: any;
 

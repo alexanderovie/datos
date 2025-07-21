@@ -1,14 +1,13 @@
 import { DataforseoTrendsinterestsValuesInfo, IDataforseoTrendsinterestsValuesInfo } from "./DataforseoTrendsinterestsValuesInfo";
 
-
 export interface IDataforseoTrendsinterestsInfo   {
         
         /** relevant keyword
 the data included in the values element is based on this keyword */
-        keyword?: string | undefined
+        keyword?: string
         
         /** contains data on relative keyword popularity by country or region */
-        values?: DataforseoTrendsinterestsValuesInfo[] | undefined
+        values?: DataforseoTrendsinterestsValuesInfo[]
 
     [key: string]: any;
 
@@ -19,11 +18,11 @@ export class DataforseoTrendsinterestsInfo  implements IDataforseoTrendsinterest
     /** relevant keyword
 the data included in the values element is based on this keyword */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** contains data on relative keyword popularity by country or region */
 
-    values?: DataforseoTrendsinterestsValuesInfo[] | undefined;
+    values?: DataforseoTrendsinterestsValuesInfo[];
 
     [key: string]: any;
 

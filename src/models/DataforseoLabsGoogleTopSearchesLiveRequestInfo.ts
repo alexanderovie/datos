@@ -7,7 +7,7 @@ you can receive the list of available locations with their location_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** location code
 required field if you don’t specify location_name
@@ -16,7 +16,7 @@ you can receive the list of available locations with their location_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -25,7 +25,7 @@ you can receive the list of available locations with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string | undefined
+        language_name?: string
         
         /** language code
 required field if you don’t specify language_name
@@ -34,13 +34,13 @@ you can receive the list of available locations with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string | undefined
+        language_code?: string
         
         /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
-        include_serp_info?: boolean | undefined
+        include_serp_info?: boolean
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -48,13 +48,13 @@ if the parameter is set to true, you will receive clickstream_keyword_info, key
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean | undefined
+        include_clickstream_data?: boolean
         
         /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean | undefined
+        ignore_synonyms?: boolean
         
         /** array of results filtering parameters
 optional field
@@ -74,7 +74,7 @@ example:
 'or',
 ['keyword_info.high_top_of_page_bid','<=',0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -91,27 +91,27 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['keyword_info.search_volume,desc','keyword_info.cpc,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** the maximum number of returned keywords
 optional field
 note: you can get more than 1000 results by using the offset_token provided in the response to each subsequent request
 default value: 1000
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number | undefined
+        offset?: number
         
         /** offset token for subsequent requests
 optional field
@@ -120,7 +120,7 @@ use this parameter to avoid timeouts while trying to obtain over 10,000 results 
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task. */
-        offset_token?: string | undefined
+        offset_token?: string
 
     [key: string]: any;
 
@@ -136,7 +136,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** location code
 required field if you don’t specify location_name
@@ -146,7 +146,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -156,7 +156,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** language code
 required field if you don’t specify language_name
@@ -166,14 +166,14 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
 
-    include_serp_info?: boolean | undefined;
+    include_serp_info?: boolean;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -182,14 +182,14 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean | undefined;
+    include_clickstream_data?: boolean;
     
     /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean | undefined;
+    ignore_synonyms?: boolean;
     
     /** array of results filtering parameters
 optional field
@@ -210,7 +210,7 @@ example:
 ['keyword_info.high_top_of_page_bid','<=',0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -228,7 +228,7 @@ you should use a comma to separate several sorting rules
 example:
 ['keyword_info.search_volume,desc','keyword_info.cpc,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** the maximum number of returned keywords
 optional field
@@ -244,14 +244,14 @@ note: you can get more than 1000 results by using the offset_token provided in t
 default value: 1000
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** offset token for subsequent requests
 optional field
@@ -261,7 +261,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task. */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
 
     [key: string]: any;
 

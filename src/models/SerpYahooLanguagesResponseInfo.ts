@@ -1,11 +1,10 @@
 import { SerpYahooLanguagesTaskInfo, ISerpYahooLanguagesTaskInfo } from "./SerpYahooLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface ISerpYahooLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpYahooLanguagesTaskInfo[] | undefined
+        tasks?: SerpYahooLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpYahooLanguagesResponseInfo  extends BaseResponseInfo   implemen
     
     /** array of tasks */
 
-    tasks?: SerpYahooLanguagesTaskInfo[] | undefined;
+    tasks?: SerpYahooLanguagesTaskInfo[];
 
     [key: string]: any;
 

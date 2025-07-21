@@ -1,11 +1,10 @@
 import { MerchantGoogleLanguagesTaskInfo, IMerchantGoogleLanguagesTaskInfo } from "./MerchantGoogleLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IMerchantGoogleLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: MerchantGoogleLanguagesTaskInfo[] | undefined
+        tasks?: MerchantGoogleLanguagesTaskInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class MerchantGoogleLanguagesResponseInfo  extends BaseResponseInfo   imp
     
     /** array of tasks */
 
-    tasks?: MerchantGoogleLanguagesTaskInfo[] | undefined;
+    tasks?: MerchantGoogleLanguagesTaskInfo[];
 
     [key: string]: any;
 

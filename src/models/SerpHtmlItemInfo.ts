@@ -1,16 +1,16 @@
 export interface ISerpHtmlItemInfo   {
         
         /** serial number of the returned HTML page */
-        page?: number | undefined
+        page?: number
         
         /** date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        date?: string | undefined
+        date?: string
         
         /** HTML page */
-        html?: string | undefined
+        html?: string
 
     [key: string]: any;
 
@@ -20,18 +20,18 @@ export class SerpHtmlItemInfo  implements ISerpHtmlItemInfo {
     
     /** serial number of the returned HTML page */
 
-    page?: number | undefined;
+    page?: number;
     
     /** date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    date?: string | undefined;
+    date?: string;
     
     /** HTML page */
 
-    html?: string | undefined;
+    html?: string;
 
     [key: string]: any;
 

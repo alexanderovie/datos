@@ -1,18 +1,18 @@
 export interface ITopicListDataItemInfo   {
         
         /** unique topic identifier in Google Trends */
-        topic_id?: string | undefined
+        topic_id?: string
         
         /** title of the topic */
-        topic_title?: string | undefined
+        topic_title?: string
         
         /** type of the topic
 represents the general type of the topic */
-        topic_type?: string | undefined
+        topic_type?: string
         
         /** search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on. */
-        value?: number | undefined
+        value?: number
 
     [key: string]: any;
 
@@ -22,21 +22,21 @@ export class TopicListDataItemInfo  implements ITopicListDataItemInfo {
     
     /** unique topic identifier in Google Trends */
 
-    topic_id?: string | undefined;
+    topic_id?: string;
     
     /** title of the topic */
 
-    topic_title?: string | undefined;
+    topic_title?: string;
     
     /** type of the topic
 represents the general type of the topic */
 
-    topic_type?: string | undefined;
+    topic_type?: string;
     
     /** search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on. */
 
-    value?: number | undefined;
+    value?: number;
 
     [key: string]: any;
 

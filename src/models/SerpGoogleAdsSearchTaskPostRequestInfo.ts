@@ -3,13 +3,13 @@ export interface ISerpGoogleAdsSearchTaskPostRequestInfo   {
         /** domain name
 required field if advertiser_ids is not specified
 domain name associated with an advertiser account */
-        target?: string | undefined
+        target?: string
         
         /** advertiser identifiers
 required field if target is not specified
 you can specify the maximum of 25 values in this array;
 advertiser_ids values for this parameter can be found in the Google Ads Advertisers endpoint; */
-        advertiser_ids?: string[] | undefined
+        advertiser_ids?: string[]
         
         /** full name of search engine location
 optional field
@@ -18,7 +18,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 optional field
@@ -27,7 +27,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 optional field
@@ -35,18 +35,18 @@ if you use this field, you don’t need to specify location_name or location_cod
 example:
 52.6178549,-155.352142
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** advertising platform
 optional field
 possible values: all, google_play, google_maps, google_search, google_shopping, youtube
 default value: all */
-        platform?: string | undefined
+        platform?: string
         
         /** ad format
 optional field
 possible values: all, text, image, video */
-        format?: string | undefined
+        format?: string
         
         /** starting date of the time range
 optional field
@@ -56,7 +56,7 @@ minimum value: 2018-05-31
 maximum value: today’s date
 example:
 '2020-01-01' */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 optional field
@@ -66,7 +66,7 @@ minimum value: 2018-05-31
 maximum value: today’s date
 example:
 '2020-01-01' */
-        date_to?: string | undefined
+        date_to?: string
         
         /** parsing depth
 optional field
@@ -76,7 +76,7 @@ max value: 700
 Note: your account will be billed per each SERP containing up to 40 results;
 thus, setting a depth above 40 may result in additional charges if the search engine returns more than 40 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number | undefined
+        depth?: number
         
         /** task priority
 optional field
@@ -85,14 +85,14 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -104,14 +104,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the function you used for setting a task
 possible values:
 advanced */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -123,7 +123,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -135,14 +135,14 @@ export class SerpGoogleAdsSearchTaskPostRequestInfo  implements ISerpGoogleAdsSe
 required field if advertiser_ids is not specified
 domain name associated with an advertiser account */
 
-    target?: string | undefined;
+    target?: string;
     
     /** advertiser identifiers
 required field if target is not specified
 you can specify the maximum of 25 values in this array;
 advertiser_ids values for this parameter can be found in the Google Ads Advertisers endpoint; */
 
-    advertiser_ids?: string[] | undefined;
+    advertiser_ids?: string[];
     
     /** full name of search engine location
 optional field
@@ -152,7 +152,7 @@ example:
 London,England,United Kingdom
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 optional field
@@ -162,7 +162,7 @@ example:
 2840
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 optional field
@@ -171,20 +171,20 @@ example:
 52.6178549,-155.352142
 Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** advertising platform
 optional field
 possible values: all, google_play, google_maps, google_search, google_shopping, youtube
 default value: all */
 
-    platform?: string | undefined;
+    platform?: string;
     
     /** ad format
 optional field
 possible values: all, text, image, video */
 
-    format?: string | undefined;
+    format?: string;
     
     /** starting date of the time range
 optional field
@@ -195,7 +195,7 @@ maximum value: today’s date
 example:
 '2020-01-01' */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 optional field
@@ -206,7 +206,7 @@ maximum value: today’s date
 example:
 '2020-01-01' */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** parsing depth
 optional field
@@ -217,7 +217,7 @@ Note: your account will be billed per each SERP containing up to 40 results;
 thus, setting a depth above 40 may result in additional charges if the search engine returns more than 40 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number | undefined;
+    depth?: number;
     
     /** task priority
 optional field
@@ -227,7 +227,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** user-defined task identifier
 optional field
@@ -235,7 +235,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -248,7 +248,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -256,7 +256,7 @@ corresponds to the function you used for setting a task
 possible values:
 advanced */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -269,7 +269,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

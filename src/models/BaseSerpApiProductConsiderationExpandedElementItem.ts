@@ -2,11 +2,10 @@ import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResu
 import { AiOverviewElement, IAiOverviewElement } from "./AiOverviewElement";
 import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
 
-
 export interface IBaseSerpApiProductConsiderationExpandedElementItem   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
 
     [key: string]: any;
 
@@ -16,7 +15,7 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
 
     [key: string]: any;
 
@@ -81,36 +80,36 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
 export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
         /** title of the row */
-        title?: string | undefined
+        title?: string
         
         /** the title of the featured snippets source page */
-        featured_title?: string | undefined
+        featured_title?: string
         
         /** breadcrumb of the Ad element in SERP */
-        breadcrumb?: string | undefined
+        breadcrumb?: string
         
         /** text alongside the link title */
-        snippet?: string | undefined
+        snippet?: string
         
         /** domain where a link points */
-        domain?: string | undefined
+        domain?: string
         
         /** URL of element */
-        url?: string | undefined
+        url?: string
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string | undefined
+        timestamp?: string
         
         /** search queries related to the elment */
-        related_searches?: string[] | undefined
+        related_searches?: string[]
         
         /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
-        about_this_result?: AboutThisResultElement | undefined
+        about_this_result?: AboutThisResultElement
 
     [key: string]: any;
 
@@ -120,44 +119,44 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
     
     /** title of the row */
 
-    title?: string | undefined;
+    title?: string;
     
     /** the title of the featured snippets source page */
 
-    featured_title?: string | undefined;
+    featured_title?: string;
     
     /** breadcrumb of the Ad element in SERP */
 
-    breadcrumb?: string | undefined;
+    breadcrumb?: string;
     
     /** text alongside the link title */
 
-    snippet?: string | undefined;
+    snippet?: string;
     
     /** domain where a link points */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** URL of element */
 
-    url?: string | undefined;
+    url?: string;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string | undefined;
+    timestamp?: string;
     
     /** search queries related to the elment */
 
-    related_searches?: string[] | undefined;
+    related_searches?: string[];
     
     /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
 
-    about_this_result?: AboutThisResultElement | undefined;
+    about_this_result?: AboutThisResultElement;
 
     [key: string]: any;
 
@@ -219,11 +218,11 @@ this feature appears after clicking on the three dots next to most results */
 export interface ISerpApiProductConsiderationsAiOverviewExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
         /** contains arrays of elements available in the list */
-        items?: AiOverviewElement[] | undefined
+        items?: AiOverviewElement[]
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[] | undefined
+        references?: AiAiOverviewReferenceInfo[]
 
     [key: string]: any;
 
@@ -233,12 +232,12 @@ export class SerpApiProductConsiderationsAiOverviewExpandedElementItem  extends 
     
     /** contains arrays of elements available in the list */
 
-    items?: AiOverviewElement[] | undefined;
+    items?: AiOverviewElement[];
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[] | undefined;
+    references?: AiAiOverviewReferenceInfo[];
 
     [key: string]: any;
 

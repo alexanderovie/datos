@@ -1,34 +1,33 @@
 import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchOrganic";
 
-
 export interface IAppleRankedSerpElementInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** contains data on the SERP element
 the list of supported SERP elements can be found below */
-        serp_item?: AppStoreSearchOrganic | undefined
+        serp_item?: AppStoreSearchOrganic
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string | undefined
+        check_url?: string
         
         /** number of search results for the returned keyword */
-        se_results_count?: number | undefined
+        se_results_count?: number
         
         /** date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        last_updated_time?: string | undefined
+        last_updated_time?: string
         
         /** previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-10-15 12:57:46 +00:00;
 in this case, will equal null */
-        previous_updated_time?: string | undefined
+        previous_updated_time?: string
 
     [key: string]: any;
 
@@ -38,28 +37,28 @@ export class AppleRankedSerpElementInfo  implements IAppleRankedSerpElementInfo 
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** contains data on the SERP element
 the list of supported SERP elements can be found below */
 
-    serp_item?: AppStoreSearchOrganic | undefined;
+    serp_item?: AppStoreSearchOrganic;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string | undefined;
+    check_url?: string;
     
     /** number of search results for the returned keyword */
 
-    se_results_count?: number | undefined;
+    se_results_count?: number;
     
     /** date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    last_updated_time?: string | undefined;
+    last_updated_time?: string;
     
     /** previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -67,7 +66,7 @@ example:
 2019-10-15 12:57:46 +00:00;
 in this case, will equal null */
 
-    previous_updated_time?: string | undefined;
+    previous_updated_time?: string;
 
     [key: string]: any;
 

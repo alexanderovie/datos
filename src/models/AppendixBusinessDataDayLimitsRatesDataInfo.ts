@@ -1,11 +1,10 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
-
 export interface IAppendixBusinessDataDayLimitsRatesDataInfo   {
         
-        reviews?: AppendixInfo | undefined
+        reviews?: AppendixInfo
         
-        search?: AppendixInfo | undefined
+        search?: AppendixInfo
 
     [key: string]: any;
 
@@ -13,9 +12,9 @@ export interface IAppendixBusinessDataDayLimitsRatesDataInfo   {
 
 export class AppendixBusinessDataDayLimitsRatesDataInfo  implements IAppendixBusinessDataDayLimitsRatesDataInfo {
 
-    reviews?: AppendixInfo | undefined;
+    reviews?: AppendixInfo;
 
-    search?: AppendixInfo | undefined;
+    search?: AppendixInfo;
 
     [key: string]: any;
 

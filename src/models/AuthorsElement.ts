@@ -1,16 +1,16 @@
 export interface IAuthorsElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** name of the dataset author */
-        name?: string | undefined
+        name?: string
         
         /** author’s link URL */
-        url?: string | undefined
+        url?: string
         
         /** author’s link domain */
-        domain?: string | undefined
+        domain?: string
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class AuthorsElement  implements IAuthorsElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** name of the dataset author */
 
-    name?: string | undefined;
+    name?: string;
     
     /** author’s link URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** author’s link domain */
 
-    domain?: string | undefined;
+    domain?: string;
 
     [key: string]: any;
 

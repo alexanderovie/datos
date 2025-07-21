@@ -1,36 +1,35 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 
-
 export interface IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** total number of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** current offset value */
-        offset?: number | undefined
+        offset?: number
         
         /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** contains keyword ideas and related data */
-        items?: KeywordDataInfo[] | undefined
+        items?: KeywordDataInfo[]
 
     [key: string]: any;
 
@@ -40,41 +39,41 @@ export class DataforseoLabsGoogleKeywordsForSiteLiveResultInfo  implements IData
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** total number of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** current offset value */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** contains keyword ideas and related data */
 
-    items?: KeywordDataInfo[] | undefined;
+    items?: KeywordDataInfo[];
 
     [key: string]: any;
 

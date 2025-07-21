@@ -1,17 +1,17 @@
 export interface ISerpApiCarouselElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** subtitle of the element */
-        subtitle?: string | undefined
+        subtitle?: string
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string | undefined
+        image_url?: string
 
     [key: string]: any;
 
@@ -21,20 +21,20 @@ export class SerpApiCarouselElement  implements ISerpApiCarouselElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** subtitle of the element */
 
-    subtitle?: string | undefined;
+    subtitle?: string;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string | undefined;
+    image_url?: string;
 
     [key: string]: any;
 

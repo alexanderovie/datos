@@ -2,24 +2,23 @@ import { AppendixRatesData, IAppendixRatesData } from "./AppendixRatesData";
 import { AppendixMoneyData, IAppendixMoneyData } from "./AppendixMoneyData";
 import { AppendixPriceData, IAppendixPriceData } from "./AppendixPriceData";
 
-
 export interface IAppendixUserDataResultInfo   {
         
         /** your login */
-        login?: string | undefined
+        login?: string
         
         /** your time zone
 can be set in your profile settings */
-        timezone?: string | undefined
+        timezone?: string
         
         /** your API rates */
-        rates?: AppendixRatesData | undefined
+        rates?: AppendixRatesData
         
         /** section of your spending, USD */
-        money?: AppendixMoneyData | undefined
+        money?: AppendixMoneyData
         
         /** pricing */
-        price?: AppendixPriceData | undefined
+        price?: AppendixPriceData
         
         /** expiry date of the backlinks api subscription
 date and time when the current subscription to Backlinks API expires;
@@ -27,7 +26,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-06-15 12:57:46 +00:00
 Note: if there is no active subscription to Backlinks API, the value equals null */
-        backlinks_subscription_expiry_date?: string | undefined
+        backlinks_subscription_expiry_date?: string
 
     [key: string]: any;
 
@@ -37,24 +36,24 @@ export class AppendixUserDataResultInfo  implements IAppendixUserDataResultInfo 
     
     /** your login */
 
-    login?: string | undefined;
+    login?: string;
     
     /** your time zone
 can be set in your profile settings */
 
-    timezone?: string | undefined;
+    timezone?: string;
     
     /** your API rates */
 
-    rates?: AppendixRatesData | undefined;
+    rates?: AppendixRatesData;
     
     /** section of your spending, USD */
 
-    money?: AppendixMoneyData | undefined;
+    money?: AppendixMoneyData;
     
     /** pricing */
 
-    price?: AppendixPriceData | undefined;
+    price?: AppendixPriceData;
     
     /** expiry date of the backlinks api subscription
 date and time when the current subscription to Backlinks API expires;
@@ -63,7 +62,7 @@ example:
 2025-06-15 12:57:46 +00:00
 Note: if there is no active subscription to Backlinks API, the value equals null */
 
-    backlinks_subscription_expiry_date?: string | undefined;
+    backlinks_subscription_expiry_date?: string;
 
     [key: string]: any;
 

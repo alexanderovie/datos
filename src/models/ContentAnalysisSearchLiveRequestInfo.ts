@@ -8,7 +8,7 @@ Note: to match an exact phrase instead of a stand-alone keyword, use double quot
 example:
 'keyword': '\'tesla palo alto\''
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
+        keyword?: string
         
         /** target keyword fields and target keywords
 optional field
@@ -21,14 +21,14 @@ example:
     'snippet': '\'logitech mouse\'',
     'main_title': 'sale'
 } */
-        keyword_fields?: { [key: string]: string; } | undefined
+        keyword_fields?: { [key: string]: string; }
         
         /** target page types
 optional field
 use this parameter to filter the dataset by page types
 possible values:
 'ecommerce', 'news', 'blogs', 'message-boards', 'organization' */
-        page_type?: string[] | undefined
+        page_type?: string[]
         
         /** results grouping type
 optional field
@@ -36,13 +36,13 @@ possible grouping types:
 as_is – returns all citations for the target keyword
 one_per_domain – returns one citation of the keyword per domain
 default value: as_is */
-        search_mode?: string | undefined
+        search_mode?: string
         
         /** the maximum number of returned citations
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number | undefined
+        limit?: number
         
         /** array of results filtering parameters
 optional field
@@ -60,7 +60,7 @@ example:
 'or',
 ['content_info.text_category','has',10994]]]
 for more information about filters, please refer to Content Analysis API – Filters */
-        filters?: any[] | undefined
+        filters?: any[]
         
         /** results sorting rules
 optional field
@@ -77,13 +77,13 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['content_info.sentiment_connotations.anger,desc','keyword_data.keyword_info.cpc,desc'] */
-        order_by?: string[] | undefined
+        order_by?: string[]
         
         /** offset in the results array of returned citations
 optional field
 default value: 0
 if you specify the 10 value, the first ten citations in the results array will be omitted and the data will be provided for the successive citations */
-        offset?: number | undefined
+        offset?: number
         
         /** offset token for subsequent requests
 optional field
@@ -92,7 +92,7 @@ use this parameter to avoid timeouts while trying to obtain over 10,000 results 
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** defines the scale used for calculating and displaying the domain_rank, and url_rank values
 optional field
@@ -102,14 +102,14 @@ one_hundred — rank values are displayed on a 0–100 scale
 one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works in this Help Center article */
-        rank_scale?: string | undefined
+        rank_scale?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
 
     [key: string]: any;
 
@@ -126,7 +126,7 @@ example:
 'keyword': '\'tesla palo alto\''
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string | undefined;
+    keyword?: string;
     
     /** target keyword fields and target keywords
 optional field
@@ -140,7 +140,7 @@ example:
     'main_title': 'sale'
 } */
 
-    keyword_fields?: { [key: string]: string; } | undefined;
+    keyword_fields?: { [key: string]: string; };
     
     /** target page types
 optional field
@@ -148,7 +148,7 @@ use this parameter to filter the dataset by page types
 possible values:
 'ecommerce', 'news', 'blogs', 'message-boards', 'organization' */
 
-    page_type?: string[] | undefined;
+    page_type?: string[];
     
     /** results grouping type
 optional field
@@ -157,14 +157,14 @@ as_is – returns all citations for the target keyword
 one_per_domain – returns one citation of the keyword per domain
 default value: as_is */
 
-    search_mode?: string | undefined;
+    search_mode?: string;
     
     /** the maximum number of returned citations
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number | undefined;
+    limit?: number;
     
     /** array of results filtering parameters
 optional field
@@ -183,7 +183,7 @@ example:
 ['content_info.text_category','has',10994]]]
 for more information about filters, please refer to Content Analysis API – Filters */
 
-    filters?: any[] | undefined;
+    filters?: any[];
     
     /** results sorting rules
 optional field
@@ -201,14 +201,14 @@ you should use a comma to separate several sorting rules
 example:
 ['content_info.sentiment_connotations.anger,desc','keyword_data.keyword_info.cpc,desc'] */
 
-    order_by?: string[] | undefined;
+    order_by?: string[];
     
     /** offset in the results array of returned citations
 optional field
 default value: 0
 if you specify the 10 value, the first ten citations in the results array will be omitted and the data will be provided for the successive citations */
 
-    offset?: number | undefined;
+    offset?: number;
     
     /** offset token for subsequent requests
 optional field
@@ -218,7 +218,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** defines the scale used for calculating and displaying the domain_rank, and url_rank values
 optional field
@@ -229,7 +229,7 @@ one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works in this Help Center article */
 
-    rank_scale?: string | undefined;
+    rank_scale?: string;
     
     /** user-defined task identifier
 optional field
@@ -237,7 +237,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
 
     [key: string]: any;
 

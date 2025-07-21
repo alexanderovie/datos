@@ -1,18 +1,17 @@
 import { TechnologyCategoryInfo, ITechnologyCategoryInfo } from "./TechnologyCategoryInfo";
 
-
 export interface IGroups   {
         
         /** id of the technology group
 example:
 marketing, sales */
-        id?: string | undefined
+        id?: string
         
         /** title of the technology group */
-        title?: string | undefined
+        title?: string
         
         /** technology categories in this group */
-        categories?: TechnologyCategoryInfo[] | undefined
+        categories?: TechnologyCategoryInfo[]
 
     [key: string]: any;
 
@@ -24,15 +23,15 @@ export class Groups  implements IGroups {
 example:
 marketing, sales */
 
-    id?: string | undefined;
+    id?: string;
     
     /** title of the technology group */
 
-    title?: string | undefined;
+    title?: string;
     
     /** technology categories in this group */
 
-    categories?: TechnologyCategoryInfo[] | undefined;
+    categories?: TechnologyCategoryInfo[];
 
     [key: string]: any;
 

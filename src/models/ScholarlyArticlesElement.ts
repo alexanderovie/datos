@@ -1,19 +1,19 @@
 export interface IScholarlyArticlesElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title of a given link element */
-        title?: string | undefined
+        title?: string
         
         /** URL */
-        url?: string | undefined
+        url?: string
         
         /** author */
-        author?: string | undefined
+        author?: string
         
         /** description */
-        description?: string | undefined
+        description?: string
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class ScholarlyArticlesElement  implements IScholarlyArticlesElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title of a given link element */
 
-    title?: string | undefined;
+    title?: string;
     
     /** URL */
 
-    url?: string | undefined;
+    url?: string;
     
     /** author */
 
-    author?: string | undefined;
+    author?: string;
     
     /** description */
 
-    description?: string | undefined;
+    description?: string;
 
     [key: string]: any;
 

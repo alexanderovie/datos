@@ -1,21 +1,20 @@
 import { ContentAnalysisSearchLiveItem, IContentAnalysisSearchLiveItem } from "./ContentAnalysisSearchLiveItem";
 
-
 export interface IContentAnalysisSearchLiveResultInfo   {
         
         /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
-        offset_token?: string | undefined
+        offset_token?: string
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number | undefined
+        total_count?: number
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains citations and related data */
-        items?: ContentAnalysisSearchLiveItem[] | undefined
+        items?: ContentAnalysisSearchLiveItem[]
 
     [key: string]: any;
 
@@ -27,19 +26,19 @@ export class ContentAnalysisSearchLiveResultInfo  implements IContentAnalysisSea
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
 
-    offset_token?: string | undefined;
+    offset_token?: string;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains citations and related data */
 
-    items?: ContentAnalysisSearchLiveItem[] | undefined;
+    items?: ContentAnalysisSearchLiveItem[];
 
     [key: string]: any;
 

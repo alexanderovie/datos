@@ -1,11 +1,10 @@
 import { SerpGoogleNewsTasksFixedResultInfo, ISerpGoogleNewsTasksFixedResultInfo } from "./SerpGoogleNewsTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface ISerpGoogleNewsTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleNewsTasksFixedResultInfo[] | undefined
+        result?: SerpGoogleNewsTasksFixedResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class SerpGoogleNewsTasksFixedTaskInfo  extends BaseResponseTaskInfo   im
     
     /** array of results */
 
-    result?: SerpGoogleNewsTasksFixedResultInfo[] | undefined;
+    result?: SerpGoogleNewsTasksFixedResultInfo[];
 
     [key: string]: any;
 

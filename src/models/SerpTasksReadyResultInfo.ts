@@ -2,32 +2,32 @@ export interface ISerpTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string | undefined
+        id?: string
         
         /** search engine specified when setting the task */
-        se?: string | undefined
+        se?: string
         
         /** type of search engine
 example: finance_ticker_search */
-        se_type?: string | undefined
+        se_type?: string
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string | undefined
+        date_posted?: string
         
         /** user-defined task identifier */
-        tag?: string | undefined
+        tag?: string
         
         /** URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null */
-        endpoint_regular?: string | undefined
+        endpoint_regular?: string
         
         /** URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null */
-        endpoint_advanced?: string | undefined
+        endpoint_advanced?: string
         
         /** URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null */
-        endpoint_html?: string | undefined
+        endpoint_html?: string
 
     [key: string]: any;
 
@@ -38,39 +38,39 @@ export class SerpTasksReadyResultInfo  implements ISerpTasksReadyResultInfo {
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string | undefined;
+    id?: string;
     
     /** search engine specified when setting the task */
 
-    se?: string | undefined;
+    se?: string;
     
     /** type of search engine
 example: finance_ticker_search */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string | undefined;
+    date_posted?: string;
     
     /** user-defined task identifier */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null */
 
-    endpoint_regular?: string | undefined;
+    endpoint_regular?: string;
     
     /** URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null */
 
-    endpoint_advanced?: string | undefined;
+    endpoint_advanced?: string;
     
     /** URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null */
 
-    endpoint_html?: string | undefined;
+    endpoint_html?: string;
 
     [key: string]: any;
 

@@ -1,10 +1,9 @@
 import { DataforseoLabsAvailableFiltersTaskInfo, IDataforseoLabsAvailableFiltersTaskInfo } from "./DataforseoLabsAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
-
 export interface IDataforseoLabsAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
-        tasks?: DataforseoLabsAvailableFiltersTaskInfo[] | undefined
+        tasks?: DataforseoLabsAvailableFiltersTaskInfo[]
 
     [key: string]: any;
 
@@ -12,7 +11,7 @@ export interface IDataforseoLabsAvailableFiltersResponseInfo  extends IBaseRespo
 
 export class DataforseoLabsAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAvailableFiltersResponseInfo {
 
-    tasks?: DataforseoLabsAvailableFiltersTaskInfo[] | undefined;
+    tasks?: DataforseoLabsAvailableFiltersTaskInfo[];
 
     [key: string]: any;
 

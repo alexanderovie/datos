@@ -1,23 +1,22 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
-
 export interface IOtherSitesReviewsInfo   {
         
         /** review title
 contains a name of the third-party site where review initially appeared */
-        title?: string | undefined
+        title?: string
         
         /** review url
 URL to the a third-party site where review initially appeared */
-        url?: string | undefined
+        url?: string
         
         /** review text
 text of the review */
-        review_text?: string | undefined
+        review_text?: string
         
         /** rating in the review
 information about the rating enclosed in the review on a third-party site */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
 
     [key: string]: any;
 
@@ -28,22 +27,22 @@ export class OtherSitesReviewsInfo  implements IOtherSitesReviewsInfo {
     /** review title
 contains a name of the third-party site where review initially appeared */
 
-    title?: string | undefined;
+    title?: string;
     
     /** review url
 URL to the a third-party site where review initially appeared */
 
-    url?: string | undefined;
+    url?: string;
     
     /** review text
 text of the review */
 
-    review_text?: string | undefined;
+    review_text?: string;
     
     /** rating in the review
 information about the rating enclosed in the review on a third-party site */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
 
     [key: string]: any;
 

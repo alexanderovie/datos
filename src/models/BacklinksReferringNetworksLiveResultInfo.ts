@@ -1,19 +1,18 @@
 import { BacklinksReferringNetworksLiveItem, IBacklinksReferringNetworksLiveItem } from "./BacklinksReferringNetworksLiveItem";
 
-
 export interface IBacklinksReferringNetworksLiveResultInfo   {
         
         /** target in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** total number of relevant items in the database */
-        total_count?: number | undefined
+        total_count?: number
         
         /** number of items in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** items array */
-        items?: BacklinksReferringNetworksLiveItem[] | undefined
+        items?: BacklinksReferringNetworksLiveItem[]
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class BacklinksReferringNetworksLiveResultInfo  implements IBacklinksRefe
     
     /** target in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** total number of relevant items in the database */
 
-    total_count?: number | undefined;
+    total_count?: number;
     
     /** number of items in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** items array */
 
-    items?: BacklinksReferringNetworksLiveItem[] | undefined;
+    items?: BacklinksReferringNetworksLiveItem[];
 
     [key: string]: any;
 

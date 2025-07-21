@@ -4,7 +4,7 @@ export interface IMerchantAmazonAsinTaskPostRequestInfo   {
 required field
 unique product identifier (ASIN) in Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
-        asin?: string | undefined
+        asin?: string
         
         /** task priority
 optional field
@@ -13,7 +13,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
+        priority?: number
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -21,7 +21,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations with their location_name parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 HA1,England,United Kingdom */
-        location_name?: string | undefined
+        location_name?: string
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -30,7 +30,7 @@ you can receive the list of available locations with their location_code paramet
 https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 9045969 */
-        location_code?: number | undefined
+        location_code?: number
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -40,7 +40,7 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string | undefined
+        location_coordinate?: string
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -49,7 +49,7 @@ you can receive the list of available languages with their language_name paramet
 https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 English (United Kingdom) */
-        language_name?: string | undefined
+        language_name?: string
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -57,7 +57,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 en_GB */
-        language_code?: string | undefined
+        language_code?: string
         
         /** search engine domain
 optional field
@@ -65,27 +65,27 @@ we choose the relevant search engine domain automatically according to the locat
 however, you can set a custom search engine domain in this field
 example:
 amazon.com, amazon.co.uk, amazon.fr, etc. */
-        se_domain?: string | undefined
+        se_domain?: string
         
         /** load more local reviews
 optional field
 if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
 Note: you will be charged double the price for using this parameter */
-        load_more_local_reviews?: boolean | undefined
+        load_more_local_reviews?: boolean
         
         /** sort local reviews
 optional field
 reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
 possible values: helpful, recent
 default value: helpful */
-        local_reviews_sort?: string | undefined
+        local_reviews_sort?: string
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
+        tag?: string
         
         /** return URL for sending task results
 optional field
@@ -97,14 +97,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string | undefined
+        postback_url?: string
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html */
-        postback_data?: string | undefined
+        postback_data?: string
         
         /** notification URL of a completed task
 optional field
@@ -116,7 +116,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string | undefined
+        pingback_url?: string
 
     [key: string]: any;
 
@@ -129,7 +129,7 @@ required field
 unique product identifier (ASIN) in Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
 
-    asin?: string | undefined;
+    asin?: string;
     
     /** task priority
 optional field
@@ -139,7 +139,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number | undefined;
+    priority?: number;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -148,7 +148,7 @@ you can receive the list of available locations with their location_name paramet
 example:
 HA1,England,United Kingdom */
 
-    location_name?: string | undefined;
+    location_name?: string;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 9045969 */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -169,7 +169,7 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string | undefined;
+    location_coordinate?: string;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -179,7 +179,7 @@ https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 English (United Kingdom) */
 
-    language_name?: string | undefined;
+    language_name?: string;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -188,7 +188,7 @@ you can receive the list of available languages with their language_code parame
 example:
 en_GB */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** search engine domain
 optional field
@@ -197,14 +197,14 @@ however, you can set a custom search engine domain in this field
 example:
 amazon.com, amazon.co.uk, amazon.fr, etc. */
 
-    se_domain?: string | undefined;
+    se_domain?: string;
     
     /** load more local reviews
 optional field
 if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
 Note: you will be charged double the price for using this parameter */
 
-    load_more_local_reviews?: boolean | undefined;
+    load_more_local_reviews?: boolean;
     
     /** sort local reviews
 optional field
@@ -212,7 +212,7 @@ reviews in the top_local_reviews array of the Task GET response can be sorted by
 possible values: helpful, recent
 default value: helpful */
 
-    local_reviews_sort?: string | undefined;
+    local_reviews_sort?: string;
     
     /** user-defined task identifier
 optional field
@@ -220,7 +220,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string | undefined;
+    tag?: string;
     
     /** return URL for sending task results
 optional field
@@ -233,7 +233,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string | undefined;
+    postback_url?: string;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -241,7 +241,7 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html */
 
-    postback_data?: string | undefined;
+    postback_data?: string;
     
     /** notification URL of a completed task
 optional field
@@ -254,7 +254,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string | undefined;
+    pingback_url?: string;
 
     [key: string]: any;
 

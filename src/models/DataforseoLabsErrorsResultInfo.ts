@@ -1,40 +1,40 @@
 export interface IDataforseoLabsErrorsResultInfo   {
         
         /** id of the task */
-        id?: string | undefined
+        id?: string
         
         /** date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string | undefined
+        datetime?: string
         
         /** corresponding API function */
-        function?: string | undefined
+        function?: string
         
         /** error code */
-        error_code?: number | undefined
+        error_code?: number
         
         /** error message or error URL
 error message (see full list) or URL that caused an error */
-        error_message?: string | undefined
+        error_message?: string
         
         /** URL that caused an error
 URL you used for making an API call */
-        http_url?: string | undefined
+        http_url?: string
         
         /** HTTP method */
-        http_method?: string | undefined
+        http_method?: string
         
         /** HTTP status code */
-        http_code?: number | undefined
+        http_code?: number
         
         /** time taken by HTTP request */
-        http_time?: number | undefined
+        http_time?: number
         
         /** HTTP response
 server response */
-        http_response?: string | undefined
+        http_response?: string
 
     [key: string]: any;
 
@@ -44,49 +44,49 @@ export class DataforseoLabsErrorsResultInfo  implements IDataforseoLabsErrorsRes
     
     /** id of the task */
 
-    id?: string | undefined;
+    id?: string;
     
     /** date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string | undefined;
+    datetime?: string;
     
     /** corresponding API function */
 
-    function?: string | undefined;
+    function?: string;
     
     /** error code */
 
-    error_code?: number | undefined;
+    error_code?: number;
     
     /** error message or error URL
 error message (see full list) or URL that caused an error */
 
-    error_message?: string | undefined;
+    error_message?: string;
     
     /** URL that caused an error
 URL you used for making an API call */
 
-    http_url?: string | undefined;
+    http_url?: string;
     
     /** HTTP method */
 
-    http_method?: string | undefined;
+    http_method?: string;
     
     /** HTTP status code */
 
-    http_code?: number | undefined;
+    http_code?: number;
     
     /** time taken by HTTP request */
 
-    http_time?: number | undefined;
+    http_time?: number;
     
     /** HTTP response
 server response */
 
-    http_response?: string | undefined;
+    http_response?: string;
 
     [key: string]: any;
 

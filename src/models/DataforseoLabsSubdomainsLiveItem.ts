@@ -1,16 +1,15 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
-
 export interface IDataforseoLabsSubdomainsLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** returned subdomain */
-        subdomain?: string | undefined
+        subdomain?: string
         
         /** ranking data relevant to subdomain */
-        metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
+        metrics?: { [key: string]: DataforseoLabsMetricsInfo; }
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsSubdomainsLiveItem  implements IDataforseoLabsSubdoma
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** returned subdomain */
 
-    subdomain?: string | undefined;
+    subdomain?: string;
     
     /** ranking data relevant to subdomain */
 
-    metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+    metrics?: { [key: string]: DataforseoLabsMetricsInfo; };
 
     [key: string]: any;
 

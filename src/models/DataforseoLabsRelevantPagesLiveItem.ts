@@ -1,16 +1,15 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
-
 export interface IDataforseoLabsRelevantPagesLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** absolute URL of the relevant page */
-        page_address?: string | undefined
+        page_address?: string
         
         /** rankings and traffic metrics for the relevant page */
-        metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
+        metrics?: { [key: string]: DataforseoLabsMetricsInfo; }
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsRelevantPagesLiveItem  implements IDataforseoLabsRele
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** absolute URL of the relevant page */
 
-    page_address?: string | undefined;
+    page_address?: string;
     
     /** rankings and traffic metrics for the relevant page */
 
-    metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+    metrics?: { [key: string]: DataforseoLabsMetricsInfo; };
 
     [key: string]: any;
 

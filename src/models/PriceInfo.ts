@@ -2,27 +2,27 @@ export interface IPriceInfo   {
         
         /** current price
 indicates the current price of the product or service featured in the result */
-        current?: number | undefined
+        current?: number
         
         /** regular price
 indicates the regular price of the product or service with no discounts applied */
-        regular?: number | undefined
+        regular?: number
         
         /** the maximum price
 the maximum price of the product or service as indicated in the result */
-        max_value?: number | undefined
+        max_value?: number
         
         /** currency of the listed price
 ISO code of the currency applied to the price */
-        currency?: string | undefined
+        currency?: string
         
         /** price is provided as a range
 indicates whether a price is provided in a range */
-        is_price_range?: boolean | undefined
+        is_price_range?: boolean
         
         /** price string in the result
 raw price string as provided in the result */
-        displayed_price?: string | undefined
+        displayed_price?: string
 
     [key: string]: any;
 
@@ -33,32 +33,32 @@ export class PriceInfo  implements IPriceInfo {
     /** current price
 indicates the current price of the product or service featured in the result */
 
-    current?: number | undefined;
+    current?: number;
     
     /** regular price
 indicates the regular price of the product or service with no discounts applied */
 
-    regular?: number | undefined;
+    regular?: number;
     
     /** the maximum price
 the maximum price of the product or service as indicated in the result */
 
-    max_value?: number | undefined;
+    max_value?: number;
     
     /** currency of the listed price
 ISO code of the currency applied to the price */
 
-    currency?: string | undefined;
+    currency?: string;
     
     /** price is provided as a range
 indicates whether a price is provided in a range */
 
-    is_price_range?: boolean | undefined;
+    is_price_range?: boolean;
     
     /** price string in the result
 raw price string as provided in the result */
 
-    displayed_price?: string | undefined;
+    displayed_price?: string;
 
     [key: string]: any;
 

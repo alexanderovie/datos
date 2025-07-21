@@ -2,44 +2,43 @@ import { TimeInfo, ITimeInfo } from "./TimeInfo";
 import { HotelAmenityInfo, IHotelAmenityInfo } from "./HotelAmenityInfo";
 import { HotelAmenityItemInfo, IHotelAmenityItemInfo } from "./HotelAmenityItemInfo";
 
-
 export interface IHotelAboutInfo   {
         
         /** description of the hotel
 the description of the hotel entity for which the results are collected */
-        description?: string | undefined
+        description?: string
         
         /** additional description of the hotel
 details about the hotel provided in addition to the description */
-        sub_descriptions?: string[] | undefined
+        sub_descriptions?: string[]
         
         /** hotel check-in time
 check-in time indicated in the hotel listing */
-        check_in_time?: TimeInfo | undefined
+        check_in_time?: TimeInfo
         
         /** hotel check-out time
 check-out time indicated in the hotel listing */
-        check_out_time?: TimeInfo | undefined
+        check_out_time?: TimeInfo
         
         /** full address of the hotel
 address of the hotel indicated in the standardised format */
-        full_address?: string | undefined
+        full_address?: string
         
         /** hotel domain
 domain of the hotel’s website */
-        domain?: string | undefined
+        domain?: string
         
         /** hotel url
 URL to the hotel’s website indicated in the listing */
-        url?: string | undefined
+        url?: string
         
         /** hotel amenities
 information about hotel amenities */
-        amenities?: HotelAmenityInfo[] | undefined
+        amenities?: HotelAmenityInfo[]
         
         /** hotel amenities
 information about hotel amenities labelled as “popular” */
-        popular_amenities?: HotelAmenityItemInfo[] | undefined
+        popular_amenities?: HotelAmenityItemInfo[]
 
     [key: string]: any;
 
@@ -50,47 +49,47 @@ export class HotelAboutInfo  implements IHotelAboutInfo {
     /** description of the hotel
 the description of the hotel entity for which the results are collected */
 
-    description?: string | undefined;
+    description?: string;
     
     /** additional description of the hotel
 details about the hotel provided in addition to the description */
 
-    sub_descriptions?: string[] | undefined;
+    sub_descriptions?: string[];
     
     /** hotel check-in time
 check-in time indicated in the hotel listing */
 
-    check_in_time?: TimeInfo | undefined;
+    check_in_time?: TimeInfo;
     
     /** hotel check-out time
 check-out time indicated in the hotel listing */
 
-    check_out_time?: TimeInfo | undefined;
+    check_out_time?: TimeInfo;
     
     /** full address of the hotel
 address of the hotel indicated in the standardised format */
 
-    full_address?: string | undefined;
+    full_address?: string;
     
     /** hotel domain
 domain of the hotel’s website */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** hotel url
 URL to the hotel’s website indicated in the listing */
 
-    url?: string | undefined;
+    url?: string;
     
     /** hotel amenities
 information about hotel amenities */
 
-    amenities?: HotelAmenityInfo[] | undefined;
+    amenities?: HotelAmenityInfo[];
     
     /** hotel amenities
 information about hotel amenities labelled as “popular” */
 
-    popular_amenities?: HotelAmenityItemInfo[] | undefined;
+    popular_amenities?: HotelAmenityItemInfo[];
 
     [key: string]: any;
 

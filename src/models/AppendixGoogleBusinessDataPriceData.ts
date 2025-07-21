@@ -2,22 +2,21 @@ import { AppendixAKeywordsDataPriceDataInfo, IAppendixAKeywordsDataPriceDataInfo
 import { AppendixHotelInfoGoogleBusinessDataPriceData, IAppendixHotelInfoGoogleBusinessDataPriceData } from "./AppendixHotelInfoGoogleBusinessDataPriceData";
 import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
 
-
 export interface IAppendixGoogleBusinessDataPriceData   {
         
-        extended_reviews?: AppendixAKeywordsDataPriceDataInfo | undefined
+        extended_reviews?: AppendixAKeywordsDataPriceDataInfo
         
-        hotel_info?: AppendixHotelInfoGoogleBusinessDataPriceData | undefined
+        hotel_info?: AppendixHotelInfoGoogleBusinessDataPriceData
         
-        hotel_searches?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        hotel_searches?: AppendixGoogleBusinessDataPriceDataInfo
         
-        my_business_info?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        my_business_info?: AppendixGoogleBusinessDataPriceDataInfo
         
-        my_business_updates?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        my_business_updates?: AppendixGoogleBusinessDataPriceDataInfo
         
-        questions_and_answers?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        questions_and_answers?: AppendixGoogleBusinessDataPriceDataInfo
         
-        reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        reviews?: AppendixGoogleBusinessDataPriceDataInfo
 
     [key: string]: any;
 
@@ -25,19 +24,19 @@ export interface IAppendixGoogleBusinessDataPriceData   {
 
 export class AppendixGoogleBusinessDataPriceData  implements IAppendixGoogleBusinessDataPriceData {
 
-    extended_reviews?: AppendixAKeywordsDataPriceDataInfo | undefined;
+    extended_reviews?: AppendixAKeywordsDataPriceDataInfo;
 
-    hotel_info?: AppendixHotelInfoGoogleBusinessDataPriceData | undefined;
+    hotel_info?: AppendixHotelInfoGoogleBusinessDataPriceData;
 
-    hotel_searches?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    hotel_searches?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    my_business_info?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    my_business_info?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    my_business_updates?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    my_business_updates?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    questions_and_answers?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    questions_and_answers?: AppendixGoogleBusinessDataPriceDataInfo;
 
-    reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    reviews?: AppendixGoogleBusinessDataPriceDataInfo;
 
     [key: string]: any;
 

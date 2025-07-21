@@ -1,40 +1,39 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
-
 export interface IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** categories for which domains are collected */
-        top_categories?: number[] | undefined
+        top_categories?: number[]
         
         /** current organic ETV of the domain */
-        organic_etv?: number | undefined
+        organic_etv?: number
         
         /** current total count of organic SERPs that contain the domain */
-        organic_count?: number | undefined
+        organic_count?: number
         
         /** current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
-        organic_is_lost?: number | undefined
+        organic_is_lost?: number
         
         /** current number of new ranked elements
 indicates how many new ranked elements were found for the domain */
-        organic_is_new?: number | undefined
+        organic_is_new?: number
         
         /** domain found for the specified category */
-        domain?: string | undefined
+        domain?: string
         
         /** primary domain */
-        main_domain?: string | undefined
+        main_domain?: string
         
         /** historical ranking and traffic data of the domain */
-        metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; } | undefined
+        metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; }
         
         /** metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
-        metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
+        metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; }
 
     [key: string]: any;
 
@@ -44,46 +43,46 @@ export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem  implements I
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** categories for which domains are collected */
 
-    top_categories?: number[] | undefined;
+    top_categories?: number[];
     
     /** current organic ETV of the domain */
 
-    organic_etv?: number | undefined;
+    organic_etv?: number;
     
     /** current total count of organic SERPs that contain the domain */
 
-    organic_count?: number | undefined;
+    organic_count?: number;
     
     /** current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
 
-    organic_is_lost?: number | undefined;
+    organic_is_lost?: number;
     
     /** current number of new ranked elements
 indicates how many new ranked elements were found for the domain */
 
-    organic_is_new?: number | undefined;
+    organic_is_new?: number;
     
     /** domain found for the specified category */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** primary domain */
 
-    main_domain?: string | undefined;
+    main_domain?: string;
     
     /** historical ranking and traffic data of the domain */
 
-    metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; } | undefined;
+    metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; };
     
     /** metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
 
-    metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+    metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; };
 
     [key: string]: any;
 

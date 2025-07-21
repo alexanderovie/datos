@@ -4,11 +4,11 @@ export interface ITrendsMapDataInfo   {
 you can use this field for matching obtained results with location parameters specified in the request
 example:
 US-NY */
-        geo_id?: string | undefined
+        geo_id?: string
         
         /** Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request */
-        geo_name?: string | undefined
+        geo_name?: string
         
         /** relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -16,12 +16,12 @@ if you specify more than one keyword, the values will be averaged to the highest
 a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
-        values?: string[] | undefined
+        values?: string[]
         
         /** max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
 if you specified only one keyword, the value will be null */
-        max_value_index?: number | undefined
+        max_value_index?: number
 
     [key: string]: any;
 
@@ -34,12 +34,12 @@ you can use this field for matching obtained results with location parameters sp
 example:
 US-NY */
 
-    geo_id?: string | undefined;
+    geo_id?: string;
     
     /** Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request */
 
-    geo_name?: string | undefined;
+    geo_name?: string;
     
     /** relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -48,13 +48,13 @@ a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
 
-    values?: string[] | undefined;
+    values?: string[];
     
     /** max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
 if you specified only one keyword, the value will be null */
 
-    max_value_index?: number | undefined;
+    max_value_index?: number;
 
     [key: string]: any;
 

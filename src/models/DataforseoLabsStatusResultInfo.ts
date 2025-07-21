@@ -1,16 +1,15 @@
 import { DataforseoLabsStatusInfo, IDataforseoLabsStatusInfo } from "./DataforseoLabsStatusInfo";
 
-
 export interface IDataforseoLabsStatusResultInfo   {
         
         /** update information for the Google endpoints */
-        google?: DataforseoLabsStatusInfo | undefined
+        google?: DataforseoLabsStatusInfo
         
         /** update information for the Bing endpoints */
-        bing?: DataforseoLabsStatusInfo | undefined
+        bing?: DataforseoLabsStatusInfo
         
         /** update information for the Amazon endpoints */
-        amazon?: DataforseoLabsStatusInfo | undefined
+        amazon?: DataforseoLabsStatusInfo
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsStatusResultInfo  implements IDataforseoLabsStatusRes
     
     /** update information for the Google endpoints */
 
-    google?: DataforseoLabsStatusInfo | undefined;
+    google?: DataforseoLabsStatusInfo;
     
     /** update information for the Bing endpoints */
 
-    bing?: DataforseoLabsStatusInfo | undefined;
+    bing?: DataforseoLabsStatusInfo;
     
     /** update information for the Amazon endpoints */
 
-    amazon?: DataforseoLabsStatusInfo | undefined;
+    amazon?: DataforseoLabsStatusInfo;
 
     [key: string]: any;
 

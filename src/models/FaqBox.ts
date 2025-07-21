@@ -1,14 +1,13 @@
 import { FaqBoxElement, IFaqBoxElement } from "./FaqBoxElement";
 
-
 export interface IFaqBox   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: FaqBoxElement[] | undefined
+        items?: FaqBoxElement[]
 
     [key: string]: any;
 
@@ -18,12 +17,12 @@ export class FaqBox  implements IFaqBox {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: FaqBoxElement[] | undefined;
+    items?: FaqBoxElement[];
 
     [key: string]: any;
 

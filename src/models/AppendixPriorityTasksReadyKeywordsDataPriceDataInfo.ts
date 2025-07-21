@@ -4,10 +4,10 @@ export interface IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo   {
 can take the following values:
 per_result – charge for every row in the result array
 per_request – charge for a GET or POST request */
-        cost_type?: string | undefined
+        cost_type?: string
         
         /** cost, USD */
-        cost?: number | undefined
+        cost?: number
 
     [key: string]: any;
 
@@ -20,11 +20,11 @@ can take the following values:
 per_result – charge for every row in the result array
 per_request – charge for a GET or POST request */
 
-    cost_type?: string | undefined;
+    cost_type?: string;
     
     /** cost, USD */
 
-    cost?: number | undefined;
+    cost?: number;
 
     [key: string]: any;
 

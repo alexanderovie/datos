@@ -1,19 +1,18 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
-
 export interface IDataforseoLabsDomainRankOverviewLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** location code in a POST array */
-        location_code?: number | undefined
+        location_code?: number
         
         /** language code in a POST array */
-        language_code?: string | undefined
+        language_code?: string
         
         /** ranking data relevant to the specified domain */
-        metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
+        metrics?: { [key: string]: DataforseoLabsMetricsInfo; }
 
     [key: string]: any;
 
@@ -23,19 +22,19 @@ export class DataforseoLabsDomainRankOverviewLiveItem  implements IDataforseoLab
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** location code in a POST array */
 
-    location_code?: number | undefined;
+    location_code?: number;
     
     /** language code in a POST array */
 
-    language_code?: string | undefined;
+    language_code?: string;
     
     /** ranking data relevant to the specified domain */
 
-    metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+    metrics?: { [key: string]: DataforseoLabsMetricsInfo; };
 
     [key: string]: any;
 

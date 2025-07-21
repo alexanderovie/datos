@@ -1,15 +1,14 @@
 import { QueriesListDataItemInfo, IQueriesListDataItemInfo } from "./QueriesListDataItemInfo";
 
-
 export interface IQueriesListDataInfo   {
         
         /** the most popular related topics
 represents the list of the most popular related topics */
-        top?: QueriesListDataItemInfo[] | undefined
+        top?: QueriesListDataItemInfo[]
         
         /** emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period */
-        rising?: QueriesListDataItemInfo[] | undefined
+        rising?: QueriesListDataItemInfo[]
 
     [key: string]: any;
 
@@ -20,12 +19,12 @@ export class QueriesListDataInfo  implements IQueriesListDataInfo {
     /** the most popular related topics
 represents the list of the most popular related topics */
 
-    top?: QueriesListDataItemInfo[] | undefined;
+    top?: QueriesListDataItemInfo[];
     
     /** emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period */
 
-    rising?: QueriesListDataItemInfo[] | undefined;
+    rising?: QueriesListDataItemInfo[];
 
     [key: string]: any;
 

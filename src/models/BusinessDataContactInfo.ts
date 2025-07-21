@@ -1,15 +1,15 @@
 export interface IBusinessDataContactInfo   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** contact displayed in SERP 
 example:
 '+119797979736' */
-        value?: string | undefined
+        value?: string
         
         /** data source */
-        source?: string | undefined
+        source?: string
 
     [key: string]: any;
 
@@ -19,17 +19,17 @@ export class BusinessDataContactInfo  implements IBusinessDataContactInfo {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** contact displayed in SERP 
 example:
 '+119797979736' */
 
-    value?: string | undefined;
+    value?: string;
     
     /** data source */
 
-    source?: string | undefined;
+    source?: string;
 
     [key: string]: any;
 

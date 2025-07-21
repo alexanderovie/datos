@@ -2,33 +2,32 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
 
-
 export interface IProductSeller   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** product title */
-        title?: string | undefined
+        title?: string
         
         /** seller url
 url of the page where the product is sold */
-        url?: string | undefined
+        url?: string
         
         /** rating of the seller */
-        seller_rating?: RatingElement | undefined
+        seller_rating?: RatingElement
         
         /** number of seller reviews
 number of reviews on the product seller’s account */
-        seller_review_count?: number | undefined
+        seller_review_count?: number
         
         /** product price
 product price details on the seller’s website */
-        price?: PriceInfo | undefined
+        price?: PriceInfo
         
         /** delivery information
 product delivery information */
-        delivery_info?: DeliveryInfo | undefined
+        delivery_info?: DeliveryInfo
 
     [key: string]: any;
 
@@ -38,35 +37,35 @@ export class ProductSeller  implements IProductSeller {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** product title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** seller url
 url of the page where the product is sold */
 
-    url?: string | undefined;
+    url?: string;
     
     /** rating of the seller */
 
-    seller_rating?: RatingElement | undefined;
+    seller_rating?: RatingElement;
     
     /** number of seller reviews
 number of reviews on the product seller’s account */
 
-    seller_review_count?: number | undefined;
+    seller_review_count?: number;
     
     /** product price
 product price details on the seller’s website */
 
-    price?: PriceInfo | undefined;
+    price?: PriceInfo;
     
     /** delivery information
 product delivery information */
 
-    delivery_info?: DeliveryInfo | undefined;
+    delivery_info?: DeliveryInfo;
 
     [key: string]: any;
 

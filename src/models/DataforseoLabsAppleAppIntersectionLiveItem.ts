@@ -1,19 +1,18 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchOrganic";
 
-
 export interface IDataforseoLabsAppleAppIntersectionLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** keyword data for the returned keyword */
-        keyword_data?: KeywordDataInfo | undefined
+        keyword_data?: KeywordDataInfo
         
         /** contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
 depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
-        intersection_result?: { [key: string]: AppStoreSearchOrganic; } | undefined
+        intersection_result?: { [key: string]: AppStoreSearchOrganic; }
 
     [key: string]: any;
 
@@ -23,17 +22,17 @@ export class DataforseoLabsAppleAppIntersectionLiveItem  implements IDataforseoL
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** keyword data for the returned keyword */
 
-    keyword_data?: KeywordDataInfo | undefined;
+    keyword_data?: KeywordDataInfo;
     
     /** contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
 depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
 
-    intersection_result?: { [key: string]: AppStoreSearchOrganic; } | undefined;
+    intersection_result?: { [key: string]: AppStoreSearchOrganic; };
 
     [key: string]: any;
 

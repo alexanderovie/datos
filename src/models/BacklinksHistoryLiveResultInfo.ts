@@ -1,30 +1,29 @@
 import { BacklinksHistoryLiveItem, IBacklinksHistoryLiveItem } from "./BacklinksHistoryLiveItem";
 
-
 export interface IBacklinksHistoryLiveResultInfo   {
         
         /** target from the POST array */
-        target?: string | undefined
+        target?: string
         
         /** starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01 */
-        date_from?: string | undefined
+        date_from?: string
         
         /** ending date of the time range
 in the UTC format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        date_to?: string | undefined
+        date_to?: string
         
         /** the number of results returned in the items array */
-        items_count?: number | undefined
+        items_count?: number
         
         /** contains historical backlink data for the specified domain
 the data is provided month-by-month;
 the metrics are aggregated according to the backlinks the specified domain had on the first day of each given month */
-        items?: BacklinksHistoryLiveItem[] | undefined
+        items?: BacklinksHistoryLiveItem[]
 
     [key: string]: any;
 
@@ -34,31 +33,31 @@ export class BacklinksHistoryLiveResultInfo  implements IBacklinksHistoryLiveRes
     
     /** target from the POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01 */
 
-    date_from?: string | undefined;
+    date_from?: string;
     
     /** ending date of the time range
 in the UTC format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    date_to?: string | undefined;
+    date_to?: string;
     
     /** the number of results returned in the items array */
 
-    items_count?: number | undefined;
+    items_count?: number;
     
     /** contains historical backlink data for the specified domain
 the data is provided month-by-month;
 the metrics are aggregated according to the backlinks the specified domain had on the first day of each given month */
 
-    items?: BacklinksHistoryLiveItem[] | undefined;
+    items?: BacklinksHistoryLiveItem[];
 
     [key: string]: any;
 

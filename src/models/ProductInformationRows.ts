@@ -1,16 +1,15 @@
 import { BaseMerchantAmazonProductInformationRowElementItem, IBaseMerchantAmazonProductInformationRowElementItem } from "./BaseMerchantAmazonProductInformationRowElementItem";
 
-
 export interface IProductInformationRows   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** title under which related product information appears on the Amazon product page */
-        title?: string | undefined
+        title?: string
         
         /** rows containing related product information */
-        rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined
+        rows?: BaseMerchantAmazonProductInformationRowElementItem[]
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class ProductInformationRows  implements IProductInformationRows {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** title under which related product information appears on the Amazon product page */
 
-    title?: string | undefined;
+    title?: string;
     
     /** rows containing related product information */
 
-    rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined;
+    rows?: BaseMerchantAmazonProductInformationRowElementItem[];
 
     [key: string]: any;
 

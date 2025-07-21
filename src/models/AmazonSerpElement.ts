@@ -1,69 +1,68 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 
-
 export interface IAmazonSerpElement   {
         
         /** type of element */
-        type?: string | undefined
+        type?: string
         
         /** the XPath of the element */
-        xpath?: string | undefined
+        xpath?: string
         
         /** Amazon domain */
-        domain?: string | undefined
+        domain?: string
         
         /** product title */
-        title?: string | undefined
+        title?: string
         
         /** the URL of the product page */
-        url?: string | undefined
+        url?: string
         
         /** URL of the product image featured in the results */
-        image_url?: string | undefined
+        image_url?: string
         
         /** number of product purchases in the past month */
-        bought_past_month?: number | undefined
+        bought_past_month?: number
         
         /** the regular price of a product
 example:
 49.98 */
-        price_from?: number | undefined
+        price_from?: number
         
         /** the upper limit of the product price range
 example:
 384.99 */
-        price_to?: number | undefined
+        price_to?: number
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string | undefined
+        currency?: string
         
         /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
-        special_offers?: string[] | undefined
+        special_offers?: string[]
         
         /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
-        data_asin?: string | undefined
+        data_asin?: string
         
         /** product rating info */
-        rating?: RatingElement | undefined
+        rating?: RatingElement
         
         /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
-        is_amazon_choice?: boolean | undefined
+        is_amazon_choice?: boolean
         
         /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
-        is_best_seller?: boolean | undefined
+        is_best_seller?: boolean
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: AmazonDeliveryInfo | undefined
+        delivery_info?: AmazonDeliveryInfo
 
     [key: string]: any;
 
@@ -73,80 +72,80 @@ export class AmazonSerpElement  implements IAmazonSerpElement {
     
     /** type of element */
 
-    type?: string | undefined;
+    type?: string;
     
     /** the XPath of the element */
 
-    xpath?: string | undefined;
+    xpath?: string;
     
     /** Amazon domain */
 
-    domain?: string | undefined;
+    domain?: string;
     
     /** product title */
 
-    title?: string | undefined;
+    title?: string;
     
     /** the URL of the product page */
 
-    url?: string | undefined;
+    url?: string;
     
     /** URL of the product image featured in the results */
 
-    image_url?: string | undefined;
+    image_url?: string;
     
     /** number of product purchases in the past month */
 
-    bought_past_month?: number | undefined;
+    bought_past_month?: number;
     
     /** the regular price of a product
 example:
 49.98 */
 
-    price_from?: number | undefined;
+    price_from?: number;
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
-    price_to?: number | undefined;
+    price_to?: number;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string | undefined;
+    currency?: string;
     
     /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
 
-    special_offers?: string[] | undefined;
+    special_offers?: string[];
     
     /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
 
-    data_asin?: string | undefined;
+    data_asin?: string;
     
     /** product rating info */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingElement;
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
-    is_amazon_choice?: boolean | undefined;
+    is_amazon_choice?: boolean;
     
     /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
 
-    is_best_seller?: boolean | undefined;
+    is_best_seller?: boolean;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: AmazonDeliveryInfo | undefined;
+    delivery_info?: AmazonDeliveryInfo;
 
     [key: string]: any;
 

@@ -1,11 +1,10 @@
 import { DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo, IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo } from "./DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo[] | undefined
+        result?: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo  extends BaseRespo
     
     /** array of results */
 
-    result?: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo[] | undefined;
+    result?: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo[];
 
     [key: string]: any;
 

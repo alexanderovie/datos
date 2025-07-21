@@ -1,11 +1,10 @@
 import { OnPageErrorsResultInfo, IOnPageErrorsResultInfo } from "./OnPageErrorsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
-
 export interface IOnPageErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageErrorsResultInfo[] | undefined
+        result?: OnPageErrorsResultInfo[]
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class OnPageErrorsTaskInfo  extends BaseResponseTaskInfo   implements IOn
     
     /** array of results */
 
-    result?: OnPageErrorsResultInfo[] | undefined;
+    result?: OnPageErrorsResultInfo[];
 
     [key: string]: any;
 

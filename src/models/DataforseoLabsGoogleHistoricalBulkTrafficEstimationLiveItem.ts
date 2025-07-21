@@ -1,16 +1,15 @@
 import { HistoricalMetricsBundleInfo, IHistoricalMetricsBundleInfo } from "./HistoricalMetricsBundleInfo";
 
-
 export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem   {
         
         /** search engine type */
-        se_type?: string | undefined
+        se_type?: string
         
         /** target domain in a POST array */
-        target?: string | undefined
+        target?: string
         
         /** traffic data relevant to the specified domain */
-        metrics?: HistoricalMetricsBundleInfo | undefined
+        metrics?: HistoricalMetricsBundleInfo
 
     [key: string]: any;
 
@@ -20,15 +19,15 @@ export class DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem  implem
     
     /** search engine type */
 
-    se_type?: string | undefined;
+    se_type?: string;
     
     /** target domain in a POST array */
 
-    target?: string | undefined;
+    target?: string;
     
     /** traffic data relevant to the specified domain */
 
-    metrics?: HistoricalMetricsBundleInfo | undefined;
+    metrics?: HistoricalMetricsBundleInfo;
 
     [key: string]: any;
 

@@ -1,26 +1,25 @@
 import { MessageInfo, IMessageInfo } from "./MessageInfo";
 
-
 export interface IMicrodataFieldsInfo   {
         
         /** field name
 name of the data field */
-        name?: string | undefined
+        name?: string
         
         /** list of microdata types */
-        types?: string[] | undefined
+        types?: string[]
         
         /** microdata value
 microdata value specified on a target web page */
-        value?: string | undefined
+        value?: string
         
         /** microdata validation test results
 sub-type microdata test results that contain detected errors and related messages */
-        test_results?: MessageInfo | undefined
+        test_results?: MessageInfo
         
         /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
-        fields?: MicrodataFieldsInfo[] | undefined
+        fields?: MicrodataFieldsInfo[]
 
     [key: string]: any;
 
@@ -31,26 +30,26 @@ export class MicrodataFieldsInfo  implements IMicrodataFieldsInfo {
     /** field name
 name of the data field */
 
-    name?: string | undefined;
+    name?: string;
     
     /** list of microdata types */
 
-    types?: string[] | undefined;
+    types?: string[];
     
     /** microdata value
 microdata value specified on a target web page */
 
-    value?: string | undefined;
+    value?: string;
     
     /** microdata validation test results
 sub-type microdata test results that contain detected errors and related messages */
 
-    test_results?: MessageInfo | undefined;
+    test_results?: MessageInfo;
     
     /** microdata fields
 an array of objects containing data fields related to the certain microdata type */
 
-    fields?: MicrodataFieldsInfo[] | undefined;
+    fields?: MicrodataFieldsInfo[];
 
     [key: string]: any;
 

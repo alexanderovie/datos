@@ -1,14 +1,14 @@
 export interface IContentAnalysisLanguagesResultInfo   {
         
-        location_code?: number | undefined
+        location_code?: number
         
-        location_name?: string | undefined
+        location_name?: string
         
-        location_code_parent?: number | undefined
+        location_code_parent?: number
         
-        country_iso_code?: string | undefined
+        country_iso_code?: string
         
-        location_type?: string | undefined
+        location_type?: string
 
     [key: string]: any;
 
@@ -16,15 +16,15 @@ export interface IContentAnalysisLanguagesResultInfo   {
 
 export class ContentAnalysisLanguagesResultInfo  implements IContentAnalysisLanguagesResultInfo {
 
-    location_code?: number | undefined;
+    location_code?: number;
 
-    location_name?: string | undefined;
+    location_name?: string;
 
-    location_code_parent?: number | undefined;
+    location_code_parent?: number;
 
-    country_iso_code?: string | undefined;
+    country_iso_code?: string;
 
-    location_type?: string | undefined;
+    location_type?: string;
 
     [key: string]: any;
 
