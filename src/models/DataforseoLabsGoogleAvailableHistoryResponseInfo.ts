@@ -1,10 +1,11 @@
 import { DataforseoLabsGoogleAvailableHistoryTaskInfo, IDataforseoLabsGoogleAvailableHistoryTaskInfo } from "./DataforseoLabsGoogleAvailableHistoryTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDataforseoLabsGoogleAvailableHistoryResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsGoogleAvailableHistoryTaskInfo[]
+        tasks?: DataforseoLabsGoogleAvailableHistoryTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsGoogleAvailableHistoryResponseInfo  extends BaseRespo
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsGoogleAvailableHistoryTaskInfo[];
+    tasks?: DataforseoLabsGoogleAvailableHistoryTaskInfo[] | undefined;
 
     [key: string]: any;
 

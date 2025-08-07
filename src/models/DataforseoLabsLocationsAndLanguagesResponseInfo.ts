@@ -1,10 +1,11 @@
 import { DataforseoLabsLocationsAndLanguagesTaskInfo, IDataforseoLabsLocationsAndLanguagesTaskInfo } from "./DataforseoLabsLocationsAndLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDataforseoLabsLocationsAndLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsLocationsAndLanguagesTaskInfo[]
+        tasks?: DataforseoLabsLocationsAndLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsLocationsAndLanguagesResponseInfo  extends BaseRespon
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsLocationsAndLanguagesTaskInfo[];
+    tasks?: DataforseoLabsLocationsAndLanguagesTaskInfo[] | undefined;
 
     [key: string]: any;
 

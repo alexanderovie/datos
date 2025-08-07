@@ -1,12 +1,13 @@
-import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { Table, ITable } from "./Table";
-import { AiOverviewElement, IAiOverviewElement } from "./AiOverviewElement";
-import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
+import { BaseSerpApiPeopleAlsoAskAiOverviewElementItem, IBaseSerpApiPeopleAlsoAskAiOverviewElementItem } from "./BaseSerpApiPeopleAlsoAskAiOverviewElementItem";
+import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
+
 
 export interface IBaseSerpApiPeopleAlsoAskExpandedElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
 
     [key: string]: any;
 
@@ -16,7 +17,7 @@ export class BaseSerpApiPeopleAlsoAskExpandedElementItem  implements IBaseSerpAp
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
 
     [key: string]: any;
 
@@ -81,32 +82,32 @@ export class BaseSerpApiPeopleAlsoAskExpandedElementItem  implements IBaseSerpAp
 export interface ISerpApiPeopleAlsoAskExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
         /** the title of the featured snippets source page */
-        featured_title?: string
+        featured_title?: string | undefined
         
         /** URL of element */
-        url?: string
+        url?: string | undefined
         
         /** domain where a link points */
-        domain?: string
+        domain?: string | undefined
         
         /** title of the row */
-        title?: string
+        title?: string | undefined
         
         /** description of the results element in SERP */
-        description?: string
+        description?: string | undefined
         
         /** images of the element */
-        images?: AiModeImagesElement[]
+        images?: AiModeImagesElementInfo[] | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** results table
 if there are none, equals null */
-        table?: Table
+        table?: Table | undefined
 
     [key: string]: any;
 
@@ -116,39 +117,39 @@ export class SerpApiPeopleAlsoAskExpandedElementItem  extends BaseSerpApiPeopleA
     
     /** the title of the featured snippets source page */
 
-    featured_title?: string;
+    featured_title?: string | undefined;
     
     /** URL of element */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain where a link points */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** title of the row */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** images of the element */
 
-    images?: AiModeImagesElement[];
+    images?: AiModeImagesElementInfo[] | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** results table
 if there are none, equals null */
 
-    table?: Table;
+    table?: Table | undefined;
 
     [key: string]: any;
 
@@ -173,7 +174,7 @@ if there are none, equals null */
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(AiModeImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElementInfo.fromJS(item));
                 }
             }
             this.timestamp = data["timestamp"];
@@ -221,11 +222,11 @@ if there are none, equals null */
 export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
         /** contains arrays of elements available in the list */
-        items?: AiOverviewElement[]
+        items?: BaseSerpApiPeopleAlsoAskAiOverviewElementItem[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[]
+        /** additional references relevant to the item
+includes references to webpages that may have been used to generate the ai_overview */
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -235,12 +236,12 @@ export class SerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends BaseSerp
     
     /** contains arrays of elements available in the list */
 
-    items?: AiOverviewElement[];
+    items?: BaseSerpApiPeopleAlsoAskAiOverviewElementItem[] | undefined;
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** additional references relevant to the item
+includes references to webpages that may have been used to generate the ai_overview */
 
-    references?: AiAiOverviewReferenceInfo[];
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -260,13 +261,13 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(AiOverviewElement.fromJS(item));
+                    this.items.push(BaseSerpApiPeopleAlsoAskAiOverviewElementItem.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }

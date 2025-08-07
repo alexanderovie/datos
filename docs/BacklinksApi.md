@@ -57,8 +57,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksIdListRequestInfo();
-   task.datetime_from = "2025-04-17 06:08:53 +00:00";
-   task.datetime_to = "2025-06-17 06:08:53 +00:00";
+   task.datetime_from = "2025-05-06 08:30:37 +00:00";
+   task.datetime_to = "2025-07-06 08:30:37 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -353,8 +353,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksHistoryLiveRequestInfo();
    task.target = "cnn.com";
-   task.date_from = "2025-04-17";
-   task.date_to = "2025-06-17";
+   task.date_from = "2025-05-06";
+   task.date_to = "2025-07-06";
  let response = await api.historyLive([task]);
 ```
 
@@ -830,8 +830,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksDomainIntersectionLiveRequestInfo();
    task.targets = {
-       "1": "moz.com",
-       "2": "ahrefs.com",
+       1: "moz.com",
+       2: "ahrefs.com",
    };
    task.exclude_targets = [
        "semrush.com",
@@ -897,8 +897,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksPageIntersectionLiveRequestInfo();
    task.targets = {
-       "1": "football.com",
-       "2": "fifa.com",
+       1: "football.com",
+       2: "fifa.com",
    };
    task.exclude_targets = [
        "skysports.com",
@@ -962,8 +962,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesSummaryLiveRequestInfo();
    task.target = "dataforseo.com";
-   task.date_from = "2025-04-17";
-   task.date_to = "2025-06-17";
+   task.date_from = "2025-05-06";
+   task.date_to = "2025-07-06";
    task.group_range = "month";
  let response = await api.timeseriesSummaryLive([task]);
 ```
@@ -1023,8 +1023,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesNewLostSummaryLiveRequestInfo();
    task.target = "dataforseo.com";
-   task.date_from = "2025-04-17";
-   task.date_to = "2025-06-17";
+   task.date_from = "2025-05-06";
+   task.date_to = "2025-07-06";
    task.group_range = "month";
  let response = await api.timeseriesNewLostSummaryLive([task]);
 ```
@@ -1371,7 +1371,7 @@ This endpoint does not need any parameter.
        "https://stackoverflow.com/",
        "www.trustpilot.com",
    ];
-   task.date_from = "2025-04-17";
+   task.date_from = "2025-05-06";
  let response = await api.bulkNewLostBacklinksLive([task]);
 ```
 
@@ -1441,7 +1441,7 @@ This endpoint does not need any parameter.
        "https://stackoverflow.com/",
        "www.trustpilot.com",
    ];
-   task.date_from = "2025-04-17";
+   task.date_from = "2025-05-06";
  let response = await api.bulkNewLostReferringDomainsLive([task]);
 ```
 

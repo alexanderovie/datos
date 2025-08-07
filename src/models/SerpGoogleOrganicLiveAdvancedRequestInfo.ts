@@ -9,14 +9,14 @@ if you need to use the “+” character for your keyword, please specify it as 
 if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘definition:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
 https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
-        url?: string
+        url?: string | undefined
         
         /** parsing depth
 optional field
@@ -26,7 +26,7 @@ max value: 700
 Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number
+        depth?: number | undefined
         
         /** page crawl limit
 optional field
@@ -34,7 +34,7 @@ number of search results pages to crawl
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
-        max_crawl_pages?: number
+        max_crawl_pages?: number | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -42,7 +42,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
 example:
 London,England,United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -50,7 +50,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -61,7 +61,7 @@ the minimum value for “radius”: 199.9 (mm)
 the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string
+        location_coordinate?: string | undefined
         
         /** full name of search engine language
 optional field if you specify language_code
@@ -69,7 +69,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 optional field if you specify language_name
@@ -77,7 +77,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** search engine domain
 optional field
@@ -85,13 +85,13 @@ we choose the relevant search engine domain automatically according to the locat
 however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc. */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
-        device?: string
+        device?: string | undefined
         
         /** device operating system
 optional field
@@ -99,7 +99,7 @@ if you specify desktop in the device field, choose from the following values: wi
 default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
-        os?: string
+        os?: string | undefined
         
         /** target domain, subdomain, or webpage to get results for
 optional field
@@ -113,14 +113,14 @@ example.com* – returns results for the domain, including all its pages;
 *example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
 example.com/example-page  – returns results for the exact URL;
 example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
-        target?: string
+        target?: string | undefined
         
         /** display related results
 optional field
 if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
 if set to false, the related_result element will be provided as a separate organic result;
 default value: true */
-        group_organic_results?: boolean
+        group_organic_results?: boolean | undefined
         
         /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -128,7 +128,7 @@ pixel ranking refers to the distance between the result snippet and top left cor
 Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
-        calculate_rectangles?: boolean
+        calculate_rectangles?: boolean | undefined
         
         /** browser screen width
 optional field
@@ -138,7 +138,7 @@ by default, the parameter is set to:
 360 for mobile on android;
 375 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_width?: number
+        browser_screen_width?: number | undefined
         
         /** browser screen height
 optional field
@@ -148,7 +148,7 @@ by default, the parameter is set to:
 640 for mobile on android;
 812 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_height?: number
+        browser_screen_height?: number | undefined
         
         /** browser screen resolution ratio
 optional field
@@ -159,7 +159,7 @@ by default, the parameter is set to:
 3 for mobile on android;
 3 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
-        browser_screen_resolution_ratio?: number
+        browser_screen_resolution_ratio?: number | undefined
         
         /** clicks on the corresponding element
 optional field
@@ -167,7 +167,7 @@ specify the click depth on the people_also_ask element to get additional people_
 Note your account will be billed $0.00015 extra for each click;
 if the element is absent or we perform fewer clicks than you specified, all extra charges will be returned to your account balance
 possible values: from 1 to 4 */
-        people_also_ask_click_depth?: number
+        people_also_ask_click_depth?: number | undefined
         
         /** load asynchronous ai overview
 optional field
@@ -176,12 +176,12 @@ if set to false, you will only obtain ai_overview items from cache;
 default value: false
 Note your account will be billed $0.002 extra for each request;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
-        load_async_ai_overview?: boolean
+        load_async_ai_overview?: boolean | undefined
         
         /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
-        search_param?: string
+        search_param?: string | undefined
         
         /** remove specific parameters from URLs
 optional field
@@ -189,14 +189,14 @@ using this field, you can specify up to 10 parameters to remove from URLs in the
 example:
 'remove_from_url': ['srsltid']
 Note: if the target field is specified, the specified URL parameters will be removed before the search */
-        remove_from_url?: string[]
+        remove_from_url?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -214,7 +214,7 @@ if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, 
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** direct URL of the search query
 optional field
@@ -222,7 +222,7 @@ you can specify a direct URL and we will sort it out to the necessary fields. No
 example:
 https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
 
-    url?: string;
+    url?: string | undefined;
     
     /** parsing depth
 optional field
@@ -233,7 +233,7 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number;
+    depth?: number | undefined;
     
     /** page crawl limit
 optional field
@@ -242,7 +242,7 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
-    max_crawl_pages?: number;
+    max_crawl_pages?: number | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -251,7 +251,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -260,7 +260,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -272,7 +272,7 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string;
+    location_coordinate?: string | undefined;
     
     /** full name of search engine language
 optional field if you specify language_code
@@ -281,7 +281,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 optional field if you specify language_name
@@ -290,7 +290,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** search engine domain
 optional field
@@ -299,14 +299,14 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc. */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** device type
 optional field
 can take the values:desktop, mobile
 default value: desktop */
 
-    device?: string;
+    device?: string | undefined;
     
     /** device operating system
 optional field
@@ -315,7 +315,7 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android */
 
-    os?: string;
+    os?: string | undefined;
     
     /** target domain, subdomain, or webpage to get results for
 optional field
@@ -330,7 +330,7 @@ example.com* – returns results for the domain, including all its pages;
 example.com/example-page  – returns results for the exact URL;
 example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
 
-    target?: string;
+    target?: string | undefined;
     
     /** display related results
 optional field
@@ -338,7 +338,7 @@ if set to true, the related_result element in the response will be provided as a
 if set to false, the related_result element will be provided as a separate organic result;
 default value: true */
 
-    group_organic_results?: boolean;
+    group_organic_results?: boolean | undefined;
     
     /** calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -347,7 +347,7 @@ Visit Help Center to learn more>>
 by default, the parameter is set to false
 Note: if set to true, the charge per task will be multiplied by 2 */
 
-    calculate_rectangles?: boolean;
+    calculate_rectangles?: boolean | undefined;
     
     /** browser screen width
 optional field
@@ -358,7 +358,7 @@ by default, the parameter is set to:
 375 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_width?: number;
+    browser_screen_width?: number | undefined;
     
     /** browser screen height
 optional field
@@ -369,7 +369,7 @@ by default, the parameter is set to:
 812 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_height?: number;
+    browser_screen_height?: number | undefined;
     
     /** browser screen resolution ratio
 optional field
@@ -381,7 +381,7 @@ by default, the parameter is set to:
 3 for mobile on iOS;
 Note: to use this parameter, set calculate_rectangles to true */
 
-    browser_screen_resolution_ratio?: number;
+    browser_screen_resolution_ratio?: number | undefined;
     
     /** clicks on the corresponding element
 optional field
@@ -390,7 +390,7 @@ Note your account will be billed $0.00015 extra for each click;
 if the element is absent or we perform fewer clicks than you specified, all extra charges will be returned to your account balance
 possible values: from 1 to 4 */
 
-    people_also_ask_click_depth?: number;
+    people_also_ask_click_depth?: number | undefined;
     
     /** load asynchronous ai overview
 optional field
@@ -400,13 +400,13 @@ default value: false
 Note your account will be billed $0.002 extra for each request;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
 
-    load_async_ai_overview?: boolean;
+    load_async_ai_overview?: boolean | undefined;
     
     /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
 
-    search_param?: string;
+    search_param?: string | undefined;
     
     /** remove specific parameters from URLs
 optional field
@@ -415,7 +415,7 @@ example:
 'remove_from_url': ['srsltid']
 Note: if the target field is specified, the specified URL parameters will be removed before the search */
 
-    remove_from_url?: string[];
+    remove_from_url?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -423,7 +423,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

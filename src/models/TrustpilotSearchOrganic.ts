@@ -1,32 +1,33 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface ITrustpilotSearchOrganic   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** title of the establishment */
-        title?: string
+        title?: string | undefined
         
         /** domain of the establishment */
-        domain?: string
+        domain?: string | undefined
         
         /** URL to the establishment */
-        url?: string
+        url?: string | undefined
         
         /** the total number of reviews */
-        reviews_count?: number
+        reviews_count?: number | undefined
         
         /** the rating score of the establishment submitted by reviewers */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -36,37 +37,37 @@ export class TrustpilotSearchOrganic  implements ITrustpilotSearchOrganic {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** title of the establishment */
 
-    title?: string;
+    title?: string | undefined;
     
     /** domain of the establishment */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL to the establishment */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the total number of reviews */
 
-    reviews_count?: number;
+    reviews_count?: number | undefined;
     
     /** the rating score of the establishment submitted by reviewers */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 

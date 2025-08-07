@@ -1,7 +1,7 @@
 export interface IHunspellMisspelledInfo   {
         
         /** misspelled word */
-        word?: string
+        word?: string | undefined
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class HunspellMisspelledInfo  implements IHunspellMisspelledInfo {
     
     /** misspelled word */
 
-    word?: string;
+    word?: string | undefined;
 
     [key: string]: any;
 

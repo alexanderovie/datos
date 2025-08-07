@@ -1,10 +1,11 @@
 import { SerpGoogleJobsTaskGetAdvancedResultInfo, ISerpGoogleJobsTaskGetAdvancedResultInfo } from "./SerpGoogleJobsTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpGoogleJobsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleJobsTaskGetAdvancedResultInfo[]
+        result?: SerpGoogleJobsTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleJobsTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo
     
     /** array of results */
 
-    result?: SerpGoogleJobsTaskGetAdvancedResultInfo[];
+    result?: SerpGoogleJobsTaskGetAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,5 +1,6 @@
 import { GoogleBusinessInfo, IGoogleBusinessInfo } from "./GoogleBusinessInfo";
 
+
 export interface IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo   {
         
         /** keyword received in a POST array
@@ -8,38 +9,38 @@ this field will contain the cid parameter if you specified it in the keyword fie
 example:
 cid:2946633002421908862
 learn more about the parameter in this help center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search engine domain as specified in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** item types
 the number of items in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** array of directory items */
-        items?: GoogleBusinessInfo[]
+        items?: GoogleBusinessInfo[] | undefined
 
     [key: string]: any;
 
@@ -54,46 +55,46 @@ example:
 cid:2946633002421908862
 learn more about the parameter in this help center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search engine domain as specified in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** item types
 the number of items in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** array of directory items */
 
-    items?: GoogleBusinessInfo[];
+    items?: GoogleBusinessInfo[] | undefined;
 
     [key: string]: any;
 

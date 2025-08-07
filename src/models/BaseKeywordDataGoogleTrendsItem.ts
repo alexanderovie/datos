@@ -1,23 +1,23 @@
 import { TrendsGraphDataInfo, ITrendsGraphDataInfo } from "./TrendsGraphDataInfo";
 import { TrendsMapDataInfo, ITrendsMapDataInfo } from "./TrendsMapDataInfo";
-import { QueriesListDataInfo, IQueriesListDataInfo } from "./QueriesListDataInfo";
-import { TrendsTopicListDataInfo, ITrendsTopicListDataInfo } from "./TrendsTopicListDataInfo";
+import { ListDataInfo, IListDataInfo } from "./ListDataInfo";
+
 
 export interface IBaseKeywordDataGoogleTrendsItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc. */
-        position?: number
+        position?: number | undefined
         
         /** title of the element in Google Trends */
-        title?: string
+        title?: string | undefined
         
         /** relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array */
-        keywords?: string[]
+        keywords?: string[] | undefined
 
     [key: string]: any;
 
@@ -27,21 +27,21 @@ export class BaseKeywordDataGoogleTrendsItem  implements IBaseKeywordDataGoogleT
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc. */
 
-    position?: number;
+    position?: number | undefined;
     
     /** title of the element in Google Trends */
 
-    title?: string;
+    title?: string | undefined;
     
     /** relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array */
 
-    keywords?: string[];
+    keywords?: string[] | undefined;
 
     [key: string]: any;
 
@@ -124,10 +124,10 @@ the data included in the google_trends_graph element is based on the keywords li
 export interface IGoogleTrendsGoogleTrendsGraphElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
         /** Google Trends data for the specified parameters */
-        data?: TrendsGraphDataInfo[]
+        data?: TrendsGraphDataInfo[] | undefined
         
         /** keyword popularity values averaged over the whole time range */
-        averages?: number[]
+        averages?: number[] | undefined
 
     [key: string]: any;
 
@@ -137,11 +137,11 @@ export class GoogleTrendsGoogleTrendsGraphElementItem  extends BaseKeywordDataGo
     
     /** Google Trends data for the specified parameters */
 
-    data?: TrendsGraphDataInfo[];
+    data?: TrendsGraphDataInfo[] | undefined;
     
     /** keyword popularity values averaged over the whole time range */
 
-    averages?: number[];
+    averages?: number[] | undefined;
 
     [key: string]: any;
 
@@ -202,7 +202,7 @@ export class GoogleTrendsGoogleTrendsGraphElementItem  extends BaseKeywordDataGo
 export interface IGoogleTrendsGoogleTrendsMapElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
         /** Google Trends data from the corresponding item */
-        data?: TrendsMapDataInfo[]
+        data?: TrendsMapDataInfo[] | undefined
 
     [key: string]: any;
 
@@ -212,7 +212,7 @@ export class GoogleTrendsGoogleTrendsMapElementItem  extends BaseKeywordDataGoog
     
     /** Google Trends data from the corresponding item */
 
-    data?: TrendsMapDataInfo[];
+    data?: TrendsMapDataInfo[] | undefined;
 
     [key: string]: any;
 
@@ -271,7 +271,7 @@ export class GoogleTrendsGoogleTrendsMapElementItem  extends BaseKeywordDataGoog
 export interface IGoogleTrendsGoogleTrendsQueriesListElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
         /** Google Trends data from the corresponding item */
-        data?: QueriesListDataInfo
+        data?: ListDataInfo | undefined
 
     [key: string]: any;
 
@@ -281,7 +281,7 @@ export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeyword
     
     /** Google Trends data from the corresponding item */
 
-    data?: QueriesListDataInfo;
+    data?: ListDataInfo | undefined;
 
     [key: string]: any;
 
@@ -298,7 +298,7 @@ export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeyword
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.data = data["data"] ? QueriesListDataInfo.fromJS(data["data"]) : <any>undefined;
+            this.data = data["data"] ? ListDataInfo.fromJS(data["data"]) : <any>undefined;
         }
     }
 
@@ -318,7 +318,7 @@ export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeyword
         super.toJSON(data);
         
         
-        data["data"] = this.data ? QueriesListDataInfo.fromJS(this.data)?.toJSON() : <any>undefined;
+        data["data"] = this.data ? ListDataInfo.fromJS(this.data)?.toJSON() : <any>undefined;
         return data;
     }
 }
@@ -327,7 +327,7 @@ export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeyword
 export interface IGoogleTrendsGoogleTrendsTopicsListElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
         /** Google Trends data from the corresponding item */
-        data?: TrendsTopicListDataInfo
+        data?: ListDataInfo | undefined
 
     [key: string]: any;
 
@@ -337,7 +337,7 @@ export class GoogleTrendsGoogleTrendsTopicsListElementItem  extends BaseKeywordD
     
     /** Google Trends data from the corresponding item */
 
-    data?: TrendsTopicListDataInfo;
+    data?: ListDataInfo | undefined;
 
     [key: string]: any;
 
@@ -354,7 +354,7 @@ export class GoogleTrendsGoogleTrendsTopicsListElementItem  extends BaseKeywordD
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.data = data["data"] ? TrendsTopicListDataInfo.fromJS(data["data"]) : <any>undefined;
+            this.data = data["data"] ? ListDataInfo.fromJS(data["data"]) : <any>undefined;
         }
     }
 
@@ -374,7 +374,7 @@ export class GoogleTrendsGoogleTrendsTopicsListElementItem  extends BaseKeywordD
         super.toJSON(data);
         
         
-        data["data"] = this.data ? TrendsTopicListDataInfo.fromJS(this.data)?.toJSON() : <any>undefined;
+        data["data"] = this.data ? ListDataInfo.fromJS(this.data)?.toJSON() : <any>undefined;
         return data;
     }
 }

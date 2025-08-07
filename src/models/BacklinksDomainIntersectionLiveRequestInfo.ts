@@ -10,7 +10,7 @@ example:
 '1': 'http://planet.postgresql.org/',
 '2': 'http://gborg.postgresql.org/'
 } */
-        targets?: { [key: string]: string; }
+        targets?: { [key: string]: string; } | undefined
         
         /** domains, subdomains or webpages you want to exclude
 optional field
@@ -21,7 +21,7 @@ example:
 'bbc.com',
 'https://www.apple.com/iphone/*',
 'https://dataforseo.com/apis/*'] */
-        exclude_targets?: string[]
+        exclude_targets?: string[] | undefined
         
         /** array of results filtering parameters
 optional field
@@ -39,7 +39,7 @@ example:
 'and',
 [['2.target','like','%dataforseo.com%'],'or',['1.referring_domains','>','10']]]
 The full list of possible filters is available here. */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -54,19 +54,19 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['backlinks,desc','rank,asc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** offset in the array of returned results
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks */
-        offset?: number
+        offset?: number | undefined
         
         /** the maximum number of returned results
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** maximum number of elements within internal arrays
 optional field
@@ -78,7 +78,7 @@ referring_links_platform_types
 referring_links_semantic_locations
 default value: 10
 maximum value: 1000 */
-        internal_list_limit?: number
+        internal_list_limit?: number | undefined
         
         /** set what backlinks to return and count
 optional field
@@ -88,7 +88,7 @@ all – all backlinks will be returned and counted;
 live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
-        backlinks_status_type?: string
+        backlinks_status_type?: string | undefined
         
         /** filter the backlinks of your target
 optional field
@@ -97,26 +97,26 @@ you can filter the backlinks by all fields available in the response of this end
 using this parameter, you can include only dofollow backlinks in the response and create a flexible backlinks dataset to calculate the metrics for
 example:
 'backlinks_filters': [['dofollow', '=', true]] */
-        backlinks_filters?: any[]
+        backlinks_filters?: any[] | undefined
         
         /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean
+        include_subdomains?: boolean | undefined
         
         /** indicates if indirect links to the targets will be included in the results
 optional field
 if set to true, the results will include data on indirect links pointing to a page that either redirects to a target, or points to a canonical page
 if set to false, indirect links will be ignored
 default value: true */
-        include_indirect_links?: boolean
+        include_indirect_links?: boolean | undefined
         
         /** indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be omitted and you won’t receive the same domain in the response;
 default value: true */
-        exclude_internal_backlinks?: boolean
+        exclude_internal_backlinks?: boolean | undefined
         
         /** indicates whether to intersect backlinks
 optional field
@@ -125,7 +125,7 @@ possible values: all, partial
 all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all */
-        intersection_mode?: string
+        intersection_mode?: string | undefined
         
         /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -135,14 +135,14 @@ one_hundred — rank values are displayed on a 0–100 scale
 one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
-        rank_scale?: string
+        rank_scale?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -161,7 +161,7 @@ example:
 '2': 'http://gborg.postgresql.org/'
 } */
 
-    targets?: { [key: string]: string; };
+    targets?: { [key: string]: string; } | undefined;
     
     /** domains, subdomains or webpages you want to exclude
 optional field
@@ -173,7 +173,7 @@ example:
 'https://www.apple.com/iphone/*',
 'https://dataforseo.com/apis/*'] */
 
-    exclude_targets?: string[];
+    exclude_targets?: string[] | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -192,7 +192,7 @@ example:
 [['2.target','like','%dataforseo.com%'],'or',['1.referring_domains','>','10']]]
 The full list of possible filters is available here. */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -208,21 +208,21 @@ you should use a comma to separate several sorting rules
 example:
 ['backlinks,desc','rank,asc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** offset in the array of returned results
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** the maximum number of returned results
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** maximum number of elements within internal arrays
 optional field
@@ -235,7 +235,7 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000 */
 
-    internal_list_limit?: number;
+    internal_list_limit?: number | undefined;
     
     /** set what backlinks to return and count
 optional field
@@ -246,7 +246,7 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
 
-    backlinks_status_type?: string;
+    backlinks_status_type?: string | undefined;
     
     /** filter the backlinks of your target
 optional field
@@ -256,14 +256,14 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 'backlinks_filters': [['dofollow', '=', true]] */
 
-    backlinks_filters?: any[];
+    backlinks_filters?: any[] | undefined;
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean;
+    include_subdomains?: boolean | undefined;
     
     /** indicates if indirect links to the targets will be included in the results
 optional field
@@ -271,14 +271,14 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true */
 
-    include_indirect_links?: boolean;
+    include_indirect_links?: boolean | undefined;
     
     /** indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be omitted and you won’t receive the same domain in the response;
 default value: true */
 
-    exclude_internal_backlinks?: boolean;
+    exclude_internal_backlinks?: boolean | undefined;
     
     /** indicates whether to intersect backlinks
 optional field
@@ -288,7 +288,7 @@ all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all */
 
-    intersection_mode?: string;
+    intersection_mode?: string | undefined;
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -299,7 +299,7 @@ one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
-    rank_scale?: string;
+    rank_scale?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -307,7 +307,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

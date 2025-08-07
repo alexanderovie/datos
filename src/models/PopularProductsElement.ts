@@ -1,30 +1,31 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface IPopularProductsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
-        /** description */
-        description?: string
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** seller of the product */
-        seller?: string
+        seller?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
         
         /** price indicated in the element */
-        price?: PriceInfo
+        price?: PriceInfo | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -34,33 +35,33 @@ export class PopularProductsElement  implements IPopularProductsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
-    /** description */
+    /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** seller of the product */
 
-    seller?: string;
+    seller?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** price indicated in the element */
 
-    price?: PriceInfo;
+    price?: PriceInfo | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { DataforseoLabsGooglePageIntersectionLiveResultInfo, IDataforseoLabsGooglePageIntersectionLiveResultInfo } from "./DataforseoLabsGooglePageIntersectionLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsGooglePageIntersectionLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsGooglePageIntersectionLiveResultInfo[]
+        result?: DataforseoLabsGooglePageIntersectionLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsGooglePageIntersectionLiveTaskInfo  extends BaseRespo
     
     /** array of results */
 
-    result?: DataforseoLabsGooglePageIntersectionLiveResultInfo[];
+    result?: DataforseoLabsGooglePageIntersectionLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,8 +1,9 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixWhoisDomainAnalyticsPriceData   {
         
-        overview?: AppendixBingKeywordsDataPriceDataInfo
+        overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -10,7 +11,7 @@ export interface IAppendixWhoisDomainAnalyticsPriceData   {
 
 export class AppendixWhoisDomainAnalyticsPriceData  implements IAppendixWhoisDomainAnalyticsPriceData {
 
-    overview?: AppendixBingKeywordsDataPriceDataInfo;
+    overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

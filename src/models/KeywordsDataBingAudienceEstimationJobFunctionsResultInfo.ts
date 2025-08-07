@@ -1,10 +1,10 @@
 export interface IKeywordsDataBingAudienceEstimationJobFunctionsResultInfo   {
         
         /** ID of the job function */
-        job_function_id?: number
+        job_function_id?: number | undefined
         
         /** name of the job function */
-        job_function_name?: string
+        job_function_name?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class KeywordsDataBingAudienceEstimationJobFunctionsResultInfo  implement
     
     /** ID of the job function */
 
-    job_function_id?: number;
+    job_function_id?: number | undefined;
     
     /** name of the job function */
 
-    job_function_name?: string;
+    job_function_name?: string | undefined;
 
     [key: string]: any;
 

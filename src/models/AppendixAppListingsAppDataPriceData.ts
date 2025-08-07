@@ -1,10 +1,11 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixAppListingsAppDataPriceData   {
         
-        categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo
+        categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        search?: AppendixBingKeywordsDataPriceDataInfo
+        search?: AppendixBingKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -12,9 +13,9 @@ export interface IAppendixAppListingsAppDataPriceData   {
 
 export class AppendixAppListingsAppDataPriceData  implements IAppendixAppListingsAppDataPriceData {
 
-    categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo;
+    categories_aggregation?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    search?: AppendixBingKeywordsDataPriceDataInfo;
+    search?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

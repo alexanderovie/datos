@@ -1,10 +1,11 @@
 import { BacklinksSummaryLiveTaskInfo, IBacklinksSummaryLiveTaskInfo } from "./BacklinksSummaryLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IBacklinksSummaryLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BacklinksSummaryLiveTaskInfo[]
+        tasks?: BacklinksSummaryLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BacklinksSummaryLiveResponseInfo  extends BaseResponseInfo   implem
     
     /** array of tasks */
 
-    tasks?: BacklinksSummaryLiveTaskInfo[];
+    tasks?: BacklinksSummaryLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

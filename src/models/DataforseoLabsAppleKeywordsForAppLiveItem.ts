@@ -1,16 +1,17 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { AppleRankedSerpElementInfo, IAppleRankedSerpElementInfo } from "./AppleRankedSerpElementInfo";
 
+
 export interface IDataforseoLabsAppleKeywordsForAppLiveItem   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** keyword data for the returned keyword */
-        keyword_data?: KeywordDataInfo
+        keyword_data?: KeywordDataInfo | undefined
         
         /** contains data on the domain’s SERP element found for the returned keyword */
-        ranked_serp_element?: AppleRankedSerpElementInfo
+        ranked_serp_element?: AppleRankedSerpElementInfo | undefined
 
     [key: string]: any;
 
@@ -20,15 +21,15 @@ export class DataforseoLabsAppleKeywordsForAppLiveItem  implements IDataforseoLa
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** keyword data for the returned keyword */
 
-    keyword_data?: KeywordDataInfo;
+    keyword_data?: KeywordDataInfo | undefined;
     
     /** contains data on the domain’s SERP element found for the returned keyword */
 
-    ranked_serp_element?: AppleRankedSerpElementInfo;
+    ranked_serp_element?: AppleRankedSerpElementInfo | undefined;
 
     [key: string]: any;
 

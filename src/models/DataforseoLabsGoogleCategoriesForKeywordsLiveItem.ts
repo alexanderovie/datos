@@ -1,11 +1,11 @@
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveItem   {
         
         /** keyword in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** product and service categories
 you can download the full list of possible categories */
-        categories?: number[]
+        categories?: number[] | undefined
 
     [key: string]: any;
 
@@ -15,12 +15,12 @@ export class DataforseoLabsGoogleCategoriesForKeywordsLiveItem  implements IData
     
     /** keyword in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** product and service categories
 you can download the full list of possible categories */
 
-    categories?: number[];
+    categories?: number[] | undefined;
 
     [key: string]: any;
 

@@ -1,19 +1,20 @@
 import { BaseSerpApiProductConsiderationExpandedElementItem, IBaseSerpApiProductConsiderationExpandedElementItem } from "./BaseSerpApiProductConsiderationExpandedElementItem";
 
+
 export interface IProductConsiderationsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** category of the consideration element
 the category is indicated just above the title fo the consideration element */
-        consideration_category?: string
+        consideration_category?: string | undefined
         
         /** expanded element */
-        expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[]
+        expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined
 
     [key: string]: any;
 
@@ -23,20 +24,20 @@ export class ProductConsiderationsElement  implements IProductConsiderationsElem
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** category of the consideration element
 the category is indicated just above the title fo the consideration element */
 
-    consideration_category?: string;
+    consideration_category?: string | undefined;
     
     /** expanded element */
 
-    expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[];
+    expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined;
 
     [key: string]: any;
 

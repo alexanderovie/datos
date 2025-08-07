@@ -1,10 +1,11 @@
 import { SerpGoogleImagesTaskGetHtmlTaskInfo, ISerpGoogleImagesTaskGetHtmlTaskInfo } from "./SerpGoogleImagesTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpGoogleImagesTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleImagesTaskGetHtmlTaskInfo[]
+        tasks?: SerpGoogleImagesTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleImagesTaskGetHtmlResponseInfo  extends BaseResponseInfo  
     
     /** array of tasks */
 
-    tasks?: SerpGoogleImagesTaskGetHtmlTaskInfo[];
+    tasks?: SerpGoogleImagesTaskGetHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

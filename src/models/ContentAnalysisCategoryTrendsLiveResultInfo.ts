@@ -1,58 +1,59 @@
 import { TopDomainInfo, ITopDomainInfo } from "./TopDomainInfo";
 import { ContentAnalysisCategoriesInfo, IContentAnalysisCategoriesInfo } from "./ContentAnalysisCategoriesInfo";
 
+
 export interface IContentAnalysisCategoryTrendsLiveResultInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** date for which the data is provided */
-        date?: string
+        date?: string | undefined
         
         /** total number of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date */
-        rank?: number
+        rank?: number | undefined
         
         /** top domains citing the target keyword
 contains objects with top domains citing the target category and citation count per each domain */
-        top_domains?: TopDomainInfo[]
+        top_domains?: TopDomainInfo[] | undefined
         
         /** sentiment connotations
 contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment
 possible connotations: 'anger', 'fear', 'happiness', 'love', 'sadness', 'share', 'neutral', 'fun' */
-        sentiment_connotations?: { [key: string]: number; }
+        sentiment_connotations?: { [key: string]: number; } | undefined
         
         /** connotation types
 contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type
 possible connotation types: 'positive', 'negative', 'neutral' */
-        connotation_types?: { [key: string]: number; }
+        connotation_types?: { [key: string]: number; } | undefined
         
         /** text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint */
-        text_categories?: ContentAnalysisCategoriesInfo[]
+        text_categories?: ContentAnalysisCategoriesInfo[] | undefined
         
         /** page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint */
-        page_categories?: ContentAnalysisCategoriesInfo[]
+        page_categories?: ContentAnalysisCategoriesInfo[] | undefined
         
         /** page types
 contains page types and citation count per each page type */
-        page_types?: { [key: string]: number; }
+        page_types?: { [key: string]: number; } | undefined
         
         /** countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint */
-        countries?: { [key: string]: number; }
+        countries?: { [key: string]: number; } | undefined
         
         /** languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint */
-        languages?: { [key: string]: number; }
+        languages?: { [key: string]: number; } | undefined
 
     [key: string]: any;
 
@@ -62,66 +63,66 @@ export class ContentAnalysisCategoryTrendsLiveResultInfo  implements IContentAna
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** date for which the data is provided */
 
-    date?: string;
+    date?: string | undefined;
     
     /** total number of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date */
 
-    rank?: number;
+    rank?: number | undefined;
     
     /** top domains citing the target keyword
 contains objects with top domains citing the target category and citation count per each domain */
 
-    top_domains?: TopDomainInfo[];
+    top_domains?: TopDomainInfo[] | undefined;
     
     /** sentiment connotations
 contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment
 possible connotations: 'anger', 'fear', 'happiness', 'love', 'sadness', 'share', 'neutral', 'fun' */
 
-    sentiment_connotations?: { [key: string]: number; };
+    sentiment_connotations?: { [key: string]: number; } | undefined;
     
     /** connotation types
 contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type
 possible connotation types: 'positive', 'negative', 'neutral' */
 
-    connotation_types?: { [key: string]: number; };
+    connotation_types?: { [key: string]: number; } | undefined;
     
     /** text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    text_categories?: ContentAnalysisCategoriesInfo[];
+    text_categories?: ContentAnalysisCategoriesInfo[] | undefined;
     
     /** page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    page_categories?: ContentAnalysisCategoriesInfo[];
+    page_categories?: ContentAnalysisCategoriesInfo[] | undefined;
     
     /** page types
 contains page types and citation count per each page type */
 
-    page_types?: { [key: string]: number; };
+    page_types?: { [key: string]: number; } | undefined;
     
     /** countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint */
 
-    countries?: { [key: string]: number; };
+    countries?: { [key: string]: number; } | undefined;
     
     /** languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint */
 
-    languages?: { [key: string]: number; };
+    languages?: { [key: string]: number; } | undefined;
 
     [key: string]: any;
 

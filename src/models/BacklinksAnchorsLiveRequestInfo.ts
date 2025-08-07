@@ -4,19 +4,19 @@ export interface IBacklinksAnchorsLiveRequestInfo   {
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
-        target?: string
+        target?: string | undefined
         
         /** the maximum number of returned anchors
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned anchors
 optional field
 default value: 0
 if you specify the 10 value, the first ten anchors in the results array will be omitted and the data will be provided for the successive anchors */
-        offset?: number
+        offset?: number | undefined
         
         /** maximum number of elements within internal arrays
 optional field
@@ -28,7 +28,7 @@ referring_links_platform_types
 referring_links_semantic_locations
 default value: 10
 maximum value: 1000 */
-        internal_list_limit?: number
+        internal_list_limit?: number | undefined
         
         /** set what backlinks to return and count
 optional field
@@ -38,7 +38,7 @@ all – all backlinks will be returned and counted;
 live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
-        backlinks_status_type?: string
+        backlinks_status_type?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -56,7 +56,7 @@ example:
 'and',
 [['anchor','like','%seo%'],'or',['referring_domains','>','10']]]
 The full list of possible filters is available here. */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -71,7 +71,7 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['backlinks,desc','rank,asc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** filter the backlinks of your target
 optional field
@@ -80,26 +80,26 @@ you can filter the backlinks by all fields available in the response of this end
 using this parameter, you can include only dofollow backlinks in the response and create a flexible backlinks dataset to calculate the metrics for
 example:
 'backlinks_filters': [['dofollow', '=', true]] */
-        backlinks_filters?: any[]
+        backlinks_filters?: any[] | undefined
         
         /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean
+        include_subdomains?: boolean | undefined
         
         /** indicates if indirect links to the target will be included in the results
 optional field
 if set to true, the results will include data on indirect links pointing to a page that either redirects to the target, or points to a canonical page
 if set to false, indirect links will be ignored
 default value: true */
-        include_indirect_links?: boolean
+        include_indirect_links?: boolean | undefined
         
         /** indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
 default value: true */
-        exclude_internal_backlinks?: boolean
+        exclude_internal_backlinks?: boolean | undefined
         
         /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -109,14 +109,14 @@ one_hundred — rank values are displayed on a 0–100 scale
 one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
-        rank_scale?: string
+        rank_scale?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -129,21 +129,21 @@ required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
 
-    target?: string;
+    target?: string | undefined;
     
     /** the maximum number of returned anchors
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned anchors
 optional field
 default value: 0
 if you specify the 10 value, the first ten anchors in the results array will be omitted and the data will be provided for the successive anchors */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** maximum number of elements within internal arrays
 optional field
@@ -156,7 +156,7 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000 */
 
-    internal_list_limit?: number;
+    internal_list_limit?: number | undefined;
     
     /** set what backlinks to return and count
 optional field
@@ -167,7 +167,7 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live */
 
-    backlinks_status_type?: string;
+    backlinks_status_type?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -186,7 +186,7 @@ example:
 [['anchor','like','%seo%'],'or',['referring_domains','>','10']]]
 The full list of possible filters is available here. */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -202,7 +202,7 @@ you should use a comma to separate several sorting rules
 example:
 ['backlinks,desc','rank,asc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** filter the backlinks of your target
 optional field
@@ -212,14 +212,14 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 'backlinks_filters': [['dofollow', '=', true]] */
 
-    backlinks_filters?: any[];
+    backlinks_filters?: any[] | undefined;
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean;
+    include_subdomains?: boolean | undefined;
     
     /** indicates if indirect links to the target will be included in the results
 optional field
@@ -227,14 +227,14 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true */
 
-    include_indirect_links?: boolean;
+    include_indirect_links?: boolean | undefined;
     
     /** indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
 default value: true */
 
-    exclude_internal_backlinks?: boolean;
+    exclude_internal_backlinks?: boolean | undefined;
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -245,7 +245,7 @@ one_thousand — rank values are displayed on a 0–1000 scale
 default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
-    rank_scale?: string;
+    rank_scale?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -253,7 +253,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

@@ -4,7 +4,7 @@ export interface IDataforseoLabsStatusInfo   {
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
 example:
 2022-05-16 */
-        date_update?: string
+        date_update?: string | undefined
 
     [key: string]: any;
 
@@ -17,7 +17,7 @@ indicates the last date when the Google endpoints of DataForSEO Labs API were up
 example:
 2022-05-16 */
 
-    date_update?: string;
+    date_update?: string | undefined;
 
     [key: string]: any;
 

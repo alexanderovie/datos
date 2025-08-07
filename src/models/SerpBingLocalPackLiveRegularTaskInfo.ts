@@ -1,10 +1,11 @@
 import { SerpBingLocalPackLiveRegularResultInfo, ISerpBingLocalPackLiveRegularResultInfo } from "./SerpBingLocalPackLiveRegularResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpBingLocalPackLiveRegularTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBingLocalPackLiveRegularResultInfo[]
+        result?: SerpBingLocalPackLiveRegularResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBingLocalPackLiveRegularTaskInfo  extends BaseResponseTaskInfo 
     
     /** array of results */
 
-    result?: SerpBingLocalPackLiveRegularResultInfo[];
+    result?: SerpBingLocalPackLiveRegularResultInfo[] | undefined;
 
     [key: string]: any;
 

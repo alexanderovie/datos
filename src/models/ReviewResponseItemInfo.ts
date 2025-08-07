@@ -1,19 +1,19 @@
 export interface IReviewResponseItemInfo   {
         
+        /** the time of publication */
+        response_id?: string | undefined
+        
         /** the title of response */
-        title?: string
+        title?: string | undefined
         
         /** the content of response */
-        text?: string
-        
-        /** language of content */
-        language?: string
-        
-        /** response id */
-        response_id?: string
+        text?: string | undefined
         
         /** the time of publication */
-        timestamp?: string
+        timestamp?: string | undefined
+        
+        /** the time of publication */
+        language?: string | undefined
 
     [key: string]: any;
 
@@ -21,25 +21,25 @@ export interface IReviewResponseItemInfo   {
 
 export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
     
+    /** the time of publication */
+
+    response_id?: string | undefined;
+    
     /** the title of response */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the content of response */
 
-    text?: string;
-    
-    /** language of content */
-
-    language?: string;
-    
-    /** response id */
-
-    response_id?: string;
+    text?: string | undefined;
     
     /** the time of publication */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
+    
+    /** the time of publication */
+
+    language?: string | undefined;
 
     [key: string]: any;
 
@@ -61,11 +61,11 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.response_id = data["response_id"];
             this.title = data["title"];
             this.text = data["text"];
-            this.language = data["language"];
-            this.response_id = data["response_id"];
             this.timestamp = data["timestamp"];
+            this.language = data["language"];
         }
     }
 
@@ -83,11 +83,11 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
 
         
         
+        data["response_id"] = this.response_id;
         data["title"] = this.title;
         data["text"] = this.text;
-        data["language"] = this.language;
-        data["response_id"] = this.response_id;
         data["timestamp"] = this.timestamp;
+        data["language"] = this.language;
         return data;
     }
 }

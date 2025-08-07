@@ -1,10 +1,11 @@
 import { AppDataGoogleLocationsResultInfo, IAppDataGoogleLocationsResultInfo } from "./AppDataGoogleLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IAppDataGoogleLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataGoogleLocationsResultInfo[]
+        result?: AppDataGoogleLocationsResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppDataGoogleLocationsTaskInfo  extends BaseResponseTaskInfo   impl
     
     /** array of results */
 
-    result?: AppDataGoogleLocationsResultInfo[];
+    result?: AppDataGoogleLocationsResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,82 +1,83 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
         
-        locations_and_languages?: number
+        locations_and_languages?: number | undefined
         
-        categories?: number
+        categories?: number | undefined
         
-        errors?: number
+        errors?: number | undefined
         
-        product_competitors?: AppendixInfo
+        product_competitors?: AppendixInfo | undefined
         
-        product_keyword_intersections?: AppendixInfo
+        product_keyword_intersections?: AppendixInfo | undefined
         
-        product_rank_overview?: AppendixInfo
+        product_rank_overview?: AppendixInfo | undefined
         
-        ranked_keywords?: AppendixInfo
+        ranked_keywords?: AppendixInfo | undefined
         
-        serp_competitors?: AppendixInfo
+        serp_competitors?: AppendixInfo | undefined
         
-        subdomains?: AppendixInfo
+        subdomains?: AppendixInfo | undefined
         
-        relevant_pages?: AppendixInfo
+        relevant_pages?: AppendixInfo | undefined
         
-        competitors_domain?: AppendixInfo
+        competitors_domain?: AppendixInfo | undefined
         
-        related_keywords?: AppendixInfo
+        related_keywords?: AppendixInfo | undefined
         
-        domain_rank_overview?: AppendixInfo
+        domain_rank_overview?: AppendixInfo | undefined
         
-        domain_intersection?: AppendixInfo
+        domain_intersection?: AppendixInfo | undefined
         
-        page_intersection?: AppendixInfo
+        page_intersection?: AppendixInfo | undefined
         
-        bulk_traffic_estimation?: AppendixInfo
+        bulk_traffic_estimation?: AppendixInfo | undefined
         
-        bulk_keyword_difficulty?: AppendixInfo
+        bulk_keyword_difficulty?: AppendixInfo | undefined
         
-        bulk_search_volume?: AppendixInfo
+        bulk_search_volume?: AppendixInfo | undefined
         
-        keywords_for_site?: AppendixInfo
+        keywords_for_site?: AppendixInfo | undefined
         
-        keyword_suggestions?: AppendixInfo
+        keyword_suggestions?: AppendixInfo | undefined
         
-        keyword_ideas?: AppendixInfo
+        keyword_ideas?: AppendixInfo | undefined
         
-        historical_search_volume?: AppendixInfo
+        historical_search_volume?: AppendixInfo | undefined
         
-        categories_for_domain?: AppendixInfo
+        categories_for_domain?: AppendixInfo | undefined
         
-        domain_metrics_by_categories?: AppendixInfo
+        domain_metrics_by_categories?: AppendixInfo | undefined
         
-        top_searches?: AppendixInfo
+        top_searches?: AppendixInfo | undefined
         
-        domain_whois_overview?: AppendixInfo
+        domain_whois_overview?: AppendixInfo | undefined
         
-        historical_rank_overview?: AppendixInfo
+        historical_rank_overview?: AppendixInfo | undefined
         
-        keywords_for_categories?: AppendixInfo
+        keywords_for_categories?: AppendixInfo | undefined
         
-        historical_serps?: AppendixInfo
+        historical_serps?: AppendixInfo | undefined
         
-        app_competitors?: AppendixInfo
+        app_competitors?: AppendixInfo | undefined
         
-        keywords_for_app?: AppendixInfo
+        keywords_for_app?: AppendixInfo | undefined
         
-        app_intersection?: AppendixInfo
+        app_intersection?: AppendixInfo | undefined
         
-        bulk_app_metrics?: AppendixInfo
+        bulk_app_metrics?: AppendixInfo | undefined
         
-        search_intent?: AppendixInfo
+        search_intent?: AppendixInfo | undefined
         
-        historical_bulk_traffic_estimation?: AppendixInfo
+        historical_bulk_traffic_estimation?: AppendixInfo | undefined
         
-        categories_for_keywords?: AppendixInfo
+        categories_for_keywords?: AppendixInfo | undefined
         
-        keyword_overview?: AppendixInfo
+        keyword_overview?: AppendixInfo | undefined
         
-        historical_keyword_data?: AppendixInfo
+        historical_keyword_data?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -84,81 +85,81 @@ export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
 
 export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixDataforseoLabsLimitsRatesDataInfo {
 
-    locations_and_languages?: number;
+    locations_and_languages?: number | undefined;
 
-    categories?: number;
+    categories?: number | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
-    product_competitors?: AppendixInfo;
+    product_competitors?: AppendixInfo | undefined;
 
-    product_keyword_intersections?: AppendixInfo;
+    product_keyword_intersections?: AppendixInfo | undefined;
 
-    product_rank_overview?: AppendixInfo;
+    product_rank_overview?: AppendixInfo | undefined;
 
-    ranked_keywords?: AppendixInfo;
+    ranked_keywords?: AppendixInfo | undefined;
 
-    serp_competitors?: AppendixInfo;
+    serp_competitors?: AppendixInfo | undefined;
 
-    subdomains?: AppendixInfo;
+    subdomains?: AppendixInfo | undefined;
 
-    relevant_pages?: AppendixInfo;
+    relevant_pages?: AppendixInfo | undefined;
 
-    competitors_domain?: AppendixInfo;
+    competitors_domain?: AppendixInfo | undefined;
 
-    related_keywords?: AppendixInfo;
+    related_keywords?: AppendixInfo | undefined;
 
-    domain_rank_overview?: AppendixInfo;
+    domain_rank_overview?: AppendixInfo | undefined;
 
-    domain_intersection?: AppendixInfo;
+    domain_intersection?: AppendixInfo | undefined;
 
-    page_intersection?: AppendixInfo;
+    page_intersection?: AppendixInfo | undefined;
 
-    bulk_traffic_estimation?: AppendixInfo;
+    bulk_traffic_estimation?: AppendixInfo | undefined;
 
-    bulk_keyword_difficulty?: AppendixInfo;
+    bulk_keyword_difficulty?: AppendixInfo | undefined;
 
-    bulk_search_volume?: AppendixInfo;
+    bulk_search_volume?: AppendixInfo | undefined;
 
-    keywords_for_site?: AppendixInfo;
+    keywords_for_site?: AppendixInfo | undefined;
 
-    keyword_suggestions?: AppendixInfo;
+    keyword_suggestions?: AppendixInfo | undefined;
 
-    keyword_ideas?: AppendixInfo;
+    keyword_ideas?: AppendixInfo | undefined;
 
-    historical_search_volume?: AppendixInfo;
+    historical_search_volume?: AppendixInfo | undefined;
 
-    categories_for_domain?: AppendixInfo;
+    categories_for_domain?: AppendixInfo | undefined;
 
-    domain_metrics_by_categories?: AppendixInfo;
+    domain_metrics_by_categories?: AppendixInfo | undefined;
 
-    top_searches?: AppendixInfo;
+    top_searches?: AppendixInfo | undefined;
 
-    domain_whois_overview?: AppendixInfo;
+    domain_whois_overview?: AppendixInfo | undefined;
 
-    historical_rank_overview?: AppendixInfo;
+    historical_rank_overview?: AppendixInfo | undefined;
 
-    keywords_for_categories?: AppendixInfo;
+    keywords_for_categories?: AppendixInfo | undefined;
 
-    historical_serps?: AppendixInfo;
+    historical_serps?: AppendixInfo | undefined;
 
-    app_competitors?: AppendixInfo;
+    app_competitors?: AppendixInfo | undefined;
 
-    keywords_for_app?: AppendixInfo;
+    keywords_for_app?: AppendixInfo | undefined;
 
-    app_intersection?: AppendixInfo;
+    app_intersection?: AppendixInfo | undefined;
 
-    bulk_app_metrics?: AppendixInfo;
+    bulk_app_metrics?: AppendixInfo | undefined;
 
-    search_intent?: AppendixInfo;
+    search_intent?: AppendixInfo | undefined;
 
-    historical_bulk_traffic_estimation?: AppendixInfo;
+    historical_bulk_traffic_estimation?: AppendixInfo | undefined;
 
-    categories_for_keywords?: AppendixInfo;
+    categories_for_keywords?: AppendixInfo | undefined;
 
-    keyword_overview?: AppendixInfo;
+    keyword_overview?: AppendixInfo | undefined;
 
-    historical_keyword_data?: AppendixInfo;
+    historical_keyword_data?: AppendixInfo | undefined;
 
     [key: string]: any;
 

@@ -1,13 +1,14 @@
-import { BaseOnPageLinkItem, IBaseOnPageLinkItem } from "./BaseOnPageLinkItem";
+import { OnPageRedirectLinkItem, IOnPageRedirectLinkItem } from "./BaseOnPageLinkItem";
+
 
 export interface IOnPageRedirectChainsItem   {
         
         /** indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL */
-        is_redirect_loop?: boolean
+        is_redirect_loop?: boolean | undefined
         
         /** contains links that form a chain */
-        chain?: BaseOnPageLinkItem[]
+        chain?: OnPageRedirectLinkItem[] | undefined
 
     [key: string]: any;
 
@@ -18,11 +19,11 @@ export class OnPageRedirectChainsItem  implements IOnPageRedirectChainsItem {
     /** indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL */
 
-    is_redirect_loop?: boolean;
+    is_redirect_loop?: boolean | undefined;
     
     /** contains links that form a chain */
 
-    chain?: BaseOnPageLinkItem[];
+    chain?: OnPageRedirectLinkItem[] | undefined;
 
     [key: string]: any;
 
@@ -48,7 +49,7 @@ if true, the last URL from the chain redirects back to the original URL */
             if (Array.isArray(data["chain"])) {
                 this.chain = [];
                 for (let item of data["chain"]) {
-                    this.chain.push(BaseOnPageLinkItem.fromJS(item));
+                    this.chain.push(OnPageRedirectLinkItem.fromJS(item));
                 }
             }
         }

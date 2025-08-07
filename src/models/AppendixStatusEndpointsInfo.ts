@@ -6,7 +6,7 @@ task_get
 task_post
 live
 postback/pingback */
-        endpoint?: string
+        endpoint?: string | undefined
         
         /** current status
 you can find all information about your API statuses for the last 60 days here
@@ -17,7 +17,7 @@ long_response_time
 long_execution_time
 webhook_delay
 send_delay */
-        status?: string
+        status?: string | undefined
 
     [key: string]: any;
 
@@ -32,7 +32,7 @@ task_post
 live
 postback/pingback */
 
-    endpoint?: string;
+    endpoint?: string | undefined;
     
     /** current status
 you can find all information about your API statuses for the last 60 days here
@@ -44,7 +44,7 @@ long_execution_time
 webhook_delay
 send_delay */
 
-    status?: string;
+    status?: string | undefined;
 
     [key: string]: any;
 

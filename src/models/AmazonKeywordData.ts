@@ -1,21 +1,22 @@
 import { AmazonKeywordInfo, IAmazonKeywordInfo } from "./AmazonKeywordInfo";
 
+
 export interface IAmazonKeywordData   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** related keyword */
-        keyword?: string
+        keyword?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** keyword info for the returned keyword */
-        keyword_info?: AmazonKeywordInfo
+        keyword_info?: AmazonKeywordInfo | undefined
 
     [key: string]: any;
 
@@ -25,23 +26,23 @@ export class AmazonKeywordData  implements IAmazonKeywordData {
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** related keyword */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** keyword info for the returned keyword */
 
-    keyword_info?: AmazonKeywordInfo;
+    keyword_info?: AmazonKeywordInfo | undefined;
 
     [key: string]: any;
 

@@ -1,18 +1,19 @@
 import { DataforseoLabsGoogleDomainWhoisOverviewLiveItem, IDataforseoLabsGoogleDomainWhoisOverviewLiveItem } from "./DataforseoLabsGoogleDomainWhoisOverviewLiveItem";
 
+
 export interface IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains ranking and traffic data */
-        items?: DataforseoLabsGoogleDomainWhoisOverviewLiveItem[]
+        items?: DataforseoLabsGoogleDomainWhoisOverviewLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo  implements I
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains ranking and traffic data */
 
-    items?: DataforseoLabsGoogleDomainWhoisOverviewLiveItem[];
+    items?: DataforseoLabsGoogleDomainWhoisOverviewLiveItem[] | undefined;
 
     [key: string]: any;
 

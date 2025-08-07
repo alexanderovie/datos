@@ -1,6 +1,6 @@
 export interface IContentAnalysisAvailableFiltersResultInfo   {
         
-        search?: { [key: string]: string; }
+        search?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -8,7 +8,7 @@ export interface IContentAnalysisAvailableFiltersResultInfo   {
 
 export class ContentAnalysisAvailableFiltersResultInfo  implements IContentAnalysisAvailableFiltersResultInfo {
 
-    search?: { [key: string]: string; };
+    search?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 

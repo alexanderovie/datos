@@ -1,10 +1,11 @@
 import { SerpGoogleMapsLiveAdvancedResultInfo, ISerpGoogleMapsLiveAdvancedResultInfo } from "./SerpGoogleMapsLiveAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpGoogleMapsLiveAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleMapsLiveAdvancedResultInfo[]
+        result?: SerpGoogleMapsLiveAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleMapsLiveAdvancedTaskInfo  extends BaseResponseTaskInfo   
     
     /** array of results */
 
-    result?: SerpGoogleMapsLiveAdvancedResultInfo[];
+    result?: SerpGoogleMapsLiveAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

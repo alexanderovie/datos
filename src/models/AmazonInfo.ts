@@ -1,82 +1,83 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 
+
 export interface IAmazonInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in Amazon SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the element in Amazon SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** Amazon domain */
-        domain?: string
+        domain?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** URL of the product page */
-        url?: string
+        url?: string | undefined
         
         /** ASIN of the product
 learn more about ASIN in this help center guide */
-        asin?: string
+        asin?: string | undefined
         
         /** URL of the product image featured in the results */
-        image_url?: string
+        image_url?: string | undefined
         
         /** the regular price of a product
 example:
 49.98 */
-        price_from?: number
+        price_from?: number | undefined
         
         /** the upper limit of the product price range
 example:
 384.99 */
-        price_to?: number
+        price_to?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
-        special_offers?: string[]
+        special_offers?: string[] | undefined
         
         /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
-        is_best_seller?: boolean
+        is_best_seller?: boolean | undefined
         
         /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
-        is_amazon_choice?: boolean
+        is_amazon_choice?: boolean | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: AmazonDeliveryInfo
+        delivery_info?: AmazonDeliveryInfo | undefined
         
-        bought_past_month?: number
+        bought_past_month?: number | undefined
 
     [key: string]: any;
 
@@ -86,97 +87,97 @@ export class AmazonInfo  implements IAmazonInfo {
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in Amazon SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the element in Amazon SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** Amazon domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL of the product page */
 
-    url?: string;
+    url?: string | undefined;
     
     /** ASIN of the product
 learn more about ASIN in this help center guide */
 
-    asin?: string;
+    asin?: string | undefined;
     
     /** URL of the product image featured in the results */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** the regular price of a product
 example:
 49.98 */
 
-    price_from?: number;
+    price_from?: number | undefined;
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
-    price_to?: number;
+    price_to?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
 
-    special_offers?: string[];
+    special_offers?: string[] | undefined;
     
     /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
 
-    is_best_seller?: boolean;
+    is_best_seller?: boolean | undefined;
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
-    is_amazon_choice?: boolean;
+    is_amazon_choice?: boolean | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: AmazonDeliveryInfo;
+    delivery_info?: AmazonDeliveryInfo | undefined;
 
-    bought_past_month?: number;
+    bought_past_month?: number | undefined;
 
     [key: string]: any;
 

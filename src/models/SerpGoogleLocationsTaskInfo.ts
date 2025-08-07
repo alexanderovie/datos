@@ -1,10 +1,11 @@
 import { SerpGoogleLocationsResultInfo, ISerpGoogleLocationsResultInfo } from "./SerpGoogleLocationsResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpGoogleLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleLocationsResultInfo[]
+        result?: SerpGoogleLocationsResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleLocationsTaskInfo  extends BaseResponseTaskInfo   impleme
     
     /** array of results */
 
-    result?: SerpGoogleLocationsResultInfo[];
+    result?: SerpGoogleLocationsResultInfo[] | undefined;
 
     [key: string]: any;
 

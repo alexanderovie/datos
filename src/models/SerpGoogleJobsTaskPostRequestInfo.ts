@@ -9,7 +9,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 Note: the keyword you specify must indicate the job title;
 example: .net developer
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** task priority
 optional field
@@ -18,7 +18,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page */
-        priority?: number
+        priority?: number | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code
@@ -26,14 +26,14 @@ if you use this field, you don’t need to specify location_code;
 you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/jobs/locations
 example:
 London,England,United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name;
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/jobs/locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** location search radius
 optional field
@@ -42,7 +42,7 @@ Note: for countries that use the imperial system of units, you will need to conv
 if value is not specified, search is executed anywhere within the specified location;
 maximal value: 300
 minimal value: > 0 */
-        location_radius?: number
+        location_radius?: number | undefined
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -50,7 +50,7 @@ if you use this field, you don’t need to specify language_code;
 you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -58,7 +58,7 @@ if you use this field, you don’t need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** parsing depth
 optional field
@@ -68,21 +68,21 @@ max value: 200
 Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting the depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number
+        depth?: number | undefined
         
         /** employment contract type
 optional field
 type of employment contract for which the search results will be returned;
 possible values:
 fulltime, partime, contractor, intern */
-        employment_type?: string[]
+        employment_type?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
         
         /** return URL for sending task results
 optional field
@@ -94,14 +94,14 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string
+        postback_url?: string | undefined
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 regular, advanced, html */
-        postback_data?: string
+        postback_data?: string | undefined
         
         /** notification URL of a completed task
 optional field
@@ -113,7 +113,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string
+        pingback_url?: string | undefined
 
     [key: string]: any;
 
@@ -131,7 +131,7 @@ Note: the keyword you specify must indicate the job title;
 example: .net developer
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** task priority
 optional field
@@ -141,7 +141,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page */
 
-    priority?: number;
+    priority?: number | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -150,7 +150,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** search engine location code
 required field if you don’t specify location_name;
@@ -158,7 +158,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** location search radius
 optional field
@@ -168,7 +168,7 @@ if value is not specified, search is executed anywhere within the specified loca
 maximal value: 300
 minimal value: > 0 */
 
-    location_radius?: number;
+    location_radius?: number | undefined;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -177,7 +177,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -186,7 +186,7 @@ you can receive the list of available languages of the search engine with their 
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** parsing depth
 optional field
@@ -197,7 +197,7 @@ Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting the depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number;
+    depth?: number | undefined;
     
     /** employment contract type
 optional field
@@ -205,7 +205,7 @@ type of employment contract for which the search results will be returned;
 possible values:
 fulltime, partime, contractor, intern */
 
-    employment_type?: string[];
+    employment_type?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -213,7 +213,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** return URL for sending task results
 optional field
@@ -226,7 +226,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string;
+    postback_url?: string | undefined;
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -234,7 +234,7 @@ corresponds to the datatype that will be sent to your server
 possible values:
 regular, advanced, html */
 
-    postback_data?: string;
+    postback_data?: string | undefined;
     
     /** notification URL of a completed task
 optional field
@@ -247,7 +247,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string;
+    pingback_url?: string | undefined;
 
     [key: string]: any;
 

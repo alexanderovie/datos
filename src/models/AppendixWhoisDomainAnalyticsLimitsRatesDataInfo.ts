@@ -1,8 +1,9 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo   {
         
-        overview?: AppendixInfo
+        overview?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -10,7 +11,7 @@ export interface IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo   {
 
 export class AppendixWhoisDomainAnalyticsLimitsRatesDataInfo  implements IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo {
 
-    overview?: AppendixInfo;
+    overview?: AppendixInfo | undefined;
 
     [key: string]: any;
 

@@ -1,26 +1,26 @@
 export interface IQuestionsAndAnswersElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** question included in the item */
-        question_text?: string
+        question_text?: string | undefined
         
         /** answer included in the item */
-        answer_text?: string
+        answer_text?: string | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string
+        source?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** answer upvotes from the source */
-        votes?: number
+        votes?: number | undefined
 
     [key: string]: any;
 
@@ -30,32 +30,32 @@ export class QuestionsAndAnswersElement  implements IQuestionsAndAnswersElement 
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** question included in the item */
 
-    question_text?: string;
+    question_text?: string | undefined;
     
     /** answer included in the item */
 
-    answer_text?: string;
+    answer_text?: string | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string;
+    source?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** answer upvotes from the source */
 
-    votes?: number;
+    votes?: number | undefined;
 
     [key: string]: any;
 

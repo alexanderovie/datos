@@ -1,39 +1,40 @@
 import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchOrganic";
 
+
 export interface IAppDataAppleAppListTaskGetAdvancedResultInfo   {
         
         /** app collection received in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search engine domain in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to search engine results
 in this case, the value will be null */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** the total number of results */
-        se_results_count?: number
+        se_results_count?: number | undefined
         
         /** the number of app items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number
+        items_count?: number | undefined
         
         /** found apps
 you can get more results by using the depth parameter when setting a task */
-        items?: AppStoreSearchOrganic[]
+        items?: AppStoreSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -43,45 +44,45 @@ export class AppDataAppleAppListTaskGetAdvancedResultInfo  implements IAppDataAp
     
     /** app collection received in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to search engine results
 in this case, the value will be null */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** the total number of results */
 
-    se_results_count?: number;
+    se_results_count?: number | undefined;
     
     /** the number of app items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** found apps
 you can get more results by using the depth parameter when setting a task */
 
-    items?: AppStoreSearchOrganic[];
+    items?: AppStoreSearchOrganic[] | undefined;
 
     [key: string]: any;
 

@@ -2,22 +2,21 @@ export interface IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** search engine specified when setting the task */
-        se?: string
+        se?: string | undefined
         
-        /** type of the task */
-        function?: string
+        se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
         
         /** URL for collecting the results of the task */
-        endpoint?: string
+        endpoint?: string | undefined
 
     [key: string]: any;
 
@@ -28,27 +27,25 @@ export class KeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo  implements I
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** search engine specified when setting the task */
 
-    se?: string;
-    
-    /** type of the task */
+    se?: string | undefined;
 
-    function?: string;
+    se_type?: string | undefined;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** URL for collecting the results of the task */
 
-    endpoint?: string;
+    endpoint?: string | undefined;
 
     [key: string]: any;
 
@@ -72,7 +69,7 @@ unique task identifier in our system in the UUID format */
             }
             this.id = data["id"];
             this.se = data["se"];
-            this.function = data["function"];
+            this.se_type = data["se_type"];
             this.date_posted = data["date_posted"];
             this.tag = data["tag"];
             this.endpoint = data["endpoint"];
@@ -95,7 +92,7 @@ unique task identifier in our system in the UUID format */
         
         data["id"] = this.id;
         data["se"] = this.se;
-        data["function"] = this.function;
+        data["se_type"] = this.se_type;
         data["date_posted"] = this.date_posted;
         data["tag"] = this.tag;
         data["endpoint"] = this.endpoint;

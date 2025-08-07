@@ -1,10 +1,11 @@
 import { SerpYahooOrganicTaskPostTaskInfo, ISerpYahooOrganicTaskPostTaskInfo } from "./SerpYahooOrganicTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpYahooOrganicTaskPostResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpYahooOrganicTaskPostTaskInfo[]
+        tasks?: SerpYahooOrganicTaskPostTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYahooOrganicTaskPostResponseInfo  extends BaseResponseInfo   im
     
     /** array of tasks */
 
-    tasks?: SerpYahooOrganicTaskPostTaskInfo[];
+    tasks?: SerpYahooOrganicTaskPostTaskInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,12 +1,13 @@
 import { BacklinksBulkSpamScoreLiveItem, IBacklinksBulkSpamScoreLiveItem } from "./BacklinksBulkSpamScoreLiveItem";
 
+
 export interface IBacklinksBulkSpamScoreLiveResultInfo   {
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains relevant backlinks and referring domains data */
-        items?: BacklinksBulkSpamScoreLiveItem[]
+        items?: BacklinksBulkSpamScoreLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class BacklinksBulkSpamScoreLiveResultInfo  implements IBacklinksBulkSpam
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains relevant backlinks and referring domains data */
 
-    items?: BacklinksBulkSpamScoreLiveItem[];
+    items?: BacklinksBulkSpamScoreLiveItem[] | undefined;
 
     [key: string]: any;
 

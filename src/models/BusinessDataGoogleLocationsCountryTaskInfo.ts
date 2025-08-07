@@ -1,10 +1,11 @@
 import { BusinessDataGoogleLocationsCountryResultInfo, IBusinessDataGoogleLocationsCountryResultInfo } from "./BusinessDataGoogleLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBusinessDataGoogleLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataGoogleLocationsCountryResultInfo[]
+        result?: BusinessDataGoogleLocationsCountryResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BusinessDataGoogleLocationsCountryTaskInfo  extends BaseResponseTas
     
     /** array of results */
 
-    result?: BusinessDataGoogleLocationsCountryResultInfo[];
+    result?: BusinessDataGoogleLocationsCountryResultInfo[] | undefined;
 
     [key: string]: any;
 

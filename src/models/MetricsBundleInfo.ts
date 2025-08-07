@@ -1,12 +1,13 @@
 import { MetricsInfo, IMetricsInfo } from "./MetricsInfo";
 
+
 export interface IMetricsBundleInfo   {
         
         /** ranking and traffic data from organic search */
-        organic?: MetricsInfo
+        organic?: MetricsInfo | undefined
         
         /** ranking and traffic data from paid search */
-        paid?: MetricsInfo
+        paid?: MetricsInfo | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class MetricsBundleInfo  implements IMetricsBundleInfo {
     
     /** ranking and traffic data from organic search */
 
-    organic?: MetricsInfo;
+    organic?: MetricsInfo | undefined;
     
     /** ranking and traffic data from paid search */
 
-    paid?: MetricsInfo;
+    paid?: MetricsInfo | undefined;
 
     [key: string]: any;
 

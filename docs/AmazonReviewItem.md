@@ -12,7 +12,7 @@
 **verified** | **boolean** | indicates whether the review has the “Verified Purchase” mark |[optional]|
 **subtitle** | **string** | subtitle of the review |[optional]|
 **helpful_votes** | **string** | helpful votes count<br>number of users who clicked on the ‘Helpful” button under the review text |[optional]|
-**images** | **AiModeImagesElement[]** | images of the product submitted by the reviewer |[optional]|
+**images** | **AiModeImagesElementInfo[]** | images of the product submitted by the reviewer |[optional]|
 **videos** | **VideoElement[]** | videos of the product submitted by the reviewer |[optional]|
 **user_profile** | **UserProfileInfo** | user profile of the reviewer |[optional]|
 **title** | **string** | title of the review |[optional]|

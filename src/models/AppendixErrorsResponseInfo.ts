@@ -1,10 +1,11 @@
 import { AppendixErrorsTaskInfo, IAppendixErrorsTaskInfo } from "./AppendixErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IAppendixErrorsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: AppendixErrorsTaskInfo[]
+        tasks?: AppendixErrorsTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppendixErrorsResponseInfo  extends BaseResponseInfo   implements I
     
     /** array of tasks */
 
-    tasks?: AppendixErrorsTaskInfo[];
+    tasks?: AppendixErrorsTaskInfo[] | undefined;
 
     [key: string]: any;
 

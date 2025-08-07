@@ -1,10 +1,11 @@
 import { KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo, IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo } from "./KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IKeywordsDataDataforseoTrendsMergedDataLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[]
+        tasks?: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo  extends Bas
     
     /** array of tasks */
 
-    tasks?: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[];
+    tasks?: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

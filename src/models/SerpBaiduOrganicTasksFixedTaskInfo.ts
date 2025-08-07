@@ -1,10 +1,11 @@
 import { SerpBaiduOrganicTasksFixedResultInfo, ISerpBaiduOrganicTasksFixedResultInfo } from "./SerpBaiduOrganicTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpBaiduOrganicTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBaiduOrganicTasksFixedResultInfo[]
+        result?: SerpBaiduOrganicTasksFixedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBaiduOrganicTasksFixedTaskInfo  extends BaseResponseTaskInfo   
     
     /** array of results */
 
-    result?: SerpBaiduOrganicTasksFixedResultInfo[];
+    result?: SerpBaiduOrganicTasksFixedResultInfo[] | undefined;
 
     [key: string]: any;
 

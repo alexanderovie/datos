@@ -1,16 +1,17 @@
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
+
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveItem   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** product and service categories
 you can download the full list of possible categories */
-        categories?: number[]
+        categories?: number[] | undefined
         
         /** ranking data relevant to the specified domain or subdomain */
-        metrics?: { [key: string]: DataforseoLabsMetricsInfo; }
+        metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
 
@@ -20,16 +21,16 @@ export class DataforseoLabsGoogleCategoriesForDomainLiveItem  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** product and service categories
 you can download the full list of possible categories */
 
-    categories?: number[];
+    categories?: number[] | undefined;
     
     /** ranking data relevant to the specified domain or subdomain */
 
-    metrics?: { [key: string]: DataforseoLabsMetricsInfo; };
+    metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 
     [key: string]: any;
 

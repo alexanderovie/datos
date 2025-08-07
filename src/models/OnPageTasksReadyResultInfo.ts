@@ -2,16 +2,16 @@ export interface IOnPageTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** target website specified when setting a task */
-        target?: string
+        target?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -22,19 +22,19 @@ export class OnPageTasksReadyResultInfo  implements IOnPageTasksReadyResultInfo 
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** target website specified when setting a task */
 
-    target?: string;
+    target?: string | undefined;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

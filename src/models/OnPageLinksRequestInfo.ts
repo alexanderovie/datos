@@ -5,31 +5,31 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string
+        id?: string | undefined
         
         /** relative page URL
 optional field
 if you use this field, the API response will contain only links from the specified page
 note that in this field you can specify relative URLs only */
-        page_from?: string
+        page_from?: string | undefined
         
         /** relative page URL
 optional field
 if you use this field, the API response will contain only internal links pointing to the specified page
 note that in this field you can specify relative URLs only */
-        page_to?: string
+        page_to?: string | undefined
         
         /** the maximum number of returned links
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned links
 optional field
 default value: 0
 if you specify the 10 value, the first ten links in the results array will be omitted and the data will be provided for the successive links */
-        offset?: number
+        offset?: number | undefined
         
         /** array of results filtering parameters
 optional field
@@ -47,7 +47,7 @@ example:
 'and',
 [['link_from','like','%example.com/blog%'],'or',['link_from','like','%example.com/help%']]]
 The full list of possible filters is available by this link. */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** token for subsequent requests
 optional field
@@ -56,14 +56,14 @@ use this parameter to avoid timeouts while trying to obtain over 20,000 results 
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
-        search_after_token?: string
+        search_after_token?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -77,35 +77,35 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string;
+    id?: string | undefined;
     
     /** relative page URL
 optional field
 if you use this field, the API response will contain only links from the specified page
 note that in this field you can specify relative URLs only */
 
-    page_from?: string;
+    page_from?: string | undefined;
     
     /** relative page URL
 optional field
 if you use this field, the API response will contain only internal links pointing to the specified page
 note that in this field you can specify relative URLs only */
 
-    page_to?: string;
+    page_to?: string | undefined;
     
     /** the maximum number of returned links
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned links
 optional field
 default value: 0
 if you specify the 10 value, the first ten links in the results array will be omitted and the data will be provided for the successive links */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -124,7 +124,7 @@ example:
 [['link_from','like','%example.com/blog%'],'or',['link_from','like','%example.com/help%']]]
 The full list of possible filters is available by this link. */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** token for subsequent requests
 optional field
@@ -134,7 +134,7 @@ by specifying the unique search_after_token value from the response array, you w
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
 
-    search_after_token?: string;
+    search_after_token?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

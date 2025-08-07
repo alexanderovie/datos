@@ -4,7 +4,7 @@ export interface IDataforseoLabsBingCompetitorsDomainLiveRequestInfo   {
 required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -14,7 +14,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -24,7 +24,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -33,7 +33,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -42,7 +42,7 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** display results by item type
 optional field
@@ -52,7 +52,7 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid', 'featured_snippet', 'local_pack'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** array of results filtering parameters
 optional field
@@ -67,7 +67,7 @@ example:
 'or',
 ['metrics.organic.etv','>=','100']]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -85,25 +85,25 @@ example:
 default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** maximum rank up to which competitors will be considered
 optional field
 default value: 100
 if you specify 10 here, we will extract competitors from the top 10 Bing search results only */
-        max_rank_group?: number
+        max_rank_group?: number | undefined
         
         /** indicates whether to exclude world’s largest websites
 optional field
@@ -126,27 +126,27 @@ olx.com
 twitter.com
 linkedin.com
 slideshare.net */
-        exclude_top_domains?: boolean
+        exclude_top_domains?: boolean | undefined
         
         /** additional domains for improving results accuracy
 optional field
 to improve the accuracy of the result, you can specify domains that are known to intersect with the target in SERPs;
 if you use this array, metrics in the result will be based on SERPs where both target website and intersecting_domains appear;
 Note: you can specify up to 20 domains in this array */
-        intersecting_domains?: string[]
+        intersecting_domains?: string[] | undefined
         
         /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean
+        ignore_synonyms?: boolean | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -159,7 +159,7 @@ required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -170,7 +170,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -181,7 +181,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -191,7 +191,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -201,7 +201,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** display results by item type
 optional field
@@ -212,7 +212,7 @@ possible values:
 default value:
 ['organic', 'paid', 'featured_snippet', 'local_pack'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -228,7 +228,7 @@ example:
 ['metrics.organic.etv','>=','100']]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -247,28 +247,28 @@ default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** maximum rank up to which competitors will be considered
 optional field
 default value: 100
 if you specify 10 here, we will extract competitors from the top 10 Bing search results only */
 
-    max_rank_group?: number;
+    max_rank_group?: number | undefined;
     
     /** indicates whether to exclude world’s largest websites
 optional field
@@ -292,7 +292,7 @@ twitter.com
 linkedin.com
 slideshare.net */
 
-    exclude_top_domains?: boolean;
+    exclude_top_domains?: boolean | undefined;
     
     /** additional domains for improving results accuracy
 optional field
@@ -300,14 +300,14 @@ to improve the accuracy of the result, you can specify domains that are known to
 if you use this array, metrics in the result will be based on SERPs where both target website and intersecting_domains appear;
 Note: you can specify up to 20 domains in this array */
 
-    intersecting_domains?: string[];
+    intersecting_domains?: string[] | undefined;
     
     /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean;
+    ignore_synonyms?: boolean | undefined;
     
     /** user-defined task identifier
 optional field
@@ -315,7 +315,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

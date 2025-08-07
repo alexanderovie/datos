@@ -1,22 +1,23 @@
 import { AppDataAppleAppListingsSearchLiveItem, IAppDataAppleAppListingsSearchLiveItem } from "./AppDataAppleAppListingsSearchLiveItem";
 
+
 export interface IAppDataAppleAppListingsSearchLiveResultInfo   {
         
         /** the total number of relevant results in the database */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of items in the results array */
-        count?: number
+        count?: number | undefined
         
         /** offset in the results array of returned apps */
-        offset?: number
+        offset?: number | undefined
         
         /** token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
-        offset_token?: string
+        offset_token?: string | undefined
         
         /** array of apps and related data */
-        items?: AppDataAppleAppListingsSearchLiveItem[]
+        items?: AppDataAppleAppListingsSearchLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -26,24 +27,24 @@ export class AppDataAppleAppListingsSearchLiveResultInfo  implements IAppDataApp
     
     /** the total number of relevant results in the database */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of items in the results array */
 
-    count?: number;
+    count?: number | undefined;
     
     /** offset in the results array of returned apps */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
 
-    offset_token?: string;
+    offset_token?: string | undefined;
     
     /** array of apps and related data */
 
-    items?: AppDataAppleAppListingsSearchLiveItem[];
+    items?: AppDataAppleAppListingsSearchLiveItem[] | undefined;
 
     [key: string]: any;
 

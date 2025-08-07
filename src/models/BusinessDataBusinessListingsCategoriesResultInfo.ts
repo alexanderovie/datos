@@ -1,10 +1,10 @@
 export interface IBusinessDataBusinessListingsCategoriesResultInfo   {
         
         /** full name of the category */
-        category_name?: string
+        category_name?: string | undefined
         
         /** number of businesses in the category */
-        business_count?: number
+        business_count?: number | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class BusinessDataBusinessListingsCategoriesResultInfo  implements IBusin
     
     /** full name of the category */
 
-    category_name?: string;
+    category_name?: string | undefined;
     
     /** number of businesses in the category */
 
-    business_count?: number;
+    business_count?: number | undefined;
 
     [key: string]: any;
 

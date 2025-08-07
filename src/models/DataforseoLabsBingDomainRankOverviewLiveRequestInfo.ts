@@ -4,7 +4,7 @@ export interface IDataforseoLabsBingDomainRankOverviewLiveRequestInfo   {
 required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 optional field
@@ -15,7 +15,7 @@ ignore this field to get the results for all available locations;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 optional field
@@ -26,7 +26,7 @@ ignore this field to get the results for all available locations;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 optional field
@@ -36,7 +36,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 optional field
@@ -46,26 +46,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** the maximum number of returned results for domain
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -78,7 +78,7 @@ required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 optional field
@@ -90,7 +90,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 optional field
@@ -102,7 +102,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 optional field
@@ -113,7 +113,7 @@ ignore this field to get the results for all available languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 optional field
@@ -124,21 +124,21 @@ ignore this field to get the results for all available languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** the maximum number of returned results for domain
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -146,7 +146,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

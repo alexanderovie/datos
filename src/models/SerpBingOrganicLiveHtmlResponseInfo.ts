@@ -1,10 +1,11 @@
 import { SerpBingOrganicLiveHtmlTaskInfo, ISerpBingOrganicLiveHtmlTaskInfo } from "./SerpBingOrganicLiveHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpBingOrganicLiveHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpBingOrganicLiveHtmlTaskInfo[]
+        tasks?: SerpBingOrganicLiveHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBingOrganicLiveHtmlResponseInfo  extends BaseResponseInfo   imp
     
     /** array of tasks */
 
-    tasks?: SerpBingOrganicLiveHtmlTaskInfo[];
+    tasks?: SerpBingOrganicLiveHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

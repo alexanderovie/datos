@@ -1,10 +1,10 @@
 export interface ISerpYoutubeLocationsCountryResultInfo   {
         
         /** location code */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the location */
-        location_name?: string
+        location_name?: string | undefined
         
         /** the code of the superordinate location
 example:
@@ -14,13 +14,13 @@ example:
 where location_code_parent corresponds to:
 'location_code': 20044,
 'location_name': 'Lower Austria,Austria' */
-        location_code_parent?: number
+        location_code_parent?: number | undefined
         
         /** ISO country code of the location */
-        country_iso_code?: string
+        country_iso_code?: string | undefined
         
         /** location type */
-        location_type?: string
+        location_type?: string | undefined
 
     [key: string]: any;
 
@@ -30,11 +30,11 @@ export class SerpYoutubeLocationsCountryResultInfo  implements ISerpYoutubeLocat
     
     /** location code */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the location */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** the code of the superordinate location
 example:
@@ -45,15 +45,15 @@ where location_code_parent corresponds to:
 'location_code': 20044,
 'location_name': 'Lower Austria,Austria' */
 
-    location_code_parent?: number;
+    location_code_parent?: number | undefined;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string;
+    country_iso_code?: string | undefined;
     
     /** location type */
 
-    location_type?: string;
+    location_type?: string | undefined;
 
     [key: string]: any;
 

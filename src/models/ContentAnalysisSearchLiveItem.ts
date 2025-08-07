@@ -2,74 +2,75 @@ import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 import { SocialMetricsInfo, ISocialMetricsInfo } from "./SocialMetricsInfo";
 import { AnalysisContentInfo, IAnalysisContentInfo } from "./AnalysisContentInfo";
 
+
 export interface IContentAnalysisSearchLiveItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** URL where the citation was found */
-        url?: string
+        url?: string | undefined
         
         /** domain name */
-        domain?: string
+        domain?: string | undefined
         
         /** main domain */
-        main_domain?: string
+        main_domain?: string | undefined
         
         /** rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
 url_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
-        url_rank?: number
+        url_rank?: number | undefined
         
         /** backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
 learn more about how the metric is calculated on this help center page */
-        spam_score?: number
+        spam_score?: number | undefined
         
         /** rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
 domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
-        domain_rank?: number
+        domain_rank?: number | undefined
         
         /** date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
-        fetch_time?: string
+        fetch_time?: string | undefined
         
         /** country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint */
-        country?: string
+        country?: string | undefined
         
         /** main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint */
-        language?: string
+        language?: string | undefined
         
         /** citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
 the higher the score, the more value the related citation has */
-        score?: number
+        score?: number | undefined
         
         /** contains all relevant page categories
 product and service categories relevant for the page
 to obtain a full list of available categories, refer to the Categories endpoint */
-        page_category?: number[]
+        page_category?: number[] | undefined
         
         /** page types */
-        page_types?: string[]
+        page_types?: string[] | undefined
         
         /** ratings found on the page
 all ratings found on the page based on microdata */
-        ratings?: ContentRatingInfo[]
+        ratings?: ContentRatingInfo[] | undefined
         
         /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
-        social_metrics?: SocialMetricsInfo[]
+        social_metrics?: SocialMetricsInfo[] | undefined
         
         /** contains data on citations from the given url */
-        content_info?: AnalysisContentInfo
+        content_info?: AnalysisContentInfo | undefined
 
     [key: string]: any;
 
@@ -79,86 +80,86 @@ export class ContentAnalysisSearchLiveItem  implements IContentAnalysisSearchLiv
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** URL where the citation was found */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain name */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** main domain */
 
-    main_domain?: string;
+    main_domain?: string | undefined;
     
     /** rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
 url_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
 
-    url_rank?: number;
+    url_rank?: number | undefined;
     
     /** backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
 learn more about how the metric is calculated on this help center page */
 
-    spam_score?: number;
+    spam_score?: number | undefined;
     
     /** rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
 domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
 
-    domain_rank?: number;
+    domain_rank?: number | undefined;
     
     /** date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00 */
 
-    fetch_time?: string;
+    fetch_time?: string | undefined;
     
     /** country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint */
 
-    country?: string;
+    country?: string | undefined;
     
     /** main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint */
 
-    language?: string;
+    language?: string | undefined;
     
     /** citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
 the higher the score, the more value the related citation has */
 
-    score?: number;
+    score?: number | undefined;
     
     /** contains all relevant page categories
 product and service categories relevant for the page
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    page_category?: number[];
+    page_category?: number[] | undefined;
     
     /** page types */
 
-    page_types?: string[];
+    page_types?: string[] | undefined;
     
     /** ratings found on the page
 all ratings found on the page based on microdata */
 
-    ratings?: ContentRatingInfo[];
+    ratings?: ContentRatingInfo[] | undefined;
     
     /** social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
 
-    social_metrics?: SocialMetricsInfo[];
+    social_metrics?: SocialMetricsInfo[] | undefined;
     
     /** contains data on citations from the given url */
 
-    content_info?: AnalysisContentInfo;
+    content_info?: AnalysisContentInfo | undefined;
 
     [key: string]: any;
 

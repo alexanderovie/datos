@@ -1,15 +1,16 @@
 import { RefinementChipsElement, IRefinementChipsElement } from "./RefinementChipsElement";
 
+
 export interface IRefinementChipsInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** items of the element */
-        items?: RefinementChipsElement[]
+        items?: RefinementChipsElement[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class RefinementChipsInfo  implements IRefinementChipsInfo {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** items of the element */
 
-    items?: RefinementChipsElement[];
+    items?: RefinementChipsElement[] | undefined;
 
     [key: string]: any;
 

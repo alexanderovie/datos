@@ -1,10 +1,11 @@
 import { SerpGoogleJobsTaskGetHtmlTaskInfo, ISerpGoogleJobsTaskGetHtmlTaskInfo } from "./SerpGoogleJobsTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpGoogleJobsTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleJobsTaskGetHtmlTaskInfo[]
+        tasks?: SerpGoogleJobsTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleJobsTaskGetHtmlResponseInfo  extends BaseResponseInfo   i
     
     /** array of tasks */
 
-    tasks?: SerpGoogleJobsTaskGetHtmlTaskInfo[];
+    tasks?: SerpGoogleJobsTaskGetHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

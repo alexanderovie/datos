@@ -1,10 +1,11 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IAppDataAppleAppInfoTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results
 in this case, the value will be null */
-        result?: any
+        result?: any | undefined
 
     [key: string]: any;
 
@@ -15,7 +16,7 @@ export class AppDataAppleAppInfoTaskPostTaskInfo  extends BaseResponseTaskInfo  
     /** array of results
 in this case, the value will be null */
 
-    result?: any;
+    result?: any | undefined;
 
     [key: string]: any;
 

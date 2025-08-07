@@ -1,14 +1,14 @@
 export interface IFormatsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** type of file format of the dataset
 for example: zip, html, csv */
-        format?: string
+        format?: string | undefined
         
         /** file size in bytes */
-        size?: number
+        size?: number | undefined
 
     [key: string]: any;
 
@@ -18,16 +18,16 @@ export class FormatsElement  implements IFormatsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** type of file format of the dataset
 for example: zip, html, csv */
 
-    format?: string;
+    format?: string | undefined;
     
     /** file size in bytes */
 
-    size?: number;
+    size?: number | undefined;
 
     [key: string]: any;
 

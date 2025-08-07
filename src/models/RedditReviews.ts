@@ -1,20 +1,20 @@
 export interface IRedditReviews   {
         
         /** the name of the subreddit */
-        subreddit?: string
+        subreddit?: string | undefined
         
         /** nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL */
-        author_name?: string
+        author_name?: string | undefined
         
         /** title of the subreddit post */
-        title?: string
+        title?: string | undefined
         
         /** URL to the subreddit post */
-        permalink?: string
+        permalink?: string | undefined
         
         /** number of subreddit members */
-        subreddit_members?: number
+        subreddit_members?: number | undefined
 
     [key: string]: any;
 
@@ -24,24 +24,24 @@ export class RedditReviews  implements IRedditReviews {
     
     /** the name of the subreddit */
 
-    subreddit?: string;
+    subreddit?: string | undefined;
     
     /** nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL */
 
-    author_name?: string;
+    author_name?: string | undefined;
     
     /** title of the subreddit post */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to the subreddit post */
 
-    permalink?: string;
+    permalink?: string | undefined;
     
     /** number of subreddit members */
 
-    subreddit_members?: number;
+    subreddit_members?: number | undefined;
 
     [key: string]: any;
 

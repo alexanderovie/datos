@@ -11,64 +11,65 @@ import { AppendixAppDataLimitsRatesDataInfo, IAppendixAppDataLimitsRatesDataInfo
 import { AppendixContentAnalysisLimitsRatesDataInfo, IAppendixContentAnalysisLimitsRatesDataInfo } from "./AppendixContentAnalysisLimitsRatesDataInfo";
 import { AppendixContentGenerationLimitsRatesDataInfo, IAppendixContentGenerationLimitsRatesDataInfo } from "./AppendixContentGenerationLimitsRatesDataInfo";
 
+
 export interface IAppendixDayLimitsRatesData   {
         
-        serp?: AppendixSerpDaysRatesDataInfo
+        serp?: AppendixSerpDaysRatesDataInfo | undefined
         
         /** total amount of money deposited to your account */
-        total?: number
+        total?: number | undefined
         
-        total_serp?: number
+        total_serp?: number | undefined
         
-        keywords_data?: AppendixKeywordsDataDaysRatesDataInfo
+        keywords_data?: AppendixKeywordsDataDaysRatesDataInfo | undefined
         
-        total_keywords_data?: number
+        total_keywords_data?: number | undefined
         
-        appendix?: AppendixAppendixDaysRatesDataInfo
+        appendix?: AppendixAppendixDaysRatesDataInfo | undefined
         
-        total_appendix?: number
+        total_appendix?: number | undefined
         
-        dataforseo_labs?: AppendixDataforseoLabsLimitsRatesDataInfo
+        dataforseo_labs?: AppendixDataforseoLabsLimitsRatesDataInfo | undefined
         
-        total_dataforseo_labs?: number
+        total_dataforseo_labs?: number | undefined
         
-        domain_analytics?: AppendixDomainAnalyticsLimitsRatesDataInfo
+        domain_analytics?: AppendixDomainAnalyticsLimitsRatesDataInfo | undefined
         
-        total_domain_analytics?: number
+        total_domain_analytics?: number | undefined
         
-        merchant?: AppendixMerchantLimitsRatesDataInfo
+        merchant?: AppendixMerchantLimitsRatesDataInfo | undefined
         
-        total_merchant?: number
+        total_merchant?: number | undefined
         
-        on_page?: AppendixOnPageLimitsRatesDataInfo
+        on_page?: AppendixOnPageLimitsRatesDataInfo | undefined
         
-        total_on_page?: number
+        total_on_page?: number | undefined
         
-        business_data?: AppendixBusinessDataLimitsRatesDataInfo
+        business_data?: AppendixBusinessDataLimitsRatesDataInfo | undefined
         
-        total_business_data?: number
+        total_business_data?: number | undefined
         
-        backlinks?: AppendixBacklinksLimitsRatesDataInfo
+        backlinks?: AppendixBacklinksLimitsRatesDataInfo | undefined
         
-        total_backlinks?: number
+        total_backlinks?: number | undefined
         
-        app_data?: AppendixAppDataLimitsRatesDataInfo
+        app_data?: AppendixAppDataLimitsRatesDataInfo | undefined
         
-        total_app_data?: number
+        total_app_data?: number | undefined
         
-        content_analysis?: AppendixContentAnalysisLimitsRatesDataInfo
+        content_analysis?: AppendixContentAnalysisLimitsRatesDataInfo | undefined
         
-        total_content_analysis?: number
+        total_content_analysis?: number | undefined
         
-        content_generation?: AppendixContentGenerationLimitsRatesDataInfo
+        content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined
         
-        total_content_generation?: number
+        total_content_generation?: number | undefined
         
-        total_traffic_analytics?: number
+        total_traffic_analytics?: number | undefined
         
-        total_reviews?: number
+        total_reviews?: number | undefined
         
-        total_social?: number
+        total_social?: number | undefined
 
     [key: string]: any;
 
@@ -76,63 +77,63 @@ export interface IAppendixDayLimitsRatesData   {
 
 export class AppendixDayLimitsRatesData  implements IAppendixDayLimitsRatesData {
 
-    serp?: AppendixSerpDaysRatesDataInfo;
+    serp?: AppendixSerpDaysRatesDataInfo | undefined;
     
     /** total amount of money deposited to your account */
 
-    total?: number;
+    total?: number | undefined;
 
-    total_serp?: number;
+    total_serp?: number | undefined;
 
-    keywords_data?: AppendixKeywordsDataDaysRatesDataInfo;
+    keywords_data?: AppendixKeywordsDataDaysRatesDataInfo | undefined;
 
-    total_keywords_data?: number;
+    total_keywords_data?: number | undefined;
 
-    appendix?: AppendixAppendixDaysRatesDataInfo;
+    appendix?: AppendixAppendixDaysRatesDataInfo | undefined;
 
-    total_appendix?: number;
+    total_appendix?: number | undefined;
 
-    dataforseo_labs?: AppendixDataforseoLabsLimitsRatesDataInfo;
+    dataforseo_labs?: AppendixDataforseoLabsLimitsRatesDataInfo | undefined;
 
-    total_dataforseo_labs?: number;
+    total_dataforseo_labs?: number | undefined;
 
-    domain_analytics?: AppendixDomainAnalyticsLimitsRatesDataInfo;
+    domain_analytics?: AppendixDomainAnalyticsLimitsRatesDataInfo | undefined;
 
-    total_domain_analytics?: number;
+    total_domain_analytics?: number | undefined;
 
-    merchant?: AppendixMerchantLimitsRatesDataInfo;
+    merchant?: AppendixMerchantLimitsRatesDataInfo | undefined;
 
-    total_merchant?: number;
+    total_merchant?: number | undefined;
 
-    on_page?: AppendixOnPageLimitsRatesDataInfo;
+    on_page?: AppendixOnPageLimitsRatesDataInfo | undefined;
 
-    total_on_page?: number;
+    total_on_page?: number | undefined;
 
-    business_data?: AppendixBusinessDataLimitsRatesDataInfo;
+    business_data?: AppendixBusinessDataLimitsRatesDataInfo | undefined;
 
-    total_business_data?: number;
+    total_business_data?: number | undefined;
 
-    backlinks?: AppendixBacklinksLimitsRatesDataInfo;
+    backlinks?: AppendixBacklinksLimitsRatesDataInfo | undefined;
 
-    total_backlinks?: number;
+    total_backlinks?: number | undefined;
 
-    app_data?: AppendixAppDataLimitsRatesDataInfo;
+    app_data?: AppendixAppDataLimitsRatesDataInfo | undefined;
 
-    total_app_data?: number;
+    total_app_data?: number | undefined;
 
-    content_analysis?: AppendixContentAnalysisLimitsRatesDataInfo;
+    content_analysis?: AppendixContentAnalysisLimitsRatesDataInfo | undefined;
 
-    total_content_analysis?: number;
+    total_content_analysis?: number | undefined;
 
-    content_generation?: AppendixContentGenerationLimitsRatesDataInfo;
+    content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined;
 
-    total_content_generation?: number;
+    total_content_generation?: number | undefined;
 
-    total_traffic_analytics?: number;
+    total_traffic_analytics?: number | undefined;
 
-    total_reviews?: number;
+    total_reviews?: number | undefined;
 
-    total_social?: number;
+    total_social?: number | undefined;
 
     [key: string]: any;
 

@@ -1,12 +1,12 @@
 export interface IAppendixAppendixDataInfo   {
         
-        user_data?: number
+        user_data?: number | undefined
         
-        errors?: number
+        errors?: number | undefined
         
-        status?: number
+        status?: number | undefined
         
-        test?: number
+        test?: number | undefined
 
     [key: string]: any;
 
@@ -14,13 +14,13 @@ export interface IAppendixAppendixDataInfo   {
 
 export class AppendixAppendixDataInfo  implements IAppendixAppendixDataInfo {
 
-    user_data?: number;
+    user_data?: number | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
-    status?: number;
+    status?: number | undefined;
 
-    test?: number;
+    test?: number | undefined;
 
     [key: string]: any;
 

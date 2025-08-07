@@ -1,23 +1,24 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageNonIndexableItem, IOnPageNonIndexableItem } from "./OnPageNonIndexableItem";
 
+
 export interface IOnPageNonIndexableResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** total number of relevant items in the database */
-        total_items_count?: number
+        total_items_count?: number | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: OnPageNonIndexableItem[]
+        items?: OnPageNonIndexableItem[] | undefined
 
     [key: string]: any;
 
@@ -28,23 +29,23 @@ export class OnPageNonIndexableResultInfo  implements IOnPageNonIndexableResultI
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** total number of relevant items in the database */
 
-    total_items_count?: number;
+    total_items_count?: number | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: OnPageNonIndexableItem[];
+    items?: OnPageNonIndexableItem[] | undefined;
 
     [key: string]: any;
 

@@ -11,31 +11,32 @@ import { AppendixDataforseoLabsPriceData, IAppendixDataforseoLabsPriceData } fro
 import { AppendixDomainAnalyticsPriceData, IAppendixDomainAnalyticsPriceData } from "./AppendixDomainAnalyticsPriceData";
 import { AppendixOnPagePriceData, IAppendixOnPagePriceData } from "./AppendixOnPagePriceData";
 
+
 export interface IAppendixPriceData   {
         
-        keywords_data?: AppendixKeywordsDataPriceData
+        keywords_data?: AppendixKeywordsDataPriceData | undefined
         
-        merchant?: AppendixMerchantPriceData
+        merchant?: AppendixMerchantPriceData | undefined
         
-        serp?: AppendixSerpPriceData
+        serp?: AppendixSerpPriceData | undefined
         
-        appendix?: AppendixAppendixPriceData
+        appendix?: AppendixAppendixPriceData | undefined
         
-        app_data?: AppendixAppDataPriceData
+        app_data?: AppendixAppDataPriceData | undefined
         
-        backlinks?: AppendixBacklinksPriceData
+        backlinks?: AppendixBacklinksPriceData | undefined
         
-        business_data?: AppendixBusinessDataPriceData
+        business_data?: AppendixBusinessDataPriceData | undefined
         
-        content_analysis?: AppendixContentAnalysisPriceData
+        content_analysis?: AppendixContentAnalysisPriceData | undefined
         
-        content_generation?: AppendixContentGenerationPriceData
+        content_generation?: AppendixContentGenerationPriceData | undefined
         
-        dataforseo_labs?: AppendixDataforseoLabsPriceData
+        dataforseo_labs?: AppendixDataforseoLabsPriceData | undefined
         
-        domain_analytics?: AppendixDomainAnalyticsPriceData
+        domain_analytics?: AppendixDomainAnalyticsPriceData | undefined
         
-        on_page?: AppendixOnPagePriceData
+        on_page?: AppendixOnPagePriceData | undefined
 
     [key: string]: any;
 
@@ -43,29 +44,29 @@ export interface IAppendixPriceData   {
 
 export class AppendixPriceData  implements IAppendixPriceData {
 
-    keywords_data?: AppendixKeywordsDataPriceData;
+    keywords_data?: AppendixKeywordsDataPriceData | undefined;
 
-    merchant?: AppendixMerchantPriceData;
+    merchant?: AppendixMerchantPriceData | undefined;
 
-    serp?: AppendixSerpPriceData;
+    serp?: AppendixSerpPriceData | undefined;
 
-    appendix?: AppendixAppendixPriceData;
+    appendix?: AppendixAppendixPriceData | undefined;
 
-    app_data?: AppendixAppDataPriceData;
+    app_data?: AppendixAppDataPriceData | undefined;
 
-    backlinks?: AppendixBacklinksPriceData;
+    backlinks?: AppendixBacklinksPriceData | undefined;
 
-    business_data?: AppendixBusinessDataPriceData;
+    business_data?: AppendixBusinessDataPriceData | undefined;
 
-    content_analysis?: AppendixContentAnalysisPriceData;
+    content_analysis?: AppendixContentAnalysisPriceData | undefined;
 
-    content_generation?: AppendixContentGenerationPriceData;
+    content_generation?: AppendixContentGenerationPriceData | undefined;
 
-    dataforseo_labs?: AppendixDataforseoLabsPriceData;
+    dataforseo_labs?: AppendixDataforseoLabsPriceData | undefined;
 
-    domain_analytics?: AppendixDomainAnalyticsPriceData;
+    domain_analytics?: AppendixDomainAnalyticsPriceData | undefined;
 
-    on_page?: AppendixOnPagePriceData;
+    on_page?: AppendixOnPagePriceData | undefined;
 
     [key: string]: any;
 

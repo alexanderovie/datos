@@ -6,7 +6,7 @@ unique identifier of a hotel entity in Google search;
 you can obtain the value by making a request to Advanced Google SERP API (enclosed in the hotels element of the response), or the Hotel Searches endpoint of Business Data API
 example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE */
-        hotel_identifier?: string
+        hotel_identifier?: string | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -14,7 +14,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations with location_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/locations
 example:
 London,England,United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -22,7 +22,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/google/locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -32,7 +32,7 @@ the maximum number of decimal digits for “latitude” and “longitude”: 7
 Note: if the coordinates are used to set a location, the search will occur in the nearest settlement;
 example:
 53.476225,-2.243572 */
-        location_coordinate?: string
+        location_coordinate?: string | undefined
         
         /** full name of search engine language
 required field if you don’t specify language_code
@@ -40,7 +40,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 required field if you don’t specify language_name
@@ -48,7 +48,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** check-in date
 optional field
@@ -57,7 +57,7 @@ the value must not be earlier than today’s date
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        check_in?: string
+        check_in?: string | undefined
         
         /** check-out date
 optional field
@@ -67,20 +67,20 @@ the range between check_in and check_out values cannot exceed 30 days
 date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
-        check_out?: string
+        check_out?: string | undefined
         
         /** currency
 optional field
 example:
 'USD' */
-        currency?: string
+        currency?: string | undefined
         
         /** number of adults
 optional field
 if you don’t specify this field, two adults will be used by default
 example:
 1 */
-        adults?: number
+        adults?: number | undefined
         
         /** number and age of children
 optional field
@@ -89,13 +89,13 @@ set the following value if you want to include one 14-years-old child:
 [14]
 set the following value if you want to include one 13-years-old child and one 8-years-old child:
 [13,8] */
-        children?: string[]
+        children?: string[] | undefined
         
         /** load hotel stay prices by dates
 optional field
 if you specify this parameter with true, the response will include the prices_by_dates array with hotel stay prices divided by dates
 if you use this parameter, you will be charged double the base price for a request */
-        load_prices_by_dates?: boolean
+        load_prices_by_dates?: boolean | undefined
         
         /** start date to load prices by dates
 optional field
@@ -104,7 +104,7 @@ if this parameter is not specified, the start date is set to check_in date
 date format: yyyy-mm-dd
 example:
 2025-05-20 */
-        prices_start_date?: string
+        prices_start_date?: string | undefined
         
         /** end date to load prices by dates
 optional field
@@ -113,7 +113,7 @@ if this parameter is not specified, you will get prices by date for the month
 date format: yyyy-mm-dd
 example:
 2025-05-21 */
-        prices_end_date?: string
+        prices_end_date?: string | undefined
         
         /** predefined period for retrieving daily price data
 optional field
@@ -121,14 +121,14 @@ to use this parameter, you must specify load_prices_by_dates with true
 if the prices_start_date is not specified, the start date is set to check_in date
 possible values: month, three_months, six_months, year
 default value: month */
-        prices_date_range?: string
+        prices_date_range?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -143,7 +143,7 @@ you can obtain the value by making a request to Advanced Google SERP API (enclos
 example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE */
 
-    hotel_identifier?: string;
+    hotel_identifier?: string | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -152,7 +152,7 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -161,7 +161,7 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -172,7 +172,7 @@ Note: if the coordinates are used to set a location, the search will occur in th
 example:
 53.476225,-2.243572 */
 
-    location_coordinate?: string;
+    location_coordinate?: string | undefined;
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -181,7 +181,7 @@ you can receive the list of available languages with language_name by making a s
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -190,7 +190,7 @@ you can receive the list of available languages with their language_code by mak
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** check-in date
 optional field
@@ -200,7 +200,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    check_in?: string;
+    check_in?: string | undefined;
     
     /** check-out date
 optional field
@@ -211,14 +211,14 @@ date format: 'yyyy-mm-dd'
 example:
 '2019-01-15' */
 
-    check_out?: string;
+    check_out?: string | undefined;
     
     /** currency
 optional field
 example:
 'USD' */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** number of adults
 optional field
@@ -226,7 +226,7 @@ if you don’t specify this field, two adults will be used by default
 example:
 1 */
 
-    adults?: number;
+    adults?: number | undefined;
     
     /** number and age of children
 optional field
@@ -236,14 +236,14 @@ set the following value if you want to include one 14-years-old child:
 set the following value if you want to include one 13-years-old child and one 8-years-old child:
 [13,8] */
 
-    children?: string[];
+    children?: string[] | undefined;
     
     /** load hotel stay prices by dates
 optional field
 if you specify this parameter with true, the response will include the prices_by_dates array with hotel stay prices divided by dates
 if you use this parameter, you will be charged double the base price for a request */
 
-    load_prices_by_dates?: boolean;
+    load_prices_by_dates?: boolean | undefined;
     
     /** start date to load prices by dates
 optional field
@@ -253,7 +253,7 @@ date format: yyyy-mm-dd
 example:
 2025-05-20 */
 
-    prices_start_date?: string;
+    prices_start_date?: string | undefined;
     
     /** end date to load prices by dates
 optional field
@@ -263,7 +263,7 @@ date format: yyyy-mm-dd
 example:
 2025-05-21 */
 
-    prices_end_date?: string;
+    prices_end_date?: string | undefined;
     
     /** predefined period for retrieving daily price data
 optional field
@@ -272,7 +272,7 @@ if the prices_start_date is not specified, the start date is set to check_in dat
 possible values: month, three_months, six_months, year
 default value: month */
 
-    prices_date_range?: string;
+    prices_date_range?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -280,7 +280,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

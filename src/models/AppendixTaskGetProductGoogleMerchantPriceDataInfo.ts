@@ -1,10 +1,11 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixTaskGetProductGoogleMerchantPriceDataInfo   {
         
-        advanced?: AppendixTaskKeywordsDataPriceDataInfo
+        advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        html?: AppendixTaskKeywordsDataPriceDataInfo
+        html?: AppendixTaskKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -12,9 +13,9 @@ export interface IAppendixTaskGetProductGoogleMerchantPriceDataInfo   {
 
 export class AppendixTaskGetProductGoogleMerchantPriceDataInfo  implements IAppendixTaskGetProductGoogleMerchantPriceDataInfo {
 
-    advanced?: AppendixTaskKeywordsDataPriceDataInfo;
+    advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    html?: AppendixTaskKeywordsDataPriceDataInfo;
+    html?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

@@ -1,19 +1,19 @@
 export interface IRelatedSearchesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** the URL of the product page */
-        url?: string
+        url?: string | undefined
         
         /** the alt tag of the product image featured in the results */
-        image_alt?: string
+        image_alt?: string | undefined
         
         /** URL of the product image featured in the results */
-        image_url?: string
+        image_url?: string | undefined
 
     [key: string]: any;
 
@@ -23,23 +23,23 @@ export class RelatedSearchesElement  implements IRelatedSearchesElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the URL of the product page */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the alt tag of the product image featured in the results */
 
-    image_alt?: string;
+    image_alt?: string | undefined;
     
     /** URL of the product image featured in the results */
 
-    image_url?: string;
+    image_url?: string | undefined;
 
     [key: string]: any;
 

@@ -1,32 +1,33 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { DataforseoLabsRelatedKeywordsLiveItem, IDataforseoLabsRelatedKeywordsLiveItem } from "./DataforseoLabsRelatedKeywordsLiveItem";
 
+
 export interface IDataforseoLabsBingRelatedKeywordsLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** keyword in a POST array */
-        seed_keyword?: string
+        seed_keyword?: string | undefined
         
         /** keyword data for the seed keyword
 fields in the array are identical to that of keyword_data */
-        seed_keyword_data?: KeywordDataInfo
+        seed_keyword_data?: KeywordDataInfo | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains keywords and related data */
-        items?: DataforseoLabsRelatedKeywordsLiveItem[]
+        items?: DataforseoLabsRelatedKeywordsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -36,36 +37,36 @@ export class DataforseoLabsBingRelatedKeywordsLiveResultInfo  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** keyword in a POST array */
 
-    seed_keyword?: string;
+    seed_keyword?: string | undefined;
     
     /** keyword data for the seed keyword
 fields in the array are identical to that of keyword_data */
 
-    seed_keyword_data?: KeywordDataInfo;
+    seed_keyword_data?: KeywordDataInfo | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains keywords and related data */
 
-    items?: DataforseoLabsRelatedKeywordsLiveItem[];
+    items?: DataforseoLabsRelatedKeywordsLiveItem[] | undefined;
 
     [key: string]: any;
 

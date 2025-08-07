@@ -5,14 +5,14 @@ you can use this field for matching obtained results with location parameters sp
 see the full list of available locations with their geo_id here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 US-NY */
-        geo_id?: string
+        geo_id?: string | undefined
         
         /** location name
 you can use this field for matching obtained results with location parameters specified in the request
 see the full list of available locations with their geo_name here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 Andorra */
-        geo_name?: string
+        geo_name?: string | undefined
         
         /** keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -22,7 +22,7 @@ calculation: we determine the highest popularity value across all specified keyw
 a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
-        values?: string[]
+        values?: string[] | undefined
 
     [key: string]: any;
 
@@ -36,7 +36,7 @@ see the full list of available locations with their geo_id here or by making a s
 example:
 US-NY */
 
-    geo_id?: string;
+    geo_id?: string | undefined;
     
     /** location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -44,7 +44,7 @@ see the full list of available locations with their geo_name here or by making a
 example:
 Andorra */
 
-    geo_name?: string;
+    geo_name?: string | undefined;
     
     /** keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -55,7 +55,7 @@ a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
 
-    values?: string[];
+    values?: string[] | undefined;
 
     [key: string]: any;
 

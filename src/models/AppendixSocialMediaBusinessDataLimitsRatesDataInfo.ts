@@ -1,12 +1,13 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixSocialMediaBusinessDataLimitsRatesDataInfo   {
         
-        facebook?: AppendixInfo
+        facebook?: AppendixInfo | undefined
         
-        pinterest?: AppendixInfo
+        pinterest?: AppendixInfo | undefined
         
-        reddit?: AppendixInfo
+        reddit?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -14,11 +15,11 @@ export interface IAppendixSocialMediaBusinessDataLimitsRatesDataInfo   {
 
 export class AppendixSocialMediaBusinessDataLimitsRatesDataInfo  implements IAppendixSocialMediaBusinessDataLimitsRatesDataInfo {
 
-    facebook?: AppendixInfo;
+    facebook?: AppendixInfo | undefined;
 
-    pinterest?: AppendixInfo;
+    pinterest?: AppendixInfo | undefined;
 
-    reddit?: AppendixInfo;
+    reddit?: AppendixInfo | undefined;
 
     [key: string]: any;
 

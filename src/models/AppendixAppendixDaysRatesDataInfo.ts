@@ -1,8 +1,8 @@
 export interface IAppendixAppendixDaysRatesDataInfo   {
         
-        user_data?: number
+        user_data?: number | undefined
         
-        errors?: number
+        errors?: number | undefined
 
     [key: string]: any;
 
@@ -10,9 +10,9 @@ export interface IAppendixAppendixDaysRatesDataInfo   {
 
 export class AppendixAppendixDaysRatesDataInfo  implements IAppendixAppendixDaysRatesDataInfo {
 
-    user_data?: number;
+    user_data?: number | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
     [key: string]: any;
 

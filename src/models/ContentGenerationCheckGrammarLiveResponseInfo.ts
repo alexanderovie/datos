@@ -1,10 +1,11 @@
 import { ContentGenerationCheckGrammarLiveTaskInfo, IContentGenerationCheckGrammarLiveTaskInfo } from "./ContentGenerationCheckGrammarLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IContentGenerationCheckGrammarLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentGenerationCheckGrammarLiveTaskInfo[]
+        tasks?: ContentGenerationCheckGrammarLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentGenerationCheckGrammarLiveResponseInfo  extends BaseResponse
     
     /** array of tasks */
 
-    tasks?: ContentGenerationCheckGrammarLiveTaskInfo[];
+    tasks?: ContentGenerationCheckGrammarLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

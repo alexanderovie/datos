@@ -2,25 +2,25 @@ export interface IMerchantAmazonSellersTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** search engine specified when setting the task */
-        se?: string
+        se?: string | undefined
         
         /** type of search engine */
-        se_type?: string
+        se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
         
         /** URL for collecting the results of Amazon Sellers Advanced task */
-        endpoint_advanced?: string
+        endpoint_advanced?: string | undefined
         
         /** URL for collecting the results of Amazon Sellers HTML task */
-        endpoint_html?: string
+        endpoint_html?: string | undefined
 
     [key: string]: any;
 
@@ -31,31 +31,31 @@ export class MerchantAmazonSellersTasksReadyResultInfo  implements IMerchantAmaz
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** search engine specified when setting the task */
 
-    se?: string;
+    se?: string | undefined;
     
     /** type of search engine */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** URL for collecting the results of Amazon Sellers Advanced task */
 
-    endpoint_advanced?: string;
+    endpoint_advanced?: string | undefined;
     
     /** URL for collecting the results of Amazon Sellers HTML task */
 
-    endpoint_html?: string;
+    endpoint_html?: string | undefined;
 
     [key: string]: any;
 

@@ -1,25 +1,25 @@
 export interface IPodcastsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
-        /** description */
-        description?: string
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** the total time it will take to play an episode */
-        time_to_play?: string
+        time_to_play?: string | undefined
 
     [key: string]: any;
 
@@ -29,30 +29,30 @@ export class PodcastsElement  implements IPodcastsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
-    /** description */
+    /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** the total time it will take to play an episode */
 
-    time_to_play?: string;
+    time_to_play?: string | undefined;
 
     [key: string]: any;
 

@@ -1,15 +1,16 @@
 import { ContentUrlInfo, IContentUrlInfo } from "./ContentUrlInfo";
 
+
 export interface IRowCellInfo   {
         
         /** content of the row cells of the header */
-        text?: string
+        text?: string | undefined
         
         /** contains other URLs and anchors found in the content element */
-        urls?: ContentUrlInfo[]
+        urls?: ContentUrlInfo[] | undefined
         
         /** content of the row cells of the header */
-        is_header?: boolean
+        is_header?: boolean | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class RowCellInfo  implements IRowCellInfo {
     
     /** content of the row cells of the header */
 
-    text?: string;
+    text?: string | undefined;
     
     /** contains other URLs and anchors found in the content element */
 
-    urls?: ContentUrlInfo[];
+    urls?: ContentUrlInfo[] | undefined;
     
     /** content of the row cells of the header */
 
-    is_header?: boolean;
+    is_header?: boolean | undefined;
 
     [key: string]: any;
 

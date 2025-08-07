@@ -1,28 +1,29 @@
 import { DataforseoLabsGoogleHistoricalSerpsLiveItem, IDataforseoLabsGoogleHistoricalSerpsLiveItem } from "./DataforseoLabsGoogleHistoricalSerpsLiveItem";
 
+
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
-        keyword?: string
+        keyword?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** the number of results returned in the items array */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains arrays of specific images */
-        items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[]
+        items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -32,32 +33,32 @@ export class DataforseoLabsGoogleHistoricalSerpsLiveResultInfo  implements IData
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** the number of results returned in the items array */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains arrays of specific images */
 
-    items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[];
+    items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined;
 
     [key: string]: any;
 

@@ -1,12 +1,12 @@
 export interface IDomainAnalyticsTechnologiesAvailableFiltersResultInfo   {
         
-        domains_by_technology?: { [key: string]: string; }
+        domains_by_technology?: { [key: string]: string; } | undefined
         
-        aggregation_technologies?: { [key: string]: string; }
+        aggregation_technologies?: { [key: string]: string; } | undefined
         
-        technologies_summary?: { [key: string]: string; }
+        technologies_summary?: { [key: string]: string; } | undefined
         
-        domains_by_html_terms?: { [key: string]: string; }
+        domains_by_html_terms?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -14,13 +14,13 @@ export interface IDomainAnalyticsTechnologiesAvailableFiltersResultInfo   {
 
 export class DomainAnalyticsTechnologiesAvailableFiltersResultInfo  implements IDomainAnalyticsTechnologiesAvailableFiltersResultInfo {
 
-    domains_by_technology?: { [key: string]: string; };
+    domains_by_technology?: { [key: string]: string; } | undefined;
 
-    aggregation_technologies?: { [key: string]: string; };
+    aggregation_technologies?: { [key: string]: string; } | undefined;
 
-    technologies_summary?: { [key: string]: string; };
+    technologies_summary?: { [key: string]: string; } | undefined;
 
-    domains_by_html_terms?: { [key: string]: string; };
+    domains_by_html_terms?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 

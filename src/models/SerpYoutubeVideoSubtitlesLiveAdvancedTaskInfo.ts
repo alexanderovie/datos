@@ -1,10 +1,11 @@
 import { SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo, ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo } from "./SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo[]
+        result?: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo[];
+    result?: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

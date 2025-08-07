@@ -4,13 +4,13 @@ export interface IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo   {
 required field
 the domain name of the first target website
 the domain should be specified without https:// and www. */
-        target_1?: string
+        target_1?: string | undefined
         
         /** domain
 required field
 the domain name of the second target website
 the domain should be specified without https:// and www. */
-        target_2?: string
+        target_2?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -19,7 +19,7 @@ you can receive the list of available locations with their location_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -28,7 +28,7 @@ you can receive the list of available locations with their location_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -37,7 +37,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -46,7 +46,7 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** domain intersections in SERP
 optional field
@@ -55,7 +55,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 if you specify intersections: false, you will get the keywords for which the domain specified as target1 has results in SERP, and the domain specified as target2 doesn’t;
 thus, the corresponding SERP elements and other data will be provided for the domain specified as target1only
 default value: true */
-        intersections?: boolean
+        intersections?: boolean | undefined
         
         /** search results type
 indicates type of search results included in the response
@@ -64,13 +64,13 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
-        include_serp_info?: boolean
+        include_serp_info?: boolean | undefined
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -78,19 +78,19 @@ if the parameter is set to true, you will receive clickstream_keyword_info, cli
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean
+        include_clickstream_data?: boolean | undefined
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** array of results filtering parameters
 optional field
@@ -108,7 +108,7 @@ example:
 'or',
 ['second_domain_serp_element.type','=','organic']]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -125,14 +125,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -145,14 +145,14 @@ required field
 the domain name of the first target website
 the domain should be specified without https:// and www. */
 
-    target_1?: string;
+    target_1?: string | undefined;
     
     /** domain
 required field
 the domain name of the second target website
 the domain should be specified without https:// and www. */
 
-    target_2?: string;
+    target_2?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -162,7 +162,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -172,7 +172,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -182,7 +182,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -192,7 +192,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** domain intersections in SERP
 optional field
@@ -202,7 +202,7 @@ if you specify intersections: false, you will get the keywords for which the dom
 thus, the corresponding SERP elements and other data will be provided for the domain specified as target1only
 default value: true */
 
-    intersections?: boolean;
+    intersections?: boolean | undefined;
     
     /** search results type
 indicates type of search results included in the response
@@ -212,14 +212,14 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
 
-    include_serp_info?: boolean;
+    include_serp_info?: boolean | undefined;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -228,21 +228,21 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean;
+    include_clickstream_data?: boolean | undefined;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -261,7 +261,7 @@ example:
 ['second_domain_serp_element.type','=','organic']]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -279,7 +279,7 @@ you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -287,7 +287,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { KeywordsDataGoogleTrendsLanguagesTaskInfo, IKeywordsDataGoogleTrendsLanguagesTaskInfo } from "./KeywordsDataGoogleTrendsLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IKeywordsDataGoogleTrendsLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataGoogleTrendsLanguagesTaskInfo[]
+        tasks?: KeywordsDataGoogleTrendsLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class KeywordsDataGoogleTrendsLanguagesResponseInfo  extends BaseResponse
     
     /** array of tasks */
 
-    tasks?: KeywordsDataGoogleTrendsLanguagesTaskInfo[];
+    tasks?: KeywordsDataGoogleTrendsLanguagesTaskInfo[] | undefined;
 
     [key: string]: any;
 

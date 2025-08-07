@@ -1,10 +1,11 @@
 import { SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo, ISerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo } from "./SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo[]
+        result?: SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo  extends BaseR
     
     /** array of results */
 
-    result?: SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo[];
+    result?: SerpGoogleFinanceTickerSearchTaskGetAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

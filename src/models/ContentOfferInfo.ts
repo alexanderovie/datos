@@ -1,18 +1,18 @@
 export interface IContentOfferInfo   {
         
         /** name of the product */
-        name?: string
+        name?: string | undefined
         
         /** price of the product */
-        price?: number
+        price?: number | undefined
         
         /** price currency */
-        price_currency?: string
+        price_currency?: string | undefined
         
         /** displays the date and time until which the price is valid
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example: '2022-11-01 10:02:52 +00:00' */
-        price_valid_until?: string
+        price_valid_until?: string | undefined
 
     [key: string]: any;
 
@@ -22,21 +22,21 @@ export class ContentOfferInfo  implements IContentOfferInfo {
     
     /** name of the product */
 
-    name?: string;
+    name?: string | undefined;
     
     /** price of the product */
 
-    price?: number;
+    price?: number | undefined;
     
     /** price currency */
 
-    price_currency?: string;
+    price_currency?: string | undefined;
     
     /** displays the date and time until which the price is valid
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example: '2022-11-01 10:02:52 +00:00' */
 
-    price_valid_until?: string;
+    price_valid_until?: string | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { DataforseoLabsAmazonProductRankOverviewLiveResultInfo, IDataforseoLabsAmazonProductRankOverviewLiveResultInfo } from "./DataforseoLabsAmazonProductRankOverviewLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsAmazonProductRankOverviewLiveResultInfo[]
+        result?: DataforseoLabsAmazonProductRankOverviewLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsAmazonProductRankOverviewLiveTaskInfo  extends BaseRe
     
     /** array of results */
 
-    result?: DataforseoLabsAmazonProductRankOverviewLiveResultInfo[];
+    result?: DataforseoLabsAmazonProductRankOverviewLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

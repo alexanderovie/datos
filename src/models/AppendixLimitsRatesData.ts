@@ -1,11 +1,12 @@
 import { AppendixDayLimitsRatesData, IAppendixDayLimitsRatesData } from "./AppendixDayLimitsRatesData";
 import { AppendixDataInfo, IAppendixDataInfo } from "./AppendixDataInfo";
 
+
 export interface IAppendixLimitsRatesData   {
         
-        day?: AppendixDayLimitsRatesData
+        day?: AppendixDayLimitsRatesData | undefined
         
-        minute?: AppendixDataInfo
+        minute?: AppendixDataInfo | undefined
 
     [key: string]: any;
 
@@ -13,9 +14,9 @@ export interface IAppendixLimitsRatesData   {
 
 export class AppendixLimitsRatesData  implements IAppendixLimitsRatesData {
 
-    day?: AppendixDayLimitsRatesData;
+    day?: AppendixDayLimitsRatesData | undefined;
 
-    minute?: AppendixDataInfo;
+    minute?: AppendixDataInfo | undefined;
 
     [key: string]: any;
 

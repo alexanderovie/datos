@@ -5,26 +5,26 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string
+        id?: string | undefined
         
         /** page URL
 optional field
 specify this field if you want to get the resources for a specific page
 note that to obtain resource’s meta from a particular URL, you should specify the URL in this field;
 if you do not indicate a url when setting a task, resource’s meta in the results will be returned based on the data from the page where our crawler first saw the resource */
-        url?: string
+        url?: string | undefined
         
         /** the maximum number of returned resources
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned resources
 optional field
 default value: 0
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources */
-        offset?: number
+        offset?: number | undefined
         
         /** array of results filtering parameters
 optional field
@@ -39,7 +39,7 @@ example:
 'and',['checks.is_https','=',false]]
 [['fetch_timing.duration_time','>',1],'and',[['total_transfer_size','>',100],'or',['checks.high_loading_time','=',true]]]
 The full list of possible filters is available by this link. */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** filter the resources by relevant pages
 optional field
@@ -52,7 +52,7 @@ regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ['checks.no_image_title','=',true] */
-        relevant_pages_filters?: string[]
+        relevant_pages_filters?: string[] | undefined
         
         /** results sorting rules
 optional field
@@ -67,7 +67,7 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['size,desc','fetch_timing.fetch_end,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** token for subsequent requests
 optional field
@@ -76,14 +76,14 @@ use this parameter to avoid timeouts while trying to obtain over 20,000 results 
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
-        search_after_token?: string
+        search_after_token?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -97,7 +97,7 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string;
+    id?: string | undefined;
     
     /** page URL
 optional field
@@ -105,21 +105,21 @@ specify this field if you want to get the resources for a specific page
 note that to obtain resource’s meta from a particular URL, you should specify the URL in this field;
 if you do not indicate a url when setting a task, resource’s meta in the results will be returned based on the data from the page where our crawler first saw the resource */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the maximum number of returned resources
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned resources
 optional field
 default value: 0
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -135,7 +135,7 @@ example:
 [['fetch_timing.duration_time','>',1],'and',[['total_transfer_size','>',100],'or',['checks.high_loading_time','=',true]]]
 The full list of possible filters is available by this link. */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** filter the resources by relevant pages
 optional field
@@ -149,7 +149,7 @@ you can use the % operator with like and not_like to match any string of zero or
 example:
 ['checks.no_image_title','=',true] */
 
-    relevant_pages_filters?: string[];
+    relevant_pages_filters?: string[] | undefined;
     
     /** results sorting rules
 optional field
@@ -165,7 +165,7 @@ you should use a comma to separate several sorting rules
 example:
 ['size,desc','fetch_timing.fetch_end,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** token for subsequent requests
 optional field
@@ -175,7 +175,7 @@ by specifying the unique search_after_token value from the response array, you w
 search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
 
-    search_after_token?: string;
+    search_after_token?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -183,7 +183,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

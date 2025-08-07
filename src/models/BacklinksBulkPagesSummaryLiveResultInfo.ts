@@ -1,15 +1,16 @@
 import { BacklinksBulkPagesSummaryLiveItem, IBacklinksBulkPagesSummaryLiveItem } from "./BacklinksBulkPagesSummaryLiveItem";
 
+
 export interface IBacklinksBulkPagesSummaryLiveResultInfo   {
         
         /** total number of relevant items in the database */
-        total_count?: number
+        total_count?: number | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: BacklinksBulkPagesSummaryLiveItem[]
+        items?: BacklinksBulkPagesSummaryLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class BacklinksBulkPagesSummaryLiveResultInfo  implements IBacklinksBulkP
     
     /** total number of relevant items in the database */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: BacklinksBulkPagesSummaryLiveItem[];
+    items?: BacklinksBulkPagesSummaryLiveItem[] | undefined;
 
     [key: string]: any;
 

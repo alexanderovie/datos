@@ -1,10 +1,11 @@
 import { BacklinksAnchorsLiveResultInfo, IBacklinksAnchorsLiveResultInfo } from "./BacklinksAnchorsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBacklinksAnchorsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BacklinksAnchorsLiveResultInfo[]
+        result?: BacklinksAnchorsLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BacklinksAnchorsLiveTaskInfo  extends BaseResponseTaskInfo   implem
     
     /** array of results */
 
-    result?: BacklinksAnchorsLiveResultInfo[];
+    result?: BacklinksAnchorsLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

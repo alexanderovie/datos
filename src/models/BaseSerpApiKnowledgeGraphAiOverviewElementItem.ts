@@ -1,18 +1,19 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
-import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
-import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
+import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
+import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 import { AiOverviewExpandedComponent, IAiOverviewExpandedComponent } from "./AiOverviewExpandedComponent";
 import { Table, ITable } from "./Table";
+
 
 export interface IBaseSerpApiKnowledgeGraphAiOverviewElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
 
     [key: string]: any;
 
@@ -22,13 +23,13 @@ export class BaseSerpApiKnowledgeGraphAiOverviewElementItem  implements IBaseSer
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
 
     [key: string]: any;
 
@@ -107,25 +108,25 @@ left, right */
 export interface ISerpApiKnowledgeGraphAiOverviewElementItem  extends IBaseSerpApiKnowledgeGraphAiOverviewElementItem    {
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** additional text of the element in SERP */
-        text?: string
+        text?: string | undefined
         
         /** content of the element in markdown format */
-        markdown?: string
+        markdown?: string | undefined
         
         /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
-        links?: LinkElement[]
+        links?: LinkElement[] | undefined
         
         /** images of the element */
-        images?: AiModeImagesElement[]
+        images?: AiModeImagesElementInfo[] | undefined
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[]
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -135,30 +136,30 @@ export class SerpApiKnowledgeGraphAiOverviewElementItem  extends BaseSerpApiKnow
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** additional text of the element in SERP */
 
-    text?: string;
+    text?: string | undefined;
     
     /** content of the element in markdown format */
 
-    markdown?: string;
+    markdown?: string | undefined;
     
     /** sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null */
 
-    links?: LinkElement[];
+    links?: LinkElement[] | undefined;
     
     /** images of the element */
 
-    images?: AiModeImagesElement[];
+    images?: AiModeImagesElementInfo[] | undefined;
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[];
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -187,13 +188,13 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(AiModeImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElementInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }
@@ -253,17 +254,17 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export interface ISerpApiKnowledgeGraphAiOverviewExpandedElementItem  extends IBaseSerpApiKnowledgeGraphAiOverviewElementItem    {
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** additional text of the element in SERP */
-        text?: string
+        text?: string | undefined
         
         /** array of components of the element */
-        components?: AiOverviewExpandedComponent[]
+        components?: AiOverviewExpandedComponent[] | undefined
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[]
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -273,20 +274,20 @@ export class SerpApiKnowledgeGraphAiOverviewExpandedElementItem  extends BaseSer
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** additional text of the element in SERP */
 
-    text?: string;
+    text?: string | undefined;
     
     /** array of components of the element */
 
-    components?: AiOverviewExpandedComponent[];
+    components?: AiOverviewExpandedComponent[] | undefined;
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[];
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -314,7 +315,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }
@@ -364,33 +365,33 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export interface ISerpApiKnowledgeGraphAiOverviewVideoElementItem  extends IBaseSerpApiKnowledgeGraphAiOverviewElementItem    {
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** additional information for the video */
-        snippet?: string
+        snippet?: string | undefined
         
         /** relevant URL */
-        url?: string
+        url?: string | undefined
         
         /** domain name of the reference */
-        domain?: string
+        domain?: string | undefined
         
         /** URL of the image */
-        image_url?: string
+        image_url?: string | undefined
         
         /** reference source name or title */
-        source?: string
+        source?: string | undefined
         
         /** date when the video was published or indexed
 example:
 Apr 26, 2024 */
-        date?: string
+        date?: string | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
 
     [key: string]: any;
 
@@ -400,40 +401,40 @@ export class SerpApiKnowledgeGraphAiOverviewVideoElementItem  extends BaseSerpAp
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** additional information for the video */
 
-    snippet?: string;
+    snippet?: string | undefined;
     
     /** relevant URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain name of the reference */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL of the image */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** reference source name or title */
 
-    source?: string;
+    source?: string | undefined;
     
     /** date when the video was published or indexed
 example:
 Apr 26, 2024 */
 
-    date?: string;
+    date?: string | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
 
     [key: string]: any;
 
@@ -493,10 +494,10 @@ example:
 export interface ISerpApiKnowledgeGraphAiOverviewTableElementItem  extends IBaseSerpApiKnowledgeGraphAiOverviewElementItem    {
         
         /** content of the element in markdown format */
-        markdown?: string
+        markdown?: string | undefined
         
         /** table element */
-        table?: Table
+        table?: Table | undefined
 
     [key: string]: any;
 
@@ -506,11 +507,11 @@ export class SerpApiKnowledgeGraphAiOverviewTableElementItem  extends BaseSerpAp
     
     /** content of the element in markdown format */
 
-    markdown?: string;
+    markdown?: string | undefined;
     
     /** table element */
 
-    table?: Table;
+    table?: Table | undefined;
 
     [key: string]: any;
 

@@ -1,19 +1,19 @@
 export interface IGoogleFinanceEarningsCalendarElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the news article */
-        title?: string
+        title?: string | undefined
         
         /** URL to the page of the market index on Google Finance */
-        url?: string
+        url?: string | undefined
         
         /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
 
     [key: string]: any;
 
@@ -23,22 +23,22 @@ export class GoogleFinanceEarningsCalendarElement  implements IGoogleFinanceEarn
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the news article */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to the page of the market index on Google Finance */
 
-    url?: string;
+    url?: string | undefined;
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
 
     [key: string]: any;
 

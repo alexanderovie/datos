@@ -1,10 +1,11 @@
 import { SerpBaiduOrganicTaskGetRegularResultInfo, ISerpBaiduOrganicTaskGetRegularResultInfo } from "./SerpBaiduOrganicTaskGetRegularResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpBaiduOrganicTaskGetRegularTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBaiduOrganicTaskGetRegularResultInfo[]
+        result?: SerpBaiduOrganicTaskGetRegularResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBaiduOrganicTaskGetRegularTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: SerpBaiduOrganicTaskGetRegularResultInfo[];
+    result?: SerpBaiduOrganicTaskGetRegularResultInfo[] | undefined;
 
     [key: string]: any;
 

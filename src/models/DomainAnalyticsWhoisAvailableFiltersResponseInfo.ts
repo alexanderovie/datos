@@ -1,9 +1,10 @@
 import { DomainAnalyticsWhoisAvailableFiltersTaskInfo, IDomainAnalyticsWhoisAvailableFiltersTaskInfo } from "./DomainAnalyticsWhoisAvailableFiltersTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDomainAnalyticsWhoisAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
-        tasks?: DomainAnalyticsWhoisAvailableFiltersTaskInfo[]
+        tasks?: DomainAnalyticsWhoisAvailableFiltersTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -11,7 +12,7 @@ export interface IDomainAnalyticsWhoisAvailableFiltersResponseInfo  extends IBas
 
 export class DomainAnalyticsWhoisAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsWhoisAvailableFiltersResponseInfo {
 
-    tasks?: DomainAnalyticsWhoisAvailableFiltersTaskInfo[];
+    tasks?: DomainAnalyticsWhoisAvailableFiltersTaskInfo[] | undefined;
 
     [key: string]: any;
 

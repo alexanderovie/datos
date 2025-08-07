@@ -1,49 +1,50 @@
 import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } from "./BaseDataforseoLabsApiElementItem";
 
+
 export interface IRankedSerpElement   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** contains data on the SERP element
 the list of supported SERP elements can be found below */
-        serp_item?: BaseDataforseoLabsApiElementItem
+        serp_item?: BaseDataforseoLabsApiElementItem | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** types of search results in SERP
 contains types of search results (items) found in SERP
 all possible item types can be found here, they include:
 answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, images, jobs, knowledge_graph, local_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box;
 note that the actual results will be returned only for organic, paid, featured_snippet, local_pack, and ai_overview_reference elements */
-        serp_item_types?: string[]
+        serp_item_types?: string[] | undefined
         
         /** number of search results for the returned keyword */
-        se_results_count?: number
+        se_results_count?: number | undefined
         
         /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide */
-        keyword_difficulty?: number
+        keyword_difficulty?: number | undefined
         
         /** lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
-        is_lost?: boolean
+        is_lost?: boolean | undefined
         
         /** date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        last_updated_time?: string
+        last_updated_time?: string | undefined
         
         /** previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-10-15 12:57:46 +00:00 */
-        previous_updated_time?: string
+        previous_updated_time?: string | undefined
 
     [key: string]: any;
 
@@ -53,17 +54,17 @@ export class RankedSerpElement  implements IRankedSerpElement {
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** contains data on the SERP element
 the list of supported SERP elements can be found below */
 
-    serp_item?: BaseDataforseoLabsApiElementItem;
+    serp_item?: BaseDataforseoLabsApiElementItem | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** types of search results in SERP
 contains types of search results (items) found in SERP
@@ -71,37 +72,37 @@ all possible item types can be found here, they include:
 answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, images, jobs, knowledge_graph, local_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box;
 note that the actual results will be returned only for organic, paid, featured_snippet, local_pack, and ai_overview_reference elements */
 
-    serp_item_types?: string[];
+    serp_item_types?: string[] | undefined;
     
     /** number of search results for the returned keyword */
 
-    se_results_count?: number;
+    se_results_count?: number | undefined;
     
     /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide */
 
-    keyword_difficulty?: number;
+    keyword_difficulty?: number | undefined;
     
     /** lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
 
-    is_lost?: boolean;
+    is_lost?: boolean | undefined;
     
     /** date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    last_updated_time?: string;
+    last_updated_time?: string | undefined;
     
     /** previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-10-15 12:57:46 +00:00 */
 
-    previous_updated_time?: string;
+    previous_updated_time?: string | undefined;
 
     [key: string]: any;
 

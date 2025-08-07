@@ -7,7 +7,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”.
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** task priority
 optional field
@@ -16,7 +16,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number
+        priority?: number | undefined
         
         /** parsing depth
 optional field
@@ -26,63 +26,63 @@ max value: 700
 Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
-        depth?: number
+        depth?: number | undefined
         
         /** full name of search engine language
 optional field
 if you use this field, you don’t need to specify language_code
 possible value:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 optional field
 possible value:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** device type
 optional field
 possible value: desktop */
-        device?: string
+        device?: string | undefined
         
         /** device operating system
 optional field
 possible values: windows, macos
 default value: windows */
-        os?: string
+        os?: string | undefined
         
         /** last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y */
-        last_updated?: string
+        last_updated?: string | undefined
         
         /** file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular */
-        file_formats?: string[]
+        file_formats?: string[] | undefined
         
         /** usage rights of the dataset
 optional field
 possible values: commercial, noncommercial */
-        usage_rights?: string
+        usage_rights?: string | undefined
         
         /** indicates whether displayed datasets are free
 optional field
 possible values: true, false */
-        is_free?: boolean
+        is_free?: boolean | undefined
         
         /** dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
-        topics?: string[]
+        topics?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
         
         /** return URL for sending task results
 optional field
@@ -94,13 +94,13 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string
+        postback_url?: string | undefined
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 only value: advanced */
-        postback_data?: string
+        postback_data?: string | undefined
         
         /** notification URL of a completed task
 optional field
@@ -112,7 +112,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string
+        pingback_url?: string | undefined
 
     [key: string]: any;
 
@@ -128,7 +128,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B”.
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** task priority
 optional field
@@ -138,7 +138,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number;
+    priority?: number | undefined;
     
     /** parsing depth
 optional field
@@ -149,7 +149,7 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
-    depth?: number;
+    depth?: number | undefined;
     
     /** full name of search engine language
 optional field
@@ -157,57 +157,57 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 optional field
 possible value:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** device type
 optional field
 possible value: desktop */
 
-    device?: string;
+    device?: string | undefined;
     
     /** device operating system
 optional field
 possible values: windows, macos
 default value: windows */
 
-    os?: string;
+    os?: string | undefined;
     
     /** last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y */
 
-    last_updated?: string;
+    last_updated?: string | undefined;
     
     /** file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular */
 
-    file_formats?: string[];
+    file_formats?: string[] | undefined;
     
     /** usage rights of the dataset
 optional field
 possible values: commercial, noncommercial */
 
-    usage_rights?: string;
+    usage_rights?: string | undefined;
     
     /** indicates whether displayed datasets are free
 optional field
 possible values: true, false */
 
-    is_free?: boolean;
+    is_free?: boolean | undefined;
     
     /** dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
 
-    topics?: string[];
+    topics?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -215,7 +215,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** return URL for sending task results
 optional field
@@ -228,14 +228,14 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string;
+    postback_url?: string | undefined;
     
     /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 only value: advanced */
 
-    postback_data?: string;
+    postback_data?: string | undefined;
     
     /** notification URL of a completed task
 optional field
@@ -248,7 +248,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string;
+    pingback_url?: string | undefined;
 
     [key: string]: any;
 

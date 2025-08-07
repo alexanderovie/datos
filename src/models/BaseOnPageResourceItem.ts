@@ -6,61 +6,62 @@ import { PageTiming, IPageTiming } from "./PageTiming";
 import { FetchTiming, IFetchTiming } from "./FetchTiming";
 import { ResourceMetaInfo, IResourceMetaInfo } from "./ResourceMetaInfo";
 
+
 export interface IBaseOnPageResourceItem   {
         
         /** type of element */
-        resource_type?: string
+        resource_type?: string | undefined
         
         /** status code of the page */
-        status_code?: number
+        status_code?: number | undefined
         
         /** location header
 indicates the URL to redirect a page to */
-        location?: string
+        location?: string | undefined
         
         /** page URL */
-        url?: string
+        url?: string | undefined
         
         /** resource errors and warnings */
-        resource_errors?: OnPageResourceIssueInfo
+        resource_errors?: OnPageResourceIssueInfo | undefined
         
         /** resource size
 indicates the size of a given page measured in bytes */
-        size?: number
+        size?: number | undefined
         
         /** page size after encoding
 indicates the size of the encoded page measured in bytes */
-        encoded_size?: number
+        encoded_size?: number | undefined
         
         /** compressed page size
 indicates the compressed size of a given page */
-        total_transfer_size?: number
+        total_transfer_size?: number | undefined
         
         /** date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        fetch_time?: string
+        fetch_time?: string | undefined
         
         /** instructions for caching */
-        cache_control?: CacheControl
+        cache_control?: CacheControl | undefined
         
         /** website checks
 on-page check-ups related to the page */
-        checks?: { [key: string]: boolean; }
+        checks?: { [key: string]: boolean; } | undefined
         
         /** type of encoding */
-        content_encoding?: string
+        content_encoding?: string | undefined
         
         /** types of media used to display a page */
-        media_type?: string
+        media_type?: string | undefined
         
         /** server version */
-        server?: string
+        server?: string | undefined
         
         /** contains data on changes related to the resource
 if there is no data, the value will be null */
-        last_modified?: LastModified
+        last_modified?: LastModified | undefined
 
     [key: string]: any;
 
@@ -70,72 +71,72 @@ export class BaseOnPageResourceItem  implements IBaseOnPageResourceItem {
     
     /** type of element */
 
-    resource_type?: string;
+    resource_type?: string | undefined;
     
     /** status code of the page */
 
-    status_code?: number;
+    status_code?: number | undefined;
     
     /** location header
 indicates the URL to redirect a page to */
 
-    location?: string;
+    location?: string | undefined;
     
     /** page URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** resource errors and warnings */
 
-    resource_errors?: OnPageResourceIssueInfo;
+    resource_errors?: OnPageResourceIssueInfo | undefined;
     
     /** resource size
 indicates the size of a given page measured in bytes */
 
-    size?: number;
+    size?: number | undefined;
     
     /** page size after encoding
 indicates the size of the encoded page measured in bytes */
 
-    encoded_size?: number;
+    encoded_size?: number | undefined;
     
     /** compressed page size
 indicates the compressed size of a given page */
 
-    total_transfer_size?: number;
+    total_transfer_size?: number | undefined;
     
     /** date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    fetch_time?: string;
+    fetch_time?: string | undefined;
     
     /** instructions for caching */
 
-    cache_control?: CacheControl;
+    cache_control?: CacheControl | undefined;
     
     /** website checks
 on-page check-ups related to the page */
 
-    checks?: { [key: string]: boolean; };
+    checks?: { [key: string]: boolean; } | undefined;
     
     /** type of encoding */
 
-    content_encoding?: string;
+    content_encoding?: string | undefined;
     
     /** types of media used to display a page */
 
-    media_type?: string;
+    media_type?: string | undefined;
     
     /** server version */
 
-    server?: string;
+    server?: string | undefined;
     
     /** contains data on changes related to the resource
 if there is no data, the value will be null */
 
-    last_modified?: LastModified;
+    last_modified?: LastModified | undefined;
 
     [key: string]: any;
 
@@ -182,37 +183,37 @@ if there is no data, the value will be null */
     static fromJS(data: any): BaseOnPageResourceItem {
         data = typeof data === 'object' ? data : {};
 
-        if (data["type"] === "html") {
+        if (data["resource_type"] === "html") {
 
             let result = new OnPageHtmlResourceItem();
             result.init(data);
             return result;
         }
-        if (data["type"] === "broken") {
+        if (data["resource_type"] === "broken") {
 
             let result = new OnPageBrokenResourceItem();
             result.init(data);
             return result;
         }
-        if (data["type"] === "redirect") {
+        if (data["resource_type"] === "redirect") {
 
             let result = new OnPageRedirectResourceItem();
             result.init(data);
             return result;
         }
-        if (data["type"] === "script") {
+        if (data["resource_type"] === "script") {
 
             let result = new OnPageScriptResourceItem();
             result.init(data);
             return result;
         }
-        if (data["type"] === "image") {
+        if (data["resource_type"] === "image") {
 
             let result = new OnPageImageResourceItem();
             result.init(data);
             return result;
         }
-        if (data["type"] === "stylesheet") {
+        if (data["resource_type"] === "stylesheet") {
 
             let result = new OnPageStylesheetResourceItem();
             result.init(data);
@@ -253,57 +254,57 @@ export interface IOnPageHtmlResourceItem  extends IBaseOnPageResourceItem    {
         
         /** page properties
 the value depends on the resource_type */
-        meta?: PageMetaInfo
+        meta?: PageMetaInfo | undefined
         
         /** object of page load metrics */
-        page_timing?: PageTiming
+        page_timing?: PageTiming | undefined
         
         /** shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
 100 is the highest possible score that means the page does not have any critical on-page issues and important warnings;
 learn more about how the metric is calculated in this help center article */
-        onpage_score?: number
+        onpage_score?: number | undefined
         
         /** total DOM size of a page */
-        total_dom_size?: number
+        total_dom_size?: number | undefined
         
         /** the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;
 you can also filter the results by this value specifying filters in the following way:
 ['custom_js_response.url', 'like', 'pixel'] */
-        custom_js_response?: any
+        custom_js_response?: any | undefined
         
         /** error when executing a custom js
 if the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here */
-        custom_js_client_exception?: string
+        custom_js_client_exception?: string | undefined
         
         /** indicates whether a page contains broken resources */
-        broken_resources?: boolean
+        broken_resources?: boolean | undefined
         
         /** indicates whether a page contains broken links */
-        broken_links?: boolean
+        broken_links?: boolean | undefined
         
         /** indicates whether a page has duplicate title tags */
-        duplicate_title?: boolean
+        duplicate_title?: boolean | undefined
         
         /** indicates whether a page has a duplicate description */
-        duplicate_description?: boolean
+        duplicate_description?: boolean | undefined
         
         /** indicates whether a page has duplicate content */
-        duplicate_content?: boolean
+        duplicate_content?: boolean | undefined
         
         /** number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page */
-        click_depth?: number
+        click_depth?: number | undefined
         
         /** indicates whether a page is a single resource */
-        is_resource?: boolean
+        is_resource?: boolean | undefined
         
         /** page URL length in characters */
-        url_length?: number
+        url_length?: number | undefined
         
         /** relative URL length in characters */
-        relative_url_length?: number
+        relative_url_length?: number | undefined
 
     [key: string]: any;
 
@@ -314,71 +315,71 @@ export class OnPageHtmlResourceItem  extends BaseOnPageResourceItem   implements
     /** page properties
 the value depends on the resource_type */
 
-    meta?: PageMetaInfo;
+    meta?: PageMetaInfo | undefined;
     
     /** object of page load metrics */
 
-    page_timing?: PageTiming;
+    page_timing?: PageTiming | undefined;
     
     /** shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
 100 is the highest possible score that means the page does not have any critical on-page issues and important warnings;
 learn more about how the metric is calculated in this help center article */
 
-    onpage_score?: number;
+    onpage_score?: number | undefined;
     
     /** total DOM size of a page */
 
-    total_dom_size?: number;
+    total_dom_size?: number | undefined;
     
     /** the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;
 you can also filter the results by this value specifying filters in the following way:
 ['custom_js_response.url', 'like', 'pixel'] */
 
-    custom_js_response?: any;
+    custom_js_response?: any | undefined;
     
     /** error when executing a custom js
 if the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here */
 
-    custom_js_client_exception?: string;
+    custom_js_client_exception?: string | undefined;
     
     /** indicates whether a page contains broken resources */
 
-    broken_resources?: boolean;
+    broken_resources?: boolean | undefined;
     
     /** indicates whether a page contains broken links */
 
-    broken_links?: boolean;
+    broken_links?: boolean | undefined;
     
     /** indicates whether a page has duplicate title tags */
 
-    duplicate_title?: boolean;
+    duplicate_title?: boolean | undefined;
     
     /** indicates whether a page has a duplicate description */
 
-    duplicate_description?: boolean;
+    duplicate_description?: boolean | undefined;
     
     /** indicates whether a page has duplicate content */
 
-    duplicate_content?: boolean;
+    duplicate_content?: boolean | undefined;
     
     /** number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page */
 
-    click_depth?: number;
+    click_depth?: number | undefined;
     
     /** indicates whether a page is a single resource */
 
-    is_resource?: boolean;
+    is_resource?: boolean | undefined;
     
     /** page URL length in characters */
 
-    url_length?: number;
+    url_length?: number | undefined;
     
     /** relative URL length in characters */
 
-    relative_url_length?: number;
+    relative_url_length?: number | undefined;
 
     [key: string]: any;
 
@@ -452,22 +453,22 @@ indicates the number of clicks from the homepage needed before landing at the ta
 export interface IOnPageBrokenResourceItem  extends IBaseOnPageResourceItem    {
         
         /** time range within which a result was fetched */
-        fetch_timing?: FetchTiming
+        fetch_timing?: FetchTiming | undefined
         
         /** indicates whether a page is a single resource */
-        is_resource?: boolean
+        is_resource?: boolean | undefined
         
         /** resource properties
 the value depends on the resource_type
 note that if you do not indicate a url when setting a task, resource’s meta is returned based on the data from the page where our crawler first saw the resource;
 to obtain resource’s meta from a particular url, specify that URL when setting a task */
-        meta?: PageMetaInfo
+        meta?: PageMetaInfo | undefined
         
         /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
-        accept_type?: string
+        accept_type?: string | undefined
 
     [key: string]: any;
 
@@ -477,25 +478,25 @@ export class OnPageBrokenResourceItem  extends BaseOnPageResourceItem   implemen
     
     /** time range within which a result was fetched */
 
-    fetch_timing?: FetchTiming;
+    fetch_timing?: FetchTiming | undefined;
     
     /** indicates whether a page is a single resource */
 
-    is_resource?: boolean;
+    is_resource?: boolean | undefined;
     
     /** resource properties
 the value depends on the resource_type
 note that if you do not indicate a url when setting a task, resource’s meta is returned based on the data from the page where our crawler first saw the resource;
 to obtain resource’s meta from a particular url, specify that URL when setting a task */
 
-    meta?: PageMetaInfo;
+    meta?: PageMetaInfo | undefined;
     
     /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
 
-    accept_type?: string;
+    accept_type?: string | undefined;
 
     [key: string]: any;
 
@@ -547,10 +548,10 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 export interface IOnPageRedirectResourceItem  extends IBaseOnPageResourceItem    {
         
         /** time range within which a result was fetched */
-        fetch_timing?: FetchTiming
+        fetch_timing?: FetchTiming | undefined
         
         /** indicates whether a page is a single resource */
-        is_resource?: boolean
+        is_resource?: boolean | undefined
 
     [key: string]: any;
 
@@ -560,11 +561,11 @@ export class OnPageRedirectResourceItem  extends BaseOnPageResourceItem   implem
     
     /** time range within which a result was fetched */
 
-    fetch_timing?: FetchTiming;
+    fetch_timing?: FetchTiming | undefined;
     
     /** indicates whether a page is a single resource */
 
-    is_resource?: boolean;
+    is_resource?: boolean | undefined;
 
     [key: string]: any;
 
@@ -611,16 +612,16 @@ export class OnPageRedirectResourceItem  extends BaseOnPageResourceItem   implem
  
 export interface IOnPageScriptResourceItem  extends IBaseOnPageResourceItem    {
         
-        meta?: ResourceMetaInfo
+        meta?: ResourceMetaInfo | undefined
         
         /** time range within which a result was fetched */
-        fetch_timing?: FetchTiming
+        fetch_timing?: FetchTiming | undefined
         
         /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
-        accept_type?: string
+        accept_type?: string | undefined
 
     [key: string]: any;
 
@@ -628,18 +629,18 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 export class OnPageScriptResourceItem  extends BaseOnPageResourceItem   implements IOnPageScriptResourceItem {
 
-    meta?: ResourceMetaInfo;
+    meta?: ResourceMetaInfo | undefined;
     
     /** time range within which a result was fetched */
 
-    fetch_timing?: FetchTiming;
+    fetch_timing?: FetchTiming | undefined;
     
     /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
 
-    accept_type?: string;
+    accept_type?: string | undefined;
 
     [key: string]: any;
 
@@ -690,16 +691,16 @@ export interface IOnPageImageResourceItem  extends IBaseOnPageResourceItem    {
         
         /** page properties
 the value depends on the resource_type */
-        meta?: ResourceMetaInfo
+        meta?: ResourceMetaInfo | undefined
         
         /** time range within which a result was fetched */
-        fetch_timing?: FetchTiming
+        fetch_timing?: FetchTiming | undefined
         
         /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
-        accept_type?: string
+        accept_type?: string | undefined
 
     [key: string]: any;
 
@@ -710,18 +711,18 @@ export class OnPageImageResourceItem  extends BaseOnPageResourceItem   implement
     /** page properties
 the value depends on the resource_type */
 
-    meta?: ResourceMetaInfo;
+    meta?: ResourceMetaInfo | undefined;
     
     /** time range within which a result was fetched */
 
-    fetch_timing?: FetchTiming;
+    fetch_timing?: FetchTiming | undefined;
     
     /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
 
-    accept_type?: string;
+    accept_type?: string | undefined;
 
     [key: string]: any;
 
@@ -772,16 +773,16 @@ export interface IOnPageStylesheetResourceItem  extends IBaseOnPageResourceItem 
         
         /** page properties
 the value depends on the resource_type */
-        meta?: ResourceMetaInfo
+        meta?: ResourceMetaInfo | undefined
         
         /** time range within which a result was fetched */
-        fetch_timing?: FetchTiming
+        fetch_timing?: FetchTiming | undefined
         
         /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
-        accept_type?: string
+        accept_type?: string | undefined
 
     [key: string]: any;
 
@@ -792,18 +793,18 @@ export class OnPageStylesheetResourceItem  extends BaseOnPageResourceItem   impl
     /** page properties
 the value depends on the resource_type */
 
-    meta?: ResourceMetaInfo;
+    meta?: ResourceMetaInfo | undefined;
     
     /** time range within which a result was fetched */
 
-    fetch_timing?: FetchTiming;
+    fetch_timing?: FetchTiming | undefined;
     
     /** indicates the expected type of resource
 for example, if 'resource_type': 'broken', accept_type will indicate the type of the broken resource
 possible values:
 any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, other, font */
 
-    accept_type?: string;
+    accept_type?: string | undefined;
 
     [key: string]: any;
 

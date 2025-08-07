@@ -1,18 +1,19 @@
 import { ContentAnalysisSummaryInfo, IContentAnalysisSummaryInfo } from "./ContentAnalysisSummaryInfo";
 
+
 export interface IContentAnalysisRatingDistributionLiveResultInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** min rating on a distribution scale */
-        min?: number
+        min?: number | undefined
         
         /** max rating on a distribution scale */
-        max?: number
+        max?: number | undefined
         
         /** contains rating distribution metrics */
-        metrics?: ContentAnalysisSummaryInfo
+        metrics?: ContentAnalysisSummaryInfo | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class ContentAnalysisRatingDistributionLiveResultInfo  implements IConten
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** min rating on a distribution scale */
 
-    min?: number;
+    min?: number | undefined;
     
     /** max rating on a distribution scale */
 
-    max?: number;
+    max?: number | undefined;
     
     /** contains rating distribution metrics */
 
-    metrics?: ContentAnalysisSummaryInfo;
+    metrics?: ContentAnalysisSummaryInfo | undefined;
 
     [key: string]: any;
 

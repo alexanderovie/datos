@@ -16,4 +16,4 @@
 **title** | **string** | title of the review<br>Google Play doesn’t provide an option to title reviews, so this parameter will always equal null |[optional]|
 **review_text** | **string** | content of the review |[optional]|
 **user_profile** | **AppUserProfileInfo** | user profile of the reviewer |[optional]|
-**responses** | **any** | response from the developer |[optional]|
+**responses** | **ResponseDataInfo[]** | response from the developer |[optional]|

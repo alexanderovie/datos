@@ -1,8 +1,9 @@
 import { AvailibleVersions, IAvailibleVersions } from "./AvailibleVersions";
 
+
 export interface IOnPageLighthouseVersionsResultInfo   {
         
-        availible_versions?: AvailibleVersions[]
+        availible_versions?: AvailibleVersions[] | undefined
 
     [key: string]: any;
 
@@ -10,7 +11,7 @@ export interface IOnPageLighthouseVersionsResultInfo   {
 
 export class OnPageLighthouseVersionsResultInfo  implements IOnPageLighthouseVersionsResultInfo {
 
-    availible_versions?: AvailibleVersions[];
+    availible_versions?: AvailibleVersions[] | undefined;
 
     [key: string]: any;
 

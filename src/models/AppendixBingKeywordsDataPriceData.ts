@@ -1,18 +1,19 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixBingKeywordsDataPriceData   {
         
-        audience_estimation?: AppendixBingKeywordsDataPriceDataInfo
+        audience_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        keyword_performance?: AppendixBingKeywordsDataPriceDataInfo
+        keyword_performance?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo
+        keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo
+        keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        keyword_suggestions_for_url?: AppendixBingKeywordsDataPriceDataInfo
+        keyword_suggestions_for_url?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        search_volume?: AppendixBingKeywordsDataPriceDataInfo
+        search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -20,17 +21,17 @@ export interface IAppendixBingKeywordsDataPriceData   {
 
 export class AppendixBingKeywordsDataPriceData  implements IAppendixBingKeywordsDataPriceData {
 
-    audience_estimation?: AppendixBingKeywordsDataPriceDataInfo;
+    audience_estimation?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    keyword_performance?: AppendixBingKeywordsDataPriceDataInfo;
+    keyword_performance?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo;
+    keywords_for_keywords?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo;
+    keywords_for_site?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    keyword_suggestions_for_url?: AppendixBingKeywordsDataPriceDataInfo;
+    keyword_suggestions_for_url?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    search_volume?: AppendixBingKeywordsDataPriceDataInfo;
+    search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

@@ -1,26 +1,26 @@
 export interface IKnowledgeGraphListElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** link anchor text */
-        title?: string
+        title?: string | undefined
         
         /** subtitle of the item */
-        subtitle?: string
+        subtitle?: string | undefined
         
         /** sitelink URL */
-        url?: string
+        url?: string | undefined
         
         /** domain in SERP */
-        domain?: string
+        domain?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -30,32 +30,32 @@ export class KnowledgeGraphListElement  implements IKnowledgeGraphListElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** link anchor text */
 
-    title?: string;
+    title?: string | undefined;
     
     /** subtitle of the item */
 
-    subtitle?: string;
+    subtitle?: string | undefined;
     
     /** sitelink URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain in SERP */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 

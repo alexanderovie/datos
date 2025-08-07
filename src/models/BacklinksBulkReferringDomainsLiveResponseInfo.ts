@@ -1,10 +1,11 @@
 import { BacklinksBulkReferringDomainsLiveTaskInfo, IBacklinksBulkReferringDomainsLiveTaskInfo } from "./BacklinksBulkReferringDomainsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IBacklinksBulkReferringDomainsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BacklinksBulkReferringDomainsLiveTaskInfo[]
+        tasks?: BacklinksBulkReferringDomainsLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BacklinksBulkReferringDomainsLiveResponseInfo  extends BaseResponse
     
     /** array of tasks */
 
-    tasks?: BacklinksBulkReferringDomainsLiveTaskInfo[];
+    tasks?: BacklinksBulkReferringDomainsLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

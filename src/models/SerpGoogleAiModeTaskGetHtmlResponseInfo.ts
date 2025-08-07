@@ -1,10 +1,11 @@
 import { SerpGoogleAiModeTaskGetHtmlTaskInfo, ISerpGoogleAiModeTaskGetHtmlTaskInfo } from "./SerpGoogleAiModeTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpGoogleAiModeTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleAiModeTaskGetHtmlTaskInfo[]
+        tasks?: SerpGoogleAiModeTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleAiModeTaskGetHtmlResponseInfo  extends BaseResponseInfo  
     
     /** array of tasks */
 
-    tasks?: SerpGoogleAiModeTaskGetHtmlTaskInfo[];
+    tasks?: SerpGoogleAiModeTaskGetHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

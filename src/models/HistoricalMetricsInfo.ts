@@ -1,19 +1,19 @@
 export interface IHistoricalMetricsInfo   {
         
         /** year for which the data is provided */
-        year?: number
+        year?: number | undefined
         
         /** month for which the data is provided */
-        month?: number
+        month?: number | undefined
         
         /** estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article */
-        etv?: number
+        etv?: number | undefined
         
         /** total count of organic SERPs that contain the domain */
-        count?: number
+        count?: number | undefined
 
     [key: string]: any;
 
@@ -23,22 +23,22 @@ export class HistoricalMetricsInfo  implements IHistoricalMetricsInfo {
     
     /** year for which the data is provided */
 
-    year?: number;
+    year?: number | undefined;
     
     /** month for which the data is provided */
 
-    month?: number;
+    month?: number | undefined;
     
     /** estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article */
 
-    etv?: number;
+    etv?: number | undefined;
     
     /** total count of organic SERPs that contain the domain */
 
-    count?: number;
+    count?: number | undefined;
 
     [key: string]: any;
 

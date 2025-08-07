@@ -1,40 +1,40 @@
 export interface ITopStoriesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string
+        source?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** the date when the page source of the element was published */
-        date?: string
+        date?: string | undefined
         
         /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
-        amp_version?: boolean
+        amp_version?: boolean | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
         
         /** badges relevant to the element */
-        badges?: string[]
+        badges?: string[] | undefined
 
     [key: string]: any;
 
@@ -44,49 +44,49 @@ export class TopStoriesElement  implements ITopStoriesElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string;
+    source?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the date when the page source of the element was published */
 
-    date?: string;
+    date?: string | undefined;
     
     /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
-    amp_version?: boolean;
+    amp_version?: boolean | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** badges relevant to the element */
 
-    badges?: string[];
+    badges?: string[] | undefined;
 
     [key: string]: any;
 

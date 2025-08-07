@@ -1,26 +1,27 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
-import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+import { OnPageStylesheetResourceItem, IOnPageStylesheetResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IOnPageInstantPagesResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session
 in this case the value will be null */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section */
-        crawl_gateway_address?: string
+        crawl_gateway_address?: string | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageResourceItem[]
+        items?: OnPageStylesheetResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -31,26 +32,26 @@ export class OnPageInstantPagesResultInfo  implements IOnPageInstantPagesResultI
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session
 in this case the value will be null */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section */
 
-    crawl_gateway_address?: string;
+    crawl_gateway_address?: string | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: BaseOnPageResourceItem[];
+    items?: OnPageStylesheetResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -79,7 +80,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseOnPageResourceItem.fromJS(item));
+                    this.items.push(OnPageStylesheetResourceItem.fromJS(item));
                 }
             }
         }

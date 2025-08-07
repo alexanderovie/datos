@@ -1,10 +1,11 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpSeznamOrganicTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results
 in this case, the value will be null */
-        result?: any
+        result?: any | undefined
 
     [key: string]: any;
 
@@ -15,7 +16,7 @@ export class SerpSeznamOrganicTaskPostTaskInfo  extends BaseResponseTaskInfo   i
     /** array of results
 in this case, the value will be null */
 
-    result?: any;
+    result?: any | undefined;
 
     [key: string]: any;
 

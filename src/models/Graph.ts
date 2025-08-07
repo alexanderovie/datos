@@ -1,13 +1,14 @@
 import { GraphElement, IGraphElement } from "./GraphElement";
 
+
 export interface IGraph   {
         
         /** items present in the element */
-        items?: GraphElement[]
+        items?: GraphElement[] | undefined
         
         /** previous close data
 contains stock price data based on the preceding time period */
-        previous_items?: GraphElement[]
+        previous_items?: GraphElement[] | undefined
 
     [key: string]: any;
 
@@ -17,12 +18,12 @@ export class Graph  implements IGraph {
     
     /** items present in the element */
 
-    items?: GraphElement[];
+    items?: GraphElement[] | undefined;
     
     /** previous close data
 contains stock price data based on the preceding time period */
 
-    previous_items?: GraphElement[];
+    previous_items?: GraphElement[] | undefined;
 
     [key: string]: any;
 

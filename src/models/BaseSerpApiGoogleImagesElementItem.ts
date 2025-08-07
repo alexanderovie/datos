@@ -1,22 +1,23 @@
 import { SerpApiCarouselElement, ISerpApiCarouselElement } from "./SerpApiCarouselElement";
-import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
+import { AiModeRectangleInfo, IAiModeRectangleInfo } from "./AiModeRectangleInfo";
+
 
 export interface IBaseSerpApiGoogleImagesElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -26,22 +27,22 @@ export class BaseSerpApiGoogleImagesElementItem  implements IBaseSerpApiGoogleIm
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 
@@ -120,18 +121,18 @@ export interface ISerpApiGoogleImagesCarouselElementItem  extends IBaseSerpApiGo
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** items of the element */
-        items?: SerpApiCarouselElement[]
+        items?: SerpApiCarouselElement[] | undefined
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
-        rectangle?: RectangleInfo
+        rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
 
@@ -143,21 +144,21 @@ export class SerpApiGoogleImagesCarouselElementItem  extends BaseSerpApiGoogleIm
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** items of the element */
 
-    items?: SerpApiCarouselElement[];
+    items?: SerpApiCarouselElement[] | undefined;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
-    rectangle?: RectangleInfo;
+    rectangle?: AiModeRectangleInfo | undefined;
 
     [key: string]: any;
 
@@ -182,7 +183,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
                     this.items.push(SerpApiCarouselElement.fromJS(item));
                 }
             }
-            this.rectangle = data["rectangle"] ? RectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
+            this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
         }
     }
 
@@ -213,7 +214,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
                 }
             }
         }
-        data["rectangle"] = this.rectangle ? RectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
+        data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
         return data;
     }
 }
@@ -222,22 +223,22 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 export interface ISerpApiGoogleImagesImagesSearchElementItem  extends IBaseSerpApiGoogleImagesElementItem    {
         
         /** title of the result in SERP */
-        title?: string
+        title?: string | undefined
         
         /** subtitle of the result in SERP */
-        subtitle?: string
+        subtitle?: string | undefined
         
         /** the alt tag of the image */
-        alt?: string
+        alt?: string | undefined
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** the URL of the source image */
-        source_url?: string
+        source_url?: string | undefined
         
         /** the URL of the cached version of the image stored on Google’s servers */
-        encoded_url?: string
+        encoded_url?: string | undefined
 
     [key: string]: any;
 
@@ -247,27 +248,27 @@ export class SerpApiGoogleImagesImagesSearchElementItem  extends BaseSerpApiGoog
     
     /** title of the result in SERP */
 
-    title?: string;
+    title?: string | undefined;
     
     /** subtitle of the result in SERP */
 
-    subtitle?: string;
+    subtitle?: string | undefined;
     
     /** the alt tag of the image */
 
-    alt?: string;
+    alt?: string | undefined;
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the URL of the source image */
 
-    source_url?: string;
+    source_url?: string | undefined;
     
     /** the URL of the cached version of the image stored on Google’s servers */
 
-    encoded_url?: string;
+    encoded_url?: string | undefined;
 
     [key: string]: any;
 
@@ -325,15 +326,15 @@ export interface ISerpApiGoogleImagesRelatedSearchesElementItem  extends IBaseSe
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** items of the element */
-        items?: string[]
+        items?: string[] | undefined
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
-        rectangle?: RectangleInfo
+        rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
 
@@ -345,17 +346,17 @@ export class SerpApiGoogleImagesRelatedSearchesElementItem  extends BaseSerpApiG
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** items of the element */
 
-    items?: string[];
+    items?: string[] | undefined;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
-    rectangle?: RectangleInfo;
+    rectangle?: AiModeRectangleInfo | undefined;
 
     [key: string]: any;
 
@@ -374,7 +375,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
             }
             this.position = data["position"];
             this.items = data["items"];
-            this.rectangle = data["rectangle"] ? RectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
+            this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
         }
     }
 
@@ -396,7 +397,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
         
         data["position"] = this.position;
         data["items"] = this.items;
-        data["rectangle"] = this.rectangle ? RectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
+        data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
         return data;
     }
 }

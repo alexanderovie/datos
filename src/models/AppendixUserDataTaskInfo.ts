@@ -1,10 +1,11 @@
 import { AppendixUserDataResultInfo, IAppendixUserDataResultInfo } from "./AppendixUserDataResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IAppendixUserDataTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppendixUserDataResultInfo[]
+        result?: AppendixUserDataResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppendixUserDataTaskInfo  extends BaseResponseTaskInfo   implements
     
     /** array of results */
 
-    result?: AppendixUserDataResultInfo[];
+    result?: AppendixUserDataResultInfo[] | undefined;
 
     [key: string]: any;
 

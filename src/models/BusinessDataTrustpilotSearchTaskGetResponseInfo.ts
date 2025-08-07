@@ -1,10 +1,11 @@
 import { BusinessDataTrustpilotSearchTaskGetTaskInfo, IBusinessDataTrustpilotSearchTaskGetTaskInfo } from "./BusinessDataTrustpilotSearchTaskGetTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IBusinessDataTrustpilotSearchTaskGetResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataTrustpilotSearchTaskGetTaskInfo[]
+        tasks?: BusinessDataTrustpilotSearchTaskGetTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BusinessDataTrustpilotSearchTaskGetResponseInfo  extends BaseRespon
     
     /** array of tasks */
 
-    tasks?: BusinessDataTrustpilotSearchTaskGetTaskInfo[];
+    tasks?: BusinessDataTrustpilotSearchTaskGetTaskInfo[] | undefined;
 
     [key: string]: any;
 

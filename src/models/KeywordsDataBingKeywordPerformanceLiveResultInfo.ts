@@ -1,31 +1,32 @@
 import { KeywordKpi, IKeywordKpi } from "./KeywordKpi";
 
+
 export interface IKeywordsDataBingKeywordPerformanceLiveResultInfo   {
         
         /** keyword in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array
 if there is no data, then the value is null */
-        language_code?: string
+        language_code?: string | undefined
         
         /** indicates the year for which the data is provided for
 example:
 2020 */
-        year?: number
+        year?: number | undefined
         
         /** indicates the month for which the data is provided for
 example:
 10 */
-        month?: number
+        month?: number | undefined
         
         /** object containing keyword metrics
 if there is no data, then the value is null */
-        keyword_kpi?: KeywordKpi
+        keyword_kpi?: KeywordKpi | undefined
 
     [key: string]: any;
 
@@ -35,34 +36,34 @@ export class KeywordsDataBingKeywordPerformanceLiveResultInfo  implements IKeywo
     
     /** keyword in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** indicates the year for which the data is provided for
 example:
 2020 */
 
-    year?: number;
+    year?: number | undefined;
     
     /** indicates the month for which the data is provided for
 example:
 10 */
 
-    month?: number;
+    month?: number | undefined;
     
     /** object containing keyword metrics
 if there is no data, then the value is null */
 
-    keyword_kpi?: KeywordKpi;
+    keyword_kpi?: KeywordKpi | undefined;
 
     [key: string]: any;
 

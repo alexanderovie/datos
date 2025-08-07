@@ -1,30 +1,31 @@
 import { TrustpilotSearchOrganic, ITrustpilotSearchOrganic } from "./TrustpilotSearchOrganic";
 
+
 export interface IBusinessDataTrustpilotSearchTaskGetResultInfo   {
         
         /** keyword in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search engine domain in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number
+        items_count?: number | undefined
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: TrustpilotSearchOrganic[]
+        items?: TrustpilotSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -34,33 +35,33 @@ export class BusinessDataTrustpilotSearchTaskGetResultInfo  implements IBusiness
     
     /** keyword in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: TrustpilotSearchOrganic[];
+    items?: TrustpilotSearchOrganic[] | undefined;
 
     [key: string]: any;
 

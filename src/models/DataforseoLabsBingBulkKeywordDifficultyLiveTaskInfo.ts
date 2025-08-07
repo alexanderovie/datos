@@ -1,10 +1,11 @@
 import { DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo, IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo } from "./DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo[]
+        result?: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo  extends BaseRe
     
     /** array of results */
 
-    result?: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo[];
+    result?: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

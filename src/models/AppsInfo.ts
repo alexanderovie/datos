@@ -1,13 +1,13 @@
 export interface IAppsInfo   {
         
         /** ID of the app */
-        app_id?: string
+        app_id?: string | undefined
         
         /** title of the app */
-        title?: string
+        title?: string | undefined
         
         /** URL to the app page on Google Play */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class AppsInfo  implements IAppsInfo {
     
     /** ID of the app */
 
-    app_id?: string;
+    app_id?: string | undefined;
     
     /** title of the app */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to the app page on Google Play */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 

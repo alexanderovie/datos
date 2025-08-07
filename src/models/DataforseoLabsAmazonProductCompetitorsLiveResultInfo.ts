@@ -1,29 +1,30 @@
 import { DataforseoLabsAmazonProductCompetitorsLiveItem, IDataforseoLabsAmazonProductCompetitorsLiveItem } from "./DataforseoLabsAmazonProductCompetitorsLiveItem";
 
+
 export interface IDataforseoLabsAmazonProductCompetitorsLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** ASIN in a POST array */
-        asin?: string
+        asin?: string | undefined
         
         /** location code in a POST array
 if there is no data, then the value is null */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array
 if there is no data, then the value is null */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains detected Amazon product competitors and related data */
-        items?: DataforseoLabsAmazonProductCompetitorsLiveItem[]
+        items?: DataforseoLabsAmazonProductCompetitorsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -33,33 +34,33 @@ export class DataforseoLabsAmazonProductCompetitorsLiveResultInfo  implements ID
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** ASIN in a POST array */
 
-    asin?: string;
+    asin?: string | undefined;
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains detected Amazon product competitors and related data */
 
-    items?: DataforseoLabsAmazonProductCompetitorsLiveItem[];
+    items?: DataforseoLabsAmazonProductCompetitorsLiveItem[] | undefined;
 
     [key: string]: any;
 

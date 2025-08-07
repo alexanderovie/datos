@@ -1,18 +1,19 @@
 import { BulkMetricsInfo, IBulkMetricsInfo } from "./BulkMetricsInfo";
 
+
 export interface IBulkMetricsBundleInfo   {
         
         /** traffic data from organic search */
-        organic?: BulkMetricsInfo
+        organic?: BulkMetricsInfo | undefined
         
         /** traffic data from paid search */
-        paid?: BulkMetricsInfo
+        paid?: BulkMetricsInfo | undefined
         
         /** traffic data from the local pack results in SERP */
-        local_pack?: BulkMetricsInfo
+        local_pack?: BulkMetricsInfo | undefined
         
         /** traffic data from the featured snippet results in Google SERP */
-        featured_snippet?: BulkMetricsInfo
+        featured_snippet?: BulkMetricsInfo | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class BulkMetricsBundleInfo  implements IBulkMetricsBundleInfo {
     
     /** traffic data from organic search */
 
-    organic?: BulkMetricsInfo;
+    organic?: BulkMetricsInfo | undefined;
     
     /** traffic data from paid search */
 
-    paid?: BulkMetricsInfo;
+    paid?: BulkMetricsInfo | undefined;
     
     /** traffic data from the local pack results in SERP */
 
-    local_pack?: BulkMetricsInfo;
+    local_pack?: BulkMetricsInfo | undefined;
     
     /** traffic data from the featured snippet results in Google SERP */
 
-    featured_snippet?: BulkMetricsInfo;
+    featured_snippet?: BulkMetricsInfo | undefined;
 
     [key: string]: any;
 

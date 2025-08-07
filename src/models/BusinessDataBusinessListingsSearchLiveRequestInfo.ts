@@ -5,23 +5,23 @@ optional field
 the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories */
-        categories?: string[]
+        categories?: string[] | undefined
         
         /** description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
 can contain up to 200 characters */
-        description?: string
+        description?: string | undefined
         
         /** title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
 can contain up to 200 characters */
-        title?: string
+        title?: string | undefined
         
         /** indicates whether the business is verified by its owner on Google Maps
 optional field */
-        is_claimed?: boolean
+        is_claimed?: boolean | undefined
         
         /** GPS coordinates of a location
 optional field
@@ -32,7 +32,7 @@ the minimum value for “radius”: 1
 the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string
+        location_coordinate?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -44,7 +44,7 @@ you can use the % operator with like and not_like to match any string of zero or
 example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -58,19 +58,19 @@ example:
 you should use a comma to separate several sorting rules
 example:
 ['rating.value,desc','rating.votes_count,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned businesses
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities */
-        offset?: number
+        offset?: number | undefined
         
         /** token for subsequent requests
 optional field
@@ -79,14 +79,14 @@ use this parameter to avoid timeouts while trying to obtain over 100,000 results
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
-        offset_token?: string
+        offset_token?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -100,26 +100,26 @@ the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories */
 
-    categories?: string[];
+    categories?: string[] | undefined;
     
     /** description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
 can contain up to 200 characters */
 
-    description?: string;
+    description?: string | undefined;
     
     /** title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
 can contain up to 200 characters */
 
-    title?: string;
+    title?: string | undefined;
     
     /** indicates whether the business is verified by its owner on Google Maps
 optional field */
 
-    is_claimed?: boolean;
+    is_claimed?: boolean | undefined;
     
     /** GPS coordinates of a location
 optional field
@@ -131,7 +131,7 @@ the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string;
+    location_coordinate?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -144,7 +144,7 @@ example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -159,21 +159,21 @@ you should use a comma to separate several sorting rules
 example:
 ['rating.value,desc','rating.votes_count,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned businesses
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** token for subsequent requests
 optional field
@@ -183,7 +183,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
 
-    offset_token?: string;
+    offset_token?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -191,7 +191,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

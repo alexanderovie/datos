@@ -1,13 +1,15 @@
 export interface IGraphElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
-        /** the posting date */
-        date?: string
+        /** date when the video was published or indexed
+example:
+Apr 26, 2024 */
+        date?: string | undefined
         
         /** the value of the rating */
-        value?: number
+        value?: number | undefined
 
     [key: string]: any;
 
@@ -17,15 +19,17 @@ export class GraphElement  implements IGraphElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
-    /** the posting date */
+    /** date when the video was published or indexed
+example:
+Apr 26, 2024 */
 
-    date?: string;
+    date?: string | undefined;
     
     /** the value of the rating */
 
-    value?: number;
+    value?: number | undefined;
 
     [key: string]: any;
 

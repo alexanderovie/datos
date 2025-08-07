@@ -1,7 +1,7 @@
 export interface IAppDataGoogleCategoriesResultInfo   {
         
         /** contains full list of supported app categories */
-        categories?: string[]
+        categories?: string[] | undefined
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class AppDataGoogleCategoriesResultInfo  implements IAppDataGoogleCategor
     
     /** contains full list of supported app categories */
 
-    categories?: string[];
+    categories?: string[] | undefined;
 
     [key: string]: any;
 

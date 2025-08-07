@@ -1,10 +1,10 @@
 export interface IDemographyComparisonInfo   {
         
         /** type of element */
-        age?: { [key: string]: number[]; }
+        age?: { [key: string]: number[]; } | undefined
         
         /** type of element */
-        gender?: { [key: string]: number[]; }
+        gender?: { [key: string]: number[]; } | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class DemographyComparisonInfo  implements IDemographyComparisonInfo {
     
     /** type of element */
 
-    age?: { [key: string]: number[]; };
+    age?: { [key: string]: number[]; } | undefined;
     
     /** type of element */
 
-    gender?: { [key: string]: number[]; };
+    gender?: { [key: string]: number[]; } | undefined;
 
     [key: string]: any;
 

@@ -2,61 +2,62 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { ProductSeller, IProductSeller } from "./ProductSeller";
 import { ProductVariation, IProductVariation } from "./ProductVariation";
 
+
 export interface IProductInfoElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank on the product specification page
 absolute position among all the elements found on the product specification page */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** alignment of the element on the product specification page
 can take the following values:
 right, left */
-        position?: string
+        position?: string | undefined
         
         /** product_id received in a POST array
 ilearn more about the parameter in this help center guide */
-        product_id?: string
+        product_id?: string | undefined
         
         /** title of the product */
-        title?: string
+        title?: string | undefined
         
         /** description of the product */
-        description?: string
+        description?: string | undefined
         
         /** product url
 url of the product on Google Shopping */
-        url?: string
+        url?: string | undefined
         
         /** product images
 contains urls to product images */
-        images?: string[]
+        images?: string[] | undefined
         
         /** product features
 contains snippets with the description of product features */
-        features?: string[]
+        features?: string[] | undefined
         
         /** product rating 
 the popularity rate based on reviews */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** number of seller reviews
 number of reviews on the product seller’s account */
-        seller_reviews_count?: number
+        seller_reviews_count?: number | undefined
         
         /** sellers of the product
 number of reviews on the product seller’s account */
-        sellers?: ProductSeller[]
+        sellers?: ProductSeller[] | undefined
         
         /** variations of the product
 contains brief information about different product variations */
-        variations?: ProductVariation[]
+        variations?: ProductVariation[] | undefined
 
     [key: string]: any;
 
@@ -66,71 +67,71 @@ export class ProductInfoElement  implements IProductInfoElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank on the product specification page
 absolute position among all the elements found on the product specification page */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** alignment of the element on the product specification page
 can take the following values:
 right, left */
 
-    position?: string;
+    position?: string | undefined;
     
     /** product_id received in a POST array
 ilearn more about the parameter in this help center guide */
 
-    product_id?: string;
+    product_id?: string | undefined;
     
     /** title of the product */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the product */
 
-    description?: string;
+    description?: string | undefined;
     
     /** product url
 url of the product on Google Shopping */
 
-    url?: string;
+    url?: string | undefined;
     
     /** product images
 contains urls to product images */
 
-    images?: string[];
+    images?: string[] | undefined;
     
     /** product features
 contains snippets with the description of product features */
 
-    features?: string[];
+    features?: string[] | undefined;
     
     /** product rating 
 the popularity rate based on reviews */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** number of seller reviews
 number of reviews on the product seller’s account */
 
-    seller_reviews_count?: number;
+    seller_reviews_count?: number | undefined;
     
     /** sellers of the product
 number of reviews on the product seller’s account */
 
-    sellers?: ProductSeller[];
+    sellers?: ProductSeller[] | undefined;
     
     /** variations of the product
 contains brief information about different product variations */
 
-    variations?: ProductVariation[];
+    variations?: ProductVariation[] | undefined;
 
     [key: string]: any;
 

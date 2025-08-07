@@ -1,10 +1,11 @@
 import { DataforseoLabsIdListResultInfo, IDataforseoLabsIdListResultInfo } from "./DataforseoLabsIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsIdListResultInfo[]
+        result?: DataforseoLabsIdListResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsIdListTaskInfo  extends BaseResponseTaskInfo   implem
     
     /** array of results */
 
-    result?: DataforseoLabsIdListResultInfo[];
+    result?: DataforseoLabsIdListResultInfo[] | undefined;
 
     [key: string]: any;
 

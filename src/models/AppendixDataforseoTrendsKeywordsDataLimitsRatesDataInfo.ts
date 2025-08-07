@@ -1,14 +1,15 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo   {
         
-        explore?: AppendixInfo
+        explore?: AppendixInfo | undefined
         
-        subregion_interests?: AppendixInfo
+        subregion_interests?: AppendixInfo | undefined
         
-        demography?: AppendixInfo
+        demography?: AppendixInfo | undefined
         
-        merged_data?: AppendixInfo
+        merged_data?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -16,13 +17,13 @@ export interface IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo   {
 
 export class AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo  implements IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo {
 
-    explore?: AppendixInfo;
+    explore?: AppendixInfo | undefined;
 
-    subregion_interests?: AppendixInfo;
+    subregion_interests?: AppendixInfo | undefined;
 
-    demography?: AppendixInfo;
+    demography?: AppendixInfo | undefined;
 
-    merged_data?: AppendixInfo;
+    merged_data?: AppendixInfo | undefined;
 
     [key: string]: any;
 

@@ -1,15 +1,16 @@
 import { MathSolverExpandedElement, IMathSolverExpandedElement } from "./MathSolverExpandedElement";
 
+
 export interface IMathSolverElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** expanded element */
-        expanded_element?: MathSolverExpandedElement[]
+        expanded_element?: MathSolverExpandedElement[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class MathSolverElement  implements IMathSolverElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** expanded element */
 
-    expanded_element?: MathSolverExpandedElement[];
+    expanded_element?: MathSolverExpandedElement[] | undefined;
 
     [key: string]: any;
 

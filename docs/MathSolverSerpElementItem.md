@@ -9,4 +9,4 @@
 **title** | **string** | reference page title |[optional]|
 **result** | **string** | solution to the equation<br>solution to the mathematical equation specified in the keyword field when setting a task |[optional]|
 **items** | **MathSolverElement[]** | contains arrays of specific images |[optional]|
-**links** | **LinkElement[]** | link of the element |[optional]|
+**links** | **LinkElement[]** | website links featured in the element |[optional]|

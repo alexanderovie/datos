@@ -1,8 +1,9 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageLighthouseTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: { [key: string]: any; }[]
+        result?: { [key: string]: any; }[] | undefined
 
     [key: string]: any;
 
@@ -10,7 +11,7 @@ export interface IOnPageLighthouseTaskPostTaskInfo  extends IBaseResponseTaskInf
 
 export class OnPageLighthouseTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IOnPageLighthouseTaskPostTaskInfo {
 
-    result?: { [key: string]: any; }[];
+    result?: { [key: string]: any; }[] | undefined;
 
     [key: string]: any;
 

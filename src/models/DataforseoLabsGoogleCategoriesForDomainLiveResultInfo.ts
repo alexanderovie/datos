@@ -1,27 +1,28 @@
 import { DataforseoLabsGoogleCategoriesForDomainLiveItem, IDataforseoLabsGoogleCategoriesForDomainLiveItem } from "./DataforseoLabsGoogleCategoriesForDomainLiveItem";
 
+
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** target domain or subdomain in a POST array */
-        target?: string
+        target?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains relevant categories and related ranking data */
-        items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[]
+        items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -31,31 +32,31 @@ export class DataforseoLabsGoogleCategoriesForDomainLiveResultInfo  implements I
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** target domain or subdomain in a POST array */
 
-    target?: string;
+    target?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains relevant categories and related ranking data */
 
-    items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[];
+    items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[] | undefined;
 
     [key: string]: any;
 

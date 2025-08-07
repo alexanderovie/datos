@@ -9,7 +9,7 @@ you can find the full list of technology group ids, category ids and technology 
 note: you can specify up to 10 technology paths in this array
 example:
 [{'path': 'content.cms','name': 'wordpress'}, {'path': 'marketing.crm','name': 'salesforce'}] */
-        technology_paths?: string[]
+        technology_paths?: string[] | undefined
         
         /** ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -17,7 +17,7 @@ you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
 ['sales', 'marketing'] */
-        groups?: string[]
+        groups?: string[] | undefined
         
         /** ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -25,7 +25,7 @@ you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
 ['payment_processors','crm'] */
-        categories?: string[]
+        categories?: string[] | undefined
         
         /** target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -33,7 +33,7 @@ you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
 ['Google Pay','Salesforce'] */
-        technologies?: string[]
+        technologies?: string[] | undefined
         
         /** target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -43,7 +43,7 @@ UTF-8 encoding;
 example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[]
+        keywords?: string[] | undefined
         
         /** search mode
 optional field
@@ -51,7 +51,7 @@ possible search mode types:
 as_is – search for results exactly matching the specified group ids, category ids, or technology names
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is */
-        mode?: string
+        mode?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ example:
 'and',
 [['country_iso_code','=','US'],'or',['country_iso_code','=','CA']]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -87,13 +87,13 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['last_visited,desc','domain_rank,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned domains
 optional field
@@ -101,7 +101,7 @@ default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains;
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results */
-        offset?: number
+        offset?: number | undefined
         
         /** token for subsequent requests
 optional field
@@ -110,7 +110,7 @@ use this parameter to avoid timeouts while trying to obtain over 100,000 results
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
-        offset_token?: string
+        offset_token?: string | undefined
 
     [key: string]: any;
 
@@ -128,7 +128,7 @@ note: you can specify up to 10 technology paths in this array
 example:
 [{'path': 'content.cms','name': 'wordpress'}, {'path': 'marketing.crm','name': 'salesforce'}] */
 
-    technology_paths?: string[];
+    technology_paths?: string[] | undefined;
     
     /** ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -137,7 +137,7 @@ note: you can specify up to 10 technology groups in this array
 example:
 ['sales', 'marketing'] */
 
-    groups?: string[];
+    groups?: string[] | undefined;
     
     /** ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -146,7 +146,7 @@ note: you can specify up to 10 technology categories in this array
 example:
 ['payment_processors','crm'] */
 
-    categories?: string[];
+    categories?: string[] | undefined;
     
     /** target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -155,7 +155,7 @@ note: you can specify up to 10 technologies in this array
 example:
 ['Google Pay','Salesforce'] */
 
-    technologies?: string[];
+    technologies?: string[] | undefined;
     
     /** target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -166,7 +166,7 @@ example:
 ['seo','software']
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[];
+    keywords?: string[] | undefined;
     
     /** search mode
 optional field
@@ -175,7 +175,7 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is */
 
-    mode?: string;
+    mode?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -194,7 +194,7 @@ example:
 [['country_iso_code','=','US'],'or',['country_iso_code','=','CA']]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -213,14 +213,14 @@ you should use a comma to separate several sorting rules
 example:
 ['last_visited,desc','domain_rank,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned domains
 optional field
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** token for subsequent requests
 optional field
@@ -239,7 +239,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
 
-    offset_token?: string;
+    offset_token?: string | undefined;
 
     [key: string]: any;
 

@@ -1,34 +1,34 @@
 export interface IGoogleFinanceFuturesChainElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** futures’ date and time of expiration
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        expiration_timestamp?: string
+        expiration_timestamp?: string | undefined
         
         /** futures’ symbol */
-        symbol?: string
+        symbol?: string | undefined
         
         /** price of the market instrument
 price of the market instrument at a given timestamp */
-        price?: number
+        price?: number | undefined
         
         /** currency of the price value */
-        price_currency?: string
+        price_currency?: string | undefined
         
         /** change in price of the market instrument
 change in price at a given timestamp */
-        price_delta?: number
+        price_delta?: number | undefined
         
         /** percentage of change in value of the market index */
-        percentage_delta?: number
+        percentage_delta?: number | undefined
         
         /** growth trend of the market index
 possible values: up, down, stable */
-        trend?: string
+        trend?: string | undefined
 
     [key: string]: any;
 
@@ -38,41 +38,41 @@ export class GoogleFinanceFuturesChainElement  implements IGoogleFinanceFuturesC
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** futures’ date and time of expiration
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    expiration_timestamp?: string;
+    expiration_timestamp?: string | undefined;
     
     /** futures’ symbol */
 
-    symbol?: string;
+    symbol?: string | undefined;
     
     /** price of the market instrument
 price of the market instrument at a given timestamp */
 
-    price?: number;
+    price?: number | undefined;
     
     /** currency of the price value */
 
-    price_currency?: string;
+    price_currency?: string | undefined;
     
     /** change in price of the market instrument
 change in price at a given timestamp */
 
-    price_delta?: number;
+    price_delta?: number | undefined;
     
     /** percentage of change in value of the market index */
 
-    percentage_delta?: number;
+    percentage_delta?: number | undefined;
     
     /** growth trend of the market index
 possible values: up, down, stable */
 
-    trend?: string;
+    trend?: string | undefined;
 
     [key: string]: any;
 

@@ -4,7 +4,7 @@ export interface IDataforseoLabsGoogleAvailableHistoryResultInfo   {
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
 example:
 2022-05-16 */
-        date?: string
+        date?: string | undefined
 
     [key: string]: any;
 
@@ -17,7 +17,7 @@ indicates the date of the range available for setting in the Domain Metrics by C
 example:
 2022-05-16 */
 
-    date?: string;
+    date?: string | undefined;
 
     [key: string]: any;
 

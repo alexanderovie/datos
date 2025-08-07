@@ -1,16 +1,17 @@
 import { BusinessListingAggregationInfo, IBusinessListingAggregationInfo } from "./BusinessListingAggregationInfo";
 
+
 export interface IBusinessDataBusinessListingsCategoriesAggregationLiveItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** business categories
 Google My Business general category that best describes the cluster of related categories */
-        categories?: string[]
+        categories?: string[] | undefined
         
         /** aggregation of the category */
-        aggregation?: BusinessListingAggregationInfo
+        aggregation?: BusinessListingAggregationInfo | undefined
 
     [key: string]: any;
 
@@ -20,16 +21,16 @@ export class BusinessDataBusinessListingsCategoriesAggregationLiveItem  implemen
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** business categories
 Google My Business general category that best describes the cluster of related categories */
 
-    categories?: string[];
+    categories?: string[] | undefined;
     
     /** aggregation of the category */
 
-    aggregation?: BusinessListingAggregationInfo;
+    aggregation?: BusinessListingAggregationInfo | undefined;
 
     [key: string]: any;
 

@@ -5,7 +5,7 @@ required field
 you can specify domains and subdomains in this field;
 domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains */
-        targets?: string[]
+        targets?: string[] | undefined
         
         /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -14,7 +14,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 if you use this field, you don’t have to specify location_name
@@ -23,7 +23,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -32,7 +32,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 if you use this field, you don’t need to specify language_name
@@ -41,14 +41,14 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** starting date of the time range
 optional field
 if you don’t specify this field, the data will be provided for the previous 12 months
 minimal possible value: 2020-10-01
 date format: 'yyyy-mm-dd' */
-        date_from?: string
+        date_from?: string | undefined
         
         /** ending date of the time range
 optional field
@@ -56,13 +56,13 @@ if you don’t specify this field, the today’s date will be used by default;
 date format: 'yyyy-mm-dd'
 example:
 '2021-04-01' */
-        date_to?: string
+        date_to?: string | undefined
         
         /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean
+        ignore_synonyms?: boolean | undefined
         
         /** display results by item type
 optional field
@@ -72,14 +72,14 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -93,7 +93,7 @@ you can specify domains and subdomains in this field;
 domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains */
 
-    targets?: string[];
+    targets?: string[] | undefined;
     
     /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -103,7 +103,7 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 if you use this field, you don’t have to specify location_name
@@ -113,7 +113,7 @@ ignore this field to get the results for all available locations
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -123,7 +123,7 @@ ignore this field to get the results for all available languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 if you use this field, you don’t need to specify language_name
@@ -133,7 +133,7 @@ ignore this field to get the results for all available languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** starting date of the time range
 optional field
@@ -141,7 +141,7 @@ if you don’t specify this field, the data will be provided for the previous 12
 minimal possible value: 2020-10-01
 date format: 'yyyy-mm-dd' */
 
-    date_from?: string;
+    date_from?: string | undefined;
     
     /** ending date of the time range
 optional field
@@ -150,14 +150,14 @@ date format: 'yyyy-mm-dd'
 example:
 '2021-04-01' */
 
-    date_to?: string;
+    date_to?: string | undefined;
     
     /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean;
+    ignore_synonyms?: boolean | undefined;
     
     /** display results by item type
 optional field
@@ -168,7 +168,7 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -176,7 +176,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

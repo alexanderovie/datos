@@ -1,27 +1,28 @@
 import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
 
+
 export interface IContentCommentInfo   {
         
         /** product’s rating
 contains information about the rating a customer has given to the product */
-        rating?: ContentRatingInfo
+        rating?: ContentRatingInfo | undefined
         
         /** title of the customer’s comment */
-        title?: string
+        title?: string | undefined
         
         /** date when the comment was published */
-        publish_date?: string
+        publish_date?: string | undefined
         
         /** author of the comment */
-        author?: string
+        author?: string | undefined
         
         /**  */
-        have_form?: boolean
+        have_form?: boolean | undefined
         
         /** primary content on the page
 you can find more information about content priority calculation in this help center article */
-        primary_content?: SectionContentItemInfo[]
+        primary_content?: SectionContentItemInfo[] | undefined
 
     [key: string]: any;
 
@@ -32,28 +33,28 @@ export class ContentCommentInfo  implements IContentCommentInfo {
     /** product’s rating
 contains information about the rating a customer has given to the product */
 
-    rating?: ContentRatingInfo;
+    rating?: ContentRatingInfo | undefined;
     
     /** title of the customer’s comment */
 
-    title?: string;
+    title?: string | undefined;
     
     /** date when the comment was published */
 
-    publish_date?: string;
+    publish_date?: string | undefined;
     
     /** author of the comment */
 
-    author?: string;
+    author?: string | undefined;
     
     /**  */
 
-    have_form?: boolean;
+    have_form?: boolean | undefined;
     
     /** primary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    primary_content?: SectionContentItemInfo[];
+    primary_content?: SectionContentItemInfo[] | undefined;
 
     [key: string]: any;
 

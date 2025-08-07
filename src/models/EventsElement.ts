@@ -1,16 +1,16 @@
 export interface IEventsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** text alongside the link title */
-        snippet?: string
+        snippet?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class EventsElement  implements IEventsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** text alongside the link title */
 
-    snippet?: string;
+    snippet?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 

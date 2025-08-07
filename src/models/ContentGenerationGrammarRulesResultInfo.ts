@@ -1,7 +1,7 @@
 export interface IContentGenerationGrammarRulesResultInfo   {
         
         /** array of rules */
-        rules?: string[]
+        rules?: string[] | undefined
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class ContentGenerationGrammarRulesResultInfo  implements IContentGenerat
     
     /** array of rules */
 
-    rules?: string[];
+    rules?: string[] | undefined;
 
     [key: string]: any;
 

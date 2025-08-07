@@ -1,10 +1,11 @@
 import { MerchantTasksReadyResultInfo, IMerchantTasksReadyResultInfo } from "./MerchantTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IMerchantTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: MerchantTasksReadyResultInfo[]
+        result?: MerchantTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class MerchantTasksReadyTaskInfo  extends BaseResponseTaskInfo   implemen
     
     /** array of results */
 
-    result?: MerchantTasksReadyResultInfo[];
+    result?: MerchantTasksReadyResultInfo[] | undefined;
 
     [key: string]: any;
 

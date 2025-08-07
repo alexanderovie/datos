@@ -1,10 +1,11 @@
 import { BusinessDataGoogleHotelSearchesTaskGetResultInfo, IBusinessDataGoogleHotelSearchesTaskGetResultInfo } from "./BusinessDataGoogleHotelSearchesTaskGetResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBusinessDataGoogleHotelSearchesTaskGetTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataGoogleHotelSearchesTaskGetResultInfo[]
+        result?: BusinessDataGoogleHotelSearchesTaskGetResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BusinessDataGoogleHotelSearchesTaskGetTaskInfo  extends BaseRespons
     
     /** array of results */
 
-    result?: BusinessDataGoogleHotelSearchesTaskGetResultInfo[];
+    result?: BusinessDataGoogleHotelSearchesTaskGetResultInfo[] | undefined;
 
     [key: string]: any;
 

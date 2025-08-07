@@ -2,14 +2,14 @@ export interface ISpellInfo   {
         
         /** keyword obtained as a result of search engine autocorrection
  the results will be provided for the corrected keyword */
-        keyword?: string
+        keyword?: string | undefined
         
         /** type of autocorrection
  possible values:
  did_you_mean, showing_results_for, no_results_found_for, including_results_for
  note: Yahoo and Yandex support only the following autocorrection type:
  including_results_for */
-        type?: string
+        type?: string | undefined
 
     [key: string]: any;
 
@@ -20,7 +20,7 @@ export class SpellInfo  implements ISpellInfo {
     /** keyword obtained as a result of search engine autocorrection
  the results will be provided for the corrected keyword */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** type of autocorrection
  possible values:
@@ -28,7 +28,7 @@ export class SpellInfo  implements ISpellInfo {
  note: Yahoo and Yandex support only the following autocorrection type:
  including_results_for */
 
-    type?: string;
+    type?: string | undefined;
 
     [key: string]: any;
 

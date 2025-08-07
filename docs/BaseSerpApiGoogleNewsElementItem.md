@@ -9,4 +9,4 @@
 **rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP |[optional]|
 **xpath** | **string** | the XPath of the element |[optional]|
 **title** | **string** | title of the element |[optional]|
-**rectangle** | **RectangleInfo** | rectangle parameters<br>contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP<br>equals null if calculate_rectangles in the POST request is not set to true |[optional]|
+**rectangle** | **AiModeRectangleInfo** | rectangle parameters<br>contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP<br>equals null if calculate_rectangles in the POST request is not set to true |[optional]|

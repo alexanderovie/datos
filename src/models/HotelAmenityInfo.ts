@@ -1,15 +1,16 @@
 import { HotelAmenityItemInfo, IHotelAmenityItemInfo } from "./HotelAmenityItemInfo";
 
+
 export interface IHotelAmenityInfo   {
         
         /** standardised category of the ammenity */
-        category?: string
+        category?: string | undefined
         
         /** label of the category */
-        category_label?: string
+        category_label?: string | undefined
         
         /** specific amenities and details */
-        items?: HotelAmenityItemInfo[]
+        items?: HotelAmenityItemInfo[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class HotelAmenityInfo  implements IHotelAmenityInfo {
     
     /** standardised category of the ammenity */
 
-    category?: string;
+    category?: string | undefined;
     
     /** label of the category */
 
-    category_label?: string;
+    category_label?: string | undefined;
     
     /** specific amenities and details */
 
-    items?: HotelAmenityItemInfo[];
+    items?: HotelAmenityItemInfo[] | undefined;
 
     [key: string]: any;
 

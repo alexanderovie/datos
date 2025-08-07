@@ -2,32 +2,31 @@ export interface ISerpGoogleLocalFinderTasksFixedResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** search engine specified when setting the task */
-        se?: string
+        se?: string | undefined
         
         /** type of search engine
 can take the following values: local_finder */
-        se_type?: string
+        se_type?: string | undefined
         
-        /** date when the task was fixed (in the UTC format) */
-        date_fixed?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
         
         /** URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null */
-        endpoint_regular?: string
+        endpoint_regular?: string | undefined
         
         /** URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null */
-        endpoint_advanced?: string
+        endpoint_advanced?: string | undefined
         
         /** URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null */
-        endpoint_html?: string
+        endpoint_html?: string | undefined
 
     [key: string]: any;
 
@@ -38,39 +37,37 @@ export class SerpGoogleLocalFinderTasksFixedResultInfo  implements ISerpGoogleLo
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** search engine specified when setting the task */
 
-    se?: string;
+    se?: string | undefined;
     
     /** type of search engine
 can take the following values: local_finder */
 
-    se_type?: string;
-    
-    /** date when the task was fixed (in the UTC format) */
+    se_type?: string | undefined;
 
-    date_fixed?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null */
 
-    endpoint_regular?: string;
+    endpoint_regular?: string | undefined;
     
     /** URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null */
 
-    endpoint_advanced?: string;
+    endpoint_advanced?: string | undefined;
     
     /** URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null */
 
-    endpoint_html?: string;
+    endpoint_html?: string | undefined;
 
     [key: string]: any;
 
@@ -95,7 +92,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null 
             this.id = data["id"];
             this.se = data["se"];
             this.se_type = data["se_type"];
-            this.date_fixed = data["date_fixed"];
+            this.date_posted = data["date_posted"];
             this.tag = data["tag"];
             this.endpoint_regular = data["endpoint_regular"];
             this.endpoint_advanced = data["endpoint_advanced"];
@@ -120,7 +117,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null 
         data["id"] = this.id;
         data["se"] = this.se;
         data["se_type"] = this.se_type;
-        data["date_fixed"] = this.date_fixed;
+        data["date_posted"] = this.date_posted;
         data["tag"] = this.tag;
         data["endpoint_regular"] = this.endpoint_regular;
         data["endpoint_advanced"] = this.endpoint_advanced;

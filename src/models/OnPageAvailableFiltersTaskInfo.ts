@@ -1,9 +1,10 @@
 import { OnPageAvailableFiltersResultInfo, IOnPageAvailableFiltersResultInfo } from "./OnPageAvailableFiltersResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: OnPageAvailableFiltersResultInfo[]
+        result?: OnPageAvailableFiltersResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -11,7 +12,7 @@ export interface IOnPageAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo 
 
 export class OnPageAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IOnPageAvailableFiltersTaskInfo {
 
-    result?: OnPageAvailableFiltersResultInfo[];
+    result?: OnPageAvailableFiltersResultInfo[] | undefined;
 
     [key: string]: any;
 

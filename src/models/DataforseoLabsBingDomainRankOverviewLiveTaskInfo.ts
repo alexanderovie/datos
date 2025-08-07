@@ -1,10 +1,11 @@
 import { DataforseoLabsBingDomainRankOverviewLiveResultInfo, IDataforseoLabsBingDomainRankOverviewLiveResultInfo } from "./DataforseoLabsBingDomainRankOverviewLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsBingDomainRankOverviewLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DataforseoLabsBingDomainRankOverviewLiveResultInfo[]
+        result?: DataforseoLabsBingDomainRankOverviewLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsBingDomainRankOverviewLiveTaskInfo  extends BaseRespo
     
     /** array of results */
 
-    result?: DataforseoLabsBingDomainRankOverviewLiveResultInfo[];
+    result?: DataforseoLabsBingDomainRankOverviewLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

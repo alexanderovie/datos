@@ -5,21 +5,21 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
-        header?: string
+        header?: string | undefined
         
         /** date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
-        sitemap?: string
+        sitemap?: string | undefined
         
         /** date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
-        meta_tag?: string
+        meta_tag?: string | undefined
 
     [key: string]: any;
 
@@ -33,7 +33,7 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
 
-    header?: string;
+    header?: string | undefined;
     
     /** date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
 
-    sitemap?: string;
+    sitemap?: string | undefined;
     
     /** date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -49,7 +49,7 @@ example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null */
 
-    meta_tag?: string;
+    meta_tag?: string | undefined;
 
     [key: string]: any;
 

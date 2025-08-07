@@ -1,18 +1,19 @@
 import { HistoricalMetricsInfo, IHistoricalMetricsInfo } from "./HistoricalMetricsInfo";
 
+
 export interface IHistoricalMetricsBundleInfo   {
         
         /** traffic data from organic search */
-        organic?: HistoricalMetricsInfo[]
+        organic?: HistoricalMetricsInfo[] | undefined
         
         /** traffic data from paid search */
-        paid?: HistoricalMetricsInfo[]
+        paid?: HistoricalMetricsInfo[] | undefined
         
         /** traffic data from the local pack results in SERP */
-        local_pack?: HistoricalMetricsInfo[]
+        local_pack?: HistoricalMetricsInfo[] | undefined
         
         /** traffic data from the featured snippet results in Google SERP */
-        featured_snippet?: HistoricalMetricsInfo[]
+        featured_snippet?: HistoricalMetricsInfo[] | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class HistoricalMetricsBundleInfo  implements IHistoricalMetricsBundleInf
     
     /** traffic data from organic search */
 
-    organic?: HistoricalMetricsInfo[];
+    organic?: HistoricalMetricsInfo[] | undefined;
     
     /** traffic data from paid search */
 
-    paid?: HistoricalMetricsInfo[];
+    paid?: HistoricalMetricsInfo[] | undefined;
     
     /** traffic data from the local pack results in SERP */
 
-    local_pack?: HistoricalMetricsInfo[];
+    local_pack?: HistoricalMetricsInfo[] | undefined;
     
     /** traffic data from the featured snippet results in Google SERP */
 
-    featured_snippet?: HistoricalMetricsInfo[];
+    featured_snippet?: HistoricalMetricsInfo[] | undefined;
 
     [key: string]: any;
 

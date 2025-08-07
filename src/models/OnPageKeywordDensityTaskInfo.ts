@@ -1,10 +1,11 @@
 import { OnPageKeywordDensityResultInfo, IOnPageKeywordDensityResultInfo } from "./OnPageKeywordDensityResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageKeywordDensityTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageKeywordDensityResultInfo[]
+        result?: OnPageKeywordDensityResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageKeywordDensityTaskInfo  extends BaseResponseTaskInfo   implem
     
     /** array of results */
 
-    result?: OnPageKeywordDensityResultInfo[];
+    result?: OnPageKeywordDensityResultInfo[] | undefined;
 
     [key: string]: any;
 

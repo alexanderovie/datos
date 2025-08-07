@@ -1,10 +1,11 @@
 import { OnPageContentParsingResultInfo, IOnPageContentParsingResultInfo } from "./OnPageContentParsingResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageContentParsingTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageContentParsingResultInfo[]
+        result?: OnPageContentParsingResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageContentParsingTaskInfo  extends BaseResponseTaskInfo   implem
     
     /** array of results */
 
-    result?: OnPageContentParsingResultInfo[];
+    result?: OnPageContentParsingResultInfo[] | undefined;
 
     [key: string]: any;
 

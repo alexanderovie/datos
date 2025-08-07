@@ -1,12 +1,13 @@
 import { TimeInfo, ITimeInfo } from "./TimeInfo";
 
+
 export interface IWorkDayInfo   {
         
         /** opening time */
-        open?: TimeInfo
+        open?: TimeInfo | undefined
         
         /** closing time */
-        close?: TimeInfo
+        close?: TimeInfo | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class WorkDayInfo  implements IWorkDayInfo {
     
     /** opening time */
 
-    open?: TimeInfo;
+    open?: TimeInfo | undefined;
     
     /** closing time */
 
-    close?: TimeInfo;
+    close?: TimeInfo | undefined;
 
     [key: string]: any;
 

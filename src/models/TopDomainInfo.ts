@@ -1,8 +1,8 @@
 export interface ITopDomainInfo   {
         
-        domain?: string
+        domain?: string | undefined
         
-        count?: number
+        count?: number | undefined
 
     [key: string]: any;
 
@@ -10,9 +10,9 @@ export interface ITopDomainInfo   {
 
 export class TopDomainInfo  implements ITopDomainInfo {
 
-    domain?: string;
+    domain?: string | undefined;
 
-    count?: number;
+    count?: number | undefined;
 
     [key: string]: any;
 

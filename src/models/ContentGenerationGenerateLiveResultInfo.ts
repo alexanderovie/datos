@@ -1,21 +1,21 @@
 export interface IContentGenerationGenerateLiveResultInfo   {
         
         /** number of input tokens */
-        input_tokens?: number
+        input_tokens?: number | undefined
         
         /** number of output tokens */
-        output_tokens?: number
+        output_tokens?: number | undefined
         
         /** number of new tokens */
-        new_tokens?: number
+        new_tokens?: number | undefined
         
         /** resulting text */
-        generated_text?: string
+        generated_text?: string | undefined
         
         /** token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
 supplement_token values are unique for each subsequent task */
-        supplement_token?: string
+        supplement_token?: string | undefined
 
     [key: string]: any;
 
@@ -25,25 +25,25 @@ export class ContentGenerationGenerateLiveResultInfo  implements IContentGenerat
     
     /** number of input tokens */
 
-    input_tokens?: number;
+    input_tokens?: number | undefined;
     
     /** number of output tokens */
 
-    output_tokens?: number;
+    output_tokens?: number | undefined;
     
     /** number of new tokens */
 
-    new_tokens?: number;
+    new_tokens?: number | undefined;
     
     /** resulting text */
 
-    generated_text?: string;
+    generated_text?: string | undefined;
     
     /** token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
 supplement_token values are unique for each subsequent task */
 
-    supplement_token?: string;
+    supplement_token?: string | undefined;
 
     [key: string]: any;
 

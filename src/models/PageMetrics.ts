@@ -2,51 +2,51 @@ export interface IPageMetrics   {
         
         /** number of external links
 the number of links pointing to other websites */
-        links_external?: number
+        links_external?: number | undefined
         
         /** number of internal links
 the number of links pointing to other pages within the target website */
-        links_internal?: number
+        links_internal?: number | undefined
         
         /** number of pages with duplicate titles */
-        duplicate_title?: number
+        duplicate_title?: number | undefined
         
         /** number of pages with duplicate descriptions */
-        duplicate_description?: number
+        duplicate_description?: number | undefined
         
         /** number of pages with duplicate content */
-        duplicate_content?: number
+        duplicate_content?: number | undefined
         
         /** number of broken links
 number of broken links across all crawled pages on a target website */
-        broken_links?: number
+        broken_links?: number | undefined
         
         /** number of broken resources
 the number of images and other resources with broken links */
-        broken_resources?: number
+        broken_resources?: number | undefined
         
         /** number of links present on the target website that may have a conflict
 for example, if 'links_relation_conflict': 2, the target website is referring to the same source by at least one internal link with the rel='nofollow' attribute and by at least one dofollow link */
-        links_relation_conflict?: number
+        links_relation_conflict?: number | undefined
         
         /** number of redirect chains that start and end at the same URL
 number of redirect chains where the destination URL redirects back to the original URL */
-        redirect_loop?: number
+        redirect_loop?: number | undefined
         
         /** shows how website is optimized on a 100-point scale
 this field shows how website is optimized considering critical on-page issues and warnings detected;
 100 is the highest possible score that means website does not have any critical on-page issues and important warnings;
 note that this value depends on the number of crawled pages;
 learn more about how the metric is calculated in this help center article */
-        onpage_score?: number
+        onpage_score?: number | undefined
         
         /** number of non-indexable pages
 number of pages that are blocked from being indexed by Google and other search engines by robots.txt, HTTP headers, or meta tags settings;
 you can receive a list of non-indexable URLs using this endpoint */
-        non_indexable?: number
+        non_indexable?: number | undefined
         
         /** page-specific on-page check-ups */
-        checks?: { [key: string]: number; }
+        checks?: { [key: string]: number; } | undefined
 
     [key: string]: any;
 
@@ -57,44 +57,44 @@ export class PageMetrics  implements IPageMetrics {
     /** number of external links
 the number of links pointing to other websites */
 
-    links_external?: number;
+    links_external?: number | undefined;
     
     /** number of internal links
 the number of links pointing to other pages within the target website */
 
-    links_internal?: number;
+    links_internal?: number | undefined;
     
     /** number of pages with duplicate titles */
 
-    duplicate_title?: number;
+    duplicate_title?: number | undefined;
     
     /** number of pages with duplicate descriptions */
 
-    duplicate_description?: number;
+    duplicate_description?: number | undefined;
     
     /** number of pages with duplicate content */
 
-    duplicate_content?: number;
+    duplicate_content?: number | undefined;
     
     /** number of broken links
 number of broken links across all crawled pages on a target website */
 
-    broken_links?: number;
+    broken_links?: number | undefined;
     
     /** number of broken resources
 the number of images and other resources with broken links */
 
-    broken_resources?: number;
+    broken_resources?: number | undefined;
     
     /** number of links present on the target website that may have a conflict
 for example, if 'links_relation_conflict': 2, the target website is referring to the same source by at least one internal link with the rel='nofollow' attribute and by at least one dofollow link */
 
-    links_relation_conflict?: number;
+    links_relation_conflict?: number | undefined;
     
     /** number of redirect chains that start and end at the same URL
 number of redirect chains where the destination URL redirects back to the original URL */
 
-    redirect_loop?: number;
+    redirect_loop?: number | undefined;
     
     /** shows how website is optimized on a 100-point scale
 this field shows how website is optimized considering critical on-page issues and warnings detected;
@@ -102,17 +102,17 @@ this field shows how website is optimized considering critical on-page issues an
 note that this value depends on the number of crawled pages;
 learn more about how the metric is calculated in this help center article */
 
-    onpage_score?: number;
+    onpage_score?: number | undefined;
     
     /** number of non-indexable pages
 number of pages that are blocked from being indexed by Google and other search engines by robots.txt, HTTP headers, or meta tags settings;
 you can receive a list of non-indexable URLs using this endpoint */
 
-    non_indexable?: number;
+    non_indexable?: number | undefined;
     
     /** page-specific on-page check-ups */
 
-    checks?: { [key: string]: number; };
+    checks?: { [key: string]: number; } | undefined;
 
     [key: string]: any;
 

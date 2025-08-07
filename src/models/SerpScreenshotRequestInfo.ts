@@ -4,35 +4,35 @@ export interface ISerpScreenshotRequestInfo   {
 required field
 unique identifier of the associated task in the UUID format
 you will be able to use it within 7 days to request the results of the task at any time */
-        task_id?: string
+        task_id?: string | undefined
         
         /** browser resolution preset
 optional field
 browser preset associated with a certain device type
 can take the following values: desktop, tablet, mobile
 note: by default, browser preset corresponds to the device type specified in the POST request */
-        browser_preset?: string
+        browser_preset?: string | undefined
         
         /** width of the browser resolution
 optional field
 can be specified in the following range: 240-9999 */
-        browser_screen_width?: number
+        browser_screen_width?: number | undefined
         
         /** height of the browser resolution
 optional field
 can be specified in the following range: 240-9999 */
-        browser_screen_height?: number
+        browser_screen_height?: number | undefined
         
         /** browser scale factor
 optional field
 can be specified in the following range: 0.5-3 */
-        browser_screen_scale_factor?: number
+        browser_screen_scale_factor?: number | undefined
         
         /** number of SERP pages
 optional field
 if depth in the corresponding Task POST request exceeds 100 results (or 1 SERP page), specify the number of SERP pages to screenshot;
 default value: 1 */
-        page?: number
+        page?: number | undefined
 
     [key: string]: any;
 
@@ -45,7 +45,7 @@ required field
 unique identifier of the associated task in the UUID format
 you will be able to use it within 7 days to request the results of the task at any time */
 
-    task_id?: string;
+    task_id?: string | undefined;
     
     /** browser resolution preset
 optional field
@@ -53,32 +53,32 @@ browser preset associated with a certain device type
 can take the following values: desktop, tablet, mobile
 note: by default, browser preset corresponds to the device type specified in the POST request */
 
-    browser_preset?: string;
+    browser_preset?: string | undefined;
     
     /** width of the browser resolution
 optional field
 can be specified in the following range: 240-9999 */
 
-    browser_screen_width?: number;
+    browser_screen_width?: number | undefined;
     
     /** height of the browser resolution
 optional field
 can be specified in the following range: 240-9999 */
 
-    browser_screen_height?: number;
+    browser_screen_height?: number | undefined;
     
     /** browser scale factor
 optional field
 can be specified in the following range: 0.5-3 */
 
-    browser_screen_scale_factor?: number;
+    browser_screen_scale_factor?: number | undefined;
     
     /** number of SERP pages
 optional field
 if depth in the corresponding Task POST request exceeds 100 results (or 1 SERP page), specify the number of SERP pages to screenshot;
 default value: 1 */
 
-    page?: number;
+    page?: number | undefined;
 
     [key: string]: any;
 

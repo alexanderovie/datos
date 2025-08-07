@@ -1,10 +1,11 @@
 import { BacklinksBulkNewLostBacklinksLiveResultInfo, IBacklinksBulkNewLostBacklinksLiveResultInfo } from "./BacklinksBulkNewLostBacklinksLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBacklinksBulkNewLostBacklinksLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BacklinksBulkNewLostBacklinksLiveResultInfo[]
+        result?: BacklinksBulkNewLostBacklinksLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BacklinksBulkNewLostBacklinksLiveTaskInfo  extends BaseResponseTask
     
     /** array of results */
 
-    result?: BacklinksBulkNewLostBacklinksLiveResultInfo[];
+    result?: BacklinksBulkNewLostBacklinksLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

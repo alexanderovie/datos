@@ -1,10 +1,11 @@
 import { SerpSeznamOrganicTasksReadyTaskInfo, ISerpSeznamOrganicTasksReadyTaskInfo } from "./SerpSeznamOrganicTasksReadyTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpSeznamOrganicTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpSeznamOrganicTasksReadyTaskInfo[]
+        tasks?: SerpSeznamOrganicTasksReadyTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpSeznamOrganicTasksReadyResponseInfo  extends BaseResponseInfo  
     
     /** array of tasks */
 
-    tasks?: SerpSeznamOrganicTasksReadyTaskInfo[];
+    tasks?: SerpSeznamOrganicTasksReadyTaskInfo[] | undefined;
 
     [key: string]: any;
 

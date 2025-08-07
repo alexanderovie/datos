@@ -5,7 +5,7 @@ required field
 UTF-8 encoding
 the keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -15,7 +15,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -25,7 +25,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -34,7 +34,7 @@ you can receive the list of available locations with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -43,7 +43,7 @@ you can receive the list of available locations with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** keyword search depth
 optional field
@@ -56,19 +56,19 @@ estimated number of keywords for each level (maximum):
 2 – 72 keywords
 3 – 584 keywords
 4 – 4680 keywords */
-        depth?: number
+        depth?: number | undefined
         
         /** include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false */
-        include_seed_keyword?: boolean
+        include_seed_keyword?: boolean | undefined
         
         /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
-        include_serp_info?: boolean
+        include_serp_info?: boolean | undefined
         
         /** return data for core keyword
 optional field
@@ -76,13 +76,13 @@ if true, serp_info and related_keywords will be returned for the main keyword in
 if false, serp_info and related_keywords will be returned for the specified keyword (if available);
 refer to this help center article for more details;
 default value: false */
-        replace_with_core_keyword?: boolean
+        replace_with_core_keyword?: boolean | undefined
         
         /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean
+        ignore_synonyms?: boolean | undefined
         
         /** array of results filtering parameters
 optional field
@@ -94,7 +94,7 @@ you can use the % operator with like and not_like, as well as ilike and not_ilik
 example:
 ['keyword_data.keyword_info.search_volume','>',0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -111,26 +111,26 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -144,7 +144,7 @@ UTF-8 encoding
 the keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -155,7 +155,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -166,7 +166,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -176,7 +176,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -186,7 +186,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** keyword search depth
 optional field
@@ -200,21 +200,21 @@ estimated number of keywords for each level (maximum):
 3 – 584 keywords
 4 – 4680 keywords */
 
-    depth?: number;
+    depth?: number | undefined;
     
     /** include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false */
 
-    include_seed_keyword?: boolean;
+    include_seed_keyword?: boolean | undefined;
     
     /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
 
-    include_serp_info?: boolean;
+    include_serp_info?: boolean | undefined;
     
     /** return data for core keyword
 optional field
@@ -223,14 +223,14 @@ if false, serp_info and related_keywords will be returned for the specified keyw
 refer to this help center article for more details;
 default value: false */
 
-    replace_with_core_keyword?: boolean;
+    replace_with_core_keyword?: boolean | undefined;
     
     /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean;
+    ignore_synonyms?: boolean | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -243,7 +243,7 @@ example:
 ['keyword_data.keyword_info.search_volume','>',0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -261,21 +261,21 @@ you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -283,7 +283,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

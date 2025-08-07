@@ -1,12 +1,13 @@
 import { BacklinksBulkBacklinksLiveItem, IBacklinksBulkBacklinksLiveItem } from "./BacklinksBulkBacklinksLiveItem";
 
+
 export interface IBacklinksBulkBacklinksLiveResultInfo   {
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains relevant backlink data */
-        items?: BacklinksBulkBacklinksLiveItem[]
+        items?: BacklinksBulkBacklinksLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class BacklinksBulkBacklinksLiveResultInfo  implements IBacklinksBulkBack
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains relevant backlink data */
 
-    items?: BacklinksBulkBacklinksLiveItem[];
+    items?: BacklinksBulkBacklinksLiveItem[] | undefined;
 
     [key: string]: any;
 

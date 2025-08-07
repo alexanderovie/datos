@@ -1,27 +1,27 @@
 export interface IBaseResponseInfo   {
         
         /** the current version of the API */
-        version?: string
+        version?: string | undefined
         
         /** general status code
 you can find the full list of the response codes here */
-        status_code?: number
+        status_code?: number | undefined
         
         /** general informational message
 you can find the full list of general informational messages here */
-        status_message?: string
+        status_message?: string | undefined
         
         /** total execution time, seconds */
-        time?: string
+        time?: string | undefined
         
         /** total tasks cost, USD */
-        cost?: number
+        cost?: number | undefined
         
         /** the number of tasks in the tasks array */
-        tasks_count?: number
+        tasks_count?: number | undefined
         
         /** the number of tasks in the tasks array returned with an error */
-        tasks_error?: number
+        tasks_error?: number | undefined
 
     [key: string]: any;
 
@@ -31,33 +31,33 @@ export class BaseResponseInfo  implements IBaseResponseInfo {
     
     /** the current version of the API */
 
-    version?: string;
+    version?: string | undefined;
     
     /** general status code
 you can find the full list of the response codes here */
 
-    status_code?: number;
+    status_code?: number | undefined;
     
     /** general informational message
 you can find the full list of general informational messages here */
 
-    status_message?: string;
+    status_message?: string | undefined;
     
     /** total execution time, seconds */
 
-    time?: string;
+    time?: string | undefined;
     
     /** total tasks cost, USD */
 
-    cost?: number;
+    cost?: number | undefined;
     
     /** the number of tasks in the tasks array */
 
-    tasks_count?: number;
+    tasks_count?: number | undefined;
     
     /** the number of tasks in the tasks array returned with an error */
 
-    tasks_error?: number;
+    tasks_error?: number | undefined;
 
     [key: string]: any;
 

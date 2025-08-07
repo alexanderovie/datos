@@ -1,10 +1,11 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixNaverKeywordsDataDataInfo   {
         
-        keywords_for_category?: AppendixInfo
+        keywords_for_category?: AppendixInfo | undefined
         
-        search_volume?: AppendixInfo
+        search_volume?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -12,9 +13,9 @@ export interface IAppendixNaverKeywordsDataDataInfo   {
 
 export class AppendixNaverKeywordsDataDataInfo  implements IAppendixNaverKeywordsDataDataInfo {
 
-    keywords_for_category?: AppendixInfo;
+    keywords_for_category?: AppendixInfo | undefined;
 
-    search_volume?: AppendixInfo;
+    search_volume?: AppendixInfo | undefined;
 
     [key: string]: any;
 

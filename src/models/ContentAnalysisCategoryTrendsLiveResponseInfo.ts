@@ -1,10 +1,11 @@
 import { ContentAnalysisCategoryTrendsLiveTaskInfo, IContentAnalysisCategoryTrendsLiveTaskInfo } from "./ContentAnalysisCategoryTrendsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IContentAnalysisCategoryTrendsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentAnalysisCategoryTrendsLiveTaskInfo[]
+        tasks?: ContentAnalysisCategoryTrendsLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentAnalysisCategoryTrendsLiveResponseInfo  extends BaseResponse
     
     /** array of tasks */
 
-    tasks?: ContentAnalysisCategoryTrendsLiveTaskInfo[];
+    tasks?: ContentAnalysisCategoryTrendsLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

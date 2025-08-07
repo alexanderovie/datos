@@ -1,15 +1,16 @@
-import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IOnPageDuplicateTagsItem   {
         
         /** contains the value of duplicated tag */
-        accumulator?: string
+        accumulator?: string | undefined
         
         /** total count of duplicate pages */
-        total_count?: number
+        total_count?: number | undefined
         
         /** pages with duplicate tags */
-        pages?: BaseOnPageResourceItem[]
+        pages?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
     
     /** contains the value of duplicated tag */
 
-    accumulator?: string;
+    accumulator?: string | undefined;
     
     /** total count of duplicate pages */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** pages with duplicate tags */
 
-    pages?: BaseOnPageResourceItem[];
+    pages?: OnPageHtmlResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -54,7 +55,7 @@ export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
             if (Array.isArray(data["pages"])) {
                 this.pages = [];
                 for (let item of data["pages"]) {
-                    this.pages.push(BaseOnPageResourceItem.fromJS(item));
+                    this.pages.push(OnPageHtmlResourceItem.fromJS(item));
                 }
             }
         }

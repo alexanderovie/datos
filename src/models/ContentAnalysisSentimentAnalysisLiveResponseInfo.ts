@@ -1,10 +1,11 @@
 import { ContentAnalysisSentimentAnalysisLiveTaskInfo, IContentAnalysisSentimentAnalysisLiveTaskInfo } from "./ContentAnalysisSentimentAnalysisLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IContentAnalysisSentimentAnalysisLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentAnalysisSentimentAnalysisLiveTaskInfo[]
+        tasks?: ContentAnalysisSentimentAnalysisLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentAnalysisSentimentAnalysisLiveResponseInfo  extends BaseRespo
     
     /** array of tasks */
 
-    tasks?: ContentAnalysisSentimentAnalysisLiveTaskInfo[];
+    tasks?: ContentAnalysisSentimentAnalysisLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

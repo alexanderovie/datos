@@ -1,18 +1,25 @@
 export interface IAppDataGoogleLocationsResultInfo   {
         
         /** location code */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the location */
-        location_name?: string
+        location_name?: string | undefined
         
-        location_code_parent?: number
+        /** the name of the superordinate location
+example:
+'location_code': 1006473,
+'location_name': 'Altrincham,England,United Kingdom',
+'location_name_parent': 'England,United Kingdom', where location_name_parent corresponds to:
+'location_code': 20339,
+'location_name': 'England,United Kingdom' */
+        location_name_parent?: string | undefined
         
         /** ISO country code of the location */
-        country_iso_code?: string
+        country_iso_code?: string | undefined
         
         /** location type */
-        location_type?: string
+        location_type?: string | undefined
 
     [key: string]: any;
 
@@ -22,21 +29,29 @@ export class AppDataGoogleLocationsResultInfo  implements IAppDataGoogleLocation
     
     /** location code */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the location */
 
-    location_name?: string;
+    location_name?: string | undefined;
+    
+    /** the name of the superordinate location
+example:
+'location_code': 1006473,
+'location_name': 'Altrincham,England,United Kingdom',
+'location_name_parent': 'England,United Kingdom', where location_name_parent corresponds to:
+'location_code': 20339,
+'location_name': 'England,United Kingdom' */
 
-    location_code_parent?: number;
+    location_name_parent?: string | undefined;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string;
+    country_iso_code?: string | undefined;
     
     /** location type */
 
-    location_type?: string;
+    location_type?: string | undefined;
 
     [key: string]: any;
 
@@ -60,7 +75,7 @@ export class AppDataGoogleLocationsResultInfo  implements IAppDataGoogleLocation
             }
             this.location_code = data["location_code"];
             this.location_name = data["location_name"];
-            this.location_code_parent = data["location_code_parent"];
+            this.location_name_parent = data["location_name_parent"];
             this.country_iso_code = data["country_iso_code"];
             this.location_type = data["location_type"];
         }
@@ -82,7 +97,7 @@ export class AppDataGoogleLocationsResultInfo  implements IAppDataGoogleLocation
         
         data["location_code"] = this.location_code;
         data["location_name"] = this.location_name;
-        data["location_code_parent"] = this.location_code_parent;
+        data["location_name_parent"] = this.location_name_parent;
         data["country_iso_code"] = this.country_iso_code;
         data["location_type"] = this.location_type;
         return data;

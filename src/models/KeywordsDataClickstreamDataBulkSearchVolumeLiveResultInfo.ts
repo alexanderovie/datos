@@ -1,15 +1,16 @@
 import { KeywordsDataClickstreamDataSearchVolumeLiveItem, IKeywordsDataClickstreamDataSearchVolumeLiveItem } from "./KeywordsDataClickstreamDataSearchVolumeLiveItem";
 
+
 export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo   {
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains keywords and related data */
-        items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[]
+        items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo  implemen
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains keywords and related data */
 
-    items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[];
+    items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined;
 
     [key: string]: any;
 

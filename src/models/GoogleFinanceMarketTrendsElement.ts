@@ -1,18 +1,19 @@
 import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementItem } from "./BaseSerpApiGoogleFinanceElementItem";
 import { GoogleFinanceNewsElement, IGoogleFinanceNewsElement } from "./GoogleFinanceNewsElement";
 
+
 export interface IGoogleFinanceMarketTrendsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** object of items
 array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        quote?: BaseSerpApiGoogleFinanceElementItem
+        quote?: BaseSerpApiGoogleFinanceElementItem | undefined
         
         /** array of items
 array contains the following type of items: google_finance_news_element */
-        news?: GoogleFinanceNewsElement[]
+        news?: GoogleFinanceNewsElement[] | undefined
 
     [key: string]: any;
 
@@ -22,17 +23,17 @@ export class GoogleFinanceMarketTrendsElement  implements IGoogleFinanceMarketTr
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** object of items
 array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    quote?: BaseSerpApiGoogleFinanceElementItem;
+    quote?: BaseSerpApiGoogleFinanceElementItem | undefined;
     
     /** array of items
 array contains the following type of items: google_finance_news_element */
 
-    news?: GoogleFinanceNewsElement[];
+    news?: GoogleFinanceNewsElement[] | undefined;
 
     [key: string]: any;
 

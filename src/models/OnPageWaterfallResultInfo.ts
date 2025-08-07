@@ -1,20 +1,21 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageWaterfallItem, IOnPageWaterfallItem } from "./OnPageWaterfallItem";
 
+
 export interface IOnPageWaterfallResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: OnPageWaterfallItem[]
+        items?: OnPageWaterfallItem[] | undefined
 
     [key: string]: any;
 
@@ -25,19 +26,19 @@ export class OnPageWaterfallResultInfo  implements IOnPageWaterfallResultInfo {
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: OnPageWaterfallItem[];
+    items?: OnPageWaterfallItem[] | undefined;
 
     [key: string]: any;
 

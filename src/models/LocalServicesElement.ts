@@ -1,28 +1,29 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface ILocalServicesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
-        /** description */
-        description?: string
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** URL of the image featured in the element */
-        profile_image_url?: string
+        profile_image_url?: string | undefined
 
     [key: string]: any;
 
@@ -32,32 +33,32 @@ export class LocalServicesElement  implements ILocalServicesElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
-    /** description */
+    /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** URL of the image featured in the element */
 
-    profile_image_url?: string;
+    profile_image_url?: string | undefined;
 
     [key: string]: any;
 

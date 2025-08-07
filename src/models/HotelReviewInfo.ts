@@ -1,26 +1,27 @@
 import { ReviewMentionInfo, IReviewMentionInfo } from "./ReviewMentionInfo";
 import { OtherSitesReviewsInfo, IOtherSitesReviewsInfo } from "./OtherSitesReviewsInfo";
 
+
 export interface IHotelReviewInfo   {
         
         /** overall hotel rating based on customer votes */
-        value?: number
+        value?: number | undefined
         
         /** number of customer votes
 the number of customer votes included in the calculation of the hotel rating */
-        votes_count?: number
+        votes_count?: number | undefined
         
         /** hotel mentions
 information about hotel reviews by criteria */
-        mentions?: ReviewMentionInfo[]
+        mentions?: ReviewMentionInfo[] | undefined
         
         /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
-        rating_distribution?: { [key: string]: number; }
+        rating_distribution?: { [key: string]: number; } | undefined
         
         /** reviews on third-party sites
 reviews from third-paty sites */
-        other_sites_reviews?: OtherSitesReviewsInfo[]
+        other_sites_reviews?: OtherSitesReviewsInfo[] | undefined
 
     [key: string]: any;
 
@@ -30,27 +31,27 @@ export class HotelReviewInfo  implements IHotelReviewInfo {
     
     /** overall hotel rating based on customer votes */
 
-    value?: number;
+    value?: number | undefined;
     
     /** number of customer votes
 the number of customer votes included in the calculation of the hotel rating */
 
-    votes_count?: number;
+    votes_count?: number | undefined;
     
     /** hotel mentions
 information about hotel reviews by criteria */
 
-    mentions?: ReviewMentionInfo[];
+    mentions?: ReviewMentionInfo[] | undefined;
     
     /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
 
-    rating_distribution?: { [key: string]: number; };
+    rating_distribution?: { [key: string]: number; } | undefined;
     
     /** reviews on third-party sites
 reviews from third-paty sites */
 
-    other_sites_reviews?: OtherSitesReviewsInfo[];
+    other_sites_reviews?: OtherSitesReviewsInfo[] | undefined;
 
     [key: string]: any;
 

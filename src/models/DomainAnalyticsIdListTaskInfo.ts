@@ -1,10 +1,11 @@
 import { DomainAnalyticsIdListResultInfo, IDomainAnalyticsIdListResultInfo } from "./DomainAnalyticsIdListResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDomainAnalyticsIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DomainAnalyticsIdListResultInfo[]
+        result?: DomainAnalyticsIdListResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DomainAnalyticsIdListTaskInfo  extends BaseResponseTaskInfo   imple
     
     /** array of results */
 
-    result?: DomainAnalyticsIdListResultInfo[];
+    result?: DomainAnalyticsIdListResultInfo[] | undefined;
 
     [key: string]: any;
 

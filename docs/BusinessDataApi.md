@@ -89,8 +89,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BusinessDataIdListRequestInfo();
-   task.datetime_from = "2025-04-17 06:10:40 +00:00";
-   task.datetime_to = "2025-06-17 06:10:40 +00:00";
+   task.datetime_from = "2025-05-06 08:32:32 +00:00";
+   task.datetime_to = "2025-07-06 08:32:32 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -1567,7 +1567,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "28b3f00e-1c3a-464a-855b-f4ab88784f02";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleHotelInfoTaskGetHtml(id);
 ```
 

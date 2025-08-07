@@ -1,12 +1,13 @@
 import { AppendixBingKeywordsDataPriceDataInfo, IAppendixBingKeywordsDataPriceDataInfo } from "./AppendixBingKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixSocialMediaBusinessDataPriceData   {
         
-        facebook?: AppendixBingKeywordsDataPriceDataInfo
+        facebook?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        pinterest?: AppendixBingKeywordsDataPriceDataInfo
+        pinterest?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        reddit?: AppendixBingKeywordsDataPriceDataInfo
+        reddit?: AppendixBingKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -14,11 +15,11 @@ export interface IAppendixSocialMediaBusinessDataPriceData   {
 
 export class AppendixSocialMediaBusinessDataPriceData  implements IAppendixSocialMediaBusinessDataPriceData {
 
-    facebook?: AppendixBingKeywordsDataPriceDataInfo;
+    facebook?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    pinterest?: AppendixBingKeywordsDataPriceDataInfo;
+    pinterest?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    reddit?: AppendixBingKeywordsDataPriceDataInfo;
+    reddit?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

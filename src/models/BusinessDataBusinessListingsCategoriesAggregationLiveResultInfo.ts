@@ -1,26 +1,27 @@
 import { BusinessDataBusinessListingsCategoriesAggregationLiveItem, IBusinessDataBusinessListingsCategoriesAggregationLiveItem } from "./BusinessDataBusinessListingsCategoriesAggregationLiveItem";
 
+
 export interface IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo   {
         
         /** total number of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** item types
 the number of items in the items array */
-        count?: number
+        count?: number | undefined
         
         /** offset in the results array of returned categories */
-        offset?: string
+        offset?: string | undefined
         
         /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
-        offset_token?: string
+        offset_token?: string | undefined
         
         /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_category */
-        items?: BusinessDataBusinessListingsCategoriesAggregationLiveItem[]
+        items?: BusinessDataBusinessListingsCategoriesAggregationLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -30,28 +31,28 @@ export class BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo  im
     
     /** total number of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** item types
 the number of items in the items array */
 
-    count?: number;
+    count?: number | undefined;
     
     /** offset in the results array of returned categories */
 
-    offset?: string;
+    offset?: string | undefined;
     
     /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
 
-    offset_token?: string;
+    offset_token?: string | undefined;
     
     /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_category */
 
-    items?: BusinessDataBusinessListingsCategoriesAggregationLiveItem[];
+    items?: BusinessDataBusinessListingsCategoriesAggregationLiveItem[] | undefined;
 
     [key: string]: any;
 

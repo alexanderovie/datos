@@ -74,8 +74,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantIdListRequestInfo();
-   task.datetime_from = "2025-04-17 06:10:12 +00:00";
-   task.datetime_to = "2025-06-17 06:10:12 +00:00";
+   task.datetime_from = "2025-05-06 08:32:11 +00:00";
+   task.datetime_to = "2025-07-06 08:32:11 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -594,7 +594,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "498cfea9-3737-4402-b7f9-f26ac8e0f0e9";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleProductsTaskGetHtml(id);
 ```
 
@@ -824,7 +824,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "789e336d-df4d-4248-aba1-1bd133da39d1";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleSellersTaskGetHtml(id);
 ```
 
@@ -1054,7 +1054,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "cdbe18ce-3796-4ece-8972-31810c6d2538";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleProductSpecTaskGetHtml(id);
 ```
 
@@ -1683,7 +1683,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "1509a15a-bb8d-49fb-8942-142ce925c5c8";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.amazonProductsTaskGetHtml(id);
 ```
 
@@ -1913,7 +1913,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "a46a0fbe-8d0c-4221-94e5-a318d43c891d";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.amazonAsinTaskGetHtml(id);
 ```
 
@@ -2143,7 +2143,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "8f8c42b1-4fd3-4512-bf64-81b6bcb8df88";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.amazonSellersTaskGetHtml(id);
 ```
 
@@ -2373,7 +2373,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "8a79578b-24ca-47c4-a60c-795d4a8f1614";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.amazonReviewsTaskGetHtml(id);
 ```
 

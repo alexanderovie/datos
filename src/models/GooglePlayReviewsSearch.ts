@@ -1,55 +1,57 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AppUserProfileInfo, IAppUserProfileInfo } from "./AppUserProfileInfo";
+import { ResponseDataInfo, IResponseDataInfo } from "./ResponseDataInfo";
+
 
 export interface IGooglePlayReviewsSearch   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the review in SERP
 can take the following values: left */
-        position?: string
+        position?: string | undefined
         
         /** version of the app
 version of the app for which the review is submitted */
-        version?: string
+        version?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** id of the review */
-        id?: string
+        id?: string | undefined
         
         /** number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon */
-        helpful_count?: number
+        helpful_count?: number | undefined
         
         /** title of the review
 Google Play doesn’t provide an option to title reviews, so this parameter will always equal null */
-        title?: string
+        title?: string | undefined
         
         /** content of the review */
-        review_text?: string
+        review_text?: string | undefined
         
         /** user profile of the reviewer */
-        user_profile?: AppUserProfileInfo
+        user_profile?: AppUserProfileInfo | undefined
         
         /** response from the developer */
-        responses?: any
+        responses?: ResponseDataInfo[] | undefined
 
     [key: string]: any;
 
@@ -59,64 +61,64 @@ export class GooglePlayReviewsSearch  implements IGooglePlayReviewsSearch {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the review in SERP
 can take the following values: left */
 
-    position?: string;
+    position?: string | undefined;
     
     /** version of the app
 version of the app for which the review is submitted */
 
-    version?: string;
+    version?: string | undefined;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** id of the review */
 
-    id?: string;
+    id?: string | undefined;
     
     /** number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon */
 
-    helpful_count?: number;
+    helpful_count?: number | undefined;
     
     /** title of the review
 Google Play doesn’t provide an option to title reviews, so this parameter will always equal null */
 
-    title?: string;
+    title?: string | undefined;
     
     /** content of the review */
 
-    review_text?: string;
+    review_text?: string | undefined;
     
     /** user profile of the reviewer */
 
-    user_profile?: AppUserProfileInfo;
+    user_profile?: AppUserProfileInfo | undefined;
     
     /** response from the developer */
 
-    responses?: any;
+    responses?: ResponseDataInfo[] | undefined;
 
     [key: string]: any;
 
@@ -150,7 +152,12 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
             this.title = data["title"];
             this.review_text = data["review_text"];
             this.user_profile = data["user_profile"] ? AppUserProfileInfo.fromJS(data["user_profile"]) : <any>undefined;
-            this.responses = data["responses"];
+            if (Array.isArray(data["responses"])) {
+                this.responses = [];
+                for (let item of data["responses"]) {
+                    this.responses.push(ResponseDataInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -180,7 +187,15 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
         data["title"] = this.title;
         data["review_text"] = this.review_text;
         data["user_profile"] = this.user_profile ? AppUserProfileInfo.fromJS(this.user_profile)?.toJSON() : <any>undefined;
-        data["responses"] = this.responses;
+        data["responses"] = null;
+        if (Array.isArray(this.responses)) {
+            data["responses"] = [];
+            for (let item of this.responses) {
+                if (item && typeof item.toJSON === "function") {
+                    data["responses"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

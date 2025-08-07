@@ -1,23 +1,23 @@
 export interface IRefineProductsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
         
         /** keyword for the related refined search */
-        keyword?: string
+        keyword?: string | undefined
         
         /** type of search refinement */
-        refine_type?: string
+        refine_type?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -27,28 +27,28 @@ export class RefineProductsElement  implements IRefineProductsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** keyword for the related refined search */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** type of search refinement */
 
-    refine_type?: string;
+    refine_type?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 

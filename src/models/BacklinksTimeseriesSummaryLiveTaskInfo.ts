@@ -1,10 +1,11 @@
 import { BacklinksTimeseriesSummaryLiveResultInfo, IBacklinksTimeseriesSummaryLiveResultInfo } from "./BacklinksTimeseriesSummaryLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBacklinksTimeseriesSummaryLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BacklinksTimeseriesSummaryLiveResultInfo[]
+        result?: BacklinksTimeseriesSummaryLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BacklinksTimeseriesSummaryLiveTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: BacklinksTimeseriesSummaryLiveResultInfo[];
+    result?: BacklinksTimeseriesSummaryLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

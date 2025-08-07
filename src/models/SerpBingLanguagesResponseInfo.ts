@@ -1,10 +1,11 @@
 import { SerpBingLanguagesTaskInfo, ISerpBingLanguagesTaskInfo } from "./SerpBingLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpBingLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpBingLanguagesTaskInfo[]
+        tasks?: SerpBingLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBingLanguagesResponseInfo  extends BaseResponseInfo   implement
     
     /** array of tasks */
 
-    tasks?: SerpBingLanguagesTaskInfo[];
+    tasks?: SerpBingLanguagesTaskInfo[] | undefined;
 
     [key: string]: any;
 

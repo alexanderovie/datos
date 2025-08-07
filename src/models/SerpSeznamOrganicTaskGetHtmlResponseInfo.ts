@@ -1,10 +1,11 @@
 import { SerpSeznamOrganicTaskGetHtmlTaskInfo, ISerpSeznamOrganicTaskGetHtmlTaskInfo } from "./SerpSeznamOrganicTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpSeznamOrganicTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpSeznamOrganicTaskGetHtmlTaskInfo[]
+        tasks?: SerpSeznamOrganicTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpSeznamOrganicTaskGetHtmlResponseInfo  extends BaseResponseInfo 
     
     /** array of tasks */
 
-    tasks?: SerpSeznamOrganicTaskGetHtmlTaskInfo[];
+    tasks?: SerpSeznamOrganicTaskGetHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

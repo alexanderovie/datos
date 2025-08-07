@@ -1,46 +1,47 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
+
 export interface IAppendixOnPageLimitsRatesDataInfo   {
         
-        task_post?: number
+        task_post?: number | undefined
         
-        tasks_ready?: number
+        tasks_ready?: number | undefined
         
-        summary?: number
+        summary?: number | undefined
         
-        resources?: number
+        resources?: number | undefined
         
-        pages?: number
+        pages?: number | undefined
         
-        non_indexable?: number
+        non_indexable?: number | undefined
         
-        duplicate_tags?: number
+        duplicate_tags?: number | undefined
         
-        links?: number
+        links?: number | undefined
         
-        waterfall?: number
+        waterfall?: number | undefined
         
-        errors?: number
+        errors?: number | undefined
         
-        pages_by_resource?: number
+        pages_by_resource?: number | undefined
         
-        duplicate_content?: number
+        duplicate_content?: number | undefined
         
-        raw_html?: number
+        raw_html?: number | undefined
         
-        instant_pages?: number
+        instant_pages?: number | undefined
         
-        redirect_chains?: number
+        redirect_chains?: number | undefined
         
-        lighthouse?: AppendixInfo
+        lighthouse?: AppendixInfo | undefined
         
-        keyword_density?: number
+        keyword_density?: number | undefined
         
-        page_screenshot?: number
+        page_screenshot?: number | undefined
         
-        content_parsing?: number
+        content_parsing?: number | undefined
         
-        content_parsing_live?: number
+        content_parsing_live?: number | undefined
 
     [key: string]: any;
 
@@ -48,45 +49,45 @@ export interface IAppendixOnPageLimitsRatesDataInfo   {
 
 export class AppendixOnPageLimitsRatesDataInfo  implements IAppendixOnPageLimitsRatesDataInfo {
 
-    task_post?: number;
+    task_post?: number | undefined;
 
-    tasks_ready?: number;
+    tasks_ready?: number | undefined;
 
-    summary?: number;
+    summary?: number | undefined;
 
-    resources?: number;
+    resources?: number | undefined;
 
-    pages?: number;
+    pages?: number | undefined;
 
-    non_indexable?: number;
+    non_indexable?: number | undefined;
 
-    duplicate_tags?: number;
+    duplicate_tags?: number | undefined;
 
-    links?: number;
+    links?: number | undefined;
 
-    waterfall?: number;
+    waterfall?: number | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
-    pages_by_resource?: number;
+    pages_by_resource?: number | undefined;
 
-    duplicate_content?: number;
+    duplicate_content?: number | undefined;
 
-    raw_html?: number;
+    raw_html?: number | undefined;
 
-    instant_pages?: number;
+    instant_pages?: number | undefined;
 
-    redirect_chains?: number;
+    redirect_chains?: number | undefined;
 
-    lighthouse?: AppendixInfo;
+    lighthouse?: AppendixInfo | undefined;
 
-    keyword_density?: number;
+    keyword_density?: number | undefined;
 
-    page_screenshot?: number;
+    page_screenshot?: number | undefined;
 
-    content_parsing?: number;
+    content_parsing?: number | undefined;
 
-    content_parsing_live?: number;
+    content_parsing_live?: number | undefined;
 
     [key: string]: any;
 

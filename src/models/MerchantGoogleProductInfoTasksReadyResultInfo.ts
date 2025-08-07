@@ -2,27 +2,27 @@ export interface IMerchantGoogleProductInfoTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** search engine specified when setting the task */
-        se?: string
+        se?: string | undefined
         
         /** type of search engine
 can take the following values: shopping_specifications */
-        se_type?: string
+        se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
         
         /** URL for collecting the results of the Google Shopping Product Specifications Advanced task */
-        endpoint_advanced?: string
+        endpoint_advanced?: string | undefined
         
         /** URL for collecting the results of the Google Shopping Product Specifications HTML task
 note: HTML is not available for this endpoint, the value will be null */
-        endpoint_html?: string
+        endpoint_html?: string | undefined
 
     [key: string]: any;
 
@@ -33,33 +33,33 @@ export class MerchantGoogleProductInfoTasksReadyResultInfo  implements IMerchant
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** search engine specified when setting the task */
 
-    se?: string;
+    se?: string | undefined;
     
     /** type of search engine
 can take the following values: shopping_specifications */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** URL for collecting the results of the Google Shopping Product Specifications Advanced task */
 
-    endpoint_advanced?: string;
+    endpoint_advanced?: string | undefined;
     
     /** URL for collecting the results of the Google Shopping Product Specifications HTML task
 note: HTML is not available for this endpoint, the value will be null */
 
-    endpoint_html?: string;
+    endpoint_html?: string | undefined;
 
     [key: string]: any;
 

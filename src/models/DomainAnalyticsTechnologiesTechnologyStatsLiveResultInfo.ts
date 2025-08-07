@@ -1,21 +1,22 @@
 import { DomainAnalyticsTechnologiesTechnologyStatsLiveItem, IDomainAnalyticsTechnologiesTechnologyStatsLiveItem } from "./DomainAnalyticsTechnologiesTechnologyStatsLiveItem";
 
+
 export interface IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo   {
         
         /** target technology */
-        technology?: string
+        technology?: string | undefined
         
         /** starting date of the time range */
-        date_from?: string
+        date_from?: string | undefined
         
         /** ending date of the time range */
-        date_to?: string
+        date_to?: string | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: DomainAnalyticsTechnologiesTechnologyStatsLiveItem[]
+        items?: DomainAnalyticsTechnologiesTechnologyStatsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -25,23 +26,23 @@ export class DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo  implement
     
     /** target technology */
 
-    technology?: string;
+    technology?: string | undefined;
     
     /** starting date of the time range */
 
-    date_from?: string;
+    date_from?: string | undefined;
     
     /** ending date of the time range */
 
-    date_to?: string;
+    date_to?: string | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: DomainAnalyticsTechnologiesTechnologyStatsLiveItem[];
+    items?: DomainAnalyticsTechnologiesTechnologyStatsLiveItem[] | undefined;
 
     [key: string]: any;
 

@@ -1,18 +1,19 @@
-import { KeywordKpiInfo, IKeywordKpiInfo } from "./KeywordKpiInfo";
+import { KeywordKpiItemInfo, IKeywordKpiItemInfo } from "./KeywordKpiItemInfo";
+
 
 export interface IKeywordKpi   {
         
         /** keyword data aggregated for desktop devices
 if there is no data, then the value is null */
-        desktop?: KeywordKpiInfo[]
+        desktop?: KeywordKpiItemInfo[] | undefined
         
         /** keyword data aggregated for mobile devices
 if there is no data, then the value is null */
-        mobile?: KeywordKpiInfo[]
+        mobile?: KeywordKpiItemInfo[] | undefined
         
         /** keyword data aggregated for tablet devices
 if there is no data, then the value is null */
-        tablet?: KeywordKpiInfo[]
+        tablet?: KeywordKpiItemInfo[] | undefined
 
     [key: string]: any;
 
@@ -23,17 +24,17 @@ export class KeywordKpi  implements IKeywordKpi {
     /** keyword data aggregated for desktop devices
 if there is no data, then the value is null */
 
-    desktop?: KeywordKpiInfo[];
+    desktop?: KeywordKpiItemInfo[] | undefined;
     
     /** keyword data aggregated for mobile devices
 if there is no data, then the value is null */
 
-    mobile?: KeywordKpiInfo[];
+    mobile?: KeywordKpiItemInfo[] | undefined;
     
     /** keyword data aggregated for tablet devices
 if there is no data, then the value is null */
 
-    tablet?: KeywordKpiInfo[];
+    tablet?: KeywordKpiItemInfo[] | undefined;
 
     [key: string]: any;
 
@@ -58,19 +59,19 @@ if there is no data, then the value is null */
             if (Array.isArray(data["desktop"])) {
                 this.desktop = [];
                 for (let item of data["desktop"]) {
-                    this.desktop.push(KeywordKpiInfo.fromJS(item));
+                    this.desktop.push(KeywordKpiItemInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["mobile"])) {
                 this.mobile = [];
                 for (let item of data["mobile"]) {
-                    this.mobile.push(KeywordKpiInfo.fromJS(item));
+                    this.mobile.push(KeywordKpiItemInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["tablet"])) {
                 this.tablet = [];
                 for (let item of data["tablet"]) {
-                    this.tablet.push(KeywordKpiInfo.fromJS(item));
+                    this.tablet.push(KeywordKpiItemInfo.fromJS(item));
                 }
             }
         }

@@ -1,22 +1,23 @@
 import { SearchVolumeHistoryItemInfo, ISearchVolumeHistoryItemInfo } from "./SearchVolumeHistoryItemInfo";
 
+
 export interface ISearchVolumeHistorySearchInfo   {
         
         /** device type = desktop
 contains historical search volume data for searches made from desktop devices */
-        desktop?: SearchVolumeHistoryItemInfo[]
+        desktop?: SearchVolumeHistoryItemInfo[] | undefined
         
         /** device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
-        non_smartphones?: SearchVolumeHistoryItemInfo[]
+        non_smartphones?: SearchVolumeHistoryItemInfo[] | undefined
         
         /** device type = mobile
 contains historical search volume data for searches made from mobile devices */
-        mobile?: SearchVolumeHistoryItemInfo[]
+        mobile?: SearchVolumeHistoryItemInfo[] | undefined
         
         /** device type = tablet
 contains historical search volume data for searches made from tablets */
-        tablet?: SearchVolumeHistoryItemInfo[]
+        tablet?: SearchVolumeHistoryItemInfo[] | undefined
 
     [key: string]: any;
 
@@ -27,22 +28,22 @@ export class SearchVolumeHistorySearchInfo  implements ISearchVolumeHistorySearc
     /** device type = desktop
 contains historical search volume data for searches made from desktop devices */
 
-    desktop?: SearchVolumeHistoryItemInfo[];
+    desktop?: SearchVolumeHistoryItemInfo[] | undefined;
     
     /** device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
 
-    non_smartphones?: SearchVolumeHistoryItemInfo[];
+    non_smartphones?: SearchVolumeHistoryItemInfo[] | undefined;
     
     /** device type = mobile
 contains historical search volume data for searches made from mobile devices */
 
-    mobile?: SearchVolumeHistoryItemInfo[];
+    mobile?: SearchVolumeHistoryItemInfo[] | undefined;
     
     /** device type = tablet
 contains historical search volume data for searches made from tablets */
 
-    tablet?: SearchVolumeHistoryItemInfo[];
+    tablet?: SearchVolumeHistoryItemInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,22 +1,22 @@
 export interface IAdLinkElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** reference page title */
-        title?: string
+        title?: string | undefined
         
         /** link description */
-        description?: string
+        description?: string | undefined
         
         /** reference page URL */
-        url?: string
+        url?: string | undefined
         
         /** domain where a link points */
-        domain?: string
+        domain?: string | undefined
         
         /** the identifier of the ad */
-        ad_aclk?: string
+        ad_aclk?: string | undefined
 
     [key: string]: any;
 
@@ -26,27 +26,27 @@ export class AdLinkElement  implements IAdLinkElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** reference page title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** link description */
 
-    description?: string;
+    description?: string | undefined;
     
     /** reference page URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain where a link points */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** the identifier of the ad */
 
-    ad_aclk?: string;
+    ad_aclk?: string | undefined;
 
     [key: string]: any;
 

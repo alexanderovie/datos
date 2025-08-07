@@ -3,64 +3,65 @@ import { ImageUrlInfo, IImageUrlInfo } from "./ImageUrlInfo";
 import { BusinessDataUserProfileInfo, IBusinessDataUserProfileInfo } from "./BusinessDataUserProfileInfo";
 import { ReviewResponseItemInfo, IReviewResponseItemInfo } from "./ReviewResponseItemInfo";
 
+
 export interface ITripadvisorReviewSearch   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the review in SERP
 can take the following values: right */
-        position?: string
+        position?: string | undefined
         
         /** URL of the review */
-        url?: string
+        url?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        date_of_visit?: string
+        date_of_visit?: string | undefined
         
         /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** ID of the review */
-        review_id?: string
+        review_id?: string | undefined
         
         /** title of the review */
-        title?: string
+        title?: string | undefined
         
         /** content of the review */
-        review_text?: string
+        review_text?: string | undefined
         
         /** language of the review text */
-        language?: string
+        language?: string | undefined
         
         /** language of the untranslated review text */
-        original_language?: string
+        original_language?: string | undefined
         
         /** contains URLs of the images used in the review */
-        review_images?: ImageUrlInfo[]
+        review_images?: ImageUrlInfo[] | undefined
         
         /** information from the reviewer’s profile */
-        user_profile?: BusinessDataUserProfileInfo
+        user_profile?: BusinessDataUserProfileInfo | undefined
         
         /** contains information about the owner’s response */
-        responses?: ReviewResponseItemInfo[]
+        responses?: ReviewResponseItemInfo[] | undefined
 
     [key: string]: any;
 
@@ -70,76 +71,76 @@ export class TripadvisorReviewSearch  implements ITripadvisorReviewSearch {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the review in SERP
 can take the following values: right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** URL of the review */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    date_of_visit?: string;
+    date_of_visit?: string | undefined;
     
     /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** ID of the review */
 
-    review_id?: string;
+    review_id?: string | undefined;
     
     /** title of the review */
 
-    title?: string;
+    title?: string | undefined;
     
     /** content of the review */
 
-    review_text?: string;
+    review_text?: string | undefined;
     
     /** language of the review text */
 
-    language?: string;
+    language?: string | undefined;
     
     /** language of the untranslated review text */
 
-    original_language?: string;
+    original_language?: string | undefined;
     
     /** contains URLs of the images used in the review */
 
-    review_images?: ImageUrlInfo[];
+    review_images?: ImageUrlInfo[] | undefined;
     
     /** information from the reviewer’s profile */
 
-    user_profile?: BusinessDataUserProfileInfo;
+    user_profile?: BusinessDataUserProfileInfo | undefined;
     
     /** contains information about the owner’s response */
 
-    responses?: ReviewResponseItemInfo[];
+    responses?: ReviewResponseItemInfo[] | undefined;
 
     [key: string]: any;
 

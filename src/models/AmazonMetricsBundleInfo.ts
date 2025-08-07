@@ -1,12 +1,13 @@
 import { AppMetricsInfo, IAppMetricsInfo } from "./AppMetricsInfo";
 
+
 export interface IAmazonMetricsBundleInfo   {
         
         /** ranking data from Amazon organic SERP */
-        amazon_serp?: AppMetricsInfo
+        amazon_serp?: AppMetricsInfo | undefined
         
         /** ranking data from Amazon paid SERP */
-        amazon_paid?: AppMetricsInfo
+        amazon_paid?: AppMetricsInfo | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class AmazonMetricsBundleInfo  implements IAmazonMetricsBundleInfo {
     
     /** ranking data from Amazon organic SERP */
 
-    amazon_serp?: AppMetricsInfo;
+    amazon_serp?: AppMetricsInfo | undefined;
     
     /** ranking data from Amazon paid SERP */
 
-    amazon_paid?: AppMetricsInfo;
+    amazon_paid?: AppMetricsInfo | undefined;
 
     [key: string]: any;
 

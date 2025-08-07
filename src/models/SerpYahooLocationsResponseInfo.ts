@@ -1,10 +1,11 @@
 import { SerpYahooLocationsTaskInfo, ISerpYahooLocationsTaskInfo } from "./SerpYahooLocationsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpYahooLocationsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpYahooLocationsTaskInfo[]
+        tasks?: SerpYahooLocationsTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYahooLocationsResponseInfo  extends BaseResponseInfo   implemen
     
     /** array of tasks */
 
-    tasks?: SerpYahooLocationsTaskInfo[];
+    tasks?: SerpYahooLocationsTaskInfo[] | undefined;
 
     [key: string]: any;
 

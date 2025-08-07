@@ -1,10 +1,11 @@
 import { DomainAnalyticsTechnologiesLanguagesResultInfo, IDomainAnalyticsTechnologiesLanguagesResultInfo } from "./DomainAnalyticsTechnologiesLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDomainAnalyticsTechnologiesLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DomainAnalyticsTechnologiesLanguagesResultInfo[]
+        result?: DomainAnalyticsTechnologiesLanguagesResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DomainAnalyticsTechnologiesLanguagesTaskInfo  extends BaseResponseT
     
     /** array of results */
 
-    result?: DomainAnalyticsTechnologiesLanguagesResultInfo[];
+    result?: DomainAnalyticsTechnologiesLanguagesResultInfo[] | undefined;
 
     [key: string]: any;
 

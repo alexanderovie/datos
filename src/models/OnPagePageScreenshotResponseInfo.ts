@@ -1,10 +1,11 @@
 import { OnPagePageScreenshotTaskInfo, IOnPagePageScreenshotTaskInfo } from "./OnPagePageScreenshotTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IOnPagePageScreenshotResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: OnPagePageScreenshotTaskInfo[]
+        tasks?: OnPagePageScreenshotTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPagePageScreenshotResponseInfo  extends BaseResponseInfo   implem
     
     /** array of tasks */
 
-    tasks?: OnPagePageScreenshotTaskInfo[];
+    tasks?: OnPagePageScreenshotTaskInfo[] | undefined;
 
     [key: string]: any;
 

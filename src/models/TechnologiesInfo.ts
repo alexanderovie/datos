@@ -1,36 +1,38 @@
 export interface ITechnologiesInfo   {
         
-        add_ons?: { [key: string]: string[]; }
+        add_ons?: { [key: string]: string[]; } | undefined
         
-        analytics?: { [key: string]: string[]; }
+        analytics?: { [key: string]: string[]; } | undefined
         
-        web_development?: { [key: string]: string[]; }
+        web_development?: { [key: string]: string[]; } | undefined
         
-        security?: { [key: string]: string[]; }
+        security?: { [key: string]: string[]; } | undefined
         
-        business_tools?: { [key: string]: string[]; }
+        business_tools?: { [key: string]: string[]; } | undefined
         
-        sales?: { [key: string]: string[]; }
+        sales?: { [key: string]: string[]; } | undefined
         
-        other?: { [key: string]: string[]; }
+        other?: { [key: string]: string[]; } | undefined
         
-        user_generated_content?: { [key: string]: string[]; }
+        user_generated_content?: { [key: string]: string[]; } | undefined
         
-        privacy?: { [key: string]: string[]; }
+        booking?: { [key: string]: string[]; } | undefined
         
-        servers?: { [key: string]: string[]; }
+        privacy?: { [key: string]: string[]; } | undefined
         
-        location?: { [key: string]: string[]; }
+        servers?: { [key: string]: string[]; } | undefined
         
-        content?: { [key: string]: string[]; }
+        location?: { [key: string]: string[]; } | undefined
         
-        media?: { [key: string]: string[]; }
+        content?: { [key: string]: string[]; } | undefined
         
-        marketing?: { [key: string]: string[]; }
+        media?: { [key: string]: string[]; } | undefined
         
-        communication?: { [key: string]: string[]; }
+        marketing?: { [key: string]: string[]; } | undefined
         
-        utilities?: { [key: string]: string[]; }
+        communication?: { [key: string]: string[]; } | undefined
+        
+        utilities?: { [key: string]: string[]; } | undefined
 
     [key: string]: any;
 
@@ -38,37 +40,39 @@ export interface ITechnologiesInfo   {
 
 export class TechnologiesInfo  implements ITechnologiesInfo {
 
-    add_ons?: { [key: string]: string[]; };
+    add_ons?: { [key: string]: string[]; } | undefined;
 
-    analytics?: { [key: string]: string[]; };
+    analytics?: { [key: string]: string[]; } | undefined;
 
-    web_development?: { [key: string]: string[]; };
+    web_development?: { [key: string]: string[]; } | undefined;
 
-    security?: { [key: string]: string[]; };
+    security?: { [key: string]: string[]; } | undefined;
 
-    business_tools?: { [key: string]: string[]; };
+    business_tools?: { [key: string]: string[]; } | undefined;
 
-    sales?: { [key: string]: string[]; };
+    sales?: { [key: string]: string[]; } | undefined;
 
-    other?: { [key: string]: string[]; };
+    other?: { [key: string]: string[]; } | undefined;
 
-    user_generated_content?: { [key: string]: string[]; };
+    user_generated_content?: { [key: string]: string[]; } | undefined;
 
-    privacy?: { [key: string]: string[]; };
+    booking?: { [key: string]: string[]; } | undefined;
 
-    servers?: { [key: string]: string[]; };
+    privacy?: { [key: string]: string[]; } | undefined;
 
-    location?: { [key: string]: string[]; };
+    servers?: { [key: string]: string[]; } | undefined;
 
-    content?: { [key: string]: string[]; };
+    location?: { [key: string]: string[]; } | undefined;
 
-    media?: { [key: string]: string[]; };
+    content?: { [key: string]: string[]; } | undefined;
 
-    marketing?: { [key: string]: string[]; };
+    media?: { [key: string]: string[]; } | undefined;
 
-    communication?: { [key: string]: string[]; };
+    marketing?: { [key: string]: string[]; } | undefined;
 
-    utilities?: { [key: string]: string[]; };
+    communication?: { [key: string]: string[]; } | undefined;
+
+    utilities?: { [key: string]: string[]; } | undefined;
 
     [key: string]: any;
 
@@ -98,6 +102,7 @@ export class TechnologiesInfo  implements ITechnologiesInfo {
             this.sales = data["sales"];
             this.other = data["other"];
             this.user_generated_content = data["user_generated_content"];
+            this.booking = data["booking"];
             this.privacy = data["privacy"];
             this.servers = data["servers"];
             this.location = data["location"];
@@ -131,6 +136,7 @@ export class TechnologiesInfo  implements ITechnologiesInfo {
         data["sales"] = this.sales;
         data["other"] = this.other;
         data["user_generated_content"] = this.user_generated_content;
+        data["booking"] = this.booking;
         data["privacy"] = this.privacy;
         data["servers"] = this.servers;
         data["location"] = this.location;

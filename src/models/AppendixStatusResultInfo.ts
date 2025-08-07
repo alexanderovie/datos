@@ -1,5 +1,6 @@
 import { AppendixStatusEndpointsInfo, IAppendixStatusEndpointsInfo } from "./AppendixStatusEndpointsInfo";
 
+
 export interface IAppendixStatusResultInfo   {
         
         /** name of the API
@@ -16,7 +17,7 @@ backlinks
 app_data
 content_analysis
 content_generation */
-        api?: string
+        api?: string | undefined
         
         /** current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -27,10 +28,10 @@ long_response_time
 long_execution_time
 webhook_delay
 send_delay */
-        status?: string
+        status?: string | undefined
         
         /** array of objects that contain status information for API endpoints */
-        endpoints?: AppendixStatusEndpointsInfo[]
+        endpoints?: AppendixStatusEndpointsInfo[] | undefined
 
     [key: string]: any;
 
@@ -53,7 +54,7 @@ app_data
 content_analysis
 content_generation */
 
-    api?: string;
+    api?: string | undefined;
     
     /** current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -65,11 +66,11 @@ long_execution_time
 webhook_delay
 send_delay */
 
-    status?: string;
+    status?: string | undefined;
     
     /** array of objects that contain status information for API endpoints */
 
-    endpoints?: AppendixStatusEndpointsInfo[];
+    endpoints?: AppendixStatusEndpointsInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,30 +1,31 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface ICommercialUnitsElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** price indicated in the element */
-        price?: PriceInfo
+        price?: PriceInfo | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string
+        source?: string | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -34,33 +35,33 @@ export class CommercialUnitsElement  implements ICommercialUnitsElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** price indicated in the element */
 
-    price?: PriceInfo;
+    price?: PriceInfo | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string;
+    source?: string | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 

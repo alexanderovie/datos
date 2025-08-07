@@ -1,34 +1,34 @@
 export interface IShoppingSpecification   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank on the product specification page
 absolute position among all the elements found on the product specification page */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** alignment of the element on the product specification page
 can take the following values:
 right */
-        position?: string
+        position?: string | undefined
         
         /** XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed */
-        block_name?: string
+        block_name?: string | undefined
         
         /** product attribute
 attribute name of the product data specification */
-        specification_name?: string
+        specification_name?: string | undefined
         
         /** content of the specification */
-        specification_value?: string
+        specification_value?: string | undefined
 
     [key: string]: any;
 
@@ -38,41 +38,41 @@ export class ShoppingSpecification  implements IShoppingSpecification {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank on the product specification page
 absolute position among all the elements found on the product specification page */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** alignment of the element on the product specification page
 can take the following values:
 right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed */
 
-    block_name?: string;
+    block_name?: string | undefined;
     
     /** product attribute
 attribute name of the product data specification */
 
-    specification_name?: string;
+    specification_name?: string | undefined;
     
     /** content of the specification */
 
-    specification_value?: string;
+    specification_value?: string | undefined;
 
     [key: string]: any;
 

@@ -5,26 +5,26 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string
+        id?: string | undefined
         
         /** number of words for a keyword
 required field
 possible values:
 1, 2, 3, 4, 5 */
-        keyword_length?: number
+        keyword_length?: number | undefined
         
         /** page URL
 optional field
 if you do not specify a page here, the results will be provided for the whole website
 if you use this field, the API response will contain only keywords from the specified page
 a page should be specified with absolute URL (including http:// or https://) */
-        url?: string
+        url?: string | undefined
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** array of results filtering parameters
 optional field
@@ -42,7 +42,7 @@ example:
 'and',
 [['frequency','>','6'],'or',['density','>','0.02']]]
 The full list of possible filters is available by this link. */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -57,14 +57,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['keyword,asc','frequency,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -78,14 +78,14 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string;
+    id?: string | undefined;
     
     /** number of words for a keyword
 required field
 possible values:
 1, 2, 3, 4, 5 */
 
-    keyword_length?: number;
+    keyword_length?: number | undefined;
     
     /** page URL
 optional field
@@ -93,14 +93,14 @@ if you do not specify a page here, the results will be provided for the whole we
 if you use this field, the API response will contain only keywords from the specified page
 a page should be specified with absolute URL (including http:// or https://) */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -119,7 +119,7 @@ example:
 [['frequency','>','6'],'or',['density','>','0.02']]]
 The full list of possible filters is available by this link. */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -135,7 +135,7 @@ you should use a comma to separate several sorting rules
 example:
 ['keyword,asc','frequency,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -143,7 +143,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

@@ -1,27 +1,28 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
 
+
 export interface IOnPagePagesResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
-        search_after_token?: string
+        search_after_token?: string | undefined
         
-        current_offset?: number
+        current_offset?: number | undefined
         
         /** total number of relevant items in the database */
-        total_items_count?: number
+        total_items_count?: number | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageResourceItem[]
+        items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -32,27 +33,27 @@ export class OnPagePagesResultInfo  implements IOnPagePagesResultInfo {
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
 
-    search_after_token?: string;
+    search_after_token?: string | undefined;
 
-    current_offset?: number;
+    current_offset?: number | undefined;
     
     /** total number of relevant items in the database */
 
-    total_items_count?: number;
+    total_items_count?: number | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: BaseOnPageResourceItem[];
+    items?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 

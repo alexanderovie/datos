@@ -1,12 +1,13 @@
 import { ContentAnalysisSummaryInfo, IContentAnalysisSummaryInfo } from "./ContentAnalysisSummaryInfo";
 
+
 export interface IPositiveConnotationDistribution   {
         
-        positive?: ContentAnalysisSummaryInfo
+        positive?: ContentAnalysisSummaryInfo | undefined
         
-        negative?: ContentAnalysisSummaryInfo
+        negative?: ContentAnalysisSummaryInfo | undefined
         
-        neutral?: ContentAnalysisSummaryInfo
+        neutral?: ContentAnalysisSummaryInfo | undefined
 
     [key: string]: any;
 
@@ -14,11 +15,11 @@ export interface IPositiveConnotationDistribution   {
 
 export class PositiveConnotationDistribution  implements IPositiveConnotationDistribution {
 
-    positive?: ContentAnalysisSummaryInfo;
+    positive?: ContentAnalysisSummaryInfo | undefined;
 
-    negative?: ContentAnalysisSummaryInfo;
+    negative?: ContentAnalysisSummaryInfo | undefined;
 
-    neutral?: ContentAnalysisSummaryInfo;
+    neutral?: ContentAnalysisSummaryInfo | undefined;
 
     [key: string]: any;
 

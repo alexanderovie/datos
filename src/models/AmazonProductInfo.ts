@@ -5,104 +5,105 @@ import { ProductCategoryInfo, IProductCategoryInfo } from "./ProductCategoryInfo
 import { BaseMerchantAmazonProductInformationElementItem, IBaseMerchantAmazonProductInformationElementItem } from "./BaseMerchantAmazonProductInformationElementItem";
 import { AmazonReviewItem, IAmazonReviewItem } from "./AmazonReviewItem";
 
+
 export interface IAmazonProductInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank
 absolute position among all the elements in the response array */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** product specs and other details */
-        details?: string
+        details?: string | undefined
         
         /** the URL of the product image */
-        image_url?: string
+        image_url?: string | undefined
         
         /** product brand name */
-        author?: string
+        author?: string | undefined
         
         /** ASIN of the product received in a POST array */
-        data_asin?: string
+        data_asin?: string | undefined
         
         /** parent ASIN of the product */
-        parent_asin?: string
+        parent_asin?: string | undefined
         
         /** ASINs of all found product modifications */
-        product_asins?: string[]
+        product_asins?: string[] | undefined
         
         /** the lower limit of the product price range
 example:
 49.98 */
-        price_from?: number
+        price_from?: number | undefined
         
         /** the upper limit of the product price range
 example:
 384.99 */
-        price_to?: number
+        price_to?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
-        is_amazon_choice?: boolean
+        is_amazon_choice?: boolean | undefined
         
         /** product rating info */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** indicates whether the newer model of the product is available */
-        is_newer_model_available?: boolean
+        is_newer_model_available?: boolean | undefined
         
         /** array of objects containing information about applicable vouchers */
-        applicable_vouchers?: AmazonApplicableVouchersItem[]
+        applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined
         
         /** information about the newer model of the product */
-        newer_model?: AmazonProductNewerModelInfo
+        newer_model?: AmazonProductNewerModelInfo | undefined
         
         /** contains related product categories */
-        categories?: ProductCategoryInfo[]
+        categories?: ProductCategoryInfo[] | undefined
         
         /** contains related product information */
-        product_information?: BaseMerchantAmazonProductInformationElementItem[]
+        product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined
         
         /** contains URLs for all images of the product displayed on the left side of the main image */
-        product_images_list?: string[]
+        product_images_list?: string[] | undefined
         
         /** contains URLs for all videos of the product displayed on the right side of the main video */
-        product_videos_list?: string[]
+        product_videos_list?: string[] | undefined
         
         /** contains description of the product */
-        description?: string
+        description?: string | undefined
         
         /** indicates whether the product is available for ordering
 if the value is true, the product can be ordered */
-        is_available?: boolean
+        is_available?: boolean | undefined
         
         /** array of objects with top reviews from target location
 to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST */
-        top_local_reviews?: AmazonReviewItem[]
+        top_local_reviews?: AmazonReviewItem[] | undefined
         
         /** array of objects with top reviews from around the world */
-        top_global_reviews?: AmazonReviewItem[]
+        top_global_reviews?: AmazonReviewItem[] | undefined
 
     [key: string]: any;
 
@@ -112,128 +113,128 @@ export class AmazonProductInfo  implements IAmazonProductInfo {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank
 absolute position among all the elements in the response array */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** product specs and other details */
 
-    details?: string;
+    details?: string | undefined;
     
     /** the URL of the product image */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** product brand name */
 
-    author?: string;
+    author?: string | undefined;
     
     /** ASIN of the product received in a POST array */
 
-    data_asin?: string;
+    data_asin?: string | undefined;
     
     /** parent ASIN of the product */
 
-    parent_asin?: string;
+    parent_asin?: string | undefined;
     
     /** ASINs of all found product modifications */
 
-    product_asins?: string[];
+    product_asins?: string[] | undefined;
     
     /** the lower limit of the product price range
 example:
 49.98 */
 
-    price_from?: number;
+    price_from?: number | undefined;
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
-    price_to?: number;
+    price_to?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
-    is_amazon_choice?: boolean;
+    is_amazon_choice?: boolean | undefined;
     
     /** product rating info */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** indicates whether the newer model of the product is available */
 
-    is_newer_model_available?: boolean;
+    is_newer_model_available?: boolean | undefined;
     
     /** array of objects containing information about applicable vouchers */
 
-    applicable_vouchers?: AmazonApplicableVouchersItem[];
+    applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
     
     /** information about the newer model of the product */
 
-    newer_model?: AmazonProductNewerModelInfo;
+    newer_model?: AmazonProductNewerModelInfo | undefined;
     
     /** contains related product categories */
 
-    categories?: ProductCategoryInfo[];
+    categories?: ProductCategoryInfo[] | undefined;
     
     /** contains related product information */
 
-    product_information?: BaseMerchantAmazonProductInformationElementItem[];
+    product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined;
     
     /** contains URLs for all images of the product displayed on the left side of the main image */
 
-    product_images_list?: string[];
+    product_images_list?: string[] | undefined;
     
     /** contains URLs for all videos of the product displayed on the right side of the main video */
 
-    product_videos_list?: string[];
+    product_videos_list?: string[] | undefined;
     
     /** contains description of the product */
 
-    description?: string;
+    description?: string | undefined;
     
     /** indicates whether the product is available for ordering
 if the value is true, the product can be ordered */
 
-    is_available?: boolean;
+    is_available?: boolean | undefined;
     
     /** array of objects with top reviews from target location
 to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST */
 
-    top_local_reviews?: AmazonReviewItem[];
+    top_local_reviews?: AmazonReviewItem[] | undefined;
     
     /** array of objects with top reviews from around the world */
 
-    top_global_reviews?: AmazonReviewItem[];
+    top_global_reviews?: AmazonReviewItem[] | undefined;
 
     [key: string]: any;
 

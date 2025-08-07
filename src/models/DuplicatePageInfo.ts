@@ -1,14 +1,15 @@
-import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IDuplicatePageInfo   {
         
         /** content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10 */
-        similarity?: number
+        similarity?: number | undefined
         
         /** information about the page with duplicate content */
-        page?: BaseOnPageResourceItem[]
+        page?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -20,11 +21,11 @@ export class DuplicatePageInfo  implements IDuplicatePageInfo {
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10 */
 
-    similarity?: number;
+    similarity?: number | undefined;
     
     /** information about the page with duplicate content */
 
-    page?: BaseOnPageResourceItem[];
+    page?: OnPageHtmlResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -50,7 +51,7 @@ can take values from 0 to 10 */
             if (Array.isArray(data["page"])) {
                 this.page = [];
                 for (let item of data["page"]) {
-                    this.page.push(BaseOnPageResourceItem.fromJS(item));
+                    this.page.push(OnPageHtmlResourceItem.fromJS(item));
                 }
             }
         }

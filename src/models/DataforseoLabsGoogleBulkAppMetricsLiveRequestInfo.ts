@@ -8,7 +8,7 @@ example:
 in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger;
 the maximum number of IDs you can specify in this field is 1000 */
-        app_ids?: string[]
+        app_ids?: string[] | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -18,7 +18,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -28,7 +28,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -38,7 +38,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the English language only;
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -48,14 +48,14 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the English language only
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -72,7 +72,7 @@ in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger;
 the maximum number of IDs you can specify in this field is 1000 */
 
-    app_ids?: string[];
+    app_ids?: string[] | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -83,7 +83,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -94,7 +94,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -105,7 +105,7 @@ Note: this endpoint currently supports the English language only;
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -116,7 +116,7 @@ Note: this endpoint currently supports the English language only
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -124,7 +124,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo, IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo } from "./DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo[]
+        tasks?: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo  extends BaseR
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo[];
+    tasks?: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

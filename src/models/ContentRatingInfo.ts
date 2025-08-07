@@ -2,19 +2,19 @@ export interface IContentRatingInfo   {
         
         /** rating name
 here you can find the following elements: Max5, Percents, CustomMax */
-        name?: string
+        name?: string | undefined
         
         /** the value of the rating */
-        rating_value?: string
+        rating_value?: string | undefined
         
         /** number of votes */
-        rating_count?: string
+        rating_count?: string | undefined
         
         /** maximum value for the rating name */
-        max_rating_value?: string
+        max_rating_value?: string | undefined
         
         /** relative rating */
-        relative_rating?: string
+        relative_rating?: string | undefined
 
     [key: string]: any;
 
@@ -25,23 +25,23 @@ export class ContentRatingInfo  implements IContentRatingInfo {
     /** rating name
 here you can find the following elements: Max5, Percents, CustomMax */
 
-    name?: string;
+    name?: string | undefined;
     
     /** the value of the rating */
 
-    rating_value?: string;
+    rating_value?: string | undefined;
     
     /** number of votes */
 
-    rating_count?: string;
+    rating_count?: string | undefined;
     
     /** maximum value for the rating name */
 
-    max_rating_value?: string;
+    max_rating_value?: string | undefined;
     
     /** relative rating */
 
-    relative_rating?: string;
+    relative_rating?: string | undefined;
 
     [key: string]: any;
 

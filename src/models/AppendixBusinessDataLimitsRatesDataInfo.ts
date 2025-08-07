@@ -3,27 +3,28 @@ import { AppendixBusinessDataDayLimitsRatesDataInfo, IAppendixBusinessDataDayLim
 import { AppendixSocialMediaBusinessDataLimitsRatesDataInfo, IAppendixSocialMediaBusinessDataLimitsRatesDataInfo } from "./AppendixSocialMediaBusinessDataLimitsRatesDataInfo";
 import { AppendixBusinessListingsBusinessDataLimitsRatesDataInfo, IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo } from "./AppendixBusinessListingsBusinessDataLimitsRatesDataInfo";
 
+
 export interface IAppendixBusinessDataLimitsRatesDataInfo   {
         
-        google?: AppendixBusinessDataGoogleInfo
+        google?: AppendixBusinessDataGoogleInfo | undefined
         
-        locations?: number
+        locations?: number | undefined
         
-        languages?: number
+        languages?: number | undefined
         
-        errors?: number
+        errors?: number | undefined
         
-        yelp?: AppendixBusinessDataDayLimitsRatesDataInfo
+        yelp?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
         
-        social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+        social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo | undefined
         
-        tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo
+        tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
         
-        trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo
+        trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
         
-        business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+        business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined
         
-        tasks_ready?: number
+        tasks_ready?: number | undefined
 
     [key: string]: any;
 
@@ -31,25 +32,25 @@ export interface IAppendixBusinessDataLimitsRatesDataInfo   {
 
 export class AppendixBusinessDataLimitsRatesDataInfo  implements IAppendixBusinessDataLimitsRatesDataInfo {
 
-    google?: AppendixBusinessDataGoogleInfo;
+    google?: AppendixBusinessDataGoogleInfo | undefined;
 
-    locations?: number;
+    locations?: number | undefined;
 
-    languages?: number;
+    languages?: number | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
-    yelp?: AppendixBusinessDataDayLimitsRatesDataInfo;
+    yelp?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
 
-    social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo;
+    social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo | undefined;
 
-    tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo;
+    tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
 
-    trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo;
+    trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
 
-    business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo;
+    business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined;
 
-    tasks_ready?: number;
+    tasks_ready?: number | undefined;
 
     [key: string]: any;
 

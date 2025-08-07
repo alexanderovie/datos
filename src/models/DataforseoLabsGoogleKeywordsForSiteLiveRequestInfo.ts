@@ -4,7 +4,7 @@ export interface IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo   {
 required field
 the domain name of the target website
 the domain should be specified without https:// */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -13,7 +13,7 @@ you can receive the list of available locations with their location_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** unique location identifier
 required field if you don’t specify location_name
@@ -22,7 +22,7 @@ you can receive the list of available locations with their location_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 optional field
@@ -33,7 +33,7 @@ example:
 English
 Note: if omitted, results default to the language with the most keyword records in the specified location;
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 optional field
@@ -44,19 +44,19 @@ example:
 en
 Note: if omitted, results default to the language with the most keyword records in the specified location;
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
-        language_code?: string
+        language_code?: string | undefined
         
         /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
-        include_serp_info?: boolean
+        include_serp_info?: boolean | undefined
         
         /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean
+        include_subdomains?: boolean | undefined
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -64,19 +64,19 @@ if the parameter is set to true, you will receive clickstream_keyword_info, key
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean
+        include_clickstream_data?: boolean | undefined
         
         /** the maximum number of keywords in the results array
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** offset token for subsequent requests
 optional field
@@ -85,7 +85,7 @@ use this parameter to avoid timeouts while trying to obtain over 10,000 results 
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task. */
-        offset_token?: string
+        offset_token?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ note that you can not filter the results by relevance
 example:
 ['keyword_info.search_volume','>',0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -113,14 +113,14 @@ relevance is used as the default sorting rule to provide you with the closest ke
 you should use a comma to separate several sorting rules
 example:
 ['relevance,desc','keyword_info.search_volume,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -133,7 +133,7 @@ required field
 the domain name of the target website
 the domain should be specified without https:// */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -143,7 +143,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -153,7 +153,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 optional field
@@ -165,7 +165,7 @@ English
 Note: if omitted, results default to the language with the most keyword records in the specified location;
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 optional field
@@ -177,21 +177,21 @@ en
 Note: if omitted, results default to the language with the most keyword records in the specified location;
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false */
 
-    include_serp_info?: boolean;
+    include_serp_info?: boolean | undefined;
     
     /** indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean;
+    include_subdomains?: boolean | undefined;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -200,21 +200,21 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean;
+    include_clickstream_data?: boolean | undefined;
     
     /** the maximum number of keywords in the results array
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** offset token for subsequent requests
 optional field
@@ -224,7 +224,7 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task. */
 
-    offset_token?: string;
+    offset_token?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -238,7 +238,7 @@ example:
 ['keyword_info.search_volume','>',0]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -254,7 +254,7 @@ you should use a comma to separate several sorting rules
 example:
 ['relevance,desc','keyword_info.search_volume,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -262,7 +262,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

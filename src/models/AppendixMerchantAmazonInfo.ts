@@ -1,12 +1,13 @@
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 
+
 export interface IAppendixMerchantAmazonInfo   {
         
-        asin?: AppendixSerpDaysRatesDataInfo
+        asin?: AppendixSerpDaysRatesDataInfo | undefined
         
-        products?: AppendixSerpDaysRatesDataInfo
+        products?: AppendixSerpDaysRatesDataInfo | undefined
         
-        sellers?: AppendixSerpDaysRatesDataInfo
+        sellers?: AppendixSerpDaysRatesDataInfo | undefined
 
     [key: string]: any;
 
@@ -14,11 +15,11 @@ export interface IAppendixMerchantAmazonInfo   {
 
 export class AppendixMerchantAmazonInfo  implements IAppendixMerchantAmazonInfo {
 
-    asin?: AppendixSerpDaysRatesDataInfo;
+    asin?: AppendixSerpDaysRatesDataInfo | undefined;
 
-    products?: AppendixSerpDaysRatesDataInfo;
+    products?: AppendixSerpDaysRatesDataInfo | undefined;
 
-    sellers?: AppendixSerpDaysRatesDataInfo;
+    sellers?: AppendixSerpDaysRatesDataInfo | undefined;
 
     [key: string]: any;
 

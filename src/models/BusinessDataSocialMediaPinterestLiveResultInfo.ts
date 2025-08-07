@@ -1,16 +1,16 @@
 export interface IBusinessDataSocialMediaPinterestLiveResultInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
-        page_url?: string
+        page_url?: string | undefined
         
         /** number of pins for the related page_url
 pins on Pinterest correspond to content saves;
 this field shows the number of content saves made from the related page_url using the Pinterest Save Button */
-        pins_count?: number
+        pins_count?: number | undefined
 
     [key: string]: any;
 
@@ -20,18 +20,18 @@ export class BusinessDataSocialMediaPinterestLiveResultInfo  implements IBusines
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
 
-    page_url?: string;
+    page_url?: string | undefined;
     
     /** number of pins for the related page_url
 pins on Pinterest correspond to content saves;
 this field shows the number of content saves made from the related page_url using the Pinterest Save Button */
 
-    pins_count?: number;
+    pins_count?: number | undefined;
 
     [key: string]: any;
 

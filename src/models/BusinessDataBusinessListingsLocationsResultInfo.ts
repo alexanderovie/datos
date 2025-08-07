@@ -1,13 +1,13 @@
 export interface IBusinessDataBusinessListingsLocationsResultInfo   {
         
         /** full name of the location */
-        location_name?: string
+        location_name?: string | undefined
         
         /** ISO country code of the location */
-        country_iso_code?: string
+        country_iso_code?: string | undefined
         
         /** number of businesses in this location in our database */
-        business_count?: number
+        business_count?: number | undefined
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class BusinessDataBusinessListingsLocationsResultInfo  implements IBusine
     
     /** full name of the location */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string;
+    country_iso_code?: string | undefined;
     
     /** number of businesses in this location in our database */
 
-    business_count?: number;
+    business_count?: number | undefined;
 
     [key: string]: any;
 

@@ -1,44 +1,45 @@
 import { TripadvisorSearchOrganic, ITripadvisorSearchOrganic } from "./TripadvisorSearchOrganic";
 
+
 export interface IBusinessDataTripadvisorSearchTaskGetResultInfo   {
         
         /** keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search engine domain in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** item types encountered in the result
 possible item types: tripadvisor_search_organic */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** the total number of results */
-        se_results_count?: number
+        se_results_count?: number | undefined
         
         /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number
+        items_count?: number | undefined
         
         /** Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task */
-        items?: TripadvisorSearchOrganic[]
+        items?: TripadvisorSearchOrganic[] | undefined
 
     [key: string]: any;
 
@@ -49,50 +50,50 @@ export class BusinessDataTripadvisorSearchTaskGetResultInfo  implements IBusines
     /** keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** item types encountered in the result
 possible item types: tripadvisor_search_organic */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** the total number of results */
 
-    se_results_count?: number;
+    se_results_count?: number | undefined;
     
     /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task */
 
-    items?: TripadvisorSearchOrganic[];
+    items?: TripadvisorSearchOrganic[] | undefined;
 
     [key: string]: any;
 

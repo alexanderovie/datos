@@ -6,7 +6,7 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[]
+        keywords?: string[] | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -14,7 +14,7 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages
 example:
 London,England,United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -22,7 +22,7 @@ if you use this field, you don’t need to specify location_name or location_coo
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -31,26 +31,26 @@ location_coordinate parameter should be specified in the “latitude,longitude�
 the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142 */
-        location_coordinate?: string
+        location_coordinate?: string | undefined
         
         /** full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
-        language_code?: string
+        language_code?: string | undefined
         
         /** device types
 optional field
 specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
 default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
-        device?: string[]
+        device?: string[] | undefined
         
         /** aggregates the returned data to a certain time period
 optional field
@@ -60,7 +60,7 @@ monthly – returns data up to past 24 months
 weekly – returns data up to past 15 weeks
 daily – returns data up to past 45 days
 default value:  monthly */
-        period?: string
+        period?: string | undefined
         
         /** starting date of the time range
 optional field
@@ -74,7 +74,7 @@ Note 2: if date_from and date_to parameters are not specified, the data will be 
 if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
-        date_from?: string
+        date_from?: string | undefined
         
         /** ending date of the time range
 optional field
@@ -88,14 +88,14 @@ Note 2: if date_from and date_to parameters are not specified, the data will be 
 if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
-        date_to?: string
+        date_to?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -110,7 +110,7 @@ The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[];
+    keywords?: string[] | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -119,7 +119,7 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -128,7 +128,7 @@ you can receive the list of available locations of the search engines with their
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -138,21 +138,21 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142 */
 
-    location_coordinate?: string;
+    location_coordinate?: string | undefined;
     
     /** full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** device types
 optional field
@@ -160,7 +160,7 @@ specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
 default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
 
-    device?: string[];
+    device?: string[] | undefined;
     
     /** aggregates the returned data to a certain time period
 optional field
@@ -171,7 +171,7 @@ weekly – returns data up to past 15 weeks
 daily – returns data up to past 45 days
 default value:  monthly */
 
-    period?: string;
+    period?: string | undefined;
     
     /** starting date of the time range
 optional field
@@ -186,7 +186,7 @@ if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
-    date_from?: string;
+    date_from?: string | undefined;
     
     /** ending date of the time range
 optional field
@@ -201,7 +201,7 @@ if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
-    date_to?: string;
+    date_to?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -209,7 +209,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

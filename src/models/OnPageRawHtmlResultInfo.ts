@@ -1,20 +1,21 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
 import { OnPageRawHtmlItem, IOnPageRawHtmlItem } from "./OnPageRawHtmlItem";
 
+
 export interface IOnPageRawHtmlResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
-        /** items array */
-        items?: OnPageRawHtmlItem
+        /** items object */
+        items?: OnPageRawHtmlItem | undefined
 
     [key: string]: any;
 
@@ -25,19 +26,19 @@ export class OnPageRawHtmlResultInfo  implements IOnPageRawHtmlResultInfo {
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
-    /** items array */
+    /** items object */
 
-    items?: OnPageRawHtmlItem;
+    items?: OnPageRawHtmlItem | undefined;
 
     [key: string]: any;
 

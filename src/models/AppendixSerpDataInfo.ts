@@ -1,29 +1,30 @@
 import { AppendixFunctionTypeInfo, IAppendixFunctionTypeInfo } from "./AppendixFunctionTypeInfo";
 import { AppendixJobsSerpLimitsRatesDataInfo, IAppendixJobsSerpLimitsRatesDataInfo } from "./AppendixJobsSerpLimitsRatesDataInfo";
 
+
 export interface IAppendixSerpDataInfo   {
         
-        task_post?: number
+        task_post?: number | undefined
         
-        task_get?: AppendixFunctionTypeInfo
+        task_get?: AppendixFunctionTypeInfo | undefined
         
-        tasks_ready?: number
+        tasks_ready?: number | undefined
         
-        locations?: number
+        locations?: number | undefined
         
-        languages?: number
+        languages?: number | undefined
         
-        live?: AppendixFunctionTypeInfo
+        live?: AppendixFunctionTypeInfo | undefined
         
-        errors?: number
+        errors?: number | undefined
         
-        tasks_fixed?: number
+        tasks_fixed?: number | undefined
         
-        jobs?: AppendixJobsSerpLimitsRatesDataInfo
+        jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined
         
-        screenshot?: number
+        screenshot?: number | undefined
         
-        tasks_ready_queue?: number
+        tasks_ready_queue?: number | undefined
 
     [key: string]: any;
 
@@ -31,27 +32,27 @@ export interface IAppendixSerpDataInfo   {
 
 export class AppendixSerpDataInfo  implements IAppendixSerpDataInfo {
 
-    task_post?: number;
+    task_post?: number | undefined;
 
-    task_get?: AppendixFunctionTypeInfo;
+    task_get?: AppendixFunctionTypeInfo | undefined;
 
-    tasks_ready?: number;
+    tasks_ready?: number | undefined;
 
-    locations?: number;
+    locations?: number | undefined;
 
-    languages?: number;
+    languages?: number | undefined;
 
-    live?: AppendixFunctionTypeInfo;
+    live?: AppendixFunctionTypeInfo | undefined;
 
-    errors?: number;
+    errors?: number | undefined;
 
-    tasks_fixed?: number;
+    tasks_fixed?: number | undefined;
 
-    jobs?: AppendixJobsSerpLimitsRatesDataInfo;
+    jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined;
 
-    screenshot?: number;
+    screenshot?: number | undefined;
 
-    tasks_ready_queue?: number;
+    tasks_ready_queue?: number | undefined;
 
     [key: string]: any;
 

@@ -12,6 +12,7 @@
 **sales** | **{ [key: string]: string[]; }** |  |[optional]|
 **other** | **{ [key: string]: string[]; }** |  |[optional]|
 **user_generated_content** | **{ [key: string]: string[]; }** |  |[optional]|
+**booking** | **{ [key: string]: string[]; }** |  |[optional]|
 **privacy** | **{ [key: string]: string[]; }** |  |[optional]|
 **servers** | **{ [key: string]: string[]; }** |  |[optional]|
 **location** | **{ [key: string]: string[]; }** |  |[optional]|

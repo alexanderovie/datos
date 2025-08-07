@@ -1,11 +1,12 @@
 import { DataforseoLabsGoogleHistoricalSerpsLiveResultInfo, IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo } from "./DataforseoLabsGoogleHistoricalSerpsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results
 the array includes objects with SERPs for each month within the specified time frame */
-        result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[]
+        result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -16,7 +17,7 @@ export class DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends BaseRespon
     /** array of results
 the array includes objects with SERPs for each month within the specified time frame */
 
-    result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[];
+    result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

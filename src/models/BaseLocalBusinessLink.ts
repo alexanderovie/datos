@@ -1,9 +1,10 @@
 import { LocalBusinessDeliveryServiceInfo, ILocalBusinessDeliveryServiceInfo } from "./LocalBusinessDeliveryServiceInfo";
 
+
 export interface IBaseLocalBusinessLink   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
 
     [key: string]: any;
 
@@ -13,7 +14,7 @@ export class BaseLocalBusinessLink  implements IBaseLocalBusinessLink {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
 
     [key: string]: any;
 
@@ -85,10 +86,10 @@ export interface ILocalBusinessReservationLink  extends IBaseLocalBusinessLink  
         
         /** title of the element
 domain of the reservation software */
-        title?: string
+        title?: string | undefined
         
         /** URL to make a reservation */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -99,11 +100,11 @@ export class LocalBusinessReservationLink  extends BaseLocalBusinessLink   imple
     /** title of the element
 domain of the reservation software */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to make a reservation */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 
@@ -151,7 +152,7 @@ domain of the reservation software */
 export interface ILocalBusinessOrderLink  extends IBaseLocalBusinessLink    {
         
         /** lists available delivery services */
-        delivery_services?: LocalBusinessDeliveryServiceInfo[]
+        delivery_services?: LocalBusinessDeliveryServiceInfo[] | undefined
 
     [key: string]: any;
 
@@ -161,7 +162,7 @@ export class LocalBusinessOrderLink  extends BaseLocalBusinessLink   implements 
     
     /** lists available delivery services */
 
-    delivery_services?: LocalBusinessDeliveryServiceInfo[];
+    delivery_services?: LocalBusinessDeliveryServiceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -221,10 +222,10 @@ export interface ILocalBusinessMenuLink  extends IBaseLocalBusinessLink    {
         
         /** title of the element
 domain of the online menu system */
-        title?: string
+        title?: string | undefined
         
         /** URL to view the menu */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -235,11 +236,11 @@ export class LocalBusinessMenuLink  extends BaseLocalBusinessLink   implements I
     /** title of the element
 domain of the online menu system */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to view the menu */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 

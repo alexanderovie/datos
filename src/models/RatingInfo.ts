@@ -2,16 +2,16 @@ export interface IRatingInfo   {
         
         /** the type of rating
 here you can find the following elements: Max5, Percents, CustomMax */
-        rating_type?: string
+        rating_type?: string | undefined
         
         /** the value of the rating */
-        value?: number
+        value?: number | undefined
         
         /** the amount of feedback */
-        votes_count?: number
+        votes_count?: number | undefined
         
         /** the maximum value for a rating_type */
-        rating_max?: number
+        rating_max?: number | undefined
 
     [key: string]: any;
 
@@ -22,19 +22,19 @@ export class RatingInfo  implements IRatingInfo {
     /** the type of rating
 here you can find the following elements: Max5, Percents, CustomMax */
 
-    rating_type?: string;
+    rating_type?: string | undefined;
     
     /** the value of the rating */
 
-    value?: number;
+    value?: number | undefined;
     
     /** the amount of feedback */
 
-    votes_count?: number;
+    votes_count?: number | undefined;
     
     /** the maximum value for a rating_type */
 
-    rating_max?: number;
+    rating_max?: number | undefined;
 
     [key: string]: any;
 

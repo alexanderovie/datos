@@ -1,10 +1,11 @@
 import { AppDataAppleAppReviewsTaskGetAdvancedResultInfo, IAppDataAppleAppReviewsTaskGetAdvancedResultInfo } from "./AppDataAppleAppReviewsTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataAppleAppReviewsTaskGetAdvancedResultInfo[]
+        result?: AppDataAppleAppReviewsTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppDataAppleAppReviewsTaskGetAdvancedTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: AppDataAppleAppReviewsTaskGetAdvancedResultInfo[];
+    result?: AppDataAppleAppReviewsTaskGetAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

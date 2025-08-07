@@ -1,10 +1,11 @@
 import { BusinessDataSocialMediaRedditLiveResultInfo, IBusinessDataSocialMediaRedditLiveResultInfo } from "./BusinessDataSocialMediaRedditLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBusinessDataSocialMediaRedditLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataSocialMediaRedditLiveResultInfo[]
+        result?: BusinessDataSocialMediaRedditLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BusinessDataSocialMediaRedditLiveTaskInfo  extends BaseResponseTask
     
     /** array of results */
 
-    result?: BusinessDataSocialMediaRedditLiveResultInfo[];
+    result?: BusinessDataSocialMediaRedditLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

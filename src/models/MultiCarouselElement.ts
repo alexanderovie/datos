@@ -1,15 +1,16 @@
 import { SerpApiCarouselElement, ISerpApiCarouselElement } from "./SerpApiCarouselElement";
 
+
 export interface IMultiCarouselElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** multi_carousel_snippet results */
-        multi_carousel_snippets?: SerpApiCarouselElement[]
+        multi_carousel_snippets?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** multi_carousel_snippet results */
 
-    multi_carousel_snippets?: SerpApiCarouselElement[];
+    multi_carousel_snippets?: SerpApiCarouselElement[] | undefined;
 
     [key: string]: any;
 

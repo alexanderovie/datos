@@ -4,7 +4,7 @@ export interface IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo   {
 required field
 the domain or subdomain name of the target website
 the domain or subdomain should be specified without https:// and www. */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -13,7 +13,7 @@ you can receive the list of available locations with their location_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -22,7 +22,7 @@ you can receive the list of available locations with their location_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -31,7 +31,7 @@ you can receive the list of available languages with their language_name by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -40,14 +40,14 @@ you can receive the list of available languages with their language_code by maki
 https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** indicates if the subcategories will be included in the search
 optional field
 if set to false, the subcategories will be ignored
 default value: false
 learn more about the parameter in this help center article */
-        include_subcategories?: boolean
+        include_subcategories?: boolean | undefined
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -55,7 +55,7 @@ if the parameter is set to true, you will receive clickstream_etv, clickstream_
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean
+        include_clickstream_data?: boolean | undefined
         
         /** display results by item type
 optional field
@@ -65,7 +65,7 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** array of results filtering parameters
 optional field
@@ -79,7 +79,7 @@ example:
 'or',
 ['metrics.organic.etv','in',[10,100]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -97,26 +97,26 @@ example:
 default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned categories
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned categories 
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -129,7 +129,7 @@ required field
 the domain or subdomain name of the target website
 the domain or subdomain should be specified without https:// and www. */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -139,7 +139,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -149,7 +149,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -159,7 +159,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -169,7 +169,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** indicates if the subcategories will be included in the search
 optional field
@@ -177,7 +177,7 @@ if set to false, the subcategories will be ignored
 default value: false
 learn more about the parameter in this help center article */
 
-    include_subcategories?: boolean;
+    include_subcategories?: boolean | undefined;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -186,7 +186,7 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean;
+    include_clickstream_data?: boolean | undefined;
     
     /** display results by item type
 optional field
@@ -197,7 +197,7 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -212,7 +212,7 @@ example:
 ['metrics.organic.etv','in',[10,100]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -231,21 +231,21 @@ default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned categories
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned categories 
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -253,7 +253,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

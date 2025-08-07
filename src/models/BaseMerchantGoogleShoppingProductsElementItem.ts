@@ -3,26 +3,27 @@ import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
 import { StoresCountInfo, IStoresCountInfo } from "./StoresCountInfo";
 import { GoogleShoppingSponsoredCarouselElement, IGoogleShoppingSponsoredCarouselElement } from "./GoogleShoppingSponsoredCarouselElement";
 
+
 export interface IBaseMerchantGoogleShoppingProductsElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -32,27 +33,27 @@ export class BaseMerchantGoogleShoppingProductsElementItem  implements IBaseMerc
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 
@@ -138,43 +139,43 @@ export interface IGoogleShoppingSerpElementItem  extends IBaseMerchantGoogleShop
         
         /** domain of the URL
 domain of the URL where a special offer is posted */
-        domain?: string
+        domain?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** description of the product in Google Shopping SERP */
-        description?: string
+        description?: string | undefined
         
         /** URL pointing at special offer page
 URL where a special offer is posted */
-        url?: string
+        url?: string | undefined
         
         /** URL to the product page on Google Shopping */
-        shopping_url?: string
+        shopping_url?: string | undefined
         
         /** tags assigned to the product */
-        tags?: string[]
+        tags?: string[] | undefined
         
         /** product price
 example:
 384.99 */
-        price?: number
+        price?: number | undefined
         
         /** price multiplier for instalment plan
 indicates the number of months covered by the monthly payment for the product */
-        price_multiplier?: number
+        price_multiplier?: number | undefined
         
         /** product old price
 displayed if the product price has been changed
 example:
 499 */
-        old_price?: number
+        old_price?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -182,55 +183,55 @@ if there are no values, you will get null
 example:
 4485466949985702538
 learn more about the parameter in this help center guide */
-        product_id?: string
+        product_id?: string | undefined
         
         /** unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
 example:
 17363035694596624076 */
-        data_docid?: string
+        data_docid?: string | undefined
         
         /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
-        seller?: string
+        seller?: string | undefined
         
         /** object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint */
-        additional_specifications?: { [key: string]: string; }
+        additional_specifications?: { [key: string]: string; } | undefined
         
         /** number of product reviews
 indicates the number of reviews left by users on Google Shopping
 if there are no values, you will get null */
-        reviews_count?: number
+        reviews_count?: number | undefined
         
         /** “best match” label
 if the value is true, the product is marked with the “best match” label
 if there are no values, you will get null */
-        is_best_match?: boolean
+        is_best_match?: boolean | undefined
         
         /** product rating
 the product popularity rate based on product reviews */
-        product_rating?: RatingElement
+        product_rating?: RatingElement | undefined
         
         /** shop rating
 the popularity rate of the seller based on user reviews */
-        shop_rating?: RatingElement
+        shop_rating?: RatingElement | undefined
         
         /** URLs to the images of the product
 the first URL in the array is the featured image of the product */
-        product_images?: string[]
+        product_images?: string[] | undefined
         
         /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
-        shop_ad_aclk?: string
+        shop_ad_aclk?: string | undefined
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: DeliveryInfo
+        delivery_info?: DeliveryInfo | undefined
         
         /** stores count information
 contains information about the number of stores that offer the same product */
-        stores_count_info?: StoresCountInfo
+        stores_count_info?: StoresCountInfo | undefined
 
     [key: string]: any;
 
@@ -241,52 +242,52 @@ export class GoogleShoppingSerpElementItem  extends BaseMerchantGoogleShoppingPr
     /** domain of the URL
 domain of the URL where a special offer is posted */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the product in Google Shopping SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** URL pointing at special offer page
 URL where a special offer is posted */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL to the product page on Google Shopping */
 
-    shopping_url?: string;
+    shopping_url?: string | undefined;
     
     /** tags assigned to the product */
 
-    tags?: string[];
+    tags?: string[] | undefined;
     
     /** product price
 example:
 384.99 */
 
-    price?: number;
+    price?: number | undefined;
     
     /** price multiplier for instalment plan
 indicates the number of months covered by the monthly payment for the product */
 
-    price_multiplier?: number;
+    price_multiplier?: number | undefined;
     
     /** product old price
 displayed if the product price has been changed
 example:
 499 */
 
-    old_price?: number;
+    old_price?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -295,66 +296,66 @@ example:
 4485466949985702538
 learn more about the parameter in this help center guide */
 
-    product_id?: string;
+    product_id?: string | undefined;
     
     /** unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
 example:
 17363035694596624076 */
 
-    data_docid?: string;
+    data_docid?: string | undefined;
     
     /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
 
-    seller?: string;
+    seller?: string | undefined;
     
     /** object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint */
 
-    additional_specifications?: { [key: string]: string; };
+    additional_specifications?: { [key: string]: string; } | undefined;
     
     /** number of product reviews
 indicates the number of reviews left by users on Google Shopping
 if there are no values, you will get null */
 
-    reviews_count?: number;
+    reviews_count?: number | undefined;
     
     /** “best match” label
 if the value is true, the product is marked with the “best match” label
 if there are no values, you will get null */
 
-    is_best_match?: boolean;
+    is_best_match?: boolean | undefined;
     
     /** product rating
 the product popularity rate based on product reviews */
 
-    product_rating?: RatingElement;
+    product_rating?: RatingElement | undefined;
     
     /** shop rating
 the popularity rate of the seller based on user reviews */
 
-    shop_rating?: RatingElement;
+    shop_rating?: RatingElement | undefined;
     
     /** URLs to the images of the product
 the first URL in the array is the featured image of the product */
 
-    product_images?: string[];
+    product_images?: string[] | undefined;
     
     /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
 
-    shop_ad_aclk?: string;
+    shop_ad_aclk?: string | undefined;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: DeliveryInfo;
+    delivery_info?: DeliveryInfo | undefined;
     
     /** stores count information
 contains information about the number of stores that offer the same product */
 
-    stores_count_info?: StoresCountInfo;
+    stores_count_info?: StoresCountInfo | undefined;
 
     [key: string]: any;
 
@@ -442,20 +443,20 @@ contains information about the number of stores that offer the same product */
 export interface IGoogleShoppingPaidElementItem  extends IBaseMerchantGoogleShoppingProductsElementItem    {
         
         /** domain in SERP */
-        domain?: string
+        domain?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** description of the product in Google Shopping SERP */
-        description?: string
+        description?: string | undefined
         
         /** URL to the product page on the seller’s website */
-        url?: string
+        url?: string | undefined
         
         /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
-        shop_ad_aclk?: string
+        shop_ad_aclk?: string | undefined
 
     [key: string]: any;
 
@@ -465,24 +466,24 @@ export class GoogleShoppingPaidElementItem  extends BaseMerchantGoogleShoppingPr
     
     /** domain in SERP */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the product in Google Shopping SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** URL to the product page on the seller’s website */
 
-    url?: string;
+    url?: string | undefined;
     
     /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
 
-    shop_ad_aclk?: string;
+    shop_ad_aclk?: string | undefined;
 
     [key: string]: any;
 
@@ -536,10 +537,10 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 export interface IGoogleShoppingSponsoredCarouselElementItem  extends IBaseMerchantGoogleShoppingProductsElementItem    {
         
         /** title of the special offer */
-        title?: string
+        title?: string | undefined
         
         /** items in SERP */
-        items?: GoogleShoppingSponsoredCarouselElement[]
+        items?: GoogleShoppingSponsoredCarouselElement[] | undefined
 
     [key: string]: any;
 
@@ -549,11 +550,11 @@ export class GoogleShoppingSponsoredCarouselElementItem  extends BaseMerchantGoo
     
     /** title of the special offer */
 
-    title?: string;
+    title?: string | undefined;
     
     /** items in SERP */
 
-    items?: GoogleShoppingSponsoredCarouselElement[];
+    items?: GoogleShoppingSponsoredCarouselElement[] | undefined;
 
     [key: string]: any;
 
@@ -615,7 +616,7 @@ export interface IRelatedSearchesElementItem  extends IBaseMerchantGoogleShoppin
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: string[]
+        items?: string[] | undefined
 
     [key: string]: any;
 
@@ -626,7 +627,7 @@ export class RelatedSearchesElementItem  extends BaseMerchantGoogleShoppingProdu
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: string[];
+    items?: string[] | undefined;
 
     [key: string]: any;
 

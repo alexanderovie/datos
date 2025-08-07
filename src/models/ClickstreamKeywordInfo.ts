@@ -1,27 +1,28 @@
 import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
 
+
 export interface IClickstreamKeywordInfo   {
         
         /** current search volume rate of a keyword */
-        search_volume?: number
+        search_volume?: number | undefined
         
         /** date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        last_updated_time?: string
+        last_updated_time?: string | undefined
         
         /** distribution of estimated clickstream-based metrics by gender
 learn more about how the metric is calculated in this help center article */
-        gender_distribution?: { [key: string]: number; }
+        gender_distribution?: { [key: string]: number; } | undefined
         
         /** distribution of clickstream-based metrics by age
 learn more about how the metric is calculated in this help center article */
-        age_distribution?: { [key: string]: number; }
+        age_distribution?: { [key: string]: number; } | undefined
         
         /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
-        monthly_searches?: MonthlySearchesInfo[]
+        monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
 
@@ -31,29 +32,29 @@ export class ClickstreamKeywordInfo  implements IClickstreamKeywordInfo {
     
     /** current search volume rate of a keyword */
 
-    search_volume?: number;
+    search_volume?: number | undefined;
     
     /** date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    last_updated_time?: string;
+    last_updated_time?: string | undefined;
     
     /** distribution of estimated clickstream-based metrics by gender
 learn more about how the metric is calculated in this help center article */
 
-    gender_distribution?: { [key: string]: number; };
+    gender_distribution?: { [key: string]: number; } | undefined;
     
     /** distribution of clickstream-based metrics by age
 learn more about how the metric is calculated in this help center article */
 
-    age_distribution?: { [key: string]: number; };
+    age_distribution?: { [key: string]: number; } | undefined;
     
     /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
 
-    monthly_searches?: MonthlySearchesInfo[];
+    monthly_searches?: MonthlySearchesInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,20 +1,20 @@
 export interface ILocationInfo   {
         
         /** name of the event’s venue */
-        name?: string
+        name?: string | undefined
         
         /** address of the event’s venue */
-        address?: string
+        address?: string | undefined
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** google-defined client id
 can be used with Google Reviews API to get a full list of reviews */
-        cid?: string
+        cid?: string | undefined
         
         /** the unique identifier of the element in SERP */
-        feature_id?: string
+        feature_id?: string | undefined
 
     [key: string]: any;
 
@@ -24,24 +24,24 @@ export class LocationInfo  implements ILocationInfo {
     
     /** name of the event’s venue */
 
-    name?: string;
+    name?: string | undefined;
     
     /** address of the event’s venue */
 
-    address?: string;
+    address?: string | undefined;
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** google-defined client id
 can be used with Google Reviews API to get a full list of reviews */
 
-    cid?: string;
+    cid?: string | undefined;
     
     /** the unique identifier of the element in SERP */
 
-    feature_id?: string;
+    feature_id?: string | undefined;
 
     [key: string]: any;
 

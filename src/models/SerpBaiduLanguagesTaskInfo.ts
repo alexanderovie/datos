@@ -1,10 +1,11 @@
 import { SerpBaiduLanguagesResultInfo, ISerpBaiduLanguagesResultInfo } from "./SerpBaiduLanguagesResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpBaiduLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBaiduLanguagesResultInfo[]
+        result?: SerpBaiduLanguagesResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBaiduLanguagesTaskInfo  extends BaseResponseTaskInfo   implemen
     
     /** array of results */
 
-    result?: SerpBaiduLanguagesResultInfo[];
+    result?: SerpBaiduLanguagesResultInfo[] | undefined;
 
     [key: string]: any;
 

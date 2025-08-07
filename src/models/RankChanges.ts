@@ -3,19 +3,19 @@ export interface IRankChanges   {
         /** previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
 if this element is new, the value will be null */
-        previous_rank_absolute?: number
+        previous_rank_absolute?: number | undefined
         
         /** element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element */
-        is_new?: boolean
+        is_new?: boolean | undefined
         
         /** rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check */
-        is_up?: boolean
+        is_up?: boolean | undefined
         
         /** rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check */
-        is_down?: boolean
+        is_down?: boolean | undefined
 
     [key: string]: any;
 
@@ -27,22 +27,22 @@ export class RankChanges  implements IRankChanges {
 indicates previous rank of the element in Google SERP;
 if this element is new, the value will be null */
 
-    previous_rank_absolute?: number;
+    previous_rank_absolute?: number | undefined;
     
     /** element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element */
 
-    is_new?: boolean;
+    is_new?: boolean | undefined;
     
     /** rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check */
 
-    is_up?: boolean;
+    is_up?: boolean | undefined;
     
     /** rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check */
 
-    is_down?: boolean;
+    is_down?: boolean | undefined;
 
     [key: string]: any;
 

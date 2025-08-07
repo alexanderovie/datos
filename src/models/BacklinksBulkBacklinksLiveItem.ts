@@ -1,10 +1,10 @@
 export interface IBacklinksBulkBacklinksLiveItem   {
         
         /** domain, subdomain or webpage from a POST array */
-        target?: string
+        target?: string | undefined
         
         /** number of backlinks pointing to the target */
-        backlinks?: number
+        backlinks?: number | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class BacklinksBulkBacklinksLiveItem  implements IBacklinksBulkBacklinksL
     
     /** domain, subdomain or webpage from a POST array */
 
-    target?: string;
+    target?: string | undefined;
     
     /** number of backlinks pointing to the target */
 
-    backlinks?: number;
+    backlinks?: number | undefined;
 
     [key: string]: any;
 

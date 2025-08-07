@@ -7,7 +7,7 @@ you can find the ID in the URL of every app listed on App Store;
 example:
 in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320 */
-        app_id?: string
+        app_id?: string | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -17,7 +17,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 United States */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -27,7 +27,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the US location only;
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 required field if you don’t specify language_code
@@ -37,7 +37,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the English language only;
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 required field if you don’t specify language_name
@@ -47,7 +47,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 Note: this endpoint currently supports the English language only
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -62,7 +62,7 @@ example:
 'or',
 ['sum_position','>=','10000']]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -80,26 +80,26 @@ example:
 default rule:
 ['intersections,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten apps in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -115,7 +115,7 @@ example:
 in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320 */
 
-    app_id?: string;
+    app_id?: string | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -126,7 +126,7 @@ Note: this endpoint currently supports the US location only;
 example:
 United States */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -137,7 +137,7 @@ Note: this endpoint currently supports the US location only;
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -148,7 +148,7 @@ Note: this endpoint currently supports the English language only;
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 required field if you don’t specify language_name
@@ -159,7 +159,7 @@ Note: this endpoint currently supports the English language only
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -175,7 +175,7 @@ example:
 ['sum_position','>=','10000']]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -194,21 +194,21 @@ default rule:
 ['intersections,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten apps in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -216,7 +216,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

@@ -1,26 +1,26 @@
 export interface IDomainAnalyticsTechnologiesTechnologyStatsLiveItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** date for which the data is provided */
-        date?: string
+        date?: string | undefined
         
         /** number of domains that use the specified technology */
-        domains_count?: number
+        domains_count?: number | undefined
         
         /** distribution of websites by country
 contains country codes and number of websites per country */
-        countries?: { [key: string]: number; }
+        countries?: { [key: string]: number; } | undefined
         
         /** distribution of websites by language
 contains language codes and number of websites per language */
-        languages?: { [key: string]: number; }
+        languages?: { [key: string]: number; } | undefined
         
         /** distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
 learn more about rank and how it is calculated in this help center article */
-        domains_rank?: { [key: string]: number; }
+        domains_rank?: { [key: string]: number; } | undefined
 
     [key: string]: any;
 
@@ -30,31 +30,31 @@ export class DomainAnalyticsTechnologiesTechnologyStatsLiveItem  implements IDom
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** date for which the data is provided */
 
-    date?: string;
+    date?: string | undefined;
     
     /** number of domains that use the specified technology */
 
-    domains_count?: number;
+    domains_count?: number | undefined;
     
     /** distribution of websites by country
 contains country codes and number of websites per country */
 
-    countries?: { [key: string]: number; };
+    countries?: { [key: string]: number; } | undefined;
     
     /** distribution of websites by language
 contains language codes and number of websites per language */
 
-    languages?: { [key: string]: number; };
+    languages?: { [key: string]: number; } | undefined;
     
     /** distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
 learn more about rank and how it is calculated in this help center article */
 
-    domains_rank?: { [key: string]: number; };
+    domains_rank?: { [key: string]: number; } | undefined;
 
     [key: string]: any;
 

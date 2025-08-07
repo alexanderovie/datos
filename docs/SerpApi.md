@@ -216,8 +216,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
-   task.datetime_from = "2025-04-17 06:05:20 +00:00";
-   task.datetime_to = "2025-06-17 06:05:20 +00:00";
+   task.datetime_from = "2025-05-06 08:27:31 +00:00";
+   task.datetime_to = "2025-07-06 08:27:31 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -968,7 +968,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "ea0a6ce2-0475-4df3-b2ec-55dfd875fd4a";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleOrganicTaskGetHtml(id);
 ```
 
@@ -1491,7 +1491,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "9525767b-1a1e-4c21-9d15-48c198690d78";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAiModeTaskGetHtml(id);
 ```
 
@@ -2188,7 +2188,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "90902cec-1adb-4c12-8191-056ad4d0df99";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleLocalFinderTaskGetHtml(id);
 ```
 
@@ -2596,7 +2596,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "080e51fa-1a85-4276-b70e-c508dca0633d";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleNewsTaskGetHtml(id);
 ```
 
@@ -3291,7 +3291,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "81819d03-d6b8-4c7e-ae9a-eaaff352bef0";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleImagesTaskGetHtml(id);
 ```
 
@@ -3926,7 +3926,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "d1bde53b-dfd2-4169-9778-6816e2c9b781";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleJobsTaskGetHtml(id);
 ```
 
@@ -5781,7 +5781,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "ed2fd7a3-7879-4ead-a688-8cc669dd9587";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.bingOrganicTaskGetHtml(id);
 ```
 
@@ -6247,7 +6247,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "114c9509-213a-46f5-bc48-f87b71661104";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.bingLocalPackTaskGetHtml(id);
 ```
 
@@ -7915,7 +7915,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "72217fe5-3b41-48bb-b6ba-94b297060d73";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.yahooOrganicTaskGetHtml(id);
 ```
 
@@ -8608,7 +8608,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "817d4c16-a201-43f7-a029-72e692cf2eb6";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.baiduOrganicTaskGetHtml(id);
 ```
 
@@ -8953,7 +8953,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "880514c7-55ac-42f0-a7de-e608efff83a7";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.naverOrganicTaskGetHtml(id);
 ```
 
@@ -9465,7 +9465,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "747b97b8-ee44-44d0-827b-82b7e854e8b8";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.seznamOrganicTaskGetHtml(id);
 ```
 
@@ -9694,7 +9694,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "13319545-cffb-44c7-8e83-ca04a91aa755";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceExploreTaskGetHtml(id);
 ```
 
@@ -10041,7 +10041,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "b9e2eebc-e319-447f-893f-792ee9892785";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceMarketsTaskGetHtml(id);
 ```
 
@@ -10389,7 +10389,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "f68de805-4b39-48d7-897c-64388a82a2c6";
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceQuoteTaskGetHtml(id);
 ```
 

@@ -1,23 +1,23 @@
 export interface IAmazonApplicableVouchersItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** text of the voucher */
-        text?: string
+        text?: string | undefined
         
         /** value of the fixed discount */
-        fixed_discount?: number
+        fixed_discount?: number | undefined
         
         /** currency code of the fixed discount */
-        fixed_discount_currency?: string
+        fixed_discount_currency?: string | undefined
         
         /** value of the percentage discount
 if the discount is fixed, the value will be null */
-        percentage_discount?: number
+        percentage_discount?: number | undefined
         
         /** important details about the terms of discount vouchers */
-        important_details?: string
+        important_details?: string | undefined
 
     [key: string]: any;
 
@@ -27,28 +27,28 @@ export class AmazonApplicableVouchersItem  implements IAmazonApplicableVouchersI
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** text of the voucher */
 
-    text?: string;
+    text?: string | undefined;
     
     /** value of the fixed discount */
 
-    fixed_discount?: number;
+    fixed_discount?: number | undefined;
     
     /** currency code of the fixed discount */
 
-    fixed_discount_currency?: string;
+    fixed_discount_currency?: string | undefined;
     
     /** value of the percentage discount
 if the discount is fixed, the value will be null */
 
-    percentage_discount?: number;
+    percentage_discount?: number | undefined;
     
     /** important details about the terms of discount vouchers */
 
-    important_details?: string;
+    important_details?: string | undefined;
 
     [key: string]: any;
 

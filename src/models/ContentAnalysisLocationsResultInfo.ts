@@ -1,10 +1,10 @@
 export interface IContentAnalysisLocationsResultInfo   {
         
         /** full name of the location */
-        location_name?: string
+        location_name?: string | undefined
         
         /** ISO country code of the location */
-        country_iso_code?: string
+        country_iso_code?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class ContentAnalysisLocationsResultInfo  implements IContentAnalysisLoca
     
     /** full name of the location */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string;
+    country_iso_code?: string | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { KeywordsDataErrorsTaskInfo, IKeywordsDataErrorsTaskInfo } from "./KeywordsDataErrorsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IKeywordsDataErrorsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataErrorsTaskInfo[]
+        tasks?: KeywordsDataErrorsTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class KeywordsDataErrorsResponseInfo  extends BaseResponseInfo   implemen
     
     /** array of tasks */
 
-    tasks?: KeywordsDataErrorsTaskInfo[];
+    tasks?: KeywordsDataErrorsTaskInfo[] | undefined;
 
     [key: string]: any;
 

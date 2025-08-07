@@ -8,4 +8,4 @@
 **title** | **string** | title of a given link element |[optional]|
 **url** | **string** | URL |[optional]|
 **author** | **string** | author |[optional]|
-**description** | **string** | description |[optional]|
+**description** | **string** | description of the results element in SERP |[optional]|

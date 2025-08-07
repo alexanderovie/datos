@@ -1,10 +1,11 @@
 import { SerpYoutubeVideoCommentsLiveAdvancedResultInfo, ISerpYoutubeVideoCommentsLiveAdvancedResultInfo } from "./SerpYoutubeVideoCommentsLiveAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpYoutubeVideoCommentsLiveAdvancedResultInfo[]
+        result?: SerpYoutubeVideoCommentsLiveAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYoutubeVideoCommentsLiveAdvancedTaskInfo  extends BaseResponseT
     
     /** array of results */
 
-    result?: SerpYoutubeVideoCommentsLiveAdvancedResultInfo[];
+    result?: SerpYoutubeVideoCommentsLiveAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,32 +1,33 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface IRecipesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string
+        source?: string | undefined
         
-        /** description */
-        description?: string
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** the total time it takes to prepare the cook the dish */
-        time?: string
+        time?: string | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -36,37 +37,37 @@ export class RecipesElement  implements IRecipesElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string;
+    source?: string | undefined;
     
-    /** description */
+    /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** the total time it takes to prepare the cook the dish */
 
-    time?: string;
+    time?: string | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 

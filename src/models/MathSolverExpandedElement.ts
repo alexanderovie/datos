@@ -1,14 +1,14 @@
 export interface IMathSolverExpandedElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the row */
-        title?: string
+        title?: string | undefined
         
         /** solution of the element
 displays steps to solve the mathematical equation as specified in the element */
-        solution?: string[]
+        solution?: string[] | undefined
 
     [key: string]: any;
 
@@ -18,16 +18,16 @@ export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the row */
 
-    title?: string;
+    title?: string | undefined;
     
     /** solution of the element
 displays steps to solve the mathematical equation as specified in the element */
 
-    solution?: string[];
+    solution?: string[] | undefined;
 
     [key: string]: any;
 

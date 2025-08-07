@@ -1,21 +1,22 @@
 import { BaseSerpApiPeopleAlsoAskExpandedElementItem, IBaseSerpApiPeopleAlsoAskExpandedElementItem } from "./BaseSerpApiPeopleAlsoAskExpandedElementItem";
 
+
 export interface IPeopleAlsoAskElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** question that triggered additional expanded elements */
-        seed_question?: string
+        seed_question?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** expanded element */
-        expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[]
+        expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined
 
     [key: string]: any;
 
@@ -25,23 +26,23 @@ export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** question that triggered additional expanded elements */
 
-    seed_question?: string;
+    seed_question?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** expanded element */
 
-    expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[];
+    expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined;
 
     [key: string]: any;
 

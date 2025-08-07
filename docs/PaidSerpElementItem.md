@@ -14,7 +14,7 @@
 **website_name** | **string** | name of the website in SERP |[optional]|
 **is_image** | **boolean** | indicates whether the element contains an image |[optional]|
 **is_video** | **boolean** | indicates whether the element contains a video |[optional]|
-**images** | **AiModeImagesElement[]** | images of the element<br>if there are none, equals null |[optional]|
+**images** | **AiModeImagesElementInfo[]** | images of the element<br>if there are none, equals null |[optional]|
 **highlighted** | **string[]** | words highlighted in bold within the results description |[optional]|
 **extra** | **{ [key: string]: string; }** | additional information about the result |[optional]|
 **description_rows** | **string[]** | extended description<br>if there is none, equals null |[optional]|

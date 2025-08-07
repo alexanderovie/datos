@@ -1,14 +1,14 @@
 export interface ILocalBusinessDeliveryServiceInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the element
 domain of the online food ordering system */
-        title?: string
+        title?: string | undefined
         
         /** URL to place an order */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -18,16 +18,16 @@ export class LocalBusinessDeliveryServiceInfo  implements ILocalBusinessDelivery
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the element
 domain of the online food ordering system */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to place an order */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 

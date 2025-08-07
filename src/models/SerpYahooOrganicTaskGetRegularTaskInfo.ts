@@ -1,10 +1,11 @@
 import { SerpYahooOrganicTaskGetRegularResultInfo, ISerpYahooOrganicTaskGetRegularResultInfo } from "./SerpYahooOrganicTaskGetRegularResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpYahooOrganicTaskGetRegularTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpYahooOrganicTaskGetRegularResultInfo[]
+        result?: SerpYahooOrganicTaskGetRegularResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYahooOrganicTaskGetRegularTaskInfo  extends BaseResponseTaskInf
     
     /** array of results */
 
-    result?: SerpYahooOrganicTaskGetRegularResultInfo[];
+    result?: SerpYahooOrganicTaskGetRegularResultInfo[] | undefined;
 
     [key: string]: any;
 

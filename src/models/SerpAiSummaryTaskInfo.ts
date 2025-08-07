@@ -1,10 +1,11 @@
 import { SerpAiSummaryResultInfo, ISerpAiSummaryResultInfo } from "./SerpAiSummaryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpAiSummaryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpAiSummaryResultInfo[]
+        result?: SerpAiSummaryResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpAiSummaryTaskInfo  extends BaseResponseTaskInfo   implements IS
     
     /** array of results */
 
-    result?: SerpAiSummaryResultInfo[];
+    result?: SerpAiSummaryResultInfo[] | undefined;
 
     [key: string]: any;
 

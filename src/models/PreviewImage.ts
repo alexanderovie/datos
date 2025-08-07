@@ -1,13 +1,13 @@
 export interface IPreviewImage   {
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** height of the preview image */
-        height?: number
+        height?: number | undefined
         
         /** width of the preview image */
-        width?: number
+        width?: number | undefined
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class PreviewImage  implements IPreviewImage {
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** height of the preview image */
 
-    height?: number;
+    height?: number | undefined;
     
     /** width of the preview image */
 
-    width?: number;
+    width?: number | undefined;
 
     [key: string]: any;
 

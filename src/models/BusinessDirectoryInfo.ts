@@ -1,15 +1,16 @@
 import { MapsSearch, IMapsSearch } from "./MapsSearch";
 
+
 export interface IBusinessDirectoryInfo   {
         
         /** title of the element
 domain of the online menu system */
-        title?: string
+        title?: string | undefined
         
         /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
-        items?: MapsSearch[]
+        items?: MapsSearch[] | undefined
 
     [key: string]: any;
 
@@ -20,13 +21,13 @@ export class BusinessDirectoryInfo  implements IBusinessDirectoryInfo {
     /** title of the element
 domain of the online menu system */
 
-    title?: string;
+    title?: string | undefined;
     
     /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info */
 
-    items?: MapsSearch[];
+    items?: MapsSearch[] | undefined;
 
     [key: string]: any;
 

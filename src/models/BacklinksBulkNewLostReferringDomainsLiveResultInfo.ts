@@ -1,12 +1,13 @@
 import { BacklinksBulkNewLostReferringDomainsLiveItem, IBacklinksBulkNewLostReferringDomainsLiveItem } from "./BacklinksBulkNewLostReferringDomainsLiveItem";
 
+
 export interface IBacklinksBulkNewLostReferringDomainsLiveResultInfo   {
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains relevant backlinks and referring domains data */
-        items?: BacklinksBulkNewLostReferringDomainsLiveItem[]
+        items?: BacklinksBulkNewLostReferringDomainsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class BacklinksBulkNewLostReferringDomainsLiveResultInfo  implements IBac
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains relevant backlinks and referring domains data */
 
-    items?: BacklinksBulkNewLostReferringDomainsLiveItem[];
+    items?: BacklinksBulkNewLostReferringDomainsLiveItem[] | undefined;
 
     [key: string]: any;
 

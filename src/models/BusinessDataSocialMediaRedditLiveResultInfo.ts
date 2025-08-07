@@ -1,16 +1,17 @@
 import { RedditReviews, IRedditReviews } from "./RedditReviews";
 
+
 export interface IBusinessDataSocialMediaRedditLiveResultInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
-        page_url?: string
+        page_url?: string | undefined
         
         /** reddit reviews for the page_url */
-        reddit_reviews?: RedditReviews[]
+        reddit_reviews?: RedditReviews[] | undefined
 
     [key: string]: any;
 
@@ -20,16 +21,16 @@ export class BusinessDataSocialMediaRedditLiveResultInfo  implements IBusinessDa
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
 
-    page_url?: string;
+    page_url?: string | undefined;
     
     /** reddit reviews for the page_url */
 
-    reddit_reviews?: RedditReviews[];
+    reddit_reviews?: RedditReviews[] | undefined;
 
     [key: string]: any;
 

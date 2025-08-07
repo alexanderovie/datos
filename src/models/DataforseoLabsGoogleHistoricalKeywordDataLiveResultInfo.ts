@@ -1,21 +1,22 @@
 import { DataforseoLabsGoogleHistoricalKeywordDataLiveItem, IDataforseoLabsGoogleHistoricalKeywordDataLiveItem } from "./DataforseoLabsGoogleHistoricalKeywordDataLiveItem";
 
+
 export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains keywords and related data */
-        items?: DataforseoLabsGoogleHistoricalKeywordDataLiveItem[]
+        items?: DataforseoLabsGoogleHistoricalKeywordDataLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -25,23 +26,23 @@ export class DataforseoLabsGoogleHistoricalKeywordDataLiveResultInfo  implements
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains keywords and related data */
 
-    items?: DataforseoLabsGoogleHistoricalKeywordDataLiveItem[];
+    items?: DataforseoLabsGoogleHistoricalKeywordDataLiveItem[] | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,10 @@
 export interface IAmazonProductNewerModelInfo   {
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** ASIN of the newer product model */
-        newer_model_asin?: string
+        newer_model_asin?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class AmazonProductNewerModelInfo  implements IAmazonProductNewerModelInf
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** ASIN of the newer product model */
 
-    newer_model_asin?: string;
+    newer_model_asin?: string | undefined;
 
     [key: string]: any;
 

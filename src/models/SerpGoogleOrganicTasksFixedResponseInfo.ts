@@ -1,10 +1,11 @@
 import { SerpGoogleOrganicTasksFixedTaskInfo, ISerpGoogleOrganicTasksFixedTaskInfo } from "./SerpGoogleOrganicTasksFixedTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpGoogleOrganicTasksFixedResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpGoogleOrganicTasksFixedTaskInfo[]
+        tasks?: SerpGoogleOrganicTasksFixedTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleOrganicTasksFixedResponseInfo  extends BaseResponseInfo  
     
     /** array of tasks */
 
-    tasks?: SerpGoogleOrganicTasksFixedTaskInfo[];
+    tasks?: SerpGoogleOrganicTasksFixedTaskInfo[] | undefined;
 
     [key: string]: any;
 

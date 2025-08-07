@@ -1,10 +1,11 @@
 import { ContentAnalysisSearchLiveResultInfo, IContentAnalysisSearchLiveResultInfo } from "./ContentAnalysisSearchLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IContentAnalysisSearchLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentAnalysisSearchLiveResultInfo[]
+        result?: ContentAnalysisSearchLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentAnalysisSearchLiveTaskInfo  extends BaseResponseTaskInfo   i
     
     /** array of results */
 
-    result?: ContentAnalysisSearchLiveResultInfo[];
+    result?: ContentAnalysisSearchLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

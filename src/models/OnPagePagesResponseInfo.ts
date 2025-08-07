@@ -1,10 +1,11 @@
 import { OnPagePagesTaskInfo, IOnPagePagesTaskInfo } from "./OnPagePagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IOnPagePagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: OnPagePagesTaskInfo[]
+        tasks?: OnPagePagesTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPagePagesResponseInfo  extends BaseResponseInfo   implements IOnP
     
     /** array of tasks */
 
-    tasks?: OnPagePagesTaskInfo[];
+    tasks?: OnPagePagesTaskInfo[] | undefined;
 
     [key: string]: any;
 

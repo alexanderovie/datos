@@ -1,21 +1,22 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 import { AppendixContentGenerationDayLimitsRatesDataInfo, IAppendixContentGenerationDayLimitsRatesDataInfo } from "./AppendixContentGenerationDayLimitsRatesDataInfo";
 
+
 export interface IAppendixContentGenerationLimitsRatesDataInfo   {
         
-        generate?: AppendixInfo
+        generate?: AppendixInfo | undefined
         
-        generate_meta_tags?: AppendixInfo
+        generate_meta_tags?: AppendixInfo | undefined
         
-        generate_text?: AppendixInfo
+        generate_text?: AppendixInfo | undefined
         
-        paraphrase?: AppendixInfo
+        paraphrase?: AppendixInfo | undefined
         
-        check_grammar?: AppendixContentGenerationDayLimitsRatesDataInfo
+        check_grammar?: AppendixContentGenerationDayLimitsRatesDataInfo | undefined
         
-        text_summary?: AppendixContentGenerationDayLimitsRatesDataInfo
+        text_summary?: AppendixContentGenerationDayLimitsRatesDataInfo | undefined
         
-        generate_sub_topics?: AppendixInfo
+        generate_sub_topics?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -23,19 +24,19 @@ export interface IAppendixContentGenerationLimitsRatesDataInfo   {
 
 export class AppendixContentGenerationLimitsRatesDataInfo  implements IAppendixContentGenerationLimitsRatesDataInfo {
 
-    generate?: AppendixInfo;
+    generate?: AppendixInfo | undefined;
 
-    generate_meta_tags?: AppendixInfo;
+    generate_meta_tags?: AppendixInfo | undefined;
 
-    generate_text?: AppendixInfo;
+    generate_text?: AppendixInfo | undefined;
 
-    paraphrase?: AppendixInfo;
+    paraphrase?: AppendixInfo | undefined;
 
-    check_grammar?: AppendixContentGenerationDayLimitsRatesDataInfo;
+    check_grammar?: AppendixContentGenerationDayLimitsRatesDataInfo | undefined;
 
-    text_summary?: AppendixContentGenerationDayLimitsRatesDataInfo;
+    text_summary?: AppendixContentGenerationDayLimitsRatesDataInfo | undefined;
 
-    generate_sub_topics?: AppendixInfo;
+    generate_sub_topics?: AppendixInfo | undefined;
 
     [key: string]: any;
 

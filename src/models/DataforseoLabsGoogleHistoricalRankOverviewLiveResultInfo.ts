@@ -1,27 +1,28 @@
 import { DataforseoLabsGoogleHistoricalRankOverviewLiveItem, IDataforseoLabsGoogleHistoricalRankOverviewLiveItem } from "./DataforseoLabsGoogleHistoricalRankOverviewLiveItem";
 
+
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** target domain in a POST array */
-        target?: string
+        target?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains historical ranking and traffic data */
-        items?: DataforseoLabsGoogleHistoricalRankOverviewLiveItem[]
+        items?: DataforseoLabsGoogleHistoricalRankOverviewLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -31,31 +32,31 @@ export class DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo  implement
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** target domain in a POST array */
 
-    target?: string;
+    target?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains historical ranking and traffic data */
 
-    items?: DataforseoLabsGoogleHistoricalRankOverviewLiveItem[];
+    items?: DataforseoLabsGoogleHistoricalRankOverviewLiveItem[] | undefined;
 
     [key: string]: any;
 

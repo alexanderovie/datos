@@ -1,71 +1,72 @@
-import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
+import { AiModeRectangleInfo, IAiModeRectangleInfo } from "./AiModeRectangleInfo";
+
 
 export interface IGoogleJobsItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** ID of the job on Google Jobs */
-        job_id?: string
+        job_id?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** name of the employer */
-        employer_name?: string
+        employer_name?: string | undefined
         
         /** URL to the employer’s website */
-        employer_url?: string
+        employer_url?: string | undefined
         
         /** URL to the image used in the job posting */
-        employer_image_url?: string
+        employer_image_url?: string | undefined
         
         /** location for which the job vacancy is posted */
-        location?: string
+        location?: string | undefined
         
         /** original source of the job vacancy */
-        source_name?: string
+        source_name?: string | undefined
         
         /** URL to the original source of the job vacancy */
-        source_url?: string
+        source_url?: string | undefined
         
         /** the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null */
-        salary?: string
+        salary?: string | undefined
         
         /** employment contract type */
-        contract_type?: string
+        contract_type?: string | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** indicates how long ago the job vacancy was posted */
-        time_ago?: string
+        time_ago?: string | undefined
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null */
-        rectangle?: RectangleInfo
+        rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
 
@@ -75,86 +76,86 @@ export class GoogleJobsItem  implements IGoogleJobsItem {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** ID of the job on Google Jobs */
 
-    job_id?: string;
+    job_id?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** name of the employer */
 
-    employer_name?: string;
+    employer_name?: string | undefined;
     
     /** URL to the employer’s website */
 
-    employer_url?: string;
+    employer_url?: string | undefined;
     
     /** URL to the image used in the job posting */
 
-    employer_image_url?: string;
+    employer_image_url?: string | undefined;
     
     /** location for which the job vacancy is posted */
 
-    location?: string;
+    location?: string | undefined;
     
     /** original source of the job vacancy */
 
-    source_name?: string;
+    source_name?: string | undefined;
     
     /** URL to the original source of the job vacancy */
 
-    source_url?: string;
+    source_url?: string | undefined;
     
     /** the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null */
 
-    salary?: string;
+    salary?: string | undefined;
     
     /** employment contract type */
 
-    contract_type?: string;
+    contract_type?: string | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** indicates how long ago the job vacancy was posted */
 
-    time_ago?: string;
+    time_ago?: string | undefined;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null */
 
-    rectangle?: RectangleInfo;
+    rectangle?: AiModeRectangleInfo | undefined;
 
     [key: string]: any;
 
@@ -193,7 +194,7 @@ in this case, will equal null */
             this.contract_type = data["contract_type"];
             this.timestamp = data["timestamp"];
             this.time_ago = data["time_ago"];
-            this.rectangle = data["rectangle"] ? RectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
+            this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
         }
     }
 
@@ -228,7 +229,7 @@ in this case, will equal null */
         data["contract_type"] = this.contract_type;
         data["timestamp"] = this.timestamp;
         data["time_ago"] = this.time_ago;
-        data["rectangle"] = this.rectangle ? RectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
+        data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
         return data;
     }
 }

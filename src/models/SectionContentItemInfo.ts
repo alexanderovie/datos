@@ -1,17 +1,18 @@
 import { ContentUrlInfo, IContentUrlInfo } from "./ContentUrlInfo";
 
+
 export interface ISectionContentItemInfo   {
         
         /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
-        text?: string
+        text?: string | undefined
         
         /** page URL.
 displayed in case the text is a link anchor */
-        url?: string
+        url?: string | undefined
         
         /** contains other URLs and anchors found in the content element */
-        urls?: ContentUrlInfo[]
+        urls?: ContentUrlInfo[] | undefined
 
     [key: string]: any;
 
@@ -22,16 +23,16 @@ export class SectionContentItemInfo  implements ISectionContentItemInfo {
     /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    text?: string;
+    text?: string | undefined;
     
     /** page URL.
 displayed in case the text is a link anchor */
 
-    url?: string;
+    url?: string | undefined;
     
     /** contains other URLs and anchors found in the content element */
 
-    urls?: ContentUrlInfo[];
+    urls?: ContentUrlInfo[] | undefined;
 
     [key: string]: any;
 

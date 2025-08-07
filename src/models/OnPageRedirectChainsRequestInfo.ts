@@ -5,25 +5,25 @@ required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
-        id?: string
+        id?: string | undefined
         
         /** page URL
 optional field
 absolute URL of the target page
 if you use this field, the API response will return only redirect chains which contain the specified URL */
-        url?: string
+        url?: string | undefined
         
         /** the maximum number of returned redirect chains
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned redirect chains
 optional field
 default value: 0
 if you specify the 10 value, the first ten redirect chains in the results array will be omitted and the data will be provided for the successive redirect chains */
-        offset?: number
+        offset?: number | undefined
         
         /** array of results filtering parameters
 optional field
@@ -35,14 +35,14 @@ regex, not_regex, =, <>
 examples:
 ['is_redirect_loop','=','true']
 ['is_redirect_loop','<>','false'] */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -56,28 +56,28 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04” */
 
-    id?: string;
+    id?: string | undefined;
     
     /** page URL
 optional field
 absolute URL of the target page
 if you use this field, the API response will return only redirect chains which contain the specified URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** the maximum number of returned redirect chains
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned redirect chains
 optional field
 default value: 0
 if you specify the 10 value, the first ten redirect chains in the results array will be omitted and the data will be provided for the successive redirect chains */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -90,7 +90,7 @@ examples:
 ['is_redirect_loop','=','true']
 ['is_redirect_loop','<>','false'] */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -98,7 +98,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

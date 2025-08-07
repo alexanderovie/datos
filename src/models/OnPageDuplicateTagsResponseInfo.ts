@@ -1,10 +1,11 @@
 import { OnPageDuplicateTagsTaskInfo, IOnPageDuplicateTagsTaskInfo } from "./OnPageDuplicateTagsTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IOnPageDuplicateTagsResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: OnPageDuplicateTagsTaskInfo[]
+        tasks?: OnPageDuplicateTagsTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageDuplicateTagsResponseInfo  extends BaseResponseInfo   impleme
     
     /** array of tasks */
 
-    tasks?: OnPageDuplicateTagsTaskInfo[];
+    tasks?: OnPageDuplicateTagsTaskInfo[] | undefined;
 
     [key: string]: any;
 

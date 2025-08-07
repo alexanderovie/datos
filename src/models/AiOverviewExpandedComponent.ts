@@ -1,31 +1,32 @@
-import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { LinkElement, ILinkElement } from "./LinkElement";
-import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
+import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
+
 
 export interface IAiOverviewExpandedComponent   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
-        text?: string
+        text?: string | undefined
         
         /** content of the element in markdown format */
-        markdown?: string
+        markdown?: string | undefined
         
         /** images of the element */
-        images?: AiModeImagesElement[]
+        images?: AiModeImagesElementInfo[] | undefined
         
         /** website links featured in the element */
-        links?: LinkElement[]
+        links?: LinkElement[] | undefined
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[]
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -35,33 +36,33 @@ export class AiOverviewExpandedComponent  implements IAiOverviewExpandedComponen
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
-    text?: string;
+    text?: string | undefined;
     
     /** content of the element in markdown format */
 
-    markdown?: string;
+    markdown?: string | undefined;
     
     /** images of the element */
 
-    images?: AiModeImagesElement[];
+    images?: AiModeImagesElementInfo[] | undefined;
     
     /** website links featured in the element */
 
-    links?: LinkElement[];
+    links?: LinkElement[] | undefined;
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
 
-    references?: AiAiOverviewReferenceInfo[];
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -90,7 +91,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
-                    this.images.push(AiModeImagesElement.fromJS(item));
+                    this.images.push(AiModeImagesElementInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["links"])) {
@@ -102,7 +103,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }

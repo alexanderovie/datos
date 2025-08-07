@@ -1,32 +1,32 @@
 export interface IAboutThisResultElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** result’s URL */
-        url?: string
+        url?: string | undefined
         
         /** source of additional information about the result */
-        source?: string
+        source?: string | undefined
         
         /** additional information about the result
 description of the website from Wikipedia or another additional context */
-        source_info?: string
+        source_info?: string | undefined
         
         /** URL to full information from the 'source' */
-        source_url?: string
+        source_url?: string | undefined
         
         /** the language of the result */
-        language?: string
+        language?: string | undefined
         
         /** location for which the result is relevant */
-        location?: string
+        location?: string | undefined
         
         /** matching search terms that appear in the result */
-        search_terms?: string[]
+        search_terms?: string[] | undefined
         
         /** related search terms that appear in the result */
-        related_terms?: string[]
+        related_terms?: string[] | undefined
 
     [key: string]: any;
 
@@ -36,40 +36,40 @@ export class AboutThisResultElement  implements IAboutThisResultElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** result’s URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** source of additional information about the result */
 
-    source?: string;
+    source?: string | undefined;
     
     /** additional information about the result
 description of the website from Wikipedia or another additional context */
 
-    source_info?: string;
+    source_info?: string | undefined;
     
     /** URL to full information from the 'source' */
 
-    source_url?: string;
+    source_url?: string | undefined;
     
     /** the language of the result */
 
-    language?: string;
+    language?: string | undefined;
     
     /** location for which the result is relevant */
 
-    location?: string;
+    location?: string | undefined;
     
     /** matching search terms that appear in the result */
 
-    search_terms?: string[];
+    search_terms?: string[] | undefined;
     
     /** related search terms that appear in the result */
 
-    related_terms?: string[];
+    related_terms?: string[] | undefined;
 
     [key: string]: any;
 

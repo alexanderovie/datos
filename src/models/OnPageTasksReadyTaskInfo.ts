@@ -1,10 +1,11 @@
 import { OnPageTasksReadyResultInfo, IOnPageTasksReadyResultInfo } from "./OnPageTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageTasksReadyResultInfo[]
+        result?: OnPageTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements
     
     /** array of results */
 
-    result?: OnPageTasksReadyResultInfo[];
+    result?: OnPageTasksReadyResultInfo[] | undefined;
 
     [key: string]: any;
 

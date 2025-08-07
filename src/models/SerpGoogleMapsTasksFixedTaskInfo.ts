@@ -1,10 +1,11 @@
 import { SerpGoogleMapsTasksFixedResultInfo, ISerpGoogleMapsTasksFixedResultInfo } from "./SerpGoogleMapsTasksFixedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpGoogleMapsTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpGoogleMapsTasksFixedResultInfo[]
+        result?: SerpGoogleMapsTasksFixedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpGoogleMapsTasksFixedTaskInfo  extends BaseResponseTaskInfo   im
     
     /** array of results */
 
-    result?: SerpGoogleMapsTasksFixedResultInfo[];
+    result?: SerpGoogleMapsTasksFixedResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,20 +1,21 @@
 import { BacklinksReferringDomainsLiveItem, IBacklinksReferringDomainsLiveItem } from "./BacklinksReferringDomainsLiveItem";
 
+
 export interface IBacklinksReferringDomainsLiveResultInfo   {
         
         /** target in a POST array */
-        target?: string
+        target?: string | undefined
         
         /** total number of relevant items in the database
 total number of main domains referring to your target;
 example.com and blog.example.com are counted as one referring domain */
-        total_count?: number
+        total_count?: number | undefined
         
         /** number of items in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: BacklinksReferringDomainsLiveItem[]
+        items?: BacklinksReferringDomainsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -24,21 +25,21 @@ export class BacklinksReferringDomainsLiveResultInfo  implements IBacklinksRefer
     
     /** target in a POST array */
 
-    target?: string;
+    target?: string | undefined;
     
     /** total number of relevant items in the database
 total number of main domains referring to your target;
 example.com and blog.example.com are counted as one referring domain */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** number of items in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: BacklinksReferringDomainsLiveItem[];
+    items?: BacklinksReferringDomainsLiveItem[] | undefined;
 
     [key: string]: any;
 

@@ -1,25 +1,26 @@
 import { PageContentInfo, IPageContentInfo } from "./PageContentInfo";
 
+
 export interface IContentParsingElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** date and time when the content was fethced
 example:
 '2022-11-01 10:02:52 +00:00' */
-        fetch_time?: string
+        fetch_time?: string | undefined
         
         /** status code of the page */
-        status_code?: number
+        status_code?: number | undefined
         
         /** parsed content of the page */
-        page_content?: PageContentInfo
+        page_content?: PageContentInfo | undefined
         
         /** page content in the markdown format
 page content in the text-to-HTML markdown format
 specify markdown_view as true in the request to return the value */
-        page_as_markdown?: string
+        page_as_markdown?: string | undefined
 
     [key: string]: any;
 
@@ -29,27 +30,27 @@ export class ContentParsingElement  implements IContentParsingElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** date and time when the content was fethced
 example:
 '2022-11-01 10:02:52 +00:00' */
 
-    fetch_time?: string;
+    fetch_time?: string | undefined;
     
     /** status code of the page */
 
-    status_code?: number;
+    status_code?: number | undefined;
     
     /** parsed content of the page */
 
-    page_content?: PageContentInfo;
+    page_content?: PageContentInfo | undefined;
     
     /** page content in the markdown format
 page content in the text-to-HTML markdown format
 specify markdown_view as true in the request to return the value */
 
-    page_as_markdown?: string;
+    page_as_markdown?: string | undefined;
 
     [key: string]: any;
 

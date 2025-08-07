@@ -6,43 +6,44 @@ import { AppendixGoogleAdsKeywordsDataPriceData, IAppendixGoogleAdsKeywordsDataP
 import { AppendixDataforseoTrendsKeywordsDataPriceData, IAppendixDataforseoTrendsKeywordsDataPriceData } from "./AppendixDataforseoTrendsKeywordsDataPriceData";
 import { AppendixExploreKeywordsDataPriceData, IAppendixExploreKeywordsDataPriceData } from "./AppendixExploreKeywordsDataPriceData";
 
+
 export interface IAppendixKeywordsDataPriceData   {
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        ad_traffic_by_keywords?: AppendixAKeywordsDataPriceDataInfo
+        ad_traffic_by_keywords?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        audience_estimation?: AppendixAKeywordsDataPriceDataInfo
+        audience_estimation?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        bing?: AppendixBingKeywordsDataPriceData
+        bing?: AppendixBingKeywordsDataPriceData | undefined
         
-        categories?: AppendixTaskKeywordsDataPriceDataInfo
+        categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        clickstream_data?: AppendixClickstreamDataKeywordsDataPriceData
+        clickstream_data?: AppendixClickstreamDataKeywordsDataPriceData | undefined
         
-        errors?: AppendixTaskKeywordsDataPriceDataInfo
+        errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        google_ads?: AppendixGoogleAdsKeywordsDataPriceData
+        google_ads?: AppendixGoogleAdsKeywordsDataPriceData | undefined
         
-        keyword_performance?: AppendixAKeywordsDataPriceDataInfo
+        keyword_performance?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        keywords_for_keywords?: AppendixAKeywordsDataPriceDataInfo
+        keywords_for_keywords?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        keywords_for_site?: AppendixAKeywordsDataPriceDataInfo
+        keywords_for_site?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        keyword_suggestions_for_url?: AppendixAKeywordsDataPriceDataInfo
+        keyword_suggestions_for_url?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        languages?: AppendixTaskKeywordsDataPriceDataInfo
+        languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        locations?: AppendixTaskKeywordsDataPriceDataInfo
+        locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo
+        locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        search_volume?: AppendixAKeywordsDataPriceDataInfo
+        search_volume?: AppendixAKeywordsDataPriceDataInfo | undefined
         
-        dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataPriceData
+        dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataPriceData | undefined
         
-        explore?: AppendixExploreKeywordsDataPriceData
+        explore?: AppendixExploreKeywordsDataPriceData | undefined
 
     [key: string]: any;
 
@@ -50,41 +51,41 @@ export interface IAppendixKeywordsDataPriceData   {
 
 export class AppendixKeywordsDataPriceData  implements IAppendixKeywordsDataPriceData {
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    ad_traffic_by_keywords?: AppendixAKeywordsDataPriceDataInfo;
+    ad_traffic_by_keywords?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    audience_estimation?: AppendixAKeywordsDataPriceDataInfo;
+    audience_estimation?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    bing?: AppendixBingKeywordsDataPriceData;
+    bing?: AppendixBingKeywordsDataPriceData | undefined;
 
-    categories?: AppendixTaskKeywordsDataPriceDataInfo;
+    categories?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    clickstream_data?: AppendixClickstreamDataKeywordsDataPriceData;
+    clickstream_data?: AppendixClickstreamDataKeywordsDataPriceData | undefined;
 
-    errors?: AppendixTaskKeywordsDataPriceDataInfo;
+    errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    google_ads?: AppendixGoogleAdsKeywordsDataPriceData;
+    google_ads?: AppendixGoogleAdsKeywordsDataPriceData | undefined;
 
-    keyword_performance?: AppendixAKeywordsDataPriceDataInfo;
+    keyword_performance?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    keywords_for_keywords?: AppendixAKeywordsDataPriceDataInfo;
+    keywords_for_keywords?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    keywords_for_site?: AppendixAKeywordsDataPriceDataInfo;
+    keywords_for_site?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    keyword_suggestions_for_url?: AppendixAKeywordsDataPriceDataInfo;
+    keyword_suggestions_for_url?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    languages?: AppendixTaskKeywordsDataPriceDataInfo;
+    languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    locations?: AppendixTaskKeywordsDataPriceDataInfo;
+    locations?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo;
+    locations_and_languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    search_volume?: AppendixAKeywordsDataPriceDataInfo;
+    search_volume?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
-    dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataPriceData;
+    dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataPriceData | undefined;
 
-    explore?: AppendixExploreKeywordsDataPriceData;
+    explore?: AppendixExploreKeywordsDataPriceData | undefined;
 
     [key: string]: any;
 

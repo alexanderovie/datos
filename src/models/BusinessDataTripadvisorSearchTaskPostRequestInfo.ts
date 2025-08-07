@@ -7,21 +7,21 @@ you can specify up to 700 characters in the keyword filed;
 all %## will be decoded (plus character ‘+’ will be decoded to a space character);
 if you need to use the “%” character for your keyword, please specify it as “%25”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code
 you can receive the list of available locations with location_name by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 London,England,United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 1003854 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** task priority
 optional field
@@ -30,7 +30,7 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number
+        priority?: number | undefined
         
         /** parsing depth
 optional field
@@ -38,14 +38,14 @@ number of search results to be returned from the API response
 we strongly recommend setting the parsing depth in the multiples of thirty because our systems processes thirty search results in a row;
 default value: 30;
 maximum value: 210 */
-        depth?: number
+        depth?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
         
         /** return URL for sending task results
 optional field
@@ -57,7 +57,7 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string
+        postback_url?: string | undefined
         
         /** notification URL of a completed task
 optional field
@@ -69,7 +69,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string
+        pingback_url?: string | undefined
 
     [key: string]: any;
 
@@ -85,7 +85,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25”
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -93,7 +93,7 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -101,7 +101,7 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** task priority
 optional field
@@ -111,7 +111,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number;
+    priority?: number | undefined;
     
     /** parsing depth
 optional field
@@ -120,7 +120,7 @@ we strongly recommend setting the parsing depth in the multiples of thirty becau
 default value: 30;
 maximum value: 210 */
 
-    depth?: number;
+    depth?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -128,7 +128,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** return URL for sending task results
 optional field
@@ -141,7 +141,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string;
+    postback_url?: string | undefined;
     
     /** notification URL of a completed task
 optional field
@@ -154,7 +154,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string;
+    pingback_url?: string | undefined;
 
     [key: string]: any;
 

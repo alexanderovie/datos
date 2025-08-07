@@ -1,20 +1,10 @@
 export interface IAppDataGoogleAppListingsCategoriesResultInfo   {
         
-        /** task identifier
-unique task identifier in our system in the UUID format */
-        id?: string
+        /** name of the supported app category */
+        category?: string | undefined
         
-        se?: string
-        
-        se_type?: string
-        
-        date_posted?: string
-        
-        tag?: string
-        
-        endpoint_advanced?: string
-        
-        endpoint_html?: string
+        /** number of app listings that make up the supported app category */
+        count?: number | undefined
 
     [key: string]: any;
 
@@ -22,22 +12,13 @@ unique task identifier in our system in the UUID format */
 
 export class AppDataGoogleAppListingsCategoriesResultInfo  implements IAppDataGoogleAppListingsCategoriesResultInfo {
     
-    /** task identifier
-unique task identifier in our system in the UUID format */
+    /** name of the supported app category */
 
-    id?: string;
+    category?: string | undefined;
+    
+    /** number of app listings that make up the supported app category */
 
-    se?: string;
-
-    se_type?: string;
-
-    date_posted?: string;
-
-    tag?: string;
-
-    endpoint_advanced?: string;
-
-    endpoint_html?: string;
+    count?: number | undefined;
 
     [key: string]: any;
 
@@ -59,13 +40,8 @@ unique task identifier in our system in the UUID format */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.id = data["id"];
-            this.se = data["se"];
-            this.se_type = data["se_type"];
-            this.date_posted = data["date_posted"];
-            this.tag = data["tag"];
-            this.endpoint_advanced = data["endpoint_advanced"];
-            this.endpoint_html = data["endpoint_html"];
+            this.category = data["category"];
+            this.count = data["count"];
         }
     }
 
@@ -83,13 +59,8 @@ unique task identifier in our system in the UUID format */
 
         
         
-        data["id"] = this.id;
-        data["se"] = this.se;
-        data["se_type"] = this.se_type;
-        data["date_posted"] = this.date_posted;
-        data["tag"] = this.tag;
-        data["endpoint_advanced"] = this.endpoint_advanced;
-        data["endpoint_html"] = this.endpoint_html;
+        data["category"] = this.category;
+        data["count"] = this.count;
         return data;
     }
 }

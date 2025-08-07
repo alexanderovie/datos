@@ -1,18 +1,18 @@
 export interface ILocationChain   {
         
         /** card identifier */
-        card_id?: string
+        card_id?: string | undefined
         
         /** feature identifier
 learn more about the identifier in this help center article */
-        feature_id?: string
+        feature_id?: string | undefined
         
         /** client id
 learn more about the identifier in this help center article */
-        cid?: string
+        cid?: string | undefined
         
         /** title of the element in the location chain */
-        title?: string
+        title?: string | undefined
 
     [key: string]: any;
 
@@ -22,21 +22,21 @@ export class LocationChain  implements ILocationChain {
     
     /** card identifier */
 
-    card_id?: string;
+    card_id?: string | undefined;
     
     /** feature identifier
 learn more about the identifier in this help center article */
 
-    feature_id?: string;
+    feature_id?: string | undefined;
     
     /** client id
 learn more about the identifier in this help center article */
 
-    cid?: string;
+    cid?: string | undefined;
     
     /** title of the element in the location chain */
 
-    title?: string;
+    title?: string | undefined;
 
     [key: string]: any;
 

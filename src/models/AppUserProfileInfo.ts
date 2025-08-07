@@ -1,10 +1,10 @@
 export interface IAppUserProfileInfo   {
         
         /** profile name of the reviewer */
-        profile_name?: string
+        profile_name?: string | undefined
         
         /** URL to the reviewer’s profile image */
-        profile_image_url?: string
+        profile_image_url?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class AppUserProfileInfo  implements IAppUserProfileInfo {
     
     /** profile name of the reviewer */
 
-    profile_name?: string;
+    profile_name?: string | undefined;
     
     /** URL to the reviewer’s profile image */
 
-    profile_image_url?: string;
+    profile_image_url?: string | undefined;
 
     [key: string]: any;
 

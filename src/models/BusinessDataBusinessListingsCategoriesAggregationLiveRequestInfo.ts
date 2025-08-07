@@ -5,23 +5,23 @@ optional field
 the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories */
-        categories?: string[]
+        categories?: string[] | undefined
         
         /** description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
 can contain up to 200 characters */
-        description?: string
+        description?: string | undefined
         
         /** title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
 can contain up to 200 characters */
-        title?: string
+        title?: string | undefined
         
         /** indicates whether the business is verified by its owner on Google Maps
 optional field */
-        is_claimed?: boolean
+        is_claimed?: boolean | undefined
         
         /** GPS coordinates of a location
 optional field
@@ -31,7 +31,7 @@ the minimum value for “radius”: 1
 the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200 */
-        location_coordinate?: string
+        location_coordinate?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -43,30 +43,30 @@ you can use the % operator with like and not_like to match any string of zero or
 example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters */
-        initial_dataset_filters?: any[]
+        initial_dataset_filters?: any[] | undefined
         
         /** maximum number of elements within internal arrays
 optional field
 you can use this field to limit the number of elements within the aggregated categories
 default value: 10 */
-        internal_list_limit?: number
+        internal_list_limit?: number | undefined
         
         /** the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** the maximum number of returned businesses
 optional field */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -80,26 +80,26 @@ the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories */
 
-    categories?: string[];
+    categories?: string[] | undefined;
     
     /** description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
 can contain up to 200 characters */
 
-    description?: string;
+    description?: string | undefined;
     
     /** title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
 can contain up to 200 characters */
 
-    title?: string;
+    title?: string | undefined;
     
     /** indicates whether the business is verified by its owner on Google Maps
 optional field */
 
-    is_claimed?: boolean;
+    is_claimed?: boolean | undefined;
     
     /** GPS coordinates of a location
 optional field
@@ -110,7 +110,7 @@ the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200 */
 
-    location_coordinate?: string;
+    location_coordinate?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -123,26 +123,26 @@ example:
 ['rating.value','>',3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters */
 
-    initial_dataset_filters?: any[];
+    initial_dataset_filters?: any[] | undefined;
     
     /** maximum number of elements within internal arrays
 optional field
 you can use this field to limit the number of elements within the aggregated categories
 default value: 10 */
 
-    internal_list_limit?: number;
+    internal_list_limit?: number | undefined;
     
     /** the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** the maximum number of returned businesses
 optional field */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -150,7 +150,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

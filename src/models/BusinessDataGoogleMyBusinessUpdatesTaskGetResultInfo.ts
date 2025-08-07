@@ -1,5 +1,6 @@
 import { GoogleBusinessPost, IGoogleBusinessPost } from "./GoogleBusinessPost";
 
+
 export interface IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo   {
         
         /** keyword received in a POST array
@@ -8,52 +9,52 @@ this field will contain the cid parameter if you specified it in the keyword fie
 example:
 cid:2946633002421908862
 learn more about the parameter in this help center article */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search engine domain as specified in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** identifier of the business updates element in SERP */
-        business_updates_id?: string
+        business_updates_id?: string | undefined
         
         /** google-defined client id
 unique id of a local establishment
 learn more about the cid identifier in this help center article */
-        cid?: string
+        cid?: string | undefined
         
         /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
-        feature_id?: string
+        feature_id?: string | undefined
         
         /** item types
 types of search engine results encountered in the items array;
 possible item types: google_business_post */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** item types
 the number of items in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_post */
-        items?: GoogleBusinessPost[]
+        items?: GoogleBusinessPost[] | undefined
 
     [key: string]: any;
 
@@ -68,63 +69,63 @@ example:
 cid:2946633002421908862
 learn more about the parameter in this help center article */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search engine domain as specified in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** identifier of the business updates element in SERP */
 
-    business_updates_id?: string;
+    business_updates_id?: string | undefined;
     
     /** google-defined client id
 unique id of a local establishment
 learn more about the cid identifier in this help center article */
 
-    cid?: string;
+    cid?: string | undefined;
     
     /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
 
-    feature_id?: string;
+    feature_id?: string | undefined;
     
     /** item types
 types of search engine results encountered in the items array;
 possible item types: google_business_post */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** item types
 the number of items in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** encountered item types
 types of search engine results encountered in the items array;
 possible item types: google_business_post */
 
-    items?: GoogleBusinessPost[];
+    items?: GoogleBusinessPost[] | undefined;
 
     [key: string]: any;
 

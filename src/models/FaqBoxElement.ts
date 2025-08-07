@@ -1,18 +1,19 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
 
+
 export interface IFaqBoxElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the element in SERP */
-        title?: string
+        title?: string | undefined
         
         /** description of the link */
-        description?: string
+        description?: string | undefined
         
         /** link of the element */
-        links?: LinkElement[]
+        links?: LinkElement[] | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class FaqBoxElement  implements IFaqBoxElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the element in SERP */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the link */
 
-    description?: string;
+    description?: string | undefined;
     
     /** link of the element */
 
-    links?: LinkElement[];
+    links?: LinkElement[] | undefined;
 
     [key: string]: any;
 

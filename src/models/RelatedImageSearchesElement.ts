@@ -1,20 +1,20 @@
 export interface IRelatedImageSearchesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
-        /** title of the element */
-        title?: string
+        /** title of a given shopping element */
+        title?: string | undefined
         
         /** alt tag of the image */
-        alt?: string
+        alt?: string | undefined
         
-        /** relevant URL */
-        url?: string
+        /** URL */
+        url?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
 
     [key: string]: any;
 
@@ -24,24 +24,24 @@ export class RelatedImageSearchesElement  implements IRelatedImageSearchesElemen
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
-    /** title of the element */
+    /** title of a given shopping element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** alt tag of the image */
 
-    alt?: string;
+    alt?: string | undefined;
     
-    /** relevant URL */
+    /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
 
     [key: string]: any;
 

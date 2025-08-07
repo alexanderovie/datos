@@ -1,21 +1,21 @@
 export interface ISerpSeznamLocationsCountryResultInfo   {
         
         /** location code */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the location */
-        location_name?: string
+        location_name?: string | undefined
         
         /** the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API */
-        location_code_parent?: number
+        location_code_parent?: number | undefined
         
         /** ISO country code of the location */
-        country_iso_code?: string
+        country_iso_code?: string | undefined
         
         /** location type */
-        location_type?: string
+        location_type?: string | undefined
 
     [key: string]: any;
 
@@ -25,25 +25,25 @@ export class SerpSeznamLocationsCountryResultInfo  implements ISerpSeznamLocatio
     
     /** location code */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the location */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API */
 
-    location_code_parent?: number;
+    location_code_parent?: number | undefined;
     
     /** ISO country code of the location */
 
-    country_iso_code?: string;
+    country_iso_code?: string | undefined;
     
     /** location type */
 
-    location_type?: string;
+    location_type?: string | undefined;
 
     [key: string]: any;
 

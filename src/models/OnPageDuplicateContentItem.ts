@@ -1,15 +1,16 @@
 import { DuplicatePageInfo, IDuplicatePageInfo } from "./DuplicatePageInfo";
 
+
 export interface IOnPageDuplicateContentItem   {
         
         /** URL of the specified page */
-        url?: string
+        url?: string | undefined
         
         /** total count of duplicate pages */
-        total_count?: number
+        total_count?: number | undefined
         
         /** pages with duplicate content */
-        pages?: DuplicatePageInfo[]
+        pages?: DuplicatePageInfo[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class OnPageDuplicateContentItem  implements IOnPageDuplicateContentItem 
     
     /** URL of the specified page */
 
-    url?: string;
+    url?: string | undefined;
     
     /** total count of duplicate pages */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** pages with duplicate content */
 
-    pages?: DuplicatePageInfo[];
+    pages?: DuplicatePageInfo[] | undefined;
 
     [key: string]: any;
 

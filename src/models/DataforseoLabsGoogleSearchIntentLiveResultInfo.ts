@@ -1,16 +1,17 @@
 import { DataforseoLabsGoogleSearchIntentLiveItem, IDataforseoLabsGoogleSearchIntentLiveItem } from "./DataforseoLabsGoogleSearchIntentLiveItem";
 
+
 export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
         
         /** language code in a POST array
 if there is no data, then the value is null */
-        language_code?: string
+        language_code?: string | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** array of items with relevant traffic estimation data */
-        items?: DataforseoLabsGoogleSearchIntentLiveItem[]
+        items?: DataforseoLabsGoogleSearchIntentLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -21,15 +22,15 @@ export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDatafor
     /** language code in a POST array
 if there is no data, then the value is null */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** array of items with relevant traffic estimation data */
 
-    items?: DataforseoLabsGoogleSearchIntentLiveItem[];
+    items?: DataforseoLabsGoogleSearchIntentLiveItem[] | undefined;
 
     [key: string]: any;
 

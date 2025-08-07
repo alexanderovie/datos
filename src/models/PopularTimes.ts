@@ -1,10 +1,11 @@
 import { PopularWorkTimeInfo, IPopularWorkTimeInfo } from "./PopularWorkTimeInfo";
 
+
 export interface IPopularTimes   {
         
         /** popular hours
 information about busy hours of the local establishment on each day of the week */
-        popular_times_by_days?: { [key: string]: PopularWorkTimeInfo[]; }
+        popular_times_by_days?: { [key: string]: PopularWorkTimeInfo[]; } | undefined
 
     [key: string]: any;
 
@@ -15,7 +16,7 @@ export class PopularTimes  implements IPopularTimes {
     /** popular hours
 information about busy hours of the local establishment on each day of the week */
 
-    popular_times_by_days?: { [key: string]: PopularWorkTimeInfo[]; };
+    popular_times_by_days?: { [key: string]: PopularWorkTimeInfo[]; } | undefined;
 
     [key: string]: any;
 

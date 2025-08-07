@@ -1,56 +1,57 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { AiModeAiOverview, IAiModeAiOverview } from "./AiModeAiOverview";
+import { AiModeAiOverviewInfo, IAiModeAiOverviewInfo } from "./AiModeAiOverviewInfo";
+
 
 export interface ISerpGoogleAiModeTaskGetAdvancedResultInfo   {
         
         /** keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
-        keyword?: string
+        keyword?: string | undefined
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** search engine domain in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided exact results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
-        spell?: SpellInfo
+        spell?: SpellInfo | undefined
         
         /** search refinement chips */
-        refinement_chips?: RefinementChipsInfo
+        refinement_chips?: RefinementChipsInfo | undefined
         
         /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
 ai_overview */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** total number of results in SERP */
-        se_results_count?: number
+        se_results_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: AiModeAiOverview[]
+        items?: AiModeAiOverviewInfo[] | undefined
 
     [key: string]: any;
 
@@ -61,63 +62,63 @@ export class SerpGoogleAiModeTaskGetAdvancedResultInfo  implements ISerpGoogleAi
     /** keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided exact results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
-    spell?: SpellInfo;
+    spell?: SpellInfo | undefined;
     
     /** search refinement chips */
 
-    refinement_chips?: RefinementChipsInfo;
+    refinement_chips?: RefinementChipsInfo | undefined;
     
     /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
 ai_overview */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** total number of results in SERP */
 
-    se_results_count?: number;
+    se_results_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** elements of search results found in SERP */
 
-    items?: AiModeAiOverview[];
+    items?: AiModeAiOverviewInfo[] | undefined;
 
     [key: string]: any;
 
@@ -154,7 +155,7 @@ ai_overview */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(AiModeAiOverview.fromJS(item));
+                    this.items.push(AiModeAiOverviewInfo.fromJS(item));
                 }
             }
         }

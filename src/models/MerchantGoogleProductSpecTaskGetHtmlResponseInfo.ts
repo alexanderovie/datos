@@ -1,10 +1,11 @@
 import { MerchantGoogleProductSpecTaskGetHtmlTaskInfo, IMerchantGoogleProductSpecTaskGetHtmlTaskInfo } from "./MerchantGoogleProductSpecTaskGetHtmlTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IMerchantGoogleProductSpecTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: MerchantGoogleProductSpecTaskGetHtmlTaskInfo[]
+        tasks?: MerchantGoogleProductSpecTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class MerchantGoogleProductSpecTaskGetHtmlResponseInfo  extends BaseRespo
     
     /** array of tasks */
 
-    tasks?: MerchantGoogleProductSpecTaskGetHtmlTaskInfo[];
+    tasks?: MerchantGoogleProductSpecTaskGetHtmlTaskInfo[] | undefined;
 
     [key: string]: any;
 

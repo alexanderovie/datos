@@ -1,50 +1,51 @@
 import { EventDates, IEventDates } from "./EventDates";
 import { LocationInfo, ILocationInfo } from "./LocationInfo";
-import { InformationAndTicketsElement, IInformationAndTicketsElement } from "./InformationAndTicketsElement";
+import { AiModeLinkElementInfo, IAiModeLinkElementInfo } from "./AiModeLinkElementInfo";
+
 
 export interface IEventItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** description of the results element in SERP */
-        description?: string
+        description?: string | undefined
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** URL of the image featured in the element */
-        image_url?: string
+        image_url?: string | undefined
         
         /** dates when the event takes place
 if there are none, equals null */
-        event_dates?: EventDates
+        event_dates?: EventDates | undefined
         
         /** information about the event’s venue */
-        location_info?: LocationInfo
+        location_info?: LocationInfo | undefined
         
         /** additional information and ticket purchase options */
-        information_and_tickets?: InformationAndTicketsElement[]
+        information_and_tickets?: AiModeLinkElementInfo[] | undefined
 
     [key: string]: any;
 
@@ -54,57 +55,57 @@ export class EventItem  implements IEventItem {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the image featured in the element */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** dates when the event takes place
 if there are none, equals null */
 
-    event_dates?: EventDates;
+    event_dates?: EventDates | undefined;
     
     /** information about the event’s venue */
 
-    location_info?: LocationInfo;
+    location_info?: LocationInfo | undefined;
     
     /** additional information and ticket purchase options */
 
-    information_and_tickets?: InformationAndTicketsElement[];
+    information_and_tickets?: AiModeLinkElementInfo[] | undefined;
 
     [key: string]: any;
 
@@ -140,7 +141,7 @@ if there are none, equals null */
             if (Array.isArray(data["information_and_tickets"])) {
                 this.information_and_tickets = [];
                 for (let item of data["information_and_tickets"]) {
-                    this.information_and_tickets.push(InformationAndTicketsElement.fromJS(item));
+                    this.information_and_tickets.push(AiModeLinkElementInfo.fromJS(item));
                 }
             }
         }

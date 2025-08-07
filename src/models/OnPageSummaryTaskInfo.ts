@@ -1,10 +1,11 @@
 import { OnPageSummaryResultInfo, IOnPageSummaryResultInfo } from "./OnPageSummaryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageSummaryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageSummaryResultInfo[]
+        result?: OnPageSummaryResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageSummaryTaskInfo  extends BaseResponseTaskInfo   implements IO
     
     /** array of results */
 
-    result?: OnPageSummaryResultInfo[];
+    result?: OnPageSummaryResultInfo[] | undefined;
 
     [key: string]: any;
 

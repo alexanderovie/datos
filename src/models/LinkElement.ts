@@ -1,25 +1,25 @@
 export interface ILinkElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** text alongside the link title */
-        snippet?: string
+        snippet?: string | undefined
         
         /** description of the results element */
-        description?: string
+        description?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** domain where a link points */
-        domain?: string
+        domain?: string | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -29,31 +29,31 @@ export class LinkElement  implements ILinkElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** text alongside the link title */
 
-    snippet?: string;
+    snippet?: string | undefined;
     
     /** description of the results element */
 
-    description?: string;
+    description?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain where a link points */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 

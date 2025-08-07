@@ -1,15 +1,16 @@
 import { KeywordIntentInfo, IKeywordIntentInfo } from "./KeywordIntentInfo";
 
+
 export interface IDataforseoLabsGoogleSearchIntentLiveItem   {
         
         /** target keyword in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** search intent data relevant for the specified keyword */
-        keyword_intent?: KeywordIntentInfo
+        keyword_intent?: KeywordIntentInfo | undefined
         
         /** contains objects with other possible search intents for the specified keyword */
-        secondary_keyword_intents?: KeywordIntentInfo[]
+        secondary_keyword_intents?: KeywordIntentInfo[] | undefined
 
     [key: string]: any;
 
@@ -19,15 +20,15 @@ export class DataforseoLabsGoogleSearchIntentLiveItem  implements IDataforseoLab
     
     /** target keyword in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** search intent data relevant for the specified keyword */
 
-    keyword_intent?: KeywordIntentInfo;
+    keyword_intent?: KeywordIntentInfo | undefined;
     
     /** contains objects with other possible search intents for the specified keyword */
 
-    secondary_keyword_intents?: KeywordIntentInfo[];
+    secondary_keyword_intents?: KeywordIntentInfo[] | undefined;
 
     [key: string]: any;
 

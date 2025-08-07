@@ -1,27 +1,28 @@
 import { DataforseoLabsAppleKeywordsForAppLiveItem, IDataforseoLabsAppleKeywordsForAppLiveItem } from "./DataforseoLabsAppleKeywordsForAppLiveItem";
 
+
 export interface IDataforseoLabsAppleKeywordsForAppLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** id of the app in a POST array */
-        app_id?: string
+        app_id?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains data related to the ranking keywords for the app specified in the app_id field */
-        items?: DataforseoLabsAppleKeywordsForAppLiveItem[]
+        items?: DataforseoLabsAppleKeywordsForAppLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -31,31 +32,31 @@ export class DataforseoLabsAppleKeywordsForAppLiveResultInfo  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** id of the app in a POST array */
 
-    app_id?: string;
+    app_id?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains data related to the ranking keywords for the app specified in the app_id field */
 
-    items?: DataforseoLabsAppleKeywordsForAppLiveItem[];
+    items?: DataforseoLabsAppleKeywordsForAppLiveItem[] | undefined;
 
     [key: string]: any;
 

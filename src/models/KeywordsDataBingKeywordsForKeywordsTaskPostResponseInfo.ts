@@ -1,10 +1,11 @@
 import { KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo, IKeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo } from "./KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IKeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo[]
+        tasks?: KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo  extends Ba
     
     /** array of tasks */
 
-    tasks?: KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo[];
+    tasks?: KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo[] | undefined;
 
     [key: string]: any;
 

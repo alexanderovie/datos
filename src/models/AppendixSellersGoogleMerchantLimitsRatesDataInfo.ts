@@ -1,14 +1,15 @@
 import { AppendixFunctionTypeInfo, IAppendixFunctionTypeInfo } from "./AppendixFunctionTypeInfo";
 
+
 export interface IAppendixSellersGoogleMerchantLimitsRatesDataInfo   {
         
-        task_post?: number
+        task_post?: number | undefined
         
-        tasks_ready?: number
+        tasks_ready?: number | undefined
         
-        task_get?: AppendixFunctionTypeInfo
+        task_get?: AppendixFunctionTypeInfo | undefined
         
-        ad_url?: number
+        ad_url?: number | undefined
 
     [key: string]: any;
 
@@ -16,13 +17,13 @@ export interface IAppendixSellersGoogleMerchantLimitsRatesDataInfo   {
 
 export class AppendixSellersGoogleMerchantLimitsRatesDataInfo  implements IAppendixSellersGoogleMerchantLimitsRatesDataInfo {
 
-    task_post?: number;
+    task_post?: number | undefined;
 
-    tasks_ready?: number;
+    tasks_ready?: number | undefined;
 
-    task_get?: AppendixFunctionTypeInfo;
+    task_get?: AppendixFunctionTypeInfo | undefined;
 
-    ad_url?: number;
+    ad_url?: number | undefined;
 
     [key: string]: any;
 

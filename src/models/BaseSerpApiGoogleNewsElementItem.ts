@@ -1,30 +1,31 @@
-import { RectangleInfo, IRectangleInfo } from "./RectangleInfo";
+import { AiModeRectangleInfo, IAiModeRectangleInfo } from "./AiModeRectangleInfo";
 import { TopStoriesElement, ITopStoriesElement } from "./TopStoriesElement";
+
 
 export interface IBaseSerpApiGoogleNewsElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true */
-        rectangle?: RectangleInfo
+        rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
 
@@ -34,32 +35,32 @@ export class BaseSerpApiGoogleNewsElementItem  implements IBaseSerpApiGoogleNews
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true */
 
-    rectangle?: RectangleInfo;
+    rectangle?: AiModeRectangleInfo | undefined;
 
     [key: string]: any;
 
@@ -90,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
             this.rank_absolute = data["rank_absolute"];
             this.xpath = data["xpath"];
             this.title = data["title"];
-            this.rectangle = data["rectangle"] ? RectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
+            this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
         }
     }
 
@@ -125,7 +126,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
         data["rank_absolute"] = this.rank_absolute;
         data["xpath"] = this.xpath;
         data["title"] = this.title;
-        data["rectangle"] = this.rectangle ? RectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
+        data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
         return data;
     }
 }
@@ -134,26 +135,26 @@ equals null if calculate_rectangles in the POST request is not set to true */
 export interface ISerpApiGoogleNewsNewsSearchElementItem  extends IBaseSerpApiGoogleNewsElementItem    {
         
         /** domain in SERP */
-        domain?: string
+        domain?: string | undefined
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
-        image_url?: string
+        image_url?: string | undefined
         
         /** snippet of the result in SERP */
-        snippet?: string
+        snippet?: string | undefined
         
         /** indicates the time the result was published */
-        time_published?: string
+        time_published?: string | undefined
         
         /** date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
 
     [key: string]: any;
 
@@ -163,31 +164,31 @@ export class SerpApiGoogleNewsNewsSearchElementItem  extends BaseSerpApiGoogleNe
     
     /** domain in SERP */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** snippet of the result in SERP */
 
-    snippet?: string;
+    snippet?: string | undefined;
     
     /** indicates the time the result was published */
 
-    time_published?: string;
+    time_published?: string | undefined;
     
     /** date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
 
     [key: string]: any;
 
@@ -245,10 +246,10 @@ export interface ISerpApiGoogleNewsTopStoriesElementItem  extends IBaseSerpApiGo
         /** the alignment of the element in SERP
 can take the following values:
 left */
-        position?: string
+        position?: string | undefined
         
         /** items of the element */
-        items?: TopStoriesElement[]
+        items?: TopStoriesElement[] | undefined
 
     [key: string]: any;
 
@@ -260,11 +261,11 @@ export class SerpApiGoogleNewsTopStoriesElementItem  extends BaseSerpApiGoogleNe
 can take the following values:
 left */
 
-    position?: string;
+    position?: string | undefined;
     
     /** items of the element */
 
-    items?: TopStoriesElement[];
+    items?: TopStoriesElement[] | undefined;
 
     [key: string]: any;
 

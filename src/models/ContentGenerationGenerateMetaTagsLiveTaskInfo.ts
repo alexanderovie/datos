@@ -1,10 +1,11 @@
 import { ContentGenerationGenerateMetaTagsLiveResultInfo, IContentGenerationGenerateMetaTagsLiveResultInfo } from "./ContentGenerationGenerateMetaTagsLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IContentGenerationGenerateMetaTagsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentGenerationGenerateMetaTagsLiveResultInfo[]
+        result?: ContentGenerationGenerateMetaTagsLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentGenerationGenerateMetaTagsLiveTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: ContentGenerationGenerateMetaTagsLiveResultInfo[];
+    result?: ContentGenerationGenerateMetaTagsLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

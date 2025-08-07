@@ -1,66 +1,67 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
-import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonReviewItem, IAmazonReviewItem } from "./AmazonReviewItem";
+
 
 export interface IMerchantAmazonReviewsTaskGetAdvancedResultInfo   {
         
         /** asin received in a POST array */
-        asin?: string
+        asin?: string | undefined
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** search engine domain in a POST array */
-        se_domain?: string
+        se_domain?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
-        check_url?: string
+        check_url?: string | undefined
         
         /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        datetime?: string
+        datetime?: string | undefined
         
         /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
-        spell?: SpellInfo
+        spell?: SpellInfo | undefined
         
         /** title of the product on Amazon
 the title of the product for which the reviews are collected */
-        title?: string
+        title?: string | undefined
         
         /** product image data */
-        image?: AiModeImagesElement
+        image?: AiModeImagesElementInfo | undefined
         
         /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** the total number of reviews */
-        reviews_count?: number
+        reviews_count?: number | undefined
         
         /** type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
 possible item types:
 amazon_review_item */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
-        items_count?: number
+        items_count?: number | undefined
         
         /** found reviews
 you can get more results by using the depth parameter when setting a task */
-        items?: AmazonReviewItem[]
+        items?: AmazonReviewItem[] | undefined
 
     [key: string]: any;
 
@@ -70,75 +71,75 @@ export class MerchantAmazonReviewsTaskGetAdvancedResultInfo  implements IMerchan
     
     /** asin received in a POST array */
 
-    asin?: string;
+    asin?: string | undefined;
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** search engine domain in a POST array */
 
-    se_domain?: string;
+    se_domain?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
-    check_url?: string;
+    check_url?: string | undefined;
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    datetime?: string;
+    datetime?: string | undefined;
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
-    spell?: SpellInfo;
+    spell?: SpellInfo | undefined;
     
     /** title of the product on Amazon
 the title of the product for which the reviews are collected */
 
-    title?: string;
+    title?: string | undefined;
     
     /** product image data */
 
-    image?: AiModeImagesElement;
+    image?: AiModeImagesElementInfo | undefined;
     
     /** rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** the total number of reviews */
 
-    reviews_count?: number;
+    reviews_count?: number | undefined;
     
     /** type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
 possible item types:
 amazon_review_item */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** found reviews
 you can get more results by using the depth parameter when setting a task */
 
-    items?: AmazonReviewItem[];
+    items?: AmazonReviewItem[] | undefined;
 
     [key: string]: any;
 
@@ -169,7 +170,7 @@ you can get more results by using the depth parameter when setting a task */
             this.datetime = data["datetime"];
             this.spell = data["spell"] ? SpellInfo.fromJS(data["spell"]) : <any>undefined;
             this.title = data["title"];
-            this.image = data["image"] ? AiModeImagesElement.fromJS(data["image"]) : <any>undefined;
+            this.image = data["image"] ? AiModeImagesElementInfo.fromJS(data["image"]) : <any>undefined;
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.reviews_count = data["reviews_count"];
             this.item_types = data["item_types"];
@@ -206,7 +207,7 @@ you can get more results by using the depth parameter when setting a task */
         data["datetime"] = this.datetime;
         data["spell"] = this.spell ? SpellInfo.fromJS(this.spell)?.toJSON() : <any>undefined;
         data["title"] = this.title;
-        data["image"] = this.image ? AiModeImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
+        data["image"] = this.image ? AiModeImagesElementInfo.fromJS(this.image)?.toJSON() : <any>undefined;
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["reviews_count"] = this.reviews_count;
         data["item_types"] = this.item_types;

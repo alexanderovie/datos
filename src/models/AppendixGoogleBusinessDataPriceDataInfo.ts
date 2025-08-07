@@ -1,14 +1,15 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 
+
 export interface IAppendixGoogleBusinessDataPriceDataInfo   {
         
-        live?: AppendixTaskKeywordsDataPriceDataInfo
+        live?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        task_get?: AppendixTaskKeywordsDataPriceDataInfo
+        task_get?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        task_post?: AppendixTaskKeywordsDataPriceDataInfo
+        task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -16,13 +17,13 @@ export interface IAppendixGoogleBusinessDataPriceDataInfo   {
 
 export class AppendixGoogleBusinessDataPriceDataInfo  implements IAppendixGoogleBusinessDataPriceDataInfo {
 
-    live?: AppendixTaskKeywordsDataPriceDataInfo;
+    live?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    task_get?: AppendixTaskKeywordsDataPriceDataInfo;
+    task_get?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    task_post?: AppendixTaskKeywordsDataPriceDataInfo;
+    task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

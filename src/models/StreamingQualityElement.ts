@@ -1,25 +1,25 @@
 export interface IStreamingQualityElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** label of the quality element */
-        label?: string
+        label?: string | undefined
         
         /** video width in pixels */
-        width?: number
+        width?: number | undefined
         
         /** video height in pixels */
-        height?: number
+        height?: number | undefined
         
         /** bit rate of the video */
-        bitrate?: number
+        bitrate?: number | undefined
         
         /** media type of the video */
-        mime_type?: string
+        mime_type?: string | undefined
         
         /** frame rate of the video */
-        fps?: number
+        fps?: number | undefined
 
     [key: string]: any;
 
@@ -29,31 +29,31 @@ export class StreamingQualityElement  implements IStreamingQualityElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** label of the quality element */
 
-    label?: string;
+    label?: string | undefined;
     
     /** video width in pixels */
 
-    width?: number;
+    width?: number | undefined;
     
     /** video height in pixels */
 
-    height?: number;
+    height?: number | undefined;
     
     /** bit rate of the video */
 
-    bitrate?: number;
+    bitrate?: number | undefined;
     
     /** media type of the video */
 
-    mime_type?: string;
+    mime_type?: string | undefined;
     
     /** frame rate of the video */
 
-    fps?: number;
+    fps?: number | undefined;
 
     [key: string]: any;
 

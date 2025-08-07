@@ -9,7 +9,7 @@ the keywords will be converted to lowercase format;
 Note: certain symbols and characters (e.g., UTF symbols, emojis) are not allowed
 to learn more about which symbols and characters can be used, please refer to this article
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keywords?: string[]
+        keywords?: string[] | undefined
         
         /** full name of the location
 required field if you don’t specify location_code
@@ -18,7 +18,7 @@ you can receive the list of available locations with their location_name by maki
 https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 required field if you don’t specify location_name
@@ -27,14 +27,14 @@ you can receive the list of available locations with their location_code by maki
 https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -52,7 +52,7 @@ Note: certain symbols and characters (e.g., UTF symbols, emojis) are not allowed
 to learn more about which symbols and characters can be used, please refer to this article
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
-    keywords?: string[];
+    keywords?: string[] | undefined;
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -62,7 +62,7 @@ https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_langu
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 required field if you don’t specify location_name
@@ -72,7 +72,7 @@ https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_langu
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -80,7 +80,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

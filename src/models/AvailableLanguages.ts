@@ -3,19 +3,19 @@ export interface IAvailableLanguages   {
         /** supported sources
 contains the sources of data supported for a specific location and language combination
 only google and bing are currently available */
-        available_sources?: string[]
+        available_sources?: string[] | undefined
         
         /** language name */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code according to ISO 639-1 */
-        language_code?: string
+        language_code?: string | undefined
         
         /** the number of keywords available for the given location and language */
-        keywords?: number
+        keywords?: number | undefined
         
         /** the number of SERP pages available for the given location and language */
-        serps?: number
+        serps?: number | undefined
 
     [key: string]: any;
 
@@ -27,23 +27,23 @@ export class AvailableLanguages  implements IAvailableLanguages {
 contains the sources of data supported for a specific location and language combination
 only google and bing are currently available */
 
-    available_sources?: string[];
+    available_sources?: string[] | undefined;
     
     /** language name */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code according to ISO 639-1 */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** the number of keywords available for the given location and language */
 
-    keywords?: number;
+    keywords?: number | undefined;
     
     /** the number of SERP pages available for the given location and language */
 
-    serps?: number;
+    serps?: number | undefined;
 
     [key: string]: any;
 

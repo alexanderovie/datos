@@ -1,23 +1,24 @@
 import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
-import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageResourceItem";
+
 
 export interface IOnPagePagesByResourceResultInfo   {
         
         /** status of the crawling session
 possible values: in_progress, finished */
-        crawl_progress?: string
+        crawl_progress?: string | undefined
         
         /** details of the crawling session */
-        crawl_status?: CrawlStatusInfo
+        crawl_status?: CrawlStatusInfo | undefined
         
         /** total number of relevant items in the database */
-        total_items_count?: number
+        total_items_count?: number | undefined
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageResourceItem[]
+        items?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -28,23 +29,23 @@ export class OnPagePagesByResourceResultInfo  implements IOnPagePagesByResourceR
     /** status of the crawling session
 possible values: in_progress, finished */
 
-    crawl_progress?: string;
+    crawl_progress?: string | undefined;
     
     /** details of the crawling session */
 
-    crawl_status?: CrawlStatusInfo;
+    crawl_status?: CrawlStatusInfo | undefined;
     
     /** total number of relevant items in the database */
 
-    total_items_count?: number;
+    total_items_count?: number | undefined;
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: BaseOnPageResourceItem[];
+    items?: OnPageHtmlResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -73,7 +74,7 @@ possible values: in_progress, finished */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseOnPageResourceItem.fromJS(item));
+                    this.items.push(OnPageHtmlResourceItem.fromJS(item));
                 }
             }
         }

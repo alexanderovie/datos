@@ -4,7 +4,7 @@ export interface IDataforseoLabsGoogleSubdomainsLiveRequestInfo   {
 required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 optional field
@@ -14,7 +14,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 optional field
@@ -24,7 +24,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 optional field
@@ -34,7 +34,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 optional field
@@ -44,7 +44,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** display results by item type
 optional field
@@ -54,7 +54,7 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -62,7 +62,7 @@ if the parameter is set to true, you will receive clickstream_etv, clickstream_
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean
+        include_clickstream_data?: boolean | undefined
         
         /** data collection mode
 optional field
@@ -72,13 +72,13 @@ live — return metrics for SERPs in which the specified target currently has ra
 lost — return metrics for SERPs in which the specified target had previously had ranking results, but didn’t have them during the last check;
 all — return metrics for both types of SERPs.
 default value: live */
-        historical_serp_mode?: string
+        historical_serp_mode?: string | undefined
         
         /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean
+        ignore_synonyms?: boolean | undefined
         
         /** array of results filtering parameters
 optional field
@@ -93,7 +93,7 @@ example:
 'and',
 [['metrics.organic.pos_1','<>',0],'or',['metrics.organic.pos_2_3','<>',0]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -111,26 +111,26 @@ example:
 default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -143,7 +143,7 @@ required field
 the domain name of the target website
 the domain should be specified without https:// and www. */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 optional field
@@ -154,7 +154,7 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 optional field
@@ -165,7 +165,7 @@ ignore this field to get the results for all available locations
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 optional field
@@ -176,7 +176,7 @@ ignore this field to get the results for all available languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 optional field
@@ -187,7 +187,7 @@ ignore this field to get the results for all available languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** display results by item type
 optional field
@@ -198,7 +198,7 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -207,7 +207,7 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean;
+    include_clickstream_data?: boolean | undefined;
     
     /** data collection mode
 optional field
@@ -218,14 +218,14 @@ lost — return metrics for SERPs in which the specified target had previously h
 all — return metrics for both types of SERPs.
 default value: live */
 
-    historical_serp_mode?: string;
+    historical_serp_mode?: string | undefined;
     
     /** ignore highly similar keywords
 optional field
 if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean;
+    ignore_synonyms?: boolean | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -241,7 +241,7 @@ example:
 [['metrics.organic.pos_1','<>',0],'or',['metrics.organic.pos_2_3','<>',0]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -260,21 +260,21 @@ default rule:
 ['metrics.organic.count,desc']
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** user-defined task identifier
 optional field
@@ -282,7 +282,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

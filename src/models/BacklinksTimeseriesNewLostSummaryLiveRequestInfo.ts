@@ -5,7 +5,7 @@ required field
 a domain should be specified without https:// and www.
 example:
 'forbes.com' */
-        target?: string
+        target?: string | undefined
         
         /** starting date of the time range
 optional field
@@ -17,7 +17,7 @@ maximum value shouldn’t exceed the date specified in the date_to
 date format: 'yyyy-mm-dd'
 example:
 '2021-01-01' */
-        date_from?: string
+        date_from?: string | undefined
         
         /** ending date of the time range
 optional field
@@ -27,7 +27,7 @@ maximum value: today’s date
 date format: 'yyyy-mm-dd'
 example:
 '2021-01-15' */
-        date_to?: string
+        date_to?: string | undefined
         
         /** time range which will be used to group the results
 optional field
@@ -41,20 +41,20 @@ for example, if you specify:
 'date_to': '2022-05-13'
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0 */
-        group_range?: string
+        group_range?: string | undefined
         
         /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
-        include_subdomains?: boolean
+        include_subdomains?: boolean | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -68,7 +68,7 @@ a domain should be specified without https:// and www.
 example:
 'forbes.com' */
 
-    target?: string;
+    target?: string | undefined;
     
     /** starting date of the time range
 optional field
@@ -81,7 +81,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2021-01-01' */
 
-    date_from?: string;
+    date_from?: string | undefined;
     
     /** ending date of the time range
 optional field
@@ -92,7 +92,7 @@ date format: 'yyyy-mm-dd'
 example:
 '2021-01-15' */
 
-    date_to?: string;
+    date_to?: string | undefined;
     
     /** time range which will be used to group the results
 optional field
@@ -107,14 +107,14 @@ for example, if you specify:
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0 */
 
-    group_range?: string;
+    group_range?: string | undefined;
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true */
 
-    include_subdomains?: boolean;
+    include_subdomains?: boolean | undefined;
     
     /** user-defined task identifier
 optional field
@@ -122,7 +122,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

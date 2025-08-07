@@ -1,16 +1,17 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 import { RankedSerpElement, IRankedSerpElement } from "./RankedSerpElement";
 
+
 export interface IDataforseoLabsRankedKeywordsLiveItem   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** keyword data for the returned keyword */
-        keyword_data?: KeywordDataInfo
+        keyword_data?: KeywordDataInfo | undefined
         
         /** contains data on the domain’s SERP element found for the returned keyword */
-        ranked_serp_element?: RankedSerpElement
+        ranked_serp_element?: RankedSerpElement | undefined
 
     [key: string]: any;
 
@@ -20,15 +21,15 @@ export class DataforseoLabsRankedKeywordsLiveItem  implements IDataforseoLabsRan
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** keyword data for the returned keyword */
 
-    keyword_data?: KeywordDataInfo;
+    keyword_data?: KeywordDataInfo | undefined;
     
     /** contains data on the domain’s SERP element found for the returned keyword */
 
-    ranked_serp_element?: RankedSerpElement;
+    ranked_serp_element?: RankedSerpElement | undefined;
 
     [key: string]: any;
 

@@ -1,18 +1,18 @@
 export interface IOnPageAvailableFiltersResultInfo   {
         
-        resources?: { [key: string]: string; }
+        resources?: { [key: string]: string; } | undefined
         
-        pages?: { [key: string]: string; }
+        pages?: { [key: string]: string; } | undefined
         
-        non_indexable?: { [key: string]: string; }
+        non_indexable?: { [key: string]: string; } | undefined
         
-        links?: { [key: string]: string; }
+        links?: { [key: string]: string; } | undefined
         
-        pages_by_resource?: { [key: string]: string; }
+        pages_by_resource?: { [key: string]: string; } | undefined
         
-        redirect_chains?: { [key: string]: string; }
+        redirect_chains?: { [key: string]: string; } | undefined
         
-        keyword_density?: { [key: string]: string; }
+        keyword_density?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export interface IOnPageAvailableFiltersResultInfo   {
 
 export class OnPageAvailableFiltersResultInfo  implements IOnPageAvailableFiltersResultInfo {
 
-    resources?: { [key: string]: string; };
+    resources?: { [key: string]: string; } | undefined;
 
-    pages?: { [key: string]: string; };
+    pages?: { [key: string]: string; } | undefined;
 
-    non_indexable?: { [key: string]: string; };
+    non_indexable?: { [key: string]: string; } | undefined;
 
-    links?: { [key: string]: string; };
+    links?: { [key: string]: string; } | undefined;
 
-    pages_by_resource?: { [key: string]: string; };
+    pages_by_resource?: { [key: string]: string; } | undefined;
 
-    redirect_chains?: { [key: string]: string; };
+    redirect_chains?: { [key: string]: string; } | undefined;
 
-    keyword_density?: { [key: string]: string; };
+    keyword_density?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 

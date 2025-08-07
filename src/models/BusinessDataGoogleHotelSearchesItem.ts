@@ -2,39 +2,40 @@ import { GpsCoordinatesLocationInfo, IGpsCoordinatesLocationInfo } from "./GpsCo
 import { HotelReviewInfo, IHotelReviewInfo } from "./HotelReviewInfo";
 import { HotelPriceInfo, IHotelPriceInfo } from "./HotelPriceInfo";
 
+
 export interface IBusinessDataGoogleHotelSearchesItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** unique identifier of a hotel entity in Google search
 example:
 CgoI-KWyzenM_MV3EAE */
-        hotel_identifier?: string
+        hotel_identifier?: string | undefined
         
         /** title of the hotel */
-        title?: string
+        title?: string | undefined
         
         /** hotel class rating
 class rating that ranges between 1-5 stars */
-        stars?: number
+        stars?: number | undefined
         
         /** indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
-        is_paid?: boolean
+        is_paid?: boolean | undefined
         
         /** GPS coordinates of the hotel’s location */
-        location?: GpsCoordinatesLocationInfo
+        location?: GpsCoordinatesLocationInfo | undefined
         
         /** hotel reviews and rating information */
-        reviews?: HotelReviewInfo
+        reviews?: HotelReviewInfo | undefined
         
         /** featured images for a hotel */
-        overview_images?: string[]
+        overview_images?: string[] | undefined
         
         /** hotel price */
-        prices?: HotelPriceInfo
+        prices?: HotelPriceInfo | undefined
 
     [key: string]: any;
 
@@ -44,44 +45,44 @@ export class BusinessDataGoogleHotelSearchesItem  implements IBusinessDataGoogle
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** unique identifier of a hotel entity in Google search
 example:
 CgoI-KWyzenM_MV3EAE */
 
-    hotel_identifier?: string;
+    hotel_identifier?: string | undefined;
     
     /** title of the hotel */
 
-    title?: string;
+    title?: string | undefined;
     
     /** hotel class rating
 class rating that ranges between 1-5 stars */
 
-    stars?: number;
+    stars?: number | undefined;
     
     /** indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
 
-    is_paid?: boolean;
+    is_paid?: boolean | undefined;
     
     /** GPS coordinates of the hotel’s location */
 
-    location?: GpsCoordinatesLocationInfo;
+    location?: GpsCoordinatesLocationInfo | undefined;
     
     /** hotel reviews and rating information */
 
-    reviews?: HotelReviewInfo;
+    reviews?: HotelReviewInfo | undefined;
     
     /** featured images for a hotel */
 
-    overview_images?: string[];
+    overview_images?: string[] | undefined;
     
     /** hotel price */
 
-    prices?: HotelPriceInfo;
+    prices?: HotelPriceInfo | undefined;
 
     [key: string]: any;
 

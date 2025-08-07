@@ -6,10 +6,11 @@ import { GraphItems, IGraphItems } from "./GraphItems";
 import { GoogleFinanceMetricsBundleInfo, IGoogleFinanceMetricsBundleInfo } from "./GoogleFinanceMetricsBundleInfo";
 import { GoogleFinanceFuturesChainElement, IGoogleFinanceFuturesChainElement } from "./GoogleFinanceFuturesChainElement";
 
+
 export interface IBaseSerpApiGoogleFinanceElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
 
     [key: string]: any;
 
@@ -19,7 +20,7 @@ export class BaseSerpApiGoogleFinanceElementItem  implements IBaseSerpApiGoogleF
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
 
     [key: string]: any;
 
@@ -175,55 +176,55 @@ export interface ISerpApiGoogleFinanceAssetPairElementElementItem  extends IBase
         
         /** identifier of the base asset in a pair
 example: EUR */
-        base_symbol?: string
+        base_symbol?: string | undefined
         
         /** identifier of the quote asset in a pair
 example: USD */
-        quote_symbol?: string
+        quote_symbol?: string | undefined
         
         /** full name of the base asset in a pair
 example: Euro */
-        base_display_name?: string
+        base_display_name?: string | undefined
         
         /** full name of the base asset in a pair
 example: Euro */
-        quote_display_name?: string
+        quote_display_name?: string | undefined
         
         /** value of the base asset compared to the quote asset */
-        price?: number
+        price?: number | undefined
         
         /** change in price
 change in price at a given timestamp */
-        price_delta?: number
+        price_delta?: number | undefined
         
         /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
-        identifier?: string
+        identifier?: string | undefined
         
         /** name of the market index as displayed on Google Finance
 example: CAC 40 */
-        displayed_name?: string
+        displayed_name?: string | undefined
         
         /** URL to the page of the market index on Google Finance */
-        url?: string
+        url?: string | undefined
         
         /** location of the market index
 example: Europe/Paris */
-        location?: string
+        location?: string | undefined
         
         /** growth trend of the market index
 possible values: up, down, stable */
-        trend?: string
+        trend?: string | undefined
         
         /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** percentage of change in value of the market index */
-        percentage_delta?: number
+        percentage_delta?: number | undefined
 
     [key: string]: any;
 
@@ -234,67 +235,67 @@ export class SerpApiGoogleFinanceAssetPairElementElementItem  extends BaseSerpAp
     /** identifier of the base asset in a pair
 example: EUR */
 
-    base_symbol?: string;
+    base_symbol?: string | undefined;
     
     /** identifier of the quote asset in a pair
 example: USD */
 
-    quote_symbol?: string;
+    quote_symbol?: string | undefined;
     
     /** full name of the base asset in a pair
 example: Euro */
 
-    base_display_name?: string;
+    base_display_name?: string | undefined;
     
     /** full name of the base asset in a pair
 example: Euro */
 
-    quote_display_name?: string;
+    quote_display_name?: string | undefined;
     
     /** value of the base asset compared to the quote asset */
 
-    price?: number;
+    price?: number | undefined;
     
     /** change in price
 change in price at a given timestamp */
 
-    price_delta?: number;
+    price_delta?: number | undefined;
     
     /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
 
-    identifier?: string;
+    identifier?: string | undefined;
     
     /** name of the market index as displayed on Google Finance
 example: CAC 40 */
 
-    displayed_name?: string;
+    displayed_name?: string | undefined;
     
     /** URL to the page of the market index on Google Finance */
 
-    url?: string;
+    url?: string | undefined;
     
     /** location of the market index
 example: Europe/Paris */
 
-    location?: string;
+    location?: string | undefined;
     
     /** growth trend of the market index
 possible values: up, down, stable */
 
-    trend?: string;
+    trend?: string | undefined;
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** percentage of change in value of the market index */
 
-    percentage_delta?: number;
+    percentage_delta?: number | undefined;
 
     [key: string]: any;
 
@@ -365,48 +366,48 @@ export interface ISerpApiGoogleFinanceMarketIndexElementElementItem  extends IBa
         
         /** ticker of the market index
 example: DAX */
-        ticker?: string
+        ticker?: string | undefined
         
         /** market identifier
 example: INDEXDB */
-        market_identifier?: string
+        market_identifier?: string | undefined
         
         /** value of the market index
 numerical value of the index at a given timestamp */
-        index_value?: number
+        index_value?: number | undefined
         
         /** change in value of the market index
 change in the index_value at a given timestamp */
-        index_value_delta?: number
+        index_value_delta?: number | undefined
         
         /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
-        identifier?: string
+        identifier?: string | undefined
         
         /** name of the market index as displayed on Google Finance
 example: CAC 40 */
-        displayed_name?: string
+        displayed_name?: string | undefined
         
         /** URL to the page of the market index on Google Finance */
-        url?: string
+        url?: string | undefined
         
         /** location of the market index
 example: Europe/Paris */
-        location?: string
+        location?: string | undefined
         
         /** growth trend of the market index
 possible values: up, down, stable */
-        trend?: string
+        trend?: string | undefined
         
         /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** percentage of change in value of the market index */
-        percentage_delta?: number
+        percentage_delta?: number | undefined
 
     [key: string]: any;
 
@@ -417,58 +418,58 @@ export class SerpApiGoogleFinanceMarketIndexElementElementItem  extends BaseSerp
     /** ticker of the market index
 example: DAX */
 
-    ticker?: string;
+    ticker?: string | undefined;
     
     /** market identifier
 example: INDEXDB */
 
-    market_identifier?: string;
+    market_identifier?: string | undefined;
     
     /** value of the market index
 numerical value of the index at a given timestamp */
 
-    index_value?: number;
+    index_value?: number | undefined;
     
     /** change in value of the market index
 change in the index_value at a given timestamp */
 
-    index_value_delta?: number;
+    index_value_delta?: number | undefined;
     
     /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
 
-    identifier?: string;
+    identifier?: string | undefined;
     
     /** name of the market index as displayed on Google Finance
 example: CAC 40 */
 
-    displayed_name?: string;
+    displayed_name?: string | undefined;
     
     /** URL to the page of the market index on Google Finance */
 
-    url?: string;
+    url?: string | undefined;
     
     /** location of the market index
 example: Europe/Paris */
 
-    location?: string;
+    location?: string | undefined;
     
     /** growth trend of the market index
 possible values: up, down, stable */
 
-    trend?: string;
+    trend?: string | undefined;
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** percentage of change in value of the market index */
 
-    percentage_delta?: number;
+    percentage_delta?: number | undefined;
 
     [key: string]: any;
 
@@ -535,47 +536,47 @@ export interface ISerpApiGoogleFinanceMarketInstrumentElementElementItem  extend
         
         /** ticker of the market index
 example: DAX */
-        ticker?: string
+        ticker?: string | undefined
         
         /** value of the base asset compared to the quote asset */
-        price?: number
+        price?: number | undefined
         
         /** change in price
 change in price at a given timestamp */
-        price_delta?: number
+        price_delta?: number | undefined
         
         /** price currency
 example: USD */
-        price_currency?: string
+        price_currency?: string | undefined
         
         /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
-        identifier?: string
+        identifier?: string | undefined
         
         /** name of the market index as displayed on Google Finance
 example: CAC 40 */
-        displayed_name?: string
+        displayed_name?: string | undefined
         
         /** URL to the page of the market index on Google Finance */
-        url?: string
+        url?: string | undefined
         
         /** location of the market index
 example: Europe/Paris */
-        location?: string
+        location?: string | undefined
         
         /** growth trend of the market index
 possible values: up, down, stable */
-        trend?: string
+        trend?: string | undefined
         
         /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** percentage of change in value of the market index */
-        percentage_delta?: number
+        percentage_delta?: number | undefined
 
     [key: string]: any;
 
@@ -586,57 +587,57 @@ export class SerpApiGoogleFinanceMarketInstrumentElementElementItem  extends Bas
     /** ticker of the market index
 example: DAX */
 
-    ticker?: string;
+    ticker?: string | undefined;
     
     /** value of the base asset compared to the quote asset */
 
-    price?: number;
+    price?: number | undefined;
     
     /** change in price
 change in price at a given timestamp */
 
-    price_delta?: number;
+    price_delta?: number | undefined;
     
     /** price currency
 example: USD */
 
-    price_currency?: string;
+    price_currency?: string | undefined;
     
     /** identifier of the element
 full identifier of the element that consists from ticker and market_identifier
 example: PX1:INDEXDB */
 
-    identifier?: string;
+    identifier?: string | undefined;
     
     /** name of the market index as displayed on Google Finance
 example: CAC 40 */
 
-    displayed_name?: string;
+    displayed_name?: string | undefined;
     
     /** URL to the page of the market index on Google Finance */
 
-    url?: string;
+    url?: string | undefined;
     
     /** location of the market index
 example: Europe/Paris */
 
-    location?: string;
+    location?: string | undefined;
     
     /** growth trend of the market index
 possible values: up, down, stable */
 
-    trend?: string;
+    trend?: string | undefined;
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2025-02-10 09:40:00 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** percentage of change in value of the market index */
 
-    percentage_delta?: number;
+    percentage_delta?: number | undefined;
 
     [key: string]: any;
 
@@ -704,15 +705,15 @@ export interface ISerpApiGoogleFinanceHeroGroupsElementItem  extends IBaseSerpAp
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** financial markets data
 array of items containing market indexes and other financial information related to these indexes */
-        markets?: Markets[]
+        markets?: Markets[] | undefined
 
     [key: string]: any;
 
@@ -724,17 +725,17 @@ export class SerpApiGoogleFinanceHeroGroupsElementItem  extends BaseSerpApiGoogl
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** financial markets data
 array of items containing market indexes and other financial information related to these indexes */
 
-    markets?: Markets[];
+    markets?: Markets[] | undefined;
 
     [key: string]: any;
 
@@ -799,16 +800,16 @@ export interface ISerpApiGoogleFinanceInterestedElementItem  extends IBaseSerpAp
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseSerpApiGoogleFinanceElementItem[]
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -820,18 +821,18 @@ export class SerpApiGoogleFinanceInterestedElementItem  extends BaseSerpApiGoogl
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[];
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -896,24 +897,24 @@ export interface ISerpApiGoogleFinanceNewsElementItem  extends IBaseSerpApiGoogl
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** title of the news element
 example: In the news */
-        title?: string
+        title?: string | undefined
         
         /** sub-title of the news element
 example: Based on Europe, Middle East, and Africa */
-        sub_title?: string
+        sub_title?: string | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: GoogleFinanceNewsElement[]
+        items?: GoogleFinanceNewsElement[] | undefined
 
     [key: string]: any;
 
@@ -925,28 +926,28 @@ export class SerpApiGoogleFinanceNewsElementItem  extends BaseSerpApiGoogleFinan
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** title of the news element
 example: In the news */
 
-    title?: string;
+    title?: string | undefined;
     
     /** sub-title of the news element
 example: Based on Europe, Middle East, and Africa */
 
-    sub_title?: string;
+    sub_title?: string | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: GoogleFinanceNewsElement[];
+    items?: GoogleFinanceNewsElement[] | undefined;
 
     [key: string]: any;
 
@@ -1015,16 +1016,16 @@ export interface ISerpApiGoogleFinanceEarningsCalendarElementItem  extends IBase
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: GoogleFinanceEarningsCalendarElement[]
+        items?: GoogleFinanceEarningsCalendarElement[] | undefined
 
     [key: string]: any;
 
@@ -1036,18 +1037,18 @@ export class SerpApiGoogleFinanceEarningsCalendarElementItem  extends BaseSerpAp
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: GoogleFinanceEarningsCalendarElement[];
+    items?: GoogleFinanceEarningsCalendarElement[] | undefined;
 
     [key: string]: any;
 
@@ -1112,16 +1113,16 @@ export interface ISerpApiGoogleFinanceMostFollowedElementItem  extends IBaseSerp
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseSerpApiGoogleFinanceElementItem[]
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -1133,18 +1134,18 @@ export class SerpApiGoogleFinanceMostFollowedElementItem  extends BaseSerpApiGoo
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[];
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -1209,16 +1210,16 @@ export interface ISerpApiGoogleFinanceMarketTrendsElementItem  extends IBaseSerp
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: SerpGoogleFinanceExploreAdvancedItem
+        items?: SerpGoogleFinanceExploreAdvancedItem | undefined
 
     [key: string]: any;
 
@@ -1230,18 +1231,18 @@ export class SerpApiGoogleFinanceMarketTrendsElementItem  extends BaseSerpApiGoo
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: SerpGoogleFinanceExploreAdvancedItem;
+    items?: SerpGoogleFinanceExploreAdvancedItem | undefined;
 
     [key: string]: any;
 
@@ -1293,16 +1294,16 @@ export interface ISerpApiGoogleFinancePeopleAlsoSearchElementItem  extends IBase
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseSerpApiGoogleFinanceElementItem[]
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -1314,18 +1315,18 @@ export class SerpApiGoogleFinancePeopleAlsoSearchElementItem  extends BaseSerpAp
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[];
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -1390,26 +1391,26 @@ export interface ISerpApiGoogleFinanceExploreMarketTrendsElementItem  extends IB
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** title of the market trends element
 example: Europe, Middle East, and Africa */
-        title?: string
+        title?: string | undefined
         
         /** sub-title of the market trends element */
-        sub_title?: string
+        sub_title?: string | undefined
         
         /** URL to finance pair on Google Finance */
-        url?: string
+        url?: string | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseSerpApiGoogleFinanceElementItem[]
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -1421,31 +1422,31 @@ export class SerpApiGoogleFinanceExploreMarketTrendsElementItem  extends BaseSer
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** title of the market trends element
 example: Europe, Middle East, and Africa */
 
-    title?: string;
+    title?: string | undefined;
     
     /** sub-title of the market trends element */
 
-    sub_title?: string;
+    sub_title?: string | undefined;
     
     /** URL to finance pair on Google Finance */
 
-    url?: string;
+    url?: string | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[];
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -1516,17 +1517,17 @@ export interface ISerpApiGoogleFinanceQuoteElementItem  extends IBaseSerpApiGoog
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** quoted market indexes */
-        quote?: BaseSerpApiGoogleFinanceElementItem
+        quote?: BaseSerpApiGoogleFinanceElementItem | undefined
         
         /** values on graph */
-        graph_items?: GraphItems[]
+        graph_items?: GraphItems[] | undefined
 
     [key: string]: any;
 
@@ -1538,20 +1539,20 @@ export class SerpApiGoogleFinanceQuoteElementItem  extends BaseSerpApiGoogleFina
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** quoted market indexes */
 
-    quote?: BaseSerpApiGoogleFinanceElementItem;
+    quote?: BaseSerpApiGoogleFinanceElementItem | undefined;
     
     /** values on graph */
 
-    graph_items?: GraphItems[];
+    graph_items?: GraphItems[] | undefined;
 
     [key: string]: any;
 
@@ -1618,16 +1619,16 @@ export interface ISerpApiGoogleFinanceCompareToElementItem  extends IBaseSerpApi
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
-        items?: BaseSerpApiGoogleFinanceElementItem[]
+        items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
 
@@ -1639,18 +1640,18 @@ export class SerpApiGoogleFinanceCompareToElementItem  extends BaseSerpApiGoogle
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** market indexes data
 array of items containing market indexes data;
 possible type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
-    items?: BaseSerpApiGoogleFinanceElementItem[];
+    items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -1715,17 +1716,17 @@ export interface ISerpApiGoogleFinanceFinancialElementItem  extends IBaseSerpApi
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** quarterly google finance metrics */
-        quarterly_metrics?: GoogleFinanceMetricsBundleInfo[]
+        quarterly_metrics?: GoogleFinanceMetricsBundleInfo[] | undefined
         
         /** annual google finance metrics */
-        annual_metrics?: GoogleFinanceMetricsBundleInfo[]
+        annual_metrics?: GoogleFinanceMetricsBundleInfo[] | undefined
 
     [key: string]: any;
 
@@ -1737,20 +1738,20 @@ export class SerpApiGoogleFinanceFinancialElementItem  extends BaseSerpApiGoogle
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** quarterly google finance metrics */
 
-    quarterly_metrics?: GoogleFinanceMetricsBundleInfo[];
+    quarterly_metrics?: GoogleFinanceMetricsBundleInfo[] | undefined;
     
     /** annual google finance metrics */
 
-    annual_metrics?: GoogleFinanceMetricsBundleInfo[];
+    annual_metrics?: GoogleFinanceMetricsBundleInfo[] | undefined;
 
     [key: string]: any;
 
@@ -1830,15 +1831,15 @@ export interface ISerpApiGoogleFinanceFuturesChainElementItem  extends IBaseSerp
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** financial markets data
 array of items containing market indexes and other financial information related to these indexes */
-        markets?: GoogleFinanceFuturesChainElement[]
+        markets?: GoogleFinanceFuturesChainElement[] | undefined
 
     [key: string]: any;
 
@@ -1850,17 +1851,17 @@ export class SerpApiGoogleFinanceFuturesChainElementItem  extends BaseSerpApiGoo
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** financial markets data
 array of items containing market indexes and other financial information related to these indexes */
 
-    markets?: GoogleFinanceFuturesChainElement[];
+    markets?: GoogleFinanceFuturesChainElement[] | undefined;
 
     [key: string]: any;
 
@@ -1925,80 +1926,80 @@ export interface ISerpApiGoogleFinanceDetailsElementItem  extends IBaseSerpApiGo
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** google finance badges relevant to the element
 example: Futures Contract */
-        badges?: string[]
+        badges?: string[] | undefined
         
         /** value of the previous close */
-        previous_close?: number
+        previous_close?: number | undefined
         
         /** value of the start day range */
-        start_day_range?: number
+        start_day_range?: number | undefined
         
         /** value of the end day range */
-        end_day_range?: number
+        end_day_range?: number | undefined
         
         /** value of the start year range */
-        start_year_range?: number
+        start_year_range?: number | undefined
         
         /** value of the end year range */
-        end_year_range?: number
+        end_year_range?: number | undefined
         
         /** market cap value */
-        market_cap?: number
+        market_cap?: number | undefined
         
         /** total volume value */
-        volume?: number
+        volume?: number | undefined
         
         /** average volume value */
-        avg_volume?: number
+        avg_volume?: number | undefined
         
         /** price-earnings ratio */
-        pe_ratio?: number
+        pe_ratio?: number | undefined
         
         /** dividend yield value */
-        dividend_yield?: number
+        dividend_yield?: number | undefined
         
         /** primary exchange value */
-        primary_exchange?: string
+        primary_exchange?: string | undefined
         
         /** year-to-date return value */
-        ytd_return?: number
+        ytd_return?: number | undefined
         
         /** expense ratio value */
-        expense_ratio?: number
+        expense_ratio?: number | undefined
         
         /** category name */
-        category?: string
+        category?: string | undefined
         
-        net_assets?: number
+        net_assets?: number | undefined
         
         /** yield value */
-        yield?: number
+        yield?: number | undefined
         
         /** front load value */
-        front_load?: number
+        front_load?: number | undefined
         
         /** name of the relevant market segment */
-        market_segment?: string
+        market_segment?: string | undefined
         
         /** open interest value */
-        open_interest?: number
+        open_interest?: number | undefined
         
         /** settlement price value */
-        settlement_price?: number
+        settlement_price?: number | undefined
         
         /** climate change score by carbon disclosure project methodology */
-        cdp_climate_change_score?: string
+        cdp_climate_change_score?: string | undefined
         
         /** currency of the metrics */
-        metrics_currency?: string
+        metrics_currency?: string | undefined
 
     [key: string]: any;
 
@@ -2010,103 +2011,103 @@ export class SerpApiGoogleFinanceDetailsElementItem  extends BaseSerpApiGoogleFi
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** google finance badges relevant to the element
 example: Futures Contract */
 
-    badges?: string[];
+    badges?: string[] | undefined;
     
     /** value of the previous close */
 
-    previous_close?: number;
+    previous_close?: number | undefined;
     
     /** value of the start day range */
 
-    start_day_range?: number;
+    start_day_range?: number | undefined;
     
     /** value of the end day range */
 
-    end_day_range?: number;
+    end_day_range?: number | undefined;
     
     /** value of the start year range */
 
-    start_year_range?: number;
+    start_year_range?: number | undefined;
     
     /** value of the end year range */
 
-    end_year_range?: number;
+    end_year_range?: number | undefined;
     
     /** market cap value */
 
-    market_cap?: number;
+    market_cap?: number | undefined;
     
     /** total volume value */
 
-    volume?: number;
+    volume?: number | undefined;
     
     /** average volume value */
 
-    avg_volume?: number;
+    avg_volume?: number | undefined;
     
     /** price-earnings ratio */
 
-    pe_ratio?: number;
+    pe_ratio?: number | undefined;
     
     /** dividend yield value */
 
-    dividend_yield?: number;
+    dividend_yield?: number | undefined;
     
     /** primary exchange value */
 
-    primary_exchange?: string;
+    primary_exchange?: string | undefined;
     
     /** year-to-date return value */
 
-    ytd_return?: number;
+    ytd_return?: number | undefined;
     
     /** expense ratio value */
 
-    expense_ratio?: number;
+    expense_ratio?: number | undefined;
     
     /** category name */
 
-    category?: string;
+    category?: string | undefined;
 
-    net_assets?: number;
+    net_assets?: number | undefined;
     
     /** yield value */
 
-    yield?: number;
+    yield?: number | undefined;
     
     /** front load value */
 
-    front_load?: number;
+    front_load?: number | undefined;
     
     /** name of the relevant market segment */
 
-    market_segment?: string;
+    market_segment?: string | undefined;
     
     /** open interest value */
 
-    open_interest?: number;
+    open_interest?: number | undefined;
     
     /** settlement price value */
 
-    settlement_price?: number;
+    settlement_price?: number | undefined;
     
     /** climate change score by carbon disclosure project methodology */
 
-    cdp_climate_change_score?: string;
+    cdp_climate_change_score?: string | undefined;
     
     /** currency of the metrics */
 
-    metrics_currency?: string;
+    metrics_currency?: string | undefined;
 
     [key: string]: any;
 
@@ -2202,39 +2203,39 @@ export interface ISerpApiGoogleFinanceAboutElementItem  extends IBaseSerpApiGoog
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** displayed name of the market index
 example: E-mini Dow ($5) */
-        displayed_name?: string
+        displayed_name?: string | undefined
         
         /** company description */
-        description?: string
+        description?: string | undefined
         
         /** source of information provided in description */
-        description_source_url?: string
+        description_source_url?: string | undefined
         
         /** Chief Executive Officer of the company */
-        ceo?: string
+        ceo?: string | undefined
         
         /** date when the company was founded
 in the format: “yyyy-mm-ddThh-mm-ssZ”
 example:
 1993-04-05T00:00:00Z */
-        founded?: string
+        founded?: string | undefined
         
         /** company headquarters */
-        headquarters?: string
+        headquarters?: string | undefined
         
         /** company website */
-        website?: string
+        website?: string | undefined
         
         /** number of company employees */
-        employees?: number
+        employees?: number | undefined
 
     [key: string]: any;
 
@@ -2246,48 +2247,48 @@ export class SerpApiGoogleFinanceAboutElementItem  extends BaseSerpApiGoogleFina
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** displayed name of the market index
 example: E-mini Dow ($5) */
 
-    displayed_name?: string;
+    displayed_name?: string | undefined;
     
     /** company description */
 
-    description?: string;
+    description?: string | undefined;
     
     /** source of information provided in description */
 
-    description_source_url?: string;
+    description_source_url?: string | undefined;
     
     /** Chief Executive Officer of the company */
 
-    ceo?: string;
+    ceo?: string | undefined;
     
     /** date when the company was founded
 in the format: “yyyy-mm-ddThh-mm-ssZ”
 example:
 1993-04-05T00:00:00Z */
 
-    founded?: string;
+    founded?: string | undefined;
     
     /** company headquarters */
 
-    headquarters?: string;
+    headquarters?: string | undefined;
     
     /** company website */
 
-    website?: string;
+    website?: string | undefined;
     
     /** number of company employees */
 
-    employees?: number;
+    employees?: number | undefined;
 
     [key: string]: any;
 

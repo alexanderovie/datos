@@ -5,14 +5,14 @@ required field
 target page should be specified with its absolute URL (including http:// or https://)
 example:
 https://dataforseo.com/ */
-        url?: string
+        url?: string | undefined
         
         /** applies mobile emulation
 optional field
 if set to true, Lighthouse will use mobile device and screen emulation to test the page against mobile environment
 if set to false, the results will be provided for desktop
 default value: false */
-        for_mobile?: boolean
+        for_mobile?: boolean | undefined
         
         /** categories of Lighthouse audits
 optional field
@@ -21,7 +21,7 @@ if you ignore this field, we will return data for all categories unless you spec
 use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility */
-        categories?: string[]
+        categories?: string[] | undefined
         
         /** Lighthouse audits
 optional field
@@ -35,34 +35,34 @@ for example, if you ignore 'categories' and specify 'audits': ['metrics/cumulati
 2. if you specify a category, you can use this field to additionally receive audits that do not belong to the category(-ies) you specified
 for example, if you specify 'categories': ['seo'] and 'audits': ['metrics/cumulative-layout-shift','metrics/largest-contentful-paint','metrics/total-blocking-time'], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here */
-        audits?: string[]
+        audits?: string[] | undefined
         
         /** lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint */
-        version?: string
+        version?: string | undefined
         
         /** lighthouse language name
 optional field
 you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/on_page/lighthouse/languages
 default value:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** lighthouse language code
 optional field
 you can receive the list of available languages of the search engine with their language_code by making a separate request to https://api.dataforseo.com/v3/on_page/lighthouse/languages
 default value:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -76,7 +76,7 @@ target page should be specified with its absolute URL (including http:// or http
 example:
 https://dataforseo.com/ */
 
-    url?: string;
+    url?: string | undefined;
     
     /** applies mobile emulation
 optional field
@@ -84,7 +84,7 @@ if set to true, Lighthouse will use mobile device and screen emulation to test t
 if set to false, the results will be provided for desktop
 default value: false */
 
-    for_mobile?: boolean;
+    for_mobile?: boolean | undefined;
     
     /** categories of Lighthouse audits
 optional field
@@ -94,7 +94,7 @@ use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility */
 
-    categories?: string[];
+    categories?: string[] | undefined;
     
     /** Lighthouse audits
 optional field
@@ -109,14 +109,14 @@ for example, if you ignore 'categories' and specify 'audits': ['metrics/cumulati
 for example, if you specify 'categories': ['seo'] and 'audits': ['metrics/cumulative-layout-shift','metrics/largest-contentful-paint','metrics/total-blocking-time'], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here */
 
-    audits?: string[];
+    audits?: string[] | undefined;
     
     /** lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint */
 
-    version?: string;
+    version?: string | undefined;
     
     /** lighthouse language name
 optional field
@@ -124,7 +124,7 @@ you can receive the list of available languages of the search engine with their 
 default value:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** lighthouse language code
 optional field
@@ -132,7 +132,7 @@ you can receive the list of available languages of the search engine with their 
 default value:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -140,7 +140,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

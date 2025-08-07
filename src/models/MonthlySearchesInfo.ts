@@ -1,13 +1,13 @@
 export interface IMonthlySearchesInfo   {
         
         /** year */
-        year?: number
+        year?: number | undefined
         
         /** month */
-        month?: number
+        month?: number | undefined
         
         /** monthly average search volume rate */
-        search_volume?: number
+        search_volume?: number | undefined
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class MonthlySearchesInfo  implements IMonthlySearchesInfo {
     
     /** year */
 
-    year?: number;
+    year?: number | undefined;
     
     /** month */
 
-    month?: number;
+    month?: number | undefined;
     
     /** monthly average search volume rate */
 
-    search_volume?: number;
+    search_volume?: number | undefined;
 
     [key: string]: any;
 

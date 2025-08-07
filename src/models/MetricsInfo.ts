@@ -1,71 +1,71 @@
 export interface IMetricsInfo   {
         
         /** number of organic SERPs where the domain ranks #1 */
-        pos_1?: number
+        pos_1?: number | undefined
         
         /** number of organic SERPs where the domain ranks #2-3 */
-        pos_2_3?: number
+        pos_2_3?: number | undefined
         
         /** number of organic SERPs where the domain ranks #4-10 */
-        pos_4_10?: number
+        pos_4_10?: number | undefined
         
         /** number of organic SERPs where the domain ranks #11-20 */
-        pos_11_20?: number
+        pos_11_20?: number | undefined
         
         /** number of organic SERPs where the domain ranks #21-30 */
-        pos_21_30?: number
+        pos_21_30?: number | undefined
         
         /** number of organic SERPs where the domain ranks #31-40 */
-        pos_31_40?: number
+        pos_31_40?: number | undefined
         
         /** number of organic SERPs where the domain ranks #41-50 */
-        pos_41_50?: number
+        pos_41_50?: number | undefined
         
         /** number of organic SERPs where the domain ranks #51-60 */
-        pos_51_60?: number
+        pos_51_60?: number | undefined
         
         /** number of organic SERPs where the domain ranks #61-70 */
-        pos_61_70?: number
+        pos_61_70?: number | undefined
         
         /** number of organic SERPs where the domain ranks #71-80 */
-        pos_71_80?: number
+        pos_71_80?: number | undefined
         
         /** number of organic SERPs where the domain ranks #81-90 */
-        pos_81_90?: number
+        pos_81_90?: number | undefined
         
         /** number of organic SERPs where the domain ranks #91-100 */
-        pos_91_100?: number
+        pos_91_100?: number | undefined
         
         /** estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article */
-        etv?: number
+        etv?: number | undefined
         
         /** total count of organic SERPs that contain the domain */
-        count?: number
+        count?: number | undefined
         
         /** estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
 the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article */
-        estimated_paid_traffic_cost?: number
+        estimated_paid_traffic_cost?: number | undefined
         
         /** number of new ranked elements
 indicates how many new ranked elements were found for this domain */
-        is_new?: number
+        is_new?: number | undefined
         
         /** rank went up
 indicates how many ranked elements of this domain went up in Google Search */
-        is_up?: number
+        is_up?: number | undefined
         
         /** rank went down
 indicates how many ranked elements of this domain went down in Google Search */
-        is_down?: number
+        is_down?: number | undefined
         
         /** lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
-        is_lost?: number
+        is_lost?: number | undefined
 
     [key: string]: any;
 
@@ -75,89 +75,89 @@ export class MetricsInfo  implements IMetricsInfo {
     
     /** number of organic SERPs where the domain ranks #1 */
 
-    pos_1?: number;
+    pos_1?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #2-3 */
 
-    pos_2_3?: number;
+    pos_2_3?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #4-10 */
 
-    pos_4_10?: number;
+    pos_4_10?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #11-20 */
 
-    pos_11_20?: number;
+    pos_11_20?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #21-30 */
 
-    pos_21_30?: number;
+    pos_21_30?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #31-40 */
 
-    pos_31_40?: number;
+    pos_31_40?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #41-50 */
 
-    pos_41_50?: number;
+    pos_41_50?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #51-60 */
 
-    pos_51_60?: number;
+    pos_51_60?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #61-70 */
 
-    pos_61_70?: number;
+    pos_61_70?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #71-80 */
 
-    pos_71_80?: number;
+    pos_71_80?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #81-90 */
 
-    pos_81_90?: number;
+    pos_81_90?: number | undefined;
     
     /** number of organic SERPs where the domain ranks #91-100 */
 
-    pos_91_100?: number;
+    pos_91_100?: number | undefined;
     
     /** estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article */
 
-    etv?: number;
+    etv?: number | undefined;
     
     /** total count of organic SERPs that contain the domain */
 
-    count?: number;
+    count?: number | undefined;
     
     /** estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
 the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article */
 
-    estimated_paid_traffic_cost?: number;
+    estimated_paid_traffic_cost?: number | undefined;
     
     /** number of new ranked elements
 indicates how many new ranked elements were found for this domain */
 
-    is_new?: number;
+    is_new?: number | undefined;
     
     /** rank went up
 indicates how many ranked elements of this domain went up in Google Search */
 
-    is_up?: number;
+    is_up?: number | undefined;
     
     /** rank went down
 indicates how many ranked elements of this domain went down in Google Search */
 
-    is_down?: number;
+    is_down?: number | undefined;
     
     /** lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
 
-    is_lost?: number;
+    is_lost?: number | undefined;
 
     [key: string]: any;
 

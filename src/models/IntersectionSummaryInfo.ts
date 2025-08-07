@@ -1,7 +1,7 @@
 export interface IIntersectionSummaryInfo   {
         
         /** total number of intersections */
-        intersections_count?: number
+        intersections_count?: number | undefined
 
     [key: string]: any;
 
@@ -11,7 +11,7 @@ export class IntersectionSummaryInfo  implements IIntersectionSummaryInfo {
     
     /** total number of intersections */
 
-    intersections_count?: number;
+    intersections_count?: number | undefined;
 
     [key: string]: any;
 

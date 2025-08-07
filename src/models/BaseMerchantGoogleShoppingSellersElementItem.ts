@@ -1,69 +1,70 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface IBaseMerchantGoogleShoppingSellersElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
         
         /** domain in SERP */
-        domain?: string
+        domain?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint */
-        url?: string
+        url?: string | undefined
         
         /** details and special offers
 if there are no details, the value will be null */
-        details?: string
+        details?: string | undefined
         
         /** product price without tax and shipping */
-        base_price?: number
+        base_price?: number | undefined
         
         /** the amount of tax
 tax is specified as the actual amount of money, not as the percentage */
-        tax?: number
+        tax?: number | undefined
         
         /** product shipping price */
-        shipping_price?: number
+        shipping_price?: number | undefined
         
         /** product price including tax and shipping */
-        total_price?: number
+        total_price?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
-        seller_name?: string
+        seller_name?: string | undefined
         
         /** shop rating
 the shop popularity rate based on product reviews */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
-        shop_ad_aclk?: string
+        shop_ad_aclk?: string | undefined
 
     [key: string]: any;
 
@@ -73,83 +74,83 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
     
     /** domain in SERP */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint */
 
-    url?: string;
+    url?: string | undefined;
     
     /** details and special offers
 if there are no details, the value will be null */
 
-    details?: string;
+    details?: string | undefined;
     
     /** product price without tax and shipping */
 
-    base_price?: number;
+    base_price?: number | undefined;
     
     /** the amount of tax
 tax is specified as the actual amount of money, not as the percentage */
 
-    tax?: number;
+    tax?: number | undefined;
     
     /** product shipping price */
 
-    shipping_price?: number;
+    shipping_price?: number | undefined;
     
     /** product price including tax and shipping */
 
-    total_price?: number;
+    total_price?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** name of the seller
 the name of the company that placed a corresponding product on Google Shopping */
 
-    seller_name?: string;
+    seller_name?: string | undefined;
     
     /** shop rating
 the shop popularity rate based on product reviews */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
 
-    shop_ad_aclk?: string;
+    shop_ad_aclk?: string | undefined;
 
     [key: string]: any;
 
@@ -247,16 +248,16 @@ export interface IGoogleShoppingSellersShopsListElementItem  extends IBaseMercha
         
         /** monthly price multiplier
 indicates the number of months covered by the monthly payment for the product */
-        price_multiplier?: number
+        price_multiplier?: number | undefined
         
         /** indicated condition of the product
 possible values: Used, Refurbished, New, null */
-        product_condition?: string
+        product_condition?: string | undefined
         
         /** data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
 examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
-        product_annotation?: string
+        product_annotation?: string | undefined
 
     [key: string]: any;
 
@@ -267,18 +268,18 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
     /** monthly price multiplier
 indicates the number of months covered by the monthly payment for the product */
 
-    price_multiplier?: number;
+    price_multiplier?: number | undefined;
     
     /** indicated condition of the product
 possible values: Used, Refurbished, New, null */
 
-    product_condition?: string;
+    product_condition?: string | undefined;
     
     /** data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
 examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
 
-    product_annotation?: string;
+    product_annotation?: string | undefined;
 
     [key: string]: any;
 

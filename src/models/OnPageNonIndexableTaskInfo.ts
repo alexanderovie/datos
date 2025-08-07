@@ -1,10 +1,11 @@
 import { OnPageNonIndexableResultInfo, IOnPageNonIndexableResultInfo } from "./OnPageNonIndexableResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageNonIndexableTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: OnPageNonIndexableResultInfo[]
+        result?: OnPageNonIndexableResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class OnPageNonIndexableTaskInfo  extends BaseResponseTaskInfo   implemen
     
     /** array of results */
 
-    result?: OnPageNonIndexableResultInfo[];
+    result?: OnPageNonIndexableResultInfo[] | undefined;
 
     [key: string]: any;
 

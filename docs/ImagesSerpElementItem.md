@@ -8,5 +8,5 @@
 **rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP<br>always equals 0 for desktop |[optional]|
 **title** | **string** | reference page title |[optional]|
 **url** | **string** | URL |[optional]|
-**items** | **AiModeImagesElement[]** | contains arrays of specific images |[optional]|
+**items** | **AiModeImagesElementInfo[]** | contains arrays of specific images |[optional]|
 **related_image_searches** | **RelatedImageSearchesElement[]** | contains keywords and images related to the specified search term<br>if there are none, equals null |[optional]|

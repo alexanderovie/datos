@@ -1,16 +1,16 @@
 export interface IDataforseoLabsBulkKeywordDifficultyLiveItem   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** keyword in a POST array */
-        keyword?: string
+        keyword?: string | undefined
         
         /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide */
-        keyword_difficulty?: number
+        keyword_difficulty?: number | undefined
 
     [key: string]: any;
 
@@ -20,18 +20,18 @@ export class DataforseoLabsBulkKeywordDifficultyLiveItem  implements IDataforseo
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** keyword in a POST array */
 
-    keyword?: string;
+    keyword?: string | undefined;
     
     /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide */
 
-    keyword_difficulty?: number;
+    keyword_difficulty?: number | undefined;
 
     [key: string]: any;
 

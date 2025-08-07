@@ -1,10 +1,11 @@
 import { BusinessDataBusinessListingsSearchLiveTaskInfo, IBusinessDataBusinessListingsSearchLiveTaskInfo } from "./BusinessDataBusinessListingsSearchLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IBusinessDataBusinessListingsSearchLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: BusinessDataBusinessListingsSearchLiveTaskInfo[]
+        tasks?: BusinessDataBusinessListingsSearchLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class BusinessDataBusinessListingsSearchLiveResponseInfo  extends BaseRes
     
     /** array of tasks */
 
-    tasks?: BusinessDataBusinessListingsSearchLiveTaskInfo[];
+    tasks?: BusinessDataBusinessListingsSearchLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

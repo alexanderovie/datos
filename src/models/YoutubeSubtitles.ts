@@ -1,28 +1,28 @@
 export interface IYoutubeSubtitles   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** text translated in subtitles */
-        text?: string
+        text?: string | undefined
         
         /** the second subtitled text starts */
-        start_time?: number
+        start_time?: number | undefined
         
         /** the second subtitled text ends */
-        end_time?: number
+        end_time?: number | undefined
         
         /** duration of subtitles in seconds */
-        duration_time?: number
+        duration_time?: number | undefined
 
     [key: string]: any;
 
@@ -32,34 +32,34 @@ export class YoutubeSubtitles  implements IYoutubeSubtitles {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** text translated in subtitles */
 
-    text?: string;
+    text?: string | undefined;
     
     /** the second subtitled text starts */
 
-    start_time?: number;
+    start_time?: number | undefined;
     
     /** the second subtitled text ends */
 
-    end_time?: number;
+    end_time?: number | undefined;
     
     /** duration of subtitles in seconds */
 
-    duration_time?: number;
+    duration_time?: number | undefined;
 
     [key: string]: any;
 

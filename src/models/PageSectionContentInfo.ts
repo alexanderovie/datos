@@ -1,18 +1,19 @@
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
 import { TableContentInfo, ITableContentInfo } from "./TableContentInfo";
 
+
 export interface IPageSectionContentInfo   {
         
         /** primary content on the page
 you can find more information about content priority calculation in this help center article */
-        primary_content?: SectionContentItemInfo[]
+        primary_content?: SectionContentItemInfo[] | undefined
         
         /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
-        secondary_content?: SectionContentItemInfo[]
+        secondary_content?: SectionContentItemInfo[] | undefined
         
         /** content of the table on the page */
-        table_content?: TableContentInfo[]
+        table_content?: TableContentInfo[] | undefined
 
     [key: string]: any;
 
@@ -23,16 +24,16 @@ export class PageSectionContentInfo  implements IPageSectionContentInfo {
     /** primary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    primary_content?: SectionContentItemInfo[];
+    primary_content?: SectionContentItemInfo[] | undefined;
     
     /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
 
-    secondary_content?: SectionContentItemInfo[];
+    secondary_content?: SectionContentItemInfo[] | undefined;
     
     /** content of the table on the page */
 
-    table_content?: TableContentInfo[];
+    table_content?: TableContentInfo[] | undefined;
 
     [key: string]: any;
 

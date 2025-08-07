@@ -2,26 +2,26 @@ export interface IAppDataTasksReadyResultInfo   {
         
         /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
-        id?: string
+        id?: string | undefined
         
         /** search engine specified when setting the task */
-        se?: string
+        se?: string | undefined
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
-        date_posted?: string
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
-        tag?: string
+        tag?: string | undefined
         
         /** URL for collecting the results of the Apple App Reviews task */
-        endpoint_advanced?: string
+        endpoint_advanced?: string | undefined
         
         /** URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null */
-        endpoint_html?: string
+        endpoint_html?: string | undefined
 
     [key: string]: any;
 
@@ -32,32 +32,32 @@ export class AppDataTasksReadyResultInfo  implements IAppDataTasksReadyResultInf
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
-    id?: string;
+    id?: string | undefined;
     
     /** search engine specified when setting the task */
 
-    se?: string;
+    se?: string | undefined;
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** date when the task was posted (in the UTC format) */
 
-    date_posted?: string;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** URL for collecting the results of the Apple App Reviews task */
 
-    endpoint_advanced?: string;
+    endpoint_advanced?: string | undefined;
     
     /** URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null */
 
-    endpoint_html?: string;
+    endpoint_html?: string | undefined;
 
     [key: string]: any;
 

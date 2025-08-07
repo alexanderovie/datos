@@ -1,10 +1,11 @@
 import { AppDataGoogleAppReviewsTaskGetHtmlResultInfo, IAppDataGoogleAppReviewsTaskGetHtmlResultInfo } from "./AppDataGoogleAppReviewsTaskGetHtmlResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IAppDataGoogleAppReviewsTaskGetHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: AppDataGoogleAppReviewsTaskGetHtmlResultInfo[]
+        result?: AppDataGoogleAppReviewsTaskGetHtmlResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppDataGoogleAppReviewsTaskGetHtmlTaskInfo  extends BaseResponseTas
     
     /** array of results */
 
-    result?: AppDataGoogleAppReviewsTaskGetHtmlResultInfo[];
+    result?: AppDataGoogleAppReviewsTaskGetHtmlResultInfo[] | undefined;
 
     [key: string]: any;
 

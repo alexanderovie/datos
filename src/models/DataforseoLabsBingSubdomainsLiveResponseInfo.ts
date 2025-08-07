@@ -1,10 +1,11 @@
 import { DataforseoLabsBingSubdomainsLiveTaskInfo, IDataforseoLabsBingSubdomainsLiveTaskInfo } from "./DataforseoLabsBingSubdomainsLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDataforseoLabsBingSubdomainsLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsBingSubdomainsLiveTaskInfo[]
+        tasks?: DataforseoLabsBingSubdomainsLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsBingSubdomainsLiveResponseInfo  extends BaseResponseI
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsBingSubdomainsLiveTaskInfo[];
+    tasks?: DataforseoLabsBingSubdomainsLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

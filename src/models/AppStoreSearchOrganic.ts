@@ -1,47 +1,48 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
+
 export interface IAppStoreSearchOrganic   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements in SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** id of the app */
-        app_id?: string
+        app_id?: string | undefined
         
         /** title of the app */
-        title?: string
+        title?: string | undefined
         
         /** URL to the app page on App Store */
-        url?: string
+        url?: string | undefined
         
         /** URL to the app icon */
-        icon?: string
+        icon?: string | undefined
         
         /** the total number of reviews of the app */
-        reviews_count?: number
+        reviews_count?: number | undefined
         
         /** average rating of the app */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** indicates whether the app is free */
-        is_free?: boolean
+        is_free?: boolean | undefined
         
         /** price of the app */
-        price?: PriceInfo
+        price?: PriceInfo | undefined
 
     [key: string]: any;
 
@@ -51,55 +52,55 @@ export class AppStoreSearchOrganic  implements IAppStoreSearchOrganic {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** id of the app */
 
-    app_id?: string;
+    app_id?: string | undefined;
     
     /** title of the app */
 
-    title?: string;
+    title?: string | undefined;
     
     /** URL to the app page on App Store */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL to the app icon */
 
-    icon?: string;
+    icon?: string | undefined;
     
     /** the total number of reviews of the app */
 
-    reviews_count?: number;
+    reviews_count?: number | undefined;
     
     /** average rating of the app */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** indicates whether the app is free */
 
-    is_free?: boolean;
+    is_free?: boolean | undefined;
     
     /** price of the app */
 
-    price?: PriceInfo;
+    price?: PriceInfo | undefined;
 
     [key: string]: any;
 

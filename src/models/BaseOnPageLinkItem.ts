@@ -1,57 +1,57 @@
 export interface IBaseOnPageLinkItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** referring domain
 the link was found on this domain */
-        domain_from?: string
+        domain_from?: string | undefined
         
         /** referenced domain
 the link is pointing to this domain */
-        domain_to?: string
+        domain_to?: string | undefined
         
         /** referring page
 relative URL of the page on which the link was found */
-        page_from?: string
+        page_from?: string | undefined
         
         /** referenced page
 relative URL of the page to which the link is pointing */
-        page_to?: string
+        page_to?: string | undefined
         
         /** referring page
 absolute URL of the page on which the link was found */
-        link_from?: string
+        link_from?: string | undefined
         
         /** referenced page
 absolute URL of the page to which the link is pointing */
-        link_to?: string
+        link_to?: string | undefined
         
         /** indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel='nofollow' attribute */
-        dofollow?: boolean
+        dofollow?: boolean | undefined
         
         /** url scheme of the referring page */
-        page_from_scheme?: string
+        page_from_scheme?: string | undefined
         
         /** url scheme of the referenced page */
-        page_to_scheme?: string
+        page_to_scheme?: string | undefined
         
         /** direction of the link
 possible values: internal, external */
-        direction?: string
+        direction?: string | undefined
         
         /** link is broken
 indicates whether a link is directing to a broken page or resource */
-        is_broken?: boolean
+        is_broken?: boolean | undefined
         
         /** indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel='nofollow' attribute and at least one is dofollow */
-        is_link_relation_conflict?: boolean
+        is_link_relation_conflict?: boolean | undefined
         
         /** status code of the referenced page
 status code of the page to which the link is pointing */
-        page_to_status_code?: number
+        page_to_status_code?: number | undefined
 
     [key: string]: any;
 
@@ -61,70 +61,70 @@ export class BaseOnPageLinkItem  implements IBaseOnPageLinkItem {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** referring domain
 the link was found on this domain */
 
-    domain_from?: string;
+    domain_from?: string | undefined;
     
     /** referenced domain
 the link is pointing to this domain */
 
-    domain_to?: string;
+    domain_to?: string | undefined;
     
     /** referring page
 relative URL of the page on which the link was found */
 
-    page_from?: string;
+    page_from?: string | undefined;
     
     /** referenced page
 relative URL of the page to which the link is pointing */
 
-    page_to?: string;
+    page_to?: string | undefined;
     
     /** referring page
 absolute URL of the page on which the link was found */
 
-    link_from?: string;
+    link_from?: string | undefined;
     
     /** referenced page
 absolute URL of the page to which the link is pointing */
 
-    link_to?: string;
+    link_to?: string | undefined;
     
     /** indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel='nofollow' attribute */
 
-    dofollow?: boolean;
+    dofollow?: boolean | undefined;
     
     /** url scheme of the referring page */
 
-    page_from_scheme?: string;
+    page_from_scheme?: string | undefined;
     
     /** url scheme of the referenced page */
 
-    page_to_scheme?: string;
+    page_to_scheme?: string | undefined;
     
     /** direction of the link
 possible values: internal, external */
 
-    direction?: string;
+    direction?: string | undefined;
     
     /** link is broken
 indicates whether a link is directing to a broken page or resource */
 
-    is_broken?: boolean;
+    is_broken?: boolean | undefined;
     
     /** indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel='nofollow' attribute and at least one is dofollow */
 
-    is_link_relation_conflict?: boolean;
+    is_link_relation_conflict?: boolean | undefined;
     
     /** status code of the referenced page
 status code of the page to which the link is pointing */
 
-    page_to_status_code?: number;
+    page_to_status_code?: number | undefined;
 
     [key: string]: any;
 
@@ -248,10 +248,10 @@ export interface IOnPageAnchorLinkItem  extends IBaseOnPageLinkItem    {
 indicates link attributes added to the link_to on the page_from
 example:
 ['ugc','noopener'] */
-        link_attribute?: string[]
+        link_attribute?: string[] | undefined
         
         /** anchor text */
-        text?: string
+        text?: string | undefined
 
     [key: string]: any;
 
@@ -264,11 +264,11 @@ indicates link attributes added to the link_to on the page_from
 example:
 ['ugc','noopener'] */
 
-    link_attribute?: string[];
+    link_attribute?: string[] | undefined;
     
     /** anchor text */
 
-    text?: string;
+    text?: string | undefined;
 
     [key: string]: any;
 
@@ -319,16 +319,16 @@ export interface IOnPageImageLinkItem  extends IBaseOnPageLinkItem    {
 indicates link attributes added to the link_to on the page_from
 example:
 ['ugc','noopener'] */
-        link_attribute?: string[]
+        link_attribute?: string[] | undefined
         
         /** anchor text */
-        text?: string
+        text?: string | undefined
         
         /** alternative text for the image */
-        image_alt?: string
+        image_alt?: string | undefined
         
         /** url of the image */
-        image_src?: string
+        image_src?: string | undefined
 
     [key: string]: any;
 
@@ -341,19 +341,19 @@ indicates link attributes added to the link_to on the page_from
 example:
 ['ugc','noopener'] */
 
-    link_attribute?: string[];
+    link_attribute?: string[] | undefined;
     
     /** anchor text */
 
-    text?: string;
+    text?: string | undefined;
     
     /** alternative text for the image */
 
-    image_alt?: string;
+    image_alt?: string | undefined;
     
     /** url of the image */
 
-    image_src?: string;
+    image_src?: string | undefined;
 
     [key: string]: any;
 

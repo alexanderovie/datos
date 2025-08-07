@@ -1,47 +1,48 @@
 import { GoogleBusinessAnswerElement, IGoogleBusinessAnswerElement } from "./GoogleBusinessAnswerElement";
 
+
 export interface IGoogleBusinessQuestionItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank among all the elements */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** ID of the question */
-        question_id?: string
+        question_id?: string | undefined
         
         /** URL of the question */
-        url?: string
+        url?: string | undefined
         
         /** URL of the user’s profile image */
-        profile_image_url?: string
+        profile_image_url?: string | undefined
         
         /** URL of the user’s profile */
-        profile_url?: string
+        profile_url?: string | undefined
         
         /** displayed name of the user */
-        profile_name?: string
+        profile_name?: string | undefined
         
         /** current text of the question */
-        question_text?: string
+        question_text?: string | undefined
         
         /** original text of the question */
-        original_question_text?: string
+        original_question_text?: string | undefined
         
         /** estimated time when the question was posted */
-        time_ago?: string
+        time_ago?: string | undefined
         
         /** exact time when the question was posted */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** array of items
 items within google_business_question_item */
-        items?: GoogleBusinessAnswerElement[]
+        items?: GoogleBusinessAnswerElement[] | undefined
 
     [key: string]: any;
 
@@ -51,57 +52,57 @@ export class GoogleBusinessQuestionItem  implements IGoogleBusinessQuestionItem 
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank among all the elements */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** ID of the question */
 
-    question_id?: string;
+    question_id?: string | undefined;
     
     /** URL of the question */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the user’s profile image */
 
-    profile_image_url?: string;
+    profile_image_url?: string | undefined;
     
     /** URL of the user’s profile */
 
-    profile_url?: string;
+    profile_url?: string | undefined;
     
     /** displayed name of the user */
 
-    profile_name?: string;
+    profile_name?: string | undefined;
     
     /** current text of the question */
 
-    question_text?: string;
+    question_text?: string | undefined;
     
     /** original text of the question */
 
-    original_question_text?: string;
+    original_question_text?: string | undefined;
     
     /** estimated time when the question was posted */
 
-    time_ago?: string;
+    time_ago?: string | undefined;
     
     /** exact time when the question was posted */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** array of items
 items within google_business_question_item */
 
-    items?: GoogleBusinessAnswerElement[];
+    items?: GoogleBusinessAnswerElement[] | undefined;
 
     [key: string]: any;
 

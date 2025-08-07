@@ -1,13 +1,13 @@
 export interface IBacklinksRedirectInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** HTTP status code of the URL */
-        status_code?: number
+        status_code?: number | undefined
         
         /** indirect link URL */
-        url?: string
+        url?: string | undefined
 
     [key: string]: any;
 
@@ -17,15 +17,15 @@ export class BacklinksRedirectInfo  implements IBacklinksRedirectInfo {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** HTTP status code of the URL */
 
-    status_code?: number;
+    status_code?: number | undefined;
     
     /** indirect link URL */
 
-    url?: string;
+    url?: string | undefined;
 
     [key: string]: any;
 

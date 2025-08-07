@@ -8,5 +8,5 @@
 **rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP<br>always equals 0 for desktop |[optional]|
 **title** | **string** | reference page title |[optional]|
 **url** | **string** | URL |[optional]|
-**domain** | **string** | domain in the URL |[optional]|
+**domain** | **string** | domain name of the reference |[optional]|
 **items** | **LocalServicesElement[]** | contains arrays of specific images |[optional]|

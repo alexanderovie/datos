@@ -1,10 +1,10 @@
 export interface IAppendixFunctionTypeInfo   {
         
-        regular?: number
+        regular?: number | undefined
         
-        advanced?: number
+        advanced?: number | undefined
         
-        html?: number
+        html?: number | undefined
 
     [key: string]: any;
 
@@ -12,11 +12,11 @@ export interface IAppendixFunctionTypeInfo   {
 
 export class AppendixFunctionTypeInfo  implements IAppendixFunctionTypeInfo {
 
-    regular?: number;
+    regular?: number | undefined;
 
-    advanced?: number;
+    advanced?: number | undefined;
 
-    html?: number;
+    html?: number | undefined;
 
     [key: string]: any;
 

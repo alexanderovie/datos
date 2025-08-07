@@ -1,21 +1,21 @@
 export interface IBacklinksBulkNewLostReferringDomainsLiveItem   {
         
         /** domain, subdomain or webpage from a POST array */
-        target?: string
+        target?: string | undefined
         
         /** number of new referring domains
 number of new referring domains pointing to the target */
-        new_referring_domains?: number
+        new_referring_domains?: number | undefined
         
         /** number of lost referring domains
 number of lost referring domains of the target */
-        lost_referring_domains?: number
+        lost_referring_domains?: number | undefined
         
         /** number of new referring main domains pointing to the target */
-        new_referring_main_domains?: number
+        new_referring_main_domains?: number | undefined
         
         /** number of lost referring main domains pointing to the target */
-        lost_referring_main_domains?: number
+        lost_referring_main_domains?: number | undefined
 
     [key: string]: any;
 
@@ -25,25 +25,25 @@ export class BacklinksBulkNewLostReferringDomainsLiveItem  implements IBacklinks
     
     /** domain, subdomain or webpage from a POST array */
 
-    target?: string;
+    target?: string | undefined;
     
     /** number of new referring domains
 number of new referring domains pointing to the target */
 
-    new_referring_domains?: number;
+    new_referring_domains?: number | undefined;
     
     /** number of lost referring domains
 number of lost referring domains of the target */
 
-    lost_referring_domains?: number;
+    lost_referring_domains?: number | undefined;
     
     /** number of new referring main domains pointing to the target */
 
-    new_referring_main_domains?: number;
+    new_referring_main_domains?: number | undefined;
     
     /** number of lost referring main domains pointing to the target */
 
-    lost_referring_main_domains?: number;
+    lost_referring_main_domains?: number | undefined;
 
     [key: string]: any;
 

@@ -1,24 +1,25 @@
 import { DataforseoLabsleBulkAppMetricsLiveItem, IDataforseoLabsleBulkAppMetricsLiveItem } from "./DataforseoLabsleBulkAppMetricsLiveItem";
 
+
 export interface IDataforseoLabsAppleBulkAppMetricsLiveResultInfo   {
         
         /** search engine type */
-        se_type?: string
+        se_type?: string | undefined
         
         /** location code in a POST array */
-        location_code?: number
+        location_code?: number | undefined
         
         /** language code in a POST array */
-        language_code?: string
+        language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
-        total_count?: number
+        total_count?: number | undefined
         
         /** the number of results returned in the items array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** contains data related to the ranking app metrics of the specified application */
-        items?: DataforseoLabsleBulkAppMetricsLiveItem[]
+        items?: DataforseoLabsleBulkAppMetricsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -28,27 +29,27 @@ export class DataforseoLabsAppleBulkAppMetricsLiveResultInfo  implements IDatafo
     
     /** search engine type */
 
-    se_type?: string;
+    se_type?: string | undefined;
     
     /** location code in a POST array */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** language code in a POST array */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** total amount of results in our database relevant to your request */
 
-    total_count?: number;
+    total_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** contains data related to the ranking app metrics of the specified application */
 
-    items?: DataforseoLabsleBulkAppMetricsLiveItem[];
+    items?: DataforseoLabsleBulkAppMetricsLiveItem[] | undefined;
 
     [key: string]: any;
 

@@ -1,15 +1,15 @@
 export interface IFetchTiming   {
         
         /** indicates how many seconds it took to download a page */
-        duration_time?: number
+        duration_time?: number | undefined
         
         /** time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page */
-        fetch_start?: number
+        fetch_start?: number | undefined
         
         /** time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page */
-        fetch_end?: number
+        fetch_end?: number | undefined
 
     [key: string]: any;
 
@@ -19,17 +19,17 @@ export class FetchTiming  implements IFetchTiming {
     
     /** indicates how many seconds it took to download a page */
 
-    duration_time?: number;
+    duration_time?: number | undefined;
     
     /** time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page */
 
-    fetch_start?: number;
+    fetch_start?: number | undefined;
     
     /** time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page */
 
-    fetch_end?: number;
+    fetch_end?: number | undefined;
 
     [key: string]: any;
 

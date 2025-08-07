@@ -1,12 +1,13 @@
 import { ProductInformationRows, IProductInformationRows } from "./ProductInformationRows";
 
+
 export interface IBaseMerchantAmazonProductInformationElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** name of the section related to product information specified in the contents */
-        section_name?: string
+        section_name?: string | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class BaseMerchantAmazonProductInformationElementItem  implements IBaseMe
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** name of the section related to product information specified in the contents */
 
-    section_name?: string;
+    section_name?: string | undefined;
 
     [key: string]: any;
 
@@ -93,7 +94,7 @@ export class BaseMerchantAmazonProductInformationElementItem  implements IBaseMe
 export interface IProductInformationProductInformationDetailsItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
         /** contains information specified about the product within the section_name */
-        body?: { [key: string]: string; }
+        body?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -103,7 +104,7 @@ export class ProductInformationProductInformationDetailsItem  extends BaseMercha
     
     /** contains information specified about the product within the section_name */
 
-    body?: { [key: string]: string; };
+    body?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 
@@ -149,7 +150,7 @@ export class ProductInformationProductInformationDetailsItem  extends BaseMercha
 export interface IProductInformationProductInformationTextItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
         /** text specified under the given title within the section_name */
-        text?: string
+        text?: string | undefined
 
     [key: string]: any;
 
@@ -159,7 +160,7 @@ export class ProductInformationProductInformationTextItem  extends BaseMerchantA
     
     /** text specified under the given title within the section_name */
 
-    text?: string;
+    text?: string | undefined;
 
     [key: string]: any;
 
@@ -205,7 +206,7 @@ export class ProductInformationProductInformationTextItem  extends BaseMerchantA
 export interface IProductInformationProductInformationExtendedItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
         /** contains information specified about the product within the section_name */
-        contents?: ProductInformationRows[]
+        contents?: ProductInformationRows[] | undefined
 
     [key: string]: any;
 
@@ -215,7 +216,7 @@ export class ProductInformationProductInformationExtendedItem  extends BaseMerch
     
     /** contains information specified about the product within the section_name */
 
-    contents?: ProductInformationRows[];
+    contents?: ProductInformationRows[] | undefined;
 
     [key: string]: any;
 

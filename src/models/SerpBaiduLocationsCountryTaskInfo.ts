@@ -1,10 +1,11 @@
 import { SerpBaiduLocationsCountryResultInfo, ISerpBaiduLocationsCountryResultInfo } from "./SerpBaiduLocationsCountryResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface ISerpBaiduLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: SerpBaiduLocationsCountryResultInfo[]
+        result?: SerpBaiduLocationsCountryResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpBaiduLocationsCountryTaskInfo  extends BaseResponseTaskInfo   i
     
     /** array of results */
 
-    result?: SerpBaiduLocationsCountryResultInfo[];
+    result?: SerpBaiduLocationsCountryResultInfo[] | undefined;
 
     [key: string]: any;
 

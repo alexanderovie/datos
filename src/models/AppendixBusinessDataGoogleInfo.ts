@@ -1,21 +1,22 @@
 import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 
+
 export interface IAppendixBusinessDataGoogleInfo   {
         
-        my_business_info?: AppendixInfo
+        my_business_info?: AppendixInfo | undefined
         
-        my_business_updates?: AppendixInfo
+        my_business_updates?: AppendixInfo | undefined
         
-        hotel_info?: AppendixSerpDaysRatesDataInfo
+        hotel_info?: AppendixSerpDaysRatesDataInfo | undefined
         
-        hotel_searches?: AppendixInfo
+        hotel_searches?: AppendixInfo | undefined
         
-        reviews?: AppendixInfo
+        reviews?: AppendixInfo | undefined
         
-        questions_and_answers?: AppendixInfo
+        questions_and_answers?: AppendixInfo | undefined
         
-        extended_reviews?: AppendixInfo
+        extended_reviews?: AppendixInfo | undefined
 
     [key: string]: any;
 
@@ -23,19 +24,19 @@ export interface IAppendixBusinessDataGoogleInfo   {
 
 export class AppendixBusinessDataGoogleInfo  implements IAppendixBusinessDataGoogleInfo {
 
-    my_business_info?: AppendixInfo;
+    my_business_info?: AppendixInfo | undefined;
 
-    my_business_updates?: AppendixInfo;
+    my_business_updates?: AppendixInfo | undefined;
 
-    hotel_info?: AppendixSerpDaysRatesDataInfo;
+    hotel_info?: AppendixSerpDaysRatesDataInfo | undefined;
 
-    hotel_searches?: AppendixInfo;
+    hotel_searches?: AppendixInfo | undefined;
 
-    reviews?: AppendixInfo;
+    reviews?: AppendixInfo | undefined;
 
-    questions_and_answers?: AppendixInfo;
+    questions_and_answers?: AppendixInfo | undefined;
 
-    extended_reviews?: AppendixInfo;
+    extended_reviews?: AppendixInfo | undefined;
 
     [key: string]: any;
 

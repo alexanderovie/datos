@@ -1,10 +1,11 @@
 import { DomainAnalyticsWhoisOverviewLiveResultInfo, IDomainAnalyticsWhoisOverviewLiveResultInfo } from "./DomainAnalyticsWhoisOverviewLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IDomainAnalyticsWhoisOverviewLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: DomainAnalyticsWhoisOverviewLiveResultInfo[]
+        result?: DomainAnalyticsWhoisOverviewLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DomainAnalyticsWhoisOverviewLiveTaskInfo  extends BaseResponseTaskI
     
     /** array of results */
 
-    result?: DomainAnalyticsWhoisOverviewLiveResultInfo[];
+    result?: DomainAnalyticsWhoisOverviewLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

@@ -1,10 +1,11 @@
 import { ContentAnalysisIdListTaskInfo, IContentAnalysisIdListTaskInfo } from "./ContentAnalysisIdListTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IContentAnalysisIdListResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: ContentAnalysisIdListTaskInfo[]
+        tasks?: ContentAnalysisIdListTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentAnalysisIdListResponseInfo  extends BaseResponseInfo   imple
     
     /** array of tasks */
 
-    tasks?: ContentAnalysisIdListTaskInfo[];
+    tasks?: ContentAnalysisIdListTaskInfo[] | undefined;
 
     [key: string]: any;
 

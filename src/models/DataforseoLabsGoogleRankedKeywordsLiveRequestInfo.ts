@@ -6,7 +6,7 @@ the domain name of the target website or URL of the target webpage;
 the domain name must be specified without https:// or www.;
 the webpage URL must be specified with https:// or www.
 Note: if you specify the webpage URL without https:// or www., the result will be returned for the entire domain rather than the specific page */
-        target?: string
+        target?: string | undefined
         
         /** full name of the location
 optional field
@@ -16,7 +16,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 United Kingdom */
-        location_name?: string
+        location_name?: string | undefined
         
         /** location code
 optional field
@@ -26,7 +26,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available locations
 example:
 2840 */
-        location_code?: number
+        location_code?: number | undefined
         
         /** full name of the language
 optional field
@@ -36,7 +36,7 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** language code
 optional field
@@ -46,13 +46,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 ignore this field to get the results for all available languages
 example:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
-        ignore_synonyms?: boolean
+        ignore_synonyms?: boolean | undefined
         
         /** display results by item type
 optional field
@@ -62,7 +62,7 @@ possible values:
 ['organic', 'paid', 'featured_snippet', 'local_pack', 'ai_overview_reference']
 default value:
 ['organic', 'paid'] */
-        item_types?: string[]
+        item_types?: string[] | undefined
         
         /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -70,25 +70,25 @@ if the parameter is set to true, you will receive clickstream_keyword_info, cli
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
-        include_clickstream_data?: boolean
+        include_clickstream_data?: boolean | undefined
         
         /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
-        limit?: number
+        limit?: number | undefined
         
         /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
-        offset?: number
+        offset?: number | undefined
         
         /** return rankings distribution by rank_absolute
 optional field
 default value: false
 if set to true, we will return the field metrics_absolute containing rankings distribution by the rank_absolute parameter that indicates the result’s position among all SERP elements */
-        load_rank_absolute?: boolean
+        load_rank_absolute?: boolean | undefined
         
         /** data collection mode
 optional field
@@ -98,7 +98,7 @@ live — return keywords for which the specified target currently has ranking re
 lost — return keywords for which the specified target had previously had ranking results in SERP, but didn’t have them during the last check;
 all — return both types of keywords.
 default value: live */
-        historical_serp_mode?: string
+        historical_serp_mode?: string | undefined
         
         /** array of results filtering parameters
 optional field
@@ -119,7 +119,7 @@ if you want to get the keywords a particular webpage ranks for, you can use a ta
 example:
 ['ranked_serp_element.serp_item.relative_url', '=', '/apis/rank-tracker-api']
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
-        filters?: any[]
+        filters?: any[] | undefined
         
         /** results sorting rules
 optional field
@@ -136,14 +136,14 @@ note that you can set no more than three sorting rules in a single request
 you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
-        order_by?: string[]
+        order_by?: string[] | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -158,7 +158,7 @@ the domain name must be specified without https:// or www.;
 the webpage URL must be specified with https:// or www.
 Note: if you specify the webpage URL without https:// or www., the result will be returned for the entire domain rather than the specific page */
 
-    target?: string;
+    target?: string | undefined;
     
     /** full name of the location
 optional field
@@ -169,7 +169,7 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom */
 
-    location_name?: string;
+    location_name?: string | undefined;
     
     /** location code
 optional field
@@ -180,7 +180,7 @@ ignore this field to get the results for all available locations
 example:
 2840 */
 
-    location_code?: number;
+    location_code?: number | undefined;
     
     /** full name of the language
 optional field
@@ -191,7 +191,7 @@ ignore this field to get the results for all available languages
 example:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** language code
 optional field
@@ -202,14 +202,14 @@ ignore this field to get the results for all available languages
 example:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
-    ignore_synonyms?: boolean;
+    ignore_synonyms?: boolean | undefined;
     
     /** display results by item type
 optional field
@@ -220,7 +220,7 @@ possible values:
 default value:
 ['organic', 'paid'] */
 
-    item_types?: string[];
+    item_types?: string[] | undefined;
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -229,28 +229,28 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article */
 
-    include_clickstream_data?: boolean;
+    include_clickstream_data?: boolean | undefined;
     
     /** the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000 */
 
-    limit?: number;
+    limit?: number | undefined;
     
     /** offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
-    offset?: number;
+    offset?: number | undefined;
     
     /** return rankings distribution by rank_absolute
 optional field
 default value: false
 if set to true, we will return the field metrics_absolute containing rankings distribution by the rank_absolute parameter that indicates the result’s position among all SERP elements */
 
-    load_rank_absolute?: boolean;
+    load_rank_absolute?: boolean | undefined;
     
     /** data collection mode
 optional field
@@ -261,7 +261,7 @@ lost — return keywords for which the specified target had previously had ranki
 all — return both types of keywords.
 default value: live */
 
-    historical_serp_mode?: string;
+    historical_serp_mode?: string | undefined;
     
     /** array of results filtering parameters
 optional field
@@ -283,7 +283,7 @@ example:
 ['ranked_serp_element.serp_item.relative_url', '=', '/apis/rank-tracker-api']
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
-    filters?: any[];
+    filters?: any[] | undefined;
     
     /** results sorting rules
 optional field
@@ -301,7 +301,7 @@ you should use a comma to separate several sorting rules
 example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
 
-    order_by?: string[];
+    order_by?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -309,7 +309,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
 
     [key: string]: any;
 

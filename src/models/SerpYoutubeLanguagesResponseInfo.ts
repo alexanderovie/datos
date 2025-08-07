@@ -1,10 +1,11 @@
 import { SerpYoutubeLanguagesTaskInfo, ISerpYoutubeLanguagesTaskInfo } from "./SerpYoutubeLanguagesTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface ISerpYoutubeLanguagesResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: SerpYoutubeLanguagesTaskInfo[]
+        tasks?: SerpYoutubeLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class SerpYoutubeLanguagesResponseInfo  extends BaseResponseInfo   implem
     
     /** array of tasks */
 
-    tasks?: SerpYoutubeLanguagesTaskInfo[];
+    tasks?: SerpYoutubeLanguagesTaskInfo[] | undefined;
 
     [key: string]: any;
 

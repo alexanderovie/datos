@@ -1,10 +1,10 @@
 export interface ILocalJustificationInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** text snippet of local justification */
-        text?: string
+        text?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class LocalJustificationInfo  implements ILocalJustificationInfo {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** text snippet of local justification */
 
-    text?: string;
+    text?: string | undefined;
 
     [key: string]: any;
 

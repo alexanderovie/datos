@@ -1,12 +1,13 @@
 import { SerpAiSummaryItem, ISerpAiSummaryItem } from "./SerpAiSummaryItem";
 
+
 export interface ISerpAiSummaryResultInfo   {
         
         /** number of items in the results array */
-        items_count?: number
+        items_count?: number | undefined
         
         /** items array */
-        items?: SerpAiSummaryItem[]
+        items?: SerpAiSummaryItem[] | undefined
 
     [key: string]: any;
 
@@ -16,11 +17,11 @@ export class SerpAiSummaryResultInfo  implements ISerpAiSummaryResultInfo {
     
     /** number of items in the results array */
 
-    items_count?: number;
+    items_count?: number | undefined;
     
     /** items array */
 
-    items?: SerpAiSummaryItem[];
+    items?: SerpAiSummaryItem[] | undefined;
 
     [key: string]: any;
 

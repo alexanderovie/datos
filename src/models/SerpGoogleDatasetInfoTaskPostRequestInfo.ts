@@ -5,7 +5,7 @@ required field
 you can find dataset ID in the dataset URL or dataset item of Google Dataset Search result
 example:
 L2cvMTFqbl85ZHN6MQ== */
-        dataset_id?: string
+        dataset_id?: string | undefined
         
         /** task priority
 optional field
@@ -14,39 +14,39 @@ can take the following values:
 2 – high execution priority
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
-        priority?: number
+        priority?: number | undefined
         
         /** full name of search engine language
 optional field
 if you use this field, you don’t need to specify language_code
 possible value:
 English */
-        language_name?: string
+        language_name?: string | undefined
         
         /** search engine language code
 optional field
 if you use this field, you don’t need to specify language_name
 possible value:
 en */
-        language_code?: string
+        language_code?: string | undefined
         
         /** device type
 optional field
 possible value: desktop */
-        device?: string
+        device?: string | undefined
         
         /** device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows */
-        os?: string
+        os?: string | undefined
         
         /** user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
-        tag?: string
+        tag?: string | undefined
         
         /** return URL for sending task results
 optional field
@@ -58,13 +58,13 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        postback_url?: string
+        postback_url?: string | undefined
         
         /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value: advanced */
-        postback_data?: string
+        postback_data?: string | undefined
         
         /** notification URL of a completed task
 optional field
@@ -76,7 +76,7 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
-        pingback_url?: string
+        pingback_url?: string | undefined
 
     [key: string]: any;
 
@@ -90,7 +90,7 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ== */
 
-    dataset_id?: string;
+    dataset_id?: string | undefined;
     
     /** task priority
 optional field
@@ -100,7 +100,7 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
-    priority?: number;
+    priority?: number | undefined;
     
     /** full name of search engine language
 optional field
@@ -108,7 +108,7 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English */
 
-    language_name?: string;
+    language_name?: string | undefined;
     
     /** search engine language code
 optional field
@@ -116,20 +116,20 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en */
 
-    language_code?: string;
+    language_code?: string | undefined;
     
     /** device type
 optional field
 possible value: desktop */
 
-    device?: string;
+    device?: string | undefined;
     
     /** device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows */
 
-    os?: string;
+    os?: string | undefined;
     
     /** user-defined task identifier
 optional field
@@ -137,7 +137,7 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
-    tag?: string;
+    tag?: string | undefined;
     
     /** return URL for sending task results
 optional field
@@ -150,14 +150,14 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    postback_url?: string;
+    postback_url?: string | undefined;
     
     /** postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value: advanced */
 
-    postback_data?: string;
+    postback_data?: string | undefined;
     
     /** notification URL of a completed task
 optional field
@@ -170,7 +170,7 @@ Note: special characters in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
-    pingback_url?: string;
+    pingback_url?: string | undefined;
 
     [key: string]: any;
 

@@ -1,11 +1,12 @@
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IOnPageLighthouseLiveJsonTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** results of Lighthouse audit
 this array will include data according to the parameters you specified when setting a task;
 all fields and their descriptions are available in the official documentation by this link. */
-        result?: { [key: string]: any; }[]
+        result?: { [key: string]: any; }[] | undefined
 
     [key: string]: any;
 
@@ -17,7 +18,7 @@ export class OnPageLighthouseLiveJsonTaskInfo  extends BaseResponseTaskInfo   im
 this array will include data according to the parameters you specified when setting a task;
 all fields and their descriptions are available in the official documentation by this link. */
 
-    result?: { [key: string]: any; }[];
+    result?: { [key: string]: any; }[] | undefined;
 
     [key: string]: any;
 

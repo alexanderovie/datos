@@ -1,10 +1,10 @@
 export interface ITimeInfo   {
         
         /** hours in the 24-hour format */
-        hour?: number
+        hour?: number | undefined
         
         /** minutes */
-        minute?: number
+        minute?: number | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class TimeInfo  implements ITimeInfo {
     
     /** hours in the 24-hour format */
 
-    hour?: number;
+    hour?: number | undefined;
     
     /** minutes */
 
-    minute?: number;
+    minute?: number | undefined;
 
     [key: string]: any;
 

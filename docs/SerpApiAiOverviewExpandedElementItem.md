@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**title** | **string** | title of the result in SERP |[optional]|
-**text** | **string** | text or description of the element in SERP |[optional]|
+**title** | **string** | title of the element |[optional]|
+**text** | **string** | text of the component |[optional]|
 **components** | **AiOverviewExpandedComponent[]** | array of components of the element |[optional]|
-**references** | **AiAiOverviewReferenceInfo[]** | references relevant to the element<br>includes references to webpages that were used to generate the ai_overview_element |[optional]|
+**references** | **AiModeAiOverviewReferenceInfo[]** | additional references relevant to the item<br>includes references to webpages that may have been used to generate the ai_overview |[optional]|

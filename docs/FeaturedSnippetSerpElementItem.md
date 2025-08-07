@@ -13,5 +13,5 @@
 **breadcrumb** | **string** | breadcrumb of the ad element in SERP |[optional]|
 **featured_title** | **string** | title |[optional]|
 **timestamp** | **string** | date and time when the result was published<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
-**images** | **AiModeImagesElement[]** | images of the element |[optional]|
-**table** | **Table** | results table<br>if there are none, equals null |[optional]|
+**images** | **AiModeImagesElementInfo[]** | images of the element<br>if there are none, equals null |[optional]|
+**table** | **Table** | table present in the element<br>the header and content of the table present in the element |[optional]|

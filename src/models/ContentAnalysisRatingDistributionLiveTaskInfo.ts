@@ -1,10 +1,11 @@
 import { ContentAnalysisRatingDistributionLiveResultInfo, IContentAnalysisRatingDistributionLiveResultInfo } from "./ContentAnalysisRatingDistributionLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IContentAnalysisRatingDistributionLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: ContentAnalysisRatingDistributionLiveResultInfo[]
+        result?: ContentAnalysisRatingDistributionLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class ContentAnalysisRatingDistributionLiveTaskInfo  extends BaseResponse
     
     /** array of results */
 
-    result?: ContentAnalysisRatingDistributionLiveResultInfo[];
+    result?: ContentAnalysisRatingDistributionLiveResultInfo[] | undefined;
 
     [key: string]: any;
 

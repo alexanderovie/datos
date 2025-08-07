@@ -1,20 +1,20 @@
 export interface IShortVideosElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
-        source?: string
+        source?: string | undefined
 
     [key: string]: any;
 
@@ -24,24 +24,24 @@ export class ShortVideosElement  implements IShortVideosElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
 
-    source?: string;
+    source?: string | undefined;
 
     [key: string]: any;
 

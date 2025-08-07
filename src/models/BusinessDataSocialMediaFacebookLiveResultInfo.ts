@@ -1,15 +1,15 @@
 export interface IBusinessDataSocialMediaFacebookLiveResultInfo   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
-        page_url?: string
+        page_url?: string | undefined
         
         /** number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed */
-        like_count?: number
+        like_count?: number | undefined
 
     [key: string]: any;
 
@@ -19,17 +19,17 @@ export class BusinessDataSocialMediaFacebookLiveResultInfo  implements IBusiness
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task */
 
-    page_url?: string;
+    page_url?: string | undefined;
     
     /** number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed */
 
-    like_count?: number;
+    like_count?: number | undefined;
 
     [key: string]: any;
 

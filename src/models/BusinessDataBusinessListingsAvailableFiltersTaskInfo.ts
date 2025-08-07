@@ -1,9 +1,10 @@
 import { BusinessDataBusinessListingsAvailableFiltersResultInfo, IBusinessDataBusinessListingsAvailableFiltersResultInfo } from "./BusinessDataBusinessListingsAvailableFiltersResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IBusinessDataBusinessListingsAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[]
+        result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -11,7 +12,7 @@ export interface IBusinessDataBusinessListingsAvailableFiltersTaskInfo  extends 
 
 export class BusinessDataBusinessListingsAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataBusinessListingsAvailableFiltersTaskInfo {
 
-    result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[];
+    result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[] | undefined;
 
     [key: string]: any;
 

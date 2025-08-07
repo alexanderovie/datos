@@ -1,18 +1,19 @@
 import { ContentAnalysisSummaryInfo, IContentAnalysisSummaryInfo } from "./ContentAnalysisSummaryInfo";
 
+
 export interface ISentimentConnotationDistribution   {
         
-        anger?: ContentAnalysisSummaryInfo
+        anger?: ContentAnalysisSummaryInfo | undefined
         
-        happiness?: ContentAnalysisSummaryInfo
+        happiness?: ContentAnalysisSummaryInfo | undefined
         
-        love?: ContentAnalysisSummaryInfo
+        love?: ContentAnalysisSummaryInfo | undefined
         
-        sadness?: ContentAnalysisSummaryInfo
+        sadness?: ContentAnalysisSummaryInfo | undefined
         
-        share?: ContentAnalysisSummaryInfo
+        share?: ContentAnalysisSummaryInfo | undefined
         
-        fun?: ContentAnalysisSummaryInfo
+        fun?: ContentAnalysisSummaryInfo | undefined
 
     [key: string]: any;
 
@@ -20,17 +21,17 @@ export interface ISentimentConnotationDistribution   {
 
 export class SentimentConnotationDistribution  implements ISentimentConnotationDistribution {
 
-    anger?: ContentAnalysisSummaryInfo;
+    anger?: ContentAnalysisSummaryInfo | undefined;
 
-    happiness?: ContentAnalysisSummaryInfo;
+    happiness?: ContentAnalysisSummaryInfo | undefined;
 
-    love?: ContentAnalysisSummaryInfo;
+    love?: ContentAnalysisSummaryInfo | undefined;
 
-    sadness?: ContentAnalysisSummaryInfo;
+    sadness?: ContentAnalysisSummaryInfo | undefined;
 
-    share?: ContentAnalysisSummaryInfo;
+    share?: ContentAnalysisSummaryInfo | undefined;
 
-    fun?: ContentAnalysisSummaryInfo;
+    fun?: ContentAnalysisSummaryInfo | undefined;
 
     [key: string]: any;
 

@@ -1,15 +1,16 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
+
 export interface IDeliveryInfo   {
         
         /** delivery information
 message accompanying the delivery information as posted by the seller */
-        delivery_message?: string
+        delivery_message?: string | undefined
         
         /** price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null */
-        delivery_price?: PriceInfo
+        delivery_price?: PriceInfo | undefined
 
     [key: string]: any;
 
@@ -20,13 +21,13 @@ export class DeliveryInfo  implements IDeliveryInfo {
     /** delivery information
 message accompanying the delivery information as posted by the seller */
 
-    delivery_message?: string;
+    delivery_message?: string | undefined;
     
     /** price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null */
 
-    delivery_price?: PriceInfo;
+    delivery_price?: PriceInfo | undefined;
 
     [key: string]: any;
 

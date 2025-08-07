@@ -1,10 +1,11 @@
 import { DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo, IDataforseoLabsGoogleDomainRankOverviewLiveTaskInfo } from "./DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo";
 import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
+
 export interface IDataforseoLabsGoogleDomainRankOverviewLiveResponseInfo  extends IBaseResponseInfo    {
         
         /** array of tasks */
-        tasks?: DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo[]
+        tasks?: DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo  extends Bas
     
     /** array of tasks */
 
-    tasks?: DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo[];
+    tasks?: DataforseoLabsGoogleDomainRankOverviewLiveTaskInfo[] | undefined;
 
     [key: string]: any;
 

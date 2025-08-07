@@ -1,10 +1,10 @@
 export interface IKeywordsDataGoogleTrendsCategoriesResultInfo   {
         
         /** unique google trends category identifier */
-        category_code?: number
+        category_code?: number | undefined
         
         /** name of the google trends category */
-        category_name?: string
+        category_name?: string | undefined
         
         /** the code of the superordinate category
 example:
@@ -14,7 +14,7 @@ example:
 where category_code_parent corresponds to:
 'category_code': 1097,
 'category_name': 'Action & Adventure Films' */
-        category_code_parent?: number
+        category_code_parent?: number | undefined
 
     [key: string]: any;
 
@@ -24,11 +24,11 @@ export class KeywordsDataGoogleTrendsCategoriesResultInfo  implements IKeywordsD
     
     /** unique google trends category identifier */
 
-    category_code?: number;
+    category_code?: number | undefined;
     
     /** name of the google trends category */
 
-    category_name?: string;
+    category_name?: string | undefined;
     
     /** the code of the superordinate category
 example:
@@ -39,7 +39,7 @@ where category_code_parent corresponds to:
 'category_code': 1097,
 'category_name': 'Action & Adventure Films' */
 
-    category_code_parent?: number;
+    category_code_parent?: number | undefined;
 
     [key: string]: any;
 

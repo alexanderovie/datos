@@ -1,15 +1,16 @@
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
 import { AppendixSellersGoogleMerchantLimitsRatesDataInfo, IAppendixSellersGoogleMerchantLimitsRatesDataInfo } from "./AppendixSellersGoogleMerchantLimitsRatesDataInfo";
 
+
 export interface IAppendixMerchantGoogleInfo   {
         
-        products?: AppendixSerpDaysRatesDataInfo
+        products?: AppendixSerpDaysRatesDataInfo | undefined
         
-        sellers?: AppendixSellersGoogleMerchantLimitsRatesDataInfo
+        sellers?: AppendixSellersGoogleMerchantLimitsRatesDataInfo | undefined
         
-        product_spec?: AppendixSerpDaysRatesDataInfo
+        product_spec?: AppendixSerpDaysRatesDataInfo | undefined
         
-        product_info?: AppendixSerpDaysRatesDataInfo
+        product_info?: AppendixSerpDaysRatesDataInfo | undefined
 
     [key: string]: any;
 
@@ -17,13 +18,13 @@ export interface IAppendixMerchantGoogleInfo   {
 
 export class AppendixMerchantGoogleInfo  implements IAppendixMerchantGoogleInfo {
 
-    products?: AppendixSerpDaysRatesDataInfo;
+    products?: AppendixSerpDaysRatesDataInfo | undefined;
 
-    sellers?: AppendixSellersGoogleMerchantLimitsRatesDataInfo;
+    sellers?: AppendixSellersGoogleMerchantLimitsRatesDataInfo | undefined;
 
-    product_spec?: AppendixSerpDaysRatesDataInfo;
+    product_spec?: AppendixSerpDaysRatesDataInfo | undefined;
 
-    product_info?: AppendixSerpDaysRatesDataInfo;
+    product_info?: AppendixSerpDaysRatesDataInfo | undefined;
 
     [key: string]: any;
 

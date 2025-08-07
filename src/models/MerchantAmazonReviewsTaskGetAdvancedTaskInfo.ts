@@ -1,10 +1,11 @@
 import { MerchantAmazonReviewsTaskGetAdvancedResultInfo, IMerchantAmazonReviewsTaskGetAdvancedResultInfo } from "./MerchantAmazonReviewsTaskGetAdvancedResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
+
 export interface IMerchantAmazonReviewsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: MerchantAmazonReviewsTaskGetAdvancedResultInfo[]
+        result?: MerchantAmazonReviewsTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class MerchantAmazonReviewsTaskGetAdvancedTaskInfo  extends BaseResponseT
     
     /** array of results */
 
-    result?: MerchantAmazonReviewsTaskGetAdvancedResultInfo[];
+    result?: MerchantAmazonReviewsTaskGetAdvancedResultInfo[] | undefined;
 
     [key: string]: any;
 

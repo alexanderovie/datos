@@ -1,10 +1,10 @@
 export interface IReviewHighlights   {
         
         /** reviewed feature */
-        feature?: string
+        feature?: string | undefined
         
         /** feature assessment */
-        assessment?: string
+        assessment?: string | undefined
 
     [key: string]: any;
 
@@ -14,11 +14,11 @@ export class ReviewHighlights  implements IReviewHighlights {
     
     /** reviewed feature */
 
-    feature?: string;
+    feature?: string | undefined;
     
     /** feature assessment */
 
-    assessment?: string;
+    assessment?: string | undefined;
 
     [key: string]: any;
 

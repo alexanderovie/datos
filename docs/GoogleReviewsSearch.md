@@ -26,5 +26,5 @@
 **owner_time_ago** | **string** | publication time<br>indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review |[optional]|
 **owner_timestamp** | **string** | date and time of the owner’s reply to the review<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
 **review_id** | **string** | the unique identifier of a review on Google<br>example:<br>ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE |[optional]|
-**images** | **AiModeImagesElement[]** | images submitted by the reviewer |[optional]|
+**images** | **AiModeImagesElementInfo[]** | images submitted by the reviewer |[optional]|
 **review_highlights** | **ReviewHighlights[]** | review highlights<br>contains highlighted review criteria and assessments |[optional]|

@@ -1,16 +1,16 @@
 export interface ILicensesElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of the element */
-        title?: string
+        title?: string | undefined
         
         /** search URL with refinement parameters */
-        url?: string
+        url?: string | undefined
         
         /** domain in SERP */
-        domain?: string
+        domain?: string | undefined
 
     [key: string]: any;
 
@@ -20,19 +20,19 @@ export class LicensesElement  implements ILicensesElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of the element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** search URL with refinement parameters */
 
-    url?: string;
+    url?: string | undefined;
     
     /** domain in SERP */
 
-    domain?: string;
+    domain?: string | undefined;
 
     [key: string]: any;
 

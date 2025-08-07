@@ -1,22 +1,22 @@
 export interface IResourceMetaInfo   {
         
         /** content of the image alt attribute */
-        alternative_text?: string
+        alternative_text?: string | undefined
         
         /** title */
-        title?: string
+        title?: string | undefined
         
         /** original image width in px */
-        original_width?: number
+        original_width?: number | undefined
         
         /** original image height in px */
-        original_height?: number
+        original_height?: number | undefined
         
         /** image width in px */
-        width?: number
+        width?: number | undefined
         
         /** image height in px */
-        height?: number
+        height?: number | undefined
 
     [key: string]: any;
 
@@ -26,27 +26,27 @@ export class ResourceMetaInfo  implements IResourceMetaInfo {
     
     /** content of the image alt attribute */
 
-    alternative_text?: string;
+    alternative_text?: string | undefined;
     
     /** title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** original image width in px */
 
-    original_width?: number;
+    original_width?: number | undefined;
     
     /** original image height in px */
 
-    original_height?: number;
+    original_height?: number | undefined;
     
     /** image width in px */
 
-    width?: number;
+    width?: number | undefined;
     
     /** image height in px */
 
-    height?: number;
+    height?: number | undefined;
 
     [key: string]: any;
 

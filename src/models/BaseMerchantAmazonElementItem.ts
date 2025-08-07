@@ -3,21 +3,22 @@ import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 import { AmazonSerpElement, IAmazonSerpElement } from "./AmazonSerpElement";
 import { RelatedSearchesElement, IRelatedSearchesElement } from "./RelatedSearchesElement";
 
+
 export interface IBaseMerchantAmazonElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
-        rank_group?: number
+        rank_group?: number | undefined
         
         /** absolute rank in SERP
 absolute position among all the elements found in Amazon SERP */
-        rank_absolute?: number
+        rank_absolute?: number | undefined
         
         /** the XPath of the element */
-        xpath?: string
+        xpath?: string | undefined
 
     [key: string]: any;
 
@@ -27,21 +28,21 @@ export class BaseMerchantAmazonElementItem  implements IBaseMerchantAmazonElemen
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
-    rank_group?: number;
+    rank_group?: number | undefined;
     
     /** absolute rank in SERP
 absolute position among all the elements found in Amazon SERP */
 
-    rank_absolute?: number;
+    rank_absolute?: number | undefined;
     
     /** the XPath of the element */
 
-    xpath?: string;
+    xpath?: string | undefined;
 
     [key: string]: any;
 
@@ -130,59 +131,59 @@ absolute position among all the elements found in Amazon SERP */
 export interface IMerchantAmazonPaidSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
         /** Amazon domain */
-        domain?: string
+        domain?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** the URL of the product page */
-        url?: string
+        url?: string | undefined
         
         /** URL of the product image featured in the results */
-        image_url?: string
+        image_url?: string | undefined
         
         /** number of product purchases in the past month */
-        bought_past_month?: number
+        bought_past_month?: number | undefined
         
         /** the regular price of a product
 example:
 49.98 */
-        price_from?: number
+        price_from?: number | undefined
         
         /** the upper limit of the product price range
 example:
 384.99 */
-        price_to?: number
+        price_to?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
-        special_offers?: string[]
+        special_offers?: string[] | undefined
         
         /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
-        data_asin?: string
+        data_asin?: string | undefined
         
         /** product rating info */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
-        is_amazon_choice?: boolean
+        is_amazon_choice?: boolean | undefined
         
         /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
-        is_best_seller?: boolean
+        is_best_seller?: boolean | undefined
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: AmazonDeliveryInfo
+        delivery_info?: AmazonDeliveryInfo | undefined
 
     [key: string]: any;
 
@@ -192,72 +193,72 @@ export class MerchantAmazonPaidSerpElementItem  extends BaseMerchantAmazonElemen
     
     /** Amazon domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the URL of the product page */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the product image featured in the results */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** number of product purchases in the past month */
 
-    bought_past_month?: number;
+    bought_past_month?: number | undefined;
     
     /** the regular price of a product
 example:
 49.98 */
 
-    price_from?: number;
+    price_from?: number | undefined;
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
-    price_to?: number;
+    price_to?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
 
-    special_offers?: string[];
+    special_offers?: string[] | undefined;
     
     /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
 
-    data_asin?: string;
+    data_asin?: string | undefined;
     
     /** product rating info */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
-    is_amazon_choice?: boolean;
+    is_amazon_choice?: boolean | undefined;
     
     /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
 
-    is_best_seller?: boolean;
+    is_best_seller?: boolean | undefined;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: AmazonDeliveryInfo;
+    delivery_info?: AmazonDeliveryInfo | undefined;
 
     [key: string]: any;
 
@@ -329,59 +330,59 @@ delivery information including free and fast delivery date ranges */
 export interface IMerchantAmazonSerpSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
         /** Amazon domain */
-        domain?: string
+        domain?: string | undefined
         
         /** product title */
-        title?: string
+        title?: string | undefined
         
         /** the URL of the product page */
-        url?: string
+        url?: string | undefined
         
         /** URL of the product image featured in the results */
-        image_url?: string
+        image_url?: string | undefined
         
         /** number of product purchases in the past month */
-        bought_past_month?: number
+        bought_past_month?: number | undefined
         
         /** the regular price of a product
 example:
 49.98 */
-        price_from?: number
+        price_from?: number | undefined
         
         /** the upper limit of the product price range
 example:
 384.99 */
-        price_to?: number
+        price_to?: number | undefined
         
         /** currency in the ISO format
 example:
 USD */
-        currency?: string
+        currency?: string | undefined
         
         /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
-        special_offers?: string[]
+        special_offers?: string[] | undefined
         
         /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
-        data_asin?: string
+        data_asin?: string | undefined
         
         /** product rating info */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
         
         /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
-        is_amazon_choice?: boolean
+        is_amazon_choice?: boolean | undefined
         
         /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
-        is_best_seller?: boolean
+        is_best_seller?: boolean | undefined
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
-        delivery_info?: AmazonDeliveryInfo
+        delivery_info?: AmazonDeliveryInfo | undefined
 
     [key: string]: any;
 
@@ -391,72 +392,72 @@ export class MerchantAmazonSerpSerpElementItem  extends BaseMerchantAmazonElemen
     
     /** Amazon domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** product title */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the URL of the product page */
 
-    url?: string;
+    url?: string | undefined;
     
     /** URL of the product image featured in the results */
 
-    image_url?: string;
+    image_url?: string | undefined;
     
     /** number of product purchases in the past month */
 
-    bought_past_month?: number;
+    bought_past_month?: number | undefined;
     
     /** the regular price of a product
 example:
 49.98 */
 
-    price_from?: number;
+    price_from?: number | undefined;
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
-    price_to?: number;
+    price_to?: number | undefined;
     
     /** currency in the ISO format
 example:
 USD */
 
-    currency?: string;
+    currency?: string | undefined;
     
     /** special offer details
 contains special offer details, including coupon and Subscribe & Save discounts */
 
-    special_offers?: string[];
+    special_offers?: string[] | undefined;
     
     /** unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J */
 
-    data_asin?: string;
+    data_asin?: string | undefined;
     
     /** product rating info */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
-    is_amazon_choice?: boolean;
+    is_amazon_choice?: boolean | undefined;
     
     /** “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label */
 
-    is_best_seller?: boolean;
+    is_best_seller?: boolean | undefined;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
-    delivery_info?: AmazonDeliveryInfo;
+    delivery_info?: AmazonDeliveryInfo | undefined;
 
     [key: string]: any;
 
@@ -530,10 +531,10 @@ export interface IMerchantEditorialRecommendationsSerpElementItem  extends IBase
         /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** Amazon product items */
-        items?: AmazonSerpElement[]
+        items?: AmazonSerpElement[] | undefined
 
     [key: string]: any;
 
@@ -545,11 +546,11 @@ export class MerchantEditorialRecommendationsSerpElementItem  extends BaseMercha
 possible values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** Amazon product items */
 
-    items?: AmazonSerpElement[];
+    items?: AmazonSerpElement[] | undefined;
 
     [key: string]: any;
 
@@ -612,10 +613,10 @@ export interface IMerchantRelatedSearchesSerpElementItem  extends IBaseMerchantA
         /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** Amazon product items */
-        items?: RelatedSearchesElement[]
+        items?: RelatedSearchesElement[] | undefined
 
     [key: string]: any;
 
@@ -627,11 +628,11 @@ export class MerchantRelatedSearchesSerpElementItem  extends BaseMerchantAmazonE
 possible values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** Amazon product items */
 
-    items?: RelatedSearchesElement[];
+    items?: RelatedSearchesElement[] | undefined;
 
     [key: string]: any;
 
@@ -694,10 +695,10 @@ export interface IMerchantTopRatedFromOurBrandsSerpElementItem  extends IBaseMer
         /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
-        position?: string
+        position?: string | undefined
         
         /** Amazon product items */
-        items?: AmazonSerpElement[]
+        items?: AmazonSerpElement[] | undefined
 
     [key: string]: any;
 
@@ -709,11 +710,11 @@ export class MerchantTopRatedFromOurBrandsSerpElementItem  extends BaseMerchantA
 possible values:
 left, right */
 
-    position?: string;
+    position?: string | undefined;
     
     /** Amazon product items */
 
-    items?: AmazonSerpElement[];
+    items?: AmazonSerpElement[] | undefined;
 
     [key: string]: any;
 

@@ -1,15 +1,16 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
 import { AppendixTaskGetProductGoogleMerchantPriceDataInfo, IAppendixTaskGetProductGoogleMerchantPriceDataInfo } from "./AppendixTaskGetProductGoogleMerchantPriceDataInfo";
 
+
 export interface IAppendixSellersGoogleMerchantPriceData   {
         
-        ad_url?: AppendixTaskKeywordsDataPriceDataInfo
+        ad_url?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        task_get?: AppendixTaskGetProductGoogleMerchantPriceDataInfo
+        task_get?: AppendixTaskGetProductGoogleMerchantPriceDataInfo | undefined
         
-        task_post?: AppendixTaskKeywordsDataPriceDataInfo
+        task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo
+        tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -17,13 +18,13 @@ export interface IAppendixSellersGoogleMerchantPriceData   {
 
 export class AppendixSellersGoogleMerchantPriceData  implements IAppendixSellersGoogleMerchantPriceData {
 
-    ad_url?: AppendixTaskKeywordsDataPriceDataInfo;
+    ad_url?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    task_get?: AppendixTaskGetProductGoogleMerchantPriceDataInfo;
+    task_get?: AppendixTaskGetProductGoogleMerchantPriceDataInfo | undefined;
 
-    task_post?: AppendixTaskKeywordsDataPriceDataInfo;
+    task_post?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo;
+    tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
 

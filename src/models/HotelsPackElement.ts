@@ -1,37 +1,38 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { RatingElement, IRatingElement } from "./RatingElement";
 
+
 export interface IHotelsPackElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** price indicated in the element */
-        price?: PriceInfo
+        price?: PriceInfo | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
-        /** description */
-        description?: string
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
-        hotel_identifier?: string
+        hotel_identifier?: string | undefined
         
         /** website domain */
-        domain?: string
+        domain?: string | undefined
         
         /** URL */
-        url?: string
+        url?: string | undefined
         
         /** indicates whether the element is an ad */
-        is_paid?: boolean
+        is_paid?: boolean | undefined
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement
+        rating?: RatingElement | undefined
 
     [key: string]: any;
 
@@ -41,42 +42,42 @@ export class HotelsPackElement  implements IHotelsPackElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** price indicated in the element */
 
-    price?: PriceInfo;
+    price?: PriceInfo | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
-    /** description */
+    /** description of the results element in SERP */
 
-    description?: string;
+    description?: string | undefined;
     
     /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
 
-    hotel_identifier?: string;
+    hotel_identifier?: string | undefined;
     
     /** website domain */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL */
 
-    url?: string;
+    url?: string | undefined;
     
     /** indicates whether the element is an ad */
 
-    is_paid?: boolean;
+    is_paid?: boolean | undefined;
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement;
+    rating?: RatingElement | undefined;
 
     [key: string]: any;
 

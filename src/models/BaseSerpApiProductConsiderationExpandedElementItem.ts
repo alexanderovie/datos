@@ -1,11 +1,12 @@
 import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
 import { AiOverviewElement, IAiOverviewElement } from "./AiOverviewElement";
-import { AiAiOverviewReferenceInfo, IAiAiOverviewReferenceInfo } from "./AiAiOverviewReferenceInfo";
+import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
+
 
 export interface IBaseSerpApiProductConsiderationExpandedElementItem   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
 
     [key: string]: any;
 
@@ -15,7 +16,7 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
 
     [key: string]: any;
 
@@ -80,36 +81,36 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
 export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
         /** title of the row */
-        title?: string
+        title?: string | undefined
         
         /** the title of the featured snippets source page */
-        featured_title?: string
+        featured_title?: string | undefined
         
         /** breadcrumb of the Ad element in SERP */
-        breadcrumb?: string
+        breadcrumb?: string | undefined
         
-        /** text alongside the link title */
-        snippet?: string
+        /** text alongside the title */
+        snippet?: string | undefined
         
         /** domain where a link points */
-        domain?: string
+        domain?: string | undefined
         
         /** URL of element */
-        url?: string
+        url?: string | undefined
         
         /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
-        timestamp?: string
+        timestamp?: string | undefined
         
         /** search queries related to the elment */
-        related_searches?: string[]
+        related_searches?: string[] | undefined
         
         /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
-        about_this_result?: AboutThisResultElement
+        about_this_result?: AboutThisResultElement | undefined
 
     [key: string]: any;
 
@@ -119,44 +120,44 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
     
     /** title of the row */
 
-    title?: string;
+    title?: string | undefined;
     
     /** the title of the featured snippets source page */
 
-    featured_title?: string;
+    featured_title?: string | undefined;
     
     /** breadcrumb of the Ad element in SERP */
 
-    breadcrumb?: string;
+    breadcrumb?: string | undefined;
     
-    /** text alongside the link title */
+    /** text alongside the title */
 
-    snippet?: string;
+    snippet?: string | undefined;
     
     /** domain where a link points */
 
-    domain?: string;
+    domain?: string | undefined;
     
     /** URL of element */
 
-    url?: string;
+    url?: string | undefined;
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
 
-    timestamp?: string;
+    timestamp?: string | undefined;
     
     /** search queries related to the elment */
 
-    related_searches?: string[];
+    related_searches?: string[] | undefined;
     
     /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results */
 
-    about_this_result?: AboutThisResultElement;
+    about_this_result?: AboutThisResultElement | undefined;
 
     [key: string]: any;
 
@@ -218,11 +219,11 @@ this feature appears after clicking on the three dots next to most results */
 export interface ISerpApiProductConsiderationsAiOverviewExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
         /** contains arrays of elements available in the list */
-        items?: AiOverviewElement[]
+        items?: AiOverviewElement[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
-        references?: AiAiOverviewReferenceInfo[]
+        /** additional references relevant to the item
+includes references to webpages that may have been used to generate the ai_overview */
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -232,12 +233,12 @@ export class SerpApiProductConsiderationsAiOverviewExpandedElementItem  extends 
     
     /** contains arrays of elements available in the list */
 
-    items?: AiOverviewElement[];
+    items?: AiOverviewElement[] | undefined;
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** additional references relevant to the item
+includes references to webpages that may have been used to generate the ai_overview */
 
-    references?: AiAiOverviewReferenceInfo[];
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -263,7 +264,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["references"])) {
                 this.references = [];
                 for (let item of data["references"]) {
-                    this.references.push(AiAiOverviewReferenceInfo.fromJS(item));
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
         }

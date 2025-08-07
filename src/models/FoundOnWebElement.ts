@@ -1,18 +1,19 @@
-import { AiModeImagesElement, IAiModeImagesElement } from "./AiModeImagesElement";
+import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
+
 
 export interface IFoundOnWebElement   {
         
         /** type of element */
-        type?: string
+        type?: string | undefined
         
         /** title of a given link element */
-        title?: string
+        title?: string | undefined
         
         /** subtitle of the element */
-        subtitle?: string
+        subtitle?: string | undefined
         
         /** image of the element */
-        image?: AiModeImagesElement
+        image?: AiModeImagesElementInfo | undefined
 
     [key: string]: any;
 
@@ -22,19 +23,19 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
     
     /** type of element */
 
-    type?: string;
+    type?: string | undefined;
     
     /** title of a given link element */
 
-    title?: string;
+    title?: string | undefined;
     
     /** subtitle of the element */
 
-    subtitle?: string;
+    subtitle?: string | undefined;
     
     /** image of the element */
 
-    image?: AiModeImagesElement;
+    image?: AiModeImagesElementInfo | undefined;
 
     [key: string]: any;
 
@@ -59,7 +60,7 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
             this.type = data["type"];
             this.title = data["title"];
             this.subtitle = data["subtitle"];
-            this.image = data["image"] ? AiModeImagesElement.fromJS(data["image"]) : <any>undefined;
+            this.image = data["image"] ? AiModeImagesElementInfo.fromJS(data["image"]) : <any>undefined;
         }
     }
 
@@ -80,7 +81,7 @@ export class FoundOnWebElement  implements IFoundOnWebElement {
         data["type"] = this.type;
         data["title"] = this.title;
         data["subtitle"] = this.subtitle;
-        data["image"] = this.image ? AiModeImagesElement.fromJS(this.image)?.toJSON() : <any>undefined;
+        data["image"] = this.image ? AiModeImagesElementInfo.fromJS(this.image)?.toJSON() : <any>undefined;
         return data;
     }
 }

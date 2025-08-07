@@ -1,9 +1,10 @@
 import { Groups, IGroups } from "./Groups";
 
+
 export interface IDomainAnalyticsTechnologiesTechnologiesResultInfo   {
         
         /** array of technology groups */
-        groups?: Groups[]
+        groups?: Groups[] | undefined
 
     [key: string]: any;
 
@@ -13,7 +14,7 @@ export class DomainAnalyticsTechnologiesTechnologiesResultInfo  implements IDoma
     
     /** array of technology groups */
 
-    groups?: Groups[];
+    groups?: Groups[] | undefined;
 
     [key: string]: any;
 
