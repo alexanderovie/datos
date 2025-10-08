@@ -6,8 +6,8 @@
   "module": "./dist/esm/index.js",
   "description": "API client that provide services of DataForSeo API \n\n For more information about client code generation, please follow to github",
   "scripts": {
-    "fix": "node fix-esm-imports.js",
-    "build:esm": "tsc -p tsconfig.esm.json && node fix-esm-imports.js",
+    "fix": "node fix-esm-imports.cjs",
+    "build:esm": "tsc -p tsconfig.esm.json && node fix-esm-imports.cjs",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build": "npm run build:esm && npm run build:cjs",
     "test": "jest --verbose"
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dataforseo/TypeScriptClient.git"
+    "url": "git+https://github.com/alexanderovie/datos.git"
   },
-  "author": "dataforseo",
-  "license": "ISC",
-  "homepage": "https://github.com/dataforseo/TypeScriptClient#readme"
+  "author": "Fascinante Digital",
+  "license": "MIT",
+  "homepage": "https://github.com/alexanderovie/datos#readme"
 }

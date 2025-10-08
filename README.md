@@ -1,9 +1,11 @@
 ## OVERVIEW
 
-This is a TypeScript client providing you, as a developer, with a tool for obtaining the necessary data from DataForSEO APIs. You don't have to figure out how to make a request and process a response - all that is readily available in this client.
+**Datos** - Cliente TypeScript oficial para DataForSEO API, mantenido por **Fascinante Digital**.
 
-[![GitHub issues](https://img.shields.io/github/issues/dataforseo/TypeScriptClient.svg)](https://github.com/dataforseo/TypeScriptClient/issues)
-[![GitHub license](https://img.shields.io/github/license/dataforseo/TypeScriptClient.svg)](https://github.com/dataforseo/TypeScriptClient)
+Este cliente TypeScript te proporciona, como desarrollador, una herramienta para obtener los datos necesarios de las APIs de DataForSEO. No necesitas averiguar cómo hacer una petición y procesar una respuesta - todo eso está disponible en este cliente.
+
+[![GitHub issues](https://img.shields.io/github/issues/alexanderovie/datos.svg)](https://github.com/alexanderovie/datos/issues)
+[![GitHub license](https://img.shields.io/github/license/alexanderovie/datos.svg)](https://github.com/alexanderovie/datos)
 
 DataForSEO API uses REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows using our API with almost any programming language.
 
@@ -44,7 +46,7 @@ Code generated using the [NSwag lib](https://github.com/RicoSuter/NSwag)
 ## Install package from npm
 
 ```bash
-npm install dataforseo-client 
+npm install dataforseo-client
 ```
 
 ## Examples of usage
@@ -54,7 +56,7 @@ Example of live request
 import * as client from 'dataforseo-client'
 
 async function main() {
-    
+
     const username = 'username';
     const password = 'password';
 
@@ -106,7 +108,7 @@ async function main() {
   task.language_code = "en";
   task.keyword = "albert einstein"
 
-  let taskResponse = await serpApi.googleOrganicTaskPost([task]) 
+  let taskResponse = await serpApi.googleOrganicTaskPost([task])
 
   let taskID = taskResponse.tasks[0].id;
   const startTime = Date.now();
